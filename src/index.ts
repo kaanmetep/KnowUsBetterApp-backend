@@ -44,7 +44,15 @@ interface ServerToClientEvents {
     playerName: string | undefined;
   }) => void;
   "round-completed": (data: {
-    round: any;
+    allPlayersAnswered: boolean;
+    isMatched: boolean;
+    playerAnswers: Array<{
+      playerId: string;
+      playerName: string;
+      avatar: string;
+      answer: string | null;
+    }>;
+    question: any;
     matchScore: number;
     totalQuestions: number;
     percentage: number;
@@ -289,6 +297,14 @@ io.on(
           room.matchScore++;
         }
 
+        // Prepare player answers for frontend (with names and avatars)
+        const playerAnswers = room.players.map((p) => ({
+          playerId: p.id,
+          playerName: p.name,
+          avatar: p.avatar,
+          answer: room.currentRound!.answers[p.id],
+        }));
+
         // Reset hasAnswered flags
         room.players.forEach((p) => (p.hasAnswered = false));
 
@@ -300,7 +316,10 @@ io.on(
 
         // Send results to all players
         io.to(roomCode).emit("round-completed", {
-          round: room.currentRound,
+          allPlayersAnswered: true, // ✅ Flag for frontend
+          isMatched: isMatched,
+          playerAnswers: playerAnswers, // ✅ Who answered what
+          question: room.currentRound.question,
           matchScore: room.matchScore,
           totalQuestions: room.totalQuestionsAnswered,
           percentage: Math.round(
@@ -354,7 +373,7 @@ io.on(
               currentQuestionIndex: room.currentQuestionIndex,
               totalQuestions: room.questions.length,
             });
-          }, 3000); // 3 seconds delay between questions
+          }, 5000); // 5 seconds delay between questions
         }
       }
     });
