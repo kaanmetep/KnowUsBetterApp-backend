@@ -4,9 +4,19 @@ export type Category = "just-friends" | "we_just_met" | "long_term" | "spicy";
 
 export interface Question {
   id: number;
-  question: string;
-  answers: string[];
-  correctAnswer: number;
+  text: string; // "Do you like coffee?"
+  category: Category;
+  haveAnswers: boolean; // true = has answers, false = only yes/no answers
+  answers: string[]; // answers to the question
+}
+
+export interface QuestionRound {
+  question: Question;
+  answers: {
+    [playerId: string]: string | null; // Each player's answer (null if not answered yet)
+  };
+  isMatched: boolean | null; // null = not completed, true/false = match result
+  status: "waiting_answers" | "completed";
 }
 
 export interface Player {
@@ -14,13 +24,12 @@ export interface Player {
   name: string;
   avatar: string;
   isHost: boolean;
-  score: number;
-  answeredQuestions: number[];
+  hasAnswered: boolean; // Has answered current question
 }
 
 export interface RoomSettings {
   maxPlayers: number;
-  questionsCount: number;
+  totalQuestions: number;
   category: Category;
 }
 
@@ -29,8 +38,12 @@ export interface Room {
   createdAt: number;
   status: RoomStatus;
   players: Player[];
+  questions: Question[]; // All questions for this game (fetched once at start)
   currentQuestionIndex: number;
-  questions: Question[];
+  currentRound: QuestionRound | null; // Current active question round
+  completedRounds: QuestionRound[]; // History of completed rounds
+  matchScore: number; // Number of matched answers
+  totalQuestionsAnswered: number; // Total questions answered
   settings: RoomSettings;
 }
 
@@ -61,4 +74,10 @@ export interface JoinRoomData {
 
 export interface GetRoomData {
   roomCode: string;
+}
+
+// Game Event Types
+export interface SubmitAnswerData {
+  questionId: number;
+  answer: string; // Answer text (e.g., "yes", "no", or custom answer)
 }

@@ -7,7 +7,7 @@ export class RoomManager {
   // Rooms in memory
   private rooms: Map<string, Room>;
   // Socket ID -> Room Code mapping
-  private playerRooms: Map<string, string>;
+  public playerRooms: Map<string, string>;
 
   constructor() {
     this.rooms = new Map();
@@ -15,7 +15,7 @@ export class RoomManager {
   }
 
   generateRoomCode(): string {
-    return Math.random().toString(36).substring(2, 8).toUpperCase();
+    return Math.random().toString(36).substring(1, 2).toUpperCase();
   }
 
   // Create a new room
@@ -32,8 +32,7 @@ export class RoomManager {
       name: playerName,
       avatar: avatar,
       isHost: true,
-      score: 0,
-      answeredQuestions: [],
+      hasAnswered: false,
     };
 
     const room: Room = {
@@ -41,11 +40,15 @@ export class RoomManager {
       createdAt: Date.now(),
       status: "waiting",
       players: [player],
+      questions: [], // Will be populated when game starts
       currentQuestionIndex: 0,
-      questions: [],
+      currentRound: null,
+      completedRounds: [],
+      matchScore: 0,
+      totalQuestionsAnswered: 0,
       settings: {
         maxPlayers: 2,
-        questionsCount: 5,
+        totalQuestions: 5,
         category: category,
       },
     };
@@ -82,8 +85,7 @@ export class RoomManager {
       name: playerName,
       avatar: avatar,
       isHost: false,
-      score: 0,
-      answeredQuestions: [],
+      hasAnswered: false,
     };
 
     room.players.push(player);
