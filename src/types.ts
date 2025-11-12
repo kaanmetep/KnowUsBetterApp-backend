@@ -31,6 +31,8 @@ export interface RoomSettings {
   maxPlayers: number;
   totalQuestions: number;
   category: Category;
+  questionDuration: number; // Time to answer each question (seconds)
+  resultDisplayDuration: number; // Time to show results before next question (seconds)
 }
 
 export interface Room {

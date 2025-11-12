@@ -50,6 +50,8 @@ export class RoomManager {
         maxPlayers: 2,
         totalQuestions: 5,
         category: category,
+        questionDuration: 15, // 15 seconds to answer
+        resultDisplayDuration: 5, // 5 seconds to show results
       },
     };
 
@@ -129,6 +131,29 @@ export class RoomManager {
       });
       this.rooms.delete(roomCode);
     }
+  }
+
+  // Reset room for replay (after game finished)
+  resetRoom(roomCode: string): Room | null {
+    const room = this.rooms.get(roomCode);
+    if (!room) return null;
+
+    // Reset game state
+    room.status = "waiting";
+    room.currentQuestionIndex = 0;
+    room.currentRound = null;
+    room.completedRounds = [];
+    room.matchScore = 0;
+    room.totalQuestionsAnswered = 0;
+    room.questions = []; // Will be refilled on next game start
+
+    // Reset all players' hasAnswered flag
+    room.players.forEach((player) => {
+      player.hasAnswered = false;
+    });
+
+    console.log(`🔄 Room ${roomCode} has been reset for replay`);
+    return room;
   }
 
   // For debugging - list all rooms
