@@ -247,6 +247,25 @@ io.on(
         room.questions = questions;
         room.status = "playing";
 
+        // Double-check we still have 2 players (in case someone left during async operation)
+        if (room.players.length < 2) {
+          socket.emit("room-error", {
+            message:
+              "Not enough players to start the game. Please wait for another player.",
+          });
+          room.status = "waiting";
+          return;
+        }
+
+        // Check if we have questions
+        if (!questions || questions.length === 0) {
+          socket.emit("room-error", {
+            message: "Failed to load questions. Please try again.",
+          });
+          room.status = "waiting";
+          return;
+        }
+
         // Initialize first round
         const firstQuestion = questions[0];
         room.currentRound = {
@@ -335,6 +354,19 @@ io.on(
       if (allAnswered) {
         // Calculate match
         const answers = Object.values(room.currentRound.answers);
+        // Safety check: ensure we have exactly 2 answers
+        if (answers.length !== 2) {
+          console.error(
+            `⚠️ Unexpected number of answers: ${answers.length} in room ${roomCode}`
+          );
+          socket.emit("critical-error", {
+            message:
+              "An error occurred while processing answers. The game will be reset.",
+            code: "INVALID_ANSWER_COUNT",
+          });
+          roomManager.resetRoom(roomCode);
+          return;
+        }
         const isMatched = answers[0] === answers[1];
 
         room.currentRound.isMatched = isMatched;
@@ -363,6 +395,12 @@ io.on(
         );
 
         // Send results to all players
+        // Calculate percentage safely (avoid division by zero)
+        const percentage =
+          room.totalQuestionsAnswered > 0
+            ? Math.round((room.matchScore / room.totalQuestionsAnswered) * 100)
+            : 0;
+
         io.to(roomCode).emit("round-completed", {
           allPlayersAnswered: true, // ✅ Flag for frontend
           isMatched: isMatched,
@@ -370,9 +408,7 @@ io.on(
           question: room.currentRound.question,
           matchScore: room.matchScore,
           totalQuestions: room.totalQuestionsAnswered,
-          percentage: Math.round(
-            (room.matchScore / room.totalQuestionsAnswered) * 100
-          ),
+          percentage: percentage,
         });
 
         // Move to completed rounds
@@ -391,32 +427,121 @@ io.on(
           // Wait for resultDisplayDuration before showing final results
           // This gives users time to see the last question's result
           setTimeout(() => {
+            // Re-fetch room in case it was deleted
+            const currentRoom = roomManager.getRoom(roomCode);
+            if (!currentRoom) {
+              console.log(
+                `⚠️ Room ${roomCode} no longer exists, skipping game-finished event`
+              );
+              return;
+            }
+
+            // Calculate percentage safely (avoid division by zero)
+            const percentage =
+              currentRoom.totalQuestionsAnswered > 0
+                ? Math.round(
+                    (currentRoom.matchScore /
+                      currentRoom.totalQuestionsAnswered) *
+                      100
+                  )
+                : 0;
+
             io.to(roomCode).emit("game-finished", {
-              matchScore: room.matchScore,
-              totalQuestions: room.totalQuestionsAnswered,
-              percentage: Math.round(
-                (room.matchScore / room.totalQuestionsAnswered) * 100
-              ),
-              completedRounds: room.completedRounds,
+              matchScore: currentRoom.matchScore,
+              totalQuestions: currentRoom.totalQuestionsAnswered,
+              percentage: percentage,
+              completedRounds: currentRoom.completedRounds,
             });
 
             // Wait 5 more seconds after game-finished, then reset room
             setTimeout(() => {
-              roomManager.resetRoom(roomCode);
-              console.log(`🔄 Room ${roomCode} auto-reset after game finished`);
-            }, (room.settings.resultDisplayDuration + 5) * 1000); // resultDisplayDuration + 5 seconds to view final results
+              const finalRoom = roomManager.getRoom(roomCode);
+              if (finalRoom) {
+                roomManager.resetRoom(roomCode);
+                console.log(
+                  `🔄 Room ${roomCode} auto-reset after game finished`
+                );
+              }
+            }, (currentRoom.settings.resultDisplayDuration + 5) * 1000); // resultDisplayDuration + 5 seconds to view final results
           }, room.settings.resultDisplayDuration * 1000);
         } else {
           // Move to next question
           setTimeout(() => {
-            room.currentQuestionIndex++;
-            const nextQuestion = room.questions[room.currentQuestionIndex];
+            // Re-fetch room in case it was deleted or modified
+            const currentRoom = roomManager.getRoom(roomCode);
+            if (!currentRoom) {
+              console.log(
+                `⚠️ Room ${roomCode} no longer exists, cancelling next question`
+              );
+              return;
+            }
 
-            room.currentRound = {
+            // Check if we still have 2 players
+            if (currentRoom.players.length < 2) {
+              console.log(
+                `⚠️ Not enough players in room ${roomCode}, cancelling game`
+              );
+              currentRoom.status = "waiting";
+              io.to(roomCode).emit("game-cancelled", {
+                message:
+                  "A player left during the game. Game has been cancelled.",
+                room: currentRoom,
+              });
+              roomManager.resetRoom(roomCode);
+              return;
+            }
+
+            currentRoom.currentQuestionIndex++;
+
+            // Check if next question index is valid
+            if (
+              currentRoom.currentQuestionIndex >= currentRoom.questions.length
+            ) {
+              console.log(
+                `⚠️ Question index out of bounds in room ${roomCode}, finishing game`
+              );
+              currentRoom.status = "finished";
+              currentRoom.currentRound = null;
+
+              const percentage =
+                currentRoom.totalQuestionsAnswered > 0
+                  ? Math.round(
+                      (currentRoom.matchScore /
+                        currentRoom.totalQuestionsAnswered) *
+                        100
+                    )
+                  : 0;
+
+              io.to(roomCode).emit("game-finished", {
+                matchScore: currentRoom.matchScore,
+                totalQuestions: currentRoom.totalQuestionsAnswered,
+                percentage: percentage,
+                completedRounds: currentRoom.completedRounds,
+              });
+              return;
+            }
+
+            const nextQuestion =
+              currentRoom.questions[currentRoom.currentQuestionIndex];
+
+            if (!nextQuestion) {
+              console.error(
+                `⚠️ Next question is undefined in room ${roomCode} at index ${currentRoom.currentQuestionIndex}`
+              );
+              currentRoom.status = "finished";
+              currentRoom.currentRound = null;
+              io.to(roomCode).emit("game-cancelled", {
+                message: "An error occurred loading the next question.",
+                room: currentRoom,
+              });
+              return;
+            }
+
+            currentRoom.currentRound = {
               question: nextQuestion,
               answers: {
-                [room.players[0].id]: null,
-                [room.players[1].id]: null,
+                [currentRoom.players[0].id]: null,
+                [currentRoom.players[1].id]: null,
               },
               isMatched: null,
               status: "waiting_answers",
@@ -427,10 +552,10 @@ io.on(
             const nextStartTime = Date.now();
             io.to(roomCode).emit("next-question", {
               question: nextQuestion,
-              currentQuestionIndex: room.currentQuestionIndex,
-              totalQuestions: room.questions.length,
+              currentQuestionIndex: currentRoom.currentQuestionIndex,
+              totalQuestions: currentRoom.questions.length,
               serverTime: nextStartTime,
-              duration: room.settings.questionDuration,
+              duration: currentRoom.settings.questionDuration,
             });
           }, room.settings.resultDisplayDuration * 1000); // Dynamic delay from settings
         }
@@ -673,9 +798,78 @@ io.on(
   }
 );
 
+// ============================================
+// GLOBAL ERROR HANDLERS - CRITICAL FOR PRODUCTION
+// ============================================
+
+// Handle uncaught exceptions (synchronous errors)
+process.on("uncaughtException", (error: Error) => {
+  console.error(
+    "💥 UNCAUGHT EXCEPTION - Server will crash without this handler!"
+  );
+  console.error("Error:", error);
+  console.error("Stack:", error.stack);
+
+  // Log to error tracking service (Sentry, etc.) in production
+  // Example: Sentry.captureException(error);
+
+  // Graceful shutdown
+  httpServer.close(() => {
+    console.log("🛑 HTTP server closed due to uncaught exception");
+    process.exit(1); // Exit with error code
+  });
+
+  // Force exit after 10 seconds if graceful shutdown fails
+  setTimeout(() => {
+    console.error("⚠️ Forcing exit due to uncaught exception");
+    process.exit(1);
+  }, 10000);
+});
+
+// Handle unhandled promise rejections (async errors)
+process.on("unhandledRejection", (reason: any, promise: Promise<any>) => {
+  console.error("💥 UNHANDLED REJECTION - This would crash the server!");
+  console.error("Reason:", reason);
+  console.error("Promise:", promise);
+
+  // Log to error tracking service in production
+  // Example: Sentry.captureException(reason);
+
+  // In production, you might want to exit here too
+  // But for now, we'll just log it to prevent crashes
+  // process.exit(1);
+});
+
+// Handle warnings
+process.on("warning", (warning: Error) => {
+  console.warn("⚠️ Warning:", warning.message);
+  console.warn("Stack:", warning.stack);
+});
+
+// ============================================
+// SERVER STARTUP
+// ============================================
+
 const PORT = process.env.PORT || 3000;
 
 httpServer.listen(PORT, () => {
   console.log(`\n🚀 Socket.io server running: http://localhost:${PORT}`);
   console.log(`📱 Connect from frontend: ws://localhost:${PORT}\n`);
+});
+
+// Graceful shutdown on SIGTERM/SIGINT (Docker, PM2, etc.)
+process.on("SIGTERM", () => {
+  console.log("🛑 SIGTERM received, shutting down gracefully...");
+  httpServer.close(() => {
+    console.log("✅ HTTP server closed");
+    process.exit(0);
+  });
+});
+
+process.on("SIGINT", () => {
+  console.log("🛑 SIGINT received, shutting down gracefully...");
+  httpServer.close(() => {
+    console.log("✅ HTTP server closed");
+    process.exit(0);
+  });
 });
