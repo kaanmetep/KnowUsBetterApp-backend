@@ -3,6 +3,8 @@ import express from "express";
 import { createServer } from "http";
 import { Server, Socket } from "socket.io";
 import cors from "cors";
+import { createClient } from "@supabase/supabase-js";
+import crypto from "crypto";
 import { RoomManager } from "./roomManager.js";
 import {
   CreateRoomData,
@@ -20,8 +22,92 @@ const app = express();
 const httpServer = createServer(app);
 
 app.use(cors());
+app.use(express.json());
+
+// ============================================
+// SUPABASE CONFIGURATION
+// ============================================
+const SUPABASE_URL = process.env.SUPABASE_URL;
+const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
+const REVENUECAT_WEBHOOK_SECRET = process.env.REVENUECAT_WEBHOOK_SECRET;
+
+// Supabase Admin Client (Secret key ile)
+const supabaseAdmin =
+  SUPABASE_URL && SUPABASE_SERVICE_ROLE_KEY
+    ? createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, {
+        auth: {
+          persistSession: false,
+          autoRefreshToken: false,
+        },
+      })
+    : null;
+
+// ============================================
+// USER SOCKET MAPPING (appUserId -> socket.id)
+// ============================================
+const userSockets = new Map<string, string>(); // appUserId -> socket.id
+
+// ============================================
+// HELPER FUNCTIONS
+// ============================================
+
+// Product ID'den coin miktarını çıkar (örn: "coins_100" -> 100)
+function getCoinsFromProductId(productId: string): number {
+  const match = productId.match(/(\d+)/);
+  return match ? parseInt(match[1], 10) : 0;
+}
+
+// appUserId ile socket'i bul
+function findSocketByUserId(
+  appUserId: string,
+  io: Server<ClientToServerEvents, ServerToClientEvents, {}, SocketData>
+): Socket<ClientToServerEvents, ServerToClientEvents, {}, SocketData> | null {
+  const socketId = userSockets.get(appUserId);
+  if (socketId) {
+    return (
+      (io.sockets.sockets.get(socketId) as
+        | Socket<ClientToServerEvents, ServerToClientEvents, {}, SocketData>
+        | undefined) || null
+    );
+  }
+  return null;
+}
+
+// RevenueCat Signature Doğrulama Middleware
+function verifyRevenueCatSignature(
+  req: express.Request,
+  res: express.Response,
+  buf: Buffer
+): void {
+  const signature = req.headers["authorization"];
+
+  if (!signature || !REVENUECAT_WEBHOOK_SECRET) {
+    console.warn("⚠️ RevenueCat webhook secret not configured");
+    return;
+  }
+
+  const expectedSignature = crypto
+    .createHmac("sha256", REVENUECAT_WEBHOOK_SECRET)
+    .update(buf)
+    .digest("hex");
+
+  // "Bearer sha256=..." veya "sha256=..." formatlarını destekle
+  const expectedSignatureWithPrefix = `sha256=${expectedSignature}`;
+  const expectedSignatureWithBearer = `Bearer ${expectedSignatureWithPrefix}`;
+
+  if (
+    signature !== expectedSignatureWithPrefix &&
+    signature !== expectedSignatureWithBearer
+  ) {
+    throw new Error("Invalid RevenueCat signature");
+  }
+}
 
 // Socket.io Event Types
+interface SocketData {
+  appUserId?: string;
+}
+
 interface ServerToClientEvents {
   "room-created": (data: {
     roomCode: string;
@@ -87,6 +173,17 @@ interface ServerToClientEvents {
     message: string;
     timestamp: number;
   }) => void;
+  "coins-added": (data: {
+    appUserId: string;
+    newBalance: number;
+    success: boolean;
+  }) => void;
+  "coins-spent": (data: {
+    appUserId: string;
+    newBalance: number;
+    success: boolean;
+    error?: string;
+  }) => void;
 }
 
 interface ClientToServerEvents {
@@ -98,9 +195,20 @@ interface ClientToServerEvents {
   "submit-answer": (data: SubmitAnswerData) => void;
   "kick-player": (data: { roomCode: string; targetPlayerId: string }) => void;
   "send-message": (data: { roomCode: string; message: string }) => void;
+  "register-user": (appUserId: string) => void;
+  "spend-coins": (data: {
+    appUserId: string;
+    amount: number;
+    transactionType?: string;
+  }) => void;
 }
 
-const io = new Server<ClientToServerEvents, ServerToClientEvents>(httpServer, {
+const io = new Server<
+  ClientToServerEvents,
+  ServerToClientEvents,
+  {},
+  SocketData
+>(httpServer, {
   cors: {
     origin: "*", // For development purposes - in production, specify the domain.
     methods: ["GET", "POST"],
@@ -112,8 +220,19 @@ const roomManager = new RoomManager();
 
 io.on(
   "connection",
-  (socket: Socket<ClientToServerEvents, ServerToClientEvents>) => {
+  (
+    socket: Socket<ClientToServerEvents, ServerToClientEvents, {}, SocketData>
+  ) => {
     console.log("✅ New user connected:", socket.id);
+
+    // Register user with appUserId
+    socket.on("register-user", (appUserId: string) => {
+      if (appUserId) {
+        userSockets.set(appUserId, socket.id);
+        socket.data.appUserId = appUserId;
+        console.log(`📝 User ${appUserId} registered with socket ${socket.id}`);
+      }
+    });
 
     // 1. Create Room
     socket.on(
@@ -711,8 +830,139 @@ io.on(
       }
     );
 
+    // 9. Spend Coins
+    socket.on("spend-coins", async (data) => {
+      const { appUserId, amount, transactionType = "game_start" } = data;
+
+      // Supabase yapılandırılmamışsa hata döndür
+      if (!supabaseAdmin) {
+        socket.emit("coins-spent", {
+          appUserId,
+          newBalance: 0,
+          success: false,
+          error: "Supabase not configured",
+        });
+        return;
+      }
+
+      if (!appUserId || !amount || amount <= 0) {
+        socket.emit("coins-spent", {
+          appUserId,
+          newBalance: 0,
+          success: false,
+          error: "Invalid request data",
+        });
+        return;
+      }
+
+      try {
+        console.log(
+          `💰 Processing coin spend: ${amount} coins for user ${appUserId}`
+        );
+
+        // Mevcut balance'ı al
+        const { data: existing, error: fetchError } = await supabaseAdmin
+          .from("coins")
+          .select("balance")
+          .eq("app_user_id", appUserId)
+          .maybeSingle();
+
+        if (fetchError) {
+          console.error("❌ Error fetching existing balance:", fetchError);
+          socket.emit("coins-spent", {
+            appUserId,
+            newBalance: 0,
+            success: false,
+            error: "Database error",
+          });
+          return;
+        }
+
+        const currentBalance = existing?.balance || 0;
+
+        // Yeterli coin var mı kontrol et
+        if (currentBalance < amount) {
+          console.warn(
+            `⚠️ Not enough coins. Required: ${amount}, Available: ${currentBalance}`
+          );
+          socket.emit("coins-spent", {
+            appUserId,
+            newBalance: currentBalance,
+            success: false,
+            error: `Not enough coins. Required: ${amount}, Available: ${currentBalance}`,
+          });
+          return;
+        }
+
+        // Yeni balance hesapla
+        const newBalance = currentBalance - amount;
+
+        // Secret key ile Supabase'e yaz (RLS bypass)
+        const { error: upsertError } = await supabaseAdmin.from("coins").upsert(
+          {
+            app_user_id: appUserId,
+            balance: newBalance,
+          },
+          { onConflict: "app_user_id" }
+        );
+
+        if (upsertError) {
+          console.error("❌ Error updating coins:", upsertError);
+          socket.emit("coins-spent", {
+            appUserId,
+            newBalance: currentBalance,
+            success: false,
+            error: "Failed to update coins",
+          });
+          return;
+        }
+
+        // Transaction log'a ekle
+        const { error: transactionError } = await supabaseAdmin
+          .from("coin_transactions")
+          .insert({
+            app_user_id: appUserId,
+            amount: amount,
+            transaction_type: transactionType || "game_start",
+          });
+
+        if (transactionError) {
+          console.warn("⚠️ Failed to log transaction:", transactionError);
+          // Transaction log hatası kritik değil, devam et
+        }
+
+        console.log(`✅ Coins spent successfully. New balance: ${newBalance}`);
+
+        // Socket.io ile connected client'a bildirim gönder
+        socket.emit("coins-spent", {
+          appUserId,
+          newBalance,
+          success: true,
+        });
+
+        console.log(`📢 Coin spend notification sent to user ${appUserId}`);
+      } catch (error) {
+        console.error("❌ Error processing coin spend:", error);
+        socket.emit("coins-spent", {
+          appUserId,
+          newBalance: 0,
+          success: false,
+          error: "Internal server error",
+        });
+      }
+    });
+
     // 8. On Disconnect
     socket.on("disconnect", () => {
+      // Clean up appUserId mapping
+      const appUserId = socket.data.appUserId;
+      if (appUserId) {
+        userSockets.delete(appUserId);
+        console.log(
+          `📝 User ${appUserId} unregistered from socket ${socket.id}`
+        );
+      }
+
       const roomCode = roomManager.removePlayer(socket.id);
       if (roomCode) {
         const room = roomManager.getRoom(roomCode);
@@ -795,6 +1045,119 @@ io.on(
 
       console.log("✅ Player left the room:", socket.id);
     });
+  }
+);
+
+// ============================================
+// REVENUECAT WEBHOOK ENDPOINT
+// ============================================
+
+app.post(
+  "/webhook/revenuecat",
+  express.json({ verify: verifyRevenueCatSignature }),
+  async (req, res) => {
+    try {
+      const { event } = req.body;
+
+      console.log("📦 RevenueCat webhook received:", event?.type);
+
+      if (!supabaseAdmin) {
+        console.error("❌ Supabase not configured");
+        return res.status(500).json({ error: "Supabase not configured" });
+      }
+
+      if (event.type === "INITIAL_PURCHASE" || event.type === "RENEWAL") {
+        const appUserId = event.app_user_id; // User ID coming from RevenueCat
+        const productId = event.product_id;
+        const coins = getCoinsFromProductId(productId);
+
+        if (!appUserId || !coins || coins === 0) {
+          console.warn("⚠️ Invalid webhook data:", {
+            appUserId,
+            productId,
+            coins,
+          });
+          return res.status(400).json({ error: "Invalid webhook data" });
+        }
+
+        console.log(
+          `💰 Processing purchase: ${coins} coins for user ${appUserId}`
+        );
+
+        // Get current balance
+        const { data: existing, error: fetchError } = await supabaseAdmin
+          .from("coins")
+          .select("balance")
+          .eq("app_user_id", appUserId)
+          .maybeSingle();
+
+        if (fetchError) {
+          console.error("❌ Error fetching existing balance:", fetchError);
+          return res.status(500).json({ error: "Database error" });
+        }
+
+        // Calculate new balance
+        const currentBalance = existing?.balance || 0;
+        const newBalance = currentBalance + coins;
+
+        // Write to Supabase with secret key (RLS bypass)
+        const { error: upsertError } = await supabaseAdmin.from("coins").upsert(
+          {
+            app_user_id: appUserId,
+            balance: newBalance,
+          },
+          { onConflict: "app_user_id" }
+        );
+
+        if (upsertError) {
+          console.error("❌ Error updating coins:", upsertError);
+          return res.status(500).json({ error: "Failed to update coins" });
+        }
+
+        // Transaction log'a ekle (opsiyonel)
+        const { error: transactionError } = await supabaseAdmin
+          .from("coin_transactions")
+          .insert({
+            app_user_id: appUserId,
+            amount: coins,
+            transaction_type: "purchase",
+          });
+
+        if (transactionError) {
+          console.warn("⚠️ Failed to log transaction:", transactionError);
+        }
+
+        console.log(`✅ Coins added successfully. New balance: ${newBalance}`);
+
+        // Socket.io ile connected client'a bildirim gönder
+        const userSocket = findSocketByUserId(appUserId, io);
+
+        if (userSocket) {
+          userSocket.emit("coins-added", {
+            appUserId,
+            newBalance,
+            success: true,
+          });
+          console.log(
+            `📢 Notification sent to user ${appUserId} via socket ${userSocket.id}`
+          );
+        } else {
+          console.log(
+            `ℹ️ User ${appUserId} not connected via socket (will sync on next app open)`
+          );
+        }
+
+        // Webhook'a başarılı response döndür
+        return res.status(200).json({ success: true });
+      } else {
+        // Diğer event'ler için sadece log
+        console.log(`ℹ️ Unhandled event type: ${event.type}`);
+        return res.status(200).json({ success: true });
+      }
+    } catch (error) {
+      console.error("❌ Webhook error:", error);
+      return res.status(500).json({ error: "Webhook processing failed" });
+    }
   }
 );
 
