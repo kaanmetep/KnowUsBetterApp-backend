@@ -1066,7 +1066,11 @@ app.post(
         return res.status(500).json({ error: "Supabase not configured" });
       }
 
-      if (event.type === "INITIAL_PURCHASE" || event.type === "RENEWAL") {
+      if (
+        event.type === "INITIAL_PURCHASE" ||
+        event.type === "RENEWAL" ||
+        event.type === "NON_RENEWING_PURCHASE"
+      ) {
         const appUserId = event.app_user_id; // User ID coming from RevenueCat
         const productId = event.product_id;
         const coins = getCoinsFromProductId(productId);
