@@ -13,10 +13,7 @@ import {
   Category,
   SubmitAnswerData,
 } from "./types.js";
-import {
-  fetchRandomQuestions,
-  getMockQuestions,
-} from "./services/questionService.js";
+import { fetchRandomQuestions } from "./services/questionService.js";
 
 const app = express();
 const httpServer = createServer(app);
@@ -345,22 +342,19 @@ io.on(
       }
 
       try {
-        // Fetch questions from Supabase (or use mock questions)
-        let questions;
-        if (false) {
-          //process.env.SUPABASE_URL && process.env.SUPABASE_KEY) {
-          questions = await fetchRandomQuestions(
-            room!.settings.category,
-            room!.settings.totalQuestions
-          );
-        } else {
-          // Use mock questions if Supabase not configured
-          console.log("⚠️ Using mock questions (Supabase not configured)");
-          questions = getMockQuestions(
-            room.settings.category,
-            room.settings.totalQuestions
-          );
+        // Fetch questions from Supabase
+        if (!supabaseAdmin) {
+          socket.emit("room-error", {
+            message: "Database not configured. Please contact support.",
+          });
+          return;
         }
+
+        const questions = await fetchRandomQuestions(
+          room.settings.category,
+          room.settings.totalQuestions,
+          supabaseAdmin
+        );
 
         // Store questions in room
         room.questions = questions;

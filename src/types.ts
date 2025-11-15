@@ -3,8 +3,12 @@ export type RoomStatus = "waiting" | "playing" | "finished";
 export type Category = "just-friends" | "we_just_met" | "long_term" | "spicy";
 
 export interface Question {
-  id: number;
-  text: string; // "Do you like coffee?"
+  id: string; // UUID from Supabase
+  texts: {
+    text_en: string;
+    text_tr: string;
+    text_es: string; // Spanish
+  };
   category: Category;
   haveAnswers: boolean; // true = has answers, false = only yes/no answers
   answers: string[]; // answers to the question
@@ -80,6 +84,6 @@ export interface GetRoomData {
 
 // Game Event Types
 export interface SubmitAnswerData {
-  questionId: number;
+  questionId: string; // UUID from Supabase
   answer: string; // Answer text (e.g., "yes", "no", or custom answer)
 }
