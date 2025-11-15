@@ -45,6 +45,13 @@ const supabaseAdmin =
 const userSockets = new Map<string, string>(); // appUserId -> socket.id
 
 // ============================================
+// CHAT RATE LIMITING (socket.id -> last message timestamp)
+// ============================================
+const chatRateLimits = new Map<string, number>(); // socket.id -> last message timestamp
+const CHAT_RATE_LIMIT_MS = 1000; // 1 second between messages
+const CHAT_MAX_LENGTH = 100; // Maximum message length
+
+// ============================================
 // HELPER FUNCTIONS
 // ============================================
 
@@ -68,6 +75,29 @@ function findSocketByUserId(
     );
   }
   return null;
+}
+
+// Sanitize message to prevent XSS attacks
+function sanitizeMessage(message: string): string {
+  // Remove HTML tags and script content
+  return message
+    .replace(/<[^>]*>/g, "") // Remove HTML tags
+    .replace(/javascript:/gi, "") // Remove javascript: protocol
+    .replace(/on\w+\s*=/gi, ""); // Remove event handlers (onclick=, etc.)
+}
+
+// Check if message contains only valid characters (prevent injection)
+function isValidMessage(message: string): boolean {
+  // Allow letters, numbers, spaces, common punctuation, and emojis
+  // Reject if contains suspicious patterns
+  const suspiciousPatterns = [
+    /<script/gi,
+    /javascript:/gi,
+    /on\w+\s*=/gi,
+    /data:text\/html/gi,
+  ];
+
+  return !suspiciousPatterns.some((pattern) => pattern.test(message));
 }
 
 // RevenueCat Signature Doğrulama Middleware
@@ -781,8 +811,7 @@ io.on(
 
         if (!room) {
           socket.emit("room-error", {
-            message:
-              "We couldn’t find that room. Please refresh and try again.",
+            message: "We couldn't find that room. Please try again.",
           });
           return;
         }
@@ -791,26 +820,67 @@ io.on(
         const player = room.players.find((p) => p.id === socket.id);
         if (!player) {
           socket.emit("room-error", {
-            message: "Looks like you’re not part of this room anymore.",
+            message: "Looks like you're not part of this room anymore.",
           });
           return;
         }
 
-        // Validate message
-        if (!message || message.trim().length === 0) {
+        // Validate message exists and is not empty
+        if (!message || typeof message !== "string") {
+          return; // Ignore invalid messages
+        }
+
+        const trimmedMessage = message.trim();
+        if (trimmedMessage.length === 0) {
           return; // Ignore empty messages
         }
 
-        if (message.length > 500) {
+        // Check message length
+        if (trimmedMessage.length > CHAT_MAX_LENGTH) {
           socket.emit("room-error", {
-            message:
-              "That message is a little long—try keeping it under 500 characters.",
+            message: `That message is a little long—try keeping it under ${CHAT_MAX_LENGTH} characters.`,
           });
           return;
         }
 
+        // Rate limiting: prevent spam
+        const now = Date.now();
+        const lastMessageTime = chatRateLimits.get(socket.id) || 0;
+        const timeSinceLastMessage = now - lastMessageTime;
+
+        if (timeSinceLastMessage < CHAT_RATE_LIMIT_MS) {
+          const remainingTime = Math.ceil(
+            (CHAT_RATE_LIMIT_MS - timeSinceLastMessage) / 1000
+          );
+          socket.emit("room-error", {
+            message: `Please wait ${remainingTime} second${
+              remainingTime > 1 ? "s" : ""
+            } before sending another message.`,
+          });
+          return;
+        }
+
+        // Security: Check for suspicious content (XSS prevention)
+        if (!isValidMessage(trimmedMessage)) {
+          socket.emit("room-error", {
+            message: "Your message contains invalid content. Please try again.",
+          });
+          console.warn(
+            `⚠️ Suspicious message blocked from ${player.name} (${
+              socket.id
+            }): ${trimmedMessage.substring(0, 50)}`
+          );
+          return;
+        }
+
+        // Sanitize message to prevent XSS
+        const sanitizedMessage = sanitizeMessage(trimmedMessage);
+
+        // Update rate limit
+        chatRateLimits.set(socket.id, now);
+
         console.log(
-          `💬 Chat message in room ${roomCode} from ${player.name}: ${message}`
+          `💬 Chat message in room ${roomCode} from ${player.name}: ${sanitizedMessage}`
         );
 
         // Broadcast message to all players in the room (including sender)
@@ -818,8 +888,8 @@ io.on(
           playerId: socket.id,
           playerName: player.name,
           avatar: player.avatar,
-          message: message.trim(),
-          timestamp: Date.now(),
+          message: sanitizedMessage,
+          timestamp: now,
         });
       }
     );
@@ -956,6 +1026,9 @@ io.on(
           `📝 User ${appUserId} unregistered from socket ${socket.id}`
         );
       }
+
+      // Clean up rate limiting
+      chatRateLimits.delete(socket.id);
 
       const roomCode = roomManager.removePlayer(socket.id);
       if (roomCode) {
