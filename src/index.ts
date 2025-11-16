@@ -464,16 +464,11 @@ io.on(
               completedRounds: currentRoom.completedRounds,
             });
 
-            // Wait 5 more seconds after game-finished, then reset room
-            setTimeout(() => {
-              const finalRoom = roomManager.getRoom(roomCode);
-              if (finalRoom) {
-                roomManager.resetRoom(roomCode);
-                console.log(
-                  `🔄 Room ${roomCode} auto-reset after game finished`
-                );
-              }
-            }, (currentRoom.settings.resultDisplayDuration + 5) * 1000); // resultDisplayDuration + 5 seconds to view final results
+            const finalRoom = roomManager.getRoom(roomCode);
+            if (finalRoom) {
+              roomManager.resetRoom(roomCode);
+              console.log(`🔄 Room ${roomCode} auto-reset after game finished`);
+            }
           }, room.settings.resultDisplayDuration * 1000);
         } else {
           // Move to next question
