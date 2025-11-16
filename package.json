@@ -10,13 +10,18 @@
     "start:ts": "node --loader ts-node/esm src/index.ts",
     "dev:ts": "nodemon --watch src --ext ts --exec \"node --loader ts-node/esm src/index.ts\"",
     "build": "tsc",
-    "serve": "node dist/index.js"
+    "serve": "node dist/index.js",
+    "redis:up": "docker compose up -d redis",
+    "redis:down": "docker compose down redis",
+    "redis:logs": "docker compose logs -f redis",
+    "redis:status": "docker compose ps redis"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.80.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^4.18.2",
+    "ioredis": "^5.3.2",
     "socket.io": "^4.6.1"
   },
   "devDependencies": {

@@ -1,17 +1,63 @@
-// Memory-based Room Manager.
-// We will change this to redis later.
-
 import { Room, Player, JoinRoomResult, Category } from "./types.js";
+import { redis } from "./utils/redis.js";
+
+// Redis key patterns
+const ROOM_KEY_PREFIX = "room:";
+const PLAYER_ROOM_KEY_PREFIX = "playerRoom:";
+
+// Room TTL (Time To Live) - 1 minute (60 seconds) - TEST MODE
+const ROOM_TTL = 60;
 
 export class RoomManager {
-  // Rooms in memory
-  private rooms: Map<string, Room>;
-  // Socket ID -> Room Code mapping
-  public playerRooms: Map<string, string>;
-
   constructor() {
-    this.rooms = new Map();
-    this.playerRooms = new Map();
+    // Redis client is already initialized in utils/redis.ts
+  }
+
+  private getRoomKey(roomCode: string): string {
+    return `${ROOM_KEY_PREFIX}${roomCode}`;
+  }
+
+  private getPlayerRoomKey(socketId: string): string {
+    return `${PLAYER_ROOM_KEY_PREFIX}${socketId}`;
+  }
+
+  /**
+   * Safely parse room data from Redis with validation
+   * Returns null if parsing fails or data is invalid
+   */
+  private parseRoom(roomData: string): Room | null {
+    try {
+      const parsed = JSON.parse(roomData);
+
+      // Validate required fields
+      if (
+        !parsed ||
+        typeof parsed !== "object" ||
+        typeof parsed.roomCode !== "string" ||
+        !Array.isArray(parsed.players) ||
+        !parsed.settings ||
+        typeof parsed.settings !== "object" ||
+        typeof parsed.status !== "string" ||
+        typeof parsed.createdAt !== "number"
+      ) {
+        console.error("❌ Invalid room structure:", {
+          hasRoomCode: typeof parsed?.roomCode === "string",
+          hasPlayers: Array.isArray(parsed?.players),
+          hasSettings: typeof parsed?.settings === "object",
+          hasStatus: typeof parsed?.status === "string",
+          hasCreatedAt: typeof parsed?.createdAt === "number",
+        });
+        return null;
+      }
+
+      return parsed as Room;
+    } catch (error) {
+      console.error("❌ Failed to parse room data:", error);
+      if (error instanceof SyntaxError) {
+        console.error("   Invalid JSON format in Redis");
+      }
+      return null;
+    }
   }
 
   generateRoomCode(): string {
@@ -29,12 +75,12 @@ export class RoomManager {
   }
 
   // Create a new room
-  createRoom(
+  async createRoom(
     socketId: string,
     playerName: string,
     avatar: string,
     category: Category
-  ): Room {
+  ): Promise<Room> {
     // Create a unique room code (if it already exists, try again)
     let roomCode: string;
     let attempts = 0;
@@ -49,7 +95,13 @@ export class RoomManager {
           "Failed to generate unique room code after multiple attempts"
         );
       }
-    } while (this.rooms.has(roomCode));
+
+      // Redis'te room'un var olup olmadığını kontrol et
+      const exists = await redis.exists(this.getRoomKey(roomCode));
+      if (exists === 0) {
+        break; // Room kodu benzersiz
+      }
+    } while (true);
 
     const player: Player = {
       id: socketId,
@@ -79,23 +131,35 @@ export class RoomManager {
       },
     };
 
-    this.rooms.set(roomCode, room);
-    this.playerRooms.set(socketId, roomCode);
+    // Room'u Redis'e kaydet (JSON string olarak)
+    const roomKey = this.getRoomKey(roomCode);
+    await redis.setex(roomKey, ROOM_TTL, JSON.stringify(room));
+
+    // Player -> Room mapping'ini kaydet
+    const playerRoomKey = this.getPlayerRoomKey(socketId);
+    await redis.setex(playerRoomKey, ROOM_TTL, roomCode);
 
     return room;
   }
 
   // Join room
-  joinRoom(
+  async joinRoom(
     roomCode: string,
     socketId: string,
     playerName: string,
     avatar: string
-  ): JoinRoomResult {
-    const room = this.rooms.get(roomCode);
+  ): Promise<JoinRoomResult> {
+    const roomKey = this.getRoomKey(roomCode);
+    const roomData = await redis.get(roomKey);
 
-    if (!room) {
+    if (!roomData) {
       return { success: false, error: "Room not found" };
+    }
+
+    const room = this.parseRoom(roomData);
+    if (!room) {
+      console.error(`❌ Corrupted room data for room: ${roomCode}`);
+      return { success: false, error: "Room data is corrupted" };
     }
 
     if (room.status !== "waiting") {
@@ -115,52 +179,117 @@ export class RoomManager {
     };
 
     room.players.push(player);
-    this.playerRooms.set(socketId, roomCode);
+
+    // Room'u Redis'te güncelle
+    await redis.setex(roomKey, ROOM_TTL, JSON.stringify(room));
+
+    // Player -> Room mapping'ini kaydet
+    const playerRoomKey = this.getPlayerRoomKey(socketId);
+    await redis.setex(playerRoomKey, ROOM_TTL, roomCode);
 
     return { success: true, player, room };
   }
 
   // Get room info
-  getRoom(roomCode: string): Room | undefined {
-    return this.rooms.get(roomCode);
+  async getRoom(roomCode: string): Promise<Room | undefined> {
+    const roomKey = this.getRoomKey(roomCode);
+    const roomData = await redis.get(roomKey);
+
+    if (!roomData) {
+      return undefined;
+    }
+
+    const room = this.parseRoom(roomData);
+    if (!room) {
+      console.error(`❌ Corrupted room data for room: ${roomCode}`);
+      return undefined;
+    }
+
+    return room;
+  }
+
+  // Get room code for a player (public method for accessing playerRooms)
+  async getPlayerRoom(socketId: string): Promise<string | null> {
+    const playerRoomKey = this.getPlayerRoomKey(socketId);
+    const roomCode = await redis.get(playerRoomKey);
+    return roomCode;
   }
 
   // Remove player
-  removePlayer(socketId: string): string | null {
-    const roomCode = this.playerRooms.get(socketId);
+  async removePlayer(socketId: string): Promise<string | null> {
+    const playerRoomKey = this.getPlayerRoomKey(socketId);
+    const roomCode = await redis.get(playerRoomKey);
 
     if (!roomCode) return null;
 
-    const room = this.rooms.get(roomCode);
-    if (room) {
-      room.players = room.players.filter((p) => p.id !== socketId);
+    const roomKey = this.getRoomKey(roomCode);
+    const roomData = await redis.get(roomKey);
 
-      // If host left, assign new host
-      if (room.players.length > 0 && !room.players.some((p) => p.isHost)) {
-        room.players[0].isHost = true;
+    if (roomData) {
+      const room = this.parseRoom(roomData);
+      if (!room) {
+        console.error(
+          `❌ Corrupted room data when removing player: ${socketId}`
+        );
+        // Continue with cleanup even if room data is corrupted
+      } else {
+        room.players = room.players.filter((p) => p.id !== socketId);
+
+        // If host left, assign new host
+        if (room.players.length > 0 && !room.players.some((p) => p.isHost)) {
+          room.players[0].isHost = true;
+        }
+
+        // Room'u Redis'te güncelle
+        await redis.setex(roomKey, ROOM_TTL, JSON.stringify(room));
       }
     }
 
-    this.playerRooms.delete(socketId);
+    // Player mapping'ini sil
+    await redis.del(playerRoomKey);
+
     return roomCode;
   }
 
   // Delete room
-  deleteRoom(roomCode: string): void {
-    const room = this.rooms.get(roomCode);
-    if (room) {
-      // Clear all players' mappings
-      room.players.forEach((player) => {
-        this.playerRooms.delete(player.id);
+  async deleteRoom(roomCode: string): Promise<void> {
+    const roomKey = this.getRoomKey(roomCode);
+    const roomData = await redis.get(roomKey);
+
+    if (roomData) {
+      const room = this.parseRoom(roomData);
+      if (!room) {
+        console.error(`❌ Corrupted room data when deleting room: ${roomCode}`);
+        // Delete the corrupted room key anyway
+        await redis.del(roomKey);
+        return;
+      }
+
+      // Tüm player mapping'lerini sil
+      const deletePromises = room.players.map((player) => {
+        const playerRoomKey = this.getPlayerRoomKey(player.id);
+        return redis.del(playerRoomKey);
       });
-      this.rooms.delete(roomCode);
+
+      await Promise.all(deletePromises);
+
+      // Room'u sil
+      await redis.del(roomKey);
     }
   }
 
   // Reset room for replay (after game finished)
-  resetRoom(roomCode: string): Room | null {
-    const room = this.rooms.get(roomCode);
-    if (!room) return null;
+  async resetRoom(roomCode: string): Promise<Room | null> {
+    const roomKey = this.getRoomKey(roomCode);
+    const roomData = await redis.get(roomKey);
+
+    if (!roomData) return null;
+
+    const room = this.parseRoom(roomData);
+    if (!room) {
+      console.error(`❌ Corrupted room data when resetting room: ${roomCode}`);
+      return null;
+    }
 
     // Reset game state
     room.status = "waiting";
@@ -176,12 +305,41 @@ export class RoomManager {
       player.hasAnswered = false;
     });
 
+    // Room'u Redis'te güncelle
+    await redis.setex(roomKey, ROOM_TTL, JSON.stringify(room));
+
     console.log(`🔄 Room ${roomCode} has been reset for replay`);
     return room;
   }
 
+  // Update room in Redis (helper method for index.ts)
+  async updateRoom(room: Room): Promise<void> {
+    const roomKey = this.getRoomKey(room.roomCode);
+    await redis.setex(roomKey, ROOM_TTL, JSON.stringify(room));
+  }
+
   // For debugging - list all rooms
-  getAllRooms(): Room[] {
-    return Array.from(this.rooms.values());
+  async getAllRooms(): Promise<Room[]> {
+    const keys = await redis.keys(`${ROOM_KEY_PREFIX}*`);
+
+    if (keys.length === 0) {
+      return [];
+    }
+
+    const roomsData = await redis.mget(...keys);
+
+    const rooms: Room[] = [];
+    for (const data of roomsData) {
+      if (data === null) continue;
+
+      const room = this.parseRoom(data);
+      if (room) {
+        rooms.push(room);
+      } else {
+        console.warn("⚠️ Skipping corrupted room data in getAllRooms");
+      }
+    }
+
+    return rooms;
   }
 }
