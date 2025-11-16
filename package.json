@@ -14,7 +14,8 @@
     "redis:up": "docker compose up -d redis",
     "redis:down": "docker compose down redis",
     "redis:logs": "docker compose logs -f redis",
-    "redis:status": "docker compose ps redis"
+    "redis:status": "docker compose ps redis",
+    "health:render": "curl https://your-app.onrender.com/health"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.80.0",

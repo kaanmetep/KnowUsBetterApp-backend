@@ -5,8 +5,8 @@ import { redis } from "./utils/redis.js";
 const ROOM_KEY_PREFIX = "room:";
 const PLAYER_ROOM_KEY_PREFIX = "playerRoom:";
 
-// Room TTL (Time To Live) - 1 minute (60 seconds) - TEST MODE
-const ROOM_TTL = 60;
+// Room TTL (Time To Live) - 3 hours (10800 seconds)
+const ROOM_TTL = 10800;
 
 export class RoomManager {
   constructor() {

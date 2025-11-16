@@ -18,11 +18,21 @@ export function ipWhitelistMiddleware(
   }
 
   // Get client IP (consider X-Forwarded-For header if behind proxy)
-  const clientIp =
+  let clientIp =
     (req.headers["x-forwarded-for"] as string)?.split(",")[0]?.trim() ||
     (req.headers["x-real-ip"] as string) ||
     req.socket.remoteAddress ||
     req.ip;
+
+  // Normalize IPv6 localhost to IPv4
+  if (clientIp === "::1" || clientIp === "::ffff:127.0.0.1") {
+    clientIp = "127.0.0.1";
+  }
+
+  // Debug: Log detected IP (remove in production if needed)
+  if (process.env.NODE_ENV !== "production") {
+    console.log(`🔍 Health check IP detected: ${clientIp}`);
+  }
 
   // Check if IP is in whitelist
   if (clientIp && ALLOWED_IPS.includes(clientIp)) {

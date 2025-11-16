@@ -1444,8 +1444,19 @@ process.on("warning", (warning: Error) => {
 const PORT = process.env.PORT || 3000;
 
 httpServer.listen(PORT, () => {
-  console.log(`\n🚀 Socket.io server running: http://localhost:${PORT}`);
-  console.log(`📱 Connect from frontend: ws://localhost:${PORT}\n`);
+  const serverUrl = process.env.RENDER_EXTERNAL_URL
+    ? process.env.RENDER_EXTERNAL_URL
+    : process.env.RAILWAY_PUBLIC_DOMAIN
+    ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}`
+    : `http://localhost:${PORT}`;
+
+  console.log(`\n🚀 Socket.io server running on port ${PORT}`);
+  console.log(`📱 Server URL: ${serverUrl}`);
+  console.log(
+    `📱 Connect from frontend: ${serverUrl
+      .replace("http://", "ws://")
+      .replace("https://", "wss://")}\n`
+  );
 });
 
 // Graceful shutdown on SIGTERM/SIGINT (Docker, PM2, etc.)
