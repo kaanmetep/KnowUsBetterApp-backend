@@ -37,7 +37,33 @@ import {
 const app = express();
 const httpServer = createServer(app);
 
-app.use(cors());
+// Express CORS configuration (will be configured after ALLOWED_ORIGINS is defined)
+// Temporary CORS setup, will be updated below
+app.use(
+  cors({
+    origin:
+      process.env.CORS_ORIGIN === "*"
+        ? "*"
+        : (origin, callback) => {
+            if (!origin) {
+              callback(null, true);
+              return;
+            }
+            const allowedOrigins = process.env.CORS_ORIGIN
+              ? process.env.CORS_ORIGIN.split(",").map((o) => o.trim())
+              : ["*"];
+            if (
+              allowedOrigins.includes("*") ||
+              allowedOrigins.includes(origin)
+            ) {
+              callback(null, true);
+            } else {
+              callback(null, false);
+            }
+          },
+    credentials: false,
+  })
+);
 app.use(express.json());
 
 // ============================================
@@ -76,6 +102,89 @@ const CHAT_MAX_LENGTH = 100; // Maximum message length
 const PING_INTERVAL = parseInt(process.env.SOCKET_PING_INTERVAL || "60000", 10); // 60 seconds (less frequent ping)
 const PING_TIMEOUT = parseInt(process.env.SOCKET_PING_TIMEOUT || "15000", 10); // 15 seconds (tolerant for slow networks)
 
+// CORS Configuration
+// For React Native only: leave empty or set to "REACT_NATIVE_ONLY"
+// For Web + React Native: set to "*" or specific domains
+// For Web only: set to specific domains (React Native will still work via user-agent check)
+
+const CORS_ORIGIN_ENV = process.env.CORS_ORIGIN;
+const CORS_ORIGIN = CORS_ORIGIN_ENV || "*";
+// React Native only mode: explicitly set to empty string or "REACT_NATIVE_ONLY"
+const IS_REACT_NATIVE_ONLY =
+  CORS_ORIGIN_ENV === "" || CORS_ORIGIN_ENV === "REACT_NATIVE_ONLY";
+const ALLOWED_ORIGINS = IS_REACT_NATIVE_ONLY
+  ? [] // Empty means only React Native (no web origins allowed)
+  : CORS_ORIGIN === "*"
+  ? ["*"]
+  : CORS_ORIGIN.split(",").map((origin) => origin.trim());
+
+// Production mode CORS security check
+if (process.env.NODE_ENV === "production") {
+  if (IS_REACT_NATIVE_ONLY) {
+    console.log(
+      "✅ CORS configured for React Native only - web origins blocked"
+    );
+  } else if (CORS_ORIGIN === "*" || !process.env.CORS_ORIGIN) {
+    console.warn(
+      "⚠️  WARNING: CORS_ORIGIN is set to '*' or not specified in production mode."
+    );
+    console.warn(
+      "⚠️  This allows connections from any web origin. For React Native only, set CORS_ORIGIN to empty string or 'REACT_NATIVE_ONLY'."
+    );
+  } else {
+    console.log(`✅ CORS_ORIGIN configured for production: ${CORS_ORIGIN}`);
+  }
+}
+
+// Check if origin is allowed (for Socket.IO connection)
+function isOriginAllowed(
+  origin: string | undefined,
+  userAgent: string | undefined
+): boolean {
+  // React Native apps don't send origin header, allow them
+  if (!origin) {
+    // Check user-agent for React Native indicators
+    const isReactNative =
+      userAgent?.includes("ReactNative") ||
+      userAgent?.includes("okhttp") || // Android
+      userAgent?.includes("CFNetwork"); // iOS
+    if (isReactNative) {
+      return true;
+    }
+    // If no origin and not React Native:
+    // - In development: allow (for testing)
+    // - In production: only allow if CORS_ORIGIN is "*" (React Native apps)
+    if (process.env.NODE_ENV === "production") {
+      // In production, only allow if CORS_ORIGIN is "*" (for React Native)
+      // If specific origins are set, block requests without origin (security)
+      return CORS_ORIGIN === "*";
+    }
+    // In development, allow requests without origin
+    return true;
+  }
+
+  // If React Native only mode, block all web origins
+  if (IS_REACT_NATIVE_ONLY) {
+    return false; // Block web origins, React Native already handled above
+  }
+
+  // If "*" is allowed, allow all
+  if (ALLOWED_ORIGINS.includes("*")) {
+    return true;
+  }
+
+  // Check if origin is in allowed list
+  return ALLOWED_ORIGINS.some((allowed) => {
+    if (allowed === "*") return true;
+    // Support wildcard domains like *.example.com
+    if (allowed.startsWith("*.")) {
+      const domain = allowed.substring(2);
+      return origin.endsWith(domain);
+    }
+    return origin === allowed;
+  });
+}
+
 const io = new Server<
   ClientToServerEvents,
   ServerToClientEvents,
@@ -83,8 +192,41 @@ const io = new Server<
   SocketData
 >(httpServer, {
   cors: {
-    origin: "*", // CHANGE !!! For development purposes - in production, specify the domain.
+    origin: (origin, callback) => {
+      // CORS callback doesn't have access to user-agent, so we check in allowRequest
+      // For now, allow if origin is in allowed list or if "*" is set
+      if (ALLOWED_ORIGINS.includes("*") || !origin) {
+        callback(null, true);
+      } else if (
+        ALLOWED_ORIGINS.some((allowed) => {
+          if (allowed === "*") return true;
+          if (allowed.startsWith("*.")) {
+            const domain = allowed.substring(2);
+            return origin.endsWith(domain);
+          }
+          return origin === allowed;
+        })
+      ) {
+        callback(null, true);
+      } else {
+        callback(null, false);
+      }
+    },
     methods: ["GET", "POST"],
+    credentials: false,
+  },
+  allowRequest: (req, callback) => {
+    const origin = req.headers.origin;
+    const userAgent = req.headers["user-agent"];
+
+    if (isOriginAllowed(origin, userAgent)) {
+      callback(null, true);
+    } else {
+      console.warn(
+        `🚫 Blocked connection attempt from origin: ${origin}, user-agent: ${userAgent}`
+      );
+      callback(null, false);
+    }
   },
   pingInterval: PING_INTERVAL,
   pingTimeout: PING_TIMEOUT,
