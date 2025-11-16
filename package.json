@@ -15,7 +15,10 @@
     "redis:down": "docker compose down redis",
     "redis:logs": "docker compose logs -f redis",
     "redis:status": "docker compose ps redis",
-    "health:render": "curl https://your-app.onrender.com/health"
+    "health:render": "curl https://knowusbetterapp-backend.onrender.com/health",
+    "test:load": "node test/loadTest.js",
+    "test:load:local": "cross-env TEST_SERVER_URL=http://localhost:3000 node test/loadTest.js",
+    "test:load:render": "cross-env TEST_SERVER_URL=https://knowusbetterapp-backend.onrender.com node test/loadTest.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.80.0",
@@ -23,12 +26,14 @@
     "dotenv": "^17.2.3",
     "express": "^4.18.2",
     "ioredis": "^5.3.2",
-    "socket.io": "^4.6.1"
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.5",
     "@types/node": "^24.10.0",
+    "cross-env": "^7.0.3",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"

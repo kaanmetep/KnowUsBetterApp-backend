@@ -141,25 +141,37 @@ function isOriginAllowed(
   origin: string | undefined,
   userAgent: string | undefined
 ): boolean {
-  // React Native apps don't send origin header, allow them
+  // React Native apps and Socket.IO clients don't send origin header
   if (!origin) {
     // Check user-agent for React Native indicators
     const isReactNative =
       userAgent?.includes("ReactNative") ||
       userAgent?.includes("okhttp") || // Android
       userAgent?.includes("CFNetwork"); // iOS
+
+    // React Native apps: always allow
     if (isReactNative) {
       return true;
     }
-    // If no origin and not React Native:
-    // - In development: allow (for testing)
-    // - In production: only allow if CORS_ORIGIN is "*" (React Native apps)
-    if (process.env.NODE_ENV === "production") {
-      // In production, only allow if CORS_ORIGIN is "*" (for React Native)
-      // If specific origins are set, block requests without origin (security)
-      return CORS_ORIGIN === "*";
+
+    // Socket.IO clients also don't send origin (normal behavior)
+    // If React Native only mode, block non-React Native clients without origin
+    if (IS_REACT_NATIVE_ONLY) {
+      return false;
     }
-    // In development, allow requests without origin
+
+    // If CORS_ORIGIN is "*", allow all (including Socket.IO clients)
+    if (CORS_ORIGIN === "*") {
+      return true;
+    }
+
+    // In development, allow requests without origin (for testing)
+    if (process.env.NODE_ENV !== "production") {
+      return true;
+    }
+
+    // In production with specific origins, allow Socket.IO clients (they don't send origin)
+    // This is safe because Socket.IO has its own authentication mechanisms
     return true;
   }
 
