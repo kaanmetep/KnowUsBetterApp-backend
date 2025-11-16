@@ -4,16 +4,35 @@ import { createServer } from "http";
 import { Server, Socket } from "socket.io";
 import cors from "cors";
 import { createClient } from "@supabase/supabase-js";
-import crypto from "crypto";
 import { RoomManager } from "./roomManager.js";
 import {
   CreateRoomData,
   JoinRoomData,
   GetRoomData,
-  Category,
   SubmitAnswerData,
 } from "./types.js";
 import { fetchRandomQuestions } from "./services/questionService.js";
+import {
+  getCoinsFromProductId,
+  findSocketByUserId,
+  sanitizeMessage,
+  isValidMessage,
+  type SocketData,
+  type ServerToClientEvents,
+  type ClientToServerEvents,
+} from "./utils/helpers.js";
+import { ipWhitelistMiddleware } from "./middleware/ipWhitelist.js";
+import { verifyRevenueCatSignature } from "./middleware/revenueCat.js";
+import {
+  healthRateLimiter,
+  webhookRateLimiter,
+} from "./middleware/rateLimiter.js";
+import {
+  getClientIP,
+  canCreateSocket,
+  registerSocket,
+  unregisterSocket,
+} from "./utils/ipSocketLimiter.js";
 
 const app = express();
 const httpServer = createServer(app);
@@ -26,9 +45,8 @@ app.use(express.json());
 // ============================================
 const SUPABASE_URL = process.env.SUPABASE_URL;
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
-const REVENUECAT_WEBHOOK_SECRET = process.env.REVENUECAT_WEBHOOK_SECRET;
 
-// Supabase Admin Client (Secret key ile)
+// Supabase Admin Client
 const supabaseAdmin =
   SUPABASE_URL && SUPABASE_SERVICE_ROLE_KEY
     ? createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, {
@@ -51,184 +69,12 @@ const chatRateLimits = new Map<string, number>(); // socket.id -> last message t
 const CHAT_RATE_LIMIT_MS = 1000; // 1 second between messages
 const CHAT_MAX_LENGTH = 100; // Maximum message length
 
-// ============================================
-// HELPER FUNCTIONS
-// ============================================
-
-// Product ID'den coin miktarını çıkar (örn: "coins_100" -> 100)
-function getCoinsFromProductId(productId: string): number {
-  const match = productId.match(/(\d+)/);
-  return match ? parseInt(match[1], 10) : 0;
-}
-
-// appUserId ile socket'i bul
-function findSocketByUserId(
-  appUserId: string,
-  io: Server<ClientToServerEvents, ServerToClientEvents, {}, SocketData>
-): Socket<ClientToServerEvents, ServerToClientEvents, {}, SocketData> | null {
-  const socketId = userSockets.get(appUserId);
-  if (socketId) {
-    return (
-      (io.sockets.sockets.get(socketId) as
-        | Socket<ClientToServerEvents, ServerToClientEvents, {}, SocketData>
-        | undefined) || null
-    );
-  }
-  return null;
-}
-
-// Sanitize message to prevent XSS attacks
-function sanitizeMessage(message: string): string {
-  // Remove HTML tags and script content
-  return message
-    .replace(/<[^>]*>/g, "") // Remove HTML tags
-    .replace(/javascript:/gi, "") // Remove javascript: protocol
-    .replace(/on\w+\s*=/gi, ""); // Remove event handlers (onclick=, etc.)
-}
-
-// Check if message contains only valid characters (prevent injection)
-function isValidMessage(message: string): boolean {
-  // Allow letters, numbers, spaces, common punctuation, and emojis
-  // Reject if contains suspicious patterns
-  const suspiciousPatterns = [
-    /<script/gi,
-    /javascript:/gi,
-    /on\w+\s*=/gi,
-    /data:text\/html/gi,
-  ];
-
-  return !suspiciousPatterns.some((pattern) => pattern.test(message));
-}
-
-// RevenueCat Signature Doğrulama Middleware
-function verifyRevenueCatSignature(
-  req: express.Request,
-  res: express.Response,
-  buf: Buffer
-): void {
-  const signature = req.headers["authorization"];
-
-  if (!signature || !REVENUECAT_WEBHOOK_SECRET) {
-    console.warn("⚠️ RevenueCat webhook secret not configured");
-    return;
-  }
-
-  const expectedSignature = crypto
-    .createHmac("sha256", REVENUECAT_WEBHOOK_SECRET)
-    .update(buf)
-    .digest("hex");
-
-  // "Bearer sha256=..." veya "sha256=..." formatlarını destekle
-  const expectedSignatureWithPrefix = `sha256=${expectedSignature}`;
-  const expectedSignatureWithBearer = `Bearer ${expectedSignatureWithPrefix}`;
-
-  if (
-    signature !== expectedSignatureWithPrefix &&
-    signature !== expectedSignatureWithBearer
-  ) {
-    throw new Error("Invalid RevenueCat signature");
-  }
-}
-
-// Socket.io Event Types
-interface SocketData {
-  appUserId?: string;
-}
-
-interface ServerToClientEvents {
-  "room-created": (data: {
-    roomCode: string;
-    player: any;
-    category: Category;
-  }) => void;
-  "room-joined": (data: { roomCode: string; player: any; room: any }) => void;
-  "player-joined": (data: { player: any; room: any }) => void;
-  "player-left": (data: { playerId: string; room: any }) => void;
-  "room-data": (room: any) => void;
-  "room-error": (data: { message: string }) => void; // Non-critical warnings
-  "critical-error": (data: { message: string; code?: string }) => void; // Critical errors - redirect user
-  "room-left": () => void;
-  "game-started": (data: {
-    room: any;
-    question: any;
-    totalQuestions: number;
-    serverTime: number; // Server timestamp when first question starts
-    duration: number; // How long players have to answer (seconds)
-  }) => void;
-  "player-answered": (data: {
-    playerId: string;
-    playerName: string | undefined;
-  }) => void;
-  "round-completed": (data: {
-    allPlayersAnswered: boolean;
-    isMatched: boolean;
-    playerAnswers: Array<{
-      playerId: string;
-      playerName: string;
-      avatar: string;
-      answer: string | null;
-    }>;
-    question: any;
-    matchScore: number;
-    totalQuestions: number;
-    percentage: number;
-  }) => void;
-  "game-finished": (data: {
-    matchScore: number;
-    totalQuestions: number;
-    percentage: number;
-    completedRounds: any[];
-  }) => void;
-  "next-question": (data: {
-    question: any;
-    currentQuestionIndex: number;
-    totalQuestions: number;
-    serverTime: number; // Server timestamp when question starts
-    duration: number; // How long players have to answer (seconds)
-  }) => void;
-  "kicked-from-room": (data: { message: string; roomCode: string }) => void;
-  "player-kicked": (data: {
-    playerId: string;
-    playerName: string;
-    room: any;
-  }) => void;
-  "game-cancelled": (data: { message: string; room: any }) => void;
-  "chat-message": (data: {
-    playerId: string;
-    playerName: string;
-    avatar: string;
-    message: string;
-    timestamp: number;
-  }) => void;
-  "coins-added": (data: {
-    appUserId: string;
-    newBalance: number;
-    success: boolean;
-  }) => void;
-  "coins-spent": (data: {
-    appUserId: string;
-    newBalance: number;
-    success: boolean;
-    error?: string;
-  }) => void;
-}
-
-interface ClientToServerEvents {
-  "create-room": (data: CreateRoomData) => void;
-  "join-room": (data: JoinRoomData) => void;
-  "get-room": (data: GetRoomData) => void;
-  "leave-room": (data: { roomCode: string }) => void;
-  "start-game": (data: { roomCode: string }) => void;
-  "submit-answer": (data: SubmitAnswerData) => void;
-  "kick-player": (data: { roomCode: string; targetPlayerId: string }) => void;
-  "send-message": (data: { roomCode: string; message: string }) => void;
-  "register-user": (appUserId: string) => void;
-  "spend-coins": (data: {
-    appUserId: string;
-    amount: number;
-    transactionType?: string;
-  }) => void;
-}
+// Socket.io Ping/Pong Configuration
+// pingInterval: How often to send ping (ms) - default: 60000 (60s)
+// pingTimeout: How long to wait for pong before disconnecting (ms) - default: 5000 (5s)
+// Lower timeout = faster detection of dead connections but may disconnect slow networks
+const PING_INTERVAL = parseInt(process.env.SOCKET_PING_INTERVAL || "60000", 10); // 60 seconds (less frequent ping)
+const PING_TIMEOUT = parseInt(process.env.SOCKET_PING_TIMEOUT || "15000", 10); // 15 seconds (tolerant for slow networks)
 
 const io = new Server<
   ClientToServerEvents,
@@ -237,9 +83,12 @@ const io = new Server<
   SocketData
 >(httpServer, {
   cors: {
-    origin: "*", // For development purposes - in production, specify the domain.
+    origin: "*", // CHANGE !!! For development purposes - in production, specify the domain.
     methods: ["GET", "POST"],
   },
+  pingInterval: PING_INTERVAL,
+  pingTimeout: PING_TIMEOUT,
+  connectTimeout: parseInt(process.env.SOCKET_CONNECT_TIMEOUT || "10000", 10), // 10 seconds
 });
 
 // This is temporary room manager. In production, we will use redis.
@@ -250,7 +99,26 @@ io.on(
   (
     socket: Socket<ClientToServerEvents, ServerToClientEvents, {}, SocketData>
   ) => {
-    console.log("✅ New user connected:", socket.id);
+    // IP bazlı socket limiti kontrolü
+    const clientIP = getClientIP(socket);
+    const socketLimitCheck = canCreateSocket(clientIP);
+
+    if (!socketLimitCheck.allowed) {
+      console.warn(
+        `⚠️ Socket connection blocked for IP ${clientIP}: ${socketLimitCheck.reason}`
+      );
+      socket.emit("critical-error", {
+        message: "Connection limit exceeded. Please try again later.",
+        code: "CONNECTION_LIMIT_EXCEEDED",
+      });
+      socket.disconnect(true);
+      return;
+    }
+
+    // Socket'i IP'ye kaydet
+    registerSocket(socket.id, clientIP);
+
+    console.log(`✅ New user connected: ${socket.id} from IP: ${clientIP}`);
 
     // Register user with appUserId
     socket.on("register-user", (appUserId: string) => {
@@ -1018,6 +886,9 @@ io.on(
 
     // 8. On Disconnect
     socket.on("disconnect", () => {
+      // Clean up IP-based socket limiter
+      unregisterSocket(socket.id);
+
       // Clean up appUserId mapping
       const appUserId = socket.data.appUserId;
       if (appUserId) {
@@ -1116,11 +987,50 @@ io.on(
 );
 
 // ============================================
+// HEALTH CHECK & METRICS ENDPOINT
+// ============================================
+app.get("/health", ipWhitelistMiddleware, healthRateLimiter, (req, res) => {
+  try {
+    const socketCount = io.sockets.sockets.size;
+    const connectionCount = io.engine.clientsCount || 0;
+    const roomsCount = roomManager.getAllRooms().length;
+    const totalPlayers = roomManager
+      .getAllRooms()
+      .reduce((sum, room) => sum + room.players.length, 0);
+
+    res.json({
+      status: "ok",
+      timestamp: new Date().toISOString(),
+      uptime: process.uptime(),
+      connections: {
+        sockets: socketCount,
+        engine: connectionCount,
+      },
+      rooms: {
+        total: roomsCount,
+        players: totalPlayers,
+      },
+      memory: {
+        used: Math.round(process.memoryUsage().heapUsed / 1024 / 1024),
+        total: Math.round(process.memoryUsage().heapTotal / 1024 / 1024),
+        rss: Math.round(process.memoryUsage().rss / 1024 / 1024),
+      },
+    });
+  } catch (error) {
+    res.status(500).json({
+      status: "error",
+      message: error instanceof Error ? error.message : "Unknown error",
+    });
+  }
+});
+
+// ============================================
 // REVENUECAT WEBHOOK ENDPOINT
 // ============================================
 
 app.post(
   "/webhook/revenuecat",
+  webhookRateLimiter,
   express.json({ verify: verifyRevenueCatSignature }),
   async (req, res) => {
     try {
@@ -1201,7 +1111,7 @@ app.post(
         console.log(`✅ Coins added successfully. New balance: ${newBalance}`);
 
         // Socket.io ile connected client'a bildirim gönder
-        const userSocket = findSocketByUserId(appUserId, io);
+        const userSocket = findSocketByUserId(appUserId, io, userSockets);
 
         if (userSocket) {
           userSocket.emit("coins-added", {
