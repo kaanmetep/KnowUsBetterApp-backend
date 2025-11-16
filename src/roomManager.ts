@@ -15,7 +15,17 @@ export class RoomManager {
   }
 
   generateRoomCode(): string {
-    return Math.random().toString(36).substring(1, 2).toUpperCase();
+    // English alphabet letters (A-Z) and 1-9 numbers
+    const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789";
+    let code = "";
+
+    // Create a 4-digit random code
+    for (let i = 0; i < 4; i++) {
+      const randomIndex = Math.floor(Math.random() * chars.length);
+      code += chars[randomIndex];
+    }
+
+    return code;
   }
 
   // Create a new room
@@ -25,7 +35,21 @@ export class RoomManager {
     avatar: string,
     category: Category
   ): Room {
-    const roomCode = this.generateRoomCode();
+    // Create a unique room code (if it already exists, try again)
+    let roomCode: string;
+    let attempts = 0;
+    const maxAttempts = 100; // Prevent infinite loop
+
+    do {
+      roomCode = this.generateRoomCode();
+      attempts++;
+
+      if (attempts >= maxAttempts) {
+        throw new Error(
+          "Failed to generate unique room code after multiple attempts"
+        );
+      }
+    } while (this.rooms.has(roomCode));
 
     const player: Player = {
       id: socketId,
