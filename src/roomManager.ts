@@ -124,7 +124,7 @@ export class RoomManager {
       totalQuestionsAnswered: 0,
       settings: {
         maxPlayers: 2,
-        totalQuestions: 5,
+        totalQuestions: 10,
         category: category,
         questionDuration: 15, // 15 seconds to answer
         resultDisplayDuration: 5, // 5 seconds to show results
