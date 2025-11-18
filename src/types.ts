@@ -18,10 +18,17 @@ export interface Question {
   } | null; // answers with translations (JSONB) or null for yes/no
 }
 
+// Multi-language answer object (for questions with haveAnswers = true)
+export interface MultiLanguageAnswer {
+  en: string;
+  tr: string;
+  es: string;
+}
+
 export interface QuestionRound {
   question: Question;
   answers: {
-    [playerId: string]: string | null; // Each player's answer (null if not answered yet)
+    [playerId: string]: string | MultiLanguageAnswer | null; // Each player's answer (null if not answered yet, string for yes/no, MultiLanguageAnswer for multi-choice)
   };
   isMatched: boolean | null; // null = not completed, true/false = match result
   status: "waiting_answers" | "completed";

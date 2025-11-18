@@ -10,6 +10,8 @@ import {
   JoinRoomData,
   GetRoomData,
   SubmitAnswerData,
+  MultiLanguageAnswer,
+  Question,
 } from "./types.js";
 import { fetchRandomQuestions } from "./services/questionService.js";
 import {
@@ -17,6 +19,7 @@ import {
   findSocketByUserId,
   sanitizeMessage,
   isValidMessage,
+  findAnswerObject,
   type SocketData,
   type ServerToClientEvents,
   type ClientToServerEvents,
@@ -533,8 +536,24 @@ io.on(
             return;
           }
 
-          // Save answer
-          room.currentRound.answers[socket.id] = answer;
+          // Save answer - convert to multi-language object if needed
+          const question = room.currentRound.question;
+          if (question.haveAnswers && question.answers) {
+            // Find the answer object with all languages
+            const answerObject = findAnswerObject(answer, question);
+            if (answerObject) {
+              room.currentRound.answers[socket.id] = answerObject;
+            } else {
+              // If answer not found, log warning and save as string (fallback)
+              console.warn(
+                `⚠️ Answer "${answer}" not found in question ${questionId} answers array. Saving as string.`
+              );
+              room.currentRound.answers[socket.id] = answer;
+            }
+          } else {
+            // Yes/No question - save as string
+            room.currentRound.answers[socket.id] = answer;
+          }
 
           // Update player status
           const player = room.players.find((p) => p.id === socket.id);
@@ -574,7 +593,31 @@ io.on(
               await roomManager.resetRoom(roomCode);
               return;
             }
-            const isMatched = answers[0] === answers[1];
+
+            // Compare answers - handle both string and MultiLanguageAnswer types
+            const answer1 = answers[0];
+            const answer2 = answers[1];
+            let isMatched = false;
+
+            if (typeof answer1 === "string" && typeof answer2 === "string") {
+              // Both are strings (yes/no answers)
+              isMatched = answer1 === answer2;
+            } else if (
+              typeof answer1 === "object" &&
+              typeof answer2 === "object" &&
+              answer1 !== null &&
+              answer2 !== null
+            ) {
+              // Both are MultiLanguageAnswer objects - compare by checking if they have the same index
+              // We compare by checking if any language matches (they should all match if same answer)
+              const a1 = answer1 as MultiLanguageAnswer;
+              const a2 = answer2 as MultiLanguageAnswer;
+              // Answers match if they have the same English text (or any language, but en is most reliable)
+              isMatched = a1.en === a2.en;
+            } else {
+              // Mixed types - no match
+              isMatched = false;
+            }
 
             room.currentRound.isMatched = isMatched;
             room.currentRound.status = "completed";

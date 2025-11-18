@@ -5,6 +5,8 @@ import {
   JoinRoomData,
   GetRoomData,
   SubmitAnswerData,
+  Question,
+  MultiLanguageAnswer,
 } from "../types.js";
 
 // Socket.io Event Types (needed for helper functions)
@@ -43,7 +45,7 @@ export interface ServerToClientEvents {
       playerId: string;
       playerName: string;
       avatar: string;
-      answer: string | null;
+      answer: string | { en: string; tr: string; es: string } | null;
     }>;
     question: any;
     matchScore: number;
@@ -151,4 +153,52 @@ export function isValidMessage(message: string): boolean {
   ];
 
   return !suspiciousPatterns.some((pattern) => pattern.test(message));
+}
+
+// Helper function to find answer object from user input
+export function findAnswerObject(
+  userAnswer: string,
+  question: Question
+): MultiLanguageAnswer | null {
+  if (!question.haveAnswers || !question.answers) {
+    return null;
+  }
+
+  const { answers_en, answers_tr, answers_es } = question.answers;
+
+  // Try to find the answer in each language array
+  let answerIndex = -1;
+
+  // Check English
+  answerIndex = answers_en.findIndex((ans) => ans === userAnswer);
+  if (answerIndex !== -1) {
+    return {
+      en: answers_en[answerIndex],
+      tr: answers_tr[answerIndex] || answers_en[answerIndex],
+      es: answers_es[answerIndex] || answers_en[answerIndex],
+    };
+  }
+
+  // Check Turkish
+  answerIndex = answers_tr.findIndex((ans) => ans === userAnswer);
+  if (answerIndex !== -1) {
+    return {
+      en: answers_en[answerIndex] || answers_tr[answerIndex],
+      tr: answers_tr[answerIndex],
+      es: answers_es[answerIndex] || answers_tr[answerIndex],
+    };
+  }
+
+  // Check Spanish
+  answerIndex = answers_es.findIndex((ans) => ans === userAnswer);
+  if (answerIndex !== -1) {
+    return {
+      en: answers_en[answerIndex] || answers_es[answerIndex],
+      tr: answers_tr[answerIndex] || answers_es[answerIndex],
+      es: answers_es[answerIndex],
+    };
+  }
+
+  // Answer not found in any language
+  return null;
 }
