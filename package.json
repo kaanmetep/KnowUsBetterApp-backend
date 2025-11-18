@@ -18,7 +18,8 @@
     "health:render": "curl https://knowusbetterapp-backend.onrender.com/health",
     "test:load": "node test/loadTest.js",
     "test:load:local": "cross-env TEST_SERVER_URL=http://localhost:3000 node test/loadTest.js",
-    "test:load:render": "cross-env TEST_SERVER_URL=https://knowusbetterapp-backend.onrender.com node test/loadTest.js"
+    "test:load:render": "cross-env TEST_SERVER_URL=https://knowusbetterapp-backend.onrender.com node test/loadTest.js",
+    "test:random": "node --loader ts-node/esm test/testRandomQuestions.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.80.0",
