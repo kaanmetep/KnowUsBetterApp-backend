@@ -29,11 +29,6 @@ export function ipWhitelistMiddleware(
     clientIp = "127.0.0.1";
   }
 
-  // Debug: Log detected IP (remove in production if needed)
-  if (process.env.NODE_ENV !== "production") {
-    console.log(`🔍 Health check IP detected: ${clientIp}`);
-  }
-
   // Check if IP is in whitelist
   if (clientIp && ALLOWED_IPS.includes(clientIp)) {
     return next();

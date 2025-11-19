@@ -303,10 +303,6 @@ io.on(
           );
           socket.join(room.roomCode);
 
-          console.log(
-            `🏠 Room created: ${room.roomCode} - Player: ${playerName}`
-          );
-
           socket.emit("room-created", {
             roomCode: room.roomCode,
             player: room.players[0],
@@ -337,9 +333,6 @@ io.on(
 
           if (result.success) {
             socket.join(roomCode);
-
-            console.log(`👥 ${playerName} joined room: ${roomCode}`);
-
             // Send info to joined player
             socket.emit("room-joined", {
               roomCode,
@@ -354,7 +347,6 @@ io.on(
             });
           } else {
             socket.emit("room-error", { message: result.error });
-            console.log(`❌ Room join error: ${result.error}`);
           }
         } catch (error) {
           console.error("Error joining room:", error);
@@ -480,8 +472,6 @@ io.on(
           // Save room to Redis
           await roomManager.updateRoom(room);
 
-          console.log(`🎮 Game started in room: ${roomCode}`);
-
           // Notify all players
           const startTime = Date.now();
           io.to(roomCode).emit("game-started", {
@@ -568,8 +558,6 @@ io.on(
           // Save room to Redis
           await roomManager.updateRoom(room);
 
-          console.log(`✅ Player ${socket.id} answered question ${questionId}`);
-
           // Notify other players (without revealing the answer)
           socket.to(roomCode).emit("player-answered", {
             playerId: socket.id,
@@ -651,12 +639,6 @@ io.on(
             // Save room to Redis
             await roomManager.updateRoom(room);
 
-            console.log(
-              `🎯 Round completed: ${isMatched ? "MATCH" : "NO MATCH"} (${
-                room.matchScore
-              }/${room.totalQuestionsAnswered})`
-            );
-
             // Send results to all players
             // Calculate percentage safely (avoid division by zero)
             const percentage =
@@ -684,20 +666,12 @@ io.on(
 
               // Save room to Redis
               await roomManager.updateRoom(room);
-
-              console.log(
-                `🏁 Game finished in room ${roomCode}: ${room.matchScore}/${room.totalQuestionsAnswered}`
-              );
-
               // Wait for resultDisplayDuration before showing final results
               // This gives users time to see the last question's result
               setTimeout(async () => {
                 // Re-fetch room in case it was deleted
                 const currentRoom = await roomManager.getRoom(roomCode);
                 if (!currentRoom) {
-                  console.log(
-                    `⚠️ Room ${roomCode} no longer exists, skipping game-finished event`
-                  );
                   return;
                 }
 
@@ -721,9 +695,6 @@ io.on(
                 const finalRoom = await roomManager.getRoom(roomCode);
                 if (finalRoom) {
                   await roomManager.resetRoom(roomCode);
-                  console.log(
-                    `🔄 Room ${roomCode} auto-reset after game finished`
-                  );
                 }
               }, room.settings.resultDisplayDuration * 1000);
             } else {
@@ -732,17 +703,11 @@ io.on(
                 // Re-fetch room in case it was deleted or modified
                 const currentRoom = await roomManager.getRoom(roomCode);
                 if (!currentRoom) {
-                  console.log(
-                    `⚠️ Room ${roomCode} no longer exists, cancelling next question`
-                  );
                   return;
                 }
 
                 // Check if we still have 2 players
                 if (currentRoom.players.length < 2) {
-                  console.log(
-                    `⚠️ Not enough players in room ${roomCode}, cancelling game`
-                  );
                   currentRoom.status = "waiting";
                   io.to(roomCode).emit("game-cancelled", {
                     message:
@@ -760,9 +725,6 @@ io.on(
                   currentRoom.currentQuestionIndex >=
                   currentRoom.questions.length
                 ) {
-                  console.log(
-                    `⚠️ Question index out of bounds in room ${roomCode}, finishing game`
-                  );
                   currentRoom.status = "finished";
                   currentRoom.currentRound = null;
 
@@ -819,8 +781,6 @@ io.on(
 
                 // Save room to Redis
                 await roomManager.updateRoom(currentRoom);
-
-                console.log(`➡️ Next question in room ${roomCode}`);
 
                 const nextStartTime = Date.now();
                 io.to(roomCode).emit("next-question", {
@@ -901,10 +861,6 @@ io.on(
             return;
           }
 
-          console.log(
-            `🚫 Player kicked: ${targetPlayer.name} from room ${roomCode} by ${requester.name}`
-          );
-
           // Get target player's socket
           const targetSockets = Array.from(io.sockets.sockets.values()).filter(
             (s) => s.id === targetPlayerId
@@ -939,7 +895,6 @@ io.on(
           // Delete room if empty
           if (updatedRoom && updatedRoom.players.length === 0) {
             await roomManager.deleteRoom(roomCode);
-            console.log(`🗑️ Empty room deleted: ${roomCode}`);
           }
         } catch (error) {
           console.error("Error kicking player:", error);
@@ -1027,10 +982,6 @@ io.on(
 
           // Update rate limit
           chatRateLimits.set(socket.id, now);
-
-          console.log(
-            `💬 Chat message in room ${roomCode} from ${player.name}: ${sanitizedMessage}`
-          );
 
           // Broadcast message to all players in the room (including sender)
           io.to(roomCode).emit("chat-message", {
@@ -1158,8 +1109,6 @@ io.on(
           newBalance,
           success: true,
         });
-
-        console.log(`📢 Coin spend notification sent to user ${appUserId}`);
       } catch (error) {
         console.error("❌ Error processing coin spend:", error);
         socket.emit("coins-spent", {
@@ -1193,11 +1142,8 @@ io.on(
         if (roomCode) {
           const room = await roomManager.getRoom(roomCode);
 
-          console.log(`🚪 Player left: ${socket.id} - Room: ${roomCode}`);
-
           // If game was in progress, reset the room
           if (room && room.status === "playing") {
-            console.log(`⚠️ Game interrupted! Resetting room ${roomCode}...`);
             await roomManager.resetRoom(roomCode);
 
             // Notify remaining players that game was cancelled
@@ -1217,7 +1163,6 @@ io.on(
           // Delete room if empty
           if (room && room.players.length === 0) {
             await roomManager.deleteRoom(roomCode);
-            console.log(`🗑️ Empty room deleted: ${roomCode}`);
           }
         }
       } catch (error) {
@@ -1226,8 +1171,6 @@ io.on(
     });
     socket.on("leave-room", async ({ roomCode }: { roomCode: string }) => {
       try {
-        console.log("🚪 Player leaving:", socket.id, "Room:", roomCode);
-
         const room = await roomManager.getRoom(roomCode);
 
         if (!room) {
@@ -1240,7 +1183,6 @@ io.on(
 
         // If game was in progress, reset the room
         if (room.status === "playing") {
-          console.log(`⚠️ Game interrupted! Resetting room ${roomCode}...`);
           await roomManager.resetRoom(roomCode);
 
           // Notify remaining players that game was cancelled
@@ -1271,10 +1213,7 @@ io.on(
         // Delete room if empty
         if (updatedRoom && updatedRoom.players.length === 0) {
           await roomManager.deleteRoom(roomCode);
-          console.log(`🗑️ Empty room deleted: ${roomCode}`);
         }
-
-        console.log("✅ Player left the room:", socket.id);
       } catch (error) {
         console.error("Error leaving room:", error);
         socket.emit("room-error", {
@@ -1425,9 +1364,6 @@ app.post(
             newBalance,
             success: true,
           });
-          console.log(
-            `📢 Notification sent to user ${appUserId} via socket ${userSocket.id}`
-          );
         } else {
           console.log(
             `ℹ️ User ${appUserId} not connected via socket (will sync on next app open)`
