@@ -36,6 +36,7 @@ import {
   registerSocket,
   unregisterSocket,
 } from "./utils/ipSocketLimiter.js";
+import { attachSocketRateLimiter } from "./middleware/socketRateLimiter.js";
 
 const app = express();
 const httpServer = createServer(app);
@@ -274,6 +275,9 @@ io.on(
 
     // Socket'i IP'ye kaydet
     registerSocket(socket.id, clientIP);
+
+    // Socket-level rate limiting
+    attachSocketRateLimiter(socket);
 
     console.log(`✅ New user connected: ${socket.id} from IP: ${clientIP}`);
 
