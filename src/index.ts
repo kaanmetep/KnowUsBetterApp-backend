@@ -564,14 +564,32 @@ io.on(
             playerName: player?.name,
           });
 
-          // Check if all players have answered
-          const allAnswered = Object.values(room.currentRound.answers).every(
-            (ans) => ans !== null
-          );
+          // Check if round is already completed (race condition protection)
+          // Re-fetch room to get the latest state from Redis
+          const latestRoom = await roomManager.getRoom(roomCode);
+          if (!latestRoom || !latestRoom.currentRound) {
+            // Round was already completed or room was deleted
+            return;
+          }
+
+          // If round is already completed, don't process again
+          if (latestRoom.currentRound.status === "completed") {
+            // Another player already completed this round
+            return;
+          }
+
+          // Check if all players have answered (using latest room state)
+          const allAnswered = Object.values(
+            latestRoom.currentRound.answers
+          ).every((ans) => ans !== null);
 
           if (allAnswered) {
+            // Use latestRoom instead of room to ensure we have the most up-to-date data
+            const room = latestRoom;
+            // We already checked that currentRound exists above, so it's safe to use non-null assertion
+            const currentRound = room.currentRound!;
             // Calculate match
-            const answers = Object.values(room.currentRound.answers);
+            const answers = Object.values(currentRound.answers);
             // Safety check: ensure we have exactly 2 answers
             if (answers.length !== 2) {
               console.error(
@@ -611,8 +629,8 @@ io.on(
               isMatched = false;
             }
 
-            room.currentRound.isMatched = isMatched;
-            room.currentRound.status = "completed";
+            currentRound.isMatched = isMatched;
+            currentRound.status = "completed";
             room.totalQuestionsAnswered++;
 
             if (isMatched) {
@@ -627,14 +645,14 @@ io.on(
               playerId: p.id,
               playerName: p.name,
               avatar: p.avatar,
-              answer: room.currentRound!.answers[p.id],
+              answer: currentRound.answers[p.id],
             }));
 
             // Reset hasAnswered flags
             room.players.forEach((p) => (p.hasAnswered = false));
 
             // Move to completed rounds
-            room.completedRounds.push(room.currentRound);
+            room.completedRounds.push(currentRound);
 
             // Save room to Redis
             await roomManager.updateRoom(room);
@@ -652,7 +670,7 @@ io.on(
               allPlayersAnswered: true, // ✅ Flag for frontend
               isMatched: isMatched,
               playerAnswers: playerAnswers, // ✅ Who answered what
-              question: room.currentRound.question,
+              question: currentRound.question,
               matchScore: room.matchScore,
               totalQuestions: room.totalQuestionsAnswered,
               percentage: percentage,
@@ -703,6 +721,15 @@ io.on(
                 // Re-fetch room in case it was deleted or modified
                 const currentRoom = await roomManager.getRoom(roomCode);
                 if (!currentRoom) {
+                  return;
+                }
+
+                // Race condition protection: If round is already moved to next question, another timeout already processed this
+                if (
+                  !currentRoom.currentRound ||
+                  currentRoom.currentRound.status !== "completed"
+                ) {
+                  // Another timeout already moved to next question or game was reset
                   return;
                 }
 
