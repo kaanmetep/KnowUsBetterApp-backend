@@ -555,8 +555,33 @@ io.on(
             player.hasAnswered = true;
           }
 
+          // CRITICAL: Re-fetch room BEFORE writing to Redis to check if round is already completed
+          // This prevents race condition where two players write at the same time
+          const checkRoom = await roomManager.getRoom(roomCode);
+          if (!checkRoom || !checkRoom.currentRound) {
+            return;
+          }
+
+          // If round is already completed, don't process (another player already completed it)
+          if (checkRoom.currentRound.status === "completed") {
+            return;
+          }
+
+          // Merge our answer with the latest room state (in case other player already answered)
+          const latestAnswers = { ...checkRoom.currentRound.answers };
+          latestAnswers[socket.id] = room.currentRound.answers[socket.id];
+
+          // Update the room with merged answers
+          checkRoom.currentRound.answers = latestAnswers;
+          const playerInCheckRoom = checkRoom.players.find(
+            (p) => p.id === socket.id
+          );
+          if (playerInCheckRoom) {
+            playerInCheckRoom.hasAnswered = true;
+          }
+
           // Save room to Redis
-          await roomManager.updateRoom(room);
+          await roomManager.updateRoom(checkRoom);
 
           // Notify other players (without revealing the answer)
           socket.to(roomCode).emit("player-answered", {
@@ -564,32 +589,18 @@ io.on(
             playerName: player?.name,
           });
 
-          // Check if round is already completed (race condition protection)
-          // Re-fetch room to get the latest state from Redis
-          const latestRoom = await roomManager.getRoom(roomCode);
-          if (!latestRoom || !latestRoom.currentRound) {
-            // Round was already completed or room was deleted
-            return;
-          }
-
-          // If round is already completed, don't process again
-          if (latestRoom.currentRound.status === "completed") {
-            // Another player already completed this round
-            return;
-          }
-
-          // Check if all players have answered (using latest room state)
-          const allAnswered = Object.values(
-            latestRoom.currentRound.answers
-          ).every((ans) => ans !== null);
+          // Check if all players have answered (using merged room state)
+          const allAnswered = Object.values(latestAnswers).every(
+            (ans) => ans !== null
+          );
 
           if (allAnswered) {
-            // Use latestRoom instead of room to ensure we have the most up-to-date data
-            const room = latestRoom;
+            // Use checkRoom which has the merged answers from both players
+            const room = checkRoom;
             // We already checked that currentRound exists above, so it's safe to use non-null assertion
             const currentRound = room.currentRound!;
-            // Calculate match
-            const answers = Object.values(currentRound.answers);
+            // Calculate match using the merged answers
+            const answers = Object.values(latestAnswers);
             // Safety check: ensure we have exactly 2 answers
             if (answers.length !== 2) {
               console.error(
