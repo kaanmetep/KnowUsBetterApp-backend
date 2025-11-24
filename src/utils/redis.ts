@@ -43,3 +43,31 @@ process.on("SIGTERM", () => {
 process.on("SIGINT", () => {
   redis.quit();
 });
+
+/**
+ * Acquire a distributed lock using Redis
+ * Returns true if lock acquired, false otherwise
+ */
+export async function acquireLock(
+  lockKey: string,
+  ttlSeconds: number = 10
+): Promise<boolean> {
+  try {
+    const result = await redis.set(lockKey, "1", "EX", ttlSeconds, "NX");
+    return result === "OK";
+  } catch (error) {
+    console.error("Error acquiring lock:", error);
+    return false;
+  }
+}
+
+/**
+ * Release a distributed lock
+ */
+export async function releaseLock(lockKey: string): Promise<void> {
+  try {
+    await redis.del(lockKey);
+  } catch (error) {
+    console.error("Error releasing lock:", error);
+  }
+}

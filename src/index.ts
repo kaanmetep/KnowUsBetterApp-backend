@@ -37,6 +37,7 @@ import {
   unregisterSocket,
 } from "./utils/ipSocketLimiter.js";
 import { attachSocketRateLimiter } from "./middleware/socketRateLimiter.js";
+import { acquireLock, releaseLock } from "./utils/redis.js";
 
 const app = express();
 const httpServer = createServer(app);
@@ -595,180 +596,150 @@ io.on(
           );
 
           if (allAnswered) {
-            // Use checkRoom which has the merged answers from both players
-            const room = checkRoom;
-            // We already checked that currentRound exists above, so it's safe to use non-null assertion
-            const currentRound = room.currentRound!;
-            // Calculate match using the merged answers
-            const answers = Object.values(latestAnswers);
-            // Safety check: ensure we have exactly 2 answers
-            if (answers.length !== 2) {
-              console.error(
-                `⚠️ Unexpected number of answers: ${answers.length} in room ${roomCode}`
+            // Acquire a lock to ensure only ONE player processes the round completion
+            // This prevents race condition when both players answer at the same time
+            const lockKey = `lock:round:${roomCode}:${
+              checkRoom.currentRound!.question.id
+            }`;
+            const lockAcquired = await acquireLock(lockKey, 10); // 10 second TTL
+
+            if (!lockAcquired) {
+              // Another player already acquired the lock and is processing the round
+              console.log(
+                `🔒 Lock not acquired for room ${roomCode}, another player is processing`
               );
-              socket.emit("critical-error", {
-                message:
-                  "An error occurred while processing answers. The game will be reset.",
-                code: "INVALID_ANSWER_COUNT",
-              });
-              await roomManager.resetRoom(roomCode);
               return;
             }
 
-            // Compare answers - handle both string and MultiLanguageAnswer types
-            const answer1 = answers[0];
-            const answer2 = answers[1];
-            let isMatched = false;
+            try {
+              // Re-check room state after acquiring lock (another player might have completed it)
+              const lockedRoom = await roomManager.getRoom(roomCode);
+              if (
+                !lockedRoom ||
+                !lockedRoom.currentRound ||
+                lockedRoom.currentRound.status === "completed"
+              ) {
+                await releaseLock(lockKey);
+                return;
+              }
 
-            if (typeof answer1 === "string" && typeof answer2 === "string") {
-              // Both are strings (yes/no answers)
-              isMatched = answer1 === answer2;
-            } else if (
-              typeof answer1 === "object" &&
-              typeof answer2 === "object" &&
-              answer1 !== null &&
-              answer2 !== null
-            ) {
-              // Both are MultiLanguageAnswer objects - compare by checking if they have the same index
-              // We compare by checking if any language matches (they should all match if same answer)
-              const a1 = answer1 as MultiLanguageAnswer;
-              const a2 = answer2 as MultiLanguageAnswer;
-              // Answers match if they have the same English text (or any language, but en is most reliable)
-              isMatched = a1.en === a2.en;
-            } else {
-              // Mixed types - no match
-              isMatched = false;
-            }
+              // Use lockedRoom which has the latest state and merge answers
+              const room = lockedRoom;
+              // Merge answers to ensure we have both players' answers
+              room.currentRound!.answers = latestAnswers;
 
-            currentRound.isMatched = isMatched;
-            currentRound.status = "completed";
-            room.totalQuestionsAnswered++;
+              // We already checked that currentRound exists above, so it's safe to use non-null assertion
+              const currentRound = room.currentRound!;
+              // Calculate match using the merged answers
+              const answers = Object.values(latestAnswers);
+              // Safety check: ensure we have exactly 2 answers
+              if (answers.length !== 2) {
+                console.error(
+                  `⚠️ Unexpected number of answers: ${answers.length} in room ${roomCode}`
+                );
+                socket.emit("critical-error", {
+                  message:
+                    "An error occurred while processing answers. The game will be reset.",
+                  code: "INVALID_ANSWER_COUNT",
+                });
+                await roomManager.resetRoom(roomCode);
+                await releaseLock(lockKey);
+                return;
+              }
 
-            if (isMatched) {
-              room.matchScore++;
-            }
+              // Compare answers - handle both string and MultiLanguageAnswer types
+              const answer1 = answers[0];
+              const answer2 = answers[1];
+              let isMatched = false;
 
-            // Save room to Redis
-            await roomManager.updateRoom(room);
+              if (typeof answer1 === "string" && typeof answer2 === "string") {
+                // Both are strings (yes/no answers)
+                isMatched = answer1 === answer2;
+              } else if (
+                typeof answer1 === "object" &&
+                typeof answer2 === "object" &&
+                answer1 !== null &&
+                answer2 !== null
+              ) {
+                // Both are MultiLanguageAnswer objects - compare by checking if they have the same index
+                // We compare by checking if any language matches (they should all match if same answer)
+                const a1 = answer1 as MultiLanguageAnswer;
+                const a2 = answer2 as MultiLanguageAnswer;
+                // Answers match if they have the same English text (or any language, but en is most reliable)
+                isMatched = a1.en === a2.en;
+              } else {
+                // Mixed types - no match
+                isMatched = false;
+              }
 
-            // Prepare player answers for frontend (with names and avatars)
-            const playerAnswers = room.players.map((p) => ({
-              playerId: p.id,
-              playerName: p.name,
-              avatar: p.avatar,
-              answer: currentRound.answers[p.id],
-            }));
+              currentRound.isMatched = isMatched;
+              currentRound.status = "completed";
+              room.totalQuestionsAnswered++;
 
-            // Reset hasAnswered flags
-            room.players.forEach((p) => (p.hasAnswered = false));
-
-            // Move to completed rounds
-            room.completedRounds.push(currentRound);
-
-            // Save room to Redis
-            await roomManager.updateRoom(room);
-
-            // Send results to all players
-            // Calculate percentage safely (avoid division by zero)
-            const percentage =
-              room.totalQuestionsAnswered > 0
-                ? Math.round(
-                    (room.matchScore / room.totalQuestionsAnswered) * 100
-                  )
-                : 0;
-
-            io.to(roomCode).emit("round-completed", {
-              allPlayersAnswered: true, // ✅ Flag for frontend
-              isMatched: isMatched,
-              playerAnswers: playerAnswers, // ✅ Who answered what
-              question: currentRound.question,
-              matchScore: room.matchScore,
-              totalQuestions: room.totalQuestionsAnswered,
-              percentage: percentage,
-            });
-
-            // Check if game is finished
-            if (room.currentQuestionIndex >= room.questions.length - 1) {
-              // Game finished!
-              room.status = "finished";
-              room.currentRound = null;
+              if (isMatched) {
+                room.matchScore++;
+              }
 
               // Save room to Redis
               await roomManager.updateRoom(room);
-              // Wait for resultDisplayDuration before showing final results
-              // This gives users time to see the last question's result
-              setTimeout(async () => {
-                // Re-fetch room in case it was deleted
-                const currentRoom = await roomManager.getRoom(roomCode);
-                if (!currentRoom) {
-                  return;
-                }
 
-                // Calculate percentage safely (avoid division by zero)
-                const percentage =
-                  currentRoom.totalQuestionsAnswered > 0
-                    ? Math.round(
-                        (currentRoom.matchScore /
-                          currentRoom.totalQuestionsAnswered) *
-                          100
-                      )
-                    : 0;
+              // Prepare player answers for frontend (with names and avatars)
+              const playerAnswers = room.players.map((p) => ({
+                playerId: p.id,
+                playerName: p.name,
+                avatar: p.avatar,
+                answer: currentRound.answers[p.id],
+              }));
 
-                io.to(roomCode).emit("game-finished", {
-                  matchScore: currentRoom.matchScore,
-                  totalQuestions: currentRoom.totalQuestionsAnswered,
-                  percentage: percentage,
-                  completedRounds: currentRoom.completedRounds,
-                });
+              // Reset hasAnswered flags
+              room.players.forEach((p) => (p.hasAnswered = false));
 
-                const finalRoom = await roomManager.getRoom(roomCode);
-                if (finalRoom) {
-                  await roomManager.resetRoom(roomCode);
-                }
-              }, room.settings.resultDisplayDuration * 1000);
-            } else {
-              // Move to next question
-              setTimeout(async () => {
-                // Re-fetch room in case it was deleted or modified
-                const currentRoom = await roomManager.getRoom(roomCode);
-                if (!currentRoom) {
-                  return;
-                }
+              // Move to completed rounds
+              room.completedRounds.push(currentRound);
 
-                // Race condition protection: If round is already moved to next question, another timeout already processed this
-                if (
-                  !currentRoom.currentRound ||
-                  currentRoom.currentRound.status !== "completed"
-                ) {
-                  // Another timeout already moved to next question or game was reset
-                  return;
-                }
+              // Save room to Redis
+              await roomManager.updateRoom(room);
 
-                // Check if we still have 2 players
-                if (currentRoom.players.length < 2) {
-                  currentRoom.status = "waiting";
-                  io.to(roomCode).emit("game-cancelled", {
-                    message:
-                      "A player left during the game. Game has been cancelled.",
-                    room: currentRoom,
-                  });
-                  await roomManager.resetRoom(roomCode);
-                  return;
-                }
+              // Send results to all players
+              // Calculate percentage safely (avoid division by zero)
+              const percentage =
+                room.totalQuestionsAnswered > 0
+                  ? Math.round(
+                      (room.matchScore / room.totalQuestionsAnswered) * 100
+                    )
+                  : 0;
 
-                currentRoom.currentQuestionIndex++;
+              io.to(roomCode).emit("round-completed", {
+                allPlayersAnswered: true, // ✅ Flag for frontend
+                isMatched: isMatched,
+                playerAnswers: playerAnswers, // ✅ Who answered what
+                question: currentRound.question,
+                matchScore: room.matchScore,
+                totalQuestions: room.totalQuestionsAnswered,
+                percentage: percentage,
+              });
 
-                // Check if next question index is valid
-                if (
-                  currentRoom.currentQuestionIndex >=
-                  currentRoom.questions.length
-                ) {
-                  currentRoom.status = "finished";
-                  currentRoom.currentRound = null;
+              // Release lock after sending round-completed event
+              await releaseLock(lockKey);
 
-                  // Save room to Redis
-                  await roomManager.updateRoom(currentRoom);
+              // Check if game is finished
+              if (room.currentQuestionIndex >= room.questions.length - 1) {
+                // Game finished!
+                room.status = "finished";
+                room.currentRound = null;
 
+                // Save room to Redis
+                await roomManager.updateRoom(room);
+                // Wait for resultDisplayDuration before showing final results
+                // This gives users time to see the last question's result
+                setTimeout(async () => {
+                  // Re-fetch room in case it was deleted
+                  const currentRoom = await roomManager.getRoom(roomCode);
+                  if (!currentRoom) {
+                    return;
+                  }
+
+                  // Calculate percentage safely (avoid division by zero)
                   const percentage =
                     currentRoom.totalQuestionsAnswered > 0
                       ? Math.round(
@@ -784,51 +755,123 @@ io.on(
                     percentage: percentage,
                     completedRounds: currentRoom.completedRounds,
                   });
-                  return;
-                }
 
-                const nextQuestion =
-                  currentRoom.questions[currentRoom.currentQuestionIndex];
+                  const finalRoom = await roomManager.getRoom(roomCode);
+                  if (finalRoom) {
+                    await roomManager.resetRoom(roomCode);
+                  }
+                }, room.settings.resultDisplayDuration * 1000);
+              } else {
+                // Move to next question
+                setTimeout(async () => {
+                  // Re-fetch room in case it was deleted or modified
+                  const currentRoom = await roomManager.getRoom(roomCode);
+                  if (!currentRoom) {
+                    return;
+                  }
 
-                if (!nextQuestion) {
-                  console.error(
-                    `⚠️ Next question is undefined in room ${roomCode} at index ${currentRoom.currentQuestionIndex}`
-                  );
-                  currentRoom.status = "finished";
-                  currentRoom.currentRound = null;
+                  // Race condition protection: If round is already moved to next question, another timeout already processed this
+                  if (
+                    !currentRoom.currentRound ||
+                    currentRoom.currentRound.status !== "completed"
+                  ) {
+                    // Another timeout already moved to next question or game was reset
+                    return;
+                  }
+
+                  // Check if we still have 2 players
+                  if (currentRoom.players.length < 2) {
+                    currentRoom.status = "waiting";
+                    io.to(roomCode).emit("game-cancelled", {
+                      message:
+                        "A player left during the game. Game has been cancelled.",
+                      room: currentRoom,
+                    });
+                    await roomManager.resetRoom(roomCode);
+                    return;
+                  }
+
+                  currentRoom.currentQuestionIndex++;
+
+                  // Check if next question index is valid
+                  if (
+                    currentRoom.currentQuestionIndex >=
+                    currentRoom.questions.length
+                  ) {
+                    currentRoom.status = "finished";
+                    currentRoom.currentRound = null;
+
+                    // Save room to Redis
+                    await roomManager.updateRoom(currentRoom);
+
+                    const percentage =
+                      currentRoom.totalQuestionsAnswered > 0
+                        ? Math.round(
+                            (currentRoom.matchScore /
+                              currentRoom.totalQuestionsAnswered) *
+                              100
+                          )
+                        : 0;
+
+                    io.to(roomCode).emit("game-finished", {
+                      matchScore: currentRoom.matchScore,
+                      totalQuestions: currentRoom.totalQuestionsAnswered,
+                      percentage: percentage,
+                      completedRounds: currentRoom.completedRounds,
+                    });
+                    return;
+                  }
+
+                  const nextQuestion =
+                    currentRoom.questions[currentRoom.currentQuestionIndex];
+
+                  if (!nextQuestion) {
+                    console.error(
+                      `⚠️ Next question is undefined in room ${roomCode} at index ${currentRoom.currentQuestionIndex}`
+                    );
+                    currentRoom.status = "finished";
+                    currentRoom.currentRound = null;
+
+                    // Save room to Redis
+                    await roomManager.updateRoom(currentRoom);
+
+                    io.to(roomCode).emit("game-cancelled", {
+                      message: "An error occurred loading the next question.",
+                      room: currentRoom,
+                    });
+                    return;
+                  }
+
+                  currentRoom.currentRound = {
+                    question: nextQuestion,
+                    answers: {
+                      [currentRoom.players[0].id]: null,
+                      [currentRoom.players[1].id]: null,
+                    },
+                    isMatched: null,
+                    status: "waiting_answers",
+                  };
 
                   // Save room to Redis
                   await roomManager.updateRoom(currentRoom);
 
-                  io.to(roomCode).emit("game-cancelled", {
-                    message: "An error occurred loading the next question.",
-                    room: currentRoom,
+                  const nextStartTime = Date.now();
+                  io.to(roomCode).emit("next-question", {
+                    question: nextQuestion,
+                    currentQuestionIndex: currentRoom.currentQuestionIndex,
+                    totalQuestions: currentRoom.questions.length,
+                    serverTime: nextStartTime,
+                    duration: currentRoom.settings.questionDuration,
                   });
-                  return;
-                }
-
-                currentRoom.currentRound = {
-                  question: nextQuestion,
-                  answers: {
-                    [currentRoom.players[0].id]: null,
-                    [currentRoom.players[1].id]: null,
-                  },
-                  isMatched: null,
-                  status: "waiting_answers",
-                };
-
-                // Save room to Redis
-                await roomManager.updateRoom(currentRoom);
-
-                const nextStartTime = Date.now();
-                io.to(roomCode).emit("next-question", {
-                  question: nextQuestion,
-                  currentQuestionIndex: currentRoom.currentQuestionIndex,
-                  totalQuestions: currentRoom.questions.length,
-                  serverTime: nextStartTime,
-                  duration: currentRoom.settings.questionDuration,
-                });
-              }, room.settings.resultDisplayDuration * 1000); // Dynamic delay from settings
+                }, room.settings.resultDisplayDuration * 1000); // Dynamic delay from settings
+              }
+            } catch (lockError) {
+              console.error("Error processing round completion:", lockError);
+              await releaseLock(lockKey);
+              socket.emit("critical-error", {
+                message: "An error occurred while processing the round.",
+                code: "ROUND_COMPLETION_ERROR",
+              });
             }
           }
         } catch (error) {
