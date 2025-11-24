@@ -534,18 +534,21 @@ io.on(
           // CRITICAL FIX: Lock the entire answer submission process
           // This prevents two players from overwriting each other's answers
           const answerLockKey = `lock:answer:${roomCode}:${questionId}`;
-          const answerLockAcquired = await acquireLock(answerLockKey, 5);
+
+          // Try to acquire lock with retries (max 5 attempts, 100ms between each)
+          let answerLockAcquired = false;
+          for (let i = 0; i < 5; i++) {
+            answerLockAcquired = await acquireLock(answerLockKey, 5);
+            if (answerLockAcquired) break;
+
+            // Wait 100ms before retry (another player is writing their answer)
+            await new Promise((resolve) => setTimeout(resolve, 100));
+          }
 
           if (!answerLockAcquired) {
-            // Wait a bit and try again (another player is writing their answer)
-            await new Promise((resolve) => setTimeout(resolve, 100));
-            const retryLock = await acquireLock(answerLockKey, 5);
-            if (!retryLock) {
-              socket.emit("room-error", {
-                message: "Server is busy, please try again.",
-              });
-              return;
-            }
+            // Still couldn't acquire lock after retries, silently fail
+            // The other player will complete the round
+            return;
           }
 
           try {
