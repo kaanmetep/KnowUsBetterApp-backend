@@ -779,15 +779,9 @@ io.on(
                 } else {
                   // Move to next question
                   setTimeout(async () => {
-                    console.log(
-                      `⏰ setTimeout triggered for room ${roomCode}, moving to next question`
-                    );
                     // Re-fetch room in case it was deleted or modified
                     const currentRoom = await roomManager.getRoom(roomCode);
                     if (!currentRoom) {
-                      console.log(
-                        `❌ Room ${roomCode} not found in setTimeout`
-                      );
                       return;
                     }
 
@@ -797,9 +791,6 @@ io.on(
                       currentRoom.currentRound.status !== "completed"
                     ) {
                       // Another timeout already moved to next question or game was reset
-                      console.log(
-                        `⚠️ Round already processed for room ${roomCode}, skipping`
-                      );
                       return;
                     }
 
@@ -880,9 +871,6 @@ io.on(
                     await roomManager.updateRoom(currentRoom);
 
                     const nextStartTime = Date.now();
-                    console.log(
-                      `📤 Sending next-question to room ${roomCode}, question index: ${currentRoom.currentQuestionIndex}`
-                    );
                     io.to(roomCode).emit("next-question", {
                       question: nextQuestion,
                       currentQuestionIndex: currentRoom.currentQuestionIndex,
