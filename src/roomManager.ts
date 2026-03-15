@@ -127,7 +127,7 @@ export class RoomManager {
         totalQuestions: 10,
         category: category,
         questionDuration: 15, // 15 seconds to answer
-        resultDisplayDuration: 5, // 5 seconds to show results
+        resultDisplayDuration: 4, // 4 seconds to show results
       },
     };
 

@@ -38,6 +38,7 @@ import {
 } from "./utils/ipSocketLimiter.js";
 import { attachSocketRateLimiter } from "./middleware/socketRateLimiter.js";
 import { acquireLock, releaseLock } from "./utils/redis.js";
+import aiAnalysisRouter from "./routes/aiAnalysis.js";
 
 const app = express();
 const httpServer = createServer(app);
@@ -70,6 +71,11 @@ app.use(
   })
 );
 app.use(express.json());
+
+// ============================================
+// AI ANALYSIS ROUTE
+// ============================================
+app.use("/api/ai-analysis", aiAnalysisRouter);
 
 // ============================================
 // SUPABASE CONFIGURATION
@@ -768,7 +774,24 @@ io.on(
                       matchScore: currentRoom.matchScore,
                       totalQuestions: currentRoom.totalQuestionsAnswered,
                       percentage: percentage,
-                      completedRounds: currentRoom.completedRounds,
+                      completedRounds: currentRoom.completedRounds.map(
+                        (round) => ({
+                          ...round,
+                          question: {
+                            ...round.question,
+                            // Flatten texts for AI analysis compatibility
+                            text_en: round.question.texts.text_en,
+                            text_tr: round.question.texts.text_tr,
+                            text_es: round.question.texts.text_es,
+                          },
+                          playerAnswers: currentRoom.players.map((p) => ({
+                            playerId: p.id,
+                            playerName: p.name,
+                            avatar: p.avatar,
+                            answer: round.answers[p.id],
+                          })),
+                        })
+                      ),
                     });
 
                     const finalRoom = await roomManager.getRoom(roomCode);
