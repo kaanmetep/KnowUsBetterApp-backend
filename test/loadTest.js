@@ -29,7 +29,7 @@ const sockets = [];
 const socketRooms = new Map(); // socket.id -> roomCode
 
 // Categories for testing
-const categories = ["just_friends", "we_just_met", "long_term"];
+const categories = ["just_friends", "we_just_met", "long_term", "deep_talk"];
 const avatars = [
   "boy_avatar_1",
   "boy_avatar_2",

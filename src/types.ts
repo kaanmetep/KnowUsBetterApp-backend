@@ -1,6 +1,11 @@
 export type RoomStatus = "waiting" | "playing" | "finished";
 
-export type Category = "just_friends" | "we_just_met" | "long_term" | "spicy";
+export type Category =
+  | "just_friends"
+  | "we_just_met"
+  | "long_term"
+  | "spicy"
+  | "deep_talk";
 
 export interface Question {
   id: string; // UUID from Supabase
