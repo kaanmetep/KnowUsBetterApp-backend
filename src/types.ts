@@ -6,6 +6,7 @@ export type Category =
   | "long_term"
   | "spicy"
   | "deep_talk"
+  | "future_talk"
   | "know_me_well";
 
 export interface Question {
