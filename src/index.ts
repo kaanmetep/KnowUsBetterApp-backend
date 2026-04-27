@@ -1,4 +1,8 @@
-import "dotenv/config";
+import dotenv from "dotenv";
+dotenv.config();
+if (process.env.NODE_ENV) {
+  dotenv.config({ path: `.env.${process.env.NODE_ENV}`, override: true });
+}
 import express from "express";
 import { createServer } from "http";
 import { Server, Socket } from "socket.io";
@@ -68,7 +72,7 @@ app.use(
             }
           },
     credentials: false,
-  })
+  }),
 );
 app.use(express.json());
 
@@ -126,21 +130,21 @@ const IS_REACT_NATIVE_ONLY =
 const ALLOWED_ORIGINS = IS_REACT_NATIVE_ONLY
   ? [] // Empty means only React Native (no web origins allowed)
   : CORS_ORIGIN === "*"
-  ? ["*"]
-  : CORS_ORIGIN.split(",").map((origin) => origin.trim());
+    ? ["*"]
+    : CORS_ORIGIN.split(",").map((origin) => origin.trim());
 
 // Production mode CORS security check
 if (process.env.NODE_ENV === "production") {
   if (IS_REACT_NATIVE_ONLY) {
     console.log(
-      "✅ CORS configured for React Native only - web origins blocked"
+      "✅ CORS configured for React Native only - web origins blocked",
     );
   } else if (CORS_ORIGIN === "*" || !process.env.CORS_ORIGIN) {
     console.warn(
-      "⚠️  WARNING: CORS_ORIGIN is set to '*' or not specified in production mode."
+      "⚠️  WARNING: CORS_ORIGIN is set to '*' or not specified in production mode.",
     );
     console.warn(
-      "⚠️  This allows connections from any web origin. For React Native only, set CORS_ORIGIN to empty string or 'REACT_NATIVE_ONLY'."
+      "⚠️  This allows connections from any web origin. For React Native only, set CORS_ORIGIN to empty string or 'REACT_NATIVE_ONLY'.",
     );
   } else {
     console.log(`✅ CORS_ORIGIN configured for production: ${CORS_ORIGIN}`);
@@ -150,7 +154,7 @@ if (process.env.NODE_ENV === "production") {
 // Check if origin is allowed (for Socket.IO connection)
 function isOriginAllowed(
   origin: string | undefined,
-  userAgent: string | undefined
+  userAgent: string | undefined,
 ): boolean {
   // React Native apps and Socket.IO clients don't send origin header
   if (!origin) {
@@ -246,7 +250,7 @@ const io = new Server<
       callback(null, true);
     } else {
       console.warn(
-        `🚫 Blocked connection attempt from origin: ${origin}, user-agent: ${userAgent}`
+        `🚫 Blocked connection attempt from origin: ${origin}, user-agent: ${userAgent}`,
       );
       callback(null, false);
     }
@@ -262,7 +266,7 @@ const roomManager = new RoomManager();
 io.on(
   "connection",
   (
-    socket: Socket<ClientToServerEvents, ServerToClientEvents, {}, SocketData>
+    socket: Socket<ClientToServerEvents, ServerToClientEvents, {}, SocketData>,
   ) => {
     // IP bazlı socket limiti kontrolü
     const clientIP = getClientIP(socket);
@@ -270,7 +274,7 @@ io.on(
 
     if (!socketLimitCheck.allowed) {
       console.warn(
-        `⚠️ Socket connection blocked for IP ${clientIP}: ${socketLimitCheck.reason}`
+        `⚠️ Socket connection blocked for IP ${clientIP}: ${socketLimitCheck.reason}`,
       );
       socket.emit("critical-error", {
         message: "Connection limit exceeded. Please try again later.",
@@ -306,7 +310,7 @@ io.on(
             socket.id,
             playerName,
             avatar,
-            category
+            category,
           );
           socket.join(room.roomCode);
 
@@ -323,7 +327,7 @@ io.on(
             message: "Failed to create room. Please try again.",
           });
         }
-      }
+      },
     );
 
     // 2. Join Room
@@ -335,7 +339,7 @@ io.on(
             roomCode,
             socket.id,
             playerName,
-            avatar
+            avatar,
           );
 
           if (result.success) {
@@ -361,7 +365,7 @@ io.on(
             message: "Failed to join room. Please try again.",
           });
         }
-      }
+      },
     );
 
     // 3. Get Room Info
@@ -436,7 +440,7 @@ io.on(
           const questions = await fetchRandomQuestions(
             room.settings.category,
             room.settings.totalQuestions,
-            supabaseAdmin
+            supabaseAdmin,
           );
 
           // Store questions in room
@@ -587,7 +591,7 @@ io.on(
                 playerAnswer = answerObject;
               } else {
                 console.warn(
-                  `⚠️ Answer "${answer}" not found in question ${questionId} answers array. Saving as string.`
+                  `⚠️ Answer "${answer}" not found in question ${questionId} answers array. Saving as string.`,
                 );
                 playerAnswer = answer;
               }
@@ -618,7 +622,7 @@ io.on(
 
             // Check if all players have answered
             const allAnswered = Object.values(
-              lockedRoom.currentRound.answers
+              lockedRoom.currentRound.answers,
             ).every((ans) => ans !== null);
 
             if (allAnswered) {
@@ -653,7 +657,7 @@ io.on(
                 // Safety check: ensure we have exactly 2 answers
                 if (answers.length !== 2) {
                   console.error(
-                    `⚠️ Unexpected number of answers: ${answers.length} in room ${roomCode}`
+                    `⚠️ Unexpected number of answers: ${answers.length} in room ${roomCode}`,
                   );
                   socket.emit("critical-error", {
                     message:
@@ -726,7 +730,7 @@ io.on(
                 const percentage =
                   room.totalQuestionsAnswered > 0
                     ? Math.round(
-                        (room.matchScore / room.totalQuestionsAnswered) * 100
+                        (room.matchScore / room.totalQuestionsAnswered) * 100,
                       )
                     : 0;
 
@@ -766,7 +770,7 @@ io.on(
                         ? Math.round(
                             (currentRoom.matchScore /
                               currentRoom.totalQuestionsAnswered) *
-                              100
+                              100,
                           )
                         : 0;
 
@@ -790,7 +794,7 @@ io.on(
                             avatar: p.avatar,
                             answer: round.answers[p.id],
                           })),
-                        })
+                        }),
                       ),
                     });
 
@@ -847,7 +851,7 @@ io.on(
                           ? Math.round(
                               (currentRoom.matchScore /
                                 currentRoom.totalQuestionsAnswered) *
-                                100
+                                100,
                             )
                           : 0;
 
@@ -865,7 +869,7 @@ io.on(
 
                     if (!nextQuestion) {
                       console.error(
-                        `⚠️ Next question is undefined in room ${roomCode} at index ${currentRoom.currentQuestionIndex}`
+                        `⚠️ Next question is undefined in room ${roomCode} at index ${currentRoom.currentQuestionIndex}`,
                       );
                       currentRoom.status = "finished";
                       currentRoom.currentRound = null;
@@ -927,7 +931,7 @@ io.on(
             code: "SUBMIT_ANSWER_ERROR",
           });
         }
-      }
+      },
     );
 
     // 6. Kick Player (Host only)
@@ -961,7 +965,7 @@ io.on(
 
           // Check if target player exists
           const targetPlayer = room.players.find(
-            (p) => p.id === targetPlayerId
+            (p) => p.id === targetPlayerId,
           );
           if (!targetPlayer) {
             socket.emit("room-error", {
@@ -990,7 +994,7 @@ io.on(
 
           // Get target player's socket
           const targetSockets = Array.from(io.sockets.sockets.values()).filter(
-            (s) => s.id === targetPlayerId
+            (s) => s.id === targetPlayerId,
           );
 
           if (targetSockets.length > 0) {
@@ -1029,7 +1033,7 @@ io.on(
             message: "Failed to kick player. Please try again.",
           });
         }
-      }
+      },
     );
 
     // 7. Send Chat Message
@@ -1080,7 +1084,7 @@ io.on(
 
           if (timeSinceLastMessage < CHAT_RATE_LIMIT_MS) {
             const remainingTime = Math.ceil(
-              (CHAT_RATE_LIMIT_MS - timeSinceLastMessage) / 1000
+              (CHAT_RATE_LIMIT_MS - timeSinceLastMessage) / 1000,
             );
             socket.emit("room-error", {
               message: `Please wait ${remainingTime} second${
@@ -1099,7 +1103,7 @@ io.on(
             console.warn(
               `⚠️ Suspicious message blocked from ${player.name} (${
                 socket.id
-              }): ${trimmedMessage.substring(0, 50)}`
+              }): ${trimmedMessage.substring(0, 50)}`,
             );
             return;
           }
@@ -1124,7 +1128,7 @@ io.on(
             message: "Failed to send message. Please try again.",
           });
         }
-      }
+      },
     );
 
     // 9. Spend Coins
@@ -1154,7 +1158,7 @@ io.on(
 
       try {
         console.log(
-          `💰 Processing coin spend: ${amount} coins for user ${appUserId}`
+          `💰 Processing coin spend: ${amount} coins for user ${appUserId}`,
         );
 
         // Mevcut balance'ı al
@@ -1180,7 +1184,7 @@ io.on(
         // Yeterli coin var mı kontrol et
         if (currentBalance < amount) {
           console.warn(
-            `⚠️ Not enough coins. Required: ${amount}, Available: ${currentBalance}`
+            `⚠️ Not enough coins. Required: ${amount}, Available: ${currentBalance}`,
           );
           socket.emit("coins-spent", {
             appUserId,
@@ -1200,7 +1204,7 @@ io.on(
             app_user_id: appUserId,
             balance: newBalance,
           },
-          { onConflict: "app_user_id" }
+          { onConflict: "app_user_id" },
         );
 
         if (upsertError) {
@@ -1247,6 +1251,91 @@ io.on(
       }
     });
 
+    // 10. Claim Daily Reward
+    socket.on("claim-daily-reward", async ({ appUserId }) => {
+      if (
+        !appUserId ||
+        typeof appUserId !== "string" ||
+        appUserId.trim() === ""
+      ) {
+        socket.emit("daily-reward-claimed", {
+          appUserId,
+          success: false,
+          error: "invalid_user_id",
+        });
+        return;
+      }
+
+      if (!supabaseAdmin) {
+        socket.emit("daily-reward-claimed", {
+          appUserId,
+          success: false,
+          error: "server_error",
+        });
+        return;
+      }
+
+      try {
+        const { data } = await supabaseAdmin
+          .from("coins")
+          .select("balance, last_daily_reward_at")
+          .eq("app_user_id", appUserId)
+          .maybeSingle();
+
+        const now = new Date();
+
+        if (data?.last_daily_reward_at) {
+          const lastClaim = new Date(data.last_daily_reward_at).getTime();
+          const elapsed = now.getTime() - lastClaim;
+
+          if (elapsed < 6 * 60 * 60 * 1000) {
+            const nextClaimAt = new Date(
+              lastClaim + 6 * 60 * 60 * 1000,
+            ).toISOString();
+            socket.emit("daily-reward-claimed", {
+              appUserId,
+              success: false,
+              error: "not_eligible_yet",
+              nextClaimAt,
+            });
+            return;
+          }
+        }
+
+        const newBalance = (data?.balance ?? 0) + 1;
+        const nextClaimAt = new Date(
+          now.getTime() + 6 * 60 * 60 * 1000,
+        ).toISOString();
+
+        await supabaseAdmin.from("coins").upsert(
+          {
+            app_user_id: appUserId,
+            balance: newBalance,
+            last_daily_reward_at: now.toISOString(),
+          },
+          { onConflict: "app_user_id" },
+        );
+
+        console.log(
+          `🎁 Daily reward claimed by ${appUserId}. New balance: ${newBalance}`,
+        );
+
+        socket.emit("daily-reward-claimed", {
+          appUserId,
+          success: true,
+          newBalance,
+          nextClaimAt,
+        });
+      } catch (error) {
+        console.error("❌ Error processing daily reward:", error);
+        socket.emit("daily-reward-claimed", {
+          appUserId,
+          success: false,
+          error: "server_error",
+        });
+      }
+    });
+
     // 8. On Disconnect
     socket.on("disconnect", async () => {
       // Clean up IP-based socket limiter
@@ -1257,7 +1346,7 @@ io.on(
       if (appUserId) {
         userSockets.delete(appUserId);
         console.log(
-          `📝 User ${appUserId} unregistered from socket ${socket.id}`
+          `📝 User ${appUserId} unregistered from socket ${socket.id}`,
         );
       }
 
@@ -1296,6 +1385,52 @@ io.on(
         console.error("Error handling disconnect:", error);
       }
     });
+    // 11. Change Category (Host only, waiting room only)
+    socket.on(
+      "change-category",
+      async ({
+        roomCode,
+        category,
+      }: {
+        roomCode: string;
+        category: string;
+      }) => {
+        try {
+          const room = await roomManager.getRoom(roomCode);
+
+          if (!room) {
+            socket.emit("room-error", { message: "Room not found" });
+            return;
+          }
+
+          if (room.status !== "waiting") {
+            socket.emit("room-error", {
+              message: "Cannot change category after game has started",
+            });
+            return;
+          }
+
+          const player = room.players.find((p) => p.id === socket.id);
+          if (!player?.isHost) {
+            socket.emit("room-error", {
+              message: "Only the host can change the category",
+            });
+            return;
+          }
+
+          room.settings.category = category as any;
+          await roomManager.updateRoom(room);
+
+          io.to(roomCode).emit("category-changed", { room });
+        } catch (error) {
+          console.error("Error changing category:", error);
+          socket.emit("room-error", {
+            message: "Failed to change category. Please try again.",
+          });
+        }
+      },
+    );
+
     socket.on("leave-room", async ({ roomCode }: { roomCode: string }) => {
       try {
         const room = await roomManager.getRoom(roomCode);
@@ -1348,7 +1483,7 @@ io.on(
         });
       }
     });
-  }
+  },
 );
 
 // ============================================
@@ -1366,7 +1501,7 @@ app.get(
       const roomsCount = allRooms.length;
       const totalPlayers = allRooms.reduce(
         (sum, room) => sum + room.players.length,
-        0
+        0,
       );
 
       res.json({
@@ -1393,7 +1528,7 @@ app.get(
         message: error instanceof Error ? error.message : "Unknown error",
       });
     }
-  }
+  },
 );
 
 // ============================================
@@ -1434,7 +1569,7 @@ app.post(
         }
 
         console.log(
-          `💰 Processing purchase: ${coins} coins for user ${appUserId}`
+          `💰 Processing purchase: ${coins} coins for user ${appUserId}`,
         );
 
         // Get current balance
@@ -1459,7 +1594,7 @@ app.post(
             app_user_id: appUserId,
             balance: newBalance,
           },
-          { onConflict: "app_user_id" }
+          { onConflict: "app_user_id" },
         );
 
         if (upsertError) {
@@ -1493,7 +1628,7 @@ app.post(
           });
         } else {
           console.log(
-            `ℹ️ User ${appUserId} not connected via socket (will sync on next app open)`
+            `ℹ️ User ${appUserId} not connected via socket (will sync on next app open)`,
           );
         }
 
@@ -1508,7 +1643,7 @@ app.post(
       console.error("❌ Webhook error:", error);
       return res.status(500).json({ error: "Webhook processing failed" });
     }
-  }
+  },
 );
 
 // ============================================
@@ -1518,7 +1653,7 @@ app.post(
 // Handle uncaught exceptions (synchronous errors)
 process.on("uncaughtException", (error: Error) => {
   console.error(
-    "💥 UNCAUGHT EXCEPTION - Server will crash without this handler!"
+    "💥 UNCAUGHT EXCEPTION - Server will crash without this handler!",
   );
   console.error("Error:", error);
   console.error("Stack:", error.stack);
@@ -1569,15 +1704,15 @@ httpServer.listen(PORT, () => {
   const serverUrl = process.env.RENDER_EXTERNAL_URL
     ? process.env.RENDER_EXTERNAL_URL
     : process.env.RAILWAY_PUBLIC_DOMAIN
-    ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}`
-    : `http://localhost:${PORT}`;
+      ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}`
+      : `http://localhost:${PORT}`;
 
   console.log(`\n🚀 Socket.io server running on port ${PORT}`);
   console.log(`📱 Server URL: ${serverUrl}`);
   console.log(
     `📱 Connect from frontend: ${serverUrl
       .replace("http://", "ws://")
-      .replace("https://", "wss://")}\n`
+      .replace("https://", "wss://")}\n`,
   );
 });
 

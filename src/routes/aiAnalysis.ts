@@ -10,7 +10,7 @@ const router = Router();
 const aiAnalysisRateLimiter = createRateLimiter(
   3,
   60_000, // 1 minute
-  "Too many AI analysis requests. Please wait a minute before trying again."
+  "Too many AI analysis requests. Please wait a minute before trying again.",
 );
 
 // ============================================
@@ -33,6 +33,9 @@ interface AIAnalysisRequest {
   player2Name: string;
   matchPercentage: number;
   language: "tr" | "en" | "es";
+  analysisType?: "default" | "know_me_well";
+  player1AboutPlayer2Percentage?: number;
+  player2AboutPlayer1Percentage?: number;
 }
 
 // ============================================
@@ -56,7 +59,7 @@ const YES_NO_MAP: Record<string, Record<string, string>> = {
  */
 function resolveQuestionText(
   question: CompletedRound["question"],
-  language: string
+  language: string,
 ): string {
   const key = `text_${language}` as keyof typeof question;
   return question[key] || question.text_en || "";
@@ -69,7 +72,7 @@ function resolveQuestionText(
  */
 function resolveAnswer(
   answer: string | { en: string; tr: string; es: string },
-  language: string
+  language: string,
 ): string {
   if (typeof answer === "object" && answer !== null) {
     const langKey = language as keyof typeof answer;
@@ -90,10 +93,19 @@ function resolveAnswer(
 /**
  * Build the user message for OpenAI
  */
-function buildUserMessage(body: AIAnalysisRequest): string {
+function buildUserMessage(
+  body: AIAnalysisRequest,
+  analysisMode: "default" | "know_me_well",
+): string {
   const languageName = LANGUAGE_MAP[body.language] || "English";
   let message = `Language: ${languageName}\n`;
   message += `Match percentage: ${body.matchPercentage}%\n\n`;
+
+  if (analysisMode === "know_me_well") {
+    message += `${body.player1Name} about ${body.player2Name}: ${body.player1AboutPlayer2Percentage}%\n`;
+    message += `${body.player2Name} about ${body.player1Name}: ${body.player2AboutPlayer1Percentage}%\n\n`;
+  }
+
   message += `Game results:\n\n`;
 
   body.completedRounds.forEach((round, index) => {
@@ -116,7 +128,7 @@ function buildUserMessage(body: AIAnalysisRequest): string {
 // ============================================
 // SYSTEM PROMPT
 // ============================================
-const SYSTEM_PROMPT = `Sen bir ilişki uygulamasında çiftlerin oyun sonuçlarını analiz eden bir asistansın. Ama sen bir robot değilsin. Sen sanki onların yakın bir arkadaşıymış gibi yazıyorsun — samimi, sıcak, gerçekçi.
+const DEFAULT_SYSTEM_PROMPT = `Sen bir ilişki uygulamasında çiftlerin oyun sonuçlarını analiz eden bir asistansın. Ama sen bir robot değilsin. Sen sanki onların yakın bir arkadaşıymış gibi yazıyorsun — samimi, sıcak, gerçekçi.
 
 İki kişi bir uyumluluk oyunu oynadı. Soruları cevapladılar, bazılarında aynı cevabı verdiler, bazılarında farklı. Sen bu cevaplara bakarak onlara özel bir analiz yazacaksın.
 
@@ -143,6 +155,23 @@ JSON formatında SADECE şu yapıda cevap ver:
   "compatibility": "İki kişi arasındaki uyumun genel değerlendirmesi. EN AZ 7-8 cümle. Onların spesifik cevaplarına dayanarak bu iki kişinin birlikte nasıl bir dinamik oluşturduğunu anlat. Güçlü yanlarını, riskli noktalarını, birbirlerini nasıl tamamladıklarını veya çatıştıklarını DOBRA DOBRA yaz. Boş pohpohlama yok, yıkıcılık da yok — sadece acı gerçekler ve samimi gözlemler. Bu paragrafı okuyan kişi 'bu tam bizi anlatmış' demeli."
 }`;
 
+const KNOW_ME_WELL_SYSTEM_PROMPT = `Sen bir ilişki uygulamasında çiftlerin birbirlerini ne kadar tanıdığını analiz eden, onların en yakın arkadaşı tadında bir asistansın. Robot değilsin; samimi, sıcak, bazen hafif iğneleyici ama her zaman gerçekçi bir dil kullanıyorsun. Girdi olarak sana iki adet yüzde gelecek: player1'in player2'yi bilme oranı ve player2'nin player1'i bilme oranı.
+
+Sistem şu şekilde işliyor: Çiftler karşılıklı 10 soru cevapladı. Bu yüzdelere bakarak iki ayrı analiz yazacaksın.
+
+KURALLARIN:
+1. TONLAMA: Asla agresifleşme, kimseye kızma veya aşağılayıcı bir tona girme. Eğer bir taraf diğerini bilemediyse, bunu cidden mi bunu nasıl kaçırdın gibi şaşkın veya mizahi bir tonda, aranızdaki şakacı bir arkadaşlığın verdiği rahatlıkla dile getir.
+2. YÜZDE MANTIĞI: Eğer skor 100 ise, kesinlikle iğneleyici veya kusur arayıcı bir tona girme. Bu durumda sadece aralarındaki muazzam uyumu ve birbirlerini nasıl bu kadar iyi tanıdıklarını öven, ilişkinin ne kadar sağlam olduğunu vurgulayan harika cümleler kur. Eğer skor 100'ün altındaysa, aradaki küçük kopukluklara, dikkat edilmeyen detaylara veya gözden kaçanlara şakacı ve samimi bir dille, bir dostun gözlem yapması gibi değin.
+3. SORULARI TEKRARLAMA: Hangi soruya ne cevap verdiklerini hatırlatmaya çalışma. Soru listeleme, şunu dedin deme. Sonucu, yani aralarındaki durumun fotoğrafını dedikodu yapar gibi anlat.
+4. FORMAT: Asla Markdown (kalın, italik, liste) kullanma. Sadece düz paragraf yaz. Emoji kullanma.
+5. UZUNLUK: Her bir analiz en az 7-8 cümle olsun. İyice göm ya da tebrik et ama boş konuşma. Sadece durumu analiz et.
+
+JSON formatında SADECE şu yapıda cevap ver:
+{
+"player1AboutPlayer2": "Player 1'in, Player 2 hakkındaki tahminlerini değerlendiren, yukarıdaki kurallara uygun, samimi paragraf.",
+"player2AboutPlayer1": "Player 2'nin, Player 1 hakkındaki tahminlerini değerlendiren, yukarıdaki kurallara uygun, samimi paragraf."
+}`;
+
 // ============================================
 // POST /api/ai-analysis
 // ============================================
@@ -160,46 +189,110 @@ router.post(
       }
 
       // 2. Validate request body
-      const { completedRounds, player1Name, player2Name, matchPercentage, language } =
-        req.body as AIAnalysisRequest;
+      const {
+        completedRounds,
+        player1Name,
+        player2Name,
+        matchPercentage,
+        language,
+        analysisType,
+        player1AboutPlayer2Percentage,
+        player2AboutPlayer1Percentage,
+      } = req.body as AIAnalysisRequest;
 
-      if (!completedRounds || !Array.isArray(completedRounds) || completedRounds.length === 0) {
-        res.status(400).json({ error: "completedRounds is required and must be a non-empty array." });
+      if (
+        !completedRounds ||
+        !Array.isArray(completedRounds) ||
+        completedRounds.length === 0
+      ) {
+        res.status(400).json({
+          error: "completedRounds is required and must be a non-empty array.",
+        });
         return;
       }
 
       // Validate each round has playerAnswers
       for (const round of completedRounds) {
         if (!round.playerAnswers || !Array.isArray(round.playerAnswers)) {
-          res.status(400).json({ error: "Each round must have a playerAnswers array." });
+          res
+            .status(400)
+            .json({ error: "Each round must have a playerAnswers array." });
           return;
         }
       }
 
       if (!player1Name || typeof player1Name !== "string") {
-        res.status(400).json({ error: "player1Name is required and must be a string." });
+        res
+          .status(400)
+          .json({ error: "player1Name is required and must be a string." });
         return;
       }
 
       if (!player2Name || typeof player2Name !== "string") {
-        res.status(400).json({ error: "player2Name is required and must be a string." });
+        res
+          .status(400)
+          .json({ error: "player2Name is required and must be a string." });
         return;
       }
 
-      if (matchPercentage === undefined || matchPercentage === null || typeof matchPercentage !== "number") {
-        res.status(400).json({ error: "matchPercentage is required and must be a number." });
+      if (
+        matchPercentage === undefined ||
+        matchPercentage === null ||
+        typeof matchPercentage !== "number"
+      ) {
+        res
+          .status(400)
+          .json({ error: "matchPercentage is required and must be a number." });
         return;
       }
 
       if (!language || !["tr", "en", "es"].includes(language)) {
-        res.status(400).json({ error: "language is required and must be one of: tr, en, es." });
+        res.status(400).json({
+          error: "language is required and must be one of: tr, en, es.",
+        });
         return;
       }
 
-      // 3. Build user message
-      const userMessage = buildUserMessage(req.body as AIAnalysisRequest);
+      if (
+        analysisType !== undefined &&
+        analysisType !== "default" &&
+        analysisType !== "know_me_well"
+      ) {
+        res.status(400).json({
+          error: "analysisType must be one of: default, know_me_well.",
+        });
+        return;
+      }
 
-      console.log(`🤖 AI Analysis request: ${player1Name} & ${player2Name} (${language}, ${matchPercentage}%)`);
+      const analysisMode =
+        analysisType === "know_me_well" ? "know_me_well" : "default";
+
+      if (analysisMode === "know_me_well") {
+        if (
+          player1AboutPlayer2Percentage === undefined ||
+          player2AboutPlayer1Percentage === undefined ||
+          typeof player1AboutPlayer2Percentage !== "number" ||
+          typeof player2AboutPlayer1Percentage !== "number" ||
+          Number.isNaN(player1AboutPlayer2Percentage) ||
+          Number.isNaN(player2AboutPlayer1Percentage)
+        ) {
+          res.status(400).json({
+            error:
+              "player1AboutPlayer2Percentage and player2AboutPlayer1Percentage are required and must be numbers for know_me_well analysis.",
+          });
+          return;
+        }
+      }
+
+      // 3. Build user message
+      const userMessage = buildUserMessage(
+        req.body as AIAnalysisRequest,
+        analysisMode,
+      );
+
+      console.log(
+        `🤖 AI Analysis request: ${player1Name} & ${player2Name} (${language}, ${matchPercentage}%, ${analysisMode})`,
+      );
 
       // 4. Call OpenAI API
       const openai = new OpenAI({ apiKey });
@@ -209,7 +302,13 @@ router.post(
         max_tokens: 2000,
         response_format: { type: "json_object" },
         messages: [
-          { role: "system", content: SYSTEM_PROMPT },
+          {
+            role: "system",
+            content:
+              analysisMode === "know_me_well"
+                ? KNOW_ME_WELL_SYSTEM_PROMPT
+                : DEFAULT_SYSTEM_PROMPT,
+          },
           { role: "user", content: userMessage },
         ],
       });
@@ -218,36 +317,98 @@ router.post(
 
       if (!content) {
         console.error("❌ OpenAI returned empty response");
-        res.status(500).json({ error: "AI returned an empty response. Please try again." });
+        res
+          .status(500)
+          .json({ error: "AI returned an empty response. Please try again." });
         return;
       }
 
       // 5. Parse JSON response
-      let parsed: { strengths: string; differences: string; tips: string; compatibility: string };
+      let parsed:
+        | {
+            strengths: string;
+            differences: string;
+            tips: string;
+            compatibility: string;
+          }
+        | { player1AboutPlayer2: string; player2AboutPlayer1: string };
 
       try {
         parsed = JSON.parse(content);
       } catch (parseError) {
         console.error("❌ Failed to parse OpenAI response:", content);
-        res.status(500).json({ error: "Failed to parse AI response. Please try again." });
+        res
+          .status(500)
+          .json({ error: "Failed to parse AI response. Please try again." });
         return;
       }
 
-      // Validate parsed response has required fields
-      if (!parsed.strengths || !parsed.differences || !parsed.tips || !parsed.compatibility) {
-        console.error("❌ OpenAI response missing required fields:", parsed);
-        res.status(500).json({ error: "AI response is incomplete. Please try again." });
-        return;
-      }
-
-      console.log(`✅ AI Analysis completed for ${player1Name} & ${player2Name}`);
+      console.log(
+        `✅ AI Analysis completed for ${player1Name} & ${player2Name}`,
+      );
 
       // 6. Return result
+      if (analysisMode === "know_me_well") {
+        const knowMeWell = parsed as {
+          player1AboutPlayer2?: unknown;
+          player2AboutPlayer1?: unknown;
+        };
+
+        if (
+          typeof knowMeWell.player1AboutPlayer2 !== "string" ||
+          typeof knowMeWell.player2AboutPlayer1 !== "string" ||
+          knowMeWell.player1AboutPlayer2.trim() === "" ||
+          knowMeWell.player2AboutPlayer1.trim() === ""
+        ) {
+          console.error(
+            "❌ OpenAI response missing required fields (know_me_well):",
+            parsed,
+          );
+          res
+            .status(500)
+            .json({ error: "AI response is incomplete. Please try again." });
+          return;
+        }
+
+        res.json({
+          player1AboutPlayer2: knowMeWell.player1AboutPlayer2,
+          player2AboutPlayer1: knowMeWell.player2AboutPlayer1,
+        });
+        return;
+      }
+
+      const defaultAnalysis = parsed as {
+        strengths?: unknown;
+        differences?: unknown;
+        tips?: unknown;
+        compatibility?: unknown;
+      };
+
+      if (
+        typeof defaultAnalysis.strengths !== "string" ||
+        typeof defaultAnalysis.differences !== "string" ||
+        typeof defaultAnalysis.tips !== "string" ||
+        typeof defaultAnalysis.compatibility !== "string" ||
+        defaultAnalysis.strengths.trim() === "" ||
+        defaultAnalysis.differences.trim() === "" ||
+        defaultAnalysis.tips.trim() === "" ||
+        defaultAnalysis.compatibility.trim() === ""
+      ) {
+        console.error(
+          "❌ OpenAI response missing required fields (default):",
+          parsed,
+        );
+        res
+          .status(500)
+          .json({ error: "AI response is incomplete. Please try again." });
+        return;
+      }
+
       res.json({
-        strengths: parsed.strengths,
-        differences: parsed.differences,
-        tips: parsed.tips,
-        compatibility: parsed.compatibility,
+        strengths: defaultAnalysis.strengths,
+        differences: defaultAnalysis.differences,
+        tips: defaultAnalysis.tips,
+        compatibility: defaultAnalysis.compatibility,
       });
     } catch (error: any) {
       console.error("❌ AI Analysis error:", error);
@@ -259,18 +420,25 @@ router.post(
       }
 
       if (error?.status === 429) {
-        res.status(429).json({ error: "OpenAI rate limit exceeded. Please try again later." });
+        res.status(429).json({
+          error: "OpenAI rate limit exceeded. Please try again later.",
+        });
         return;
       }
 
       if (error?.status === 500 || error?.status === 503) {
-        res.status(502).json({ error: "OpenAI service is temporarily unavailable. Please try again later." });
+        res.status(502).json({
+          error:
+            "OpenAI service is temporarily unavailable. Please try again later.",
+        });
         return;
       }
 
-      res.status(500).json({ error: "An unexpected error occurred during AI analysis." });
+      res
+        .status(500)
+        .json({ error: "An unexpected error occurred during AI analysis." });
     }
-  }
+  },
 );
 
 export default router;

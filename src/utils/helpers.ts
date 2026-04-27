@@ -90,6 +90,14 @@ export interface ServerToClientEvents {
     success: boolean;
     error?: string;
   }) => void;
+  "daily-reward-claimed": (data: {
+    appUserId: string;
+    success: boolean;
+    newBalance?: number;
+    nextClaimAt?: string;
+    error?: string;
+  }) => void;
+  "category-changed": (data: { room: any }) => void;
 }
 
 export interface ClientToServerEvents {
@@ -107,6 +115,8 @@ export interface ClientToServerEvents {
     amount: number;
     transactionType?: string;
   }) => void;
+  "claim-daily-reward": (data: { appUserId: string }) => void;
+  "change-category": (data: { roomCode: string; category: Category }) => void;
 }
 
 // Get coins from product id.

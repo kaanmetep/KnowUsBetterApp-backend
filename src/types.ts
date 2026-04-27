@@ -5,7 +5,8 @@ export type Category =
   | "we_just_met"
   | "long_term"
   | "spicy"
-  | "deep_talk";
+  | "deep_talk"
+  | "know_me_well";
 
 export interface Question {
   id: string; // UUID from Supabase
