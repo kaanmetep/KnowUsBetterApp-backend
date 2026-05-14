@@ -19,10 +19,16 @@
     "test:load": "node test/loadTest.js",
     "test:load:local": "cross-env TEST_SERVER_URL=http://localhost:3000 node test/loadTest.js",
     "test:load:render": "cross-env TEST_SERVER_URL=https://knowusbetterapp-backend.onrender.com node test/loadTest.js",
-    "test:random": "node --loader ts-node/esm test/testRandomQuestions.ts"
+    "test:random": "node --loader ts-node/esm test/testRandomQuestions.ts",
+    "test:notifications": "node --import tsx --test test/notifications.test.ts",
+    "test:admin-push": "node test/testAdminPush.js",
+    "test:admin-push:local": "cross-env TEST_SERVER_URL=http://localhost:3000 node test/testAdminPush.js",
+    "test:admin-push:phone": "cross-env TEST_SERVER_URL=http://192.168.1.133:3000 node test/testAdminPush.js",
+    "test:admin-push:phone:e2e": "cross-env TEST_SERVER_URL=http://192.168.1.133:3000 IOS_TEST_DEVICE_TOKEN=87e8add492b37aa929214c2a0126b71fc1b2c3102cd0f8d54d042f296f3bd6f8 node test/testAdminPush.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.80.0",
+    "apn": "^2.2.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^4.18.2",
