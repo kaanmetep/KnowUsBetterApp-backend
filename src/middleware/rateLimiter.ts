@@ -1,7 +1,6 @@
 import express from "express";
 
-// Rate limiting storage: IP -> { count, resetTime }
-const rateLimitStore = new Map<string, { count: number; resetTime: number }>();
+type RateLimitStore = Map<string, { count: number; resetTime: number }>;
 
 /**
  * Get client IP from request
@@ -38,6 +37,9 @@ export function createRateLimiter(
   windowMs: number,
   message?: string
 ) {
+  // Rate limiting storage per limiter: IP -> { count, resetTime }
+  const rateLimitStore: RateLimitStore = new Map();
+
   return (
     req: express.Request,
     res: express.Response,
@@ -59,7 +61,7 @@ export function createRateLimiter(
 
       // Cleanup old entries periodically (every 100 requests check)
       if (rateLimitStore.size % 100 === 0) {
-        cleanupExpiredEntries(now);
+        cleanupExpiredEntries(rateLimitStore, now);
       }
 
       return next();
@@ -100,7 +102,7 @@ export function createRateLimiter(
 /**
  * Cleanup expired entries from rate limit store
  */
-function cleanupExpiredEntries(now: number): void {
+function cleanupExpiredEntries(rateLimitStore: RateLimitStore, now: number): void {
   for (const [ip, entry] of rateLimitStore.entries()) {
     if (now > entry.resetTime) {
       rateLimitStore.delete(ip);

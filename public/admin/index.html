@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="KUB Admin" />
+    <meta name="theme-color" content="#0f1117" />
+    <title>KUB Admin</title>
+    <style>
+      :root {
+        --bg: #0f1117;
+        --panel: #181b24;
+        --panel-2: #20242f;
+        --border: #2c3140;
+        --text: #e8eaf0;
+        --muted: #8b92a6;
+        --accent: #7c8cff;
+        --accent-2: #5b6cf0;
+        --danger: #ff6b6b;
+        --ok: #4ade80;
+        --warn: #fbbf24;
+        --radius: 14px;
+      }
+      * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+      html, body { margin: 0; background: var(--bg); color: var(--text); }
+      body {
+        font: 16px/1.45 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+        padding: env(safe-area-inset-top) 0 calc(env(safe-area-inset-bottom) + 24px);
+        min-height: 100vh;
+      }
+      .hidden { display: none !important; }
+      .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px; }
+
+      header {
+        position: sticky; top: 0; z-index: 10;
+        background: rgba(15, 17, 23, 0.92);
+        backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid var(--border);
+        padding-top: env(safe-area-inset-top);
+      }
+      .topbar { display: flex; align-items: center; justify-content: space-between; padding: 12px 0 8px; }
+      .topbar h1 { font-size: 18px; margin: 0; letter-spacing: 0.2px; }
+      .tabs { display: flex; gap: 6px; padding-bottom: 10px; }
+      .tab {
+        flex: 1; padding: 10px 0; border-radius: 10px; border: 1px solid var(--border);
+        background: var(--panel); color: var(--muted); font-weight: 600; font-size: 15px;
+      }
+      .tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+      button { font: inherit; cursor: pointer; }
+      .btn {
+        display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+        padding: 13px 18px; border-radius: 12px; border: 1px solid var(--border);
+        background: var(--panel-2); color: var(--text); font-weight: 600;
+      }
+      .btn:disabled { opacity: 0.5; }
+      .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+      .btn.danger { background: transparent; border-color: var(--danger); color: var(--danger); }
+      .btn.ghost { background: transparent; }
+      .btn.small { padding: 7px 12px; font-size: 14px; border-radius: 9px; }
+      .btn.block { width: 100%; }
+      .row { display: flex; gap: 8px; }
+      .row > * { flex: 1; }
+
+      .card {
+        background: var(--panel); border: 1px solid var(--border);
+        border-radius: var(--radius); padding: 16px; margin-top: 14px;
+      }
+      label { display: block; font-size: 13px; color: var(--muted); margin: 14px 0 6px; font-weight: 600; }
+      input[type="text"], input[type="password"], textarea, select {
+        width: 100%; padding: 12px 13px; border-radius: 11px; border: 1px solid var(--border);
+        background: var(--bg); color: var(--text); font: inherit; font-size: 16px;
+      }
+      textarea { resize: vertical; min-height: 64px; }
+      textarea.code {
+        font: 14px/1.5 ui-monospace, "SF Mono", Menlo, monospace; min-height: 220px;
+        white-space: pre; overflow-wrap: normal; overflow-x: auto;
+      }
+      input:focus, textarea:focus, select:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+
+      .login { min-height: 80vh; display: flex; flex-direction: column; justify-content: center; }
+      .login h1 { font-size: 26px; margin: 0 0 6px; }
+      .login p { color: var(--muted); margin: 0 0 22px; }
+
+      .chips {
+        display: flex; gap: 8px; overflow-x: auto; padding: 14px 0 4px;
+        scrollbar-width: none; -webkit-overflow-scrolling: touch;
+      }
+      .chips::-webkit-scrollbar { display: none; }
+      .chip {
+        flex: 0 0 auto; padding: 8px 13px; border-radius: 999px; border: 1px solid var(--border);
+        background: var(--panel); color: var(--text); font-size: 14px; font-weight: 600; white-space: nowrap;
+      }
+      .chip .count { color: var(--muted); font-weight: 500; margin-left: 4px; }
+      .chip.active { background: var(--accent); border-color: var(--accent); }
+      .chip.active .count { color: rgba(255,255,255,.8); }
+
+      .q-meta { display: flex; justify-content: space-between; align-items: center; color: var(--muted); font-size: 12px; margin-bottom: 8px; }
+      .badge { padding: 2px 8px; border-radius: 6px; background: var(--panel-2); font-weight: 600; }
+      .badge.mc { color: var(--accent); }
+      .q-line { margin: 4px 0; }
+      .q-line .lang { display: inline-block; width: 26px; color: var(--muted); font-size: 12px; font-weight: 700; }
+      .q-line.en { font-weight: 600; }
+      .answers { margin-top: 10px; display: grid; gap: 6px; }
+      .answer { background: var(--panel-2); border-radius: 9px; padding: 7px 10px; font-size: 14px; }
+      .answer span { color: var(--muted); }
+      .q-actions { display: flex; gap: 8px; margin-top: 12px; justify-content: flex-end; }
+      .empty { color: var(--muted); text-align: center; padding: 40px 0; }
+
+      .toggle { display: flex; align-items: center; justify-content: space-between; margin-top: 18px; }
+      .toggle span { font-weight: 600; }
+      .switch { position: relative; width: 52px; height: 32px; flex: 0 0 auto; }
+      .switch input { opacity: 0; width: 0; height: 0; }
+      .slider { position: absolute; inset: 0; background: var(--panel-2); border: 1px solid var(--border); border-radius: 999px; transition: .2s; }
+      .slider::before { content: ""; position: absolute; width: 26px; height: 26px; left: 2px; top: 2px; background: #fff; border-radius: 50%; transition: .2s; }
+      .switch input:checked + .slider { background: var(--accent); border-color: var(--accent); }
+      .switch input:checked + .slider::before { transform: translateX(20px); }
+
+      .answer-row { border: 1px dashed var(--border); border-radius: 12px; padding: 10px; margin-top: 10px; }
+      .answer-row .head { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--muted); font-weight: 700; }
+      .answer-row input { margin-top: 6px; }
+
+      .results { margin-top: 14px; }
+      .result { margin-top: 12px; }
+      .result-head { font-size: 13px; color: var(--muted); font-weight: 700; margin-bottom: 6px; }
+      .table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; }
+      table { border-collapse: collapse; font: 12px/1.4 ui-monospace, Menlo, monospace; min-width: 100%; }
+      th, td { padding: 6px 8px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; max-width: 280px; overflow-wrap: anywhere; }
+      th { background: var(--panel-2); position: sticky; top: 0; }
+      .banner { padding: 10px 12px; border-radius: 10px; font-weight: 600; font-size: 14px; margin-top: 12px; }
+      .banner.ok { background: rgba(74, 222, 128, .12); color: var(--ok); }
+      .banner.warn { background: rgba(251, 191, 36, .12); color: var(--warn); }
+      .banner.err { background: rgba(255, 107, 107, .12); color: var(--danger); white-space: pre-wrap; }
+
+      #toast {
+        position: fixed; left: 50%; bottom: calc(env(safe-area-inset-bottom) + 20px); transform: translateX(-50%);
+        background: var(--panel-2); border: 1px solid var(--border); color: var(--text);
+        padding: 12px 18px; border-radius: 12px; font-weight: 600; z-index: 50; max-width: 90vw;
+        box-shadow: 0 10px 30px rgba(0,0,0,.4); transition: opacity .2s; opacity: 0; pointer-events: none;
+      }
+      #toast.show { opacity: 1; }
+      #toast.err { border-color: var(--danger); color: var(--danger); }
+      .muted { color: var(--muted); font-size: 13px; }
+      .search { margin-top: 10px; }
+    </style>
+  </head>
+  <body>
+    <section id="view-login" class="wrap login hidden">
+      <h1>KUB Admin</h1>
+      <p id="login-subtitle">Face ID ile giriş yap.</p>
+      <button id="btn-login" class="btn primary block">Face ID ile giriş</button>
+
+      <div id="setup-box" class="card hidden">
+        <strong>Bu cihazı kaydet</strong>
+        <p class="muted" style="margin:6px 0 0">Render'daki <code>ADMIN_SETUP_TOKEN</code> değerini gir, sonra Face ID'yi onayla.</p>
+        <label for="setup-token">Setup token</label>
+        <input id="setup-token" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" />
+        <label for="setup-label">Cihaz adı (opsiyonel)</label>
+        <input id="setup-label" type="text" placeholder="Kaan iPhone" autocomplete="off" />
+        <button id="btn-register" class="btn primary block" style="margin-top:16px">Cihazı kaydet</button>
+      </div>
+      <div id="login-error" class="banner err hidden"></div>
+    </section>
+
+    <section id="view-app" class="hidden">
+      <header>
+        <div class="wrap">
+          <div class="topbar">
+            <h1>KUB Admin</h1>
+            <div class="row" style="flex:0 0 auto">
+              <button id="btn-add-device" class="btn ghost small">+ Cihaz</button>
+              <button id="btn-logout" class="btn ghost small">Çıkış</button>
+            </div>
+          </div>
+          <nav class="tabs">
+            <button class="tab active" data-tab="list">Sorular</button>
+            <button class="tab" data-tab="form">Ekle</button>
+            <button class="tab" data-tab="sql">SQL</button>
+          </nav>
+        </div>
+      </header>
+
+      <main class="wrap">
+        <section id="tab-list">
+          <div id="category-chips" class="chips"></div>
+          <input id="search" class="search" type="text" placeholder="Bu kategoride ara…" autocomplete="off" />
+          <div id="question-list"></div>
+        </section>
+
+        <section id="tab-form" class="hidden">
+          <form id="question-form" class="card" novalidate>
+            <strong id="form-title">Yeni soru</strong>
+            <label for="f-category">Kategori</label>
+            <select id="f-category" required></select>
+
+            <label for="f-text-en">🇬🇧 English</label>
+            <textarea id="f-text-en" rows="2" required></textarea>
+            <label for="f-text-tr">🇹🇷 Türkçe</label>
+            <textarea id="f-text-tr" rows="2" required></textarea>
+            <label for="f-text-es">🇪🇸 Español</label>
+            <textarea id="f-text-es" rows="2" required></textarea>
+
+            <div class="toggle">
+              <span>Özel cevaplar (yes/no değil)</span>
+              <label class="switch" style="margin:0">
+                <input id="f-have-answers" type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </div>
+
+            <div id="answers-box" class="hidden">
+              <div id="answer-rows"></div>
+              <button id="btn-add-answer" type="button" class="btn block" style="margin-top:10px">+ Cevap ekle</button>
+            </div>
+
+            <div class="row" style="margin-top:20px">
+              <button id="btn-cancel-edit" type="button" class="btn hidden">İptal</button>
+              <button id="btn-submit" type="submit" class="btn primary">Ekle</button>
+            </div>
+          </form>
+        </section>
+
+        <section id="tab-sql" class="hidden">
+          <div class="card">
+            <strong>SQL çalıştır</strong>
+            <p class="muted" style="margin:6px 0 0">
+              “Önizle” her şeyi çalıştırıp geri alır (ROLLBACK). “Uygula” Face ID ister ve COMMIT eder.
+              BEGIN/COMMIT yazma, transaction'ı panel yönetiyor.
+            </p>
+            <label for="sql-input">Query</label>
+            <textarea id="sql-input" class="code" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false"></textarea>
+            <div class="row" style="margin-top:12px">
+              <button id="btn-sql-template" type="button" class="btn small">Insert şablonu</button>
+              <button id="btn-sql-clear" type="button" class="btn small">Temizle</button>
+            </div>
+            <div class="row" style="margin-top:12px">
+              <button id="btn-sql-preview" class="btn">Önizle</button>
+              <button id="btn-sql-apply" class="btn primary">Uygula (Face ID)</button>
+            </div>
+          </div>
+          <div id="sql-results" class="results"></div>
+        </section>
+      </main>
+    </section>
+
+    <div id="toast"></div>
+
+    <script src="webauthn.js"></script>
+    <script src="admin.js"></script>
+  </body>
+</html>

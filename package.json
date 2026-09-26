@@ -27,6 +27,8 @@
     "test:admin-push:phone:e2e": "cross-env TEST_SERVER_URL=http://192.168.1.133:3000 IOS_TEST_DEVICE_TOKEN=87e8add492b37aa929214c2a0126b71fc1b2c3102cd0f8d54d042f296f3bd6f8 node test/testAdminPush.js"
   },
   "dependencies": {
+    "@simplewebauthn/browser": "^14.0.0",
+    "@simplewebauthn/server": "^14.0.2",
     "@supabase/supabase-js": "^2.80.0",
     "apn": "^2.2.0",
     "cors": "^2.8.5",
@@ -34,6 +36,7 @@
     "express": "^4.18.2",
     "ioredis": "^5.3.2",
     "openai": "^6.29.0",
+    "pg": "^8.23.0",
     "socket.io": "^4.6.1",
     "socket.io-client": "^4.6.1"
   },
@@ -41,6 +44,7 @@
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.5",
     "@types/node": "^24.10.0",
+    "@types/pg": "^8.23.1",
     "cross-env": "^7.0.3",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",

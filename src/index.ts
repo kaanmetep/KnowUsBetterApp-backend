@@ -47,6 +47,7 @@ import { logger } from "./utils/logger.js";
 import { createNotificationsRouter } from "./routes/notifications.js";
 import { createAdminNotificationsRouter } from "./routes/adminNotifications.js";
 import { createPublicConfigRouter } from "./routes/publicConfig.js";
+import { createAdminPanelRouter } from "./routes/adminPanel.js";
 
 const app = express();
 const httpServer = createServer(app);
@@ -109,6 +110,17 @@ if (supabaseAdmin) {
   app.use("/admin/notifications", createAdminNotificationsRouter(supabaseAdmin));
 } else {
   logger.warn("Notifications routes disabled because Supabase is not configured");
+}
+
+// Question admin panel (passkey protected). Unguessable path keeps scanners away.
+const ADMIN_PATH = process.env.ADMIN_PATH?.replace(/\/+$/, "");
+if (ADMIN_PATH && /^\/[A-Za-z0-9_-]{8,}$/.test(ADMIN_PATH) && process.env.DATABASE_URL) {
+  app.use(ADMIN_PATH, createAdminPanelRouter());
+  logger.info("Admin panel enabled");
+} else if (ADMIN_PATH || process.env.DATABASE_URL) {
+  logger.warn(
+    "Admin panel disabled: set ADMIN_PATH (e.g. /x7k2-panel, min 8 chars) and DATABASE_URL",
+  );
 }
 
 // ============================================

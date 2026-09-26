@@ -58,3 +58,34 @@ Optional:
 
 - Build: `npm run build`
 - Push tests: `npm run test:notifications`
+
+## Question Admin Panel
+
+Mobile web panel to list / add / edit / delete questions and run SQL against the database.
+Served by this backend at `https://<render-host>${ADMIN_PATH}/`, protected with a passkey (Face ID).
+
+### Environment variables
+
+- `ADMIN_PATH` – unguessable mount path, e.g. `/q7x2k9-panel` (min 8 chars). Panel is disabled if unset.
+- `DATABASE_URL` – Supabase Postgres connection string. Use **Session pooler** from
+  Supabase → Connect (IPv4 compatible; the direct connection is IPv6-only and does not work on Render).
+- `ADMIN_SETUP_TOKEN` – long random string (min 16 chars), required to register a device.
+- `ADMIN_ORIGIN` / `ADMIN_RP_ID` – optional; default to `RENDER_EXTERNAL_URL` and its hostname.
+  Changing the domain invalidates registered passkeys.
+
+Passkeys are stored in `admin_panel.passkeys` (created automatically; separate schema so it is not exposed via the Supabase REST API).
+Sessions, challenges and the failed-attempt lockout live in Redis.
+
+### First setup
+
+1. Set the env vars on Render and deploy.
+2. Open `https://<render-host>${ADMIN_PATH}/` in Safari on the phone.
+3. Enter `ADMIN_SETUP_TOKEN`, approve Face ID. Registration closes once a passkey exists;
+   adding another device requires being logged in **and** the setup token.
+4. Share → Add to Home Screen.
+
+### SQL tab
+
+- **Önizle** runs everything inside `BEGIN … ROLLBACK` (nothing is saved).
+- **Uygula** requires a fresh Face ID confirmation and runs inside `BEGIN … COMMIT`.
+- Transaction control (`BEGIN`, `COMMIT`, `ROLLBACK`, `SET`, …) is rejected; statement timeout is 15s.
