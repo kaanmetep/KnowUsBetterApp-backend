@@ -119,9 +119,20 @@
       .switch input:checked + .slider { background: var(--accent); border-color: var(--accent); }
       .switch input:checked + .slider::before { transform: translateX(20px); }
 
-      .answer-row { border: 1px dashed var(--border); border-radius: 12px; padding: 10px; margin-top: 10px; }
-      .answer-row .head { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--muted); font-weight: 700; }
-      .answer-row input { margin-top: 6px; }
+      .preview { margin-top: 10px; display: grid; gap: 8px; }
+      .preview:empty { display: none; }
+      .preview-status { padding: 8px 11px; border-radius: 9px; font-size: 13px; font-weight: 700; }
+      .preview-status.ok { background: rgba(74, 222, 128, .12); color: var(--ok); }
+      .preview-status.err { background: rgba(255, 107, 107, .12); color: var(--danger); }
+      .preview-group { border: 1px solid var(--border); border-radius: 11px; overflow: hidden; }
+      .preview-group-title { padding: 6px 11px; background: var(--panel-2); color: var(--muted); font-size: 12px; font-weight: 700; }
+      .preview-row { display: grid; grid-template-columns: 58px 1fr; gap: 8px; padding: 8px 11px; font-size: 14px; }
+      .preview-row + .preview-row { border-top: 1px solid var(--border); }
+      .preview-row .lang { color: var(--muted); font-size: 12px; font-weight: 700; padding-top: 1px; white-space: nowrap; }
+      .preview-row .value { overflow-wrap: anywhere; }
+      .preview-row.missing .value { color: var(--danger); font-style: italic; }
+      .preview-row.extra { background: rgba(255, 107, 107, .08); }
+      .preview-row.extra .lang, .preview-row.extra .value { color: var(--danger); }
 
       .results { margin-top: 14px; }
       .result { margin-top: 12px; }
@@ -169,7 +180,7 @@
       <header>
         <div class="wrap">
           <div class="topbar">
-            <h1>KUB Admin</h1>
+            <h1 id="app-title">KUB Admin</h1>
             <div class="row" style="flex:0 0 auto">
               <button id="btn-add-device" class="btn ghost small">+ Cihaz</button>
               <button id="btn-logout" class="btn ghost small">Çıkış</button>
@@ -196,12 +207,15 @@
             <label for="f-category">Kategori</label>
             <select id="f-category" required></select>
 
-            <label for="f-text-en">🇬🇧 English</label>
-            <textarea id="f-text-en" rows="2" required></textarea>
-            <label for="f-text-tr">🇹🇷 Türkçe</label>
-            <textarea id="f-text-tr" rows="2" required></textarea>
-            <label for="f-text-es">🇪🇸 Español</label>
-            <textarea id="f-text-es" rows="2" required></textarea>
+            <label for="f-texts">Soru · her satır bir dil: 🇬🇧 EN → 🇹🇷 TR → 🇪🇸 ES</label>
+            <textarea
+              id="f-texts"
+              rows="5"
+              autocapitalize="off"
+              spellcheck="false"
+              placeholder="What is your partner's favorite movie?&#10;Partnerinin en sevdiği film ne?&#10;¿Cuál es la película favorita de tu pareja?"
+            ></textarea>
+            <div id="texts-preview" class="preview"></div>
 
             <div class="toggle">
               <span>Özel cevaplar (yes/no değil)</span>
@@ -212,8 +226,15 @@
             </div>
 
             <div id="answers-box" class="hidden">
-              <div id="answer-rows"></div>
-              <button id="btn-add-answer" type="button" class="btn block" style="margin-top:10px">+ Cevap ekle</button>
+              <label for="f-answers">Cevaplar · her cevap için 3 satır: 🇬🇧 EN → 🇹🇷 TR → 🇪🇸 ES</label>
+              <textarea
+                id="f-answers"
+                rows="8"
+                autocapitalize="off"
+                spellcheck="false"
+                placeholder="Coffee&#10;Kahve&#10;Café&#10;&#10;Tea&#10;Çay&#10;Té"
+              ></textarea>
+              <div id="answers-preview" class="preview"></div>
             </div>
 
             <div class="row" style="margin-top:20px">

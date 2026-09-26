@@ -10,6 +10,7 @@
     currentCategory: null,
     questions: [],
     editingId: null,
+    localBypass: false,
   };
 
   // ---------- helpers ----------
@@ -313,60 +314,129 @@
 
   // ---------- form ----------
 
-  function addAnswerRow(values = {}) {
-    const rows = $("answer-rows");
-    const row = el("div", { class: "answer-row" }, [
-      el("div", { class: "head" }, [
-        el("span", { class: "answer-title" }),
-        el("button", {
-          type: "button",
-          class: "btn small ghost",
-          text: "Kaldır",
-          onclick: () => {
-            row.remove();
-            renumberAnswers();
-          },
-        }),
-      ]),
-      ...LANGS.map((lang) =>
-        el("input", {
-          type: "text",
-          "data-lang": lang,
-          placeholder: { en: "🇬🇧 English", tr: "🇹🇷 Türkçe", es: "🇪🇸 Español" }[lang],
-          value: values[lang] || "",
-          autocomplete: "off",
-        }),
-      ),
-    ]);
-    rows.append(row);
-    renumberAnswers();
+  // Pasted text is read line by line in the fixed LANGS order (EN, TR, ES).
+  // Blank lines are ignored so the input can be spaced out freely.
+  const LANG_META = {
+    en: { flag: "🇬🇧", code: "EN" },
+    tr: { flag: "🇹🇷", code: "TR" },
+    es: { flag: "🇪🇸", code: "ES" },
+  };
+  const MIN_ANSWERS = 2;
+
+  // Decorations AI output tends to add: "1.", "-", flag emojis, "EN:",
+  // "Türkçe -" and wrapping quotes. The preview shows the cleaned value, which
+  // is exactly what gets saved.
+  const LIST_MARKER = /^(?:\d{1,2}[.)]|[-*•])\s+/;
+  const FLAGS = /^(?:\p{Regional_Indicator}{2}\s*)+/u;
+  const LANG_LABEL =
+    /^(?:en|eng|english|ingilizce|İngilizce|tr|turkish|türkçe|turkce|es|spanish|español|espanol|ispanyolca|İspanyolca)\s*[:\-–—]\s+/iu;
+  const WRAPPING_QUOTES = /^["“«]([^"“”«»]*)["”»]$/;
+
+  function cleanLine(raw) {
+    let value = raw.trim().replace(LIST_MARKER, "").replace(FLAGS, "").replace(LANG_LABEL, "").trim();
+    const quoted = value.match(WRAPPING_QUOTES);
+    if (quoted) value = quoted[1].trim();
+    return value;
   }
 
-  function renumberAnswers() {
-    $("answer-rows")
-      .querySelectorAll(".answer-title")
-      .forEach((node, i) => (node.textContent = `Cevap ${i + 1}`));
+  function parseLines(text) {
+    return text
+      .split(/\r?\n/)
+      .map(cleanLine)
+      .filter(Boolean);
   }
+
+  function parseTexts(text) {
+    const lines = parseLines(text);
+    const values = Object.fromEntries(LANGS.map((lang, i) => [lang, lines[i] || ""]));
+    const extra = lines.slice(LANGS.length);
+    let error = null;
+    if (!lines.length) error = "Soru metni boş";
+    else if (lines.length < LANGS.length) error = `${lines.length} satır bulundu, ${LANGS.length} gerekli`;
+    else if (extra.length) error = `${lines.length} satır bulundu, sadece ${LANGS.length} olmalı`;
+    return { values, extra, error };
+  }
+
+  function parseAnswers(text) {
+    const lines = parseLines(text);
+    const groups = [];
+    for (let i = 0; i < lines.length; i += LANGS.length) {
+      groups.push(Object.fromEntries(LANGS.map((lang, j) => [lang, lines[i + j] || ""])));
+    }
+    let error = null;
+    const remainder = lines.length % LANGS.length;
+    if (!lines.length) error = "Cevap yok";
+    else if (remainder) error = `${lines.length} satır bulundu, ${LANGS.length}'ün katı olmalı (son cevap eksik)`;
+    else if (groups.length < MIN_ANSWERS) error = `En az ${MIN_ANSWERS} cevap gerekli`;
+    return { groups, error };
+  }
+
+  function previewRow(lang, value) {
+    const meta = LANG_META[lang];
+    return el("div", { class: `preview-row${value ? "" : " missing"}` }, [
+      el("span", { class: "lang", text: `${meta.flag} ${meta.code}` }),
+      el("span", { class: "value", text: value || "eksik" }),
+    ]);
+  }
+
+  function previewStatus(error, okText) {
+    return el("div", { class: `preview-status ${error ? "err" : "ok"}`, text: error ? `✕ ${error}` : `✓ ${okText}` });
+  }
+
+  function renderTextsPreview() {
+    const box = $("texts-preview");
+    const raw = $("f-texts").value;
+    if (!raw.trim()) return box.replaceChildren();
+    const { values, extra, error } = parseTexts(raw);
+    box.replaceChildren(
+      previewStatus(error, "3 dil algılandı"),
+      el("div", { class: "preview-group" }, [
+        ...LANGS.map((lang) => previewRow(lang, values[lang])),
+        ...extra.map((line) =>
+          el("div", { class: "preview-row extra" }, [
+            el("span", { class: "lang", text: "fazla" }),
+            el("span", { class: "value", text: line }),
+          ]),
+        ),
+      ]),
+    );
+  }
+
+  function renderAnswersPreview() {
+    const box = $("answers-preview");
+    const raw = $("f-answers").value;
+    if (!raw.trim()) return box.replaceChildren();
+    const { groups, error } = parseAnswers(raw);
+    box.replaceChildren(
+      previewStatus(error, `${groups.length} cevap algılandı`),
+      ...groups.map((group, i) =>
+        el("div", { class: "preview-group" }, [
+          el("div", { class: "preview-group-title", text: `Cevap ${i + 1}` }),
+          ...LANGS.map((lang) => previewRow(lang, group[lang])),
+        ]),
+      ),
+    );
+  }
+
+  $("f-texts").addEventListener("input", renderTextsPreview);
+  $("f-answers").addEventListener("input", renderAnswersPreview);
 
   function setHaveAnswers(on) {
     $("f-have-answers").checked = on;
     $("answers-box").classList.toggle("hidden", !on);
-    if (on && !$("answer-rows").children.length) {
-      addAnswerRow();
-      addAnswerRow();
-    }
   }
 
   $("f-have-answers").addEventListener("change", (e) => setHaveAnswers(e.target.checked));
-  $("btn-add-answer").addEventListener("click", () => addAnswerRow());
 
   function resetForm({ keepCategory = true } = {}) {
     state.editingId = null;
     $("form-title").textContent = "Yeni soru";
     $("btn-submit").textContent = "Ekle";
     $("btn-cancel-edit").classList.add("hidden");
-    for (const lang of LANGS) $(`f-text-${lang}`).value = "";
-    $("answer-rows").replaceChildren();
+    $("f-texts").value = "";
+    $("f-answers").value = "";
+    renderTextsPreview();
+    renderAnswersPreview();
     setHaveAnswers(false);
     if (!keepCategory) $("f-category").value = state.currentCategory || "";
   }
@@ -377,18 +447,19 @@
     $("btn-submit").textContent = "Kaydet";
     $("btn-cancel-edit").classList.remove("hidden");
     $("f-category").value = q.category_id;
-    for (const lang of LANGS) $(`f-text-${lang}`).value = q.texts?.[`text_${lang}`] || "";
-    $("answer-rows").replaceChildren();
+    $("f-texts").value = LANGS.map((lang) => q.texts?.[`text_${lang}`] || "").join("\n");
+
+    let answersText = "";
     if (q.have_answers && q.answers) {
       const count = q.answers.answers_en?.length || 0;
-      for (let i = 0; i < count; i++) {
-        addAnswerRow({
-          en: q.answers.answers_en?.[i],
-          tr: q.answers.answers_tr?.[i],
-          es: q.answers.answers_es?.[i],
-        });
-      }
+      answersText = Array.from({ length: count }, (_, i) =>
+        LANGS.map((lang) => q.answers[`answers_${lang}`]?.[i] || "").join("\n"),
+      ).join("\n\n");
     }
+    $("f-answers").value = answersText;
+
+    renderTextsPreview();
+    renderAnswersPreview();
     setHaveAnswers(Boolean(q.have_answers));
     switchTab("form");
   }
@@ -399,26 +470,22 @@
   });
 
   function collectForm() {
+    const texts = parseTexts($("f-texts").value);
+    if (texts.error) throw new Error(`Soru: ${texts.error}`);
+
     const payload = {
       category_id: $("f-category").value,
-      texts: Object.fromEntries(LANGS.map((lang) => [`text_${lang}`, $(`f-text-${lang}`).value.trim()])),
+      texts: Object.fromEntries(LANGS.map((lang) => [`text_${lang}`, texts.values[lang]])),
       have_answers: $("f-have-answers").checked,
       answers: null,
     };
-    for (const lang of LANGS) {
-      if (!payload.texts[`text_${lang}`]) throw new Error(`${lang.toUpperCase()} soru metni boş`);
-    }
+
     if (payload.have_answers) {
-      const rows = [...$("answer-rows").querySelectorAll(".answer-row")];
-      if (rows.length < 2) throw new Error("En az 2 cevap gerekli");
-      payload.answers = Object.fromEntries(LANGS.map((lang) => [`answers_${lang}`, []]));
-      rows.forEach((row, i) => {
-        for (const lang of LANGS) {
-          const value = row.querySelector(`input[data-lang="${lang}"]`).value.trim();
-          if (!value) throw new Error(`Cevap ${i + 1} (${lang.toUpperCase()}) boş`);
-          payload.answers[`answers_${lang}`].push(value);
-        }
-      });
+      const answers = parseAnswers($("f-answers").value);
+      if (answers.error) throw new Error(`Cevaplar: ${answers.error}`);
+      payload.answers = Object.fromEntries(
+        LANGS.map((lang) => [`answers_${lang}`, answers.groups.map((group) => group[lang])]),
+      );
     }
     return payload;
   }
@@ -438,7 +505,7 @@
         toast("Soru eklendi ✓");
         resetForm();
         $("f-category").value = payload.category_id;
-        $("f-text-en").focus();
+        $("f-texts").focus();
         state.currentCategory = payload.category_id;
       }
       await loadCategories();
@@ -537,8 +604,9 @@ RETURNING id, category_id, texts;`;
   $("btn-sql-apply").addEventListener(
     "click",
     withBusy($("btn-sql-apply"), async () => {
-      if (!confirm("Bu query PROD veritabanında COMMIT edilecek. Emin misin?")) return;
-      await passkeyAssertion("step-up");
+      const target = state.localBypass ? "LOKAL (.env DATABASE_URL)" : "PROD";
+      if (!confirm(`Bu query ${target} veritabanında COMMIT edilecek. Emin misin?`)) return;
+      if (!state.localBypass) await passkeyAssertion("step-up");
       await runSql("apply");
       toast("SQL uygulandı");
       await loadCategories().catch(() => {});
@@ -556,14 +624,27 @@ RETURNING id, category_id, texts;`;
     await loadQuestions();
   }
 
+  function applyLocalBypassUi() {
+    $("app-title").textContent = "KUB Admin · LOCAL";
+    $("btn-add-device").classList.add("hidden");
+    $("btn-logout").classList.add("hidden");
+    $("btn-sql-apply").textContent = "Uygula";
+  }
+
   async function boot() {
-    if (!window.PublicKeyCredential) {
-      showLogin({ registered: true });
-      showLoginError("Bu tarayıcı passkey desteklemiyor. Safari kullan.");
-      return;
-    }
     try {
       const status = await api("auth/status");
+      if (status.localBypass) {
+        state.localBypass = true;
+        applyLocalBypassUi();
+        await enterApp();
+        return;
+      }
+      if (!window.PublicKeyCredential) {
+        showLogin({ registered: true });
+        showLoginError("Bu tarayıcı passkey desteklemiyor. Safari kullan.");
+        return;
+      }
       if (status.loggedIn) await enterApp();
       else showLogin(status);
     } catch (err) {
