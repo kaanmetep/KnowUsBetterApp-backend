@@ -72,6 +72,24 @@ function readCookie(req: Request, name: string): string | undefined {
   return undefined;
 }
 
+function isLoopback(address: string | undefined): boolean {
+  return address === "127.0.0.1" || address === "::1" || address === "::ffff:127.0.0.1";
+}
+
+// Passkey-free access for local development. Only the raw socket address is trusted
+// (never X-Forwarded-For), so this can't trigger behind Render's proxy even if the flag leaks.
+function isLocalBypass(req: Request): boolean {
+  if (process.env.ADMIN_LOCAL_BYPASS !== "true" || process.env.NODE_ENV === "production") {
+    return false;
+  }
+  const host = (req.headers.host || "").replace(/:\d+$/, "");
+  return (
+    isLoopback(req.socket.remoteAddress) &&
+    !req.headers["x-forwarded-for"] &&
+    (host === "localhost" || host === "127.0.0.1")
+  );
+}
+
 function isHttps(req: Request): boolean {
   return req.secure || req.headers["x-forwarded-proto"] === "https";
 }
@@ -112,7 +130,11 @@ function requireSameOrigin(req: Request, res: Response, next: NextFunction): voi
     next();
     return;
   }
-  if (req.headers.origin !== getWebAuthnConfig().origin) {
+  const origin = req.headers.origin;
+  const allowed =
+    origin === getWebAuthnConfig().origin ||
+    (isLocalBypass(req) && origin === `http://${req.headers.host}`);
+  if (!allowed) {
     res.status(403).json({ message: "Forbidden", code: "BAD_ORIGIN" });
     return;
   }
@@ -125,6 +147,12 @@ async function sessionToken(req: Request): Promise<string | null> {
 }
 
 function requireSession(req: Request, res: Response, next: NextFunction): void {
+  if (isLocalBypass(req)) {
+    res.locals.isAdmin = true;
+    res.locals.localBypass = true;
+    next();
+    return;
+  }
   sessionToken(req)
     .then((token) => {
       if (!token) {
@@ -171,6 +199,10 @@ async function assertCanRegister(req: Request): Promise<void> {
 export function createAdminPanelRouter(): Router {
   const router = Router();
 
+  if (process.env.ADMIN_LOCAL_BYPASS === "true" && process.env.NODE_ENV !== "production") {
+    logger.warn("Admin panel local bypass is ON: localhost requests skip passkey auth");
+  }
+
   router.use(securityHeaders, panelRateLimiter);
 
   router.get("/", (req, res, next) => {
@@ -193,9 +225,14 @@ export function createAdminPanelRouter(): Router {
   api.get(
     "/auth/status",
     handle(async (req, res) => {
+      if (isLocalBypass(req)) {
+        res.json({ registered: true, loggedIn: true, localBypass: true });
+        return;
+      }
       res.json({
         registered: await hasRegisteredPasskey(),
         loggedIn: Boolean(await sessionToken(req)),
+        localBypass: false,
       });
     }),
   );
@@ -332,7 +369,11 @@ export function createAdminPanelRouter(): Router {
     "/sql",
     handle(async (req, res) => {
       const mode = req.body?.mode === "apply" ? "apply" : "preview";
-      if (mode === "apply" && !(await consumeStepUp(res.locals.sessionToken))) {
+      if (
+        mode === "apply" &&
+        !res.locals.localBypass &&
+        !(await consumeStepUp(res.locals.sessionToken))
+      ) {
         throw new AppError("Face ID confirmation required", 403, "STEP_UP_REQUIRED");
       }
       const result = await runSql(req.body?.sql, mode);
