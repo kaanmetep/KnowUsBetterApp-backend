@@ -43,6 +43,11 @@ import {
 import { attachSocketRateLimiter } from "./middleware/socketRateLimiter.js";
 import { acquireLock, releaseLock } from "./utils/redis.js";
 import aiAnalysisRouter from "./routes/aiAnalysis.js";
+import { logger } from "./utils/logger.js";
+import { createNotificationsRouter } from "./routes/notifications.js";
+import { createAdminNotificationsRouter } from "./routes/adminNotifications.js";
+import { createPublicConfigRouter } from "./routes/publicConfig.js";
+import { createAdminPanelRouter } from "./routes/adminPanel.js";
 
 const app = express();
 const httpServer = createServer(app);
@@ -97,6 +102,26 @@ const supabaseAdmin =
         },
       })
     : null;
+
+app.use("/api/config", createPublicConfigRouter(supabaseAdmin));
+
+if (supabaseAdmin) {
+  app.use("/notifications", createNotificationsRouter(supabaseAdmin));
+  app.use("/admin/notifications", createAdminNotificationsRouter(supabaseAdmin));
+} else {
+  logger.warn("Notifications routes disabled because Supabase is not configured");
+}
+
+// Question admin panel (passkey protected). Unguessable path keeps scanners away.
+const ADMIN_PATH = process.env.ADMIN_PATH?.replace(/\/+$/, "");
+if (ADMIN_PATH && /^\/[A-Za-z0-9_-]{8,}$/.test(ADMIN_PATH) && process.env.DATABASE_URL) {
+  app.use(ADMIN_PATH, createAdminPanelRouter());
+  logger.info("Admin panel enabled");
+} else if (ADMIN_PATH || process.env.DATABASE_URL) {
+  logger.warn(
+    "Admin panel disabled: set ADMIN_PATH (e.g. /x7k2-panel, min 8 chars) and DATABASE_URL",
+  );
+}
 
 // ============================================
 // USER SOCKET MAPPING (appUserId -> socket.id)
@@ -1699,15 +1724,16 @@ process.on("warning", (warning: Error) => {
 // ============================================
 
 const PORT = process.env.PORT || 3000;
+const HOST = process.env.HOST || "0.0.0.0";
 
-httpServer.listen(PORT, () => {
+httpServer.listen(Number(PORT), HOST, () => {
   const serverUrl = process.env.RENDER_EXTERNAL_URL
     ? process.env.RENDER_EXTERNAL_URL
     : process.env.RAILWAY_PUBLIC_DOMAIN
       ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}`
       : `http://localhost:${PORT}`;
 
-  console.log(`\n🚀 Socket.io server running on port ${PORT}`);
+  console.log(`\n🚀 Socket.io server running on ${HOST}:${PORT}`);
   console.log(`📱 Server URL: ${serverUrl}`);
   console.log(
     `📱 Connect from frontend: ${serverUrl
