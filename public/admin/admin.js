@@ -197,7 +197,45 @@
     }
     renderChips();
     renderCategorySelect();
+    renderStats();
   }
+
+  // ---------- stats & added counter ----------
+
+  // Per-device (localStorage), so it survives reloads until reset manually.
+  const COUNTER_KEY = "kub_admin_added_count";
+
+  function readCounter() {
+    return Number(localStorage.getItem(COUNTER_KEY)) || 0;
+  }
+
+  function writeCounter(value) {
+    localStorage.setItem(COUNTER_KEY, String(value));
+    renderStats();
+  }
+
+  function renderStats() {
+    const total = state.categories.reduce((sum, c) => sum + (Number(c.question_count) || 0), 0);
+    $("stat-total").textContent = state.categories.length ? total : "–";
+    $("stat-added").textContent = readCounter();
+    const selected = $("f-category").value;
+    $("stat-categories").replaceChildren(
+      ...state.categories.map((category) =>
+        el("div", { class: `stat-cat${category.id === selected ? " active" : ""}` }, [
+          el("span", { class: "name", text: categoryLabel(category) }),
+          el("span", { class: "num", text: category.question_count }),
+        ]),
+      ),
+    );
+  }
+
+  $("f-category").addEventListener("change", renderStats);
+
+  $("btn-reset-counter").addEventListener("click", () => {
+    if (readCounter() && !confirm("Sayaç sıfırlansın mı?")) return;
+    writeCounter(0);
+    toast("Sayaç sıfırlandı");
+  });
 
   function renderChips() {
     const wrap = $("category-chips");
@@ -447,6 +485,7 @@
     $("btn-submit").textContent = "Kaydet";
     $("btn-cancel-edit").classList.remove("hidden");
     $("f-category").value = q.category_id;
+    renderStats();
     $("f-texts").value = LANGS.map((lang) => q.texts?.[`text_${lang}`] || "").join("\n");
 
     let answersText = "";
@@ -467,6 +506,11 @@
   $("btn-cancel-edit").addEventListener("click", () => {
     resetForm();
     switchTab("list");
+  });
+
+  $("btn-clear-form").addEventListener("click", () => {
+    resetForm({ keepCategory: true });
+    $("f-texts").focus();
   });
 
   function collectForm() {
@@ -502,7 +546,9 @@
         switchTab("list");
       } else {
         await api("questions", { method: "POST", body: payload });
-        toast("Soru eklendi ✓");
+        const added = readCounter() + 1;
+        writeCounter(added);
+        toast(`Soru eklendi ✓ (sayaç: ${added})`);
         resetForm();
         $("f-category").value = payload.category_id;
         $("f-texts").focus();

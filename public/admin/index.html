@@ -134,6 +134,21 @@
       .preview-row.extra { background: rgba(255, 107, 107, .08); }
       .preview-row.extra .lang, .preview-row.extra .value { color: var(--danger); }
 
+      .stats-top { display: flex; align-items: center; gap: 10px; }
+      .stat { flex: 1; background: var(--panel-2); border-radius: 11px; padding: 10px 12px; }
+      .stat-value { font-size: 24px; font-weight: 800; line-height: 1.1; font-variant-numeric: tabular-nums; }
+      .stat-value.accent { color: var(--accent); }
+      .stat-label { color: var(--muted); font-size: 12px; font-weight: 600; margin-top: 2px; }
+      .stat-cats { margin-top: 12px; display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+      .stat-cat {
+        display: flex; justify-content: space-between; gap: 8px; padding: 7px 10px;
+        border: 1px solid var(--border); border-radius: 9px; font-size: 13px;
+      }
+      .stat-cat .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--muted); }
+      .stat-cat .num { font-weight: 700; font-variant-numeric: tabular-nums; }
+      .stat-cat.active { border-color: var(--accent); background: rgba(124, 140, 255, .1); }
+      .stat-cat.active .name { color: var(--text); }
+
       .results { margin-top: 14px; }
       .result { margin-top: 12px; }
       .result-head { font-size: 13px; color: var(--muted); font-weight: 700; margin-bottom: 6px; }
@@ -202,6 +217,21 @@
         </section>
 
         <section id="tab-form" class="hidden">
+          <div class="card">
+            <div class="stats-top">
+              <div class="stat">
+                <div id="stat-total" class="stat-value">–</div>
+                <div class="stat-label">Toplam soru</div>
+              </div>
+              <div class="stat">
+                <div id="stat-added" class="stat-value accent">0</div>
+                <div class="stat-label">Eklenen (sayaç)</div>
+              </div>
+              <button id="btn-reset-counter" type="button" class="btn small ghost" style="flex:0 0 auto">Sıfırla</button>
+            </div>
+            <div id="stat-categories" class="stat-cats"></div>
+          </div>
+
           <form id="question-form" class="card" novalidate>
             <strong id="form-title">Yeni soru</strong>
             <label for="f-category">Kategori</label>
@@ -239,6 +269,7 @@
 
             <div class="row" style="margin-top:20px">
               <button id="btn-cancel-edit" type="button" class="btn hidden">İptal</button>
+              <button id="btn-clear-form" type="button" class="btn">Temizle</button>
               <button id="btn-submit" type="submit" class="btn primary">Ekle</button>
             </div>
           </form>
