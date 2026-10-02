@@ -86,7 +86,7 @@ async function assertCategoryExists(categoryId: string): Promise<void> {
 
 export async function listCategories() {
   const { rows } = await getAdminPool().query(
-    `SELECT c.id, c.labels, c.order_index, COUNT(q.id)::int AS question_count
+    `SELECT c.id, c.labels, c.difficulty, c.order_index, COUNT(q.id)::int AS question_count
        FROM categories c
        LEFT JOIN questions q ON q.category_id = c.id
       GROUP BY c.id

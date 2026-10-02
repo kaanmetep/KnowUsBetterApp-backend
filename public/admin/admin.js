@@ -80,7 +80,12 @@
   }
 
   function categoryLabel(category) {
-    return category.labels?.category_tr || category.labels?.category_en || category.id;
+    const base = category.labels?.category_tr || category.labels?.category_en || category.id;
+    const difficulty = String(category.difficulty || "").toLowerCase();
+    if (difficulty === "hard") return `${base} · Zor`;
+    if (difficulty === "easy") return `${base} · Kolay`;
+    if (difficulty) return `${base} · ${difficulty}`;
+    return base;
   }
 
   // ---------- auth ----------
