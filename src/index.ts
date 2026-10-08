@@ -404,15 +404,26 @@ function bindSocketToUser(socket: AppSocket, appUserId: string): void {
  * The wallet this socket acts for, fixed by register-user (with the id's
  * token). A socket that never registered (older builds) can still use an id
  * nobody has claimed, and is bound to it from then on.
+ *
+ * Older builds can create two ids on a fresh install and register the socket
+ * with one while spending with the other. An unclaimed id is open to any
+ * connection anyway, so a socket bound to one follows the id it asks for; a
+ * socket bound with a token never moves.
  */
 async function resolveAppUserId(
   socket: AppSocket,
   claimed: unknown,
 ): Promise<string | null> {
   await pendingRegistrations.get(socket.id);
-  if (socket.data.appUserId) return socket.data.appUserId;
+  const bound = socket.data.appUserId;
+  if (bound && (bound === claimed || !isValidAppUserId(claimed))) return bound;
   if (!isValidAppUserId(claimed)) return null;
-  if (!(await authorizeAppUser(supabaseAdmin, claimed, undefined))) return null;
+  if (bound && !(await authorizeAppUser(supabaseAdmin, bound, undefined))) {
+    return bound;
+  }
+  if (!(await authorizeAppUser(supabaseAdmin, claimed, undefined))) {
+    return bound ?? null;
+  }
   if (socket.disconnected) return null;
   bindSocketToUser(socket, claimed);
   return claimed;

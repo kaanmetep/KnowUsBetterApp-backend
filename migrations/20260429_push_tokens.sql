@@ -27,3 +27,7 @@ EXECUTE FUNCTION set_push_tokens_updated_at();
 CREATE INDEX IF NOT EXISTS idx_push_tokens_app_user_id ON push_tokens(app_user_id);
 CREATE INDEX IF NOT EXISTS idx_push_tokens_is_active ON push_tokens(is_active);
 CREATE INDEX IF NOT EXISTS idx_push_tokens_platform_is_active ON push_tokens(platform, is_active);
+
+-- Backend writes with the service role, which bypasses RLS. Enabling RLS
+-- with no policies blocks the app's anon key from reading device tokens.
+ALTER TABLE public.push_tokens ENABLE ROW LEVEL SECURITY;
