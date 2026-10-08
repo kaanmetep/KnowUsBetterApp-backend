@@ -75,7 +75,7 @@ import { logger } from "./utils/logger.js";
 import { createNotificationsRouter } from "./routes/notifications.js";
 import { createAdminNotificationsRouter } from "./routes/adminNotifications.js";
 import { createPublicConfigRouter } from "./routes/publicConfig.js";
-import { getPublicConfig } from "./services/publicConfigService.js";
+import { PUBLIC_RUNTIME_CONFIG } from "./services/publicConfigService.js";
 import {
   claimDailyReward,
   creditCoins,
@@ -163,7 +163,7 @@ app.use(
 
 app.use(express.json());
 
-app.use("/api/config", createPublicConfigRouter(supabaseAdmin));
+app.use("/api/config", createPublicConfigRouter());
 
 app.use(
   "/api/ai-analysis",
@@ -800,8 +800,11 @@ async function finishGame(roomCode: string): Promise<void> {
     (await getCategoryMode(room.settings.category, supabaseAdmin));
   let game: Awaited<ReturnType<typeof recordFinishedGame>> | null = null;
   try {
-    const config = await getPublicConfig(supabaseAdmin);
-    game = await recordFinishedGame(room, mode, config.gameplay.results.matchTiers);
+    game = await recordFinishedGame(
+      room,
+      mode,
+      PUBLIC_RUNTIME_CONFIG.gameplay.results.matchTiers,
+    );
   } catch (error) {
     console.error(`❌ Failed to build results for room ${roomCode}:`, error);
   }
@@ -1749,8 +1752,7 @@ io.on(
           return;
         }
 
-        const config = await getPublicConfig(supabaseAdmin);
-        const { intervalMs, amount } = config.economy.dailyReward;
+        const { intervalMs, amount } = PUBLIC_RUNTIME_CONFIG.economy.dailyReward;
         const result = await claimDailyReward(supabaseAdmin, appUserId, {
           amount,
           intervalMs,

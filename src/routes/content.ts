@@ -2,7 +2,7 @@ import { Router, Request, Response } from "express";
 import { SupabaseClient } from "@supabase/supabase-js";
 import { byAppUserId, createRateLimiter } from "../middleware/rateLimiter.js";
 import { getCategoryCatalog } from "../services/categoryService.js";
-import { getPublicConfig } from "../services/publicConfigService.js";
+import { PUBLIC_RUNTIME_CONFIG } from "../services/publicConfigService.js";
 import { requireAppUser } from "../services/appUserAuth.js";
 
 // Per IP, and many players can share one carrier IP; the responses are cached.
@@ -98,14 +98,11 @@ export function createContentRouter(
       }
 
       try {
-        const [{ data, error }, config] = await Promise.all([
-          supabaseAdmin
-            .from("coins")
-            .select("balance, last_daily_reward_at")
-            .eq("app_user_id", appUserId)
-            .maybeSingle(),
-          getPublicConfig(supabaseAdmin),
-        ]);
+        const { data, error } = await supabaseAdmin
+          .from("coins")
+          .select("balance, last_daily_reward_at")
+          .eq("app_user_id", appUserId)
+          .maybeSingle();
         if (error) throw error;
 
         const lastClaim = data?.last_daily_reward_at
@@ -113,7 +110,7 @@ export function createContentRouter(
           : null;
         const nextClaimAt =
           lastClaim !== null && !options.devUnlimitedDailyReward
-            ? lastClaim + config.economy.dailyReward.intervalMs
+            ? lastClaim + PUBLIC_RUNTIME_CONFIG.economy.dailyReward.intervalMs
             : null;
         const eligible = nextClaimAt === null || nextClaimAt <= Date.now();
 
