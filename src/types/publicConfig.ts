@@ -1,3 +1,18 @@
+export type CoinPackageConfig = {
+  /** Store product id, as configured in RevenueCat. */
+  productId: string;
+  coins: number;
+  badge: "bestValue" | null;
+};
+
+export type MatchTierConfig = {
+  /** Lowest match percentage that lands in this tier. */
+  min: number;
+  /** Translation key under gameFinished.tiers / gameFinished.tierLines. */
+  key: string;
+  celebrate: boolean;
+};
+
 export type PublicRuntimeConfig = {
   economy: {
     aiAnalysis: {
@@ -13,13 +28,22 @@ export type PublicRuntimeConfig = {
       maxRetries: number;
       retryDelaysMs: number[];
     };
+    coinPackages: CoinPackageConfig[];
   };
   gameplay: {
     room: {
       minPlayersToStart: number;
+      defaultCategoryId: string;
     };
     defaults: {
       questionDurationSec: number;
+    };
+    textAnswers: {
+      maxLength: number;
+    };
+    results: {
+      /** Highest `min` first. */
+      matchTiers: MatchTierConfig[];
     };
   };
   network: {
@@ -31,6 +55,7 @@ export type PublicRuntimeConfig = {
     rpcTimeoutMs: {
       default: number;
       startGame: number;
+      reportAnswer: number;
     };
   };
   content: {

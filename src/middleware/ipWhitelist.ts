@@ -1,4 +1,5 @@
 import express from "express";
+import { getRequestIP } from "../utils/clientIp.js";
 
 // Get allowed IPs from environment variable (comma-separated)
 // Example: ALLOWED_IPS=127.0.0.1,192.168.1.1,10.0.0.1
@@ -17,17 +18,7 @@ export function ipWhitelistMiddleware(
     return next();
   }
 
-  // Get client IP (consider X-Forwarded-For header if behind proxy)
-  let clientIp =
-    (req.headers["x-forwarded-for"] as string)?.split(",")[0]?.trim() ||
-    (req.headers["x-real-ip"] as string) ||
-    req.socket.remoteAddress ||
-    req.ip;
-
-  // Normalize IPv6 localhost to IPv4
-  if (clientIp === "::1" || clientIp === "::ffff:127.0.0.1") {
-    clientIp = "127.0.0.1";
-  }
+  const clientIp = getRequestIP(req);
 
   // Check if IP is in whitelist
   if (clientIp && ALLOWED_IPS.includes(clientIp)) {

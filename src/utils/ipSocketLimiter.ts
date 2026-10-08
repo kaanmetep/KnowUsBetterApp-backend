@@ -1,9 +1,11 @@
 import { Socket } from "socket.io";
+import { getRequestIP } from "./clientIp.js";
 
 // IP bazlı socket sayısı limiti
-// MAX_SOCKETS_PER_IP: IP başına maximum socket sayısı (default: 10)
+// Mobile carriers put many subscribers behind one public IP (CGNAT), so this
+// only stops floods, not ordinary players sharing an address.
 const MAX_SOCKETS_PER_IP =
-  parseInt(process.env.MAX_SOCKETS_PER_IP || "10", 10) || 10;
+  parseInt(process.env.MAX_SOCKETS_PER_IP || "100", 10) || 100;
 
 // IP -> socket ID'ler mapping
 const ipSocketMap = new Map<string, Set<string>>(); // IP -> Set<socket.id>
@@ -15,27 +17,7 @@ const socketIpMap = new Map<string, string>(); // socket.id -> IP
  * Get client IP from socket
  */
 export function getClientIP(socket: Socket): string {
-  const req = socket.request;
-  const forwardedFor = req.headers["x-forwarded-for"] as string;
-  const realIp = req.headers["x-real-ip"] as string;
-  const remoteAddress = req.socket.remoteAddress || "";
-
-  // X-Forwarded-For'dan ilk IP'yi al (proxy arkasındaysa)
-  if (forwardedFor) {
-    return forwardedFor.split(",")[0].trim();
-  }
-
-  // X-Real-IP varsa onu kullan
-  if (realIp) {
-    return realIp.trim();
-  }
-
-  // IPv6 mapped IPv4 adresini temizle (::ffff:127.0.0.1 -> 127.0.0.1)
-  if (remoteAddress.startsWith("::ffff:")) {
-    return remoteAddress.substring(7);
-  }
-
-  return remoteAddress || "unknown";
+  return getRequestIP(socket.request);
 }
 
 /**

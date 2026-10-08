@@ -103,6 +103,9 @@
       .q-meta { display: flex; justify-content: space-between; align-items: center; color: var(--muted); font-size: 12px; margin-bottom: 8px; }
       .badge { padding: 2px 8px; border-radius: 6px; background: var(--panel-2); font-weight: 600; }
       .badge.mc { color: var(--accent); }
+      .badge.text { color: #5b7db8; }
+      .badge.trivia { color: #0f8b8d; }
+      #f-correct-choice { width: 100%; }
       .q-line { margin: 4px 0; overflow-wrap: anywhere; }
       .q-line .lang { display: inline-block; width: 26px; color: var(--muted); font-size: 12px; font-weight: 700; }
       .q-line.en { font-weight: 600; }
@@ -265,6 +268,14 @@
             <div id="texts-preview" class="preview"></div>
 
             <div class="toggle">
+              <span>Yazılı cevap (oyuncular input'a yazar)</span>
+              <label class="switch" style="margin:0">
+                <input id="f-text-question" type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </div>
+
+            <div id="have-answers-row" class="toggle">
               <span>Özel cevaplar (yes/no değil)</span>
               <label class="switch" style="margin:0">
                 <input id="f-have-answers" type="checkbox" />
@@ -282,6 +293,26 @@
                 placeholder="Coffee&#10;Kahve&#10;Café&#10;&#10;Tea&#10;Çay&#10;Té"
               ></textarea>
               <div id="answers-preview" class="preview"></div>
+            </div>
+
+            <div class="toggle">
+              <span>Bilgi yarışması (doğru cevabı var)</span>
+              <label class="switch" style="margin:0">
+                <input id="f-trivia" type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </div>
+
+            <div id="correct-box" class="hidden">
+              <label id="f-correct-label" for="f-correct">Doğru cevap</label>
+              <select id="f-correct-choice"></select>
+              <textarea
+                id="f-correct"
+                rows="3"
+                autocapitalize="off"
+                spellcheck="false"
+                placeholder="Mars&#10;Mars&#10;Marte"
+              ></textarea>
             </div>
 
             <div class="row" style="margin-top:20px">

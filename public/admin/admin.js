@@ -330,10 +330,26 @@
       );
     }
 
+    const kind =
+      q.question_type === "text"
+        ? { cls: " text", label: "Yazılı cevap" }
+        : q.have_answers
+          ? { cls: " mc", label: "Çoktan seçmeli" }
+          : { cls: "", label: "Yes / No" };
+
+    const correct =
+      q.correct_answer == null
+        ? null
+        : el("span", {
+            class: "badge trivia",
+            text: `✓ ${correctAnswerText(q.correct_answer).split("\n")[0] || "?"}`,
+          });
+
     return el("div", { class: "card" }, [
       el("div", { class: "q-meta" }, [
         el("span", { text: `#${q.order_index ?? "—"}` }),
-        el("span", { class: `badge${q.have_answers ? " mc" : ""}`, text: q.have_answers ? "Çoktan seçmeli" : "Yes / No" }),
+        el("span", { class: `badge${kind.cls}`, text: kind.label }),
+        correct,
       ]),
       ...lines,
       answers,
@@ -465,11 +481,102 @@
   $("f-answers").addEventListener("input", renderAnswersPreview);
 
   function setHaveAnswers(on) {
-    $("f-have-answers").checked = on;
-    $("answers-box").classList.toggle("hidden", !on);
+    const isText = $("f-text-question").checked;
+    $("f-have-answers").checked = on && !isText;
+    $("answers-box").classList.toggle("hidden", !on || isText);
+    renderCorrectBox();
+  }
+
+  // Text questions are typed freely, so the answer list is hidden while on.
+  function setTextQuestion(on) {
+    $("f-text-question").checked = on;
+    $("have-answers-row").classList.toggle("hidden", on);
+    setHaveAnswers($("f-have-answers").checked);
   }
 
   $("f-have-answers").addEventListener("change", (e) => setHaveAnswers(e.target.checked));
+  $("f-text-question").addEventListener("change", (e) => setTextQuestion(e.target.checked));
+
+  // ---------- trivia correct answer ----------
+  // Yes/no and multiple choice pick from a list; typed answers take one line
+  // per language (EN, TR, ES), with alternatives separated by "|".
+
+  const ALT_SEPARATOR = "|";
+
+  function correctMode() {
+    if ($("f-text-question").checked) return "text";
+    return $("f-have-answers").checked ? "choice" : "yes_no";
+  }
+
+  function renderCorrectBox() {
+    const on = $("f-trivia").checked;
+    $("correct-box").classList.toggle("hidden", !on);
+    if (!on) return;
+
+    const mode = correctMode();
+    const select = $("f-correct-choice");
+    const textarea = $("f-correct");
+    select.classList.toggle("hidden", mode === "text");
+    textarea.classList.toggle("hidden", mode !== "text");
+    $("f-correct-label").textContent =
+      mode === "text"
+        ? `Kabul edilen cevaplar · 3 satır: 🇬🇧 EN → 🇹🇷 TR → 🇪🇸 ES · alternatifleri "${ALT_SEPARATOR}" ile ayır`
+        : "Doğru cevap";
+    if (mode === "text") return;
+
+    const options =
+      mode === "yes_no"
+        ? [
+            { value: "yes", label: "Yes / Evet" },
+            { value: "no", label: "No / Hayır" },
+          ]
+        : parseAnswers($("f-answers").value).groups
+            .filter((g) => g.en)
+            .map((g) => ({ value: g.en, label: `${g.en} · ${g.tr} · ${g.es}` }));
+    const wanted = state.pendingCorrect ?? select.value;
+    select.replaceChildren(
+      el("option", { value: "", text: "— seç —" }),
+      ...options.map((o) => el("option", { value: o.value, text: o.label })),
+    );
+    if (options.some((o) => o.value === wanted)) select.value = wanted;
+    state.pendingCorrect = undefined;
+  }
+
+  function setTrivia(on) {
+    $("f-trivia").checked = on;
+    renderCorrectBox();
+  }
+
+  $("f-trivia").addEventListener("change", (e) => setTrivia(e.target.checked));
+  $("f-answers").addEventListener("input", renderCorrectBox);
+
+  function correctAnswerText(raw) {
+    if (raw == null) return "";
+    const lists = Array.isArray(raw) || typeof raw === "string" ? { en: raw, tr: raw, es: raw } : raw;
+    return LANGS.map((lang) => [].concat(lists[lang] ?? []).join(` ${ALT_SEPARATOR} `)).join("\n");
+  }
+
+  function readCorrectAnswer() {
+    if (!$("f-trivia").checked) return null;
+    const mode = correctMode();
+    if (mode !== "text") {
+      const value = $("f-correct-choice").value;
+      if (!value) throw new Error("Doğru cevap seçilmedi");
+      return value;
+    }
+    const lines = $("f-correct").value.split(/\r?\n/).map(cleanLine);
+    const lists = Object.fromEntries(
+      LANGS.map((lang, i) => [
+        lang,
+        (lines[i] || "")
+          .split(ALT_SEPARATOR)
+          .map((v) => v.trim())
+          .filter(Boolean),
+      ]),
+    );
+    if (!LANGS.some((lang) => lists[lang].length)) throw new Error("Doğru cevap boş");
+    return lists;
+  }
 
   function resetForm({ keepCategory = true } = {}) {
     state.editingId = null;
@@ -478,9 +585,12 @@
     $("btn-cancel-edit").classList.add("hidden");
     $("f-texts").value = "";
     $("f-answers").value = "";
+    $("f-correct").value = "";
     renderTextsPreview();
     renderAnswersPreview();
+    setTextQuestion(false);
     setHaveAnswers(false);
+    setTrivia(false);
     if (!keepCategory) $("f-category").value = state.currentCategory || "";
   }
 
@@ -504,7 +614,12 @@
 
     renderTextsPreview();
     renderAnswersPreview();
+    setTextQuestion(q.question_type === "text");
     setHaveAnswers(Boolean(q.have_answers));
+    const isTextKey = q.question_type === "text";
+    $("f-correct").value = isTextKey ? correctAnswerText(q.correct_answer) : "";
+    state.pendingCorrect = !isTextKey && typeof q.correct_answer === "string" ? q.correct_answer : undefined;
+    setTrivia(q.correct_answer != null);
     switchTab("form");
   }
 
@@ -522,10 +637,12 @@
     const texts = parseTexts($("f-texts").value);
     if (texts.error) throw new Error(`Soru: ${texts.error}`);
 
+    const isText = $("f-text-question").checked;
     const payload = {
       category_id: $("f-category").value,
       texts: Object.fromEntries(LANGS.map((lang) => [`text_${lang}`, texts.values[lang]])),
-      have_answers: $("f-have-answers").checked,
+      question_type: isText ? "text" : "choice",
+      have_answers: !isText && $("f-have-answers").checked,
       answers: null,
     };
 
@@ -536,6 +653,7 @@
         LANGS.map((lang) => [`answers_${lang}`, answers.groups.map((group) => group[lang])]),
       );
     }
+    payload.correct_answer = readCorrectAnswer();
     return payload;
   }
 
@@ -566,13 +684,15 @@
 
   // ---------- SQL ----------
 
-  const SQL_TEMPLATE = `INSERT INTO questions (id, category_id, texts, have_answers, answers, order_index, created_at, updated_at)
+  const SQL_TEMPLATE = `INSERT INTO questions (id, category_id, texts, question_type, have_answers, answers, correct_answer, order_index, created_at, updated_at)
 VALUES (
   gen_random_uuid(),
   'spicy',
   '{"text_en": "...", "text_tr": "...", "text_es": "..."}'::jsonb,
+  'choice', -- 'text' = yazılı cevap (have_answers false, answers NULL olmalı)
   false,
   NULL,
+  NULL, -- bilgi yarışması: '"yes"' / '"Canberra"' (answers_en'deki hali) / '{"en":["Mars"],"tr":["Mars"],"es":["Marte"]}'
   (SELECT COALESCE(MAX(order_index), 0) + 1 FROM questions WHERE category_id = 'spicy'),
   now(),
   now()

@@ -8,6 +8,7 @@ import {
   validateRegisterTokenInput,
 } from "../services/pushTokenService.js";
 import { RegisterTokenInput } from "../types/notifications.js";
+import { requireAppUser } from "../services/appUserAuth.js";
 
 const registerTokenRateLimiter = createRateLimiter(
   parseInt(process.env.NOTIFICATION_REGISTER_RATE_MAX || "120", 10),
@@ -21,6 +22,7 @@ export function createNotificationsRouter(supabaseAdmin: SupabaseClient): Router
   router.post(
     "/register-token",
     registerTokenRateLimiter,
+    requireAppUser(supabaseAdmin, (req) => req.body?.appUserId?.trim?.()),
     async (req: Request, res: Response) => {
       try {
         const body = req.body as RegisterTokenInput;
