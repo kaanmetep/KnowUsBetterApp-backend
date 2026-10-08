@@ -6,7 +6,7 @@ import {
   verifyRevenueCatRequest,
 } from "../middleware/revenueCat.js";
 import { creditCoins } from "../services/coinLedger.js";
-import { getPublicConfig } from "../services/publicConfigService.js";
+import { PUBLIC_RUNTIME_CONFIG } from "../services/publicConfigService.js";
 import { getCoinsFromProductId } from "../utils/helpers.js";
 
 const PURCHASE_EVENTS = new Set([
@@ -103,10 +103,12 @@ export function createRevenueCatWebhookRouter({
 
         const appUserId = event.app_user_id;
         const productId = event.product_id;
-        const config = await getPublicConfig(supabaseAdmin);
         const coins =
           typeof productId === "string"
-            ? getCoinsFromProductId(productId, config.economy.coinPackages)
+            ? getCoinsFromProductId(
+                productId,
+                PUBLIC_RUNTIME_CONFIG.economy.coinPackages,
+              )
             : 0;
 
         if (!appUserId || !coins) {

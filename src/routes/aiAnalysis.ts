@@ -10,7 +10,7 @@ import {
   getLastFinishedGameOf,
 } from "../services/finishedGames.js";
 import { allowLegacyClients, requireAppUser } from "../services/appUserAuth.js";
-import { getPublicConfig } from "../services/publicConfigService.js";
+import { PUBLIC_RUNTIME_CONFIG } from "../services/publicConfigService.js";
 import {
   HIDDEN_TEXT_ANSWER,
   TEXT_ANSWER_MAX_LENGTH,
@@ -498,7 +498,7 @@ export function createAiAnalysisRouter({
         res.status(500).json({ error: "Database not configured." });
         return;
       }
-      if (!(await getPublicConfig(supabaseAdmin)).economy.aiAnalysis.enabled) {
+      if (!PUBLIC_RUNTIME_CONFIG.economy.aiAnalysis.enabled) {
         res.status(403).json({ error: "AI analysis is turned off.", code: "AI_DISABLED" });
         return;
       }
@@ -609,8 +609,8 @@ export function createAiAnalysisRouter({
         return;
       }
 
-      const config = await getPublicConfig(supabaseAdmin);
-      if (!config.economy.aiAnalysis.enabled) {
+      const { enabled, coinCost: cost } = PUBLIC_RUNTIME_CONFIG.economy.aiAnalysis;
+      if (!enabled) {
         res
           .status(403)
           .json({ error: "AI analysis is turned off.", code: "AI_DISABLED" });
@@ -651,7 +651,6 @@ export function createAiAnalysisRouter({
         return;
       }
 
-      const cost = config.economy.aiAnalysis.coinCost;
       let charged = false;
       try {
         let newBalance: number | undefined;
