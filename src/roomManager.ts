@@ -1,5 +1,5 @@
-import { Room, Player, JoinRoomResult, Category } from "./types.js";
-import { redis } from "./utils/redis.js";
+import { Room, Player, JoinRoomResult, Category, GameMode } from "./types.js";
+import { redis, withLock } from "./utils/redis.js";
 
 // Redis key patterns
 const ROOM_KEY_PREFIX = "room:";
@@ -15,6 +15,15 @@ export class RoomManager {
 
   private getRoomKey(roomCode: string): string {
     return `${ROOM_KEY_PREFIX}${roomCode}`;
+  }
+
+  /**
+   * Every read-modify-write of a room runs inside this, so concurrent events
+   * (join, leave, answers, timers) can't overwrite each other's changes.
+   * Not reentrant: don't call it again from inside `fn`.
+   */
+  withRoomLock<T>(roomCode: string, fn: () => Promise<T>): Promise<T> {
+    return withLock(`lock:room:${roomCode}`, fn);
   }
 
   private getPlayerRoomKey(socketId: string): string {
@@ -74,45 +83,44 @@ export class RoomManager {
     return code;
   }
 
+  /**
+   * Writes the room and extends its players' room mappings along with it, so
+   * a long session in one room can't outlive the mappings.
+   */
+  private async saveRoom(room: Room): Promise<void> {
+    const pipeline = redis
+      .multi()
+      .setex(this.getRoomKey(room.roomCode), ROOM_TTL, JSON.stringify(room));
+    for (const player of room.players) {
+      pipeline.expire(this.getPlayerRoomKey(player.id), ROOM_TTL);
+    }
+    const results = await pipeline.exec();
+    const failed = results?.find(([error]) => error)?.[0];
+    if (failed) throw failed;
+  }
+
   // Create a new room
   async createRoom(
     socketId: string,
     playerName: string,
     avatar: string,
-    category: Category
+    category: Category,
+    supportsTextQuestions = false,
+    supportsServerCoins = false,
+    mode: GameMode = "see_your_match"
   ): Promise<Room> {
-    // Create a unique room code (if it already exists, try again)
-    let roomCode: string;
-    let attempts = 0;
-    const maxAttempts = 100; // Prevent infinite loop
-
-    do {
-      roomCode = this.generateRoomCode();
-      attempts++;
-
-      if (attempts >= maxAttempts) {
-        throw new Error(
-          "Failed to generate unique room code after multiple attempts"
-        );
-      }
-
-      // Redis'te room'un var olup olmadığını kontrol et
-      const exists = await redis.exists(this.getRoomKey(roomCode));
-      if (exists === 0) {
-        break; // Room kodu benzersiz
-      }
-    } while (true);
-
     const player: Player = {
       id: socketId,
       name: playerName,
       avatar: avatar,
       isHost: true,
       hasAnswered: false,
+      supportsTextQuestions,
+      supportsServerCoins,
     };
 
     const room: Room = {
-      roomCode,
+      roomCode: "",
       createdAt: Date.now(),
       status: "waiting",
       players: [player],
@@ -128,18 +136,30 @@ export class RoomManager {
         category: category,
         questionDuration: 15, // 15 seconds to answer
         resultDisplayDuration: 4, // 4 seconds to show results
+        textQuestionDuration: 30, // typing takes longer than tapping
+        textResultDisplayDuration: 6, // time to read two typed answers
+        mode,
       },
     };
 
-    // Room'u Redis'e kaydet (JSON string olarak)
-    const roomKey = this.getRoomKey(roomCode);
-    await redis.setex(roomKey, ROOM_TTL, JSON.stringify(room));
-
-    // Player -> Room mapping'ini kaydet
-    const playerRoomKey = this.getPlayerRoomKey(socketId);
-    await redis.setex(playerRoomKey, ROOM_TTL, roomCode);
-
-    return room;
+    // NX claims the code in the same step as the existence check, so two
+    // rooms created at the same moment can't end up with the same code.
+    const maxAttempts = 100;
+    for (let attempt = 0; attempt < maxAttempts; attempt++) {
+      room.roomCode = this.generateRoomCode();
+      const created = await redis.set(
+        this.getRoomKey(room.roomCode),
+        JSON.stringify(room),
+        "EX",
+        ROOM_TTL,
+        "NX"
+      );
+      if (created === "OK") {
+        await redis.setex(this.getPlayerRoomKey(socketId), ROOM_TTL, room.roomCode);
+        return room;
+      }
+    }
+    throw new Error("Failed to generate unique room code after multiple attempts");
   }
 
   // Join room
@@ -147,27 +167,34 @@ export class RoomManager {
     roomCode: string,
     socketId: string,
     playerName: string,
-    avatar: string
+    avatar: string,
+    supportsTextQuestions = false,
+    supportsServerCoins = false
   ): Promise<JoinRoomResult> {
     const roomKey = this.getRoomKey(roomCode);
     const roomData = await redis.get(roomKey);
 
     if (!roomData) {
-      return { success: false, error: "Room not found" };
+      return { success: false, error: "Room not found", code: "ROOM_NOT_FOUND" };
     }
 
     const room = this.parseRoom(roomData);
     if (!room) {
       console.error(`❌ Corrupted room data for room: ${roomCode}`);
-      return { success: false, error: "Room data is corrupted" };
+      return { success: false, error: "Room data is corrupted", code: "REQUEST_FAILED" };
+    }
+
+    const existing = room.players.find((p) => p.id === socketId);
+    if (existing) {
+      return { success: true, player: existing, room };
     }
 
     if (room.status !== "waiting") {
-      return { success: false, error: "Game already started" };
+      return { success: false, error: "Game already started", code: "GAME_IN_PROGRESS" };
     }
 
     if (room.players.length >= room.settings.maxPlayers) {
-      return { success: false, error: "Room is full" };
+      return { success: false, error: "Room is full", code: "ROOM_FULL" };
     }
 
     const player: Player = {
@@ -176,16 +203,14 @@ export class RoomManager {
       avatar: avatar,
       isHost: false,
       hasAnswered: false,
+      supportsTextQuestions,
+      supportsServerCoins,
     };
 
     room.players.push(player);
 
-    // Room'u Redis'te güncelle
-    await redis.setex(roomKey, ROOM_TTL, JSON.stringify(room));
-
-    // Player -> Room mapping'ini kaydet
-    const playerRoomKey = this.getPlayerRoomKey(socketId);
-    await redis.setex(playerRoomKey, ROOM_TTL, roomCode);
+    await redis.setex(this.getPlayerRoomKey(socketId), ROOM_TTL, roomCode);
+    await this.saveRoom(room);
 
     return { success: true, player, room };
   }
@@ -240,8 +265,7 @@ export class RoomManager {
           room.players[0].isHost = true;
         }
 
-        // Room'u Redis'te güncelle
-        await redis.setex(roomKey, ROOM_TTL, JSON.stringify(room));
+        await this.saveRoom(room);
       }
     }
 
@@ -305,8 +329,7 @@ export class RoomManager {
       player.hasAnswered = false;
     });
 
-    // Room'u Redis'te güncelle
-    await redis.setex(roomKey, ROOM_TTL, JSON.stringify(room));
+    await this.saveRoom(room);
 
     console.log(`🔄 Room ${roomCode} has been reset for replay`);
     return room;
@@ -314,19 +337,26 @@ export class RoomManager {
 
   // Update room in Redis (helper method for index.ts)
   async updateRoom(room: Room): Promise<void> {
-    const roomKey = this.getRoomKey(room.roomCode);
-    await redis.setex(roomKey, ROOM_TTL, JSON.stringify(room));
+    await this.saveRoom(room);
   }
 
   // For debugging - list all rooms
   async getAllRooms(): Promise<Room[]> {
-    const keys = await redis.keys(`${ROOM_KEY_PREFIX}*`);
-
-    if (keys.length === 0) {
-      return [];
+    // SCAN walks the keyspace in small steps; KEYS would block Redis (and
+    // every game) while it lists everything.
+    const keys = new Set<string>();
+    for await (const batch of redis.scanStream({
+      match: `${ROOM_KEY_PREFIX}*`,
+      count: 500,
+    })) {
+      for (const key of batch as string[]) keys.add(key);
     }
 
-    const roomsData = await redis.mget(...keys);
+    const roomsData: (string | null)[] = [];
+    const keyList = [...keys];
+    for (let i = 0; i < keyList.length; i += 500) {
+      roomsData.push(...(await redis.mget(...keyList.slice(i, i + 500))));
+    }
 
     const rooms: Room[] = [];
     for (const data of roomsData) {

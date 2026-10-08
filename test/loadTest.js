@@ -19,7 +19,6 @@ const stats = {
   messages: 0,
   roomsCreated: 0,
   roomsJoined: 0,
-  messagesSent: 0,
   startTime: Date.now(),
 };
 
@@ -206,34 +205,6 @@ for (
   sockets.push(socket);
 }
 
-// Phase 3: Send chat messages periodically
-setInterval(() => {
-  // Randomly select some sockets to send messages
-  const activeSockets = sockets.filter(
-    (s) => s.connected && socketRooms.has(s.id)
-  );
-  const messagesToSend = Math.min(5, Math.floor(activeSockets.length * 0.1)); // 10% of active sockets
-
-  for (let i = 0; i < messagesToSend; i++) {
-    const socket = randomItem(activeSockets);
-    const roomCode = socketRooms.get(socket.id);
-    if (roomCode) {
-      const messages = [
-        "Hello!",
-        "How are you?",
-        "Let's play!",
-        "Good luck!",
-        "Nice!",
-      ];
-      socket.emit("send-message", {
-        roomCode,
-        message: randomItem(messages),
-      });
-      stats.messagesSent++;
-    }
-  }
-}, 5000); // Every 5 seconds
-
 // Phase 4: Some hosts start games
 setTimeout(() => {
   console.log(`\n🎮 Starting games in some rooms...`);
@@ -258,7 +229,6 @@ const statsInterval = setInterval(() => {
   console.log(`   Errors: ${stats.errors}`);
   console.log(`   Rooms created: ${stats.roomsCreated}`);
   console.log(`   Rooms joined: ${stats.roomsJoined}`);
-  console.log(`   Messages sent: ${stats.messagesSent}`);
   console.log(`   Messages received: ${stats.messages}`);
   console.log(`   Active rooms: ${rooms.length}\n`);
 }, 5000);
@@ -280,7 +250,6 @@ setTimeout(() => {
   console.log(`   Total errors: ${stats.errors}`);
   console.log(`   Rooms created: ${stats.roomsCreated}`);
   console.log(`   Rooms joined: ${stats.roomsJoined}`);
-  console.log(`   Messages sent: ${stats.messagesSent}`);
   console.log(`   Messages received: ${stats.messages}`);
   console.log(
     `   Connection success rate: ${(

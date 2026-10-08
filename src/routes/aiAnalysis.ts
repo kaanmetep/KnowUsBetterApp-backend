@@ -1,17 +1,46 @@
 import { Router, Request, Response } from "express";
+import { SupabaseClient } from "@supabase/supabase-js";
 import OpenAI from "openai";
-import { createRateLimiter } from "../middleware/rateLimiter.js";
-
-const router = Router();
+import { byAppUserId, createRateLimiter } from "../middleware/rateLimiter.js";
+import { creditCoins, spendCoins } from "../services/coinLedger.js";
+import {
+  FINISHED_GAME_TTL_SECONDS,
+  FinishedGame,
+  getFinishedGame,
+  getLastFinishedGameOf,
+} from "../services/finishedGames.js";
+import { allowLegacyClients, requireAppUser } from "../services/appUserAuth.js";
+import { getPublicConfig } from "../services/publicConfigService.js";
+import {
+  HIDDEN_TEXT_ANSWER,
+  TEXT_ANSWER_MAX_LENGTH,
+} from "../utils/helpers.js";
+import { acquireLock, redis, releaseLock } from "../utils/redis.js";
 
 // ============================================
-// RATE LIMITER: 3 requests per minute per IP
+// RATE LIMITERS
 // ============================================
+// Per IP. Each recorded game can only be analysed a few times before the
+// cache answers, so this only has to stop scripted floods.
 const aiAnalysisRateLimiter = createRateLimiter(
-  3,
+  10,
   60_000, // 1 minute
   "Too many AI analysis requests. Please wait a minute before trying again.",
 );
+
+// Per player: retries of a paid analysis are served from the cache.
+const gameAnalysisRateLimiter = createRateLimiter(
+  6,
+  60_000,
+  "Too many AI analysis requests. Please wait a minute before trying again.",
+  byAppUserId((req) => req.body?.appUserId),
+);
+
+// Both attempts together must finish before iOS gives up on the request (60s),
+// or the app shows an error for an analysis that was charged and delivered.
+const OPENAI_TIMEOUT_MS = 25_000;
+const OPENAI_MAX_RETRIES = 1;
+const ANALYSIS_LOCK_SECONDS = 120;
 
 // ============================================
 // TYPES
@@ -22,8 +51,14 @@ interface PlayerAnswer {
 }
 
 interface CompletedRound {
-  question: { text_tr: string; text_en: string; text_es: string };
+  question: {
+    text_tr: string;
+    text_en: string;
+    text_es: string;
+    questionType?: "choice" | "text";
+  };
   isMatched: boolean;
+  isScored?: boolean;
   playerAnswers: PlayerAnswer[];
 }
 
@@ -74,7 +109,8 @@ function resolveAnswer(
   answer: string | { en: string; tr: string; es: string },
   language: string,
 ): string {
-  if (typeof answer === "object" && answer !== null) {
+  if (answer === null || answer === undefined) return "";
+  if (typeof answer === "object") {
     const langKey = language as keyof typeof answer;
     return answer[langKey] || answer.en || "";
   }
@@ -88,6 +124,43 @@ function resolveAnswer(
   }
 
   return answer;
+}
+
+const OPEN_ANSWER_MAX_LENGTH = TEXT_ANSWER_MAX_LENGTH;
+
+const NO_ANSWER_MAP: Record<string, string> = {
+  tr: "(boş bıraktı)",
+  en: "(left blank)",
+  es: "(lo dejó en blanco)",
+};
+
+const HIDDEN_ANSWER_MAP: Record<string, string> = {
+  tr: "(cevap gizlendi)",
+  en: "(answer hidden)",
+  es: "(respuesta oculta)",
+};
+
+function isOpenRound(round: CompletedRound): boolean {
+  return round.isScored === false;
+}
+
+function isTypedRound(round: CompletedRound): boolean {
+  return round.question?.questionType === "text";
+}
+
+/** Typed answers are user input: kept on one line, capped and quoted. */
+function resolveOpenAnswer(answer: unknown, language: string): string {
+  if (answer === HIDDEN_TEXT_ANSWER) {
+    return HIDDEN_ANSWER_MAP[language] || HIDDEN_ANSWER_MAP.en;
+  }
+  const text =
+    typeof answer === "string"
+      ? Array.from(answer.replace(/\s+/g, " ").trim())
+          .slice(0, OPEN_ANSWER_MAX_LENGTH)
+          .join("")
+          .replace(/"/g, "'")
+      : "";
+  return text ? `"${text}"` : NO_ANSWER_MAP[language] || NO_ANSWER_MAP.en;
 }
 
 /**
@@ -106,16 +179,37 @@ function buildUserMessage(
     message += `${body.player2Name} about ${body.player1Name}: ${body.player2AboutPlayer1Percentage}%\n\n`;
   }
 
+  if (body.completedRounds.some(isTypedRound)) {
+    message +=
+      `Note: answers in quotes were typed freely by the players; their ` +
+      `result was judged by meaning, not exact wording.\n`;
+  }
+  if (body.completedRounds.some(isOpenRound)) {
+    message +=
+      `Note: rounds marked OPEN ANSWER are not counted in the percentages ` +
+      `above; compare the meaning of the two answers yourself and use them ` +
+      `as extra insight.\n`;
+  }
+  message += `\n`;
+
   message += `Game results:\n\n`;
 
   body.completedRounds.forEach((round, index) => {
     const questionText = resolveQuestionText(round.question, body.language);
-    const result = round.isMatched ? "MATCHED" : "NOT MATCHED";
+    const open = isOpenRound(round);
+    const typed = isTypedRound(round) || open;
+    const result = open
+      ? "OPEN ANSWER"
+      : round.isMatched
+        ? "MATCHED"
+        : "NOT MATCHED";
 
     message += `${index + 1}. "${questionText}"\n`;
 
     (round.playerAnswers || []).forEach((pa) => {
-      const resolvedAnswer = resolveAnswer(pa.answer, body.language);
+      const resolvedAnswer = typed
+        ? resolveOpenAnswer(pa.answer, body.language)
+        : resolveAnswer(pa.answer, body.language);
       message += `   ${pa.playerName}: ${resolvedAnswer}\n`;
     });
 
@@ -173,272 +267,452 @@ JSON formatında SADECE şu yapıda cevap ver:
 }`;
 
 // ============================================
-// POST /api/ai-analysis
+// OPENAI CALL
 // ============================================
-router.post(
-  "/",
-  aiAnalysisRateLimiter,
-  async (req: Request, res: Response): Promise<void> => {
-    try {
-      // 1. Check OPENAI_API_KEY
-      const apiKey = process.env.OPENAI_API_KEY;
-      if (!apiKey) {
-        console.error("❌ OPENAI_API_KEY is not set in .env");
-        res.status(500).json({ error: "OpenAI API key is not configured." });
-        return;
-      }
+type DefaultAnalysis = {
+  strengths: string;
+  differences: string;
+  tips: string;
+  compatibility: string;
+};
+type KnowMeWellAnalysis = {
+  player1AboutPlayer2: string;
+  player2AboutPlayer1: string;
+};
 
-      // 2. Validate request body
-      const {
-        completedRounds,
-        player1Name,
-        player2Name,
-        matchPercentage,
-        language,
-        analysisType,
-        player1AboutPlayer2Percentage,
-        player2AboutPlayer1Percentage,
-      } = req.body as AIAnalysisRequest;
+class AnalysisError extends Error {
+  constructor(
+    readonly status: number,
+    message: string,
+  ) {
+    super(message);
+  }
+}
 
-      if (
-        !completedRounds ||
-        !Array.isArray(completedRounds) ||
-        completedRounds.length === 0
-      ) {
-        res.status(400).json({
-          error: "completedRounds is required and must be a non-empty array.",
-        });
-        return;
-      }
+const isFilled = (value: unknown): value is string =>
+  typeof value === "string" && value.trim() !== "";
 
-      // Validate each round has playerAnswers
-      for (const round of completedRounds) {
-        if (!round.playerAnswers || !Array.isArray(round.playerAnswers)) {
-          res
-            .status(400)
-            .json({ error: "Each round must have a playerAnswers array." });
-          return;
-        }
-      }
+async function runAnalysis(
+  body: AIAnalysisRequest,
+  analysisMode: "default" | "know_me_well",
+): Promise<DefaultAnalysis | KnowMeWellAnalysis> {
+  const apiKey = process.env.OPENAI_API_KEY;
+  if (!apiKey) {
+    console.error("❌ OPENAI_API_KEY is not set in .env");
+    throw new AnalysisError(500, "OpenAI API key is not configured.");
+  }
 
-      if (!player1Name || typeof player1Name !== "string") {
-        res
-          .status(400)
-          .json({ error: "player1Name is required and must be a string." });
-        return;
-      }
+  const openai = new OpenAI({
+    apiKey,
+    timeout: OPENAI_TIMEOUT_MS,
+    maxRetries: OPENAI_MAX_RETRIES,
+  });
+  const completion = await openai.chat.completions.create({
+    model: "gpt-4.1-mini",
+    max_tokens: 2000,
+    response_format: { type: "json_object" },
+    messages: [
+      {
+        role: "system",
+        content:
+          analysisMode === "know_me_well"
+            ? KNOW_ME_WELL_SYSTEM_PROMPT
+            : DEFAULT_SYSTEM_PROMPT,
+      },
+      { role: "user", content: buildUserMessage(body, analysisMode) },
+    ],
+  });
 
-      if (!player2Name || typeof player2Name !== "string") {
-        res
-          .status(400)
-          .json({ error: "player2Name is required and must be a string." });
-        return;
-      }
+  const content = completion.choices[0]?.message?.content;
+  if (!content) {
+    console.error("❌ OpenAI returned empty response");
+    throw new AnalysisError(500, "AI returned an empty response. Please try again.");
+  }
 
-      if (
-        matchPercentage === undefined ||
-        matchPercentage === null ||
-        typeof matchPercentage !== "number"
-      ) {
-        res
-          .status(400)
-          .json({ error: "matchPercentage is required and must be a number." });
-        return;
-      }
+  let parsed: Record<string, unknown>;
+  try {
+    parsed = JSON.parse(content);
+  } catch {
+    console.error("❌ Failed to parse OpenAI response:", content);
+    throw new AnalysisError(500, "Failed to parse AI response. Please try again.");
+  }
 
-      if (!language || !["tr", "en", "es"].includes(language)) {
-        res.status(400).json({
-          error: "language is required and must be one of: tr, en, es.",
-        });
-        return;
-      }
-
-      if (
-        analysisType !== undefined &&
-        analysisType !== "default" &&
-        analysisType !== "know_me_well"
-      ) {
-        res.status(400).json({
-          error: "analysisType must be one of: default, know_me_well.",
-        });
-        return;
-      }
-
-      const analysisMode =
-        analysisType === "know_me_well" ? "know_me_well" : "default";
-
-      if (analysisMode === "know_me_well") {
-        if (
-          player1AboutPlayer2Percentage === undefined ||
-          player2AboutPlayer1Percentage === undefined ||
-          typeof player1AboutPlayer2Percentage !== "number" ||
-          typeof player2AboutPlayer1Percentage !== "number" ||
-          Number.isNaN(player1AboutPlayer2Percentage) ||
-          Number.isNaN(player2AboutPlayer1Percentage)
-        ) {
-          res.status(400).json({
-            error:
-              "player1AboutPlayer2Percentage and player2AboutPlayer1Percentage are required and must be numbers for know_me_well analysis.",
-          });
-          return;
-        }
-      }
-
-      // 3. Build user message
-      const userMessage = buildUserMessage(
-        req.body as AIAnalysisRequest,
-        analysisMode,
-      );
-
-      console.log(
-        `🤖 AI Analysis request: ${player1Name} & ${player2Name} (${language}, ${matchPercentage}%, ${analysisMode})`,
-      );
-
-      // 4. Call OpenAI API
-      const openai = new OpenAI({ apiKey });
-
-      const completion = await openai.chat.completions.create({
-        model: "gpt-4.1-mini",
-        max_tokens: 2000,
-        response_format: { type: "json_object" },
-        messages: [
-          {
-            role: "system",
-            content:
-              analysisMode === "know_me_well"
-                ? KNOW_ME_WELL_SYSTEM_PROMPT
-                : DEFAULT_SYSTEM_PROMPT,
-          },
-          { role: "user", content: userMessage },
-        ],
-      });
-
-      const content = completion.choices[0]?.message?.content;
-
-      if (!content) {
-        console.error("❌ OpenAI returned empty response");
-        res
-          .status(500)
-          .json({ error: "AI returned an empty response. Please try again." });
-        return;
-      }
-
-      // 5. Parse JSON response
-      let parsed:
-        | {
-            strengths: string;
-            differences: string;
-            tips: string;
-            compatibility: string;
-          }
-        | { player1AboutPlayer2: string; player2AboutPlayer1: string };
-
-      try {
-        parsed = JSON.parse(content);
-      } catch (parseError) {
-        console.error("❌ Failed to parse OpenAI response:", content);
-        res
-          .status(500)
-          .json({ error: "Failed to parse AI response. Please try again." });
-        return;
-      }
-
-      console.log(
-        `✅ AI Analysis completed for ${player1Name} & ${player2Name}`,
-      );
-
-      // 6. Return result
-      if (analysisMode === "know_me_well") {
-        const knowMeWell = parsed as {
-          player1AboutPlayer2?: unknown;
-          player2AboutPlayer1?: unknown;
-        };
-
-        if (
-          typeof knowMeWell.player1AboutPlayer2 !== "string" ||
-          typeof knowMeWell.player2AboutPlayer1 !== "string" ||
-          knowMeWell.player1AboutPlayer2.trim() === "" ||
-          knowMeWell.player2AboutPlayer1.trim() === ""
-        ) {
-          console.error(
-            "❌ OpenAI response missing required fields (know_me_well):",
-            parsed,
-          );
-          res
-            .status(500)
-            .json({ error: "AI response is incomplete. Please try again." });
-          return;
-        }
-
-        res.json({
-          player1AboutPlayer2: knowMeWell.player1AboutPlayer2,
-          player2AboutPlayer1: knowMeWell.player2AboutPlayer1,
-        });
-        return;
-      }
-
-      const defaultAnalysis = parsed as {
-        strengths?: unknown;
-        differences?: unknown;
-        tips?: unknown;
-        compatibility?: unknown;
-      };
-
-      if (
-        typeof defaultAnalysis.strengths !== "string" ||
-        typeof defaultAnalysis.differences !== "string" ||
-        typeof defaultAnalysis.tips !== "string" ||
-        typeof defaultAnalysis.compatibility !== "string" ||
-        defaultAnalysis.strengths.trim() === "" ||
-        defaultAnalysis.differences.trim() === "" ||
-        defaultAnalysis.tips.trim() === "" ||
-        defaultAnalysis.compatibility.trim() === ""
-      ) {
-        console.error(
-          "❌ OpenAI response missing required fields (default):",
-          parsed,
-        );
-        res
-          .status(500)
-          .json({ error: "AI response is incomplete. Please try again." });
-        return;
-      }
-
-      res.json({
-        strengths: defaultAnalysis.strengths,
-        differences: defaultAnalysis.differences,
-        tips: defaultAnalysis.tips,
-        compatibility: defaultAnalysis.compatibility,
-      });
-    } catch (error: any) {
-      console.error("❌ AI Analysis error:", error);
-
-      // Handle OpenAI specific errors
-      if (error?.status === 401) {
-        res.status(500).json({ error: "Invalid OpenAI API key." });
-        return;
-      }
-
-      if (error?.status === 429) {
-        res.status(429).json({
-          error: "OpenAI rate limit exceeded. Please try again later.",
-        });
-        return;
-      }
-
-      if (error?.status === 500 || error?.status === 503) {
-        res.status(502).json({
-          error:
-            "OpenAI service is temporarily unavailable. Please try again later.",
-        });
-        return;
-      }
-
-      res
-        .status(500)
-        .json({ error: "An unexpected error occurred during AI analysis." });
+  if (analysisMode === "know_me_well") {
+    if (!isFilled(parsed.player1AboutPlayer2) || !isFilled(parsed.player2AboutPlayer1)) {
+      console.error("❌ OpenAI response missing required fields (know_me_well):", parsed);
+      throw new AnalysisError(500, "AI response is incomplete. Please try again.");
     }
-  },
-);
+    console.log(`✅ AI Analysis completed for ${body.player1Name} & ${body.player2Name}`);
+    return {
+      player1AboutPlayer2: parsed.player1AboutPlayer2,
+      player2AboutPlayer1: parsed.player2AboutPlayer1,
+    };
+  }
 
-export default router;
+  if (
+    !isFilled(parsed.strengths) ||
+    !isFilled(parsed.differences) ||
+    !isFilled(parsed.tips) ||
+    !isFilled(parsed.compatibility)
+  ) {
+    console.error("❌ OpenAI response missing required fields (default):", parsed);
+    throw new AnalysisError(500, "AI response is incomplete. Please try again.");
+  }
+  console.log(`✅ AI Analysis completed for ${body.player1Name} & ${body.player2Name}`);
+  return {
+    strengths: parsed.strengths,
+    differences: parsed.differences,
+    tips: parsed.tips,
+    compatibility: parsed.compatibility,
+  };
+}
+
+function sendAnalysisError(res: Response, error: any): void {
+  console.error("❌ AI Analysis error:", error);
+  if (error instanceof AnalysisError) {
+    res.status(error.status).json({ error: error.message });
+    return;
+  }
+  if (error?.status === 401) {
+    res.status(500).json({ error: "Invalid OpenAI API key." });
+    return;
+  }
+  if (error?.status === 429) {
+    res.status(429).json({
+      error: "OpenAI rate limit exceeded. Please try again later.",
+    });
+    return;
+  }
+  if (error?.status === 500 || error?.status === 503) {
+    res.status(502).json({
+      error: "OpenAI service is temporarily unavailable. Please try again later.",
+    });
+    return;
+  }
+  res
+    .status(500)
+    .json({ error: "An unexpected error occurred during AI analysis." });
+}
+
+/** Express 4 ignores a rejected handler, which would leave the request hanging. */
+const catchErrors =
+  (handler: (req: Request, res: Response) => Promise<void>) =>
+  (req: Request, res: Response): void => {
+    handler(req, res).catch((error) => {
+      if (res.headersSent) console.error("❌ AI Analysis error:", error);
+      else sendAnalysisError(res, error);
+    });
+  };
+
+/** The analysis request for one player of a finished game: they are player 1. */
+function buildGameRequest(
+  game: FinishedGame,
+  myId: string,
+  partnerId: string,
+  language: AIAnalysisRequest["language"],
+  analysisMode: AnalysisMode = analysisModeOf(game),
+): AIAnalysisRequest {
+  const nameOf = (id: string) => game.players.find((p) => p.id === id)?.name ?? "";
+  const percentOf = (id: string) =>
+    game.summary.players?.find((p) => p.playerId === id)?.percent ?? 0;
+  return {
+    completedRounds: game.completedRounds as unknown as CompletedRound[],
+    player1Name: nameOf(myId),
+    player2Name: nameOf(partnerId),
+    matchPercentage: game.percentage,
+    language,
+    analysisType: analysisMode,
+    ...(analysisMode === "know_me_well" && {
+      player1AboutPlayer2Percentage: percentOf(myId),
+      player2AboutPlayer1Percentage: percentOf(partnerId),
+    }),
+  };
+}
+
+type AnalysisMode = "default" | "know_me_well";
+
+const analysisModeOf = (game: FinishedGame): AnalysisMode =>
+  game.mode === "know_each_other" ? "know_me_well" : "default";
+
+const isLanguage = (value: unknown): value is AIAnalysisRequest["language"] =>
+  value === "tr" || value === "en" || value === "es";
+
+/**
+ * Older builds send back the rounds they got in game-finished instead of a
+ * gameId; the game is found again from the socket ids and question ids in
+ * them, so only a game the server actually ran can be analysed.
+ */
+async function findGameFromRounds(rounds: unknown[]): Promise<FinishedGame | null> {
+  const questionIds = rounds.map((round: any) => round?.question?.id);
+  if (questionIds.some((id) => typeof id !== "string")) return null;
+
+  const playerIds = new Set<string>();
+  for (const round of rounds as any[]) {
+    if (!Array.isArray(round?.playerAnswers)) continue;
+    for (const answer of round.playerAnswers) {
+      if (typeof answer?.playerId === "string") playerIds.add(answer.playerId);
+    }
+  }
+
+  for (const playerId of [...playerIds].slice(0, 2)) {
+    const game = await getLastFinishedGameOf(playerId);
+    if (
+      game &&
+      game.completedRounds.length === questionIds.length &&
+      game.completedRounds.every((round, i) => round.question.id === questionIds[i])
+    ) {
+      return game;
+    }
+  }
+  return null;
+}
+
+export function createAiAnalysisRouter({
+  supabaseAdmin,
+  onBalanceChanged,
+}: {
+  supabaseAdmin: SupabaseClient | null;
+  /** Lets the app update its wallet as soon as coins move. */
+  onBalanceChanged: (appUserId: string, newBalance: number) => void;
+}): Router {
+  const router = Router();
+
+  // ============================================
+  // POST /api/ai-analysis
+  // Kept for app builds that send the game themselves and spend the coins
+  // over the socket afterwards. Only the game the server recorded is
+  // analysed, once per player and language, whatever else the body says.
+  // ============================================
+  router.post(
+    "/",
+    aiAnalysisRateLimiter,
+    catchErrors(async (req: Request, res: Response): Promise<void> => {
+      if (!allowLegacyClients()) {
+        res.status(410).json({
+          error: "Please update the app to use AI analysis.",
+          code: "UPDATE_REQUIRED",
+        });
+        return;
+      }
+      if (!supabaseAdmin) {
+        res.status(500).json({ error: "Database not configured." });
+        return;
+      }
+      if (!(await getPublicConfig(supabaseAdmin)).economy.aiAnalysis.enabled) {
+        res.status(403).json({ error: "AI analysis is turned off.", code: "AI_DISABLED" });
+        return;
+      }
+
+      const { completedRounds, player1Name, language, analysisType } = req.body ?? {};
+      if (
+        !Array.isArray(completedRounds) ||
+        completedRounds.length === 0 ||
+        typeof player1Name !== "string" ||
+        !isLanguage(language)
+      ) {
+        res.status(400).json({ error: "Invalid AI analysis request." });
+        return;
+      }
+
+      const game = await findGameFromRounds(completedRounds).catch(() => null);
+      // player1Name is the requesting player in these builds.
+      const me = game?.players.find((p) => p.name === player1Name);
+      const partner = game?.players.find((p) => p !== me);
+      if (!game || !me || !partner) {
+        res.status(404).json({
+          error: "This game is no longer available for analysis.",
+          code: "GAME_NOT_FOUND",
+        });
+        return;
+      }
+      if (game.mode === "who_knows_better") {
+        res.status(400).json({
+          error: "AI analysis isn't available for this game.",
+          code: "NOT_SUPPORTED",
+        });
+        return;
+      }
+
+      // These builds pick the response shape themselves.
+      const analysisMode: AnalysisMode =
+        analysisType === "know_me_well" ? "know_me_well" : "default";
+      const cacheKey = `aiResult:legacy:${game.gameId}:${me.id}:${language}:${analysisMode}`;
+      const cachedResult = await redis.get(cacheKey).catch(() => null);
+      if (cachedResult) {
+        res.json(JSON.parse(cachedResult));
+        return;
+      }
+
+      const lockKey = `lock:ai:legacy:${game.gameId}:${me.id}`;
+      if (!(await acquireLock(lockKey, ANALYSIS_LOCK_SECONDS))) {
+        res.status(409).json({
+          error: "Your analysis is already being prepared.",
+          code: "IN_PROGRESS",
+        });
+        return;
+      }
+      try {
+        console.log(
+          `🤖 Legacy AI Analysis for game ${game.gameId} (${language}, ${analysisMode})`,
+        );
+        const result = await runAnalysis(
+          buildGameRequest(game, me.id, partner.id, language, analysisMode),
+          analysisMode,
+        );
+        await redis
+          .setex(cacheKey, FINISHED_GAME_TTL_SECONDS, JSON.stringify(result))
+          .catch((error) => console.warn("⚠️ Failed to cache AI analysis:", error));
+        res.json(result);
+      } catch (error) {
+        sendAnalysisError(res, error);
+      } finally {
+        await releaseLock(lockKey);
+      }
+    }),
+  );
+
+  // ============================================
+  // POST /api/ai-analysis/game
+  // The game comes from the server's own record of it (see finishedGames),
+  // and the coins are charged here; refunded if the analysis fails.
+  // ============================================
+  router.post(
+    "/game",
+    gameAnalysisRateLimiter,
+    requireAppUser(supabaseAdmin, (req) => req.body?.appUserId),
+    catchErrors(async (req: Request, res: Response): Promise<void> => {
+      const { gameId, playerId, appUserId, language } = req.body ?? {};
+
+      if (
+        typeof gameId !== "string" ||
+        typeof playerId !== "string" ||
+        typeof appUserId !== "string" ||
+        !gameId ||
+        !playerId ||
+        !appUserId.trim()
+      ) {
+        res.status(400).json({
+          error: "gameId, playerId and appUserId are required.",
+          code: "INVALID_REQUEST",
+        });
+        return;
+      }
+      if (!["tr", "en", "es"].includes(language)) {
+        res.status(400).json({
+          error: "language must be one of: tr, en, es.",
+          code: "INVALID_REQUEST",
+        });
+        return;
+      }
+      if (!supabaseAdmin) {
+        res.status(500).json({ error: "Database not configured." });
+        return;
+      }
+
+      const config = await getPublicConfig(supabaseAdmin);
+      if (!config.economy.aiAnalysis.enabled) {
+        res
+          .status(403)
+          .json({ error: "AI analysis is turned off.", code: "AI_DISABLED" });
+        return;
+      }
+
+      const game = await getFinishedGame(gameId);
+      const me = game?.players.find((p) => p.id === playerId);
+      const partner = game?.players.find((p) => p.id !== playerId);
+      if (!game || !me || !partner) {
+        res.status(404).json({
+          error: "This game is no longer available for analysis.",
+          code: "GAME_NOT_FOUND",
+        });
+        return;
+      }
+      if (game.mode === "who_knows_better") {
+        res.status(400).json({
+          error: "AI analysis isn't available for this game.",
+          code: "NOT_SUPPORTED",
+        });
+        return;
+      }
+
+      const cacheKey = `aiResult:${gameId}:${playerId}:${language}`;
+      const cachedResult = await redis.get(cacheKey).catch(() => null);
+      if (cachedResult) {
+        res.json(JSON.parse(cachedResult));
+        return;
+      }
+
+      const lockKey = `lock:ai:${gameId}:${playerId}`;
+      if (!(await acquireLock(lockKey, ANALYSIS_LOCK_SECONDS))) {
+        res.status(409).json({
+          error: "Your analysis is already being prepared.",
+          code: "IN_PROGRESS",
+        });
+        return;
+      }
+
+      const cost = config.economy.aiAnalysis.coinCost;
+      let charged = false;
+      try {
+        let newBalance: number | undefined;
+        if (cost > 0) {
+          const spend = await spendCoins(
+            supabaseAdmin,
+            appUserId,
+            cost,
+            "ai_analysis",
+          );
+          if (!spend.ok) {
+            if (spend.reason === "insufficient") {
+              res.status(402).json({
+                error: "Not enough coins.",
+                code: "INSUFFICIENT_COINS",
+                required: cost,
+                balance: spend.balance,
+              });
+            } else {
+              res.status(500).json({ error: "Failed to charge coins." });
+            }
+            return;
+          }
+          charged = true;
+          newBalance = spend.newBalance;
+          onBalanceChanged(appUserId, spend.newBalance);
+        }
+
+        const analysisMode =
+          game.mode === "know_each_other" ? "know_me_well" : "default";
+        console.log(
+          `🤖 AI Analysis for game ${gameId} (${language}, ${game.percentage}%, ${analysisMode})`,
+        );
+        const result = await runAnalysis(
+          buildGameRequest(game, me.id, partner.id, language),
+          analysisMode,
+        );
+
+        await redis
+          .setex(cacheKey, FINISHED_GAME_TTL_SECONDS, JSON.stringify(result))
+          .catch((error) =>
+            console.warn("⚠️ Failed to cache AI analysis:", error),
+          );
+        res.json({ ...result, newBalance });
+      } catch (error) {
+        if (charged) {
+          const refund = await creditCoins(
+            supabaseAdmin,
+            appUserId,
+            cost,
+            "refund",
+          );
+          if (refund.ok) onBalanceChanged(appUserId, refund.newBalance);
+          else console.error(`❌ AI analysis refund failed for ${appUserId}`);
+        }
+        sendAnalysisError(res, error);
+      } finally {
+        await releaseLock(lockKey);
+      }
+    }),
+  );
+
+  return router;
+}

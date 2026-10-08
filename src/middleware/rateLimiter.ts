@@ -1,43 +1,36 @@
 import express from "express";
+import { getRequestIP } from "../utils/clientIp.js";
 
 type RateLimitStore = Map<string, { count: number; resetTime: number }>;
 
 /**
- * Get client IP from request
+ * Counts per player instead of per IP when the request names one, so players
+ * sharing a carrier IP don't use up each other's quota. Only for routes where
+ * a made-up id gains nothing (they still need the id's coins or token).
  */
-function getClientIP(req: express.Request): string {
-  const forwardedFor = req.headers["x-forwarded-for"] as string;
-  const realIp = req.headers["x-real-ip"] as string;
-  const remoteAddress = req.socket.remoteAddress || "";
-
-  if (forwardedFor) {
-    return forwardedFor.split(",")[0].trim();
-  }
-
-  if (realIp) {
-    return realIp.trim();
-  }
-
-  // IPv6 mapped IPv4 adresini temizle
-  if (remoteAddress.startsWith("::ffff:")) {
-    return remoteAddress.substring(7);
-  }
-
-  return remoteAddress || "unknown";
-}
+export const byAppUserId =
+  (getAppUserId: (req: express.Request) => unknown) =>
+  (req: express.Request): string => {
+    const appUserId = getAppUserId(req);
+    return typeof appUserId === "string" && appUserId.trim()
+      ? `user:${appUserId.trim()}`
+      : `ip:${getRequestIP(req)}`;
+  };
 
 /**
  * Create a rate limiter middleware
  * @param maxRequests - Maximum number of requests
  * @param windowMs - Time window in milliseconds
  * @param message - Custom error message
+ * @param keyOf - What to count by (default: client IP)
  */
 export function createRateLimiter(
   maxRequests: number,
   windowMs: number,
-  message?: string
+  message?: string,
+  keyOf: (req: express.Request) => string = getRequestIP
 ) {
-  // Rate limiting storage per limiter: IP -> { count, resetTime }
+  // Rate limiting storage per limiter: key -> { count, resetTime }
   const rateLimitStore: RateLimitStore = new Map();
 
   return (
@@ -45,16 +38,15 @@ export function createRateLimiter(
     res: express.Response,
     next: express.NextFunction
   ): void => {
-    const ip = getClientIP(req);
+    const key = keyOf(req);
     const now = Date.now();
 
-    // Get or create rate limit entry for this IP
-    const entry = rateLimitStore.get(ip);
+    const entry = rateLimitStore.get(key);
 
     // Check if window has expired
     if (!entry || now > entry.resetTime) {
       // Create new entry
-      rateLimitStore.set(ip, {
+      rateLimitStore.set(key, {
         count: 1,
         resetTime: now + windowMs,
       });
@@ -72,7 +64,7 @@ export function createRateLimiter(
       const retryAfter = Math.ceil((entry.resetTime - now) / 1000);
 
       console.warn(
-        `⚠️ Rate limit exceeded for IP ${ip}: ${entry.count}/${maxRequests} requests in ${windowMs}ms`
+        `⚠️ Rate limit exceeded for ${key}: ${entry.count}/${maxRequests} requests in ${windowMs}ms`
       );
 
       res.status(429).json({

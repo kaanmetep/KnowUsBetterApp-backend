@@ -16,24 +16,46 @@ import {
   SubmitAnswerData,
   MultiLanguageAnswer,
   Question,
+  QuestionRound,
+  Player,
+  Room,
+  RoomErrorCode,
+  CLIENT_FEATURE_TEXT_QUESTIONS,
+  CLIENT_FEATURE_SERVER_COINS,
 } from "./types.js";
-import { fetchRandomQuestions } from "./services/questionService.js";
 import {
-  getCoinsFromProductId,
+  fetchRandomQuestions,
+  getAnswerKey,
+} from "./services/questionService.js";
+import {
+  gradeAnswer,
+  rememberGrade,
+  revealAnswer,
+  takeGrade,
+} from "./utils/trivia.js";
+import {
   findSocketByUserId,
-  sanitizeMessage,
-  isValidMessage,
   findAnswerObject,
+  isTextQuestion,
+  normalizeTextAnswer,
+  getQuestionDuration,
+  getResultDisplayDuration,
+  withRevealedAnswer,
+  cleanPlayerName,
+  HIDDEN_TEXT_ANSWER,
   type SocketData,
   type ServerToClientEvents,
   type ClientToServerEvents,
 } from "./utils/helpers.js";
 import { ipWhitelistMiddleware } from "./middleware/ipWhitelist.js";
-import { verifyRevenueCatSignature } from "./middleware/revenueCat.js";
+import { healthRateLimiter } from "./middleware/rateLimiter.js";
+import { createRevenueCatWebhookRouter } from "./routes/revenueCatWebhook.js";
+import { createIdentityRouter } from "./routes/identity.js";
 import {
-  healthRateLimiter,
-  webhookRateLimiter,
-} from "./middleware/rateLimiter.js";
+  allowLegacyClients,
+  authorizeAppUser,
+  isValidAppUserId,
+} from "./services/appUserAuth.js";
 import {
   getClientIP,
   canCreateSocket,
@@ -41,13 +63,33 @@ import {
   unregisterSocket,
 } from "./utils/ipSocketLimiter.js";
 import { attachSocketRateLimiter } from "./middleware/socketRateLimiter.js";
-import { acquireLock, releaseLock } from "./utils/redis.js";
-import aiAnalysisRouter from "./routes/aiAnalysis.js";
+import {
+  acquireLock,
+  LockTimeoutError,
+  redis,
+  releaseLock,
+} from "./utils/redis.js";
+import { createAiAnalysisRouter } from "./routes/aiAnalysis.js";
+import { createContentRouter } from "./routes/content.js";
 import { logger } from "./utils/logger.js";
 import { createNotificationsRouter } from "./routes/notifications.js";
 import { createAdminNotificationsRouter } from "./routes/adminNotifications.js";
 import { createPublicConfigRouter } from "./routes/publicConfig.js";
+import { getPublicConfig } from "./services/publicConfigService.js";
+import {
+  claimDailyReward,
+  creditCoins,
+  spendCoins,
+} from "./services/coinLedger.js";
+import { getCategory, getCategoryMode } from "./services/categoryService.js";
+import { recordFinishedGame } from "./services/finishedGames.js";
 import { createAdminPanelRouter } from "./routes/adminPanel.js";
+import { warmUpProfanityFilter } from "./utils/profanity.js";
+import { isHarmfulText } from "./utils/moderation.js";
+import { textAnswersMatch, warmUpTextMatcher } from "./utils/textMatch.js";
+
+warmUpProfanityFilter();
+warmUpTextMatcher();
 
 const app = express();
 const httpServer = createServer(app);
@@ -79,18 +121,20 @@ app.use(
     credentials: false,
   }),
 );
-app.use(express.json());
-
-// ============================================
-// AI ANALYSIS ROUTE
-// ============================================
-app.use("/api/ai-analysis", aiAnalysisRouter);
 
 // ============================================
 // SUPABASE CONFIGURATION
 // ============================================
 const SUPABASE_URL = process.env.SUPABASE_URL;
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+const MAX_REPORTS_PER_SOCKET = 10;
+
+// Local testing only: lets the daily reward be claimed on every app launch.
+// Requires an explicit opt-in and is ignored in production.
+const DEV_UNLIMITED_DAILY_REWARD =
+  process.env.DEV_UNLIMITED_DAILY_REWARD === "true" &&
+  process.env.NODE_ENV !== "production";
 
 // Supabase Admin Client
 const supabaseAdmin =
@@ -103,9 +147,41 @@ const supabaseAdmin =
       })
     : null;
 
+// Before the global JSON parser: the webhook parses (and keeps) its raw body.
+app.use(
+  "/webhook/revenuecat",
+  createRevenueCatWebhookRouter({
+    supabaseAdmin,
+    onCoinsAdded: (appUserId, newBalance) =>
+      findSocketByUserId(appUserId, io, userSockets)?.emit("coins-added", {
+        appUserId,
+        newBalance,
+        success: true,
+      }),
+  }),
+);
+
+app.use(express.json());
+
 app.use("/api/config", createPublicConfigRouter(supabaseAdmin));
 
+app.use(
+  "/api/ai-analysis",
+  createAiAnalysisRouter({
+    supabaseAdmin,
+    onBalanceChanged: (appUserId, newBalance) =>
+      notifyCoinsSpent(appUserId, newBalance),
+  }),
+);
+
 if (supabaseAdmin) {
+  app.use("/api/identity", createIdentityRouter(supabaseAdmin));
+  app.use(
+    "/api",
+    createContentRouter(supabaseAdmin, {
+      devUnlimitedDailyReward: DEV_UNLIMITED_DAILY_REWARD,
+    }),
+  );
   app.use("/notifications", createNotificationsRouter(supabaseAdmin));
   app.use("/admin/notifications", createAdminNotificationsRouter(supabaseAdmin));
 } else {
@@ -128,19 +204,24 @@ if (ADMIN_PATH && /^\/[A-Za-z0-9_-]{8,}$/.test(ADMIN_PATH) && process.env.DATABA
 // ============================================
 const userSockets = new Map<string, string>(); // appUserId -> socket.id
 
-// ============================================
-// CHAT RATE LIMITING (socket.id -> last message timestamp)
-// ============================================
-const chatRateLimits = new Map<string, number>(); // socket.id -> last message timestamp
-const CHAT_RATE_LIMIT_MS = 1000; // 1 second between messages
-const CHAT_MAX_LENGTH = 100; // Maximum message length
-
 // Socket.io Ping/Pong Configuration
-// pingInterval: How often to send ping (ms) - default: 60000 (60s)
-// pingTimeout: How long to wait for pong before disconnecting (ms) - default: 5000 (5s)
-// Lower timeout = faster detection of dead connections but may disconnect slow networks
-const PING_INTERVAL = parseInt(process.env.SOCKET_PING_INTERVAL || "60000", 10); // 60 seconds (less frequent ping)
-const PING_TIMEOUT = parseInt(process.env.SOCKET_PING_TIMEOUT || "15000", 10); // 15 seconds (tolerant for slow networks)
+// A dead connection is noticed after at most pingInterval + pingTimeout; until
+// then its partner waits on the round, so these stay at socket.io's defaults.
+const PING_INTERVAL = parseInt(process.env.SOCKET_PING_INTERVAL || "25000", 10);
+const PING_TIMEOUT = parseInt(process.env.SOCKET_PING_TIMEOUT || "20000", 10);
+
+// A player whose connection drops (app in the background while sharing the
+// room code, a tunnel, a network switch) keeps their seat for a while. Mid-game
+// the hold is short: the partner plays on with blank answers meanwhile.
+const SEAT_HOLD_WAITING_MS = 2 * 60_000;
+const SEAT_HOLD_PLAYING_MS = 30_000;
+// socket.io gives a reconnecting app back its socket id (and so its seat) for
+// this long. The app resumes from the last broadcast it received, which is
+// only kept this long too, hence the regular connection-sync broadcast.
+const RECOVERY_WINDOW_MS = 3 * 60_000;
+const CONNECTION_SYNC_INTERVAL_MS = 30_000;
+// Render sends SIGKILL 30 seconds after SIGTERM.
+const SHUTDOWN_TIMEOUT_MS = 25_000;
 
 // CORS Configuration
 // For React Native only: leave empty or set to "REACT_NATIVE_ONLY"
@@ -283,10 +364,565 @@ const io = new Server<
   pingInterval: PING_INTERVAL,
   pingTimeout: PING_TIMEOUT,
   connectTimeout: parseInt(process.env.SOCKET_CONNECT_TIMEOUT || "10000", 10), // 10 seconds
+  connectionStateRecovery: {
+    maxDisconnectionDuration: RECOVERY_WINDOW_MS,
+    skipMiddlewares: true,
+  },
 });
+
+setInterval(
+  () => io.emit("connection-sync"),
+  CONNECTION_SYNC_INTERVAL_MS,
+).unref();
 
 // Redis-based room manager
 const roomManager = new RoomManager();
+
+const supportsTextQuestions = (clientFeatures: unknown): boolean =>
+  Array.isArray(clientFeatures) &&
+  clientFeatures.includes(CLIENT_FEATURE_TEXT_QUESTIONS);
+
+const supportsServerCoins = (clientFeatures: unknown): boolean =>
+  Array.isArray(clientFeatures) &&
+  clientFeatures.includes(CLIENT_FEATURE_SERVER_COINS);
+
+type AppSocket = Socket<ClientToServerEvents, ServerToClientEvents, {}, SocketData>;
+
+// register-user checks the token asynchronously; coin events wait for it.
+const pendingRegistrations = new Map<string, Promise<unknown>>();
+
+function bindSocketToUser(socket: AppSocket, appUserId: string): void {
+  const previous = socket.data.appUserId;
+  if (previous && previous !== appUserId && userSockets.get(previous) === socket.id) {
+    userSockets.delete(previous);
+  }
+  socket.data.appUserId = appUserId;
+  userSockets.set(appUserId, socket.id);
+}
+
+/**
+ * The wallet this socket acts for, fixed by register-user (with the id's
+ * token). A socket that never registered (older builds) can still use an id
+ * nobody has claimed, and is bound to it from then on.
+ */
+async function resolveAppUserId(
+  socket: AppSocket,
+  claimed: unknown,
+): Promise<string | null> {
+  await pendingRegistrations.get(socket.id);
+  if (socket.data.appUserId) return socket.data.appUserId;
+  if (!isValidAppUserId(claimed)) return null;
+  if (!(await authorizeAppUser(supabaseAdmin, claimed, undefined))) return null;
+  if (socket.disconnected) return null;
+  bindSocketToUser(socket, claimed);
+  return claimed;
+}
+
+/** Pushes a balance the server changed to the user's app, if it's connected. */
+function notifyCoinsSpent(appUserId: string, newBalance: number): void {
+  findSocketByUserId(appUserId, io, userSockets)?.emit("coins-spent", {
+    appUserId,
+    newBalance,
+    success: true,
+  });
+}
+
+// ============================================
+// GAME FLOW
+// Rounds advance from answers and from the server's own round timer; both
+// paths go through completeRound, and every room write holds the room lock.
+// ============================================
+
+// Apps send their own (possibly blank) answer when their timer runs out, so
+// the server timer only closes rounds where an app stopped responding.
+const ROUND_GRACE_SECONDS = 8;
+// The first question appears after the app's start countdown.
+const FIRST_ROUND_EXTRA_SECONDS = 5;
+/** Stored for a player who never answered: never matches, grades as wrong, shows as "—". */
+const NO_ANSWER = "";
+
+const GAME_CANCELLED_MESSAGE =
+  "A player left during the game. Game has been cancelled.";
+
+const roundTimers = new Map<string, ReturnType<typeof setTimeout>>();
+
+type EarlyTextMatch = { answers: [string, string]; matched: boolean };
+
+const isSameRound = (
+  round: QuestionRound | null | undefined,
+  questionId: string,
+  startedAt: number | undefined,
+): round is QuestionRound =>
+  !!round && round.question.id === questionId && round.startedAt === startedAt;
+
+function newRound(room: Room, question: Question): QuestionRound {
+  return {
+    question,
+    answers: Object.fromEntries(
+      room.players.slice(0, 2).map((player) => [player.id, null]),
+    ),
+    isMatched: null,
+    status: "waiting_answers",
+    startedAt: Date.now(),
+  };
+}
+
+function clearRoundTimer(roomCode: string): void {
+  const timer = roundTimers.get(roomCode);
+  if (timer) clearTimeout(timer);
+  roundTimers.delete(roomCode);
+}
+
+function scheduleRoundTimeout(
+  room: Room,
+  round: QuestionRound,
+  isFirstRound: boolean,
+): void {
+  const seconds =
+    getQuestionDuration(room.settings, round.question) +
+    ROUND_GRACE_SECONDS +
+    (isFirstRound ? FIRST_ROUND_EXTRA_SECONDS : 0);
+  clearRoundTimer(room.roomCode);
+  roundTimers.set(
+    room.roomCode,
+    setTimeout(() => {
+      roundTimers.delete(room.roomCode);
+      closeUnansweredRound(
+        room.roomCode,
+        round.question.id,
+        round.startedAt,
+      ).catch(async (error) => {
+        // Nothing else will close this round, so end the game instead of hanging.
+        console.error(`❌ Round timeout failed in room ${room.roomCode}:`, error);
+        await cancelStuckRound(room.roomCode, round.question.id, round.startedAt);
+      });
+    }, seconds * 1000),
+  );
+}
+
+async function cancelStuckRound(
+  roomCode: string,
+  questionId: string,
+  startedAt: number | undefined,
+): Promise<void> {
+  try {
+    const reset = await roomManager.withRoomLock(roomCode, async () => {
+      const room = await roomManager.getRoom(roomCode);
+      const round = room?.currentRound;
+      if (!isSameRound(round, questionId, startedAt) || round.status !== "waiting_answers") {
+        return undefined;
+      }
+      return roomManager.resetRoom(roomCode);
+    });
+    if (reset === undefined) return;
+    io.to(roomCode).emit("game-cancelled", {
+      message: "An error occurred while processing answers. The game will be reset.",
+      code: "SERVER_ERROR",
+      room: reset,
+    });
+  } catch (error) {
+    console.error(`❌ Couldn't cancel stuck round in room ${roomCode}:`, error);
+  }
+}
+
+/** Leaves missing answers blank and completes the round. */
+async function closeUnansweredRound(
+  roomCode: string,
+  questionId: string,
+  startedAt: number | undefined,
+): Promise<void> {
+  const open = await roomManager.withRoomLock(roomCode, async () => {
+    const room = await roomManager.getRoom(roomCode);
+    const round = room?.currentRound;
+    if (
+      !room ||
+      !isSameRound(round, questionId, startedAt) ||
+      round.status !== "waiting_answers"
+    ) {
+      return false;
+    }
+    const missing = Object.keys(round.answers).filter(
+      (playerId) => round.answers[playerId] === null,
+    );
+    if (missing.length > 0) {
+      for (const playerId of missing) round.answers[playerId] = NO_ANSWER;
+      await roomManager.updateRoom(room);
+      console.log(
+        `⏰ Round ${questionId} in room ${roomCode} timed out; ${missing.length} answer(s) left blank`,
+      );
+    }
+    return true;
+  });
+  if (open) await completeRound(roomCode, questionId, startedAt);
+}
+
+/** Scores a round once every answer is in, sends the result and schedules what's next. */
+async function completeRound(
+  roomCode: string,
+  questionId: string,
+  startedAt: number | undefined,
+  earlyTextMatch: EarlyTextMatch | null = null,
+): Promise<void> {
+  const snapshot = await roomManager.getRoom(roomCode);
+  const round = snapshot?.currentRound;
+  if (
+    !snapshot ||
+    !isSameRound(round, questionId, startedAt) ||
+    round.status !== "waiting_answers"
+  ) {
+    return;
+  }
+  const answers = Object.values(round.answers);
+  if (answers.some((answer) => answer === null)) return;
+
+  if (answers.length !== 2) {
+    console.error(
+      `⚠️ Unexpected number of answers: ${answers.length} in room ${roomCode}`,
+    );
+    const reset = await roomManager.withRoomLock(roomCode, () =>
+      roomManager.resetRoom(roomCode),
+    );
+    clearRoundTimer(roomCode);
+    io.to(roomCode).emit("game-cancelled", {
+      message: "An error occurred while processing answers. The game will be reset.",
+      code: "SERVER_ERROR",
+      room: reset,
+    });
+    return;
+  }
+
+  // Grading can call the model, so it runs outside the lock. Answers can't
+  // change once all are in, so the result still holds when it's applied.
+  const question = round.question;
+  const [answer1, answer2] = answers;
+  const isText = isTextQuestion(question);
+  const answerKey = await getAnswerKey(question, supabaseAdmin);
+  let isMatched = false;
+  let correct: QuestionRound["correct"];
+
+  if (answerKey) {
+    const grades = await Promise.all(
+      Object.entries(round.answers).map(
+        async ([playerId, value]) =>
+          [
+            playerId,
+            takeGrade(roomCode, question.id, playerId, value) ??
+              (await gradeAnswer(answerKey, question, value, HIDDEN_TEXT_ANSWER)),
+          ] as const,
+      ),
+    );
+    correct = Object.fromEntries(grades);
+    // "Matched" for trivia = you both got it right.
+    isMatched = grades.every(([, isCorrect]) => isCorrect);
+  } else if (answer1 === NO_ANSWER || answer2 === NO_ANSWER) {
+    isMatched = false;
+  } else if (isText) {
+    const reuseEarly =
+      earlyTextMatch !== null &&
+      [answer1, answer2].sort().join("\u0000") ===
+        [...earlyTextMatch.answers].sort().join("\u0000");
+    isMatched = reuseEarly
+      ? earlyTextMatch!.matched
+      : await textAnswersMatch(question, answer1, answer2, HIDDEN_TEXT_ANSWER);
+  } else if (typeof answer1 === "string" && typeof answer2 === "string") {
+    isMatched = answer1 === answer2;
+  } else if (
+    typeof answer1 === "object" &&
+    typeof answer2 === "object" &&
+    answer1 !== null &&
+    answer2 !== null
+  ) {
+    // Same option = same English text.
+    isMatched = answer1.en === answer2.en;
+  }
+
+  const applied = await roomManager.withRoomLock(roomCode, async () => {
+    const room = await roomManager.getRoom(roomCode);
+    const current = room?.currentRound;
+    if (
+      !room ||
+      !isSameRound(current, questionId, startedAt) ||
+      current.status !== "waiting_answers"
+    ) {
+      return null;
+    }
+    current.isMatched = isMatched;
+    current.isScored = true;
+    current.status = "completed";
+    if (answerKey && correct) {
+      current.correct = correct;
+      current.correctAnswer = revealAnswer(answerKey);
+    }
+    room.totalQuestionsAnswered++;
+    if (isMatched) room.matchScore++;
+    room.players.forEach((player) => (player.hasAnswered = false));
+    room.completedRounds.push(current);
+
+    const isLast = room.currentQuestionIndex >= room.questions.length - 1;
+    if (isLast) {
+      room.status = "finished";
+      room.currentRound = null;
+    }
+    await roomManager.updateRoom(room);
+    return { room, round: current, isLast };
+  });
+  if (!applied) return;
+  clearRoundTimer(roomCode);
+
+  const { room, round: completed, isLast } = applied;
+  const displayDuration = getResultDisplayDuration(room.settings, question);
+  const percentage =
+    room.totalQuestionsAnswered > 0
+      ? Math.round((room.matchScore / room.totalQuestionsAnswered) * 100)
+      : 0;
+
+  io.to(roomCode).emit("round-completed", {
+    allPlayersAnswered: true,
+    isMatched,
+    isScored: true,
+    questionType: isText ? "text" : "choice",
+    displayDuration,
+    playerAnswers: room.players.map((player) => ({
+      playerId: player.id,
+      playerName: player.name,
+      avatar: player.avatar,
+      answer: completed.answers[player.id],
+      ...(completed.correct && {
+        isCorrect: completed.correct[player.id] === true,
+      }),
+    })),
+    question: withRevealedAnswer(completed),
+    matchScore: room.matchScore,
+    totalQuestions: room.totalQuestionsAnswered,
+    percentage,
+    // Older app builds detect graded rounds by this exact value.
+    ...(answerKey && { mode: "trivia" as const }),
+  });
+
+  setTimeout(() => {
+    (isLast
+      ? finishGame(roomCode)
+      : advanceRound(roomCode, questionId, startedAt)
+    ).catch((error) =>
+      console.error(`❌ Failed to continue game in room ${roomCode}:`, error),
+    );
+  }, displayDuration * 1000);
+}
+
+/** After a round's result was shown: the next question, or the end. */
+async function advanceRound(
+  roomCode: string,
+  completedQuestionId: string,
+  startedAt: number | undefined,
+): Promise<void> {
+  type Outcome =
+    | { kind: "next"; room: Room; round: QuestionRound }
+    | { kind: "cancelled"; room: Room | null }
+    | { kind: "finish" };
+
+  const outcome = await roomManager.withRoomLock(
+    roomCode,
+    async (): Promise<Outcome | null> => {
+      const room = await roomManager.getRoom(roomCode);
+      const round = room?.currentRound;
+      if (
+        !room ||
+        room.status !== "playing" ||
+        !isSameRound(round, completedQuestionId, startedAt) ||
+        round.status !== "completed"
+      ) {
+        return null;
+      }
+      if (room.players.length < 2) {
+        return { kind: "cancelled", room: await roomManager.resetRoom(roomCode) };
+      }
+      const nextIndex = room.currentQuestionIndex + 1;
+      const nextQuestion = room.questions[nextIndex];
+      if (!nextQuestion) {
+        room.status = "finished";
+        room.currentRound = null;
+        await roomManager.updateRoom(room);
+        return { kind: "finish" };
+      }
+      room.currentQuestionIndex = nextIndex;
+      room.currentRound = newRound(room, nextQuestion);
+      await roomManager.updateRoom(room);
+      return { kind: "next", room, round: room.currentRound };
+    },
+  );
+  if (!outcome) return;
+
+  if (outcome.kind === "cancelled") {
+    io.to(roomCode).emit("game-cancelled", {
+      message: GAME_CANCELLED_MESSAGE,
+      code: "PLAYER_LEFT",
+      room: outcome.room,
+    });
+    return;
+  }
+  if (outcome.kind === "finish") {
+    await finishGame(roomCode);
+    return;
+  }
+
+  const { room, round } = outcome;
+  io.to(roomCode).emit("next-question", {
+    question: round.question,
+    currentQuestionIndex: room.currentQuestionIndex,
+    totalQuestions: room.questions.length,
+    serverTime: round.startedAt ?? Date.now(),
+    duration: getQuestionDuration(room.settings, round.question),
+  });
+  scheduleRoundTimeout(room, round, false);
+}
+
+/**
+ * Records the finished game (for the AI analysis), resets the room for a
+ * replay and then sends the results, so "play again" always finds it ready.
+ */
+async function finishGame(roomCode: string): Promise<void> {
+  const room = await roomManager.getRoom(roomCode);
+  if (!room || room.status !== "finished") return;
+
+  const mode =
+    room.settings.mode ??
+    (await getCategoryMode(room.settings.category, supabaseAdmin));
+  let game: Awaited<ReturnType<typeof recordFinishedGame>> | null = null;
+  try {
+    const config = await getPublicConfig(supabaseAdmin);
+    game = await recordFinishedGame(room, mode, config.gameplay.results.matchTiers);
+  } catch (error) {
+    console.error(`❌ Failed to build results for room ${roomCode}:`, error);
+  }
+
+  // Reset even without results, so the room can't stay stuck as "finished".
+  const reset = await roomManager.withRoomLock(roomCode, async () => {
+    const latest = await roomManager.getRoom(roomCode);
+    return latest?.status === "finished"
+      ? await roomManager.resetRoom(roomCode)
+      : null;
+  });
+
+  if (!game) {
+    io.to(roomCode).emit("game-cancelled", {
+      message: "We couldn't load the results of this game. Please play again.",
+      code: "SERVER_ERROR",
+      room: reset,
+    });
+    return;
+  }
+
+  io.to(roomCode).emit("game-finished", {
+    gameId: game.gameId,
+    mode,
+    matchScore: game.matchScore,
+    totalQuestions: game.totalQuestions,
+    percentage: game.percentage,
+    completedRounds: game.completedRounds,
+    summary: game.summary,
+  });
+}
+
+/** Takes a player out of a room; a game in progress is cancelled and the room reset. */
+async function removeFromRoom(
+  roomCode: string,
+  socketId: string,
+): Promise<{ room: Room | null; cancelled: boolean }> {
+  const result = await roomManager.withRoomLock(roomCode, async () => {
+    const before = await roomManager.getRoom(roomCode);
+    const cancelled =
+      before?.status === "playing" &&
+      before.players.some((player) => player.id === socketId);
+
+    await roomManager.removePlayer(socketId);
+    let room = (await roomManager.getRoom(roomCode)) ?? null;
+    if (room && cancelled) room = (await roomManager.resetRoom(roomCode)) ?? room;
+    if (room && room.players.length === 0) await roomManager.deleteRoom(roomCode);
+    return { room, cancelled };
+  });
+  if (result.cancelled) clearRoundTimer(roomCode);
+  return result;
+}
+
+/** removeFromRoom, then tells whoever is still in the room. */
+async function takePlayerOut(roomCode: string, socketId: string): Promise<void> {
+  const { room, cancelled } = await removeFromRoom(roomCode, socketId);
+  if (cancelled) {
+    io.to(roomCode).emit("game-cancelled", {
+      message: GAME_CANCELLED_MESSAGE,
+      code: "PLAYER_LEFT",
+      room,
+    });
+  }
+  io.to(roomCode).emit("player-left", { playerId: socketId, room });
+}
+
+/**
+ * Before creating or joining another room: a seat left behind would keep the
+ * old room waiting on a player who's gone (and its host can't be replaced).
+ */
+async function leavePreviousRoom(socket: AppSocket, nextRoomCode?: string): Promise<void> {
+  const previous = await roomManager.getPlayerRoom(socket.id);
+  if (!previous || previous === nextRoomCode) return;
+  socket.leave(previous);
+  await takePlayerOut(previous, socket.id);
+}
+
+// socket id -> timer that frees the seat of a dropped player
+const seatHolds = new Map<string, ReturnType<typeof setTimeout>>();
+// Room cleanups still running; shutdown waits for them before closing Redis.
+const pendingCleanups = new Set<Promise<void>>();
+let shuttingDown = false;
+
+function trackCleanup(task: Promise<void>): void {
+  const settled = task.catch((error) =>
+    console.error("❌ Error removing disconnected player:", error),
+  );
+  pendingCleanups.add(settled);
+  settled.finally(() => pendingCleanups.delete(settled));
+}
+
+// The app left on purpose (or the server is going away): nothing to wait for.
+const FINAL_DISCONNECT_REASONS = new Set([
+  "client namespace disconnect",
+  "server namespace disconnect",
+  "server shutting down",
+]);
+
+async function freeSeat(socketId: string): Promise<void> {
+  // Reconnected in the meantime with the same socket id.
+  if (io.sockets.sockets.has(socketId)) return;
+  const roomCode = await roomManager.getPlayerRoom(socketId);
+  if (roomCode) await takePlayerOut(roomCode, socketId);
+}
+
+async function handleDroppedPlayer(socketId: string, reason: string): Promise<void> {
+  const roomCode = await roomManager.getPlayerRoom(socketId);
+  if (!roomCode) return;
+  if (shuttingDown || FINAL_DISCONNECT_REASONS.has(reason)) {
+    await freeSeat(socketId);
+    return;
+  }
+  const room = await roomManager.getRoom(roomCode);
+  const holdMs =
+    room?.status === "playing" ? SEAT_HOLD_PLAYING_MS : SEAT_HOLD_WAITING_MS;
+  clearTimeout(seatHolds.get(socketId));
+  seatHolds.set(
+    socketId,
+    setTimeout(() => {
+      seatHolds.delete(socketId);
+      trackCleanup(freeSeat(socketId));
+    }, holdMs),
+  );
+}
+
+/** A recovered socket is put back in its socket.io rooms even if its seat was freed. */
+async function syncRecoveredRooms(socket: AppSocket): Promise<void> {
+  const seat = await roomManager.getPlayerRoom(socket.id);
+  for (const room of socket.rooms) {
+    if (room !== socket.id && room !== seat) socket.leave(room);
+  }
+}
 
 io.on(
   "connection",
@@ -315,27 +951,61 @@ io.on(
     // Socket-level rate limiting
     attachSocketRateLimiter(socket);
 
-    console.log(`✅ New user connected: ${socket.id} from IP: ${clientIP}`);
+    if (socket.recovered) {
+      clearTimeout(seatHolds.get(socket.id));
+      seatHolds.delete(socket.id);
+      if (socket.data.appUserId) bindSocketToUser(socket, socket.data.appUserId);
+      syncRecoveredRooms(socket).catch((error) =>
+        console.error("❌ Error syncing recovered socket rooms:", error),
+      );
+      console.log(`🔁 User reconnected: ${socket.id} from IP: ${clientIP}`);
+    } else {
+      console.log(`✅ New user connected: ${socket.id} from IP: ${clientIP}`);
+    }
+    io.to(socket.id).emit("connection-sync");
 
     // Register user with appUserId
-    socket.on("register-user", (appUserId: string) => {
-      if (appUserId) {
-        userSockets.set(appUserId, socket.id);
-        socket.data.appUserId = appUserId;
-        console.log(`📝 User ${appUserId} registered with socket ${socket.id}`);
-      }
+    // Older builds send just the id; current ones send { appUserId, token }.
+    socket.on("register-user", (payload) => {
+      const appUserId = typeof payload === "string" ? payload : payload?.appUserId;
+      const token = typeof payload === "string" ? undefined : payload?.token;
+      if (!isValidAppUserId(appUserId)) return;
+
+      const registration = authorizeAppUser(supabaseAdmin, appUserId, token)
+        .then((allowed) => {
+          if (!allowed) {
+            console.warn(
+              `🚫 register-user for ${appUserId} rejected on socket ${socket.id}: missing or wrong token`,
+            );
+            return;
+          }
+          if (socket.disconnected) return;
+          bindSocketToUser(socket, appUserId);
+          console.log(`📝 User ${appUserId} registered with socket ${socket.id}`);
+        })
+        .catch((error) => console.error("❌ register-user failed:", error));
+      pendingRegistrations.set(socket.id, registration);
+      registration.finally(() => {
+        if (pendingRegistrations.get(socket.id) === registration) {
+          pendingRegistrations.delete(socket.id);
+        }
+      });
     });
 
     // 1. Create Room
     socket.on(
       "create-room",
-      async ({ playerName, avatar, category }: CreateRoomData) => {
+      async ({ playerName, avatar, category, clientFeatures }: CreateRoomData) => {
         try {
+          await leavePreviousRoom(socket);
           const room = await roomManager.createRoom(
             socket.id,
-            playerName,
+            cleanPlayerName(playerName),
             avatar,
             category,
+            supportsTextQuestions(clientFeatures),
+            supportsServerCoins(clientFeatures),
+            await getCategoryMode(category, supabaseAdmin),
           );
           socket.join(room.roomCode);
 
@@ -350,6 +1020,7 @@ io.on(
           console.error("Error creating room:", error);
           socket.emit("room-error", {
             message: "Failed to create room. Please try again.",
+            code: "REQUEST_FAILED",
           });
         }
       },
@@ -358,13 +1029,26 @@ io.on(
     // 2. Join Room
     socket.on(
       "join-room",
-      async ({ roomCode, playerName, avatar }: JoinRoomData) => {
+      async ({ roomCode, playerName, avatar, clientFeatures }: JoinRoomData) => {
         try {
-          const result = await roomManager.joinRoom(
-            roomCode,
-            socket.id,
-            playerName,
-            avatar,
+          if (typeof roomCode !== "string" || !roomCode) {
+            socket.emit("room-error", { message: "Room not found", code: "ROOM_NOT_FOUND" });
+            return;
+          }
+          // Only once the target room exists, so a mistyped code doesn't
+          // also cost the player the room they're in.
+          if (await roomManager.getRoom(roomCode)) {
+            await leavePreviousRoom(socket, roomCode);
+          }
+          const result = await roomManager.withRoomLock(roomCode, () =>
+            roomManager.joinRoom(
+              roomCode,
+              socket.id,
+              cleanPlayerName(playerName),
+              avatar,
+              supportsTextQuestions(clientFeatures),
+              supportsServerCoins(clientFeatures),
+            ),
           );
 
           if (result.success) {
@@ -382,12 +1066,13 @@ io.on(
               room: result.room,
             });
           } else {
-            socket.emit("room-error", { message: result.error });
+            socket.emit("room-error", { message: result.error, code: result.code });
           }
         } catch (error) {
           console.error("Error joining room:", error);
           socket.emit("room-error", {
             message: "Failed to join room. Please try again.",
+            code: "REQUEST_FAILED",
           });
         }
       },
@@ -396,25 +1081,44 @@ io.on(
     // 3. Get Room Info
     socket.on("get-room", async ({ roomCode }: GetRoomData) => {
       try {
-        const room = await roomManager.getRoom(roomCode);
-        if (room) {
+        const room =
+          typeof roomCode === "string" && roomCode
+            ? await roomManager.getRoom(roomCode)
+            : undefined;
+        if (room?.players.some((player) => player.id === socket.id)) {
           socket.emit("room-data", room);
+        } else if (room) {
+          // Outsiders (e.g. a player whose seat was freed) only learn that
+          // they're not in it; the app leaves the room when it sees that.
+          socket.emit("room-data", {
+            roomCode: room.roomCode,
+            status: room.status,
+            players: [],
+          });
         } else {
           socket.emit("room-error", {
             message:
               "We couldn't find that room anymore. Please double-check the code.",
+            code: "ROOM_NOT_FOUND",
           });
         }
       } catch (error) {
         console.error("Error getting room:", error);
         socket.emit("room-error", {
           message: "Failed to get room info. Please try again.",
+          code: "REQUEST_FAILED",
         });
       }
     });
 
     // 4. Start Game
-    socket.on("start-game", async ({ roomCode }: { roomCode: string }) => {
+    socket.on("start-game", async ({ roomCode, appUserId }) => {
+      // One start at a time, so a double tap can't charge the host twice.
+      const startLockKey = `lock:start:${roomCode}`;
+      if (!(await acquireLock(startLockKey, 20))) return;
+
+      // Coins taken for this start; given back unless the game actually starts.
+      let pendingCharge: { appUserId: string; amount: number } | null = null;
       try {
         const room = await roomManager.getRoom(roomCode);
 
@@ -422,6 +1126,7 @@ io.on(
           socket.emit("critical-error", {
             message:
               "We couldn't find that room anymore. Please refresh and try again.",
+            code: "ROOM_NOT_FOUND",
           });
           return;
         }
@@ -432,6 +1137,7 @@ io.on(
           socket.emit("room-error", {
             message:
               "Only the host can start the game. Ping them when you're ready!",
+            code: "NOT_HOST",
           });
           return;
         }
@@ -440,15 +1146,27 @@ io.on(
         if (room.players.length < 2) {
           socket.emit("room-error", {
             message: "Invite one more player and you'll be ready to go!",
+            code: "NEED_PARTNER",
           });
           return;
         }
 
-        // Check if game already started
-        if (room.status === "playing") {
+        // A dropped player keeps their seat for a while; don't start without them.
+        if (!room.players.every((p) => io.sockets.sockets.has(p.id))) {
+          socket.emit("room-error", {
+            message:
+              "Your partner's connection dropped. Give them a moment to come back.",
+            code: "PARTNER_DISCONNECTED",
+          });
+          return;
+        }
+
+        // "finished" = the last result is still on screen; the room resets right after.
+        if (room.status !== "waiting") {
           socket.emit("room-error", {
             message:
               "The game is already underway. Hang tight for the next round!",
+            code: "GAME_IN_PROGRESS",
           });
           return;
         }
@@ -458,6 +1176,7 @@ io.on(
           if (!supabaseAdmin) {
             socket.emit("room-error", {
               message: "Database not configured. Please contact support.",
+              code: "REQUEST_FAILED",
             });
             return;
           }
@@ -466,68 +1185,166 @@ io.on(
             room.settings.category,
             room.settings.totalQuestions,
             supabaseAdmin,
+            {
+              includeText: room.players.every(
+                (p) => p.supportsTextQuestions === true,
+              ),
+            },
           );
-
-          // Store questions in room
-          room.questions = questions;
-          room.status = "playing";
-
-          // Double-check we still have 2 players (in case someone left during async operation)
-          if (room.players.length < 2) {
-            socket.emit("room-error", {
-              message:
-                "Not enough players to start the game. Please wait for another player.",
-            });
-            room.status = "waiting";
-            await roomManager.updateRoom(room);
-            return;
-          }
 
           // Check if we have questions
           if (!questions || questions.length === 0) {
             socket.emit("room-error", {
               message: "Failed to load questions. Please try again.",
+              code: "QUESTIONS_UNAVAILABLE",
             });
-            room.status = "waiting";
-            await roomManager.updateRoom(room);
             return;
           }
 
-          // Initialize first round
-          const firstQuestion = questions[0];
-          room.currentRound = {
-            question: firstQuestion,
-            answers: {
-              [room.players[0].id]: null,
-              [room.players[1].id]: null,
-            },
-            isMatched: null,
-            status: "waiting_answers",
-          };
+          const category = await getCategory(
+            room.settings.category,
+            supabaseAdmin,
+          );
+          const cost = category?.coinsRequired ?? 0;
 
-          // Save room to Redis
-          await roomManager.updateRoom(room);
+          // Older builds spend the coins themselves after the countdown, which
+          // a modified app can skip; turned off once those builds are gone.
+          if (cost > 0 && !player.supportsServerCoins && !allowLegacyClients()) {
+            socket.emit("room-error", {
+              message:
+                "Please update the app from the store to play this category.",
+              code: "UPDATE_REQUIRED",
+            });
+            return;
+          }
 
-          // Notify all players
-          const startTime = Date.now();
-          io.to(roomCode).emit("game-started", {
-            room: room,
-            question: firstQuestion,
-            totalQuestions: room.settings.totalQuestions,
-            serverTime: startTime,
-            duration: room.settings.questionDuration,
+          // Hosts on current app builds pay here.
+          if (player.supportsServerCoins) {
+            if (cost > 0) {
+              const payer = await resolveAppUserId(socket, appUserId);
+              if (!payer) {
+                socket.emit("room-error", {
+                  message:
+                    "We couldn't check your coins. Please restart the app and try again.",
+                  code: "COINS_UNAVAILABLE",
+                });
+                return;
+              }
+              const spend = await spendCoins(
+                supabaseAdmin,
+                payer,
+                cost,
+                "game_start",
+              );
+              if (!spend.ok) {
+                socket.emit(
+                  "room-error",
+                  spend.reason === "insufficient"
+                    ? {
+                        message: `Not enough coins. Required: ${cost}, Available: ${spend.balance}`,
+                        code: "INSUFFICIENT_COINS",
+                        required: cost,
+                        balance: spend.balance,
+                      }
+                    : {
+                        message: "Failed to start game. Please try again.",
+                        code: "COINS_UNAVAILABLE",
+                      },
+                );
+                return;
+              }
+              pendingCharge = { appUserId: payer, amount: cost };
+              socket.emit("coins-spent", {
+                appUserId: payer,
+                newBalance: spend.newBalance,
+                success: true,
+              });
+            }
+          }
+
+          // A category whose questions carry answer keys plays as who_knows_better.
+          const mode = questions.some((q) => q.isTrivia)
+            ? "who_knows_better"
+            : await getCategoryMode(room.settings.category, supabaseAdmin);
+
+          // Re-read under the lock: someone may have left while questions loaded.
+          const started = await roomManager.withRoomLock(roomCode, async () => {
+            const latest = await roomManager.getRoom(roomCode);
+            if (!latest || latest.players.length < 2) return "not_enough_players";
+            if (
+              latest.status !== "waiting" ||
+              latest.settings.category !== room.settings.category
+            ) {
+              return "room_changed";
+            }
+            latest.questions = questions;
+            latest.status = "playing";
+            latest.settings.mode = mode;
+            latest.currentQuestionIndex = 0;
+            latest.completedRounds = [];
+            latest.matchScore = 0;
+            latest.totalQuestionsAnswered = 0;
+            latest.players.forEach((p) => (p.hasAnswered = false));
+            latest.currentRound = newRound(latest, questions[0]);
+            await roomManager.updateRoom(latest);
+            return { room: latest, round: latest.currentRound };
           });
+          if (typeof started === "string") {
+            socket.emit("room-error", {
+              message:
+                started === "not_enough_players"
+                  ? "Not enough players to start the game. Please wait for another player."
+                  : "The room changed while the game was starting. Please try again.",
+              code: started === "not_enough_players" ? "NEED_PARTNER" : "REQUEST_FAILED",
+            });
+            return;
+          }
+          pendingCharge = null;
+
+          io.to(roomCode).emit("game-started", {
+            room: started.room,
+            question: started.round.question,
+            // Can be below settings.totalQuestions when the category is short
+            // (or text questions were filtered out for an older client).
+            totalQuestions: questions.length,
+            serverTime: started.round.startedAt ?? Date.now(),
+            duration: getQuestionDuration(started.room.settings, started.round.question),
+          });
+          scheduleRoundTimeout(started.room, started.round, true);
         } catch (error) {
           console.error("Error starting game:", error);
           socket.emit("room-error", {
             message: "Failed to start game. Please try again.",
+            code: "REQUEST_FAILED",
           });
         }
       } catch (error) {
         console.error("Error in start-game handler:", error);
         socket.emit("room-error", {
           message: "Failed to start game. Please try again.",
+          code: "REQUEST_FAILED",
         });
+      } finally {
+        if (pendingCharge && supabaseAdmin) {
+          const refund = await creditCoins(
+            supabaseAdmin,
+            pendingCharge.appUserId,
+            pendingCharge.amount,
+            "refund",
+          );
+          if (refund.ok) {
+            socket.emit("coins-spent", {
+              appUserId: pendingCharge.appUserId,
+              newBalance: refund.newBalance,
+              success: true,
+            });
+          } else {
+            console.error(
+              `❌ Game start refund failed for ${pendingCharge.appUserId}`,
+            );
+          }
+        }
+        await releaseLock(startLockKey);
       }
     });
 
@@ -547,6 +1364,15 @@ io.on(
           }
 
           const room = await roomManager.getRoom(roomCode);
+          // A late answer to a round the server already closed (e.g. after
+          // its timer ran out) is dropped rather than treated as a desync.
+          const isLateAnswer =
+            !!room &&
+            (room.status === "finished" ||
+              room.completedRounds.some((r) => r.question.id === questionId));
+          if (isLateAnswer && room?.currentRound?.question.id !== questionId) {
+            return;
+          }
           if (!room || !room.currentRound) {
             socket.emit("critical-error", {
               message:
@@ -566,388 +1392,127 @@ io.on(
             return;
           }
 
-          // CRITICAL FIX: Lock the entire answer submission process
-          // This prevents two players from overwriting each other's answers
-          const answerLockKey = `lock:answer:${roomCode}:${questionId}`;
-
-          // Try to acquire lock with retries (max 5 attempts, 100ms between each)
-          let answerLockAcquired = false;
-          for (let i = 0; i < 5; i++) {
-            answerLockAcquired = await acquireLock(answerLockKey, 5);
-            if (answerLockAcquired) break;
-
-            // Wait 100ms before retry (another player is writing their answer)
-            await new Promise((resolve) => setTimeout(resolve, 100));
+          // Moderated before taking the lock so the API call never blocks the
+          // partner's submit. If the partner already answered, the match check
+          // runs alongside so the reveal doesn't wait for two calls in a row.
+          let textAnswer: string | null = null;
+          let earlyTextMatch: {
+            answers: [string, string];
+            matched: boolean;
+          } | null = null;
+          if (isTextQuestion(room.currentRound.question)) {
+            const question = room.currentRound.question;
+            textAnswer = normalizeTextAnswer(answer);
+            const typed = textAnswer;
+            const partnerAnswer = Object.entries(room.currentRound.answers).find(
+              ([playerId, value]) =>
+                playerId !== socket.id && typeof value === "string",
+            )?.[1] as string | undefined;
+            // Trivia grades each answer on its own, so there's no pair to match.
+            const [harmful, matched, graded] = await Promise.all([
+              typed ? isHarmfulText(typed) : false,
+              !question.isTrivia && partnerAnswer !== undefined
+                ? textAnswersMatch(
+                    question,
+                    typed,
+                    partnerAnswer,
+                    HIDDEN_TEXT_ANSWER,
+                  )
+                : null,
+              question.isTrivia
+                ? getAnswerKey(question, supabaseAdmin).then((key) =>
+                    key
+                      ? gradeAnswer(key, question, typed, HIDDEN_TEXT_ANSWER)
+                      : null,
+                  )
+                : null,
+            ]);
+            if (harmful) {
+              textAnswer = HIDDEN_TEXT_ANSWER;
+            } else {
+              if (matched !== null && partnerAnswer !== undefined) {
+                earlyTextMatch = { answers: [typed, partnerAnswer], matched };
+              }
+              if (graded !== null) {
+                rememberGrade(roomCode, questionId, socket.id, typed, graded);
+              }
+            }
           }
 
-          if (!answerLockAcquired) {
-            // Still couldn't acquire lock after retries, silently fail
-            // The other player will complete the round
+          const question = room.currentRound.question;
+          let playerAnswer: string | MultiLanguageAnswer;
+          if (isTextQuestion(question)) {
+            playerAnswer = textAnswer ?? normalizeTextAnswer(answer);
+          } else if (typeof answer !== "string") {
+            playerAnswer = NO_ANSWER;
+          } else if (question.haveAnswers && question.answers) {
+            const answerObject = findAnswerObject(answer, question);
+            if (!answerObject && answer !== NO_ANSWER) {
+              console.warn(
+                `⚠️ Answer "${answer}" not found in question ${questionId} answers array. Saving as string.`,
+              );
+            }
+            playerAnswer = answerObject ?? answer;
+          } else {
+            playerAnswer = answer;
+          }
+
+          // Only this round's players count, and only their first answer, so
+          // neither the partner nor the round timer can overwrite it.
+          let saved: {
+            allAnswered: boolean;
+            playerName?: string;
+            startedAt?: number;
+          } | null;
+          try {
+            saved = await roomManager.withRoomLock(roomCode, async () => {
+              const lockedRoom = await roomManager.getRoom(roomCode);
+              const round = lockedRoom?.currentRound;
+              if (
+                !lockedRoom ||
+                !round ||
+                round.status !== "waiting_answers" ||
+                round.question.id !== questionId ||
+                !(socket.id in round.answers) ||
+                round.answers[socket.id] !== null
+              ) {
+                return null;
+              }
+              round.answers[socket.id] = playerAnswer;
+              const player = lockedRoom.players.find((p) => p.id === socket.id);
+              if (player) player.hasAnswered = true;
+              await roomManager.updateRoom(lockedRoom);
+              return {
+                allAnswered: Object.values(round.answers).every((a) => a !== null),
+                playerName: player?.name,
+                startedAt: round.startedAt,
+              };
+            });
+          } catch (error) {
+            if (!(error instanceof LockTimeoutError)) throw error;
+            // The round timer still closes the round, with this answer blank.
+            console.error(
+              `❌ Couldn't save answer in room ${roomCode}: room stayed locked`,
+            );
             return;
           }
+          if (!saved) return;
 
-          try {
-            // Re-fetch room with lock acquired
-            const lockedRoom = await roomManager.getRoom(roomCode);
-            if (!lockedRoom || !lockedRoom.currentRound) {
-              await releaseLock(answerLockKey);
-              return;
-            }
+          socket.to(roomCode).emit("player-answered", {
+            playerId: socket.id,
+            playerName: saved.playerName,
+          });
 
-            // If round is already completed, don't process
-            if (lockedRoom.currentRound.status === "completed") {
-              await releaseLock(answerLockKey);
-              return;
-            }
-
-            // Check if question ID matches
-            if (lockedRoom.currentRound.question.id !== questionId) {
-              await releaseLock(answerLockKey);
-              return;
-            }
-
-            // Now save the answer to the locked room
-            const question = lockedRoom.currentRound.question;
-            let playerAnswer: string | MultiLanguageAnswer;
-
-            if (question.haveAnswers && question.answers) {
-              const answerObject = findAnswerObject(answer, question);
-              if (answerObject) {
-                playerAnswer = answerObject;
-              } else {
-                console.warn(
-                  `⚠️ Answer "${answer}" not found in question ${questionId} answers array. Saving as string.`,
-                );
-                playerAnswer = answer;
-              }
-            } else {
-              playerAnswer = answer;
-            }
-
-            // Save answer to room
-            lockedRoom.currentRound.answers[socket.id] = playerAnswer;
-
-            // Update player status
-            const player = lockedRoom.players.find((p) => p.id === socket.id);
-            if (player) {
-              player.hasAnswered = true;
-            }
-
-            // Save room to Redis
-            await roomManager.updateRoom(lockedRoom);
-
-            // Release answer lock
-            await releaseLock(answerLockKey);
-
-            // Notify other players
-            socket.to(roomCode).emit("player-answered", {
-              playerId: socket.id,
-              playerName: player?.name,
-            });
-
-            // Check if all players have answered
-            const allAnswered = Object.values(
-              lockedRoom.currentRound.answers,
-            ).every((ans) => ans !== null);
-
-            if (allAnswered) {
-              // Acquire a lock to ensure only ONE player processes the round completion
-              const roundLockKey = `lock:round:${roomCode}:${questionId}`;
-              const roundLockAcquired = await acquireLock(roundLockKey, 10);
-
-              if (!roundLockAcquired) {
-                // Another player already acquired the lock and is processing the round
-                return;
-              }
-
-              try {
-                // Re-check room state after acquiring lock
-                const finalRoom = await roomManager.getRoom(roomCode);
-                if (
-                  !finalRoom ||
-                  !finalRoom.currentRound ||
-                  finalRoom.currentRound.status === "completed"
-                ) {
-                  await releaseLock(roundLockKey);
-                  return;
-                }
-
-                // Use finalRoom which has the latest state with all answers
-                const room = finalRoom;
-
-                // We already checked that currentRound exists above, so it's safe to use non-null assertion
-                const currentRound = room.currentRound!;
-                // Calculate match using the answers from the room
-                const answers = Object.values(currentRound.answers);
-                // Safety check: ensure we have exactly 2 answers
-                if (answers.length !== 2) {
-                  console.error(
-                    `⚠️ Unexpected number of answers: ${answers.length} in room ${roomCode}`,
-                  );
-                  socket.emit("critical-error", {
-                    message:
-                      "An error occurred while processing answers. The game will be reset.",
-                    code: "INVALID_ANSWER_COUNT",
-                  });
-                  await roomManager.resetRoom(roomCode);
-                  await releaseLock(roundLockKey);
-                  return;
-                }
-
-                // Compare answers - handle both string and MultiLanguageAnswer types
-                const answer1 = answers[0];
-                const answer2 = answers[1];
-                let isMatched = false;
-
-                if (
-                  typeof answer1 === "string" &&
-                  typeof answer2 === "string"
-                ) {
-                  // Both are strings (yes/no answers)
-                  isMatched = answer1 === answer2;
-                } else if (
-                  typeof answer1 === "object" &&
-                  typeof answer2 === "object" &&
-                  answer1 !== null &&
-                  answer2 !== null
-                ) {
-                  // Both are MultiLanguageAnswer objects - compare by checking if they have the same index
-                  // We compare by checking if any language matches (they should all match if same answer)
-                  const a1 = answer1 as MultiLanguageAnswer;
-                  const a2 = answer2 as MultiLanguageAnswer;
-                  // Answers match if they have the same English text (or any language, but en is most reliable)
-                  isMatched = a1.en === a2.en;
-                } else {
-                  // Mixed types - no match
-                  isMatched = false;
-                }
-
-                currentRound.isMatched = isMatched;
-                currentRound.status = "completed";
-                room.totalQuestionsAnswered++;
-
-                if (isMatched) {
-                  room.matchScore++;
-                }
-
-                // Save room to Redis
-                await roomManager.updateRoom(room);
-
-                // Prepare player answers for frontend (with names and avatars)
-                const playerAnswers = room.players.map((p) => ({
-                  playerId: p.id,
-                  playerName: p.name,
-                  avatar: p.avatar,
-                  answer: currentRound.answers[p.id],
-                }));
-
-                // Reset hasAnswered flags
-                room.players.forEach((p) => (p.hasAnswered = false));
-
-                // Move to completed rounds
-                room.completedRounds.push(currentRound);
-
-                // Save room to Redis
-                await roomManager.updateRoom(room);
-
-                // Send results to all players
-                // Calculate percentage safely (avoid division by zero)
-                const percentage =
-                  room.totalQuestionsAnswered > 0
-                    ? Math.round(
-                        (room.matchScore / room.totalQuestionsAnswered) * 100,
-                      )
-                    : 0;
-
-                io.to(roomCode).emit("round-completed", {
-                  allPlayersAnswered: true, // ✅ Flag for frontend
-                  isMatched: isMatched,
-                  playerAnswers: playerAnswers, // ✅ Who answered what
-                  question: currentRound.question,
-                  matchScore: room.matchScore,
-                  totalQuestions: room.totalQuestionsAnswered,
-                  percentage: percentage,
-                });
-
-                // Release lock after sending round-completed event
-                await releaseLock(roundLockKey);
-
-                // Check if game is finished
-                if (room.currentQuestionIndex >= room.questions.length - 1) {
-                  // Game finished!
-                  room.status = "finished";
-                  room.currentRound = null;
-
-                  // Save room to Redis
-                  await roomManager.updateRoom(room);
-                  // Wait for resultDisplayDuration before showing final results
-                  // This gives users time to see the last question's result
-                  setTimeout(async () => {
-                    // Re-fetch room in case it was deleted
-                    const currentRoom = await roomManager.getRoom(roomCode);
-                    if (!currentRoom) {
-                      return;
-                    }
-
-                    // Calculate percentage safely (avoid division by zero)
-                    const percentage =
-                      currentRoom.totalQuestionsAnswered > 0
-                        ? Math.round(
-                            (currentRoom.matchScore /
-                              currentRoom.totalQuestionsAnswered) *
-                              100,
-                          )
-                        : 0;
-
-                    io.to(roomCode).emit("game-finished", {
-                      matchScore: currentRoom.matchScore,
-                      totalQuestions: currentRoom.totalQuestionsAnswered,
-                      percentage: percentage,
-                      completedRounds: currentRoom.completedRounds.map(
-                        (round) => ({
-                          ...round,
-                          question: {
-                            ...round.question,
-                            // Flatten texts for AI analysis compatibility
-                            text_en: round.question.texts.text_en,
-                            text_tr: round.question.texts.text_tr,
-                            text_es: round.question.texts.text_es,
-                          },
-                          playerAnswers: currentRoom.players.map((p) => ({
-                            playerId: p.id,
-                            playerName: p.name,
-                            avatar: p.avatar,
-                            answer: round.answers[p.id],
-                          })),
-                        }),
-                      ),
-                    });
-
-                    const finalRoom = await roomManager.getRoom(roomCode);
-                    if (finalRoom) {
-                      await roomManager.resetRoom(roomCode);
-                    }
-                  }, room.settings.resultDisplayDuration * 1000);
-                } else {
-                  // Move to next question
-                  setTimeout(async () => {
-                    // Re-fetch room in case it was deleted or modified
-                    const currentRoom = await roomManager.getRoom(roomCode);
-                    if (!currentRoom) {
-                      return;
-                    }
-
-                    // Race condition protection: If round is already moved to next question, another timeout already processed this
-                    if (
-                      !currentRoom.currentRound ||
-                      currentRoom.currentRound.status !== "completed"
-                    ) {
-                      // Another timeout already moved to next question or game was reset
-                      return;
-                    }
-
-                    // Check if we still have 2 players
-                    if (currentRoom.players.length < 2) {
-                      currentRoom.status = "waiting";
-                      io.to(roomCode).emit("game-cancelled", {
-                        message:
-                          "A player left during the game. Game has been cancelled.",
-                        room: currentRoom,
-                      });
-                      await roomManager.resetRoom(roomCode);
-                      return;
-                    }
-
-                    currentRoom.currentQuestionIndex++;
-
-                    // Check if next question index is valid
-                    if (
-                      currentRoom.currentQuestionIndex >=
-                      currentRoom.questions.length
-                    ) {
-                      currentRoom.status = "finished";
-                      currentRoom.currentRound = null;
-
-                      // Save room to Redis
-                      await roomManager.updateRoom(currentRoom);
-
-                      const percentage =
-                        currentRoom.totalQuestionsAnswered > 0
-                          ? Math.round(
-                              (currentRoom.matchScore /
-                                currentRoom.totalQuestionsAnswered) *
-                                100,
-                            )
-                          : 0;
-
-                      io.to(roomCode).emit("game-finished", {
-                        matchScore: currentRoom.matchScore,
-                        totalQuestions: currentRoom.totalQuestionsAnswered,
-                        percentage: percentage,
-                        completedRounds: currentRoom.completedRounds,
-                      });
-                      return;
-                    }
-
-                    const nextQuestion =
-                      currentRoom.questions[currentRoom.currentQuestionIndex];
-
-                    if (!nextQuestion) {
-                      console.error(
-                        `⚠️ Next question is undefined in room ${roomCode} at index ${currentRoom.currentQuestionIndex}`,
-                      );
-                      currentRoom.status = "finished";
-                      currentRoom.currentRound = null;
-
-                      // Save room to Redis
-                      await roomManager.updateRoom(currentRoom);
-
-                      io.to(roomCode).emit("game-cancelled", {
-                        message: "An error occurred loading the next question.",
-                        room: currentRoom,
-                      });
-                      return;
-                    }
-
-                    currentRoom.currentRound = {
-                      question: nextQuestion,
-                      answers: {
-                        [currentRoom.players[0].id]: null,
-                        [currentRoom.players[1].id]: null,
-                      },
-                      isMatched: null,
-                      status: "waiting_answers",
-                    };
-
-                    // Save room to Redis
-                    await roomManager.updateRoom(currentRoom);
-
-                    const nextStartTime = Date.now();
-                    io.to(roomCode).emit("next-question", {
-                      question: nextQuestion,
-                      currentQuestionIndex: currentRoom.currentQuestionIndex,
-                      totalQuestions: currentRoom.questions.length,
-                      serverTime: nextStartTime,
-                      duration: currentRoom.settings.questionDuration,
-                    });
-                  }, room.settings.resultDisplayDuration * 1000); // Dynamic delay from settings
-                }
-              } catch (roundError) {
-                console.error("Error processing round completion:", roundError);
-                await releaseLock(roundLockKey);
-                socket.emit("critical-error", {
-                  message: "An error occurred while processing the round.",
-                  code: "ROUND_COMPLETION_ERROR",
-                });
-              }
-            }
-          } catch (answerError) {
-            console.error("Error processing answer:", answerError);
-            await releaseLock(answerLockKey);
-            socket.emit("critical-error", {
-              message: "An error occurred while saving your answer.",
-              code: "ANSWER_SAVE_ERROR",
-            });
+          if (saved.allAnswered) {
+            // On failure the round timer retries the completion.
+            await completeRound(
+              roomCode,
+              questionId,
+              saved.startedAt,
+              earlyTextMatch,
+            ).catch((error) =>
+              console.error("Error processing round completion:", error),
+            );
           }
         } catch (error) {
           console.error("Error submitting answer:", error);
@@ -970,187 +1535,75 @@ io.on(
         targetPlayerId: string;
       }) => {
         try {
-          const room = await roomManager.getRoom(roomCode);
+          if (typeof roomCode !== "string" || !roomCode) return;
+          type KickResult =
+            | { error: string; code: RoomErrorCode }
+            | { requester: Player; targetPlayer: Player; updatedRoom: Room | undefined };
+          const result = await roomManager.withRoomLock(roomCode, async (): Promise<KickResult> => {
+            const room = await roomManager.getRoom(roomCode);
+            if (!room) {
+              return {
+                error: "We couldn't locate that room. It may have just closed.",
+                code: "ROOM_NOT_FOUND",
+              };
+            }
+            const requester = room.players.find((p) => p.id === socket.id);
+            if (!requester?.isHost) {
+              return {
+                error: "Only the host can remove players. Give them a nudge!",
+                code: "NOT_HOST",
+              };
+            }
+            const targetPlayer = room.players.find((p) => p.id === targetPlayerId);
+            if (!targetPlayer) {
+              return {
+                error: "We couldn't find that player. They may have already left.",
+                code: "PLAYER_NOT_FOUND",
+              };
+            }
+            if (targetPlayerId === socket.id) {
+              return { error: "You can't kick yourself—nice try though!", code: "CANNOT_KICK_SELF" };
+            }
+            if (room.status === "playing") {
+              return {
+                error: "You can only remove players while the game is waiting to start.",
+                code: "GAME_IN_PROGRESS",
+              };
+            }
 
-          if (!room) {
-            socket.emit("room-error", {
-              message: "We couldn't locate that room. It may have just closed.",
-            });
+            await roomManager.removePlayer(targetPlayerId);
+            const updatedRoom = await roomManager.getRoom(roomCode);
+            if (updatedRoom && updatedRoom.players.length === 0) {
+              await roomManager.deleteRoom(roomCode);
+            }
+            return { requester, targetPlayer, updatedRoom };
+          });
+
+          if ("error" in result) {
+            socket.emit("room-error", { message: result.error, code: result.code });
             return;
           }
 
-          // Check if requester is host
-          const requester = room.players.find((p) => p.id === socket.id);
-          if (!requester?.isHost) {
-            socket.emit("room-error", {
-              message: "Only the host can remove players. Give them a nudge!",
-            });
-            return;
-          }
-
-          // Check if target player exists
-          const targetPlayer = room.players.find(
-            (p) => p.id === targetPlayerId,
-          );
-          if (!targetPlayer) {
-            socket.emit("room-error", {
-              message:
-                "We couldn't find that player. They may have already left.",
-            });
-            return;
-          }
-
-          // Cannot kick yourself
-          if (targetPlayerId === socket.id) {
-            socket.emit("room-error", {
-              message: "You can't kick yourself—nice try though!",
-            });
-            return;
-          }
-
-          // Cannot kick during active game
-          if (room.status === "playing") {
-            socket.emit("room-error", {
-              message:
-                "You can only remove players while the game is waiting to start.",
-            });
-            return;
-          }
-
-          // Get target player's socket
-          const targetSockets = Array.from(io.sockets.sockets.values()).filter(
-            (s) => s.id === targetPlayerId,
-          );
-
-          if (targetSockets.length > 0) {
-            const targetSocket = targetSockets[0];
-
-            // Make target leave socket.io room
+          const targetSocket = io.sockets.sockets.get(targetPlayerId);
+          if (targetSocket) {
             targetSocket.leave(roomCode);
-
-            // Notify kicked player
             targetSocket.emit("kicked-from-room", {
-              message: `You were kicked from the room by ${requester.name}`,
+              message: `You were kicked from the room by ${result.requester.name}`,
+              hostName: result.requester.name,
               roomCode: roomCode,
             });
           }
 
-          // Remove player from room
-          await roomManager.removePlayer(targetPlayerId);
-
-          // Get updated room
-          const updatedRoom = await roomManager.getRoom(roomCode);
-
-          // Notify remaining players
           io.to(roomCode).emit("player-kicked", {
             playerId: targetPlayerId,
-            playerName: targetPlayer.name,
-            room: updatedRoom,
+            playerName: result.targetPlayer.name,
+            room: result.updatedRoom,
           });
-
-          // Delete room if empty
-          if (updatedRoom && updatedRoom.players.length === 0) {
-            await roomManager.deleteRoom(roomCode);
-          }
         } catch (error) {
           console.error("Error kicking player:", error);
           socket.emit("room-error", {
             message: "Failed to kick player. Please try again.",
-          });
-        }
-      },
-    );
-
-    // 7. Send Chat Message
-    socket.on(
-      "send-message",
-      async ({ roomCode, message }: { roomCode: string; message: string }) => {
-        try {
-          const room = await roomManager.getRoom(roomCode);
-
-          if (!room) {
-            socket.emit("room-error", {
-              message: "We couldn't find that room. Please try again.",
-            });
-            return;
-          }
-
-          // Check if player is in the room
-          const player = room.players.find((p) => p.id === socket.id);
-          if (!player) {
-            socket.emit("room-error", {
-              message: "Looks like you're not part of this room anymore.",
-            });
-            return;
-          }
-
-          // Validate message exists and is not empty
-          if (!message || typeof message !== "string") {
-            return; // Ignore invalid messages
-          }
-
-          const trimmedMessage = message.trim();
-          if (trimmedMessage.length === 0) {
-            return; // Ignore empty messages
-          }
-
-          // Check message length
-          if (trimmedMessage.length > CHAT_MAX_LENGTH) {
-            socket.emit("room-error", {
-              message: `That message is a little long—try keeping it under ${CHAT_MAX_LENGTH} characters.`,
-            });
-            return;
-          }
-
-          // Rate limiting: prevent spam
-          const now = Date.now();
-          const lastMessageTime = chatRateLimits.get(socket.id) || 0;
-          const timeSinceLastMessage = now - lastMessageTime;
-
-          if (timeSinceLastMessage < CHAT_RATE_LIMIT_MS) {
-            const remainingTime = Math.ceil(
-              (CHAT_RATE_LIMIT_MS - timeSinceLastMessage) / 1000,
-            );
-            socket.emit("room-error", {
-              message: `Please wait ${remainingTime} second${
-                remainingTime > 1 ? "s" : ""
-              } before sending another message.`,
-            });
-            return;
-          }
-
-          // Security: Check for suspicious content (XSS prevention)
-          if (!isValidMessage(trimmedMessage)) {
-            socket.emit("room-error", {
-              message:
-                "Your message contains invalid content. Please try again.",
-            });
-            console.warn(
-              `⚠️ Suspicious message blocked from ${player.name} (${
-                socket.id
-              }): ${trimmedMessage.substring(0, 50)}`,
-            );
-            return;
-          }
-
-          // Sanitize message to prevent XSS
-          const sanitizedMessage = sanitizeMessage(trimmedMessage);
-
-          // Update rate limit
-          chatRateLimits.set(socket.id, now);
-
-          // Broadcast message to all players in the room (including sender)
-          io.to(roomCode).emit("chat-message", {
-            playerId: socket.id,
-            playerName: player.name,
-            avatar: player.avatar,
-            message: sanitizedMessage,
-            timestamp: now,
-          });
-        } catch (error) {
-          console.error("Error sending message:", error);
-          socket.emit("room-error", {
-            message: "Failed to send message. Please try again.",
+            code: "REQUEST_FAILED",
           });
         }
       },
@@ -1171,7 +1624,21 @@ io.on(
         return;
       }
 
-      if (!appUserId || !amount || amount <= 0) {
+      if (!appUserId || !Number.isInteger(amount) || amount <= 0) {
+        socket.emit("coins-spent", {
+          appUserId,
+          newBalance: 0,
+          success: false,
+          error: "Invalid request data",
+        });
+        return;
+      }
+
+      // A connection only spends from the wallet it registered with.
+      if ((await resolveAppUserId(socket, appUserId)) !== appUserId) {
+        console.warn(
+          `🚫 spend-coins for ${appUserId} rejected: socket ${socket.id} is registered as another user`,
+        );
         socket.emit("coins-spent", {
           appUserId,
           newBalance: 0,
@@ -1186,83 +1653,41 @@ io.on(
           `💰 Processing coin spend: ${amount} coins for user ${appUserId}`,
         );
 
-        // Mevcut balance'ı al
-        const { data: existing, error: fetchError } = await supabaseAdmin
-          .from("coins")
-          .select("balance")
-          .eq("app_user_id", appUserId)
-          .maybeSingle();
-
-        if (fetchError) {
-          console.error("❌ Error fetching existing balance:", fetchError);
-          socket.emit("coins-spent", {
-            appUserId,
-            newBalance: 0,
-            success: false,
-            error: "Database error",
-          });
-          return;
-        }
-
-        const currentBalance = existing?.balance || 0;
-
-        // Yeterli coin var mı kontrol et
-        if (currentBalance < amount) {
-          console.warn(
-            `⚠️ Not enough coins. Required: ${amount}, Available: ${currentBalance}`,
-          );
-          socket.emit("coins-spent", {
-            appUserId,
-            newBalance: currentBalance,
-            success: false,
-            error: `Not enough coins. Required: ${amount}, Available: ${currentBalance}`,
-          });
-          return;
-        }
-
-        // Yeni balance hesapla
-        const newBalance = currentBalance - amount;
-
-        // Secret key ile Supabase'e yaz (RLS bypass)
-        const { error: upsertError } = await supabaseAdmin.from("coins").upsert(
-          {
-            app_user_id: appUserId,
-            balance: newBalance,
-          },
-          { onConflict: "app_user_id" },
+        const result = await spendCoins(
+          supabaseAdmin,
+          appUserId,
+          amount,
+          transactionType === "ai_analysis" ? "ai_analysis" : "game_start",
         );
 
-        if (upsertError) {
-          console.error("❌ Error updating coins:", upsertError);
-          socket.emit("coins-spent", {
-            appUserId,
-            newBalance: currentBalance,
-            success: false,
-            error: "Failed to update coins",
-          });
+        if (!result.ok) {
+          if (result.reason === "insufficient") {
+            console.warn(
+              `⚠️ Not enough coins. Required: ${amount}, Available: ${result.balance}`,
+            );
+            socket.emit("coins-spent", {
+              appUserId,
+              newBalance: result.balance,
+              success: false,
+              error: `Not enough coins. Required: ${amount}, Available: ${result.balance}`,
+            });
+          } else {
+            socket.emit("coins-spent", {
+              appUserId,
+              newBalance: 0,
+              success: false,
+              error: "Failed to update coins",
+            });
+          }
           return;
         }
 
-        // Transaction log'a ekle
-        const { error: transactionError } = await supabaseAdmin
-          .from("coin_transactions")
-          .insert({
-            app_user_id: appUserId,
-            amount: amount,
-            transaction_type: transactionType || "game_start",
-          });
-
-        if (transactionError) {
-          console.warn("⚠️ Failed to log transaction:", transactionError);
-          // Transaction log hatası kritik değil, devam et
-        }
-
-        console.log(`✅ Coins spent successfully. New balance: ${newBalance}`);
-
-        // Socket.io ile connected client'a bildirim gönder
+        console.log(
+          `✅ Coins spent successfully. New balance: ${result.newBalance}`,
+        );
         socket.emit("coins-spent", {
           appUserId,
-          newBalance,
+          newBalance: result.newBalance,
           success: true,
         });
       } catch (error) {
@@ -1301,55 +1726,47 @@ io.on(
       }
 
       try {
-        const { data } = await supabaseAdmin
-          .from("coins")
-          .select("balance, last_daily_reward_at")
-          .eq("app_user_id", appUserId)
-          .maybeSingle();
-
-        const now = new Date();
-
-        if (data?.last_daily_reward_at) {
-          const lastClaim = new Date(data.last_daily_reward_at).getTime();
-          const elapsed = now.getTime() - lastClaim;
-
-          if (elapsed < 6 * 60 * 60 * 1000) {
-            const nextClaimAt = new Date(
-              lastClaim + 6 * 60 * 60 * 1000,
-            ).toISOString();
-            socket.emit("daily-reward-claimed", {
-              appUserId,
-              success: false,
-              error: "not_eligible_yet",
-              nextClaimAt,
-            });
-            return;
-          }
+        if ((await resolveAppUserId(socket, appUserId)) !== appUserId) {
+          console.warn(
+            `🚫 claim-daily-reward for ${appUserId} rejected on socket ${socket.id}`,
+          );
+          socket.emit("daily-reward-claimed", {
+            appUserId,
+            success: false,
+            error: "invalid_user_id",
+          });
+          return;
         }
 
-        const newBalance = (data?.balance ?? 0) + 1;
-        const nextClaimAt = new Date(
-          now.getTime() + 6 * 60 * 60 * 1000,
-        ).toISOString();
+        const config = await getPublicConfig(supabaseAdmin);
+        const { intervalMs, amount } = config.economy.dailyReward;
+        const result = await claimDailyReward(supabaseAdmin, appUserId, {
+          amount,
+          intervalMs,
+          unlimited: DEV_UNLIMITED_DAILY_REWARD,
+        });
 
-        await supabaseAdmin.from("coins").upsert(
-          {
-            app_user_id: appUserId,
-            balance: newBalance,
-            last_daily_reward_at: now.toISOString(),
-          },
-          { onConflict: "app_user_id" },
-        );
+        if (!result.ok) {
+          socket.emit("daily-reward-claimed", {
+            appUserId,
+            success: false,
+            error: result.reason === "error" ? "server_error" : result.reason,
+            ...(result.reason === "not_eligible_yet" && {
+              nextClaimAt: result.nextClaimAt,
+            }),
+          });
+          return;
+        }
 
         console.log(
-          `🎁 Daily reward claimed by ${appUserId}. New balance: ${newBalance}`,
+          `🎁 Daily reward claimed by ${appUserId}. New balance: ${result.newBalance}`,
         );
 
         socket.emit("daily-reward-claimed", {
           appUserId,
           success: true,
-          newBalance,
-          nextClaimAt,
+          newBalance: result.newBalance,
+          nextClaimAt: result.nextClaimAt,
         });
       } catch (error) {
         console.error("❌ Error processing daily reward:", error);
@@ -1361,54 +1778,88 @@ io.on(
       }
     });
 
+    // Report a typed answer (App Store guideline 1.2: users must be able to
+    // flag objectionable content). Stored for manual review.
+    let reportsSent = 0;
+    socket.on("report-answer", async (data, ack) => {
+      const reply = (success: boolean) => {
+        if (typeof ack === "function") ack({ success });
+      };
+      try {
+        if (reportsSent >= MAX_REPORTS_PER_SOCKET) return reply(false);
+        const questionId =
+          typeof data?.questionId === "string" ? data.questionId : "";
+        const reportedPlayerId =
+          typeof data?.reportedPlayerId === "string"
+            ? data.reportedPlayerId
+            : "";
+        if (!questionId || !reportedPlayerId || reportedPlayerId === socket.id) {
+          return reply(false);
+        }
+
+        const roomCode = await roomManager.getPlayerRoom(socket.id);
+        const room = roomCode ? await roomManager.getRoom(roomCode) : undefined;
+        if (!room) return reply(false);
+
+        const reporter = room.players.find((p) => p.id === socket.id);
+        const reported = room.players.find((p) => p.id === reportedPlayerId);
+        if (!reporter || !reported) return reply(false);
+
+        const rounds = [
+          ...room.completedRounds,
+          ...(room.currentRound ? [room.currentRound] : []),
+        ];
+        const round = rounds.find((r) => r.question.id === questionId);
+        if (!round) return reply(false);
+
+        const rawAnswer = round.answers[reportedPlayerId];
+        const reportedAnswer =
+          typeof rawAnswer === "string" ? rawAnswer : JSON.stringify(rawAnswer);
+
+        reportsSent++;
+        console.warn(
+          `🚩 Answer reported in room ${room.roomCode}: "${reportedAnswer}" by ${reported.name}`,
+        );
+
+        if (supabaseAdmin) {
+          const { error } = await supabaseAdmin.from("answer_reports").insert({
+            room_code: room.roomCode,
+            question_id: questionId,
+            reported_answer: reportedAnswer,
+            reported_name: reported.name,
+            reporter_name: reporter.name,
+            reporter_app_user_id: socket.data.appUserId ?? null,
+            reason:
+              typeof data?.reason === "string"
+                ? data.reason.slice(0, 200)
+                : null,
+          });
+          if (error) console.error("Error saving answer report:", error);
+        }
+        reply(true);
+      } catch (error) {
+        console.error("Error handling answer report:", error);
+        reply(false);
+      }
+    });
+
     // 8. On Disconnect
-    socket.on("disconnect", async () => {
+    socket.on("disconnect", (reason) => {
       // Clean up IP-based socket limiter
       unregisterSocket(socket.id);
 
       // Clean up appUserId mapping
+      pendingRegistrations.delete(socket.id);
       const appUserId = socket.data.appUserId;
-      if (appUserId) {
+      // A reconnect may already have mapped the user to its new socket.
+      if (appUserId && userSockets.get(appUserId) === socket.id) {
         userSockets.delete(appUserId);
         console.log(
           `📝 User ${appUserId} unregistered from socket ${socket.id}`,
         );
       }
 
-      // Clean up rate limiting
-      chatRateLimits.delete(socket.id);
-
-      try {
-        const roomCode = await roomManager.removePlayer(socket.id);
-        if (roomCode) {
-          const room = await roomManager.getRoom(roomCode);
-
-          // If game was in progress, reset the room
-          if (room && room.status === "playing") {
-            await roomManager.resetRoom(roomCode);
-
-            // Notify remaining players that game was cancelled
-            io.to(roomCode).emit("game-cancelled", {
-              message:
-                "A player left during the game. Game has been cancelled.",
-              room: room,
-            });
-          }
-
-          // Notify other players in the room
-          io.to(roomCode).emit("player-left", {
-            playerId: socket.id,
-            room: room,
-          });
-
-          // Delete room if empty
-          if (room && room.players.length === 0) {
-            await roomManager.deleteRoom(roomCode);
-          }
-        }
-      } catch (error) {
-        console.error("Error handling disconnect:", error);
-      }
+      trackCleanup(handleDroppedPlayer(socket.id, reason));
     });
     // 11. Change Category (Host only, waiting room only)
     socket.on(
@@ -1421,36 +1872,43 @@ io.on(
         category: string;
       }) => {
         try {
-          const room = await roomManager.getRoom(roomCode);
-
-          if (!room) {
-            socket.emit("room-error", { message: "Room not found" });
+          if (typeof roomCode !== "string" || !roomCode || typeof category !== "string") {
+            socket.emit("room-error", { message: "Room not found", code: "ROOM_NOT_FOUND" });
             return;
           }
+          const mode = await getCategoryMode(category, supabaseAdmin);
+          const result = await roomManager.withRoomLock(
+            roomCode,
+            async (): Promise<{ error: string; code: RoomErrorCode } | { room: Room }> => {
+            const room = await roomManager.getRoom(roomCode);
+            if (!room) return { error: "Room not found", code: "ROOM_NOT_FOUND" };
+            if (room.status !== "waiting") {
+              return {
+                error: "Cannot change category after game has started",
+                code: "GAME_IN_PROGRESS",
+              };
+            }
+            const player = room.players.find((p) => p.id === socket.id);
+            if (!player?.isHost) {
+              return { error: "Only the host can change the category", code: "NOT_HOST" };
+            }
+            room.settings.category = category;
+            room.settings.mode = mode;
+            await roomManager.updateRoom(room);
+            return { room };
+            },
+          );
 
-          if (room.status !== "waiting") {
-            socket.emit("room-error", {
-              message: "Cannot change category after game has started",
-            });
+          if ("error" in result) {
+            socket.emit("room-error", { message: result.error, code: result.code });
             return;
           }
-
-          const player = room.players.find((p) => p.id === socket.id);
-          if (!player?.isHost) {
-            socket.emit("room-error", {
-              message: "Only the host can change the category",
-            });
-            return;
-          }
-
-          room.settings.category = category as any;
-          await roomManager.updateRoom(room);
-
-          io.to(roomCode).emit("category-changed", { room });
+          io.to(roomCode).emit("category-changed", { room: result.room });
         } catch (error) {
           console.error("Error changing category:", error);
           socket.emit("room-error", {
             message: "Failed to change category. Please try again.",
+            code: "REQUEST_FAILED",
           });
         }
       },
@@ -1458,53 +1916,27 @@ io.on(
 
     socket.on("leave-room", async ({ roomCode }: { roomCode: string }) => {
       try {
-        const room = await roomManager.getRoom(roomCode);
-
-        if (!room) {
+        // The room the server has this player in wins over the one sent.
+        const playerRoom = await roomManager.getPlayerRoom(socket.id);
+        const targetRoom =
+          playerRoom ?? (typeof roomCode === "string" ? roomCode : null);
+        if (!targetRoom || !(await roomManager.getRoom(targetRoom))) {
           socket.emit("room-error", {
             message:
               "We couldn't find that room. It may have already been closed.",
+            code: "ROOM_NOT_FOUND",
           });
           return;
         }
 
-        // If game was in progress, reset the room
-        if (room.status === "playing") {
-          await roomManager.resetRoom(roomCode);
-
-          // Notify remaining players that game was cancelled
-          io.to(roomCode).emit("game-cancelled", {
-            message: "A player left during the game. Game has been cancelled.",
-            room: room,
-          });
-        }
-
-        // Leave the socket.io room
-        socket.leave(roomCode);
-
-        // Remove player using RoomManager
-        await roomManager.removePlayer(socket.id);
-
-        // Get updated room info
-        const updatedRoom = await roomManager.getRoom(roomCode);
-
-        // Notify other players in the room
-        io.to(roomCode).emit("player-left", {
-          playerId: socket.id,
-          room: updatedRoom,
-        });
-
-        // Send success response to the leaving player
+        socket.leave(targetRoom);
+        await takePlayerOut(targetRoom, socket.id);
         socket.emit("room-left");
-
-        // Delete room if empty
-        if (updatedRoom && updatedRoom.players.length === 0) {
-          await roomManager.deleteRoom(roomCode);
-        }
       } catch (error) {
         console.error("Error leaving room:", error);
         socket.emit("room-error", {
           message: "Failed to leave room. Please try again.",
+          code: "REQUEST_FAILED",
         });
       }
     });
@@ -1552,121 +1984,6 @@ app.get(
         status: "error",
         message: error instanceof Error ? error.message : "Unknown error",
       });
-    }
-  },
-);
-
-// ============================================
-// REVENUECAT WEBHOOK ENDPOINT
-// ============================================
-
-app.post(
-  "/webhook/revenuecat",
-  webhookRateLimiter,
-  express.json({ verify: verifyRevenueCatSignature }),
-  async (req, res) => {
-    try {
-      const { event } = req.body;
-
-      console.log("📦 RevenueCat webhook received:", event?.type);
-
-      if (!supabaseAdmin) {
-        console.error("❌ Supabase not configured");
-        return res.status(500).json({ error: "Supabase not configured" });
-      }
-
-      if (
-        event.type === "INITIAL_PURCHASE" ||
-        event.type === "RENEWAL" ||
-        event.type === "NON_RENEWING_PURCHASE"
-      ) {
-        const appUserId = event.app_user_id; // User ID coming from RevenueCat
-        const productId = event.product_id;
-        const coins = getCoinsFromProductId(productId);
-
-        if (!appUserId || !coins || coins === 0) {
-          console.warn("⚠️ Invalid webhook data:", {
-            appUserId,
-            productId,
-            coins,
-          });
-          return res.status(400).json({ error: "Invalid webhook data" });
-        }
-
-        console.log(
-          `💰 Processing purchase: ${coins} coins for user ${appUserId}`,
-        );
-
-        // Get current balance
-        const { data: existing, error: fetchError } = await supabaseAdmin
-          .from("coins")
-          .select("balance")
-          .eq("app_user_id", appUserId)
-          .maybeSingle();
-
-        if (fetchError) {
-          console.error("❌ Error fetching existing balance:", fetchError);
-          return res.status(500).json({ error: "Database error" });
-        }
-
-        // Calculate new balance
-        const currentBalance = existing?.balance || 0;
-        const newBalance = currentBalance + coins;
-
-        // Write to Supabase with secret key (RLS bypass)
-        const { error: upsertError } = await supabaseAdmin.from("coins").upsert(
-          {
-            app_user_id: appUserId,
-            balance: newBalance,
-          },
-          { onConflict: "app_user_id" },
-        );
-
-        if (upsertError) {
-          console.error("❌ Error updating coins:", upsertError);
-          return res.status(500).json({ error: "Failed to update coins" });
-        }
-
-        // Transaction log'a ekle (opsiyonel)
-        const { error: transactionError } = await supabaseAdmin
-          .from("coin_transactions")
-          .insert({
-            app_user_id: appUserId,
-            amount: coins,
-            transaction_type: "purchase",
-          });
-
-        if (transactionError) {
-          console.warn("⚠️ Failed to log transaction:", transactionError);
-        }
-
-        console.log(`✅ Coins added successfully. New balance: ${newBalance}`);
-
-        // Socket.io ile connected client'a bildirim gönder
-        const userSocket = findSocketByUserId(appUserId, io, userSockets);
-
-        if (userSocket) {
-          userSocket.emit("coins-added", {
-            appUserId,
-            newBalance,
-            success: true,
-          });
-        } else {
-          console.log(
-            `ℹ️ User ${appUserId} not connected via socket (will sync on next app open)`,
-          );
-        }
-
-        // Webhook'a başarılı response döndür
-        return res.status(200).json({ success: true });
-      } else {
-        // Diğer event'ler için sadece log
-        console.log(`ℹ️ Unhandled event type: ${event.type}`);
-        return res.status(200).json({ success: true });
-      }
-    } catch (error) {
-      console.error("❌ Webhook error:", error);
-      return res.status(500).json({ error: "Webhook processing failed" });
     }
   },
 );
@@ -1742,19 +2059,49 @@ httpServer.listen(Number(PORT), HOST, () => {
   );
 });
 
-// Graceful shutdown on SIGTERM/SIGINT (Docker, PM2, etc.)
-process.on("SIGTERM", () => {
-  console.log("🛑 SIGTERM received, shutting down gracefully...");
-  httpServer.close(() => {
-    console.log("✅ HTTP server closed");
-    process.exit(0);
-  });
-});
+/**
+ * Games can't survive a restart (round timers and reconnect sessions live in
+ * this process), so players are told and taken out of their rooms; Redis is
+ * closed only after that, or the cleanup would fail and leave rooms behind.
+ */
+async function shutdown(signal: string): Promise<void> {
+  if (shuttingDown) return;
+  shuttingDown = true;
+  console.log(`🛑 ${signal} received, shutting down gracefully...`);
+  setTimeout(() => {
+    console.error("⚠️ Graceful shutdown timed out, forcing exit");
+    process.exit(1);
+  }, SHUTDOWN_TIMEOUT_MS).unref();
 
-process.on("SIGINT", () => {
-  console.log("🛑 SIGINT received, shutting down gracefully...");
-  httpServer.close(() => {
-    console.log("✅ HTTP server closed");
-    process.exit(0);
-  });
-});
+  for (const socket of io.sockets.sockets.values()) {
+    if (socket.rooms.size > 1) {
+      socket.emit("critical-error", {
+        message: "The server is restarting. Please start a new game in a moment.",
+        code: "SERVER_RESTARTING",
+      });
+    }
+  }
+  // Closing a connection drops what's still queued on it.
+  await new Promise((resolve) => setTimeout(resolve, 500));
+
+  for (const timer of roundTimers.values()) clearTimeout(timer);
+  roundTimers.clear();
+  for (const [socketId, timer] of seatHolds) {
+    clearTimeout(timer);
+    trackCleanup(freeSeat(socketId));
+  }
+  seatHolds.clear();
+
+  // Runs every socket's disconnect handler, which frees its seat.
+  const httpClosed = new Promise<void>((resolve) => io.close(() => resolve()));
+  while (pendingCleanups.size > 0) await Promise.all([...pendingCleanups]);
+  console.log("✅ Rooms cleaned up");
+
+  await httpClosed;
+  await redis.quit().catch(() => undefined);
+  console.log("✅ HTTP server and Redis closed");
+  process.exit(0);
+}
+
+process.on("SIGTERM", () => void shutdown("SIGTERM"));
+process.on("SIGINT", () => void shutdown("SIGINT"));

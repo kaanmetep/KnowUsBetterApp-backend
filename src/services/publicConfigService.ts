@@ -1,8 +1,10 @@
 import { SupabaseClient } from "@supabase/supabase-js";
 import { logger } from "../utils/logger.js";
+import { TEXT_ANSWER_MAX_LENGTH } from "../utils/helpers.js";
 import { PublicRuntimeConfig } from "../types/publicConfig.js";
 
 const PUBLIC_CONFIG_DB_KEY = "public_mobile_config";
+const CONFIG_CACHE_TTL_MS = 30_000;
 
 const DEFAULT_PUBLIC_RUNTIME_CONFIG: PublicRuntimeConfig = {
   economy: {
@@ -12,31 +14,51 @@ const DEFAULT_PUBLIC_RUNTIME_CONFIG: PublicRuntimeConfig = {
     },
     dailyReward: {
       amount: 1,
-      intervalMs: 21600000,
+      intervalMs: 7200000,
       claimTimeoutMs: 10000,
     },
     balanceSync: {
       maxRetries: 5,
       retryDelaysMs: [500, 1000, 2000, 3000, 5000],
     },
+    coinPackages: [
+      { productId: "coins_10", coins: 10, badge: null },
+      { productId: "coins_30", coins: 30, badge: "bestValue" },
+    ],
   },
   gameplay: {
     room: {
       minPlayersToStart: 2,
+      defaultCategoryId: "just_friends",
     },
     defaults: {
       questionDurationSec: 15,
+    },
+    textAnswers: {
+      maxLength: TEXT_ANSWER_MAX_LENGTH,
+    },
+    results: {
+      matchTiers: [
+        { min: 90, key: "soulmates", celebrate: true },
+        { min: 75, key: "sameWave", celebrate: true },
+        { min: 60, key: "inSync", celebrate: true },
+        { min: 40, key: "exploring", celebrate: false },
+        { min: 0, key: "opposites", celebrate: false },
+      ],
     },
   },
   network: {
     socket: {
       connectTimeoutMs: 10000,
-      reconnectAttempts: 5,
+      // The app never reconnects on its own once these run out, so a short
+      // outage (elevator, tunnel) would leave it offline until relaunched.
+      reconnectAttempts: 1000,
       reconnectDelayMs: 1000,
     },
     rpcTimeoutMs: {
       default: 5000,
       startGame: 10000,
+      reportAnswer: 8000,
     },
   },
   content: {
@@ -65,29 +87,23 @@ type ResolveResult = {
   validationFallbackUsed: boolean;
 };
 
-function isFiniteNumber(value: unknown): value is number {
-  return typeof value === "number" && Number.isFinite(value);
-}
+const isRecord = (value: unknown): value is Record<string, unknown> =>
+  !!value && typeof value === "object" && !Array.isArray(value);
 
-function isPositiveInteger(value: unknown): value is number {
-  return Number.isInteger(value) && isFiniteNumber(value) && value > 0;
-}
+const isFiniteNumber = (value: unknown): value is number =>
+  typeof value === "number" && Number.isFinite(value);
+
+const isPositiveInteger = (value: unknown): value is number =>
+  Number.isInteger(value) && isFiniteNumber(value) && value > 0;
 
 function parseUnknownToObject(
   value: unknown,
 ): Record<string, unknown> | undefined {
-  if (!value) {
-    return undefined;
-  }
-  if (typeof value === "object" && !Array.isArray(value)) {
-    return value as Record<string, unknown>;
-  }
-  if (typeof value === "string") {
+  if (isRecord(value)) return value;
+  if (typeof value === "string" && value) {
     try {
       const parsed = JSON.parse(value);
-      if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
-        return parsed as Record<string, unknown>;
-      }
+      return isRecord(parsed) ? parsed : undefined;
     } catch {
       return undefined;
     }
@@ -95,146 +111,111 @@ function parseUnknownToObject(
   return undefined;
 }
 
+/** Objects merge key by key; arrays and primitives in `source` replace. */
+function mergeOntoDefaults(target: unknown, source: unknown): unknown {
+  if (!isRecord(target) || !isRecord(source)) {
+    return source === undefined ? target : source;
+  }
+  const result: Record<string, unknown> = { ...target };
+  for (const [key, value] of Object.entries(source)) {
+    result[key] = mergeOntoDefaults(target[key], value);
+  }
+  return result;
+}
+
+/**
+ * Stored config only has to name what it overrides; everything else comes
+ * from the defaults, so adding a field never invalidates an existing row.
+ */
 function parsePublicRuntimeConfig(input: unknown): PublicRuntimeConfig | null {
   const root = parseUnknownToObject(input);
-  if (!root) {
-    return null;
-  }
+  if (!root) return null;
+  const merged = mergeOntoDefaults(
+    DEFAULT_PUBLIC_RUNTIME_CONFIG,
+    root,
+  ) as PublicRuntimeConfig;
+  return hasValidShape(merged) ? withServerOwnedValues(merged) : null;
+}
 
-  const economy = parseUnknownToObject(root.economy);
-  const aiAnalysis = parseUnknownToObject(economy?.aiAnalysis);
-  const dailyReward = parseUnknownToObject(economy?.dailyReward);
-  const balanceSync = parseUnknownToObject(economy?.balanceSync);
-
-  const gameplay = parseUnknownToObject(root.gameplay);
-  const room = parseUnknownToObject(gameplay?.room);
-  const gameplayDefaults = parseUnknownToObject(gameplay?.defaults);
-
-  const network = parseUnknownToObject(root.network);
-  const socket = parseUnknownToObject(network?.socket);
-  const rpcTimeoutMs = parseUnknownToObject(network?.rpcTimeoutMs);
-
-  const content = parseUnknownToObject(root.content);
-  const categories = parseUnknownToObject(content?.categories);
-  const announcements = parseUnknownToObject(content?.announcements);
-
-  const growth = parseUnknownToObject(root.growth);
-  const storeReview = parseUnknownToObject(growth?.storeReview);
-
-  if (
-    !economy ||
-    !aiAnalysis ||
-    !dailyReward ||
-    !balanceSync ||
-    !gameplay ||
-    !room ||
-    !gameplayDefaults ||
-    !network ||
-    !socket ||
-    !rpcTimeoutMs ||
-    !content ||
-    !categories ||
-    !announcements ||
-    !growth ||
-    !storeReview
-  ) {
-    return null;
-  }
-
-  const triggerGames = storeReview.triggerGames;
-  const retryDelaysMs = balanceSync.retryDelaysMs;
-
-  if (
-    typeof aiAnalysis.enabled !== "boolean" ||
-    !isFiniteNumber(aiAnalysis.coinCost) ||
-    !isFiniteNumber(dailyReward.amount) ||
-    !isFiniteNumber(dailyReward.intervalMs) ||
-    !isFiniteNumber(dailyReward.claimTimeoutMs) ||
-    !isFiniteNumber(balanceSync.maxRetries) ||
-    !Array.isArray(retryDelaysMs) ||
-    !isFiniteNumber(room.minPlayersToStart) ||
-    !isFiniteNumber(gameplayDefaults.questionDurationSec) ||
-    !isFiniteNumber(socket.connectTimeoutMs) ||
-    !isFiniteNumber(socket.reconnectAttempts) ||
-    !isFiniteNumber(socket.reconnectDelayMs) ||
-    !isFiniteNumber(rpcTimeoutMs.default) ||
-    !isFiniteNumber(rpcTimeoutMs.startGame) ||
-    !isFiniteNumber(categories.cacheTtlMs) ||
-    !isFiniteNumber(announcements.cacheTtlMs) ||
-    !isFiniteNumber(announcements.staleWhileRevalidateMs) ||
-    !Array.isArray(triggerGames) ||
-    !isFiniteNumber(storeReview.minMatchPercent) ||
-    !isFiniteNumber(storeReview.promptDelayMs)
-  ) {
-    return null;
-  }
-
+/** Values the server enforces itself, which a stored config must not change. */
+function withServerOwnedValues(config: PublicRuntimeConfig): PublicRuntimeConfig {
   return {
-    economy: {
-      aiAnalysis: {
-        enabled: aiAnalysis.enabled,
-        coinCost: aiAnalysis.coinCost,
-      },
-      dailyReward: {
-        amount: dailyReward.amount,
-        intervalMs: dailyReward.intervalMs,
-        claimTimeoutMs: dailyReward.claimTimeoutMs,
-      },
-      balanceSync: {
-        maxRetries: balanceSync.maxRetries,
-        retryDelaysMs: retryDelaysMs as number[],
-      },
-    },
+    ...config,
     gameplay: {
-      room: {
-        minPlayersToStart: room.minPlayersToStart,
-      },
-      defaults: {
-        questionDurationSec: gameplayDefaults.questionDurationSec,
-      },
-    },
-    network: {
-      socket: {
-        connectTimeoutMs: socket.connectTimeoutMs,
-        reconnectAttempts: socket.reconnectAttempts,
-        reconnectDelayMs: socket.reconnectDelayMs,
-      },
-      rpcTimeoutMs: {
-        default: rpcTimeoutMs.default,
-        startGame: rpcTimeoutMs.startGame,
-      },
-    },
-    content: {
-      categories: {
-        cacheTtlMs: categories.cacheTtlMs,
-      },
-      announcements: {
-        cacheTtlMs: announcements.cacheTtlMs,
-        staleWhileRevalidateMs: announcements.staleWhileRevalidateMs,
-      },
-    },
-    growth: {
-      storeReview: {
-        triggerGames: triggerGames as number[],
-        minMatchPercent: storeReview.minMatchPercent,
-        promptDelayMs: storeReview.promptDelayMs,
-      },
+      ...config.gameplay,
+      textAnswers: { maxLength: TEXT_ANSWER_MAX_LENGTH },
     },
   };
 }
 
+function hasValidShape(config: PublicRuntimeConfig): boolean {
+  const { economy, gameplay, network, content, growth } = config;
+  return (
+    typeof economy?.aiAnalysis?.enabled === "boolean" &&
+    isFiniteNumber(economy.aiAnalysis.coinCost) &&
+    isFiniteNumber(economy.dailyReward?.amount) &&
+    isFiniteNumber(economy.dailyReward.intervalMs) &&
+    isFiniteNumber(economy.dailyReward.claimTimeoutMs) &&
+    isFiniteNumber(economy.balanceSync?.maxRetries) &&
+    Array.isArray(economy.balanceSync.retryDelaysMs) &&
+    Array.isArray(economy.coinPackages) &&
+    economy.coinPackages.every(
+      (pkg) =>
+        isRecord(pkg) &&
+        typeof pkg.productId === "string" &&
+        isFiniteNumber(pkg.coins) &&
+        (pkg.badge === null || pkg.badge === "bestValue"),
+    ) &&
+    isFiniteNumber(gameplay?.room?.minPlayersToStart) &&
+    typeof gameplay.room.defaultCategoryId === "string" &&
+    isFiniteNumber(gameplay.defaults?.questionDurationSec) &&
+    Array.isArray(gameplay.results?.matchTiers) &&
+    gameplay.results.matchTiers.every(
+      (tier) =>
+        isRecord(tier) &&
+        isFiniteNumber(tier.min) &&
+        typeof tier.key === "string" &&
+        typeof tier.celebrate === "boolean",
+    ) &&
+    isFiniteNumber(network?.socket?.connectTimeoutMs) &&
+    isFiniteNumber(network.socket.reconnectAttempts) &&
+    isFiniteNumber(network.socket.reconnectDelayMs) &&
+    isFiniteNumber(network.rpcTimeoutMs?.default) &&
+    isFiniteNumber(network.rpcTimeoutMs.startGame) &&
+    isFiniteNumber(network.rpcTimeoutMs.reportAnswer) &&
+    isFiniteNumber(content?.categories?.cacheTtlMs) &&
+    isFiniteNumber(content.announcements?.cacheTtlMs) &&
+    isFiniteNumber(content.announcements.staleWhileRevalidateMs) &&
+    Array.isArray(growth?.storeReview?.triggerGames) &&
+    isFiniteNumber(growth.storeReview.minMatchPercent) &&
+    isFiniteNumber(growth.storeReview.promptDelayMs)
+  );
+}
+
 export function validatePublicRuntimeConfig(config: PublicRuntimeConfig): boolean {
   if (config.economy.aiAnalysis.coinCost < 0) return false;
-  if (config.economy.dailyReward.amount < 0) return false;
+  if (!Number.isInteger(config.economy.aiAnalysis.coinCost)) return false;
+  if (!isPositiveInteger(config.economy.dailyReward.amount)) return false;
   if (config.economy.dailyReward.intervalMs <= 0) return false;
   if (config.economy.dailyReward.claimTimeoutMs <= 0) return false;
+  if (
+    !config.economy.coinPackages.every(
+      (pkg) => pkg.productId.trim() !== "" && isPositiveInteger(pkg.coins),
+    )
+  ) {
+    return false;
+  }
   if (config.gameplay.room.minPlayersToStart < 2) return false;
+  if (config.gameplay.room.defaultCategoryId.trim() === "") return false;
   if (config.gameplay.defaults.questionDurationSec <= 0) return false;
+  const tiers = config.gameplay.results.matchTiers;
+  if (tiers.length === 0 || !tiers.some((tier) => tier.min <= 0)) return false;
   if (config.network.socket.connectTimeoutMs <= 0) return false;
   if (config.network.socket.reconnectAttempts <= 0) return false;
   if (config.network.socket.reconnectDelayMs <= 0) return false;
   if (config.network.rpcTimeoutMs.default <= 0) return false;
   if (config.network.rpcTimeoutMs.startGame <= 0) return false;
+  if (config.network.rpcTimeoutMs.reportAnswer <= 0) return false;
   if (config.content.categories.cacheTtlMs <= 0) return false;
   if (config.content.announcements.cacheTtlMs <= 0) return false;
   if (config.content.announcements.staleWhileRevalidateMs <= 0) return false;
@@ -295,11 +276,11 @@ function logFallback(reason: string, source: ConfigSource): void {
   });
 }
 
-export async function resolvePublicRuntimeConfig(
+async function resolveUncached(
   supabaseAdmin: SupabaseClient | null,
 ): Promise<ResolveResult> {
   const dbRaw = await loadConfigFromDb(supabaseAdmin);
-  if (dbRaw !== undefined) {
+  if (dbRaw !== undefined && dbRaw !== null) {
     const parsed = parsePublicRuntimeConfig(dbRaw);
     if (parsed && validatePublicRuntimeConfig(parsed)) {
       return { config: parsed, source: "db", validationFallbackUsed: false };
@@ -321,6 +302,25 @@ export async function resolvePublicRuntimeConfig(
     source: "default",
     validationFallbackUsed: true,
   };
+}
+
+// Game start, AI analysis and wallet reads all need the config; one lookup
+// per window keeps them off the database.
+let cached: { result: ResolveResult; expiresAt: number } | null = null;
+
+export async function resolvePublicRuntimeConfig(
+  supabaseAdmin: SupabaseClient | null,
+): Promise<ResolveResult> {
+  if (cached && cached.expiresAt > Date.now()) return cached.result;
+  const result = await resolveUncached(supabaseAdmin);
+  cached = { result, expiresAt: Date.now() + CONFIG_CACHE_TTL_MS };
+  return result;
+}
+
+export async function getPublicConfig(
+  supabaseAdmin: SupabaseClient | null,
+): Promise<PublicRuntimeConfig> {
+  return (await resolvePublicRuntimeConfig(supabaseAdmin)).config;
 }
 
 export function getDefaultPublicRuntimeConfig(): PublicRuntimeConfig {
