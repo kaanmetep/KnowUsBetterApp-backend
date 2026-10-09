@@ -86,6 +86,7 @@ import { recordFinishedGame } from "./services/finishedGames.js";
 import { createAdminPanelRouter } from "./routes/adminPanel.js";
 import { warmUpProfanityFilter } from "./utils/profanity.js";
 import { isHarmfulText } from "./utils/moderation.js";
+import { isBanned } from "./services/banService.js";
 import { textAnswersMatch, warmUpTextMatcher } from "./utils/textMatch.js";
 
 warmUpProfanityFilter();
@@ -410,6 +411,18 @@ function bindSocketToUser(socket: AppSocket, appUserId: string): void {
  * connection anyway, so a socket bound to one follows the id it asks for; a
  * socket bound with a token never moves.
  */
+/** Tells a banned player so and returns true; they can't create or join rooms. */
+async function rejectIfBanned(socket: AppSocket): Promise<boolean> {
+  await pendingRegistrations.get(socket.id);
+  if (!(await isBanned(supabaseAdmin, socket.data.appUserId))) return false;
+  console.warn(`🚫 Banned user ${socket.data.appUserId} blocked from rooms`);
+  socket.emit("room-error", {
+    message: "You've been removed from KnowUsBetter for violating our Terms of Use.",
+    code: "USER_BANNED",
+  });
+  return true;
+}
+
 async function resolveAppUserId(
   socket: AppSocket,
   claimed: unknown,
@@ -1011,6 +1024,7 @@ io.on(
       "create-room",
       async ({ playerName, avatar, category, clientFeatures }: CreateRoomData) => {
         try {
+          if (await rejectIfBanned(socket)) return;
           await leavePreviousRoom(socket);
           const room = await roomManager.createRoom(
             socket.id,
@@ -1049,6 +1063,7 @@ io.on(
             socket.emit("room-error", { message: "Room not found", code: "ROOM_NOT_FOUND" });
             return;
           }
+          if (await rejectIfBanned(socket)) return;
           // Only once the target room exists, so a mistyped code doesn't
           // also cost the player the room they're in.
           if (await roomManager.getRoom(roomCode)) {
@@ -1842,6 +1857,8 @@ io.on(
             reported_name: reported.name,
             reporter_name: reporter.name,
             reporter_app_user_id: socket.data.appUserId ?? null,
+            reported_app_user_id:
+              io.sockets.sockets.get(reportedPlayerId)?.data.appUserId ?? null,
             reason:
               typeof data?.reason === "string"
                 ? data.reason.slice(0, 200)
