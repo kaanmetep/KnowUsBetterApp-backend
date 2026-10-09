@@ -122,6 +122,7 @@ export type RoomErrorCode =
   | "QUESTIONS_UNAVAILABLE"
   | "INSUFFICIENT_COINS"
   | "COINS_UNAVAILABLE"
+  | "USER_BANNED"
   | "REQUEST_FAILED";
 
 export interface JoinRoomError {
