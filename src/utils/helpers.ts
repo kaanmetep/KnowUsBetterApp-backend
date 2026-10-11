@@ -222,9 +222,28 @@ export function normalizeTextAnswer(raw: unknown): string {
   return maskProfanity(capped);
 }
 
-/** Player names are shown to the other player, so they get the same masking. */
-export function cleanPlayerName<T>(name: T): T {
-  return (typeof name === "string" ? maskProfanity(name) : name) as T;
+// The app caps names at 16; anything else came from a modified client.
+const PLAYER_NAME_MAX_LENGTH = 20;
+const AVATAR_ID = /^[A-Za-z0-9_-]{1,40}$/;
+
+/**
+ * Player names are shown to the other player, so they get the same masking.
+ * Always a short single-line string: the partner's app renders it as text.
+ */
+export function cleanPlayerName(name: unknown): string {
+  if (typeof name !== "string") return "";
+  const capped = Array.from(
+    name.replace(/[\u0000-\u001F\u007F]+/g, " ").replace(/\s+/g, " ").trim(),
+  )
+    .slice(0, PLAYER_NAME_MAX_LENGTH)
+    .join("")
+    .trim();
+  return maskProfanity(capped);
+}
+
+/** An avatar id like "girl_avatar_3"; anything else shows the default avatar. */
+export function cleanAvatar(avatar: unknown): string {
+  return typeof avatar === "string" && AVATAR_ID.test(avatar) ? avatar : "";
 }
 
 export function getQuestionDuration(

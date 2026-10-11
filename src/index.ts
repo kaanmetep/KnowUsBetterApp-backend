@@ -42,6 +42,7 @@ import {
   getResultDisplayDuration,
   withRevealedAnswer,
   cleanPlayerName,
+  cleanAvatar,
   HIDDEN_TEXT_ANSWER,
   type SocketData,
   type ServerToClientEvents,
@@ -83,7 +84,10 @@ import {
   spendCoins,
 } from "./services/coinLedger.js";
 import { getCategory, getCategoryMode } from "./services/categoryService.js";
-import { recordFinishedGame } from "./services/finishedGames.js";
+import {
+  getLastFinishedGameOf,
+  recordFinishedGame,
+} from "./services/finishedGames.js";
 import { createAdminPanelRouter } from "./routes/adminPanel.js";
 import { warmUpProfanityFilter } from "./utils/profanity.js";
 import { isHarmfulText } from "./utils/moderation.js";
@@ -510,6 +514,19 @@ const isSameRound = (
 ): round is QuestionRound =>
   !!round && round.question.id === questionId && round.startedAt === startedAt;
 
+/** An open round's answers stay hidden, or a player could read the partner's before answering. */
+function withoutOpenAnswers(room: Room): Room {
+  const round = room.currentRound;
+  if (round?.status !== "waiting_answers") return room;
+  return {
+    ...room,
+    currentRound: {
+      ...round,
+      answers: Object.fromEntries(Object.keys(round.answers).map((id) => [id, null])),
+    },
+  };
+}
+
 function newRound(room: Room, question: Question): QuestionRound {
   return {
     question,
@@ -881,6 +898,54 @@ async function finishGame(roomCode: string): Promise<void> {
   });
 }
 
+type ReportTarget = {
+  roomCode: string;
+  answer: unknown;
+  reporterName: string;
+  reportedName: string;
+};
+
+/** The reported answer from the player's room, or from their last finished game. */
+async function findReportTarget(
+  socketId: string,
+  questionId: string,
+  reportedPlayerId: string,
+): Promise<ReportTarget | null> {
+  const roomCode = await roomManager.getPlayerRoom(socketId);
+  const room = roomCode ? await roomManager.getRoom(roomCode) : undefined;
+  if (room) {
+    const reporter = room.players.find((p) => p.id === socketId);
+    const reported = room.players.find((p) => p.id === reportedPlayerId);
+    const round = [
+      ...room.completedRounds,
+      ...(room.currentRound ? [room.currentRound] : []),
+    ].find((r) => r.question.id === questionId);
+    if (reporter && reported && round && reportedPlayerId in round.answers) {
+      return {
+        roomCode: room.roomCode,
+        answer: round.answers[reportedPlayerId],
+        reporterName: reporter.name,
+        reportedName: reported.name,
+      };
+    }
+  }
+
+  // The last round's result is still on screen when the room resets for a replay.
+  const game = await getLastFinishedGameOf(socketId);
+  const reporter = game?.players.find((p) => p.id === socketId);
+  const reported = game?.players.find((p) => p.id === reportedPlayerId);
+  const answer = game?.completedRounds
+    .find((r) => r.question.id === questionId)
+    ?.playerAnswers.find((a) => a.playerId === reportedPlayerId);
+  if (!game || !reporter || !reported || !answer) return null;
+  return {
+    roomCode: game.roomCode,
+    answer: answer.answer,
+    reporterName: reporter.name,
+    reportedName: reported.name,
+  };
+}
+
 /** Takes a player out of a room; a game in progress is cancelled and the room reset. */
 async function removeFromRoom(
   roomCode: string,
@@ -1064,10 +1129,17 @@ io.on(
         try {
           if (await rejectIfBanned(socket)) return;
           await leavePreviousRoom(socket);
+          if (typeof category !== "string" || !category) {
+            socket.emit("room-error", {
+              message: "Failed to create room. Please try again.",
+              code: "REQUEST_FAILED",
+            });
+            return;
+          }
           const room = await roomManager.createRoom(
             socket.id,
             cleanPlayerName(playerName),
-            avatar,
+            cleanAvatar(avatar),
             category,
             supportsTextQuestions(clientFeatures),
             supportsServerCoins(clientFeatures),
@@ -1102,6 +1174,16 @@ io.on(
             return;
           }
           if (await rejectIfBanned(socket)) return;
+          // Someone the host removed can't come back with the same code.
+          if (
+            await roomManager.isBlockedFromRoom(roomCode, [
+              socket.id,
+              socket.data.appUserId,
+            ])
+          ) {
+            socket.emit("room-error", { message: "Room not found", code: "ROOM_NOT_FOUND" });
+            return;
+          }
           // Only once the target room exists, so a mistyped code doesn't
           // also cost the player the room they're in.
           if (await roomManager.getRoom(roomCode)) {
@@ -1112,7 +1194,7 @@ io.on(
               roomCode,
               socket.id,
               cleanPlayerName(playerName),
-              avatar,
+              cleanAvatar(avatar),
               supportsTextQuestions(clientFeatures),
               supportsServerCoins(clientFeatures),
             ),
@@ -1153,7 +1235,7 @@ io.on(
             ? await roomManager.getRoom(roomCode)
             : undefined;
         if (room?.players.some((player) => player.id === socket.id)) {
-          socket.emit("room-data", room);
+          socket.emit("room-data", withoutOpenAnswers(room));
         } else if (room) {
           // Outsiders (e.g. a player whose seat was freed) only learn that
           // they're not in it; the app leaves the room when it sees that.
@@ -1638,6 +1720,10 @@ io.on(
               };
             }
 
+            await roomManager.blockFromRoom(roomCode, [
+              targetPlayerId,
+              io.sockets.sockets.get(targetPlayerId)?.data.appUserId,
+            ]);
             await roomManager.removePlayer(targetPlayerId);
             const updatedRoom = await roomManager.getRoom(roomCode);
             if (updatedRoom && updatedRoom.players.length === 0) {
@@ -1875,37 +1961,25 @@ io.on(
           return reply(false);
         }
 
-        const roomCode = await roomManager.getPlayerRoom(socket.id);
-        const room = roomCode ? await roomManager.getRoom(roomCode) : undefined;
-        if (!room) return reply(false);
+        const target = await findReportTarget(socket.id, questionId, reportedPlayerId);
+        if (!target) return reply(false);
 
-        const reporter = room.players.find((p) => p.id === socket.id);
-        const reported = room.players.find((p) => p.id === reportedPlayerId);
-        if (!reporter || !reported) return reply(false);
-
-        const rounds = [
-          ...room.completedRounds,
-          ...(room.currentRound ? [room.currentRound] : []),
-        ];
-        const round = rounds.find((r) => r.question.id === questionId);
-        if (!round) return reply(false);
-
-        const rawAnswer = round.answers[reportedPlayerId];
+        const rawAnswer = target.answer;
         const reportedAnswer =
           typeof rawAnswer === "string" ? rawAnswer : JSON.stringify(rawAnswer);
 
         reportsSent++;
         console.warn(
-          `🚩 Answer reported in room ${room.roomCode}: "${reportedAnswer}" by ${reported.name}`,
+          `🚩 Answer reported in room ${target.roomCode}: "${reportedAnswer}" by ${target.reportedName}`,
         );
 
         if (supabaseAdmin) {
           const { error } = await supabaseAdmin.from("answer_reports").insert({
-            room_code: room.roomCode,
+            room_code: target.roomCode,
             question_id: questionId,
             reported_answer: reportedAnswer,
-            reported_name: reported.name,
-            reporter_name: reporter.name,
+            reported_name: target.reportedName,
+            reporter_name: target.reporterName,
             reporter_app_user_id: socket.data.appUserId ?? null,
             reported_app_user_id:
               io.sockets.sockets.get(reportedPlayerId)?.data.appUserId ?? null,
@@ -1914,7 +1988,10 @@ io.on(
                 ? data.reason.slice(0, 200)
                 : null,
           });
-          if (error) console.error("Error saving answer report:", error);
+          if (error) {
+            console.error("Error saving answer report:", error);
+            return reply(false);
+          }
         }
         reply(true);
       } catch (error) {

@@ -4,6 +4,9 @@ import { redis, withLock } from "./utils/redis.js";
 // Redis key patterns
 const ROOM_KEY_PREFIX = "room:";
 const PLAYER_ROOM_KEY_PREFIX = "playerRoom:";
+// Socket ids and appUserIds the host removed; kept apart from the room, which
+// is sent to clients.
+const ROOM_BLOCKED_KEY_PREFIX = "roomBlocked:";
 
 // Room TTL (Time To Live) - 3 hours (10800 seconds)
 const ROOM_TTL = 10800;
@@ -298,8 +301,28 @@ export class RoomManager {
       await Promise.all(deletePromises);
 
       // Room'u sil
-      await redis.del(roomKey);
+      await redis.del(roomKey, `${ROOM_BLOCKED_KEY_PREFIX}${roomCode}`);
     }
+  }
+
+  async blockFromRoom(roomCode: string, ids: (string | undefined)[]): Promise<void> {
+    const members = ids.filter((id): id is string => !!id);
+    if (members.length === 0) return;
+    const key = `${ROOM_BLOCKED_KEY_PREFIX}${roomCode}`;
+    await redis.multi().sadd(key, ...members).expire(key, ROOM_TTL).exec();
+  }
+
+  async isBlockedFromRoom(
+    roomCode: string,
+    ids: (string | undefined)[],
+  ): Promise<boolean> {
+    const members = ids.filter((id): id is string => !!id);
+    if (members.length === 0) return false;
+    const key = `${ROOM_BLOCKED_KEY_PREFIX}${roomCode}`;
+    const pipeline = redis.pipeline();
+    for (const member of members) pipeline.sismember(key, member);
+    const results = (await pipeline.exec()) ?? [];
+    return results.some(([error, hit]) => !error && hit === 1);
   }
 
   // Reset room for replay (after game finished)
