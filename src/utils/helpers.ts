@@ -80,6 +80,8 @@ export interface ServerToClientEvents {
     percentage: number;
     completedRounds: any[];
     summary: GameSummary;
+    /** The room, already reset for a replay. */
+    room: Room | null;
   }) => void;
   "next-question": (data: {
     question: any;
