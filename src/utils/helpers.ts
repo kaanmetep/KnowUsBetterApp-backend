@@ -19,6 +19,8 @@ import type { GameSummary } from "../services/finishedGames.js";
 // Socket.io Event Types (needed for helper functions)
 export interface SocketData {
   appUserId?: string;
+  /** A register-user that couldn't be checked because the database failed. */
+  unverifiedRegistration?: { appUserId: string; token: unknown };
 }
 
 export interface ServerToClientEvents {
