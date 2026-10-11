@@ -53,7 +53,8 @@ import { createRevenueCatWebhookRouter } from "./routes/revenueCatWebhook.js";
 import { createIdentityRouter } from "./routes/identity.js";
 import {
   allowLegacyClients,
-  authorizeAppUser,
+  checkAppUser,
+  isAllowed,
   isValidAppUserId,
 } from "./services/appUserAuth.js";
 import {
@@ -423,23 +424,53 @@ async function rejectIfBanned(socket: AppSocket): Promise<boolean> {
   return true;
 }
 
+type AppUserResolution =
+  | { appUserId: string }
+  | { error: "unauthorized" | "unavailable" };
+
+/** Like resolveAppUserId, but tells a database failure apart from a refusal. */
+async function resolveAppUser(
+  socket: AppSocket,
+  claimed: unknown,
+): Promise<AppUserResolution> {
+  await pendingRegistrations.get(socket.id);
+  if (!supabaseAdmin) return { error: "unavailable" };
+
+  const unverified = socket.data.unverifiedRegistration;
+  if (unverified && !socket.data.appUserId) {
+    const check = await checkAppUser(supabaseAdmin, unverified.appUserId, unverified.token);
+    if (check !== "error") socket.data.unverifiedRegistration = undefined;
+    if (isAllowed(check) && !socket.disconnected) {
+      bindSocketToUser(socket, unverified.appUserId);
+    }
+  }
+
+  const bound = socket.data.appUserId;
+  if (bound && (bound === claimed || !isValidAppUserId(claimed))) {
+    return { appUserId: bound };
+  }
+  if (!isValidAppUserId(claimed)) return { error: "unauthorized" };
+  // Its registration still can't be checked, so it can't be refused either.
+  if (socket.data.unverifiedRegistration) return { error: "unavailable" };
+
+  if (bound) {
+    const boundCheck = await checkAppUser(supabaseAdmin, bound, undefined);
+    if (boundCheck === "error" || !isAllowed(boundCheck)) return { appUserId: bound };
+  }
+  const check = await checkAppUser(supabaseAdmin, claimed, undefined);
+  if (check === "error") return bound ? { appUserId: bound } : { error: "unavailable" };
+  if (!isAllowed(check)) return bound ? { appUserId: bound } : { error: "unauthorized" };
+  if (socket.disconnected) return { error: "unavailable" };
+  bindSocketToUser(socket, claimed);
+  return { appUserId: claimed };
+}
+
 async function resolveAppUserId(
   socket: AppSocket,
   claimed: unknown,
 ): Promise<string | null> {
-  await pendingRegistrations.get(socket.id);
-  const bound = socket.data.appUserId;
-  if (bound && (bound === claimed || !isValidAppUserId(claimed))) return bound;
-  if (!isValidAppUserId(claimed)) return null;
-  if (bound && !(await authorizeAppUser(supabaseAdmin, bound, undefined))) {
-    return bound;
-  }
-  if (!(await authorizeAppUser(supabaseAdmin, claimed, undefined))) {
-    return bound ?? null;
-  }
-  if (socket.disconnected) return null;
-  bindSocketToUser(socket, claimed);
-  return claimed;
+  const resolution = await resolveAppUser(socket, claimed);
+  return "appUserId" in resolution ? resolution.appUserId : null;
 }
 
 /** Pushes a balance the server changed to the user's app, if it's connected. */
@@ -998,9 +1029,16 @@ io.on(
       const token = typeof payload === "string" ? undefined : payload?.token;
       if (!isValidAppUserId(appUserId)) return;
 
-      const registration = authorizeAppUser(supabaseAdmin, appUserId, token)
-        .then((allowed) => {
-          if (!allowed) {
+      if (!supabaseAdmin) return;
+      socket.data.unverifiedRegistration = undefined;
+      const registration = checkAppUser(supabaseAdmin, appUserId, token)
+        .then((check) => {
+          if (check === "error") {
+            // Retried by the next wallet event instead of rejecting the player.
+            socket.data.unverifiedRegistration = { appUserId, token };
+            return;
+          }
+          if (!isAllowed(check)) {
             console.warn(
               `🚫 register-user for ${appUserId} rejected on socket ${socket.id}: missing or wrong token`,
             );
@@ -1755,7 +1793,19 @@ io.on(
       }
 
       try {
-        if ((await resolveAppUserId(socket, appUserId)) !== appUserId) {
+        const resolution = await resolveAppUser(socket, appUserId);
+        if ("error" in resolution && resolution.error === "unavailable") {
+          console.warn(
+            `⚠️ claim-daily-reward for ${appUserId}: wallet check unavailable`,
+          );
+          socket.emit("daily-reward-claimed", {
+            appUserId,
+            success: false,
+            error: "server_error",
+          });
+          return;
+        }
+        if (!("appUserId" in resolution) || resolution.appUserId !== appUserId) {
           console.warn(
             `🚫 claim-daily-reward for ${appUserId} rejected on socket ${socket.id}`,
           );

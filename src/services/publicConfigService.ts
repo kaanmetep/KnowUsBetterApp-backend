@@ -19,7 +19,9 @@ export const PUBLIC_RUNTIME_CONFIG: PublicRuntimeConfig = {
     },
     coinPackages: [
       { productId: "coins_10", coins: 10, badge: null },
-      { productId: "coins_30", coins: 30, badge: "bestValue" },
+      { productId: "coins_30", coins: 30, badge: null },
+      { productId: "coins_50", coins: 50, badge: "mostPopular" },
+      { productId: "coins_100", coins: 100, badge: null },
     ],
   },
   gameplay: {

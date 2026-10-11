@@ -2,7 +2,7 @@ export type CoinPackageConfig = {
   /** Store product id, as configured in RevenueCat. */
   productId: string;
   coins: number;
-  badge: "bestValue" | null;
+  badge: "bestValue" | "mostPopular" | null;
 };
 
 export type MatchTierConfig = {

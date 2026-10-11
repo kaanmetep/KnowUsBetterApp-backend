@@ -97,7 +97,7 @@ export async function checkAppUser(
   return "verified";
 }
 
-const isAllowed = (check: AppUserCheck) =>
+export const isAllowed = (check: AppUserCheck) =>
   check === "verified" || (check === "unclaimed" && allowLegacyClients());
 
 /** Whether a request for `appUserId` carrying `token` may use its wallet. */
