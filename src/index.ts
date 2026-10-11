@@ -505,6 +505,34 @@ const GAME_CANCELLED_MESSAGE =
 
 const roundTimers = new Map<string, ReturnType<typeof setTimeout>>();
 
+// room code -> what the host paid to start the game in progress. Kept off the
+// room, which is sent to both players.
+const gameStartCharges = new Map<string, { appUserId: string; amount: number }>();
+
+/** Gives the host back the start cost of a game the server couldn't finish. */
+async function refundGameStart(roomCode: string): Promise<void> {
+  const charge = gameStartCharges.get(roomCode);
+  gameStartCharges.delete(roomCode);
+  if (!charge || !supabaseAdmin) return;
+  try {
+    const refund = await creditCoins(
+      supabaseAdmin,
+      charge.appUserId,
+      charge.amount,
+      "refund",
+    );
+    if (refund.ok) {
+      notifyCoinsSpent(charge.appUserId, refund.newBalance);
+      return;
+    }
+  } catch (error) {
+    console.error(`❌ Game refund threw for ${charge.appUserId}:`, error);
+  }
+  console.error(
+    `❌ Game refund failed for ${charge.appUserId} (${charge.amount} coins, room ${roomCode})`,
+  );
+}
+
 type EarlyTextMatch = { answers: [string, string]; matched: boolean };
 
 const isSameRound = (
@@ -587,6 +615,7 @@ async function cancelStuckRound(
       return roomManager.resetRoom(roomCode);
     });
     if (reset === undefined) return;
+    await refundGameStart(roomCode);
     io.to(roomCode).emit("game-cancelled", {
       message: "An error occurred while processing answers. The game will be reset.",
       code: "SERVER_ERROR",
@@ -655,6 +684,7 @@ async function completeRound(
       roomManager.resetRoom(roomCode),
     );
     clearRoundTimer(roomCode);
+    await refundGameStart(roomCode);
     io.to(roomCode).emit("game-cancelled", {
       message: "An error occurred while processing answers. The game will be reset.",
       code: "SERVER_ERROR",
@@ -825,6 +855,7 @@ async function advanceRound(
   if (!outcome) return;
 
   if (outcome.kind === "cancelled") {
+    gameStartCharges.delete(roomCode);
     io.to(roomCode).emit("game-cancelled", {
       message: GAME_CANCELLED_MESSAGE,
       code: "PLAYER_LEFT",
@@ -877,8 +908,10 @@ async function finishGame(roomCode: string): Promise<void> {
       ? await roomManager.resetRoom(roomCode)
       : null;
   });
+  if (game && reset) gameStartCharges.delete(roomCode);
 
   if (!game) {
+    if (reset) await refundGameStart(roomCode);
     io.to(roomCode).emit("game-cancelled", {
       message: "We couldn't load the results of this game. Please play again.",
       code: "SERVER_ERROR",
@@ -965,6 +998,9 @@ async function removeFromRoom(
     return { room, cancelled };
   });
   if (result.cancelled) clearRoundTimer(roomCode);
+  if (result.cancelled || !result.room?.players.length) {
+    gameStartCharges.delete(roomCode);
+  }
   return result;
 }
 
@@ -1449,6 +1485,8 @@ io.on(
             });
             return;
           }
+          if (pendingCharge) gameStartCharges.set(roomCode, pendingCharge);
+          else gameStartCharges.delete(roomCode);
           pendingCharge = null;
 
           io.to(roomCode).emit("game-started", {
