@@ -895,6 +895,7 @@ async function finishGame(roomCode: string): Promise<void> {
     percentage: game.percentage,
     completedRounds: game.completedRounds,
     summary: game.summary,
+    room: reset,
   });
 }
 
