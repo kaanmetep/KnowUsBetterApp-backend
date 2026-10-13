@@ -84,26 +84,41 @@ export async function getActiveIosTokensPage(
   return ((data as PushTokenRow[] | null) ?? []).map((row) => row.token);
 }
 
+// The `in` filter is sent in the request URL (~65 characters per token), and
+// URLs over ~8 KB are rejected, so tokens are deactivated in chunks.
+const DEACTIVATE_CHUNK_SIZE = 100;
+
 export async function deactivateTokens(
   supabaseAdmin: SupabaseClient,
   tokens: string[],
 ): Promise<number> {
-  if (tokens.length === 0) {
-    return 0;
+  let deactivated = 0;
+  let lastError: string | null = null;
+
+  // A failed chunk doesn't stop the rest, so as many tokens as possible are
+  // cleaned up before the error is reported.
+  for (let i = 0; i < tokens.length; i += DEACTIVATE_CHUNK_SIZE) {
+    const chunk = tokens.slice(i, i + DEACTIVATE_CHUNK_SIZE);
+    const { data, error } = await supabaseAdmin
+      .from("push_tokens")
+      .update({ is_active: false, updated_at: new Date().toISOString() })
+      .in("token", chunk)
+      .eq("is_active", true)
+      .select("token");
+
+    if (error) {
+      lastError = error.message;
+      continue;
+    }
+    deactivated += data?.length ?? 0;
   }
 
-  const { data, error } = await supabaseAdmin
-    .from("push_tokens")
-    .update({ is_active: false, updated_at: new Date().toISOString() })
-    .in("token", tokens)
-    .eq("is_active", true)
-    .select("token");
-
-  if (error) {
+  if (lastError) {
     throw new AppError("Failed to deactivate invalid tokens", 500, "DB_ERROR", {
-      cause: error.message,
+      cause: lastError,
+      deactivated,
     });
   }
 
-  return data?.length ?? 0;
+  return deactivated;
 }
