@@ -85,6 +85,7 @@ import {
 } from "./services/coinLedger.js";
 import { getCategory, getCategoryMode } from "./services/categoryService.js";
 import {
+  getGamePercentage,
   getLastFinishedGameOf,
   recordFinishedGame,
 } from "./services/finishedGames.js";
@@ -773,10 +774,7 @@ async function completeRound(
 
   const { room, round: completed, isLast } = applied;
   const displayDuration = getResultDisplayDuration(room.settings, question);
-  const percentage =
-    room.totalQuestionsAnswered > 0
-      ? Math.round((room.matchScore / room.totalQuestionsAnswered) * 100)
-      : 0;
+  const percentage = getGamePercentage(room);
 
   io.to(roomCode).emit("round-completed", {
     allPlayersAnswered: true,

@@ -1,5 +1,5 @@
 import { randomUUID } from "crypto";
-import { Room } from "../types.js";
+import { DEFAULT_MATCH_WEIGHT, Room } from "../types.js";
 import { MatchTierConfig } from "../types/publicConfig.js";
 import { buildFinishedRounds } from "../utils/helpers.js";
 import { redis } from "../utils/redis.js";
@@ -132,8 +132,24 @@ export function summarizeGame(
   return { mode, tier: getMatchTier(percentage, tiers) };
 }
 
+/**
+ * see_your_match weighs each round by its question's `matchWeight`; the other
+ * modes (and rooms stored before modes existed count as see_your_match) count
+ * every round once.
+ */
 export function getGamePercentage(room: Room): number {
-  return percentOf(room.matchScore, room.totalQuestionsAnswered);
+  const weighted = (room.settings.mode ?? "see_your_match") === "see_your_match";
+  let matched = 0;
+  let total = 0;
+  for (const round of room.completedRounds) {
+    if (round.isScored === false) continue;
+    const weight = weighted
+      ? (round.question.matchWeight ?? DEFAULT_MATCH_WEIGHT)
+      : 1;
+    total += weight;
+    if (round.isMatched === true) matched += weight;
+  }
+  return percentOf(matched, total);
 }
 
 export async function recordFinishedGame(
