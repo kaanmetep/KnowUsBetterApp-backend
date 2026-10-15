@@ -14,6 +14,11 @@ export const CLIENT_FEATURE_SERVER_COINS = "server_coins";
 
 export type GameMode = "see_your_match" | "know_each_other" | "who_knows_better";
 
+/** Weight of a see_your_match question with no `match_weight` set (range 1-10). */
+export const DEFAULT_MATCH_WEIGHT = 5;
+export const MIN_MATCH_WEIGHT = 1;
+export const MAX_MATCH_WEIGHT = 10;
+
 export interface Question {
   id: string; // UUID from Supabase
   texts: {
@@ -33,6 +38,8 @@ export interface Question {
   // General knowledge question: answers are graded against an answer key that
   // stays on the server (see utils/trivia) until the round is over.
   isTrivia?: boolean;
+  /** see_your_match only: how much this question counts toward the percentage. */
+  matchWeight?: number;
 }
 
 /** What clients get as `question.correctAnswer` once a trivia round is over. */

@@ -105,7 +105,8 @@
       .badge.mc { color: var(--accent); }
       .badge.text { color: #5b7db8; }
       .badge.trivia { color: #0f8b8d; }
-      #f-correct-choice { width: 100%; }
+      .badge.weight { color: #b45309; }
+      #f-correct-choice, #f-weight { width: 100%; }
       .q-line { margin: 4px 0; overflow-wrap: anywhere; }
       .q-line .lang { display: inline-block; width: 26px; color: var(--muted); font-size: 12px; font-weight: 700; }
       .q-line.en { font-weight: 600; }
@@ -313,6 +314,11 @@
                 spellcheck="false"
                 placeholder="Mars&#10;Mars&#10;Marte"
               ></textarea>
+            </div>
+
+            <div id="weight-box">
+              <label for="f-weight">Eşleşme ağırlığı · yüzdeye etkisi (1 = az, 10 = çok)</label>
+              <select id="f-weight"></select>
             </div>
 
             <div class="row" style="margin-top:20px">

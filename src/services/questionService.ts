@@ -1,4 +1,10 @@
-import { Question, Category, QuestionType } from "../types.js";
+import {
+  Question,
+  Category,
+  QuestionType,
+  MIN_MATCH_WEIGHT,
+  MAX_MATCH_WEIGHT,
+} from "../types.js";
 import { AnswerKey, parseAnswerKey } from "../utils/trivia.js";
 
 // Raw `correct_answer` per question id. Answer keys don't change during a game
@@ -93,6 +99,56 @@ async function resolveQuestionTypes(
   }
 
   return types;
+}
+
+const parseMatchWeight = (value: unknown): number | undefined =>
+  typeof value === "number" &&
+  Number.isInteger(value) &&
+  value >= MIN_MATCH_WEIGHT &&
+  value <= MAX_MATCH_WEIGHT
+    ? value
+    : undefined;
+
+/**
+ * Same fallback as resolveQuestionTypes: read `match_weight` from the RPC rows
+ * or look it up. Any failure (e.g. the column isn't migrated yet) leaves every
+ * question at the default weight, which scores like before.
+ */
+async function resolveMatchWeights(
+  rows: any[],
+  supabaseAdmin: any
+): Promise<Map<string, number>> {
+  const weights = new Map<string, number>();
+  const missing: string[] = [];
+
+  for (const row of rows) {
+    if (row && "match_weight" in row) {
+      const weight = parseMatchWeight(row.match_weight);
+      if (weight !== undefined) weights.set(row.id, weight);
+    } else if (row?.id) {
+      missing.push(row.id);
+    }
+  }
+
+  if (missing.length === 0) return weights;
+
+  try {
+    const { data, error } = await supabaseAdmin
+      .from("questions")
+      .select("id, match_weight")
+      .in("id", missing);
+
+    if (error) throw error;
+
+    for (const row of data || []) {
+      const weight = parseMatchWeight(row.match_weight);
+      if (weight !== undefined) weights.set(row.id, weight);
+    }
+  } catch (error) {
+    console.warn("⚠️ Could not read match_weight, using the default weight:", error);
+  }
+
+  return weights;
 }
 
 /**
@@ -219,6 +275,16 @@ export async function fetchRandomQuestions(
       console.warn(
         `⚠️ Only found ${playable.length} questions in category, requested ${count}`
       );
+    }
+
+    const playableIds = new Set(playable.map((q) => q.id));
+    const weights = await resolveMatchWeights(
+      data.filter((row: any) => playableIds.has(row?.id)),
+      supabaseAdmin
+    );
+    for (const q of playable) {
+      const weight = weights.get(q.id);
+      if (weight !== undefined && !q.isTrivia) q.matchWeight = weight;
     }
 
     return playable;

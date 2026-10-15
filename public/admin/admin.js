@@ -268,6 +268,7 @@
       ),
     );
     select.value = previous || state.currentCategory || "";
+    renderWeightBox();
   }
 
   async function selectCategory(categoryId) {
@@ -345,11 +346,17 @@
             text: `✓ ${correctAnswerText(q.correct_answer).split("\n")[0] || "?"}`,
           });
 
+    const weight =
+      q.match_weight == null || !isMatchCategory(q.category_id)
+        ? null
+        : el("span", { class: "badge weight", text: `⚖️ ${q.match_weight}` });
+
     return el("div", { class: "card" }, [
       el("div", { class: "q-meta" }, [
         el("span", { text: `#${q.order_index ?? "—"}` }),
         el("span", { class: `badge${kind.cls}`, text: kind.label }),
         correct,
+        weight,
       ]),
       ...lines,
       answers,
@@ -545,7 +552,35 @@
   function setTrivia(on) {
     $("f-trivia").checked = on;
     renderCorrectBox();
+    renderWeightBox();
   }
+
+  // ---------- match weight ----------
+  // Only "see your match" categories score by weight; a category's group is
+  // its game mode, and anything but these two plays as see your match.
+
+  const DEFAULT_MATCH_WEIGHT = 5;
+  const NON_MATCH_GROUPS = ["know_each_other", "who_knows_better"];
+
+  function isMatchCategory(categoryId) {
+    const category = state.categories.find((c) => c.id === categoryId);
+    return !category || !NON_MATCH_GROUPS.includes(category.group_id);
+  }
+
+  $("f-weight").replaceChildren(
+    el("option", { value: "", text: `Varsayılan (${DEFAULT_MATCH_WEIGHT})` }),
+    ...Array.from({ length: 10 }, (_, i) => el("option", { value: String(i + 1), text: String(i + 1) })),
+  );
+
+  function weightApplies() {
+    return isMatchCategory($("f-category").value) && !$("f-trivia").checked;
+  }
+
+  function renderWeightBox() {
+    $("weight-box").classList.toggle("hidden", !weightApplies());
+  }
+
+  $("f-category").addEventListener("change", renderWeightBox);
 
   $("f-trivia").addEventListener("change", (e) => setTrivia(e.target.checked));
   $("f-answers").addEventListener("input", renderCorrectBox);
@@ -586,12 +621,13 @@
     $("f-texts").value = "";
     $("f-answers").value = "";
     $("f-correct").value = "";
+    $("f-weight").value = "";
     renderTextsPreview();
     renderAnswersPreview();
     setTextQuestion(false);
     setHaveAnswers(false);
-    setTrivia(false);
     if (!keepCategory) $("f-category").value = state.currentCategory || "";
+    setTrivia(false);
   }
 
   function startEdit(q) {
@@ -619,6 +655,7 @@
     const isTextKey = q.question_type === "text";
     $("f-correct").value = isTextKey ? correctAnswerText(q.correct_answer) : "";
     state.pendingCorrect = !isTextKey && typeof q.correct_answer === "string" ? q.correct_answer : undefined;
+    $("f-weight").value = q.match_weight == null ? "" : String(q.match_weight);
     setTrivia(q.correct_answer != null);
     switchTab("form");
   }
@@ -654,6 +691,8 @@
       );
     }
     payload.correct_answer = readCorrectAnswer();
+    const weight = $("f-weight").value;
+    payload.match_weight = weightApplies() && weight ? Number(weight) : null;
     return payload;
   }
 
@@ -674,6 +713,7 @@
         toast(`Soru eklendi ✓ (sayaç: ${added})`);
         resetForm();
         $("f-category").value = payload.category_id;
+        renderWeightBox();
         $("f-texts").focus();
         state.currentCategory = payload.category_id;
       }
@@ -684,7 +724,7 @@
 
   // ---------- SQL ----------
 
-  const SQL_TEMPLATE = `INSERT INTO questions (id, category_id, texts, question_type, have_answers, answers, correct_answer, order_index, created_at, updated_at)
+  const SQL_TEMPLATE = `INSERT INTO questions (id, category_id, texts, question_type, have_answers, answers, correct_answer, match_weight, order_index, created_at, updated_at)
 VALUES (
   gen_random_uuid(),
   'spicy',
@@ -693,6 +733,7 @@ VALUES (
   false,
   NULL,
   NULL, -- bilgi yarışması: '"yes"' / '"Canberra"' (answers_en'deki hali) / '{"en":["Mars"],"tr":["Mars"],"es":["Marte"]}'
+  NULL, -- eşleşme ağırlığı 1-10 (sadece match kategorileri, NULL = 5)
   (SELECT COALESCE(MAX(order_index), 0) + 1 FROM questions WHERE category_id = 'spicy'),
   now(),
   now()

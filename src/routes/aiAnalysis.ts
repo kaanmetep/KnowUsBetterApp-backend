@@ -16,6 +16,11 @@ import {
   TEXT_ANSWER_MAX_LENGTH,
 } from "../utils/helpers.js";
 import { acquireLock, redis, releaseLock } from "../utils/redis.js";
+import {
+  DEFAULT_MATCH_WEIGHT,
+  MAX_MATCH_WEIGHT,
+  MIN_MATCH_WEIGHT,
+} from "../types.js";
 
 // ============================================
 // RATE LIMITERS
@@ -56,6 +61,7 @@ interface CompletedRound {
     text_en: string;
     text_es: string;
     questionType?: "choice" | "text";
+    matchWeight?: number;
   };
   isMatched: boolean;
   isScored?: boolean;
@@ -96,7 +102,7 @@ function resolveQuestionText(
   question: CompletedRound["question"],
   language: string,
 ): string {
-  const key = `text_${language}` as keyof typeof question;
+  const key = `text_${language}` as "text_en" | "text_tr" | "text_es";
   return question[key] || question.text_en || "";
 }
 
@@ -148,6 +154,17 @@ function isTypedRound(round: CompletedRound): boolean {
   return round.question?.questionType === "text";
 }
 
+/** The round's see_your_match weight, or null when the game wasn't weighted. */
+function weightOf(round: CompletedRound): number | null {
+  const weight = round.question?.matchWeight;
+  return typeof weight === "number" &&
+    Number.isInteger(weight) &&
+    weight >= MIN_MATCH_WEIGHT &&
+    weight <= MAX_MATCH_WEIGHT
+    ? weight
+    : null;
+}
+
 /** Typed answers are user input: kept on one line, capped and quoted. */
 function resolveOpenAnswer(answer: unknown, language: string): string {
   if (answer === HIDDEN_TEXT_ANSWER) {
@@ -190,6 +207,14 @@ function buildUserMessage(
       `above; compare the meaning of the two answers yourself and use them ` +
       `as extra insight.\n`;
   }
+  const weighted =
+    analysisMode === "default" && body.completedRounds.some((r) => weightOf(r) !== null);
+  if (weighted) {
+    message +=
+      `Note: each question has an importance from 1 to 10 and the match ` +
+      `percentage is weighted by it; give matches and differences on ` +
+      `important questions more attention.\n`;
+  }
   message += `\n`;
 
   message += `Game results:\n\n`;
@@ -213,7 +238,11 @@ function buildUserMessage(
       message += `   ${pa.playerName}: ${resolvedAnswer}\n`;
     });
 
-    message += `   Result: ${result}\n\n`;
+    message += `   Result: ${result}\n`;
+    if (weighted) {
+      message += `   Importance: ${weightOf(round) ?? DEFAULT_MATCH_WEIGHT}/10\n`;
+    }
+    message += `\n`;
   });
 
   return message.trim();

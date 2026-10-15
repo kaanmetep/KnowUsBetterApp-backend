@@ -1,6 +1,7 @@
 import crypto from "crypto";
 import { getAdminPool } from "../utils/adminDb.js";
 import { AppError } from "../errors/AppError.js";
+import { MAX_MATCH_WEIGHT, MIN_MATCH_WEIGHT } from "../types.js";
 
 const LANGS = ["en", "tr", "es"] as const;
 const MAX_TEXT_LENGTH = 500;
@@ -17,6 +18,32 @@ export interface QuestionInput {
   answers: { answers_en: string[]; answers_tr: string[]; answers_es: string[] } | null;
   /** Trivia answer key; shapes in migrations/20261007_trivia_correct_answer.sql. */
   correct_answer: string | { en: string[]; tr: string[]; es: string[] } | null;
+  /** see_your_match weight 1-10; null = default. Never set on trivia questions. */
+  match_weight: number | null;
+}
+
+function validateMatchWeight(
+  raw: unknown,
+  correct_answer: QuestionInput["correct_answer"],
+): number | null {
+  if (raw == null || raw === "") return null;
+  const value = typeof raw === "string" ? Number(raw) : raw;
+  if (
+    typeof value !== "number" ||
+    !Number.isInteger(value) ||
+    value < MIN_MATCH_WEIGHT ||
+    value > MAX_MATCH_WEIGHT
+  ) {
+    throw new AppError(
+      `match_weight must be a whole number between ${MIN_MATCH_WEIGHT} and ${MAX_MATCH_WEIGHT}`,
+      400,
+      "VALIDATION_ERROR",
+    );
+  }
+  if (correct_answer != null) {
+    throw new AppError("Trivia questions can't have a match_weight", 400, "VALIDATION_ERROR");
+  }
+  return value;
 }
 
 /**
@@ -93,13 +120,15 @@ export function validateQuestionInput(body: any): QuestionInput {
   const have_answers = question_type === "choice" && body.have_answers === true;
 
   if (!have_answers) {
+    const correct_answer = validateCorrectAnswer(body.correct_answer, question_type, null);
     return {
       category_id,
       texts,
       question_type,
       have_answers,
       answers: null,
-      correct_answer: validateCorrectAnswer(body.correct_answer, question_type, null),
+      correct_answer,
+      match_weight: validateMatchWeight(body.match_weight, correct_answer),
     };
   }
 
@@ -129,13 +158,15 @@ export function validateQuestionInput(body: any): QuestionInput {
   }
 
   const answers = { answers_en: lists[0], answers_tr: lists[1], answers_es: lists[2] };
+  const correct_answer = validateCorrectAnswer(body.correct_answer, question_type, answers);
   return {
     category_id,
     texts,
     question_type,
     have_answers,
     answers,
-    correct_answer: validateCorrectAnswer(body.correct_answer, question_type, answers),
+    correct_answer,
+    match_weight: validateMatchWeight(body.match_weight, correct_answer),
   };
 }
 
@@ -154,7 +185,7 @@ async function assertCategoryExists(categoryId: string): Promise<void> {
 
 export async function listCategories() {
   const { rows } = await getAdminPool().query(
-    `SELECT c.id, c.labels, c.difficulty, c.order_index, COUNT(q.id)::int AS question_count
+    `SELECT c.id, c.labels, c.group_id, c.difficulty, c.order_index, COUNT(q.id)::int AS question_count
        FROM categories c
        LEFT JOIN questions q ON q.category_id = c.id
       GROUP BY c.id
@@ -165,7 +196,7 @@ export async function listCategories() {
 
 export async function listQuestions(categoryId: string) {
   const { rows } = await getAdminPool().query(
-    `SELECT id, category_id, texts, question_type, have_answers, answers, correct_answer, order_index, created_at, updated_at
+    `SELECT id, category_id, texts, question_type, have_answers, answers, correct_answer, match_weight, order_index, created_at, updated_at
        FROM questions
       WHERE category_id = $1
       ORDER BY order_index DESC NULLS LAST, created_at DESC`,
@@ -177,9 +208,9 @@ export async function listQuestions(categoryId: string) {
 export async function createQuestion(input: QuestionInput) {
   await assertCategoryExists(input.category_id);
   const { rows } = await getAdminPool().query(
-    `INSERT INTO questions (id, category_id, texts, have_answers, answers, question_type, correct_answer, order_index, created_at, updated_at)
+    `INSERT INTO questions (id, category_id, texts, have_answers, answers, question_type, correct_answer, match_weight, order_index, created_at, updated_at)
      VALUES (
-       $1, $2, $3, $4, $5, $6, $7,
+       $1, $2, $3, $4, $5, $6, $7, $8,
        (SELECT COALESCE(MAX(order_index), 0) + 1 FROM questions WHERE category_id = $2),
        now(), now()
      )
@@ -192,6 +223,7 @@ export async function createQuestion(input: QuestionInput) {
       input.answers,
       input.question_type,
       toJsonb(input.correct_answer),
+      input.match_weight,
     ],
   );
   return rows[0];
@@ -202,7 +234,7 @@ export async function updateQuestion(id: string, input: QuestionInput) {
   const { rows } = await getAdminPool().query(
     `UPDATE questions
         SET category_id = $2, texts = $3, have_answers = $4, answers = $5, question_type = $6,
-            correct_answer = $7, updated_at = now()
+            correct_answer = $7, match_weight = $8, updated_at = now()
       WHERE id = $1
       RETURNING *`,
     [
@@ -213,6 +245,7 @@ export async function updateQuestion(id: string, input: QuestionInput) {
       input.answers,
       input.question_type,
       toJsonb(input.correct_answer),
+      input.match_weight,
     ],
   );
   if (!rows[0]) {

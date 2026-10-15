@@ -37,10 +37,10 @@ export const PUBLIC_RUNTIME_CONFIG: PublicRuntimeConfig = {
     },
     results: {
       matchTiers: [
-        { min: 90, key: "soulmates", celebrate: true },
-        { min: 75, key: "sameWave", celebrate: true },
-        { min: 60, key: "inSync", celebrate: true },
-        { min: 40, key: "exploring", celebrate: false },
+        { min: 85, key: "soulmates", celebrate: true },
+        { min: 70, key: "sameWave", celebrate: true },
+        { min: 55, key: "inSync", celebrate: true },
+        { min: 35, key: "exploring", celebrate: false },
         { min: 0, key: "opposites", celebrate: false },
       ],
     },
