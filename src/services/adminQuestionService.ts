@@ -10,6 +10,9 @@ const MAX_ANSWERS = 8;
 
 const QUESTION_TYPES = ["choice", "text"] as const;
 
+// Every question in these must have a correct_answer; the game skips the ones without.
+const TRIVIA_CATEGORY_IDS = ["trivia_master", "mastermind"];
+
 export interface QuestionInput {
   category_id: string;
   texts: { text_en: string; text_tr: string; text_es: string };
@@ -174,22 +177,31 @@ export function validateQuestionInput(body: any): QuestionInput {
 // Postgres arrays, so jsonb values are serialized up front.
 const toJsonb = (value: unknown) => (value == null ? null : JSON.stringify(value));
 
-async function assertCategoryExists(categoryId: string): Promise<void> {
+async function assertValidCategory(input: QuestionInput): Promise<void> {
   const { rowCount } = await getAdminPool().query("SELECT 1 FROM categories WHERE id = $1", [
-    categoryId,
+    input.category_id,
   ]);
   if (!rowCount) {
-    throw new AppError(`Unknown category: ${categoryId}`, 400, "VALIDATION_ERROR");
+    throw new AppError(`Unknown category: ${input.category_id}`, 400, "VALIDATION_ERROR");
+  }
+  if (TRIVIA_CATEGORY_IDS.includes(input.category_id) && input.correct_answer == null) {
+    throw new AppError(
+      `Questions in ${input.category_id} need a correct_answer`,
+      400,
+      "VALIDATION_ERROR",
+    );
   }
 }
 
 export async function listCategories() {
   const { rows } = await getAdminPool().query(
-    `SELECT c.id, c.labels, c.group_id, c.difficulty, c.order_index, COUNT(q.id)::int AS question_count
+    `SELECT c.id, c.labels, c.group_id, c.difficulty, c.order_index, COUNT(q.id)::int AS question_count,
+            c.id = ANY($1) AS is_trivia
        FROM categories c
        LEFT JOIN questions q ON q.category_id = c.id
       GROUP BY c.id
       ORDER BY c.order_index, c.id`,
+    [TRIVIA_CATEGORY_IDS],
   );
   return rows;
 }
@@ -206,7 +218,7 @@ export async function listQuestions(categoryId: string) {
 }
 
 export async function createQuestion(input: QuestionInput) {
-  await assertCategoryExists(input.category_id);
+  await assertValidCategory(input);
   const { rows } = await getAdminPool().query(
     `INSERT INTO questions (id, category_id, texts, have_answers, answers, question_type, correct_answer, match_weight, order_index, created_at, updated_at)
      VALUES (
@@ -230,7 +242,7 @@ export async function createQuestion(input: QuestionInput) {
 }
 
 export async function updateQuestion(id: string, input: QuestionInput) {
-  await assertCategoryExists(input.category_id);
+  await assertValidCategory(input);
   const { rows } = await getAdminPool().query(
     `UPDATE questions
         SET category_id = $2, texts = $3, have_answers = $4, answers = $5, question_type = $6,
