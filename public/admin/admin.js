@@ -10,6 +10,7 @@
     currentCategory: null,
     questions: [],
     weightFilter: "all",
+    reversed: false,
     editingId: null,
     localBypass: false,
   };
@@ -358,8 +359,20 @@
       list.replaceChildren(el("div", { class: "empty", text: filtered ? "Eşleşen soru yok" : "Bu kategoride soru yok" }));
       return;
     }
+    if (state.reversed) visible.reverse();
     list.replaceChildren(...visible.map(renderQuestionCard));
   }
+
+  function renderSortButton() {
+    $("btn-sort").textContent = state.reversed ? "↑ Eskiden yeniye" : "↓ Yeniden eskiye";
+  }
+
+  $("btn-sort").addEventListener("click", () => {
+    state.reversed = !state.reversed;
+    renderSortButton();
+    renderQuestions();
+  });
+  renderSortButton();
 
   function renderQuestionCard(q) {
     const lines = LANGS.map((lang) =>

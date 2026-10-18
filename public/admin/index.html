@@ -177,7 +177,9 @@
       #toast.show { opacity: 1; }
       #toast.err { border-color: var(--danger); color: var(--danger); }
       .muted { color: var(--muted); font-size: 13px; }
-      .search { margin-top: 10px; }
+      .list-tools { display: flex; gap: 8px; margin-top: 10px; }
+      .list-tools input { flex: 1; min-width: 0; }
+      .list-tools .btn { flex: 0 0 auto; white-space: nowrap; }
 
       @media (max-width: 520px) {
         .wrap { padding: 0 12px; }
@@ -234,7 +236,10 @@
       <main class="wrap">
         <section id="tab-list">
           <div id="category-chips" class="chips"></div>
-          <input id="search" class="search" type="text" placeholder="Bu kategoride ara…" autocomplete="off" />
+          <div class="list-tools">
+            <input id="search" type="text" placeholder="Bu kategoride ara…" autocomplete="off" />
+            <button id="btn-sort" type="button" class="btn small ghost"></button>
+          </div>
           <div id="weight-filter" class="chips hidden"></div>
           <div id="question-list"></div>
         </section>
