@@ -124,6 +124,7 @@
       .slider::before { content: ""; position: absolute; width: 26px; height: 26px; left: 2px; top: 2px; background: #fff; border-radius: 50%; transition: .2s; }
       .switch input:checked + .slider { background: var(--accent); border-color: var(--accent); }
       .switch input:checked + .slider::before { transform: translateX(20px); }
+      .switch input:disabled + .slider { opacity: 0.6; }
 
       .preview { margin-top: 10px; display: grid; gap: 8px; }
       .preview:empty { display: none; }
@@ -234,6 +235,7 @@
         <section id="tab-list">
           <div id="category-chips" class="chips"></div>
           <input id="search" class="search" type="text" placeholder="Bu kategoride ara…" autocomplete="off" />
+          <div id="weight-filter" class="chips hidden"></div>
           <div id="question-list"></div>
         </section>
 

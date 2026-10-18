@@ -9,6 +9,7 @@
     categories: [],
     currentCategory: null,
     questions: [],
+    weightFilter: "all",
     editingId: null,
     localBypass: false,
   };
@@ -268,7 +269,7 @@
       ),
     );
     select.value = previous || state.currentCategory || "";
-    renderWeightBox();
+    setTrivia($("f-trivia").checked);
   }
 
   async function selectCategory(categoryId) {
@@ -287,10 +288,61 @@
     renderQuestions();
   }
 
+  // ---------- weight filter ----------
+  // Trivia questions don't score by weight, so an active filter leaves them
+  // out; a missing weight counts as the default.
+
+  function weightFilters() {
+    return [
+      { id: "all", label: "Tümü" },
+      { id: "default", label: `Ağırlık ${DEFAULT_MATCH_WEIGHT}` },
+      { id: "custom", label: `${DEFAULT_MATCH_WEIGHT} dışı (büyükten küçüğe)` },
+    ];
+  }
+
+  function effectiveWeight(q) {
+    return q.match_weight ?? DEFAULT_MATCH_WEIGHT;
+  }
+
+  function weightFilterActive() {
+    return state.weightFilter !== "all" && isMatchCategory(state.currentCategory);
+  }
+
+  function renderWeightFilter() {
+    const wrap = $("weight-filter");
+    wrap.classList.toggle("hidden", !isMatchCategory(state.currentCategory));
+    wrap.replaceChildren(
+      ...weightFilters().map((filter) =>
+        el(
+          "button",
+          {
+            class: `chip${filter.id === state.weightFilter ? " active" : ""}`,
+            onclick: () => {
+              state.weightFilter = filter.id;
+              renderWeightFilter();
+              renderQuestions();
+            },
+          },
+          filter.label,
+        ),
+      ),
+    );
+  }
+
+  function applyWeightFilter(questions) {
+    if (!weightFilterActive()) return questions;
+    const scored = questions.filter((q) => q.correct_answer == null);
+    if (state.weightFilter === "default") return scored.filter((q) => effectiveWeight(q) === DEFAULT_MATCH_WEIGHT);
+    return scored
+      .filter((q) => effectiveWeight(q) !== DEFAULT_MATCH_WEIGHT)
+      .sort((a, b) => effectiveWeight(b) - effectiveWeight(a));
+  }
+
   function renderQuestions() {
     const list = $("question-list");
     const term = $("search").value.trim().toLocaleLowerCase("tr");
-    const visible = state.questions.filter((q) => {
+    renderWeightFilter();
+    const visible = applyWeightFilter(state.questions).filter((q) => {
       if (!term) return true;
       const haystack = [
         ...Object.values(q.texts || {}),
@@ -302,7 +354,8 @@
     });
 
     if (!visible.length) {
-      list.replaceChildren(el("div", { class: "empty", text: term ? "Eşleşen soru yok" : "Bu kategoride soru yok" }));
+      const filtered = term || weightFilterActive();
+      list.replaceChildren(el("div", { class: "empty", text: filtered ? "Eşleşen soru yok" : "Bu kategoride soru yok" }));
       return;
     }
     list.replaceChildren(...visible.map(renderQuestionCard));
@@ -549,11 +602,24 @@
     state.pendingCorrect = undefined;
   }
 
+  function isTriviaCategory(categoryId) {
+    return Boolean(state.categories.find((c) => c.id === categoryId)?.is_trivia);
+  }
+
+  // Trivia categories can't take a question without a correct answer, so the
+  // switch stays on (and locked) there.
   function setTrivia(on) {
-    $("f-trivia").checked = on;
+    const locked = isTriviaCategory($("f-category").value);
+    $("f-trivia").checked = on || locked;
+    $("f-trivia").disabled = locked;
     renderCorrectBox();
     renderWeightBox();
   }
+
+  $("f-category").addEventListener("change", () => {
+    const wasLocked = $("f-trivia").disabled;
+    setTrivia(wasLocked ? false : $("f-trivia").checked);
+  });
 
   // ---------- match weight ----------
   // Only "see your match" categories score by weight; a category's group is
