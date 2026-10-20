@@ -7,7 +7,13 @@ const GAME_MODES: readonly GameMode[] = [
   "see_your_match",
   "know_each_other",
   "who_knows_better",
+  "who_is_more_likely",
 ];
+
+export type CategoryDifficulty = "hard" | "intimacy";
+
+const parseDifficulty = (value: unknown): CategoryDifficulty | null =>
+  value === "hard" || value === "intimacy" ? value : null;
 
 export interface CategoryRecord {
   id: string;
@@ -19,7 +25,7 @@ export interface CategoryRecord {
   coinsRequired: number;
   isPremium: boolean;
   recentlyAdded: boolean;
-  difficulty: "hard" | null;
+  difficulty: CategoryDifficulty | null;
   orderIndex: number;
   isListed: boolean;
 }
@@ -70,7 +76,7 @@ async function loadCatalog(supabaseAdmin: SupabaseClient): Promise<CategoryCatal
     coinsRequired: row.coins_required ?? 0,
     isPremium: row.is_premium ?? false,
     recentlyAdded: row.recently_added ?? false,
-    difficulty: row.difficulty === "hard" ? "hard" : null,
+    difficulty: parseDifficulty(row.difficulty),
     orderIndex: row.order_index ?? 0,
     isListed: row.is_listed !== false,
   }));

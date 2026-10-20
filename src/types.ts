@@ -11,8 +11,14 @@ export const CLIENT_FEATURE_TEXT_QUESTIONS = "text_questions";
 // The app leaves coin spending to the server (game start, AI analysis). Older
 // builds spend from the client, so the server only charges hosts that send it.
 export const CLIENT_FEATURE_SERVER_COINS = "server_coins";
+// Builds that can show the who_is_more_likely picker; older ones would show yes/no.
+export const CLIENT_FEATURE_WHO_IS_MORE_LIKELY = "who_is_more_likely";
 
-export type GameMode = "see_your_match" | "know_each_other" | "who_knows_better";
+export type GameMode =
+  | "see_your_match"
+  | "know_each_other"
+  | "who_knows_better"
+  | "who_is_more_likely";
 
 /** Weight of a see_your_match question with no `match_weight` set (range 1-10). */
 export const DEFAULT_MATCH_WEIGHT = 5;
@@ -78,6 +84,7 @@ export interface Player {
   // when every player in the room supports them.
   supportsTextQuestions?: boolean;
   supportsServerCoins?: boolean;
+  supportsWhoIsMoreLikely?: boolean;
 }
 
 export interface RoomSettings {
@@ -126,6 +133,7 @@ export type RoomErrorCode =
   | "PLAYER_NOT_FOUND"
   | "CANNOT_KICK_SELF"
   | "UPDATE_REQUIRED"
+  | "PARTNER_UPDATE_REQUIRED"
   | "QUESTIONS_UNAVAILABLE"
   | "INSUFFICIENT_COINS"
   | "COINS_UNAVAILABLE"
