@@ -24,6 +24,8 @@ export interface PlayerScore {
  * - see_your_match: the tier for the match percentage
  * - know_each_other: how well each player guessed the other (as the guesser)
  * - who_knows_better: each player's correct answers
+ * - who_is_more_likely: the tier for how often they agreed; the app counts
+ *   the votes itself from the rounds
  */
 export interface GameSummary {
   mode: GameMode;

@@ -13,6 +13,7 @@
     reversed: false,
     editingId: null,
     localBypass: false,
+    pinnedToggles: null,
   };
 
   // ---------- helpers ----------
@@ -85,6 +86,7 @@
     const base = category.labels?.category_tr || category.labels?.category_en || category.id;
     const difficulty = String(category.difficulty || "").toLowerCase();
     if (difficulty === "hard") return `${base} · Zor`;
+    if (difficulty === "intimacy") return `${base} · Yakınlık`;
     if (difficulty === "easy") return `${base} · Kolay`;
     if (difficulty) return `${base} · ${difficulty}`;
     return base;
@@ -412,10 +414,7 @@
             text: `✓ ${correctAnswerText(q.correct_answer).split("\n")[0] || "?"}`,
           });
 
-    const weight =
-      q.match_weight == null || !isMatchCategory(q.category_id)
-        ? null
-        : el("span", { class: "badge weight", text: `⚖️ ${q.match_weight}` });
+    const weight = isMatchCategory(q.category_id) && q.correct_answer == null ? renderWeightEditor(q) : null;
 
     return el("div", { class: "card" }, [
       el("div", { class: "q-meta" }, [
@@ -431,6 +430,51 @@
         el("button", { class: "btn small danger", text: "Sil", onclick: (e) => removeQuestion(q, e.currentTarget) }),
       ]),
     ]);
+  }
+
+  // Empty input = default weight (stored as null).
+  function renderWeightEditor(q) {
+    const input = el("input", {
+      type: "number",
+      inputmode: "numeric",
+      min: "1",
+      max: "10",
+      step: "1",
+      placeholder: String(DEFAULT_MATCH_WEIGHT),
+      class: "weight-input",
+    });
+    input.value = q.match_weight == null ? "" : String(q.match_weight);
+
+    const button = el("button", { type: "button", class: "btn small", text: "Güncelle" });
+    const save = withBusy(button, async () => {
+      const raw = input.value.trim();
+      const next = raw === "" ? null : Number(raw);
+      if (next != null && (!Number.isInteger(next) || next < 1 || next > 10)) {
+        throw new Error("Ağırlık 1 ile 10 arasında tam sayı olmalı");
+      }
+      if (next === (q.match_weight ?? null)) return;
+      const { question } = await api(`questions/${q.id}`, {
+        method: "PUT",
+        body: {
+          category_id: q.category_id,
+          texts: q.texts,
+          question_type: q.question_type,
+          have_answers: q.have_answers,
+          answers: q.answers,
+          correct_answer: q.correct_answer,
+          match_weight: next,
+        },
+      });
+      Object.assign(q, question);
+      toast(`Ağırlık güncellendi: ${question.match_weight ?? `varsayılan (${DEFAULT_MATCH_WEIGHT})`}`);
+      renderQuestions();
+    });
+    button.addEventListener("click", save);
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") save();
+    });
+
+    return el("span", { class: "weight-edit" }, [el("span", { text: "⚖️" }), input, button]);
   }
 
   $("search").addEventListener("input", renderQuestions);
@@ -570,6 +614,16 @@
   $("f-have-answers").addEventListener("change", (e) => setHaveAnswers(e.target.checked));
   $("f-text-question").addEventListener("change", (e) => setTextQuestion(e.target.checked));
 
+  // A checked "Sabit" box next to a toggle keeps that toggle as-is after
+  // adding a question, so a batch of the same type doesn't need re-toggling.
+  function isPinned(id) {
+    return Boolean(document.querySelector(`[data-pin="${id}"]`)?.checked);
+  }
+
+  function pinnedValue(id, current) {
+    return isPinned(id) ? current : false;
+  }
+
   // ---------- trivia correct answer ----------
   // Yes/no and multiple choice pick from a list; typed answers take one line
   // per language (EN, TR, ES), with alternatives separated by "|".
@@ -636,10 +690,10 @@
 
   // ---------- match weight ----------
   // Only "see your match" categories score by weight; a category's group is
-  // its game mode, and anything but these two plays as see your match.
+  // its game mode, and anything but these plays as see your match.
 
   const DEFAULT_MATCH_WEIGHT = 5;
-  const NON_MATCH_GROUPS = ["know_each_other", "who_knows_better"];
+  const NON_MATCH_GROUPS = ["know_each_other", "who_knows_better", "who_is_more_likely"];
 
   function isMatchCategory(categoryId) {
     const category = state.categories.find((c) => c.id === categoryId);
@@ -693,7 +747,16 @@
   }
 
   function resetForm({ keepCategory = true } = {}) {
+    const saved = state.pinnedToggles;
+    const keepText = pinnedValue("f-text-question", saved?.text ?? $("f-text-question").checked);
+    const keepHaveAnswers = pinnedValue(
+      "f-have-answers",
+      saved?.haveAnswers ?? $("f-have-answers").checked,
+    );
+    const keepTrivia = pinnedValue("f-trivia", saved?.trivia ?? $("f-trivia").checked);
+
     state.editingId = null;
+    state.pinnedToggles = null;
     $("form-title").textContent = "Yeni soru";
     $("btn-submit").textContent = "Ekle";
     $("btn-cancel-edit").classList.add("hidden");
@@ -703,13 +766,18 @@
     $("f-weight").value = "";
     renderTextsPreview();
     renderAnswersPreview();
-    setTextQuestion(false);
-    setHaveAnswers(false);
+    setTextQuestion(keepText);
+    setHaveAnswers(keepHaveAnswers);
     if (!keepCategory) $("f-category").value = state.currentCategory || "";
-    setTrivia(false);
+    setTrivia(keepTrivia);
   }
 
   function startEdit(q) {
+    state.pinnedToggles = {
+      text: $("f-text-question").checked,
+      haveAnswers: $("f-have-answers").checked,
+      trivia: $("f-trivia").checked,
+    };
     state.editingId = q.id;
     $("form-title").textContent = "Soruyu düzenle";
     $("btn-submit").textContent = "Kaydet";

@@ -554,7 +554,7 @@ export function createAiAnalysisRouter({
         });
         return;
       }
-      if (game.mode === "who_knows_better") {
+      if (game.mode === "who_knows_better" || game.mode === "who_is_more_likely") {
         res.status(400).json({
           error: "AI analysis isn't available for this game.",
           code: "NOT_SUPPORTED",
@@ -656,7 +656,7 @@ export function createAiAnalysisRouter({
         });
         return;
       }
-      if (game.mode === "who_knows_better") {
+      if (game.mode === "who_knows_better" || game.mode === "who_is_more_likely") {
         res.status(400).json({
           error: "AI analysis isn't available for this game.",
           code: "NOT_SUPPORTED",

@@ -22,6 +22,7 @@ import {
   RoomErrorCode,
   CLIENT_FEATURE_TEXT_QUESTIONS,
   CLIENT_FEATURE_SERVER_COINS,
+  CLIENT_FEATURE_WHO_IS_MORE_LIKELY,
 } from "./types.js";
 import {
   fetchRandomQuestions,
@@ -94,6 +95,7 @@ import { warmUpProfanityFilter } from "./utils/profanity.js";
 import { isHarmfulText } from "./utils/moderation.js";
 import { isBanned } from "./services/banService.js";
 import { textAnswersMatch, warmUpTextMatcher } from "./utils/textMatch.js";
+import { isMoreLikelyPick, picksAgree } from "./utils/whoIsMoreLikely.js";
 
 warmUpProfanityFilter();
 warmUpTextMatcher();
@@ -392,6 +394,10 @@ const supportsTextQuestions = (clientFeatures: unknown): boolean =>
 const supportsServerCoins = (clientFeatures: unknown): boolean =>
   Array.isArray(clientFeatures) &&
   clientFeatures.includes(CLIENT_FEATURE_SERVER_COINS);
+
+const supportsWhoIsMoreLikely = (clientFeatures: unknown): boolean =>
+  Array.isArray(clientFeatures) &&
+  clientFeatures.includes(CLIENT_FEATURE_WHO_IS_MORE_LIKELY);
 
 type AppSocket = Socket<ClientToServerEvents, ServerToClientEvents, {}, SocketData>;
 
@@ -717,6 +723,8 @@ async function completeRound(
     correct = Object.fromEntries(grades);
     // "Matched" for trivia = you both got it right.
     isMatched = grades.every(([, isCorrect]) => isCorrect);
+  } else if (snapshot.settings.mode === "who_is_more_likely") {
+    isMatched = picksAgree(answer1, answer2);
   } else if (answer1 === NO_ANSWER || answer2 === NO_ANSWER) {
     isMatched = false;
   } else if (isText) {
@@ -1178,6 +1186,7 @@ io.on(
             category,
             supportsTextQuestions(clientFeatures),
             supportsServerCoins(clientFeatures),
+            supportsWhoIsMoreLikely(clientFeatures),
             await getCategoryMode(category, supabaseAdmin),
           );
           socket.join(room.roomCode);
@@ -1232,6 +1241,7 @@ io.on(
               cleanAvatar(avatar),
               supportsTextQuestions(clientFeatures),
               supportsServerCoins(clientFeatures),
+              supportsWhoIsMoreLikely(clientFeatures),
             ),
           );
 
@@ -1365,14 +1375,36 @@ io.on(
             return;
           }
 
+          const categoryMode = await getCategoryMode(
+            room.settings.category,
+            supabaseAdmin,
+          );
+          const moreLikely = categoryMode === "who_is_more_likely";
+
+          // Older builds would show these questions as yes/no.
+          if (
+            moreLikely &&
+            !room.players.every((p) => p.supportsWhoIsMoreLikely === true)
+          ) {
+            socket.emit("room-error", {
+              message:
+                "Everyone in the room needs the latest app version to play this category.",
+              code: player.supportsWhoIsMoreLikely
+                ? "PARTNER_UPDATE_REQUIRED"
+                : "UPDATE_REQUIRED",
+            });
+            return;
+          }
+
           const questions = await fetchRandomQuestions(
             room.settings.category,
             room.settings.totalQuestions,
             supabaseAdmin,
             {
-              includeText: room.players.every(
-                (p) => p.supportsTextQuestions === true,
-              ),
+              // Votes are picks, never typed.
+              includeText:
+                !moreLikely &&
+                room.players.every((p) => p.supportsTextQuestions === true),
             },
           );
 
@@ -1449,7 +1481,7 @@ io.on(
           // A category whose questions carry answer keys plays as who_knows_better.
           const mode = questions.some((q) => q.isTrivia)
             ? "who_knows_better"
-            : await getCategoryMode(room.settings.category, supabaseAdmin);
+            : categoryMode;
 
           // Re-read under the lock: someone may have left while questions loaded.
           const started = await roomManager.withRoomLock(roomCode, async () => {
@@ -1631,6 +1663,8 @@ io.on(
             playerAnswer = textAnswer ?? normalizeTextAnswer(answer);
           } else if (typeof answer !== "string") {
             playerAnswer = NO_ANSWER;
+          } else if (room.settings.mode === "who_is_more_likely") {
+            playerAnswer = isMoreLikelyPick(answer) ? answer : NO_ANSWER;
           } else if (question.haveAnswers && question.answers) {
             const answerObject = findAnswerObject(answer, question);
             if (!answerObject && answer !== NO_ANSWER) {

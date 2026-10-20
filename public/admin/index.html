@@ -100,12 +100,16 @@
       .chip.active { background: var(--accent); border-color: var(--accent); }
       .chip.active .count { color: rgba(255,255,255,.8); }
 
-      .q-meta { display: flex; justify-content: space-between; align-items: center; color: var(--muted); font-size: 12px; margin-bottom: 8px; }
+      .q-meta { display: flex; flex-wrap: wrap; gap: 6px; justify-content: space-between; align-items: center; color: var(--muted); font-size: 12px; margin-bottom: 8px; }
+      .weight-edit { margin-left: auto; display: flex; align-items: center; gap: 6px; }
+      input.weight-input {
+        width: 56px; padding: 6px 8px; border-radius: 9px; border: 1px solid var(--border);
+        background: var(--bg); color: var(--text); font: inherit; font-size: 16px; text-align: center;
+      }
       .badge { padding: 2px 8px; border-radius: 6px; background: var(--panel-2); font-weight: 600; }
       .badge.mc { color: var(--accent); }
       .badge.text { color: #5b7db8; }
       .badge.trivia { color: #0f8b8d; }
-      .badge.weight { color: #b45309; }
       #f-correct-choice, #f-weight { width: 100%; }
       .q-line { margin: 4px 0; overflow-wrap: anywhere; }
       .q-line .lang { display: inline-block; width: 26px; color: var(--muted); font-size: 12px; font-weight: 700; }
@@ -118,6 +122,9 @@
 
       .toggle { display: flex; align-items: center; justify-content: space-between; margin-top: 18px; }
       .toggle span { font-weight: 600; }
+      .toggle-controls { display: flex; align-items: center; gap: 12px; flex: 0 0 auto; }
+      .pin { display: flex; align-items: center; gap: 5px; margin: 0; font-size: 12px; cursor: pointer; }
+      .pin input { width: 16px; height: 16px; margin: 0; accent-color: var(--accent); }
       .switch { position: relative; width: 52px; height: 32px; flex: 0 0 auto; }
       .switch input { opacity: 0; width: 0; height: 0; }
       .slider { position: absolute; inset: 0; background: var(--panel-2); border: 1px solid var(--border); border-radius: 999px; transition: .2s; }
@@ -277,18 +284,30 @@
 
             <div class="toggle">
               <span>Yazılı cevap (oyuncular input'a yazar)</span>
-              <label class="switch" style="margin:0">
-                <input id="f-text-question" type="checkbox" />
-                <span class="slider"></span>
-              </label>
+              <div class="toggle-controls">
+                <label class="pin" title="Soru eklenince bu ayar aynı kalsın">
+                  <input type="checkbox" data-pin="f-text-question" />
+                  Sabit
+                </label>
+                <label class="switch" style="margin:0">
+                  <input id="f-text-question" type="checkbox" />
+                  <span class="slider"></span>
+                </label>
+              </div>
             </div>
 
             <div id="have-answers-row" class="toggle">
               <span>Özel cevaplar (yes/no değil)</span>
-              <label class="switch" style="margin:0">
-                <input id="f-have-answers" type="checkbox" />
-                <span class="slider"></span>
-              </label>
+              <div class="toggle-controls">
+                <label class="pin" title="Soru eklenince bu ayar aynı kalsın">
+                  <input type="checkbox" data-pin="f-have-answers" />
+                  Sabit
+                </label>
+                <label class="switch" style="margin:0">
+                  <input id="f-have-answers" type="checkbox" />
+                  <span class="slider"></span>
+                </label>
+              </div>
             </div>
 
             <div id="answers-box" class="hidden">
@@ -305,10 +324,16 @@
 
             <div class="toggle">
               <span>Bilgi yarışması (doğru cevabı var)</span>
-              <label class="switch" style="margin:0">
-                <input id="f-trivia" type="checkbox" />
-                <span class="slider"></span>
-              </label>
+              <div class="toggle-controls">
+                <label class="pin" title="Soru eklenince bu ayar aynı kalsın">
+                  <input type="checkbox" data-pin="f-trivia" />
+                  Sabit
+                </label>
+                <label class="switch" style="margin:0">
+                  <input id="f-trivia" type="checkbox" />
+                  <span class="slider"></span>
+                </label>
+              </div>
             </div>
 
             <div id="correct-box" class="hidden">
