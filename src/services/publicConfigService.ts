@@ -10,7 +10,7 @@ export const PUBLIC_RUNTIME_CONFIG: PublicRuntimeConfig = {
     },
     dailyReward: {
       amount: 1,
-      intervalMs: 7200000,
+      intervalMs: 14400000,
       claimTimeoutMs: 10000,
     },
     balanceSync: {

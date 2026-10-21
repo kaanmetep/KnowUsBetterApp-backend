@@ -12,6 +12,17 @@ import {
 import { allowLegacyClients, requireAppUser } from "../services/appUserAuth.js";
 import { PUBLIC_RUNTIME_CONFIG } from "../services/publicConfigService.js";
 import {
+  AiAnalysisUpdate,
+  AnalysisResult,
+  DefaultAnalysis,
+  KnowMeWellAnalysis,
+  claimAnalysis,
+  getSharedAnalysis,
+  releaseAnalysis,
+  resultFor,
+  saveSharedAnalysis,
+} from "../services/sharedAnalysis.js";
+import {
   HIDDEN_TEXT_ANSWER,
   TEXT_ANSWER_MAX_LENGTH,
 } from "../utils/helpers.js";
@@ -298,17 +309,6 @@ JSON formatında SADECE şu yapıda cevap ver:
 // ============================================
 // OPENAI CALL
 // ============================================
-type DefaultAnalysis = {
-  strengths: string;
-  differences: string;
-  tips: string;
-  compatibility: string;
-};
-type KnowMeWellAnalysis = {
-  player1AboutPlayer2: string;
-  player2AboutPlayer1: string;
-};
-
 class AnalysisError extends Error {
   constructor(
     readonly status: number,
@@ -499,10 +499,13 @@ async function findGameFromRounds(rounds: unknown[]): Promise<FinishedGame | nul
 export function createAiAnalysisRouter({
   supabaseAdmin,
   onBalanceChanged,
+  onAnalysisUpdate,
 }: {
   supabaseAdmin: SupabaseClient | null;
   /** Lets the app update its wallet as soon as coins move. */
   onBalanceChanged: (appUserId: string, newBalance: number) => void;
+  /** Tells a player (socket id) of the game how its shared analysis is doing. */
+  onAnalysisUpdate: (playerId: string, update: AiAnalysisUpdate) => void;
 }): Router {
   const router = Router();
 
@@ -604,6 +607,8 @@ export function createAiAnalysisRouter({
   // POST /api/ai-analysis/game
   // The game comes from the server's own record of it (see finishedGames),
   // and the coins are charged here; refunded if the analysis fails.
+  // The report is shared: the first player to ask pays, both players are
+  // told over the socket, and the partner gets the same report for free.
   // ============================================
   router.post(
     "/game",
@@ -664,23 +669,66 @@ export function createAiAnalysisRouter({
         return;
       }
 
-      const cacheKey = `aiResult:${gameId}:${playerId}:${language}`;
-      const cachedResult = await redis.get(cacheKey).catch(() => null);
-      if (cachedResult) {
-        res.json(JSON.parse(cachedResult));
+      const sendShared = async (): Promise<boolean> => {
+        const shared = await getSharedAnalysis(gameId).catch(() => null);
+        if (!shared) return false;
+        res.json({
+          ...resultFor(shared.result, shared.requesterId, playerId),
+          ...(shared.requesterId !== playerId && { sharedBy: shared.requesterName }),
+        });
+        return true;
+      };
+      if (await sendShared()) return;
+
+      const claim = await claimAnalysis(
+        gameId,
+        { requesterId: me.id, requesterName: me.name },
+        ANALYSIS_LOCK_SECONDS,
+      );
+      // The partner's analysis may have finished between the two reads.
+      if (claim.ok && (await sendShared())) {
+        await releaseAnalysis(gameId);
+        return;
+      }
+      if (!claim.ok) {
+        const byPartner = !!claim.holder && claim.holder.requesterId !== playerId;
+        res.status(409).json(
+          byPartner
+            ? {
+                error: "Your partner is already preparing this analysis.",
+                code: "PARTNER_IN_PROGRESS",
+                requesterName: claim.holder!.requesterName,
+              }
+            : {
+                error: "Your analysis is already being prepared.",
+                code: "IN_PROGRESS",
+              },
+        );
         return;
       }
 
-      const lockKey = `lock:ai:${gameId}:${playerId}`;
-      if (!(await acquireLock(lockKey, ANALYSIS_LOCK_SECONDS))) {
-        res.status(409).json({
-          error: "Your analysis is already being prepared.",
-          code: "IN_PROGRESS",
-        });
-        return;
-      }
+      const tellPlayers = (
+        update:
+          | { status: "running" | "failed" }
+          | { status: "ready"; result: AnalysisResult },
+      ) => {
+        for (const player of game.players) {
+          onAnalysisUpdate(player.id, {
+            gameId,
+            requesterName: me.name,
+            byYou: player.id === me.id,
+            ...(update.status === "ready"
+              ? {
+                  status: "ready",
+                  result: resultFor(update.result, me.id, player.id),
+                }
+              : { status: update.status }),
+          });
+        }
+      };
 
       let charged = false;
+      let delivered = false;
       try {
         let newBalance: number | undefined;
         if (cost > 0) {
@@ -707,6 +755,7 @@ export function createAiAnalysisRouter({
           newBalance = spend.newBalance;
           onBalanceChanged(appUserId, spend.newBalance);
         }
+        tellPlayers({ status: "running" });
 
         const analysisMode =
           game.mode === "know_each_other" ? "know_me_well" : "default";
@@ -718,11 +767,16 @@ export function createAiAnalysisRouter({
           analysisMode,
         );
 
-        await redis
-          .setex(cacheKey, FINISHED_GAME_TTL_SECONDS, JSON.stringify(result))
-          .catch((error) =>
-            console.warn("⚠️ Failed to cache AI analysis:", error),
-          );
+        await saveSharedAnalysis(gameId, {
+          requesterId: me.id,
+          requesterName: me.name,
+          language,
+          result,
+        }).catch((error) =>
+          console.warn("⚠️ Failed to cache AI analysis:", error),
+        );
+        delivered = true;
+        tellPlayers({ status: "ready", result });
         res.json({ ...result, newBalance });
       } catch (error) {
         if (charged) {
@@ -737,7 +791,9 @@ export function createAiAnalysisRouter({
         }
         sendAnalysisError(res, error);
       } finally {
-        await releaseLock(lockKey);
+        await releaseAnalysis(gameId);
+        // Also after a failed charge: the partner may have been told it's running.
+        if (!delivered) tellPlayers({ status: "failed" });
       }
     }),
   );

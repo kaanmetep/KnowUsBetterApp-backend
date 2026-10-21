@@ -86,10 +86,12 @@ import {
 } from "./services/coinLedger.js";
 import { getCategory, getCategoryMode } from "./services/categoryService.js";
 import {
+  getFinishedGame,
   getGamePercentage,
   getLastFinishedGameOf,
   recordFinishedGame,
 } from "./services/finishedGames.js";
+import { getAnalysisStateFor } from "./services/sharedAnalysis.js";
 import { createAdminPanelRouter } from "./routes/adminPanel.js";
 import { warmUpProfanityFilter } from "./utils/profanity.js";
 import { isHarmfulText } from "./utils/moderation.js";
@@ -180,6 +182,8 @@ app.use(
     supabaseAdmin,
     onBalanceChanged: (appUserId, newBalance) =>
       notifyCoinsSpent(appUserId, newBalance),
+    onAnalysisUpdate: (playerId, update) =>
+      io.to(playerId).emit("ai-analysis-update", update),
   }),
 );
 
@@ -2068,6 +2072,23 @@ io.on(
       } catch (error) {
         console.error("Error handling answer report:", error);
         reply(false);
+      }
+    });
+
+    // Catches the app up on the shared AI analysis after it missed updates
+    // (background, reconnect). Only players of that game get an answer.
+    socket.on("get-ai-analysis", async (data, ack) => {
+      if (typeof ack !== "function") return;
+      try {
+        const gameId = typeof data?.gameId === "string" ? data.gameId : "";
+        const game = gameId ? await getFinishedGame(gameId) : null;
+        if (!game?.players.some((player) => player.id === socket.id)) {
+          return ack(null);
+        }
+        ack(await getAnalysisStateFor(game, socket.id));
+      } catch (error) {
+        console.error("Error reading AI analysis state:", error);
+        ack(null);
       }
     });
 

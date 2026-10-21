@@ -15,6 +15,7 @@ import {
 } from "../types.js";
 import { maskProfanity } from "./profanity.js";
 import type { GameSummary } from "../services/finishedGames.js";
+import type { AiAnalysisUpdate } from "../services/sharedAnalysis.js";
 
 // Socket.io Event Types (needed for helper functions)
 export interface SocketData {
@@ -124,6 +125,8 @@ export interface ServerToClientEvents {
     error?: string;
   }) => void;
   "category-changed": (data: { room: any }) => void;
+  /** The shared AI analysis of a finished game started, finished or failed. */
+  "ai-analysis-update": (data: AiAnalysisUpdate) => void;
   /** Payload-free broadcast that gives the app a recent recovery offset. */
   "connection-sync": () => void;
 }
@@ -150,6 +153,11 @@ export interface ClientToServerEvents {
   "report-answer": (
     data: ReportAnswerData,
     ack?: (result: { success: boolean }) => void,
+  ) => void;
+  /** Where the shared AI analysis of a finished game stands; null if unknown. */
+  "get-ai-analysis": (
+    data: { gameId: string },
+    ack?: (state: AiAnalysisUpdate | null) => void,
   ) => void;
 }
 
