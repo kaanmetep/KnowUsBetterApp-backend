@@ -28,6 +28,8 @@ export interface CategoryRecord {
   difficulty: CategoryDifficulty | null;
   orderIndex: number;
   isListed: boolean;
+  /** Listed as a locked teaser; rooms can't be created with it yet. */
+  comingSoon: boolean;
 }
 
 export interface CategoryGroupRecord {
@@ -79,6 +81,7 @@ async function loadCatalog(supabaseAdmin: SupabaseClient): Promise<CategoryCatal
     difficulty: parseDifficulty(row.difficulty),
     orderIndex: row.order_index ?? 0,
     isListed: row.is_listed !== false,
+    comingSoon: row.coming_soon === true,
   }));
 
   const groups: CategoryGroupRecord[] = (groupsResult.data ?? []).map(
@@ -118,6 +121,18 @@ export async function getCategory(
   if (!supabaseAdmin || !categoryId) return null;
   const { categories } = await getCategoryCatalog(supabaseAdmin);
   return categories.find((category) => category.id === categoryId) ?? null;
+}
+
+export async function isCategoryComingSoon(
+  categoryId: string,
+  supabaseAdmin: SupabaseClient | null,
+): Promise<boolean> {
+  try {
+    return (await getCategory(categoryId, supabaseAdmin))?.comingSoon ?? false;
+  } catch (error) {
+    console.warn("⚠️ Could not resolve category availability:", error);
+    return false;
+  }
 }
 
 /** A category's group is its game mode. */

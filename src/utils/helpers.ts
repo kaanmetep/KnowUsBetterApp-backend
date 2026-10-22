@@ -16,6 +16,7 @@ import {
 import { maskProfanity } from "./profanity.js";
 import type { GameSummary } from "../services/finishedGames.js";
 import type { AiAnalysisUpdate } from "../services/sharedAnalysis.js";
+import type { ReactionAnimation } from "../services/reactionService.js";
 
 // Socket.io Event Types (needed for helper functions)
 export interface SocketData {
@@ -129,7 +130,40 @@ export interface ServerToClientEvents {
   "ai-analysis-update": (data: AiAnalysisUpdate) => void;
   /** Payload-free broadcast that gives the app a recent recovery offset. */
   "connection-sync": () => void;
+  /** The partner sent a reaction; carries everything needed to play it. */
+  "reaction-received": (data: ReactionEvent) => void;
 }
+
+export interface ReactionEvent {
+  /** Unique per send. */
+  id: string;
+  reactionId: string;
+  emoji: string;
+  animation: ReactionAnimation;
+  color: string;
+  labels: Record<string, string>;
+  fromPlayerId: string;
+  sentAt: number;
+}
+
+export type SendReactionResult =
+  | { ok: true; id: string; cooldownMs: number; newBalance?: number }
+  | {
+      ok: false;
+      code:
+        | "COOLDOWN"
+        | "INSUFFICIENT_COINS"
+        | "COINS_UNAVAILABLE"
+        | "NOT_IN_GAME"
+        | "PARTNER_OFFLINE"
+        | "PARTNER_UPDATE_REQUIRED"
+        | "UNKNOWN_REACTION"
+        | "PRICE_CHANGED"
+        | "UNAVAILABLE";
+      retryAfterMs?: number;
+      required?: number;
+      balance?: number;
+    };
 
 export interface ClientToServerEvents {
   "create-room": (data: CreateRoomData) => void;
@@ -158,6 +192,14 @@ export interface ClientToServerEvents {
   "get-ai-analysis": (
     data: { gameId: string },
     ack?: (state: AiAnalysisUpdate | null) => void,
+  ) => void;
+  /**
+   * `appUserId` pays for a paid reaction when the socket isn't registered yet.
+   * `coinCost` is the price the player saw; it's never charged at another one.
+   */
+  "send-reaction": (
+    data: { reactionId: string; appUserId?: string; coinCost?: number },
+    ack?: (result: SendReactionResult) => void,
   ) => void;
 }
 

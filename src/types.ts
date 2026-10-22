@@ -13,6 +13,8 @@ export const CLIENT_FEATURE_TEXT_QUESTIONS = "text_questions";
 export const CLIENT_FEATURE_SERVER_COINS = "server_coins";
 // Builds that can show the who_is_more_likely picker; older ones would show yes/no.
 export const CLIENT_FEATURE_WHO_IS_MORE_LIKELY = "who_is_more_likely";
+// Builds that show reactions; nobody pays for one their partner can't see.
+export const CLIENT_FEATURE_REACTIONS = "reactions";
 
 export type GameMode =
   | "see_your_match"
@@ -85,6 +87,7 @@ export interface Player {
   supportsTextQuestions?: boolean;
   supportsServerCoins?: boolean;
   supportsWhoIsMoreLikely?: boolean;
+  supportsReactions?: boolean;
 }
 
 export interface RoomSettings {

@@ -3,6 +3,7 @@ import { SupabaseClient } from "@supabase/supabase-js";
 export type CoinTransactionType =
   | "game_start"
   | "ai_analysis"
+  | "reaction"
   | "refund"
   | "purchase"
   | "daily_reward"
