@@ -45,6 +45,11 @@ export type PublicRuntimeConfig = {
       /** Highest `min` first. */
       matchTiers: MatchTierConfig[];
     };
+    reactions: {
+      enabled: boolean;
+      /** Wait after a sent reaction before the same player can send another. */
+      cooldownMs: number;
+    };
   };
   network: {
     socket: {

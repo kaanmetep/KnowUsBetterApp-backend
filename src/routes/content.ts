@@ -2,6 +2,7 @@ import { Router, Request, Response } from "express";
 import { SupabaseClient } from "@supabase/supabase-js";
 import { byAppUserId, createRateLimiter } from "../middleware/rateLimiter.js";
 import { getCategoryCatalog } from "../services/categoryService.js";
+import { getReactions } from "../services/reactionService.js";
 import { PUBLIC_RUNTIME_CONFIG } from "../services/publicConfigService.js";
 import { requireAppUser } from "../services/appUserAuth.js";
 
@@ -24,7 +25,7 @@ const isActiveNow = (row: any, now: number): boolean =>
 
 /**
  * Everything the app used to read from Supabase directly: categories,
- * announcements and the player's wallet.
+ * reactions, announcements and the player's wallet.
  */
 export function createContentRouter(
   supabaseAdmin: SupabaseClient,
@@ -32,19 +33,41 @@ export function createContentRouter(
 ): Router {
   const router = Router();
 
-  router.get("/categories", contentRateLimiter, async (_req, res: Response) => {
+  router.get("/categories", contentRateLimiter, async (req, res: Response) => {
     try {
       const { categories, groups } = await getCategoryCatalog(supabaseAdmin);
+      // Older builds don't know `comingSoon` and would offer these as playable.
+      const includeComingSoon = String(req.query.include ?? "")
+        .split(",")
+        .includes("coming_soon");
       res.setHeader("Cache-Control", "public, max-age=60");
       res.json({
         categories: categories
-          .filter((category) => category.isListed)
+          .filter(
+            (category) =>
+              category.isListed && (includeComingSoon || !category.comingSoon),
+          )
           .map(({ isListed, ...category }) => category),
         groups,
       });
     } catch (error) {
       console.error("❌ Error loading categories:", error);
       res.status(500).json({ error: "Failed to load categories" });
+    }
+  });
+
+  router.get("/reactions", contentRateLimiter, async (_req, res: Response) => {
+    try {
+      const { enabled, cooldownMs } = PUBLIC_RUNTIME_CONFIG.gameplay.reactions;
+      res.setHeader("Cache-Control", "public, max-age=60");
+      res.json({
+        enabled,
+        cooldownMs,
+        reactions: enabled ? await getReactions(supabaseAdmin) : [],
+      });
+    } catch (error) {
+      console.error("❌ Error loading reactions:", error);
+      res.status(500).json({ error: "Failed to load reactions" });
     }
   });
 

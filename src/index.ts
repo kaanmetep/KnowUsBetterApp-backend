@@ -3,6 +3,7 @@ dotenv.config();
 if (process.env.NODE_ENV) {
   dotenv.config({ path: `.env.${process.env.NODE_ENV}`, override: true });
 }
+import { randomUUID } from "crypto";
 import express from "express";
 import { createServer } from "http";
 import { Server, Socket } from "socket.io";
@@ -23,6 +24,7 @@ import {
   CLIENT_FEATURE_TEXT_QUESTIONS,
   CLIENT_FEATURE_SERVER_COINS,
   CLIENT_FEATURE_WHO_IS_MORE_LIKELY,
+  CLIENT_FEATURE_REACTIONS,
 } from "./types.js";
 import {
   fetchRandomQuestions,
@@ -45,6 +47,7 @@ import {
   cleanPlayerName,
   cleanAvatar,
   HIDDEN_TEXT_ANSWER,
+  type SendReactionResult,
   type SocketData,
   type ServerToClientEvents,
   type ClientToServerEvents,
@@ -84,7 +87,12 @@ import {
   creditCoins,
   spendCoins,
 } from "./services/coinLedger.js";
-import { getCategory, getCategoryMode } from "./services/categoryService.js";
+import {
+  getCategory,
+  getCategoryMode,
+  isCategoryComingSoon,
+} from "./services/categoryService.js";
+import { getReaction } from "./services/reactionService.js";
 import {
   getFinishedGame,
   getGamePercentage,
@@ -402,6 +410,10 @@ const supportsServerCoins = (clientFeatures: unknown): boolean =>
 const supportsWhoIsMoreLikely = (clientFeatures: unknown): boolean =>
   Array.isArray(clientFeatures) &&
   clientFeatures.includes(CLIENT_FEATURE_WHO_IS_MORE_LIKELY);
+
+const supportsReactions = (clientFeatures: unknown): boolean =>
+  Array.isArray(clientFeatures) &&
+  clientFeatures.includes(CLIENT_FEATURE_REACTIONS);
 
 type AppSocket = Socket<ClientToServerEvents, ServerToClientEvents, {}, SocketData>;
 
@@ -1183,6 +1195,13 @@ io.on(
             });
             return;
           }
+          if (await isCategoryComingSoon(category, supabaseAdmin)) {
+            socket.emit("room-error", {
+              message: "This category is coming soon.",
+              code: "REQUEST_FAILED",
+            });
+            return;
+          }
           const room = await roomManager.createRoom(
             socket.id,
             cleanPlayerName(playerName),
@@ -1192,6 +1211,7 @@ io.on(
             supportsServerCoins(clientFeatures),
             supportsWhoIsMoreLikely(clientFeatures),
             await getCategoryMode(category, supabaseAdmin),
+            supportsReactions(clientFeatures),
           );
           socket.join(room.roomCode);
 
@@ -1246,6 +1266,7 @@ io.on(
               supportsTextQuestions(clientFeatures),
               supportsServerCoins(clientFeatures),
               supportsWhoIsMoreLikely(clientFeatures),
+              supportsReactions(clientFeatures),
             ),
           );
 
@@ -2092,6 +2113,103 @@ io.on(
       }
     });
 
+    // A reaction to the partner during a game. The cooldown is taken first,
+    // so a burst of taps can't charge more than once; it's given back when
+    // the reaction couldn't be paid for.
+    socket.on("send-reaction", async (data, ack) => {
+      const reply = (result: SendReactionResult) => {
+        if (typeof ack === "function") ack(result);
+      };
+      const cooldownKey = `reactionCooldown:${socket.id}`;
+      let cooldownTaken = false;
+      try {
+        const { enabled, cooldownMs } = PUBLIC_RUNTIME_CONFIG.gameplay.reactions;
+        const reactionId =
+          typeof data?.reactionId === "string" ? data.reactionId : "";
+        if (!enabled || !supabaseAdmin || !reactionId) {
+          return reply({ ok: false, code: "UNAVAILABLE" });
+        }
+
+        const roomCode = await roomManager.getPlayerRoom(socket.id);
+        const room = roomCode ? await roomManager.getRoom(roomCode) : undefined;
+        if (
+          !room ||
+          room.status !== "playing" ||
+          !room.players.some((player) => player.id === socket.id)
+        ) {
+          return reply({ ok: false, code: "NOT_IN_GAME" });
+        }
+        const partner = room.players.find((player) => player.id !== socket.id);
+        if (!partner || !io.sockets.sockets.has(partner.id)) {
+          return reply({ ok: false, code: "PARTNER_OFFLINE" });
+        }
+        if (!partner.supportsReactions) {
+          return reply({ ok: false, code: "PARTNER_UPDATE_REQUIRED" });
+        }
+
+        const reaction = await getReaction(reactionId, supabaseAdmin);
+        if (!reaction) return reply({ ok: false, code: "UNKNOWN_REACTION" });
+        if (
+          typeof data?.coinCost === "number" &&
+          data.coinCost !== reaction.coinCost
+        ) {
+          return reply({ ok: false, code: "PRICE_CHANGED" });
+        }
+
+        cooldownTaken =
+          (await redis.set(cooldownKey, "1", "PX", cooldownMs, "NX")) === "OK";
+        if (!cooldownTaken) {
+          const ttl = await redis.pttl(cooldownKey);
+          return reply({
+            ok: false,
+            code: "COOLDOWN",
+            retryAfterMs: ttl > 0 ? ttl : cooldownMs,
+          });
+        }
+
+        let newBalance: number | undefined;
+        if (reaction.coinCost > 0) {
+          const payer = await resolveAppUserId(socket, data?.appUserId);
+          const spend = payer
+            ? await spendCoins(supabaseAdmin, payer, reaction.coinCost, "reaction")
+            : null;
+          if (!payer || !spend || !spend.ok) {
+            await redis.del(cooldownKey);
+            cooldownTaken = false;
+            return reply(
+              spend && !spend.ok && spend.reason === "insufficient"
+                ? {
+                    ok: false,
+                    code: "INSUFFICIENT_COINS",
+                    required: reaction.coinCost,
+                    balance: spend.balance,
+                  }
+                : { ok: false, code: "COINS_UNAVAILABLE" },
+            );
+          }
+          newBalance = spend.newBalance;
+          notifyCoinsSpent(payer, spend.newBalance);
+        }
+
+        const id = randomUUID();
+        socket.to(room.roomCode).emit("reaction-received", {
+          id,
+          reactionId: reaction.id,
+          emoji: reaction.emoji,
+          animation: reaction.animation,
+          color: reaction.color,
+          labels: reaction.labels,
+          fromPlayerId: socket.id,
+          sentAt: Date.now(),
+        });
+        reply({ ok: true, id, cooldownMs, newBalance });
+      } catch (error) {
+        console.error("Error sending reaction:", error);
+        if (cooldownTaken) await redis.del(cooldownKey).catch(() => undefined);
+        reply({ ok: false, code: "UNAVAILABLE" });
+      }
+    });
+
     // 8. On Disconnect
     socket.on("disconnect", (reason) => {
       // Clean up IP-based socket limiter
@@ -2123,6 +2241,13 @@ io.on(
         try {
           if (typeof roomCode !== "string" || !roomCode || typeof category !== "string") {
             socket.emit("room-error", { message: "Room not found", code: "ROOM_NOT_FOUND" });
+            return;
+          }
+          if (await isCategoryComingSoon(category, supabaseAdmin)) {
+            socket.emit("room-error", {
+              message: "This category is coming soon.",
+              code: "REQUEST_FAILED",
+            });
             return;
           }
           const mode = await getCategoryMode(category, supabaseAdmin);

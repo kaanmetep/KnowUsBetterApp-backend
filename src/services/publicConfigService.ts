@@ -44,6 +44,10 @@ export const PUBLIC_RUNTIME_CONFIG: PublicRuntimeConfig = {
         { min: 0, key: "opposites", celebrate: false },
       ],
     },
+    reactions: {
+      enabled: true,
+      cooldownMs: 6000,
+    },
   },
   network: {
     socket: {
