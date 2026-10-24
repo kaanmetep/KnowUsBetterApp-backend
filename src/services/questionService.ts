@@ -152,19 +152,71 @@ async function resolveMatchWeights(
 }
 
 /**
+ * Candidate rows, unseen by `appUserIds` first (migrations/20261023_seen_questions.sql).
+ * Without players, or when that RPC fails (e.g. not migrated yet), plain random.
+ */
+async function fetchCandidateRows(
+  category: Category,
+  limit: number,
+  appUserIds: string[],
+  supabaseAdmin: any
+): Promise<{ data: any[] | null; error: unknown }> {
+  if (appUserIds.length > 0) {
+    const fresh = await supabaseAdmin.rpc("get_fresh_questions", {
+      p_category_id: category,
+      p_count: limit,
+      p_app_user_ids: appUserIds,
+    });
+    if (!fresh.error) return fresh;
+    console.warn(
+      "⚠️ get_fresh_questions failed, picking without play history:",
+      fresh.error
+    );
+  }
+  return supabaseAdmin.rpc("get_random_questions", {
+    p_category_id: category,
+    p_count: limit,
+  });
+}
+
+/**
+ * Remembers that these players have played these questions. Never throws:
+ * a game must not fail over its history.
+ */
+export async function markQuestionsSeen(
+  appUserIds: string[],
+  questionIds: string[],
+  supabaseAdmin: any
+): Promise<void> {
+  if (!supabaseAdmin || appUserIds.length === 0 || questionIds.length === 0) {
+    return;
+  }
+  try {
+    const { error } = await supabaseAdmin.rpc("mark_questions_seen", {
+      p_app_user_ids: appUserIds,
+      p_question_ids: questionIds,
+    });
+    if (error) throw error;
+  } catch (error) {
+    console.warn("⚠️ Could not save seen questions:", error);
+  }
+}
+
+/**
  * Fetch random questions from Supabase using RPC function
  * Randomization is done at database level using PostgreSQL's RANDOM() function
  * @param category - Question category (category_id in database)
  * @param count - Number of questions to fetch (default: 10)
  * @param supabaseAdmin - Supabase admin client (with service role key)
  * @param options.includeText - false drops free-text questions (some player's app can't show them)
+ * @param options.appUserIds - the players; questions none of them has seen come first
  * @returns Array of questions
  */
 export async function fetchRandomQuestions(
   category: Category,
   count: number,
   supabaseAdmin: any,
-  options: { includeText?: boolean } = {}
+  options: { includeText?: boolean; appUserIds?: string[] } = {}
 ): Promise<Question[]> {
   if (!supabaseAdmin) {
     throw new Error("Supabase admin client is required");
@@ -173,14 +225,15 @@ export async function fetchRandomQuestions(
   const includeText = options.includeText ?? true;
 
   try {
-    // Call Supabase RPC function to get random questions
-    // The function is defined in Supabase database (see SQL migration)
     // Always overfetch: text questions may be dropped below, and in a trivia
-    // category so are questions that have no answer key.
-    const { data, error } = await supabaseAdmin.rpc("get_random_questions", {
-      p_category_id: category,
-      p_count: count * OVERFETCH_FACTOR,
-    });
+    // category so are questions that have no answer key. The filters keep the
+    // RPC's order, so unseen questions still come first.
+    const { data, error } = await fetchCandidateRows(
+      category,
+      count * OVERFETCH_FACTOR,
+      options.appUserIds ?? [],
+      supabaseAdmin
+    );
 
     if (error) {
       console.error("Error fetching questions from Supabase RPC:", error);
