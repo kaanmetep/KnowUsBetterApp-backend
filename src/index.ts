@@ -29,6 +29,7 @@ import {
 import {
   fetchRandomQuestions,
   getAnswerKey,
+  markQuestionsSeen,
 } from "./services/questionService.js";
 import {
   gradeAnswer,
@@ -500,6 +501,14 @@ async function resolveAppUserId(
   return "appUserId" in resolution ? resolution.appUserId : null;
 }
 
+/** Wallet ids of the room's connected players; players that never registered are left out. */
+function roomAppUserIds(room: Room): string[] {
+  const ids = room.players
+    .map((player) => io.sockets.sockets.get(player.id)?.data.appUserId)
+    .filter((id): id is string => !!id);
+  return [...new Set(ids)];
+}
+
 /** Pushes a balance the server changed to the user's app, if it's connected. */
 function notifyCoinsSpent(appUserId: string, newBalance: number): void {
   findSocketByUserId(appUserId, io, userSockets)?.emit("coins-spent", {
@@ -797,6 +806,7 @@ async function completeRound(
   clearRoundTimer(roomCode);
 
   const { room, round: completed, isLast } = applied;
+  void markQuestionsSeen(roomAppUserIds(room), [question.id], supabaseAdmin);
   const displayDuration = getResultDisplayDuration(room.settings, question);
   const percentage = getGamePercentage(room);
 
@@ -1430,6 +1440,7 @@ io.on(
               includeText:
                 !moreLikely &&
                 room.players.every((p) => p.supportsTextQuestions === true),
+              appUserIds: roomAppUserIds(room),
             },
           );
 
