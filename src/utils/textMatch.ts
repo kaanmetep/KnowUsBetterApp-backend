@@ -8,7 +8,9 @@
 import OpenAI from "openai";
 import type { Question } from "../types.js";
 
-const MATCH_MODEL = process.env.TEXT_MATCH_MODEL || "gpt-4.1-nano";
+// Must be a GPT-5-family model: the request uses reasoning_effort and
+// max_completion_tokens, which older models (gpt-4o, gpt-4.1) reject.
+const MATCH_MODEL = process.env.TEXT_MATCH_MODEL || "gpt-5.4-nano";
 const MATCH_TIMEOUT_MS = 2000;
 
 const SYSTEM_PROMPT = `You judge a couples' quiz. Two players typed short answers to the same question; decide if the answers MATCH.
@@ -71,8 +73,9 @@ async function askModel(
   try {
     const completion = await openai.chat.completions.create({
       model: MATCH_MODEL,
+      reasoning_effort: "none",
       temperature: 0,
-      max_tokens: 10,
+      max_completion_tokens: 20,
       response_format: {
         type: "json_schema",
         json_schema: {
