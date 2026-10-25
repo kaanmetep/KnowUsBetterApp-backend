@@ -1037,7 +1037,7 @@ async function removeFromRoom(
 }
 
 /** removeFromRoom, then tells whoever is still in the room. */
-async function takePlayerOut(roomCode: string, socketId: string): Promise<void> {
+async function takePlayerOut(roomCode: string, socketId: string): Promise<boolean> {
   const { room, cancelled } = await removeFromRoom(roomCode, socketId);
   if (cancelled) {
     io.to(roomCode).emit("game-cancelled", {
@@ -1047,6 +1047,7 @@ async function takePlayerOut(roomCode: string, socketId: string): Promise<void> 
     });
   }
   io.to(roomCode).emit("player-left", { playerId: socketId, room });
+  return cancelled;
 }
 
 /**
@@ -1066,8 +1067,8 @@ const seatHolds = new Map<string, ReturnType<typeof setTimeout>>();
 const pendingCleanups = new Set<Promise<void>>();
 let shuttingDown = false;
 
-function trackCleanup(task: Promise<void>): void {
-  const settled = task.catch((error) =>
+function trackCleanup(task: Promise<unknown>): void {
+  const settled = task.then(() => undefined).catch((error) =>
     console.error("❌ Error removing disconnected player:", error),
   );
   pendingCleanups.add(settled);
@@ -1081,11 +1082,14 @@ const FINAL_DISCONNECT_REASONS = new Set([
   "server shutting down",
 ]);
 
-async function freeSeat(socketId: string): Promise<void> {
+async function freeSeat(
+  socketId: string,
+): Promise<{ roomCode: string; cancelled: boolean } | null> {
   // Reconnected in the meantime with the same socket id.
-  if (io.sockets.sockets.has(socketId)) return;
+  if (io.sockets.sockets.has(socketId)) return null;
   const roomCode = await roomManager.getPlayerRoom(socketId);
-  if (roomCode) await takePlayerOut(roomCode, socketId);
+  if (!roomCode) return null;
+  return { roomCode, cancelled: await takePlayerOut(roomCode, socketId) };
 }
 
 async function handleDroppedPlayer(socketId: string, reason: string): Promise<void> {
@@ -1096,15 +1100,42 @@ async function handleDroppedPlayer(socketId: string, reason: string): Promise<vo
     return;
   }
   const room = await roomManager.getRoom(roomCode);
+  const status = room?.status ?? "unknown";
   const holdMs =
     room?.status === "playing" ? SEAT_HOLD_PLAYING_MS : SEAT_HOLD_WAITING_MS;
+  console.log(
+    `🪑 Holding seat of ${socketId} in room ${roomCode} (${status}) for ${holdMs / 1000}s`,
+  );
+  io.to(roomCode).emit("player-connection", { playerId: socketId, connected: false });
   clearTimeout(seatHolds.get(socketId));
   seatHolds.set(
     socketId,
     setTimeout(() => {
       seatHolds.delete(socketId);
-      trackCleanup(freeSeat(socketId));
+      trackCleanup(
+        freeSeat(socketId).then((freed) => {
+          if (!freed) return;
+          console.warn(
+            `🪑 Seat of ${socketId} in room ${freed.roomCode} (${status}) freed: didn't come back within ${holdMs / 1000}s` +
+              (freed.cancelled ? "; game cancelled" : ""),
+          );
+        }),
+      );
     }, holdMs),
+  );
+}
+
+/** What the app reports about its previous connection, as a log fragment. */
+function describeClientDisconnect(info: unknown): string | null {
+  if (!info || typeof info !== "object") return null;
+  const { reason, backgrounded, backgroundSec, secAgo } = info as Record<string, unknown>;
+  if (typeof reason !== "string") return null;
+  const seconds = (value: unknown) =>
+    typeof value === "number" && Number.isFinite(value) ? `${Math.round(value)}s` : "?";
+  return (
+    `client saw reason="${reason.slice(0, 40)}" ${seconds(secAgo)} ago, ` +
+    `backgrounded=${backgrounded === true}` +
+    (backgrounded === true ? ` (for ${seconds(backgroundSec)})` : "")
   );
 }
 
@@ -1113,6 +1144,9 @@ async function syncRecoveredRooms(socket: AppSocket): Promise<void> {
   const seat = await roomManager.getPlayerRoom(socket.id);
   for (const room of socket.rooms) {
     if (room !== socket.id && room !== seat) socket.leave(room);
+  }
+  if (seat) {
+    socket.to(seat).emit("player-connection", { playerId: socket.id, connected: true });
   }
 }
 
@@ -1162,6 +1196,12 @@ io.on(
       const appUserId = typeof payload === "string" ? payload : payload?.appUserId;
       const token = typeof payload === "string" ? undefined : payload?.token;
       if (!isValidAppUserId(appUserId)) return;
+      const lastDisconnect = describeClientDisconnect(
+        typeof payload === "string" ? undefined : payload?.lastDisconnect,
+      );
+      if (lastDisconnect) {
+        console.log(`📴 ${appUserId} on socket ${socket.id} is back: ${lastDisconnect}`);
+      }
 
       if (!supabaseAdmin) return;
       socket.data.unverifiedRegistration = undefined;
@@ -2223,6 +2263,12 @@ io.on(
 
     // 8. On Disconnect
     socket.on("disconnect", (reason) => {
+      const connectedSec = Math.round((Date.now() - socket.handshake.issued) / 1000);
+      console.log(
+        `🔌 Disconnected: ${socket.id} user=${socket.data.appUserId ?? "-"} reason="${reason}" ` +
+          `transport=${socket.conn.transport.name} connectedFor=${connectedSec}s`,
+      );
+
       // Clean up IP-based socket limiter
       unregisterSocket(socket.id);
 
