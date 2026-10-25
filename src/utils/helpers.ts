@@ -34,6 +34,8 @@ export interface ServerToClientEvents {
   "room-joined": (data: { roomCode: string; player: any; room: any }) => void;
   "player-joined": (data: { player: any; room: any }) => void;
   "player-left": (data: { playerId: string; room: any }) => void;
+  /** A player's connection dropped (their seat is held) or came back. */
+  "player-connection": (data: { playerId: string; connected: boolean }) => void;
   "room-data": (room: any) => void;
   "room-error": (data: {
     message: string;
@@ -175,7 +177,9 @@ export interface ClientToServerEvents {
   "submit-answer": (data: SubmitAnswerData) => void;
   "kick-player": (data: { roomCode: string; targetPlayerId: string }) => void;
   "register-user": (
-    payload: string | { appUserId: string; token?: string | null },
+    payload:
+      | string
+      | { appUserId: string; token?: string | null; lastDisconnect?: unknown },
   ) => void;
   "spend-coins": (data: {
     appUserId: string;
