@@ -25,6 +25,7 @@ import {
   CLIENT_FEATURE_SERVER_COINS,
   CLIENT_FEATURE_WHO_IS_MORE_LIKELY,
   CLIENT_FEATURE_REACTIONS,
+  CLIENT_FEATURE_RANK_IT,
 } from "./types.js";
 import {
   fetchRandomQuestions,
@@ -107,6 +108,12 @@ import { isHarmfulText } from "./utils/moderation.js";
 import { isBanned } from "./services/banService.js";
 import { textAnswersMatch, warmUpTextMatcher } from "./utils/textMatch.js";
 import { isMoreLikelyPick, picksAgree } from "./utils/whoIsMoreLikely.js";
+import {
+  parseRanking,
+  RANK_IT_QUESTION_COUNT,
+  rankingSimilarity,
+  rankItemCount,
+} from "./utils/rankIt.js";
 
 warmUpProfanityFilter();
 warmUpTextMatcher();
@@ -415,6 +422,10 @@ const supportsWhoIsMoreLikely = (clientFeatures: unknown): boolean =>
 const supportsReactions = (clientFeatures: unknown): boolean =>
   Array.isArray(clientFeatures) &&
   clientFeatures.includes(CLIENT_FEATURE_REACTIONS);
+
+const supportsRankIt = (clientFeatures: unknown): boolean =>
+  Array.isArray(clientFeatures) &&
+  clientFeatures.includes(CLIENT_FEATURE_RANK_IT);
 
 type AppSocket = Socket<ClientToServerEvents, ServerToClientEvents, {}, SocketData>;
 
@@ -733,6 +744,7 @@ async function completeRound(
   const answerKey = await getAnswerKey(question, supabaseAdmin);
   let isMatched = false;
   let correct: QuestionRound["correct"];
+  let similarity: number | undefined;
 
   if (answerKey) {
     const grades = await Promise.all(
@@ -750,6 +762,10 @@ async function completeRound(
     isMatched = grades.every(([, isCorrect]) => isCorrect);
   } else if (snapshot.settings.mode === "who_is_more_likely") {
     isMatched = picksAgree(answer1, answer2);
+  } else if (snapshot.settings.mode === "rank_it") {
+    similarity = rankingSimilarity(answer1, answer2, rankItemCount(question));
+    // "Matched" for rank_it = the exact same order.
+    isMatched = similarity === 100;
   } else if (answer1 === NO_ANSWER || answer2 === NO_ANSWER) {
     isMatched = false;
   } else if (isText) {
@@ -789,6 +805,7 @@ async function completeRound(
       current.correct = correct;
       current.correctAnswer = revealAnswer(answerKey);
     }
+    if (similarity !== undefined) current.similarity = similarity;
     room.totalQuestionsAnswered++;
     if (isMatched) room.matchScore++;
     room.players.forEach((player) => (player.hasAnswered = false));
@@ -815,6 +832,7 @@ async function completeRound(
     isMatched,
     isScored: true,
     questionType: isText ? "text" : "choice",
+    ...(similarity !== undefined && { similarity }),
     displayDuration,
     playerAnswers: room.players.map((player) => ({
       playerId: player.id,
@@ -1262,6 +1280,7 @@ io.on(
             supportsWhoIsMoreLikely(clientFeatures),
             await getCategoryMode(category, supabaseAdmin),
             supportsReactions(clientFeatures),
+            supportsRankIt(clientFeatures),
           );
           socket.join(room.roomCode);
 
@@ -1317,6 +1336,7 @@ io.on(
               supportsServerCoins(clientFeatures),
               supportsWhoIsMoreLikely(clientFeatures),
               supportsReactions(clientFeatures),
+              supportsRankIt(clientFeatures),
             ),
           );
 
@@ -1455,16 +1475,20 @@ io.on(
             supabaseAdmin,
           );
           const moreLikely = categoryMode === "who_is_more_likely";
+          const rankIt = categoryMode === "rank_it";
 
-          // Older builds would show these questions as yes/no.
-          if (
-            moreLikely &&
-            !room.players.every((p) => p.supportsWhoIsMoreLikely === true)
-          ) {
+          // Older builds would show these questions as yes/no or multiple choice.
+          const supportsMode = (p: Player) =>
+            moreLikely
+              ? p.supportsWhoIsMoreLikely === true
+              : rankIt
+                ? p.supportsRankIt === true
+                : true;
+          if (!room.players.every(supportsMode)) {
             socket.emit("room-error", {
               message:
                 "Everyone in the room needs the latest app version to play this category.",
-              code: player.supportsWhoIsMoreLikely
+              code: supportsMode(player)
                 ? "PARTNER_UPDATE_REQUIRED"
                 : "UPDATE_REQUIRED",
             });
@@ -1473,14 +1497,16 @@ io.on(
 
           const questions = await fetchRandomQuestions(
             room.settings.category,
-            room.settings.totalQuestions,
+            rankIt ? RANK_IT_QUESTION_COUNT : room.settings.totalQuestions,
             supabaseAdmin,
             {
-              // Votes are picks, never typed.
+              // Votes and rankings are picked, never typed.
               includeText:
                 !moreLikely &&
+                !rankIt &&
                 room.players.every((p) => p.supportsTextQuestions === true),
               appUserIds: roomAppUserIds(room),
+              rankable: rankIt,
             },
           );
 
@@ -1741,6 +1767,8 @@ io.on(
             playerAnswer = NO_ANSWER;
           } else if (room.settings.mode === "who_is_more_likely") {
             playerAnswer = isMoreLikelyPick(answer) ? answer : NO_ANSWER;
+          } else if (room.settings.mode === "rank_it") {
+            playerAnswer = parseRanking(answer, rankItemCount(question)) ?? NO_ANSWER;
           } else if (question.haveAnswers && question.answers) {
             const answerObject = findAnswerObject(answer, question);
             if (!answerObject && answer !== NO_ANSWER) {

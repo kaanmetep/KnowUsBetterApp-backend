@@ -26,6 +26,7 @@ export interface PlayerScore {
  * - who_knows_better: each player's correct answers
  * - who_is_more_likely: the tier for how often they agreed; the app counts
  *   the votes itself from the rounds
+ * - rank_it: the tier for the average similarity of their orders
  */
 export interface GameSummary {
   mode: GameMode;
@@ -135,11 +136,17 @@ export function summarizeGame(
 }
 
 /**
- * see_your_match weighs each round by its question's `matchWeight`; the other
- * modes (and rooms stored before modes existed count as see_your_match) count
- * every round once.
+ * see_your_match weighs each round by its question's `matchWeight`; rank_it
+ * averages the rounds' similarity; the other modes (and rooms stored before
+ * modes existed count as see_your_match) count every round once.
  */
 export function getGamePercentage(room: Room): number {
+  if (room.settings.mode === "rank_it") {
+    const scored = room.completedRounds.filter((round) => round.isScored !== false);
+    if (!scored.length) return 0;
+    const sum = scored.reduce((total, round) => total + (round.similarity ?? 0), 0);
+    return Math.round(sum / scored.length);
+  }
   const weighted = (room.settings.mode ?? "see_your_match") === "see_your_match";
   let matched = 0;
   let total = 0;

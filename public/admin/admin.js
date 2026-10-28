@@ -402,8 +402,17 @@
       );
     }
 
-    const kind =
-      q.question_type === "text"
+    const optionCount = q.answers?.answers_en?.length || 0;
+    const rankPlayable =
+      q.question_type === "choice" &&
+      q.have_answers &&
+      optionCount >= RANK_MIN_ANSWERS &&
+      optionCount <= RANK_MAX_ANSWERS;
+    const kind = isRankCategory(q.category_id)
+      ? rankPlayable
+        ? { cls: " mc", label: `Sıralama · ${optionCount} seçenek` }
+        : { cls: " warn", label: `⚠ Oyunda gösterilmez (${RANK_MIN_ANSWERS}-${RANK_MAX_ANSWERS} seçenek gerekli)` }
+      : q.question_type === "text"
         ? { cls: " text", label: "Yazılı cevap" }
         : q.have_answers
           ? { cls: " mc", label: "Çoktan seçmeli" }
@@ -501,6 +510,15 @@
     es: { flag: "🇪🇸", code: "ES" },
   };
   const MIN_ANSWERS = 2;
+  // Rank It questions are always multiple choice with this many options; the
+  // game skips the others.
+  const RANK_GROUP = "rank_it";
+  const RANK_MIN_ANSWERS = 3;
+  const RANK_MAX_ANSWERS = 5;
+
+  function isRankCategory(categoryId) {
+    return state.categories.find((c) => c.id === categoryId)?.group_id === RANK_GROUP;
+  }
 
   // Decorations AI output tends to add: "1.", "-", flag emojis, "EN:",
   // "Türkçe -" and wrapping quotes. The preview shows the cleaned value, which
@@ -547,6 +565,12 @@
     if (!lines.length) error = "Cevap yok";
     else if (remainder) error = `${lines.length} satır bulundu, ${LANGS.length}'ün katı olmalı (son cevap eksik)`;
     else if (groups.length < MIN_ANSWERS) error = `En az ${MIN_ANSWERS} cevap gerekli`;
+    else if (
+      isRankCategory($("f-category").value) &&
+      (groups.length < RANK_MIN_ANSWERS || groups.length > RANK_MAX_ANSWERS)
+    ) {
+      error = `Sırala Bakalım için ${RANK_MIN_ANSWERS}-${RANK_MAX_ANSWERS} seçenek gerekli (${groups.length} var)`;
+    }
     return { groups, error };
   }
 
@@ -677,11 +701,28 @@
   }
 
   // Trivia categories can't take a question without a correct answer, so the
-  // switch stays on (and locked) there.
+  // switch stays on (and locked) there. Rank It categories lock the form to
+  // multiple choice with 3-5 options and no correct answer.
   function setTrivia(on) {
-    const locked = isTriviaCategory($("f-category").value);
-    $("f-trivia").checked = on || locked;
-    $("f-trivia").disabled = locked;
+    const category = $("f-category").value;
+    const rank = isRankCategory(category);
+    const locked = isTriviaCategory(category);
+    if (rank) {
+      setTextQuestion(false);
+      setHaveAnswers(true);
+    }
+    $("f-text-question").disabled = rank;
+    $("f-have-answers").disabled = rank;
+    $("text-question-row").classList.toggle("hidden", rank);
+    $("have-answers-row").classList.toggle("hidden", rank || $("f-text-question").checked);
+    $("trivia-row").classList.toggle("hidden", rank);
+    $("rank-note").classList.toggle("hidden", !rank);
+    $("f-answers-label").textContent = rank
+      ? "Seçenekler · 3-5 tane · her biri 3 satır: 🇬🇧 EN → 🇹🇷 TR → 🇪🇸 ES"
+      : "Cevaplar · her cevap için 3 satır: 🇬🇧 EN → 🇹🇷 TR → 🇪🇸 ES";
+    $("f-trivia").checked = !rank && (on || locked);
+    $("f-trivia").disabled = rank || locked;
+    renderAnswersPreview();
     renderCorrectBox();
     renderWeightBox();
   }
@@ -696,7 +737,7 @@
   // its game mode, and anything but these plays as see your match.
 
   const DEFAULT_MATCH_WEIGHT = 5;
-  const NON_MATCH_GROUPS = ["know_each_other", "who_knows_better", "who_is_more_likely"];
+  const NON_MATCH_GROUPS = ["know_each_other", "who_knows_better", "who_is_more_likely", "rank_it"];
 
   function isMatchCategory(categoryId) {
     const category = state.categories.find((c) => c.id === categoryId);

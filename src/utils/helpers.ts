@@ -61,6 +61,8 @@ export interface ServerToClientEvents {
     isMatched: boolean;
     isScored: boolean;
     questionType: "choice" | "text";
+    /** rank_it only, 0-100. */
+    similarity?: number;
     displayDuration: number;
     playerAnswers: Array<{
       playerId: string;
@@ -259,6 +261,9 @@ export const TEXT_ANSWER_MAX_LENGTH = 30;
 export const HIDDEN_TEXT_ANSWER = "[[hidden]]";
 const DEFAULT_TEXT_QUESTION_DURATION = 30;
 const DEFAULT_TEXT_RESULT_DISPLAY_DURATION = 6;
+// Dragging a list into order takes longer than a tap, and the result shows two lists.
+const RANK_QUESTION_DURATION = 30;
+const RANK_RESULT_DISPLAY_DURATION = 10;
 
 export function isTextQuestion(question: Question | null | undefined): boolean {
   return question?.questionType === "text";
@@ -306,6 +311,7 @@ export function getQuestionDuration(
   settings: RoomSettings,
   question: Question | null | undefined,
 ): number {
+  if (settings.mode === "rank_it") return RANK_QUESTION_DURATION;
   return isTextQuestion(question)
     ? settings.textQuestionDuration ?? DEFAULT_TEXT_QUESTION_DURATION
     : settings.questionDuration;
@@ -315,6 +321,7 @@ export function getResultDisplayDuration(
   settings: RoomSettings,
   question: Question | null | undefined,
 ): number {
+  if (settings.mode === "rank_it") return RANK_RESULT_DISPLAY_DURATION;
   return isTextQuestion(question)
     ? settings.textResultDisplayDuration ?? DEFAULT_TEXT_RESULT_DISPLAY_DURATION
     : settings.resultDisplayDuration;

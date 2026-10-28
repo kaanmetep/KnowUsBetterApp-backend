@@ -2,6 +2,7 @@ import crypto from "crypto";
 import { getAdminPool } from "../utils/adminDb.js";
 import { AppError } from "../errors/AppError.js";
 import { MAX_MATCH_WEIGHT, MIN_MATCH_WEIGHT } from "../types.js";
+import { RANK_IT_MAX_ITEMS, RANK_IT_MIN_ITEMS } from "../utils/rankIt.js";
 
 const LANGS = ["en", "tr", "es"] as const;
 const MAX_TEXT_LENGTH = 500;
@@ -178,11 +179,31 @@ export function validateQuestionInput(body: any): QuestionInput {
 const toJsonb = (value: unknown) => (value == null ? null : JSON.stringify(value));
 
 async function assertValidCategory(input: QuestionInput): Promise<void> {
-  const { rowCount } = await getAdminPool().query("SELECT 1 FROM categories WHERE id = $1", [
+  const { rows } = await getAdminPool().query("SELECT group_id FROM categories WHERE id = $1", [
     input.category_id,
   ]);
-  if (!rowCount) {
+  if (!rows.length) {
     throw new AppError(`Unknown category: ${input.category_id}`, 400, "VALIDATION_ERROR");
+  }
+  if (rows[0].group_id === "rank_it") {
+    const count = input.answers?.answers_en.length ?? 0;
+    if (input.question_type !== "choice" || !input.have_answers || !input.answers) {
+      throw new AppError("Rank It questions must be multiple choice", 400, "VALIDATION_ERROR");
+    }
+    if (count < RANK_IT_MIN_ITEMS || count > RANK_IT_MAX_ITEMS) {
+      throw new AppError(
+        `Rank It questions need ${RANK_IT_MIN_ITEMS}-${RANK_IT_MAX_ITEMS} answers`,
+        400,
+        "VALIDATION_ERROR",
+      );
+    }
+    if (input.correct_answer != null || input.match_weight != null) {
+      throw new AppError(
+        "Rank It questions can't have a correct_answer or match_weight",
+        400,
+        "VALIDATION_ERROR",
+      );
+    }
   }
   if (TRIVIA_CATEGORY_IDS.includes(input.category_id) && input.correct_answer == null) {
     throw new AppError(

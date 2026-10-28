@@ -110,6 +110,7 @@
       .badge.mc { color: var(--accent); }
       .badge.text { color: #5b7db8; }
       .badge.trivia { color: #0f8b8d; }
+      .badge.warn { color: var(--danger); }
       #f-correct-choice, #f-weight { width: 100%; }
       .q-line { margin: 4px 0; overflow-wrap: anywhere; }
       .q-line .lang { display: inline-block; width: 26px; color: var(--muted); font-size: 12px; font-weight: 700; }
@@ -287,7 +288,13 @@
             ></textarea>
             <div id="texts-preview" class="preview"></div>
 
-            <div class="toggle">
+            <div id="rank-note" class="preview hidden">
+              <div class="preview-status ok" style="font-weight:500; line-height:1.45">
+                Sırala Bakalım: çoktan seçmeli, 3-5 seçenek. Oyuncular seçenekleri sürükleyip sıralar; oyunda karışık sırayla gelir, yazdığın sıra önemli değil. Sıralamanın yönünü soruda söyle ("en önemliden en önemsize").
+              </div>
+            </div>
+
+            <div id="text-question-row" class="toggle">
               <span>Yazılı cevap (oyuncular input'a yazar)</span>
               <div class="toggle-controls">
                 <label class="pin" title="Soru eklenince bu ayar aynı kalsın">
@@ -316,7 +323,7 @@
             </div>
 
             <div id="answers-box" class="hidden">
-              <label for="f-answers">Cevaplar · her cevap için 3 satır: 🇬🇧 EN → 🇹🇷 TR → 🇪🇸 ES</label>
+              <label id="f-answers-label" for="f-answers">Cevaplar · her cevap için 3 satır: 🇬🇧 EN → 🇹🇷 TR → 🇪🇸 ES</label>
               <textarea
                 id="f-answers"
                 rows="8"
@@ -327,7 +334,7 @@
               <div id="answers-preview" class="preview"></div>
             </div>
 
-            <div class="toggle">
+            <div id="trivia-row" class="toggle">
               <span>Bilgi yarışması (doğru cevabı var)</span>
               <div class="toggle-controls">
                 <label class="pin" title="Soru eklenince bu ayar aynı kalsın">

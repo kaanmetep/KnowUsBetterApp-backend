@@ -15,12 +15,15 @@ export const CLIENT_FEATURE_SERVER_COINS = "server_coins";
 export const CLIENT_FEATURE_WHO_IS_MORE_LIKELY = "who_is_more_likely";
 // Builds that show reactions; nobody pays for one their partner can't see.
 export const CLIENT_FEATURE_REACTIONS = "reactions";
+// Builds that can show the rank_it drag-to-order list; older ones would show multiple choice.
+export const CLIENT_FEATURE_RANK_IT = "rank_it";
 
 export type GameMode =
   | "see_your_match"
   | "know_each_other"
   | "who_knows_better"
-  | "who_is_more_likely";
+  | "who_is_more_likely"
+  | "rank_it";
 
 /** Weight of a see_your_match question with no `match_weight` set (range 1-10). */
 export const DEFAULT_MATCH_WEIGHT = 5;
@@ -71,6 +74,8 @@ export interface QuestionRound {
   // Trivia only, filled in when the round completes.
   correct?: { [playerId: string]: boolean };
   correctAnswer?: RevealedAnswer;
+  /** rank_it only: how close the two orders were, 0-100 (see utils/rankIt). */
+  similarity?: number;
   status: "waiting_answers" | "completed";
   /** Server time the round was sent out; tells apart rounds of the same question in replays. */
   startedAt?: number;
@@ -88,6 +93,7 @@ export interface Player {
   supportsServerCoins?: boolean;
   supportsWhoIsMoreLikely?: boolean;
   supportsReactions?: boolean;
+  supportsRankIt?: boolean;
 }
 
 export interface RoomSettings {

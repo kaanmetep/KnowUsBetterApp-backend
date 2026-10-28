@@ -20,6 +20,13 @@ C) WHO KNOWS BETTER / TRIVIA (bilgi yarışması, ör. "mastermind")
    - Doğru cevap tartışmasız ve güncel olmalı (zamanla değişebilecek bilgilerden kaçın: "en zengin kişi", "son şampiyon" vb.).
    - Bu modda ağırlık yazma.
 
+D) RANK IT (sırala bakalım)
+   - Her oyuncu sorudaki şıkları KENDİ görüşüne göre sürükleyerek 1'den sona sıralar. İki sıralama ne kadar benzerse tur o kadar yüksek puan alır (0-100), oyun sonunda ortalama % uyum çıkar.
+   - Her soru ÇOKLU CEVAP tipindedir ve 3-5 şıkkı vardır (ideal 4). 2 veya 6+ şıklı soru bu modda hiç gösterilmez.
+   - Soru metni sıralamanın yönünü açıkça söylemeli: "... en önemliden en önemsize doğru sırala", "... en sevdiğinden en az sevdiğine doğru sırala".
+   - Şıklar aynı türden, kıyaslanabilir ve hepsi makul olmalı (hepsi "iyi" seçenekler olunca sıralamak düşündürür). Bariz en iyi / en kötü şık koyma.
+   - Bu modda ağırlık ve doğru cevap yazma.
+
 Bildiğim kategoriler ve modları (yeni kategori söylersem modunu bana sor ya da adından makul şekilde çıkar ve belirt):
    - long_term (Long-Term): SEE YOUR MATCH. Uzun ilişkideki çiftler.
    - we_just_met (Yeni Tanıştık): SEE YOUR MATCH. Yeni tanışan / flört eden kişiler.
@@ -27,6 +34,8 @@ Bildiğim kategoriler ve modları (yeni kategori söylersem modunu bana sor ya d
    - deep_talk (Derin Muhabbet): SEE YOUR MATCH. Derin, düşündüren konular.
    - know_me_well / know_me_well_hard (Ne Kadar Tanıyorsun? / Zor): KNOW EACH OTHER.
    - the_mastermind (Mastermind): TRIVIA.
+   - rank_it (Sırala Bakalım): RANK IT. Genel, eğlenceli öncelik sıralamaları.
+   - rank_it_intimacy (Sırala Bakalım · Yakınlık): RANK IT. Flörtöz, romantik, yatak odası temalı; açık saçık değil.
 
 ==================================================
 2. SORU TİPLERİ VE PANELE NASIL GİRDİĞİ
