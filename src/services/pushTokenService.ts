@@ -1,4 +1,5 @@
 import { SupabaseClient } from "@supabase/supabase-js";
+import pg from "pg";
 import { AppError } from "../errors/AppError.js";
 import {
   PUSH_LANGUAGES,
@@ -106,6 +107,90 @@ export async function getActiveIosTokensPage(
   }
 
   return ((data as PushTokenRow[] | null) ?? []).map((row) => row.token);
+}
+
+/**
+ * Where a push send reads and cleans up tokens. The app-facing routes use the
+ * Supabase client; the admin panel uses DATABASE_URL like its other tools.
+ */
+export interface PushTokenStore {
+  getActiveIosTokensPage(filter: TokenFilter, page: number, pageSize: number): Promise<string[]>;
+  deactivateTokens(tokens: string[]): Promise<number>;
+  countActiveIosTokensByLanguage(): Promise<Record<PushLanguage, number>>;
+}
+
+export function supabaseTokenStore(supabaseAdmin: SupabaseClient): PushTokenStore {
+  return {
+    getActiveIosTokensPage: (filter, page, pageSize) =>
+      getActiveIosTokensPage(supabaseAdmin, filter, page, pageSize),
+    deactivateTokens: (tokens) => deactivateTokens(supabaseAdmin, tokens),
+    countActiveIosTokensByLanguage: () => countActiveIosTokensByLanguage(supabaseAdmin),
+  };
+}
+
+// Only the admin panel uses the pg store, so the cause is safe to show.
+function dbError(message: string, error: unknown): AppError {
+  const cause = error instanceof Error ? error.message : String(error);
+  return new AppError(`${message}: ${cause}`, 500, "DB_ERROR", { cause });
+}
+
+export function pgTokenStore(pool: pg.Pool): PushTokenStore {
+  return {
+    async getActiveIosTokensPage(filter, page, pageSize) {
+      const params: unknown[] = [filter.language, pageSize, page * pageSize];
+      let userClause = "";
+      if (filter.appUserId) {
+        params.push(filter.appUserId);
+        userClause = `AND app_user_id = $${params.length}`;
+      }
+      try {
+        const { rows } = await pool.query<PushTokenRow>(
+          `SELECT token FROM push_tokens
+            WHERE platform = 'ios' AND is_active AND language = $1 ${userClause}
+            ORDER BY created_at, id
+            LIMIT $2 OFFSET $3`,
+          params,
+        );
+        return rows.map((row) => row.token);
+      } catch (error) {
+        throw dbError("Failed to fetch active tokens", error);
+      }
+    },
+
+    async deactivateTokens(tokens) {
+      if (!tokens.length) return 0;
+      try {
+        const { rowCount } = await pool.query(
+          `UPDATE push_tokens SET is_active = false, updated_at = now()
+            WHERE token = ANY($1) AND is_active`,
+          [tokens],
+        );
+        return rowCount ?? 0;
+      } catch (error) {
+        throw dbError("Failed to deactivate invalid tokens", error);
+      }
+    },
+
+    async countActiveIosTokensByLanguage() {
+      try {
+        const { rows } = await pool.query<{ language: string; count: number }>(
+          `SELECT language, COUNT(*)::int AS count FROM push_tokens
+            WHERE platform = 'ios' AND is_active
+            GROUP BY language`,
+        );
+        const counts = Object.fromEntries(PUSH_LANGUAGES.map((l) => [l, 0])) as Record<
+          PushLanguage,
+          number
+        >;
+        for (const row of rows) {
+          if (isPushLanguage(row.language)) counts[row.language] = row.count;
+        }
+        return counts;
+      } catch (error) {
+        throw dbError("Failed to count active tokens", error);
+      }
+    },
+  };
 }
 
 export async function countActiveIosTokensByLanguage(

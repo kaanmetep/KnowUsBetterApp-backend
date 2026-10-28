@@ -1,6 +1,5 @@
 import path from "path";
 import express, { NextFunction, Request, Response, Router } from "express";
-import { SupabaseClient } from "@supabase/supabase-js";
 import { createRateLimiter } from "../middleware/rateLimiter.js";
 import { AppError, toErrorResponse } from "../errors/AppError.js";
 import { logger } from "../utils/logger.js";
@@ -34,7 +33,8 @@ import {
   parseAdminPushRequest,
   sendLocalizedPush,
 } from "../services/notificationService.js";
-import { countActiveIosTokensByLanguage } from "../services/pushTokenService.js";
+import { pgTokenStore } from "../services/pushTokenService.js";
+import { getAdminPool } from "../utils/adminDb.js";
 
 const COOKIE_NAME = "kub_admin";
 const STATIC_DIR = path.resolve(process.cwd(), "public/admin");
@@ -203,7 +203,7 @@ async function assertCanRegister(req: Request): Promise<void> {
   }
 }
 
-export function createAdminPanelRouter(supabaseAdmin: SupabaseClient | null): Router {
+export function createAdminPanelRouter(): Router {
   const router = Router();
 
   if (process.env.ADMIN_LOCAL_BYPASS === "true" && process.env.NODE_ENV !== "production") {
@@ -392,28 +392,29 @@ export function createAdminPanelRouter(supabaseAdmin: SupabaseClient | null): Ro
     }),
   );
 
-  function requireSupabase(): SupabaseClient {
-    if (!supabaseAdmin) {
-      throw new AppError("Supabase is not configured", 503, "SUPABASE_NOT_CONFIGURED");
-    }
-    return supabaseAdmin;
-  }
+  // Same database as the question tools (DATABASE_URL), so a local panel
+  // pointed at prod reaches prod devices.
+  const tokenStore = () => pgTokenStore(getAdminPool());
 
   api.get(
     "/notifications/audience",
     handle(async (_req, res) => {
-      res.json({ byLanguage: await countActiveIosTokensByLanguage(requireSupabase()) });
+      res.json({ byLanguage: await tokenStore().countActiveIosTokensByLanguage() });
     }),
   );
 
   // Sending to a single appUserId is a test send and skips Face ID; a
-  // broadcast needs a fresh step-up like an SQL apply.
+  // broadcast needs a fresh step-up like an SQL apply. A broadcast must also
+  // be asked for explicitly, so a test send that lost its appUserId can't
+  // reach everyone (the local bypass skips Face ID).
   api.post(
     "/notifications/send",
     pushRateLimiter,
     handle(async (req, res) => {
-      const client = requireSupabase();
       const payload = parseAdminPushRequest(req.body);
+      if (!payload.appUserId && req.body?.broadcast !== true) {
+        throw new AppError("appUserId is required for a test send", 400, "VALIDATION_ERROR");
+      }
       if (
         !payload.appUserId &&
         !res.locals.localBypass &&
@@ -421,7 +422,7 @@ export function createAdminPanelRouter(supabaseAdmin: SupabaseClient | null): Ro
       ) {
         throw new AppError("Face ID confirmation required", 403, "STEP_UP_REQUIRED");
       }
-      const summary = await sendLocalizedPush(client, payload);
+      const summary = await sendLocalizedPush(tokenStore(), payload);
       logger.info("Admin sent push notification", {
         type: payload.data.type,
         categoryId: payload.data.categoryId,

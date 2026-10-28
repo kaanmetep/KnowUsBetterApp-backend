@@ -8,6 +8,7 @@ import {
   parseAdminPushRequest,
   sendLocalizedPush,
 } from "../services/notificationService.js";
+import { supabaseTokenStore } from "../services/pushTokenService.js";
 import { AdminPushRequest } from "../types/notifications.js";
 
 const adminPushRateLimiter = createRateLimiter(
@@ -28,7 +29,7 @@ export function createAdminNotificationsRouter(
     async (req: Request, res: Response) => {
       try {
         const payload = parseAdminPushRequest(req.body as AdminPushRequest);
-        const summary = await sendLocalizedPush(supabaseAdmin, payload);
+        const summary = await sendLocalizedPush(supabaseTokenStore(supabaseAdmin), payload);
 
         res.status(200).json({
           success: true,

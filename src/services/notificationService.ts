@@ -1,4 +1,3 @@
-import { SupabaseClient } from "@supabase/supabase-js";
 import { AppError } from "../errors/AppError.js";
 import { logger } from "../utils/logger.js";
 import {
@@ -12,10 +11,7 @@ import {
   TokenSendResult,
 } from "../types/notifications.js";
 import { ApnsService, isInvalidTokenReason } from "./apnsService.js";
-import {
-  deactivateTokens,
-  getActiveIosTokensPage,
-} from "./pushTokenService.js";
+import { PushTokenStore } from "./pushTokenService.js";
 
 // APNs rejects payloads over 4 KB; these keep a full alert well under it.
 const MAX_TITLE_LENGTH = 120;
@@ -116,7 +112,7 @@ export function parseAdminPushRequest(raw: AdminPushRequest): LocalizedPushInput
 }
 
 export async function sendLocalizedPush(
-  supabaseAdmin: SupabaseClient,
+  store: PushTokenStore,
   payload: LocalizedPushInput,
   options?: SendOptions,
 ): Promise<PushDispatchSummary> {
@@ -146,8 +142,7 @@ export async function sendLocalizedPush(
       summary.byLanguage[language] = languageSummary;
 
       for (let page = 0; ; page += 1) {
-        const tokens = await getActiveIosTokensPage(
-          supabaseAdmin,
+        const tokens = await store.getActiveIosTokensPage(
           { language, appUserId: payload.appUserId },
           page,
           pageSize,
@@ -180,10 +175,7 @@ export async function sendLocalizedPush(
       summary.totalFailure += languageSummary.totalFailure;
     }
 
-    summary.invalidatedTokenCount = await deactivateTokens(
-      supabaseAdmin,
-      Array.from(invalidTokens),
-    );
+    summary.invalidatedTokenCount = await store.deactivateTokens(Array.from(invalidTokens));
 
     logger.info("Push dispatch finished", {
       totalTokens: summary.totalTokens,

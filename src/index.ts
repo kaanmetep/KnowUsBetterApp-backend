@@ -213,7 +213,7 @@ if (supabaseAdmin) {
 // Question admin panel (passkey protected). Unguessable path keeps scanners away.
 const ADMIN_PATH = process.env.ADMIN_PATH?.replace(/\/+$/, "");
 if (ADMIN_PATH && /^\/[A-Za-z0-9_-]{8,}$/.test(ADMIN_PATH) && process.env.DATABASE_URL) {
-  app.use(ADMIN_PATH, createAdminPanelRouter(supabaseAdmin));
+  app.use(ADMIN_PATH, createAdminPanelRouter());
   logger.info("Admin panel enabled");
 } else if (ADMIN_PATH || process.env.DATABASE_URL) {
   logger.warn(

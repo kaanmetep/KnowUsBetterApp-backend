@@ -1165,13 +1165,20 @@ RETURNING id, category_id, texts;`;
       const audience = state.pushAudience;
       const filled = LANGS.filter((lang) => body.texts[lang].title);
       const reach = audience ? filled.reduce((sum, lang) => sum + (audience[lang] || 0), 0) : "?";
-      const target = state.localBypass ? "LOKAL backend'in bağlı olduğu" : "PROD";
+      const target = state.localBypass ? ".env DATABASE_URL veritabanındaki" : "PROD";
       const summaryText = filled
         .map((lang) => `${LANG_META[lang].code}: ${body.texts[lang].title}`)
         .join("\n");
-      if (!confirm(`${target} kullanıcılarına ${reach} cihaza bildirim gidecek:\n\n${summaryText}\n\nEmin misin?`)) return;
+      const typed = prompt(
+        `${target} kullanıcılarına ${reach} cihaza bildirim gidecek:\n\n${summaryText}\n\nEmin misin? Göndermek için HERKESE yaz:`,
+      );
+      if (typed === null) return;
+      if (typed.trim().toLocaleUpperCase("tr") !== "HERKESE") {
+        toast("Gönderilmedi: onay metni eşleşmedi", true);
+        return;
+      }
       if (!state.localBypass) await passkeyAssertion("step-up");
-      await sendPush(body, "Gönderildi");
+      await sendPush({ ...body, broadcast: true }, "Gönderildi");
       toast("Bildirim gönderildi");
       loadPushAudience().catch(() => {});
     }),
