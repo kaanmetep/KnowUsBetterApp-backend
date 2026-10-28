@@ -170,7 +170,7 @@
       table { border-collapse: collapse; font: 12px/1.4 ui-monospace, Menlo, monospace; min-width: 100%; }
       th, td { padding: 6px 8px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; max-width: 280px; overflow-wrap: anywhere; }
       th { background: var(--panel-2); position: sticky; top: 0; }
-      .banner { padding: 10px 12px; border-radius: 10px; font-weight: 600; font-size: 14px; margin-top: 12px; }
+      .banner { padding: 10px 12px; border-radius: 10px; font-weight: 600; font-size: 14px; margin-top: 12px; white-space: pre-wrap; }
       .banner.ok { background: rgba(74, 222, 128, .12); color: var(--ok); }
       .banner.warn { background: rgba(251, 191, 36, .12); color: var(--warn); }
       .banner.err { background: rgba(255, 107, 107, .12); color: var(--danger); white-space: pre-wrap; }
@@ -187,6 +187,10 @@
       .list-tools { display: flex; gap: 8px; margin-top: 10px; }
       .list-tools input { flex: 1; min-width: 0; }
       .list-tools .btn { flex: 0 0 auto; white-space: nowrap; }
+      .push-lang { margin-top: 16px; padding-top: 4px; border-top: 1px solid var(--border); }
+      .push-lang-head { display: flex; justify-content: space-between; align-items: baseline; margin-top: 12px; font-weight: 700; }
+      .push-lang-head .muted { font-weight: 500; }
+      .push-lang textarea { margin-top: 8px; min-height: 72px; }
 
       @media (max-width: 520px) {
         .wrap { padding: 0 12px; }
@@ -236,6 +240,7 @@
             <button class="tab active" data-tab="list">Sorular</button>
             <button class="tab" data-tab="form">Ekle</button>
             <button class="tab" data-tab="sql">SQL</button>
+            <button class="tab" data-tab="push">Bildirim</button>
           </nav>
         </div>
       </header>
@@ -380,6 +385,48 @@
             </div>
           </div>
           <div id="sql-results" class="results"></div>
+        </section>
+
+        <section id="tab-push" class="hidden">
+          <div class="card">
+            <div class="stats-top">
+              <strong style="flex:1">Bildirim izni veren cihazlar</strong>
+              <button id="btn-push-refresh" type="button" class="btn small ghost" style="flex:0 0 auto">Yenile</button>
+            </div>
+            <div id="push-audience" class="stat-cats"></div>
+          </div>
+
+          <form id="push-form" class="card" novalidate>
+            <strong>Bildirim gönder</strong>
+            <p class="muted" style="margin:6px 0 0">
+              Her kullanıcı kendi dilindeki metni alır. Boş bıraktığın dildeki kullanıcılara bildirim gitmez.
+            </p>
+
+            <label for="p-type">Tip · tıklanınca ne olsun?</label>
+            <select id="p-type">
+              <option value="general">Genel duyuru · uygulamayı açar</option>
+              <option value="new_questions">Yeni sorular · oda oluşturmayı açar</option>
+              <option value="new_category">Yeni kategori · oda oluşturmayı kategori seçili açar</option>
+            </select>
+
+            <div id="p-category-box" class="hidden">
+              <label id="p-category-label" for="p-category">Kategori</label>
+              <select id="p-category"></select>
+            </div>
+
+            <div id="p-texts"></div>
+
+            <div id="push-preview" class="preview"></div>
+
+            <label for="p-app-user">Test · tek kullanıcı (uygulamada Ayarlar → User ID)</label>
+            <input id="p-app-user" type="text" placeholder="User ID" autocomplete="off" autocapitalize="off" spellcheck="false" />
+
+            <div class="row" style="margin-top:20px">
+              <button id="btn-push-test" type="button" class="btn">Teste gönder</button>
+              <button id="btn-push-send" type="button" class="btn primary">Herkese gönder (Face ID)</button>
+            </div>
+          </form>
+          <div id="push-results" class="results"></div>
         </section>
       </main>
     </section>
