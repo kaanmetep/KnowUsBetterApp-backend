@@ -64,7 +64,9 @@ export class ApnsService {
       body: payload.body,
     };
     notification.sound = "default";
-    notification.payload = payload.data ?? {};
+    // expo-notifications exposes a remote notification's `data` from the
+    // payload's "body" key and ignores the other custom keys.
+    notification.payload = { body: payload.data ?? {} };
 
     const response = await this.provider.send(notification, token);
     const failed = response.failed[0];

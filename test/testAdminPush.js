@@ -49,6 +49,7 @@ async function registerTokenIfProvided() {
       token: iosTestDeviceToken,
       platform: "ios",
       provider: "apns",
+      language: process.env.PUSH_TEST_LANGUAGE || "tr",
     }),
   });
 
@@ -69,16 +70,24 @@ async function run() {
   await registerTokenIfProvided();
 
   const newQuestionsPayload = {
-    title: "Test Push",
-    body: "Backend push test mesaji",
+    texts: {
+      en: { title: "Test Push", body: "Backend push test message" },
+      tr: { title: "Test Push", body: "Backend push test mesaji" },
+      es: { title: "Test Push", body: "Mensaje de prueba del backend" },
+    },
     type: "new_questions",
+    appUserId,
   };
 
   const newCategoryPayload = {
-    title: "Yeni kategori",
-    body: "deep_talk kategorisine yeni icerik geldi",
+    texts: {
+      en: { title: "New category", body: "New content in deep_talk" },
+      tr: { title: "Yeni kategori", body: "deep_talk kategorisine yeni icerik geldi" },
+      es: { title: "Nueva categoría", body: "Nuevo contenido en deep_talk" },
+    },
     type: "new_category",
     categoryId: "deep_talk",
+    appUserId,
   };
 
   const result1 = await postNewContent(newQuestionsPayload);

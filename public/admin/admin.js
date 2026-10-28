@@ -14,6 +14,7 @@
     editingId: null,
     localBypass: false,
     pinnedToggles: null,
+    pushAudience: null,
   };
 
   // ---------- helpers ----------
@@ -183,7 +184,7 @@
     document.querySelectorAll(".tab").forEach((tab) => {
       tab.classList.toggle("active", tab.dataset.tab === name);
     });
-    for (const key of ["list", "form", "sql"]) {
+    for (const key of ["list", "form", "sql", "push"]) {
       $(`tab-${key}`).classList.toggle("hidden", key !== name);
     }
     window.scrollTo({ top: 0 });
@@ -192,6 +193,7 @@
   document.querySelectorAll(".tab").forEach((tab) => {
     tab.addEventListener("click", () => {
       if (tab.dataset.tab === "form" && state.editingId === null) resetForm();
+      if (tab.dataset.tab === "push") loadPushAudience().catch((err) => toast(err.message, true));
       switchTab(tab.dataset.tab);
     });
   });
@@ -206,6 +208,7 @@
     }
     renderChips();
     renderCategorySelect();
+    renderPushCategories();
     renderStats();
   }
 
@@ -970,6 +973,207 @@ RETURNING id, category_id, texts;`;
       toast("SQL uygulandı");
       await loadCategories().catch(() => {});
       if (state.currentCategory) await loadQuestions().catch(() => {});
+    }),
+  );
+
+  // ---------- push notifications ----------
+  // Each language with a title and body goes to that language's users only;
+  // a language left empty is skipped. Limits match the backend's.
+
+  const PUSH_MAX_TITLE = 120;
+  const PUSH_MAX_BODY = 600;
+  const PUSH_TYPE_LABELS = {
+    general: "Genel duyuru",
+    new_questions: "Yeni sorular",
+    new_category: "Yeni kategori",
+  };
+
+  $("p-texts").replaceChildren(
+    ...LANGS.map((lang) => {
+      const meta = LANG_META[lang];
+      return el("div", { class: "push-lang" }, [
+        el("div", { class: "push-lang-head" }, [
+          el("span", { text: `${meta.flag} ${meta.code}` }),
+          el("span", { id: `p-count-${lang}`, class: "muted" }),
+        ]),
+        el("input", {
+          id: `p-title-${lang}`,
+          type: "text",
+          placeholder: "Başlık",
+          maxlength: String(PUSH_MAX_TITLE),
+          autocomplete: "off",
+        }),
+        el("textarea", {
+          id: `p-body-${lang}`,
+          rows: "3",
+          placeholder: "Mesaj",
+          maxlength: String(PUSH_MAX_BODY),
+        }),
+      ]);
+    }),
+  );
+
+  function renderPushCategories() {
+    const select = $("p-category");
+    const previous = select.value;
+    select.replaceChildren(
+      el("option", { value: "", text: "— kategori yok —" }),
+      ...state.categories.map((category) =>
+        el("option", { value: category.id, text: `${categoryLabel(category)} (${category.id})` }),
+      ),
+    );
+    select.value = previous;
+  }
+
+  function renderPushType() {
+    const type = $("p-type").value;
+    $("p-category-box").classList.toggle("hidden", type === "general");
+    $("p-category-label").textContent =
+      type === "new_category" ? "Kategori (zorunlu)" : "Kategori (opsiyonel · seçili açılır)";
+    renderPushPreview();
+  }
+
+  async function loadPushAudience() {
+    const { byLanguage } = await api("notifications/audience");
+    state.pushAudience = byLanguage;
+    const total = LANGS.reduce((sum, lang) => sum + (byLanguage[lang] || 0), 0);
+    $("push-audience").replaceChildren(
+      ...LANGS.map((lang) =>
+        el("div", { class: "stat-cat" }, [
+          el("span", { class: "name", text: `${LANG_META[lang].flag} ${LANG_META[lang].code}` }),
+          el("span", { class: "num", text: byLanguage[lang] ?? 0 }),
+        ]),
+      ),
+      el("div", { class: "stat-cat active" }, [
+        el("span", { class: "name", text: "Toplam" }),
+        el("span", { class: "num", text: total }),
+      ]),
+    );
+    renderPushPreview();
+  }
+
+  function readPushTexts() {
+    return Object.fromEntries(
+      LANGS.map((lang) => [
+        lang,
+        { title: $(`p-title-${lang}`).value.trim(), body: $(`p-body-${lang}`).value.trim() },
+      ]),
+    );
+  }
+
+  function renderPushPreview() {
+    const texts = readPushTexts();
+    const audience = state.pushAudience;
+    for (const lang of LANGS) {
+      const { title, body } = texts[lang];
+      const count = audience ? `${audience[lang] ?? 0} cihaz` : "";
+      const status = !title && !body ? "gönderilmeyecek" : !title || !body ? "başlık ve mesaj gerekli" : "";
+      $(`p-count-${lang}`).textContent = [count, status].filter(Boolean).join(" · ");
+    }
+
+    const filled = LANGS.filter((lang) => texts[lang].title && texts[lang].body);
+    const skipped = LANGS.filter((lang) => !filled.includes(lang));
+    const box = $("push-preview");
+    if (!filled.length) return box.replaceChildren();
+
+    const reach = audience ? filled.reduce((sum, lang) => sum + (audience[lang] || 0), 0) : null;
+    const lines = [
+      `${PUSH_TYPE_LABELS[$("p-type").value]} → ${filled.map((l) => LANG_META[l].code).join(", ")}${reach == null ? "" : ` · ${reach} cihaz`}`,
+    ];
+    if (skipped.length) {
+      lines.push(`${skipped.map((l) => LANG_META[l].code).join(", ")} kullanıcılarına gitmeyecek`);
+    }
+    box.replaceChildren(
+      el("div", { class: `banner ${skipped.length ? "warn" : "ok"}`, text: lines.join("\n") }),
+    );
+  }
+
+  $("p-type").addEventListener("change", renderPushType);
+  $("p-texts").addEventListener("input", renderPushPreview);
+  renderPushType();
+
+  function collectPush(appUserId) {
+    const texts = readPushTexts();
+    for (const lang of LANGS) {
+      const { title, body } = texts[lang];
+      if (Boolean(title) !== Boolean(body)) {
+        throw new Error(`${LANG_META[lang].code}: başlık ve mesajın ikisi de dolu olmalı`);
+      }
+    }
+    if (!LANGS.some((lang) => texts[lang].title)) throw new Error("En az bir dil doldurulmalı");
+
+    const type = $("p-type").value;
+    const categoryId = type === "general" ? "" : $("p-category").value;
+    if (type === "new_category" && !categoryId) throw new Error("Kategori seçilmedi");
+
+    return {
+      type,
+      texts,
+      ...(categoryId ? { categoryId } : {}),
+      ...(appUserId ? { appUserId } : {}),
+    };
+  }
+
+  function renderPushResult(summary, target) {
+    const perLanguage = LANGS.filter((lang) => summary.byLanguage?.[lang])
+      .map((lang) => {
+        const s = summary.byLanguage[lang];
+        return `${LANG_META[lang].code}: ${s.totalSuccess}/${s.totalTokens}`;
+      })
+      .join(" · ");
+    const lines = [
+      `✓ ${target}: ${summary.totalSuccess} başarılı, ${summary.totalFailure} başarısız (${summary.totalTokens} cihaz)`,
+      perLanguage,
+      summary.invalidatedTokenCount ? `${summary.invalidatedTokenCount} geçersiz token pasif yapıldı` : "",
+      summary.totalTokens === 0 ? "Hiç cihaz bulunamadı (dil veya appUserId eşleşmedi)" : "",
+    ].filter(Boolean);
+    $("push-results").replaceChildren(
+      el("div", { class: `banner ${summary.totalFailure || !summary.totalTokens ? "warn" : "ok"}`, text: lines.join("\n") }),
+    );
+  }
+
+  async function sendPush(body, target) {
+    try {
+      const { summary } = await api("notifications/send", { method: "POST", body });
+      renderPushResult(summary, target);
+      return summary;
+    } catch (err) {
+      $("push-results").replaceChildren(el("div", { class: "banner err", text: err.message }));
+      throw err;
+    }
+  }
+
+  $("btn-push-refresh").addEventListener(
+    "click",
+    withBusy($("btn-push-refresh"), loadPushAudience),
+  );
+
+  $("btn-push-test").addEventListener(
+    "click",
+    withBusy($("btn-push-test"), async () => {
+      const appUserId = $("p-app-user").value.trim();
+      if (!appUserId) throw new Error("Test için appUserId gir");
+      await sendPush(collectPush(appUserId), "Test");
+      toast("Test bildirimi gönderildi");
+    }),
+  );
+
+  $("btn-push-send").addEventListener(
+    "click",
+    withBusy($("btn-push-send"), async () => {
+      const body = collectPush(null);
+      const audience = state.pushAudience;
+      const filled = LANGS.filter((lang) => body.texts[lang].title);
+      const reach = audience ? filled.reduce((sum, lang) => sum + (audience[lang] || 0), 0) : "?";
+      const target = state.localBypass ? "LOKAL backend'in bağlı olduğu" : "PROD";
+      const summaryText = filled
+        .map((lang) => `${LANG_META[lang].code}: ${body.texts[lang].title}`)
+        .join("\n");
+      if (!confirm(`${target} kullanıcılarına ${reach} cihaza bildirim gidecek:\n\n${summaryText}\n\nEmin misin?`)) return;
+      if (!state.localBypass) await passkeyAssertion("step-up");
+      await sendPush(body, "Gönderildi");
+      toast("Bildirim gönderildi");
+      loadPushAudience().catch(() => {});
     }),
   );
 

@@ -7,7 +7,7 @@
 import OpenAI from "openai";
 
 const MODERATION_MODEL = "omni-moderation-latest";
-const MODERATION_TIMEOUT_MS = 1500;
+const MODERATION_TIMEOUT_MS = 2500;
 
 /**
  * Plain "harassment" is left out and "violence" only counts above a high score:

@@ -11,7 +11,9 @@ import type { Question } from "../types.js";
 // Must be a GPT-5-family model: the request uses reasoning_effort and
 // max_completion_tokens, which older models (gpt-4o, gpt-4.1) reject.
 const MATCH_MODEL = process.env.TEXT_MATCH_MODEL || "gpt-5.4-nano";
-const MATCH_TIMEOUT_MS = 2000;
+// Must stay well under ROUND_GRACE_SECONDS (index.ts): a typed answer is only
+// saved once moderation and this check return.
+const MATCH_TIMEOUT_MS = 3000;
 
 const SYSTEM_PROMPT = `You judge a couples' quiz. Two players typed short answers to the same question; decide if the answers MATCH.
 

@@ -1,5 +1,6 @@
 import path from "path";
 import express, { NextFunction, Request, Response, Router } from "express";
+import { SupabaseClient } from "@supabase/supabase-js";
 import { createRateLimiter } from "../middleware/rateLimiter.js";
 import { AppError, toErrorResponse } from "../errors/AppError.js";
 import { logger } from "../utils/logger.js";
@@ -29,6 +30,11 @@ import {
   validateQuestionInput,
 } from "../services/adminQuestionService.js";
 import { runSql } from "../services/adminSqlService.js";
+import {
+  parseAdminPushRequest,
+  sendLocalizedPush,
+} from "../services/notificationService.js";
+import { countActiveIosTokensByLanguage } from "../services/pushTokenService.js";
 
 const COOKIE_NAME = "kub_admin";
 const STATIC_DIR = path.resolve(process.cwd(), "public/admin");
@@ -40,6 +46,7 @@ const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/
 
 const panelRateLimiter = createRateLimiter(120, 60_000, "Too many requests");
 const authRateLimiter = createRateLimiter(20, 15 * 60_000, "Too many login attempts");
+const pushRateLimiter = createRateLimiter(10, 60_000, "Too many notification sends");
 
 type Handler = (req: Request, res: Response) => Promise<void>;
 
@@ -196,7 +203,7 @@ async function assertCanRegister(req: Request): Promise<void> {
   }
 }
 
-export function createAdminPanelRouter(): Router {
+export function createAdminPanelRouter(supabaseAdmin: SupabaseClient | null): Router {
   const router = Router();
 
   if (process.env.ADMIN_LOCAL_BYPASS === "true" && process.env.NODE_ENV !== "production") {
@@ -382,6 +389,47 @@ export function createAdminPanelRouter(): Router {
         statements: result.results.map((r) => `${r.command}:${r.rowCount}`),
       });
       res.json(result);
+    }),
+  );
+
+  function requireSupabase(): SupabaseClient {
+    if (!supabaseAdmin) {
+      throw new AppError("Supabase is not configured", 503, "SUPABASE_NOT_CONFIGURED");
+    }
+    return supabaseAdmin;
+  }
+
+  api.get(
+    "/notifications/audience",
+    handle(async (_req, res) => {
+      res.json({ byLanguage: await countActiveIosTokensByLanguage(requireSupabase()) });
+    }),
+  );
+
+  // Sending to a single appUserId is a test send and skips Face ID; a
+  // broadcast needs a fresh step-up like an SQL apply.
+  api.post(
+    "/notifications/send",
+    pushRateLimiter,
+    handle(async (req, res) => {
+      const client = requireSupabase();
+      const payload = parseAdminPushRequest(req.body);
+      if (
+        !payload.appUserId &&
+        !res.locals.localBypass &&
+        !(await consumeStepUp(res.locals.sessionToken))
+      ) {
+        throw new AppError("Face ID confirmation required", 403, "STEP_UP_REQUIRED");
+      }
+      const summary = await sendLocalizedPush(client, payload);
+      logger.info("Admin sent push notification", {
+        type: payload.data.type,
+        categoryId: payload.data.categoryId,
+        languages: Object.keys(payload.texts),
+        targeted: Boolean(payload.appUserId),
+        totalTokens: summary.totalTokens,
+      });
+      res.json({ summary });
     }),
   );
 
