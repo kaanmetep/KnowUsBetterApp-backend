@@ -13,6 +13,7 @@ import {
   RoomErrorCode,
   RoomSettings,
 } from "../types.js";
+import { LANGS, type Lang } from "../languages.js";
 import { maskProfanity } from "./profanity.js";
 import type { GameSummary } from "../services/finishedGames.js";
 import type { AiAnalysisUpdate } from "../services/sharedAnalysis.js";
@@ -68,7 +69,7 @@ export interface ServerToClientEvents {
       playerId: string;
       playerName: string;
       avatar: string;
-      answer: string | { en: string; tr: string; es: string } | null;
+      answer: string | MultiLanguageAnswer | null;
       /** Trivia only. */
       isCorrect?: boolean;
     }>;
@@ -343,9 +344,7 @@ export function buildFinishedRounds(room: Room) {
       ...withRevealedAnswer(round),
       questionType: round.question.questionType ?? "choice",
       // Flatten texts for AI analysis compatibility
-      text_en: round.question.texts.text_en,
-      text_tr: round.question.texts.text_tr,
-      text_es: round.question.texts.text_es,
+      ...round.question.texts,
     },
     playerAnswers: room.players.map((p) => ({
       playerId: p.id,
@@ -366,39 +365,17 @@ export function findAnswerObject(
     return null;
   }
 
-  const { answers_en, answers_tr, answers_es } = question.answers;
+  const answers = question.answers;
+  const listOf = (lang: Lang): string[] => answers[`answers_${lang}`] ?? [];
 
-  // Try to find the answer in each language array
-  let answerIndex = -1;
-
-  // Check English
-  answerIndex = answers_en.findIndex((ans) => ans === userAnswer);
-  if (answerIndex !== -1) {
-    return {
-      en: answers_en[answerIndex],
-      tr: answers_tr[answerIndex] || answers_en[answerIndex],
-      es: answers_es[answerIndex] || answers_en[answerIndex],
-    };
-  }
-
-  // Check Turkish
-  answerIndex = answers_tr.findIndex((ans) => ans === userAnswer);
-  if (answerIndex !== -1) {
-    return {
-      en: answers_en[answerIndex] || answers_tr[answerIndex],
-      tr: answers_tr[answerIndex],
-      es: answers_es[answerIndex] || answers_tr[answerIndex],
-    };
-  }
-
-  // Check Spanish
-  answerIndex = answers_es.findIndex((ans) => ans === userAnswer);
-  if (answerIndex !== -1) {
-    return {
-      en: answers_en[answerIndex] || answers_es[answerIndex],
-      tr: answers_tr[answerIndex] || answers_es[answerIndex],
-      es: answers_es[answerIndex],
-    };
+  // Try each language in order; a language missing at that index falls back
+  // to the one the answer was found in.
+  for (const found of LANGS) {
+    const answerIndex = listOf(found).indexOf(userAnswer);
+    if (answerIndex === -1) continue;
+    return Object.fromEntries(
+      LANGS.map((lang) => [lang, listOf(lang)[answerIndex] || userAnswer]),
+    ) as MultiLanguageAnswer;
   }
 
   // Answer not found in any language

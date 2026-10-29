@@ -4,6 +4,12 @@ import { validateRegisterTokenInput } from "../src/services/pushTokenService.js"
 import { isInvalidTokenReason } from "../src/services/apnsService.js";
 import { parseAdminPushRequest } from "../src/services/notificationService.js";
 
+test("validateRegisterTokenInput accepts every app language and rejects others", () => {
+  const input = { appUserId: "user-1", token: "abcdef123", platform: "ios" as const };
+  assert.doesNotThrow(() => validateRegisterTokenInput({ ...input, language: "pt" }));
+  assert.throws(() => validateRegisterTokenInput({ ...input, language: "de" as any }));
+});
+
 test("validateRegisterTokenInput accepts valid payload", () => {
   assert.doesNotThrow(() =>
     validateRegisterTokenInput({
@@ -50,7 +56,7 @@ test("parseAdminPushRequest keeps only the languages that have a text", () => {
 
 test("parseAdminPushRequest sends the legacy title/body to every language", () => {
   const parsed = parseAdminPushRequest({ title: "Hi", body: "There", type: "new_questions" });
-  assert.deepEqual(Object.keys(parsed.texts).sort(), ["en", "es", "tr"]);
+  assert.deepEqual(Object.keys(parsed.texts).sort(), ["en", "es", "pt", "tr"]);
 });
 
 test("parseAdminPushRequest rejects incomplete or empty requests", () => {

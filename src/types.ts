@@ -1,3 +1,5 @@
+import type { Lang, QuestionAnswers, QuestionTexts } from "./languages.js";
+
 export type RoomStatus = "waiting" | "playing" | "finished";
 
 // Category ids come from public.categories; a new row there is enough.
@@ -32,18 +34,12 @@ export const MAX_MATCH_WEIGHT = 10;
 
 export interface Question {
   id: string; // UUID from Supabase
-  texts: {
-    text_en: string;
-    text_tr: string;
-    text_es: string; // Spanish
-  };
+  // Rooms stored in Redis before a language was added lack its key; read
+  // through a fallback to English.
+  texts: QuestionTexts;
   category: Category;
   haveAnswers: boolean; // true = has answers, false = only yes/no answers
-  answers: {
-    answers_en: string[];
-    answers_tr: string[];
-    answers_es: string[];
-  } | null; // answers with translations (JSONB) or null for yes/no
+  answers: QuestionAnswers | null; // answers with translations (JSONB) or null for yes/no
   // Optional so rooms already stored in Redis before this field existed still parse.
   questionType?: QuestionType;
   // General knowledge question: answers are graded against an answer key that
@@ -57,11 +53,7 @@ export interface Question {
 export type RevealedAnswer = string | MultiLanguageAnswer;
 
 // Multi-language answer object (for questions with haveAnswers = true)
-export interface MultiLanguageAnswer {
-  en: string;
-  tr: string;
-  es: string;
-}
+export type MultiLanguageAnswer = Record<Lang, string>;
 
 export interface QuestionRound {
   question: Question;

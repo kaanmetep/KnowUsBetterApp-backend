@@ -1,8 +1,10 @@
+import { LANGS, type Lang } from "../languages.js";
+
 export type PushPlatform = "ios";
 export type PushProvider = "apns";
 
-export const PUSH_LANGUAGES = ["en", "tr", "es"] as const;
-export type PushLanguage = (typeof PUSH_LANGUAGES)[number];
+export const PUSH_LANGUAGES = LANGS;
+export type PushLanguage = Lang;
 
 export const PUSH_CONTENT_TYPES = ["general", "new_category", "new_questions"] as const;
 export type PushContentType = (typeof PUSH_CONTENT_TYPES)[number];

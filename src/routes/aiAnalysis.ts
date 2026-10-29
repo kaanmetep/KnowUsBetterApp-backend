@@ -28,6 +28,14 @@ import {
 } from "../utils/helpers.js";
 import { acquireLock, redis, releaseLock } from "../utils/redis.js";
 import {
+  LANGS,
+  LANGUAGE_NAMES,
+  isLang,
+  type Lang,
+  type QuestionTexts,
+} from "../languages.js";
+import type { MultiLanguageAnswer } from "../types.js";
+import {
   DEFAULT_MATCH_WEIGHT,
   MAX_MATCH_WEIGHT,
   MIN_MATCH_WEIGHT,
@@ -63,14 +71,12 @@ const ANALYSIS_LOCK_SECONDS = 120;
 // ============================================
 interface PlayerAnswer {
   playerName: string;
-  answer: string | { en: string; tr: string; es: string };
+  answer: string | MultiLanguageAnswer;
 }
 
 interface CompletedRound {
-  question: {
-    text_tr: string;
+  question: Partial<QuestionTexts> & {
     text_en: string;
-    text_es: string;
     questionType?: "choice" | "text";
     matchWeight?: number;
   };
@@ -84,7 +90,7 @@ interface AIAnalysisRequest {
   player1Name: string;
   player2Name: string;
   matchPercentage: number;
-  language: "tr" | "en" | "es";
+  language: Lang;
   analysisType?: "default" | "know_me_well";
   player1AboutPlayer2Percentage?: number;
   player2AboutPlayer1Percentage?: number;
@@ -94,16 +100,13 @@ interface AIAnalysisRequest {
 // HELPERS
 // ============================================
 
-const LANGUAGE_MAP: Record<string, string> = {
-  tr: "Turkish",
-  en: "English",
-  es: "Spanish",
-};
+const LANGUAGE_MAP: Record<string, string> = LANGUAGE_NAMES;
 
-const YES_NO_MAP: Record<string, Record<string, string>> = {
+const YES_NO_MAP: Record<Lang, Record<string, string>> = {
   tr: { yes: "Evet", no: "Hayır" },
   en: { yes: "Yes", no: "No" },
   es: { yes: "Sí", no: "No" },
+  pt: { yes: "Sim", no: "Não" },
 };
 
 /**
@@ -113,17 +116,17 @@ function resolveQuestionText(
   question: CompletedRound["question"],
   language: string,
 ): string {
-  const key = `text_${language}` as "text_en" | "text_tr" | "text_es";
+  const key = `text_${language}` as keyof QuestionTexts;
   return question[key] || question.text_en || "";
 }
 
 /**
  * Resolve answer based on language
  * - If answer is a string (yes/no), translate it
- * - If answer is an object { en, tr, es }, pick the right language
+ * - If answer is an object { en, tr, ... }, pick the right language
  */
 function resolveAnswer(
-  answer: string | { en: string; tr: string; es: string },
+  answer: string | MultiLanguageAnswer,
   language: string,
 ): string {
   if (answer === null || answer === undefined) return "";
@@ -134,7 +137,7 @@ function resolveAnswer(
 
   // String answer - check if it's yes/no
   const lowerAnswer = answer.toLowerCase();
-  const translations = YES_NO_MAP[language] || YES_NO_MAP.en;
+  const translations = isLang(language) ? YES_NO_MAP[language] : YES_NO_MAP.en;
 
   if (lowerAnswer === "yes" || lowerAnswer === "no") {
     return translations[lowerAnswer] || answer;
@@ -149,12 +152,14 @@ const NO_ANSWER_MAP: Record<string, string> = {
   tr: "(boş bıraktı)",
   en: "(left blank)",
   es: "(lo dejó en blanco)",
+  pt: "(deixou em branco)",
 };
 
 const HIDDEN_ANSWER_MAP: Record<string, string> = {
   tr: "(cevap gizlendi)",
   en: "(answer hidden)",
   es: "(respuesta oculta)",
+  pt: "(resposta oculta)",
 };
 
 function isOpenRound(round: CompletedRound): boolean {
@@ -463,8 +468,7 @@ type AnalysisMode = "default" | "know_me_well";
 const analysisModeOf = (game: FinishedGame): AnalysisMode =>
   game.mode === "know_each_other" ? "know_me_well" : "default";
 
-const isLanguage = (value: unknown): value is AIAnalysisRequest["language"] =>
-  value === "tr" || value === "en" || value === "es";
+const isLanguage = isLang;
 
 /**
  * Older builds send back the rounds they got in game-finished instead of a
@@ -635,9 +639,9 @@ export function createAiAnalysisRouter({
         });
         return;
       }
-      if (!["tr", "en", "es"].includes(language)) {
+      if (!isLang(language)) {
         res.status(400).json({
-          error: "language must be one of: tr, en, es.",
+          error: `language must be one of: ${LANGS.join(", ")}.`,
           code: "INVALID_REQUEST",
         });
         return;

@@ -21,6 +21,8 @@ const CATEGORY_ID_RE = /^[a-z0-9_-]{1,64}$/i;
 interface SendOptions {
   pageSize?: number;
   concurrency?: number;
+  /** Filled with every appUserId that had at least one device accept the push. */
+  deliveredUsers?: Set<string>;
 }
 
 export interface LanguageDispatchSummary {
@@ -142,12 +144,13 @@ export async function sendLocalizedPush(
       summary.byLanguage[language] = languageSummary;
 
       for (let page = 0; ; page += 1) {
-        const tokens = await store.getActiveIosTokensPage(
+        const targets = await store.getActiveIosTokensPage(
           { language, appUserId: payload.appUserId },
           page,
           pageSize,
         );
-        if (tokens.length === 0) break;
+        if (targets.length === 0) break;
+        const tokens = targets.map((target) => target.token);
 
         const results = await apnsService.sendBatch(
           tokens,
@@ -155,6 +158,13 @@ export async function sendLocalizedPush(
           { concurrency },
         );
         const { success, failure } = summarizeResults(results, invalidTokens);
+        if (options?.deliveredUsers) {
+          const userByToken = new Map(targets.map((t) => [t.token, t.appUserId]));
+          for (const result of results) {
+            const appUserId = result.success && userByToken.get(result.token);
+            if (appUserId) options.deliveredUsers.add(appUserId);
+          }
+        }
         languageSummary.totalTokens += tokens.length;
         languageSummary.totalSuccess += success;
         languageSummary.totalFailure += failure;

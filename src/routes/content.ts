@@ -36,7 +36,7 @@ export function createContentRouter(
   router.get("/categories", contentRateLimiter, async (req, res: Response) => {
     try {
       const { categories, groups } = await getCategoryCatalog(supabaseAdmin);
-      // Older builds don't know `comingSoon` and would offer these as playable.
+      // Older builds can't show the "Soon" chip, so they never see these.
       const includeComingSoon = String(req.query.include ?? "")
         .split(",")
         .includes("coming_soon");

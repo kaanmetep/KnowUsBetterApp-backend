@@ -124,18 +124,6 @@ export async function getCategory(
   return categories.find((category) => category.id === categoryId) ?? null;
 }
 
-export async function isCategoryComingSoon(
-  categoryId: string,
-  supabaseAdmin: SupabaseClient | null,
-): Promise<boolean> {
-  try {
-    return (await getCategory(categoryId, supabaseAdmin))?.comingSoon ?? false;
-  } catch (error) {
-    console.warn("⚠️ Could not resolve category availability:", error);
-    return false;
-  }
-}
-
 /** A category's group is its game mode. */
 export async function getCategoryMode(
   categoryId: string,

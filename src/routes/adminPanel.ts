@@ -28,12 +28,27 @@ import {
   updateQuestion,
   validateQuestionInput,
 } from "../services/adminQuestionService.js";
+import {
+  createAnnouncement,
+  deleteAnnouncement,
+  listAnnouncements,
+  setAnnouncementActive,
+  updateAnnouncement,
+  validateAnnouncementInput,
+} from "../services/adminAnnouncementService.js";
 import { runSql } from "../services/adminSqlService.js";
 import {
   parseAdminPushRequest,
+  PushDispatchSummary,
   sendLocalizedPush,
 } from "../services/notificationService.js";
 import { pgTokenStore } from "../services/pushTokenService.js";
+import {
+  countPushUsersByLanguage,
+  grantPushReward,
+  parsePushCoinReward,
+  PushRewardSummary,
+} from "../services/pushRewardService.js";
 import { getAdminPool } from "../utils/adminDb.js";
 
 const COOKIE_NAME = "kub_admin";
@@ -392,6 +407,62 @@ export function createAdminPanelRouter(): Router {
     }),
   );
 
+  const assertUuid = (id: string) => {
+    if (!UUID_RE.test(id)) throw new AppError("Invalid id", 400, "VALIDATION_ERROR");
+  };
+
+  api.get(
+    "/announcements",
+    handle(async (_req, res) => {
+      res.json({ announcements: await listAnnouncements() });
+    }),
+  );
+
+  api.post(
+    "/announcements",
+    handle(async (req, res) => {
+      const announcement = await createAnnouncement(validateAnnouncementInput(req.body));
+      logger.info("Admin created announcement", { id: announcement.id });
+      res.status(201).json({ announcement });
+    }),
+  );
+
+  api.put(
+    "/announcements/:id",
+    handle(async (req, res) => {
+      assertUuid(req.params.id);
+      const announcement = await updateAnnouncement(
+        req.params.id,
+        validateAnnouncementInput(req.body),
+      );
+      logger.info("Admin updated announcement", { id: announcement.id });
+      res.json({ announcement });
+    }),
+  );
+
+  api.patch(
+    "/announcements/:id/active",
+    handle(async (req, res) => {
+      assertUuid(req.params.id);
+      if (typeof req.body?.is_active !== "boolean") {
+        throw new AppError("is_active must be a boolean", 400, "VALIDATION_ERROR");
+      }
+      const announcement = await setAnnouncementActive(req.params.id, req.body.is_active);
+      logger.info("Admin toggled announcement", { id: announcement.id, isActive: announcement.is_active });
+      res.json({ announcement });
+    }),
+  );
+
+  api.delete(
+    "/announcements/:id",
+    handle(async (req, res) => {
+      assertUuid(req.params.id);
+      await deleteAnnouncement(req.params.id);
+      logger.info("Admin deleted announcement", { id: req.params.id });
+      res.json({ success: true });
+    }),
+  );
+
   // Same database as the question tools (DATABASE_URL), so a local panel
   // pointed at prod reaches prod devices.
   const tokenStore = () => pgTokenStore(getAdminPool());
@@ -399,7 +470,11 @@ export function createAdminPanelRouter(): Router {
   api.get(
     "/notifications/audience",
     handle(async (_req, res) => {
-      res.json({ byLanguage: await tokenStore().countActiveIosTokensByLanguage() });
+      const [byLanguage, usersByLanguage] = await Promise.all([
+        tokenStore().countActiveIosTokensByLanguage(),
+        countPushUsersByLanguage(getAdminPool()),
+      ]);
+      res.json({ byLanguage, usersByLanguage });
     }),
   );
 
@@ -412,6 +487,7 @@ export function createAdminPanelRouter(): Router {
     pushRateLimiter,
     handle(async (req, res) => {
       const payload = parseAdminPushRequest(req.body);
+      const coins = parsePushCoinReward(req.body?.coins);
       if (!payload.appUserId && req.body?.broadcast !== true) {
         throw new AppError("appUserId is required for a test send", 400, "VALIDATION_ERROR");
       }
@@ -422,15 +498,29 @@ export function createAdminPanelRouter(): Router {
       ) {
         throw new AppError("Face ID confirmation required", 403, "STEP_UP_REQUIRED");
       }
-      const summary = await sendLocalizedPush(tokenStore(), payload);
+      // Coins go once per user whose device accepted the push, so users
+      // without notification permission (no active token) get nothing.
+      const deliveredUsers = new Set<string>();
+      let summary: PushDispatchSummary;
+      let coinReward: PushRewardSummary | null = null;
+      try {
+        summary = await sendLocalizedPush(tokenStore(), payload, { deliveredUsers });
+      } finally {
+        // A send that fails halfway has still reached these users.
+        if (coins > 0) {
+          coinReward = await grantPushReward(getAdminPool(), deliveredUsers, coins);
+        }
+      }
       logger.info("Admin sent push notification", {
         type: payload.data.type,
         categoryId: payload.data.categoryId,
         languages: Object.keys(payload.texts),
         targeted: Boolean(payload.appUserId),
         totalTokens: summary.totalTokens,
+        coins,
+        coinsCreditedUsers: coinReward?.creditedUsers ?? 0,
       });
-      res.json({ summary });
+      res.json({ summary, coinReward });
     }),
   );
 

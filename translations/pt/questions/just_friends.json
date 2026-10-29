@@ -1,0 +1,924 @@
+{
+  "a76a2d11-aeaa-4ea4-91fe-2bfc67c9b4ee": {
+    "en": "Have you ever kept a secret from a close friend?",
+    "text": "Você já escondeu algo de um amigo próximo?"
+  },
+  "a2574b99-8b8b-4f57-a394-6af757de58fc": {
+    "en": "Have you ever ended a friendship without explaining why?",
+    "text": "Você já terminou uma amizade sem explicar o porquê?"
+  },
+  "4c272380-343e-41d5-a398-4c4fcc2393a4": {
+    "en": "Have you ever regretted trusting someone too quickly?",
+    "text": "Você já se arrependeu de confiar em alguém rápido demais?"
+  },
+  "3fce436d-bf31-4be9-8add-95f13c0fcdac": {
+    "en": "Have you ever felt jealous of a friend's success?",
+    "text": "Você já sentiu inveja do sucesso de um amigo?"
+  },
+  "9c806b2a-139b-4619-a67e-4409da20bcc9": {
+    "en": "Have you ever apologized even though you didn’t think you were wrong?",
+    "text": "Você já pediu desculpas mesmo achando que não tinha culpa?"
+  },
+  "0dbafd24-b1dd-4ecd-b1e2-88f673a60613": {
+    "en": "Have you ever trusted someone who didn’t deserve it?",
+    "text": "Você já confiou em alguém que não merecia?"
+  },
+  "2924f8e7-4561-47d2-8135-81cf04ebe967": {
+    "en": "Have you ever ignored a message from a friend on purpose?",
+    "text": "Você já ignorou de propósito uma mensagem de um amigo?"
+  },
+  "9741b4d7-889c-4894-b559-c3f66ce2d8c0": {
+    "en": "Have you ever shared something private with the wrong person?",
+    "text": "Você já contou algo privado pra pessoa errada?"
+  },
+  "4486c9a6-d2b2-4540-8644-03cd4ef2e13a": {
+    "en": "Have you ever chosen your friend over your partner?",
+    "text": "Você já escolheu seu amigo em vez do seu amor?"
+  },
+  "479b8431-53a3-462f-9785-3d70008bbd20": {
+    "en": "Would you stay friends with an ex-partner?",
+    "text": "Você manteria amizade com ex?"
+  },
+  "f1152066-83ba-4c0c-a1f0-093b14c8b069": {
+    "en": "Do you believe you know yourself completely?",
+    "text": "Você acha que se conhece completamente?"
+  },
+  "9ef4e846-52f9-4144-a18f-cedffa321545": {
+    "en": "Have you ever ended a friendship because your lifestyles were too different?",
+    "text": "Você já terminou uma amizade porque os estilos de vida eram muito diferentes?"
+  },
+  "48f95dce-4d8a-4fbb-9150-baba0bf7376a": {
+    "en": "Do you believe that friendships can last forever?",
+    "text": "Você acredita que amizades podem durar para sempre?"
+  },
+  "b9a730b9-929e-45c8-9108-f0836b286438": {
+    "en": "Have you ever felt like you were giving more effort than your friend?",
+    "text": "Você já sentiu que se esforçava mais do que seu amigo?"
+  },
+  "94981afe-79fa-4085-b6a2-cd42c7ac5800": {
+    "en": "Have you ever reconnected with a friend after a long time apart?",
+    "text": "Você já voltou a falar com um amigo depois de muito tempo sem se falar?"
+  },
+  "3b2f524c-98cf-4ac0-9dfe-f822ee4c1fcc": {
+    "en": "Would you message an old friend to make peace?",
+    "text": "Você mandaria mensagem para um amigo antigo para fazer as pazes?"
+  },
+  "dc5dc001-691c-47f8-9cc2-0518e6e920d8": {
+    "en": "Do you think the person you are today is who you truly wanted to become?",
+    "text": "Você acha que quem você é hoje é quem você realmente queria se tornar?"
+  },
+  "604a53b7-0d5d-4881-acb1-ef4c66be7893": {
+    "en": "Would you marry a friend if you reach 30 and find no one?",
+    "text": "Você casaria com um amigo se chegasse aos 30 e não encontrasse ninguém?"
+  },
+  "a32f5825-7334-4307-831f-c4bb0c024527": {
+    "en": "Would you get involved in your friend's relationship decisions?",
+    "text": "Você se meteria nas decisões de relacionamento do seu amigo?"
+  },
+  "fb251482-1fac-46cf-bf85-b3d27110335f": {
+    "en": "Would you want your friend to interfere in your relationship?",
+    "text": "Você gostaria que seu amigo se metesse no seu relacionamento?"
+  },
+  "6036b346-3ea2-4404-a7e1-7c30a0ec22c0": {
+    "en": "Do you believe that men and women can be just friends?",
+    "text": "Você acredita que homens e mulheres podem ser só amigos?"
+  },
+  "bd04cdb5-6343-4875-980f-c340449f6b57": {
+    "en": "Have you ever had an opposite-sex friend you stayed close with for a long time?",
+    "text": "Você já teve um amigo do sexo oposto com quem manteve contato próximo por muito tempo?"
+  },
+  "db880921-8caf-4a1d-8391-e7aeb26d5dc7": {
+    "en": "If you do not like your friend's partner, would you tell them?",
+    "text": "Se você não gostasse da pessoa com quem seu amigo está, contaria para ele?"
+  },
+  "e5ef89d4-f7f5-4c0e-9bf5-ea3e13031a8c": {
+    "en": "If your friend dates someone you dislike, would you end the friendship?",
+    "text": "Se seu amigo namorasse alguém de quem você não gosta, você terminaria a amizade?"
+  },
+  "e0d04d04-aa00-4c84-bcfb-881361a82be5": {
+    "en": "Do you believe long-term friendships are possible?",
+    "text": "Você acredita que amizades duradouras são possíveis?"
+  },
+  "d0639d2c-258d-4d36-832b-842e6b52ee4c": {
+    "en": "Do you have friends you stay close to even without regular contact?",
+    "text": "Você tem amigos que continuam próximos, mesmo sem contato frequente?"
+  },
+  "a3ddb95a-24aa-4a29-949f-79889f10ddcc": {
+    "en": "Would you get annoyed if your friend keeps you waiting?",
+    "text": "Você se irritaria se seu amigo deixasse você esperando?"
+  },
+  "5d796767-8cc5-431b-b5ad-b3a6f33f64cf": {
+    "en": "If your partner asked you to stop talking to a friend, would you do it?",
+    "text": "Se seu amor pedisse para você parar de falar com um amigo, você faria isso?"
+  },
+  "e6e52f89-0870-4970-9f5a-b5b4741216b0": {
+    "en": "Do you maintain good relationships with friends from different countries?",
+    "text": "Você mantém uma boa relação com amigos de outros países?"
+  },
+  "3102138c-c867-425a-98fd-d9c35cac8a9b": {
+    "en": "Would you continue a friendship with people whose views you disagree with?",
+    "text": "Você continuaria uma amizade com pessoas de opiniões diferentes das suas?"
+  },
+  "3403d85a-a7ae-4759-b627-46cb7e2287d4": {
+    "en": "Have you ever been betrayed by a friend?",
+    "text": "Um amigo já traiu sua confiança?"
+  },
+  "0588bdf0-7b25-4c73-92a6-00fe19080183": {
+    "en": "Have you ever betrayed a friend?",
+    "text": "Você já traiu um amigo?"
+  },
+  "9f61963e-ef73-4d2a-a108-8788c781c036": {
+    "en": "Would you ask your friends to return money you lent them?",
+    "text": "Você pediria para seus amigos devolverem o dinheiro que você emprestou?"
+  },
+  "a3d59d54-8850-46e2-9bb2-1125148aebcf": {
+    "en": "Would it bother you if a friend asked you to return money they lent you?",
+    "text": "Você se incomodaria se um amigo pedisse de volta o dinheiro que emprestou para você?"
+  },
+  "6746bd67-c0ef-46aa-a2c3-dfab5234341f": {
+    "en": "Do you pay back your friends on time?",
+    "text": "Você paga suas dívidas com os amigos no prazo?"
+  },
+  "a5404a83-2a72-4b9c-aca7-0c5e6cc77fc2": {
+    "en": "Do you get along well with your friend's families?",
+    "text": "Você se dá bem com a família dos seus amigos?"
+  },
+  "0667992f-49f5-42f3-bcd4-cc5626feea01": {
+    "en": "Would you introduce your friends to your family?",
+    "text": "Você apresentaria seus amigos à sua família?"
+  },
+  "aae21c2f-9de5-4456-adc1-eba72108ef9b": {
+    "en": "Would you introduce your friend to your partner?",
+    "text": "Você apresentaria seu amigo ao seu amor?"
+  },
+  "5341cb61-0a8e-4848-b2a5-32f8b43656f4": {
+    "en": "Do you like your friend's Instagram stories?",
+    "text": "Você curte os stories dos seus amigos no Instagram?"
+  },
+  "a8afd3b9-7b97-4874-83ee-06aa92b6cf35": {
+    "en": "Do you believe that a person can change their destiny with the choices they make?",
+    "text": "Você acredita que uma pessoa pode mudar o próprio destino com as escolhas que faz?"
+  },
+  "6e0ab277-84ad-4dad-9719-677b7e583d65": {
+    "en": "Do you have a close friends list or a private account on social media?",
+    "text": "Você tem lista de Close Friends ou perfil privado nas redes sociais?"
+  },
+  "866cc351-c73d-44e8-a94e-26f20ca6375e": {
+    "en": "Do you believe that even your closest friends might secretly envy your success?",
+    "text": "Você acha que até seus amigos mais próximos podem sentir inveja do seu sucesso em segredo?"
+  },
+  "ff350837-4cca-4972-9f75-3a7d85e1d892": {
+    "en": "Would you let a friend use your car?",
+    "text": "Você deixaria um amigo usar seu carro?"
+  },
+  "490bbcc4-3454-4d35-879e-13652017c4bc": {
+    "en": "Do you constantly question your purpose in this world?",
+    "text": "Você vive questionando seu propósito neste mundo?"
+  },
+  "36cd5f8d-45cf-451d-bd2f-bd912e1e1f87": {
+    "en": "Would you share your room with a friend?",
+    "text": "Você dividiria seu quarto com um amigo?"
+  },
+  "e65ed24a-9d70-4bb5-a43d-e2a6b09ca93c": {
+    "en": "Would you eat from the same plate as your friend?",
+    "text": "Você comeria do mesmo prato que seu amigo?"
+  },
+  "fb0c893c-1702-43a5-919e-990fe5850e4b": {
+    "en": "Do you like giving relationship advice to your friends?",
+    "text": "Você gosta de dar conselhos de relacionamento para seus amigos?"
+  },
+  "a85cccb3-3565-47d8-b01e-c4994dbc738b": {
+    "en": "Do you like gossiping with your friends?",
+    "text": "Você gosta de fofocar com seus amigos?"
+  },
+  "60a273fa-a707-4ff2-af68-3eaa00bcb00a": {
+    "en": "If your sweatshirt stayed with a friend, would you want it back?",
+    "text": "Se seu moletom ficasse com um amigo, você pediria de volta?"
+  },
+  "2a7b5e54-a35c-4222-94db-5604ef6ff521": {
+    "en": "Do you think friends should lend money to each other when asked?",
+    "text": "Você acha que amigos devem emprestar dinheiro quando o outro pede?"
+  },
+  "d14dc487-ef43-4f80-934d-3da11c4645bd": {
+    "en": "If two people in your group of three stopped talking, would you take sides?",
+    "text": "Se duas pessoas do seu trio parassem de se falar, você tomaria partido?"
+  },
+  "358ce8a0-4d0f-4e4a-a9ab-4d17bce190dc": {
+    "en": "If your friend became homeless, would you let them stay in your house for a year?",
+    "text": "Se seu amigo ficasse sem ter onde morar, você deixaria ele ficar na sua casa por um ano?"
+  },
+  "f5016fd4-e85a-4f44-a6e7-3480dfc318e2": {
+    "en": "If your friend had bad habits, would you continue your friendship?",
+    "text": "Se seu amigo tivesse maus hábitos, você continuaria a amizade?"
+  },
+  "d09f45b0-b833-4273-9dc6-837da0408b6b": {
+    "en": "Is your friend's religious belief important to you?",
+    "text": "A religião do seu amigo é importante para você?"
+  },
+  "70eabbeb-a65f-4616-afbc-84cf134c985a": {
+    "en": "Would you date your friend's ex if they had feelings for you?",
+    "text": "Você sairia com o ex do seu amigo se essa pessoa sentisse algo por você?"
+  },
+  "f06c0817-7f8d-48c4-9214-b515e112a31d": {
+    "en": "Would you date someone with a very different music taste?",
+    "text": "Você sairia com alguém com um gosto musical muito diferente do seu?"
+  },
+  "bd3487cc-2911-4c0d-b46f-5fd2bc55332d": {
+    "en": "Do you swear often?",
+    "text": "Você fala palavrão com frequência?"
+  },
+  "f7b39a40-cab5-4bac-8dc1-e50a12e37459": {
+    "en": "If someone offered you 1 million dollars to date your friend, would you accept?",
+    "text": "Se te oferecessem 1 milhão de dólares para namorar seu amigo, você aceitaria?"
+  },
+  "b8699a10-76fe-421a-898d-0d6c91a4392f": {
+    "en": "Do you have a friendship that has lasted more than 10 years?",
+    "text": "Você tem uma amizade que dura há mais de 10 anos?"
+  },
+  "e6297b54-f961-4c0b-892f-bc95baceb49e": {
+    "en": "Do you often hide your true feelings to keep the peace?",
+    "text": "Você costuma esconder seus sentimentos de verdade para manter a paz?"
+  },
+  "44e89723-382d-4e81-a4ce-a775b0f88494": {
+    "en": "Has a close friend ever had a crush on you?",
+    "text": "Algum amigo próximo já ficou a fim de você?"
+  },
+  "4af94076-243b-4c2d-a36d-0438a980fdf1": {
+    "en": "Have you ever friendzoned someone?",
+    "text": "Você já deixou alguém na friendzone?"
+  },
+  "f1c49c55-a070-4de9-88b0-8f36313a97a1": {
+    "en": "Have you ever been friendzoned?",
+    "text": "Você já ficou na friendzone?"
+  },
+  "34efefdf-7c84-442c-a5a3-38133fa0948e": {
+    "en": "If a lie makes everyone happy and hurts nobody, does it become moral?",
+    "text": "Se uma mentira deixa todo mundo feliz e não prejudica ninguém, ela passa a ser moral?"
+  },
+  "f35c52a4-f28b-4d39-94a9-291aba678b56": {
+    "en": "Do you hide how much money you have from your friends?",
+    "text": "Você esconde dos seus amigos quanto dinheiro tem?"
+  },
+  "29f055a2-8038-41d1-b238-e05e99378afb": {
+    "en": "Do you think suffering is necessary for profound personal growth?",
+    "text": "Você acha que sofrer é necessário pra crescer de verdade como pessoa?"
+  },
+  "d3cdfbea-f97c-4e33-9968-8034077edcca": {
+    "en": "Do you enjoy talking politics with friends?",
+    "text": "Você curte falar de política com seus amigos?"
+  },
+  "159acfa6-597d-472d-bcb3-d987da64dea8": {
+    "en": "Would you cut ties with a friend who committed a non-violent crime?",
+    "text": "Você cortaria laços com um amigo que cometeu um crime sem violência?"
+  },
+  "f0172f90-003d-4c7f-8771-04ec7e4f490d": {
+    "en": "Would it bother you if your partner were more successful than you at work?",
+    "text": "Você se incomodaria se seu amor tivesse mais sucesso que você no trabalho?"
+  },
+  "7956d371-c089-4a04-a387-6ff8f68b5866": {
+    "en": "If you could know the exact day you will die, would you choose to know?",
+    "text": "Se pudesse saber o dia exato em que vai morrer, você escolheria saber?"
+  },
+  "efa81feb-3048-40c9-b743-e0413c82fa99": {
+    "en": "Would you hate someone just because your best friend hates them?",
+    "text": "Você odiaria alguém só porque seu melhor amigo odeia essa pessoa?"
+  },
+  "188b4c0d-b8d9-4f31-b01e-8ba90565c27e": {
+    "en": "Would you choose to live forever if it meant watching everyone you love die?",
+    "text": "Você escolheria viver pra sempre se isso significasse ver todo mundo que ama morrer?"
+  },
+  "e1289513-98a5-4528-a112-ee6aae47fd77": {
+    "en": "Would you be suspicious of someone who gets along well with everyone?",
+    "text": "Você desconfiaria de alguém que se dá bem com todo mundo?"
+  },
+  "1a3fa76f-851d-4401-a4a8-789dcf598d3c": {
+    "en": "Have you ever had a period when you were very flirty?",
+    "text": "Você já teve uma fase em que flertava muito?"
+  },
+  "1fc8abbf-0128-4618-b81d-2b76f09bf03a": {
+    "en": "If your friends don't like your partner, would it make you lose interest in them?",
+    "text": "Se seus amigos não gostassem do seu amor, você perderia o interesse?"
+  },
+  "c2ebf044-0c54-4059-b541-f3714baf47d8": {
+    "en": "Are you currently attracted to a friend in a way that's more than just friendship?",
+    "text": "Você está a fim de algum amigo hoje, de um jeito que vai além da amizade?"
+  },
+  "f0f56623-ce68-4bea-b65e-f5622ebe270d": {
+    "en": "Do you think long-term friends can become romantic partners later?",
+    "text": "Você acha que amigos de longa data podem virar casal depois?"
+  },
+  "460a428d-36bd-4f1a-b14b-0381b0822d60": {
+    "en": "What drives human behavior more?",
+    "text": "O que mais move o comportamento humano?",
+    "answers": [
+      "Medo da dor",
+      "Desejo de prazer"
+    ]
+  },
+  "6a4f5fd8-c46c-4f5f-ac95-578a22429850": {
+    "en": "If your friend were romantically attracted to you, would you give them a chance?",
+    "text": "Se um amigo estivesse a fim de você, você daria uma chance?"
+  },
+  "d3fdeab4-014d-4d6f-889c-4f57f67b5f4f": {
+    "en": "Would you live in the same house with a friend of the opposite sex while having a partner?",
+    "text": "Você moraria com um amigo do sexo oposto estando com alguém?"
+  },
+  "c967305f-6cc1-4697-a3d7-e69d67c253d3": {
+    "en": "If you were attracted to a friend, would you hide it to avoid damaging your friendship?",
+    "text": "Se você sentisse atração por um amigo, esconderia isso para não estragar a amizade?"
+  },
+  "6f319932-cbc0-4efc-ac99-17a2e8db1022": {
+    "en": "Do you get jealous of your friend's partners?",
+    "text": "Você sente ciúme dos namoros dos seus amigos?"
+  },
+  "1539ca94-1bf7-4737-a2e7-0888edc17875": {
+    "en": "Does it bother you if your friend has closer friends than you?",
+    "text": "Você se incomoda se seu amigo tem amigos mais próximos que você?"
+  },
+  "af046054-1900-4f56-acc3-3ce73fae637d": {
+    "en": "Would it feel strange if your friend found you attractive?",
+    "text": "Você acharia estranho se seu amigo sentisse atração por você?"
+  },
+  "560aae7c-660a-48c7-a995-16082b7a329c": {
+    "en": "Would you stop talking to a friend who finds you attractive if your partner asked you to?",
+    "text": "Você pararia de falar com um amigo que sente atração por você se seu amor pedisse?"
+  },
+  "85f1d55b-0ab2-477b-bc89-8f1079b657df": {
+    "en": "If your best friend and partner met without telling you, would you get jealous?",
+    "text": "Se seu melhor amigo e seu amor se encontrassem sem te contar, você sentiria ciúme?"
+  },
+  "d3f796b9-46b0-4ea6-af2e-79f8db92e1b4": {
+    "en": "Would you be friends with someone who constantly talks about their partner?",
+    "text": "Você manteria amizade com alguém que só fala do próprio relacionamento?"
+  },
+  "c19c811e-bdd4-431c-9ae2-fe158cd5ce51": {
+    "en": "Would you be friends with someone who constantly talks about their problems?",
+    "text": "Você manteria amizade com alguém que só fala dos próprios problemas?"
+  },
+  "d9392be9-5bf4-4290-83cc-bb71d5a0ea2f": {
+    "en": "Would you try to separate your friend from a toxic relationship?",
+    "text": "Você tentaria tirar seu amigo de um relacionamento tóxico?"
+  },
+  "f6e1d589-f406-413a-84e1-4d10b010efa2": {
+    "en": "Would you compliment a bad outfit just to make your friend happy?",
+    "text": "Você elogiaria um look ruim só para deixar seu amigo feliz?"
+  },
+  "36a8a92f-d12b-4cde-b020-95c045851054": {
+    "en": "Would you be upset if not added to your best friend's Close Friends list?",
+    "text": "Você se chatearia se não estivesse nos Close Friends do seu melhor amigo?"
+  },
+  "cd28855b-6bbc-4754-bf67-925fafc08e08": {
+    "en": "Would you go somewhere you don't want to, just so your friend isn't alone?",
+    "text": "Você iria a um lugar que não quer só para seu amigo não ficar sozinho?"
+  },
+  "30180f6d-9944-4221-8ee1-b6a426b20c14": {
+    "en": "Would you go on a double date with someone you don't like just for your friend?",
+    "text": "Você iria a um encontro duplo com alguém de quem não gosta só pelo seu amigo?"
+  },
+  "ae0d1125-a621-4872-9096-7e1c73f8195a": {
+    "en": "Would you listen to your best friend's 30-minute voice message?",
+    "text": "Você ouviria um áudio de 30 minutos do seu melhor amigo?"
+  },
+  "544d795e-cf98-43ae-8031-965c2fbb83ef": {
+    "en": "If you saw your friend's cheating partner on the street, would you greet them?",
+    "text": "Se você visse na rua a pessoa que traiu seu amigo, cumprimentaria?"
+  },
+  "dbed90fb-08d1-454d-a7c8-53e94c8dfae2": {
+    "en": "If both you and your friend liked the same person, would you be the one to step back?",
+    "text": "Se você e seu amigo gostassem da mesma pessoa, você recuaria?"
+  },
+  "e01fa88f-9bf7-4a07-b915-156123bf6854": {
+    "en": "Do you consider yourself successful and skilled at confessing to someone you like?",
+    "text": "Você acha que manda bem na hora de se declarar para alguém de quem gosta?"
+  },
+  "70ec9505-e1b3-41af-806f-8922805e641e": {
+    "en": "Would you go on a one-month vacation with a close friend of the opposite sex?",
+    "text": "Você viajaria por um mês com um amigo próximo do sexo oposto?"
+  },
+  "cb2ea32b-d004-42f0-9a51-8737c96bc6a4": {
+    "en": "Do you think you can really stay friends with an ex?",
+    "text": "Você acha que dá mesmo para manter amizade com ex?"
+  },
+  "1864a491-86d1-49a2-80a2-c32e41c6a728": {
+    "en": "Have you ever had feelings for a friend’s ex?",
+    "text": "Você já sentiu algo por ex de um amigo seu?"
+  },
+  "665c9713-06bc-480c-95b9-dcca3d1c59fb": {
+    "en": "Which is a bigger problem for you: your friends not liking your partner or your family not liking your partner?",
+    "text": "O que seria um problema maior pra você: seus amigos não gostarem do seu amor ou sua família não gostar?",
+    "answers": [
+      "Seus amigos não gostarem",
+      "Sua família não gostar"
+    ]
+  },
+  "39a0d847-c6a2-420f-bc9b-2da40532d0bd": {
+    "en": "Which would upset you more: cutting off a friend or breaking up with your partner?",
+    "text": "O que deixaria você mais mal: cortar contato com um amigo ou terminar com seu amor?",
+    "answers": [
+      "Cortar contato com um amigo",
+      "Terminar com seu amor"
+    ]
+  },
+  "40150bf7-574c-4cc0-b8e4-5082f4273ff6": {
+    "en": "If you really liked a piece of clothing, would you buy it even if it was very expensive?",
+    "text": "Se você gostasse muito de uma roupa, compraria mesmo sendo muito cara?"
+  },
+  "02576a6e-45da-4195-94ad-bfa3d432229e": {
+    "en": "Have you ever distanced yourself from a friend because of their behavior?",
+    "text": "Você já se afastou de um amigo por causa do comportamento dele?"
+  },
+  "c791f673-121c-4f78-b6b2-138fff984d94": {
+    "en": "Have you ever introduced a friend to your family?",
+    "text": "Você já apresentou um amigo pra sua família?"
+  },
+  "3768b0c2-7e45-4ea2-bb34-94459ecfdaa6": {
+    "en": "Have you ever made a promise with a friend to marry them if you are both still single at 30?",
+    "text": "Você já fez aquele pacto com um amigo de casar um com o outro se chegassem aos 30 sem casar?"
+  },
+  "333ba234-d38e-4da7-adbf-90c465fe9959": {
+    "en": "Have you ever completely cut off a friendship over something trivial?",
+    "text": "Você já terminou uma amizade de vez por uma coisa boba?"
+  },
+  "d6594cf3-1942-4fe1-93eb-0a767331054d": {
+    "en": "Being close friends with the opposite gender...",
+    "text": "Ter amizade próxima com alguém do gênero oposto...",
+    "answers": [
+      "Totalmente normal",
+      "Precisa ter limites"
+    ]
+  },
+  "e2bd6991-cecd-4263-bf0b-428f21242273": {
+    "en": "Staying friends with an ex...",
+    "text": "Manter amizade com ex...",
+    "answers": [
+      "Pode rolar",
+      "Não rola nunca"
+    ]
+  },
+  "f252224b-4d0b-4690-b195-2f1acc7c55cc": {
+    "en": "Forming emotional bonds in friendship...",
+    "text": "Criar laços emocionais na amizade...",
+    "answers": [
+      "É natural",
+      "É arriscado"
+    ]
+  },
+  "a481faea-e2d5-4288-bee9-49a6e561002c": {
+    "en": "Constantly messaging someone you say \"we are just friends\" with...",
+    "text": "Ficar trocando mensagem o tempo todo com alguém que você diz ser “só amigo”...",
+    "answers": [
+      "É normal",
+      "Pode gerar mal-entendido"
+    ]
+  },
+  "c1051de3-6210-48d9-bbee-a1bd27339e24": {
+    "en": "Physical closeness in friendship (like hugging)...",
+    "text": "Proximidade física na amizade, tipo abraço...",
+    "answers": [
+      "É normal",
+      "Passa a mensagem errada"
+    ]
+  },
+  "54e10e6d-36d5-4c2f-90fa-90ab841a4a40": {
+    "en": "Your partner often seeing someone they call just a friend...",
+    "text": "Seu amor encontrar com frequência alguém que chama de “só amigo”...",
+    "answers": [
+      "Eu fico de boa",
+      "Me deixa desconfortável"
+    ]
+  },
+  "cbc9d01b-ad4e-4822-ba0d-6d460dd7b24f": {
+    "en": "Keeping some privacy in friendship (hiding certain things from your partner)...",
+    "text": "Ter um pouco de privacidade na amizade, escondendo certas coisas do seu amor...",
+    "answers": [
+      "Pode ser necessário",
+      "É errado"
+    ]
+  },
+  "b15024f0-b284-4cf6-b9da-8ee1b47f31db": {
+    "en": "Knowing every detail of your closest friend’s life...",
+    "text": "Saber cada detalhe da vida do seu melhor amigo...",
+    "answers": [
+      "É natural",
+      "É desnecessário"
+    ]
+  },
+  "93d7d2aa-65e5-4158-bbdc-86bbfaab33e8": {
+    "en": "Your friend becoming part of your other friend group...",
+    "text": "Seu amigo entrar no seu outro grupo de amigos...",
+    "answers": [
+      "Pode ser divertido",
+      "Pode dar problema"
+    ]
+  },
+  "a24ff5ae-632a-4c56-8f91-b151d975be08": {
+    "en": "Staying just as close even after not seeing each other for a long time...",
+    "text": "Continuar com a mesma intimidade mesmo depois de muito tempo sem se ver...",
+    "answers": [
+      "Amizade de verdade",
+      "Pode ser difícil"
+    ]
+  },
+  "4ad582dc-a947-4194-b0d1-981b04af1c82": {
+    "en": "Not being your closest friend’s closest friend...",
+    "text": "Não ser a pessoa mais próxima do seu melhor amigo...",
+    "answers": [
+      "Não deveria acontecer",
+      "Aceitável"
+    ]
+  },
+  "6440ff9b-487a-43cc-8af1-563d9734e2ed": {
+    "en": "Your closest friend starts calling you less after getting a new partner...",
+    "text": "Seu melhor amigo começa a ligar menos pra você depois que arruma um novo amor...",
+    "answers": [
+      "É normal, a vida muda",
+      "Dá sensação de abandono"
+    ]
+  },
+  "787f606d-df56-459b-87bf-7714b646077d": {
+    "en": "Your friend never introduces you to their other friend group...",
+    "text": "Seu amigo nunca apresenta você para o outro grupo de amigos dele...",
+    "answers": [
+      "Não é importante",
+      "Parece estranho"
+    ]
+  },
+  "18b7fca3-3bce-4521-ae0f-ef66c3e2ffb0": {
+    "en": "When you don’t talk for a long time with your friend, you continue as if nothing happened...",
+    "text": "Quando você fica muito tempo sem falar com seu amigo, vocês continuam como se nada tivesse acontecido...",
+    "answers": [
+      "Vínculo saudável",
+      "Parece superficial"
+    ]
+  },
+  "fb3d0920-f21b-45b3-b8ac-0aa9f8870491": {
+    "en": "The most important thing in friendship...",
+    "text": "O mais importante na amizade...",
+    "answers": [
+      "Lealdade",
+      "Compartilhar"
+    ]
+  },
+  "cdca9b4b-dde6-41ef-b066-1a1fe07dc941": {
+    "en": "A good friend accepts you with your flaws or tries to help you improve in a positive way.",
+    "text": "Um bom amigo aceita você com seus defeitos ou tenta ajudar você a melhorar de um jeito positivo.",
+    "answers": [
+      "Aceita como você é",
+      "Ajuda você a melhorar"
+    ]
+  },
+  "991aa3a5-200d-41b4-beae-58d6f0d655da": {
+    "en": "A true friend is someone who is there in your bad times or in your good times.",
+    "text": "Um amigo de verdade é quem está com você nos momentos ruins ou nos momentos bons.",
+    "answers": [
+      "Momentos ruins importam mais",
+      "Momentos bons importam mais"
+    ]
+  },
+  "b7db9932-142a-4d10-bfa4-b5f580458954": {
+    "en": "What matters more in friendship: quality or consistency?",
+    "text": "O que importa mais na amizade: qualidade ou constância?",
+    "answers": [
+      "Qualidade",
+      "Constância"
+    ]
+  },
+  "f0636f5f-63ef-4074-a615-3e24a6667f9e": {
+    "en": "A good friend...",
+    "text": "Um bom amigo...",
+    "answers": [
+      "Critica você",
+      "Apoia você"
+    ]
+  },
+  "b9784638-ea19-44da-ab12-cb649859a032": {
+    "en": "What is stronger in friendship: loyalty or empathy?",
+    "text": "O que é mais forte na amizade: lealdade ou empatia?",
+    "answers": [
+      "Lealdade",
+      "Empatia"
+    ]
+  },
+  "a2f297b8-10e7-4517-b7f0-a0c832d370c7": {
+    "en": "Good friendship...",
+    "text": "Uma boa amizade...",
+    "answers": [
+      "Exige esforço",
+      "Flui naturalmente"
+    ]
+  },
+  "5b670ad6-208b-4e58-b292-e273f3b78943": {
+    "en": "What is the strongest thing in friendship...",
+    "text": "O que é mais forte na amizade...",
+    "answers": [
+      "Lealdade",
+      "Compreensão"
+    ]
+  },
+  "d10fdd35-8f20-43ae-8d73-b6dfde704d1e": {
+    "en": "A good friend...",
+    "text": "Um bom amigo...",
+    "answers": [
+      "Deixa você à vontade",
+      "Ajuda você a crescer"
+    ]
+  },
+  "05689bed-28ec-43c5-b237-0302642ef9b4": {
+    "en": "Would you marry this person if you were both not married by the age of 40?",
+    "text": "Você casaria com essa pessoa se vocês chegassem aos 40 sem se casar?"
+  },
+  "8025e660-1505-4af6-80ae-abfc0310e57e": {
+    "en": "How many close friends do you actually need?",
+    "text": "De quantos amigos próximos você realmente precisa?"
+  },
+  "379cc9b1-f4e7-4870-89f1-7a7618d01d47": {
+    "en": "If a close friend is late, after how many minutes does it start bothering you?",
+    "text": "Se um amigo próximo se atrasa, depois de quantos minutos isso começa a incomodar você?"
+  },
+  "6bed572f-b7ef-4dfd-9f13-d05e4450629e": {
+    "en": "What kills a friendship the fastest for you?",
+    "text": "O que acaba com uma amizade mais rápido pra você?"
+  },
+  "019bcbc6-27a4-454b-b3af-7434fb094414": {
+    "en": "How many times a month do you need to see a close friend?",
+    "text": "Quantas vezes por mês você precisa ver um amigo próximo?"
+  },
+  "9904dd28-27f8-48e6-a7c9-f91b70c02a3b": {
+    "en": "How many days can a close friend stay at your place?",
+    "text": "Quantos dias um amigo próximo pode ficar hospedado na sua casa?"
+  },
+  "fb412a91-d561-4398-b5fc-44e7a463c33b": {
+    "en": "What's the first thing you offer a friend who comes over?",
+    "text": "Qual é a primeira coisa que você oferece a um amigo que vem à sua casa?"
+  },
+  "6e09b141-b4f9-4a4b-a8d4-a1cb738c388a": {
+    "en": "What can a friend take from your fridge without asking?",
+    "text": "O que um amigo pode pegar da sua geladeira sem pedir?"
+  },
+  "3dcd0f58-587e-4181-9f97-956ea9f95e64": {
+    "en": "What's off-limits to joke about with friends?",
+    "text": "Com amigos, qual assunto não dá pra virar piada?"
+  },
+  "d420a12c-2ed3-4461-ba85-2938b2eacbed": {
+    "en": "When the bill comes, how should friends split it?",
+    "text": "Quando chega a conta, como os amigos devem dividir?"
+  },
+  "5738b45b-1858-43f3-826e-11ef8d263b66": {
+    "en": "If a close friend stays over, where do they sleep?",
+    "text": "Se um amigo próximo dormir na sua casa, onde ele dorme?"
+  },
+  "240d4c3b-09f9-424b-8508-8f2413892f20": {
+    "en": "When you need to say no to a friend, how do you do it?",
+    "text": "Quando você precisa dizer não pra um amigo, como faz?",
+    "answers": [
+      "Falo na lata",
+      "Invento uma desculpa",
+      "Vou enrolando",
+      "Não digo não"
+    ]
+  },
+  "ed007dff-5f12-45f1-913a-814207c21337": {
+    "en": "Where's your phone when you're hanging out with friends?",
+    "text": "Onde fica seu celular quando você está com os amigos?",
+    "answers": [
+      "Em cima da mesa",
+      "Virado pra baixo",
+      "Na bolsa/mochila",
+      "Na mão"
+    ]
+  },
+  "472843d1-c68f-4443-8e98-1c7ebfff08f1": {
+    "en": "When a friend is venting, what do you do?",
+    "text": "Quando um amigo desabafa, o que você faz?",
+    "answers": [
+      "Tento resolver",
+      "Só escuto",
+      "Faço ele rir",
+      "Conto uma história minha"
+    ]
+  },
+  "9626e6ef-559e-4903-a872-8098df7019aa": {
+    "en": "A friend cancels last minute. What do you do?",
+    "text": "Um amigo cancela em cima da hora. O que você faz?",
+    "answers": [
+      "Digo que tudo bem",
+      "Digo que foi chato",
+      "Remarco na hora",
+      "Paro de chamar por um tempo"
+    ]
+  },
+  "d7063b2a-a2b9-4e31-b9d5-ea73d3fc1b48": {
+    "en": "How do you like hanging out with friends?",
+    "text": "Como você prefere sair com os amigos?",
+    "answers": [
+      "Com um amigo só",
+      "Em grupo pequeno",
+      "Com a turma toda",
+      "Com quem estiver livre"
+    ]
+  },
+  "b3285428-6a7b-494a-a8ce-607db3eff19a": {
+    "en": "A friend is 20 minutes late and you're already there. What do you do?",
+    "text": "Um amigo atrasa 20 minutos e você já está lá. O que você faz?",
+    "answers": [
+      "Espero",
+      "Mando mensagem",
+      "Peço sem ele",
+      "Vou embora"
+    ]
+  },
+  "6e92199a-a131-4c52-8fcb-db5cdd54cb8b": {
+    "en": "A friend calls at 1am. What do you do?",
+    "text": "Um amigo liga à 1 da manhã. O que você faz?",
+    "answers": [
+      "Atendo",
+      "Mando “amanhã”",
+      "Deixo tocar",
+      "Retorno depois"
+    ]
+  },
+  "ca4a3d3a-b6cd-42c6-acea-f2ddaffcee41": {
+    "en": "When a friend starts roasting you, what do you do?",
+    "text": "Quando um amigo começa a zoar você, o que você faz?",
+    "answers": [
+      "Devolvo a zoeira",
+      "Levo na risada",
+      "Fico em silêncio",
+      "Peço pra parar"
+    ]
+  },
+  "0b00eec2-7db8-49f6-9a33-2e91bfdafed9": {
+    "en": "A friend borrowed something and hasn't given it back. What do you do?",
+    "text": "Um amigo pegou algo emprestado e ainda não devolveu. O que você faz?",
+    "answers": [
+      "Dou um toque",
+      "Deixo pra lá",
+      "Não empresto de novo",
+      "Faço piada até ele lembrar"
+    ]
+  },
+  "3866d609-64de-4f95-9a99-d3b5aca59d4d": {
+    "en": "How do you usually leave a hangout?",
+    "text": "Como você costuma ir embora de um rolê?",
+    "answers": [
+      "Dou tchau e vou",
+      "Saio de fininho",
+      "Fico até o fim",
+      "Espero alguém ir comigo"
+    ]
+  },
+  "fc886a8f-d247-4df7-9911-70df16293d14": {
+    "en": "A friend posts a bad photo of you without asking. What do you do?",
+    "text": "Um amigo posta uma foto ruim sua sem perguntar. O que você faz?",
+    "answers": [
+      "Peço pra tirar",
+      "Levo na risada",
+      "Posto uma pior dele",
+      "Silencio os posts por um tempo"
+    ]
+  },
+  "cf30ac84-0e23-499b-84f0-194255049b2e": {
+    "en": "Two friends in your group are fighting. What do you do?",
+    "text": "Dois amigos do seu grupo estão brigando. O que você faz?",
+    "answers": [
+      "Fico fora disso",
+      "Tento mediar",
+      "Fico do lado de quem acho que tem razão",
+      "Falo com cada um em particular"
+    ]
+  },
+  "a6aca301-d610-4229-8289-b89bedc32e1e": {
+    "en": "How do you usually make plans with friends?",
+    "text": "Como você costuma combinar rolês com os amigos?",
+    "answers": [
+      "Mando a primeira mensagem",
+      "Espero alguém começar",
+      "Sugiro até algo rolar",
+      "Só vou aonde eles forem"
+    ]
+  },
+  "79b31e12-db1a-4595-a37d-d8bf3a5d4ab1": {
+    "en": "A friend is clearly wrong in an argument. What do you do?",
+    "text": "Um amigo está claramente errado numa discussão. O que você faz?",
+    "answers": [
+      "Corrijo na hora",
+      "Deixo passar",
+      "Chamo de canto depois",
+      "Concordo por fora, discordo por dentro"
+    ]
+  },
+  "43b8538b-f20e-4106-86db-2fb4ae991e8d": {
+    "en": "A close friend goes quiet for a few weeks. What do you do?",
+    "text": "Um amigo próximo fica sumido por algumas semanas. O que você faz?",
+    "answers": [
+      "Mando uma mensagem só",
+      "Continuo chamando",
+      "Dou espaço",
+      "Pergunto aos amigos em comum o que rolou"
+    ]
+  },
+  "cf10e8ca-f5f7-4fd3-ade3-8d3dd80864a1": {
+    "en": "Your friend asks for honest feedback on a bad haircut. What do you do?",
+    "text": "Seu amigo pede sua opinião sincera sobre um corte de cabelo ruim. O que você faz?",
+    "answers": [
+      "Falo a verdade",
+      "Acho um ponto positivo",
+      "Mudo de assunto"
+    ]
+  },
+  "5f50e363-7d88-40da-9fc3-20a70c1c98bc": {
+    "en": "A close friend asks to stay at your place for a week. What do you say?",
+    "text": "Um amigo próximo pede pra ficar na sua casa por uma semana. O que você diz?",
+    "answers": [
+      "Fica o tempo que precisar",
+      "Alguns dias, depois a gente conversa",
+      "Esta semana não dá, mas ajudo de outro jeito"
+    ]
+  },
+  "96a10636-c640-4c8e-b29c-8d5ea35a2325": {
+    "en": "A friend you barely talk to anymore asks for a big favor. What do you do?",
+    "text": "Um amigo com quem você quase não fala mais pede um grande favor. O que você faz?",
+    "answers": [
+      "Ajudo como nos velhos tempos",
+      "Ajudo, mas com algo pequeno",
+      "Digo que vocês não têm mais tanta intimidade"
+    ]
+  },
+  "8fbe5c15-1c5f-4d62-bb1c-8c87bd5e68e9": {
+    "en": "Two friend groups invite you out on the same night. What do you do?",
+    "text": "Dois grupos de amigos chamam você pra sair na mesma noite. O que você faz?",
+    "answers": [
+      "Vou com quem chamou primeiro",
+      "Vou com quem estou com mais saudade",
+      "Tento aparecer nos dois"
+    ]
+  },
+  "da359ad8-f794-47c9-a71f-de550fd3df0c": {
+    "en": "A close friend asks to borrow a good amount of money. What do you do?",
+    "text": "Um amigo próximo pede uma boa grana emprestada. O que você faz?",
+    "answers": [
+      "Empresta se puder",
+      "Só com um plano claro pra devolver",
+      "Não empresta dinheiro pra amigo"
+    ]
+  },
+  "d6c8e97e-b3ba-44d7-b105-c1b6b2a57587": {
+    "en": "Your friend is dating someone you really can't stand. What do you do?",
+    "text": "Seu amigo está saindo com alguém que você não suporta. O que você faz?",
+    "answers": [
+      "Fala logo no começo",
+      "Espera ele perguntar",
+      "Não fala nada e dá apoio"
+    ]
+  },
+  "0d743c77-1a58-418b-8117-3263ce8f4009": {
+    "en": "A friend invites you somewhere expensive you can't really afford. What do you do?",
+    "text": "Um amigo chama você pra um lugar caro que você não consegue bancar. O que você faz?",
+    "answers": [
+      "Diz que não consegue pagar",
+      "Sugere algo mais barato",
+      "Vai e aperta o orçamento"
+    ]
+  },
+  "02bb14d7-0d08-400e-9917-9aec53c8b7c8": {
+    "en": "You overhear a friend lightly trash-talking you. What do you do?",
+    "text": "Você ouve um amigo falando mal de você pelas costas. O que você faz?",
+    "answers": [
+      "Tira satisfação",
+      "Se afasta um pouco",
+      "Deixa passar uma vez"
+    ]
+  },
+  "660a531c-8d5e-44d7-b117-483aafb66d83": {
+    "en": "At a party, your friend is about to drunk-text their ex. What do you do?",
+    "text": "Numa festa, seu amigo está prestes a mandar mensagem bêbado para o ex. O que você faz?",
+    "answers": [
+      "Pega o celular dele",
+      "Deixa ele mandar"
+    ]
+  },
+  "6ae65593-620a-47a3-bd16-3cfdba20307b": {
+    "en": "At dinner, the bill comes and your friend \"forgot\" their wallet again. What do you do?",
+    "text": "No jantar, a conta chega e seu amigo “esqueceu” a carteira de novo. O que você faz?",
+    "answers": [
+      "Paga a parte dele e deixa pra lá",
+      "Paga, mas conversa depois"
+    ]
+  },
+  "b2f40f63-d542-449f-b8d9-7251868fe21c": {
+    "en": "In an Uber, your friend starts arguing with the driver. What do you do?",
+    "text": "No Uber, seu amigo começa a discutir com o motorista. O que você faz?",
+    "answers": [
+      "Entra no meio e acalma",
+      "Fica na sua e torce pra acabar"
+    ]
+  },
+  "2fca8524-3f16-4523-b057-17699983cc36": {
+    "en": "Your friend starts telling an embarrassing story about you to people you just met. What do you do?",
+    "text": "Seu amigo começa a contar uma história vergonhosa sua pra gente que vocês acabaram de conhecer. O que você faz?",
+    "answers": [
+      "Corta ele",
+      "Deixa ele terminar"
+    ]
+  }
+}

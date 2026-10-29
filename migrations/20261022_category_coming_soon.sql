@@ -1,8 +1,8 @@
--- "Coming soon" categories: listed in the picker as locked teasers (lock +
--- "Soon" chip), but rooms can't be created with them yet.
+-- "Coming soon" categories: listed in the picker with a "Soon" chip. They are
+-- still playable (so App Review can test them on the latest build).
 --
 -- is_listed = false  -> hidden entirely (unchanged)
--- is_listed = true, coming_soon = true -> shown locked
+-- is_listed = true, coming_soon = true -> playable, flagged "Soon"
 -- is_listed = true, coming_soon = false -> playable (default)
 --
 -- Only app builds that request `/api/categories?include=coming_soon` receive

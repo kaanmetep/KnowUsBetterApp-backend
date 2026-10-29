@@ -92,7 +92,6 @@ import {
 import {
   getCategory,
   getCategoryMode,
-  isCategoryComingSoon,
 } from "./services/categoryService.js";
 import { getReaction } from "./services/reactionService.js";
 import {
@@ -1263,13 +1262,6 @@ io.on(
             });
             return;
           }
-          if (await isCategoryComingSoon(category, supabaseAdmin)) {
-            socket.emit("room-error", {
-              message: "This category is coming soon.",
-              code: "REQUEST_FAILED",
-            });
-            return;
-          }
           const room = await roomManager.createRoom(
             socket.id,
             cleanPlayerName(playerName),
@@ -2326,13 +2318,6 @@ io.on(
         try {
           if (typeof roomCode !== "string" || !roomCode || typeof category !== "string") {
             socket.emit("room-error", { message: "Room not found", code: "ROOM_NOT_FOUND" });
-            return;
-          }
-          if (await isCategoryComingSoon(category, supabaseAdmin)) {
-            socket.emit("room-error", {
-              message: "This category is coming soon.",
-              code: "REQUEST_FAILED",
-            });
             return;
           }
           const mode = await getCategoryMode(category, supabaseAdmin);

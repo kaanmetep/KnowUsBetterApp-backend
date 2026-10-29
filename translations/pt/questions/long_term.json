@@ -1,0 +1,1721 @@
+{
+  "bca4278f-e856-4d9c-8eb1-0864e3095789": {
+    "en": "Would you pay your partner's debt?",
+    "text": "Você pagaria a dívida do seu amor?"
+  },
+  "f1daeb64-3d71-4516-bd63-e51be5db16cc": {
+    "en": "Is it important for you that the person you marry is wealthy?",
+    "text": "É importante pra você que a pessoa com quem você casar tenha dinheiro?"
+  },
+  "289fb98c-ca67-4dd0-96c8-0f30a88b9cb7": {
+    "en": "Is having a wedding important to you?",
+    "text": "Fazer festa de casamento é importante pra você?"
+  },
+  "f26f180e-48f4-4594-a56f-9e54fb49987d": {
+    "en": "Would you want your partner to take risks for you?",
+    "text": "Você gostaria que seu amor se arriscasse por você?"
+  },
+  "28552fbf-c9fb-49a2-ac5b-e1f13761050a": {
+    "en": "Would you use a shared Instagram account with your partner?",
+    "text": "Você usaria uma conta conjunta no Instagram com seu amor?"
+  },
+  "20f710ca-ec12-40a8-97e0-1ac2303e1b54": {
+    "en": "In the future, you will achieve all your career goals, but you will not be able to marry your partner (you will continue to be in a relationship without getting married).",
+    "text": "No futuro, você vai alcançar todos os seus objetivos de carreira, mas não vai poder casar com seu amor (vocês vão continuar juntos sem casar)."
+  },
+  "b6073db9-251b-4e25-ae28-8220b266b1e6": {
+    "en": "Would you continue a relationship with someone who wants to move abroad?",
+    "text": "Você continuaria um relacionamento com alguém que quer morar fora do país?"
+  },
+  "49b9f11e-0e9d-4494-beca-12f31042f074": {
+    "en": "Is your partner's family important to you?",
+    "text": "A família do seu amor é importante pra você?"
+  },
+  "111d83eb-0a34-4703-9358-30ca36ac9c4e": {
+    "en": "If your partner wanted to travel the world alone in the future, would you allow it?",
+    "text": "Se seu amor quisesse viajar pelo mundo por conta própria no futuro, você deixaria?"
+  },
+  "988c11e4-4e49-4708-a85a-76a84c979d79": {
+    "en": "Would you give up your pet for your partner?",
+    "text": "Você abriria mão do seu pet pelo seu amor?"
+  },
+  "5a88c4fd-00ed-4ed1-9582-9d7fbb9270f4": {
+    "en": "Do you plan to get married in the next three years?",
+    "text": "Você pensa em casar nos próximos três anos?"
+  },
+  "a89a3b24-529c-4182-b6f5-9353c8082674": {
+    "en": "Would you argue with your partner in public if you were right?",
+    "text": "Você discutiria com seu amor em público se tivesse razão?"
+  },
+  "82d8c091-b318-4385-aa11-b1e7c7df8a08": {
+    "en": "Would you take a loan to go on a vacation with your partner if they wanted to?",
+    "text": "Você pegaria um empréstimo pra viajar de férias com seu amor, se esse fosse o desejo do seu amor?"
+  },
+  "8300d5a7-b4b6-4ac5-a8da-4fd3208cc734": {
+    "en": "Would you give up having children for your career?",
+    "text": "Você abriria mão de ter filhos pela sua carreira?"
+  },
+  "9f286a70-cf87-4f12-a7ab-4b70cfffead0": {
+    "en": "Do you plan to have children in the next three years?",
+    "text": "Você pensa em ter filhos nos próximos três anos?"
+  },
+  "0a6af22d-dfdf-4bf9-8a3c-35fc8ae14936": {
+    "en": "Would you like to spend a lot of money on your wedding?",
+    "text": "Você gostaria de gastar muito dinheiro na sua festa de casamento?"
+  },
+  "30b40547-41aa-4735-912a-17f8a6a4d231": {
+    "en": "If your partner doesn't want a wedding, would that be a problem for you?",
+    "text": "Se seu amor não quiser festa de casamento, isso seria um problema pra você?"
+  },
+  "e2ea8d47-b6c2-4ba8-a476-51fc25ab7129": {
+    "en": "Would you let your partner read your Instagram DMs?",
+    "text": "Você deixaria seu amor ler suas DMs do Instagram?"
+  },
+  "4448fc04-15c4-4840-8920-45d1f89f731f": {
+    "en": "Would you control your partner's Instagram posts?",
+    "text": "Você controlaria os posts do seu amor no Instagram?"
+  },
+  "c0fa5897-8a9f-4a74-a0cf-7ab5814da5d3": {
+    "en": "If your partner doesn't let you go out with friends, would you sneak out anyway?",
+    "text": "Se seu amor não deixasse você sair com seus amigos, você sairia às escondidas mesmo assim?"
+  },
+  "c0480dde-ff57-4d29-97ca-33a5ff4f232f": {
+    "en": "If your partner weighed 100 kg, would you break up with them?",
+    "text": "Se seu amor pesasse 100 kg, você terminaria?"
+  },
+  "16431dd5-87cd-4985-86be-991019b52651": {
+    "en": "Would you leave your partner if you thought they were holding back your career?",
+    "text": "Você terminaria com seu amor se achasse que essa relação está segurando sua carreira?"
+  },
+  "31696cb7-5827-4ce2-a19b-9f6fa3853c9b": {
+    "en": "What is harder to accept in a relationship?",
+    "text": "O que é mais difícil de aceitar em um relacionamento?",
+    "answers": [
+      "Falta de sintonia emocional",
+      "Falta de sintonia física"
+    ]
+  },
+  "1745ac8d-b67d-4e9d-b324-c416960ae148": {
+    "en": "In the future, would you choose a partner who wants a simple life with financial comfort or a partner who wants a risky life chasing big success?",
+    "text": "No futuro, você escolheria alguém que quer uma vida simples com conforto financeiro ou alguém que quer uma vida arriscada atrás de muito sucesso?",
+    "answers": [
+      "Vida simples com conforto financeiro",
+      "Vida arriscada atrás de muito sucesso"
+    ]
+  },
+  "b13c21a7-90e1-43da-8cf4-293648328e04": {
+    "en": "Would you live with your partner before marriage?",
+    "text": "Você moraria com seu amor antes de casar?"
+  },
+  "96df59e9-4ef7-411c-988b-7da87dc67d7c": {
+    "en": "What destroys a relationship more: trust issues or communication issues?",
+    "text": "O que acaba mais com um relacionamento: problemas de confiança ou de comunicação?",
+    "answers": [
+      "Problemas de confiança",
+      "Problemas de comunicação"
+    ]
+  },
+  "0b54c41a-71f3-463e-815e-6154a48609b8": {
+    "en": "Would you accept living with your partner's family after marriage?",
+    "text": "Você aceitaria morar com a família do seu amor depois de casar?"
+  },
+  "686299c5-d8ba-4578-8cc5-d1ca88ec4c25": {
+    "en": "What is more important in a relationship: feeling secure or feeling passionate?",
+    "text": "O que é mais importante em um relacionamento: sentir segurança ou sentir paixão?",
+    "answers": [
+      "Sentir segurança",
+      "Sentir paixão"
+    ]
+  },
+  "64553088-4b91-42e3-9dd4-ae5f4f37de28": {
+    "en": "If the person you love asked you to delete your social media accounts, would you do it?",
+    "text": "Se a pessoa que você ama pedisse para você excluir suas redes sociais, você faria isso?"
+  },
+  "0b9dda2c-d006-4898-b5e8-af4332e97cff": {
+    "en": "In the future, would you choose a partner who never wants to live abroad or a partner who constantly wants to travel and move countries?",
+    "text": "No futuro, você escolheria alguém que nunca quer morar fora ou alguém que quer viajar e mudar de país o tempo todo?",
+    "answers": [
+      "Nunca morar fora",
+      "Viajar e mudar de país o tempo todo"
+    ]
+  },
+  "8e8d4a47-c5f1-47a4-a099-e40067b24d93": {
+    "en": "If your partner's best friend liked you, would you tell your partner?",
+    "text": "Se o melhor amigo do seu amor estivesse a fim de você, você contaria para seu amor?"
+  },
+  "d7f54c11-65f3-4a3b-a006-3828d94e9e5b": {
+    "en": "What is more painful in love: losing the person or realizing they were never truly yours?",
+    "text": "O que dói mais no amor: perder a pessoa ou perceber que ela nunca foi sua de verdade?",
+    "answers": [
+      "Perder a pessoa",
+      "Perceber que ela nunca foi sua de verdade"
+    ]
+  },
+  "80a41d9e-4557-4c0f-ad43-964f6992ddd6": {
+    "en": "Would you be jealous if your partner goes out at night with friends?",
+    "text": "Você teria ciúme se seu amor saísse à noite com amigos?"
+  },
+  "ce2bfb9c-c71b-4484-af3f-60b2a0d64037": {
+    "en": "Would you marry someone who doesn't want children?",
+    "text": "Você casaria com alguém que não quer ter filhos?"
+  },
+  "1c7d7202-1982-4200-85ce-5430554c6774": {
+    "en": "What is harder to live with in a relationship: feeling unloved or feeling unimportant?",
+    "text": "O que é mais difícil em um relacionamento: sentir falta de amor ou sentir que você não importa?",
+    "answers": [
+      "Sentir falta de amor",
+      "Sentir que você não importa"
+    ]
+  },
+  "6fe6fdf5-1b21-4395-a422-a668befc589b": {
+    "en": "Would living with your partner kill the sexual attraction?",
+    "text": "Morar com seu amor acabaria com a atração sexual?"
+  },
+  "ed60a442-e3d3-4295-847a-b2c280d9575e": {
+    "en": "What is more damaging in a relationship: losing trust once or slowly losing it over time?",
+    "text": "O que machuca mais um relacionamento: perder a confiança de uma vez ou ir perdendo aos poucos?",
+    "answers": [
+      "Perder a confiança de uma vez",
+      "Ir perdendo aos poucos"
+    ]
+  },
+  "e838307a-5659-4045-a4eb-47b441d35812": {
+    "en": "Would you get upset if your partner goes on vacation with friends?",
+    "text": "Você se chatearia se seu amor viajasse de férias com amigos?"
+  },
+  "56f4ccea-070f-415b-9f4c-a51c62a46331": {
+    "en": "Do you believe a lost love can be regained with effort?",
+    "text": "Você acredita que um amor perdido pode ser reconquistado com esforço?"
+  },
+  "f12cb362-0dc9-4d15-9ecd-c965ea436887": {
+    "en": "Does love have an age limit?",
+    "text": "O amor tem limite de idade?"
+  },
+  "46d0a0ad-3871-4e6a-8269-234e157bbf9e": {
+    "en": "Do you feel regret about past relationships?",
+    "text": "Você sente arrependimento por relacionamentos passados?"
+  },
+  "5e523a85-9eab-465f-948e-70dfe87139c8": {
+    "en": "Would you lose a game on purpose to make your partner feel better?",
+    "text": "Você perderia um jogo de propósito pra fazer seu amor se sentir melhor?"
+  },
+  "248cce39-2e0a-4ecf-8bdc-a9c1da7669e2": {
+    "en": "Would it bother you if your partner were famous on Instagram and always in the spotlight?",
+    "text": "Você se incomodaria se seu amor tivesse fama no Instagram e vivesse nos holofotes?"
+  },
+  "9f5b2220-1d85-4476-be4b-aede57b91272": {
+    "en": "Would you go against your family for something you really want or dream of?",
+    "text": "Você iria contra sua família por algo que quer muito ou sonha em fazer?"
+  },
+  "604782d5-021e-477b-b3e5-c6a585fd2c2b": {
+    "en": "Would you lie to your partner just to make them happy?",
+    "text": "Você mentiria para seu amor só pra deixar seu amor feliz?"
+  },
+  "b13dd5c4-c9bc-49f6-94fe-db99095dcbaf": {
+    "en": "Would you seek revenge on a partner who cheated on you?",
+    "text": "Você se vingaria de alguém que traiu você?"
+  },
+  "c1531a57-602a-4c85-b580-f29dd037d80a": {
+    "en": "Would you stay with someone who earns more money than you?",
+    "text": "Você continuaria com alguém que ganha mais dinheiro que você?"
+  },
+  "91124f3e-050c-4a45-b19e-1099ad9ea3bf": {
+    "en": "Are you impressed by expensive gifts?",
+    "text": "Presentes caros impressionam você?"
+  },
+  "abfd3894-3839-422a-b90f-c7d4f148eca2": {
+    "en": "Would you lend a large amount of money to your partner's sibling?",
+    "text": "Você emprestaria uma grana alta para o irmão do seu amor?"
+  },
+  "8a6b14a5-837d-423c-bd6d-96f3275c1d69": {
+    "en": "If your friends don't like your partner, would it make you lose interest in them?",
+    "text": "Se seus amigos não gostassem do seu amor, isso faria você perder o interesse?"
+  },
+  "95265173-55f2-4655-970e-a321e4fee997": {
+    "en": "Do you believe there is one specific person in the world who was created specifically for you?",
+    "text": "Você acredita que existe uma pessoa específica no mundo feita pra você?"
+  },
+  "f07da6dd-5097-43b8-8b05-31f5c2a82073": {
+    "en": "If your partner wanted, would you make your Instagram account private?",
+    "text": "Se seu amor pedisse, você deixaria seu Instagram privado?"
+  },
+  "0e237d80-73bb-43e5-ac91-3c2ae17a06d1": {
+    "en": "In the future, would you choose a partner who wants kids early or one who wants kids much later in life?",
+    "text": "No futuro, você escolheria alguém que quer ter filhos cedo ou bem mais tarde?",
+    "answers": [
+      "Filhos cedo",
+      "Filhos mais tarde"
+    ]
+  },
+  "cb71ff6a-3fca-408a-8995-2378e6f2df75": {
+    "en": "If your partner wanted to read your messages with your friend group, would you let them?",
+    "text": "Se seu amor quisesse ler suas mensagens com seu grupo de amigos, você deixaria?"
+  },
+  "6501aea1-b672-4b69-9b47-ef34337f0731": {
+    "en": "Would you live in the same house with a friend of the opposite sex while having a partner?",
+    "text": "Você moraria com um amigo do sexo oposto mesmo tendo seu amor?"
+  },
+  "691c9f52-2fc8-44dd-92e3-b33eb68025ef": {
+    "en": "In the future, would you accept it if your partner preferred adoption instead of having biological children?",
+    "text": "No futuro, você aceitaria se seu amor preferisse adotar em vez de ter filhos biológicos?"
+  },
+  "016974f8-7cc2-43d8-8e16-60cc714dc90c": {
+    "en": "If your partner wanted to leave everything and move to another country, would you agree?",
+    "text": "Se seu amor quisesse largar tudo e se mudar para outro país, você aceitaria?"
+  },
+  "fc6b721a-f7d1-4ee5-b4a4-321d5ae14865": {
+    "en": "If the person you're with wants to get cosmetic surgery, would you support them?",
+    "text": "Se a pessoa com quem você está quisesse fazer uma cirurgia plástica, você apoiaria?"
+  },
+  "df31e532-7534-4a7e-b947-32f62c398807": {
+    "en": "Prioritize a wealthy retirement, or spend savings on experiences while we’re young?",
+    "text": "Priorizar uma aposentadoria confortável ou gastar com experiências enquanto somos jovens?",
+    "answers": [
+      "Guardar para a aposentadoria",
+      "Gastar com memórias"
+    ]
+  },
+  "b998c2fd-b632-4b5f-b225-7f874cceb713": {
+    "en": "Would you stop talking to a friend who finds you attractive if your partner asked you to?",
+    "text": "Você pararia de falar com um amigo que tem atração por você se seu amor pedisse?"
+  },
+  "d3176e15-3a75-42a3-b1bb-170482b855c3": {
+    "en": "If your partner suggested putting our one-year savings into a joint account, would you agree?",
+    "text": "Se seu amor sugerisse colocar as economias de um ano de vocês numa conta conjunta, você aceitaria?"
+  },
+  "93d80425-5f77-4d69-ac5b-c8e4cf99ab98": {
+    "en": "If your best friend and partner met without telling you, would you get jealous?",
+    "text": "Se seu melhor amigo e seu amor saíssem juntos sem contar pra você, você teria ciúme?"
+  },
+  "bacc8f30-4a8a-4cc1-adc7-58e93a284f15": {
+    "en": "If your partner accidentally used your toothbrush, would you throw it away?",
+    "text": "Se seu amor usasse sua escova de dentes sem querer, você jogaria fora?"
+  },
+  "ddea60f1-05c3-4711-b23c-6a5d0c156b2c": {
+    "en": "Is it a dealbreaker if your spouse frequently goes out with friends without you?",
+    "text": "Se, depois de casar, seu amor saísse muito com amigos sem você, isso seria motivo pra se separar?"
+  },
+  "352fe804-1b1d-42dd-9635-2ffcc0aafb91": {
+    "en": "Would you try to find someone else immediately after breaking up to forget your partner?",
+    "text": "Depois de terminar com seu amor, você tentaria achar outra pessoa logo pra esquecer?"
+  },
+  "54ca5a96-f07e-4a5c-b173-01009111b982": {
+    "en": "Would you marry someone who never makes plans and always lives spontaneously?",
+    "text": "Você casaria com alguém que nunca faz planos e vive sempre no improviso?"
+  },
+  "7db0308d-d61f-4662-9efa-66e062c44528": {
+    "en": "Would you agree to care for our aging parents in our home, or should our home be strictly for us?",
+    "text": "Você aceitaria cuidar dos pais de vocês em casa quando envelhecessem, ou a casa teria que ser só de vocês?",
+    "answers": [
+      "Cuidar dos pais",
+      "Só a gente"
+    ]
+  },
+  "28af0e4f-1f69-45d5-86a3-c74606db680e": {
+    "en": "If you knew you would be in a long-distance relationship with your long-term partner for 3 years, would you break up?",
+    "text": "Se soubesse que ficaria 3 anos num relacionamento à distância com seu amor de anos, você terminaria?"
+  },
+  "94b588d9-5c0d-4ad8-b8c1-ae2289717727": {
+    "en": "If I am wrong in an argument with my family, would you support me blindly or tell me the truth?",
+    "text": "Se eu estiver sem razão numa discussão com minha família, você me apoiaria às cegas ou me diria a verdade?",
+    "answers": [
+      "Me apoiar",
+      "Dizer a verdade"
+    ]
+  },
+  "63e81c14-3291-439d-9da1-e0ec06a397c8": {
+    "en": "Do you think your partner is the most beautiful/handsome person in the world?",
+    "text": "Você acha que seu amor é a pessoa mais linda do mundo?"
+  },
+  "58be97f3-33a2-4176-a067-0da976da9966": {
+    "en": "Are there any physical traits in your partner you wish were different?",
+    "text": "Tem alguma característica física do seu amor que você gostaria que fosse diferente?"
+  },
+  "eb998eea-b2fa-40df-833c-f2ed37fe741d": {
+    "en": "Does your partner have personality traits you dislike?",
+    "text": "Tem algo no jeito de ser do seu amor que você não curte?"
+  },
+  "d423c831-6f0e-46fe-8706-1e20fc4d0d24": {
+    "en": "Do you expect your partner to see you as the most beautiful/handsome person in the world?",
+    "text": "Você espera que seu amor veja você como a pessoa mais linda do mundo?"
+  },
+  "64d5160e-4b72-46db-9f14-7d9f788e4205": {
+    "en": "Would you break up with your partner for a celebrity you've been a fan of for a long time?",
+    "text": "Você terminaria com seu amor por uma celebridade de quem é fã há muito tempo?"
+  },
+  "fc7faf7d-3139-4fe3-a807-22ef1e46a3fa": {
+    "en": "Is your partner's sexual ability an important factor for you?",
+    "text": "O desempenho sexual do seu amor é importante pra você?"
+  },
+  "c5c2f072-cf24-4823-82c3-b9c717ffdda6": {
+    "en": "If your partner had issues with sexual matters, would you help them?",
+    "text": "Se seu amor tivesse alguma dificuldade na vida sexual, você ajudaria?"
+  },
+  "d0de886c-2bc7-4537-9f02-0d2bb3d97dc4": {
+    "en": "If your partner didn’t want to have children, would it turn you away from them?",
+    "text": "Se seu amor não quisesse ter filhos, isso faria você se afastar?"
+  },
+  "49032d61-306c-4046-9f55-58fd7134d736": {
+    "en": "Would your partner having had many previous relationships with the opposite sex prevent you from marrying them?",
+    "text": "Seu amor ter tido muitos relacionamentos anteriores com pessoas do sexo oposto impediria você de casar?"
+  },
+  "f09be90a-d3dc-49b4-abc6-0ddc661ce24e": {
+    "en": "Would you change some of your physical traits just because your partner wanted you to?",
+    "text": "Você mudaria alguma característica física sua só porque seu amor quisesse?"
+  },
+  "2031ac8e-84a0-46e6-a9c0-779c037ad4b7": {
+    "en": "Would you honestly tell your partner about the traits you dislike in them?",
+    "text": "Você contaria com sinceridade para seu amor quais características não curte?"
+  },
+  "bdc571eb-8288-4938-ae2c-5fdf49ec2e72": {
+    "en": "When a relationship fails, what is usually the real culprit?",
+    "text": "Quando um relacionamento não dá certo, qual costuma ser o verdadeiro culpado?",
+    "answers": [
+      "Expectativas não ditas",
+      "Paixão que esfria"
+    ]
+  },
+  "1acb71f6-c1d0-4ebf-822b-a4850587315c": {
+    "en": "Would you want your partner to honestly tell you the traits they dislike in you?",
+    "text": "Você gostaria que seu amor dissesse, com sinceridade, o que não gosta em você?"
+  },
+  "3cd31962-bb6c-40b3-906b-f5887ed0880b": {
+    "en": "To truly know someone, what is more important to understand?",
+    "text": "Pra conhecer alguém de verdade, o que é mais importante entender?",
+    "answers": [
+      "O maior medo",
+      "O maior arrependimento"
+    ]
+  },
+  "d6ff5aca-6d0a-40d4-abf5-220fed31a7aa": {
+    "en": "Would it bother you if your partner had a personal trainer of the opposite sex?",
+    "text": "Te incomodaria se seu amor tivesse um personal trainer do sexo oposto?"
+  },
+  "4b344e38-5083-4f61-92a5-b6a94bb638e3": {
+    "en": "Do you expect your partner to cook for you?",
+    "text": "Você espera que seu amor cozinhe pra você?"
+  },
+  "2639b278-9a40-4776-ae20-5aa3c3091d4e": {
+    "en": "Is it a problem for you to constantly drive your partner to places?",
+    "text": "É um problema pra você ficar levando seu amor de carro pra todo lugar?"
+  },
+  "3b05a5a1-69a6-437d-94db-41b16a10f2a7": {
+    "en": "Would it bother you if your partner worked in a place with many people of the opposite sex?",
+    "text": "Te incomodaria se seu amor trabalhasse num lugar com muita gente do sexo oposto?"
+  },
+  "c00f571f-50b6-4a6f-9183-a9149f1a1bb6": {
+    "en": "Is it important for your partner to be experienced in sexual matters?",
+    "text": "É importante pra você que seu amor tenha experiência sexual?"
+  },
+  "15a86cd9-0b20-4b0e-92db-06fddb8dddfe": {
+    "en": "Have you ever compared your partner sexually with your previous relationships?",
+    "text": "Você já comparou seu amor, no sexo, com relações anteriores?"
+  },
+  "1c43db4b-3928-4644-9c02-9a5b28d512bf": {
+    "en": "Is it a problem for you if your partner has a very high libido?",
+    "text": "Seria um problema pra você se seu amor tivesse a libido muito alta?"
+  },
+  "279696b0-907a-4c1a-ba87-1c4e21dce4cf": {
+    "en": "Do you like trying different things in sexual activity with your partner?",
+    "text": "Você curte tentar coisas diferentes no sexo com seu amor?"
+  },
+  "cd7e09ce-8dd9-4652-9e3f-6c8f2aafcd3b": {
+    "en": "Would you put the house you bought under your partner's name?",
+    "text": "Você colocaria a casa que comprou no nome do seu amor?"
+  },
+  "ddacf6e7-aba3-40cf-9a91-8568306ad5ba": {
+    "en": "Do you expect an expensive ring for marriage?",
+    "text": "Você espera ganhar um anel caro para casar?"
+  },
+  "a9e4e29b-976f-411e-873e-eba5322ddbf6": {
+    "en": "Would you be against your partner changing countries for their job?",
+    "text": "Você seria contra seu amor se mudar de país por causa do trabalho?"
+  },
+  "11ba62e8-bc60-4dcb-a6bc-35b20877e4dc": {
+    "en": "If you were in a long-term relationship and had to change countries for your job, would you do it?",
+    "text": "Se você estivesse num relacionamento longo e precisasse mudar de país por causa do trabalho, mudaria?"
+  },
+  "d9dd14c7-2b1c-46a3-ab6a-ebf6a50b9f61": {
+    "en": "Which is worse: your partner cheating on you emotionally or physically?",
+    "text": "O que é pior: seu amor te trair emocionalmente ou fisicamente?",
+    "answers": [
+      "Emocionalmente",
+      "Fisicamente"
+    ]
+  },
+  "28e3a893-ed3a-4166-a6e7-1de6e00f025b": {
+    "en": "Which is worse: your partner not finding you emotionally attractive or not finding you physically attractive?",
+    "text": "O que é pior: seu amor não sentir atração emocional por você ou não sentir atração física por você?",
+    "answers": [
+      "Atração emocional",
+      "Atração física"
+    ]
+  },
+  "33d32a27-9799-48eb-b766-128974c97a34": {
+    "en": "Which is worse: catching your partner cheating or your partner catching you cheating?",
+    "text": "O que é pior: pegar seu amor traindo ou seu amor pegar você traindo?",
+    "answers": [
+      "Pegar seu amor",
+      "Seu amor pegar você"
+    ]
+  },
+  "8ebb4a7c-e04e-4b14-b109-40d9945a88b7": {
+    "en": "Which is worse: your partner moving to a distant country or you moving to a distant country?",
+    "text": "O que é pior: seu amor se mudar pra um país distante ou você se mudar?",
+    "answers": [
+      "Seu amor se mudar",
+      "Você se mudar"
+    ]
+  },
+  "79bf77ef-9fdb-4dac-b926-f855bba42d66": {
+    "en": "Which is worse: not matching music tastes with your partner or not matching movie tastes?",
+    "text": "O que é pior: vocês não terem o mesmo gosto pra música ou pra filmes?",
+    "answers": [
+      "Gosto musical",
+      "Gosto pra filmes"
+    ]
+  },
+  "653143d2-1916-431c-ab37-fe2b5a235e66": {
+    "en": "Which would make you feel more uneasy: your partner forgetting small promises or being late frequently?",
+    "text": "O que deixaria você mais desconfortável: seu amor esquecer pequenas promessas ou se atrasar com frequência?",
+    "answers": [
+      "Esquecer promessas",
+      "Se atrasar"
+    ]
+  },
+  "fc667698-5698-4d39-b70d-cae593b8c11e": {
+    "en": "Which would upset you more: your partner spending too much time at work or too much time with friends?",
+    "text": "O que chatearia mais você: seu amor passar tempo demais no trabalho ou com os amigos?",
+    "answers": [
+      "Tempo demais no trabalho",
+      "Tempo demais com amigos"
+    ]
+  },
+  "455fb3ee-8dfa-4f2b-85ef-139849e81bab": {
+    "en": "Which would bother you more: your partner being overly honest or sometimes hiding their feelings?",
+    "text": "O que incomodaria mais você: seu amor ser sincero demais ou às vezes esconder o que sente?",
+    "answers": [
+      "Sinceridade demais",
+      "Esconder sentimentos"
+    ]
+  },
+  "2e2df402-f220-462b-9c80-b2298a3cafac": {
+    "en": "Which is worse: your partner being too social or too antisocial?",
+    "text": "O que é pior: seu amor ser sociável demais ou antissocial demais?",
+    "answers": [
+      "Sociável demais",
+      "Antissocial demais"
+    ]
+  },
+  "c52d148b-89e8-4238-9d94-800d4f11bdac": {
+    "en": "Which is worse: your partner finds you physically attractive but not emotionally, or the opposite?",
+    "text": "O que é pior: seu amor achar você atraente fisicamente, mas não emocionalmente, ou o contrário?",
+    "answers": [
+      "Fisicamente sim, emocionalmente não",
+      "Emocionalmente sim, fisicamente não"
+    ]
+  },
+  "162d6a19-fd73-4534-b490-5e7e1e0b3eef": {
+    "en": "Which is a bigger problem for you: your friends not liking your partner or your family not liking your partner?",
+    "text": "O que seria um problema maior pra você: seus amigos não gostarem do seu amor ou sua família não gostar?",
+    "answers": [
+      "Amigos não gostarem",
+      "Família não gostar"
+    ]
+  },
+  "ea5ad620-dc64-4152-b184-47622520ec52": {
+    "en": "Which one harms a relationship more: jealousy or indifference?",
+    "text": "O que prejudica mais um relacionamento: ciúme ou indiferença?",
+    "answers": [
+      "Ciúme",
+      "Indiferença"
+    ]
+  },
+  "fe45606a-4dc4-42e6-9abf-5e2a509edb00": {
+    "en": "Which one keeps a relationship alive: trust or excitement?",
+    "text": "O que mantém um relacionamento vivo: confiança ou emoção?",
+    "answers": [
+      "Confiança",
+      "Emoção"
+    ]
+  },
+  "fd0179df-13cb-4157-ba8a-12619419e6a8": {
+    "en": "Which matters more in a relationship: past or future?",
+    "text": "O que importa mais em um relacionamento: passado ou futuro?",
+    "answers": [
+      "Passado",
+      "Futuro"
+    ]
+  },
+  "59eb70eb-3614-482e-b3e7-13d374d022a7": {
+    "en": "Would you lie to make your partner happy, or would you tell the truth?",
+    "text": "Você mentiria para deixar seu amor feliz ou diria a verdade?",
+    "answers": [
+      "Mentir",
+      "Dizer a verdade"
+    ]
+  },
+  "5bb196d2-5aa1-4f79-9c71-b1baedb47576": {
+    "en": "Do you think love can completely change a person's character?",
+    "text": "Você acha que o amor pode mudar totalmente o caráter de uma pessoa?"
+  },
+  "f96063bc-177c-4046-940f-d72c36e52893": {
+    "en": "Can your partner restrict you in certain situations?",
+    "text": "Seu amor pode limitar você em certas situações?"
+  },
+  "638b1776-92ae-472c-9af1-2b150d8b928c": {
+    "en": "Does too much attention bother you?",
+    "text": "Você se incomoda com atenção demais?"
+  },
+  "6fbf8d8f-5684-4aa4-8861-71fa531bd810": {
+    "en": "Would it bother you if your partner sent money from your joint account to their family?",
+    "text": "Você se incomodaria se seu amor mandasse dinheiro da conta conjunta de vocês para a própria família?"
+  },
+  "b8dcafd7-f3f6-4302-8649-056b806471d9": {
+    "en": "Would it bother you if your partner frequently praised an opposite-sex coworker?",
+    "text": "Você se incomodaria se seu amor elogiasse com frequência um colega de trabalho do sexo oposto?"
+  },
+  "3e13ae9a-0342-4fe9-a61a-bcd0b1c49265": {
+    "en": "Does your partner have to share a photo with you on their social media accounts?",
+    "text": "Seu amor precisa postar uma foto com você nas redes sociais?"
+  },
+  "b9bfb570-2a7e-4bbc-b8ad-738814907e46": {
+    "en": "Would it be a reason for an argument if your partner never shares any photos with you on social media?",
+    "text": "Seria motivo de briga se seu amor nunca postasse fotos com você nas redes sociais?"
+  },
+  "9ab9fcdd-a94c-4a41-b1cb-b457f9a29fd3": {
+    "en": "Would it bother you if your partner worked at the same workplace as their ex?",
+    "text": "Você se incomodaria se seu amor trabalhasse no mesmo lugar que um ex?"
+  },
+  "05c6379b-7172-485c-9a3a-957dc4b871d6": {
+    "en": "If an argument with your partner goes on for too long, would you be the one to back down to end it?",
+    "text": "Se uma discussão com seu amor se prolongar demais, você cederia para acabar com ela?"
+  },
+  "613bd85c-575c-4aed-b9ce-5f3af88e5906": {
+    "en": "If you lent money to your partner and they forgot to pay you back, would you remind them?",
+    "text": "Se você emprestasse dinheiro ao seu amor e seu amor esquecesse de pagar de volta, você cobraria?"
+  },
+  "9c033c13-73b4-44e7-a935-0242b4fae94f": {
+    "en": "Would you get upset if your partner never introduced you to their friends?",
+    "text": "Você se incomodaria se seu amor nunca apresentasse você aos próprios amigos?"
+  },
+  "40137f6d-8f1e-45c1-a4dc-a63c87f0a92f": {
+    "en": "Do you think your ex-partner should be removed from social media accounts?",
+    "text": "Você acha que tem que excluir ex das redes sociais?"
+  },
+  "32bec47e-fda0-4934-bb7e-536d8e4cf7f2": {
+    "en": "If you stopped being physically attracted to your spouse after marriage, would you get a divorce?",
+    "text": "Se, depois de casar, você parasse de sentir atração física pelo seu amor, você se divorciaria?"
+  },
+  "0f881ec0-2f6d-4a8d-8f6f-1fe54395c59f": {
+    "en": "Would you prefer your child to resemble you more or your partner?",
+    "text": "Você preferiria que seu filho se parecesse mais com você ou com seu amor?",
+    "answers": [
+      "Comigo",
+      "Com meu amor"
+    ]
+  },
+  "ae4f73ff-5e35-4faa-bea5-ccb6fff9920e": {
+    "en": "If your partner really wanted it, would you name your child after your partner's mother?",
+    "text": "Se seu amor quisesse muito, você daria ao bebê de vocês o nome da mãe do seu amor?"
+  },
+  "b246de81-762a-451c-8b6a-a4a4cdf1c14f": {
+    "en": "Would it bother you if your partner had a fake account just to stalk people?",
+    "text": "Você se incomodaria se seu amor tivesse um perfil fake só para stalkear os outros?"
+  },
+  "04fb3b07-0c4a-4470-906f-69ff3696620b": {
+    "en": "In a relationship, do you think it is better to take a break to fix things or solve them without any break?",
+    "text": "Num relacionamento, você acha melhor dar um tempo para acertar as coisas ou resolver tudo sem dar um tempo?",
+    "answers": [
+      "Dar um tempo",
+      "Resolver sem dar um tempo"
+    ]
+  },
+  "9abff03b-7b65-419f-b4d6-2d469b4dc7be": {
+    "en": "1 million dollars but not see your partner for 2 years, or 10 million dollars but not see your partner for 4 years?",
+    "text": "1 milhão de dólares, mas ficar 2 anos sem ver seu amor, ou 10 milhões de dólares, mas ficar 4 anos sem ver seu amor?",
+    "answers": [
+      "1 milhão de dólares, 2 anos longe",
+      "10 milhões de dólares, 4 anos longe"
+    ]
+  },
+  "80bd3596-b457-49a1-a292-e3a26678f409": {
+    "en": "Would you rather be with someone you love but have constant arguments, or with someone less compatible but peaceful?",
+    "text": "Você preferiria ficar com alguém que ama, mas vive discutindo, ou com alguém menos compatível, mas em paz?",
+    "answers": [
+      "Amor com discussões",
+      "Menos compatível, mas em paz"
+    ]
+  },
+  "550b4795-47de-43b4-9981-5522c66470f3": {
+    "en": "Which would you prefer: your partner proposing a modest marriage or an extravagant one?",
+    "text": "O que você preferiria: um pedido de casamento simples do seu amor ou um bem extravagante?",
+    "answers": [
+      "Pedido simples",
+      "Pedido extravagante"
+    ]
+  },
+  "c90ae871-809e-4ada-9637-99d6ff40dce7": {
+    "en": "Which would you prefer: your partner buying an engagement ring that stretches their budget or one much cheaper than they can afford?",
+    "text": "O que você preferiria: que seu amor comprasse um anel de noivado que apertasse o orçamento ou um bem abaixo do que poderia pagar?",
+    "answers": [
+      "Anel que aperta o orçamento",
+      "Anel bem abaixo do orçamento"
+    ]
+  },
+  "9ae0640c-d472-4528-a93b-99746bc50ea6": {
+    "en": "Which would you prefer: your partner planning the marriage proposal entirely on their own, or secretly asking your friends for advice?",
+    "text": "O que você preferiria: que seu amor planejasse o pedido de casamento sem ajuda ou pedisse dicas aos seus amigos em segredo?",
+    "answers": [
+      "Planejar sem ajuda",
+      "Pedir dicas em segredo"
+    ]
+  },
+  "4d5dde88-5d3a-4751-91aa-1004648687c2": {
+    "en": "Which would you prefer: a partner who expresses love through grand gestures, or one who shows it through small everyday acts?",
+    "text": "O que você preferiria: alguém que demonstra amor com grandes gestos ou com pequenas atitudes do dia a dia?",
+    "answers": [
+      "Grandes gestos",
+      "Pequenas atitudes do dia a dia"
+    ]
+  },
+  "db9d8560-2591-456f-b350-c20096c3e897": {
+    "en": "Is it okay for your partner to hug a friend of the opposite sex?",
+    "text": "Tudo bem seu amor dar um abraço em um amigo do sexo oposto?"
+  },
+  "d1af31ed-9299-485a-941b-b8031854ca9c": {
+    "en": "Is it okay for your partner to treat a friend of the opposite sex to a meal?",
+    "text": "Tudo bem seu amor pagar uma refeição para um amigo do sexo oposto?"
+  },
+  "1fd7db14-1dfd-4713-a16a-91a0bc778c60": {
+    "en": "Is it okay for your partner to meet one-on-one with a friend of the opposite sex?",
+    "text": "Tudo bem seu amor se encontrar a sós com um amigo do sexo oposto?"
+  },
+  "49fd0add-5bf4-4012-b988-e6a0c6e704c2": {
+    "en": "Is it a problem for you if your partner has a celebrity crush?",
+    "text": "É um problema para você se seu amor tiver um crush famoso?"
+  },
+  "9cd41d79-298f-431e-92ae-8a1bba9c478f": {
+    "en": "Do you think it is acceptable to read your partner’s messages with friends of the opposite sex?",
+    "text": "Você acha aceitável ler as mensagens do seu amor com amigos do sexo oposto?"
+  },
+  "585ec0e7-b6f1-444c-b04c-2ef0117d83bd": {
+    "en": "With your partner...",
+    "text": "Com seu amor...",
+    "answers": [
+      "Conexão segura, mas sem graça",
+      "Conexão arriscada, mas cheia de vida"
+    ]
+  },
+  "12cc068c-eb0e-44d6-b816-c39859648964": {
+    "en": "Would you get upset if your partner refused to show you their messages with a friend of the opposite sex?",
+    "text": "Você se incomodaria se seu amor se recusasse a mostrar para você as mensagens com um amigo do sexo oposto?"
+  },
+  "940c094a-220c-40f3-9526-a5fea4f487bd": {
+    "en": "Is it okay for your partner to stay for a short time at a friend of the opposite sex's house?",
+    "text": "Tudo bem se seu amor ficar por pouco tempo na casa de um amigo do sexo oposto?"
+  },
+  "db9c8d1c-063f-4c3d-8da6-84abfcb592e7": {
+    "en": "Would it be a reason for conflict if your partner wanted to spend the entire weekend playing video games alone?",
+    "text": "Seria motivo de briga se seu amor quisesse passar o fim de semana inteiro jogando videogame sem companhia?"
+  },
+  "8c809c4c-7508-47c3-b12b-68ca4fae57b8": {
+    "en": "In a long-term relationship, love over time...",
+    "text": "Em um relacionamento longo, o amor com o tempo...",
+    "answers": [
+      "Aumenta",
+      "Muda de forma"
+    ]
+  },
+  "2e1f0de3-37db-41c9-a49f-ceb0bde8402f": {
+    "en": "Should your partner prioritize their own future or yours more?",
+    "text": "Seu amor deveria priorizar mais o próprio futuro ou o seu?",
+    "answers": [
+      "O próprio futuro",
+      "O seu futuro"
+    ]
+  },
+  "58cc044f-d0e6-407b-b19f-4db600605254": {
+    "en": "Your partner trying to change you...",
+    "text": "Seu amor tentar mudar você...",
+    "answers": [
+      "Aceitável",
+      "Nunca aceitável"
+    ]
+  },
+  "faeb28bd-22ea-4bb9-89c6-5cd68917656d": {
+    "en": "In a long-term relationship, monotony...",
+    "text": "Em um relacionamento longo, a monotonia...",
+    "answers": [
+      "Inevitável",
+      "Evitável"
+    ]
+  },
+  "93bfc65c-0d46-4cbc-86a5-46802820f43b": {
+    "en": "Your partner trying to change you, even if it is \"for your own good\"...",
+    "text": "Seu amor tentar mudar você, mesmo que seja “pro seu bem”...",
+    "answers": [
+      "Aceitável",
+      "Nunca aceitável"
+    ]
+  },
+  "d396fe80-cd3f-43c3-842a-fcd6c54b23b4": {
+    "en": "Your partner talking about their past relationships...",
+    "text": "Seu amor falar sobre relacionamentos passados...",
+    "answers": [
+      "Normal e necessário",
+      "Desnecessário e prejudicial"
+    ]
+  },
+  "1145588f-eea5-4226-80b3-a98a5d0b043c": {
+    "en": "Jealousy...",
+    "text": "Ciúme...",
+    "answers": [
+      "Sinal de amor",
+      "Sinal de insegurança"
+    ]
+  },
+  "aabf084a-c712-4d5f-872c-8351c008d756": {
+    "en": "If your partner does not like your friends...",
+    "text": "Se seu amor não gosta dos seus amigos...",
+    "answers": [
+      "Pode ser um problema",
+      "Não é um problema"
+    ]
+  },
+  "31b2a2da-9927-44e9-948c-1edd25445983": {
+    "en": "If your partner does not constantly text you...",
+    "text": "Se seu amor não manda mensagem o tempo todo...",
+    "answers": [
+      "É normal",
+      "É falta de interesse"
+    ]
+  },
+  "aaa13474-4c03-4f25-b201-c6c81cf34b35": {
+    "en": "If your partner informs you at the last minute without making plans...",
+    "text": "Seu amor avisar em cima da hora, sem combinar antes...",
+    "answers": [
+      "Espontaneidade",
+      "Falta de respeito"
+    ]
+  },
+  "c8052202-a0f7-4d5a-9e3d-4aaa2bba5caf": {
+    "en": "Spending constant time together in a relationship...",
+    "text": "Passar tempo com seu amor o tempo todo em um relacionamento...",
+    "answers": [
+      "Cria conexão",
+      "Sufoca"
+    ]
+  },
+  "48e6113e-51b4-4e1f-a138-7c7149028fa3": {
+    "en": "Staying silent during arguments...",
+    "text": "Ficar em silêncio durante discussões...",
+    "answers": [
+      "Maturidade",
+      "Fuga"
+    ]
+  },
+  "c3b94f1d-30c4-4c5d-bed8-ab4965ec0b5b": {
+    "en": "Questioning your partner in a relationship...",
+    "text": "Cobrar explicações do seu amor em um relacionamento...",
+    "answers": [
+      "Normal",
+      "Sinal de insegurança"
+    ]
+  },
+  "e2f38a08-615d-4063-9ef1-e1194aabb7a6": {
+    "en": "Freedom in a relationship...",
+    "text": "Liberdade em um relacionamento...",
+    "answers": [
+      "O mais importante",
+      "Diminui o amor"
+    ]
+  },
+  "3354bd61-f081-4c81-8939-a8009d25b348": {
+    "en": "Spending time apart in a relationship...",
+    "text": "Passar um tempo longe em um relacionamento...",
+    "answers": [
+      "Saudável",
+      "Cria distância"
+    ]
+  },
+  "64a23406-a16e-4819-9dd8-da44d139f8e6": {
+    "en": "Silence between you and your partner...",
+    "text": "O silêncio entre você e seu amor...",
+    "answers": [
+      "Sinal de conforto",
+      "Sinal de distância"
+    ]
+  },
+  "52bd1a52-d873-4451-8a68-da4c7ade05d3": {
+    "en": "Routine in a long-term relationship...",
+    "text": "A rotina em um relacionamento longo...",
+    "answers": [
+      "Dá segurança",
+      "Cria tédio"
+    ]
+  },
+  "7a0db8b2-560c-41e6-849a-993e7e074ae8": {
+    "en": "What is more important in a relationship: love or respect?",
+    "text": "O que é mais importante em um relacionamento: amor ou respeito?",
+    "answers": [
+      "Amor",
+      "Respeito"
+    ]
+  },
+  "9d7e63d7-607b-48a9-949a-16936f965dc6": {
+    "en": "Sharing everything with your partner...",
+    "text": "Compartilhar tudo com seu amor...",
+    "answers": [
+      "Cria proximidade",
+      "Tira o espaço pessoal"
+    ]
+  },
+  "7ee80276-4cae-4786-8e8a-6c3732d4bad2": {
+    "en": "In a long-term relationship, love is more...",
+    "text": "Em um relacionamento longo, o amor é mais...",
+    "answers": [
+      "Uma escolha",
+      "Um sentimento"
+    ]
+  },
+  "ddcf2c7d-04d2-4a0c-b0ed-119f2f636bc6": {
+    "en": "The biggest risk in a relationship...",
+    "text": "O maior risco em um relacionamento...",
+    "answers": [
+      "Se afastar aos poucos",
+      "Se acostumar demais"
+    ]
+  },
+  "2b676dd8-d2b2-4d4d-91f2-6cd5c4997b2b": {
+    "en": "In long-term relationships, people more often...",
+    "text": "Em relacionamentos longos, as pessoas costumam mais...",
+    "answers": [
+      "Se complementar",
+      "Ficar parecidas"
+    ]
+  },
+  "d28a64f1-32ba-433f-82dd-72bf9c2cc578": {
+    "en": "Accepting your partner as they are...",
+    "text": "Aceitar seu amor do jeito que é...",
+    "answers": [
+      "O auge do amor",
+      "Impede o crescimento"
+    ]
+  },
+  "08a3ebbf-7806-4766-923d-2957e0c0d2c2": {
+    "en": "With your partner...",
+    "text": "Com seu amor...",
+    "answers": [
+      "Muita compatibilidade, mas pouca paixão",
+      "Muita paixão, mas brigas constantes"
+    ]
+  },
+  "b97d013a-ccd8-4678-b52e-c6ba122ef54b": {
+    "en": "In a relationship...",
+    "text": "Em um relacionamento...",
+    "answers": [
+      "Tudo virar rotina",
+      "Nada ser estável"
+    ]
+  },
+  "b933a4a0-fb1a-423e-8571-96ecb4dd4b7b": {
+    "en": "In a relationship...",
+    "text": "Em um relacionamento...",
+    "answers": [
+      "O amor diminuir, mas a paz aumentar",
+      "O amor continuar forte, mas a paz diminuir"
+    ]
+  },
+  "641d3889-c306-47c1-875c-525e5c928cdc": {
+    "en": "What is worse in a relationship: broken trust or complete loss of interest?",
+    "text": "O que é pior em um relacionamento: quebrar a confiança ou perder totalmente o interesse?",
+    "answers": [
+      "Quebra de confiança",
+      "Perda total de interesse"
+    ]
+  },
+  "d1483a50-6ff5-4975-9b46-224f67e0036b": {
+    "en": "In a long-term relationship, which is worse: constantly feeling suspicious or constantly feeling emptiness?",
+    "text": "Em um relacionamento longo, o que é pior: viver sempre com desconfiança ou sentir um vazio constante?",
+    "answers": [
+      "Desconfiança constante",
+      "Vazio constante"
+    ]
+  },
+  "d0a3444e-8114-4511-a054-56a7198b70a0": {
+    "en": "In a long-term relationship, which is harder: staying without knowing you are loved or staying while knowing you do not love the other person?",
+    "text": "Em um relacionamento longo, o que é mais difícil: continuar sem saber se seu amor ama você ou continuar sabendo que você não ama?",
+    "answers": [
+      "Continuar sem saber se seu amor ama você",
+      "Continuar sabendo que você não ama"
+    ]
+  },
+  "86598b9e-9d8a-47a4-b230-ea71b1e47093": {
+    "en": "In a long-term relationship, what is healthier: solving everything by talking or letting some things resolve with time?",
+    "text": "Em um relacionamento longo, o que é mais saudável: resolver tudo conversando ou deixar algumas coisas se resolverem com o tempo?",
+    "answers": [
+      "Resolver tudo conversando",
+      "Deixar algumas coisas passarem com o tempo"
+    ]
+  },
+  "a3f28e46-c315-4260-8130-3b9f5f03147d": {
+    "en": "In a relationship, trust...",
+    "text": "Em um relacionamento, a confiança...",
+    "answers": [
+      "Se constrói com atitudes claras",
+      "Se forma em silêncio com o tempo"
+    ]
+  },
+  "bab53c7d-eba6-4584-a606-4af030d5d86b": {
+    "en": "Differences with a partner...",
+    "text": "As diferenças com seu amor...",
+    "answers": [
+      "Se alinham na conversa",
+      "São aceitas no dia a dia"
+    ]
+  },
+  "0972afde-efba-45c4-84f3-1ecccab07b8b": {
+    "en": "How many kids would you want to have?",
+    "text": "Quantos filhos você gostaria de ter?"
+  },
+  "877a7f71-261e-441f-ae71-d19aafbce112": {
+    "en": "If we won the lottery tomorrow, what's the first thing we should buy?",
+    "text": "Se a gente ganhasse na loteria amanhã, qual seria a primeira coisa que deveríamos comprar?"
+  },
+  "7a6c7486-c2d0-4670-8265-229eb7648fa1": {
+    "en": "Which room in our future home matters most to you?",
+    "text": "Qual cômodo da nossa futura casa é mais importante pra você?"
+  },
+  "da02be22-6278-4003-867b-4669430cca9c": {
+    "en": "If we could live our love story in another decade, which one would you pick?",
+    "text": "Se a gente pudesse viver nossa história de amor em outra década, qual você escolheria?"
+  },
+  "6a9340b3-6abd-422e-9d0d-2755d92b2626": {
+    "en": "What do you think is the perfect age to get married?",
+    "text": "Qual você acha que é a idade ideal para casar?"
+  },
+  "84f363db-cdd5-4d66-b0ee-a92b4e42ea36": {
+    "en": "In which season would you want our wedding to be?",
+    "text": "Em que estação você gostaria que fosse nosso casamento?"
+  },
+  "3fd45b5e-5fae-4e63-9fde-b5a4ea3aa230": {
+    "en": "If we opened a small business together, what would it be?",
+    "text": "Se vocês abrissem um pequeno negócio juntos, o que seria?"
+  },
+  "af17ae3b-0689-4f53-a43a-307b41c92377": {
+    "en": "How many days can we stay with family on a holiday before it gets too much?",
+    "text": "Quantos dias vocês conseguem ficar com a família nas férias antes de ser demais?"
+  },
+  "c6fd0991-5ac8-426b-8213-2ddd89e51c80": {
+    "en": "Stranded on a desert island, what's the one item we should have with us?",
+    "text": "Numa ilha deserta, qual é o único item que vocês deveriam ter?"
+  },
+  "c5aac9b9-0d32-4a5f-a25b-2589471f9d85": {
+    "en": "If we were an animal couple, which animal would we be?",
+    "text": "Se vocês fossem um casal de animais, que animal seriam?"
+  },
+  "4138fe94-94d5-470a-a625-b81315a3afbc": {
+    "en": "When we're apart, how many times a day should we text each other?",
+    "text": "Quando vocês estão longe, quantas vezes por dia deveriam trocar mensagem?"
+  },
+  "648c9e51-2464-4424-b6bd-b301773563ef": {
+    "en": "How many vacations a year would make you happy?",
+    "text": "Quantas viagens por ano deixariam você feliz?"
+  },
+  "3b3109ea-bdaa-41d7-9b36-39663b735baa": {
+    "en": "What is the one thing a couple should never hide from each other?",
+    "text": "Qual é a única coisa que um casal nunca deveria esconder um do outro?"
+  },
+  "13fa6cd6-40a7-47ce-b81e-d9f4011e6d14": {
+    "en": "What would be an unforgivable mistake in our relationship?",
+    "text": "Qual seria um erro imperdoável na relação de vocês?"
+  },
+  "3fc7169d-4ad5-4326-9eb6-a04e379c39b3": {
+    "en": "In one word, how would you describe the marriage you dream of?",
+    "text": "Em uma palavra, como você descreveria o casamento dos seus sonhos?"
+  },
+  "e7542a81-d0f8-4150-855d-5a0e6ce1c40b": {
+    "en": "What is the best way to apologize after a fight?",
+    "text": "Qual é o melhor jeito de pedir desculpa depois de uma briga?"
+  },
+  "7efa86a1-a5d0-451e-b610-d23e258675dd": {
+    "en": "What should we be saving money for the most?",
+    "text": "Para que vocês mais deveriam juntar dinheiro?"
+  },
+  "025eeea5-214f-4e8c-bb93-76d38611b8d1": {
+    "en": "What should we do more often as a couple?",
+    "text": "O que vocês deveriam fazer mais vezes como casal?"
+  },
+  "c89df148-f5b0-4bfe-8ffb-4a462a90f3a1": {
+    "en": "In one word, what does home mean to you?",
+    "text": "Em uma palavra, o que lar significa para você?"
+  },
+  "addfef11-2838-4b60-aaf0-96a9116ce7f5": {
+    "en": "What keeps a partner attractive even after many years?",
+    "text": "O que mantém seu amor atraente mesmo depois de muitos anos?"
+  },
+  "ef51cd29-05ca-46e0-975f-63da6f5d121f": {
+    "en": "What is the hardest part of living together?",
+    "text": "Qual é a parte mais difícil de morar junto?"
+  },
+  "f8f014c0-ed8d-4bc4-8916-6789b0b9c495": {
+    "en": "What is the most romantic thing a partner can do?",
+    "text": "Qual é a coisa mais romântica que seu amor pode fazer?"
+  },
+  "0fdfa9eb-8601-461e-a3c3-7ce885360eb5": {
+    "en": "What is the best way to cheer up a partner on a bad day?",
+    "text": "Qual é o melhor jeito de animar seu amor em um dia ruim?"
+  },
+  "fd6c53e2-85dd-4f63-b5eb-2f11d3d33678": {
+    "en": "What would you never compromise on in a relationship?",
+    "text": "Do que você nunca abriria mão em um relacionamento?"
+  },
+  "250f4154-d737-41a6-a65b-9c301d59933d": {
+    "en": "What should we spend more money on?",
+    "text": "Com o que vocês deveriam gastar mais dinheiro?"
+  },
+  "2c318cd3-2371-46d0-a198-e53b538dc364": {
+    "en": "Which household task should we always do together?",
+    "text": "Qual tarefa da casa vocês deveriam sempre fazer juntos?"
+  },
+  "05754409-e530-427d-b179-8c776b172eea": {
+    "en": "What hobby should we start together?",
+    "text": "Qual hobby a gente deveria começar junto?"
+  },
+  "774352ec-e684-4204-87a7-4d8ac5166fdb": {
+    "en": "What is the biggest lesson a long relationship teaches you?",
+    "text": "Qual é a maior lição que um relacionamento longo ensina?"
+  },
+  "ba2a7c9f-0921-4e21-931f-cdba4e58cfd5": {
+    "en": "What should we protect the most in our relationship?",
+    "text": "O que a gente deveria proteger mais no nosso relacionamento?"
+  },
+  "cd079152-ea66-4f88-aed9-d7b54c040054": {
+    "en": "How should big purchases be approved?",
+    "text": "Como a gente deveria aprovar compras grandes?",
+    "answers": [
+      "Em comum acordo",
+      "Liberdade individual",
+      "Regra rígida de orçamento",
+      "Quem ganha mais decide"
+    ]
+  },
+  "2291a27a-e64b-454a-b36e-20fdbde9975e": {
+    "en": "What is the ideal frequency for date nights?",
+    "text": "Qual é a frequência ideal para encontros a dois?",
+    "answers": [
+      "Toda semana",
+      "Duas vezes por mês",
+      "Uma vez por mês",
+      "Quando rolar espontaneamente"
+    ]
+  },
+  "859adb95-56e7-42ca-820f-5ed8cf0fb2f9": {
+    "en": "How should house chores be divided?",
+    "text": "Como as tarefas de casa deveriam ser divididas?",
+    "answers": [
+      "Exatamente 50/50",
+      "Pelo tempo livre",
+      "Por preferência",
+      "Contratar ajuda de fora"
+    ]
+  },
+  "d3945b46-2530-4bc5-b38b-826dcd9292b4": {
+    "en": "What is the most critical factor for raising children?",
+    "text": "Qual é o fator mais importante para criar filhos?",
+    "answers": [
+      "Disciplina rígida",
+      "Apoio emocional",
+      "Segurança financeira",
+      "Liberdade total"
+    ]
+  },
+  "f57ec14a-f2c5-4c36-b6a1-0b53d72adf04": {
+    "en": "How should long-term financial savings be managed?",
+    "text": "Como o dinheiro guardado a longo prazo deveria ser administrado?",
+    "answers": [
+      "Conta bancária conjunta",
+      "Contas bancárias separadas",
+      "Fundo comum + pessoal",
+      "Uma pessoa administra"
+    ]
+  },
+  "15d3e91e-2923-44d0-8b51-00e99f26a09b": {
+    "en": "How do you react when plans change last minute?",
+    "text": "Como você reage quando os planos mudam em cima da hora?",
+    "answers": [
+      "Me adapto fácil",
+      "Me estresso e dá pra ver",
+      "Proponho outra opção",
+      "Preciso de um tempo só"
+    ]
+  },
+  "369fa1e1-0ab3-4f2c-a265-15c284122bdd": {
+    "en": "What is the most unforgivable behavior in a relationship?",
+    "text": "Qual é a atitude mais imperdoável em um relacionamento?",
+    "answers": [
+      "Desonestidade emocional",
+      "Segredos financeiros",
+      "Desrespeito em público",
+      "Falta de apoio"
+    ]
+  },
+  "b5506938-a426-43e2-8b9f-7c3abd1351f6": {
+    "en": "How should social media usage about the relationship be?",
+    "text": "Como deve ser o uso das redes sociais no relacionamento?",
+    "answers": [
+      "Bem privado",
+      "Posts frequentes",
+      "Só momentos especiais",
+      "Sem regras"
+    ]
+  },
+  "9bb2e738-2076-437c-aba1-a9520ec78c4e": {
+    "en": "How do you prefer to receive love and affection?",
+    "text": "Como você prefere receber amor e carinho?",
+    "answers": [
+      "Tempo de qualidade",
+      "Palavras de afirmação",
+      "Toque físico",
+      "Gestos de cuidado"
+    ]
+  },
+  "970bb568-1809-4cdf-993f-a264b16d0984": {
+    "en": "How do you react when your partner forgets an important date?",
+    "text": "Como você reage quando seu amor esquece uma data importante?",
+    "answers": [
+      "Isso me magoa muito",
+      "Lembro com carinho, sem drama",
+      "Nem ligo muito",
+      "Espero um presente pra compensar"
+    ]
+  },
+  "cc1d8977-1ebc-45ff-969c-4c83a770c236": {
+    "en": "How much influence should families have on major life choices?",
+    "text": "Quanto as famílias deveriam influenciar grandes decisões da vida?",
+    "answers": [
+      "Influência zero",
+      "Só dar conselhos",
+      "Muito poder de decisão"
+    ]
+  },
+  "f7030f9c-1144-4a1b-bae0-99bd8865acc8": {
+    "en": "What is the ideal balance between spending and saving income?",
+    "text": "Qual é o equilíbrio ideal entre gastar e guardar dinheiro?",
+    "answers": [
+      "Guardar a maior parte",
+      "Equilibrado 50/50",
+      "Aproveitar e gastar"
+    ]
+  },
+  "82f50091-7685-468d-af2e-29158c7b6d5c": {
+    "en": "What is the single most important quality in a long-term partner?",
+    "text": "Qual é a qualidade mais importante em alguém para um relacionamento longo?"
+  },
+  "334370d5-ab10-42b8-9fea-7c51cbb638be": {
+    "en": "How many times a month should a couple go on a romantic date?",
+    "text": "Quantas vezes por mês um casal deveria sair para um encontro romântico?"
+  },
+  "1fd10a4a-6be3-4f29-abe6-d51af32192f0": {
+    "en": "What is the biggest dealbreaker for you in a relationship?",
+    "text": "Qual é o maior motivo para você terminar um relacionamento?"
+  },
+  "991e7451-814e-4596-afd5-5b46f856b6b7": {
+    "en": "How many hours of sleep do you need to feel fully rested?",
+    "text": "Quantas horas de sono você precisa para sentir que descansou de verdade?"
+  },
+  "146cb144-98ea-4c21-b324-25c17421a56f": {
+    "en": "What percentage of monthly income should ideally be saved?",
+    "text": "Qual porcentagem da renda mensal deveria ser guardada, idealmente?"
+  },
+  "940141d6-6768-492b-bbc2-eff88c7d6a7a": {
+    "en": "How many times a year should a couple go on vacation together?",
+    "text": "Quantas vezes por ano um casal deveria viajar de férias junto?"
+  },
+  "81d126e6-67b0-4734-a299-f4c6a0c7e2a8": {
+    "en": "How many hours after an argument should a couple sit down and talk?",
+    "text": "Quantas horas depois de uma briga um casal deve sentar pra conversar?"
+  },
+  "0f5f0261-317a-4e29-8322-8a5af550f652": {
+    "en": "What is the best household chore to do together as a couple?",
+    "text": "Qual é a melhor tarefa doméstica pra um casal fazer junto?"
+  },
+  "b50d4c4a-0ca0-4b1c-b6e0-36e56b8709ed": {
+    "en": "You find out they watched the next episode of your show while you were asleep. What do you do?",
+    "text": "Você descobre que seu amor assistiu ao próximo episódio da série de vocês enquanto você dormia. O que você faz?",
+    "answers": [
+      "Você se chateia, mas não fala nada",
+      "Assiste ao próximo escondido também",
+      "Faz seu amor ver de novo com você",
+      "Não liga nem um pouco"
+    ]
+  },
+  "8ba7193f-e49b-4a80-9601-277334517bf2": {
+    "en": "You're freezing, they're sweating, and the AC is on. What do you do?",
+    "text": "Você tá com frio, seu amor tá suando e o ar-condicionado tá ligado. O que você faz?",
+    "answers": [
+      "Se enrola num cobertor",
+      "Combinam uma temperatura no meio-termo",
+      "Muda a temperatura escondido"
+    ]
+  },
+  "6f42dfda-dae8-4245-965c-5544f6601234": {
+    "en": "Their dishes have been sitting in the sink for two days. What do you do?",
+    "text": "A louça que seu amor deixou tá na pia há dois dias. O que você faz?",
+    "answers": [
+      "Lava e não fala nada",
+      "Lava, mas solta um comentário",
+      "Deixa pra seu amor lavar",
+      "Fala diretamente sobre isso"
+    ]
+  },
+  "893d41ee-eb00-4ff3-b9dd-0508ac343e5d": {
+    "en": "You wake up at night and they've stolen the whole duvet. What do you do?",
+    "text": "Você acorda à noite e seu amor roubou o edredom inteiro. O que você faz?",
+    "answers": [
+      "Puxa de volta",
+      "Acorda seu amor",
+      "Pega outro cobertor",
+      "Passa frio e volta a dormir"
+    ]
+  },
+  "6d0eeebe-e6f2-466d-9e39-631de4cc843b": {
+    "en": "They snooze their alarm five times every morning and wake you up too. What do you do?",
+    "text": "Seu amor aperta a soneca do alarme cinco vezes toda manhã e acaba te acordando também. O que você faz?",
+    "answers": [
+      "Vai lá e desliga",
+      "Cutuca até seu amor levantar",
+      "Põe o travesseiro na cabeça e aguenta",
+      "Pede pra deixar o celular fora do quarto"
+    ]
+  },
+  "986eabcf-8a9e-44aa-a674-fab08fc0b1d5": {
+    "en": "You're reading, and they start blasting music on the speaker. What do you do?",
+    "text": "Você tá lendo e seu amor bota música alta na caixa de som. O que você faz?",
+    "answers": [
+      "Pede pra abaixar",
+      "Coloca fones de ouvido",
+      "Vai pra outro cômodo",
+      "Entra na onda e canta junto"
+    ]
+  },
+  "6ce276a0-cb42-41c8-8ad5-7f1f30c3fb30": {
+    "en": "You cooked dinner, and they add salt before even tasting it. What do you do?",
+    "text": "Você fez o jantar e seu amor põe sal antes mesmo de provar. O que você faz?",
+    "answers": [
+      "Se incomoda um pouco",
+      "Faz uma piada",
+      "Não liga nem um pouco"
+    ]
+  },
+  "41570696-2ab6-44ff-93cd-4e524c0f9cf4": {
+    "en": "It's cleaning day. You want to start now, they say \"let's do it tonight.\" What do you do?",
+    "text": "É dia de faxina. Você quer começar agora, seu amor diz: \"vamos fazer à noite\". O que você faz?",
+    "answers": [
+      "Começa sem seu amor",
+      "Espera até a noite",
+      "Insiste até vocês começarem junto",
+      "Sugere chamar alguém pra limpar"
+    ]
+  },
+  "44ed55b4-e760-453e-ba16-cfc2ba1f55c7": {
+    "en": "They take 40 minutes in the bathroom every morning, and you're running late. What do you do?",
+    "text": "Seu amor passa 40 minutos no banheiro toda manhã e você tá se atrasando. O que você faz?",
+    "answers": [
+      "Bate na porta e pede pressa",
+      "Espera reclamando",
+      "Começa a acordar mais cedo"
+    ]
+  },
+  "fe095dc1-749f-45bc-9e49-66ce37502e2a": {
+    "en": "They now burp in front of you without a second thought. Out of 10, what score do they drop to?",
+    "text": "Seu amor agora arrota na sua frente sem pensar duas vezes. De 10, cai pra quanto?"
+  },
+  "33a52a1a-90d6-4fd3-ac1a-ff3fe639b28a": {
+    "en": "They leave the bathroom door open while using the toilet. Out of 10, what score do they drop to?",
+    "text": "Seu amor deixa a porta do banheiro aberta enquanto usa o vaso. De 10, cai pra quanto?"
+  },
+  "aca627ea-b06e-41f6-985c-25a6da2d91d4": {
+    "en": "They clip their nails on the couch. Out of 10, what score do they drop to?",
+    "text": "Seu amor corta as unhas no sofá. De 10, cai pra quanto?"
+  },
+  "69727950-a39d-4071-a35a-30125b09c4f1": {
+    "en": "They only remember your anniversary because of a phone reminder. Out of 10, what score do they drop to?",
+    "text": "Seu amor só lembra da data de vocês por causa de um lembrete no celular. De 10, cai pra quanto?"
+  },
+  "2e2007bc-30a1-4468-9a75-f90c5d3186d1": {
+    "en": "They eat from your plate without asking. Out of 10, what score do they drop to?",
+    "text": "Seu amor come do seu prato sem pedir. De 10, cai pra quanto?"
+  },
+  "11200110-48f5-4598-b94f-35fd0e2dc090": {
+    "en": "While you're talking, they stare at their phone and just say \"mhm\". Out of 10, what score do they drop to?",
+    "text": "Enquanto você fala, seu amor fica olhando o celular e só diz \"aham\". De 10, cai pra quanto?"
+  },
+  "d32c6357-fdb8-4b3c-8e6b-4f53cb753413": {
+    "en": "They leave their wet towel on the bed. Out of 10, what score do they drop to?",
+    "text": "Seu amor deixa a toalha molhada em cima da cama. De 10, cai pra quanto?"
+  },
+  "1f383d25-0eec-4656-b3ac-470c16d0a4f3": {
+    "en": "They tell their friends about your fights. Out of 10, what score do they drop to?",
+    "text": "Seu amor conta as brigas de vocês pros amigos. De 10, cai pra quanto?"
+  },
+  "61e8d220-0d50-4983-9d45-58c7f73ab1bb": {
+    "en": "They've started hanging up without saying \"I love you\". Out of 10, what score do they drop to?",
+    "text": "Seu amor começou a desligar sem dizer “eu te amo”. De 10, a nota cai pra quanto?"
+  },
+  "a5eb351e-ac14-4d92-936d-cb8b6638100e": {
+    "en": "Your partner got fired and hasn't left the house in days. What do you do?",
+    "text": "Seu amor perdeu o emprego e não sai de casa há dias. O que você faz?",
+    "answers": [
+      "Ajuda a procurar emprego logo",
+      "Dá um tempo pra se recuperar",
+      "Insiste pra sair de casa",
+      "Anima com pequenas surpresas"
+    ]
+  },
+  "a3fd2913-9478-4548-8a89-01aa2af2444a": {
+    "en": "Your partner is sick in bed, and it's your best friend's birthday party tonight. What do you do?",
+    "text": "Seu amor está de cama, e hoje à noite é a festa de aniversário do seu melhor amigo. O que você faz?",
+    "answers": [
+      "Não vai e fica junto",
+      "Dá uma passada rápida e volta",
+      "Vai, mas fica mandando mensagem"
+    ]
+  },
+  "7094abfc-9802-4319-99be-454ec741410c": {
+    "en": "Your partner has been unhappy for months and won't say why. What do you do?",
+    "text": "Seu amor está infeliz há meses e não diz o porquê. O que você faz?",
+    "answers": [
+      "Insiste até falar",
+      "Espera seu amor se abrir",
+      "Sugere fazer terapia",
+      "Pede ajuda a um amigo próximo do seu amor"
+    ]
+  },
+  "8aaf405f-56bb-4c98-9939-137ab11e1be8": {
+    "en": "Your partner has to move to another city for work for 6 months. What do you do?",
+    "text": "Seu amor precisa se mudar pra outra cidade por 6 meses por causa do trabalho. O que você faz?",
+    "answers": [
+      "Visita todo fim de semana",
+      "Se muda pra lá junto",
+      "Faz dar certo à distância",
+      "Pede pra não ir"
+    ]
+  },
+  "de905a3e-0edc-44e7-9e86-c7dc5564a1d3": {
+    "en": "Your partner is going through a stressful time and keeps snapping at you. What do you do?",
+    "text": "Seu amor está numa fase estressante e vive falando grosso com você. O que você faz?",
+    "answers": [
+      "Releva",
+      "Coloca um limite claro",
+      "Mantém distância até passar",
+      "Conversa num momento calmo"
+    ]
+  },
+  "3c595094-97f5-4d24-b08f-83322c9cde8b": {
+    "en": "Your partner had a big fight with one of your friends and wants you to stop seeing them. What do you do?",
+    "text": "Seu amor brigou feio com um dos seus amigos e quer que você pare de ver esse amigo. O que você faz?",
+    "answers": [
+      "Para de ver esse amigo",
+      "Continua vendo escondido",
+      "Diz que vai continuar vendo"
+    ]
+  },
+  "5cf16284-d233-4d68-b5cd-03e5bfe57372": {
+    "en": "Because of your partner, you both missed your flight for vacation. What do you do?",
+    "text": "Por causa do seu amor, vocês perderam o voo da viagem. O que você faz?",
+    "answers": [
+      "Fica com raiva, mas passa rápido",
+      "Não demonstra nada",
+      "Fica falando disso por um tempão",
+      "Leva na brincadeira"
+    ]
+  },
+  "00ffdc81-1788-48f6-a0d2-bbb694227990": {
+    "en": "Your partner wants to quit their stable job to start their own business. What do you do?",
+    "text": "Seu amor quer largar um emprego estável pra abrir o próprio negócio. O que você faz?",
+    "answers": [
+      "Apoia até o fim",
+      "Pede um plano primeiro, depois apoia",
+      "Tenta tirar essa ideia da cabeça"
+    ]
+  },
+  "b8801cb9-755d-4cf9-9c75-1e31d7882f66": {
+    "en": "Your partner's mom criticizes your cooking at the dinner table. What do you do?",
+    "text": "A mãe do seu amor critica sua comida na mesa de jantar. O que você faz?",
+    "answers": [
+      "Sorri e deixa passar",
+      "Responde com educação",
+      "Espera seu amor te defender"
+    ]
+  },
+  "9144ca3b-9ba6-432d-8fde-06ba516c50c0": {
+    "en": "Your partner talks to their mom on the phone for an hour every day. What do you think?",
+    "text": "Seu amor fala com a mãe por telefone por uma hora todo dia. O que você acha?",
+    "answers": [
+      "Totalmente normal",
+      "Meio demais, mas não me meto",
+      "É caso de conversar"
+    ]
+  },
+  "ef6eab32-1878-439c-867c-5aa2d8656d56": {
+    "en": "Your mom is really cold toward your partner. What do you do?",
+    "text": "Sua mãe é muito fria com seu amor. O que você faz?",
+    "answers": [
+      "Conversa com sua mãe",
+      "Pede pro seu amor ter paciência",
+      "Espera melhorar com o tempo",
+      "Visita menos sua família"
+    ]
+  },
+  "aab9a69b-21c6-4f1a-91c7-83f56cc39eec": {
+    "en": "You agreed on \"no gifts this year,\" but they got you something expensive. What do you do?",
+    "text": "Vocês combinaram “sem presentes este ano”, mas seu amor comprou algo caro pra você. O que você faz?",
+    "answers": [
+      "Fica muito feliz",
+      "Fica sem graça",
+      "Compra algo no dia seguinte",
+      "Se irrita porque seu amor quebrou o combinado"
+    ]
+  },
+  "37e84834-ba8c-49a2-97b6-1191c6552042": {
+    "en": "You really don't like the gift they got you. What do you do?",
+    "text": "Você não curte nada o presente que seu amor deu. O que você faz?",
+    "answers": [
+      "Finge que amou",
+      "Sugere trocar com jeitinho",
+      "Fala a verdade"
+    ]
+  },
+  "cd352866-de22-4f72-9b83-6ccdd5825cd9": {
+    "en": "Your anniversary is coming up and nobody has planned anything. What do you do?",
+    "text": "O aniversário de vocês está chegando e ninguém planejou nada. O que você faz?",
+    "answers": [
+      "Arruma algo de última hora",
+      "Espera seu amor planejar",
+      "Comemora em casa, só vocês dois",
+      "Tudo bem não comemorar também"
+    ]
+  },
+  "dd4e91c7-b24c-4483-8ca5-0bf334aed491": {
+    "en": "They throw you a surprise party, but you hate surprises. What do you do?",
+    "text": "Seu amor faz uma festa surpresa, mas você odeia surpresas. O que você faz?",
+    "answers": [
+      "Aproveita sem mostrar que incomodou",
+      "Finge felicidade e fala depois",
+      "Demonstra na hora"
+    ]
+  },
+  "280552dc-e7e8-4c5b-8682-028899d5fd0e": {
+    "en": "On Valentine's Day, restaurants are packed and overpriced. What do you do?",
+    "text": "No Dia dos Namorados, os restaurantes estão lotados e caros demais. O que você faz?",
+    "answers": [
+      "Sai mesmo assim",
+      "Cozinha em casa",
+      "Comemora um dia antes ou depois",
+      "Não comemora Dia dos Namorados"
+    ]
+  },
+  "c2165bb4-4fa4-45c4-9b37-069d18ee412f": {
+    "en": "Your friend's partner threw them a huge anniversary surprise, and it's all over their stories. What do you do?",
+    "text": "Seu amigo ganhou uma surpresa enorme de aniversário de relacionamento, e os stories estão cheios disso. O que você faz?",
+    "answers": [
+      "Não se impressiona nem um pouco",
+      "Fica com um pouco de inveja",
+      "Manda uma indireta pro seu amor",
+      "Mostra pro seu amor e diz “a próxima é nossa”"
+    ]
+  },
+  "1201ae23-1c71-4203-a62c-03651040e822": {
+    "en": "What kind of birthday gift do you get your partner?",
+    "text": "Que tipo de presente de aniversário você dá pro seu amor?",
+    "answers": [
+      "Algo que pesa no meu bolso",
+      "Algo razoável que seu amor está precisando",
+      "Algo baratinho, mas cheio de significado",
+      "Algo feito à mão"
+    ]
+  },
+  "daa60757-b2eb-4fde-add6-bab68b63940d": {
+    "en": "It's your partner's birthday. They want to celebrate with friends, you want it to be just the two of you. What do you do?",
+    "text": "É aniversário do seu amor. Seu amor quer comemorar com amigos, você quer só vocês dois. O que você faz?",
+    "answers": [
+      "Comemora com os amigos",
+      "Insiste em ser só vocês dois",
+      "Primeiro só vocês dois, depois amigos"
+    ]
+  },
+  "012d5335-8992-4122-81a7-8f20f6e61f1c": {
+    "en": "On vacation, you want to lie by the pool, they want to explore the city. What do you do?",
+    "text": "Nas férias, você quer ficar de boa na piscina, seu amor quer explorar a cidade. O que você faz?",
+    "answers": [
+      "Vai explorar junto",
+      "Seu amor explora, você fica",
+      "Revezam dia a dia",
+      "Convence seu amor a ficar na piscina"
+    ]
+  },
+  "0409d66b-4953-4ec5-965a-618f85f375ae": {
+    "en": "Your vacation is a week away and there's no plan at all. What do you do?",
+    "text": "Falta uma semana pras férias e não tem plano nenhum. O que você faz?",
+    "answers": [
+      "Planeja tudo por conta própria",
+      "Deixa com seu amor",
+      "“A gente vê isso lá”",
+      "Vocês sentam pra planejar"
+    ]
+  },
+  "0556bf3a-66c5-4f8a-bef7-7afeed863703": {
+    "en": "On vacation, they keep asking you to take photos of them. What do you do?",
+    "text": "Nas férias, seu amor vive pedindo pra você tirar fotos. O que você faz?",
+    "answers": [
+      "Tira numa boa",
+      "Tira algumas e depois para",
+      "Tira reclamando",
+      "Compra um bastão de selfie"
+    ]
+  },
+  "a5084572-7caa-4df2-b89e-86b53e301f4b": {
+    "en": "When picking a hotel for your vacation, what do you go for?",
+    "text": "Na hora de escolher hotel pras férias, o que você prefere?",
+    "answers": [
+      "Hotel barato, sobra mais pra passear",
+      "Algo no meio-termo",
+      "Hotel caro, férias são férias"
+    ]
+  },
+  "a18c029b-1fb7-4e38-b075-942bba970ac5": {
+    "en": "On vacation, your partner keeps answering work emails. What do you do?",
+    "text": "Nas férias, seu amor não para de responder e-mails do trabalho. O que você faz?",
+    "answers": [
+      "Entende, trabalho é trabalho",
+      "Pede pra largar o celular",
+      "Também se perde no seu celular",
+      "Combinam uma hora por dia pra trabalho"
+    ]
+  },
+  "f1bd216a-1365-46b4-99c9-31e6443032d6": {
+    "en": "You say \"I really want an orange.\" What do you expect from your partner?",
+    "text": "Você diz: “Tô com muita vontade de uma laranja.” O que espera do seu amor?",
+    "answers": [
+      "Que descasque e corte pra mim",
+      "Que traga, eu descasco",
+      "Nada, eu pego"
+    ]
+  },
+  "71e00290-5959-49df-b598-98d5f6a4ec3e": {
+    "en": "You ask your partner to \"name a woman/man\" and they don't say your name. What do you do?",
+    "text": "Você pede pro seu amor dizer “um nome feminino ou masculino” e a resposta não é o seu. O que você faz?",
+    "answers": [
+      "Ri e deixa pra lá",
+      "Faz drama de brincadeira",
+      "Se magoa de verdade"
+    ]
+  },
+  "ff0a9654-ef6b-4984-a3ea-8df891dae9b9": {
+    "en": "\"If they wanted to, they would.\" Do you agree?",
+    "text": "“Se quisesse, dava um jeito.” Você concorda?",
+    "answers": [
+      "Sim, quem quer dá um jeito",
+      "Não, às vezes a pessoa realmente não consegue"
+    ]
+  },
+  "f97521f5-e091-42dc-ba9e-dde538e4608d": {
+    "en": "Your partner calls a food you love \"disgusting.\" How do you feel?",
+    "text": "Seu amor chama uma comida que você ama de “nojenta”. Como você se sente?",
+    "answers": [
+      "Não ligo nem um pouco",
+      "Quero que dê uma chance de verdade",
+      "Isso me magoa um pouco"
+    ]
+  },
+  "d9f822a7-b480-41cb-b9e0-c606b68bfd16": {
+    "en": "Your partner wakes up as a worm one morning. What do you do?",
+    "text": "Um dia de manhã, seu amor acorda como uma minhoca. O que você faz?",
+    "answers": [
+      "Guardo num pote e amo pra sempre",
+      "Continuo amando, mas a gente termina",
+      "Solto no jardim"
+    ]
+  },
+  "48f856be-c25a-4766-981c-e33f6a605766": {
+    "en": "As a couple, which duo are you?",
+    "text": "Como casal, qual dupla vocês são?",
+    "answers": [
+      "Um golden retriever e um gato preto",
+      "Dois golden retrievers",
+      "Dois gatos pretos"
+    ]
+  },
+  "400b8c47-8966-42dc-ad12-a1b55903828a": {
+    "en": "Seeing each other's location 24/7...",
+    "text": "Compartilhar a localização 24/7...",
+    "answers": [
+      "Dá uma sensação de segurança",
+      "Desnecessário, mas não me incomoda",
+      "Me sufoca"
+    ]
+  },
+  "5adfe009-507d-4cc1-8e49-8c5215ce100d": {
+    "en": "Spending an entire Sunday in bed together...",
+    "text": "Passar um domingo inteiro juntos na cama...",
+    "answers": [
+      "O domingo perfeito",
+      "Bom até meio-dia",
+      "Um dia desperdiçado"
+    ]
+  },
+  "b4e988e6-ef45-427d-a487-aa1b343e1253": {
+    "en": "Sleeping in separate rooms to get better sleep...",
+    "text": "Dormir em quartos separados pra dormir melhor...",
+    "answers": [
+      "Uma solução inteligente",
+      "O começo do fim"
+    ]
+  },
+  "08b4096a-d212-4509-889e-c4423a0554af": {
+    "en": "If you died, would you want your partner to remarry?",
+    "text": "Se você morresse, gostaria que seu amor se casasse de novo?",
+    "answers": [
+      "Sim, quero que seja feliz",
+      "Sim, mas que espere alguns anos",
+      "Não"
+    ]
+  },
+  "0a9315a5-d764-46ce-89f9-a9f98e9836a4": {
+    "en": "Cuddling while you sleep...",
+    "text": "Dormir abraçados...",
+    "answers": [
+      "A noite inteira",
+      "Até pegar no sono",
+      "Nunca, cada um no seu lado"
+    ]
+  },
+  "124b29b3-d2d3-4c27-ae44-007195469854": {
+    "en": "There's one charger. Your phone is at 10%, theirs is at 3%. What do you do?",
+    "text": "Só tem um carregador. Seu celular está com 10%, o do seu amor com 3%. O que você faz?",
+    "answers": [
+      "Seu amor carrega primeiro",
+      "Eu carrego primeiro",
+      "Revezam a cada 15 minutos"
+    ]
+  },
+  "1ab4c8a3-015a-4fa9-a591-cb6c81ce2297": {
+    "en": "Sharing one Spotify account as a couple...",
+    "text": "Compartilhar uma conta do Spotify como casal...",
+    "answers": [
+      "Romântico",
+      "Estraga meu algoritmo"
+    ]
+  },
+  "9ed20021-d80f-4f8f-8cc6-71087328b9d9": {
+    "en": "Your partner calling you \"baby\" in front of your friends...",
+    "text": "Seu amor te chamando de “baby” na frente dos seus amigos...",
+    "answers": [
+      "Muito fofo",
+      "Tudo bem, mas melhor em casa",
+      "Vergonha alheia"
+    ]
+  }
+}

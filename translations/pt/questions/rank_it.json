@@ -1,0 +1,394 @@
+{
+  "d2506eb5-9325-430f-85af-798b38f9a7cf": {
+    "en": "Rank these superpowers from the one you want most to least.",
+    "text": "Ordene esses superpoderes do que você mais quer ao que menos quer.",
+    "answers": [
+      "Teletransporte",
+      "Ler mentes",
+      "Invisibilidade",
+      "Voar"
+    ]
+  },
+  "7a299d26-b0e9-461c-a952-14499c90afdf": {
+    "en": "Rank these habits from most to least annoying.",
+    "text": "Ordene esses hábitos do mais irritante ao menos irritante.",
+    "answers": [
+      "Mastigar fazendo barulho",
+      "Chegar sempre tarde",
+      "Celular na mesa do jantar",
+      "Louça na pia"
+    ]
+  },
+  "b7aa7d14-1b21-4f69-9cad-4ae2a270c692": {
+    "en": "You just won the lottery: rank what you'd do first to last.",
+    "text": "Você acabou de ganhar na loteria: ordene o que faria primeiro e por último.",
+    "answers": [
+      "Largar o emprego",
+      "Comprar uma casa",
+      "Viajar pelo mundo",
+      "Dar um agrado pra família"
+    ]
+  },
+  "ff5bf103-56b6-4364-a9d3-d195dca85237": {
+    "en": "Rank these from hardest to easiest to give up for a month.",
+    "text": "Ordene do mais difícil ao mais fácil de ficar um mês sem.",
+    "answers": [
+      "Café",
+      "Redes sociais",
+      "Doces",
+      "Séries"
+    ]
+  },
+  "5adcd763-7eec-464e-88fd-64b8cbfd4948": {
+    "en": "Rank these vacation types from the one you want most to least.",
+    "text": "Ordene esses tipos de viagem do que você mais quer ao que menos quer.",
+    "answers": [
+      "Resort na praia",
+      "Viagem urbana",
+      "Cabana na montanha",
+      "Mochilão"
+    ]
+  },
+  "c29c6c93-ad80-43fa-bf82-954924ca2fde": {
+    "en": "Rank these from what you'd splurge on most to least.",
+    "text": "Ordene do que você mais gastaria uma grana ao que menos gastaria.",
+    "answers": [
+      "Comida",
+      "Roupas",
+      "Viagens",
+      "Eletrônicos"
+    ]
+  },
+  "d7264952-e63a-40e4-8f72-598c5e8e1e6d": {
+    "en": "Rank these dinner options for tonight from most to least tempting.",
+    "text": "Ordene esses jantares para hoje do mais ao menos tentador.",
+    "answers": [
+      "Pizza",
+      "Sushi",
+      "Hambúrguer",
+      "Comida caseira"
+    ]
+  },
+  "9a23b401-c86d-4d5d-a222-8bce67002bfd": {
+    "en": "Rank these from what you'd most to least like to be famous for.",
+    "text": "Ordene do que você mais gostaria de ter fama ao que menos gostaria.",
+    "answers": [
+      "Música",
+      "Atuação",
+      "Esportes",
+      "Uma invenção"
+    ]
+  },
+  "4b5c0ee1-8bd2-429e-825f-73a4f4397942": {
+    "en": "Rank these from most to least important in a home.",
+    "text": "Ordene do mais ao menos importante em uma casa.",
+    "answers": [
+      "Cozinha grande",
+      "Vista bonita",
+      "Bairro tranquilo",
+      "Localização central"
+    ]
+  },
+  "f29d95b6-334a-4e51-802d-d393456740a1": {
+    "en": "Rank these first dates from most to least romantic.",
+    "text": "Ordene esses primeiros encontros do mais ao menos romântico.",
+    "answers": [
+      "Jantar à luz de velas",
+      "Piquenique no parque",
+      "Show ao vivo"
+    ]
+  },
+  "9de1f1d3-d6e7-41f7-8e6a-028b918747e7": {
+    "en": "Rank these birthday plans from your favorite to least favorite.",
+    "text": "Ordene esses planos de aniversário do que você mais curte ao que menos curte.",
+    "answers": [
+      "Festão",
+      "Jantar com amigos próximos",
+      "Dia tranquilo em casa"
+    ]
+  },
+  "9af251a5-162a-45e3-9343-31bc812797fc": {
+    "en": "Rank these from hardest to easiest to forgive.",
+    "text": "Ordene do mais difícil ao mais fácil de perdoar.",
+    "answers": [
+      "Uma mentira",
+      "Promessa não cumprida",
+      "Levar vácuo"
+    ]
+  },
+  "5f90850f-df8e-468c-9b0b-5d6dc399588c": {
+    "en": "Rank these from most to least stressful.",
+    "text": "Ordene do mais ao menos estressante.",
+    "answers": [
+      "Mudar de casa",
+      "Começar um emprego novo",
+      "Planejar um casamento"
+    ]
+  },
+  "04824d81-4596-4b0b-a73d-95cbedf55785": {
+    "en": "Rank these seasons from your favorite to least favorite.",
+    "text": "Ordene essas estações da sua favorita à que você menos gosta.",
+    "answers": [
+      "Verão",
+      "Inverno",
+      "Primavera",
+      "Outono"
+    ]
+  },
+  "69a18a71-7917-404c-a664-c99043f21803": {
+    "en": "Rank these movie nights from your favorite to least favorite.",
+    "text": "Ordene essas noites de filme da sua favorita à que você menos gosta.",
+    "answers": [
+      "Comédia",
+      "Terror",
+      "Ação",
+      "Romance"
+    ]
+  },
+  "4cc06286-ef52-48d7-b23b-8065e8ee38dc": {
+    "en": "Rank these from what you'd most to least like to be great at.",
+    "text": "Ordene do que você mais gostaria de mandar bem ao que menos gostaria.",
+    "answers": [
+      "Cozinhar",
+      "Dançar",
+      "Contar piadas",
+      "Consertar coisas"
+    ]
+  },
+  "58ec522b-1421-4cd1-8553-b7ab262f6622": {
+    "en": "Rank these chores from most to least hated.",
+    "text": "Ordene essas tarefas de casa da mais odiada à menos odiada.",
+    "answers": [
+      "Lavar louça",
+      "Dobrar roupa",
+      "Limpar o banheiro",
+      "Fazer mercado"
+    ]
+  },
+  "b0450eb6-45f7-4f3e-9b67-b1ff0b54b3e4": {
+    "en": "If you could time travel, rank these eras from most to least want to visit.",
+    "text": "Se você pudesse viajar no tempo, ordene essas épocas da que mais quer visitar à que menos quer.",
+    "answers": [
+      "Egito Antigo",
+      "Era dos dinossauros",
+      "Anos 80",
+      "Daqui a 100 anos"
+    ]
+  },
+  "fa4abf61-c110-478a-b700-fc6a9ec4d83d": {
+    "en": "Rank these from best to worst way to start your day.",
+    "text": "Ordene essas formas de começar o dia da melhor à pior.",
+    "answers": [
+      "Uma xícara de café",
+      "Um banho quente",
+      "Um café da manhã reforçado",
+      "Treino de manhã"
+    ]
+  },
+  "e1ebc3be-a701-4eaf-867d-ce34a164646e": {
+    "en": "At a party, rank where you're most to least likely to be found.",
+    "text": "Numa festa, ordene onde é mais provável encontrar você, do mais ao menos.",
+    "answers": [
+      "Na pista de dança",
+      "Na cozinha, beliscando",
+      "Na varanda, num papo profundo",
+      "Fazendo carinho no pet da casa"
+    ]
+  },
+  "a96a20cd-d106-452f-9421-515c5ffc306d": {
+    "en": "Rank these from scariest to least scary.",
+    "text": "Ordene do que dá mais medo ao que dá menos.",
+    "answers": [
+      "Aranhas",
+      "Altura",
+      "Escuro",
+      "Falar em público"
+    ]
+  },
+  "b65cca80-bfb9-4361-94d6-998f0f832520": {
+    "en": "Rank these from best to worst way to get bad news.",
+    "text": "Ordene as formas de receber notícia ruim, da melhor à pior.",
+    "answers": [
+      "Pessoalmente",
+      "Por ligação",
+      "Por mensagem",
+      "Por áudio"
+    ]
+  },
+  "2ddba795-9bed-4d19-8b2a-fccd94baf47c": {
+    "en": "Rank these desserts from favorite to least favorite.",
+    "text": "Ordene estas sobremesas da favorita à menos favorita.",
+    "answers": [
+      "Bolo de chocolate",
+      "Sorvete",
+      "Cheesecake",
+      "Baklava"
+    ]
+  },
+  "cab983d2-ab5b-45fb-8292-86d5318bbcb9": {
+    "en": "Rank these ways to travel from favorite to least favorite.",
+    "text": "Ordene estas formas de viajar da favorita à menos favorita.",
+    "answers": [
+      "Avião",
+      "Trem",
+      "Viagem de carro",
+      "Cruzeiro"
+    ]
+  },
+  "9778af27-8b84-4091-b02e-f08880539016": {
+    "en": "Rank these music genres from favorite to least favorite.",
+    "text": "Ordene estes estilos musicais do favorito ao menos favorito.",
+    "answers": [
+      "Pop",
+      "Rock",
+      "Rap",
+      "Música eletrônica"
+    ]
+  },
+  "f3e67fc8-51dc-451f-9510-c43b009782cd": {
+    "en": "Rank these Friday night plans from favorite to least favorite.",
+    "text": "Ordene estes programas de sexta à noite do favorito ao menos favorito.",
+    "answers": [
+      "Sair",
+      "Filme em casa",
+      "Jantar com amigos",
+      "Dormir cedo"
+    ]
+  },
+  "bfb749f1-2e80-4789-b1ab-f0716d523404": {
+    "en": "Rank these from most to least important in a friend.",
+    "text": "Ordene do mais importante ao menos importante em um amigo.",
+    "answers": [
+      "Lealdade",
+      "Humor",
+      "Honestidade",
+      "Estar sempre presente"
+    ]
+  },
+  "27735d11-2437-4649-9945-de2bd059516b": {
+    "en": "Rank these apps from the one you spend the most to least time on.",
+    "text": "Ordene estes apps do que você mais usa ao que menos usa.",
+    "answers": [
+      "Instagram",
+      "TikTok",
+      "YouTube",
+      "X (Twitter)"
+    ]
+  },
+  "6c66d5cf-eeea-419c-8322-9df9fa1ac88f": {
+    "en": "In an argument, rank these from most to least like you.",
+    "text": "Numa discussão, ordene do que é mais a sua cara ao que menos é.",
+    "answers": [
+      "Conversar na hora",
+      "Esfriar a cabeça primeiro",
+      "Deixar pra lá"
+    ]
+  },
+  "be0b6b2f-e54f-4990-9ec1-01bf2a41e417": {
+    "en": "Rank these gifts from most to least you'd love to receive.",
+    "text": "Ordene estes presentes do que você mais gostaria de receber ao que menos gostaria.",
+    "answers": [
+      "Uma experiência",
+      "Algo que você queria",
+      "Algo feito à mão"
+    ]
+  },
+  "87d18697-0aca-48a2-8007-6fde1b154dd3": {
+    "en": "Rank these places from where you'd most to least like to live.",
+    "text": "Ordene estes lugares do melhor ao pior para morar.",
+    "answers": [
+      "Cidade grande",
+      "Cidade litorânea",
+      "Vilarejo na montanha"
+    ]
+  },
+  "847c9e3d-d7ec-46dd-b05c-29679ed2ccc2": {
+    "en": "While waiting in line, rank these from most to least likely to do.",
+    "text": "Esperando na fila, ordene do que você mais faria ao que menos faria.",
+    "answers": [
+      "Mexer no celular",
+      "Observar as pessoas",
+      "Puxar papo com um desconhecido"
+    ]
+  },
+  "bc508cef-059b-4be8-b7c4-9fd8942144b0": {
+    "en": "Rank these rainy-day plans from favorite to least favorite.",
+    "text": "Ordene estes programas para dia de chuva do favorito ao menos favorito.",
+    "answers": [
+      "Cochilo longo",
+      "Cozinhar algo novo",
+      "Maratonar uma série",
+      "Ler um livro"
+    ]
+  },
+  "de820213-4cb3-4d77-94c5-7a6fb3679b92": {
+    "en": "Rank these pizza toppings from favorite to least favorite.",
+    "text": "Ordene estes ingredientes de pizza do favorito ao menos favorito.",
+    "answers": [
+      "Pepperoni",
+      "Cogumelos",
+      "Queijo extra",
+      "Abacaxi"
+    ]
+  },
+  "572b666f-8b45-4753-bdda-09ace7b9ec62": {
+    "en": "Rank these sounds from most to least annoying.",
+    "text": "Ordene estes sons do mais irritante ao menos irritante.",
+    "answers": [
+      "Torneira pingando",
+      "Alguém mastigando alto",
+      "Celular vibrando",
+      "Trânsito lá fora"
+    ]
+  },
+  "f4c75c25-0f05-42ea-8ab9-95b9eb823b9c": {
+    "en": "Rank these from most to least want to watch live.",
+    "text": "Ordene do que você mais quer ver ao vivo ao que menos quer.",
+    "answers": [
+      "Show de música",
+      "Jogo de futebol",
+      "Stand-up",
+      "Peça de teatro"
+    ]
+  },
+  "2e15d589-dfff-4b22-9f5d-937e0d6f76df": {
+    "en": "Rank these breakfasts from favorite to least favorite.",
+    "text": "Ordene estes cafés da manhã do favorito ao menos favorito.",
+    "answers": [
+      "Ovos",
+      "Doces de padaria",
+      "Cereal",
+      "Sobras de ontem"
+    ]
+  },
+  "1bf09c68-e14e-4fd9-9af9-6ab43536719a": {
+    "en": "Rank these ways of getting around the city from favorite to least favorite.",
+    "text": "Ordene estas formas de se locomover pela cidade da favorita à menos favorita.",
+    "answers": [
+      "A pé",
+      "De metrô",
+      "De táxi",
+      "De bicicleta"
+    ]
+  },
+  "d6ccbab5-66ad-490f-a711-b180fdacaf91": {
+    "en": "Rank these from most to least want to learn.",
+    "text": "Ordene do que você mais quer aprender ao que menos quer.",
+    "answers": [
+      "Um idioma novo",
+      "Um instrumento",
+      "Fotografia",
+      "Uma arte marcial"
+    ]
+  },
+  "e2c60482-29c1-4ca0-b333-2394d575e3f2": {
+    "en": "On a plane, rank these seatmates from most to least annoying.",
+    "text": "No avião, ordene estes colegas de assento do mais irritante ao menos irritante.",
+    "answers": [
+      "Bebê chorando",
+      "Alguém que fala o voo todo",
+      "Alguém que pega os dois apoios de braço",
+      "Alguém vendo vídeo sem fone"
+    ]
+  }
+}

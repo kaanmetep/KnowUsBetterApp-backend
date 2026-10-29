@@ -1,0 +1,40 @@
+{
+  "categories": {
+    "just_friends": { "category": "Somos Só Amigos", "short": "Só Amigos" },
+    "we_just_met": { "category": "Acabamos de Nos Conhecer", "short": "Recém-Conhecidos" },
+    "deep_talk": { "category": "Papo Profundo" },
+    "future_talk": { "category": "Planos para o Futuro" },
+    "long_term": { "category": "Casal de Longa Data", "short": "Longa Data" },
+    "spicy": { "category": "Intimidade e Conexão", "short": "Intimidade" },
+    "know_me_well": { "category": "Você Me Conhece Bem?", "short": "Me Conhece?" },
+    "know_me_well_hard": { "category": "Você Me Conhece Bem?" },
+    "trivia_master": { "category": "Mestre do Quiz", "short": "Quiz" },
+    "mastermind": { "category": "O Gênio", "short": "Gênio" },
+    "who_is_more_likely": { "category": "Quem É Mais Provável?", "short": "Quem?" },
+    "who_is_more_likely_intimacy": { "category": "Quem É Mais Provável?", "short": "Quem?" },
+    "rank_it": { "category": "Ordena Aí", "short": "Ordena" },
+    "rank_it_intimacy": { "category": "Ordena Aí", "short": "Ordena" }
+  },
+  "category_groups": {
+    "see_your_match": { "category": "Respondam às perguntas e vejam a compatibilidade de vocês" },
+    "know_each_other": { "category": "Quanto vocês se conhecem?" },
+    "who_knows_better": { "category": "Quem Sabe Mais?" },
+    "who_is_more_likely": { "category": "Quem é mais provável de..." },
+    "rank_it": { "category": "Ordena Aí" }
+  },
+  "game_reactions": {
+    "love": "Amor",
+    "laugh": "Kkkk",
+    "kiss": "Beijo",
+    "angry": "Raiva",
+    "eye_roll": "Aff",
+    "fire": "Fogo",
+    "shy": "Vergonha"
+  },
+  "announcements": {
+    "05fc8cad-2351-4fe1-b4b7-6592386fc900": {
+      "title": "Novo modo de jogo: Ordena Aí!",
+      "message": "Coloque as opções em ordem, da primeira à última, e veja o quanto a sua ordem bate com a do seu amor. Experimente o Ordena Aí ou vá mais fundo com o Ordena Aí (Intimidade)."
+    }
+  }
+}

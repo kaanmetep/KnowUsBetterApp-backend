@@ -5,6 +5,7 @@
  * as `question.correctAnswer` together with each player's `isCorrect`.
  */
 import type { MultiLanguageAnswer, Question, RevealedAnswer } from "../types.js";
+import { LANGS } from "../languages.js";
 import { findAnswerObject, isTextQuestion } from "./helpers.js";
 import { textAnswerIsCorrect } from "./textMatch.js";
 
@@ -13,14 +14,12 @@ export type AnswerKey =
   | { kind: "choice"; value: MultiLanguageAnswer }
   | { kind: "text"; accepted: string[]; reveal: RevealedAnswer };
 
-const LANGS = ["en", "tr", "es"] as const;
-
 const strings = (value: unknown): string[] =>
   (Array.isArray(value) ? value : [value]).filter(
     (v): v is string => typeof v === "string" && v.trim() !== "",
   );
 
-/** Typed-answer key: a list, a single string, or `{ en, tr, es }` lists. */
+/** Typed-answer key: a list, a single string, or `{ en, tr, ... }` lists. */
 const parseTextKey = (raw: unknown): AnswerKey | null => {
   if (Array.isArray(raw) || typeof raw === "string") {
     const accepted = strings(raw);
@@ -33,15 +32,13 @@ const parseTextKey = (raw: unknown): AnswerKey | null => {
   const lists = LANGS.map((lang) => strings(byLang[lang]));
   const accepted = [...new Set(lists.flat())];
   if (!accepted.length) return null;
-  const fallback = accepted[0];
+  const english = lists[0][0] ?? accepted[0];
   return {
     kind: "text",
     accepted,
-    reveal: {
-      en: lists[0][0] ?? fallback,
-      tr: lists[1][0] ?? lists[0][0] ?? fallback,
-      es: lists[2][0] ?? lists[0][0] ?? fallback,
-    },
+    reveal: Object.fromEntries(
+      LANGS.map((lang, i) => [lang, lists[i][0] ?? english]),
+    ) as MultiLanguageAnswer,
   };
 };
 
@@ -60,12 +57,14 @@ export function parseAnswerKey(
 
   if (question.haveAnswers && question.answers) {
     if (typeof raw === "number") {
-      const { answers_en, answers_tr, answers_es } = question.answers;
-      const en = answers_en[raw];
+      const answers = question.answers;
+      const en = answers.answers_en[raw];
       return en
         ? {
             kind: "choice",
-            value: { en, tr: answers_tr[raw] || en, es: answers_es[raw] || en },
+            value: Object.fromEntries(
+              LANGS.map((lang) => [lang, answers[`answers_${lang}`]?.[raw] || en]),
+            ) as MultiLanguageAnswer,
           }
         : null;
     }

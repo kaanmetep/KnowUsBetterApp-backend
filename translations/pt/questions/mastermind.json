@@ -1,0 +1,1227 @@
+{
+  "249c9d8c-a57c-45fb-8233-19701c9a3df3": {
+    "en": "Which of these iconic tech devices was released first?",
+    "text": "Qual destes aparelhos tecnológicos icônicos foi lançado primeiro?",
+    "answers": [
+      "Game Boy",
+      "Sony Walkman",
+      "Commodore 64",
+      "Macintosh 128K"
+    ]
+  },
+  "fbc24695-a39a-4f53-9717-f339a7bbd994": {
+    "en": "Which country has the highest number of time zones, including its overseas territories?",
+    "text": "Qual país tem o maior número de fusos horários, incluindo seus territórios ultramarinos?",
+    "answers": [
+      "Rússia",
+      "Estados Unidos",
+      "França",
+      "China"
+    ]
+  },
+  "ebce1854-6bc1-47e3-b71a-d595f7f0e3d9": {
+    "en": "Which country's national flag is the only one in the world that features a modern firearm?",
+    "text": "A bandeira nacional de qual país é a única no mundo que tem uma arma de fogo moderna?",
+    "answers": [
+      "Moçambique",
+      "Angola",
+      "Guatemala",
+      "Haiti"
+    ],
+    "flagged": true,
+    "note": "Guatemala's flag also includes rifles, so the 'only' wording can be seen as ambiguous."
+  },
+  "b8b1f650-8af9-41b7-aa62-30d6ad15e5a7": {
+    "en": "Which of these well-known capitals was explicitly planned and built from scratch to serve as a national capital?",
+    "text": "Qual destas capitais famosas foi planejada e construída do zero para ser a capital do país?",
+    "answers": [
+      "Brasília",
+      "Ottawa",
+      "Reykjavík"
+    ]
+  },
+  "216fe966-7360-468d-8a76-a6388e9f00fd": {
+    "en": "Which painting holds the record for being the most expensive artwork ever sold at a public auction?",
+    "text": "Qual pintura detém o recorde de obra de arte mais cara já vendida em leilão público?",
+    "answers": [
+      "Salvator Mundi",
+      "Interchange",
+      "Les Femmes d'Alger"
+    ]
+  },
+  "3384b472-139f-433d-975f-e1d81d3dd857": {
+    "en": "Which organ in the human body consumes roughly 20% of the total energy despite making up only about 2% of total body weight?",
+    "text": "Qual órgão do corpo humano consome cerca de 20% da energia total, apesar de representar só uns 2% do peso corporal?",
+    "answers": [
+      "Cérebro",
+      "Coração",
+      "Fígado"
+    ]
+  },
+  "79169b6e-6d47-46b6-b2e3-1c3403b8ad2b": {
+    "en": "Which animal species is the only known creature capable of biological immortality under ideal conditions?",
+    "text": "Qual espécie animal é a única conhecida capaz de imortalidade biológica em condições ideais?",
+    "answers": [
+      "Água-viva Turritopsis dohrnii",
+      "Tardígrado",
+      "Tubarão-da-Groenlândia",
+      "Axolote"
+    ],
+    "flagged": true,
+    "note": "The 'only known' claim is debatable because other organisms are sometimes described as biologically immortal."
+  },
+  "d9266445-8fa1-4b7b-8f51-a95099e26f90": {
+    "en": "Which country has a national anthem with no official lyrics at all?",
+    "text": "Qual país tem um hino nacional sem nenhuma letra oficial?",
+    "answers": [
+      "Espanha",
+      "Grécia",
+      "Áustria",
+      "Finlândia"
+    ]
+  },
+  "216b9e84-7694-41e2-af5d-f6a321f39d9d": {
+    "en": "Which naturally occurring substance on Earth never spoils or expires if stored properly?",
+    "text": "Qual substância natural da Terra nunca estraga nem vence se for armazenada do jeito certo?",
+    "answers": [
+      "Mel",
+      "Azeite de oliva",
+      "Xarope de bordo",
+      "Ghee"
+    ]
+  },
+  "2fa3792a-8bb2-4d12-9828-3caa4b924ede": {
+    "en": "Which country has the longest official geographical coastlines in the entire world?",
+    "text": "Qual país tem oficialmente o litoral geográfico mais longo do mundo?",
+    "answers": [
+      "Canadá",
+      "Indonésia",
+      "Rússia",
+      "Austrália"
+    ]
+  },
+  "33649e7c-3151-42fa-b231-2b75a0bb5bdd": {
+    "en": "Which of these classic board games was originally designed as a critique of capitalism and unchecked monopolies?",
+    "text": "Qual destes jogos de tabuleiro clássicos foi criado originalmente como uma crítica ao capitalismo e aos monopólios sem controle?",
+    "answers": [
+      "Monopoly",
+      "Catan",
+      "Risk"
+    ]
+  },
+  "9ab5c474-fbb2-4c0a-806a-40a9d9cc8024": {
+    "en": "Which country has a national flag that is a solid single color with no symbols, stripes, or designs between 1977 and 2011?",
+    "text": "Qual país teve uma bandeira nacional de uma única cor, sem símbolos, listras ou desenhos, entre 1977 e 2011?",
+    "answers": [
+      "Líbia",
+      "Omã",
+      "Mauritânia",
+      "Somália"
+    ]
+  },
+  "613334ba-46f2-4057-8e33-69fb31894584": {
+    "en": "Which human organ is the only internal organ capable of naturally regenerating lost or damaged tissue back to its original size?",
+    "text": "Qual órgão interno humano é o único capaz de regenerar naturalmente tecido perdido ou danificado até voltar ao tamanho original?",
+    "answers": [
+      "Fígado",
+      "Baço",
+      "Pâncreas",
+      "Rim"
+    ]
+  },
+  "40918421-b186-4fc1-8671-93d38e453858": {
+    "en": "Which space agency was the first to successfully land a robotic probe on the surface of another planet?",
+    "text": "Qual agência espacial foi a primeira a pousar com sucesso uma sonda robótica na superfície de outro planeta?",
+    "answers": [
+      "Programa Espacial Soviético (URSS)",
+      "NASA (EUA)",
+      "ESA (Europa)"
+    ]
+  },
+  "3afba6ab-16e0-4ac5-b590-7ca44451914e": {
+    "en": "Which country contains the only capital city in the world that borders two different foreign nations?",
+    "text": "Qual país tem a única capital do mundo que faz fronteira com dois países estrangeiros diferentes?",
+    "answers": [
+      "Eslováquia",
+      "Áustria",
+      "Hungria",
+      "Suíça"
+    ]
+  },
+  "ed8c8613-d924-4efa-87d6-5785029d9802": {
+    "en": "Which historic space mission was the first to take photographs of the far side of the Moon, never before seen by human eyes?",
+    "text": "Qual missão espacial histórica foi a primeira a fotografar o lado oculto da Lua, nunca antes visto por olhos humanos?",
+    "answers": [
+      "Luna 3",
+      "Apollo 8",
+      "Sputnik 2",
+      "Voyager 1"
+    ]
+  },
+  "00b54485-8cba-4983-a77e-4008337756f8": {
+    "en": "Which animal was the first living organism to have its complete genome fully sequenced by scientists in 1998?",
+    "text": "Qual animal foi o primeiro a ter seu genoma completo sequenciado por cientistas, em 1998?",
+    "answers": [
+      "Caenorhabditis elegans (verme nematódeo)",
+      "Drosophila melanogaster (mosca-da-fruta)",
+      "Mus musculus (camundongo doméstico)"
+    ]
+  },
+  "65a413b9-91a9-42d2-8a28-2ad753643f20": {
+    "en": "Which of these well-known sea bodies on Earth is actually an endorheic lake with no natural outlet to any ocean?",
+    "text": "Qual destes mares famosos da Terra é, na verdade, um lago endorreico sem saída natural para nenhum oceano?",
+    "answers": [
+      "Mar Cáspio",
+      "Mar Vermelho",
+      "Mar Negro",
+      "Mar Báltico"
+    ]
+  },
+  "28337b33-f997-40cc-9a60-62fe1ce2afef": {
+    "en": "Which of these famous landmarks was originally constructed as a temporary structure intended to be dismantled after 20 years?",
+    "text": "Qual destes pontos turísticos famosos foi construído originalmente como uma estrutura temporária, para ser desmontada depois de 20 anos?",
+    "answers": [
+      "Torre Eiffel",
+      "Estátua da Liberdade",
+      "Big Ben",
+      "Ponte Golden Gate"
+    ]
+  },
+  "cbec4c4a-b349-4cf9-9350-232bd2ce2084": {
+    "en": "Which country contains the world's northernmost permanently inhabited settlement with a civilian population?",
+    "text": "Qual país abriga o povoado permanentemente habitado mais ao norte do mundo, com população civil?",
+    "answers": [
+      "Noruega",
+      "Canadá",
+      "Groenlândia"
+    ]
+  },
+  "4efb81b0-12ea-4ad6-8815-8460fff0dfec": {
+    "en": "Which famous scientist lost his sight in his later years, partly due to observing the Sun through a telescope?",
+    "text": "Qual cientista famoso perdeu a visão nos últimos anos de vida, em parte por observar o Sol com um telescópio?",
+    "answers": [
+      "Galileo Galilei",
+      "Isaac Newton",
+      "Johannes Kepler",
+      "Nicolau Copérnico"
+    ],
+    "flagged": true,
+    "note": "Galileo's blindness being partly caused by telescopic Sun observations is disputed."
+  },
+  "5b649245-27c2-441a-ac9c-d6cb4f55763a": {
+    "en": "Which island is the only natural habitat where wild lemurs can be found in the world?",
+    "text": "Qual ilha é o único habitat natural do mundo onde dá para encontrar lêmures selvagens?",
+    "answers": [
+      "Madagascar",
+      "Tasmânia",
+      "Bornéu",
+      "Sri Lanka"
+    ]
+  },
+  "07d21811-0a44-4fe1-bc87-4653d33e744d": {
+    "en": "Which element is the most abundant gas in Earth's atmosphere, making up about 78% of the air we breathe?",
+    "text": "Qual elemento é o gás mais abundante na atmosfera da Terra, formando cerca de 78% do ar que a gente respira?",
+    "answers": [
+      "Nitrogênio",
+      "Oxigênio",
+      "Dióxido de carbono"
+    ]
+  },
+  "306a0b2b-4cd9-4cb2-874b-b09bbe3c20c1": {
+    "en": "Which organ in the human body is responsible for producing insulin to regulate blood sugar levels?",
+    "text": "Qual órgão do corpo humano produz insulina para regular os níveis de açúcar no sangue?",
+    "answers": [
+      "Pâncreas",
+      "Fígado",
+      "Tireoide",
+      "Rim"
+    ]
+  },
+  "4b072b2c-27e3-4f5d-8e61-6073892c3edc": {
+    "en": "Which ocean is the smallest and shallowest among the world's five major oceans?",
+    "text": "Qual oceano é o menor e mais raso entre os cinco grandes oceanos do mundo?",
+    "answers": [
+      "Oceano Ártico",
+      "Oceano Índico",
+      "Oceano Antártico"
+    ]
+  },
+  "5eba4cd4-3e28-4755-b946-b1162f9e1f52": {
+    "en": "Which country contains the highest number of natural lakes in the world, far more than all other countries combined?",
+    "text": "Qual país tem o maior número de lagos naturais do mundo, muito mais que todos os outros países juntos?",
+    "answers": [
+      "Canadá",
+      "Finlândia",
+      "Suécia",
+      "Rússia"
+    ]
+  },
+  "d2e91574-e563-4b4d-bca7-5089e2c95a3d": {
+    "en": "Which internal organ in the human body consumes the most oxygen at rest per gram of tissue?",
+    "text": "Qual órgão interno do corpo humano consome mais oxigênio em repouso por grama de tecido?",
+    "answers": [
+      "Rins",
+      "Cérebro",
+      "Coração"
+    ]
+  },
+  "cfe101aa-6323-4701-9f6b-c0c1b78bcd31": {
+    "en": "Which chemical element has the symbol 'Fe' on the periodic table?",
+    "text": "Qual elemento químico tem o símbolo “Fe” na tabela periódica?",
+    "answers": [
+      "Ferro",
+      "Flúor",
+      "Frâncio",
+      "Chumbo"
+    ]
+  },
+  "f82eeb1d-6bc5-4620-9662-4b6db7d03f85": {
+    "en": "Which country has the largest total population in the world?",
+    "text": "Qual país tem a maior população total do mundo?",
+    "answers": [
+      "Índia",
+      "China",
+      "Estados Unidos"
+    ]
+  },
+  "aefe5538-8b82-4150-946e-1e448c7294dd": {
+    "en": "In which city was the Titanic built?",
+    "text": "Em qual cidade o Titanic foi construído?",
+    "answers": [
+      "Southampton",
+      "Liverpool",
+      "Belfast",
+      "Glasgow"
+    ]
+  },
+  "f24855c8-5dff-43bf-8f9a-b43c20369617": {
+    "en": "Which language has the most native speakers in the world?",
+    "text": "Qual idioma tem mais falantes nativos no mundo?",
+    "answers": [
+      "Inglês",
+      "Espanhol",
+      "Chinês mandarim",
+      "Hindi"
+    ]
+  },
+  "074003da-986a-4f39-b69d-edf24fa0e6bd": {
+    "en": "Which famous composer kept writing music even after losing his hearing?",
+    "text": "Qual compositor famoso continuou compondo mesmo depois de perder a audição?",
+    "answers": [
+      "Mozart",
+      "Bach",
+      "Beethoven",
+      "Chopin"
+    ]
+  },
+  "445bc232-d72c-441e-8870-db27d398660c": {
+    "en": "What is the longest river in Europe?",
+    "text": "Qual é o rio mais longo da Europa?",
+    "answers": [
+      "Danúbio",
+      "Reno",
+      "Volga",
+      "Dniepre"
+    ]
+  },
+  "50e6fa72-58b1-4e43-9ff3-19a6b061b079": {
+    "en": "Which country has the most ancient pyramids in the world?",
+    "text": "Qual país tem o maior número de pirâmides antigas no mundo?",
+    "answers": [
+      "Egito",
+      "México",
+      "Sudão",
+      "Peru"
+    ]
+  },
+  "764b8baf-3e52-4147-805a-5b2db69e761e": {
+    "en": "Which ancient Roman city was buried by the eruption of Mount Vesuvius in 79 AD?",
+    "text": "Qual antiga cidade romana foi soterrada pela erupção do Monte Vesúvio em 79 d.C.?",
+    "answers": [
+      "Troia",
+      "Cartago",
+      "Pompeia",
+      "Éfeso"
+    ]
+  },
+  "46a1bf16-1ff6-4b35-9344-067efca85bf8": {
+    "en": "The zloty is the currency of which country?",
+    "text": "O zloty é a moeda de qual país?",
+    "answers": [
+      "República Tcheca",
+      "Hungria",
+      "Polônia",
+      "Romênia"
+    ]
+  },
+  "48c26cda-20cb-499c-a406-b596bdf0fcfe": {
+    "en": "In which country is the famous temple complex Angkor Wat?",
+    "text": "Em qual país fica o famoso complexo de templos Angkor Wat?",
+    "answers": [
+      "Tailândia",
+      "Vietnã",
+      "Camboja",
+      "Laos"
+    ]
+  },
+  "15e2a3be-9cf7-44c7-82c2-73a20cf4e32e": {
+    "en": "Which country was known as Persia until 1935?",
+    "text": "Qual país era conhecido como Pérsia até 1935?",
+    "answers": [
+      "Iraque",
+      "Irã",
+      "Afeganistão",
+      "Síria"
+    ]
+  },
+  "038f3d47-7343-4fe0-9233-1e1ebe34924c": {
+    "en": "Which is the driest continent on Earth?",
+    "text": "Qual é o continente mais seco da Terra?",
+    "answers": [
+      "África",
+      "Austrália",
+      "Antártida",
+      "Ásia"
+    ]
+  },
+  "25b14b4f-e324-469f-95f9-97764d1e5aba": {
+    "en": "Which famous painter cut off part of his own ear?",
+    "text": "Qual pintor famoso cortou parte da própria orelha?",
+    "answers": [
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Vincent van Gogh",
+      "Claude Monet"
+    ]
+  },
+  "ad97147d-91f6-4461-950a-037d2e2ba3e5": {
+    "en": "Which civilization built Machu Picchu?",
+    "text": "Qual civilização construiu Machu Picchu?",
+    "answers": [
+      "Maia",
+      "Asteca",
+      "Inca",
+      "Olmeca"
+    ]
+  },
+  "9eddd7ce-3b44-4ff8-bd55-f8722f54735a": {
+    "en": "Who developed the first successful polio vaccine?",
+    "text": "Quem desenvolveu a primeira vacina eficaz contra a pólio?",
+    "answers": [
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "Jonas Salk",
+      "Edward Jenner"
+    ]
+  },
+  "16f5a75d-b234-4cf5-b764-42f88f585fb4": {
+    "en": "In which year did the Berlin Wall fall?",
+    "text": "Em que ano o Muro de Berlim caiu?",
+    "answers": [
+      "1985",
+      "1989",
+      "1991",
+      "1993"
+    ]
+  },
+  "09b32070-8382-46c5-acab-7febba8d1ec8": {
+    "en": "Which planet is famous for its \"Great Red Spot,\" a giant storm?",
+    "text": "Qual planeta é famoso pela “Grande Mancha Vermelha”, uma tempestade gigante?",
+    "answers": [
+      "Marte",
+      "Saturno",
+      "Júpiter",
+      "Netuno"
+    ]
+  },
+  "47c54123-8d9b-4b45-a060-a7d644f27b4b": {
+    "en": "Who wrote the novel \"One Hundred Years of Solitude\"?",
+    "text": "Quem escreveu o romance “Cem Anos de Solidão”?",
+    "answers": [
+      "Jorge Luis Borges",
+      "Pablo Neruda",
+      "Gabriel García Márquez",
+      "Mario Vargas Llosa"
+    ]
+  },
+  "fa255715-8112-4dbe-9570-2771aa214284": {
+    "en": "What is the longest bone in the human body?",
+    "text": "Qual é o osso mais longo do corpo humano?",
+    "answers": [
+      "Tíbia",
+      "Fêmur",
+      "Úmero",
+      "Coluna vertebral"
+    ]
+  },
+  "a411e5d4-9ce4-400d-bc15-c163ec9ebb03": {
+    "en": "What is the largest country in Africa by area?",
+    "text": "Qual é o maior país da África em área?",
+    "answers": [
+      "Sudão",
+      "RD do Congo",
+      "Argélia",
+      "Egito"
+    ]
+  },
+  "78ee5f59-8c97-41fa-a626-e8591b8f855d": {
+    "en": "IKEA was founded in which country?",
+    "text": "A IKEA foi fundada em qual país?",
+    "answers": [
+      "Dinamarca",
+      "Noruega",
+      "Suécia",
+      "Finlândia"
+    ]
+  },
+  "a5474f1a-12e0-4f8f-ba4e-36c55526f4d5": {
+    "en": "Which car brand's logo is made of four interlocking rings?",
+    "text": "Qual marca de carro tem o logo formado por quatro argolas entrelaçadas?",
+    "answers": [
+      "BMW",
+      "Audi",
+      "Volkswagen",
+      "Mercedes-Benz"
+    ]
+  },
+  "316853c7-fe4d-406a-837f-9be36e71791e": {
+    "en": "Samsung is a company from which country?",
+    "text": "A Samsung é uma empresa de qual país?",
+    "answers": [
+      "Japão",
+      "China",
+      "Coreia do Sul",
+      "Taiwan"
+    ]
+  },
+  "f6443fb2-9cf5-4361-82ab-69ae23034358": {
+    "en": "What color is an airplane's \"black box\" flight recorder actually?",
+    "text": "A “caixa-preta” de um avião é, na verdade, de que cor?",
+    "answers": [
+      "Preta",
+      "Laranja",
+      "Vermelha",
+      "Prateada"
+    ]
+  },
+  "a751f437-62dc-4e3e-8f21-bc7adcf9a725": {
+    "en": "How many squares are there on a chessboard?",
+    "text": "Quantas casas tem um tabuleiro de xadrez?",
+    "answers": [
+      "48",
+      "64",
+      "81",
+      "100"
+    ]
+  },
+  "3c7ac84e-460a-420b-bc49-e161bbdfb680": {
+    "en": "Nokia, the famous phone brand, comes from which country?",
+    "text": "A Nokia, famosa marca de celulares, vem de qual país?",
+    "answers": [
+      "Suécia",
+      "Finlândia",
+      "Japão",
+      "Alemanha"
+    ]
+  },
+  "ce67c01c-6fac-4cc1-83b4-97c6f79d35c3": {
+    "en": "On a standard die, what do the numbers on opposite sides always add up to?",
+    "text": "Em um dado comum, a soma das faces opostas sempre dá quanto?",
+    "answers": [
+      "6",
+      "7",
+      "8",
+      "12"
+    ]
+  },
+  "23122005-b25f-4c6e-be69-ccd34cfb98bd": {
+    "en": "How many hours are there in a week?",
+    "text": "Quantas horas tem uma semana?",
+    "answers": [
+      "148",
+      "158",
+      "168",
+      "178"
+    ]
+  },
+  "f131e63e-96c1-440a-b031-5c318d8bc323": {
+    "en": "Nutella was created in which country?",
+    "text": "A Nutella foi criada em qual país?",
+    "answers": [
+      "França",
+      "Suíça",
+      "Bélgica",
+      "Itália"
+    ]
+  },
+  "5213fdb8-17ca-4e41-a7c3-2e29888dc910": {
+    "en": "How many cards are in a standard deck, not counting jokers?",
+    "text": "Sem contar os coringas, quantas cartas tem um baralho padrão?",
+    "answers": [
+      "48",
+      "52",
+      "54",
+      "56"
+    ]
+  },
+  "b7ea512f-5675-4ed5-b6ee-e67bf475a40e": {
+    "en": "On a standard keyboard, which letter sits between G and J?",
+    "text": "Em um teclado padrão, qual letra fica entre G e J?",
+    "answers": [
+      "F",
+      "H",
+      "K",
+      "B"
+    ]
+  },
+  "fc9fb6fc-80f1-4d6f-acf9-a97d285e1148": {
+    "en": "Roughly how long does sunlight take to reach Earth?",
+    "text": "Mais ou menos quanto tempo a luz do Sol leva para chegar à Terra?",
+    "answers": [
+      "8 segundos",
+      "8 minutos",
+      "8 horas",
+      "8 dias"
+    ]
+  },
+  "f7577fd3-cd79-400b-a94e-b36666958681": {
+    "en": "How many strings does a standard guitar have?",
+    "text": "Quantas cordas tem um violão padrão?",
+    "answers": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "de06546b-8966-4a0f-8a03-6e5c4262d6fc": {
+    "en": "How many days does February have in a leap year?",
+    "text": "Em ano bissexto, fevereiro tem quantos dias?",
+    "answers": [
+      "28",
+      "29",
+      "30",
+      "31"
+    ]
+  },
+  "19816c87-dfa3-45ff-9bb0-ef7558f119de": {
+    "en": "The cornea is part of which organ?",
+    "text": "A córnea faz parte de qual órgão?",
+    "answers": [
+      "Ouvido",
+      "Olho",
+      "Coração",
+      "Pele"
+    ]
+  },
+  "5259ce96-2e3b-458a-9f7c-b637fd887db0": {
+    "en": "Which metal is used in most household electrical wires?",
+    "text": "Qual metal é usado na maioria dos fios elétricos de casa?",
+    "accepted": [
+      "cobre",
+      "Cu",
+      "fio de cobre",
+      "cabo de cobre",
+      "cobre metálico",
+      "copper"
+    ]
+  },
+  "40cb4e70-a58a-4f05-b31c-d3e3fdb89927": {
+    "en": "Which gas gives fizzy drinks their bubbles?",
+    "text": "Qual gás dá as bolhas dos refrigerantes?",
+    "accepted": [
+      "dióxido de carbono",
+      "CO2",
+      "CO₂",
+      "gás carbônico",
+      "gas carbonico",
+      "anidrido carbônico",
+      "carbon dioxide"
+    ]
+  },
+  "268fe19d-11a8-41cc-8d63-fe56498a715a": {
+    "en": "Dubai is a city in which country?",
+    "text": "Dubai é uma cidade de qual país?",
+    "accepted": [
+      "Emirados Árabes Unidos",
+      "Emirados Arabes Unidos",
+      "EAU",
+      "E.A.U.",
+      "Emirados",
+      "UAE",
+      "United Arab Emirates"
+    ]
+  },
+  "8df2cfec-7013-48f4-8e0a-1f2cac3d73e2": {
+    "en": "What is the name for an extreme fear of spiders?",
+    "text": "Qual é o nome do medo extremo de aranhas?",
+    "accepted": [
+      "aracnofobia",
+      "aracnafobia",
+      "fobia de aranha",
+      "fobia a aranhas",
+      "medo de aranhas",
+      "arachnophobia"
+    ]
+  },
+  "bdcca45d-f2ae-441d-a885-a521f51b3ece": {
+    "en": "Which planet is often called the \"Morning Star\"?",
+    "text": "Qual planeta costuma ser chamado de “Estrela-d’alva”?",
+    "accepted": [
+      "Vênus",
+      "Venus",
+      "planeta Vênus",
+      "Estrela-d’alva",
+      "Estrela d’alva",
+      "Estrela da Manhã",
+      "Estrela da Tarde"
+    ]
+  },
+  "f766a74f-7af2-4363-870d-632389e2bc90": {
+    "en": "What does \"www\" stand for in a website address?",
+    "text": "O que significa “www” em um endereço de site?",
+    "accepted": [
+      "World Wide Web",
+      "WWW",
+      "world wide web",
+      "rede mundial de computadores",
+      "rede mundial",
+      "Worldwide Web",
+      "WorldWide Web"
+    ]
+  },
+  "4d63a2f7-355d-418a-99f7-288076d7c5ed": {
+    "en": "Which spice is the most expensive in the world by weight?",
+    "text": "Qual é a especiaria mais cara do mundo por peso?",
+    "accepted": [
+      "Açafrão",
+      "Acafrao",
+      "Saffron",
+      "Safran",
+      "Azafran",
+      "Açafrão verdadeiro",
+      "Crocus"
+    ]
+  },
+  "a5f1d330-c07c-40b9-a6ed-e6037bf4f4c3": {
+    "en": "What is the capital of Australia?",
+    "text": "Qual é a capital da Austrália?",
+    "accepted": [
+      "Canberra",
+      "Canbera",
+      "Kanberra",
+      "Canberrra",
+      "Canberra City",
+      "Canburra"
+    ]
+  },
+  "ffe9c080-1f5b-4192-bc7b-2b4258c9d0e2": {
+    "en": "What does QR stand for in \"QR code\"?",
+    "text": "O que significa QR em “código QR”?",
+    "accepted": [
+      "Quick Response",
+      "Resposta rápida",
+      "Resposta rapida",
+      "Quick-Response",
+      "Quickresponse",
+      "QR",
+      "Código de resposta rápida"
+    ]
+  },
+  "c38c6d5a-4784-49a4-8ec9-564ba0912926": {
+    "en": "What is the capital of Canada?",
+    "text": "Qual é a capital do Canadá?",
+    "accepted": [
+      "Ottawa",
+      "Otawa",
+      "Ottowa",
+      "Ottava",
+      "Cidade de Ottawa",
+      "Ottawa City"
+    ]
+  },
+  "b9f40b61-c0e9-4172-ab62-a3c1c740f0c9": {
+    "en": "What does GPS stand for?",
+    "text": "O que significa GPS?",
+    "accepted": [
+      "Sistema de Posicionamento Global",
+      "Global Positioning System",
+      "Sistema Global de Posicionamento",
+      "Global Position System",
+      "Global Positioning"
+    ]
+  },
+  "e52435ce-d075-4980-b9ac-9dcf9d712df1": {
+    "en": "An Olympic \"gold\" medal is mostly made of which metal?",
+    "text": "Uma medalha olímpica de “ouro” é feita principalmente de qual metal?",
+    "accepted": [
+      "Prata",
+      "Silver",
+      "Ag",
+      "Prata de lei",
+      "Metal prata",
+      "Plata"
+    ]
+  },
+  "d45b83c7-fd0f-4522-b35f-567c66d4f42b": {
+    "en": "What is the name of the galaxy we live in?",
+    "text": "Qual é o nome da galáxia em que a gente vive?",
+    "accepted": [
+      "Via Láctea",
+      "Via Lactea",
+      "A Via Láctea",
+      "Galáxia Via Láctea",
+      "Milky Way",
+      "Milkyway"
+    ]
+  },
+  "ec7a91a5-65a4-43e9-baf6-d3bd61ca9817": {
+    "en": "What is the chemical formula for table salt?",
+    "text": "Qual é a fórmula química do sal de cozinha?",
+    "accepted": [
+      "NaCl",
+      "Cloreto de sódio",
+      "Nacl",
+      "NACl",
+      "Cloreto de sodio",
+      "Sodium chloride"
+    ]
+  },
+  "ae92a4d9-9327-441e-95a0-22a22f1beebb": {
+    "en": "What is the smallest country in the world?",
+    "text": "Qual é o menor país do mundo?",
+    "accepted": [
+      "Vaticano",
+      "Cidade do Vaticano",
+      "O Vaticano",
+      "Vatican",
+      "Vatican City",
+      "Santa Sé"
+    ]
+  },
+  "47f1968f-3313-44f3-af0c-2a16d6840dcc": {
+    "en": "What is the official language of Brazil?",
+    "text": "Qual é o idioma oficial do Brasil?",
+    "accepted": [
+      "Português",
+      "Portugues",
+      "Língua portuguesa",
+      "Lingua portuguesa",
+      "Português brasileiro",
+      "Portuguese"
+    ]
+  },
+  "a33b8db2-9aed-4a46-9a20-5aeb046044a9": {
+    "en": "Which dwarf planet was counted as the ninth planet until 2006?",
+    "text": "Qual planeta anão era considerado o nono planeta até 2006?",
+    "accepted": [
+      "Plutão",
+      "Plutao",
+      "Pluto",
+      "Planeta Plutão",
+      "Plutón",
+      "Planeta anão Plutão"
+    ]
+  },
+  "ebe23394-c55a-452c-be4a-2f1c1655ec87": {
+    "en": "Which river flows through the city of London?",
+    "text": "Qual rio passa pela cidade de Londres?",
+    "accepted": [
+      "Tâmisa",
+      "Tamisa",
+      "Rio Tâmisa",
+      "Rio Tamisa",
+      "Thames",
+      "River Thames"
+    ]
+  },
+  "e0497815-9994-4bb7-993f-733104d56ff6": {
+    "en": "What is the Japanese art of folding paper called?",
+    "text": "Como se chama a arte japonesa de dobrar papel?",
+    "accepted": [
+      "Origami",
+      "Origamii",
+      "Origame",
+      "Origami japonês",
+      "Origami japones",
+      "Arte do origami"
+    ]
+  },
+  "9ad71b86-781c-4956-aa69-66af96050f05": {
+    "en": "What is the capital of Turkey?",
+    "text": "Qual é a capital da Turquia?",
+    "accepted": [
+      "Ancara",
+      "Ankara",
+      "Angora",
+      "Cidade de Ancara",
+      "Ankkara",
+      "Ankarra"
+    ]
+  },
+  "ff8385a7-6ae7-49da-9342-e89a326fe6b4": {
+    "en": "What is the largest hot desert in the world?",
+    "text": "Qual é o maior deserto quente do mundo?",
+    "accepted": [
+      "Saara",
+      "Deserto do Saara",
+      "Sahara",
+      "Sahara Desert",
+      "O Saara",
+      "Grande Saara"
+    ]
+  },
+  "3af2ac67-f389-4632-9a31-b214cc29271d": {
+    "en": "What is the largest ocean on Earth?",
+    "text": "Qual é o maior oceano da Terra?",
+    "accepted": [
+      "Oceano Pacífico",
+      "Pacífico",
+      "Pacifico",
+      "Pacific",
+      "Pacific Ocean",
+      "O Pacífico"
+    ]
+  },
+  "fa343599-9ecc-4caf-af1a-63e4de335e1f": {
+    "en": "Who was the first human to travel into space?",
+    "text": "Quem foi o primeiro ser humano a ir ao espaço?",
+    "accepted": [
+      "Yuri Gagarin",
+      "Iuri Gagarin",
+      "Gagarin",
+      "Yuri",
+      "Iuri",
+      "Yuri Gagarín"
+    ]
+  },
+  "8a5538b6-5391-4ca2-9170-66ac0420f280": {
+    "en": "How many bits are there in one byte?",
+    "text": "Quantos bits tem um byte?",
+    "accepted": [
+      "8",
+      "Oito",
+      "8 bits",
+      "Oito bits",
+      "8 bit",
+      "Eight"
+    ]
+  },
+  "d2e6287e-ed49-4e42-be4f-dc35331190df": {
+    "en": "How many chambers does the human heart have?",
+    "text": "Quantas câmaras tem o coração humano?",
+    "answers": [
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  "f1f0bbda-e76c-4f6e-81e8-32b84966cab7": {
+    "en": "Which planet is farthest from the Sun?",
+    "text": "Qual planeta fica mais longe do Sol?",
+    "answers": [
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ]
+  },
+  "e3dfd91a-47bd-46d6-90c8-2e49867eac21": {
+    "en": "In Japan, which side of the road do people drive on?",
+    "text": "No Japão, as pessoas dirigem de que lado da rua?",
+    "answers": [
+      "Esquerda",
+      "Direita",
+      "Depende da cidade"
+    ]
+  },
+  "9f40989a-0762-40d3-903b-d4dea3240a03": {
+    "en": "Sound travels fastest through which of these?",
+    "text": "O som viaja mais rápido em qual destes?",
+    "answers": [
+      "Ar",
+      "Água",
+      "Aço"
+    ]
+  },
+  "dff24315-b611-4cfe-8d7f-20be40432141": {
+    "en": "What is the first element on the periodic table?",
+    "text": "Qual é o primeiro elemento da tabela periódica?",
+    "answers": [
+      "Hélio",
+      "Hidrogênio",
+      "Carbono"
+    ]
+  },
+  "ea6d9d3d-2197-4db4-b60c-62bcb6447bd5": {
+    "en": "How many degrees are there in a triangle?",
+    "text": "Quantos graus somam os ângulos de um triângulo?",
+    "answers": [
+      "90",
+      "180",
+      "360"
+    ]
+  },
+  "1572c049-70cc-40f7-a2ca-6961b2ed1349": {
+    "en": "The Great Barrier Reef is off the coast of which country?",
+    "text": "A Grande Barreira de Corais fica na costa de qual país?",
+    "answers": [
+      "Indonésia",
+      "Austrália",
+      "Nova Zelândia"
+    ]
+  },
+  "6500a604-8ff9-4f22-9e8f-7ecbba27e495": {
+    "en": "How many strings does a standard violin have?",
+    "text": "Quantas cordas tem um violino padrão?",
+    "answers": [
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "9f810db5-4fdb-423e-abf2-3292b8b9edd9": {
+    "en": "In the wild, penguins live around which pole?",
+    "text": "Na natureza, os pinguins vivem perto de qual polo?",
+    "answers": [
+      "Polo Norte",
+      "Polo Sul",
+      "Os dois polos"
+    ]
+  },
+  "ac7df825-f26e-45a2-ab65-51db4df6502f": {
+    "en": "Which of these countries does not use the euro?",
+    "text": "Qual destes países não usa o euro?",
+    "answers": [
+      "Espanha",
+      "Itália",
+      "Reino Unido"
+    ]
+  },
+  "9c91cd31-abbe-4fb9-9763-dda7a0f91054": {
+    "en": "What does a light-year measure?",
+    "text": "O que um ano-luz mede?",
+    "answers": [
+      "Tempo",
+      "Distância",
+      "Velocidade"
+    ]
+  },
+  "60aeb9a2-e94c-4393-82d8-853cc1806d3e": {
+    "en": "How many zeros are there in one million?",
+    "text": "Quantos zeros tem um milhão?",
+    "answers": [
+      "3",
+      "6",
+      "9"
+    ]
+  },
+  "1ed3a9a8-0ddd-47cf-9fdf-81494802742a": {
+    "en": "Diamonds are made of which element?",
+    "text": "Diamantes são feitos de qual elemento?",
+    "answers": [
+      "Ferro",
+      "Carbono",
+      "Silício"
+    ]
+  },
+  "48ce5e69-8d9b-429c-b688-5df35d7a98f6": {
+    "en": "In which ocean is the Bermuda Triangle?",
+    "text": "Em qual oceano fica o Triângulo das Bermudas?",
+    "answers": [
+      "Atlântico",
+      "Pacífico",
+      "Índico"
+    ]
+  },
+  "121f2786-e448-4d1a-8a19-3224285579fc": {
+    "en": "Paper was first invented in which country?",
+    "text": "Em qual país o papel foi inventado?",
+    "answers": [
+      "Egito",
+      "China",
+      "Grécia"
+    ]
+  },
+  "5e59546c-0d39-49e7-89de-59bddc720db9": {
+    "en": "Which of these animals is a mammal?",
+    "text": "Qual destes animais é um mamífero?",
+    "answers": [
+      "Tubarão",
+      "Golfinho",
+      "Crocodilo"
+    ]
+  },
+  "fae56cbe-9751-4315-889d-0738a1e46523": {
+    "en": "How many months of the year have 31 days?",
+    "text": "Quantos meses do ano têm 31 dias?",
+    "answers": [
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "c2adfed9-80a9-4017-be0c-fa78e6c60d22": {
+    "en": "The city of Casablanca is in which country?",
+    "text": "A cidade de Casablanca fica em qual país?",
+    "answers": [
+      "Espanha",
+      "Marrocos",
+      "Argélia"
+    ]
+  },
+  "3040e835-4830-4c50-ba4f-c21e473ca2de": {
+    "en": "How many stars are on the flag of the European Union?",
+    "text": "Quantas estrelas tem a bandeira da União Europeia?",
+    "answers": [
+      "12",
+      "15",
+      "27"
+    ]
+  },
+  "fdca625b-e0fb-4cff-a6a1-9fbf87b764a1": {
+    "en": "Which country is larger by land area?",
+    "text": "Qual país é maior em área territorial?",
+    "answers": [
+      "Canadá",
+      "Estados Unidos"
+    ],
+    "flagged": true,
+    "note": "The answer depends on whether water area is included; by strict land area, the United States can be listed as larger than Canada."
+  },
+  "da747a22-25c3-40fb-a01a-d6a8b8c9078d": {
+    "en": "Who has more bones, a baby or an adult?",
+    "text": "Quem tem mais ossos: um bebê ou um adulto?",
+    "answers": [
+      "Um bebê",
+      "Um adulto"
+    ]
+  },
+  "eb0f96be-4bb7-47cb-8149-8802bd503ac5": {
+    "en": "Is glass a liquid or a solid?",
+    "text": "O vidro é líquido ou sólido?",
+    "answers": [
+      "Líquido",
+      "Sólido"
+    ]
+  },
+  "65c04a62-0c2e-4482-922d-d4174cefdb30": {
+    "en": "During a storm, which reaches you first?",
+    "text": "Durante uma tempestade, o que chega até você primeiro?",
+    "answers": [
+      "Relâmpago",
+      "Trovão"
+    ]
+  },
+  "f8ffdcfd-cc69-4f84-b259-47b5d33b2203": {
+    "en": "Which is denser, water or oil?",
+    "text": "O que é mais denso: água ou óleo?",
+    "answers": [
+      "Água",
+      "Óleo"
+    ]
+  },
+  "5aef0691-be25-44b1-a148-b2b2bc673aca": {
+    "en": "Which company was founded first?",
+    "text": "Qual empresa foi fundada primeiro?",
+    "answers": [
+      "Google",
+      "Facebook"
+    ]
+  },
+  "624f394a-6a99-474b-80ee-a0ecaaf71403": {
+    "en": "Which is larger by land area, Greenland or Africa?",
+    "text": "O que é maior em área: Groenlândia ou África?",
+    "answers": [
+      "Groenlândia",
+      "África"
+    ]
+  },
+  "6fe00fe8-2109-4c1e-beae-07ba77a12da0": {
+    "en": "Which planet has more moons, Earth or Mars?",
+    "text": "Qual planeta tem mais luas: Terra ou Marte?",
+    "answers": [
+      "Terra",
+      "Marte"
+    ]
+  },
+  "97985581-9569-4731-b79e-f357f42c3689": {
+    "en": "Botanically, which is a berry, a banana or a strawberry?",
+    "text": "Na botânica, o que é uma baga: banana ou morango?",
+    "answers": [
+      "Banana",
+      "Morango"
+    ]
+  },
+  "9d9765b1-cb21-4b66-a6ca-cca64bb8ea46": {
+    "en": "Which is a legume, a peanut or an almond?",
+    "text": "O que é uma leguminosa: amendoim ou amêndoa?",
+    "answers": [
+      "Amendoim",
+      "Amêndoa"
+    ]
+  },
+  "a5c6fa97-91c7-43b3-97b9-37b7498e06d6": {
+    "en": "Which usually has more vitamin C, kiwi or orange?",
+    "text": "O que costuma ter mais vitamina C: kiwi ou laranja?",
+    "answers": [
+      "Kiwi",
+      "Laranja"
+    ]
+  },
+  "911db8b1-a5fb-4bc6-8f22-39c829ee4bf0": {
+    "en": "Which typically has more caffeine, a cup of filter coffee or a shot of espresso?",
+    "text": "O que costuma ter mais cafeína: uma xícara de café coado ou um espresso?",
+    "answers": [
+      "Café coado",
+      "Espresso"
+    ]
+  },
+  "b9fed908-5c2b-4e3c-9f81-e2bbb76fa222": {
+    "en": "Which usually has more sugar per 100 grams, ketchup or mayonnaise?",
+    "text": "O que costuma ter mais açúcar a cada 100 gramas: ketchup ou maionese?",
+    "answers": [
+      "Ketchup",
+      "Maionese"
+    ]
+  },
+  "7d0a4ab1-2bd1-4107-8bc0-533ca5e9231a": {
+    "en": "Which human lung is larger, the left or the right?",
+    "text": "Qual pulmão humano é maior: o direito ou o esquerdo?",
+    "answers": [
+      "Direito",
+      "Esquerdo"
+    ]
+  },
+  "01bfe40c-64f0-4f45-9c33-7c07641eeda8": {
+    "en": "Which is longer, the small intestine or the large intestine?",
+    "text": "O que é mais comprido: o intestino delgado ou o intestino grosso?",
+    "answers": [
+      "Intestino delgado",
+      "Intestino grosso"
+    ]
+  },
+  "9c933e05-76a7-4482-94f0-be96468d643b": {
+    "en": "Which has more bones, one hand or one foot?",
+    "text": "O que tem mais ossos: uma mão ou um pé?",
+    "answers": [
+      "Uma mão",
+      "Um pé"
+    ]
+  },
+  "55fc8963-d395-469d-b4be-f913970cc16b": {
+    "en": "Who usually has more taste buds, children or adults?",
+    "text": "Quem costuma ter mais papilas gustativas: crianças ou adultos?",
+    "answers": [
+      "Crianças",
+      "Adultos"
+    ]
+  },
+  "f6fd11c9-bc21-4a2d-bff8-e62ca18740aa": {
+    "en": "Which typically weighs more, the liver or the brain?",
+    "text": "O que geralmente pesa mais: o fígado ou o cérebro?",
+    "answers": [
+      "Fígado",
+      "Cérebro"
+    ]
+  }
+}
