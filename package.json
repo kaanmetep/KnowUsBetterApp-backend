@@ -22,6 +22,7 @@
     "test:random": "node --loader ts-node/esm test/testRandomQuestions.ts",
     "test:notifications": "node --import tsx --test test/notifications.test.ts",
     "test:questions": "node --import tsx --test test/questionService.test.ts",
+    "test:rank": "node --import tsx --test test/rankIt.test.ts",
     "test:admin-push": "node test/testAdminPush.js",
     "test:admin-push:local": "cross-env TEST_SERVER_URL=http://localhost:3000 node test/testAdminPush.js",
     "test:admin-push:phone": "cross-env TEST_SERVER_URL=http://192.168.1.133:3000 node test/testAdminPush.js",

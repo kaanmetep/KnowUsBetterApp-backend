@@ -6,6 +6,7 @@ import {
   MAX_MATCH_WEIGHT,
 } from "../types.js";
 import { AnswerKey, parseAnswerKey } from "../utils/trivia.js";
+import { isRankable, RANK_IT_MAX_ITEMS, RANK_IT_MIN_ITEMS } from "../utils/rankIt.js";
 
 // Raw `correct_answer` per question id. Answer keys don't change during a game
 // and must not ride along on the room (it's sent to clients), so they live here.
@@ -210,13 +211,14 @@ export async function markQuestionsSeen(
  * @param supabaseAdmin - Supabase admin client (with service role key)
  * @param options.includeText - false drops free-text questions (some player's app can't show them)
  * @param options.appUserIds - the players; questions none of them has seen come first
+ * @param options.rankable - keep only questions with RANK_IT_MIN_ITEMS-RANK_IT_MAX_ITEMS options (rank_it)
  * @returns Array of questions
  */
 export async function fetchRandomQuestions(
   category: Category,
   count: number,
   supabaseAdmin: any,
-  options: { includeText?: boolean; appUserIds?: string[] } = {}
+  options: { includeText?: boolean; appUserIds?: string[]; rankable?: boolean } = {}
 ): Promise<Question[]> {
   if (!supabaseAdmin) {
     throw new Error("Supabase admin client is required");
@@ -297,9 +299,15 @@ export async function fetchRandomQuestions(
       };
     });
 
-    const candidates = includeText
+    const shown = includeText
       ? questions
       : questions.filter((q) => q.questionType !== "text");
+    const candidates = options.rankable ? shown.filter(isRankable) : shown;
+    if (options.rankable && candidates.length < shown.length) {
+      console.warn(
+        `⚠️ ${shown.length - candidates.length} question(s) in rank category ${category} don't have ${RANK_IT_MIN_ITEMS}-${RANK_IT_MAX_ITEMS} options and were skipped`
+      );
+    }
 
     await loadAnswerKeys(
       candidates.map((q) => q.id),
