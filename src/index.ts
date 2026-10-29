@@ -26,6 +26,8 @@ import {
   CLIENT_FEATURE_WHO_IS_MORE_LIKELY,
   CLIENT_FEATURE_REACTIONS,
   CLIENT_FEATURE_RANK_IT,
+  CLIENT_FEATURE_DAILY_ANALYSIS,
+  DailyTopic,
 } from "./types.js";
 import {
   fetchRandomQuestions,
@@ -78,6 +80,23 @@ import {
   releaseLock,
 } from "./utils/redis.js";
 import { createAiAnalysisRouter } from "./routes/aiAnalysis.js";
+import {
+  createDailyAnalysisRouter,
+  DAILY_ANALYSIS_LOCK_SECONDS,
+  dailyAnalysisLockKey,
+} from "./routes/dailyAnalysis.js";
+import {
+  claimDailyAnalysis,
+  DAILY_ANALYSIS_QUESTION_COUNT,
+  DailyAnalysisReport,
+  getCooldownEnd,
+  getDailyAnalysisStatus,
+  pushDailyAnalysisReady,
+  releaseDailyAnalysis,
+  saveDailyAnalysisGame,
+  writeDailyAnalysis,
+} from "./services/dailyAnalysis.js";
+import { isLang } from "./languages.js";
 import { createContentRouter } from "./routes/content.js";
 import { logger } from "./utils/logger.js";
 import { createNotificationsRouter } from "./routes/notifications.js";
@@ -204,6 +223,13 @@ app.use(
 
 if (supabaseAdmin) {
   app.use("/api/identity", createIdentityRouter(supabaseAdmin));
+  app.use(
+    "/api/daily-analysis",
+    createDailyAnalysisRouter(supabaseAdmin, {
+      onReady: (id, appUserIds, report) =>
+        emitDailyAnalysisUpdate([], appUserIds, { id, status: "ready", report }),
+    }),
+  );
   app.use(
     "/api",
     createContentRouter(supabaseAdmin, {
@@ -426,6 +452,10 @@ const supportsRankIt = (clientFeatures: unknown): boolean =>
   Array.isArray(clientFeatures) &&
   clientFeatures.includes(CLIENT_FEATURE_RANK_IT);
 
+const supportsDailyAnalysis = (clientFeatures: unknown): boolean =>
+  Array.isArray(clientFeatures) &&
+  clientFeatures.includes(CLIENT_FEATURE_DAILY_ANALYSIS);
+
 type AppSocket = Socket<ClientToServerEvents, ServerToClientEvents, {}, SocketData>;
 
 // register-user checks the token asynchronously; coin events wait for it.
@@ -575,6 +605,71 @@ async function refundGameStart(roomCode: string): Promise<void> {
   );
 }
 
+type DailyAnalysisStart = {
+  id: string;
+  roomCode: string;
+  topic: DailyTopic;
+  players: { socketId: string; appUserId: string | null }[];
+};
+
+// room code -> the daily analysis the game in progress was started for.
+const dailyAnalysisStarts = new Map<string, DailyAnalysisStart>();
+
+/**
+ * For a game that won't finish. A daily analysis gives its players their day
+ * back and the host their coins; other games are only refunded when asked.
+ */
+async function endUnfinishedGame(roomCode: string, refund: boolean): Promise<void> {
+  const daily = dailyAnalysisStarts.get(roomCode);
+  dailyAnalysisStarts.delete(roomCode);
+  if (daily && supabaseAdmin) await releaseDailyAnalysis(supabaseAdmin, daily.id);
+  if (refund || daily) await refundGameStart(roomCode);
+  else gameStartCharges.delete(roomCode);
+}
+
+type DailyAnalysisUpdate =
+  | { id: string; status: "ready"; report: DailyAnalysisReport }
+  | { id: string; status: "failed" };
+
+/** To the game's sockets and to wherever its players are connected now. */
+function emitDailyAnalysisUpdate(
+  socketIds: string[],
+  appUserIds: string[],
+  update: DailyAnalysisUpdate,
+): void {
+  const targets = new Set(socketIds);
+  for (const appUserId of appUserIds) {
+    const socketId = userSockets.get(appUserId);
+    if (socketId) targets.add(socketId);
+  }
+  for (const target of targets) io.to(target).emit("daily-analysis-update", update);
+}
+
+/** Writes the report of a finished daily analysis game and delivers it. */
+async function deliverDailyAnalysis(daily: DailyAnalysisStart): Promise<void> {
+  if (!supabaseAdmin) return;
+  const socketIds = daily.players.map((p) => p.socketId);
+  const appUserIds = daily.players
+    .map((p) => p.appUserId)
+    .filter((id): id is string => !!id);
+  const lockKey = dailyAnalysisLockKey(daily.id);
+  if (!(await acquireLock(lockKey, DAILY_ANALYSIS_LOCK_SECONDS))) return;
+  try {
+    const { report } = await writeDailyAnalysis(supabaseAdmin, daily.id);
+    emitDailyAnalysisUpdate(socketIds, appUserIds, { id: daily.id, status: "ready", report });
+    // Players still on the results screen see it there; the others get a push.
+    const away = appUserIds.filter(
+      (id) => !findSocketByUserId(id, io, userSockets)?.rooms.has(daily.roomCode),
+    );
+    if (away.length) await pushDailyAnalysisReady(supabaseAdmin, away, daily.id);
+  } catch (error) {
+    console.error(`❌ Daily analysis ${daily.id} failed:`, error);
+    emitDailyAnalysisUpdate(socketIds, appUserIds, { id: daily.id, status: "failed" });
+  } finally {
+    await releaseLock(lockKey);
+  }
+}
+
 type EarlyTextMatch = { answers: [string, string]; matched: boolean };
 
 const isSameRound = (
@@ -657,7 +752,7 @@ async function cancelStuckRound(
       return roomManager.resetRoom(roomCode);
     });
     if (reset === undefined) return;
-    await refundGameStart(roomCode);
+    await endUnfinishedGame(roomCode, true);
     io.to(roomCode).emit("game-cancelled", {
       message: "An error occurred while processing answers. The game will be reset.",
       code: "SERVER_ERROR",
@@ -726,7 +821,7 @@ async function completeRound(
       roomManager.resetRoom(roomCode),
     );
     clearRoundTimer(roomCode);
-    await refundGameStart(roomCode);
+    await endUnfinishedGame(roomCode, true);
     io.to(roomCode).emit("game-cancelled", {
       message: "An error occurred while processing answers. The game will be reset.",
       code: "SERVER_ERROR",
@@ -904,7 +999,7 @@ async function advanceRound(
   if (!outcome) return;
 
   if (outcome.kind === "cancelled") {
-    gameStartCharges.delete(roomCode);
+    await endUnfinishedGame(roomCode, false);
     io.to(roomCode).emit("game-cancelled", {
       message: GAME_CANCELLED_MESSAGE,
       code: "PLAYER_LEFT",
@@ -957,10 +1052,37 @@ async function finishGame(roomCode: string): Promise<void> {
       ? await roomManager.resetRoom(roomCode)
       : null;
   });
+
+  const daily = game ? dailyAnalysisStarts.get(roomCode) : undefined;
+  let dailyAnalysis: { id: string; status: "analyzing"; topic: DailyTopic } | undefined;
+  if (game && daily) {
+    dailyAnalysisStarts.delete(roomCode);
+    const players = game.players.map((player, index) => ({
+      appUserId: daily.players.find((p) => p.socketId === player.id)?.appUserId ?? null,
+      name: player.name,
+      avatar: player.avatar,
+      isHost: index === 0,
+    }));
+    const saved =
+      !!supabaseAdmin &&
+      (await saveDailyAnalysisGame(supabaseAdmin, daily.id, game, players).then(
+        () => true,
+        (error) => {
+          console.error(`❌ Couldn't save daily analysis game ${daily.id}:`, error);
+          return false;
+        },
+      ));
+    if (saved) {
+      dailyAnalysis = { id: daily.id, status: "analyzing", topic: daily.topic };
+    } else {
+      if (supabaseAdmin) await releaseDailyAnalysis(supabaseAdmin, daily.id);
+      await refundGameStart(roomCode);
+    }
+  }
   if (game && reset) gameStartCharges.delete(roomCode);
 
   if (!game) {
-    if (reset) await refundGameStart(roomCode);
+    if (reset) await endUnfinishedGame(roomCode, true);
     io.to(roomCode).emit("game-cancelled", {
       message: "We couldn't load the results of this game. Please play again.",
       code: "SERVER_ERROR",
@@ -978,7 +1100,13 @@ async function finishGame(roomCode: string): Promise<void> {
     completedRounds: game.completedRounds,
     summary: game.summary,
     room: reset,
+    ...(dailyAnalysis && { dailyAnalysis }),
   });
+  if (dailyAnalysis && daily) {
+    deliverDailyAnalysis(daily).catch((error) =>
+      console.error(`❌ Daily analysis ${daily.id} delivery failed:`, error),
+    );
+  }
 }
 
 type ReportTarget = {
@@ -1048,7 +1176,7 @@ async function removeFromRoom(
   });
   if (result.cancelled) clearRoundTimer(roomCode);
   if (result.cancelled || !result.room?.players.length) {
-    gameStartCharges.delete(roomCode);
+    await endUnfinishedGame(roomCode, false);
   }
   return result;
 }
@@ -1273,6 +1401,7 @@ io.on(
             await getCategoryMode(category, supabaseAdmin),
             supportsReactions(clientFeatures),
             supportsRankIt(clientFeatures),
+            supportsDailyAnalysis(clientFeatures),
           );
           socket.join(room.roomCode);
 
@@ -1329,6 +1458,7 @@ io.on(
               supportsWhoIsMoreLikely(clientFeatures),
               supportsReactions(clientFeatures),
               supportsRankIt(clientFeatures),
+              supportsDailyAnalysis(clientFeatures),
             ),
           );
 
@@ -1393,13 +1523,16 @@ io.on(
     });
 
     // 4. Start Game
-    socket.on("start-game", async ({ roomCode, appUserId }) => {
+    socket.on("start-game", async ({ roomCode, appUserId, language }) => {
       // One start at a time, so a double tap can't charge the host twice.
       const startLockKey = `lock:start:${roomCode}`;
       if (!(await acquireLock(startLockKey, 20))) return;
 
       // Coins taken for this start; given back unless the game actually starts.
       let pendingCharge: { appUserId: string; amount: number } | null = null;
+      // Likewise the players' day taken by a daily analysis.
+      let pendingDailyClaim: string | null = null;
+      let dailyLockKey: string | null = null;
       try {
         const room = await roomManager.getRoom(roomCode);
 
@@ -1468,6 +1601,7 @@ io.on(
           );
           const moreLikely = categoryMode === "who_is_more_likely";
           const rankIt = categoryMode === "rank_it";
+          const daily = categoryMode === "daily_analysis";
 
           // Older builds would show these questions as yes/no or multiple choice.
           const supportsMode = (p: Player) =>
@@ -1475,7 +1609,9 @@ io.on(
               ? p.supportsWhoIsMoreLikely === true
               : rankIt
                 ? p.supportsRankIt === true
-                : true;
+                : daily
+                  ? p.supportsDailyAnalysis === true
+                  : true;
           if (!room.players.every(supportsMode)) {
             socket.emit("room-error", {
               message:
@@ -1487,9 +1623,75 @@ io.on(
             return;
           }
 
+          // A daily analysis is played on the host's next topic and takes the
+          // day of every player in it, so nobody in the room may have used theirs.
+          let dailyTopic: DailyTopic | null = null;
+          let dailyPlayers: DailyAnalysisStart["players"] = [];
+          let dailyHost: string | null = null;
+          if (daily) {
+            dailyHost = await resolveAppUserId(socket, appUserId);
+            if (!dailyHost) {
+              socket.emit("room-error", {
+                message: "We couldn't check your coins. Please restart the app and try again.",
+                code: "COINS_UNAVAILABLE",
+              });
+              return;
+            }
+            const lockKey = `lock:daily-start:${dailyHost}`;
+            if (!(await acquireLock(lockKey, 20))) {
+              socket.emit("room-error", {
+                message: "Your daily analysis is already starting in another room.",
+                code: "REQUEST_FAILED",
+              });
+              return;
+            }
+            dailyLockKey = lockKey;
+            const host = dailyHost;
+            dailyPlayers = room.players.map((p) => ({
+              socketId: p.id,
+              appUserId:
+                p.id === socket.id
+                  ? host
+                  : io.sockets.sockets.get(p.id)?.data.appUserId ?? null,
+            }));
+            const status = await getDailyAnalysisStatus(supabaseAdmin, host);
+            if (status.availableAt) {
+              socket.emit("room-error", {
+                message: "Your next daily analysis isn't ready yet.",
+                code: "DAILY_ANALYSIS_COOLDOWN",
+                availableAt: status.availableAt,
+              });
+              return;
+            }
+            for (const p of dailyPlayers) {
+              if (!p.appUserId || p.appUserId === host) continue;
+              const end = await getCooldownEnd(supabaseAdmin, p.appUserId);
+              if (end) {
+                socket.emit("room-error", {
+                  message: "Your partner already had today's analysis.",
+                  code: "DAILY_ANALYSIS_PARTNER_COOLDOWN",
+                  availableAt: new Date(end).toISOString(),
+                });
+                return;
+              }
+            }
+            dailyTopic = status.next;
+            if (!dailyTopic) {
+              socket.emit("room-error", {
+                message: "Failed to load questions. Please try again.",
+                code: "QUESTIONS_UNAVAILABLE",
+              });
+              return;
+            }
+          }
+
           const questions = await fetchRandomQuestions(
-            room.settings.category,
-            rankIt ? RANK_IT_QUESTION_COUNT : room.settings.totalQuestions,
+            dailyTopic ? dailyTopic.id : room.settings.category,
+            rankIt
+              ? RANK_IT_QUESTION_COUNT
+              : dailyTopic
+                ? DAILY_ANALYSIS_QUESTION_COUNT
+                : room.settings.totalQuestions,
             supabaseAdmin,
             {
               // Votes and rankings are picked, never typed.
@@ -1572,6 +1774,17 @@ io.on(
             }
           }
 
+          if (dailyTopic && dailyHost) {
+            pendingDailyClaim = await claimDailyAnalysis(supabaseAdmin, {
+              hostAppUserId: dailyHost,
+              participantIds: dailyPlayers
+                .map((p) => p.appUserId)
+                .filter((id): id is string => !!id),
+              topic: dailyTopic,
+              language: isLang(language) ? language : "en",
+            });
+          }
+
           // A category whose questions carry answer keys plays as who_knows_better.
           const mode = questions.some((q) => q.isTrivia)
             ? "who_knows_better"
@@ -1590,6 +1803,8 @@ io.on(
             latest.questions = questions;
             latest.status = "playing";
             latest.settings.mode = mode;
+            if (dailyTopic) latest.settings.dailyTopic = dailyTopic;
+            else delete latest.settings.dailyTopic;
             latest.currentQuestionIndex = 0;
             latest.completedRounds = [];
             latest.matchScore = 0;
@@ -1612,6 +1827,17 @@ io.on(
           if (pendingCharge) gameStartCharges.set(roomCode, pendingCharge);
           else gameStartCharges.delete(roomCode);
           pendingCharge = null;
+          if (pendingDailyClaim && dailyTopic) {
+            dailyAnalysisStarts.set(roomCode, {
+              id: pendingDailyClaim,
+              roomCode,
+              topic: dailyTopic,
+              players: dailyPlayers,
+            });
+          } else {
+            dailyAnalysisStarts.delete(roomCode);
+          }
+          pendingDailyClaim = null;
 
           io.to(roomCode).emit("game-started", {
             room: started.room,
@@ -1656,6 +1882,10 @@ io.on(
             );
           }
         }
+        if (pendingDailyClaim && supabaseAdmin) {
+          await releaseDailyAnalysis(supabaseAdmin, pendingDailyClaim);
+        }
+        if (dailyLockKey) await releaseLock(dailyLockKey);
         await releaseLock(startLockKey);
       }
     });

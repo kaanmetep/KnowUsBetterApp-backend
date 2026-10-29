@@ -23,18 +23,16 @@ import {
   saveSharedAnalysis,
 } from "../services/sharedAnalysis.js";
 import {
-  HIDDEN_TEXT_ANSWER,
-  TEXT_ANSWER_MAX_LENGTH,
-} from "../utils/helpers.js";
+  LANGUAGE_MAP,
+  type PromptRound,
+  isOpenRound,
+  isTypedRound,
+  resolveAnswer,
+  resolveOpenAnswer,
+  resolveQuestionText,
+} from "../utils/analysisText.js";
 import { acquireLock, redis, releaseLock } from "../utils/redis.js";
-import {
-  LANGS,
-  LANGUAGE_NAMES,
-  isLang,
-  type Lang,
-  type QuestionTexts,
-} from "../languages.js";
-import type { MultiLanguageAnswer } from "../types.js";
+import { LANGS, isLang, type Lang } from "../languages.js";
 import {
   DEFAULT_MATCH_WEIGHT,
   MAX_MATCH_WEIGHT,
@@ -69,21 +67,7 @@ const ANALYSIS_LOCK_SECONDS = 120;
 // ============================================
 // TYPES
 // ============================================
-interface PlayerAnswer {
-  playerName: string;
-  answer: string | MultiLanguageAnswer;
-}
-
-interface CompletedRound {
-  question: Partial<QuestionTexts> & {
-    text_en: string;
-    questionType?: "choice" | "text";
-    matchWeight?: number;
-  };
-  isMatched: boolean;
-  isScored?: boolean;
-  playerAnswers: PlayerAnswer[];
-}
+type CompletedRound = PromptRound;
 
 interface AIAnalysisRequest {
   completedRounds: CompletedRound[];
@@ -100,76 +84,6 @@ interface AIAnalysisRequest {
 // HELPERS
 // ============================================
 
-const LANGUAGE_MAP: Record<string, string> = LANGUAGE_NAMES;
-
-const YES_NO_MAP: Record<Lang, Record<string, string>> = {
-  tr: { yes: "Evet", no: "Hayır" },
-  en: { yes: "Yes", no: "No" },
-  es: { yes: "Sí", no: "No" },
-  pt: { yes: "Sim", no: "Não" },
-};
-
-/**
- * Resolve question text based on language
- */
-function resolveQuestionText(
-  question: CompletedRound["question"],
-  language: string,
-): string {
-  const key = `text_${language}` as keyof QuestionTexts;
-  return question[key] || question.text_en || "";
-}
-
-/**
- * Resolve answer based on language
- * - If answer is a string (yes/no), translate it
- * - If answer is an object { en, tr, ... }, pick the right language
- */
-function resolveAnswer(
-  answer: string | MultiLanguageAnswer,
-  language: string,
-): string {
-  if (answer === null || answer === undefined) return "";
-  if (typeof answer === "object") {
-    const langKey = language as keyof typeof answer;
-    return answer[langKey] || answer.en || "";
-  }
-
-  // String answer - check if it's yes/no
-  const lowerAnswer = answer.toLowerCase();
-  const translations = isLang(language) ? YES_NO_MAP[language] : YES_NO_MAP.en;
-
-  if (lowerAnswer === "yes" || lowerAnswer === "no") {
-    return translations[lowerAnswer] || answer;
-  }
-
-  return answer;
-}
-
-const OPEN_ANSWER_MAX_LENGTH = TEXT_ANSWER_MAX_LENGTH;
-
-const NO_ANSWER_MAP: Record<string, string> = {
-  tr: "(boş bıraktı)",
-  en: "(left blank)",
-  es: "(lo dejó en blanco)",
-  pt: "(deixou em branco)",
-};
-
-const HIDDEN_ANSWER_MAP: Record<string, string> = {
-  tr: "(cevap gizlendi)",
-  en: "(answer hidden)",
-  es: "(respuesta oculta)",
-  pt: "(resposta oculta)",
-};
-
-function isOpenRound(round: CompletedRound): boolean {
-  return round.isScored === false;
-}
-
-function isTypedRound(round: CompletedRound): boolean {
-  return round.question?.questionType === "text";
-}
-
 /** The round's see_your_match weight, or null when the game wasn't weighted. */
 function weightOf(round: CompletedRound): number | null {
   const weight = round.question?.matchWeight;
@@ -179,21 +93,6 @@ function weightOf(round: CompletedRound): number | null {
     weight <= MAX_MATCH_WEIGHT
     ? weight
     : null;
-}
-
-/** Typed answers are user input: kept on one line, capped and quoted. */
-function resolveOpenAnswer(answer: unknown, language: string): string {
-  if (answer === HIDDEN_TEXT_ANSWER) {
-    return HIDDEN_ANSWER_MAP[language] || HIDDEN_ANSWER_MAP.en;
-  }
-  const text =
-    typeof answer === "string"
-      ? Array.from(answer.replace(/\s+/g, " ").trim())
-          .slice(0, OPEN_ANSWER_MAX_LENGTH)
-          .join("")
-          .replace(/"/g, "'")
-      : "";
-  return text ? `"${text}"` : NO_ANSWER_MAP[language] || NO_ANSWER_MAP.en;
 }
 
 /**
@@ -564,7 +463,8 @@ export function createAiAnalysisRouter({
       if (
         game.mode === "who_knows_better" ||
         game.mode === "who_is_more_likely" ||
-        game.mode === "rank_it"
+        game.mode === "rank_it" ||
+        game.mode === "daily_analysis"
       ) {
         res.status(400).json({
           error: "AI analysis isn't available for this game.",
@@ -672,7 +572,8 @@ export function createAiAnalysisRouter({
       if (
         game.mode === "who_knows_better" ||
         game.mode === "who_is_more_likely" ||
-        game.mode === "rank_it"
+        game.mode === "rank_it" ||
+        game.mode === "daily_analysis"
       ) {
         res.status(400).json({
           error: "AI analysis isn't available for this game.",

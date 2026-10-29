@@ -9,6 +9,7 @@ const GAME_MODES: readonly GameMode[] = [
   "who_knows_better",
   "who_is_more_likely",
   "rank_it",
+  "daily_analysis",
 ];
 
 export type CategoryDifficulty = "hard" | "intimacy";

@@ -12,11 +12,13 @@ import {
   Room,
   RoomErrorCode,
   RoomSettings,
+  DailyTopic,
 } from "../types.js";
 import { LANGS, type Lang } from "../languages.js";
 import { maskProfanity } from "./profanity.js";
 import type { GameSummary } from "../services/finishedGames.js";
 import type { AiAnalysisUpdate } from "../services/sharedAnalysis.js";
+import type { DailyAnalysisReport } from "../services/dailyAnalysis.js";
 import type { ReactionAnimation } from "../services/reactionService.js";
 
 // Socket.io Event Types (needed for helper functions)
@@ -43,6 +45,8 @@ export interface ServerToClientEvents {
     code: RoomErrorCode;
     required?: number;
     balance?: number;
+    /** DAILY_ANALYSIS_COOLDOWN / _PARTNER_COOLDOWN: when it opens again (ISO). */
+    availableAt?: string;
   }) => void;
   "critical-error": (data: { message: string; code?: string }) => void;
   "room-left": () => void;
@@ -89,6 +93,12 @@ export interface ServerToClientEvents {
     summary: GameSummary;
     /** The room, already reset for a replay. */
     room: Room | null;
+    /** daily_analysis only: the report being written for this game. */
+    dailyAnalysis?: {
+      id: string;
+      status: "analyzing";
+      topic: DailyTopic;
+    };
   }) => void;
   "next-question": (data: {
     question: any;
@@ -133,6 +143,12 @@ export interface ServerToClientEvents {
   "category-changed": (data: { room: any }) => void;
   /** The shared AI analysis of a finished game started, finished or failed. */
   "ai-analysis-update": (data: AiAnalysisUpdate) => void;
+  /** The report of a daily_analysis game was written (or couldn't be). */
+  "daily-analysis-update": (
+    data:
+      | { id: string; status: "ready"; report: DailyAnalysisReport }
+      | { id: string; status: "failed" },
+  ) => void;
   /** Payload-free broadcast that gives the app a recent recovery offset. */
   "connection-sync": () => void;
   /** The partner sent a reaction; carries everything needed to play it. */
@@ -175,8 +191,11 @@ export interface ClientToServerEvents {
   "join-room": (data: JoinRoomData) => void;
   "get-room": (data: GetRoomData) => void;
   "leave-room": (data: { roomCode: string }) => void;
-  /** `appUserId` pays for the category when the socket isn't registered yet. */
-  "start-game": (data: { roomCode: string; appUserId?: string }) => void;
+  /**
+   * `appUserId` pays for the category when the socket isn't registered yet.
+   * `language` is the host's, for the daily analysis report.
+   */
+  "start-game": (data: { roomCode: string; appUserId?: string; language?: string }) => void;
   "submit-answer": (data: SubmitAnswerData) => void;
   "kick-player": (data: { roomCode: string; targetPlayerId: string }) => void;
   "register-user": (

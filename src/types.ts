@@ -19,13 +19,16 @@ export const CLIENT_FEATURE_WHO_IS_MORE_LIKELY = "who_is_more_likely";
 export const CLIENT_FEATURE_REACTIONS = "reactions";
 // Builds that can show the rank_it drag-to-order list; older ones would show multiple choice.
 export const CLIENT_FEATURE_RANK_IT = "rank_it";
+// Builds that show the daily analysis report at the end of the game.
+export const CLIENT_FEATURE_DAILY_ANALYSIS = "daily_analysis";
 
 export type GameMode =
   | "see_your_match"
   | "know_each_other"
   | "who_knows_better"
   | "who_is_more_likely"
-  | "rank_it";
+  | "rank_it"
+  | "daily_analysis";
 
 /** Weight of a see_your_match question with no `match_weight` set (range 1-10). */
 export const DEFAULT_MATCH_WEIGHT = 5;
@@ -86,6 +89,14 @@ export interface Player {
   supportsWhoIsMoreLikely?: boolean;
   supportsReactions?: boolean;
   supportsRankIt?: boolean;
+  supportsDailyAnalysis?: boolean;
+}
+
+/** The topic a daily_analysis game is played on, decided when it starts. */
+export interface DailyTopic {
+  id: string;
+  labels: Record<string, string>;
+  chapter: number;
 }
 
 export interface RoomSettings {
@@ -98,6 +109,8 @@ export interface RoomSettings {
   textResultDisplayDuration?: number;
   /** Set from the category; missing on rooms stored before it existed. */
   mode?: GameMode;
+  /** daily_analysis only, set when the game starts. */
+  dailyTopic?: DailyTopic;
 }
 
 export interface Room {
@@ -139,6 +152,8 @@ export type RoomErrorCode =
   | "INSUFFICIENT_COINS"
   | "COINS_UNAVAILABLE"
   | "USER_BANNED"
+  | "DAILY_ANALYSIS_COOLDOWN"
+  | "DAILY_ANALYSIS_PARTNER_COOLDOWN"
   | "REQUEST_FAILED";
 
 export interface JoinRoomError {
