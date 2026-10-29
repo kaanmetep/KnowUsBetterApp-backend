@@ -11,7 +11,18 @@ import {
 
 interface PushTokenRow {
   token: string;
+  app_user_id: string;
 }
+
+export interface PushTarget {
+  token: string;
+  appUserId: string;
+}
+
+const toTarget = (row: PushTokenRow): PushTarget => ({
+  token: row.token,
+  appUserId: row.app_user_id,
+});
 
 export function isPushLanguage(value: unknown): value is PushLanguage {
   return typeof value === "string" && (PUSH_LANGUAGES as readonly string[]).includes(value);
@@ -35,7 +46,7 @@ export function validateRegisterTokenInput(input: RegisterTokenInput): void {
   }
 
   if (input.language !== undefined && !isPushLanguage(input.language)) {
-    throw new AppError("language must be en, tr or es", 400, "VALIDATION_ERROR");
+    throw new AppError(`language must be one of: ${PUSH_LANGUAGES.join(", ")}`, 400, "VALIDATION_ERROR");
   }
 }
 
@@ -82,13 +93,13 @@ export async function getActiveIosTokensPage(
   filter: TokenFilter,
   page: number,
   pageSize: number,
-): Promise<string[]> {
+): Promise<PushTarget[]> {
   const from = page * pageSize;
   const to = from + pageSize - 1;
 
   let query = supabaseAdmin
     .from("push_tokens")
-    .select("token")
+    .select("token, app_user_id")
     .eq("platform", "ios")
     .eq("is_active", true)
     .eq("language", filter.language);
@@ -106,7 +117,7 @@ export async function getActiveIosTokensPage(
     });
   }
 
-  return ((data as PushTokenRow[] | null) ?? []).map((row) => row.token);
+  return ((data as PushTokenRow[] | null) ?? []).map(toTarget);
 }
 
 /**
@@ -114,7 +125,7 @@ export async function getActiveIosTokensPage(
  * Supabase client; the admin panel uses DATABASE_URL like its other tools.
  */
 export interface PushTokenStore {
-  getActiveIosTokensPage(filter: TokenFilter, page: number, pageSize: number): Promise<string[]>;
+  getActiveIosTokensPage(filter: TokenFilter, page: number, pageSize: number): Promise<PushTarget[]>;
   deactivateTokens(tokens: string[]): Promise<number>;
   countActiveIosTokensByLanguage(): Promise<Record<PushLanguage, number>>;
 }
@@ -145,13 +156,13 @@ export function pgTokenStore(pool: pg.Pool): PushTokenStore {
       }
       try {
         const { rows } = await pool.query<PushTokenRow>(
-          `SELECT token FROM push_tokens
+          `SELECT token, app_user_id FROM push_tokens
             WHERE platform = 'ios' AND is_active AND language = $1 ${userClause}
             ORDER BY created_at, id
             LIMIT $2 OFFSET $3`,
           params,
         );
-        return rows.map((row) => row.token);
+        return rows.map(toTarget);
       } catch (error) {
         throw dbError("Failed to fetch active tokens", error);
       }

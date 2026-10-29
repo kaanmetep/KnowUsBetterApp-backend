@@ -10,7 +10,7 @@ type Call = { fn: string; args: Record<string, unknown> };
 const row = (n: number) => ({
   id: `q${n}`,
   category_id: "long_term",
-  texts: { text_en: `Q${n}`, text_tr: `S${n}`, text_es: `P${n}` },
+  texts: { text_en: `Q${n}`, text_tr: `S${n}`, text_es: `P${n}`, text_pt: `P${n}` },
   have_answers: false,
   answers: null,
   question_type: "choice",

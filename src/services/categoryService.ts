@@ -9,6 +9,7 @@ const GAME_MODES: readonly GameMode[] = [
   "who_knows_better",
   "who_is_more_likely",
   "rank_it",
+  "daily_analysis",
 ];
 
 export type CategoryDifficulty = "hard" | "intimacy";
@@ -122,18 +123,6 @@ export async function getCategory(
   if (!supabaseAdmin || !categoryId) return null;
   const { categories } = await getCategoryCatalog(supabaseAdmin);
   return categories.find((category) => category.id === categoryId) ?? null;
-}
-
-export async function isCategoryComingSoon(
-  categoryId: string,
-  supabaseAdmin: SupabaseClient | null,
-): Promise<boolean> {
-  try {
-    return (await getCategory(categoryId, supabaseAdmin))?.comingSoon ?? false;
-  } catch (error) {
-    console.warn("⚠️ Could not resolve category availability:", error);
-    return false;
-  }
 }
 
 /** A category's group is its game mode. */

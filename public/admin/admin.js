@@ -3,7 +3,7 @@
 
   const { startRegistration, startAuthentication } = window.SimpleWebAuthnBrowser;
   const $ = (id) => document.getElementById(id);
-  const LANGS = ["en", "tr", "es"];
+  const LANGS = ["en", "tr", "es", "pt"];
 
   const state = {
     categories: [],
@@ -15,6 +15,9 @@
     localBypass: false,
     pinnedToggles: null,
     pushAudience: null,
+    pushUsers: null,
+    announcements: [],
+    editingAnnouncementId: null,
   };
 
   // ---------- helpers ----------
@@ -184,7 +187,7 @@
     document.querySelectorAll(".tab").forEach((tab) => {
       tab.classList.toggle("active", tab.dataset.tab === name);
     });
-    for (const key of ["list", "form", "sql", "push"]) {
+    for (const key of ["list", "form", "sql", "announcements", "push"]) {
       $(`tab-${key}`).classList.toggle("hidden", key !== name);
     }
     window.scrollTo({ top: 0 });
@@ -194,6 +197,9 @@
     tab.addEventListener("click", () => {
       if (tab.dataset.tab === "form" && state.editingId === null) resetForm();
       if (tab.dataset.tab === "push") loadPushAudience().catch((err) => toast(err.message, true));
+      if (tab.dataset.tab === "announcements") {
+        loadAnnouncements().catch((err) => toast(err.message, true));
+      }
       switchTab(tab.dataset.tab);
     });
   });
@@ -396,7 +402,11 @@
         Array.from({ length: count }, (_, i) =>
           el("div", { class: "answer" }, [
             q.answers.answers_en?.[i] || "",
-            el("span", { text: ` · ${q.answers.answers_tr?.[i] || ""} · ${q.answers.answers_es?.[i] || ""}` }),
+            el("span", {
+              text: LANGS.slice(1)
+                .map((lang) => ` · ${q.answers[`answers_${lang}`]?.[i] || ""}`)
+                .join(""),
+            }),
           ]),
         ),
       );
@@ -502,13 +512,16 @@
 
   // ---------- form ----------
 
-  // Pasted text is read line by line in the fixed LANGS order (EN, TR, ES).
+  // Pasted text is read line by line in the fixed LANGS order (EN, TR, ES, PT).
   // Blank lines are ignored so the input can be spaced out freely.
   const LANG_META = {
     en: { flag: "🇬🇧", code: "EN" },
     tr: { flag: "🇹🇷", code: "TR" },
     es: { flag: "🇪🇸", code: "ES" },
+    pt: { flag: "🇧🇷", code: "PT" },
   };
+  // "🇬🇧 EN → 🇹🇷 TR → ..." for form labels.
+  const LANG_ORDER = LANGS.map((lang) => `${LANG_META[lang].flag} ${LANG_META[lang].code}`).join(" → ");
   const MIN_ANSWERS = 2;
   // Rank It questions are always multiple choice with this many options; the
   // game skips the others.
@@ -526,7 +539,7 @@
   const LIST_MARKER = /^(?:\d{1,2}[.)]|[-*•])\s+/;
   const FLAGS = /^(?:\p{Regional_Indicator}{2}\s*)+/u;
   const LANG_LABEL =
-    /^(?:en|eng|english|ingilizce|İngilizce|tr|turkish|türkçe|turkce|es|spanish|español|espanol|ispanyolca|İspanyolca)\s*[:\-–—]\s+/iu;
+    /^(?:en|eng|english|ingilizce|İngilizce|tr|turkish|türkçe|turkce|es|spanish|español|espanol|ispanyolca|İspanyolca|pt|pt-br|portuguese|português|portugues|portekizce)\s*[:\-–—]\s+/iu;
   const WRAPPING_QUOTES = /^["“«]([^"“”«»]*)["”»]$/;
 
   function cleanLine(raw) {
@@ -653,7 +666,7 @@
 
   // ---------- trivia correct answer ----------
   // Yes/no and multiple choice pick from a list; typed answers take one line
-  // per language (EN, TR, ES), with alternatives separated by "|".
+  // per language (EN, TR, ES, PT), with alternatives separated by "|".
 
   const ALT_SEPARATOR = "|";
 
@@ -674,7 +687,7 @@
     textarea.classList.toggle("hidden", mode !== "text");
     $("f-correct-label").textContent =
       mode === "text"
-        ? `Kabul edilen cevaplar · 3 satır: 🇬🇧 EN → 🇹🇷 TR → 🇪🇸 ES · alternatifleri "${ALT_SEPARATOR}" ile ayır`
+        ? `Kabul edilen cevaplar · ${LANGS.length} satır: ${LANG_ORDER} · alternatifleri "${ALT_SEPARATOR}" ile ayır`
         : "Doğru cevap";
     if (mode === "text") return;
 
@@ -686,7 +699,7 @@
           ]
         : parseAnswers($("f-answers").value).groups
             .filter((g) => g.en)
-            .map((g) => ({ value: g.en, label: `${g.en} · ${g.tr} · ${g.es}` }));
+            .map((g) => ({ value: g.en, label: LANGS.map((lang) => g[lang]).join(" · ") }));
     const wanted = state.pendingCorrect ?? select.value;
     select.replaceChildren(
       el("option", { value: "", text: "— seç —" }),
@@ -718,8 +731,8 @@
     $("trivia-row").classList.toggle("hidden", rank);
     $("rank-note").classList.toggle("hidden", !rank);
     $("f-answers-label").textContent = rank
-      ? "Seçenekler · 3-5 tane · her biri 3 satır: 🇬🇧 EN → 🇹🇷 TR → 🇪🇸 ES"
-      : "Cevaplar · her cevap için 3 satır: 🇬🇧 EN → 🇹🇷 TR → 🇪🇸 ES";
+      ? `Seçenekler · 3-5 tane · her biri ${LANGS.length} satır: ${LANG_ORDER}`
+      : `Cevaplar · her cevap için ${LANGS.length} satır: ${LANG_ORDER}`;
     $("f-trivia").checked = !rank && (on || locked);
     $("f-trivia").disabled = rank || locked;
     renderAnswersPreview();
@@ -764,7 +777,10 @@
 
   function correctAnswerText(raw) {
     if (raw == null) return "";
-    const lists = Array.isArray(raw) || typeof raw === "string" ? { en: raw, tr: raw, es: raw } : raw;
+    const lists =
+      Array.isArray(raw) || typeof raw === "string"
+        ? Object.fromEntries(LANGS.map((lang) => [lang, raw]))
+        : raw;
     return LANGS.map((lang) => [].concat(lists[lang] ?? []).join(` ${ALT_SEPARATOR} `)).join("\n");
   }
 
@@ -919,11 +935,11 @@
 VALUES (
   gen_random_uuid(),
   'spicy',
-  '{"text_en": "...", "text_tr": "...", "text_es": "..."}'::jsonb,
+  '{"text_en": "...", "text_tr": "...", "text_es": "...", "text_pt": "..."}'::jsonb,
   'choice', -- 'text' = yazılı cevap (have_answers false, answers NULL olmalı)
   false,
   NULL,
-  NULL, -- bilgi yarışması: '"yes"' / '"Canberra"' (answers_en'deki hali) / '{"en":["Mars"],"tr":["Mars"],"es":["Marte"]}'
+  NULL, -- bilgi yarışması: '"yes"' / '"Canberra"' (answers_en'deki hali) / '{"en":["Mars"],"tr":["Mars"],"es":["Marte"],"pt":["Marte"]}'
   NULL, -- eşleşme ağırlığı 1-10 (sadece match kategorileri, NULL = 5)
   (SELECT COALESCE(MAX(order_index), 0) + 1 FROM questions WHERE category_id = 'spicy'),
   now(),
@@ -1075,8 +1091,9 @@ RETURNING id, category_id, texts;`;
   }
 
   async function loadPushAudience() {
-    const { byLanguage } = await api("notifications/audience");
+    const { byLanguage, usersByLanguage } = await api("notifications/audience");
     state.pushAudience = byLanguage;
+    state.pushUsers = usersByLanguage || null;
     const total = LANGS.reduce((sum, lang) => sum + (byLanguage[lang] || 0), 0);
     $("push-audience").replaceChildren(
       ...LANGS.map((lang) =>
@@ -1124,13 +1141,42 @@ RETURNING id, category_id, texts;`;
     if (skipped.length) {
       lines.push(`${skipped.map((l) => LANG_META[l].code).join(", ")} kullanıcılarına gitmeyecek`);
     }
+    const coins = readPushCoins();
+    if (Number.isNaN(coins)) {
+      lines.push(`🪙 Coin geçersiz (0-${PUSH_MAX_COINS} arası tam sayı)`);
+    } else if (coins) {
+      const users = state.pushUsers
+        ? filled.reduce((sum, lang) => sum + (state.pushUsers[lang] || 0), 0)
+        : null;
+      lines.push(
+        `🪙 Bildirim ulaşan her kullanıcıya ${coins} coin${users == null ? "" : ` · en fazla ~${users} kullanıcı, ~${users * coins} coin`}`,
+      );
+    }
     box.replaceChildren(
       el("div", { class: `banner ${skipped.length ? "warn" : "ok"}`, text: lines.join("\n") }),
     );
   }
 
+  const PUSH_MAX_COINS = 1000;
+
+  // Throws on anything but empty or a whole number in range, so a typo can't
+  // silently send no coins (or the wrong amount).
+  function readPushCoins() {
+    const raw = $("p-coins").value.trim();
+    if (!raw) return 0;
+    const value = Number(raw);
+    return Number.isInteger(value) && value >= 0 && value <= PUSH_MAX_COINS ? value : NaN;
+  }
+
+  function validPushCoins() {
+    const coins = readPushCoins();
+    if (Number.isNaN(coins)) throw new Error(`Coin 0 ile ${PUSH_MAX_COINS} arasında tam sayı olmalı`);
+    return coins;
+  }
+
   $("p-type").addEventListener("change", renderPushType);
   $("p-texts").addEventListener("input", renderPushPreview);
+  $("p-coins").addEventListener("input", renderPushPreview);
   renderPushType();
 
   function collectPush(appUserId) {
@@ -1146,16 +1192,26 @@ RETURNING id, category_id, texts;`;
     const type = $("p-type").value;
     const categoryId = type === "general" ? "" : $("p-category").value;
     if (type === "new_category" && !categoryId) throw new Error("Kategori seçilmedi");
+    const coins = validPushCoins();
 
     return {
       type,
       texts,
+      ...(coins ? { coins } : {}),
       ...(categoryId ? { categoryId } : {}),
       ...(appUserId ? { appUserId } : {}),
     };
   }
 
-  function renderPushResult(summary, target) {
+  function coinRewardLine(reward) {
+    if (!reward) return "";
+    const base = `🪙 ${reward.creditedUsers} kullanıcıya ${reward.amount} coin eklendi`;
+    return reward.failedUsers
+      ? `${base} · ${reward.failedUsers} kullanıcıya EKLENEMEDİ: ${reward.error || "bilinmeyen hata"}`
+      : base;
+  }
+
+  function renderPushResult(summary, target, coinReward) {
     const perLanguage = LANGS.filter((lang) => summary.byLanguage?.[lang])
       .map((lang) => {
         const s = summary.byLanguage[lang];
@@ -1167,16 +1223,18 @@ RETURNING id, category_id, texts;`;
       perLanguage,
       summary.invalidatedTokenCount ? `${summary.invalidatedTokenCount} geçersiz token pasif yapıldı` : "",
       summary.totalTokens === 0 ? "Hiç cihaz bulunamadı (dil veya appUserId eşleşmedi)" : "",
+      coinRewardLine(coinReward),
     ].filter(Boolean);
+    const warn = summary.totalFailure || !summary.totalTokens || coinReward?.failedUsers;
     $("push-results").replaceChildren(
-      el("div", { class: `banner ${summary.totalFailure || !summary.totalTokens ? "warn" : "ok"}`, text: lines.join("\n") }),
+      el("div", { class: `banner ${warn ? "warn" : "ok"}`, text: lines.join("\n") }),
     );
   }
 
   async function sendPush(body, target) {
     try {
-      const { summary } = await api("notifications/send", { method: "POST", body });
-      renderPushResult(summary, target);
+      const { summary, coinReward } = await api("notifications/send", { method: "POST", body });
+      renderPushResult(summary, target, coinReward);
       return summary;
     } catch (err) {
       $("push-results").replaceChildren(el("div", { class: "banner err", text: err.message }));
@@ -1210,8 +1268,11 @@ RETURNING id, category_id, texts;`;
       const summaryText = filled
         .map((lang) => `${LANG_META[lang].code}: ${body.texts[lang].title}`)
         .join("\n");
+      const coinText = body.coins
+        ? `\n\n🪙 Bildirim ulaşan HER kullanıcıya ${body.coins} coin eklenecek.`
+        : "";
       const typed = prompt(
-        `${target} kullanıcılarına ${reach} cihaza bildirim gidecek:\n\n${summaryText}\n\nEmin misin? Göndermek için HERKESE yaz:`,
+        `${target} kullanıcılarına ${reach} cihaza bildirim gidecek:\n\n${summaryText}${coinText}\n\nEmin misin? Göndermek için HERKESE yaz:`,
       );
       if (typed === null) return;
       if (typed.trim().toLocaleUpperCase("tr") !== "HERKESE") {
@@ -1224,6 +1285,237 @@ RETURNING id, category_id, texts;`;
       loadPushAudience().catch(() => {});
     }),
   );
+
+  // ---------- announcements ----------
+  // In-app announcements (bell on the main menu). Title/message are per
+  // language; the app falls back to English, then any filled language.
+
+  const ANN_MAX_TITLE = 120;
+  const ANN_MAX_MESSAGE = 2000;
+
+  $("a-texts").replaceChildren(
+    ...LANGS.map((lang) => {
+      const meta = LANG_META[lang];
+      return el("div", { class: "push-lang" }, [
+        el("div", { class: "push-lang-head" }, [el("span", { text: `${meta.flag} ${meta.code}` })]),
+        el("input", {
+          id: `a-title-${lang}`,
+          type: "text",
+          placeholder: "Başlık",
+          maxlength: String(ANN_MAX_TITLE),
+          autocomplete: "off",
+        }),
+        el("textarea", {
+          id: `a-message-${lang}`,
+          rows: "3",
+          placeholder: "Mesaj (opsiyonel)",
+          maxlength: String(ANN_MAX_MESSAGE),
+        }),
+      ]);
+    }),
+  );
+
+  // datetime-local works in the browser's local time; the API takes ISO (UTC).
+  function toLocalInput(iso) {
+    if (!iso) return "";
+    const date = new Date(iso);
+    const pad = (n) => String(n).padStart(2, "0");
+    return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}T${pad(date.getHours())}:${pad(date.getMinutes())}`;
+  }
+
+  function fromLocalInput(value) {
+    return value ? new Date(value).toISOString() : null;
+  }
+
+  function formatDate(iso) {
+    return new Date(iso).toLocaleString("tr-TR", { dateStyle: "medium", timeStyle: "short" });
+  }
+
+  function announcementStatus(a) {
+    const now = Date.now();
+    if (!a.is_active) return { cls: "off", label: "Pasif" };
+    if (a.end_date && new Date(a.end_date).getTime() < now) return { cls: "off", label: "Süresi doldu" };
+    if (a.start_date && new Date(a.start_date).getTime() > now) {
+      return { cls: "scheduled", label: "Planlandı" };
+    }
+    return { cls: "live", label: "Yayında" };
+  }
+
+  async function loadAnnouncements() {
+    const list = $("announcement-list");
+    if (!state.announcements.length) {
+      list.replaceChildren(el("div", { class: "empty", text: "Yükleniyor…" }));
+    }
+    const { announcements } = await api("announcements");
+    state.announcements = announcements;
+    renderAnnouncements();
+  }
+
+  function renderAnnouncements() {
+    const list = $("announcement-list");
+    if (!state.announcements.length) {
+      list.replaceChildren(el("div", { class: "empty", text: "Henüz duyuru yok" }));
+      return;
+    }
+    list.replaceChildren(...state.announcements.map(renderAnnouncementCard));
+  }
+
+  function renderAnnouncementCard(a) {
+    const status = announcementStatus(a);
+    const lines = LANGS.filter((lang) => a.title?.[lang] || a.message?.[lang]).flatMap((lang) => [
+      el("div", { class: `q-line ${lang}` }, [
+        el("span", { class: "lang", text: lang.toUpperCase() }),
+        a.title?.[lang] || "—",
+      ]),
+      a.message?.[lang] ? el("div", { class: "a-message", text: a.message[lang] }) : null,
+    ]);
+    const missing = LANGS.filter((lang) => !a.title?.[lang]);
+
+    const dates = [
+      a.start_date ? `Başlangıç: ${formatDate(a.start_date)}` : "Başlangıç: hemen",
+      a.end_date ? `Bitiş: ${formatDate(a.end_date)}` : "Bitiş: süresiz",
+    ].join(" · ");
+
+    return el("div", { class: `card a-card${a.is_active ? "" : " inactive"}` }, [
+      el("div", { class: "q-meta" }, [
+        el("span", { class: `badge ${status.cls}`, text: status.label }),
+        el("span", { text: `Öncelik ${a.priority ?? 0}` }),
+        missing.length
+          ? el("span", { class: "badge warn", text: `${missing.map((l) => l.toUpperCase()).join(", ")} yok → EN gösterilir` })
+          : null,
+      ]),
+      ...lines,
+      el("div", { class: "a-dates", text: dates }),
+      a.action_url ? el("div", { class: "a-link", text: `🔗 ${a.action_url}` }) : null,
+      el("div", { class: "q-actions" }, [
+        el("button", {
+          class: "btn small",
+          text: a.is_active ? "Pasif yap" : "Aktif yap",
+          onclick: (e) => toggleAnnouncement(a, e.currentTarget),
+        }),
+        el("button", { class: "btn small", text: "Düzenle", onclick: () => startAnnouncementEdit(a) }),
+        el("button", { class: "btn small danger", text: "Sil", onclick: (e) => removeAnnouncement(a, e.currentTarget) }),
+      ]),
+    ]);
+  }
+
+  async function toggleAnnouncement(a, button) {
+    await withBusy(button, async () => {
+      const { announcement } = await api(`announcements/${a.id}/active`, {
+        method: "PATCH",
+        body: { is_active: !a.is_active },
+      });
+      Object.assign(a, announcement);
+      toast(announcement.is_active ? "Duyuru aktif" : "Duyuru pasif");
+      renderAnnouncements();
+    })();
+  }
+
+  async function removeAnnouncement(a, button) {
+    const title = a.title?.tr || a.title?.en || Object.values(a.title || {})[0] || a.id;
+    if (!confirm(`Duyuru silinsin mi?\n\n${title}\n\n(Geçici kaldırmak için "Pasif yap" da kullanabilirsin.)`)) return;
+    await withBusy(button, async () => {
+      await api(`announcements/${a.id}`, { method: "DELETE" });
+      if (state.editingAnnouncementId === a.id) resetAnnouncementForm();
+      toast("Duyuru silindi");
+      await loadAnnouncements();
+    })();
+  }
+
+  function resetAnnouncementForm() {
+    state.editingAnnouncementId = null;
+    $("a-form-title").textContent = "Yeni duyuru";
+    $("btn-a-submit").textContent = "Ekle";
+    $("btn-a-cancel").classList.add("hidden");
+    for (const lang of LANGS) {
+      $(`a-title-${lang}`).value = "";
+      $(`a-message-${lang}`).value = "";
+    }
+    $("a-priority").value = "";
+    $("a-start").value = "";
+    $("a-end").value = "";
+    $("a-url").value = "";
+    $("a-active").checked = true;
+  }
+
+  function startAnnouncementEdit(a) {
+    state.editingAnnouncementId = a.id;
+    $("a-form-title").textContent = "Duyuruyu düzenle";
+    $("btn-a-submit").textContent = "Kaydet";
+    $("btn-a-cancel").classList.remove("hidden");
+    for (const lang of LANGS) {
+      $(`a-title-${lang}`).value = a.title?.[lang] || "";
+      $(`a-message-${lang}`).value = a.message?.[lang] || "";
+    }
+    $("a-priority").value = a.priority ? String(a.priority) : "";
+    $("a-start").value = toLocalInput(a.start_date);
+    $("a-end").value = toLocalInput(a.end_date);
+    $("a-url").value = a.action_url || "";
+    $("a-active").checked = Boolean(a.is_active);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function collectAnnouncement() {
+    const title = {};
+    const message = {};
+    for (const lang of LANGS) {
+      const t = $(`a-title-${lang}`).value.trim();
+      const m = $(`a-message-${lang}`).value.trim();
+      if (m && !t) throw new Error(`${LANG_META[lang].code}: mesaj var ama başlık yok`);
+      if (t) title[lang] = t;
+      if (m) message[lang] = m;
+    }
+    if (!Object.keys(title).length) throw new Error("En az bir dilde başlık gerekli");
+
+    const rawPriority = $("a-priority").value.trim();
+    const priority = rawPriority ? Number(rawPriority) : 0;
+    if (!Number.isInteger(priority)) throw new Error("Öncelik tam sayı olmalı");
+
+    const start_date = fromLocalInput($("a-start").value);
+    const end_date = fromLocalInput($("a-end").value);
+    if (start_date && end_date && end_date <= start_date) {
+      throw new Error("Bitiş, başlangıçtan sonra olmalı");
+    }
+
+    return {
+      title,
+      message,
+      priority,
+      start_date,
+      end_date,
+      action_url: $("a-url").value.trim() || null,
+      is_active: $("a-active").checked,
+    };
+  }
+
+  $("announcement-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    withBusy($("btn-a-submit"), async () => {
+      const payload = collectAnnouncement();
+      if (!payload.title.en && !confirm("İngilizce başlık yok; dili EN olan kullanıcılar başka bir dildeki metni görecek. Devam?")) {
+        return;
+      }
+      if (state.editingAnnouncementId) {
+        await api(`announcements/${state.editingAnnouncementId}`, { method: "PUT", body: payload });
+        toast("Duyuru güncellendi");
+      } else {
+        await api("announcements", { method: "POST", body: payload });
+        toast("Duyuru eklendi ✓");
+      }
+      resetAnnouncementForm();
+      await loadAnnouncements();
+    })();
+  });
+
+  document.querySelectorAll("[data-clear]").forEach((button) => {
+    button.addEventListener("click", () => {
+      $(button.dataset.clear).value = "";
+    });
+  });
+
+  $("btn-a-cancel").addEventListener("click", resetAnnouncementForm);
+  $("btn-a-clear").addEventListener("click", resetAnnouncementForm);
+  $("btn-a-refresh").addEventListener("click", withBusy($("btn-a-refresh"), loadAnnouncements));
 
   // ---------- boot ----------
 

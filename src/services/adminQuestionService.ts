@@ -2,9 +2,9 @@ import crypto from "crypto";
 import { getAdminPool } from "../utils/adminDb.js";
 import { AppError } from "../errors/AppError.js";
 import { MAX_MATCH_WEIGHT, MIN_MATCH_WEIGHT } from "../types.js";
+import { LANGS, type Lang, type QuestionAnswers, type QuestionTexts } from "../languages.js";
 import { RANK_IT_MAX_ITEMS, RANK_IT_MIN_ITEMS } from "../utils/rankIt.js";
 
-const LANGS = ["en", "tr", "es"] as const;
 const MAX_TEXT_LENGTH = 500;
 const MIN_ANSWERS = 2;
 const MAX_ANSWERS = 8;
@@ -16,12 +16,12 @@ const TRIVIA_CATEGORY_IDS = ["trivia_master", "mastermind"];
 
 export interface QuestionInput {
   category_id: string;
-  texts: { text_en: string; text_tr: string; text_es: string };
+  texts: QuestionTexts;
   question_type: (typeof QUESTION_TYPES)[number];
   have_answers: boolean;
-  answers: { answers_en: string[]; answers_tr: string[]; answers_es: string[] } | null;
+  answers: QuestionAnswers | null;
   /** Trivia answer key; shapes in migrations/20261007_trivia_correct_answer.sql. */
-  correct_answer: string | { en: string[]; tr: string[]; es: string[] } | null;
+  correct_answer: string | Record<Lang, string[]> | null;
   /** see_your_match weight 1-10; null = default. Never set on trivia questions. */
   match_weight: number | null;
 }
@@ -62,17 +62,20 @@ function validateCorrectAnswer(
   if (raw == null || raw === "") return null;
 
   if (question_type === "text") {
-    const lists =
-      typeof raw === "object" && !Array.isArray(raw)
-        ? LANGS.map((lang) => (raw as Record<string, unknown>)[lang])
-        : [raw, raw, raw];
-    const [en, tr, es] = lists.map((list, i) =>
-      (Array.isArray(list) ? list : list == null ? [] : [list]).map(
-        (item: unknown, j: number) => cleanString(item, `correct_answer.${LANGS[i]}[${j}]`),
-      ),
-    );
-    if (!en.length && !tr.length && !es.length) return null;
-    return { en, tr, es };
+    const byLang = typeof raw === "object" && !Array.isArray(raw);
+    const key = Object.fromEntries(
+      LANGS.map((lang) => {
+        const list = byLang ? (raw as Record<string, unknown>)[lang] : raw;
+        return [
+          lang,
+          (Array.isArray(list) ? list : list == null ? [] : [list]).map(
+            (item: unknown, j: number) => cleanString(item, `correct_answer.${lang}[${j}]`),
+          ),
+        ];
+      }),
+    ) as Record<Lang, string[]>;
+    if (LANGS.every((lang) => !key[lang].length)) return null;
+    return key;
   }
 
   const value = cleanString(raw, "correct_answer");
@@ -110,11 +113,9 @@ export function validateQuestionInput(body: any): QuestionInput {
   }
 
   const category_id = cleanString(body.category_id, "category_id");
-  const texts = {
-    text_en: cleanString(body.texts?.text_en, "texts.text_en"),
-    text_tr: cleanString(body.texts?.text_tr, "texts.text_tr"),
-    text_es: cleanString(body.texts?.text_es, "texts.text_es"),
-  };
+  const texts = Object.fromEntries(
+    LANGS.map((lang) => [`text_${lang}`, cleanString(body.texts?.[`text_${lang}`], `texts.text_${lang}`)]),
+  ) as QuestionTexts;
   const question_type = body.question_type ?? "choice";
   if (!QUESTION_TYPES.includes(question_type)) {
     throw new AppError("question_type must be choice or text", 400, "VALIDATION_ERROR");
@@ -161,7 +162,9 @@ export function validateQuestionInput(body: any): QuestionInput {
     throw new AppError("English answers must be unique", 400, "VALIDATION_ERROR");
   }
 
-  const answers = { answers_en: lists[0], answers_tr: lists[1], answers_es: lists[2] };
+  const answers = Object.fromEntries(
+    LANGS.map((lang, i) => [`answers_${lang}`, lists[i]]),
+  ) as QuestionAnswers;
   const correct_answer = validateCorrectAnswer(body.correct_answer, question_type, answers);
   return {
     category_id,

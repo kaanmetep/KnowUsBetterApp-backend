@@ -1,14 +1,29 @@
 /**
  * Profanity masking for short user text (typed answers, player names), backed
- * by terlik.js. The answer's language is unknown, so the Turkish, English and
- * Spanish dictionaries all run and their matches are merged. A flagged span
+ * by terlik.js. The answer's language is unknown, so the Turkish, English,
+ * Spanish and Portuguese dictionaries all run and their matches are merged. A flagged span
  * keeps its first character and the rest becomes "*".
  */
 import { Terlik } from "terlik.js";
 
 type Match = ReturnType<Terlik["getMatches"]>[number];
 
-const FILTERS = ["tr", "en", "es"].map((language) => new Terlik({ language }));
+// terlik.js has no Portuguese dictionary; these whole words ride on the
+// Spanish filter (same accent folding). Everyday words that double as slang
+// ("pau", "rola", "pica") are left out.
+const PORTUGUESE_WORDS = [
+  "porra", "caralho", "merda", "foda", "foder", "fodase", "fodido", "fodida",
+  "puta", "puto", "buceta", "boceta", "cu", "cuzao", "viado", "arrombado",
+  "arrombada", "cacete", "piroca", "bosta", "desgracado", "desgracada",
+  "vagabunda", "otario", "babaca", "punheta", "xoxota", "xereca",
+  "fdp", "pqp", "vsf", "tnc", "krl",
+];
+
+const FILTERS = [
+  new Terlik({ language: "tr" }),
+  new Terlik({ language: "en" }),
+  new Terlik({ language: "es", customList: PORTUGUESE_WORDS }),
+];
 
 /**
  * The Turkish dictionary folds ı → i and ö → o, which flags everyday words:

@@ -1,0 +1,1302 @@
+{
+  "962e164e-2bb4-43b6-91ff-a3f4a7f1e353": {
+    "en": "Do you share the private details of your romantic dates with your friends?",
+    "text": "Você compartilha detalhes íntimos dos seus encontros com seus amigos?"
+  },
+  "6f1cc8ff-d1b4-4bcc-adce-e1ec0ad7c3e5": {
+    "en": "Which do you prioritize more in someone you're attracted to: having a nice body or being intelligent?",
+    "text": "O que você prioriza mais em alguém que te atrai: ter um corpo bonito ou ser inteligente?",
+    "answers": [
+      "Ter um corpo bonito",
+      "Ser inteligente"
+    ]
+  },
+  "d283940a-ec09-4a1e-b0a0-2af67c9ff09d": {
+    "en": "Is physical chemistry a must-have for you in a relationship?",
+    "text": "Ter química física é indispensável pra você em um relacionamento?"
+  },
+  "1e9518a0-15bd-4f18-99f6-30f1f8480b28": {
+    "en": "Which turns you on more: giving a massage or receiving a massage?",
+    "text": "O que te excita mais: fazer massagem ou receber massagem?",
+    "answers": [
+      "Fazer massagem",
+      "Receber massagem"
+    ]
+  },
+  "203f91fa-50d9-4f2b-971d-00aa063d09cb": {
+    "en": "Which turns you on more: kissing or hugging?",
+    "text": "O que te excita mais: beijar ou abraçar?",
+    "answers": [
+      "Beijar",
+      "Abraçar"
+    ]
+  },
+  "bdf4c3a2-6345-46c7-af8c-7b683dd8f0ba": {
+    "en": "Which turns you on more: slow and romantic or fast and passionate?",
+    "text": "O que te excita mais: devagar e romântico ou rápido e intenso?",
+    "answers": [
+      "Devagar e romântico",
+      "Rápido e intenso"
+    ]
+  },
+  "d10f5951-581e-459f-a7e9-9d46d34faefa": {
+    "en": "Receiving a good morning message every day: bare minimum or premium treatment?",
+    "text": "Receber mensagem de bom dia todo dia: o mínimo ou tratamento premium?",
+    "answers": [
+      "O mínimo",
+      "Tratamento premium"
+    ]
+  },
+  "65ed3a72-65ae-44d1-b594-348f258936d9": {
+    "en": "Is your partner being bad in bed a reason to break up?",
+    "text": "Seu amor mandar mal na cama é motivo pra terminar?"
+  },
+  "5bc80737-30df-4421-a3df-a5f0ac1c759b": {
+    "en": "Are you against being intimate on the first date?",
+    "text": "Você é contra rolar intimidade no primeiro encontro?"
+  },
+  "3fdb267c-d82f-4b33-b102-c316d2690af9": {
+    "en": "Would it bother you if your partner had an uncommon fantasy?",
+    "text": "Você se incomodaria se seu amor tivesse uma fantasia incomum?"
+  },
+  "92e0004c-454b-489a-aef0-a1e616681fac": {
+    "en": "Would you try sexual things you haven't done before just because your partner asked?",
+    "text": "Você toparia experimentar coisas sexuais que nunca fez só porque seu amor pediu?"
+  },
+  "88736518-ac6d-45bb-ba23-17d6d8de3e24": {
+    "en": "Are you open to incorporating toys or other accessories into your intimate experiences?",
+    "text": "Você topa incluir brinquedos ou acessórios nos momentos íntimos?"
+  },
+  "a73425b0-93d5-4ec5-9178-8b7a8f55d1a0": {
+    "en": "Do you enjoy cuddling and physical affection outside of intimate moments?",
+    "text": "Você curte abraços e carinho físico fora dos momentos íntimos?"
+  },
+  "9cdd792e-827d-4513-b110-00bfaa66cf25": {
+    "en": "Do you think cheating should be forgiven?",
+    "text": "Você acha que traição deve ser perdoada?"
+  },
+  "f4152a0c-706e-4948-986a-3c2eb52ad7c5": {
+    "en": "Do you enjoy eating breakfast in bed?",
+    "text": "Você curte tomar café da manhã na cama?"
+  },
+  "089a6c6b-258a-4b1d-a5e4-41df49a05778": {
+    "en": "Have you ever lived with a partner?",
+    "text": "Você já morou junto com alguém?"
+  },
+  "91381dbf-d62a-4b88-b699-18ff55045bbd": {
+    "en": "Have you ever flirted just for fun?",
+    "text": "Você já flertou só por diversão?"
+  },
+  "21bcf8e6-f321-42db-8fbc-56d31d4ecad4": {
+    "en": "Have you ever imagined undressing someone with your eyes?",
+    "text": "Você já imaginou tirar a roupa de alguém só com o olhar?"
+  },
+  "718daf11-2d92-415d-af4d-996e0bc6006f": {
+    "en": "Have you ever followed an instant spark and started a romantic connection immediately?",
+    "text": "Você já se deixou levar por uma química instantânea e começou um romance na hora?"
+  },
+  "52fa33f8-7fdd-4fe2-bae5-7b9631d7b86a": {
+    "en": "Have you fantasized about someone you shouldn’t?",
+    "text": "Você já fantasiou com alguém com quem não devia?"
+  },
+  "1e8b01a3-ef5b-488f-a8ef-ba43eb960037": {
+    "en": "Do you have a secret fantasy you've never told anyone?",
+    "text": "Você tem uma fantasia secreta que nunca contou pra ninguém?"
+  },
+  "06dd4eba-bbc1-49d8-baa2-5a99ae3c9672": {
+    "en": "Do compliments turn you on?",
+    "text": "Elogios te deixam com tesão?"
+  },
+  "55243368-64c9-496b-9031-2be396332bed": {
+    "en": "Regarding romantic energy, do you prefer partners who are 'loud' or 'silent'?",
+    "text": "Na hora do romance, você prefere quem faz barulho ou quem fica em silêncio?",
+    "answers": [
+      "Faz barulho",
+      "Fica em silêncio"
+    ]
+  },
+  "fb9007c8-c53d-438d-9fc6-a55d3d6fd202": {
+    "en": "Which creates a stronger connection for you: physical touch or romantic words?",
+    "text": "O que cria uma conexão mais forte pra você: toque físico ou palavras românticas?",
+    "answers": [
+      "Toque",
+      "Palavras"
+    ]
+  },
+  "347f9c8d-b8f0-4456-87b4-f7fad08258fb": {
+    "en": "After a long and romantic date, do you prefer to stay over or head home?",
+    "text": "Depois de um encontro longo e romântico, você prefere passar a noite ou ir pra casa?",
+    "answers": [
+      "Passar a noite",
+      "Ir embora"
+    ]
+  },
+  "d2819c86-6b30-44b5-9277-8f4a66648271": {
+    "en": "Do you think you can really stay friends with an ex?",
+    "text": "Você acha que dá pra manter amizade com ex de verdade?"
+  },
+  "a5e7ddc4-8245-4f68-ab51-ed01fb4e0316": {
+    "en": "Have you ever had a surprisingly romantic dream about a close friend?",
+    "text": "Você já teve um sonho surpreendentemente romântico com um amigo próximo?"
+  },
+  "e31526a8-44b3-4a68-b14d-e3ed8d5b5f5f": {
+    "en": "Do you enjoy receiving flirtatious messages?",
+    "text": "Você curte receber mensagens de flerte?"
+  },
+  "938b68ee-cc2f-4266-b4be-3d76068058a6": {
+    "en": "Do you like to move fast or take it slow?",
+    "text": "Você curte ir rápido ou levar com calma?",
+    "answers": [
+      "Ir rápido",
+      "Levar com calma"
+    ]
+  },
+  "85cf45c4-c7e8-4530-8754-d6b44e424d17": {
+    "en": "Do you prefer to be the big spoon or the little spoon?",
+    "text": "Você prefere ser a conchinha de fora ou de dentro?",
+    "answers": [
+      "Conchinha de fora",
+      "Conchinha de dentro"
+    ]
+  },
+  "6bb69588-c176-4e43-9599-67c04d89e30c": {
+    "en": "In the future, would you choose stability or excitement in your relationship?",
+    "text": "No futuro, você escolheria estabilidade ou emoção no relacionamento?",
+    "answers": [
+      "Estabilidade",
+      "Emoção"
+    ]
+  },
+  "e972c82a-b11a-4588-8a4e-dfe953e6c639": {
+    "en": "First date kisses: yes or no?",
+    "text": "Beijo no primeiro encontro: sim ou não?"
+  },
+  "c6b6c542-d9ca-4fb3-9ce5-ce254ef933f5": {
+    "en": "Do you enjoy falling asleep together?",
+    "text": "Você curte pegar no sono junto?"
+  },
+  "4231ad4b-0d9a-4efc-8027-4c7857abcfe1": {
+    "en": "What are your thoughts on open relationships/non-monogamy?",
+    "text": "O que você acha de relacionamento aberto ou não monogamia?",
+    "answers": [
+      "Nunca",
+      "Toparia tentar"
+    ]
+  },
+  "4e986796-4744-4fe4-b02d-f04fdc54a153": {
+    "en": "Have you ever kept a relationship a secret?",
+    "text": "Você já manteve um relacionamento em segredo?"
+  },
+  "1c93b5b9-1b7e-471c-8766-754b8473ee86": {
+    "en": "Would you ever tell someone you love them even if you don’t?",
+    "text": "Você diria “eu te amo” para alguém mesmo sem sentir isso?"
+  },
+  "b413d4e7-0559-412f-a7c3-fd401b80cb61": {
+    "en": "Have you ever felt an instant romantic connection on a first date?",
+    "text": "Você já sentiu uma conexão romântica instantânea num primeiro encontro?"
+  },
+  "e1ef8d27-157d-4961-bc79-c607914239af": {
+    "en": "Do you enjoy drinking cocktails?",
+    "text": "Você curte tomar drinques?"
+  },
+  "4dfdd768-ebad-44e2-87a8-1adb0bbdbfe6": {
+    "en": "Have you ever kissed a stranger?",
+    "text": "Você já beijou um desconhecido?"
+  },
+  "094e743c-3c44-4162-a846-e7c68d41503f": {
+    "en": "Have you ever had feelings for a friend’s ex?",
+    "text": "Você já sentiu algo pelo ex de um amigo?"
+  },
+  "c24cdf4f-785c-4993-9bde-e087c268430b": {
+    "en": "Would you ever make out in an elevator?",
+    "text": "Você daria uns amassos no elevador?"
+  },
+  "3b98c734-ae2b-478e-811f-c4d7a2f2e8d0": {
+    "en": "Have you ever woken up next to someone and didn’t remember their name?",
+    "text": "Você já acordou do lado de alguém e não lembrava o nome?"
+  },
+  "bca72d06-a4a5-441c-9d02-0c415c3302b0": {
+    "en": "Have you ever pretended to be sick to avoid a date?",
+    "text": "Você já fingiu estar doente pra fugir de um encontro?"
+  },
+  "8739a1ba-5e73-4095-8ec3-0ad38131c452": {
+    "en": "Intense passion or gentle affection?",
+    "text": "Paixão intensa ou carinho mais suave?",
+    "answers": [
+      "Amassos apaixonados",
+      "Carinho suave"
+    ]
+  },
+  "8b499548-b2d7-4dbd-9cdf-6bc922d7c800": {
+    "en": "Music in the background or just the sounds of each other?",
+    "text": "Música de fundo ou só os sons de vocês?",
+    "answers": [
+      "Música de fundo",
+      "Só os sons de vocês"
+    ]
+  },
+  "5152a24a-5cb3-4c8e-bfa8-37c13ead9118": {
+    "en": "Breakfast in bed or surprise night out?",
+    "text": "Café da manhã na cama ou rolê surpresa à noite?",
+    "answers": [
+      "Café da manhã na cama",
+      "Rolê surpresa à noite"
+    ]
+  },
+  "947669ca-1428-44d9-a2a0-d2494c2e336b": {
+    "en": "Be in control or let them take charge?",
+    "text": "Assumir o controle ou deixar seu amor comandar?",
+    "answers": [
+      "Assumir o controle",
+      "Deixar seu amor comandar"
+    ]
+  },
+  "72d629e3-ca86-4ae3-b507-5287e7d76001": {
+    "en": "One long kiss or many short kisses?",
+    "text": "Um beijo longo ou vários beijinhos?",
+    "answers": [
+      "Um beijo longo",
+      "Vários beijinhos"
+    ]
+  },
+  "433e48b7-a765-411e-8a51-ff818cbeaae9": {
+    "en": "When do you feel the strongest romantic energy: in the morning or at midnight?",
+    "text": "Quando você sente o clima romântico mais forte: de manhã ou à meia-noite?",
+    "answers": [
+      "De manhã",
+      "À meia-noite"
+    ]
+  },
+  "08708487-24d5-4836-ab67-fbd6762dc270": {
+    "en": "Keep it romantic or get a little wild?",
+    "text": "Manter o clima romântico ou dar uma apimentada?",
+    "answers": [
+      "Manter o clima romântico",
+      "Dar uma apimentada"
+    ]
+  },
+  "40a6dec0-8045-4374-9b02-b83e57dbe15d": {
+    "en": "If your partner doesn't want children before age 40, is that a dealbreaker for you?",
+    "text": "Se seu amor não quiser ter filhos antes dos 40, isso acabaria com a relação pra você?"
+  },
+  "cc10b349-6a57-442d-b40f-125e8d37bd25": {
+    "en": "Fall asleep in each other’s arms or stay up all night talking?",
+    "text": "Dormir abraçando seu amor ou passar a noite conversando?",
+    "answers": [
+      "Dormir abraçando",
+      "Passar a noite conversando"
+    ]
+  },
+  "4f721029-0cd8-4599-b152-ab73388f1166": {
+    "en": "Have a romantic dinner or order pizza in bed?",
+    "text": "Jantar romântico ou pedir pizza na cama?",
+    "answers": [
+      "Jantar romântico",
+      "Pizza na cama"
+    ]
+  },
+  "c9e4a510-da33-4372-8a0f-80615e78921e": {
+    "en": "Have you ever slept with a friend’s ex?",
+    "text": "Você já transou com ex de um amigo?"
+  },
+  "0503603c-4468-4235-b6f2-42cf2ddccb28": {
+    "en": "Have you ever experienced an instant romantic spark with someone you met through an app?",
+    "text": "Você já sentiu uma química romântica na hora com alguém que conheceu por app?"
+  },
+  "e311d79f-d53f-46c1-93eb-338151484b54": {
+    "en": "Which one do you find more attractive: intelligence or body?",
+    "text": "O que você acha mais atraente: inteligência ou corpo?",
+    "answers": [
+      "Inteligência",
+      "Corpo"
+    ]
+  },
+  "e85ef99e-7a01-4c52-96fe-c28ce75a53bc": {
+    "en": "Have you ever flirted with a friend’s ex?",
+    "text": "Você já flertou com ex de um amigo?"
+  },
+  "6abdb7e6-0111-492e-be17-f4da73afef20": {
+    "en": "Do you believe a romantic intimacy can exist without love?",
+    "text": "Você acredita que pode existir intimidade romântica sem amor?"
+  },
+  "d025e2f8-bfcb-473a-a8eb-0d7101281b2c": {
+    "en": "Have you ever refused a request from any of your partners?",
+    "text": "Você já recusou um pedido de alguém com quem se relacionou?"
+  },
+  "f724acf1-65af-4a86-8e23-0de64197c4b9": {
+    "en": "Which is worse: your partner cheating on you emotionally or physically?",
+    "text": "O que é pior: seu amor trair você emocionalmente ou fisicamente?",
+    "answers": [
+      "Emocionalmente",
+      "Fisicamente"
+    ]
+  },
+  "2bce8b60-21a6-4b4a-9285-14387333ace6": {
+    "en": "Which is worse: your partner not finding you emotionally attractive or not finding you physically attractive?",
+    "text": "O que é pior: seu amor não sentir atração emocional ou física por você?",
+    "answers": [
+      "Emocional",
+      "Física"
+    ]
+  },
+  "8a9e7849-5b20-4a12-acce-31d0f9a6ca32": {
+    "en": "Which is worse: catching your partner cheating or your partner catching you cheating?",
+    "text": "O que é pior: pegar seu amor traindo ou seu amor pegar você traindo?",
+    "answers": [
+      "Flagrar seu amor",
+      "Seu amor flagrar você"
+    ]
+  },
+  "bb9547f7-87f4-436b-8299-188ecf87872b": {
+    "en": "Which is worse: your partner finds you physically attractive but not emotionally, or the opposite?",
+    "text": "O que é pior: seu amor sentir atração física por você, mas não emocional, ou o contrário?",
+    "answers": [
+      "Física sim, emocional não",
+      "Emocional sim, física não"
+    ]
+  },
+  "72f5752e-17d8-455d-9634-cbd71a6006b3": {
+    "en": "Which is worse: your partner being very short or very overweight?",
+    "text": "O que é pior: seu amor ter estatura muito baixa ou estar muito acima do peso?",
+    "answers": [
+      "Estatura muito baixa",
+      "Muito acima do peso"
+    ]
+  },
+  "e4c1cfef-0706-4974-bdc0-0b8583a863df": {
+    "en": "Which is worse: your partner having one very long past relationship or several short ones?",
+    "text": "O que é pior: seu amor ter tido uma relação muito longa ou várias curtas?",
+    "answers": [
+      "Uma relação longa",
+      "Várias curtas"
+    ]
+  },
+  "bc7914af-8df9-4786-b0f1-955d2deaee8a": {
+    "en": "Regarding a partner's relationship history, which is a bigger concern: being 'very experienced' or having 'no experience'?",
+    "text": "No histórico amoroso de seu amor, o que preocupa mais: muita experiência ou nenhuma?",
+    "answers": [
+      "Muita experiência",
+      "Nenhuma experiência"
+    ]
+  },
+  "b0a55b69-ec5c-4509-acb7-338b9b1c74e7": {
+    "en": "Which is worse: your partner always wanting close intimacy or rarely wanting it?",
+    "text": "O que é pior: seu amor sempre querer intimidade ou quase nunca querer?",
+    "answers": [
+      "Sempre querer",
+      "Quase nunca querer"
+    ]
+  },
+  "f6367d9f-5d4e-4790-9840-7b07d4587575": {
+    "en": "Does it bother you if your partner constantly wants to be in close intimacy?",
+    "text": "Você se incomoda quando seu amor quer intimidade o tempo todo?"
+  },
+  "613f4572-cca6-473c-a7cd-42b570a95890": {
+    "en": "Would you feel upset if your partner says no when you want to get close?",
+    "text": "Você se incomodaria se seu amor dissesse não quando você quisesse mais intimidade?"
+  },
+  "bce9b4c1-32cb-4fc5-8e40-4a948960f673": {
+    "en": "Which is worse: someone who has had a lot of intimacy before or someone who has had none?",
+    "text": "O que é pior: alguém que já teve muita intimidade antes ou alguém que nunca teve?",
+    "answers": [
+      "Muita intimidade antes",
+      "Nenhuma antes"
+    ]
+  },
+  "d9fea7e2-ed9e-4b64-beba-28501fa6102d": {
+    "en": "Which is worse: your partner kissing a friend of the opposite gender, or that friend kissing your partner?",
+    "text": "O que é pior: seu amor beijar um amigo do sexo oposto ou esse amigo beijar seu amor?",
+    "answers": [
+      "Meu amor beijar esse amigo",
+      "Esse amigo beijar meu amor"
+    ]
+  },
+  "a22ea5f8-6754-4a95-a9d0-17a96c6df098": {
+    "en": "Can your partner go on a vacation with a friend of the opposite gender?",
+    "text": "Seu amor pode viajar de férias com um amigo do sexo oposto?"
+  },
+  "1842f9ec-93ce-42ad-bd60-fdee5e59090b": {
+    "en": "Can your partner go to the same gym with a friend of the opposite gender?",
+    "text": "Seu amor pode ir à mesma academia que um amigo do sexo oposto?"
+  },
+  "8dc24c93-0d98-4ae4-8641-60acd6ae6bfa": {
+    "en": "Can your partner talk to their friends about the things you experience in your relationship?",
+    "text": "Seu amor pode contar para os próprios amigos o que vocês vivem no relacionamento?"
+  },
+  "17352711-7d54-4aa6-8bdf-ed91aab0a2c5": {
+    "en": "Have you ever waited for someone's relationship to end to confess your feelings?",
+    "text": "Você já esperou o relacionamento de alguém acabar para se declarar?"
+  },
+  "969cba86-6a49-4490-bad1-f68cb953cba1": {
+    "en": "Would you date someone who has been with more people than you in the past?",
+    "text": "Você namoraria alguém que já teve intimidade com mais pessoas que você?"
+  },
+  "789a1d48-2335-41e0-a7a7-1d1e4c7ec823": {
+    "en": "If you only liked someone physically, would you be with them?",
+    "text": "Se você só sentisse atração física por alguém, ficaria com essa pessoa?"
+  },
+  "98e2d325-86cc-4298-be9f-b7390af25b77": {
+    "en": "If you stopped being physically attracted to your spouse after marriage, would you get a divorce?",
+    "text": "Se depois de casar você deixasse de sentir atração física pela pessoa com quem se casou, se divorciaria?"
+  },
+  "a16fe79b-cde3-49c9-bfd4-0d63e0978bf1": {
+    "en": "Do you prefer to make love in daylight or by candlelight?",
+    "text": "Você prefere fazer amor à luz do dia ou à luz de velas?",
+    "answers": [
+      "Luz do dia",
+      "Luz de velas"
+    ]
+  },
+  "49c4ecc8-addd-414f-bada-93c5a25cf26c": {
+    "en": "If you had to be with someone, who would you choose: your best friend or your ex?",
+    "text": "Se você tivesse que ficar com alguém, quem escolheria: seu melhor amigo ou seu ex?",
+    "answers": [
+      "Melhor amigo",
+      "Ex"
+    ]
+  },
+  "bbb84050-36f0-484a-b13e-cac0e7ec40ed": {
+    "en": "Have you ever completely cut off a relationship over something trivial?",
+    "text": "Você já terminou um relacionamento de vez por uma coisa boba?"
+  },
+  "522e74fb-6d0c-4e44-8763-60b5200d8467": {
+    "en": "Have you ever had a crush on someone you definitely should not have?",
+    "text": "Você já teve um crush em alguém por quem definitivamente não deveria se interessar?"
+  },
+  "6de27feb-21ed-4a51-bc8d-403efe2a48b9": {
+    "en": "You have to choose one: never being kissed again or never kissing someone again?",
+    "text": "Você tem que escolher: nunca mais receber um beijo ou nunca mais beijar alguém?",
+    "answers": [
+      "Nunca mais receber um beijo",
+      "Nunca mais beijar alguém"
+    ]
+  },
+  "4706dab3-3457-4745-9554-34d0f19a006f": {
+    "en": "You have to choose one: be in a relationship with no physical affection or no emotional connection?",
+    "text": "Você tem que escolher: uma relação sem carinho físico ou sem conexão emocional?",
+    "answers": [
+      "Sem carinho físico",
+      "Sem conexão emocional"
+    ]
+  },
+  "e7f3b3dc-747a-4f9d-841d-85737a21d60f": {
+    "en": "Would you accept not having any physical contact with anyone for 20 years in exchange for 1 million dollars?",
+    "text": "Você aceitaria ficar 20 anos sem nenhum contato físico com ninguém em troca de 1 milhão de dólares?"
+  },
+  "67dcae50-5f93-4123-a65a-ee9d538bf56a": {
+    "en": "What is more attractive: getting close when emotional or when angry?",
+    "text": "O que é mais atraente: se aproximar quando você está sensível ou quando está com raiva?",
+    "answers": [
+      "Quando estou sensível",
+      "Quando estou com raiva"
+    ]
+  },
+  "a72eb6c0-02af-43a3-8860-394ee0b8c7dd": {
+    "en": "Would you lose interest if your partner rejected your unusual fantasies?",
+    "text": "Você perderia o interesse se seu amor rejeitasse suas fantasias mais diferentes?"
+  },
+  "9a115b84-3552-4376-ac9c-532899e3c414": {
+    "en": "You have to choose one: a partner with no fantasies at all or a partner with very unusual fantasies?",
+    "text": "Você tem que escolher: alguém sem fantasia nenhuma ou alguém com fantasias bem diferentes?",
+    "answers": [
+      "Sem fantasia nenhuma",
+      "Fantasias bem diferentes"
+    ]
+  },
+  "07b51b4d-cd4a-4490-a903-54c0c7495114": {
+    "en": "Would you feel turned off if your partner smelled bad?",
+    "text": "Você perderia o tesão se seu amor cheirasse mal?"
+  },
+  "98b98d8b-6a5d-42f3-84fb-75a44d04546c": {
+    "en": "You have to choose one: never being intimate at night or never being intimate during the day?",
+    "text": "Você tem que escolher: nunca transar à noite ou nunca transar de dia?",
+    "answers": [
+      "Nunca à noite",
+      "Nunca de dia"
+    ]
+  },
+  "603a000d-9b8c-4fd1-b535-60b0e93e3ecb": {
+    "en": "Would you openly tell your partner if you weren’t happy with a romantic gesture?",
+    "text": "Você falaria abertamente se não curtisse um gesto romântico do seu amor?"
+  },
+  "323f67ee-88ea-4e81-9904-3159ce876a4e": {
+    "en": "Which is more attractive: being able to cook really well or being able to sing really well?",
+    "text": "O que é mais atraente: cozinhar muito bem ou cantar muito bem?",
+    "answers": [
+      "Cozinhar muito bem",
+      "Cantar muito bem"
+    ]
+  },
+  "bb62b8f9-7083-48ba-ba35-c894b69c0448": {
+    "en": "Which is more attractive: charming words or unexpected affectionate gestures?",
+    "text": "O que te atrai mais: palavras que encantam ou gestos de carinho inesperados?",
+    "answers": [
+      "Palavras que encantam",
+      "Gestos de carinho inesperados"
+    ]
+  },
+  "611ca602-11fc-4e40-862b-af39644816ef": {
+    "en": "Would you be with someone who drinks too much alcohol?",
+    "text": "Você ficaria com alguém que bebe demais?"
+  },
+  "7b563148-4cd6-4ee2-af6a-2bd8158cc08b": {
+    "en": "Would you flirt with someone even if you knew it might lead to nothing?",
+    "text": "Você flertaria com alguém mesmo sabendo que talvez não desse em nada?"
+  },
+  "35436f63-fa4e-47e9-a87a-6b1795f10fda": {
+    "en": "Even if you are not attracted to someone, do you enjoy hearing nice words from them?",
+    "text": "Mesmo sem sentir atração por alguém, você gosta de ouvir palavras bonitas dessa pessoa?"
+  },
+  "006bf926-25fc-4c5b-8365-6331aef6dee1": {
+    "en": "Would someone who loves receiving compliments from others a lot make you lose interest?",
+    "text": "Alguém que curte muito receber elogios dos outros faria você perder o interesse?"
+  },
+  "4742a947-efca-4c20-8483-534782b0b716": {
+    "en": "Have you ever flirted with more than 3 people at the same time?",
+    "text": "Você já flertou com mais de 3 pessoas ao mesmo tempo?"
+  },
+  "48fe3f70-8bf2-4a43-8707-76ded1078252": {
+    "en": "Have you ever flirted with more than 5 people at the same time?",
+    "text": "Você já flertou com mais de 5 pessoas ao mesmo tempo?"
+  },
+  "e9d757e9-fcdd-4723-9c4e-8cf0eff346a0": {
+    "en": "Would you feel uncomfortable if your partner had very close friends of the opposite sex?",
+    "text": "Você se sentiria desconfortável se seu amor tivesse amigos muito próximos do sexo oposto?"
+  },
+  "9fc1e8c4-dd8e-47c7-9731-77ca700eee1d": {
+    "en": "If you thought your partner smelled bad, would you tell them directly?",
+    "text": "Se você achasse que seu amor está com mau cheiro, falaria direto?"
+  },
+  "019db5dd-c8f5-40d7-91cd-c3f4edb948df": {
+    "en": "Would you forgive your partner if they secretly kept a significant part of their past from you?",
+    "text": "Você perdoaria se seu amor tivesse escondido de você uma parte importante do passado?"
+  },
+  "51970ba8-9c75-40dc-bf9c-fcede505cbda": {
+    "en": "You have to choose: would you rather your partner have very bad future plans or a very bad past?",
+    "text": "Você tem que escolher: prefere que seu amor tenha planos muito ruins para o futuro ou um passado muito ruim?",
+    "answers": [
+      "Planos ruins para o futuro",
+      "Passado muito ruim"
+    ]
+  },
+  "5abcaa80-63a9-4204-b167-5a4f55abd29f": {
+    "en": "Would you get upset if your partner refused to show you their messages with a friend of the opposite sex?",
+    "text": "Você se irritaria se seu amor se recusasse a mostrar as mensagens com um amigo do sexo oposto?"
+  },
+  "57def58a-7cfe-490b-b082-c0f22852c699": {
+    "en": "Is it okay for your partner to stay for a short time at a friend of the opposite sex's house?",
+    "text": "Tudo bem se seu amor ficar por pouco tempo na casa de um amigo do sexo oposto?"
+  },
+  "a5d871c0-3719-4c5b-8aa5-3fd5059a5799": {
+    "en": "Physical touch (hugging, contact) with your partner...",
+    "text": "Toque físico (abraços, contato) com seu amor...",
+    "answers": [
+      "Deve ser constante",
+      "Só em momentos especiais"
+    ]
+  },
+  "418e9305-6c34-4922-a24e-ed9ccb8e52ec": {
+    "en": "Physical compatibility...",
+    "text": "Compatibilidade física...",
+    "answers": [
+      "Ponto-chave da relação",
+      "Amor é mais importante"
+    ]
+  },
+  "e8657f35-f04b-4530-9287-ec692e0cc1d9": {
+    "en": "Low physical compatibility with your partner...",
+    "text": "Baixa compatibilidade física com seu amor...",
+    "answers": [
+      "Um problemão",
+      "Algo que dá pra resolver"
+    ]
+  },
+  "7879657a-1d58-455c-8089-bf54ac04d303": {
+    "en": "Attraction between you and your partner...",
+    "text": "A atração entre você e seu amor...",
+    "answers": [
+      "Aumenta com o tempo",
+      "Ou existe, ou não"
+    ]
+  },
+  "302534ec-32ed-44b8-8994-dfeabd4eaeb3": {
+    "en": "Keeping the spark alive in a relationship (continuing to flirt and charm each other)...",
+    "text": "Manter a chama acesa na relação (continuar flertando e se encantando)...",
+    "answers": [
+      "Deve ser constante",
+      "Pode diminuir com o tempo"
+    ]
+  },
+  "55d66540-f07c-4809-b8bb-fc3cec48428c": {
+    "en": "Excitement in a relationship...",
+    "text": "O frio na barriga na relação...",
+    "answers": [
+      "Deve ser mantido",
+      "Pode ir e voltar de vez em quando"
+    ]
+  },
+  "f1fd75b1-9142-4cca-bd74-1a11a05edaa9": {
+    "en": "Chemistry between you and your partner...",
+    "text": "A química entre você e seu amor...",
+    "answers": [
+      "É o mais importante",
+      "É superestimada"
+    ]
+  },
+  "a73a68bb-6a40-4970-b4b2-3cb7ef9e09ab": {
+    "en": "Who should make the first move in a relationship...",
+    "text": "A questão de quem dá o primeiro passo numa relação...",
+    "answers": [
+      "É importante",
+      "Deve rolar naturalmente"
+    ]
+  },
+  "eaca2542-8556-401a-b615-6b488c66a3ee": {
+    "en": "The feeling of being hard to get in a relationship...",
+    "text": "Fazer jogo de difícil na relação...",
+    "answers": [
+      "Aumenta a atração",
+      "Cria drama sem necessidade"
+    ]
+  },
+  "f88c69fb-d9b5-49bb-8ddf-a7d3c7863bc5": {
+    "en": "Your partner leaving you a little curious or uncertain...",
+    "text": "Seu amor deixar você meio na curiosidade ou na dúvida...",
+    "answers": [
+      "Aumenta o frio na barriga",
+      "É desconfortável"
+    ]
+  },
+  "e64fc79a-c14f-4180-ba89-bd73ce32dd66": {
+    "en": "The feeling of chase in a relationship...",
+    "text": "Aquele clima de conquista na relação...",
+    "answers": [
+      "Faz parte da atração",
+      "Não deveria existir"
+    ]
+  },
+  "9d00fc81-b6d6-4442-8290-2ab2bab0deb1": {
+    "en": "Everything is good with your partner, but the excitement has decreased. What do you do?",
+    "text": "Entre você e seu amor está tudo bem, mas o frio na barriga diminuiu. O que você faz?",
+    "answers": [
+      "Tento trazer de volta",
+      "Deixo rolar naturalmente"
+    ]
+  },
+  "bbdb6e3c-b77c-4f9f-8f5a-e3f380283b39": {
+    "en": "How do you feel when others find your partner attractive?",
+    "text": "Como você se sente quando outras pessoas acham seu amor atraente?",
+    "answers": [
+      "Isso me incomoda",
+      "Me dá orgulho"
+    ]
+  },
+  "402dd8ac-c9fd-40fd-813a-7b50c5075e66": {
+    "en": "Freedom in a relationship...",
+    "text": "Liberdade na relação...",
+    "answers": [
+      "Existe com limites claros",
+      "Não precisa de muitas regras"
+    ]
+  },
+  "9cd320ad-9dd9-4232-b2d8-80291317b7e9": {
+    "en": "Your partner having a history of flirting with others...",
+    "text": "Seu amor ter um histórico de flertar com outras pessoas...",
+    "answers": [
+      "Um sinal de alerta sério",
+      "Algo que ficou no passado"
+    ]
+  },
+  "e3b94271-2220-48cb-926f-bc6dc7f097b1": {
+    "en": "Friends circle in a relationship...",
+    "text": "O círculo de amigos na relação...",
+    "answers": [
+      "Deve ter um certo controle",
+      "Deve ser totalmente livre"
+    ]
+  },
+  "83543925-87f8-4b70-9e5c-dd5d00edf70a": {
+    "en": "If you feel your partner is flirting with someone...",
+    "text": "Se você sente que seu amor está flertando com alguém...",
+    "answers": [
+      "Você fala direto sobre isso",
+      "Você observa primeiro"
+    ]
+  },
+  "b51d6316-6d74-45bb-a560-ff735e91e94c": {
+    "en": "Risky but exciting behaviors in a relationship...",
+    "text": "Comportamentos arriscados, mas empolgantes, numa relação...",
+    "answers": [
+      "Devem ser evitados",
+      "Às vezes mantêm a relação viva"
+    ]
+  },
+  "da303f91-32fc-4c6a-8358-3a86118a7820": {
+    "en": "If your partner keeps their gaze on you for a long time...",
+    "text": "Se seu amor fica olhando fixamente para você por um tempão...",
+    "answers": [
+      "Você fica sem jeito",
+      "Você curte"
+    ]
+  },
+  "43f446b3-7b7a-4c59-b0a1-233109f49a45": {
+    "en": "If there is a feeling of \"who will make the first move\" between you and your partner...",
+    "text": "Se rola aquela sensação de “quem vai tomar a iniciativa” entre você e seu amor...",
+    "answers": [
+      "Você quer clareza",
+      "Você vê como parte do jogo"
+    ]
+  },
+  "5e2081e6-21ec-415d-8ee7-41151f25acea": {
+    "en": "When the atmosphere between you and your partner becomes slightly tense when alone...",
+    "text": "Quando o clima entre você e seu amor fica um pouco tenso a sós...",
+    "answers": [
+      "Isso cria desconforto",
+      "Isso aumenta a atração"
+    ]
+  },
+  "a10443c5-8ccb-4122-9b35-31945282581c": {
+    "en": "What is the most attractive physical feature in a partner?",
+    "text": "Qual característica física mais te atrai em alguém?"
+  },
+  "2cc2f00b-d449-447a-aa47-764da08a477f": {
+    "en": "What is the most attractive physical feature in a partner?",
+    "text": "Qual característica física mais te atrai em alguém?"
+  },
+  "e2903296-07ab-4631-81dc-828832555fd2": {
+    "en": "What is the ideal time of day for romance?",
+    "text": "Qual é o melhor horário do dia para um clima romântico?"
+  },
+  "7897189d-8ad5-40e4-b76a-623ef82d53ce": {
+    "en": "What is the most attractive outfit or style on a partner?",
+    "text": "Qual roupa ou estilo você acha mais atraente em seu amor?"
+  },
+  "e4a7f6e6-e387-459e-8d22-d9c5842e0995": {
+    "en": "How long should a perfect romantic kiss last?",
+    "text": "Quanto tempo deve durar um beijo romântico perfeito?"
+  },
+  "72576768-b419-42bd-a56d-5e205197167f": {
+    "en": "What is the most attractive non-physical trait in a partner?",
+    "text": "Qual característica não física você acha mais atraente em seu amor?"
+  },
+  "c02d636a-e11c-4f8a-8fd7-5910d7ac40fc": {
+    "en": "What is the most romantic gesture a partner could surprise you with?",
+    "text": "Qual é o gesto mais romântico com que seu amor poderia surpreender você?"
+  },
+  "1e1a09c2-4ae9-4fd2-9586-21f428953644": {
+    "en": "What is the best time of year for a cozy, romantic vacation?",
+    "text": "Qual é a melhor época do ano para uma viagem romântica e aconchegante?"
+  },
+  "5d6410a2-4f8b-44bb-a731-563502e921d7": {
+    "en": "What is the most attractive habit or skill a partner can have?",
+    "text": "Qual hábito ou habilidade você acha mais atraente em seu amor?"
+  },
+  "65a22aa4-fec5-403e-9e4e-6990fd3a5c93": {
+    "en": "Which room in the house feels the most tempting?",
+    "text": "Qual cômodo da casa parece mais tentador?"
+  },
+  "a6507af8-06fe-4e48-be79-fcb69409a2d4": {
+    "en": "What should we never do in public even if we want to?",
+    "text": "O que vocês nunca deveriam fazer em público, mesmo com vontade?"
+  },
+  "487854d7-123e-4049-90af-5be5879ca6fa": {
+    "en": "What should never come into the bedroom?",
+    "text": "O que nunca deveria entrar no quarto?"
+  },
+  "f2b3d498-f439-4810-b99f-8395109f68fa": {
+    "en": "What instantly kills the mood for you?",
+    "text": "O que acaba com o clima na hora para você?"
+  },
+  "48a3c058-0100-4d6d-9b9e-f75d858568ff": {
+    "en": "What would make you jealous the fastest?",
+    "text": "O que faria você ter ciúme mais rápido?"
+  },
+  "5c9dc92f-20dc-4767-bdb1-142dda6b6025": {
+    "en": "What is the sexiest thing someone can do without touching you?",
+    "text": "Qual é a coisa mais sexy que alguém pode fazer sem tocar em você?"
+  },
+  "ade74d7b-247a-459d-af5a-d7b33e9ad221": {
+    "en": "What is the one thing you should never tease a partner about?",
+    "text": "Sobre o que você nunca deveria zoar seu amor?"
+  },
+  "619f6186-6a3f-445a-8808-67c318fe740b": {
+    "en": "What kind of weather makes everything feel more tempting?",
+    "text": "Que tipo de clima deixa tudo mais tentador?"
+  },
+  "33508d01-f09b-4a5a-82f1-9b6888683f55": {
+    "en": "What drink belongs in our hands on a flirty night?",
+    "text": "Que bebida combina com uma noite cheia de flerte?"
+  },
+  "41ffe4a1-e86c-44df-b108-97d179d7015b": {
+    "en": "What color looks the hottest on a partner?",
+    "text": "Que cor fica mais sexy em seu amor?"
+  },
+  "f412a9ee-4c9a-4005-917c-3fee1062cbd6": {
+    "en": "What time of night feels the most dangerous for us?",
+    "text": "Que hora da noite parece mais perigosa para vocês?"
+  },
+  "eac3ce2c-ce08-4a3d-93be-28a7853d699f": {
+    "en": "If we got matching tattoos, what would they be of?",
+    "text": "Se vocês fizessem tatuagens combinando, seriam do quê?"
+  },
+  "89de3de6-9967-493d-bdb2-3e7e23e8c14a": {
+    "en": "What is your biggest weakness in a partner?",
+    "text": "Qual é seu maior ponto fraco em seu amor?"
+  },
+  "db715c9a-6d8b-4609-a38b-457dea0fbb6d": {
+    "en": "What's the most days you could go without intimacy?",
+    "text": "Qual é o máximo de dias que você conseguiria ficar sem intimidade?"
+  },
+  "681b924d-51a4-4cea-964e-5a6c10aca55a": {
+    "en": "What is the first sign that you are in the mood?",
+    "text": "Qual é o primeiro sinal de que você está no clima?"
+  },
+  "9565615b-0832-431c-b21d-3187888419b6": {
+    "en": "What is the one thing that makes you say yes too fast?",
+    "text": "O que faz você dizer “sim” rápido demais?"
+  },
+  "462df680-7a81-48e5-ba26-b81c8ec12ccf": {
+    "en": "What is more irresistible: a lingering look, a whisper, a slow touch, or a sudden pull closer?",
+    "text": "O que é mais irresistível: um olhar demorado, um sussurro, um toque lento ou uma puxada pra perto?",
+    "answers": [
+      "Um olhar demorado",
+      "Um sussurro",
+      "Um toque lento",
+      "Uma puxada pra perto"
+    ]
+  },
+  "306c5451-599b-48bf-95f8-ac42b2f9f0ad": {
+    "en": "Where would you most want a first kiss of the night to happen?",
+    "text": "Onde você mais gostaria que rolasse o primeiro beijo da noite?",
+    "answers": [
+      "Na cozinha",
+      "Perto da porta",
+      "No carro",
+      "No escuro"
+    ]
+  },
+  "519bc663-be30-40c7-9388-c98e32275f22": {
+    "en": "What is the hottest time to start something: morning, after work, late night, or after a fight?",
+    "text": "Qual é o momento mais quente para começar algo: de manhã, depois do trabalho, de madrugada ou depois de uma briga?",
+    "answers": [
+      "De manhã",
+      "Depois do trabalho",
+      "De madrugada",
+      "Depois de uma briga"
+    ]
+  },
+  "c67efeac-6d04-411a-8b95-0e22a4a1526c": {
+    "en": "What should never be allowed in the bedroom?",
+    "text": "O que nunca deveria rolar no quarto?",
+    "answers": [
+      "Celulares",
+      "Falar de trabalho",
+      "Luz acesa",
+      "Pressa"
+    ]
+  },
+  "4465a984-e7d0-462b-afc8-742f5ced6fda": {
+    "en": "What makes someone instantly more attractive: confidence, a laugh, a voice, or silence?",
+    "text": "O que deixa alguém mais atraente na hora: confiança, uma risada, uma voz ou silêncio?",
+    "answers": [
+      "Confiança",
+      "Uma risada",
+      "Uma voz",
+      "Silêncio"
+    ]
+  },
+  "2362915b-b21d-49e1-b59c-cc4a012f0918": {
+    "en": "If we only had ten minutes, what would we spend them on?",
+    "text": "Se a gente só tivesse dez minutos, como usaria esse tempo?",
+    "answers": [
+      "Se beijando",
+      "Conversando pertinho",
+      "Dançando",
+      "Sem fazer nada"
+    ]
+  },
+  "aad10471-a143-41db-a557-4b9255bf8bce": {
+    "en": "What should we do right after a good night together?",
+    "text": "O que deveríamos fazer logo depois de uma noite boa a dois?",
+    "answers": [
+      "Dormir",
+      "Conversar",
+      "Comer alguma coisa",
+      "Ficar mais na cama"
+    ]
+  },
+  "d0c1e7eb-fe8f-4fdb-a75b-b2bde40dab96": {
+    "en": "What is the hottest compliment to get?",
+    "text": "Qual elogio é mais gostoso de ouvir?",
+    "answers": [
+      "Sobre seus olhos",
+      "Sobre sua voz",
+      "Sobre seu jeito de andar",
+      "Sobre sua mente"
+    ]
+  },
+  "6ade6d02-62a8-478c-b640-01d8be057a4f": {
+    "en": "Where should a partner's hands go first?",
+    "text": "Para onde as mãos do seu amor deveriam ir primeiro?",
+    "answers": [
+      "Cintura",
+      "Rosto",
+      "Cabelo",
+      "Costas"
+    ]
+  },
+  "1c40b55e-c015-439b-9ddc-8d894df3e4a2": {
+    "en": "What pace feels the hottest?",
+    "text": "Qual ritmo deixa tudo mais quente?",
+    "answers": [
+      "Devagar",
+      "Brincalhão",
+      "De repente",
+      "Em silêncio"
+    ]
+  },
+  "75940eb9-7fbf-41f7-bc4e-66f204f5e48e": {
+    "en": "How should the lights be when things start to get interesting?",
+    "text": "Como as luzes devem estar quando as coisas começam a esquentar?",
+    "answers": [
+      "Apagadas",
+      "Velas",
+      "Uma luminária",
+      "Tanto faz, dá pra ignorar"
+    ]
+  },
+  "354b396b-ec94-4e79-875e-0d785df654b4": {
+    "en": "Where would it feel the most dangerous to almost get caught?",
+    "text": "Onde daria mais adrenalina quase alguém pegar a gente?",
+    "answers": [
+      "No elevador",
+      "No corredor",
+      "Na garagem",
+      "Na varanda"
+    ]
+  },
+  "8bdad457-c9d4-428f-b2c0-c7f30d33f2bd": {
+    "en": "What's the hottest reply to \"what are you doing?\"",
+    "text": "Qual é a resposta mais quente para “o que você está fazendo?”",
+    "answers": [
+      "Esperando você",
+      "Nada que eu não possa largar",
+      "Vem pra cá"
+    ]
+  },
+  "dc481a50-3190-4c1c-975b-f7f2c81e8269": {
+    "en": "How many times a week should intimacy happen?",
+    "text": "Quantas vezes por semana deveria rolar intimidade?"
+  },
+  "c74d1995-343a-43a9-adcf-31e2f8b56073": {
+    "en": "What do you need most right after intimacy?",
+    "text": "Do que você mais precisa logo depois da intimidade?"
+  },
+  "c82bd3fe-b845-484d-a34c-c3df3f2c6404": {
+    "en": "What is the fastest way to feel close again after a fight?",
+    "text": "Qual é o jeito mais rápido de se reaproximar depois de uma briga?",
+    "answers": [
+      "Um abraço",
+      "Uma conversa",
+      "Um pouco de espaço"
+    ]
+  },
+  "522acc6b-c549-4821-a672-968ad51faffd": {
+    "en": "What do you need most right after intimacy?",
+    "text": "Do que você mais precisa logo depois da intimidade?",
+    "answers": [
+      "Chamego",
+      "Conversar",
+      "Dormir"
+    ]
+  },
+  "d032b906-702c-4c1d-a60e-14225c8a08a1": {
+    "en": "How often should intimacy happen?",
+    "text": "Com que frequência deveria rolar intimidade?",
+    "answers": [
+      "Todo dia",
+      "Algumas vezes por semana",
+      "Uma vez por semana"
+    ]
+  },
+  "ab4d48ab-4861-45d3-a0c1-548feb01af72": {
+    "en": "What makes you feel safest getting close?",
+    "text": "O que faz você se sentir mais em segurança na hora de se aproximar?",
+    "answers": [
+      "Ir devagar",
+      "Porta trancada",
+      "Luzes apagadas"
+    ]
+  },
+  "c415ca2b-8b70-42d5-afe1-b55e6ca0cd96": {
+    "en": "What should we steal time from just to get closer?",
+    "text": "Do que vocês deveriam roubar tempo só pra ficarem mais perto?",
+    "answers": [
+      "Sono",
+      "Trabalho",
+      "Planos"
+    ]
+  },
+  "a5b0e887-d4ed-49c4-8541-1503d3766f95": {
+    "en": "How long should intimacy last?",
+    "text": "Quanto tempo a intimidade deveria durar?",
+    "answers": [
+      "5-15 minutos",
+      "30-60 minutos",
+      "2-6 horas"
+    ]
+  },
+  "5001079e-e1d6-4dfe-8d09-471b46077412": {
+    "en": "How long can you go without intimacy?",
+    "text": "Quanto tempo você aguenta sem intimidade?",
+    "answers": [
+      "1-2 dias",
+      "Mais ou menos uma semana",
+      "Algumas semanas"
+    ]
+  },
+  "fc2de0d5-e319-4965-b658-0aadfdc156da": {
+    "en": "How long should a morning in bed last?",
+    "text": "Quanto tempo deveria durar uma manhã na cama?",
+    "answers": [
+      "15-30 minutos",
+      "1-2 horas",
+      "Até meio-dia"
+    ]
+  },
+  "36466dd9-33fc-430a-8c5b-6cd74f5649f6": {
+    "en": "In the middle of a meeting, your partner sends you a very suggestive text. What do you do?",
+    "text": "No meio de uma reunião, seu amor manda uma mensagem bem sugestiva. O que você faz?",
+    "answers": [
+      "Entro no mesmo clima",
+      "Respondo só com emoji",
+      "Mando “te vejo hoje à noite” e paro por aí"
+    ]
+  },
+  "0b0a004c-7110-41c1-9efb-a1250d65cc5e": {
+    "en": "At noon, your partner texts \"come home early tonight\" and nothing else. How does your day go?",
+    "text": "Ao meio-dia, seu amor manda “vem cedo pra casa hoje” e mais nada. Como fica o seu dia?",
+    "answers": [
+      "Só consigo pensar nisso",
+      "Esqueço até a noite",
+      "Ligo na hora pra perguntar o que quer dizer"
+    ]
+  },
+  "478d596f-0925-454b-a6c7-07e62476a0f4": {
+    "en": "Sending your partner a slightly daring photo during the day...",
+    "text": "Mandar uma foto meio ousada pro seu amor durante o dia...",
+    "answers": [
+      "Mandaria numa boa",
+      "Só se receber uma primeiro",
+      "Nunca, não confio em celular"
+    ]
+  },
+  "1947e301-1523-4dd2-8b02-eebcd5a27569": {
+    "en": "You accidentally sent your suggestive text to the family group chat. What's your first move?",
+    "text": "Você mandou sem querer uma mensagem sugestiva no grupo da família. Qual é a primeira reação?",
+    "answers": [
+      "Apago rápido e rezo pra ninguém ter visto",
+      "Escrevo “grupo errado” e levo na risada",
+      "Desligo o celular e saio do país"
+    ]
+  },
+  "be4f6aae-d73e-47ac-87fd-599d2d29b15a": {
+    "en": "Flirting with each other over text during the day...",
+    "text": "Flertar por mensagem durante o dia...",
+    "answers": [
+      "Deveria rolar todo dia",
+      "De vez em quando, como surpresa",
+      "Não precisa, pessoalmente é melhor"
+    ]
+  },
+  "88f7728c-67b0-480a-9632-74158a756911": {
+    "en": "Just as things heat up, your partner's phone rings. It's their mom. What should happen?",
+    "text": "Bem na hora que o clima esquenta, o celular do seu amor toca. É a mãe. O que deve rolar?",
+    "answers": [
+      "Ignorar e ligar depois",
+      "Atender e ser breve",
+      "Atender, o clima já foi mesmo"
+    ]
+  },
+  "451823de-7a5e-47f1-887c-a876847a8a39": {
+    "en": "You're staying at your partner's parents' place, and the rooms share a wall. Getting close...",
+    "text": "Vocês estão na casa dos pais do seu amor, e os quartos são parede com parede. Rolar intimidade...",
+    "answers": [
+      "Nem pensar, espera até voltar pra casa",
+      "Tudo bem, se for bem em silêncio",
+      "O proibido deixa mais emocionante"
+    ]
+  },
+  "c5f56ed9-13b2-4806-9ec5-6991e9e95554": {
+    "en": "Just as things heat up, the doorbell rings. It's the package you've been waiting for. What do you do?",
+    "text": "Bem na hora que o clima esquenta, a campainha toca. É o pacote que você estava esperando. O que você faz?",
+    "answers": [
+      "O pacote pode esperar",
+      "Pego rápido e volto correndo",
+      "Abro e depois a gente continua"
+    ]
+  },
+  "451cd58d-bd27-47da-ac84-aa316a133bd6": {
+    "en": "Just as you get close, your cat jumps on the bed and stares at you both. What happens?",
+    "text": "Bem na hora de se aproximarem, o gato de vocês pula na cama e fica encarando. O que acontece?",
+    "answers": [
+      "A gente tira do quarto",
+      "A gente ignora e continua",
+      "A gente cai na risada, e acaba aí"
+    ]
+  },
+  "4092ab00-13ca-4261-a43a-7279301878a4": {
+    "en": "Just as you get close, your partner says \"wait, let's finish this episode first.\" What do you do?",
+    "text": "Bem na hora de se aproximarem, seu amor diz “calma, vamos terminar esse episódio primeiro”. O que você faz?",
+    "answers": [
+      "Dou risada e espero",
+      "Levo pro lado pessoal, o clima acaba",
+      "Escondo o controle"
+    ]
+  },
+  "02764dd4-39e2-40b9-a6d4-886bea53759e": {
+    "en": "Right after getting close, they roll over and start snoring. Out of 10, what score do they drop to?",
+    "text": "Logo depois da intimidade, seu amor vira pro lado e começa a roncar. De 10, cai pra qual nota?"
+  },
+  "9ba84b4f-ec82-47aa-a4a3-9f280b56470b": {
+    "en": "You catch them kissing you with their eyes wide open. Out of 10, what score do they drop to?",
+    "text": "Você nota que seu amor beija você de olhos bem abertos. De 10, cai pra qual nota?"
+  },
+  "f70cfa93-cddd-4ad1-8344-03c22063c588": {
+    "en": "They get into bed with their socks on and keep them on. Out of 10, what score do they drop to?",
+    "text": "Seu amor entra na cama de meias e não tira. De 10, cai pra qual nota?"
+  },
+  "5466613d-c6c7-4f92-a9a4-12695fecef33": {
+    "en": "While you're getting close, they check a notification on their phone. Out of 10, what score do they drop to?",
+    "text": "Enquanto vocês estão no clima, seu amor olha uma notificação no celular. De 10, cai pra qual nota?"
+  },
+  "3e7e65b3-90c9-4fd7-9917-1d0c56328de1": {
+    "en": "They go in for the kiss with gum still in their mouth. Out of 10, what score do they drop to?",
+    "text": "Seu amor vem te beijar com chiclete ainda na boca. De 10, a nota cai pra quanto?"
+  },
+  "54ed2a29-dec5-4e11-bc08-d8f35f77cebe": {
+    "en": "Which gets you more: being woken up with kisses, or being held until you fall asleep?",
+    "text": "O que mexe mais com você: acordar com beijos ou ficar no abraço até pegar no sono?",
+    "answers": [
+      "Acordar com beijos",
+      "Ficar no abraço até dormir"
+    ]
+  },
+  "a5baa1ce-254a-43b4-8cee-8d2e650e86bc": {
+    "en": "Which gets you more: them walking around in your shirt, or them getting all dressed up just for you?",
+    "text": "O que mexe mais com você: ver seu amor usando sua camiseta ou se arrumando só pra você?",
+    "answers": [
+      "Usar minha camiseta",
+      "Se arrumar só pra mim"
+    ]
+  },
+  "5e4fef58-1a72-4651-85bf-131aa64dca2f": {
+    "en": "Which turns you off more: never making the first move, or asking \"tonight?\" every single day?",
+    "text": "O que corta mais o clima: nunca tomar a iniciativa ou perguntar “hoje?” todo santo dia?",
+    "answers": [
+      "Nunca tomar a iniciativa",
+      "Perguntar todo santo dia"
+    ]
+  },
+  "862fba19-fdc5-41f2-bbd5-333e6b947e4e": {
+    "en": "Which turns you off more: too much perfume, or never smelling good?",
+    "text": "O que corta mais o clima: perfume demais ou nunca cheirar bem?",
+    "answers": [
+      "Perfume demais",
+      "Nunca cheirar bem"
+    ]
+  },
+  "e6853947-be83-4878-81aa-c596fafa2c28": {
+    "en": "You want to try something new with your partner. What's the easiest way for you?",
+    "text": "Você quer tentar algo novo com seu amor. Qual é o jeito mais fácil pra você?",
+    "answers": [
+      "Falar na lata, cara a cara",
+      "Mandar por mensagem",
+      "Dar indireta e torcer pra entender",
+      "Não consigo falar, guardo pra mim"
+    ]
+  },
+  "735638ce-f7b1-4795-8c58-77fe461637aa": {
+    "en": "Your partner wants something you really don't. How do you say no?",
+    "text": "Seu amor quer uma coisa que você não quer de jeito nenhum. Como você diz não?",
+    "answers": [
+      "Direto, sem enrolar",
+      "Com jeitinho, pra não parecer rejeição",
+      "Acabo topando mesmo assim"
+    ]
+  },
+  "e9b5ff0c-f5e3-4792-83b9-6589ac229c71": {
+    "en": "Your partner says \"not tonight.\" How do you take it?",
+    "text": "Seu amor diz “hoje não”. Como você reage?",
+    "answers": [
+      "De boa, sem perguntar",
+      "Pergunto se tem algo errado",
+      "Fico meio mal"
+    ]
+  },
+  "368c67a7-73bd-4702-989a-91e47493e9f7": {
+    "en": "After getting close, talking about what you liked...",
+    "text": "Depois de ficarem mais íntimos, falar sobre o que você curtiu...",
+    "answers": [
+      "Deixa a próxima vez melhor",
+      "Corta o clima",
+      "Só se seu amor puxar o assunto"
+    ]
+  },
+  "bfedd7c5-ce55-4024-8018-b7ce739cce29": {
+    "en": "While you're getting close, your partner asks \"is this okay?\" What do you feel?",
+    "text": "Enquanto vocês estão ficando mais íntimos, seu amor pergunta “tá tudo bem assim?”. O que você sente?",
+    "answers": [
+      "Sinto que tem cuidado comigo",
+      "Saio um pouco do clima",
+      "Preferia que continuasse"
+    ]
+  },
+  "17a06cb8-e7fa-495c-a692-290c1460e181": {
+    "en": "Something they did didn't feel good. When do you tell them?",
+    "text": "Algo que seu amor fez não foi gostoso pra você. Quando você fala?",
+    "answers": [
+      "Na hora",
+      "No dia seguinte, com calma",
+      "Nunca falo"
+    ]
+  },
+  "f84a9f94-e846-4ec5-8236-8ad07652afb0": {
+    "en": "Your partner starts talking in a way that catches you off guard. What do you do?",
+    "text": "Seu amor começa a falar de um jeito que te pega de surpresa. O que você faz?",
+    "answers": [
+      "Entro na mesma vibe",
+      "Rio e continuo",
+      "Peço pra pegar mais leve"
+    ]
+  },
+  "3c458b59-191a-4dce-b2a2-b65356bcae20": {
+    "en": "Your partner shares a fantasy you've never heard from them. What's your first reaction?",
+    "text": "Seu amor conta uma fantasia que você nunca tinha ouvido. Qual é sua primeira reação?",
+    "answers": [
+      "Curiosidade, quero ouvir mais",
+      "Topo ouvir, mas preciso pensar",
+      "Fico desconfortável, prefiro não"
+    ]
+  },
+  "fef555de-c1d3-43e9-9605-37eec8fbde2d": {
+    "en": "The second you finish getting close, they ask \"so... how was I?\" Out of 10, what score do they drop to?",
+    "text": "Assim que vocês terminam de ficar mais íntimos, seu amor pergunta “e aí... mandei bem?”. De 10, a nota cai pra quanto?"
+  },
+  "c5033475-5d32-4b8f-947e-cf7dcc230829": {
+    "en": "Right in the moment, they start listing tomorrow's to-do list. Out of 10, what score do they drop to?",
+    "text": "Bem na hora, seu amor começa a listar as tarefas de amanhã. De 10, a nota cai pra quanto?"
+  },
+  "033a99fb-d6ea-4dfc-babb-146b6b014079": {
+    "en": "While you're getting close, they call you \"buddy.\" Out of 10, what score do they drop to?",
+    "text": "Enquanto vocês estão ficando mais íntimos, seu amor te chama de “parça”. De 10, a nota cai pra quanto?"
+  },
+  "cba3d458-f072-477c-991c-734f8ed03ece": {
+    "en": "When it's over, they go for a high five. Out of 10, what score do they drop to?",
+    "text": "Quando acaba, seu amor vem bater um high five. De 10, a nota cai pra quanto?"
+  },
+  "b9b04a31-a234-45ae-aaad-de08af7471b5": {
+    "en": "When it's over, they check the time and say \"nice, under 10 minutes.\" Out of 10, what score do they drop to?",
+    "text": "Quando acaba, seu amor olha a hora e diz “boa, menos de 10 minutos”. De 10, a nota cai pra quanto?"
+  }
+}

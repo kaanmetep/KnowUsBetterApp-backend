@@ -5,6 +5,7 @@ import {
   MIN_MATCH_WEIGHT,
   MAX_MATCH_WEIGHT,
 } from "../types.js";
+import { LANGS, QuestionAnswers, QuestionTexts } from "../languages.js";
 import { AnswerKey, parseAnswerKey } from "../utils/trivia.js";
 import { isRankable, RANK_IT_MAX_ITEMS, RANK_IT_MIN_ITEMS } from "../utils/rankIt.js";
 
@@ -252,18 +253,11 @@ export async function fetchRandomQuestions(
     // Map database results to Question interface
     const questions: Question[] = data.map((q: any) => {
       // Handle texts: ensure all language fields exist
-      const texts =
-        q.texts && typeof q.texts === "object" && !Array.isArray(q.texts)
-          ? {
-              text_en: q.texts.text_en || "",
-              text_tr: q.texts.text_tr || "",
-              text_es: q.texts.text_es || "",
-            }
-          : {
-              text_en: "",
-              text_tr: "",
-              text_es: "",
-            };
+      const rawTexts =
+        q.texts && typeof q.texts === "object" && !Array.isArray(q.texts) ? q.texts : {};
+      const texts = Object.fromEntries(
+        LANGS.map((lang) => [`text_${lang}`, rawTexts[`text_${lang}`] || ""]),
+      ) as QuestionTexts;
 
       const questionType = types.get(q.id) ?? "choice";
 
@@ -276,16 +270,23 @@ export async function fetchRandomQuestions(
         q.answers !== undefined &&
         typeof q.answers === "object" &&
         !Array.isArray(q.answers) &&
-        ("answers_en" in q.answers ||
-          "answers_tr" in q.answers ||
-          "answers_es" in q.answers)
+        LANGS.some((lang) => `answers_${lang}` in q.answers)
       ) {
-        // Multi-language format: { answers_en: [], answers_tr: [], answers_es: [] }
-        answers = {
-          answers_en: q.answers.answers_en || [],
-          answers_tr: q.answers.answers_tr || [],
-          answers_es: q.answers.answers_es || [],
-        };
+        // Multi-language format: { answers_en: [], answers_tr: [], ... }. A
+        // language without its list gets the English one, so every list has
+        // the same options in the same order.
+        const english: string[] = q.answers.answers_en || [];
+        answers = Object.fromEntries(
+          LANGS.map((lang) => {
+            const list = q.answers[`answers_${lang}`];
+            return [
+              `answers_${lang}`,
+              Array.isArray(list) && (list.length === english.length || !english.length)
+                ? list
+                : english,
+            ];
+          }),
+        ) as QuestionAnswers;
       }
       // Otherwise keep as null (for yes/no questions or invalid data)
 

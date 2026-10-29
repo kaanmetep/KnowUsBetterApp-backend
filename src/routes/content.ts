@@ -36,19 +36,24 @@ export function createContentRouter(
   router.get("/categories", contentRateLimiter, async (req, res: Response) => {
     try {
       const { categories, groups } = await getCategoryCatalog(supabaseAdmin);
-      // Older builds don't know `comingSoon` and would offer these as playable.
-      const includeComingSoon = String(req.query.include ?? "")
-        .split(",")
-        .includes("coming_soon");
+      // Older builds can't show the "Soon" chip, so they never see these.
+      const include = String(req.query.include ?? "").split(",");
+      const includeComingSoon = include.includes("coming_soon");
+      // Nor the daily analysis, which they couldn't start.
+      const includeDaily = include.includes("daily_analysis");
       res.setHeader("Cache-Control", "public, max-age=60");
       res.json({
         categories: categories
           .filter(
             (category) =>
-              category.isListed && (includeComingSoon || !category.comingSoon),
+              category.isListed &&
+              (includeComingSoon || !category.comingSoon) &&
+              (includeDaily || category.groupId !== "daily_analysis"),
           )
           .map(({ isListed, ...category }) => category),
-        groups,
+        groups: includeDaily
+          ? groups
+          : groups.filter((group) => group.id !== "daily_analysis"),
       });
     } catch (error) {
       console.error("❌ Error loading categories:", error);

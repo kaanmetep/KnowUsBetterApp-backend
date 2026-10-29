@@ -1,0 +1,1137 @@
+{
+  "980115c5-d5c7-49e5-a782-cc1175a6518b": {
+    "en": "Which organ in the human body consumes the highest percentage of total energy?",
+    "text": "Qual órgão do corpo humano consome a maior porcentagem da energia total?",
+    "answers": [
+      "Cérebro",
+      "Coração",
+      "Fígado",
+      "Rins"
+    ],
+    "flagged": true,
+    "note": "Ambiguous: the brain and liver are both often cited depending on how energy use is measured."
+  },
+  "a1a237a1-628a-4008-9ba2-36d59a0e6171": {
+    "en": "Which primary color mixture produces the color green in standard visual pigments?",
+    "text": "Que mistura de cores primárias forma o verde em tintas?",
+    "answers": [
+      "Azul e amarelo",
+      "Vermelho e azul",
+      "Amarelo e vermelho"
+    ],
+    "flagged": true,
+    "note": "Depends on the color model; in CMYK pigment mixing, green is closer to cyan and yellow."
+  },
+  "c1cb1e49-a9cc-43e1-b6da-34f4da305a37": {
+    "en": "Which architectural feature was specifically invented by ancient Romans to support massive dome structures?",
+    "text": "Qual elemento arquitetônico foi inventado pelos antigos romanos para sustentar grandes cúpulas?",
+    "answers": [
+      "O arco",
+      "A coluna",
+      "A pirâmide"
+    ],
+    "flagged": true,
+    "note": "Fact is questionable: arches predate the Romans, and dome support is more specific than just arches."
+  },
+  "e9339914-1d7d-423a-9a28-2519995eb9e6": {
+    "en": "Which planet in our solar system spins in the opposite direction to most other planets?",
+    "text": "Qual planeta do nosso sistema solar gira no sentido oposto ao da maioria dos outros?",
+    "answers": [
+      "Vênus",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ]
+  },
+  "52c90157-fc1f-4878-9f00-91c318581ade": {
+    "en": "Which animal holds the record for having the longest lifespan among vertebrates on Earth?",
+    "text": "Qual animal tem o recorde de maior longevidade entre os vertebrados da Terra?",
+    "answers": [
+      "Tubarão-da-Groenlândia",
+      "Tartaruga-das-Galápagos",
+      "Baleia-da-Groenlândia"
+    ]
+  },
+  "c3b7010c-35ea-402f-a186-4035fa9be837": {
+    "en": "Which fruit is botanically classified as a berry, despite common belief?",
+    "text": "Qual fruta é classificada botanicamente como baga, apesar do que muita gente pensa?",
+    "answers": [
+      "Banana",
+      "Morango",
+      "Framboesa"
+    ]
+  },
+  "0e882595-4846-4d01-a879-ccb1be0cdc0a": {
+    "en": "Which country is home to the famous Eiffel Tower?",
+    "text": "Em qual país fica a famosa Torre Eiffel?",
+    "answers": [
+      "França",
+      "Itália",
+      "Espanha",
+      "Alemanha"
+    ]
+  },
+  "5f20efa2-53ef-4bc7-b7de-966c2a271457": {
+    "en": "Which planet in our solar system is known as the \"Red Planet\"?",
+    "text": "Qual planeta do nosso sistema solar é conhecido como “Planeta Vermelho”?",
+    "answers": [
+      "Marte",
+      "Júpiter",
+      "Vênus"
+    ]
+  },
+  "4d359908-e7a2-4ef5-bde1-d9fc49ee3218": {
+    "en": "Which mammalian land animal is known for being unable to jump?",
+    "text": "Qual mamífero terrestre é conhecido por não conseguir pular?",
+    "answers": [
+      "Elefante",
+      "Girafa",
+      "Hipopótamo",
+      "Rinoceronte"
+    ],
+    "flagged": true,
+    "note": "Common trivia claim, but it can be disputed because other large land mammals may also be unable or unlikely to jump."
+  },
+  "a98b74cf-707a-4d84-a017-ea98f2d69e68": {
+    "en": "How many sides does a standard stop sign on the road have?",
+    "text": "Quantos lados tem uma placa de PARE padrão no trânsito?",
+    "answers": [
+      "8",
+      "6",
+      "10"
+    ]
+  },
+  "1002c05b-034b-4dd1-a1fb-adf942e36c58": {
+    "en": "What color do you get when you mix blue and yellow together?",
+    "text": "Que cor você obtém ao misturar azul e amarelo?",
+    "answers": [
+      "Verde",
+      "Roxo",
+      "Laranja"
+    ]
+  },
+  "4563d6d4-5301-4f89-811a-045b66157aa2": {
+    "en": "Which soft drink was originally invented as a cough syrup and headache remedy?",
+    "text": "Qual refrigerante foi inventado originalmente como xarope para tosse e remédio para dor de cabeça?",
+    "answers": [
+      "Coca-Cola",
+      "Sprite",
+      "Fanta",
+      "Pepsi"
+    ],
+    "flagged": true,
+    "note": "Coca-Cola was marketed as a patent medicine and headache remedy, but the cough syrup claim is dubious."
+  },
+  "83fbd060-6ae4-4fc1-9ebe-4b0e7a2e0c15": {
+    "en": "Which organ in the human body pumps blood through the circulatory system?",
+    "text": "Qual órgão do corpo humano bombeia sangue pelo sistema circulatório?",
+    "answers": [
+      "Coração",
+      "Pulmões",
+      "Rins"
+    ]
+  },
+  "a79f90ff-8ce5-493b-8b50-2ef10c1f9c26": {
+    "en": "How many continents are there on planet Earth?",
+    "text": "Quantos continentes existem no planeta Terra?",
+    "answers": [
+      "7",
+      "5",
+      "6",
+      "8"
+    ],
+    "flagged": true,
+    "note": "Answer depends on the continent model; Brazil often teaches 6 continents, while the answer key uses 7."
+  },
+  "b6c425a9-162f-4107-919c-20eea21afc7a": {
+    "en": "What is the name of the imaginary line that divides Earth into the Northern and Southern Hemispheres?",
+    "text": "Qual é o nome da linha imaginária que divide a Terra nos hemisférios Norte e Sul?",
+    "answers": [
+      "Linha do Equador",
+      "Meridiano de Greenwich",
+      "Trópico de Câncer"
+    ]
+  },
+  "6d38ce25-2cda-440e-b549-81e7ac23cec6": {
+    "en": "Which country gave the Statue of Liberty to the United States as a gift?",
+    "text": "Qual país deu a Estátua da Liberdade de presente aos Estados Unidos?",
+    "answers": [
+      "França",
+      "Reino Unido",
+      "Espanha"
+    ]
+  },
+  "71f547f0-2910-4a59-b084-5a1da579b6fd": {
+    "en": "What is the largest living mammal on planet Earth?",
+    "text": "Qual é o maior mamífero vivo do planeta Terra?",
+    "answers": [
+      "Baleia-azul",
+      "Elefante-africano",
+      "Girafa"
+    ]
+  },
+  "eb10929a-ee75-431c-8b54-1c62a3954c40": {
+    "en": "Which piece can move in any direction and any number of squares in a game of chess?",
+    "text": "Qual peça pode se mover em qualquer direção e quantas casas quiser no xadrez?",
+    "answers": [
+      "Dama",
+      "Torre",
+      "Cavalo"
+    ]
+  },
+  "d322c35e-b645-48fb-a14c-cb92c5fd3a2d": {
+    "en": "Which metal is liquid at room temperature?",
+    "text": "Qual metal é líquido em temperatura ambiente?",
+    "answers": [
+      "Mercúrio",
+      "Ouro",
+      "Prata"
+    ]
+  },
+  "cb7fac86-596c-459d-a42f-b6ba0d8fc977": {
+    "en": "Which country is famous for giving pizza and pasta to world cuisine?",
+    "text": "Qual país é famoso por contribuir com pizza e macarrão para a culinária mundial?",
+    "answers": [
+      "Itália",
+      "Grécia",
+      "Espanha"
+    ]
+  },
+  "5aabe2cc-9cc4-458a-835e-7b996e00fc3f": {
+    "en": "Which sea creature is known for having eight arms and three hearts?",
+    "text": "Qual animal marinho é conhecido por ter oito braços e três corações?",
+    "answers": [
+      "Polvo",
+      "Água-viva",
+      "Golfinho"
+    ]
+  },
+  "6a8c5efa-0b23-4be2-9388-f2160e79d450": {
+    "en": "What is the chemical symbol for gold on the periodic table?",
+    "text": "Qual é o símbolo químico do ouro na tabela periódica?",
+    "accepted": [
+      "Au",
+      "au",
+      "AU"
+    ]
+  },
+  "b96c042c-87f1-4b1d-9bf1-420704c1751d": {
+    "en": "Which pigment gives human skin, hair, and eyes their color?",
+    "text": "Qual pigmento dá cor à pele, ao cabelo e aos olhos humanos?",
+    "accepted": [
+      "Melanina",
+      "melanina",
+      "Melanin",
+      "melanin",
+      "Melanine"
+    ]
+  },
+  "1508ac33-05f6-4377-b707-44fedf4e71dd": {
+    "en": "What is the name of the outer protective layer of human teeth?",
+    "text": "Qual é o nome da camada protetora externa dos dentes humanos?",
+    "accepted": [
+      "Esmalte",
+      "Esmalte dentário",
+      "Esmalte dental",
+      "esmalte",
+      "esmalte dentário",
+      "esmalte dental",
+      "Esmalte do dente"
+    ]
+  },
+  "b67421f6-8ac4-4d1a-80be-6e67cd22a44a": {
+    "en": "Which biological process allows green plants to turn sunlight into food?",
+    "text": "Qual processo biológico permite que plantas verdes transformem luz solar em alimento?",
+    "accepted": [
+      "Fotossíntese",
+      "fotossíntese",
+      "Fotossintese",
+      "fotossintese"
+    ]
+  },
+  "ff20387b-ecc5-4100-8a3e-4a10c409f056": {
+    "en": "What is the natural satellite of planet Earth?",
+    "text": "Qual é o satélite natural do planeta Terra?",
+    "accepted": [
+      "Lua",
+      "A Lua",
+      "lua",
+      "a lua"
+    ]
+  },
+  "6aaa16e5-4afb-4d6a-ae8c-cd19dbcc710e": {
+    "en": "Which naturally occurring mineral is the hardest substance on the Mohs scale?",
+    "text": "Qual mineral natural é a substância mais dura na escala de Mohs?",
+    "accepted": [
+      "Diamante",
+      "diamante",
+      "Diamantes",
+      "diamantes"
+    ]
+  },
+  "084018a1-dd49-4965-aebd-934b0318c6a6": {
+    "en": "What is the fastest land animal in the world over short distances?",
+    "text": "Qual é o animal terrestre mais rápido do mundo em curtas distâncias?",
+    "accepted": [
+      "Guepardo",
+      "guepardo",
+      "Chita",
+      "chita",
+      "O guepardo",
+      "A chita"
+    ]
+  },
+  "2dce8722-4a23-4666-86b4-656be891094b": {
+    "en": "Which scientist is credited with formulating the three laws of motion that laid the foundation for classical mechanics?",
+    "text": "Qual cientista é conhecido por formular as três leis do movimento, que serviram de base para a mecânica clássica?",
+    "answers": [
+      "Isaac Newton",
+      "Galileu Galilei",
+      "Albert Einstein",
+      "Nikola Tesla"
+    ]
+  },
+  "8a9f4fe4-c5b9-409a-be56-e499c4c63f03": {
+    "en": "Which ancient civilization is credited with inventing cuneiform, one of the earliest writing systems in human history?",
+    "text": "A qual civilização antiga se atribui a invenção da escrita cuneiforme, um dos primeiros sistemas de escrita da história?",
+    "answers": [
+      "Sumérios",
+      "Egípcios antigos",
+      "Maias",
+      "Civilização do Vale do Indo"
+    ]
+  },
+  "6b0624f0-17cf-4745-9229-15a908f2a283": {
+    "en": "Which city is nicknamed \"The Big Apple\"?",
+    "text": "Qual cidade é apelidada de “Grande Maçã”?",
+    "accepted": [
+      "Nova York",
+      "New York",
+      "NYC",
+      "NY",
+      "New York City",
+      "Newyork",
+      "Nova Iorque",
+      "Manhattan"
+    ]
+  },
+  "b5a1d6a7-2975-45c3-9da2-527a6839b14b": {
+    "en": "Which famous city lies on two continents, Europe and Asia?",
+    "text": "Qual cidade famosa fica em dois continentes, Europa e Ásia?",
+    "accepted": [
+      "Istambul",
+      "Istanbul",
+      "İstanbul",
+      "Estambul",
+      "Constantinopla",
+      "Bizâncio",
+      "Bizancio",
+      "Stamboul",
+      "Ist"
+    ]
+  },
+  "3b45c9ca-6907-4477-b5ea-8bfc62790c60": {
+    "en": "Which city is famous for its canals and gondolas?",
+    "text": "Qual cidade é famosa por seus canais e gôndolas?",
+    "accepted": [
+      "Veneza",
+      "Venice",
+      "Venezia",
+      "Venecia",
+      "Venedig",
+      "Venise"
+    ]
+  },
+  "23c98892-b152-43da-b6a0-82128ebef70a": {
+    "en": "Hollywood is a neighborhood of which city?",
+    "text": "Hollywood é um bairro de qual cidade?",
+    "accepted": [
+      "Los Angeles",
+      "Los Ángeles",
+      "LA",
+      "L.A.",
+      "Losangeles",
+      "Cidade dos Anjos"
+    ]
+  },
+  "1d666e97-1005-4ff3-81d3-e770e64be6ec": {
+    "en": "In which city is the Eiffel Tower located?",
+    "text": "Em qual cidade fica a Torre Eiffel?",
+    "accepted": [
+      "Paris",
+      "París",
+      "Pari",
+      "Paree",
+      "Cidade Luz",
+      "Cidade das Luzes",
+      "Parigi"
+    ]
+  },
+  "1b8bf486-da98-42aa-a150-48e2a7258023": {
+    "en": "The famous Leaning Tower is in which Italian city?",
+    "text": "A famosa Torre Inclinada fica em qual cidade italiana?",
+    "accepted": [
+      "Pisa",
+      "Pisa, Itália",
+      "Pisa Italia",
+      "Piza"
+    ],
+    "flagged": true,
+    "note": "Source accepted answers repeat the question instead of the answer."
+  },
+  "f6b38b97-7a9e-42e4-9197-e65bb05144fe": {
+    "en": "The Brandenburg Gate is a famous landmark of which city?",
+    "text": "O Portão de Brandemburgo é um ponto turístico famoso de qual cidade?",
+    "accepted": [
+      "Berlim",
+      "Berlin",
+      "Berlín",
+      "Berlim Alemanha",
+      "Berlin Alemanha",
+      "Berlino",
+      "Berli",
+      "BER"
+    ]
+  },
+  "d58f0d3d-5ae0-4d57-9c67-31b512ad9ec9": {
+    "en": "What is the largest animal that has ever lived on Earth?",
+    "text": "Qual é o maior animal que já viveu na Terra?",
+    "accepted": [
+      "Baleia-azul",
+      "Baleia azul",
+      "baleia-azul",
+      "baleia azul",
+      "Baleias-azuis",
+      "Baleias azuis",
+      "Blue whale",
+      "Balaenoptera musculus"
+    ]
+  },
+  "bac52e71-1145-40f6-995a-c19cdb34796f": {
+    "en": "What plant makes up almost all of a giant panda's diet?",
+    "text": "Qual planta compõe quase toda a dieta do panda-gigante?",
+    "accepted": [
+      "Bambu",
+      "bambu",
+      "Broto de bambu",
+      "Brotos de bambu",
+      "Folhas de bambu",
+      "Bamboo",
+      "Bambú",
+      "Bambo"
+    ]
+  },
+  "0ab4f29e-ab23-48bd-9b43-ac381b2402b6": {
+    "en": "How many legs does a spider have?",
+    "text": "Quantas patas uma aranha tem?",
+    "accepted": [
+      "8",
+      "Oito",
+      "oito",
+      "8 patas",
+      "Oito patas",
+      "oito patas",
+      "8 pernas",
+      "Oito pernas",
+      "4 pares",
+      "Quatro pares"
+    ]
+  },
+  "a10b4878-ff6f-48e9-9efa-b5ca90f7787e": {
+    "en": "Which horse-like African animal is famous for its black-and-white stripes?",
+    "text": "Qual animal africano parecido com um cavalo é famoso pelas listras pretas e brancas?",
+    "accepted": [
+      "Zebra",
+      "Zebras",
+      "Cavalo-zebra",
+      "Cebra"
+    ]
+  },
+  "b6e68e10-746b-4a94-9206-99458a27c2f8": {
+    "en": "Which bird lays the largest eggs in the world?",
+    "text": "Qual ave põe os maiores ovos do mundo?",
+    "accepted": [
+      "Avestruz",
+      "Avestruzes",
+      "Avestruz-comum",
+      "Ostrich"
+    ]
+  },
+  "70cd3353-de0e-4861-a3a2-4d30de21df32": {
+    "en": "Which white bird is a worldwide symbol of peace?",
+    "text": "Qual ave branca é símbolo mundial da paz?",
+    "accepted": [
+      "Pomba",
+      "Pomba branca",
+      "Pomba da paz",
+      "Pombo",
+      "Pombo branco",
+      "Dove"
+    ]
+  },
+  "1ce201ba-eaae-4e68-9728-8b1eda0a8ca5": {
+    "en": "Which sea creature has eight arms and can squirt ink?",
+    "text": "Qual animal marinho tem oito braços e consegue soltar tinta?",
+    "accepted": [
+      "Polvo",
+      "Polvos",
+      "Octopus",
+      "Lula"
+    ],
+    "flagged": true,
+    "note": "Answer key accepts squid, but the clue mainly points to octopus."
+  },
+  "78899d32-d997-4e60-b9a5-c635406a0d3a": {
+    "en": "Sushi originally comes from which country?",
+    "text": "O sushi é originalmente de qual país?",
+    "accepted": [
+      "Japão",
+      "Japao",
+      "Nippon",
+      "Nihon",
+      "Japan",
+      "Japonês",
+      "Japones"
+    ]
+  },
+  "e3224e00-4e9d-4756-b4b7-34c7b3a1d378": {
+    "en": "What is the main ingredient of guacamole?",
+    "text": "Qual é o ingrediente principal do guacamole?",
+    "accepted": [
+      "Abacate",
+      "Abacates",
+      "Avocado",
+      "Aguacate"
+    ]
+  },
+  "b8c37ace-a5e4-48f1-8f35-dfe55af4f856": {
+    "en": "Pizza Margherita's tomato, mozzarella and basil match the colors of which country's flag?",
+    "text": "O tomate, a mussarela e o manjericão da pizza Margherita combinam com as cores da bandeira de qual país?",
+    "accepted": [
+      "Itália",
+      "Italia",
+      "Italy",
+      "Italiano"
+    ]
+  },
+  "64af17d4-a459-43d3-8605-b2bb6c19f828": {
+    "en": "Paella, the famous rice dish, comes from which country?",
+    "text": "A paella, o famoso prato de arroz, vem de qual país?",
+    "accepted": [
+      "Espanha",
+      "España",
+      "Espana",
+      "Spain",
+      "Espanhol",
+      "Valência",
+      "Valencia"
+    ],
+    "flagged": true,
+    "note": "Question asks for a country, but the answer key also accepts Valencia, a region/city."
+  },
+  "b7003871-d60e-401b-9b08-41e7e2e5526e": {
+    "en": "The long, crusty bread called the baguette is a symbol of which country?",
+    "text": "A baguete, aquele pão comprido e crocante, é símbolo de qual país?",
+    "accepted": [
+      "França",
+      "Franca",
+      "France",
+      "Francês",
+      "Frances",
+      "Paris"
+    ],
+    "flagged": true,
+    "note": "Question asks for a country, but the answer key also accepts Paris, a city."
+  },
+  "f621bf3d-8230-483c-9cb0-c0a50a2d71c2": {
+    "en": "Ketchup is mainly made from which fruit?",
+    "text": "O ketchup é feito principalmente de qual fruta?",
+    "accepted": [
+      "Tomate",
+      "Tomates",
+      "Extrato de tomate",
+      "Pasta de tomate",
+      "Tomato"
+    ]
+  },
+  "e0117c78-8511-4559-a40c-807bf3b44bef": {
+    "en": "What color is wasabi, the spicy paste served with sushi?",
+    "text": "Qual é a cor do wasabi, a pasta apimentada servida com sushi?",
+    "accepted": [
+      "Verde",
+      "Verde-claro",
+      "Verde claro",
+      "Verde-pálido",
+      "Verde pálido",
+      "Verde-limão",
+      "Verde limão",
+      "Green"
+    ]
+  },
+  "f5489aa3-87f1-4b69-92dc-5cf074b1632c": {
+    "en": "Tacos and burritos come from which country's cuisine?",
+    "text": "Tacos e burritos vêm da culinária de qual país?",
+    "accepted": [
+      "México",
+      "Mexico",
+      "Méjico",
+      "Mejico",
+      "Mexicano",
+      "Culinária mexicana"
+    ]
+  },
+  "a65dcf3d-b93a-4b2c-92db-b4d5f1fd4e1e": {
+    "en": "Which alcoholic drink is made from fermented grapes?",
+    "text": "Qual bebida alcoólica é feita de uvas fermentadas?",
+    "accepted": [
+      "Vinho",
+      "Vinho tinto",
+      "Vinho branco",
+      "Vinhos",
+      "Rosé",
+      "Rose",
+      "Vino",
+      "Wine"
+    ]
+  },
+  "8777cf9c-ad05-4381-831d-fdbe8e97e782": {
+    "en": "How many players does each football (soccer) team have on the pitch?",
+    "text": "Quantos jogadores cada time de futebol tem em campo?",
+    "answers": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ]
+  },
+  "8bc06cc3-41d5-48fb-b558-a0e7211cd256": {
+    "en": "How many rings are on the Olympic flag?",
+    "text": "Quantos aros tem a bandeira olímpica?",
+    "answers": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "bc53010b-e468-4440-b51f-1e8e88af45a9": {
+    "en": "In basketball, how many points is a shot from behind the arc worth?",
+    "text": "No basquete, quantos pontos vale um arremesso atrás da linha de três pontos?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  "d861a43a-aa1f-4890-8756-19fc302921f3": {
+    "en": "Which sport is played with a shuttlecock?",
+    "text": "Qual esporte é jogado com uma peteca?",
+    "answers": [
+      "Squash",
+      "Tênis de mesa",
+      "Badminton",
+      "Vôlei"
+    ]
+  },
+  "b74a73e3-86ad-4c53-9ad8-d9959e914da9": {
+    "en": "How long is a standard football (soccer) match, not counting stoppage time?",
+    "text": "Quanto tempo dura uma partida padrão de futebol, sem contar acréscimos?",
+    "answers": [
+      "60 minutos",
+      "80 minutos",
+      "90 minutos",
+      "120 minutos"
+    ]
+  },
+  "e5177139-279d-43ba-9958-7a7f8ff4d66a": {
+    "en": "In which sport can you score a \"hole-in-one\"?",
+    "text": "Em qual esporte dá para fazer um “hole-in-one”?",
+    "answers": [
+      "Golfe",
+      "Boliche",
+      "Bilhar",
+      "Críquete"
+    ]
+  },
+  "2efd87ad-07be-4fbd-9049-16b0c884f7fa": {
+    "en": "Which country hosted the first modern Olympic Games in 1896?",
+    "text": "Qual país sediou os primeiros Jogos Olímpicos modernos, em 1896?",
+    "answers": [
+      "França",
+      "Grécia",
+      "Inglaterra",
+      "Itália"
+    ]
+  },
+  "6f4517f0-b61a-4482-8c7c-4f9e7a09247d": {
+    "en": "How many players from each team are on a basketball court at the same time?",
+    "text": "Quantos jogadores de cada time ficam na quadra de basquete ao mesmo tempo?",
+    "answers": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "b0b4d45e-7c09-442b-bba9-0fcffb41bc6e": {
+    "en": "The Tour de France is one of the world's most famous races in which sport?",
+    "text": "O Tour de France é uma das corridas mais famosas do mundo em qual esporte?",
+    "answers": [
+      "Corrida",
+      "Ciclismo",
+      "Automobilismo",
+      "Vela"
+    ]
+  },
+  "5d12f0e6-811f-489a-9320-5d65f5c62454": {
+    "en": "Which sport made Michael Jordan a global legend?",
+    "text": "Em qual esporte Michael Jordan virou uma lenda mundial?",
+    "answers": [
+      "Beisebol",
+      "Basquete",
+      "Futebol americano",
+      "Golfe"
+    ]
+  },
+  "7f301f40-bb88-4cd7-9822-4d51d3e99b3d": {
+    "en": "In which sport do players hit a \"puck\" instead of a ball?",
+    "text": "Em qual esporte os jogadores batem em um disco em vez de uma bola?",
+    "answers": [
+      "Hóquei no gelo",
+      "Curling",
+      "Polo aquático",
+      "Lacrosse"
+    ]
+  },
+  "03918dea-d42e-41dc-b17e-8877d98ca587": {
+    "en": "Roughly how long is a marathon?",
+    "text": "Uma maratona tem aproximadamente quantos quilômetros?",
+    "answers": [
+      "21 km",
+      "30 km",
+      "42 km",
+      "50 km"
+    ]
+  },
+  "ff362948-8ff9-4b08-97b1-e6782a964795": {
+    "en": "Sumo wrestling is the national sport of which country?",
+    "text": "A luta de sumô é o esporte nacional de qual país?",
+    "answers": [
+      "China",
+      "Coreia do Sul",
+      "Japão",
+      "Mongólia"
+    ]
+  },
+  "ce92e413-1961-4e02-9cc6-1d7f7e665b44": {
+    "en": "In football (soccer), which card does the referee show to send a player off?",
+    "text": "No futebol, qual cartão o árbitro mostra para expulsar um jogador?",
+    "answers": [
+      "Cartão amarelo",
+      "Cartão vermelho",
+      "Cartão azul",
+      "Cartão verde"
+    ]
+  },
+  "e0376cd2-b821-4778-a104-f2f21460e4f9": {
+    "en": "How many holes are played in a standard round of golf?",
+    "text": "Quantos buracos tem uma rodada padrão de golfe?",
+    "answers": [
+      "9",
+      "12",
+      "18",
+      "24"
+    ]
+  },
+  "470f370a-f1ff-46dc-ad04-0921db1801da": {
+    "en": "Usain Bolt became a world record holder in which event?",
+    "text": "Usain Bolt se tornou recordista mundial em qual modalidade?",
+    "answers": [
+      "Natação",
+      "Corrida de velocidade",
+      "Salto em distância",
+      "Ciclismo"
+    ]
+  },
+  "448ec511-95bf-40f4-9e1b-c12c083b0267": {
+    "en": "How many players from each team are on a volleyball court at once?",
+    "text": "Quantos jogadores de cada time ficam na quadra de vôlei ao mesmo tempo?",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "31b3a033-8fdd-40dd-8c2e-d5087aedbfbf": {
+    "en": "Muhammad Ali is considered one of the greatest athletes ever in which sport?",
+    "text": "Muhammad Ali é considerado um dos maiores atletas de todos os tempos em qual esporte?",
+    "answers": [
+      "Luta livre",
+      "Boxe",
+      "Judô",
+      "Kickboxing"
+    ]
+  },
+  "ad108c04-5948-421c-92cf-87d856111268": {
+    "en": "How many Grand Slam tournaments are there in tennis each year?",
+    "text": "Quantos torneios de Grand Slam acontecem no tênis a cada ano?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "66d937da-ec80-4572-84ed-902aed03fdbf": {
+    "en": "How many bones does an adult human body have?",
+    "text": "Quantos ossos tem o corpo humano adulto?",
+    "answers": [
+      "106",
+      "206",
+      "306",
+      "406"
+    ]
+  },
+  "b881df18-afa4-4f6d-b8d4-2f69928d90eb": {
+    "en": "What is the largest organ of the human body?",
+    "text": "Qual é o maior órgão do corpo humano?",
+    "answers": [
+      "Fígado",
+      "Pulmões",
+      "Pele",
+      "Cérebro"
+    ]
+  },
+  "79a5250b-5c10-48e6-9226-2beb082fe4d3": {
+    "en": "Which gas makes up most of the air we breathe?",
+    "text": "Qual gás compõe a maior parte do ar que respiramos?",
+    "answers": [
+      "Oxigênio",
+      "Nitrogênio",
+      "Dióxido de carbono",
+      "Hidrogênio"
+    ]
+  },
+  "04109646-2470-4e9a-b82d-aaf64ee50fb8": {
+    "en": "At sea level, water boils at what temperature?",
+    "text": "No nível do mar, a água ferve a que temperatura?",
+    "answers": [
+      "80 °C",
+      "90 °C",
+      "100 °C",
+      "120 °C"
+    ]
+  },
+  "53d74eaf-20e2-4dde-b2c0-667e94047ee8": {
+    "en": "What is the largest planet in our solar system?",
+    "text": "Qual é o maior planeta do nosso sistema solar?",
+    "answers": [
+      "Saturno",
+      "Júpiter",
+      "Netuno",
+      "Terra"
+    ]
+  },
+  "adef6293-e6aa-4850-be6c-f7739e07b347": {
+    "en": "How many teeth does an adult usually have, including wisdom teeth?",
+    "text": "Quantos dentes um adulto geralmente tem, incluindo os sisos?",
+    "answers": [
+      "24",
+      "28",
+      "32",
+      "36"
+    ]
+  },
+  "2e7bb5bd-dbe2-4b29-b666-9fcbe35f814f": {
+    "en": "Which planet is closest to the Sun?",
+    "text": "Qual planeta fica mais perto do Sol?",
+    "answers": [
+      "Vênus",
+      "Mercúrio",
+      "Marte",
+      "Terra"
+    ]
+  },
+  "5f4a008d-499e-4bc0-97a6-616d03dfb26d": {
+    "en": "What is the chemical formula for water?",
+    "text": "Qual é a fórmula química da água?",
+    "answers": [
+      "CO2",
+      "H2O",
+      "O2",
+      "NaCl"
+    ]
+  },
+  "30ec3ae6-6d94-49df-a591-f425c03aea90": {
+    "en": "Which blood type is known as the \"universal donor\"?",
+    "text": "Qual tipo sanguíneo é conhecido como “doador universal”?",
+    "answers": [
+      "A positivo",
+      "B negativo",
+      "AB positivo",
+      "O negativo"
+    ]
+  },
+  "1ba39886-208f-42cc-b5e8-b669b49fa583": {
+    "en": "How long does it take the Earth to travel once around the Sun?",
+    "text": "Quanto tempo a Terra leva para dar uma volta ao redor do Sol?",
+    "answers": [
+      "1 dia",
+      "1 semana",
+      "1 mês",
+      "1 ano"
+    ]
+  },
+  "9c4656bf-e418-43a7-853c-5807919a8b22": {
+    "en": "The smallest bone in the human body is found in which part of the body?",
+    "text": "Em que parte do corpo fica o menor osso do corpo humano?",
+    "answers": [
+      "Dedo",
+      "Ouvido",
+      "Nariz",
+      "Dedo do pé"
+    ]
+  },
+  "9ccb760a-3543-48a3-bca4-7b133a9a147c": {
+    "en": "Which vitamin does your body make when your skin gets sunlight?",
+    "text": "Qual vitamina seu corpo produz quando a pele pega sol?",
+    "answers": [
+      "Vitamina A",
+      "Vitamina B12",
+      "Vitamina C",
+      "Vitamina D"
+    ]
+  },
+  "18255e04-f4d6-44cf-9d19-201792d1a91f": {
+    "en": "How many planets are in our solar system?",
+    "text": "Quantos planetas existem no nosso Sistema Solar?",
+    "answers": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ]
+  },
+  "94e3ba92-0a32-47a3-8762-d141d5e3a183": {
+    "en": "Which force pulls objects toward the ground when you drop them?",
+    "text": "Qual força puxa os objetos para o chão quando você os solta?",
+    "answers": [
+      "Magnetismo",
+      "Atrito",
+      "Gravidade",
+      "Eletricidade"
+    ]
+  },
+  "406d0c4d-062e-4fc9-8ac0-16e35645a12e": {
+    "en": "Which scientist is famous for the theory of relativity?",
+    "text": "Qual cientista ficou famoso pela teoria da relatividade?",
+    "answers": [
+      "Isaac Newton",
+      "Nikola Tesla",
+      "Albert Einstein",
+      "Charles Darwin"
+    ]
+  },
+  "4f0e8e7a-a404-4e28-ba7d-184e88177cac": {
+    "en": "In which animated film does a young lion named Simba become king?",
+    "text": "Em qual animação um jovem leão chamado Simba vira rei?",
+    "answers": [
+      "Mogli: O Menino Lobo",
+      "Madagascar",
+      "O Rei Leão",
+      "Tarzan"
+    ]
+  },
+  "5f150e47-227f-4d1d-991e-f0624b6da732": {
+    "en": "What is the name of the wizarding school Harry Potter attends?",
+    "text": "Qual é o nome da escola de magia que Harry Potter frequenta?",
+    "answers": [
+      "Nárnia",
+      "Hogwarts",
+      "Gotham",
+      "Valfenda"
+    ]
+  },
+  "42580561-ded8-4a9f-bee4-4a9dac914ceb": {
+    "en": "John, Paul, George and Ringo were the members of which legendary band?",
+    "text": "John, Paul, George e Ringo eram integrantes de qual banda lendária?",
+    "answers": [
+      "The Rolling Stones",
+      "Queen",
+      "The Beatles",
+      "ABBA"
+    ]
+  },
+  "e757c23e-fdde-4bbe-aa9c-4d068f5b4787": {
+    "en": "Which superhero is known as the \"Man of Steel\"?",
+    "text": "Qual super-herói é conhecido como “Homem de Aço”?",
+    "answers": [
+      "Batman",
+      "Homem de Ferro",
+      "Superman",
+      "Homem-Aranha"
+    ]
+  },
+  "ee441246-10de-4b35-9265-842c9d2d761d": {
+    "en": "Which famous fictional detective lives at 221B Baker Street?",
+    "text": "Qual famoso detetive fictício mora na 221B Baker Street?",
+    "answers": [
+      "Hercule Poirot",
+      "Sherlock Holmes",
+      "James Bond",
+      "Indiana Jones"
+    ]
+  },
+  "6d5f5c00-4706-4eb4-a7e3-4124932add70": {
+    "en": "Which ship sinks in the 1997 film starring Leonardo DiCaprio and Kate Winslet?",
+    "text": "Qual navio afunda no filme de 1997 com Leonardo DiCaprio e Kate Winslet?",
+    "answers": [
+      "Poseidon",
+      "Titanic",
+      "Pérola Negra",
+      "Queen Mary"
+    ]
+  },
+  "07691c96-35a5-4bd4-8b5a-562834877635": {
+    "en": "Who is Mickey Mouse's girlfriend?",
+    "text": "Quem é a namorada do Mickey Mouse?",
+    "answers": [
+      "Margarida",
+      "Minnie Mouse",
+      "Betty Boop",
+      "Jessica Rabbit"
+    ]
+  },
+  "b5b94a65-fed5-48cc-9e59-2fa7da99e027": {
+    "en": "What color does the Hulk turn when he gets angry?",
+    "text": "Que cor o Hulk fica quando está com raiva?",
+    "answers": [
+      "Vermelho",
+      "Azul",
+      "Verde",
+      "Roxo"
+    ]
+  },
+  "1fcb25d2-57d4-4a43-bc7d-6503751ac0bd": {
+    "en": "Which musical instrument usually has 88 keys?",
+    "text": "Qual instrumento musical geralmente tem 88 teclas?",
+    "answers": [
+      "Acordeão",
+      "Piano",
+      "Harpa",
+      "Órgão"
+    ]
+  },
+  "70c1e912-e703-4c28-8b68-fc55363fc96f": {
+    "en": "Which yellow cartoon family lives in the town of Springfield?",
+    "text": "Qual família amarela dos desenhos mora na cidade de Springfield?",
+    "answers": [
+      "Os Flintstones",
+      "Os Simpsons",
+      "A Família Addams",
+      "Os Incríveis"
+    ]
+  },
+  "e6af68c7-cfd6-4fee-8949-ad182b20c596": {
+    "en": "Which famous video game character is an Italian plumber?",
+    "text": "Qual personagem famoso dos videogames é um encanador italiano?",
+    "answers": [
+      "Sonic",
+      "Mario",
+      "Pac-Man",
+      "Link"
+    ]
+  },
+  "e597ee36-f357-4ca7-91c3-430633c04158": {
+    "en": "Which fairy-tale character leaves a glass slipper behind at the ball?",
+    "text": "Qual personagem de conto de fadas deixa um sapatinho de cristal para trás no baile?",
+    "answers": [
+      "Branca de Neve",
+      "Cinderela",
+      "Rapunzel",
+      "Bela Adormecida"
+    ]
+  },
+  "c98b5d34-10f7-4aa0-b7bd-ab549781cc63": {
+    "en": "In \"Finding Nemo\", what kind of fish is Nemo?",
+    "text": "Em “Procurando Nemo”, que tipo de peixe é o Nemo?",
+    "answers": [
+      "Peixinho dourado",
+      "Baiacu",
+      "Peixe-palhaço",
+      "Peixe-anjo"
+    ]
+  },
+  "4e4bfb42-2755-4d4c-8c5a-ab447668af3a": {
+    "en": "Which toy brand is famous for its colorful plastic building bricks?",
+    "text": "Qual marca de brinquedos é famosa pelos blocos de montar coloridos de plástico?",
+    "answers": [
+      "Barbie",
+      "Hot Wheels",
+      "LEGO",
+      "Playmobil"
+    ]
+  },
+  "e31805cd-d8c7-4d1e-8c2b-28df2ce2a412": {
+    "en": "Which famous Leonardo da Vinci painting shows a woman with a mysterious smile?",
+    "text": "Qual pintura famosa de Leonardo da Vinci mostra uma mulher com um sorriso misterioso?",
+    "answers": [
+      "A Noite Estrelada",
+      "Mona Lisa",
+      "O Grito",
+      "Moça com Brinco de Pérola"
+    ]
+  },
+  "3104ed09-5f7c-4629-b071-53d9dee2d10a": {
+    "en": "Who is credited with inventing the telephone?",
+    "text": "A quem é atribuída a invenção do telefone?",
+    "answers": [
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Nikola Tesla",
+      "Guglielmo Marconi"
+    ]
+  },
+  "8b5365af-e8cc-4486-9637-7782e4301b3b": {
+    "en": "Which of the Seven Wonders of the Ancient World is still standing today?",
+    "text": "Qual das Sete Maravilhas do Mundo Antigo ainda está de pé hoje?",
+    "answers": [
+      "Colosso de Rodes",
+      "Grande Pirâmide de Gizé",
+      "Jardins Suspensos da Babilônia",
+      "Farol de Alexandria"
+    ]
+  },
+  "4ca1bd44-e128-4f6a-b188-b56e814b331e": {
+    "en": "Who was the first person to walk on the Moon?",
+    "text": "Quem foi a primeira pessoa a pisar na Lua?",
+    "answers": [
+      "Yuri Gagarin",
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "Michael Collins"
+    ]
+  },
+  "9e9b93d0-7f5e-46d6-9578-bd3f41347a07": {
+    "en": "In which year did World War II end?",
+    "text": "Em que ano terminou a Segunda Guerra Mundial?",
+    "answers": [
+      "1918",
+      "1939",
+      "1945",
+      "1950"
+    ]
+  },
+  "1fe111a8-2b47-47f0-aa0c-a866284920b9": {
+    "en": "The Great Wall was built to protect which country?",
+    "text": "A Grande Muralha foi construída para proteger qual país?",
+    "answers": [
+      "Japão",
+      "Mongólia",
+      "China",
+      "Índia"
+    ]
+  }
+}
