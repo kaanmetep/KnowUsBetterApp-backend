@@ -90,6 +90,8 @@ export interface Player {
   supportsReactions?: boolean;
   supportsRankIt?: boolean;
   supportsDailyAnalysis?: boolean;
+  /** Agreed (on their device) to their answers going to OpenAI for a daily analysis. */
+  aiConsent?: boolean;
 }
 
 /** The topic a daily_analysis game is played on, decided when it starts. */
@@ -154,6 +156,7 @@ export type RoomErrorCode =
   | "USER_BANNED"
   | "DAILY_ANALYSIS_COOLDOWN"
   | "DAILY_ANALYSIS_PARTNER_COOLDOWN"
+  | "AI_CONSENT_REQUIRED"
   | "REQUEST_FAILED";
 
 export interface JoinRoomError {
