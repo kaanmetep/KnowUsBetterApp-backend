@@ -1176,7 +1176,8 @@ async function removeFromRoom(
   });
   if (result.cancelled) clearRoundTimer(roomCode);
   if (result.cancelled || !result.room?.players.length) {
-    await endUnfinishedGame(roomCode, false);
+    // A restart isn't anyone's fault, so the host gets the start cost back.
+    await endUnfinishedGame(roomCode, shuttingDown);
   }
   return result;
 }
@@ -1619,6 +1620,15 @@ io.on(
               code: supportsMode(player)
                 ? "PARTNER_UPDATE_REQUIRED"
                 : "UPDATE_REQUIRED",
+            });
+            return;
+          }
+
+          // Every player agreed on their device to their answers going to OpenAI.
+          if (daily && !room.players.every((p) => p.aiConsent === true)) {
+            socket.emit("room-error", {
+              message: "Your partner needs to accept the daily analysis terms first.",
+              code: "AI_CONSENT_REQUIRED",
             });
             return;
           }
@@ -2587,6 +2597,25 @@ io.on(
         }
       },
     );
+
+    // A player agreed on their device to the daily analysis sending their
+    // answers to OpenAI; the host can't start one until everyone has.
+    socket.on("ai-consent", async ({ roomCode }: { roomCode: string }) => {
+      try {
+        if (typeof roomCode !== "string" || !roomCode) return;
+        const room = await roomManager.withRoomLock(roomCode, async () => {
+          const current = await roomManager.getRoom(roomCode);
+          const player = current?.players.find((p) => p.id === socket.id);
+          if (!current || !player || player.aiConsent) return null;
+          player.aiConsent = true;
+          await roomManager.updateRoom(current);
+          return current;
+        });
+        if (room) io.to(roomCode).emit("room-updated", { room });
+      } catch (error) {
+        console.error("Error saving AI consent:", error);
+      }
+    });
 
     socket.on("leave-room", async ({ roomCode }: { roomCode: string }) => {
       try {

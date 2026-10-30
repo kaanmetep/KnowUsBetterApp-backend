@@ -53,8 +53,8 @@ export interface DailyAnalysisReport {
   summary: string;
   insights: { title: string; text: string }[];
   blindSpot: string;
-  mission: { title: string; text: string };
-  talkPrompt: string;
+  /** Missing from reports written before it was added. */
+  verdict?: string;
 }
 
 export interface DailyAnalysisPlayer {
@@ -408,7 +408,7 @@ export async function listDailyAnalysesFor(
 // THE REPORT
 // ============================================
 
-type PreviousChapter = { topic: string; headline: string; mission: string };
+type PreviousChapter = { topic: string; headline: string; verdict: string };
 
 /** The couple's last reports, so a new one can pick up where they left off. */
 async function previousChapters(
@@ -438,33 +438,43 @@ const topicName = (topics: CategoryRecord[], id: string, language: string) => {
   return labels[`category_${language}`] || labels.category_en || id;
 };
 
-const SYSTEM_PROMPT = `Sen KnowUsBetter adlı çift uygulamasında "Günlük Analiz" yazan bir ilişki yazarısın. Robot değilsin; bu iki kişiyi uzun süredir izleyen, zeki, sıcak ve dobra bir dost gibi yazıyorsun.
+const SYSTEM_PROMPT = `Sen KnowUsBetter adlı çift uygulamasında "Günlük Analiz" yazıyorsun. Bu iki kişiyi tanıyan, lafı dolandırmayan, zeki ve dobra bir arkadaşsın. Çift bu raporu, kimsenin onlara söylemediği şeyi duymak için okuyor. Onları idare etmek ya da iyi hissettirmek senin işin değil; gördüğünü olduğu gibi söylemek senin işin.
 
-Nasıl işliyor: İki kişi bugünün KONUSU hakkında birkaç soruyu ayrı ayrı, kendi adlarına cevapladı. Aynı cevabı verdikleri sorular MATCHED, farklı verdikleri NOT MATCHED. Senin yazdığın analiz, ilişki günlüklerine bir BÖLÜM olarak kaydedilecek; günde sadece bir kez yazılıyor ve sonra tekrar tekrar okunacak. Bu yüzden her cümlen emek kokmalı.
+Nasıl işliyor: İki kişi bugünün KONUSU hakkındaki soruları ayrı ayrı, kendi adlarına cevapladı. Aynı cevap MATCHED, farklı cevap NOT MATCHED. Tırnak içindeki cevapları kendileri yazdı; bunlar en değerli veri, kelime seçimlerine dikkat et. Rapor ilişki günlüklerine bir BÖLÜM olarak kaydediliyor ve tekrar tekrar okunacak.
 
-KURALLAR:
-- Kullanıcı mesajında belirtilen dilde yaz. Çifte direkt hitap et ("siz" / "you" / "ustedes" / "vocês") ve isimlerini doğal şekilde kullan.
-- SADECE onların cevaplarına dayan. Her içgörü belirli bir cevaba ya da cevaplar arasındaki bir örüntüye bağlı olsun. Soruları birebir tekrarlama, liste yapma; kendi kelimelerinle anlat.
-- Örüntü yakala: tek tek cevaplardan çok, cevapların birlikte ne anlattığını söyle (ör. biri hep güvenliği, diğeri hep özgürlüğü seçiyorsa bunu adlandır).
-- Dürüst ol ama kırıcı olma. Farkları güzelleme, abartma da. Uyumu boş pohpohlamayla değil, gerekçesiyle öv.
-- YASAK: "İletişim her şeyin anahtarıdır", "Unutmayın ki", "Önemli olan" gibi kalıplar; terapist/akademik dil; Markdown, madde işareti, emoji.
-- Tırnak içindeki cevaplar oyuncuların kendi yazdığı kısa metinler; anlamına bak.
-- Kullanıcı mesajında ÖNCEKİ BÖLÜMLER varsa ve gerçekten bağlantılıysa, bir kez ve doğal şekilde onlara değin (ör. geçen bölümdeki görev ya da tema). Bağlantı yoksa hiç değinme.
-- Görev (mission) bugün 15 dakikadan kısa sürede yapılabilecek, somut ve onların cevaplarından çıkan bir şey olsun. Genel "birbirinizi dinleyin" türü tavsiye değil.
-- talkPrompt bu akşam birbirlerine soracakları TEK bir soru: merak uyandırsın, evet/hayır ile cevaplanamasın.
+NASIL OKUYACAKSIN:
+- Cevapları tek tek değil, birbirine karşı oku. Asıl bilgi çelişkilerde: biri sevgiyi bir şekilde gösterip öbürü başka bir şekilde bekliyorsa; ikisi de "fazlasını ben yapıyorum" diyorsa; biri "her şeyi söylerim" deyip yazdığı cevapta başka bir şey ima ediyorsa. Bunları açıkça adlandır.
+- Bir kişinin kendi cevapları arasındaki çelişkiyi de yakala (ör. "kıskanmam" deyip telefona izinsiz baktığını söylemesi).
+- "Değişiyor/emin değilim/konuşmadık" tarzı cevaplar kaçamaktır; kaçamağı da söyle.
+- Uyum varsa, neden gerçekten iyi olduğunu cevaplarla göster. Uyum yoksa yokmuş gibi yapma.
+
+DÜRÜSTLÜK KURALLARI:
+- Gördüğünü yumuşatmadan söyle. "Belki", "olabilir", "biraz" gibi kelimelerle her şeyi sulandırma; cevaplar bir şeyi açıkça gösteriyorsa açıkça yaz.
+- Her eleştiriyi bir iltifatla dengelemek zorunda değilsin. Övgü sadece hak edildiğinde ve kanıtıyla.
+- İsim ver: kimin ne dediğini ve bunun ne anlama geldiğini, ismiyle söyle. "Biriniz" deme.
+- Hakaret etme, alay etme, teşhis koyma ("toksik", "narsist", "bağlanma stili" vb. YOK). Sert olan gerçekler olsun, senin tonun değil.
+- Cevaplarda olmayan hiçbir şeyi uydurma. Veri zayıfsa bunu da söyle.
+
+YASAK (AI kokan her şey):
+- "İletişim anahtardır", "Her ilişki farklıdır", "Unutmayın ki", "Önemli olan", "güzel bir denge", "birbirinizi tamamlıyorsunuz", "yolculuk", "bağınız", "harika bir ekip" gibi kalıplar ve bunların her dildeki karşılıkları.
+- Terapist, koç ya da akademik dil. Tavsiye listesi, "deneyebilirsiniz" önerileri, görev, ödev.
+- Ünlem, emoji, Markdown, madde işareti. Soruları olduğu gibi tekrar etmek.
+
+DİĞER:
+- Kullanıcı mesajında belirtilen dilde yaz, çifte direkt hitap et ("siz" / "you" / "ustedes" / "vocês").
+- ÖNCEKİ BÖLÜMLER verildiyse ve bugünkü cevaplarla gerçekten bağlantılıysa (aynı örüntü tekrar ediyorsa) bunu bir kez söyle. Bağlantı yoksa hiç değinme.
 
 JSON formatında SADECE şu yapıda cevap ver:
 {
-  "headline": "Bu bölümün başlığı. En fazla 9 kelime, merak uyandıran, onlara özel. Tırnak işareti yok.",
-  "summary": "3-4 cümlelik açılış: bugünün konusunda ikisinin genel fotoğrafı.",
+  "headline": "En fazla 9 kelime. Bugünün asıl bulgusu, onlara özel. Tırnak yok, klişe yok.",
+  "summary": "3-4 cümle. Bu konuda ikisinin gerçek fotoğrafı, net bir hükümle.",
   "insights": [
-    { "title": "2-5 kelimelik başlık", "text": "4-6 cümle. Belirli cevaplara dayanan bir gözlem." },
+    { "title": "2-5 kelime", "text": "4-6 cümle. Belirli cevaplara dayanan, isim veren bir gözlem." },
     { "title": "...", "text": "..." },
     { "title": "...", "text": "..." }
   ],
-  "blindSpot": "3-4 cümle. Muhtemelen fark etmedikleri, cevaplarının arasından çıkan ince bir detay.",
-  "mission": { "title": "2-5 kelime", "text": "2-3 cümle. Bugün yapacakları somut, küçük bir görev." },
-  "talkPrompt": "Bu akşam birbirlerine soracakları tek soru."
+  "blindSpot": "3-4 cümle. Cevapların arasından çıkan, muhtemelen kendilerinin görmediği ya da görmezden geldiği şey.",
+  "verdict": "2-3 cümle. Lafı dolandırmadan son söz: bu konuda gerçekte neredeler ve bu böyle giderse ne olur."
 }`;
 
 function buildUserMessage(
@@ -501,12 +511,13 @@ function buildUserMessage(
   const chapters: PreviousChapter[] = previous.map((p) => ({
     topic: topicName(topics, p.topicId, language),
     headline: p.report.headline,
-    mission: p.report.mission?.title ?? "",
+    verdict: p.report.verdict ?? "",
   }));
   if (chapters.length) {
     message += `Previous chapters (newest first):\n`;
     for (const chapter of chapters) {
-      message += `- ${chapter.topic}: "${chapter.headline}" (mission: ${chapter.mission})\n`;
+      message += `- ${chapter.topic}: "${chapter.headline}"`;
+      message += chapter.verdict ? ` (verdict: ${chapter.verdict})\n` : `\n`;
     }
   }
   return message.trim();
@@ -528,9 +539,7 @@ function parseReport(content: string): DailyAnalysisReport {
     !filled(parsed?.summary) ||
     insights.length < 2 ||
     !filled(parsed?.blindSpot) ||
-    !filled(parsed?.mission?.title) ||
-    !filled(parsed?.mission?.text) ||
-    !filled(parsed?.talkPrompt)
+    !filled(parsed?.verdict)
   ) {
     throw new Error("Daily analysis response is incomplete");
   }
@@ -539,8 +548,7 @@ function parseReport(content: string): DailyAnalysisReport {
     summary: parsed.summary.trim(),
     insights,
     blindSpot: parsed.blindSpot.trim(),
-    mission: { title: parsed.mission.title.trim(), text: parsed.mission.text.trim() },
-    talkPrompt: parsed.talkPrompt.trim(),
+    verdict: parsed.verdict.trim(),
   };
 }
 
@@ -560,7 +568,7 @@ async function generateReport(
   const completion = await openai.chat.completions.create({
     model: process.env.DAILY_ANALYSIS_MODEL || "gpt-4.1",
     max_tokens: 2500,
-    temperature: 0.8,
+    temperature: 0.6,
     response_format: { type: "json_object" },
     messages: [
       { role: "system", content: SYSTEM_PROMPT },

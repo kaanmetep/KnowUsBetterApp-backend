@@ -55,7 +55,7 @@ VALUES (
   'daily_analysis',
   '{"category_en": "Daily Analysis", "category_tr": "Günlük Analiz", "category_es": "Análisis Diario", "category_pt": "Análise Diária"}'::jsonb,
   0,
-  'sparkles',
+  'calendar',
   'Ionicons'
 )
 ON CONFLICT (id) DO UPDATE SET
@@ -71,7 +71,7 @@ INSERT INTO public.categories (
 (
   'daily_analysis',
   '{"category_en": "Daily Analysis", "category_tr": "Günlük Analiz", "category_es": "Análisis Diario", "category_pt": "Análise Diária", "short_en": "Analysis", "short_tr": "Analiz", "short_es": "Análisis", "short_pt": "Análise"}'::jsonb,
-  'daily_analysis', '#F6EEF9', 'sparkles', 'Ionicons',
+  'daily_analysis', '#F6EEF9', 'calendar', 'Ionicons',
   5, false, true, NULL, 0, true
 ),
 (

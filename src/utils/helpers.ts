@@ -141,6 +141,8 @@ export interface ServerToClientEvents {
     error?: string;
   }) => void;
   "category-changed": (data: { room: any }) => void;
+  /** A player's state changed outside a game event (e.g. AI consent). */
+  "room-updated": (data: { room: any }) => void;
   /** The shared AI analysis of a finished game started, finished or failed. */
   "ai-analysis-update": (data: AiAnalysisUpdate) => void;
   /** The report of a daily_analysis game was written (or couldn't be). */
@@ -210,6 +212,7 @@ export interface ClientToServerEvents {
   }) => void;
   "claim-daily-reward": (data: { appUserId: string }) => void;
   "change-category": (data: { roomCode: string; category: Category }) => void;
+  "ai-consent": (data: { roomCode: string }) => void;
   "report-answer": (
     data: ReportAnswerData,
     ack?: (result: { success: boolean }) => void,
