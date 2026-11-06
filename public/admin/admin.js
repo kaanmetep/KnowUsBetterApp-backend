@@ -422,11 +422,13 @@
       ? rankPlayable
         ? { cls: " mc", label: `Sıralama · ${optionCount} seçenek` }
         : { cls: " warn", label: `⚠ Oyunda gösterilmez (${RANK_MIN_ANSWERS}-${RANK_MAX_ANSWERS} seçenek gerekli)` }
-      : q.question_type === "text"
-        ? { cls: " text", label: "Yazılı cevap" }
-        : q.have_answers
-          ? { cls: " mc", label: "Çoktan seçmeli" }
-          : { cls: "", label: "Yes / No" };
+      : isTwoTruthsCategory(q.category_id)
+        ? { cls: "", label: "Konu" }
+        : q.question_type === "text"
+          ? { cls: " text", label: "Yazılı cevap" }
+          : q.have_answers
+            ? { cls: " mc", label: "Çoktan seçmeli" }
+            : { cls: "", label: "Yes / No" };
 
     const correct =
       q.correct_answer == null
@@ -528,9 +530,14 @@
   const RANK_GROUP = "rank_it";
   const RANK_MIN_ANSWERS = 3;
   const RANK_MAX_ANSWERS = 5;
+  const TWO_TRUTHS_GROUP = "two_truths";
 
   function isRankCategory(categoryId) {
     return state.categories.find((c) => c.id === categoryId)?.group_id === RANK_GROUP;
+  }
+
+  function isTwoTruthsCategory(categoryId) {
+    return state.categories.find((c) => c.id === categoryId)?.group_id === TWO_TRUTHS_GROUP;
   }
 
   // Decorations AI output tends to add: "1.", "-", flag emojis, "EN:",
@@ -715,26 +722,39 @@
 
   // Trivia categories can't take a question without a correct answer, so the
   // switch stays on (and locked) there. Rank It categories lock the form to
-  // multiple choice with 3-5 options and no correct answer.
+  // multiple choice with 3-5 options and no correct answer. Two Truths topics
+  // are just a prompt: choice, no answers, no trivia.
   function setTrivia(on) {
     const category = $("f-category").value;
     const rank = isRankCategory(category);
+    const twoTruths = isTwoTruthsCategory(category);
     const locked = isTriviaCategory(category);
     if (rank) {
       setTextQuestion(false);
       setHaveAnswers(true);
     }
-    $("f-text-question").disabled = rank;
-    $("f-have-answers").disabled = rank;
-    $("text-question-row").classList.toggle("hidden", rank);
-    $("have-answers-row").classList.toggle("hidden", rank || $("f-text-question").checked);
-    $("trivia-row").classList.toggle("hidden", rank);
+    if (twoTruths) {
+      setTextQuestion(false);
+      setHaveAnswers(false);
+    }
+    $("f-text-question").disabled = rank || twoTruths;
+    $("f-have-answers").disabled = rank || twoTruths;
+    $("text-question-row").classList.toggle("hidden", rank || twoTruths);
+    $("have-answers-row").classList.toggle("hidden", rank || twoTruths || $("f-text-question").checked);
+    $("trivia-row").classList.toggle("hidden", rank || twoTruths);
     $("rank-note").classList.toggle("hidden", !rank);
+    $("two-truths-note").classList.toggle("hidden", !twoTruths);
+    $("f-texts-label").textContent = twoTruths
+      ? `Konu · her satır bir dil: ${LANG_ORDER}`
+      : `Soru · her satır bir dil: ${LANG_ORDER}`;
+    $("f-texts").placeholder = twoTruths
+      ? "Your childhood\nÇocukluğun\nTu infancia\nSua infância"
+      : "What is your partner's favorite movie?\nPartnerinin en sevdiği film ne?\n¿Cuál es la película favorita de tu pareja?\nQual é o filme favorito do seu amor?";
     $("f-answers-label").textContent = rank
       ? `Seçenekler · 3-5 tane · her biri ${LANGS.length} satır: ${LANG_ORDER}`
       : `Cevaplar · her cevap için ${LANGS.length} satır: ${LANG_ORDER}`;
-    $("f-trivia").checked = !rank && (on || locked);
-    $("f-trivia").disabled = rank || locked;
+    $("f-trivia").checked = !rank && !twoTruths && (on || locked);
+    $("f-trivia").disabled = rank || twoTruths || locked;
     renderAnswersPreview();
     renderCorrectBox();
     renderWeightBox();
@@ -750,7 +770,7 @@
   // its game mode, and anything but these plays as see your match.
 
   const DEFAULT_MATCH_WEIGHT = 5;
-  const NON_MATCH_GROUPS = ["know_each_other", "who_knows_better", "who_is_more_likely", "rank_it"];
+  const NON_MATCH_GROUPS = ["know_each_other", "who_knows_better", "who_is_more_likely", "rank_it", "two_truths"];
 
   function isMatchCategory(categoryId) {
     const category = state.categories.find((c) => c.id === categoryId);

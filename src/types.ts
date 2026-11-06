@@ -21,6 +21,8 @@ export const CLIENT_FEATURE_REACTIONS = "reactions";
 export const CLIENT_FEATURE_RANK_IT = "rank_it";
 // Builds that show the daily analysis report at the end of the game.
 export const CLIENT_FEATURE_DAILY_ANALYSIS = "daily_analysis";
+// Builds that can write and guess two_truths statements; older ones would show yes/no.
+export const CLIENT_FEATURE_TWO_TRUTHS = "two_truths";
 
 export type GameMode =
   | "see_your_match"
@@ -28,7 +30,22 @@ export type GameMode =
   | "who_knows_better"
   | "who_is_more_likely"
   | "rank_it"
-  | "daily_analysis";
+  | "daily_analysis"
+  | "two_truths";
+
+/**
+ * two_truths: every turn is a write round followed by a guess round (see
+ * utils/twoTruths). `statements` are filled in when the guess round starts,
+ * keyed by author; null for a player who didn't write in time.
+ */
+export type TwoTruthsRound =
+  | { phase: "write"; turn: number }
+  | {
+      phase: "guess";
+      turn: number;
+      writeId: string;
+      statements?: Record<string, string[] | null>;
+    };
 
 /** Weight of a see_your_match question with no `match_weight` set (range 1-10). */
 export const DEFAULT_MATCH_WEIGHT = 5;
@@ -50,6 +67,7 @@ export interface Question {
   isTrivia?: boolean;
   /** see_your_match only: how much this question counts toward the percentage. */
   matchWeight?: number;
+  twoTruths?: TwoTruthsRound;
 }
 
 /** What clients get as `question.correctAnswer` once a trivia round is over. */
@@ -71,6 +89,8 @@ export interface QuestionRound {
   correctAnswer?: RevealedAnswer;
   /** rank_it only: how close the two orders were, 0-100 (see utils/rankIt). */
   similarity?: number;
+  /** two_truths guess rounds only: index of each author's lie, revealed once the round is over. */
+  lies?: { [playerId: string]: number };
   status: "waiting_answers" | "completed";
   /** Server time the round was sent out; tells apart rounds of the same question in replays. */
   startedAt?: number;
@@ -90,6 +110,7 @@ export interface Player {
   supportsReactions?: boolean;
   supportsRankIt?: boolean;
   supportsDailyAnalysis?: boolean;
+  supportsTwoTruths?: boolean;
   /** Agreed (on their device) to their answers going to OpenAI for a daily analysis. */
   aiConsent?: boolean;
 }

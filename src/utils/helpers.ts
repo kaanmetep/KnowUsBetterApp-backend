@@ -68,6 +68,8 @@ export interface ServerToClientEvents {
     questionType: "choice" | "text";
     /** rank_it only, 0-100. */
     similarity?: number;
+    /** two_truths guess rounds only: each author's lie index. */
+    lies?: Record<string, number>;
     displayDuration: number;
     playerAnswers: Array<{
       playerId: string;
@@ -287,20 +289,29 @@ const DEFAULT_TEXT_RESULT_DISPLAY_DURATION = 6;
 // Dragging a list into order takes longer than a tap, and the result shows two lists.
 const RANK_QUESTION_DURATION = 30;
 const RANK_RESULT_DISPLAY_DURATION = 10;
+// Writing three statements takes a while; the reveal shows both players' three.
+const TWO_TRUTHS_WRITE_DURATION = 90;
+// The app shows no result for a write round; guessing starts right away.
+const TWO_TRUTHS_WRITE_RESULT_DURATION = 0;
+const TWO_TRUTHS_GUESS_DURATION = 40;
+const TWO_TRUTHS_GUESS_RESULT_DURATION = 12;
 
 export function isTextQuestion(question: Question | null | undefined): boolean {
   return question?.questionType === "text";
 }
 
 /** Single-line, length-capped, tag-free version of a typed answer ("" if unusable). */
-export function normalizeTextAnswer(raw: unknown): string {
+export function normalizeTextAnswer(
+  raw: unknown,
+  maxLength: number = TEXT_ANSWER_MAX_LENGTH,
+): string {
   if (typeof raw !== "string") return "";
   const collapsed = raw
     .replace(/[\u0000-\u001F\u007F]+/g, " ")
     .replace(/\s+/g, " ")
     .trim();
   const capped = Array.from(sanitizeMessage(collapsed).trim())
-    .slice(0, TEXT_ANSWER_MAX_LENGTH)
+    .slice(0, maxLength)
     .join("")
     .trim();
   return maskProfanity(capped);
@@ -335,6 +346,9 @@ export function getQuestionDuration(
   question: Question | null | undefined,
 ): number {
   if (settings.mode === "rank_it") return RANK_QUESTION_DURATION;
+  const phase = question?.twoTruths?.phase;
+  if (phase === "write") return TWO_TRUTHS_WRITE_DURATION;
+  if (phase === "guess") return TWO_TRUTHS_GUESS_DURATION;
   return isTextQuestion(question)
     ? settings.textQuestionDuration ?? DEFAULT_TEXT_QUESTION_DURATION
     : settings.questionDuration;
@@ -345,6 +359,9 @@ export function getResultDisplayDuration(
   question: Question | null | undefined,
 ): number {
   if (settings.mode === "rank_it") return RANK_RESULT_DISPLAY_DURATION;
+  const phase = question?.twoTruths?.phase;
+  if (phase === "write") return TWO_TRUTHS_WRITE_RESULT_DURATION;
+  if (phase === "guess") return TWO_TRUTHS_GUESS_RESULT_DURATION;
   return isTextQuestion(question)
     ? settings.textResultDisplayDuration ?? DEFAULT_TEXT_RESULT_DISPLAY_DURATION
     : settings.resultDisplayDuration;

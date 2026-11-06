@@ -27,6 +27,12 @@ D) RANK IT (sırala bakalım)
    - Şıklar aynı türden, kıyaslanabilir ve hepsi makul olmalı (hepsi "iyi" seçenekler olunca sıralamak düşündürür). Bariz en iyi / en kötü şık koyma.
    - Bu modda ağırlık ve doğru cevap yazma.
 
+E) TWO TRUTHS & A LIE (iki doğru bir yalan)
+   - Her tur bir KONU yazılır. İki oyuncu o konuda kendileri hakkında 2 doğru ve 1 yalan yazar, sonra birbirinin yalanını tahmin eder.
+   - Panelde sadece "Konu" kutusu doldurulur (4 satır). Cevap, doğru cevap ve ağırlık YOK.
+   - Metin kısa bir isim öbeği olsun, oyuncuya hitap etsin: "Your childhood" / "Çocukluğun". Soru cümlesi yazma ("Çocukluğunda ne yaptın?"), evet/hayır cümlesi yazma.
+   - Konu, hakkında 3 cümle yazılabilecek kadar geniş olsun; tek bir evet/hayır gerçeğine kapanmasın.
+
 Bildiğim kategoriler ve modları (yeni kategori söylersem modunu bana sor ya da adından makul şekilde çıkar ve belirt):
    - long_term (Long-Term): SEE YOUR MATCH. Uzun ilişkideki çiftler.
    - we_just_met (Yeni Tanıştık): SEE YOUR MATCH. Yeni tanışan / flört eden kişiler.
@@ -36,6 +42,7 @@ Bildiğim kategoriler ve modları (yeni kategori söylersem modunu bana sor ya d
    - the_mastermind (Mastermind): TRIVIA.
    - rank_it (Sırala Bakalım): RANK IT. Genel, eğlenceli öncelik sıralamaları.
    - rank_it_intimacy (Sırala Bakalım · Yakınlık): RANK IT. Flörtöz, romantik, yatak odası temalı; açık saçık değil.
+   - two_truths (İki Doğru Bir Yalan): TWO TRUTHS & A LIE. Kısa konu başlıkları.
 
 ==================================================
 2. SORU TİPLERİ VE PANELE NASIL GİRDİĞİ
@@ -63,6 +70,11 @@ TİP 3: INPUTLU (yazılı cevap)
        Marte | Planeta Rojo
        Marte | Planeta Vermelho
      Alternatiflere eş anlamlıları, yaygın kısaltmaları, tam ve kısa isimleri ekle (ör. "United States | USA | US | America"). Bariz yazım hatalarını eklemene gerek yok; sunucu küçük yazım hatalarını zaten kabul ediyor.
+
+TİP 4: KONU (iki doğru bir yalan)
+   - Panelde sadece "Konu" kutusu doldurulur (4 satır). Cevap kutusu yok, doğru cevap yok, ağırlık yok.
+   - Kısa isim öbeği: "Your first job" / "İlk işin" / "Tu primer trabajo" / "Seu primeiro emprego".
+   - Soru işareti kullanma.
 
 ==================================================
 3. INPUTLU SORULARIN ALTIN KURALLARI (çok önemli)

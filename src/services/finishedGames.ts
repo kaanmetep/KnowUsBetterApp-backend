@@ -3,6 +3,7 @@ import { DEFAULT_MATCH_WEIGHT, Room } from "../types.js";
 import { MatchTierConfig } from "../types/publicConfig.js";
 import { buildFinishedRounds } from "../utils/helpers.js";
 import { redis } from "../utils/redis.js";
+import { tallyTwoTruths } from "../utils/twoTruths.js";
 import { GameMode } from "./categoryService.js";
 
 /** Long enough to open the AI analysis after lingering on the results. */
@@ -17,6 +18,10 @@ export interface PlayerScore {
   total: number;
   percent: number;
   bestStreak: number;
+  /** two_truths only: the partner's lies this player caught. */
+  caught?: number;
+  /** two_truths only: how often the partner missed this player's lie. */
+  fooled?: number;
 }
 
 /**
@@ -27,6 +32,7 @@ export interface PlayerScore {
  * - who_is_more_likely: the tier for how often they agreed; the app counts
  *   the votes itself from the rounds
  * - rank_it: the tier for the average similarity of their orders
+ * - two_truths: each player's points (`correct` = caught + fooled)
  */
 export interface GameSummary {
   mode: GameMode;
@@ -118,12 +124,31 @@ function triviaScores(room: Room): PlayerScore[] {
   });
 }
 
+function twoTruthsScores(room: Room): PlayerScore[] {
+  return tallyTwoTruths(
+    room.players.map((player) => player.id),
+    room.completedRounds,
+  ).map(({ playerId, caught, fooled, chances }) => ({
+    playerId,
+    correct: caught + fooled,
+    total: chances,
+    percent: percentOf(caught + fooled, chances),
+    bestStreak: 0,
+    caught,
+    fooled,
+  }));
+}
+
 export function summarizeGame(
   room: Room,
   mode: GameMode,
   percentage: number,
   tiers: MatchTierConfig[],
 ): GameSummary {
+  if (mode === "two_truths") {
+    const players = twoTruthsScores(room);
+    return { mode, players, winnerId: winnerBy(players, "correct") };
+  }
   if (mode === "who_knows_better") {
     const players = triviaScores(room);
     return { mode, players, winnerId: winnerBy(players, "correct") };
@@ -137,10 +162,20 @@ export function summarizeGame(
 
 /**
  * see_your_match weighs each round by its question's `matchWeight`; rank_it
- * averages the rounds' similarity; the other modes (and rooms stored before
- * modes existed count as see_your_match) count every round once.
+ * averages the rounds' similarity; two_truths is the share of lies caught;
+ * the other modes (and rooms stored before modes existed count as
+ * see_your_match) count every round once.
  */
 export function getGamePercentage(room: Room): number {
+  if (room.settings.mode === "two_truths") {
+    const tallies = tallyTwoTruths(
+      room.players.map((player) => player.id),
+      room.completedRounds,
+    );
+    const caught = tallies.reduce((sum, t) => sum + t.caught, 0);
+    const toCatch = tallies.reduce((sum, t) => sum + t.caught + t.fooled, 0);
+    return percentOf(caught, toCatch);
+  }
   if (room.settings.mode === "rank_it") {
     const scored = room.completedRounds.filter((round) => round.isScored !== false);
     if (!scored.length) return 0;

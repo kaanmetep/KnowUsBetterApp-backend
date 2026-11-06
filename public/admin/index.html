@@ -287,7 +287,7 @@
             <label for="f-category">Kategori</label>
             <select id="f-category" required></select>
 
-            <label for="f-texts">Soru · her satır bir dil: 🇬🇧 EN → 🇹🇷 TR → 🇪🇸 ES → 🇧🇷 PT</label>
+            <label id="f-texts-label" for="f-texts">Soru · her satır bir dil: 🇬🇧 EN → 🇹🇷 TR → 🇪🇸 ES → 🇧🇷 PT</label>
             <textarea
               id="f-texts"
               rows="5"
@@ -300,6 +300,12 @@
             <div id="rank-note" class="preview hidden">
               <div class="preview-status ok" style="font-weight:500; line-height:1.45">
                 Sırala Bakalım: çoktan seçmeli, 3-5 seçenek. Oyuncular seçenekleri sürükleyip sıralar; oyunda karışık sırayla gelir, yazdığın sıra önemli değil. Sıralamanın yönünü soruda söyle ("en önemliden en önemsize").
+              </div>
+            </div>
+
+            <div id="two-truths-note" class="preview hidden">
+              <div class="preview-status ok" style="font-weight:500; line-height:1.45">
+                İki Doğru Bir Yalan: sadece konu yazılır, cevap yok. Kısa bir isim öbeği olsun, soru değil ("Çocukluğun", "Your childhood"). Oyuncular bu konuda kendileri hakkında 2 doğru ve 1 yalan yazar.
               </div>
             </div>
 

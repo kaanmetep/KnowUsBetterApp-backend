@@ -75,6 +75,8 @@ const MODES: Record<string, string> = {
     "Both players vote who fits the sentence better: me, my partner, both or neither. The text is always a 'Who is more likely to ...?' question.",
   rank_it:
     "Players drag the options into order. Keep the direction of the ranking (most to least, best to worst) and keep options short and parallel.",
+  two_truths:
+    "Two truths and a lie: the text is a short topic each player writes two true statements and one lie about ('Your childhood'). Keep it a short noun phrase addressed to the player, not a question.",
 };
 
 // ---------- data ----------
