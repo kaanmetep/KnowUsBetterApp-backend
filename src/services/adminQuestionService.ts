@@ -208,6 +208,20 @@ async function assertValidCategory(input: QuestionInput): Promise<void> {
       );
     }
   }
+  if (rows[0].group_id === "two_truths") {
+    if (
+      input.question_type !== "choice" ||
+      input.have_answers ||
+      input.correct_answer != null ||
+      input.match_weight != null
+    ) {
+      throw new AppError(
+        "Two Truths topics are plain prompts: yes/no type with no answers, correct_answer or match_weight",
+        400,
+        "VALIDATION_ERROR",
+      );
+    }
+  }
   if (TRIVIA_CATEGORY_IDS.includes(input.category_id) && input.correct_answer == null) {
     throw new AppError(
       `Questions in ${input.category_id} need a correct_answer`,

@@ -27,6 +27,7 @@ import {
   CLIENT_FEATURE_REACTIONS,
   CLIENT_FEATURE_RANK_IT,
   CLIENT_FEATURE_DAILY_ANALYSIS,
+  CLIENT_FEATURE_TWO_TRUTHS,
   DailyTopic,
 } from "./types.js";
 import {
@@ -132,6 +133,19 @@ import {
   rankingSimilarity,
   rankItemCount,
 } from "./utils/rankIt.js";
+import {
+  buildTwoTruthsRounds,
+  decodeStatements,
+  encodeStatements,
+  isGuessRound,
+  isWriteRound,
+  parseGuess,
+  parseSubmission,
+  shuffleStatements,
+  STATEMENT_MAX_LENGTH,
+  TWO_TRUTHS_TURNS,
+} from "./utils/twoTruths.js";
+import { loadLies, saveLie } from "./services/twoTruthsSecrets.js";
 
 warmUpProfanityFilter();
 warmUpTextMatcher();
@@ -455,6 +469,10 @@ const supportsRankIt = (clientFeatures: unknown): boolean =>
 const supportsDailyAnalysis = (clientFeatures: unknown): boolean =>
   Array.isArray(clientFeatures) &&
   clientFeatures.includes(CLIENT_FEATURE_DAILY_ANALYSIS);
+
+const supportsTwoTruths = (clientFeatures: unknown): boolean =>
+  Array.isArray(clientFeatures) &&
+  clientFeatures.includes(CLIENT_FEATURE_TWO_TRUTHS);
 
 type AppSocket = Socket<ClientToServerEvents, ServerToClientEvents, {}, SocketData>;
 
@@ -837,10 +855,29 @@ async function completeRound(
   const isText = isTextQuestion(question);
   const answerKey = await getAnswerKey(question, supabaseAdmin);
   let isMatched = false;
+  let isScored = true;
   let correct: QuestionRound["correct"];
   let similarity: number | undefined;
+  let lies: QuestionRound["lies"];
 
-  if (answerKey) {
+  if (isWriteRound(question)) {
+    // Writing only sets up the guess round that follows.
+    isScored = false;
+  } else if (question.twoTruths?.phase === "guess") {
+    const playerIds = Object.keys(round.answers);
+    const statements = question.twoTruths.statements ?? {};
+    const authors = playerIds.filter((id) => !!statements[id]);
+    lies = await loadLies(roomCode, question.twoTruths.writeId, authors);
+    correct = Object.fromEntries(
+      playerIds.map((guesserId) => {
+        const authorId = playerIds.find((id) => id !== guesserId);
+        const lie = authorId === undefined ? undefined : lies![authorId];
+        return [guesserId, lie !== undefined && round.answers[guesserId] === String(lie)];
+      }),
+    );
+    // "Matched" for two_truths = you both caught each other's lie.
+    isMatched = authors.length === 2 && Object.values(correct).every(Boolean);
+  } else if (answerKey) {
     const grades = await Promise.all(
       Object.entries(round.answers).map(
         async ([playerId, value]) =>
@@ -893,11 +930,15 @@ async function completeRound(
       return null;
     }
     current.isMatched = isMatched;
-    current.isScored = true;
+    current.isScored = isScored;
     current.status = "completed";
     if (answerKey && correct) {
       current.correct = correct;
       current.correctAnswer = revealAnswer(answerKey);
+    }
+    if (lies && correct) {
+      current.correct = correct;
+      current.lies = lies;
     }
     if (similarity !== undefined) current.similarity = similarity;
     room.totalQuestionsAnswered++;
@@ -917,16 +958,20 @@ async function completeRound(
   clearRoundTimer(roomCode);
 
   const { room, round: completed, isLast } = applied;
-  void markQuestionsSeen(roomAppUserIds(room), [question.id], supabaseAdmin);
+  // A guess round reuses its write round's question.
+  if (!isGuessRound(question)) {
+    void markQuestionsSeen(roomAppUserIds(room), [question.id], supabaseAdmin);
+  }
   const displayDuration = getResultDisplayDuration(room.settings, question);
   const percentage = getGamePercentage(room);
 
   io.to(roomCode).emit("round-completed", {
     allPlayersAnswered: true,
     isMatched,
-    isScored: true,
+    isScored,
     questionType: isText ? "text" : "choice",
     ...(similarity !== undefined && { similarity }),
+    ...(completed.lies && { lies: completed.lies }),
     displayDuration,
     playerAnswers: room.players.map((player) => ({
       playerId: player.id,
@@ -962,7 +1007,7 @@ async function advanceRound(
   startedAt: number | undefined,
 ): Promise<void> {
   type Outcome =
-    | { kind: "next"; room: Room; round: QuestionRound }
+    | { kind: "next"; room: Room; round: QuestionRound; skipped: string[] }
     | { kind: "cancelled"; room: Room | null }
     | { kind: "finish" };
 
@@ -982,18 +1027,48 @@ async function advanceRound(
       if (room.players.length < 2) {
         return { kind: "cancelled", room: await roomManager.resetRoom(roomCode) };
       }
-      const nextIndex = room.currentQuestionIndex + 1;
-      const nextQuestion = room.questions[nextIndex];
+      let nextIndex = room.currentQuestionIndex + 1;
+      let nextQuestion = room.questions[nextIndex];
+      let statements: Record<string, string[] | null> | null = null;
+      if (nextQuestion?.twoTruths?.phase === "guess") {
+        statements = Object.fromEntries(
+          Object.entries(round.answers).map(([id, value]) => [id, decodeStatements(value)]),
+        );
+        // Nobody wrote anything, so there's nothing to guess this turn.
+        if (!Object.values(statements).some(Boolean)) {
+          statements = null;
+          nextIndex++;
+          nextQuestion = room.questions[nextIndex];
+        }
+      }
       if (!nextQuestion) {
         room.status = "finished";
         room.currentRound = null;
         await roomManager.updateRoom(room);
         return { kind: "finish" };
       }
+      if (statements && nextQuestion.twoTruths?.phase === "guess") {
+        nextQuestion = {
+          ...nextQuestion,
+          twoTruths: { ...nextQuestion.twoTruths, statements },
+        };
+      }
       room.currentQuestionIndex = nextIndex;
       room.currentRound = newRound(room, nextQuestion);
+      // A player whose partner wrote nothing has nothing to guess.
+      const skipped: string[] = [];
+      if (statements) {
+        for (const guesserId of Object.keys(room.currentRound.answers)) {
+          const authorId = Object.keys(statements).find((id) => id !== guesserId);
+          if (authorId && statements[authorId]) continue;
+          room.currentRound.answers[guesserId] = NO_ANSWER;
+          const guesser = room.players.find((p) => p.id === guesserId);
+          if (guesser) guesser.hasAnswered = true;
+          skipped.push(guesserId);
+        }
+      }
       await roomManager.updateRoom(room);
-      return { kind: "next", room, round: room.currentRound };
+      return { kind: "next", room, round: room.currentRound, skipped };
     },
   );
   if (!outcome) return;
@@ -1012,7 +1087,7 @@ async function advanceRound(
     return;
   }
 
-  const { room, round } = outcome;
+  const { room, round, skipped } = outcome;
   io.to(roomCode).emit("next-question", {
     question: round.question,
     currentQuestionIndex: room.currentQuestionIndex,
@@ -1020,6 +1095,15 @@ async function advanceRound(
     serverTime: round.startedAt ?? Date.now(),
     duration: getQuestionDuration(room.settings, round.question),
   });
+  for (const playerId of skipped) {
+    const partner = room.players.find((p) => p.id !== playerId);
+    if (partner) {
+      io.to(partner.id).emit("player-answered", {
+        playerId,
+        playerName: room.players.find((p) => p.id === playerId)?.name,
+      });
+    }
+  }
   scheduleRoundTimeout(room, round, false);
 }
 
@@ -1403,6 +1487,7 @@ io.on(
             supportsReactions(clientFeatures),
             supportsRankIt(clientFeatures),
             supportsDailyAnalysis(clientFeatures),
+            supportsTwoTruths(clientFeatures),
           );
           socket.join(room.roomCode);
 
@@ -1460,6 +1545,7 @@ io.on(
               supportsReactions(clientFeatures),
               supportsRankIt(clientFeatures),
               supportsDailyAnalysis(clientFeatures),
+              supportsTwoTruths(clientFeatures),
             ),
           );
 
@@ -1603,6 +1689,7 @@ io.on(
           const moreLikely = categoryMode === "who_is_more_likely";
           const rankIt = categoryMode === "rank_it";
           const daily = categoryMode === "daily_analysis";
+          const twoTruths = categoryMode === "two_truths";
 
           // Older builds would show these questions as yes/no or multiple choice.
           const supportsMode = (p: Player) =>
@@ -1612,7 +1699,9 @@ io.on(
                 ? p.supportsRankIt === true
                 : daily
                   ? p.supportsDailyAnalysis === true
-                  : true;
+                  : twoTruths
+                    ? p.supportsTwoTruths === true
+                    : true;
           if (!room.players.every(supportsMode)) {
             socket.emit("room-error", {
               message:
@@ -1695,24 +1784,29 @@ io.on(
             }
           }
 
-          const questions = await fetchRandomQuestions(
+          const fetched = await fetchRandomQuestions(
             dailyTopic ? dailyTopic.id : room.settings.category,
             rankIt
               ? RANK_IT_QUESTION_COUNT
               : dailyTopic
                 ? DAILY_ANALYSIS_QUESTION_COUNT
-                : room.settings.totalQuestions,
+                : twoTruths
+                  ? TWO_TRUTHS_TURNS
+                  : room.settings.totalQuestions,
             supabaseAdmin,
             {
-              // Votes and rankings are picked, never typed.
+              // Votes and rankings are picked, never typed; two_truths topics
+              // are prompts, the statements are typed in their own form.
               includeText:
                 !moreLikely &&
                 !rankIt &&
+                !twoTruths &&
                 room.players.every((p) => p.supportsTextQuestions === true),
               appUserIds: roomAppUserIds(room),
               rankable: rankIt,
             },
           );
+          const questions = twoTruths ? buildTwoTruthsRounds(fetched) : fetched;
 
           // Check if we have questions
           if (!questions || questions.length === 0) {
@@ -1992,9 +2086,34 @@ io.on(
           }
 
           const question = room.currentRound.question;
+
+          // Moderated before the lock for the same reason as typed answers.
+          let written: { statements: string[]; lie: number } | null = null;
+          if (isWriteRound(question)) {
+            const submitted = parseSubmission(answer);
+            const statements = submitted?.statements.map((s) =>
+              normalizeTextAnswer(s, STATEMENT_MAX_LENGTH),
+            );
+            if (submitted && statements && statements.every(Boolean)) {
+              const harmful = await Promise.all(statements.map(isHarmfulText));
+              written = shuffleStatements(
+                statements.map((s, i) => (harmful[i] ? HIDDEN_TEXT_ANSWER : s)),
+                submitted.lie,
+              );
+            }
+          }
+
           let playerAnswer: string | MultiLanguageAnswer;
           if (isTextQuestion(question)) {
             playerAnswer = textAnswer ?? normalizeTextAnswer(answer);
+          } else if (question.twoTruths?.phase === "write") {
+            playerAnswer = written ? encodeStatements(written.statements) : NO_ANSWER;
+          } else if (question.twoTruths?.phase === "guess") {
+            const partnerId = Object.keys(room.currentRound.answers).find(
+              (id) => id !== socket.id,
+            );
+            const authored = partnerId ? question.twoTruths.statements?.[partnerId] : null;
+            playerAnswer = (authored && parseGuess(answer, authored.length)) || NO_ANSWER;
           } else if (typeof answer !== "string") {
             playerAnswer = NO_ANSWER;
           } else if (room.settings.mode === "who_is_more_likely") {
@@ -2034,6 +2153,8 @@ io.on(
               ) {
                 return null;
               }
+              // Saved with the answer, so a repeated submit can't reshuffle it.
+              if (written) await saveLie(roomCode, questionId, socket.id, written.lie);
               round.answers[socket.id] = playerAnswer;
               const player = lockedRoom.players.find((p) => p.id === socket.id);
               if (player) player.hasAnswered = true;

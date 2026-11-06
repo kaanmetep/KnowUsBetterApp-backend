@@ -23,6 +23,7 @@
     "test:notifications": "node --import tsx --test test/notifications.test.ts",
     "test:questions": "node --import tsx --test test/questionService.test.ts",
     "test:rank": "node --import tsx --test test/rankIt.test.ts",
+    "test:two-truths": "node --import tsx --test test/twoTruths.test.ts",
     "test:announcements": "node --import tsx --test test/announcements.test.ts",
     "test:languages": "node --import tsx --test test/languages.test.ts",
     "test:admin-push": "node test/testAdminPush.js",
