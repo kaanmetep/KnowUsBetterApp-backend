@@ -853,7 +853,9 @@ async function completeRound(
   const question = round.question;
   const [answer1, answer2] = answers;
   const isText = isTextQuestion(question);
-  const answerKey = await getAnswerKey(question, supabaseAdmin);
+  const answerKey = question.twoTruths
+    ? null
+    : await getAnswerKey(question, supabaseAdmin);
   let isMatched = false;
   let isScored = true;
   let correct: QuestionRound["correct"];
