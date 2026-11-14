@@ -110,6 +110,34 @@ export async function authorizeAppUser(
   return isAllowed(await checkAppUser(supabaseAdmin, appUserId, token));
 }
 
+const IDENTITY_SOURCES = new Set([
+  "storage",
+  "keychain",
+  "new",
+  "new_keychain_unreadable",
+  "memory",
+]);
+const KEYCHAIN_STATES = new Set(["ok", "missing", "other_id", "unreadable", "unsupported"]);
+
+export type IdentityReport = { source: string; keychain: string };
+
+/**
+ * Where the app got its appUserId and whether the Keychain holds it, as sent
+ * by the app; unknown values are dropped.
+ */
+export function parseIdentityReport(info: unknown): IdentityReport | null {
+  if (!info || typeof info !== "object") return null;
+  const { source, keychain } = info as Record<string, unknown>;
+  return {
+    source: typeof source === "string" && IDENTITY_SOURCES.has(source) ? source : "?",
+    keychain: typeof keychain === "string" && KEYCHAIN_STATES.has(keychain) ? keychain : "?",
+  };
+}
+
+/** An id that didn't come back from this install's storage, or that the Keychain doesn't hold. */
+export const isNotableIdentity = (report: IdentityReport) =>
+  report.source !== "storage" || (report.keychain !== "ok" && report.keychain !== "unsupported");
+
 export type ClaimResult =
   | { ok: true; token: string }
   | { ok: false; reason: "claimed" | "unavailable" | "error" };

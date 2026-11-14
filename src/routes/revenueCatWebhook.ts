@@ -61,13 +61,88 @@ async function releaseEvent(
   }
 }
 
+const appUserIds = (value: unknown): string[] =>
+  Array.isArray(value)
+    ? value.filter(
+        (id): id is string =>
+          typeof id === "string" && id !== "" && !id.startsWith("$RCAnonymousID:"),
+      )
+    : [];
+
+type TransferResult =
+  | { status: "moved"; target: string; newBalance: number; drained: string[] }
+  | { status: "duplicate" | "nothing_to_move" | "skipped" }
+  | { status: "error" };
+
+/**
+ * TRANSFER: the Apple account's purchases now belong to another appUserId
+ * (a reinstall that lost its id, or a second device), so the coins still on
+ * the old ids follow them.
+ */
+async function mergeTransferredWallets(
+  supabaseAdmin: SupabaseClient,
+  event: any,
+): Promise<TransferResult> {
+  const from = appUserIds(event.transferred_from);
+  const to = appUserIds(event.transferred_to);
+  const target =
+    typeof event.app_user_id === "string" && to.includes(event.app_user_id)
+      ? event.app_user_id
+      : to.length === 1
+        ? to[0]
+        : null;
+  if (typeof event.id !== "string" || !event.id || !target || from.length === 0) {
+    console.warn("⚠️ TRANSFER without a usable id, source or target:", {
+      id: event.id,
+      transferredFrom: event.transferred_from,
+      transferredTo: event.transferred_to,
+    });
+    return { status: "skipped" };
+  }
+
+  const { data, error } = await supabaseAdmin
+    .rpc("merge_transferred_wallets", {
+      p_event_id: event.id,
+      p_from: from,
+      p_to: target,
+    })
+    .single<{
+      status: string;
+      moved: number;
+      new_balance: number | null;
+      drained: string[] | null;
+    }>();
+  if (error || !data) {
+    // PGRST202: migrations/20261112_wallet_transfer.sql hasn't been applied yet.
+    console.error("❌ Failed to merge transferred wallets:", error);
+    return { status: "error" };
+  }
+
+  console.log(
+    `🔀 TRANSFER ${event.id}: ${from.join(", ")} → ${target}: ${data.status}` +
+      (data.status === "moved" ? `, ${data.moved} coins, new balance ${data.new_balance}` : ""),
+  );
+  if (data.status === "moved" && data.new_balance !== null) {
+    return {
+      status: "moved",
+      target,
+      newBalance: data.new_balance,
+      drained: data.drained ?? [],
+    };
+  }
+  return { status: data.status === "duplicate" ? "duplicate" : "nothing_to_move" };
+}
+
 /** Mounted before the global JSON parser so the raw body is still available. */
 export function createRevenueCatWebhookRouter({
   supabaseAdmin,
   onCoinsAdded,
+  onBalanceChanged,
 }: {
   supabaseAdmin: SupabaseClient | null;
   onCoinsAdded: (appUserId: string, newBalance: number) => void;
+  /** A balance the webhook lowered. */
+  onBalanceChanged: (appUserId: string, newBalance: number) => void;
 }): Router {
   const router = Router();
 
@@ -94,6 +169,20 @@ export function createRevenueCatWebhookRouter({
         if (!supabaseAdmin) {
           console.error("❌ Supabase not configured");
           return res.status(500).json({ error: "Supabase not configured" });
+        }
+
+        if (event.type === "TRANSFER") {
+          const result = await mergeTransferredWallets(supabaseAdmin, event);
+          if (result.status === "error") {
+            // A 5xx makes RevenueCat retry the webhook later.
+            return res.status(500).json({ error: "Failed to merge wallets" });
+          }
+          if (result.status === "moved") {
+            onCoinsAdded(result.target, result.newBalance);
+            // An old id's app may still be open (a second device): show it the 0.
+            for (const id of result.drained) onBalanceChanged(id, 0);
+          }
+          return res.status(200).json({ success: true });
         }
 
         if (!PURCHASE_EVENTS.has(event.type)) {

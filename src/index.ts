@@ -65,7 +65,9 @@ import {
   allowLegacyClients,
   checkAppUser,
   isAllowed,
+  isNotableIdentity,
   isValidAppUserId,
+  parseIdentityReport,
 } from "./services/appUserAuth.js";
 import {
   getClientIP,
@@ -217,6 +219,8 @@ app.use(
         newBalance,
         success: true,
       }),
+    onBalanceChanged: (appUserId, newBalance) =>
+      notifyCoinsSpent(appUserId, newBalance),
   }),
 );
 
@@ -1433,6 +1437,14 @@ io.on(
       );
       if (lastDisconnect) {
         console.log(`📴 ${appUserId} on socket ${socket.id} is back: ${lastDisconnect}`);
+      }
+      const identity = parseIdentityReport(
+        typeof payload === "string" ? undefined : payload?.identity,
+      );
+      if (identity && isNotableIdentity(identity)) {
+        console.log(
+          `🪪 ${appUserId} on socket ${socket.id}: source=${identity.source} keychain=${identity.keychain}`,
+        );
       }
 
       if (!supabaseAdmin) return;
