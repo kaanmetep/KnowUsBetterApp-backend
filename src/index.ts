@@ -219,6 +219,8 @@ app.use(
         newBalance,
         success: true,
       }),
+    onBalanceChanged: (appUserId, newBalance) =>
+      notifyCoinsSpent(appUserId, newBalance),
   }),
 );
 

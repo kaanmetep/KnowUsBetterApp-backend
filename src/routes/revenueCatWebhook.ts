@@ -70,7 +70,7 @@ const appUserIds = (value: unknown): string[] =>
     : [];
 
 type TransferResult =
-  | { status: "moved"; target: string; newBalance: number }
+  | { status: "moved"; target: string; newBalance: number; drained: string[] }
   | { status: "duplicate" | "nothing_to_move" | "skipped" }
   | { status: "error" };
 
@@ -106,7 +106,12 @@ async function mergeTransferredWallets(
       p_from: from,
       p_to: target,
     })
-    .single<{ status: string; moved: number; new_balance: number | null }>();
+    .single<{
+      status: string;
+      moved: number;
+      new_balance: number | null;
+      drained: string[] | null;
+    }>();
   if (error || !data) {
     // PGRST202: migrations/20261112_wallet_transfer.sql hasn't been applied yet.
     console.error("❌ Failed to merge transferred wallets:", error);
@@ -118,7 +123,12 @@ async function mergeTransferredWallets(
       (data.status === "moved" ? `, ${data.moved} coins, new balance ${data.new_balance}` : ""),
   );
   if (data.status === "moved" && data.new_balance !== null) {
-    return { status: "moved", target, newBalance: data.new_balance };
+    return {
+      status: "moved",
+      target,
+      newBalance: data.new_balance,
+      drained: data.drained ?? [],
+    };
   }
   return { status: data.status === "duplicate" ? "duplicate" : "nothing_to_move" };
 }
@@ -127,9 +137,12 @@ async function mergeTransferredWallets(
 export function createRevenueCatWebhookRouter({
   supabaseAdmin,
   onCoinsAdded,
+  onBalanceChanged,
 }: {
   supabaseAdmin: SupabaseClient | null;
   onCoinsAdded: (appUserId: string, newBalance: number) => void;
+  /** A balance the webhook lowered. */
+  onBalanceChanged: (appUserId: string, newBalance: number) => void;
 }): Router {
   const router = Router();
 
@@ -164,7 +177,11 @@ export function createRevenueCatWebhookRouter({
             // A 5xx makes RevenueCat retry the webhook later.
             return res.status(500).json({ error: "Failed to merge wallets" });
           }
-          if (result.status === "moved") onCoinsAdded(result.target, result.newBalance);
+          if (result.status === "moved") {
+            onCoinsAdded(result.target, result.newBalance);
+            // An old id's app may still be open (a second device): show it the 0.
+            for (const id of result.drained) onBalanceChanged(id, 0);
+          }
           return res.status(200).json({ success: true });
         }
 
