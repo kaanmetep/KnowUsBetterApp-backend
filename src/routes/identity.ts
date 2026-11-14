@@ -1,7 +1,11 @@
 import { Router, Request, Response } from "express";
 import { SupabaseClient } from "@supabase/supabase-js";
 import { createRateLimiter } from "../middleware/rateLimiter.js";
-import { claimAppUser, isValidAppUserId } from "../services/appUserAuth.js";
+import {
+  claimAppUser,
+  isValidAppUserId,
+  parseIdentityReport,
+} from "../services/appUserAuth.js";
 
 // Per IP: every new install claims once, and installs can share a carrier IP.
 const claimRateLimiter = createRateLimiter(
@@ -20,6 +24,13 @@ export function createIdentityRouter(supabaseAdmin: SupabaseClient): Router {
     if (!isValidAppUserId(appUserId)) {
       res.status(400).json({ error: "Invalid appUserId", code: "INVALID_REQUEST" });
       return;
+    }
+
+    const identity = parseIdentityReport(req.body?.identity);
+    if (identity) {
+      console.log(
+        `🪪 Claim for ${appUserId}: source=${identity.source} keychain=${identity.keychain}`,
+      );
     }
 
     try {

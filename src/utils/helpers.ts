@@ -205,7 +205,12 @@ export interface ClientToServerEvents {
   "register-user": (
     payload:
       | string
-      | { appUserId: string; token?: string | null; lastDisconnect?: unknown },
+      | {
+          appUserId: string;
+          token?: string | null;
+          lastDisconnect?: unknown;
+          identity?: unknown;
+        },
   ) => void;
   "spend-coins": (data: {
     appUserId: string;

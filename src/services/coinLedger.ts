@@ -8,7 +8,9 @@ export type CoinTransactionType =
   | "purchase"
   | "daily_reward"
   | "admin"
-  | "push_reward";
+  | "push_reward"
+  | "transfer_in"
+  | "transfer_out";
 
 export type SpendResult =
   | { ok: true; newBalance: number }
