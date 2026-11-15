@@ -24,6 +24,7 @@
     "test:questions": "node --import tsx --test test/questionService.test.ts",
     "test:rank": "node --import tsx --test test/rankIt.test.ts",
     "test:two-truths": "node --import tsx --test test/twoTruths.test.ts",
+    "test:local-play": "node --import tsx --test test/localPlay.test.ts",
     "test:announcements": "node --import tsx --test test/announcements.test.ts",
     "test:languages": "node --import tsx --test test/languages.test.ts",
     "test:admin-push": "node test/testAdminPush.js",
@@ -42,6 +43,7 @@
     "ioredis": "^5.3.2",
     "openai": "^6.29.0",
     "pg": "^8.23.0",
+    "posthog-node": "^5.73.1",
     "socket.io": "^4.6.1",
     "socket.io-client": "^4.6.1",
     "terlik.js": "^2.6.0"
