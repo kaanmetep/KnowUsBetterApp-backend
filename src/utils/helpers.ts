@@ -6,6 +6,7 @@ import {
   JoinRoomData,
   GetRoomData,
   SubmitAnswerData,
+  SetLocalPartnerData,
   Question,
   MultiLanguageAnswer,
   QuestionRound,
@@ -202,6 +203,10 @@ export interface ClientToServerEvents {
   "start-game": (data: { roomCode: string; appUserId?: string; language?: string }) => void;
   "submit-answer": (data: SubmitAnswerData) => void;
   "kick-player": (data: { roomCode: string; targetPlayerId: string }) => void;
+  "set-local-partner": (
+    data: SetLocalPartnerData,
+    ack?: (result: { ok: true; room: any } | { ok: false; code: RoomErrorCode }) => void,
+  ) => void;
   "register-user": (
     payload:
       | string
@@ -219,7 +224,8 @@ export interface ClientToServerEvents {
   }) => void;
   "claim-daily-reward": (data: { appUserId: string }) => void;
   "change-category": (data: { roomCode: string; category: Category }) => void;
-  "ai-consent": (data: { roomCode: string }) => void;
+  /** `playerId`: single-phone mode, the partner on this phone who agreed. */
+  "ai-consent": (data: { roomCode: string; playerId?: string }) => void;
   "report-answer": (
     data: ReportAnswerData,
     ack?: (result: { success: boolean }) => void,

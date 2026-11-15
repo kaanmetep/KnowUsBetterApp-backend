@@ -11,10 +11,18 @@ import cors from "cors";
 import { createClient } from "@supabase/supabase-js";
 import { RoomManager } from "./roomManager.js";
 import {
+  actingPlayerId,
+  deviceOf,
+  isLocalRoom,
+  localRoundSeconds,
+  makeLocalPartner,
+} from "./localPlay.js";
+import {
   CreateRoomData,
   JoinRoomData,
   GetRoomData,
   SubmitAnswerData,
+  SetLocalPartnerData,
   MultiLanguageAnswer,
   Question,
   QuestionRound,
@@ -35,6 +43,12 @@ import {
   getAnswerKey,
   markQuestionsSeen,
 } from "./services/questionService.js";
+import {
+  captureConsoleErrors,
+  captureServerError,
+  captureServerEvent,
+  flushAnalytics,
+} from "./services/analytics.js";
 import {
   gradeAnswer,
   rememberGrade,
@@ -478,6 +492,8 @@ const supportsTwoTruths = (clientFeatures: unknown): boolean =>
   Array.isArray(clientFeatures) &&
   clientFeatures.includes(CLIENT_FEATURE_TWO_TRUTHS);
 
+captureConsoleErrors();
+
 type AppSocket = Socket<ClientToServerEvents, ServerToClientEvents, {}, SocketData>;
 
 // register-user checks the token asynchronously; coin events wait for it.
@@ -737,8 +753,9 @@ function scheduleRoundTimeout(
   round: QuestionRound,
   isFirstRound: boolean,
 ): void {
+  const questionSeconds = getQuestionDuration(room.settings, round.question);
   const seconds =
-    getQuestionDuration(room.settings, round.question) +
+    (isLocalRoom(room) ? localRoundSeconds(questionSeconds) : questionSeconds) +
     ROUND_GRACE_SECONDS +
     (isFirstRound ? FIRST_ROUND_EXTRA_SECONDS : 0);
   clearRoundTimer(room.roomCode);
@@ -1421,6 +1438,11 @@ io.on(
         console.error("❌ Error syncing recovered socket rooms:", error),
       );
       console.log(`🔁 User reconnected: ${socket.id} from IP: ${clientIP}`);
+      captureServerEvent(
+        "server_socket_recovered",
+        { appUserId: socket.data.appUserId, socketId: socket.id },
+        { transport: socket.conn.transport.name },
+      );
     } else {
       console.log(`✅ New user connected: ${socket.id} from IP: ${clientIP}`);
     }
@@ -1437,6 +1459,18 @@ io.on(
       );
       if (lastDisconnect) {
         console.log(`📴 ${appUserId} on socket ${socket.id} is back: ${lastDisconnect}`);
+        const info = (payload as { lastDisconnect?: Record<string, unknown> }).lastDisconnect;
+        captureServerEvent(
+          "server_client_reconnected",
+          { appUserId, socketId: socket.id },
+          {
+            client_reason: typeof info?.reason === "string" ? info.reason.slice(0, 40) : undefined,
+            client_backgrounded: info?.backgrounded === true,
+            client_background_sec:
+              typeof info?.backgroundSec === "number" ? Math.round(info.backgroundSec) : undefined,
+            offline_sec: typeof info?.secAgo === "number" ? Math.round(info.secAgo) : undefined,
+          },
+        );
       }
       const identity = parseIdentityReport(
         typeof payload === "string" ? undefined : payload?.identity,
@@ -1667,7 +1701,7 @@ io.on(
         }
 
         // A dropped player keeps their seat for a while; don't start without them.
-        if (!room.players.every((p) => io.sockets.sockets.has(p.id))) {
+        if (!room.players.every((p) => io.sockets.sockets.has(deviceOf(p)))) {
           socket.emit("room-error", {
             message:
               "Your partner's connection dropped. Give them a moment to come back.",
@@ -2011,7 +2045,7 @@ io.on(
     // 5. Submit Answer
     socket.on(
       "submit-answer",
-      async ({ questionId, answer }: SubmitAnswerData) => {
+      async ({ questionId, answer, playerId }: SubmitAnswerData) => {
         try {
           const roomCode = await roomManager.getPlayerRoom(socket.id);
           if (!roomCode) {
@@ -2042,6 +2076,10 @@ io.on(
             return;
           }
 
+          // Single-phone mode: the host's socket also answers for the partner.
+          const actorId = actingPlayerId(room, socket.id, playerId);
+          if (!actorId) return;
+
           // Check if question ID matches
           if (room.currentRound.question.id !== questionId) {
             socket.emit("critical-error", {
@@ -2066,7 +2104,7 @@ io.on(
             const typed = textAnswer;
             const partnerAnswer = Object.entries(room.currentRound.answers).find(
               ([playerId, value]) =>
-                playerId !== socket.id && typeof value === "string",
+                playerId !== actorId && typeof value === "string",
             )?.[1] as string | undefined;
             // Trivia grades each answer on its own, so there's no pair to match.
             const [harmful, matched, graded] = await Promise.all([
@@ -2094,7 +2132,7 @@ io.on(
                 earlyTextMatch = { answers: [typed, partnerAnswer], matched };
               }
               if (graded !== null) {
-                rememberGrade(roomCode, questionId, socket.id, typed, graded);
+                rememberGrade(roomCode, questionId, actorId, typed, graded);
               }
             }
           }
@@ -2124,7 +2162,7 @@ io.on(
             playerAnswer = written ? encodeStatements(written.statements) : NO_ANSWER;
           } else if (question.twoTruths?.phase === "guess") {
             const partnerId = Object.keys(room.currentRound.answers).find(
-              (id) => id !== socket.id,
+              (id) => id !== actorId,
             );
             const authored = partnerId ? question.twoTruths.statements?.[partnerId] : null;
             playerAnswer = (authored && parseGuess(answer, authored.length)) || NO_ANSWER;
@@ -2162,15 +2200,15 @@ io.on(
                 !round ||
                 round.status !== "waiting_answers" ||
                 round.question.id !== questionId ||
-                !(socket.id in round.answers) ||
-                round.answers[socket.id] !== null
+                !(actorId in round.answers) ||
+                round.answers[actorId] !== null
               ) {
                 return null;
               }
               // Saved with the answer, so a repeated submit can't reshuffle it.
-              if (written) await saveLie(roomCode, questionId, socket.id, written.lie);
-              round.answers[socket.id] = playerAnswer;
-              const player = lockedRoom.players.find((p) => p.id === socket.id);
+              if (written) await saveLie(roomCode, questionId, actorId, written.lie);
+              round.answers[actorId] = playerAnswer;
+              const player = lockedRoom.players.find((p) => p.id === actorId);
               if (player) player.hasAnswered = true;
               await roomManager.updateRoom(lockedRoom);
               return {
@@ -2190,7 +2228,7 @@ io.on(
           if (!saved) return;
 
           socket.to(roomCode).emit("player-answered", {
-            playerId: socket.id,
+            playerId: actorId,
             playerName: saved.playerName,
           });
 
@@ -2262,6 +2300,12 @@ io.on(
               };
             }
 
+            if (targetPlayer.localOf) {
+              // Not a socket of its own: nothing to block or unmap.
+              room.players = room.players.filter((p) => p.id !== targetPlayerId);
+              await roomManager.updateRoom(room);
+              return { requester, targetPlayer, updatedRoom: room };
+            }
             await roomManager.blockFromRoom(roomCode, [
               targetPlayerId,
               io.sockets.sockets.get(targetPlayerId)?.data.appUserId,
@@ -2656,9 +2700,27 @@ io.on(
       }
     });
 
+    // socket.rooms is already empty in "disconnect"; keep the game room for the event.
+    let roomsAtDisconnect: string[] = [];
+    socket.on("disconnecting", () => {
+      roomsAtDisconnect = [...socket.rooms].filter((room) => room !== socket.id);
+    });
+
     // 8. On Disconnect
     socket.on("disconnect", (reason) => {
       const connectedSec = Math.round((Date.now() - socket.handshake.issued) / 1000);
+      captureServerEvent(
+        "server_socket_disconnected",
+        { appUserId: socket.data.appUserId, socketId: socket.id },
+        {
+          reason,
+          transport: socket.conn.transport.name,
+          connected_sec: connectedSec,
+          room_code: roomsAtDisconnect[0],
+          in_room: roomsAtDisconnect.length > 0,
+          shutting_down: shuttingDown,
+        },
+      );
       console.log(
         `🔌 Disconnected: ${socket.id} user=${socket.data.appUserId ?? "-"} reason="${reason}" ` +
           `transport=${socket.conn.transport.name} connectedFor=${connectedSec}s`,
@@ -2733,14 +2795,73 @@ io.on(
       },
     );
 
+    // Single-phone mode (host only, waiting room only): the partner plays on
+    // the host's phone instead of joining with the code; null undoes it.
+    socket.on(
+      "set-local-partner",
+      async ({ roomCode, partner }: SetLocalPartnerData, ack) => {
+        const reply = typeof ack === "function" ? ack : () => {};
+        try {
+          const valid =
+            typeof roomCode === "string" &&
+            !!roomCode &&
+            (partner === null ||
+              (!!partner &&
+                typeof partner === "object" &&
+                typeof partner.name === "string" &&
+                typeof partner.avatar === "string"));
+          if (!valid) {
+            reply({ ok: false, code: "REQUEST_FAILED" });
+            return;
+          }
+          const result = await roomManager.withRoomLock(
+            roomCode,
+            async (): Promise<{ room: Room } | { code: RoomErrorCode }> => {
+              const room = await roomManager.getRoom(roomCode);
+              if (!room) return { code: "ROOM_NOT_FOUND" };
+              const host = room.players.find((p) => p.id === socket.id);
+              if (!host?.isHost) return { code: "NOT_HOST" };
+              if (room.status !== "waiting") return { code: "GAME_IN_PROGRESS" };
+              const others = room.players.filter(
+                (p) => p.id !== socket.id && p.localOf !== socket.id,
+              );
+              if (partner && others.length > 0) return { code: "ROOM_FULL" };
+              room.players = room.players.filter((p) => p.localOf !== socket.id);
+              if (partner) {
+                room.players.push(
+                  makeLocalPartner(
+                    host,
+                    cleanPlayerName(partner.name),
+                    cleanAvatar(partner.avatar),
+                  ),
+                );
+              }
+              await roomManager.updateRoom(room);
+              return { room };
+            },
+          );
+          if ("code" in result) {
+            reply({ ok: false, code: result.code });
+            return;
+          }
+          io.to(roomCode).emit("room-updated", { room: result.room });
+          reply({ ok: true, room: result.room });
+        } catch (error) {
+          console.error("Error setting local partner:", error);
+          reply({ ok: false, code: "REQUEST_FAILED" });
+        }
+      },
+    );
+
     // A player agreed on their device to the daily analysis sending their
     // answers to OpenAI; the host can't start one until everyone has.
-    socket.on("ai-consent", async ({ roomCode }: { roomCode: string }) => {
+    socket.on("ai-consent", async ({ roomCode, playerId }) => {
       try {
         if (typeof roomCode !== "string" || !roomCode) return;
         const room = await roomManager.withRoomLock(roomCode, async () => {
           const current = await roomManager.getRoom(roomCode);
-          const player = current?.players.find((p) => p.id === socket.id);
+          const actorId = current && actingPlayerId(current, socket.id, playerId);
+          const player = current?.players.find((p) => p.id === actorId);
           if (!current || !player || player.aiConsent) return null;
           player.aiConsent = true;
           await roomManager.updateRoom(current);
@@ -2832,19 +2953,18 @@ app.get(
 
 // Handle uncaught exceptions (synchronous errors)
 process.on("uncaughtException", (error: Error) => {
+  // Before the logs below, which would otherwise report it without context.
+  captureServerError(error, {}, { kind: "uncaught_exception", fatal: true });
   console.error(
     "💥 UNCAUGHT EXCEPTION - Server will crash without this handler!",
   );
   console.error("Error:", error);
   console.error("Stack:", error.stack);
 
-  // Log to error tracking service (Sentry, etc.) in production
-  // Example: Sentry.captureException(error);
-
   // Graceful shutdown
   httpServer.close(() => {
     console.log("🛑 HTTP server closed due to uncaught exception");
-    process.exit(1); // Exit with error code
+    void flushAnalytics().finally(() => process.exit(1)); // Exit with error code
   });
 
   // Force exit after 10 seconds if graceful shutdown fails
@@ -2856,12 +2976,10 @@ process.on("uncaughtException", (error: Error) => {
 
 // Handle unhandled promise rejections (async errors)
 process.on("unhandledRejection", (reason: any, promise: Promise<any>) => {
+  captureServerError(reason, {}, { kind: "unhandled_rejection" });
   console.error("💥 UNHANDLED REJECTION - This would crash the server!");
   console.error("Reason:", reason);
   console.error("Promise:", promise);
-
-  // Log to error tracking service in production
-  // Example: Sentry.captureException(reason);
 
   // In production, you might want to exit here too
   // But for now, we'll just log it to prevent crashes
@@ -2938,6 +3056,7 @@ async function shutdown(signal: string): Promise<void> {
   await httpClosed;
   await redis.quit().catch(() => undefined);
   console.log("✅ HTTP server and Redis closed");
+  await flushAnalytics();
   process.exit(0);
 }
 

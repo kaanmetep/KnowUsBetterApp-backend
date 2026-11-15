@@ -281,7 +281,10 @@ export class RoomManager {
         );
         // Continue with cleanup even if room data is corrupted
       } else {
-        room.players = room.players.filter((p) => p.id !== socketId);
+        // A partner on this player's phone leaves with them.
+        room.players = room.players.filter(
+          (p) => p.id !== socketId && p.localOf !== socketId,
+        );
 
         // If host left, assign new host
         if (room.players.length > 0 && !room.players.some((p) => p.isHost)) {

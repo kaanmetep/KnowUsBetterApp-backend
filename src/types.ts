@@ -113,6 +113,12 @@ export interface Player {
   supportsTwoTruths?: boolean;
   /** Agreed (on their device) to their answers going to OpenAI for a daily analysis. */
   aiConsent?: boolean;
+  /**
+   * Set on a partner who plays on the host's phone (single-phone mode): the
+   * host's socket id. Such a player has no socket of their own; the host's
+   * socket answers for them.
+   */
+  localOf?: string;
 }
 
 /** The topic a daily_analysis game is played on, decided when it starts. */
@@ -210,4 +216,12 @@ export interface GetRoomData {
 export interface SubmitAnswerData {
   questionId: string; // UUID from Supabase
   answer: string; // Answer text (e.g., "yes", "no", or custom answer)
+  /** Single-phone mode: the player on this phone the answer is for. */
+  playerId?: string;
+}
+
+/** A partner who plays on the host's phone, or null to go back to two phones. */
+export interface SetLocalPartnerData {
+  roomCode: string;
+  partner: { name: string; avatar: string } | null;
 }
