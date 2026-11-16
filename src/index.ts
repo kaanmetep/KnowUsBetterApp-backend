@@ -10,6 +10,7 @@ import { Server, Socket } from "socket.io";
 import cors from "cors";
 import { createClient } from "@supabase/supabase-js";
 import { RoomManager } from "./roomManager.js";
+import { normalizeRoomCode } from "./roomCodes.js";
 import {
   actingPlayerId,
   deviceOf,
@@ -301,6 +302,10 @@ const PING_TIMEOUT = parseInt(process.env.SOCKET_PING_TIMEOUT || "20000", 10);
 // the hold is short: the partner plays on with blank answers meanwhile.
 const SEAT_HOLD_WAITING_MS = 2 * 60_000;
 const SEAT_HOLD_PLAYING_MS = 30_000;
+// A host still alone in a new room has usually left the app to send the code,
+// and the partner may first have to install the app. The room is kept open
+// that long; the host takes their seat back on a new socket (reclaimSeat).
+const SEAT_HOLD_ALONE_MS = 15 * 60_000;
 // socket.io gives a reconnecting app back its socket id (and so its seat) for
 // this long. The app resumes from the last broadcast it received, which is
 // only kept this long too, hence the regular connection-sync broadcast.
@@ -1354,8 +1359,15 @@ async function handleDroppedPlayer(socketId: string, reason: string): Promise<vo
   }
   const room = await roomManager.getRoom(roomCode);
   const status = room?.status ?? "unknown";
+  const alone =
+    room?.status === "waiting" &&
+    room.players.every((player) => deviceOf(player) === socketId);
   const holdMs =
-    room?.status === "playing" ? SEAT_HOLD_PLAYING_MS : SEAT_HOLD_WAITING_MS;
+    room?.status === "playing"
+      ? SEAT_HOLD_PLAYING_MS
+      : alone
+        ? SEAT_HOLD_ALONE_MS
+        : SEAT_HOLD_WAITING_MS;
   console.log(
     `🪑 Holding seat of ${socketId} in room ${roomCode} (${status}) for ${holdMs / 1000}s`,
   );
@@ -1390,6 +1402,50 @@ function describeClientDisconnect(info: unknown): string | null {
     `backgrounded=${backgrounded === true}` +
     (backgrounded === true ? ` (for ${seconds(backgroundSec)})` : "")
   );
+}
+
+/** Remembers whose seat this socket holds, so the user can take it back from a new socket. */
+async function recordSeatOwner(socket: AppSocket, roomCode: string): Promise<void> {
+  await pendingRegistrations.get(socket.id);
+  const appUserId = socket.data.appUserId;
+  if (!appUserId) return;
+  await roomManager
+    .setSeatOwner(roomCode, appUserId, socket.id)
+    .catch((error) => console.error(`❌ Failed to record seat owner in ${roomCode}:`, error));
+}
+
+/**
+ * A player whose socket was replaced (back after the recovery window) takes
+ * their seat in a room that hasn't started. Returns the room when they did.
+ */
+async function reclaimSeat(socket: AppSocket, roomCode: string): Promise<Room | null> {
+  await pendingRegistrations.get(socket.id);
+  const appUserId = socket.data.appUserId;
+  if (!appUserId) return null;
+  const oldSocketId = await roomManager.getSeatOwner(roomCode, appUserId);
+  // A seat still in use by a connected socket isn't free to take.
+  if (!oldSocketId || oldSocketId === socket.id || io.sockets.sockets.has(oldSocketId)) {
+    return null;
+  }
+  // Leaving another room first, like a join, but outside this room's lock.
+  const previous = await roomManager.getPlayerRoom(socket.id);
+  if (previous && previous !== roomCode) await leavePreviousRoom(socket, roomCode);
+  const room = await roomManager.withRoomLock(roomCode, () =>
+    roomManager.reclaimSeat(roomCode, appUserId, oldSocketId, socket.id),
+  );
+  if (!room) return null;
+  clearTimeout(seatHolds.get(oldSocketId));
+  seatHolds.delete(oldSocketId);
+  socket.join(roomCode);
+  console.log(`🪑 ${appUserId} took their seat in ${roomCode} back: ${oldSocketId} -> ${socket.id}`);
+  captureServerEvent(
+    "server_seat_reclaimed",
+    { appUserId, socketId: socket.id },
+    { room_code: roomCode, player_count: room.players.length },
+  );
+  socket.to(roomCode).emit("room-updated", { room });
+  socket.to(roomCode).emit("player-connection", { playerId: socket.id, connected: true });
+  return room;
 }
 
 /** A recovered socket is put back in its socket.io rooms even if its seat was freed. */
@@ -1538,6 +1594,7 @@ io.on(
             supportsTwoTruths(clientFeatures),
           );
           socket.join(room.roomCode);
+          await recordSeatOwner(socket, room.roomCode);
 
           socket.emit("room-created", {
             roomCode: room.roomCode,
@@ -1559,9 +1616,10 @@ io.on(
     // 2. Join Room
     socket.on(
       "join-room",
-      async ({ roomCode, playerName, avatar, clientFeatures }: JoinRoomData) => {
+      async ({ roomCode: typedCode, playerName, avatar, clientFeatures }: JoinRoomData) => {
         try {
-          if (typeof roomCode !== "string" || !roomCode) {
+          const roomCode = typeof typedCode === "string" ? normalizeRoomCode(typedCode) : "";
+          if (!roomCode) {
             socket.emit("room-error", { message: "Room not found", code: "ROOM_NOT_FOUND" });
             return;
           }
@@ -1579,7 +1637,27 @@ io.on(
           // Only once the target room exists, so a mistyped code doesn't
           // also cost the player the room they're in.
           if (await roomManager.getRoom(roomCode)) {
+            // Back on a new socket: their old seat, not a second one.
+            const reclaimed = await reclaimSeat(socket, roomCode);
+            if (reclaimed) {
+              const player = reclaimed.players.find((p) => p.id === socket.id);
+              socket.emit("room-joined", { roomCode, player, room: reclaimed });
+              return;
+            }
             await leavePreviousRoom(socket, roomCode);
+          } else {
+            const closedAt = await roomManager.getRoomClosedAt(roomCode);
+            captureServerEvent(
+              "server_room_not_found",
+              { appUserId: socket.data.appUserId, socketId: socket.id },
+              {
+                room_code: roomCode,
+                typed_code: typedCode,
+                room_closed: closedAt !== null,
+                closed_sec_ago:
+                  closedAt !== null ? Math.round((Date.now() - closedAt) / 1000) : undefined,
+              },
+            );
           }
           const result = await roomManager.withRoomLock(roomCode, () =>
             roomManager.joinRoom(
@@ -1599,12 +1677,20 @@ io.on(
 
           if (result.success) {
             socket.join(roomCode);
+            await recordSeatOwner(socket, roomCode);
             // Send info to joined player
             socket.emit("room-joined", {
               roomCode,
               player: result.player,
               room: result.room,
             });
+            // A host who stepped away (sharing the code) shows as away from the start.
+            for (const player of result.room?.players ?? []) {
+              if (player.localOf || player.id === socket.id) continue;
+              if (!io.sockets.sockets.has(player.id)) {
+                socket.emit("player-connection", { playerId: player.id, connected: false });
+              }
+            }
 
             // Notify other players in the room
             socket.to(roomCode).emit("player-joined", {
@@ -1627,10 +1713,13 @@ io.on(
     // 3. Get Room Info
     socket.on("get-room", async ({ roomCode }: GetRoomData) => {
       try {
-        const room =
+        let room =
           typeof roomCode === "string" && roomCode
             ? await roomManager.getRoom(roomCode)
             : undefined;
+        if (room && !room.players.some((player) => player.id === socket.id)) {
+          room = (await reclaimSeat(socket, room.roomCode)) ?? room;
+        }
         if (room?.players.some((player) => player.id === socket.id)) {
           socket.emit("room-data", withoutOpenAnswers(room));
         } else if (room) {

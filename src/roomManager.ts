@@ -1,5 +1,6 @@
 import { Room, Player, JoinRoomResult, Category, GameMode } from "./types.js";
 import { redis, withLock } from "./utils/redis.js";
+import { generateRoomCode, moveSeat } from "./roomCodes.js";
 
 // Redis key patterns
 const ROOM_KEY_PREFIX = "room:";
@@ -7,6 +8,13 @@ const PLAYER_ROOM_KEY_PREFIX = "playerRoom:";
 // Socket ids and appUserIds the host removed; kept apart from the room, which
 // is sent to clients.
 const ROOM_BLOCKED_KEY_PREFIX = "roomBlocked:";
+// appUserId -> socket id of each seat, so a player who comes back on a new
+// socket can take their seat again. Not under "room:", which getAllRooms scans.
+const ROOM_SEATS_KEY_PREFIX = "roomSeats:";
+// Set when a room is deleted, so a failed join can tell a closed room from a
+// mistyped code.
+const ROOM_CLOSED_KEY_PREFIX = "roomClosed:";
+const ROOM_CLOSED_TTL = 6 * 3600;
 
 // Room TTL (Time To Live) - 3 hours (10800 seconds)
 const ROOM_TTL = 10800;
@@ -73,17 +81,7 @@ export class RoomManager {
   }
 
   generateRoomCode(): string {
-    // English alphabet letters (A-Z) and 1-9 numbers
-    const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789";
-    let code = "";
-
-    // Create a 4-digit random code
-    for (let i = 0; i < 4; i++) {
-      const randomIndex = Math.floor(Math.random() * chars.length);
-      code += chars[randomIndex];
-    }
-
-    return code;
+    return generateRoomCode();
   }
 
   /**
@@ -324,8 +322,57 @@ export class RoomManager {
       await Promise.all(deletePromises);
 
       // Room'u sil
-      await redis.del(roomKey, `${ROOM_BLOCKED_KEY_PREFIX}${roomCode}`);
+      await redis
+        .multi()
+        .del(
+          roomKey,
+          `${ROOM_BLOCKED_KEY_PREFIX}${roomCode}`,
+          `${ROOM_SEATS_KEY_PREFIX}${roomCode}`,
+        )
+        .setex(`${ROOM_CLOSED_KEY_PREFIX}${roomCode}`, ROOM_CLOSED_TTL, String(Date.now()))
+        .exec();
     }
+  }
+
+  /** When the room with this code was deleted, if it was in the last few hours. */
+  async getRoomClosedAt(roomCode: string): Promise<number | null> {
+    const value = await redis.get(`${ROOM_CLOSED_KEY_PREFIX}${roomCode}`);
+    return value ? Number(value) : null;
+  }
+
+  /** Remembers which socket holds this user's seat in the room. */
+  async setSeatOwner(roomCode: string, appUserId: string, socketId: string): Promise<void> {
+    const key = `${ROOM_SEATS_KEY_PREFIX}${roomCode}`;
+    await redis.multi().hset(key, appUserId, socketId).expire(key, ROOM_TTL).exec();
+  }
+
+  /** The socket id holding this user's seat in the room, if any. */
+  async getSeatOwner(roomCode: string, appUserId: string): Promise<string | null> {
+    return redis.hget(`${ROOM_SEATS_KEY_PREFIX}${roomCode}`, appUserId);
+  }
+
+  /**
+   * Moves a seat from a socket that's gone to the same user's new socket, in
+   * a room that hasn't started. Call inside withRoomLock. Returns the updated
+   * room, or null when there's no such seat to take.
+   */
+  async reclaimSeat(
+    roomCode: string,
+    appUserId: string,
+    oldSocketId: string,
+    newSocketId: string,
+  ): Promise<Room | null> {
+    const room = await this.getRoom(roomCode);
+    if (!room || room.status !== "waiting") return null;
+    if (!moveSeat(room, oldSocketId, newSocketId)) return null;
+    await redis
+      .multi()
+      .del(this.getPlayerRoomKey(oldSocketId))
+      .setex(this.getPlayerRoomKey(newSocketId), ROOM_TTL, roomCode)
+      .exec();
+    await this.saveRoom(room);
+    await this.setSeatOwner(roomCode, appUserId, newSocketId);
+    return room;
   }
 
   async blockFromRoom(roomCode: string, ids: (string | undefined)[]): Promise<void> {
