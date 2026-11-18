@@ -3,6 +3,7 @@ import express, { NextFunction, Request, Response, Router } from "express";
 import { createRateLimiter } from "../middleware/rateLimiter.js";
 import { AppError, toErrorResponse } from "../errors/AppError.js";
 import { logger } from "../utils/logger.js";
+import { getRequestIP } from "../utils/clientIp.js";
 import {
   SESSION_TTL_SECONDS,
   assertNotLockedOut,
@@ -190,18 +191,23 @@ function requireSession(req: Request, res: Response, next: NextFunction): void {
     });
 }
 
-async function withFailureTracking<T>(fn: () => Promise<T>): Promise<T> {
-  await assertNotLockedOut();
+// A malformed or stale challenge never reached a passkey check, so it isn't
+// counted as a failed attempt.
+const NOT_AN_ATTEMPT = new Set(["INVALID_CHALLENGE", "CHALLENGE_EXPIRED"]);
+
+async function withFailureTracking<T>(req: Request, fn: () => Promise<T>): Promise<T> {
+  const ip = getRequestIP(req);
+  await assertNotLockedOut(ip);
   try {
     return await fn();
   } catch (error) {
-    await recordFailure().catch(() => undefined);
+    if (!(error instanceof AppError && error.code && NOT_AN_ATTEMPT.has(error.code))) {
+      await recordFailure(ip).catch(() => undefined);
+    }
     if (error instanceof AppError) throw error;
-    throw new AppError(
-      error instanceof Error ? error.message : "Verification failed",
-      401,
-      "AUTH_FAILED",
-    );
+    // The library's own message stays in the logs, not in the response.
+    logger.warn(`Admin passkey verification failed: ${error instanceof Error ? error.message : error}`);
+    throw new AppError("Verification failed", 401, "AUTH_FAILED");
   }
 }
 
@@ -263,7 +269,7 @@ export function createAdminPanelRouter(): Router {
     "/auth/register/options",
     authRateLimiter,
     handle(async (req, res) => {
-      await withFailureTracking(() => assertCanRegister(req));
+      await withFailureTracking(req, () => assertCanRegister(req));
       res.json(await createRegistrationOptions());
     }),
   );
@@ -272,7 +278,7 @@ export function createAdminPanelRouter(): Router {
     "/auth/register/verify",
     authRateLimiter,
     handle(async (req, res) => {
-      await withFailureTracking(async () => {
+      await withFailureTracking(req, async () => {
         await assertCanRegister(req);
         const label = typeof req.body?.label === "string" ? req.body.label.slice(0, 60) : null;
         await verifyRegistration(req.body?.challengeId, req.body?.response, label);
@@ -285,8 +291,8 @@ export function createAdminPanelRouter(): Router {
   api.post(
     "/auth/login/options",
     authRateLimiter,
-    handle(async (_req, res) => {
-      await assertNotLockedOut();
+    handle(async (req, res) => {
+      await assertNotLockedOut(getRequestIP(req));
       res.json(await createAuthenticationOptions());
     }),
   );
@@ -295,7 +301,7 @@ export function createAdminPanelRouter(): Router {
     "/auth/login/verify",
     authRateLimiter,
     handle(async (req, res) => {
-      await withFailureTracking(() =>
+      await withFailureTracking(req, () =>
         verifyAuthentication(req.body?.challengeId, req.body?.response),
       );
       setSessionCookie(req, res, await createSession());
@@ -318,8 +324,8 @@ export function createAdminPanelRouter(): Router {
   api.post(
     "/auth/step-up/options",
     authRateLimiter,
-    handle(async (_req, res) => {
-      await assertNotLockedOut();
+    handle(async (req, res) => {
+      await assertNotLockedOut(getRequestIP(req));
       res.json(await createAuthenticationOptions());
     }),
   );
@@ -328,7 +334,7 @@ export function createAdminPanelRouter(): Router {
     "/auth/step-up/verify",
     authRateLimiter,
     handle(async (req, res) => {
-      await withFailureTracking(() =>
+      await withFailureTracking(req, () =>
         verifyAuthentication(req.body?.challengeId, req.body?.response),
       );
       await grantStepUp(res.locals.sessionToken);
