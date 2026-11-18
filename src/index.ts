@@ -430,6 +430,9 @@ const io = new Server<
   SocketData
 >(httpServer, {
   adapter: createAdapter(adapterRedis),
+  // The largest thing an app sends is a short answer; socket.io's 1 MB default
+  // would let one message fill Redis and every player's screen.
+  maxHttpBufferSize: 64 * 1024,
   cors: {
     origin: (origin, callback) => {
       // CORS callback doesn't have access to user-agent, so we check in allowRequest
@@ -538,9 +541,46 @@ function bindSocketToUser(socket: AppSocket, appUserId: string): void {
  * connection anyway, so a socket bound to one follows the id it asks for; a
  * socket bound with a token never moves.
  */
-/** Tells a banned player so and returns true; they can't create or join rooms. */
+/** How long a room request waits for a register-user that may still be on its way. */
+const REGISTRATION_WAIT_MS = 3000;
+
+/** Waits for this socket's register-user, giving up after `timeoutMs`. */
+async function awaitRegistration(socket: AppSocket, timeoutMs: number): Promise<void> {
+  const deadline = Date.now() + timeoutMs;
+  while (!socket.data.appUserId && !socket.disconnected) {
+    const pending = pendingRegistrations.get(socket.id);
+    if (pending) {
+      await pending;
+      continue;
+    }
+    if (socket.data.unverifiedRegistration || Date.now() >= deadline) return;
+    await new Promise((resolve) => setTimeout(resolve, 100));
+  }
+}
+
+/**
+ * Tells a banned player so and returns true; they can't create or join rooms.
+ * Bans are keyed on the wallet id, so once old builds are turned away a socket
+ * has to prove its id first; skipping register-user would otherwise skip the ban.
+ */
 async function rejectIfBanned(socket: AppSocket): Promise<boolean> {
-  await pendingRegistrations.get(socket.id);
+  await awaitRegistration(socket, allowLegacyClients() ? 0 : REGISTRATION_WAIT_MS);
+  if (!socket.data.appUserId && socket.data.unverifiedRegistration) {
+    // The database couldn't check its token; try once more before letting it in.
+    await resolveAppUser(socket, socket.data.unverifiedRegistration.appUserId);
+  }
+  if (
+    !socket.data.appUserId &&
+    !socket.data.unverifiedRegistration &&
+    !allowLegacyClients()
+  ) {
+    console.warn(`🚫 Room request from unregistered socket ${socket.id} refused`);
+    socket.emit("room-error", {
+      message: "Please update the app from the store to keep playing.",
+      code: "UPDATE_REQUIRED",
+    });
+    return true;
+  }
   if (!(await isBanned(supabaseAdmin, socket.data.appUserId))) return false;
   console.warn(`🚫 Banned user ${socket.data.appUserId} blocked from rooms`);
   socket.emit("room-error", {
@@ -662,6 +702,8 @@ const GAME_CANCELLED_MESSAGE =
   "A player left during the game. Game has been cancelled.";
 
 const roundTimers = new Map<string, ReturnType<typeof setTimeout>>();
+/** `room:question:player` answers being checked on this instance; repeats are dropped. */
+const answersInFlight = new Set<string>();
 
 // room code -> what the host paid to start the game in progress. Kept off the
 // room, which is sent to both players.
@@ -2260,158 +2302,176 @@ io.on(
             return;
           }
 
-          // Moderated before taking the lock so the API call never blocks the
-          // partner's submit. If the partner already answered, the match check
-          // runs alongside so the reveal doesn't wait for two calls in a row.
-          let textAnswer: string | null = null;
-          let earlyTextMatch: {
-            answers: [string, string];
-            matched: boolean;
-          } | null = null;
-          if (isTextQuestion(room.currentRound.question)) {
-            const question = room.currentRound.question;
-            textAnswer = normalizeTextAnswer(answer);
-            const typed = textAnswer;
-            const partnerAnswer = Object.entries(room.currentRound.answers).find(
-              ([playerId, value]) =>
-                playerId !== actorId && typeof value === "string",
-            )?.[1] as string | undefined;
-            // Trivia grades each answer on its own, so there's no pair to match.
-            const [harmful, matched, graded] = await Promise.all([
-              typed ? isHarmfulText(typed) : false,
-              !question.isTrivia && partnerAnswer !== undefined
-                ? textAnswersMatch(
-                    question,
-                    typed,
-                    partnerAnswer,
-                    HIDDEN_TEXT_ANSWER,
-                  )
-                : null,
-              question.isTrivia
-                ? getAnswerKey(question, supabaseAdmin).then((key) =>
-                    key
-                      ? gradeAnswer(key, question, typed, HIDDEN_TEXT_ANSWER)
-                      : null,
-                  )
-                : null,
-            ]);
-            if (harmful) {
-              textAnswer = HIDDEN_TEXT_ANSWER;
-            } else {
-              if (matched !== null && partnerAnswer !== undefined) {
-                earlyTextMatch = { answers: [typed, partnerAnswer], matched };
-              }
-              if (graded !== null) {
-                rememberGrade(roomCode, questionId, actorId, typed, graded);
-              }
-            }
-          }
-
-          const question = room.currentRound.question;
-
-          // Moderated before the lock for the same reason as typed answers.
-          let written: { statements: string[]; lie: number } | null = null;
-          if (isWriteRound(question)) {
-            const submitted = parseSubmission(answer);
-            const statements = submitted?.statements.map((s) =>
-              normalizeTextAnswer(s, STATEMENT_MAX_LENGTH),
-            );
-            if (submitted && statements && statements.every(Boolean)) {
-              const harmful = await Promise.all(statements.map(isHarmfulText));
-              written = shuffleStatements(
-                statements.map((s, i) => (harmful[i] ? HIDDEN_TEXT_ANSWER : s)),
-                submitted.lie,
-              );
-            }
-          }
-
-          let playerAnswer: string | MultiLanguageAnswer;
-          if (isTextQuestion(question)) {
-            playerAnswer = textAnswer ?? normalizeTextAnswer(answer);
-          } else if (question.twoTruths?.phase === "write") {
-            playerAnswer = written ? encodeStatements(written.statements) : NO_ANSWER;
-          } else if (question.twoTruths?.phase === "guess") {
-            const partnerId = Object.keys(room.currentRound.answers).find(
-              (id) => id !== actorId,
-            );
-            const authored = partnerId ? question.twoTruths.statements?.[partnerId] : null;
-            playerAnswer = (authored && parseGuess(answer, authored.length)) || NO_ANSWER;
-          } else if (typeof answer !== "string") {
-            playerAnswer = NO_ANSWER;
-          } else if (room.settings.mode === "who_is_more_likely") {
-            playerAnswer = isMoreLikelyPick(answer) ? answer : NO_ANSWER;
-          } else if (room.settings.mode === "rank_it") {
-            playerAnswer = parseRanking(answer, rankItemCount(question)) ?? NO_ANSWER;
-          } else if (question.haveAnswers && question.answers) {
-            const answerObject = findAnswerObject(answer, question);
-            if (!answerObject && answer !== NO_ANSWER) {
-              console.warn(
-                `⚠️ Answer "${answer}" not found in question ${questionId} answers array. Saving as string.`,
-              );
-            }
-            playerAnswer = answerObject ?? answer;
-          } else {
-            playerAnswer = answer;
-          }
-
-          // Only this round's players count, and only their first answer, so
-          // neither the partner nor the round timer can overwrite it.
-          let saved: {
-            allAnswered: boolean;
-            playerName?: string;
-            startedAt?: number;
-          } | null;
-          try {
-            saved = await roomManager.withRoomLock(roomCode, async () => {
-              const lockedRoom = await roomManager.getRoom(roomCode);
-              const round = lockedRoom?.currentRound;
-              if (
-                !lockedRoom ||
-                !round ||
-                round.status !== "waiting_answers" ||
-                round.question.id !== questionId ||
-                !(actorId in round.answers) ||
-                round.answers[actorId] !== null
-              ) {
-                return null;
-              }
-              // Saved with the answer, so a repeated submit can't reshuffle it.
-              if (written) await saveLie(roomCode, questionId, actorId, written.lie);
-              round.answers[actorId] = playerAnswer;
-              const player = lockedRoom.players.find((p) => p.id === actorId);
-              if (player) player.hasAnswered = true;
-              await roomManager.updateRoom(lockedRoom);
-              return {
-                allAnswered: Object.values(round.answers).every((a) => a !== null),
-                playerName: player?.name,
-                startedAt: round.startedAt,
-              };
-            });
-          } catch (error) {
-            if (!(error instanceof LockTimeoutError)) throw error;
-            // The round timer still closes the round, with this answer blank.
-            console.error(
-              `❌ Couldn't save answer in room ${roomCode}: room stayed locked`,
-            );
+          // A repeat submit (already answered, or the first one still being
+          // checked) stops here, before the model calls it would pay for again.
+          if (
+            room.currentRound.status !== "waiting_answers" ||
+            room.currentRound.answers[actorId] !== null
+          ) {
             return;
           }
-          if (!saved) return;
+          const submitKey = `${roomCode}:${questionId}:${actorId}`;
+          if (answersInFlight.has(submitKey)) return;
+          answersInFlight.add(submitKey);
+          try {
+            // Moderated before taking the lock so the API call never blocks the
+            // partner's submit. If the partner already answered, the match check
+            // runs alongside so the reveal doesn't wait for two calls in a row.
+            let textAnswer: string | null = null;
+            let earlyTextMatch: {
+              answers: [string, string];
+              matched: boolean;
+            } | null = null;
+            if (isTextQuestion(room.currentRound.question)) {
+              const question = room.currentRound.question;
+              textAnswer = normalizeTextAnswer(answer);
+              const typed = textAnswer;
+              const partnerAnswer = Object.entries(room.currentRound.answers).find(
+                ([playerId, value]) =>
+                  playerId !== actorId && typeof value === "string",
+              )?.[1] as string | undefined;
+              // Trivia grades each answer on its own, so there's no pair to match.
+              const [harmful, matched, graded] = await Promise.all([
+                typed ? isHarmfulText(typed) : false,
+                !question.isTrivia && partnerAnswer !== undefined
+                  ? textAnswersMatch(
+                      question,
+                      typed,
+                      partnerAnswer,
+                      HIDDEN_TEXT_ANSWER,
+                    )
+                  : null,
+                question.isTrivia
+                  ? getAnswerKey(question, supabaseAdmin).then((key) =>
+                      key
+                        ? gradeAnswer(key, question, typed, HIDDEN_TEXT_ANSWER)
+                        : null,
+                    )
+                  : null,
+              ]);
+              if (harmful) {
+                textAnswer = HIDDEN_TEXT_ANSWER;
+              } else {
+                if (matched !== null && partnerAnswer !== undefined) {
+                  earlyTextMatch = { answers: [typed, partnerAnswer], matched };
+                }
+                if (graded !== null) {
+                  rememberGrade(roomCode, questionId, actorId, typed, graded);
+                }
+              }
+            }
 
-          socket.to(roomCode).emit("player-answered", {
-            playerId: actorId,
-            playerName: saved.playerName,
-          });
+            const question = room.currentRound.question;
 
-          if (saved.allAnswered) {
-            // On failure the round timer retries the completion.
-            await completeRound(
-              roomCode,
-              questionId,
-              saved.startedAt,
-              earlyTextMatch,
-            ).catch((error) =>
-              console.error("Error processing round completion:", error),
-            );
+            // Moderated before the lock for the same reason as typed answers.
+            let written: { statements: string[]; lie: number } | null = null;
+            if (isWriteRound(question)) {
+              const submitted = parseSubmission(answer);
+              const statements = submitted?.statements.map((s) =>
+                normalizeTextAnswer(s, STATEMENT_MAX_LENGTH),
+              );
+              if (submitted && statements && statements.every(Boolean)) {
+                const harmful = await Promise.all(statements.map(isHarmfulText));
+                written = shuffleStatements(
+                  statements.map((s, i) => (harmful[i] ? HIDDEN_TEXT_ANSWER : s)),
+                  submitted.lie,
+                );
+              }
+            }
+
+            let playerAnswer: string | MultiLanguageAnswer;
+            if (isTextQuestion(question)) {
+              playerAnswer = textAnswer ?? normalizeTextAnswer(answer);
+            } else if (question.twoTruths?.phase === "write") {
+              playerAnswer = written ? encodeStatements(written.statements) : NO_ANSWER;
+            } else if (question.twoTruths?.phase === "guess") {
+              const partnerId = Object.keys(room.currentRound.answers).find(
+                (id) => id !== actorId,
+              );
+              const authored = partnerId ? question.twoTruths.statements?.[partnerId] : null;
+              playerAnswer = (authored && parseGuess(answer, authored.length)) || NO_ANSWER;
+            } else if (typeof answer !== "string") {
+              playerAnswer = NO_ANSWER;
+            } else if (room.settings.mode === "who_is_more_likely") {
+              playerAnswer = isMoreLikelyPick(answer) ? answer : NO_ANSWER;
+            } else if (room.settings.mode === "rank_it") {
+              playerAnswer = parseRanking(answer, rankItemCount(question)) ?? NO_ANSWER;
+            } else if (question.haveAnswers && question.answers) {
+              // Only one of the question's own options is kept: anything else
+              // would reach the partner as unmoderated free text.
+              const answerObject = findAnswerObject(answer, question);
+              if (!answerObject && answer !== NO_ANSWER) {
+                console.warn(
+                  `⚠️ Answer "${answer.slice(0, 80)}" not found in question ${questionId} answers array. Saved as no answer.`,
+                );
+              }
+              playerAnswer = answerObject ?? NO_ANSWER;
+            } else {
+              // Yes/no questions: the app only ever sends "yes" or "no".
+              playerAnswer = answer === "yes" || answer === "no" ? answer : NO_ANSWER;
+            }
+
+            // Only this round's players count, and only their first answer, so
+            // neither the partner nor the round timer can overwrite it.
+            let saved: {
+              allAnswered: boolean;
+              playerName?: string;
+              startedAt?: number;
+            } | null;
+            try {
+              saved = await roomManager.withRoomLock(roomCode, async () => {
+                const lockedRoom = await roomManager.getRoom(roomCode);
+                const round = lockedRoom?.currentRound;
+                if (
+                  !lockedRoom ||
+                  !round ||
+                  round.status !== "waiting_answers" ||
+                  round.question.id !== questionId ||
+                  !(actorId in round.answers) ||
+                  round.answers[actorId] !== null
+                ) {
+                  return null;
+                }
+                // Saved with the answer, so a repeated submit can't reshuffle it.
+                if (written) await saveLie(roomCode, questionId, actorId, written.lie);
+                round.answers[actorId] = playerAnswer;
+                const player = lockedRoom.players.find((p) => p.id === actorId);
+                if (player) player.hasAnswered = true;
+                await roomManager.updateRoom(lockedRoom);
+                return {
+                  allAnswered: Object.values(round.answers).every((a) => a !== null),
+                  playerName: player?.name,
+                  startedAt: round.startedAt,
+                };
+              });
+            } catch (error) {
+              if (!(error instanceof LockTimeoutError)) throw error;
+              // The round timer still closes the round, with this answer blank.
+              console.error(
+                `❌ Couldn't save answer in room ${roomCode}: room stayed locked`,
+              );
+              return;
+            }
+            if (!saved) return;
+
+            socket.to(roomCode).emit("player-answered", {
+              playerId: actorId,
+              playerName: saved.playerName,
+            });
+
+            if (saved.allAnswered) {
+              // On failure the round timer retries the completion.
+              await completeRound(
+                roomCode,
+                questionId,
+                saved.startedAt,
+                earlyTextMatch,
+              ).catch((error) =>
+                console.error("Error processing round completion:", error),
+              );
+            }
+          } finally {
+            answersInFlight.delete(submitKey);
           }
         } catch (error) {
           console.error("Error submitting answer:", error);

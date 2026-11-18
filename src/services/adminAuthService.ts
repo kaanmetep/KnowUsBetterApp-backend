@@ -102,15 +102,19 @@ async function takeChallenge(kind: ChallengeKind, challengeId: unknown): Promise
   return stored.challenge;
 }
 
-export async function assertNotLockedOut(): Promise<void> {
-  const failures = Number(await redis.get(`${KEY_PREFIX}failures`)) || 0;
+// Counted per IP: one global counter let anyone who found the panel keep the
+// admin locked out just by posting junk.
+const failureKey = (ip: string) => `${KEY_PREFIX}failures:${ip}`;
+
+export async function assertNotLockedOut(ip: string): Promise<void> {
+  const failures = Number(await redis.get(failureKey(ip))) || 0;
   if (failures >= MAX_FAILURES) {
     throw new AppError("Too many failed attempts, try again later", 429, "LOCKED_OUT");
   }
 }
 
-export async function recordFailure(): Promise<void> {
-  const key = `${KEY_PREFIX}failures`;
+export async function recordFailure(ip: string): Promise<void> {
+  const key = failureKey(ip);
   const count = await redis.incr(key);
   if (count === 1) {
     await redis.expire(key, FAILURE_WINDOW_SECONDS);
