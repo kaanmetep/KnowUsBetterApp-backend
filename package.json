@@ -27,6 +27,7 @@
     "test:local-play": "node --import tsx --test test/localPlay.test.ts",
     "test:announcements": "node --import tsx --test test/announcements.test.ts",
     "test:languages": "node --import tsx --test test/languages.test.ts",
+    "test:unlimited": "node --import tsx --test test/unlimitedPass.test.ts",
     "test:admin-push": "node test/testAdminPush.js",
     "test:admin-push:local": "cross-env TEST_SERVER_URL=http://localhost:3000 node test/testAdminPush.js",
     "test:admin-push:phone": "cross-env TEST_SERVER_URL=http://192.168.1.133:3000 node test/testAdminPush.js",
@@ -35,6 +36,7 @@
   "dependencies": {
     "@simplewebauthn/browser": "^14.0.0",
     "@simplewebauthn/server": "^14.0.2",
+    "@socket.io/redis-streams-adapter": "^0.3.1",
     "@supabase/supabase-js": "^2.80.0",
     "apn": "^2.2.0",
     "cors": "^2.8.5",

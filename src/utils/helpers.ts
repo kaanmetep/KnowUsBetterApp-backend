@@ -125,6 +125,8 @@ export interface ServerToClientEvents {
     code: "PLAYER_LEFT" | "SERVER_ERROR";
     room: any;
   }) => void;
+  /** The player's Unlimited pass changed (a webhook arrived); the app re-checks it. */
+  "unlimited-changed": (data: { appUserId: string }) => void;
   "coins-added": (data: {
     appUserId: string;
     newBalance: number;
@@ -243,7 +245,16 @@ export interface ClientToServerEvents {
     data: { reactionId: string; appUserId?: string; coinCost?: number },
     ack?: (result: SendReactionResult) => void,
   ) => void;
+  /** Re-checks the player's Unlimited pass (after a purchase or restore) and shows it in the room. */
+  "unlimited-status": (
+    data: unknown,
+    ack?: (result: UnlimitedStatusResult) => void,
+  ) => void;
 }
+
+export type UnlimitedStatusResult =
+  | { ok: true; active: boolean; expiresAt: string | null; willRenew: boolean }
+  | { ok: false; code: "UNAVAILABLE" };
 
 export interface ReportAnswerData {
   questionId: string;

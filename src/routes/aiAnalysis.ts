@@ -11,6 +11,7 @@ import {
 } from "../services/finishedGames.js";
 import { allowLegacyClients, requireAppUser } from "../services/appUserAuth.js";
 import { PUBLIC_RUNTIME_CONFIG } from "../services/publicConfigService.js";
+import { getPassStatus } from "../services/unlimitedPass.js";
 import {
   AiAnalysisUpdate,
   AnalysisResult,
@@ -646,7 +647,12 @@ export function createAiAnalysisRouter({
       let delivered = false;
       try {
         let newBalance: number | undefined;
-        if (cost > 0) {
+        // Unlimited covers the analysis too, for either player's pass.
+        const covered =
+          cost > 0 &&
+          (game.players.some((p) => p.hasUnlimited) ||
+            (await getPassStatus(supabaseAdmin, appUserId, { verify: true })).active);
+        if (cost > 0 && !covered) {
           const spend = await spendCoins(
             supabaseAdmin,
             appUserId,

@@ -47,7 +47,8 @@ export interface FinishedGame {
   roomCode: string;
   categoryId: string;
   mode: GameMode;
-  players: { id: string; name: string; avatar: string }[];
+  /** hasUnlimited: the server saw an Unlimited pass on their seat when the game ended. */
+  players: { id: string; name: string; avatar: string; hasUnlimited?: boolean }[];
   completedRounds: ReturnType<typeof buildFinishedRounds>;
   matchScore: number;
   totalQuestions: number;
@@ -207,7 +208,12 @@ export async function recordFinishedGame(
     roomCode: room.roomCode,
     categoryId: room.settings.category,
     mode,
-    players: room.players.map(({ id, name, avatar }) => ({ id, name, avatar })),
+    players: room.players.map(({ id, name, avatar, hasUnlimited }) => ({
+      id,
+      name,
+      avatar,
+      ...(hasUnlimited ? { hasUnlimited: true } : {}),
+    })),
     completedRounds: buildFinishedRounds(room),
     matchScore: room.matchScore,
     totalQuestions: room.totalQuestionsAnswered,

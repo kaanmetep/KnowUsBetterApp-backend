@@ -119,6 +119,11 @@ export interface Player {
    * socket answers for them.
    */
   localOf?: string;
+  /**
+   * Has a running Unlimited pass (checked by the server). A room with one
+   * starts paid categories without spending coins.
+   */
+  hasUnlimited?: boolean;
 }
 
 /** The topic a daily_analysis game is played on, decided when it starts. */

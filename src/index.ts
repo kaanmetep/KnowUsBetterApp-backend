@@ -9,6 +9,7 @@ import { createServer } from "http";
 import { Server, Socket } from "socket.io";
 import cors from "cors";
 import { createClient } from "@supabase/supabase-js";
+import { createAdapter } from "@socket.io/redis-streams-adapter";
 import { RoomManager } from "./roomManager.js";
 import { normalizeRoomCode } from "./roomCodes.js";
 import {
@@ -163,6 +164,7 @@ import {
   TWO_TRUTHS_TURNS,
 } from "./utils/twoTruths.js";
 import { loadLies, saveLie } from "./services/twoTruthsSecrets.js";
+import { anyActivePass, getPassStatus } from "./services/unlimitedPass.js";
 
 warmUpProfanityFilter();
 warmUpTextMatcher();
@@ -236,6 +238,7 @@ app.use(
       }),
     onBalanceChanged: (appUserId, newBalance) =>
       notifyCoinsSpent(appUserId, newBalance),
+    onPassChanged: (appUserId) => onPassChanged(appUserId),
   }),
 );
 
@@ -409,12 +412,24 @@ function isOriginAllowed(
   });
 }
 
+// During a deploy Render runs the old and new instance side by side. Rooms
+// live in Redis, but without a shared adapter a broadcast only reaches sockets
+// on the instance that sent it (a partner joining on one instance went unseen
+// by a host on the other). The streams adapter also keeps connection state
+// recovery working across instances. XREAD blocks, so it gets its own client.
+const adapterRedis = redis.duplicate({
+  enableOfflineQueue: true,
+  maxRetriesPerRequest: null,
+});
+adapterRedis.on("error", (err: Error) => console.error("❌ Adapter Redis error:", err));
+
 const io = new Server<
   ClientToServerEvents,
   ServerToClientEvents,
   {},
   SocketData
 >(httpServer, {
+  adapter: createAdapter(adapterRedis),
   cors: {
     origin: (origin, callback) => {
       // CORS callback doesn't have access to user-agent, so we check in allowRequest
@@ -590,6 +605,34 @@ function roomAppUserIds(room: Room): string[] {
     .map((player) => io.sockets.sockets.get(player.id)?.data.appUserId)
     .filter((id): id is string => !!id);
   return [...new Set(ids)];
+}
+
+/**
+ * Puts a player's Unlimited pass on their seat, so both phones see that the
+ * room plays paid categories for free.
+ */
+async function showPassInRoom(socketId: string, active: boolean): Promise<void> {
+  const roomCode = await roomManager.getPlayerRoom(socketId);
+  if (!roomCode) return;
+  const room = await roomManager.withRoomLock(roomCode, async () => {
+    const current = await roomManager.getRoom(roomCode);
+    const player = current?.players.find((p) => p.id === socketId);
+    if (!current || !player || !!player.hasUnlimited === active) return null;
+    player.hasUnlimited = active;
+    await roomManager.updateRoom(current);
+    return current;
+  });
+  if (room) io.to(roomCode).emit("room-updated", { room });
+}
+
+/** A webhook changed someone's pass: tell their app and their room. */
+function onPassChanged(appUserId: string): void {
+  const socket = findSocketByUserId(appUserId, io, userSockets);
+  if (!socket || !supabaseAdmin) return;
+  socket.emit("unlimited-changed", { appUserId });
+  getPassStatus(supabaseAdmin, appUserId)
+    .then((status) => showPassInRoom(socket.id, status.active))
+    .catch((error) => console.error("❌ Failed to show Unlimited in room:", error));
 }
 
 /** Pushes a balance the server changed to the user's app, if it's connected. */
@@ -1404,6 +1447,16 @@ function describeClientDisconnect(info: unknown): string | null {
   );
 }
 
+/** Whether a socket is connected to this or another instance (during a deploy both run). */
+async function isConnectedAnywhere(socketId: string): Promise<boolean> {
+  if (io.sockets.sockets.has(socketId)) return true;
+  try {
+    return (await io.in(socketId).fetchSockets()).length > 0;
+  } catch {
+    return false;
+  }
+}
+
 /** Remembers whose seat this socket holds, so the user can take it back from a new socket. */
 async function recordSeatOwner(socket: AppSocket, roomCode: string): Promise<void> {
   await pendingRegistrations.get(socket.id);
@@ -1424,7 +1477,7 @@ async function reclaimSeat(socket: AppSocket, roomCode: string): Promise<Room | 
   if (!appUserId) return null;
   const oldSocketId = await roomManager.getSeatOwner(roomCode, appUserId);
   // A seat still in use by a connected socket isn't free to take.
-  if (!oldSocketId || oldSocketId === socket.id || io.sockets.sockets.has(oldSocketId)) {
+  if (!oldSocketId || oldSocketId === socket.id || (await isConnectedAnywhere(oldSocketId))) {
     return null;
   }
   // Leaving another room first, like a join, but outside this room's lock.
@@ -1634,6 +1687,8 @@ io.on(
             socket.emit("room-error", { message: "Room not found", code: "ROOM_NOT_FOUND" });
             return;
           }
+          // Set when no room has this code but one had it until recently.
+          let closedAt: number | null = null;
           // Only once the target room exists, so a mistyped code doesn't
           // also cost the player the room they're in.
           if (await roomManager.getRoom(roomCode)) {
@@ -1646,7 +1701,7 @@ io.on(
             }
             await leavePreviousRoom(socket, roomCode);
           } else {
-            const closedAt = await roomManager.getRoomClosedAt(roomCode);
+            closedAt = await roomManager.getRoomClosedAt(roomCode);
             captureServerEvent(
               "server_room_not_found",
               { appUserId: socket.data.appUserId, socketId: socket.id },
@@ -1687,7 +1742,7 @@ io.on(
             // A host who stepped away (sharing the code) shows as away from the start.
             for (const player of result.room?.players ?? []) {
               if (player.localOf || player.id === socket.id) continue;
-              if (!io.sockets.sockets.has(player.id)) {
+              if (!(await isConnectedAnywhere(player.id))) {
                 socket.emit("player-connection", { playerId: player.id, connected: false });
               }
             }
@@ -1698,7 +1753,14 @@ io.on(
               room: result.room,
             });
           } else {
-            socket.emit("room-error", { message: result.error, code: result.code });
+            socket.emit("room-error", {
+              message: result.error,
+              code: result.code,
+              // Only for a code that really was a room: its players have all
+              // left (or it closed in a restart). A code that never existed
+              // stays a plain ROOM_NOT_FOUND.
+              ...(result.code === "ROOM_NOT_FOUND" && closedAt !== null && { closed: true }),
+            });
           }
         } catch (error) {
           console.error("Error joining room:", error);
@@ -1958,7 +2020,26 @@ io.on(
             room.settings.category,
             supabaseAdmin,
           );
-          const cost = category?.coinsRequired ?? 0;
+          const listedCost = category?.coinsRequired ?? 0;
+          // "One of you buys, you both play": any player's Unlimited pass
+          // makes a paid category free for the whole room.
+          const passHolder =
+            listedCost > 0 && supabaseAdmin
+              ? await anyActivePass(supabaseAdmin, roomAppUserIds(room))
+              : null;
+          const cost = passHolder ? 0 : listedCost;
+          if (passHolder) {
+            captureServerEvent(
+              "server_unlimited_game",
+              { appUserId: passHolder },
+              {
+                room_code: roomCode,
+                category: room.settings.category,
+                coins_waived: listedCost,
+                holder_is_host: passHolder === (await resolveAppUserId(socket, appUserId)),
+              },
+            );
+          }
 
           // Older builds spend the coins themselves after the countdown, which
           // a modified app can skip; turned off once those builds are gone.
@@ -2942,6 +3023,25 @@ io.on(
       },
     );
 
+    // The app asks after a purchase, a restore and when it enters a room;
+    // the answer also goes on the player's seat for the partner to see.
+    socket.on("unlimited-status", async (_data, ack) => {
+      const reply = typeof ack === "function" ? ack : () => {};
+      try {
+        await pendingRegistrations.get(socket.id);
+        const appUserId = socket.data.appUserId;
+        if (!supabaseAdmin || !appUserId) {
+          return reply({ ok: false, code: "UNAVAILABLE" });
+        }
+        const status = await getPassStatus(supabaseAdmin, appUserId, { verify: true });
+        await showPassInRoom(socket.id, status.active);
+        reply({ ok: true, ...status });
+      } catch (error) {
+        console.error("Error checking Unlimited:", error);
+        reply({ ok: false, code: "UNAVAILABLE" });
+      }
+    });
+
     // A player agreed on their device to the daily analysis sending their
     // answers to OpenAI; the host can't start one until everyone has.
     socket.on("ai-consent", async ({ roomCode, playerId }) => {
@@ -3144,6 +3244,7 @@ async function shutdown(signal: string): Promise<void> {
 
   await httpClosed;
   await redis.quit().catch(() => undefined);
+  await adapterRedis.quit().catch(() => undefined);
   console.log("✅ HTTP server and Redis closed");
   await flushAnalytics();
   process.exit(0);
