@@ -639,12 +639,25 @@ async function resolveAppUserId(
   return "appUserId" in resolution ? resolution.appUserId : null;
 }
 
+/**
+ * The wallet a socket registered with, whichever instance it is connected to
+ * (during a deploy the partner can sit on the other one).
+ */
+async function appUserIdOf(socketId: string): Promise<string | null> {
+  const local = io.sockets.sockets.get(socketId);
+  if (local) return local.data.appUserId ?? null;
+  try {
+    const [remote] = await io.in(socketId).fetchSockets();
+    return remote?.data.appUserId ?? null;
+  } catch {
+    return null;
+  }
+}
+
 /** Wallet ids of the room's connected players; players that never registered are left out. */
-function roomAppUserIds(room: Room): string[] {
-  const ids = room.players
-    .map((player) => io.sockets.sockets.get(player.id)?.data.appUserId)
-    .filter((id): id is string => !!id);
-  return [...new Set(ids)];
+async function roomAppUserIds(room: Room): Promise<string[]> {
+  const ids = await Promise.all(room.players.map((player) => appUserIdOf(player.id)));
+  return [...new Set(ids.filter((id): id is string => !!id))];
 }
 
 /**
@@ -1073,7 +1086,9 @@ async function completeRound(
   const { room, round: completed, isLast } = applied;
   // A guess round reuses its write round's question.
   if (!isGuessRound(question)) {
-    void markQuestionsSeen(roomAppUserIds(room), [question.id], supabaseAdmin);
+    void roomAppUserIds(room).then((ids) =>
+      markQuestionsSeen(ids, [question.id], supabaseAdmin),
+    );
   }
   const displayDuration = getResultDisplayDuration(room.settings, question);
   const percentage = getGamePercentage(room);
@@ -1894,7 +1909,11 @@ io.on(
         }
 
         // A dropped player keeps their seat for a while; don't start without them.
-        if (!room.players.every((p) => io.sockets.sockets.has(deviceOf(p)))) {
+        // The partner may be connected to the other instance during a deploy.
+        const connected = await Promise.all(
+          room.players.map((p) => isConnectedAnywhere(deviceOf(p))),
+        );
+        if (!connected.every(Boolean)) {
           socket.emit("room-error", {
             message:
               "Your partner's connection dropped. Give them a moment to come back.",
@@ -1987,13 +2006,12 @@ io.on(
             }
             dailyLockKey = lockKey;
             const host = dailyHost;
-            dailyPlayers = room.players.map((p) => ({
-              socketId: p.id,
-              appUserId:
-                p.id === socket.id
-                  ? host
-                  : io.sockets.sockets.get(p.id)?.data.appUserId ?? null,
-            }));
+            dailyPlayers = await Promise.all(
+              room.players.map(async (p) => ({
+                socketId: p.id,
+                appUserId: p.id === socket.id ? host : await appUserIdOf(p.id),
+              })),
+            );
             const status = await getDailyAnalysisStatus(supabaseAdmin, host);
             if (status.availableAt) {
               socket.emit("room-error", {
@@ -2043,7 +2061,7 @@ io.on(
                 !rankIt &&
                 !twoTruths &&
                 room.players.every((p) => p.supportsTextQuestions === true),
-              appUserIds: roomAppUserIds(room),
+              appUserIds: await roomAppUserIds(room),
               rankable: rankIt,
             },
           );
@@ -2067,7 +2085,7 @@ io.on(
           // makes a paid category free for the whole room.
           const passHolder =
             listedCost > 0 && supabaseAdmin
-              ? await anyActivePass(supabaseAdmin, roomAppUserIds(room))
+              ? await anyActivePass(supabaseAdmin, await roomAppUserIds(room))
               : null;
           const cost = passHolder ? 0 : listedCost;
           if (passHolder) {
@@ -2860,7 +2878,7 @@ io.on(
           return reply({ ok: false, code: "NOT_IN_GAME" });
         }
         const partner = room.players.find((player) => player.id !== socket.id);
-        if (!partner || !io.sockets.sockets.has(partner.id)) {
+        if (!partner || !(await isConnectedAnywhere(partner.id))) {
           return reply({ ok: false, code: "PARTNER_OFFLINE" });
         }
         if (!partner.supportsReactions) {
