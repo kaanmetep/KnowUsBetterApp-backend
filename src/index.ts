@@ -164,6 +164,7 @@ import {
   TWO_TRUTHS_TURNS,
 } from "./utils/twoTruths.js";
 import { loadLies, saveLie } from "./services/twoTruthsSecrets.js";
+import { anyActivePass, getPassStatus } from "./services/unlimitedPass.js";
 
 warmUpProfanityFilter();
 warmUpTextMatcher();
@@ -237,6 +238,7 @@ app.use(
       }),
     onBalanceChanged: (appUserId, newBalance) =>
       notifyCoinsSpent(appUserId, newBalance),
+    onPassChanged: (appUserId) => onPassChanged(appUserId),
   }),
 );
 
@@ -603,6 +605,34 @@ function roomAppUserIds(room: Room): string[] {
     .map((player) => io.sockets.sockets.get(player.id)?.data.appUserId)
     .filter((id): id is string => !!id);
   return [...new Set(ids)];
+}
+
+/**
+ * Puts a player's Unlimited pass on their seat, so both phones see that the
+ * room plays paid categories for free.
+ */
+async function showPassInRoom(socketId: string, active: boolean): Promise<void> {
+  const roomCode = await roomManager.getPlayerRoom(socketId);
+  if (!roomCode) return;
+  const room = await roomManager.withRoomLock(roomCode, async () => {
+    const current = await roomManager.getRoom(roomCode);
+    const player = current?.players.find((p) => p.id === socketId);
+    if (!current || !player || !!player.hasUnlimited === active) return null;
+    player.hasUnlimited = active;
+    await roomManager.updateRoom(current);
+    return current;
+  });
+  if (room) io.to(roomCode).emit("room-updated", { room });
+}
+
+/** A webhook changed someone's pass: tell their app and their room. */
+function onPassChanged(appUserId: string): void {
+  const socket = findSocketByUserId(appUserId, io, userSockets);
+  if (!socket || !supabaseAdmin) return;
+  socket.emit("unlimited-changed", { appUserId });
+  getPassStatus(supabaseAdmin, appUserId)
+    .then((status) => showPassInRoom(socket.id, status.active))
+    .catch((error) => console.error("❌ Failed to show Unlimited in room:", error));
 }
 
 /** Pushes a balance the server changed to the user's app, if it's connected. */
@@ -1990,7 +2020,26 @@ io.on(
             room.settings.category,
             supabaseAdmin,
           );
-          const cost = category?.coinsRequired ?? 0;
+          const listedCost = category?.coinsRequired ?? 0;
+          // "One of you buys, you both play": any player's Unlimited pass
+          // makes a paid category free for the whole room.
+          const passHolder =
+            listedCost > 0 && supabaseAdmin
+              ? await anyActivePass(supabaseAdmin, roomAppUserIds(room))
+              : null;
+          const cost = passHolder ? 0 : listedCost;
+          if (passHolder) {
+            captureServerEvent(
+              "server_unlimited_game",
+              { appUserId: passHolder },
+              {
+                room_code: roomCode,
+                category: room.settings.category,
+                coins_waived: listedCost,
+                holder_is_host: passHolder === (await resolveAppUserId(socket, appUserId)),
+              },
+            );
+          }
 
           // Older builds spend the coins themselves after the countdown, which
           // a modified app can skip; turned off once those builds are gone.
@@ -2973,6 +3022,25 @@ io.on(
         }
       },
     );
+
+    // The app asks after a purchase, a restore and when it enters a room;
+    // the answer also goes on the player's seat for the partner to see.
+    socket.on("unlimited-status", async (_data, ack) => {
+      const reply = typeof ack === "function" ? ack : () => {};
+      try {
+        await pendingRegistrations.get(socket.id);
+        const appUserId = socket.data.appUserId;
+        if (!supabaseAdmin || !appUserId) {
+          return reply({ ok: false, code: "UNAVAILABLE" });
+        }
+        const status = await getPassStatus(supabaseAdmin, appUserId, { verify: true });
+        await showPassInRoom(socket.id, status.active);
+        reply({ ok: true, ...status });
+      } catch (error) {
+        console.error("Error checking Unlimited:", error);
+        reply({ ok: false, code: "UNAVAILABLE" });
+      }
+    });
 
     // A player agreed on their device to the daily analysis sending their
     // answers to OpenAI; the host can't start one until everyone has.

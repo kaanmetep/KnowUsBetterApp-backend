@@ -8,6 +8,11 @@ import {
 import { creditCoins } from "../services/coinLedger.js";
 import { PUBLIC_RUNTIME_CONFIG } from "../services/publicConfigService.js";
 import { getCoinsFromProductId } from "../utils/helpers.js";
+import {
+  applyPassEvent,
+  isUnlimitedProduct,
+  transferPass,
+} from "../services/unlimitedPass.js";
 
 const PURCHASE_EVENTS = new Set([
   "INITIAL_PURCHASE",
@@ -138,11 +143,14 @@ export function createRevenueCatWebhookRouter({
   supabaseAdmin,
   onCoinsAdded,
   onBalanceChanged,
+  onPassChanged,
 }: {
   supabaseAdmin: SupabaseClient | null;
   onCoinsAdded: (appUserId: string, newBalance: number) => void;
   /** A balance the webhook lowered. */
   onBalanceChanged: (appUserId: string, newBalance: number) => void;
+  /** An Unlimited pass started, renewed, moved or ended for this user. */
+  onPassChanged: (appUserId: string) => void;
 }): Router {
   const router = Router();
 
@@ -172,6 +180,21 @@ export function createRevenueCatWebhookRouter({
         }
 
         if (event.type === "TRANSFER") {
+          const passTarget =
+            typeof event.app_user_id === "string" &&
+            appUserIds(event.transferred_to).includes(event.app_user_id)
+              ? event.app_user_id
+              : appUserIds(event.transferred_to)[0];
+          if (
+            passTarget &&
+            (await transferPass(
+              supabaseAdmin,
+              appUserIds(event.transferred_from),
+              passTarget,
+            ))
+          ) {
+            onPassChanged(passTarget);
+          }
           const result = await mergeTransferredWallets(supabaseAdmin, event);
           if (result.status === "error") {
             // A 5xx makes RevenueCat retry the webhook later.
@@ -183,6 +206,21 @@ export function createRevenueCatWebhookRouter({
             for (const id of result.drained) onBalanceChanged(id, 0);
           }
           return res.status(200).json({ success: true });
+        }
+
+        // The weekly Unlimited subscription: no coins, just how long it runs.
+        if (isUnlimitedProduct(event.product_id)) {
+          const result = await applyPassEvent(supabaseAdmin, event);
+          if (result.status === "error") {
+            return res.status(500).json({ error: "Failed to record pass" });
+          }
+          if (result.status === "updated") {
+            console.log(
+              `♾️ Unlimited ${event.type} for ${result.appUserId}: ${result.active ? "active" : "inactive"}`,
+            );
+            onPassChanged(result.appUserId);
+          }
+          return res.status(200).json({ success: true, pass: result.status });
         }
 
         if (!PURCHASE_EVENTS.has(event.type)) {
