@@ -41,3 +41,22 @@ export async function loadLies(
   });
   return lies;
 }
+
+/** A player's lies follow their seat to a new socket id (see moveSeat). */
+export async function renameLieAuthors(
+  roomCode: string,
+  renames: Record<string, string>,
+): Promise<void> {
+  const key = secretsKey(roomCode);
+  const stored = await redis.hgetall(key);
+  const multi = redis.multi();
+  let changed = false;
+  for (const [name, lie] of Object.entries(stored)) {
+    const split = name.lastIndexOf(":");
+    const to = renames[name.slice(split + 1)];
+    if (split < 0 || !to) continue;
+    multi.hset(key, field(name.slice(0, split), to), lie).hdel(key, name);
+    changed = true;
+  }
+  if (changed) await multi.expire(key, SECRETS_TTL_SECONDS).exec();
+}

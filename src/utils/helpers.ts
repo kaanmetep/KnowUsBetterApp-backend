@@ -27,6 +27,12 @@ export interface SocketData {
   appUserId?: string;
   /** A register-user that couldn't be checked because the database failed. */
   unverifiedRegistration?: { appUserId: string; token: unknown };
+  /**
+   * The app said in register-user that its previous connection dropped
+   * (newer builds also name that socket). The server may not have noticed
+   * yet, so that socket can still look connected.
+   */
+  reportedDrop?: { previousSocketId?: string };
 }
 
 export interface ServerToClientEvents {
@@ -216,6 +222,8 @@ export interface ClientToServerEvents {
           appUserId: string;
           token?: string | null;
           lastDisconnect?: unknown;
+          /** The socket that dropped, so its seat can move here before the server notices. */
+          previousSocketId?: unknown;
           identity?: unknown;
         },
   ) => void;

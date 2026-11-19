@@ -163,7 +163,7 @@ import {
   STATEMENT_MAX_LENGTH,
   TWO_TRUTHS_TURNS,
 } from "./utils/twoTruths.js";
-import { loadLies, saveLie } from "./services/twoTruthsSecrets.js";
+import { loadLies, renameLieAuthors, saveLie } from "./services/twoTruthsSecrets.js";
 import { anyActivePass, getPassStatus } from "./services/unlimitedPass.js";
 
 warmUpProfanityFilter();
@@ -1525,8 +1525,22 @@ async function recordSeatOwner(socket: AppSocket, roomCode: string): Promise<voi
 }
 
 /**
- * A player whose socket was replaced (back after the recovery window) takes
- * their seat in a room that hasn't started. Returns the room when they did.
+ * Whether the socket holding this user's seat is one the new socket replaces:
+ * gone, or still looking connected because the server hasn't noticed the drop
+ * the app reports (that takes up to pingInterval + pingTimeout).
+ */
+async function isReplacedSocket(socket: AppSocket, oldSocketId: string): Promise<boolean> {
+  if (!(await isConnectedAnywhere(oldSocketId))) return true;
+  const drop = socket.data.reportedDrop;
+  if (!drop) return false;
+  // Newer builds name the socket that dropped; older ones only report a drop.
+  return drop.previousSocketId === undefined || drop.previousSocketId === oldSocketId;
+}
+
+/**
+ * A player whose socket was replaced (a network drop, or back after the
+ * recovery window) takes their seat back, in the waiting room or mid-game.
+ * Returns the room when they did.
  */
 async function reclaimSeat(socket: AppSocket, roomCode: string): Promise<Room | null> {
   await pendingRegistrations.get(socket.id);
@@ -1534,26 +1548,41 @@ async function reclaimSeat(socket: AppSocket, roomCode: string): Promise<Room | 
   if (!appUserId) return null;
   const oldSocketId = await roomManager.getSeatOwner(roomCode, appUserId);
   // A seat still in use by a connected socket isn't free to take.
-  if (!oldSocketId || oldSocketId === socket.id || (await isConnectedAnywhere(oldSocketId))) {
+  if (!oldSocketId || oldSocketId === socket.id || !(await isReplacedSocket(socket, oldSocketId))) {
     return null;
   }
   // Leaving another room first, like a join, but outside this room's lock.
   const previous = await roomManager.getPlayerRoom(socket.id);
   if (previous && previous !== roomCode) await leavePreviousRoom(socket, roomCode);
-  const room = await roomManager.withRoomLock(roomCode, () =>
+  const moved = await roomManager.withRoomLock(roomCode, () =>
     roomManager.reclaimSeat(roomCode, appUserId, oldSocketId, socket.id),
   );
-  if (!room) return null;
+  if (!moved) return null;
+  const { room, renames } = moved;
   clearTimeout(seatHolds.get(oldSocketId));
   seatHolds.delete(oldSocketId);
   socket.join(roomCode);
-  console.log(`🪑 ${appUserId} took their seat in ${roomCode} back: ${oldSocketId} -> ${socket.id}`);
+  if (room.status !== "waiting") {
+    await renameLieAuthors(roomCode, renames).catch((error) =>
+      console.error(`❌ Failed to move two_truths lies in ${roomCode}:`, error),
+    );
+    const daily = dailyAnalysisStarts.get(roomCode);
+    for (const player of daily?.players ?? []) {
+      player.socketId = renames[player.socketId] ?? player.socketId;
+    }
+  }
+  // The old socket is dead but the server hasn't noticed; its seat has moved,
+  // so closing it now frees nothing.
+  io.in(oldSocketId).disconnectSockets(true);
+  console.log(
+    `🪑 ${appUserId} took their seat in ${roomCode} (${room.status}) back: ${oldSocketId} -> ${socket.id}`,
+  );
   captureServerEvent(
     "server_seat_reclaimed",
     { appUserId, socketId: socket.id },
-    { room_code: roomCode, player_count: room.players.length },
+    { room_code: roomCode, player_count: room.players.length, room_status: room.status },
   );
-  socket.to(roomCode).emit("room-updated", { room });
+  socket.to(roomCode).emit("room-updated", { room: withoutOpenAnswers(room) });
   socket.to(roomCode).emit("player-connection", { playerId: socket.id, connected: true });
   return room;
 }
@@ -1638,6 +1667,16 @@ io.on(
           },
         );
       }
+      const reportedPrevious =
+        typeof payload === "string" ? undefined : payload?.previousSocketId;
+      socket.data.reportedDrop = lastDisconnect
+        ? {
+            previousSocketId:
+              typeof reportedPrevious === "string" && reportedPrevious.length <= 64
+                ? reportedPrevious
+                : undefined,
+          }
+        : undefined;
       const identity = parseIdentityReport(
         typeof payload === "string" ? undefined : payload?.identity,
       );
@@ -1753,7 +1792,11 @@ io.on(
             const reclaimed = await reclaimSeat(socket, roomCode);
             if (reclaimed) {
               const player = reclaimed.players.find((p) => p.id === socket.id);
-              socket.emit("room-joined", { roomCode, player, room: reclaimed });
+              socket.emit("room-joined", {
+                roomCode,
+                player,
+                room: withoutOpenAnswers(reclaimed),
+              });
               return;
             }
             await leavePreviousRoom(socket, roomCode);

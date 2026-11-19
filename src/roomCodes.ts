@@ -32,19 +32,54 @@ export function normalizeRoomCode(raw: string): string {
 
 /**
  * Gives a player's seat to their new socket id, along with a partner who
- * plays on their phone. Returns false (and leaves the room as it was) when
- * the old id has no seat or the new one already has one.
+ * plays on their phone. Mid-game their answers, grades and two_truths
+ * statements move with them. Returns the ids that changed (old -> new), or
+ * null (leaving the room as it was) when the old id has no seat or the new
+ * one already has one.
  */
-export function moveSeat(room: Room, fromId: string, toId: string): boolean {
-  if (fromId === toId) return false;
-  if (!room.players.some((p) => p.id === fromId)) return false;
-  if (room.players.some((p) => p.id === toId)) return false;
+export function moveSeat(
+  room: Room,
+  fromId: string,
+  toId: string,
+): Record<string, string> | null {
+  if (fromId === toId) return null;
+  if (!room.players.some((p) => p.id === fromId)) return null;
+  if (room.players.some((p) => p.id === toId)) return null;
+  const renames: Record<string, string> = {};
   for (const player of room.players) {
-    if (player.id === fromId) player.id = toId;
+    if (player.id === fromId) {
+      renames[fromId] = toId;
+      player.id = toId;
+    }
     if (player.localOf === fromId) {
+      const localId = localPartnerId(toId);
+      renames[player.id] = localId;
       player.localOf = toId;
-      player.id = localPartnerId(toId);
+      player.id = localId;
     }
   }
-  return true;
+  const rounds = [room.currentRound, ...(room.completedRounds ?? [])];
+  for (const round of rounds) {
+    if (!round) continue;
+    round.answers = renameKeys(round.answers, renames);
+    if (round.correct) round.correct = renameKeys(round.correct, renames);
+    if (round.lies) round.lies = renameKeys(round.lies, renames);
+  }
+  const questions = [...(room.questions ?? []), ...rounds.map((r) => r?.question)];
+  for (const question of questions) {
+    const twoTruths = question?.twoTruths;
+    if (twoTruths?.phase === "guess" && twoTruths.statements) {
+      twoTruths.statements = renameKeys(twoTruths.statements, renames);
+    }
+  }
+  return renames;
+}
+
+function renameKeys<T>(
+  record: Record<string, T>,
+  renames: Record<string, string>,
+): Record<string, T> {
+  return Object.fromEntries(
+    Object.entries(record).map(([key, value]) => [renames[key] ?? key, value]),
+  );
 }
