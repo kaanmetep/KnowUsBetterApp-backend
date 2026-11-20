@@ -10,7 +10,15 @@ import type { Question } from "../src/types.js";
 const question = (answers: Record<string, string[]>): Question =>
   ({
     id: "q1",
-    texts: { text_en: "Q", text_tr: "S", text_es: "P", text_pt: "P" },
+    texts: {
+      text_en: "Q",
+      text_tr: "S",
+      text_es: "P",
+      text_pt: "P",
+      text_de: "F",
+      text_it: "D",
+      text_pl: "P",
+    },
     category: "long_term",
     haveAnswers: true,
     answers,
@@ -22,11 +30,22 @@ const full = question({
   answers_tr: ["Plaj", "Dağlar"],
   answers_es: ["Playa", "Montañas"],
   answers_pt: ["Praia", "Montanhas"],
+  answers_de: ["Strand", "Berge"],
+  answers_it: ["Spiaggia", "Montagna"],
+  answers_pl: ["Plaża", "Góry"],
 });
 
 test("findAnswerObject matches an answer picked in any language", () => {
-  const expected = { en: "Mountains", tr: "Dağlar", es: "Montañas", pt: "Montanhas" };
-  for (const pick of ["Mountains", "Dağlar", "Montañas", "Montanhas"]) {
+  const expected = {
+    en: "Mountains",
+    tr: "Dağlar",
+    es: "Montañas",
+    pt: "Montanhas",
+    de: "Berge",
+    it: "Montagna",
+    pl: "Góry",
+  };
+  for (const pick of ["Mountains", "Dağlar", "Montañas", "Montanhas", "Berge", "Montagna", "Góry"]) {
     assert.deepEqual(findAnswerObject(pick, full), expected);
   }
   assert.equal(findAnswerObject("Desert", full), null);
@@ -43,6 +62,9 @@ test("findAnswerObject on a room stored before Portuguese falls back to the pick
     tr: "Plaj",
     es: "Playa",
     pt: "Plaj",
+    de: "Plaj",
+    it: "Plaj",
+    pl: "Plaj",
   });
 });
 
@@ -52,46 +74,52 @@ test("typed trivia key reveals each language, English when one is missing", () =
   assert.deepEqual(key, {
     kind: "text",
     accepted: ["Mars", "Marte"],
-    reveal: { en: "Mars", tr: "Mars", es: "Marte", pt: "Mars" },
+    reveal: { en: "Mars", tr: "Mars", es: "Marte", pt: "Mars", de: "Mars", it: "Mars", pl: "Mars" },
   });
 });
 
 test("multiple choice trivia key carries the Portuguese answer", () => {
   assert.deepEqual(parseAnswerKey("Beach", full), {
     kind: "choice",
-    value: { en: "Beach", tr: "Plaj", es: "Playa", pt: "Praia" },
+    value: {
+      en: "Beach",
+      tr: "Plaj",
+      es: "Playa",
+      pt: "Praia",
+      de: "Strand",
+      it: "Spiaggia",
+      pl: "Plaża",
+    },
   });
 });
 
-test("admin questions need a Portuguese text and answers", () => {
-  const body = {
-    category_id: "long_term",
-    texts: { text_en: "Q", text_tr: "S", text_es: "P" },
-    have_answers: true,
-    answers: {
-      answers_en: ["A", "B"],
-      answers_tr: ["A", "B"],
-      answers_es: ["A", "B"],
-    },
+test("admin questions need every language's text and answers", () => {
+  const texts = { text_en: "Q", text_tr: "S", text_es: "P", text_pt: "P", text_de: "F", text_it: "D", text_pl: "P" };
+  const answers = {
+    answers_en: ["A", "B"],
+    answers_tr: ["A", "B"],
+    answers_es: ["A", "B"],
+    answers_pt: ["A", "B"],
+    answers_de: ["A", "B"],
+    answers_it: ["A", "B"],
+    answers_pl: ["A", "B"],
   };
-  assert.throws(() => validateQuestionInput(body), /texts\.text_pt is required/);
-  assert.throws(
-    () => validateQuestionInput({ ...body, texts: { ...body.texts, text_pt: "P" } }),
-    /answers\.answers_pt must be an array/,
-  );
-  const ok = validateQuestionInput({
-    ...body,
-    texts: { ...body.texts, text_pt: "P" },
-    answers: { ...body.answers, answers_pt: ["A", "B"] },
-  });
-  assert.equal(ok.texts.text_pt, "P");
-  assert.deepEqual(ok.answers?.answers_pt, ["A", "B"]);
+  const body = { category_id: "long_term", texts, have_answers: true, answers };
+  const { text_pt: _pt, ...noPt } = texts;
+  assert.throws(() => validateQuestionInput({ ...body, texts: noPt }), /texts\.text_pt is required/);
+  const { text_pl: _pl, ...noPl } = texts;
+  assert.throws(() => validateQuestionInput({ ...body, texts: noPl }), /texts\.text_pl is required/);
+  const { answers_de: _de, ...noDe } = answers;
+  assert.throws(() => validateQuestionInput({ ...body, answers: noDe }), /answers\.answers_de must be an array/);
+  const ok = validateQuestionInput(body);
+  assert.equal(ok.texts.text_it, "D");
+  assert.deepEqual(ok.answers?.answers_pl, ["A", "B"]);
 });
 
 test("a typed key given as one list applies to every language", () => {
   const ok = validateQuestionInput({
     category_id: "mastermind",
-    texts: { text_en: "Q", text_tr: "S", text_es: "P", text_pt: "P" },
+    texts: { text_en: "Q", text_tr: "S", text_es: "P", text_pt: "P", text_de: "F", text_it: "D", text_pl: "P" },
     question_type: "text",
     correct_answer: ["Ankara"],
   });
@@ -100,10 +128,13 @@ test("a typed key given as one list applies to every language", () => {
     tr: ["Ankara"],
     es: ["Ankara"],
     pt: ["Ankara"],
+    de: ["Ankara"],
+    it: ["Ankara"],
+    pl: ["Ankara"],
   });
 });
 
-test("questions keep Portuguese and borrow English answers where it's missing", async () => {
+test("questions keep their language and borrow English where it's missing", async () => {
   const rows = [
     {
       id: "q1",
@@ -135,7 +166,8 @@ test("questions keep Portuguese and borrow English answers where it's missing", 
   const [q1, q2] = await fetchRandomQuestions("long_term", 2, db);
   assert.equal(q1.texts.text_pt, "Pergunta");
   assert.deepEqual(q1.answers?.answers_pt, ["Sim", "Não"]);
-  assert.equal(q2.texts.text_pt, "");
+  assert.equal(q2.texts.text_pt, "Q2");
+  assert.equal(q2.texts.text_de, "Q2");
   assert.deepEqual(q2.answers?.answers_pt, ["C", "D"]);
 });
 
@@ -144,4 +176,30 @@ test("Portuguese profanity is masked, ordinary words are not", () => {
   for (const clean of ["cuidado com isso", "computador", "disputa", "Eu amo pizza"]) {
     assert.equal(maskProfanity(clean), clean);
   }
+});
+
+test("German, Italian and Polish profanity is masked, everyday words are not", () => {
+  for (const [dirty, masked] of [
+    ["Du Arschloch", "Du A********"],
+    ["che stronzo", "che s******"],
+    ["kurwa mać", "k**** mać"],
+    ["amk", "a**"],
+    ["bok gibi", "b** gibi"],
+  ]) {
+    assert.equal(maskProfanity(dirty), masked);
+  }
+  for (const clean of [
+    "Noch mal spielen", "Mit Freunden, amici e amiche", "Na boku", "Lubisz pić drinki?",
+    "W domu z ogrodem", "Non c'è problema", "Cu", "Mar Negro", "Im Schwanz", "Schmuck",
+    "Wie hell ist es", "Pablo Picasso", "Spicy food", "56", "per sempre",
+  ]) {
+    assert.equal(maskProfanity(clean), clean);
+  }
+});
+
+test("typed answers compare without Polish ł or German ß", async () => {
+  const { comparable } = await import("../src/utils/textMatch.js");
+  assert.equal(comparable("Łódź"), comparable("lodz"));
+  assert.equal(comparable("Straße"), comparable("strasse"));
+  assert.equal(comparable("Çiğ  Köfte!"), "cig kofte");
 });

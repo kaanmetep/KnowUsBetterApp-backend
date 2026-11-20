@@ -1,0 +1,70 @@
+{
+  "45b55eb0-9f7d-4819-8905-6bbf7412e967": {
+    "en": "How often should you see your families?",
+    "text": "Quanto spesso dovreste vedere le vostre famiglie?",
+    "answers": [
+      "Ogni settimana",
+      "Un paio di volte al mese",
+      "Nelle occasioni speciali",
+      "Il meno possibile"
+    ]
+  },
+  "0186e34c-69ce-4b3a-a0ca-eeda47599e25": {
+    "en": "A family member criticizes your partner. You…",
+    "text": "Un tuo familiare critica il tuo amore. Tu…",
+    "answers": [
+      "Prendo subito le sue difese",
+      "Poi ne parlo in privato con la mia famiglia",
+      "Non mi intrometto",
+      "Chiedo al mio amore cosa vuole che faccia"
+    ]
+  },
+  "6df93e1d-bb18-418a-bb9e-fc88799efaf1": {
+    "en": "How much say should parents have in your decisions as a couple?",
+    "text": "Quanta voce in capitolo dovrebbero avere i genitori nelle vostre decisioni di coppia?",
+    "answers": [
+      "Nessuna, è la nostra vita",
+      "Li ascoltiamo, poi decidiamo noi",
+      "La loro opinione conta molto",
+      "Dipende dalla decisione"
+    ]
+  },
+  "8bb0a2e7-1a3d-437d-a3ea-c821dbb2fd90": {
+    "en": "Your ideal weekend social life?",
+    "text": "La tua vita sociale ideale nel weekend?",
+    "answers": [
+      "Un bel gruppo di amici",
+      "Un'altra coppia",
+      "Solo noi due",
+      "Con i rispettivi amici"
+    ]
+  },
+  "b9c6e8e3-d7e3-45e4-810d-8e26270732b0": {
+    "en": "How do you feel about your partner's friends?",
+    "text": "Cosa pensi degli amici del tuo amore?",
+    "answers": [
+      "Mi piacciono davvero",
+      "Simpatici, ma non sono il mio giro",
+      "Alcuni mi danno fastidio",
+      "Li conosco appena"
+    ]
+  },
+  "2a964d04-7284-475d-bb2a-e104a8e02a1e": {
+    "en": "How much should friends know about your relationship?",
+    "text": "Quanto dovrebbero sapere gli amici della vostra relazione?",
+    "answers": [
+      "Tutto, sono la mia gente",
+      "Le cose belle",
+      "Solo le grandi novità",
+      "Quasi niente"
+    ]
+  },
+  "04308de1-190c-466a-816f-1fc04d957ce2": {
+    "en": "Which family tradition would you want to keep, or start, together?",
+    "text": "Quale tradizione di famiglia vorresti portare avanti, o iniziare, insieme?"
+  },
+  "8316d765-29a3-4f40-a97e-1adc20b8da80": {
+    "en": "What's one thing about your partner's family or friends you've never said out loud?",
+    "text": "Cosa non hai mai detto ad alta voce sulla famiglia o sugli amici del tuo amore?"
+  }
+}

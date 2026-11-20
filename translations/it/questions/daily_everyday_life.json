@@ -1,0 +1,70 @@
+{
+  "7daf8ce4-e900-49bd-a99c-2bd3b2dc6623": {
+    "en": "How fairly do you feel chores are split between you?",
+    "text": "Quanto è equa, secondo te, la divisione delle faccende tra voi?",
+    "answers": [
+      "Del tutto equa",
+      "Abbastanza equa",
+      "Faccio più della mia parte",
+      "Il mio amore fa più della sua parte"
+    ]
+  },
+  "37e7075f-f8c0-4a6f-8bb1-15d4f63b79b8": {
+    "en": "How much time alone do you need in a normal week?",
+    "text": "Quanto tempo tutto per te ti serve in una settimana normale?",
+    "answers": [
+      "Quasi niente",
+      "Un'ora o due",
+      "Una serata o più",
+      "Tanto, e non sempre lo dico"
+    ]
+  },
+  "2ec6384d-4e70-49a8-b8b4-60fc79668a5a": {
+    "en": "Your ideal weekday evening together?",
+    "text": "La vostra serata ideale insieme in settimana?",
+    "answers": [
+      "Cucinare e cenare insieme",
+      "Guardare qualcosa sul divano",
+      "Uscire da qualche parte",
+      "Fianco a fianco, a fare cose diverse"
+    ]
+  },
+  "c3bfa96a-4683-46d7-a472-9844feb722ce": {
+    "en": "How do you feel about phones when you're together?",
+    "text": "Cosa pensi dei telefoni quando siete insieme?",
+    "answers": [
+      "Per noi non è un problema",
+      "A volte mi dà fastidio",
+      "Mi dà molto fastidio",
+      "Probabilmente lo uso più io"
+    ]
+  },
+  "ec39df53-45de-401b-83c5-c71fdc6a7b5c": {
+    "en": "Weekends should be…",
+    "text": "Il weekend dovrebbe essere…",
+    "answers": [
+      "Pianificato e pieno",
+      "Un solo programma, il resto libero",
+      "Senza alcun programma",
+      "Soprattutto riposo a casa"
+    ]
+  },
+  "da536f27-fd8e-4b15-9bb2-fff1ab7cc79d": {
+    "en": "How tidy should home be?",
+    "text": "Quanto dovrebbe essere ordinata la casa?",
+    "answers": [
+      "Impeccabile",
+      "Abbastanza in ordine",
+      "Un po' di disordine fa casa",
+      "Il disordine non lo noto"
+    ]
+  },
+  "973523ee-da46-453e-8012-d7d01eb59fab": {
+    "en": "What part of your everyday life together do you love most?",
+    "text": "Cosa ami di più della vostra quotidianità insieme?"
+  },
+  "455eea81-69be-46f9-a81e-7299fb4c5f1e": {
+    "en": "What small daily thing would you change about how you live together?",
+    "text": "Quale piccola cosa di tutti i giorni cambieresti nel vostro modo di vivere insieme?"
+  }
+}

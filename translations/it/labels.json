@@ -1,0 +1,142 @@
+{
+  "categories": {
+    "just_friends": {
+      "category": "Solo amicizia",
+      "short": "Amicizia"
+    },
+    "we_just_met": {
+      "category": "Ci conosciamo da poco",
+      "short": "Da poco"
+    },
+    "deep_talk": {
+      "category": "Discorsi profondi"
+    },
+    "long_term": {
+      "category": "Insieme da tanto",
+      "short": "Da tanto"
+    },
+    "future_talk": {
+      "category": "Progetti per il futuro"
+    },
+    "spicy": {
+      "category": "Intimità e complicità",
+      "short": "Intimità"
+    },
+    "know_me_well": {
+      "category": "Quanto mi conosci?",
+      "short": "Mi conosci?"
+    },
+    "know_me_well_hard": {
+      "category": "Quanto mi conosci?"
+    },
+    "know_me_well_intimacy": {
+      "category": "Quanto mi conosci?"
+    },
+    "trivia_master": {
+      "category": "Quiz di cultura",
+      "short": "Quiz"
+    },
+    "mastermind": {
+      "category": "Livello genio",
+      "short": "Genio"
+    },
+    "who_is_more_likely": {
+      "category": "Chi è più probabile che…?",
+      "short": "Chi dei due?"
+    },
+    "who_is_more_likely_intimacy": {
+      "category": "Chi è più probabile che…?",
+      "short": "Chi dei due?"
+    },
+    "rank_it": {
+      "category": "Metti in ordine",
+      "short": "Classifica"
+    },
+    "rank_it_intimacy": {
+      "category": "Metti in ordine",
+      "short": "Classifica"
+    },
+    "two_truths": {
+      "category": "Due verità e una bugia",
+      "short": "Vero o falso"
+    },
+    "daily_analysis": {
+      "category": "Analisi del giorno",
+      "short": "Analisi"
+    },
+    "daily_love_language": {
+      "category": "Come vi dimostrate l'amore",
+      "short": "Amore"
+    },
+    "daily_conflict": {
+      "category": "Quando non siete d'accordo",
+      "short": "Conflitti"
+    },
+    "daily_everyday_life": {
+      "category": "La vostra quotidianità",
+      "short": "Quotidianità"
+    },
+    "daily_trust_jealousy": {
+      "category": "Fiducia e gelosia",
+      "short": "Fiducia"
+    },
+    "daily_future": {
+      "category": "Il vostro futuro",
+      "short": "Futuro"
+    },
+    "daily_money": {
+      "category": "Soldi e spese",
+      "short": "Soldi"
+    },
+    "daily_family_friends": {
+      "category": "Famiglia e amici",
+      "short": "Famiglia"
+    },
+    "daily_intimacy": {
+      "category": "Vicinanza e intimità",
+      "short": "Intimità"
+    }
+  },
+  "category_groups": {
+    "see_your_match": {
+      "category": "Rispondete e scoprite quanto siete affini"
+    },
+    "know_each_other": {
+      "category": "Quanto vi conoscete?"
+    },
+    "who_knows_better": {
+      "category": "Chi ne sa di più?"
+    },
+    "who_is_more_likely": {
+      "category": "Chi è più probabile che…"
+    },
+    "rank_it": {
+      "category": "Metti in ordine"
+    },
+    "daily_analysis": {
+      "category": "Analisi del giorno"
+    },
+    "two_truths": {
+      "category": "Due verità e una bugia"
+    }
+  },
+  "game_reactions": {
+    "love": "Amore",
+    "laugh": "Ahah",
+    "kiss": "Bacio",
+    "angry": "Grr",
+    "eye_roll": "Occhi al cielo",
+    "fire": "Fuoco",
+    "shy": "Imbarazzo"
+  },
+  "announcements": {
+    "f84bf4da-77b8-4f6f-96e6-beff58570ea5": {
+      "title": "Nuova modalità: 2 verità e 1 bugia!",
+      "message": "Scrivi 2 verità e 1 bugia su di te, poi prova a scoprire la bugia del tuo amore. Chi conosce meglio l’altra persona, e chi sa mentire meglio? 😏"
+    },
+    "05fc8cad-2351-4fe1-b4b7-6592386fc900": {
+      "title": "Nuova modalità: Metti in ordine!",
+      "message": "Metti le opzioni in ordine dalla prima all’ultima e scopri quanto il tuo ordine coincide con quello del tuo amore. Prova Metti in ordine o vai più a fondo con Metti in ordine (Intimità)."
+    }
+  }
+}

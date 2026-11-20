@@ -1,0 +1,70 @@
+{
+  "0da22e32-fa22-493b-bc7f-f4b3a1ae901b": {
+    "en": "Where do you see yourselves living in 5 years?",
+    "text": "Wo siehst du euch in fünf Jahren wohnen?",
+    "answers": [
+      "Genau da, wo wir jetzt sind",
+      "In einer größeren Stadt",
+      "Irgendwo ruhig, nah an der Natur",
+      "In einem anderen Land"
+    ]
+  },
+  "094980c9-ac72-48cd-8fec-ded5e8c859f2": {
+    "en": "How do you feel about having kids?",
+    "text": "Wie stehst du dazu, Kinder zu bekommen?",
+    "answers": [
+      "Auf jeden Fall, und bald",
+      "Ja, aber noch nicht",
+      "Weiß nicht genau",
+      "Nichts für mich"
+    ]
+  },
+  "9dd0cb25-5e52-4bbd-8b84-0845b7a42506": {
+    "en": "What matters most for your future together?",
+    "text": "Was ist für eure gemeinsame Zukunft am wichtigsten?",
+    "answers": [
+      "Stabilität und Sicherheit",
+      "Abenteuer und neue Erfahrungen",
+      "Eine Familie gründen",
+      "Dass wir uns beide weiterentwickeln"
+    ]
+  },
+  "0bcc27d3-1ef3-44af-a395-189f4c9bd2c7": {
+    "en": "You get a dream job offer in another city. You…",
+    "text": "Du bekommst ein Traumjobangebot in einer anderen Stadt. Was machst du?",
+    "answers": [
+      "Nur annehmen, wenn wir zusammen umziehen",
+      "Eine Weile Fernbeziehung versuchen",
+      "Für uns absagen",
+      "Annehmen, wir finden einen Weg"
+    ]
+  },
+  "8ef516ca-6075-4b91-baa4-ddf344730612": {
+    "en": "How do you prefer to plan the future?",
+    "text": "Wie planst du die Zukunft am liebsten?",
+    "answers": [
+      "Detailliert, Jahre im Voraus",
+      "Eine grobe Richtung",
+      "Schritt für Schritt",
+      "Das Leben soll uns überraschen"
+    ]
+  },
+  "afb504c6-4c43-4b52-ac1f-3313b26b9e24": {
+    "en": "How sure are you that you two want the same future?",
+    "text": "Wie sicher bist du, dass ihr beide dieselbe Zukunft wollt?",
+    "answers": [
+      "Ganz sicher",
+      "Ziemlich, ein paar Fragen sind offen",
+      "Wir haben nie richtig darüber geredet",
+      "Gar nicht sicher"
+    ]
+  },
+  "983f732f-f006-4caf-acec-f1b565922810": {
+    "en": "In one sentence: where are the two of you in five years?",
+    "text": "In einem Satz: Wo steht ihr beide in fünf Jahren?"
+  },
+  "9a479602-d540-4c0d-818d-eca22f12ae13": {
+    "en": "What's one thing about the future you've been hesitant to bring up?",
+    "text": "Welches Zukunftsthema traust du dich noch nicht anzusprechen?"
+  }
+}

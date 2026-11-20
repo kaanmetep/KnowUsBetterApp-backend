@@ -1,0 +1,69 @@
+{
+  "df0f185f-6d69-4ba4-9994-5996b2f0bf68": {
+    "en": "Looking at your partner's phone is…",
+    "text": "Guardare il telefono del tuo amore è…",
+    "answers": [
+      "Mai accettabile, è privato",
+      "Ok, se c'è il permesso",
+      "Ok, non abbiamo niente da nascondere",
+      "Qualcosa che ho fatto senza chiedere"
+    ]
+  },
+  "dd3aaedc-07ee-412b-bb83-7c23dbb377c1": {
+    "en": "Someone gives your partner a lot of attention. You…",
+    "text": "Qualcuno riempie di attenzioni il tuo amore. Tu…",
+    "answers": [
+      "Non ci faccio caso",
+      "Sento una fitta, ma mi fido",
+      "Vorrei parlarne",
+      "Mi ingelosirei, e si vedrebbe"
+    ]
+  },
+  "fbf507be-cbda-4663-9a38-9a01f9393e66": {
+    "en": "Your partner staying friends with an ex is…",
+    "text": "Che il tuo amore resti in buoni rapporti con un ex è…",
+    "answers": [
+      "Del tutto normale",
+      "Ok, se tra loro non c'è più niente",
+      "Qualcosa che mi mette a disagio",
+      "Inaccettabile"
+    ]
+  },
+  "785701ac-e83a-456a-9d90-e85d4aca204d": {
+    "en": "How often do you feel jealous, even if you don't show it?",
+    "text": "Quanto spesso provi gelosia, anche se non lo dai a vedere?",
+    "answers": [
+      "Spesso",
+      "A volte",
+      "Raramente",
+      "Mai"
+    ]
+  },
+  "9ba59f61-1758-4d30-ba63-f6104de991cd": {
+    "en": "What would damage your trust the most?",
+    "text": "Cosa incrinerebbe di più la tua fiducia?",
+    "answers": [
+      "Una bugia, anche piccola",
+      "Conversazioni nascoste con qualcuno",
+      "Una promessa non mantenuta più volte",
+      "Le nostre cose private raccontate ad altri"
+    ]
+  },
+  "18def8e1-5fa7-44a3-85e4-81cb688a31db": {
+    "en": "How much do you want to know about each other's day?",
+    "text": "Quanto vuoi sapere della giornata del tuo amore?",
+    "answers": [
+      "Tutto, dove e con chi",
+      "Le cose principali",
+      "Solo ciò che vuole condividere"
+    ]
+  },
+  "b0a8928f-0b53-439c-9f66-ca1a6c92eb86": {
+    "en": "What makes you feel completely secure with your partner?",
+    "text": "Cosa ti fa sentire completamente al sicuro con il tuo amore?"
+  },
+  "e045d939-d801-4bea-b637-ed0df364efa8": {
+    "en": "Is there anything that makes you even slightly insecure in this relationship? Be honest.",
+    "text": "C'è qualcosa in questa relazione che ti dà anche solo un filo di insicurezza? Rispondi con sincerità."
+  }
+}

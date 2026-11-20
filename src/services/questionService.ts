@@ -256,7 +256,8 @@ export async function fetchRandomQuestions(
       const rawTexts =
         q.texts && typeof q.texts === "object" && !Array.isArray(q.texts) ? q.texts : {};
       const texts = Object.fromEntries(
-        LANGS.map((lang) => [`text_${lang}`, rawTexts[`text_${lang}`] || ""]),
+        // A language without its text (added before that language existed) shows English.
+        LANGS.map((lang) => [`text_${lang}`, rawTexts[`text_${lang}`] || rawTexts.text_en || ""]),
       ) as QuestionTexts;
 
       const questionType = types.get(q.id) ?? "choice";

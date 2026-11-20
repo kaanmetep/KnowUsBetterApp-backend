@@ -3,7 +3,7 @@
 
   const { startRegistration, startAuthentication } = window.SimpleWebAuthnBrowser;
   const $ = (id) => document.getElementById(id);
-  const LANGS = ["en", "tr", "es", "pt"];
+  const LANGS = ["en", "tr", "es", "pt", "de", "it", "pl"];
 
   const state = {
     categories: [],
@@ -514,13 +514,16 @@
 
   // ---------- form ----------
 
-  // Pasted text is read line by line in the fixed LANGS order (EN, TR, ES, PT).
+  // Pasted text is read line by line in the fixed LANGS order (EN, TR, ES, PT, DE, IT, PL).
   // Blank lines are ignored so the input can be spaced out freely.
   const LANG_META = {
     en: { flag: "🇬🇧", code: "EN" },
     tr: { flag: "🇹🇷", code: "TR" },
     es: { flag: "🇪🇸", code: "ES" },
     pt: { flag: "🇧🇷", code: "PT" },
+    de: { flag: "🇩🇪", code: "DE" },
+    it: { flag: "🇮🇹", code: "IT" },
+    pl: { flag: "🇵🇱", code: "PL" },
   };
   // "🇬🇧 EN → 🇹🇷 TR → ..." for form labels.
   const LANG_ORDER = LANGS.map((lang) => `${LANG_META[lang].flag} ${LANG_META[lang].code}`).join(" → ");
@@ -546,7 +549,7 @@
   const LIST_MARKER = /^(?:\d{1,2}[.)]|[-*•])\s+/;
   const FLAGS = /^(?:\p{Regional_Indicator}{2}\s*)+/u;
   const LANG_LABEL =
-    /^(?:en|eng|english|ingilizce|İngilizce|tr|turkish|türkçe|turkce|es|spanish|español|espanol|ispanyolca|İspanyolca|pt|pt-br|portuguese|português|portugues|portekizce)\s*[:\-–—]\s+/iu;
+    /^(?:en|eng|english|ingilizce|İngilizce|tr|turkish|türkçe|turkce|es|spanish|español|espanol|ispanyolca|İspanyolca|pt|pt-br|portuguese|português|portugues|portekizce|de|german|deutsch|almanca|it|italian|italiano|italyanca|pl|polish|polski|lehçe|lehce)\s*[:\-–—]\s+/iu;
   const WRAPPING_QUOTES = /^["“«]([^"“”«»]*)["”»]$/;
 
   function cleanLine(raw) {
@@ -673,7 +676,7 @@
 
   // ---------- trivia correct answer ----------
   // Yes/no and multiple choice pick from a list; typed answers take one line
-  // per language (EN, TR, ES, PT), with alternatives separated by "|".
+  // per language (EN, TR, ES, PT, DE, IT, PL), with alternatives separated by "|".
 
   const ALT_SEPARATOR = "|";
 

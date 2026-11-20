@@ -1,0 +1,2004 @@
+{
+  "980115c5-d5c7-49e5-a782-cc1175a6518b": {
+    "en": "Which organ in the human body consumes the highest percentage of total energy?",
+    "text": "Który narząd zużywa największą część energii ludzkiego organizmu?",
+    "answers": [
+      "Mózg",
+      "Serce",
+      "Wątroba",
+      "Nerki"
+    ]
+  },
+  "a1a237a1-628a-4008-9ba2-36d59a0e6171": {
+    "en": "Which primary color mixture produces the color green in standard visual pigments?",
+    "text": "Zmieszanie których barw podstawowych daje kolor zielony?",
+    "answers": [
+      "Niebieskiej i żółtej",
+      "Czerwonej i niebieskiej",
+      "Żółtej i czerwonej"
+    ]
+  },
+  "c1cb1e49-a9cc-43e1-b6da-34f4da305a37": {
+    "en": "Which architectural feature was specifically invented by ancient Romans to support massive dome structures?",
+    "text": "Który element architektury starożytni Rzymianie rozwinęli, by podtrzymywać ogromne kopuły?",
+    "answers": [
+      "Łuk",
+      "Kolumna",
+      "Piramida"
+    ],
+    "flagged": true,
+    "note": "Source says Romans 'invented' the arch; historically it predates Rome (Mesopotamia), so softened to 'rozwinęli' (developed). Answer key unchanged."
+  },
+  "e9339914-1d7d-423a-9a28-2519995eb9e6": {
+    "en": "Which planet in our solar system spins in the opposite direction to most other planets?",
+    "text": "Która planeta Układu Słonecznego obraca się w przeciwną stronę niż większość pozostałych?",
+    "answers": [
+      "Wenus",
+      "Mars",
+      "Jowisz",
+      "Saturn"
+    ]
+  },
+  "52c90157-fc1f-4878-9f00-91c318581ade": {
+    "en": "Which animal holds the record for having the longest lifespan among vertebrates on Earth?",
+    "text": "Który kręgowiec żyje najdłużej na Ziemi?",
+    "answers": [
+      "Rekin grenlandzki",
+      "Żółw słoniowy",
+      "Wal grenlandzki"
+    ]
+  },
+  "c3b7010c-35ea-402f-a186-4035fa9be837": {
+    "en": "Which fruit is botanically classified as a berry, despite common belief?",
+    "text": "Który owoc, wbrew pozorom, jest botanicznie jagodą?",
+    "answers": [
+      "Banan",
+      "Truskawka",
+      "Malina"
+    ]
+  },
+  "0e882595-4846-4d01-a879-ccb1be0cdc0a": {
+    "en": "Which country is home to the famous Eiffel Tower?",
+    "text": "W jakim kraju stoi słynna wieża Eiffla?",
+    "answers": [
+      "Francja",
+      "Włochy",
+      "Hiszpania",
+      "Niemcy"
+    ]
+  },
+  "5f20efa2-53ef-4bc7-b7de-966c2a271457": {
+    "en": "Which planet in our solar system is known as the \"Red Planet\"?",
+    "text": "Którą planetę Układu Słonecznego nazywa się „Czerwoną Planetą”?",
+    "answers": [
+      "Mars",
+      "Jowisz",
+      "Wenus"
+    ]
+  },
+  "4d359908-e7a2-4ef5-bde1-d9fc49ee3218": {
+    "en": "Which mammalian land animal is known for being unable to jump?",
+    "text": "Który ssak lądowy słynie z tego, że nie potrafi skakać?",
+    "answers": [
+      "Słoń",
+      "Żyrafa",
+      "Hipopotam",
+      "Nosorożec"
+    ]
+  },
+  "a98b74cf-707a-4d84-a017-ea98f2d69e68": {
+    "en": "How many sides does a standard stop sign on the road have?",
+    "text": "Ile boków ma standardowy znak „STOP”?",
+    "answers": [
+      "8",
+      "6",
+      "10"
+    ]
+  },
+  "1002c05b-034b-4dd1-a1fb-adf942e36c58": {
+    "en": "What color do you get when you mix blue and yellow together?",
+    "text": "Jaki kolor powstaje po zmieszaniu niebieskiego z żółtym?",
+    "answers": [
+      "Zielony",
+      "Fioletowy",
+      "Pomarańczowy"
+    ]
+  },
+  "4563d6d4-5301-4f89-811a-045b66157aa2": {
+    "en": "Which soft drink was originally invented as a cough syrup and headache remedy?",
+    "text": "Który napój gazowany wymyślono pierwotnie jako lek na kaszel i ból głowy?",
+    "answers": [
+      "Coca-Cola",
+      "Sprite",
+      "Fanta",
+      "Pepsi"
+    ]
+  },
+  "83fbd060-6ae4-4fc1-9ebe-4b0e7a2e0c15": {
+    "en": "Which organ in the human body pumps blood through the circulatory system?",
+    "text": "Który narząd pompuje krew w układzie krwionośnym?",
+    "answers": [
+      "Serce",
+      "Płuca",
+      "Nerki"
+    ]
+  },
+  "a79f90ff-8ce5-493b-8b50-2ef10c1f9c26": {
+    "en": "How many continents are there on planet Earth?",
+    "text": "Ile kontynentów jest na Ziemi?",
+    "answers": [
+      "7",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "b6c425a9-162f-4107-919c-20eea21afc7a": {
+    "en": "What is the name of the imaginary line that divides Earth into the Northern and Southern Hemispheres?",
+    "text": "Jak nazywa się wyobrażona linia dzieląca Ziemię na półkulę północną i południową?",
+    "answers": [
+      "Równik",
+      "Południk Greenwich",
+      "Zwrotnik Raka"
+    ]
+  },
+  "6d38ce25-2cda-440e-b549-81e7ac23cec6": {
+    "en": "Which country gave the Statue of Liberty to the United States as a gift?",
+    "text": "Który kraj podarował Stanom Zjednoczonym Statuę Wolności?",
+    "answers": [
+      "Francja",
+      "Wielka Brytania",
+      "Hiszpania"
+    ]
+  },
+  "71f547f0-2910-4a59-b084-5a1da579b6fd": {
+    "en": "What is the largest living mammal on planet Earth?",
+    "text": "Jaki jest największy żyjący ssak na Ziemi?",
+    "answers": [
+      "Płetwal błękitny",
+      "Słoń afrykański",
+      "Żyrafa"
+    ]
+  },
+  "eb10929a-ee75-431c-8b54-1c62a3954c40": {
+    "en": "Which piece can move in any direction and any number of squares in a game of chess?",
+    "text": "Która figura szachowa może poruszać się w każdym kierunku o dowolną liczbę pól?",
+    "answers": [
+      "Hetman",
+      "Wieża",
+      "Skoczek"
+    ]
+  },
+  "d322c35e-b645-48fb-a14c-cb92c5fd3a2d": {
+    "en": "Which metal is liquid at room temperature?",
+    "text": "Który metal w temperaturze pokojowej jest ciekły?",
+    "answers": [
+      "Rtęć",
+      "Złoto",
+      "Srebro"
+    ]
+  },
+  "cb7fac86-596c-459d-a42f-b6ba0d8fc977": {
+    "en": "Which country is famous for giving pizza and pasta to world cuisine?",
+    "text": "Który kraj dał światu pizzę i makaron?",
+    "answers": [
+      "Włochy",
+      "Grecja",
+      "Hiszpania"
+    ]
+  },
+  "5aabe2cc-9cc4-458a-835e-7b996e00fc3f": {
+    "en": "Which sea creature is known for having eight arms and three hearts?",
+    "text": "Które morskie stworzenie ma osiem ramion i trzy serca?",
+    "answers": [
+      "Ośmiornica",
+      "Meduza",
+      "Delfin"
+    ]
+  },
+  "6a8c5efa-0b23-4be2-9388-f2160e79d450": {
+    "en": "What is the chemical symbol for gold on the periodic table?",
+    "text": "Jaki jest symbol chemiczny złota w układzie okresowym?",
+    "accepted": [
+      "Au",
+      "au",
+      "AU"
+    ]
+  },
+  "b96c042c-87f1-4b1d-9bf1-420704c1751d": {
+    "en": "Which pigment gives human skin, hair, and eyes their color?",
+    "text": "Jaki barwnik nadaje kolor ludzkiej skórze, włosom i oczom?",
+    "accepted": [
+      "Melanina",
+      "melanina",
+      "Melanin"
+    ]
+  },
+  "1508ac33-05f6-4377-b707-44fedf4e71dd": {
+    "en": "What is the name of the outer protective layer of human teeth?",
+    "text": "Jak nazywa się zewnętrzna, ochronna warstwa ludzkich zębów?",
+    "accepted": [
+      "Szkliwo",
+      "Szkliwo zębów",
+      "Szkliwo zębowe",
+      "szkliwo",
+      "Enamel"
+    ]
+  },
+  "b67421f6-8ac4-4d1a-80be-6e67cd22a44a": {
+    "en": "Which biological process allows green plants to turn sunlight into food?",
+    "text": "Dzięki jakiemu procesowi zielone rośliny zamieniają światło słoneczne w pożywienie?",
+    "accepted": [
+      "Fotosynteza",
+      "fotosynteza",
+      "Fotosynteze",
+      "Fotosyntezie"
+    ]
+  },
+  "ff20387b-ecc5-4100-8a3e-4a10c409f056": {
+    "en": "What is the natural satellite of planet Earth?",
+    "text": "Jak nazywa się naturalny satelita Ziemi?",
+    "accepted": [
+      "Księżyc",
+      "Ksiezyc",
+      "księżyc",
+      "Moon"
+    ]
+  },
+  "6aaa16e5-4afb-4d6a-ae8c-cd19dbcc710e": {
+    "en": "Which naturally occurring mineral is the hardest substance on the Mohs scale?",
+    "text": "Który naturalny minerał jest najtwardszy w skali Mohsa?",
+    "accepted": [
+      "Diament",
+      "diament",
+      "Diamenty",
+      "Diamond"
+    ]
+  },
+  "084018a1-dd49-4965-aebd-934b0318c6a6": {
+    "en": "What is the fastest land animal in the world over short distances?",
+    "text": "Jakie zwierzę lądowe jest najszybsze na świecie na krótkim dystansie?",
+    "accepted": [
+      "Gepard",
+      "gepard",
+      "Cheetah"
+    ]
+  },
+  "2dce8722-4a23-4666-86b4-656be891094b": {
+    "en": "Which scientist is credited with formulating the three laws of motion that laid the foundation for classical mechanics?",
+    "text": "Który naukowiec sformułował trzy zasady dynamiki, na których opiera się mechanika klasyczna?",
+    "answers": [
+      "Isaac Newton",
+      "Galileusz",
+      "Albert Einstein",
+      "Nikola Tesla"
+    ]
+  },
+  "8a9f4fe4-c5b9-409a-be56-e499c4c63f03": {
+    "en": "Which ancient civilization is credited with inventing cuneiform, one of the earliest writing systems in human history?",
+    "text": "Która starożytna cywilizacja wynalazła pismo klinowe, jeden z najstarszych systemów pisma?",
+    "answers": [
+      "Sumerowie",
+      "Starożytni Egipcjanie",
+      "Majowie",
+      "Cywilizacja doliny Indusu"
+    ]
+  },
+  "6b0624f0-17cf-4745-9229-15a908f2a283": {
+    "en": "Which city is nicknamed \"The Big Apple\"?",
+    "text": "Które miasto nazywane jest „Wielkim Jabłkiem”?",
+    "accepted": [
+      "Nowy Jork",
+      "New York",
+      "Nowy York",
+      "Newyork",
+      "NYC",
+      "NY",
+      "Manhattan"
+    ]
+  },
+  "b5a1d6a7-2975-45c3-9da2-527a6839b14b": {
+    "en": "Which famous city lies on two continents, Europe and Asia?",
+    "text": "Które słynne miasto leży na dwóch kontynentach, w Europie i Azji?",
+    "accepted": [
+      "Stambuł",
+      "Stambul",
+      "Istanbul",
+      "İstanbul",
+      "Konstantynopol",
+      "Bizancjum"
+    ]
+  },
+  "3b45c9ca-6907-4477-b5ea-8bfc62790c60": {
+    "en": "Which city is famous for its canals and gondolas?",
+    "text": "Które miasto słynie z kanałów i gondoli?",
+    "accepted": [
+      "Wenecja",
+      "Wenecji",
+      "Venezia",
+      "Venice"
+    ]
+  },
+  "23c98892-b152-43da-b6a0-82128ebef70a": {
+    "en": "Hollywood is a neighborhood of which city?",
+    "text": "Hollywood to dzielnica którego miasta?",
+    "accepted": [
+      "Los Angeles",
+      "LA",
+      "L.A.",
+      "Losangeles",
+      "Miasto Aniołów"
+    ]
+  },
+  "1d666e97-1005-4ff3-81d3-e770e64be6ec": {
+    "en": "In which city is the Eiffel Tower located?",
+    "text": "W jakim mieście stoi wieża Eiffla?",
+    "accepted": [
+      "Paryż",
+      "Paryz",
+      "Paris",
+      "Miasto Świateł"
+    ]
+  },
+  "1b8bf486-da98-42aa-a150-48e2a7258023": {
+    "en": "The famous Leaning Tower is in which Italian city?",
+    "text": "W którym włoskim mieście stoi słynna Krzywa Wieża?",
+    "accepted": [
+      "Piza",
+      "Pisa",
+      "Pizie"
+    ]
+  },
+  "f6b38b97-7a9e-42e4-9197-e65bb05144fe": {
+    "en": "The Brandenburg Gate is a famous landmark of which city?",
+    "text": "Brama Brandenburska to symbol którego miasta?",
+    "accepted": [
+      "Berlin",
+      "Berlinie",
+      "berlin",
+      "Berlin Niemcy"
+    ]
+  },
+  "d58f0d3d-5ae0-4d57-9c67-31b512ad9ec9": {
+    "en": "What is the largest animal that has ever lived on Earth?",
+    "text": "Jakie jest największe zwierzę, które kiedykolwiek żyło na Ziemi?",
+    "accepted": [
+      "Płetwal błękitny",
+      "Pletwal blekitny",
+      "Płetwal",
+      "Błękitny wieloryb",
+      "Wieloryb błękitny",
+      "Blue whale"
+    ]
+  },
+  "bac52e71-1145-40f6-995a-c19cdb34796f": {
+    "en": "What plant makes up almost all of a giant panda's diet?",
+    "text": "Jaka roślina stanowi niemal całą dietę pandy wielkiej?",
+    "accepted": [
+      "Bambus",
+      "bambus",
+      "Pędy bambusa",
+      "Liście bambusa",
+      "Bamboo"
+    ]
+  },
+  "0ab4f29e-ab23-48bd-9b43-ac381b2402b6": {
+    "en": "How many legs does a spider have?",
+    "text": "Ile nóg ma pająk?",
+    "accepted": [
+      "8",
+      "Osiem",
+      "8 nóg",
+      "Osiem nóg",
+      "4 pary",
+      "Cztery pary"
+    ]
+  },
+  "a10b4878-ff6f-48e9-9efa-b5ca90f7787e": {
+    "en": "Which horse-like African animal is famous for its black-and-white stripes?",
+    "text": "Które afrykańskie zwierzę podobne do konia słynie z czarno-białych pasków?",
+    "accepted": [
+      "Zebra",
+      "Zebry",
+      "zebra",
+      "Zeebra"
+    ]
+  },
+  "b6e68e10-746b-4a94-9206-99458a27c2f8": {
+    "en": "Which bird lays the largest eggs in the world?",
+    "text": "Który ptak znosi największe jaja na świecie?",
+    "accepted": [
+      "Struś",
+      "Strus",
+      "Strusie",
+      "Struś afrykański",
+      "Ostrich"
+    ]
+  },
+  "70cd3353-de0e-4861-a3a2-4d30de21df32": {
+    "en": "Which white bird is a worldwide symbol of peace?",
+    "text": "Który biały ptak jest na całym świecie symbolem pokoju?",
+    "accepted": [
+      "Gołąb",
+      "Golab",
+      "Biały gołąb",
+      "Gołąbek",
+      "Gołąbek pokoju",
+      "Gołębica"
+    ]
+  },
+  "1ce201ba-eaae-4e68-9728-8b1eda0a8ca5": {
+    "en": "Which sea creature has eight arms and can squirt ink?",
+    "text": "Które morskie stworzenie ma osiem ramion i potrafi wypuszczać atrament?",
+    "accepted": [
+      "Ośmiornica",
+      "Osmiornica",
+      "Ośmiornice",
+      "Octopus",
+      "Kałamarnica"
+    ]
+  },
+  "78899d32-d997-4e60-b9a5-c635406a0d3a": {
+    "en": "Sushi originally comes from which country?",
+    "text": "Z jakiego kraju pochodzi sushi?",
+    "accepted": [
+      "Japonia",
+      "Japonii",
+      "Japonie",
+      "Nippon",
+      "Japan",
+      "Japońskie"
+    ]
+  },
+  "e3224e00-4e9d-4756-b4b7-34c7b3a1d378": {
+    "en": "What is the main ingredient of guacamole?",
+    "text": "Jaki jest główny składnik guacamole?",
+    "accepted": [
+      "Awokado",
+      "Avocado",
+      "Awocado",
+      "Avokado",
+      "awokado"
+    ]
+  },
+  "b8c37ace-a5e4-48f1-8f35-dfe55af4f856": {
+    "en": "Pizza Margherita's tomato, mozzarella and basil match the colors of which country's flag?",
+    "text": "Pomidor, mozzarella i bazylia na pizzy Margherita to kolory flagi którego kraju?",
+    "accepted": [
+      "Włochy",
+      "Wlochy",
+      "Włoch",
+      "Italia",
+      "Italy",
+      "Włoska"
+    ]
+  },
+  "64af17d4-a459-43d3-8605-b2bb6c19f828": {
+    "en": "Paella, the famous rice dish, comes from which country?",
+    "text": "Z jakiego kraju pochodzi paella, słynne danie z ryżu?",
+    "accepted": [
+      "Hiszpania",
+      "Hiszpanii",
+      "España",
+      "Spain",
+      "Walencja"
+    ]
+  },
+  "b7003871-d60e-401b-9b08-41e7e2e5526e": {
+    "en": "The long, crusty bread called the baguette is a symbol of which country?",
+    "text": "Długie, chrupiące pieczywo zwane bagietką to symbol którego kraju?",
+    "accepted": [
+      "Francja",
+      "Francji",
+      "France",
+      "Francuska",
+      "Paryż"
+    ]
+  },
+  "f621bf3d-8230-483c-9cb0-c0a50a2d71c2": {
+    "en": "Ketchup is mainly made from which fruit?",
+    "text": "Z czego głównie robi się keczup?",
+    "accepted": [
+      "Pomidory",
+      "Pomidor",
+      "Pomidorów",
+      "Z pomidorów",
+      "Koncentrat pomidorowy",
+      "Tomato"
+    ],
+    "note": "Dropped 'fruit' wording: in Polish usage the tomato is a vegetable, so 'z jakiego owocu' would sound wrong."
+  },
+  "e0117c78-8511-4559-a40c-807bf3b44bef": {
+    "en": "What color is wasabi, the spicy paste served with sushi?",
+    "text": "Jakiego koloru jest wasabi, ostra pasta podawana do sushi?",
+    "accepted": [
+      "Zielony",
+      "Zielone",
+      "Zielona",
+      "Jasnozielony",
+      "Jasnozielone",
+      "Green"
+    ]
+  },
+  "f5489aa3-87f1-4b69-92dc-5cf074b1632c": {
+    "en": "Tacos and burritos come from which country's cuisine?",
+    "text": "Tacos i burrito to dania kuchni którego kraju?",
+    "accepted": [
+      "Meksyk",
+      "Meksyku",
+      "Meksykańska",
+      "Kuchnia meksykańska",
+      "Mexico",
+      "México"
+    ]
+  },
+  "a65dcf3d-b93a-4b2c-92db-b4d5f1fd4e1e": {
+    "en": "Which alcoholic drink is made from fermented grapes?",
+    "text": "Jaki alkohol powstaje ze sfermentowanych winogron?",
+    "accepted": [
+      "Wino",
+      "wino",
+      "Czerwone wino",
+      "Białe wino",
+      "Wina",
+      "Wine"
+    ]
+  },
+  "8777cf9c-ad05-4381-831d-fdbe8e97e782": {
+    "en": "How many players does each football (soccer) team have on the pitch?",
+    "text": "Ilu zawodników z jednej drużyny gra na boisku w piłce nożnej?",
+    "answers": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ]
+  },
+  "8bc06cc3-41d5-48fb-b558-a0e7211cd256": {
+    "en": "How many rings are on the Olympic flag?",
+    "text": "Ile kół jest na fladze olimpijskiej?",
+    "answers": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "bc53010b-e468-4440-b51f-1e8e88af45a9": {
+    "en": "In basketball, how many points is a shot from behind the arc worth?",
+    "text": "Ile punktów jest wart rzut zza łuku w koszykówce?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  "d861a43a-aa1f-4890-8756-19fc302921f3": {
+    "en": "Which sport is played with a shuttlecock?",
+    "text": "W którym sporcie gra się lotką?",
+    "answers": [
+      "Squash",
+      "Tenis stołowy",
+      "Badminton",
+      "Siatkówka"
+    ]
+  },
+  "b74a73e3-86ad-4c53-9ad8-d9959e914da9": {
+    "en": "How long is a standard football (soccer) match, not counting stoppage time?",
+    "text": "Ile trwa mecz piłki nożnej, nie licząc doliczonego czasu?",
+    "answers": [
+      "60 minut",
+      "80 minut",
+      "90 minut",
+      "120 minut"
+    ]
+  },
+  "e5177139-279d-43ba-9958-7a7f8ff4d66a": {
+    "en": "In which sport can you score a \"hole-in-one\"?",
+    "text": "W którym sporcie można zdobyć „hole-in-one”?",
+    "answers": [
+      "Golf",
+      "Kręgle",
+      "Bilard",
+      "Krykiet"
+    ]
+  },
+  "2efd87ad-07be-4fbd-9049-16b0c884f7fa": {
+    "en": "Which country hosted the first modern Olympic Games in 1896?",
+    "text": "Który kraj zorganizował pierwsze nowożytne igrzyska olimpijskie w 1896 roku?",
+    "answers": [
+      "Francja",
+      "Grecja",
+      "Anglia",
+      "Włochy"
+    ]
+  },
+  "6f4517f0-b61a-4482-8c7c-4f9e7a09247d": {
+    "en": "How many players from each team are on a basketball court at the same time?",
+    "text": "Ilu zawodników z każdej drużyny jest jednocześnie na boisku w koszykówce?",
+    "answers": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "b0b4d45e-7c09-442b-bba9-0fcffb41bc6e": {
+    "en": "The Tour de France is one of the world's most famous races in which sport?",
+    "text": "Tour de France to jeden z najsłynniejszych wyścigów świata – w jakim sporcie?",
+    "answers": [
+      "Bieganie",
+      "Kolarstwo",
+      "Sporty motorowe",
+      "Żeglarstwo"
+    ]
+  },
+  "5d12f0e6-811f-489a-9320-5d65f5c62454": {
+    "en": "Which sport made Michael Jordan a global legend?",
+    "text": "Dzięki jakiemu sportowi Michael Jordan stał się światową legendą?",
+    "answers": [
+      "Baseball",
+      "Koszykówka",
+      "Futbol amerykański",
+      "Golf"
+    ]
+  },
+  "7f301f40-bb88-4cd7-9822-4d51d3e99b3d": {
+    "en": "In which sport do players hit a \"puck\" instead of a ball?",
+    "text": "W którym sporcie zamiast piłki uderza się krążek?",
+    "answers": [
+      "Hokej na lodzie",
+      "Curling",
+      "Piłka wodna",
+      "Lacrosse"
+    ]
+  },
+  "03918dea-d42e-41dc-b17e-8877d98ca587": {
+    "en": "Roughly how long is a marathon?",
+    "text": "Ile mniej więcej kilometrów ma maraton?",
+    "answers": [
+      "21 km",
+      "30 km",
+      "42 km",
+      "50 km"
+    ]
+  },
+  "ff362948-8ff9-4b08-97b1-e6782a964795": {
+    "en": "Sumo wrestling is the national sport of which country?",
+    "text": "Sumo to narodowy sport którego kraju?",
+    "answers": [
+      "Chiny",
+      "Korea Południowa",
+      "Japonia",
+      "Mongolia"
+    ]
+  },
+  "ce92e413-1961-4e02-9cc6-1d7f7e665b44": {
+    "en": "In football (soccer), which card does the referee show to send a player off?",
+    "text": "Jaką kartkę pokazuje sędzia, by wyrzucić piłkarza z boiska?",
+    "answers": [
+      "Żółtą",
+      "Czerwoną",
+      "Niebieską",
+      "Zieloną"
+    ]
+  },
+  "e0376cd2-b821-4778-a104-f2f21460e4f9": {
+    "en": "How many holes are played in a standard round of golf?",
+    "text": "Ile dołków rozgrywa się w standardowej rundzie golfa?",
+    "answers": [
+      "9",
+      "12",
+      "18",
+      "24"
+    ]
+  },
+  "470f370a-f1ff-46dc-ad04-0921db1801da": {
+    "en": "Usain Bolt became a world record holder in which event?",
+    "text": "W jakiej konkurencji Usain Bolt ustanowił rekord świata?",
+    "answers": [
+      "Pływanie",
+      "Sprint",
+      "Skok w dal",
+      "Kolarstwo"
+    ]
+  },
+  "448ec511-95bf-40f4-9e1b-c12c083b0267": {
+    "en": "How many players from each team are on a volleyball court at once?",
+    "text": "Ilu zawodników z każdej drużyny jest naraz na boisku w siatkówce?",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "31b3a033-8fdd-40dd-8c2e-d5087aedbfbf": {
+    "en": "Muhammad Ali is considered one of the greatest athletes ever in which sport?",
+    "text": "W jakim sporcie Muhammad Ali uchodzi za jednego z największych sportowców w historii?",
+    "answers": [
+      "Zapasy",
+      "Boks",
+      "Judo",
+      "Kickboxing"
+    ]
+  },
+  "ad108c04-5948-421c-92cf-87d856111268": {
+    "en": "How many Grand Slam tournaments are there in tennis each year?",
+    "text": "Ile turniejów Wielkiego Szlema rozgrywa się co roku w tenisie?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "66d937da-ec80-4572-84ed-902aed03fdbf": {
+    "en": "How many bones does an adult human body have?",
+    "text": "Ile kości ma dorosły człowiek?",
+    "answers": [
+      "106",
+      "206",
+      "306",
+      "406"
+    ]
+  },
+  "b881df18-afa4-4f6d-b8d4-2f69928d90eb": {
+    "en": "What is the largest organ of the human body?",
+    "text": "Jaki jest największy narząd ludzkiego ciała?",
+    "answers": [
+      "Wątroba",
+      "Płuca",
+      "Skóra",
+      "Mózg"
+    ]
+  },
+  "79a5250b-5c10-48e6-9226-2beb082fe4d3": {
+    "en": "Which gas makes up most of the air we breathe?",
+    "text": "Jaki gaz stanowi większość powietrza, którym oddychamy?",
+    "answers": [
+      "Tlen",
+      "Azot",
+      "Dwutlenek węgla",
+      "Wodór"
+    ]
+  },
+  "04109646-2470-4e9a-b82d-aaf64ee50fb8": {
+    "en": "At sea level, water boils at what temperature?",
+    "text": "W jakiej temperaturze wrze woda na poziomie morza?",
+    "answers": [
+      "80°C",
+      "90°C",
+      "100°C",
+      "120°C"
+    ]
+  },
+  "53d74eaf-20e2-4dde-b2c0-667e94047ee8": {
+    "en": "What is the largest planet in our solar system?",
+    "text": "Jaka jest największa planeta Układu Słonecznego?",
+    "answers": [
+      "Saturn",
+      "Jowisz",
+      "Neptun",
+      "Ziemia"
+    ]
+  },
+  "adef6293-e6aa-4850-be6c-f7739e07b347": {
+    "en": "How many teeth does an adult usually have, including wisdom teeth?",
+    "text": "Ile zębów ma zwykle dorosły człowiek, łącznie z ósemkami?",
+    "answers": [
+      "24",
+      "28",
+      "32",
+      "36"
+    ]
+  },
+  "2e7bb5bd-dbe2-4b29-b666-9fcbe35f814f": {
+    "en": "Which planet is closest to the Sun?",
+    "text": "Która planeta jest najbliżej Słońca?",
+    "answers": [
+      "Wenus",
+      "Merkury",
+      "Mars",
+      "Ziemia"
+    ]
+  },
+  "5f4a008d-499e-4bc0-97a6-616d03dfb26d": {
+    "en": "What is the chemical formula for water?",
+    "text": "Jaki jest wzór chemiczny wody?",
+    "answers": [
+      "CO2",
+      "H2O",
+      "O2",
+      "NaCl"
+    ]
+  },
+  "30ec3ae6-6d94-49df-a591-f425c03aea90": {
+    "en": "Which blood type is known as the \"universal donor\"?",
+    "text": "Która grupa krwi to tzw. „uniwersalny dawca”?",
+    "answers": [
+      "A Rh+",
+      "B Rh-",
+      "AB Rh+",
+      "0 Rh-"
+    ]
+  },
+  "1ba39886-208f-42cc-b5e8-b669b49fa583": {
+    "en": "How long does it take the Earth to travel once around the Sun?",
+    "text": "Ile czasu zajmuje Ziemi jedno okrążenie Słońca?",
+    "answers": [
+      "1 dzień",
+      "1 tydzień",
+      "1 miesiąc",
+      "1 rok"
+    ]
+  },
+  "9c4656bf-e418-43a7-853c-5807919a8b22": {
+    "en": "The smallest bone in the human body is found in which part of the body?",
+    "text": "W której części ciała znajduje się najmniejsza kość człowieka?",
+    "answers": [
+      "Palec u ręki",
+      "Ucho",
+      "Nos",
+      "Palec u stopy"
+    ]
+  },
+  "9ccb760a-3543-48a3-bca4-7b133a9a147c": {
+    "en": "Which vitamin does your body make when your skin gets sunlight?",
+    "text": "Jaką witaminę wytwarza organizm, gdy skóra łapie słońce?",
+    "answers": [
+      "Witamina A",
+      "Witamina B12",
+      "Witamina C",
+      "Witamina D"
+    ]
+  },
+  "18255e04-f4d6-44cf-9d19-201792d1a91f": {
+    "en": "How many planets are in our solar system?",
+    "text": "Ile planet jest w Układzie Słonecznym?",
+    "answers": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ]
+  },
+  "94e3ba92-0a32-47a3-8762-d141d5e3a183": {
+    "en": "Which force pulls objects toward the ground when you drop them?",
+    "text": "Jaka siła ściąga upuszczone przedmioty na ziemię?",
+    "answers": [
+      "Magnetyzm",
+      "Tarcie",
+      "Grawitacja",
+      "Elektryczność"
+    ]
+  },
+  "406d0c4d-062e-4fc9-8ac0-16e35645a12e": {
+    "en": "Which scientist is famous for the theory of relativity?",
+    "text": "Który naukowiec słynie z teorii względności?",
+    "answers": [
+      "Isaac Newton",
+      "Nikola Tesla",
+      "Albert Einstein",
+      "Charles Darwin"
+    ]
+  },
+  "4f0e8e7a-a404-4e28-ba7d-184e88177cac": {
+    "en": "In which animated film does a young lion named Simba become king?",
+    "text": "W którym filmie animowanym młody lew Simba zostaje królem?",
+    "answers": [
+      "Księga dżungli",
+      "Madagaskar",
+      "Król Lew",
+      "Tarzan"
+    ]
+  },
+  "5f150e47-227f-4d1d-991e-f0624b6da732": {
+    "en": "What is the name of the wizarding school Harry Potter attends?",
+    "text": "Jak nazywa się szkoła magii, do której chodzi Harry Potter?",
+    "answers": [
+      "Narnia",
+      "Hogwart",
+      "Gotham",
+      "Rivendell"
+    ]
+  },
+  "42580561-ded8-4a9f-bee4-4a9dac914ceb": {
+    "en": "John, Paul, George and Ringo were the members of which legendary band?",
+    "text": "John, Paul, George i Ringo – w jakim legendarnym zespole grali?",
+    "answers": [
+      "The Rolling Stones",
+      "Queen",
+      "The Beatles",
+      "ABBA"
+    ]
+  },
+  "e757c23e-fdde-4bbe-aa9c-4d068f5b4787": {
+    "en": "Which superhero is known as the \"Man of Steel\"?",
+    "text": "Który superbohater jest nazywany „Człowiekiem ze stali”?",
+    "answers": [
+      "Batman",
+      "Iron Man",
+      "Superman",
+      "Spider-Man"
+    ]
+  },
+  "ee441246-10de-4b35-9265-842c9d2d761d": {
+    "en": "Which famous fictional detective lives at 221B Baker Street?",
+    "text": "Który słynny literacki detektyw mieszka przy Baker Street 221B?",
+    "answers": [
+      "Herkules Poirot",
+      "Sherlock Holmes",
+      "James Bond",
+      "Indiana Jones"
+    ]
+  },
+  "6d5f5c00-4706-4eb4-a7e3-4124932add70": {
+    "en": "Which ship sinks in the 1997 film starring Leonardo DiCaprio and Kate Winslet?",
+    "text": "Jaki statek tonie w filmie z 1997 roku z Leonardem DiCaprio i Kate Winslet?",
+    "answers": [
+      "Posejdon",
+      "Titanic",
+      "Czarna Perła",
+      "Queen Mary"
+    ]
+  },
+  "07691c96-35a5-4bd4-8b5a-562834877635": {
+    "en": "Who is Mickey Mouse's girlfriend?",
+    "text": "Kto jest dziewczyną Myszki Miki?",
+    "answers": [
+      "Kaczka Daisy",
+      "Myszka Minnie",
+      "Betty Boop",
+      "Jessica Rabbit"
+    ]
+  },
+  "b5b94a65-fed5-48cc-9e59-2fa7da99e027": {
+    "en": "What color does the Hulk turn when he gets angry?",
+    "text": "Jaki kolor ma Hulk, kiedy wpada w złość?",
+    "answers": [
+      "Czerwony",
+      "Niebieski",
+      "Zielony",
+      "Fioletowy"
+    ]
+  },
+  "1fcb25d2-57d4-4a43-bc7d-6503751ac0bd": {
+    "en": "Which musical instrument usually has 88 keys?",
+    "text": "Który instrument ma zwykle 88 klawiszy?",
+    "answers": [
+      "Akordeon",
+      "Fortepian",
+      "Harfa",
+      "Organy"
+    ]
+  },
+  "70c1e912-e703-4c28-8b68-fc55363fc96f": {
+    "en": "Which yellow cartoon family lives in the town of Springfield?",
+    "text": "Która żółta rodzina z kreskówki mieszka w Springfield?",
+    "answers": [
+      "Flintstonowie",
+      "Simpsonowie",
+      "Rodzina Addamsów",
+      "Iniemamocni"
+    ]
+  },
+  "e6af68c7-cfd6-4fee-8949-ad182b20c596": {
+    "en": "Which famous video game character is an Italian plumber?",
+    "text": "Który słynny bohater gier wideo jest włoskim hydraulikiem?",
+    "answers": [
+      "Sonic",
+      "Mario",
+      "Pac-Man",
+      "Link"
+    ]
+  },
+  "e597ee36-f357-4ca7-91c3-430633c04158": {
+    "en": "Which fairy-tale character leaves a glass slipper behind at the ball?",
+    "text": "Która bajkowa postać gubi na balu szklany pantofelek?",
+    "answers": [
+      "Królewna Śnieżka",
+      "Kopciuszek",
+      "Roszpunka",
+      "Śpiąca Królewna"
+    ]
+  },
+  "c98b5d34-10f7-4aa0-b7bd-ab549781cc63": {
+    "en": "In \"Finding Nemo\", what kind of fish is Nemo?",
+    "text": "Jaką rybą jest Nemo z filmu „Gdzie jest Nemo”?",
+    "answers": [
+      "Złota rybka",
+      "Rozdymka",
+      "Błazenek",
+      "Skalar"
+    ]
+  },
+  "4e4bfb42-2755-4d4c-8c5a-ab447668af3a": {
+    "en": "Which toy brand is famous for its colorful plastic building bricks?",
+    "text": "Która marka zabawek słynie z kolorowych plastikowych klocków?",
+    "answers": [
+      "Barbie",
+      "Hot Wheels",
+      "LEGO",
+      "Playmobil"
+    ]
+  },
+  "e31805cd-d8c7-4d1e-8c2b-28df2ce2a412": {
+    "en": "Which famous Leonardo da Vinci painting shows a woman with a mysterious smile?",
+    "text": "Który słynny obraz Leonarda da Vinci przedstawia kobietę z tajemniczym uśmiechem?",
+    "answers": [
+      "Gwiaździsta noc",
+      "Mona Lisa",
+      "Krzyk",
+      "Dziewczyna z perłą"
+    ]
+  },
+  "3104ed09-5f7c-4629-b071-53d9dee2d10a": {
+    "en": "Who is credited with inventing the telephone?",
+    "text": "Kto uchodzi za wynalazcę telefonu?",
+    "answers": [
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Nikola Tesla",
+      "Guglielmo Marconi"
+    ]
+  },
+  "8b5365af-e8cc-4486-9637-7782e4301b3b": {
+    "en": "Which of the Seven Wonders of the Ancient World is still standing today?",
+    "text": "Który z siedmiu cudów świata starożytnego stoi do dziś?",
+    "answers": [
+      "Kolos Rodyjski",
+      "Wielka Piramida w Gizie",
+      "Wiszące Ogrody Babilonu",
+      "Latarnia na Faros"
+    ]
+  },
+  "4ca1bd44-e128-4f6a-b188-b56e814b331e": {
+    "en": "Who was the first person to walk on the Moon?",
+    "text": "Kto jako pierwszy człowiek stanął na Księżycu?",
+    "answers": [
+      "Jurij Gagarin",
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "Michael Collins"
+    ]
+  },
+  "9e9b93d0-7f5e-46d6-9578-bd3f41347a07": {
+    "en": "In which year did World War II end?",
+    "text": "W którym roku zakończyła się II wojna światowa?",
+    "answers": [
+      "1918",
+      "1939",
+      "1945",
+      "1950"
+    ]
+  },
+  "1fe111a8-2b47-47f0-aa0c-a866284920b9": {
+    "en": "The Great Wall was built to protect which country?",
+    "text": "Jaki kraj miał chronić Wielki Mur?",
+    "answers": [
+      "Japonia",
+      "Mongolia",
+      "Chiny",
+      "Indie"
+    ]
+  },
+  "6e7737ef-a295-4fb1-a481-56af330d1a0c": {
+    "en": "In Star Wars, who says \"I am your father\"?",
+    "text": "Kto w „Gwiezdnych wojnach” mówi: „Jestem twoim ojcem”?",
+    "answers": [
+      "Darth Vader",
+      "Yoda",
+      "Han Solo",
+      "Obi-Wan Kenobi"
+    ]
+  },
+  "5490c031-4ae8-41db-ad1e-1c0f19e1d670": {
+    "en": "What is Spider-Man's real name?",
+    "text": "Jak naprawdę nazywa się Spider-Man?",
+    "accepted": [
+      "Peter Parker",
+      "Parker"
+    ]
+  },
+  "6ea2b330-632e-4ef4-9cd7-90fa3fd103c1": {
+    "en": "In \"Friends\", what is the name of the coffee shop where the group hangs out?",
+    "text": "Jak nazywa się kawiarnia, w której przesiaduje paczka z „Przyjaciół”?",
+    "answers": [
+      "Central Perk",
+      "Monk's Café",
+      "MacLaren's",
+      "Luke's Diner"
+    ]
+  },
+  "64d0f7ef-3667-4c57-b401-c38494f12c44": {
+    "en": "In \"Frozen\", which character has ice powers?",
+    "text": "Która postać z „Krainy lodu” ma lodowe moce?",
+    "answers": [
+      "Elsa",
+      "Anna",
+      "Olaf",
+      "Kristoff"
+    ]
+  },
+  "fc6c254d-6de9-4709-ba51-783d75afab03": {
+    "en": "Which green ogre lives in a swamp and marries Princess Fiona?",
+    "text": "Jak ma na imię zielony ogr, który mieszka na bagnie i żeni się z księżniczką Fioną?",
+    "accepted": [
+      "Shrek",
+      "Szrek"
+    ]
+  },
+  "1a3ded96-3fb4-45e1-8b80-9439a1685b82": {
+    "en": "In \"Toy Story\", what is the cowboy's name?",
+    "text": "Jak ma na imię kowboj z „Toy Story”?",
+    "answers": [
+      "Chudy",
+      "Buzz Astral",
+      "Jessie",
+      "Rex"
+    ]
+  },
+  "f93285f1-ec42-4086-a538-3f91311a45c0": {
+    "en": "Which fictional British spy is known as 007?",
+    "text": "Jak nazywa się fikcyjny brytyjski szpieg znany jako 007?",
+    "accepted": [
+      "James Bond",
+      "Bond"
+    ]
+  },
+  "79b804b0-d450-49ac-afbc-178a25ccd947": {
+    "en": "In Greek mythology, who is the king of the gods?",
+    "text": "Kto jest królem bogów w mitologii greckiej?",
+    "answers": [
+      "Zeus",
+      "Posejdon",
+      "Hades",
+      "Apollo"
+    ]
+  },
+  "32820bda-0ce0-453c-a562-eb1d5f3a3077": {
+    "en": "Which woman in Greek mythology had snakes for hair?",
+    "text": "Która kobieta z mitologii greckiej miała węże zamiast włosów?",
+    "accepted": [
+      "Meduza",
+      "Medusa"
+    ]
+  },
+  "65246fe5-4f6f-4580-96d8-e333c4d4b682": {
+    "en": "What did the Greeks hide their soldiers in to get inside Troy?",
+    "text": "W czym Grecy ukryli żołnierzy, żeby dostać się do Troi?",
+    "accepted": [
+      "Koń trojański",
+      "Drewniany koń",
+      "Koń",
+      "Trojański koń"
+    ]
+  },
+  "7d8bc519-edf5-489d-9664-20e491062274": {
+    "en": "Which Norse god carries a hammer called Mjölnir?",
+    "text": "Który nordycki bóg nosi młot Mjölnir?",
+    "answers": [
+      "Thor",
+      "Odyn",
+      "Loki",
+      "Freja"
+    ]
+  },
+  "13639837-1420-4b70-a5f2-85cd1936839d": {
+    "en": "Who is the Greek god of the sea?",
+    "text": "Kto jest greckim bogiem morza?",
+    "answers": [
+      "Posejdon",
+      "Zeus",
+      "Ares",
+      "Hermes"
+    ]
+  },
+  "2f98dc52-9124-4edc-9676-f90d8ee22eb4": {
+    "en": "What is the name of the winged horse in Greek mythology?",
+    "text": "Jak nazywa się skrzydlaty koń z mitologii greckiej?",
+    "accepted": [
+      "Pegaz",
+      "Pegasus",
+      "Pegazos"
+    ]
+  },
+  "70030863-62b4-4574-abac-555c03cbe7da": {
+    "en": "Which mythical bird is reborn from its own ashes?",
+    "text": "Który mityczny ptak odradza się z własnych popiołów?",
+    "answers": [
+      "Feniks",
+      "Gryf",
+      "Harpia",
+      "Rok"
+    ]
+  },
+  "5d05ef74-11b4-418b-8208-0038040e4b8c": {
+    "en": "In the Chinese zodiac, each year is represented by what?",
+    "text": "Co w chińskim zodiaku jest symbolem każdego roku?",
+    "answers": [
+      "Zwierzę",
+      "Kolor",
+      "Kwiat",
+      "Planeta"
+    ]
+  },
+  "5f91f2c0-2e80-4762-852a-e38903ffdf4d": {
+    "en": "Which app has a white ghost on a yellow background as its logo?",
+    "text": "Która aplikacja ma w logo białego ducha na żółtym tle?",
+    "answers": [
+      "Snapchat",
+      "Instagram",
+      "TikTok",
+      "WhatsApp"
+    ]
+  },
+  "6fe4f7ea-f19c-4d71-adf1-1c1615bcb44b": {
+    "en": "Which Pokémon does Pikachu evolve into?",
+    "text": "W jakiego Pokémona ewoluuje Pikachu?",
+    "answers": [
+      "Raichu",
+      "Pichu",
+      "Jolteon",
+      "Electabuzz"
+    ]
+  },
+  "a8c5a088-b9e1-4ff0-9b49-79956d86728a": {
+    "en": "In \"The Lord of the Rings\", what does Frodo have to destroy?",
+    "text": "Co Frodo musi zniszczyć we „Władcy Pierścieni”?",
+    "answers": [
+      "Jedyny Pierścień",
+      "Magiczny miecz",
+      "Złotą koronę",
+      "Smocze jajo"
+    ]
+  },
+  "9866a681-5192-4844-8f0a-767c92c836ad": {
+    "en": "Which series is famous for dragons, the Iron Throne and \"Winter is coming\"?",
+    "text": "Który serial słynie ze smoków, Żelaznego Tronu i „Nadchodzi zima”?",
+    "answers": [
+      "Gra o tron",
+      "Wiedźmin",
+      "Wikingowie",
+      "Upadek królestwa"
+    ]
+  },
+  "19701645-7659-4b6f-b90c-54c31e3cf003": {
+    "en": "In \"Pinocchio\", what happens when Pinocchio tells a lie?",
+    "text": "Co się dzieje, gdy Pinokio kłamie?",
+    "answers": [
+      "Rośnie mu nos",
+      "Rosną mu uszy",
+      "Zmienia się w osła",
+      "Kurczy się"
+    ]
+  },
+  "b844d102-54ad-49a2-ac2f-23a887b2c59d": {
+    "en": "Ken is the boyfriend of which famous doll?",
+    "text": "Ken to chłopak której słynnej lalki?",
+    "accepted": [
+      "Barbie"
+    ]
+  },
+  "c0c78278-5634-4c86-afb6-611012b803c7": {
+    "en": "In \"Snow White\", how many dwarfs are there?",
+    "text": "Ile krasnoludków jest w „Królewnie Śnieżce”?",
+    "answers": [
+      "7",
+      "5",
+      "6",
+      "9"
+    ]
+  },
+  "49e03a41-4eff-4efc-9c86-072bd6cd80c0": {
+    "en": "Which explorer reached the Americas in 1492?",
+    "text": "Który odkrywca dotarł do Ameryki w 1492 roku?",
+    "accepted": [
+      "Krzysztof Kolumb",
+      "Kolumb",
+      "Christopher Columbus",
+      "Columbus"
+    ]
+  },
+  "5f8c1ea9-e0c6-4c3a-8990-78fc55538881": {
+    "en": "Which Scandinavian warriors sailed longships and raided Europe?",
+    "text": "Którzy skandynawscy wojownicy pływali na długich łodziach i najeżdżali Europę?",
+    "answers": [
+      "Wikingowie",
+      "Gladiatorzy",
+      "Spartanie",
+      "Mongołowie"
+    ]
+  },
+  "e27f003c-9cdd-4965-8cfc-eafee22ae3a8": {
+    "en": "What were Japan's warriors who followed a strict code of honor called?",
+    "text": "Jak nazywano japońskich wojowników przestrzegających surowego kodeksu honoru?",
+    "answers": [
+      "Samuraje",
+      "Ninja",
+      "Szogunowie",
+      "Zapaśnicy sumo"
+    ]
+  },
+  "f3f0b78d-5df4-4715-9c88-7c29a049c6d5": {
+    "en": "Napoleon Bonaparte was the emperor of which country?",
+    "text": "Napoleon Bonaparte był cesarzem jakiego kraju?",
+    "answers": [
+      "Francja",
+      "Hiszpania",
+      "Włochy",
+      "Austria"
+    ]
+  },
+  "f61d23d9-8b7c-4b17-871e-60492ce71426": {
+    "en": "Constantinople was the capital of which empire until 1453?",
+    "text": "Do 1453 roku Konstantynopol był stolicą którego imperium?",
+    "answers": [
+      "Cesarstwo Bizantyjskie",
+      "Imperium Osmańskie",
+      "Imperium Perskie",
+      "Imperium Mongolskie"
+    ]
+  },
+  "4c492dce-98c0-4574-ae7e-6520dd83adfa": {
+    "en": "Who founded the Mongol Empire?",
+    "text": "Kto założył imperium mongolskie?",
+    "answers": [
+      "Czyngis-chan",
+      "Attyla",
+      "Kubilaj-chan",
+      "Tamerlan"
+    ]
+  },
+  "e744b5f7-37e8-4566-9a72-369fd1ed7d94": {
+    "en": "K-pop is popular music from which country?",
+    "text": "Z jakiego kraju pochodzi K-pop?",
+    "accepted": [
+      "Korea Południowa",
+      "Korea",
+      "Republika Korei",
+      "Korea Poludniowa",
+      "Korea Płd.",
+      "South Korea"
+    ]
+  },
+  "eaad765d-b1c1-4969-a0e2-461cbc8d308c": {
+    "en": "Which Colombian singer is famous for \"Hips Don't Lie\"?",
+    "text": "Która kolumbijska piosenkarka słynie z „Hips Don't Lie”?",
+    "answers": [
+      "Shakira",
+      "Karol G",
+      "Jennifer Lopez",
+      "Thalía"
+    ]
+  },
+  "9c63629f-eefd-427d-aac7-cd721197899c": {
+    "en": "Which country won the 2022 FIFA World Cup in Qatar?",
+    "text": "Kto wygrał mundial 2022 w Katarze?",
+    "answers": [
+      "Argentyna",
+      "Francja",
+      "Brazylia",
+      "Chorwacja"
+    ]
+  },
+  "60129856-af3b-48ca-b4fd-675f43bc388a": {
+    "en": "In 2023, Twitter was renamed to which single letter?",
+    "text": "Na jaką pojedynczą literę zmieniono w 2023 roku nazwę Twittera?",
+    "accepted": [
+      "X"
+    ]
+  },
+  "0d429599-8d87-454b-b4f5-8302b97634f4": {
+    "en": "Which city hosted the 2024 Summer Olympics?",
+    "text": "Które miasto gościło letnie igrzyska olimpijskie w 2024 roku?",
+    "answers": [
+      "Paryż",
+      "Tokio",
+      "Los Angeles",
+      "Londyn"
+    ]
+  },
+  "e4eb8205-7b58-4c9a-9eb4-71abdb1ae774": {
+    "en": "Which company created ChatGPT?",
+    "text": "Która firma stworzyła ChatGPT?",
+    "answers": [
+      "OpenAI",
+      "Google",
+      "Meta",
+      "Apple"
+    ]
+  },
+  "b691f446-45c9-4b87-951f-8c5fb76881c2": {
+    "en": "Which British queen died in 2022 after 70 years on the throne?",
+    "text": "Która brytyjska królowa zmarła w 2022 roku po 70 latach na tronie?",
+    "answers": [
+      "Elżbieta II",
+      "Wiktoria",
+      "Maria",
+      "Anna"
+    ]
+  },
+  "7210faaa-4175-4b0a-b70c-5730d0ba7514": {
+    "en": "In 2023, which country became the first to land a spacecraft near the Moon's south pole?",
+    "text": "Który kraj w 2023 roku jako pierwszy posadził lądownik w pobliżu południowego bieguna Księżyca?",
+    "answers": [
+      "Indie",
+      "Chiny",
+      "Stany Zjednoczone",
+      "Japonia"
+    ]
+  },
+  "9f50ad95-1ce8-42ab-8e0b-3bd347d33019": {
+    "en": "In 2024, whose \"Eras Tour\" became the highest-grossing concert tour of all time?",
+    "text": "Czyja trasa „Eras Tour” stała się w 2024 roku najbardziej dochodową trasą koncertową w historii?",
+    "answers": [
+      "Taylor Swift",
+      "Beyoncé",
+      "Coldplay",
+      "Ed Sheeran"
+    ]
+  },
+  "dbef5a1b-e8b9-4e2f-badd-ecc584b2a506": {
+    "en": "In 2021, which company changed its name to Meta?",
+    "text": "Która firma zmieniła w 2021 roku nazwę na Meta?",
+    "answers": [
+      "Facebook",
+      "Google",
+      "Snapchat",
+      "Microsoft"
+    ]
+  },
+  "f06c1b8a-6980-42df-89fe-b55adeb50680": {
+    "en": "Which film won the Oscar for Best Picture in 2024?",
+    "text": "Który film zdobył w 2024 roku Oscara za najlepszy film?",
+    "answers": [
+      "Oppenheimer",
+      "Barbie",
+      "Biedne istoty",
+      "Czas krwawego księżyca"
+    ]
+  },
+  "4ae711d9-060b-4476-ba2a-54553f7598ab": {
+    "en": "Which football star joined Inter Miami in 2023?",
+    "text": "Która gwiazda futbolu przeszła w 2023 roku do Interu Miami?",
+    "answers": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Neymar",
+      "Kylian Mbappé"
+    ]
+  },
+  "b0f5a3bb-d026-41bb-ae04-4b9fe39d8c07": {
+    "en": "Who sang \"Flowers\", Spotify's most-streamed song of 2023?",
+    "text": "Kto śpiewa „Flowers”, najczęściej słuchany utwór 2023 roku na Spotify?",
+    "answers": [
+      "Miley Cyrus",
+      "Dua Lipa",
+      "Olivia Rodrigo",
+      "Selena Gomez"
+    ]
+  },
+  "a4003081-4a10-4950-ae5a-bc8ba3af8698": {
+    "en": "Who headlined the Super Bowl halftime show in February 2025?",
+    "text": "Kto był gwiazdą show w przerwie Super Bowl w lutym 2025 roku?",
+    "answers": [
+      "Kendrick Lamar",
+      "Drake",
+      "Rihanna",
+      "Usher"
+    ]
+  },
+  "78e44743-475f-450c-8cd8-181778fb078b": {
+    "en": "Which club did Kylian Mbappé join in 2024?",
+    "text": "Do jakiego klubu przeszedł Kylian Mbappé w 2024 roku?",
+    "answers": [
+      "Real Madryt",
+      "FC Barcelona",
+      "Manchester City",
+      "Liverpool"
+    ]
+  },
+  "beb5059d-78c3-4c48-bdde-a60719e40b3a": {
+    "en": "Which country won Euro 2024?",
+    "text": "Kto wygrał Euro 2024?",
+    "answers": [
+      "Hiszpania",
+      "Anglia",
+      "Francja",
+      "Niemcy"
+    ]
+  },
+  "f1832cc6-7df0-42ab-92bb-969b46f7b33d": {
+    "en": "Who won Album of the Year at the 2025 Grammys with \"Cowboy Carter\"?",
+    "text": "Kto zdobył Grammy 2025 w kategorii album roku za „Cowboy Carter”?",
+    "answers": [
+      "Beyoncé",
+      "Taylor Swift",
+      "Billie Eilish",
+      "Sabrina Carpenter"
+    ]
+  },
+  "e5687820-3e50-4945-a40e-cb0d9e381200": {
+    "en": "Which Formula 1 driver won four world titles in a row from 2021 to 2024?",
+    "text": "Który kierowca Formuły 1 zdobył cztery tytuły mistrza świata z rzędu w latach 2021–2024?",
+    "answers": [
+      "Max Verstappen",
+      "Lewis Hamilton",
+      "Charles Leclerc",
+      "Lando Norris"
+    ]
+  },
+  "6c98b4bf-4573-474a-bb8b-0e1d7b3eb0b5": {
+    "en": "Which Saudi club did Cristiano Ronaldo join in 2023?",
+    "text": "Do którego saudyjskiego klubu przeszedł Cristiano Ronaldo w 2023 roku?",
+    "answers": [
+      "Al-Nassr",
+      "Al-Hilal",
+      "Al-Ittihad",
+      "Al-Ahli"
+    ]
+  },
+  "4eddca60-90bb-4c91-b86b-30b870db71c6": {
+    "en": "Which BLACKPINK member sang the 2024 hit \"APT.\" with Bruno Mars?",
+    "text": "Która członkini BLACKPINK zaśpiewała z Bruno Marsem hit „APT.” z 2024 roku?",
+    "answers": [
+      "Rosé",
+      "Lisa",
+      "Jennie",
+      "Jisoo"
+    ]
+  },
+  "09e025bc-1030-4bba-ac13-bfb856378373": {
+    "en": "Which country's flag has a red maple leaf on it?",
+    "text": "Który kraj ma na fladze czerwony liść klonu?",
+    "answers": [
+      "Kanada",
+      "Stany Zjednoczone",
+      "Szwajcaria",
+      "Austria"
+    ]
+  },
+  "be0a9d42-e487-408f-8aa9-1680a9bd2eb9": {
+    "en": "Which country's flag is a red circle on a white background?",
+    "text": "Flaga którego kraju to czerwone koło na białym tle?",
+    "answers": [
+      "Japonia",
+      "Korea Południowa",
+      "Chiny",
+      "Bangladesz"
+    ]
+  },
+  "d3a8cb5e-faea-404d-becf-a6a5c2675ee0": {
+    "en": "Which phrase is written on Brazil's flag?",
+    "text": "Jakie hasło widnieje na fladze Brazylii?",
+    "answers": [
+      "Ład i postęp",
+      "Wolność i jedność",
+      "Bóg i ojczyzna",
+      "Pokój i miłość"
+    ]
+  },
+  "b9d0f221-dc7d-4119-89da-5a278014a8f0": {
+    "en": "Which bird is shown eating a snake on Mexico's flag?",
+    "text": "Jaki ptak pożera węża na fladze Meksyku?",
+    "accepted": [
+      "Orzeł",
+      "Orzeł przedni",
+      "Orzel",
+      "Eagle"
+    ]
+  },
+  "5b6681a5-b76e-450c-b88f-52f29f0d943e": {
+    "en": "Which country has a square red flag with a white cross in the middle?",
+    "text": "Który kraj ma kwadratową czerwoną flagę z białym krzyżem pośrodku?",
+    "answers": [
+      "Szwajcaria",
+      "Dania",
+      "Norwegia",
+      "Anglia"
+    ]
+  },
+  "3aa65717-7a8e-4eee-a644-d4fdfc1fb1a7": {
+    "en": "In \"Breaking Bad\", what subject does Walter White teach at the start of the series?",
+    "text": "Jakiego przedmiotu uczy Walter White na początku „Breaking Bad”?",
+    "answers": [
+      "Chemii",
+      "Fizyki",
+      "Biologii",
+      "Matematyki"
+    ]
+  },
+  "6fe3ba30-9ac6-43ac-8281-7d47be849ef1": {
+    "en": "In \"Money Heist\", whose face is on the masks the robbers wear?",
+    "text": "Czyja twarz jest na maskach rabusiów w „Domu z papieru”?",
+    "answers": [
+      "Salvadora Dalego",
+      "Pabla Picassa",
+      "Vincenta van Gogha",
+      "Fridy Kahlo"
+    ]
+  },
+  "258b3c9e-6f64-4fec-9d76-bfb5439d4a48": {
+    "en": "In the \"Despicable Me\" films, which fruit are the Minions obsessed with?",
+    "text": "Jaki owoc to obsesja Minionków z filmów „Jak ukraść księżyc”?",
+    "answers": [
+      "Banan",
+      "Jabłko",
+      "Truskawka",
+      "Arbuz"
+    ]
+  },
+  "2177f9a0-4d6d-4f5f-904d-df07c99b1bcb": {
+    "en": "In 2025, which name did the newly elected pope choose?",
+    "text": "Jakie imię przyjął papież wybrany w 2025 roku?",
+    "answers": [
+      "Leon XIV",
+      "Franciszek II",
+      "Jan Paweł III",
+      "Benedykt XVII"
+    ]
+  },
+  "48fb1a79-23aa-439f-ad30-141b7581e8de": {
+    "en": "Which three countries co-hosted the 2026 FIFA World Cup?",
+    "text": "Które trzy kraje wspólnie zorganizowały mundial 2026?",
+    "answers": [
+      "USA, Kanada i Meksyk",
+      "Hiszpania, Portugalia i Maroko",
+      "Brazylia, Argentyna i Chile",
+      "Katar, Arabia Saudyjska i ZEA"
+    ]
+  },
+  "6d6ed0ee-a48d-420f-89bf-7815676ee13c": {
+    "en": "Which country hosted the 2026 Winter Olympics?",
+    "text": "Który kraj gościł zimowe igrzyska olimpijskie w 2026 roku?",
+    "answers": [
+      "Włochy",
+      "Francja",
+      "Szwajcaria",
+      "Austria"
+    ]
+  },
+  "1901294e-19fd-4941-a041-87d2932a8d77": {
+    "en": "Which club won the Champions League for the first time in its history in 2025?",
+    "text": "Który klub wygrał w 2025 roku Ligę Mistrzów po raz pierwszy w historii?",
+    "answers": [
+      "Paris Saint-Germain",
+      "Arsenal",
+      "Inter Mediolan",
+      "Manchester City"
+    ]
+  },
+  "b25b0033-312e-4e62-9e2e-3246c3dbb31b": {
+    "en": "Which toothy little monster doll became a worldwide craze in 2025?",
+    "text": "Która zębata laleczka-potworek podbiła w 2025 roku cały świat?",
+    "answers": [
+      "Labubu",
+      "Furby",
+      "Squishmallow",
+      "Cry Baby"
+    ]
+  },
+  "bd4c05b5-3582-4380-987c-132223ed6f46": {
+    "en": "In 2025, Taylor Swift got engaged to which NFL player?",
+    "text": "Z którym zawodnikiem NFL zaręczyła się Taylor Swift w 2025 roku?",
+    "answers": [
+      "Travis Kelce",
+      "Patrick Mahomes",
+      "Tom Brady",
+      "Jason Kelce"
+    ]
+  },
+  "14ab9242-9fa4-44f6-a528-7c4354dd1715": {
+    "en": "In December 2024, which famous cathedral reopened after five years of restoration?",
+    "text": "Która słynna katedra została ponownie otwarta w grudniu 2024 roku po pięciu latach odbudowy?",
+    "answers": [
+      "Notre-Dame w Paryżu",
+      "Sagrada Família",
+      "Katedra w Kolonii",
+      "Katedra św. Pawła"
+    ]
+  },
+  "ac86a66e-c7b5-4935-acf1-7fad4b92b968": {
+    "en": "Which club won the first 32-team FIFA Club World Cup in 2025?",
+    "text": "Który klub wygrał w 2025 roku pierwsze Klubowe Mistrzostwa Świata FIFA z udziałem 32 drużyn?",
+    "answers": [
+      "Chelsea",
+      "Paris Saint-Germain",
+      "Real Madryt",
+      "Bayern Monachium"
+    ]
+  },
+  "80b8ddc9-0e7c-4a73-964b-12e040b5f9cc": {
+    "en": "Who won the 2025 Ballon d'Or?",
+    "text": "Kto zdobył Złotą Piłkę 2025?",
+    "answers": [
+      "Ousmane Dembélé",
+      "Lamine Yamal",
+      "Kylian Mbappé",
+      "Mohamed Salah"
+    ]
+  },
+  "4e4aac0f-c689-49f6-9a1c-cd7c9ef5891b": {
+    "en": "Which country won Eurovision 2025?",
+    "text": "Który kraj wygrał Eurowizję 2025?",
+    "answers": [
+      "Austria",
+      "Szwecja",
+      "Izrael",
+      "Szwajcaria"
+    ]
+  },
+  "7553dfa4-325a-40dd-9d78-74834ab54496": {
+    "en": "Which phrase was named Oxford's Word of the Year for 2024?",
+    "text": "Które wyrażenie słownik oksfordzki ogłosił słowem roku 2024?",
+    "answers": [
+      "Brain rot",
+      "Rizz",
+      "Demure",
+      "Brat"
+    ]
+  },
+  "860858d1-7627-4e3c-a607-a71bfcac23ad": {
+    "en": "Which company released the Vision Pro headset in 2024?",
+    "text": "Która firma wypuściła w 2024 roku gogle Vision Pro?",
+    "answers": [
+      "Apple",
+      "Meta",
+      "Samsung",
+      "Sony"
+    ]
+  },
+  "bb232a4c-eda8-4ff2-b7f3-451f28a0c6f3": {
+    "en": "Who sang the 2024 summer hit \"Espresso\"?",
+    "text": "Kto śpiewa „Espresso”, wakacyjny hit 2024 roku?",
+    "answers": [
+      "Sabrina Carpenter",
+      "Olivia Rodrigo",
+      "Billie Eilish",
+      "Ariana Grande"
+    ]
+  },
+  "385cd09c-b6d3-442d-a926-4b263fe7db71": {
+    "en": "At Paris 2024, Turkish shooter Yusuf Dikeç went viral for competing how?",
+    "text": "Jak strzelał Turek Yusuf Dikeç, który podbił internet na igrzyskach w Paryżu 2024?",
+    "answers": [
+      "Z ręką w kieszeni",
+      "Z zamkniętymi oczami",
+      "Na siedząco",
+      "Boso"
+    ]
+  },
+  "a99409ba-4dff-4234-8fa3-e5122182a598": {
+    "en": "Which company launched the app Threads in 2023?",
+    "text": "Która firma uruchomiła w 2023 roku aplikację Threads?",
+    "answers": [
+      "Meta",
+      "Google",
+      "X",
+      "TikTok"
+    ]
+  },
+  "7c110f47-2553-4f6c-b3ae-b11d40772eeb": {
+    "en": "In December 2024, which cryptocurrency passed $100,000 for the first time?",
+    "text": "Która kryptowaluta w grudniu 2024 roku po raz pierwszy przekroczyła 100 000 dolarów?",
+    "answers": [
+      "Bitcoin",
+      "Ethereum",
+      "Dogecoin",
+      "Solana"
+    ]
+  },
+  "c2d44ca2-e912-4652-9b99-ea8e67b1afc3": {
+    "en": "In early 2025, which Chinese AI chatbot shook global tech markets?",
+    "text": "Który chiński chatbot AI wstrząsnął na początku 2025 roku światowymi rynkami technologicznymi?",
+    "answers": [
+      "DeepSeek",
+      "Ernie",
+      "Qwen",
+      "Kimi"
+    ]
+  },
+  "9117d33a-156b-42bb-bb39-fa7c97969e9d": {
+    "en": "At Euro 2024, who became the youngest goalscorer in the tournament's history?",
+    "text": "Kto na Euro 2024 został najmłodszym strzelcem gola w historii turnieju?",
+    "answers": [
+      "Lamine Yamal",
+      "Jude Bellingham",
+      "Jamal Musiala",
+      "Arda Güler"
+    ]
+  },
+  "dfb5e5d1-fe6f-4e8c-a491-f161dd922f53": {
+    "en": "Which rapper became a viral star as a TV reporter at the Paris 2024 Olympics?",
+    "text": "Który raper stał się viralową gwiazdą jako reporter telewizyjny na igrzyskach w Paryżu w 2024 roku?",
+    "answers": [
+      "Snoop Dogg",
+      "Drake",
+      "Eminem",
+      "Jay-Z"
+    ]
+  },
+  "6e3815c6-71e2-4a08-9404-56eb6108233f": {
+    "en": "In which language did Bad Bunny perform most of his 2026 Super Bowl halftime show?",
+    "text": "W jakim języku Bad Bunny wykonał większość show w przerwie Super Bowl 2026?",
+    "answers": [
+      "Hiszpański",
+      "Angielski",
+      "Portugalski",
+      "Pół na pół"
+    ]
+  },
+  "6695b2a1-53de-4737-8ccb-0a0417c89995": {
+    "en": "Which Formula 1 team did Lewis Hamilton join in 2025?",
+    "text": "Do którego zespołu Formuły 1 przeszedł Lewis Hamilton w 2025 roku?",
+    "answers": [
+      "Ferrari",
+      "Red Bull",
+      "McLaren",
+      "Aston Martin"
+    ]
+  },
+  "7966f3a2-6d2c-4325-bd64-d28634bdc6e2": {
+    "en": "Freddie Mercury was the lead singer of which band?",
+    "text": "Freddie Mercury był wokalistą którego zespołu?",
+    "answers": [
+      "Queen",
+      "The Rolling Stones",
+      "Led Zeppelin",
+      "Pink Floyd"
+    ]
+  },
+  "32d4f212-d53e-476e-9251-0558b612c0e4": {
+    "en": "Which South Korean singer's \"Gangnam Style\" became the first YouTube video to hit 1 billion views?",
+    "text": "Który południowokoreański artysta nagrał „Gangnam Style”, pierwszy klip na YouTube z miliardem wyświetleń?",
+    "answers": [
+      "PSY",
+      "BTS",
+      "Big Bang",
+      "Rain"
+    ]
+  },
+  "4d2db1c8-550c-44d3-8caa-999f963a8dd3": {
+    "en": "Who sang \"Shape of You\"?",
+    "text": "Kto śpiewa „Shape of You”?",
+    "answers": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Harry Styles"
+    ]
+  },
+  "809a1048-fbc4-4d75-9756-c24b4148d2fd": {
+    "en": "Which British singer is behind the hits \"Hello\" and \"Someone Like You\"?",
+    "text": "Która brytyjska piosenkarka stoi za hitami „Hello” i „Someone Like You”?",
+    "answers": [
+      "Adele",
+      "Amy Winehouse",
+      "Dua Lipa",
+      "Ellie Goulding"
+    ]
+  },
+  "dee7a5f4-0d3e-47c5-beac-68dfc289cd1d": {
+    "en": "In 2023, whose \"Blinding Lights\" became the most-streamed song in Spotify history?",
+    "text": "Czyje „Blinding Lights” stało się w 2023 roku najczęściej słuchanym utworem w historii Spotify?",
+    "answers": [
+      "The Weeknd",
+      "Drake",
+      "Bruno Mars",
+      "Post Malone"
+    ]
+  },
+  "ec9edd24-0567-42cd-88f0-0060565936ce": {
+    "en": "Which country is shaped like a boot on the map?",
+    "text": "Który kraj ma na mapie kształt buta?",
+    "answers": [
+      "Włochy",
+      "Grecja",
+      "Portugalia",
+      "Chorwacja"
+    ]
+  },
+  "cda07f75-8c73-4c97-9d5f-73eadc4f0e87": {
+    "en": "In which country is the Taj Mahal?",
+    "text": "W jakim kraju znajduje się Tadż Mahal?",
+    "answers": [
+      "Indie",
+      "Pakistan",
+      "Iran",
+      "Nepal"
+    ]
+  },
+  "86f4c26f-20cb-47b3-a176-78618bf88998": {
+    "en": "In which country is the ancient city of Petra, carved into pink rock?",
+    "text": "W jakim kraju leży starożytna Petra, wykuta w różowej skale?",
+    "answers": [
+      "Jordania",
+      "Egipt",
+      "Turcja",
+      "Grecja"
+    ]
+  },
+  "a0c31118-39a0-4875-a58d-1ef025a7309e": {
+    "en": "Which country is known as the \"Land of the Rising Sun\"?",
+    "text": "Który kraj nazywany jest „Krajem Wschodzącego Słońca”?",
+    "answers": [
+      "Japonia",
+      "Chiny",
+      "Korea Południowa",
+      "Tajlandia"
+    ]
+  },
+  "5c5574b9-62a0-4271-accb-e5a5e62ac439": {
+    "en": "In which country do kangaroos live in the wild?",
+    "text": "W jakim kraju kangury żyją na wolności?",
+    "answers": [
+      "Australia",
+      "RPA",
+      "Brazylia",
+      "Indie"
+    ]
+  },
+  "d272d3e9-0403-44d5-a333-ac84a9c3e63e": {
+    "en": "Flamenco dancing comes from which country?",
+    "text": "Z jakiego kraju pochodzi flamenco?",
+    "answers": [
+      "Hiszpania",
+      "Meksyk",
+      "Włochy",
+      "Argentyna"
+    ]
+  },
+  "6c03ce24-a77c-4a0b-8749-b9c629915679": {
+    "en": "In \"Little Red Riding Hood\", which animal pretends to be the grandmother?",
+    "text": "Jakie zwierzę udaje babcię w „Czerwonym Kapturku”?",
+    "answers": [
+      "Wilk",
+      "Lis",
+      "Niedźwiedź",
+      "Lew"
+    ]
+  },
+  "72adb892-47e1-4d39-9c16-1004d3de980a": {
+    "en": "In \"Alice in Wonderland\", which animal does Alice follow down the hole?",
+    "text": "Za jakim zwierzęciem Alicja wskakuje do nory w „Alicji w Krainie Czarów”?",
+    "answers": [
+      "Białym Królikiem",
+      "Czarnym kotem",
+      "Myszą",
+      "Żabą"
+    ]
+  },
+  "44450874-8b02-4a4a-b49e-b9bc602d9afd": {
+    "en": "In \"Hansel and Gretel\", what is the witch's house made of?",
+    "text": "Z czego zrobiona jest chatka czarownicy w „Jasiu i Małgosi”?",
+    "answers": [
+      "Z piernika i cukierków",
+      "Z lodu",
+      "Ze złota",
+      "Ze słomy"
+    ]
+  },
+  "66f55237-2675-4545-aa32-6db8582998d0": {
+    "en": "What is Rapunzel famous for?",
+    "text": "Z czego słynie Roszpunka?",
+    "answers": [
+      "Z bardzo długich włosów",
+      "Ze szklanego pantofelka",
+      "Z zatrutego jabłka",
+      "Ze stuletniego snu"
+    ]
+  },
+  "d6637d23-6147-4499-96a8-d0a2ff60e547": {
+    "en": "In \"Aladdin\", how many wishes does the genie of the lamp grant?",
+    "text": "Ile życzeń spełnia dżin z lampy w „Aladynie”?",
+    "answers": [
+      "3",
+      "1",
+      "5",
+      "7"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "f6a2734f-3505-4f4a-9316-0bbe08fdc1f4": {
+    "en": "What makes you feel most loved?",
+    "text": "Cosa ti fa sentire di più l'amore che ricevi?",
+    "answers": [
+      "Sentirmelo dire ad alta voce",
+      "Tempo insieme senza distrazioni",
+      "Che mi semplifichi la vita",
+      "Il contatto fisico",
+      "Una sorpresa pensata per me"
+    ]
+  },
+  "133e06f4-dacb-4900-9789-001a5b70e6b0": {
+    "en": "How do you most naturally show love?",
+    "text": "Come dimostri l'amore nel modo più naturale per te?",
+    "answers": [
+      "Dicendolo",
+      "Trovando del tempo",
+      "Facendo cose per chi amo",
+      "Con il contatto fisico",
+      "Con piccole sorprese"
+    ]
+  },
+  "e4d36f8a-1611-4d47-8524-7fa4e276d576": {
+    "en": "What makes you feel unloved the fastest?",
+    "text": "Cosa ti fa sentire più in fretta che manca l'amore?",
+    "answers": [
+      "Giorni senza una parola gentile",
+      "Il telefono in mano quando siamo insieme",
+      "Dover pensare a tutto io",
+      "Niente affetto per un po'",
+      "Il mio impegno che passa inosservato"
+    ],
+    "flagged": true,
+    "note": "\"Feel unloved\" (sentirsi non amato/a) is gendered; rephrased as 'what makes you feel, fastest, that love is missing'."
+  },
+  "3bab62fd-1bc7-4eca-8947-a5d212b2d5f2": {
+    "en": "When you're stressed, what do you want from your partner?",
+    "text": "Nei momenti di stress, cosa vuoi dal tuo amore?",
+    "answers": [
+      "Che ne parli con me",
+      "Che mi stia semplicemente accanto",
+      "Che si occupi di qualcosa al posto mio",
+      "Che mi abbracci",
+      "Che mi lasci il mio spazio"
+    ]
+  },
+  "0d6c4a65-26ce-4b3d-a4a9-bc4d2ca492db": {
+    "en": "How much physical affection do you want on a normal day?",
+    "text": "Quanto affetto fisico vuoi in una giornata normale?",
+    "answers": [
+      "Tanto, sempre",
+      "Qualche momento al giorno",
+      "Un po' mi basta",
+      "Non sono una persona molto fisica"
+    ]
+  },
+  "f8892d3c-58cc-4820-bbdc-cd6f7d7f87e9": {
+    "en": "How often do you feel your love goes unnoticed?",
+    "text": "Quanto spesso senti che l'amore che dai passa inosservato?",
+    "answers": [
+      "Quasi mai",
+      "A volte",
+      "Spesso",
+      "Quasi sempre"
+    ]
+  },
+  "be0526e5-ba2f-4129-a55a-0238be57b8da": {
+    "en": "Describe the last moment you felt truly loved by your partner.",
+    "text": "Racconta l'ultima volta in cui hai sentito davvero tutto l'amore della tua dolce metà."
+  },
+  "190ea05e-76db-489f-a50d-c3473f48f2e7": {
+    "en": "What do you do to show love that you think your partner doesn't notice?",
+    "text": "Quale gesto d'amore fai che, secondo te, la tua dolce metà non nota?"
+  }
+}

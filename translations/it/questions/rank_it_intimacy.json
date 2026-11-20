@@ -1,0 +1,436 @@
+{
+  "b4c750af-f8f0-4584-ae71-dfb8801c9aa6": {
+    "en": "Rank these kisses from your favorite to least favorite.",
+    "text": "Ordina questi baci dal tuo preferito al meno amato.",
+    "answers": [
+      "Sulle labbra",
+      "Sul collo",
+      "Sulla fronte"
+    ]
+  },
+  "67cb823d-e3f0-4ac9-8866-d796508abd1f": {
+    "en": "Rank these from what attracts you most to least.",
+    "text": "Ordina da ciò che ti attrae di più a ciò che ti attrae di meno.",
+    "answers": [
+      "Sicurezza di sé",
+      "Senso dell'umorismo",
+      "Profumare di buono"
+    ]
+  },
+  "a40ede2b-78ff-4724-9449-a45c57461c96": {
+    "en": "Rank these texts from the one you'd most to least love to receive.",
+    "text": "Ordina questi messaggi da quello che vorresti di più ricevere a quello che vorresti di meno.",
+    "answers": [
+      "Mi manchi",
+      "Non riesco a smettere di pensarti",
+      "Stasera vieni da me"
+    ]
+  },
+  "815a3f98-b4a5-4fd0-9f9b-d700fc77085b": {
+    "en": "Rank these bedroom moods from your favorite to least favorite.",
+    "text": "Ordina queste atmosfere in camera da letto dalla tua preferita alla meno amata.",
+    "answers": [
+      "Candele e musica lenta",
+      "Spontaneità e follia",
+      "Coccole pigre al mattino"
+    ]
+  },
+  "b43bd567-b100-45e3-a20c-29efb8bae93c": {
+    "en": "Rank these from the hottest to the least.",
+    "text": "Ordina dal più sexy al meno sexy.",
+    "answers": [
+      "Un lento in casa",
+      "Un complimento sussurrato all'orecchio",
+      "Uno sguardo dall'altra parte della stanza"
+    ]
+  },
+  "87e215dc-b11a-4f67-bda3-06ade8bea882": {
+    "en": "Rank these date-night outfits from your favorite to least favorite on your partner.",
+    "text": "Quale look per una serata di coppia ami di più addosso al tuo amore? Ordina dal preferito al meno amato.",
+    "answers": [
+      "Total black",
+      "Qualcosa di casual",
+      "Elegante"
+    ]
+  },
+  "4525a249-5bf6-42b2-be08-48341df1ba75": {
+    "en": "Rank these from most to least important in the bedroom.",
+    "text": "Ordina dal più importante al meno importante in camera da letto.",
+    "answers": [
+      "Chimica",
+      "Fiducia",
+      "Prendersela con calma"
+    ]
+  },
+  "c001fd14-8d0f-4dff-94b1-69e0db438326": {
+    "en": "Rank these from what you'd most to least want to hear.",
+    "text": "Ordina da ciò che vorresti di più sentirti dire a ciò che vorresti di meno.",
+    "answers": [
+      "Ti amo",
+      "Stai benissimo",
+      "Sei il mio orgoglio"
+    ],
+    "note": "\"I'm proud of you\" rendered as \"Sei il mio orgoglio\" because \"Sono fiero/orgoglioso di te\" reveals the speaker's gender."
+  },
+  "f4742bda-b53d-49b1-b191-4150fc278d81": {
+    "en": "Rank these from most to least of a turn-on.",
+    "text": "Ordina da ciò che ti accende di più a ciò che ti accende di meno.",
+    "answers": [
+      "Contatto visivo",
+      "Una mano sul fianco",
+      "Un messaggio a notte fonda"
+    ]
+  },
+  "df78beb9-c350-487c-a235-b0518a3bfbfe": {
+    "en": "Rank these morning-after plans from your favorite to least favorite.",
+    "text": "Ordina questi piani per la mattina dopo dal tuo preferito al meno amato.",
+    "answers": [
+      "Restare a letto",
+      "Uscire a prendere un caffè",
+      "Preparare la colazione"
+    ]
+  },
+  "41b2c062-252c-4c10-a8bf-e88d710b5ea4": {
+    "en": "Rank these from how you'd most to least like to fall asleep.",
+    "text": "Ordina da come ti piacerebbe di più addormentarti a come ti piacerebbe di meno.",
+    "answers": [
+      "Sul suo petto",
+      "A cucchiaio",
+      "Mano nella mano"
+    ]
+  },
+  "8eda301d-7c3f-49af-aec2-fc0423901d80": {
+    "en": "Rank these from hottest to least on them.",
+    "text": "Ordina questi momenti del tuo amore dal più sexy al meno sexy.",
+    "answers": [
+      "Dopo la doccia",
+      "Al risveglio",
+      "In tiro per uscire"
+    ],
+    "note": "Options restructured as moments to avoid gendered participles (uscito/a, sveglio/a, vestito/a)."
+  },
+  "70a62b93-c65f-4d98-a892-86b8a707fc3d": {
+    "en": "Rank these from when you'd most to least want them.",
+    "text": "Ordina da quando ti va di più a quando ti va di meno.",
+    "answers": [
+      "Di prima mattina",
+      "A notte fonda",
+      "In un pomeriggio pigro"
+    ],
+    "note": "\"Want them\" rendered as \"ti va\" (in the mood), avoiding an ambiguous lo/la."
+  },
+  "75e0cb19-fea2-4494-8adf-0e22931ec893": {
+    "en": "Rank these from where you'd most to least want to be with them right now.",
+    "text": "Dove vorresti stare adesso con il tuo amore? Ordina dal più al meno.",
+    "answers": [
+      "A letto",
+      "Sul divano",
+      "In cucina"
+    ]
+  },
+  "2ca4f57f-c3f5-47b4-93a7-9c2f1dc169dd": {
+    "en": "Rank these from hottest to least when they're doing it.",
+    "text": "Quando è più sexy il tuo amore? Ordina dal più al meno.",
+    "answers": [
+      "Mentre cucina",
+      "Mentre guida",
+      "Mentre si prepara"
+    ]
+  },
+  "974a6f9c-093b-4c48-835e-d7b5bac59203": {
+    "en": "Rank these from how you'd most to least want the lights.",
+    "text": "Le luci: ordina da come le vorresti di più a come le vorresti di meno.",
+    "answers": [
+      "Spente",
+      "Soffuse",
+      "Accese"
+    ]
+  },
+  "88d7fedc-4d52-4be0-98d2-a75a0d9f53e4": {
+    "en": "Rank these from most to least you'd want in public.",
+    "text": "Ordina da ciò che vorresti di più in pubblico a ciò che vorresti di meno.",
+    "answers": [
+      "Tenersi per mano",
+      "Un bacio",
+      "Il suo braccio intorno a te"
+    ]
+  },
+  "2a5bfd54-ff94-420a-9fcf-512cd8271196": {
+    "en": "Rank these from most to least of a mood killer.",
+    "text": "Ordina da ciò che smorza di più l'atmosfera a ciò che la smorza di meno.",
+    "answers": [
+      "Il suo telefono a letto",
+      "Tenere i calzini",
+      "Parlare di domani"
+    ]
+  },
+  "a3acaf1b-03bc-4d5d-bf4f-ef8f162d0024": {
+    "en": "Rank these from hottest to least on them.",
+    "text": "Cosa trovi più sexy nel tuo amore? Ordina dal più al meno.",
+    "answers": [
+      "La voce",
+      "La risata",
+      "Le mani"
+    ]
+  },
+  "3940d942-8ee8-4f59-a1b9-ce5291035cb3": {
+    "en": "Rank these from what you'd most to least want in the background when you're close.",
+    "text": "Ordina cosa vorresti di più in sottofondo nei momenti di intimità, dal più al meno.",
+    "answers": [
+      "Musica",
+      "Un film acceso",
+      "Silenzio"
+    ]
+  },
+  "349e6ac2-ca86-4787-bd63-0fa8d2a01c9c": {
+    "en": "Rank these from the hottest compliment to get to the least.",
+    "text": "Ordina questi complimenti dal più sexy da ricevere al meno sexy.",
+    "answers": [
+      "I tuoi occhi",
+      "Come cammini",
+      "La tua mente"
+    ]
+  },
+  "c9a2949b-c673-4d84-bb91-2957d6aac12a": {
+    "en": "Rank these from most to least irresistible.",
+    "text": "Ordina dal più irresistibile al meno irresistibile.",
+    "answers": [
+      "Uno sguardo che indugia",
+      "Una carezza lenta",
+      "Una stretta improvvisa"
+    ]
+  },
+  "ebe6f489-3e4f-4e3b-99f3-3457442aaf0f": {
+    "en": "Rank these from most to least dangerous to almost get caught.",
+    "text": "Ordina questi posti dal più rischioso al meno rischioso per farsi quasi beccare.",
+    "answers": [
+      "Ascensore",
+      "Corridoio",
+      "Parcheggio coperto",
+      "Balcone"
+    ]
+  },
+  "7c0e85e4-e20f-4634-98c6-2261afc497b4": {
+    "en": "If you only had ten minutes, rank how you'd spend them from most to least.",
+    "text": "Se aveste solo dieci minuti, come li passereste? Ordina dal più al meno.",
+    "answers": [
+      "Baciarsi",
+      "Parlarsi da vicino",
+      "Ballare",
+      "Non fare niente"
+    ]
+  },
+  "ebe249a6-680c-486b-9131-11b007a670c7": {
+    "en": "Rank these from what you'd most to least want right after a good night together.",
+    "text": "Ordina cosa vorresti di più subito dopo una bella notte insieme, dal più al meno.",
+    "answers": [
+      "Addormentarsi",
+      "Parlare",
+      "Mangiare qualcosa",
+      "Restare a letto ancora un po'"
+    ]
+  },
+  "d4fd32e2-7d6a-44a8-91ef-e94c0f2c3451": {
+    "en": "Rank these from the hottest pace to the least.",
+    "text": "Ordina questi ritmi dal più sexy al meno sexy.",
+    "answers": [
+      "Lento",
+      "Giocoso",
+      "Improvviso",
+      "Silenzioso"
+    ]
+  },
+  "3a69e894-7819-490d-8563-a6589076092b": {
+    "en": "Rank these from where you'd most to least want the first kiss of the night.",
+    "text": "Ordina dove vorresti di più il primo bacio della serata, dal più al meno.",
+    "answers": [
+      "In cucina",
+      "Sulla porta",
+      "In macchina",
+      "In ascensore"
+    ]
+  },
+  "e5e17a90-d530-4aa3-80eb-23fb649335b1": {
+    "en": "Rank these from most to least want more of.",
+    "text": "Di cosa vorresti avere di più? Ordina dal più al meno.",
+    "answers": [
+      "Passione",
+      "Tenerezza",
+      "Tensione",
+      "Gioco"
+    ]
+  },
+  "51beda2f-ffb7-40fe-b554-0e183cfd43e4": {
+    "en": "Rank these from most to least want them to make you feel.",
+    "text": "Cosa vorresti di più sentire dal tuo amore? Ordina dal più al meno.",
+    "answers": [
+      "Che ti desidera",
+      "Che ha bisogno di te",
+      "Che sente la tua mancanza",
+      "Che sceglie te"
+    ],
+    "flagged": true,
+    "note": "EN options are participles (Wanted/Needed/Missed/Chosen), which agree with gender in Italian; rephrased as 'that they want you / need you / miss you / choose you'."
+  },
+  "ea0ac43f-9b82-4d51-9cf4-78a4cf7545ff": {
+    "en": "Rank these from most to least want between you.",
+    "text": "Ordina cosa vorresti di più tra voi, dal più al meno.",
+    "answers": [
+      "Fuoco",
+      "Dolcezza",
+      "Umorismo",
+      "Mistero"
+    ]
+  },
+  "b33d9197-1472-4004-8e92-0a9e6890460d": {
+    "en": "Rank these from most to least want from them tonight.",
+    "text": "Ordina cosa vorresti di più dal tuo amore stasera, dal più al meno.",
+    "answers": [
+      "Attenzioni",
+      "Spazio",
+      "Contatto",
+      "Parole"
+    ]
+  },
+  "e10a78c4-bba9-4cda-93b1-c4906cd97f5a": {
+    "en": "Rank these from when you most to least want it.",
+    "text": "Ordina questi momenti da quando ti va di più a quando ti va di meno.",
+    "answers": [
+      "Quando avete dieci minuti",
+      "Quando avete tutta la notte",
+      "Di mattina",
+      "Quando dovreste già essere fuori"
+    ]
+  },
+  "44c790a0-ccd4-4040-88ca-534378d9d65d": {
+    "en": "Rank these from most to least tempting when you shouldn't.",
+    "text": "Quando proprio non si dovrebbe: ordina dal più allettante al meno allettante.",
+    "answers": [
+      "C'è qualcuno nella stanza accanto",
+      "Siete in ritardo",
+      "Domattina si lavora",
+      "Avete appena finito di vestirvi"
+    ]
+  },
+  "48682e7c-5689-4ea0-9fc2-6fc22eba77a8": {
+    "en": "Rank these kisses from favorite to least favorite.",
+    "text": "Che tipo di bacio preferisci? Ordina dal preferito al meno amato.",
+    "answers": [
+      "Un solo bacio lungo",
+      "Tanti bacetti",
+      "Lento e pigro",
+      "Che si ferma e poi riprende"
+    ]
+  },
+  "d2b1dc0b-5c63-42eb-a4c4-b21fd01bbe67": {
+    "en": "Rank these from easiest to hardest to give up.",
+    "text": "Ordina da ciò a cui rinunceresti più facilmente a ciò a cui faresti più fatica a rinunciare.",
+    "answers": [
+      "Baciarsi",
+      "Dormire insieme",
+      "Abbracciarsi",
+      "Messaggini maliziosi"
+    ]
+  },
+  "889aa2d5-2b3b-4387-a97b-73d9cbf8fb71": {
+    "en": "Rank these from most to least you'd miss.",
+    "text": "Ordina da ciò che ti mancherebbe di più a ciò che ti mancherebbe di meno.",
+    "answers": [
+      "Le sue mani",
+      "La sua voce",
+      "Come ti guarda",
+      "Il suo profumo"
+    ]
+  },
+  "c30176ee-2dbe-4f33-9364-034d99537ea3": {
+    "en": "Rank these from most to least you'd miss in the morning.",
+    "text": "Ordina cosa ti mancherebbe di più al mattino, dal più al meno.",
+    "answers": [
+      "Svegliarti accanto al tuo amore",
+      "Un bacio prima di alzarsi",
+      "Il tuo amore che ti dorme addosso",
+      "Il caffè a letto"
+    ]
+  },
+  "08273933-f45b-493e-bfc0-447e6bde1cf1": {
+    "en": "Rank these from favorite kiss to least favorite.",
+    "text": "Ordina questi baci dal tuo preferito al meno amato.",
+    "answers": [
+      "Un bacio di benvenuto",
+      "Un bacio prima di andare",
+      "Il bacio della buonanotte",
+      "Un bacio che ti interrompe"
+    ]
+  },
+  "1c1f83f0-3f05-46bd-9675-126bb7738f0d": {
+    "en": "Rank these from most to least it would kill the mood.",
+    "text": "Ordina da ciò che smorzerebbe di più l'atmosfera a ciò che la smorzerebbe di meno.",
+    "answers": [
+      "Controlla una notifica",
+      "Chiede «Com'ero?»",
+      "Guarda l'ora",
+      "Ti chiama «socio»"
+    ],
+    "note": "\"buddy\" (TR \"kanka\") rendered as «socio», a matey, gender-neutral-in-use nickname."
+  },
+  "daef0884-7dca-444f-97a4-4aa50630566b": {
+    "en": "Rank these touches from favorite to least favorite.",
+    "text": "Ordina questi gesti dal tuo preferito al meno amato.",
+    "answers": [
+      "Un massaggio",
+      "Le dita tra i capelli",
+      "Una carezza lungo la schiena",
+      "Il tuo viso tra le sue mani"
+    ]
+  },
+  "5ac839e1-d41e-4cf9-b357-3bd1eea3730b": {
+    "en": "Rank these from favorite to least favorite place for their hands.",
+    "text": "Dove preferisci le mani del tuo amore? Ordina dal preferito al meno amato.",
+    "answers": [
+      "Tra i capelli",
+      "Sui fianchi",
+      "Sul viso",
+      "Sulla nuca"
+    ]
+  },
+  "3e9f0724-74ca-4238-9f3d-e0c45b56d001": {
+    "en": "Rank these from favorite to least favorite place for a kiss.",
+    "text": "Dove preferisci un bacio? Ordina dal preferito al meno amato.",
+    "answers": [
+      "Lungo la mascella",
+      "Sulla clavicola",
+      "Dietro l'orecchio",
+      "Sulla spalla"
+    ]
+  },
+  "ed8201c6-39a1-437c-b23b-3bf03afac54b": {
+    "en": "Rank these from favorite to least favorite they could be wearing.",
+    "text": "Cosa preferisci che indossi il tuo amore? Ordina dal preferito al meno amato.",
+    "answers": [
+      "La tua felpa",
+      "Quasi niente",
+      "I vestiti della serata",
+      "Solo un asciugamano"
+    ]
+  },
+  "0fc286a5-79f8-4651-ae16-bb8cb61d4132": {
+    "en": "Rank these from favorite to least favorite to do in the dark.",
+    "text": "Cosa preferisci fare al buio? Ordina dal preferito al meno amato.",
+    "answers": [
+      "Baciarsi",
+      "Parlare",
+      "Ridere",
+      "Stare in silenzio"
+    ]
+  },
+  "da02165a-765e-4918-ab60-2f16cd2f6e28": {
+    "en": "Rank these from most to least you want them never to stop.",
+    "text": "Cosa non vorresti mai che il tuo amore smettesse di fare? Ordina dal più al meno.",
+    "answers": [
+      "Baciarti",
+      "Guardarti",
+      "Parlarti",
+      "Toccarti"
+    ]
+  }
+}

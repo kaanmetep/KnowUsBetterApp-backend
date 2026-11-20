@@ -1,0 +1,71 @@
+{
+  "df0f185f-6d69-4ba4-9994-5996b2f0bf68": {
+    "en": "Looking at your partner's phone is…",
+    "text": "Zaglądanie do telefonu drugiej połówki to…",
+    "answers": [
+      "Nigdy okej, to prywatna sprawa",
+      "Okej, za zgodą",
+      "Okej, nie mamy nic do ukrycia",
+      "Coś, co zdarza mi się robić bez pytania"
+    ]
+  },
+  "dd3aaedc-07ee-412b-bb83-7c23dbb377c1": {
+    "en": "Someone gives your partner a lot of attention. You…",
+    "text": "Ktoś poświęca twojej drugiej połówce mnóstwo uwagi. Ty…",
+    "answers": [
+      "Zupełnie się nie przejmuję",
+      "Czuję lekkie ukłucie, ale ufam",
+      "Chcę o tym porozmawiać",
+      "Otwarcie okazuję zazdrość"
+    ]
+  },
+  "fbf507be-cbda-4663-9a38-9a01f9393e66": {
+    "en": "Your partner staying friends with an ex is…",
+    "text": "Twoja druga połówka przyjaźni się z eks. To dla ciebie…",
+    "answers": [
+      "Coś zupełnie normalnego",
+      "Okej, jeśli to już przeszłość",
+      "Coś, co mnie uwiera",
+      "Coś nie do przyjęcia"
+    ],
+    "flagged": true,
+    "note": "Used colloquial 'eks' to avoid gendered były/była (ex's gender); options rephrased as 'Coś…' noun phrases."
+  },
+  "785701ac-e83a-456a-9d90-e85d4aca204d": {
+    "en": "How often do you feel jealous, even if you don't show it?",
+    "text": "Jak często czujesz zazdrość, nawet jeśli tego nie okazujesz?",
+    "answers": [
+      "Często",
+      "Czasami",
+      "Rzadko",
+      "Nigdy"
+    ]
+  },
+  "9ba59f61-1758-4d30-ba63-f6104de991cd": {
+    "en": "What would damage your trust the most?",
+    "text": "Co najbardziej podważyłoby twoje zaufanie?",
+    "answers": [
+      "Kłamstwo, nawet drobne",
+      "Ukrywane rozmowy z kimś",
+      "Obietnica łamana nie raz",
+      "Nasze prywatne sprawy wyniesione na zewnątrz"
+    ]
+  },
+  "18def8e1-5fa7-44a3-85e4-81cb688a31db": {
+    "en": "How much do you want to know about each other's day?",
+    "text": "Ile chcesz wiedzieć o dniu drugiej połówki?",
+    "answers": [
+      "Wszystko: gdzie i z kim",
+      "Najważniejsze rzeczy",
+      "Tylko to, czym zechce się podzielić"
+    ]
+  },
+  "b0a8928f-0b53-439c-9f66-ca1a6c92eb86": {
+    "en": "What makes you feel completely secure with your partner?",
+    "text": "Co daje ci przy drugiej połówce pełne poczucie bezpieczeństwa?"
+  },
+  "e045d939-d801-4bea-b637-ed0df364efa8": {
+    "en": "Is there anything that makes you even slightly insecure in this relationship? Be honest.",
+    "text": "Czy w tym związku jest coś, co choć trochę odbiera ci poczucie bezpieczeństwa? Szczerze."
+  }
+}

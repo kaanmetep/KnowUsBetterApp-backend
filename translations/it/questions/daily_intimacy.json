@@ -1,0 +1,71 @@
+{
+  "dae2d4cc-1750-4ff2-ad27-8844b09f1ea3": {
+    "en": "When do you feel closest to your partner?",
+    "text": "Quando senti più forte il legame con il tuo amore?",
+    "answers": [
+      "Parlando a tarda notte",
+      "Ridendo insieme",
+      "Nei momenti di vicinanza fisica",
+      "Dopo aver superato qualcosa di difficile"
+    ]
+  },
+  "b1333bff-a865-4cb9-9293-ec4f88e184e2": {
+    "en": "How satisfied are you with your physical closeness lately?",
+    "text": "Ultimamente, quanto ti soddisfa la vostra vicinanza fisica?",
+    "answers": [
+      "Moltissimo",
+      "Abbastanza",
+      "Ne vorrei di più",
+      "Qualcosa non torna"
+    ]
+  },
+  "54b1befc-8d38-4ad9-b0f7-4ecc5da68448": {
+    "en": "How do you like intimacy to begin?",
+    "text": "Come ti piace che inizi l'intimità?",
+    "answers": [
+      "Piano, senza fretta",
+      "In modo spontaneo",
+      "Prima con le parole",
+      "Pianificata, l'attesa aiuta"
+    ]
+  },
+  "a23bd9c0-604e-42e9-a98a-4f1494b812c3": {
+    "en": "What kills the mood fastest for you?",
+    "text": "Cosa rovina l'atmosfera più in fretta, per te?",
+    "answers": [
+      "I telefoni",
+      "Lo stress della giornata",
+      "La fretta",
+      "Le tensioni irrisolte"
+    ]
+  },
+  "6689e4d3-270f-4a02-9581-f286060425d0": {
+    "en": "How important is affection outside the bedroom to you?",
+    "text": "Quanto conta per te l'affetto fuori dalla camera da letto?",
+    "answers": [
+      "È essenziale",
+      "È molto bello averlo",
+      "Non è fondamentale"
+    ]
+  },
+  "3cb8d865-6f52-410b-a73c-647cc8ed78fb": {
+    "en": "Telling your partner what you want in intimacy is…",
+    "text": "Dire al tuo amore cosa desideri nell'intimità è…",
+    "answers": [
+      "Facile per me",
+      "Più facile per messaggio",
+      "Imbarazzante, ma vorrei farlo",
+      "Qualcosa che evito"
+    ]
+  },
+  "176ce7a7-80c4-44da-b820-4488d4d1d280": {
+    "en": "Which moment between you two do you keep replaying in your head?",
+    "text": "Quale momento tra voi due continui a rivivere nella mente?"
+  },
+  "0d7aff47-dea9-4a0b-a71b-03f9e196e0f5": {
+    "en": "In a few words: what makes you feel desired?",
+    "text": "In poche parole: cosa ti fa sentire che il tuo amore ti desidera?",
+    "flagged": true,
+    "note": "\"Feel desired\" (sentirsi desiderato/a) is gendered; rephrased as 'what makes you feel your partner desires you', which narrows 'desired' to the partner."
+  }
+}
