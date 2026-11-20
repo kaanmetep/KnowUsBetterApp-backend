@@ -20,8 +20,8 @@
     ]
   },
   "ebce1854-6bc1-47e3-b71a-d595f7f0e3d9": {
-    "en": "Which country's national flag is the only one in the world that features a modern firearm?",
-    "text": "Flaga którego kraju jako jedyna na świecie przedstawia nowoczesną broń palną?",
+    "en": "Which country's flag features an AK-47 rifle?",
+    "text": "Flaga którego kraju przedstawia karabin AK-47?",
     "answers": [
       "Mozambik",
       "Angola",
@@ -57,8 +57,8 @@
     ]
   },
   "79169b6e-6d47-46b6-b2e3-1c3403b8ad2b": {
-    "en": "Which animal species is the only known creature capable of biological immortality under ideal conditions?",
-    "text": "Które zwierzę jako jedyne znane może w idealnych warunkach być biologicznie nieśmiertelne?",
+    "en": "Which animal can turn back into its juvenile form, making it biologically immortal in theory?",
+    "text": "Które zwierzę potrafi wrócić do postaci młodocianej, przez co teoretycznie jest biologicznie nieśmiertelne?",
     "answers": [
       "Meduza Turritopsis dohrnii",
       "Niesporczak",
@@ -97,8 +97,8 @@
     ]
   },
   "33649e7c-3151-42fa-b231-2b75a0bb5bdd": {
-    "en": "Which of these classic board games was originally designed as a critique of capitalism and unchecked monopolies?",
-    "text": "Która z tych klasycznych gier planszowych powstała pierwotnie jako krytyka kapitalizmu i monopoli?",
+    "en": "Which classic board game grew out of a game designed to criticize monopolies?",
+    "text": "Która klasyczna gra planszowa wywodzi się z gry stworzonej, by krytykować monopole?",
     "answers": [
       "Monopoly",
       "Catan",
@@ -155,14 +155,13 @@
     ]
   },
   "00b54485-8cba-4983-a77e-4008337756f8": {
-    "en": "Which animal was the first living organism to have its complete genome fully sequenced by scientists in 1998?",
+    "en": "Which animal was the first multicellular organism to have its complete genome sequenced, in 1998?",
     "text": "Które zwierzę jako pierwsze miało w pełni zsekwencjonowany genom (w 1998 roku)?",
     "answers": [
       "Caenorhabditis elegans (nicień)",
       "Drosophila melanogaster (muszka owocowa)",
       "Mus musculus (mysz domowa)"
-    ],
-    "note": "EN says 'first living organism', which is not strictly true (bacteria in 1995); rendered as 'first animal', which is accurate."
+    ]
   },
   "65a413b9-91a9-42d2-8a28-2ad753643f20": {
     "en": "Which of these well-known sea bodies on Earth is actually an endorheic lake with no natural outlet to any ocean?",
@@ -194,8 +193,8 @@
     ]
   },
   "4efb81b0-12ea-4ad6-8815-8460fff0dfec": {
-    "en": "Which famous scientist lost his sight in his later years, partly due to observing the Sun through a telescope?",
-    "text": "Który słynny uczony pod koniec życia stracił wzrok, po części przez obserwowanie Słońca przez teleskop?",
+    "en": "Which famous astronomer went completely blind in his final years?",
+    "text": "Który słynny astronom pod koniec życia całkowicie stracił wzrok?",
     "answers": [
       "Galileusz",
       "Isaac Newton",
@@ -204,8 +203,8 @@
     ]
   },
   "5b649245-27c2-441a-ac9c-d6cb4f55763a": {
-    "en": "Which island is the only natural habitat where wild lemurs can be found in the world?",
-    "text": "Na której wyspie jako jedynej na świecie żyją dzikie lemury?",
+    "en": "Lemurs are native to only one island in the world. Which one?",
+    "text": "Lemury pochodzą tylko z jednej wyspy na świecie. Z której?",
     "answers": [
       "Madagaskar",
       "Tasmania",
@@ -1046,14 +1045,12 @@
     ]
   },
   "fdca625b-e0fb-4cff-a6a1-9fbf87b764a1": {
-    "en": "Which country is larger by land area?",
+    "en": "Which country has the larger total area?",
     "text": "Który kraj ma większą powierzchnię?",
     "answers": [
       "Kanada",
       "Stany Zjednoczone"
-    ],
-    "flagged": true,
-    "note": "Source says 'by land area', but by land area alone the US is slightly larger (CIA: US 9.15M vs Canada 9.09M km2); Canada is larger only by total area. Translated as total area so the key (Canada) stays true; consider fixing the English too."
+    ]
   },
   "da747a22-25c3-40fb-a01a-d6a8b8c9078d": {
     "en": "Who has more bones, a baby or an adult?",
@@ -1331,15 +1328,13 @@
     ]
   },
   "8384d067-1ad2-496f-a48c-807812a3c2b9": {
-    "en": "What is the longest river in the world?",
-    "text": "Jaka jest najdłuższa rzeka świata?",
+    "en": "Which river is traditionally considered the longest in the world?",
+    "text": "Którą rzekę tradycyjnie uważa się za najdłuższą na świecie?",
     "accepted": [
       "Nil",
       "Nile",
       "Rzeka Nil"
-    ],
-    "flagged": true,
-    "note": "Nile vs Amazon is disputed; some Polish sources/schools say Amazonka. Consider accepting Amazonka too."
+    ]
   },
   "6a592f5c-8b25-475c-9d71-2ff6077b9fac": {
     "en": "What is pi rounded to two decimal places?",

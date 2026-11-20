@@ -297,7 +297,7 @@
   },
   "1fc8abbf-0128-4618-b81d-2b76f09bf03a": {
     "en": "If your friends don't like your partner, would it make you lose interest in them?",
-    "text": "Si tes amis n'aimaient pas ta moitié, ça te refroidirait ?"
+    "text": "Si tes amis n'aimaient pas ta moitié, ça te refroidirait envers eux ?"
   },
   "c2ebf044-0c54-4059-b541-f3714baf47d8": {
     "en": "Are you currently attracted to a friend in a way that's more than just friendship?",
@@ -312,7 +312,7 @@
     "text": "Qu'est-ce qui guide le plus le comportement humain ?",
     "answers": [
       "La peur de la douleur",
-      "Le désir de plaisir"
+      "La recherche du plaisir"
     ]
   },
   "6a4f5fd8-c46c-4f5f-ac95-578a22429850": {
@@ -469,7 +469,7 @@
   },
   "a481faea-e2d5-4288-bee9-49a6e561002c": {
     "en": "Constantly messaging someone you say \"we are just friends\" with...",
-    "text": "S'écrire sans arrêt avec quelqu'un dont tu dis « on est juste potes »…",
+    "text": "S'écrire sans arrêt avec quelqu'un qui est « juste un pote »…",
     "answers": [
       "C'est normal",
       "Ça peut porter à confusion"

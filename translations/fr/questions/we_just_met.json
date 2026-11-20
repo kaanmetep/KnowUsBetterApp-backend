@@ -41,7 +41,7 @@
   },
   "16ab0dae-f337-4214-84b3-f4fd1d237451": {
     "en": "Have you ever been physically with someone you didn't have feelings for?",
-    "text": "Ça t'est déjà arrivé d'avoir une aventure physique avec quelqu'un pour qui tu n'avais pas de sentiments ?"
+    "text": "Tu as déjà couché avec quelqu'un sans avoir de sentiments ?"
   },
   "24afb9f9-09fe-479b-b7fe-222f914f546d": {
     "en": "Have you ever used someone who was deeply in love with you just to avoid being alone?",
@@ -129,7 +129,7 @@
   },
   "8e44a610-70a6-443a-a5f4-6695dd7f2acb": {
     "en": "Have you ever cheated on your partner?",
-    "text": "Tu as déjà trompé quelqu'un avec qui tu étais en couple ?"
+    "text": "Tu as déjà été infidèle ?"
   },
   "f7cd4adc-4c3a-462d-80b8-a9cb5e0d59a7": {
     "en": "Have you ever been cheated on by your partner?",
@@ -301,11 +301,11 @@
     "text": "Ça t'est déjà arrivé de craquer pour quelqu'un qu'il ne fallait pas ?"
   },
   "c141b0f8-c822-4fda-b966-2d0bfccab391": {
-    "en": "Would you want to know everything about your partner’s past or only the necessary parts?",
-    "text": "Tu voudrais tout savoir du passé de ta moitié, ou seulement l'essentiel ?",
+    "en": "Would you rather your partner discover your flaws early on or bit by bit?",
+    "text": "Tu préfères que ta moitié découvre tes défauts tout de suite ou petit à petit ?",
     "answers": [
-      "Tout",
-      "Seulement l'essentiel"
+      "Tout de suite",
+      "Petit à petit"
     ]
   },
   "60fa63d8-776a-4cf9-91fa-806954a2c37c": {
@@ -419,8 +419,8 @@
     "note": "Source assumes a man in the couple; kept as a general-opinion question."
   },
   "e8dd11c5-218b-4d77-a137-0444c87fff31": {
-    "en": "If your partner looked a lot like their previous partner, would it bother you?",
-    "text": "Si ta moitié ressemblait beaucoup à son ex, ça te dérangerait ?"
+    "en": "If you looked a lot like your partner's ex, would it bother you?",
+    "text": "Ça te dérangerait de beaucoup ressembler à l'ex de ta moitié ?"
   },
   "69535b7c-b94c-4ebc-95b0-5fa46b811906": {
     "en": "If your partner wanted to read your messages with your friend group, would you let them?",
@@ -666,7 +666,7 @@
   },
   "b60dd292-09bb-4403-8129-eceb964a89bb": {
     "en": "Who texts first in a relationship...",
-    "text": "Qui écrit en premier, dans une relation…",
+    "text": "Savoir qui écrit en premier dans une relation, c'est…",
     "answers": [
       "Un équilibre important",
       "Pas de quoi s'en soucier"
@@ -1031,7 +1031,7 @@
   },
   "ddf5199c-bd3b-4909-8d04-6f6e2951ffc6": {
     "en": "Nobody can touch the food until they've taken a photo of it. Out of 10, what score do they drop to?",
-    "text": "Personne n'a le droit de toucher aux plats avant qu'ils soient pris en photo. Sur 10, sa note tombe à combien ?"
+    "text": "La personne interdit de toucher aux plats avant de les avoir pris en photo. Sur 10, sa note tombe à combien ?"
   },
   "7511a7b3-1b46-4b57-add4-b6dced443721": {
     "en": "Mid-date, they video-call their mom and introduce you. Out of 10, what score do they drop to?",
@@ -1434,7 +1434,7 @@
   },
   "b5861af8-2dea-46b5-bcc9-1a6e26e6be5a": {
     "en": "Which wins you over more: someone who cooks you dinner or someone who takes you to their favorite spot?",
-    "text": "Qu'est-ce qui te séduit le plus : quelqu'un qui te cuisine un dîner ou quelqu'un qui t'emmène à son endroit préféré ?",
+    "text": "Qu'est-ce qui te séduit le plus : quelqu'un qui te prépare à dîner ou quelqu'un qui t'emmène à son endroit préféré ?",
     "answers": [
       "Un dîner fait maison",
       "Son endroit préféré"

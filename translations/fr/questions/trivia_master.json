@@ -5,7 +5,7 @@
     "answers": [
       "Le cerveau",
       "Le cœur",
-      "Le foie",
+      "Les poumons",
       "Les reins"
     ]
   },
@@ -19,15 +19,13 @@
     ]
   },
   "c1cb1e49-a9cc-43e1-b6da-34f4da305a37": {
-    "en": "Which architectural feature was specifically invented by ancient Romans to support massive dome structures?",
+    "en": "Which architectural feature did the ancient Romans rely on to support massive domes?",
     "text": "Quel élément d'architecture les Romains ont-ils développé pour soutenir d'immenses coupoles ?",
     "answers": [
       "L'arc",
       "La colonne",
       "La pyramide"
-    ],
-    "flagged": true,
-    "note": "Source says Romans 'invented' the arch; historically they perfected it (arches predate Rome). Softened to 'développé'."
+    ]
   },
   "e9339914-1d7d-423a-9a28-2519995eb9e6": {
     "en": "Which planet in our solar system spins in the opposite direction to most other planets?",
@@ -82,11 +80,9 @@
     "answers": [
       "L'éléphant",
       "La girafe",
-      "L'hippopotame",
-      "Le rhinocéros"
-    ],
-    "flagged": true,
-    "note": "Adult hippos and rhinos also cannot really jump; the elephant is the classic answer but distractors are debatable (same in source)."
+      "Le cheval",
+      "Le cerf"
+    ]
   },
   "a98b74cf-707a-4d84-a017-ea98f2d69e68": {
     "en": "How many sides does a standard stop sign on the road have?",
@@ -107,8 +103,8 @@
     ]
   },
   "4563d6d4-5301-4f89-811a-045b66157aa2": {
-    "en": "Which soft drink was originally invented as a cough syrup and headache remedy?",
-    "text": "Quel soda a été inventé à l'origine comme sirop contre la toux et les maux de tête ?",
+    "en": "Which soft drink was first sold as a medicine for headaches and fatigue?",
+    "text": "Quel soda était vendu à l'origine comme remède contre les maux de tête et la fatigue ?",
     "answers": [
       "Coca-Cola",
       "Sprite",
@@ -126,16 +122,14 @@
     ]
   },
   "a79f90ff-8ce5-493b-8b50-2ef10c1f9c26": {
-    "en": "How many continents are there on planet Earth?",
-    "text": "Combien y a-t-il de continents sur Terre ?",
+    "en": "Which is the largest continent?",
+    "text": "Quel est le plus grand continent ?",
     "answers": [
-      "7",
-      "5",
-      "6",
-      "8"
-    ],
-    "flagged": true,
-    "note": "Country-dependent: French schools usually teach 5 or 6 continents (Olympic rings = 5); answer key says 7."
+      "L'Asie",
+      "L'Afrique",
+      "L'Amérique du Nord",
+      "L'Antarctique"
+    ]
   },
   "b6c425a9-162f-4107-919c-20eea21afc7a": {
     "en": "What is the name of the imaginary line that divides Earth into the Northern and Southern Hemispheres?",
@@ -451,8 +445,8 @@
     ]
   },
   "78899d32-d997-4e60-b9a5-c635406a0d3a": {
-    "en": "Sushi originally comes from which country?",
-    "text": "De quel pays viennent les sushis à l'origine ?",
+    "en": "Sushi is a traditional dish of which country?",
+    "text": "Les sushis sont un plat traditionnel de quel pays ?",
     "accepted": [
       "Japon",
       "Le Japon",
@@ -1449,8 +1443,8 @@
     ]
   },
   "9f50ad95-1ce8-42ab-8e0b-3bd347d33019": {
-    "en": "In 2024, whose \"Eras Tour\" became the highest-grossing concert tour of all time?",
-    "text": "En 2024, le « Eras Tour » de quel artiste est devenu la tournée la plus rentable de tous les temps ?",
+    "en": "Whose \"Eras Tour\" became the highest-grossing concert tour of all time?",
+    "text": "Le « Eras Tour » de quel artiste est devenu la tournée la plus rentable de tous les temps ?",
     "answers": [
       "Taylor Swift",
       "Beyoncé",

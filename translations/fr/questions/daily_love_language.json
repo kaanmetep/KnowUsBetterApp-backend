@@ -12,7 +12,7 @@
   },
   "133e06f4-dacb-4900-9789-001a5b70e6b0": {
     "en": "How do you most naturally show love?",
-    "text": "Comment montres-tu ton amour le plus naturellement ?",
+    "text": "Quelle est ta façon la plus naturelle de montrer ton amour ?",
     "answers": [
       "En le disant",
       "En trouvant du temps pour l'autre",
@@ -45,7 +45,7 @@
   },
   "0d6c4a65-26ce-4b3d-a4a9-bc4d2ca492db": {
     "en": "How much physical affection do you want on a normal day?",
-    "text": "Combien de tendresse physique veux-tu dans une journée normale ?",
+    "text": "De combien de tendresse physique as-tu besoin dans une journée normale ?",
     "answers": [
       "Beaucoup, tout le temps",
       "Plusieurs moments par jour",
@@ -69,6 +69,6 @@
   },
   "190ea05e-76db-489f-a50d-c3473f48f2e7": {
     "en": "What do you do to show love that you think your partner doesn't notice?",
-    "text": "Que fais-tu pour montrer ton amour sans que ta moitié le remarque, selon toi ?"
+    "text": "Que fais-tu par amour qui, selon toi, échappe à ta moitié ?"
   }
 }

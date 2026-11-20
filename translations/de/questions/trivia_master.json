@@ -5,7 +5,7 @@
     "answers": [
       "Gehirn",
       "Herz",
-      "Leber",
+      "Lunge",
       "Nieren"
     ]
   },
@@ -19,15 +19,13 @@
     ]
   },
   "c1cb1e49-a9cc-43e1-b6da-34f4da305a37": {
-    "en": "Which architectural feature was specifically invented by ancient Romans to support massive dome structures?",
+    "en": "Which architectural feature did the ancient Romans rely on to support massive domes?",
     "text": "Welches Bauelement nutzten die alten Römer gezielt, um riesige Kuppeln zu tragen?",
     "answers": [
       "Der Bogen",
       "Die Säule",
       "Die Pyramide"
-    ],
-    "flagged": true,
-    "note": "Source says Romans 'invented' the arch, which is historically inaccurate (arches predate Rome). Softened to 'used specifically'; please review the source fact."
+    ]
   },
   "e9339914-1d7d-423a-9a28-2519995eb9e6": {
     "en": "Which planet in our solar system spins in the opposite direction to most other planets?",
@@ -82,11 +80,9 @@
     "answers": [
       "Elefant",
       "Giraffe",
-      "Nilpferd",
-      "Nashorn"
-    ],
-    "flagged": true,
-    "note": "Hippos and adult rhinos also can't really jump, so 'Elephant' as the only answer is debatable; same issue as in the source."
+      "Pferd",
+      "Hirsch"
+    ]
   },
   "a98b74cf-707a-4d84-a017-ea98f2d69e68": {
     "en": "How many sides does a standard stop sign on the road have?",
@@ -107,8 +103,8 @@
     ]
   },
   "4563d6d4-5301-4f89-811a-045b66157aa2": {
-    "en": "Which soft drink was originally invented as a cough syrup and headache remedy?",
-    "text": "Welches Erfrischungsgetränk wurde ursprünglich als Mittel gegen Husten und Kopfschmerzen erfunden?",
+    "en": "Which soft drink was first sold as a medicine for headaches and fatigue?",
+    "text": "Welches Erfrischungsgetränk wurde ursprünglich als Mittel gegen Kopfschmerzen und Müdigkeit verkauft?",
     "answers": [
       "Coca-Cola",
       "Sprite",
@@ -126,16 +122,14 @@
     ]
   },
   "a79f90ff-8ce5-493b-8b50-2ef10c1f9c26": {
-    "en": "How many continents are there on planet Earth?",
-    "text": "Wie viele Kontinente gibt es auf der Erde?",
+    "en": "Which is the largest continent?",
+    "text": "Welcher ist der größte Kontinent?",
     "answers": [
-      "7",
-      "5",
-      "6",
-      "8"
-    ],
-    "flagged": true,
-    "note": "Continent count depends on the model taught; 7 is common in German schools, but 5 or 6 are also taught in parts of Europe."
+      "Asien",
+      "Afrika",
+      "Nordamerika",
+      "Antarktis"
+    ]
   },
   "b6c425a9-162f-4107-919c-20eea21afc7a": {
     "en": "What is the name of the imaginary line that divides Earth into the Northern and Southern Hemispheres?",
@@ -452,8 +446,8 @@
     ]
   },
   "78899d32-d997-4e60-b9a5-c635406a0d3a": {
-    "en": "Sushi originally comes from which country?",
-    "text": "Aus welchem Land kommt Sushi ursprünglich?",
+    "en": "Sushi is a traditional dish of which country?",
+    "text": "Sushi ist ein traditionelles Gericht aus welchem Land?",
     "accepted": [
       "Japan",
       "japan",
@@ -1452,8 +1446,8 @@
     ]
   },
   "9f50ad95-1ce8-42ab-8e0b-3bd347d33019": {
-    "en": "In 2024, whose \"Eras Tour\" became the highest-grossing concert tour of all time?",
-    "text": "Wessen „Eras Tour“ wurde 2024 zur umsatzstärksten Konzerttour aller Zeiten?",
+    "en": "Whose \"Eras Tour\" became the highest-grossing concert tour of all time?",
+    "text": "Wessen „Eras Tour“ wurde zur umsatzstärksten Konzerttour aller Zeiten?",
     "answers": [
       "Taylor Swift",
       "Beyoncé",

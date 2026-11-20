@@ -5,7 +5,7 @@
     "answers": [
       "脳",
       "心臓",
-      "肝臓",
+      "肺",
       "腎臓"
     ]
   },
@@ -19,15 +19,13 @@
     ]
   },
   "c1cb1e49-a9cc-43e1-b6da-34f4da305a37": {
-    "en": "Which architectural feature was specifically invented by ancient Romans to support massive dome structures?",
+    "en": "Which architectural feature did the ancient Romans rely on to support massive domes?",
     "text": "古代ローマ人が巨大なドームを支えるために活用した建築の技術は？",
     "answers": [
       "アーチ",
       "柱",
       "ピラミッド"
-    ],
-    "flagged": true,
-    "note": "Source says Romans 'invented' the arch; arches predate Rome (Mesopotamia). Softened to 'made use of' to keep it true."
+    ]
   },
   "e9339914-1d7d-423a-9a28-2519995eb9e6": {
     "en": "Which planet in our solar system spins in the opposite direction to most other planets?",
@@ -82,8 +80,8 @@
     "answers": [
       "ゾウ",
       "キリン",
-      "カバ",
-      "サイ"
+      "ウマ",
+      "シカ"
     ]
   },
   "a98b74cf-707a-4d84-a017-ea98f2d69e68": {
@@ -107,8 +105,8 @@
     ]
   },
   "4563d6d4-5301-4f89-811a-045b66157aa2": {
-    "en": "Which soft drink was originally invented as a cough syrup and headache remedy?",
-    "text": "もともと咳止めシロップや頭痛薬として作られた炭酸飲料は？",
+    "en": "Which soft drink was first sold as a medicine for headaches and fatigue?",
+    "text": "もともと頭痛や疲れに効く薬として売られていた炭酸飲料は？",
     "answers": [
       "コカ・コーラ",
       "スプライト",
@@ -126,16 +124,14 @@
     ]
   },
   "a79f90ff-8ce5-493b-8b50-2ef10c1f9c26": {
-    "en": "How many continents are there on planet Earth?",
-    "text": "世界で一般的な数え方だと、大陸はいくつ？",
+    "en": "Which is the largest continent?",
+    "text": "世界の地域で、面積が一番広いのは？",
     "answers": [
-      "7",
-      "5",
-      "6",
-      "8"
-    ],
-    "flagged": true,
-    "note": "Japanese schools teach 6 continents (六大陸), so a Japanese player may pick 6. Wording points to the common worldwide (7-continent) count; consider whether to keep this item for ja."
+      "アジア",
+      "アフリカ",
+      "北アメリカ",
+      "南極"
+    ]
   },
   "b6c425a9-162f-4107-919c-20eea21afc7a": {
     "en": "What is the name of the imaginary line that divides Earth into the Northern and Southern Hemispheres?",
@@ -449,17 +445,15 @@
     ]
   },
   "78899d32-d997-4e60-b9a5-c635406a0d3a": {
-    "en": "Sushi originally comes from which country?",
-    "text": "寿司はもともとどこの国の料理？",
+    "en": "Sushi is a traditional dish of which country?",
+    "text": "寿司はどこの国の伝統料理？",
     "accepted": [
       "日本",
       "にほん",
       "にっぽん",
       "ニッポン",
       "Japan"
-    ],
-    "flagged": true,
-    "note": "Trivially easy for Japanese players; kept as a giveaway question."
+    ]
   },
   "e3224e00-4e9d-4756-b4b7-34c7b3a1d378": {
     "en": "What is the main ingredient of guacamole?",
@@ -571,7 +565,7 @@
   },
   "bc53010b-e468-4440-b51f-1e8e88af45a9": {
     "en": "In basketball, how many points is a shot from behind the arc worth?",
-    "text": "バスケで、ゴールから遠い弧のラインの外から決めたシュートは何点？",
+    "text": "バスケで、ゴールを囲む大きな弧のラインの外から決めたシュートは何点？",
     "answers": [
       "1",
       "2",
@@ -981,7 +975,7 @@
   },
   "70c1e912-e703-4c28-8b68-fc55363fc96f": {
     "en": "Which yellow cartoon family lives in the town of Springfield?",
-    "text": "スプリングフィールドに住む、黄色いアニメの家族は？",
+    "text": "スプリングフィールドに住む、黄色い肌のアニメ一家は？",
     "answers": [
       "原始家族フリントストーン",
       "ザ・シンプソンズ",
@@ -1011,7 +1005,7 @@
   },
   "c98b5d34-10f7-4aa0-b7bd-ab549781cc63": {
     "en": "In \"Finding Nemo\", what kind of fish is Nemo?",
-    "text": "「ファインディング・ニモ」のニモは何の魚？",
+    "text": "『ファインディング・ニモ』のニモは何の魚？",
     "answers": [
       "金魚",
       "フグ",
@@ -1063,7 +1057,7 @@
     "en": "Who was the first person to walk on the Moon?",
     "text": "初めて月面を歩いた人は？",
     "answers": [
-      "ユーリイ・ガガーリン",
+      "ユーリ・ガガーリン",
       "バズ・オルドリン",
       "ニール・アームストロング",
       "マイケル・コリンズ"
@@ -1091,7 +1085,7 @@
   },
   "6e7737ef-a295-4fb1-a481-56af330d1a0c": {
     "en": "In Star Wars, who says \"I am your father\"?",
-    "text": "スター・ウォーズで「ルーク、私がおまえの父だ」と言うのは？",
+    "text": "スター・ウォーズで「私がおまえの父だ」と言うのは？",
     "answers": [
       "ダース・ベイダー",
       "ヨーダ",
@@ -1112,7 +1106,7 @@
   },
   "6ea2b330-632e-4ef4-9cd7-90fa3fd103c1": {
     "en": "In \"Friends\", what is the name of the coffee shop where the group hangs out?",
-    "text": "「フレンズ」でみんながたまっているカフェの名前は？",
+    "text": "『フレンズ』でみんながたまっているカフェの名前は？",
     "answers": [
       "セントラル・パーク",
       "モンクス・カフェ",
@@ -1122,7 +1116,7 @@
   },
   "64d0f7ef-3667-4c57-b401-c38494f12c44": {
     "en": "In \"Frozen\", which character has ice powers?",
-    "text": "「アナと雪の女王」で氷の魔法を持っているのは？",
+    "text": "『アナと雪の女王』で氷の魔法を持っているのは？",
     "answers": [
       "エルサ",
       "アナ",
@@ -1141,7 +1135,7 @@
   },
   "1a3ded96-3fb4-45e1-8b80-9439a1685b82": {
     "en": "In \"Toy Story\", what is the cowboy's name?",
-    "text": "「トイ・ストーリー」のカウボーイの名前は？",
+    "text": "『トイ・ストーリー』のカウボーイの名前は？",
     "answers": [
       "ウッディ",
       "バズ・ライトイヤー",
@@ -1266,7 +1260,7 @@
   },
   "a8c5a088-b9e1-4ff0-9b49-79956d86728a": {
     "en": "In \"The Lord of the Rings\", what does Frodo have to destroy?",
-    "text": "「ロード・オブ・ザ・リング」でフロドが壊さなきゃいけないものは？",
+    "text": "『ロード・オブ・ザ・リング』でフロドが壊さなきゃいけないものは？",
     "answers": [
       "一つの指輪",
       "魔法の剣",
@@ -1305,7 +1299,7 @@
   },
   "c0c78278-5634-4c86-afb6-611012b803c7": {
     "en": "In \"Snow White\", how many dwarfs are there?",
-    "text": "「白雪姫」に出てくる小人は何人？",
+    "text": "『白雪姫』に出てくる小人は何人？",
     "answers": [
       "7",
       "5",
@@ -1458,8 +1452,8 @@
     ]
   },
   "9f50ad95-1ce8-42ab-8e0b-3bd347d33019": {
-    "en": "In 2024, whose \"Eras Tour\" became the highest-grossing concert tour of all time?",
-    "text": "2024年、「Eras Tour」で史上最高の興行収入を記録したのは誰？",
+    "en": "Whose \"Eras Tour\" became the highest-grossing concert tour of all time?",
+    "text": "「Eras Tour」で史上最高の興行収入を記録したのは誰？",
     "answers": [
       "テイラー・スウィフト",
       "ビヨンセ",

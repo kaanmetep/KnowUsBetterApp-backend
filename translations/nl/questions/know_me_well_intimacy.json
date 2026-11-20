@@ -153,7 +153,7 @@
   },
   "93250f31-1b51-4551-abe8-ad4359373b2e": {
     "en": "Does {{playerName}} love cute nicknames, or prefer just being called by their name?",
-    "text": "Vindt {{playerName}} schattige koosnaampjes leuk, of liever gewoon de eigen naam?",
+    "text": "Houdt {{playerName}} van schattige koosnaampjes, of liever gewoon van de eigen naam?",
     "answers": [
       "Schattige koosnaampjes",
       "Gewoon de eigen naam"
@@ -290,7 +290,7 @@
   },
   "52b200de-7096-4387-b6c3-aab3bc6a22f3": {
     "en": "Which gift would make {{playerName}} the happiest?",
-    "text": "Van welk cadeau wordt {{playerName}} het blijst?",
+    "text": "Van welk cadeau wordt {{playerName}} het gelukkigst?",
     "answers": [
       "Sieraden",
       "Een verrassingsreisje",
@@ -628,7 +628,7 @@
   },
   "51f4a26a-da00-4845-a418-a9ee3398e5bf": {
     "en": "If someone is clearly checking you out, what does {{playerName}} do?",
-    "text": "Iemand checkt je overduidelijk uit. Wat doet {{playerName}}?",
+    "text": "Iemand staat je overduidelijk te bekijken. Wat doet {{playerName}}?",
     "answers": [
       "Merkt het niet",
       "Trekt je dichterbij",
@@ -641,7 +641,7 @@
     "answers": [
       "Doet mee",
       "Kijkt toe",
-      "Noemt je belachelijk en doet dan mee"
+      "Zegt dat je gek bent en doet mee"
     ]
   },
   "0ba7b11f-84f2-4fd6-a508-37ec2a630f94": {
@@ -882,7 +882,7 @@
   },
   "7d10c4cc-934e-4c78-83dc-e7675b0c1ec0": {
     "en": "Which zodiac element does {{playerName}} find most attractive?",
-    "text": "Welk element van de sterrenbeelden vindt {{playerName}} het aantrekkelijkst?",
+    "text": "Welke sterrenbeelden vindt {{playerName}} het aantrekkelijkst?",
     "answers": [
       "Vuurtekens",
       "Aardetekens",
@@ -1066,7 +1066,7 @@
   },
   "7d25b7f5-1dc6-43d6-af4b-e31f6e0a738c": {
     "en": "How does {{playerName}} feel about sharing food from the same plate?",
-    "text": "Wat vindt {{playerName}} van samen van één bord eten?",
+    "text": "Hoe staat {{playerName}} tegenover samen van één bord eten?",
     "answers": [
       "Heerlijk",
       "Alleen het toetje",
@@ -1134,7 +1134,7 @@
   },
   "95324c07-425a-4d15-9ce4-80159e7e681d": {
     "en": "What's {{playerName}}'s favorite gift they've ever gotten from you?",
-    "text": "Wat is het leukste cadeau dat {{playerName}} ooit van jou kreeg?"
+    "text": "Wat is het leukste cadeau dat {{playerName}} ooit van jou heeft gekregen?"
   },
   "4f5b2363-db4a-45ac-b84e-c456394f226d": {
     "en": "How does {{playerName}} feel about cooking together?",
@@ -1183,7 +1183,7 @@
   },
   "ed027bd1-f69f-478f-bee8-0a9228254da7": {
     "en": "When {{playerName}} sees something that reminds them of you, what do they do?",
-    "text": "Wat doet {{playerName}} als iets aan jou doet denken?",
+    "text": "Wat doet {{playerName}} als die iets ziet wat aan jou doet denken?",
     "answers": [
       "Stuurt je een foto",
       "Koopt het voor je",

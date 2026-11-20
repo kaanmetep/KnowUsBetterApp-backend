@@ -19,7 +19,7 @@
   },
   "a40ede2b-78ff-4724-9449-a45c57461c96": {
     "en": "Rank these texts from the one you'd most to least love to receive.",
-    "text": "もらうとうれしいメッセージ、うれしい順に並べて",
+    "text": "このメッセージ、もらってうれしい順に並べて",
     "answers": [
       "会いたい",
       "頭から離れない",
@@ -55,7 +55,7 @@
   },
   "4525a249-5bf6-42b2-be08-48341df1ba75": {
     "en": "Rank these from most to least important in the bedroom.",
-    "text": "ベッドで大事なこと、大事だと思う順に並べて",
+    "text": "ベッドで大事だと思う順に並べて",
     "answers": [
       "相性",
       "信頼",
@@ -249,7 +249,7 @@
   },
   "e5e17a90-d530-4aa3-80eb-23fb649335b1": {
     "en": "Rank these from most to least want more of.",
-    "text": "もっと欲しいもの、欲しい順に並べて",
+    "text": "もっとほしいもの、ほしい順に並べて",
     "answers": [
       "情熱",
       "優しさ",
@@ -269,7 +269,7 @@
   },
   "ea0ac43f-9b82-4d51-9cf4-78a4cf7545ff": {
     "en": "Rank these from most to least want between you.",
-    "text": "ふたりの間にもっと欲しいもの、欲しい順に並べて",
+    "text": "ふたりの間にもっとほしいもの、ほしい順に並べて",
     "answers": [
       "熱っぽさ",
       "甘さ",
@@ -299,7 +299,7 @@
   },
   "44c790a0-ccd4-4040-88ca-534378d9d65d": {
     "en": "Rank these from most to least tempting when you shouldn't.",
-    "text": "ダメなのについイチャつきたくなる状況、したくなる順に並べて",
+    "text": "ダメなのについイチャつきたくなる順に並べて",
     "answers": [
       "隣の部屋に人がいる",
       "遅刻しそう",

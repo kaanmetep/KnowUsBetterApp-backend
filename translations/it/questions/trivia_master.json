@@ -5,7 +5,7 @@
     "answers": [
       "Cervello",
       "Cuore",
-      "Fegato",
+      "Polmoni",
       "Reni"
     ]
   },
@@ -19,15 +19,13 @@
     ]
   },
   "c1cb1e49-a9cc-43e1-b6da-34f4da305a37": {
-    "en": "Which architectural feature was specifically invented by ancient Romans to support massive dome structures?",
+    "en": "Which architectural feature did the ancient Romans rely on to support massive domes?",
     "text": "Quale elemento architettonico fu sviluppato dagli antichi Romani per sostenere enormi cupole?",
     "answers": [
       "L'arco",
       "La colonna",
       "La piramide"
-    ],
-    "flagged": true,
-    "note": "Romans did not strictly invent the arch (it predates them); softened 'invented' to 'developed' (sviluppato). Source premise is historically loose."
+    ]
   },
   "e9339914-1d7d-423a-9a28-2519995eb9e6": {
     "en": "Which planet in our solar system spins in the opposite direction to most other planets?",
@@ -82,8 +80,8 @@
     "answers": [
       "Elefante",
       "Giraffa",
-      "Ippopotamo",
-      "Rinoceronte"
+      "Cavallo",
+      "Cervo"
     ]
   },
   "a98b74cf-707a-4d84-a017-ea98f2d69e68": {
@@ -105,8 +103,8 @@
     ]
   },
   "4563d6d4-5301-4f89-811a-045b66157aa2": {
-    "en": "Which soft drink was originally invented as a cough syrup and headache remedy?",
-    "text": "Quale bibita è nata come sciroppo per la tosse e rimedio contro il mal di testa?",
+    "en": "Which soft drink was first sold as a medicine for headaches and fatigue?",
+    "text": "Quale bibita fu venduta all'inizio come rimedio contro il mal di testa e la stanchezza?",
     "answers": [
       "Coca-Cola",
       "Sprite",
@@ -124,16 +122,14 @@
     ]
   },
   "a79f90ff-8ce5-493b-8b50-2ef10c1f9c26": {
-    "en": "How many continents are there on planet Earth?",
-    "text": "Quanti sono i continenti della Terra?",
+    "en": "Which is the largest continent?",
+    "text": "Qual è il continente più grande?",
     "answers": [
-      "7",
-      "5",
-      "6",
-      "8"
-    ],
-    "flagged": true,
-    "note": "Country-dependent: Italian schools often teach 5 or 6 continents (e.g. America as one). Answer key says 7."
+      "Asia",
+      "Africa",
+      "America del Nord",
+      "Antartide"
+    ]
   },
   "b6c425a9-162f-4107-919c-20eea21afc7a": {
     "en": "What is the name of the imaginary line that divides Earth into the Northern and Southern Hemispheres?",
@@ -459,8 +455,8 @@
     ]
   },
   "78899d32-d997-4e60-b9a5-c635406a0d3a": {
-    "en": "Sushi originally comes from which country?",
-    "text": "Da quale Paese viene il sushi?",
+    "en": "Sushi is a traditional dish of which country?",
+    "text": "Il sushi è un piatto tradizionale di quale Paese?",
     "accepted": [
       "Giappone",
       "giappone",
@@ -1456,8 +1452,8 @@
     ]
   },
   "9f50ad95-1ce8-42ab-8e0b-3bd347d33019": {
-    "en": "In 2024, whose \"Eras Tour\" became the highest-grossing concert tour of all time?",
-    "text": "Di chi è l'«Eras Tour», diventato nel 2024 il tour con il maggior incasso di sempre?",
+    "en": "Whose \"Eras Tour\" became the highest-grossing concert tour of all time?",
+    "text": "Di chi è l'«Eras Tour», diventato il tour con il maggior incasso di sempre?",
     "answers": [
       "Taylor Swift",
       "Beyoncé",

@@ -299,7 +299,7 @@
   },
   "ddea60f1-05c3-4711-b23c-6a5d0c156b2c": {
     "en": "Is it a dealbreaker if your spouse frequently goes out with friends without you?",
-    "text": "結婚相手が自分抜きで友だちとしょっちゅう遊びに行くのは、離婚レベル？"
+    "text": "結婚相手が自分抜きで友達としょっちゅう遊びに行くのは、離婚レベル？"
   },
   "352fe804-1b1d-42dd-9635-2ffcc0aafb91": {
     "en": "Would you try to find someone else immediately after breaking up to forget your partner?",
@@ -323,7 +323,7 @@
   },
   "94b588d9-5c0d-4ad8-b8c1-ae2289717727": {
     "en": "If I am wrong in an argument with my family, would you support me blindly or tell me the truth?",
-    "text": "恋人が自分の家族とケンカして、恋人のほうが悪かったら、とにかく味方する？それとも本当のことを言う？",
+    "text": "恋人が家族とケンカして、恋人のほうが悪かったら、とにかく味方する？それとも本当のことを言う？",
     "answers": [
       "とにかく味方する",
       "本当のことを言う"
@@ -503,7 +503,7 @@
     "text": "恋人がこうだとイヤなのはどっち？",
     "answers": [
       "仕事ばっかり",
-      "友だちとばっかり"
+      "友達とばっかり"
     ]
   },
   "455fb3ee-8dfa-4f2b-85ef-139849e81bab": {
@@ -534,7 +534,7 @@
     "en": "Which is a bigger problem for you: your friends not liking your partner or your family not liking your partner?",
     "text": "より困るのはどっち？",
     "answers": [
-      "友だちに恋人が嫌われる",
+      "友達に恋人が嫌われる",
       "家族に恋人が嫌われる"
     ]
   },
@@ -686,7 +686,7 @@
   },
   "9ae0640c-d472-4528-a93b-99746bc50ea6": {
     "en": "Which would you prefer: your partner planning the marriage proposal entirely on their own, or secretly asking your friends for advice?",
-    "text": "プロポーズの計画、恋人がひとりで全部考えるのと、こっそり私の友達に相談するの、どっちがいい？",
+    "text": "プロポーズの計画、恋人がひとりで全部考えるのと、こっそりこっちの友達に相談するの、どっちがいい？",
     "answers": [
       "ひとりで全部考える",
       "こっそり友達に相談"
@@ -755,12 +755,12 @@
     "text": "恋人が優先すべきなのは、どっちの将来？",
     "answers": [
       "恋人自身の将来",
-      "私の将来"
+      "自分の将来"
     ]
   },
   "58cc044f-d0e6-407b-b19f-4db600605254": {
     "en": "Your partner trying to change you...",
-    "text": "恋人が私を変えようとするのは…",
+    "text": "恋人が自分を変えようとしてくるのは…",
     "answers": [
       "アリ",
       "絶対ナシ"
@@ -776,7 +776,7 @@
   },
   "93bfc65c-0d46-4cbc-86a5-46802820f43b": {
     "en": "Your partner trying to change you, even if it is \"for your own good\"...",
-    "text": "「よかれと思って」でも、恋人が私を変えようとするのは…",
+    "text": "「よかれと思って」でも、恋人が自分を変えようとしてくるのは…",
     "answers": [
       "アリ",
       "絶対ナシ"
@@ -800,7 +800,7 @@
   },
   "aabf084a-c712-4d5f-872c-8351c008d756": {
     "en": "If your partner does not like your friends...",
-    "text": "恋人が私の友達を好きじゃなかったら…",
+    "text": "自分の友達を恋人が気に入らなかったら…",
     "answers": [
       "問題になりうる",
       "問題ない"
@@ -1173,7 +1173,7 @@
       "すぐ切り替える",
       "顔に出るほどストレス",
       "代わりの案を出す",
-      "ひとりの時間が欲しい"
+      "ひとりの時間がほしい"
     ]
   },
   "369fa1e1-0ab3-4f2c-a265-15c284122bdd": {
@@ -1248,7 +1248,7 @@
   },
   "991e7451-814e-4596-afd5-5b46f856b6b7": {
     "en": "How many hours of sleep do you need to feel fully rested?",
-    "text": "しっかり休めた気がするには、何時間寝ないとダメ？"
+    "text": "何時間寝れば、しっかり疲れが取れる？"
   },
   "146cb144-98ea-4c21-b324-25c17421a56f": {
     "en": "What percentage of monthly income should ideally be saved?",
@@ -1415,7 +1415,7 @@
       "話してくれるまで粘る",
       "話してくれるのを待つ",
       "カウンセリングをすすめる",
-      "恋人の親しい友だちに相談する"
+      "恋人の親しい友達に相談する"
     ]
   },
   "8aaf405f-56bb-4c98-9939-137ab11e1be8": {
@@ -1440,7 +1440,7 @@
   },
   "3c595094-97f5-4d24-b08f-83322c9cde8b": {
     "en": "Your partner had a big fight with one of your friends and wants you to stop seeing them. What do you do?",
-    "text": "恋人が自分の友だちのひとりと大ゲンカ。「その人とはもう会わないで」と言われた。どうする？",
+    "text": "恋人が自分の友達のひとりと大ゲンカ。「その人とはもう会わないで」と言われた。どうする？",
     "answers": [
       "会うのをやめる",
       "こっそり会い続ける",
@@ -1546,7 +1546,7 @@
   },
   "c2165bb4-4fa4-45c4-9b37-069d18ee412f": {
     "en": "Your friend's partner threw them a huge anniversary surprise, and it's all over their stories. What do you do?",
-    "text": "友だちの恋人が記念日に派手なサプライズ。友だちのストーリーがそれ一色。どうする？",
+    "text": "友達の恋人が記念日に派手なサプライズ。友達のストーリーがそれ一色。どうする？",
     "answers": [
       "全然響かない",
       "ちょっとうらやましい",
@@ -1566,11 +1566,11 @@
   },
   "daa60757-b2eb-4fde-add6-bab68b63940d": {
     "en": "It's your partner's birthday. They want to celebrate with friends, you want it to be just the two of you. What do you do?",
-    "text": "恋人の誕生日。恋人は友だちと祝いたい、自分はふたりきりで過ごしたい。どうする？",
+    "text": "恋人の誕生日。恋人は友達と祝いたい、自分はふたりきりで過ごしたい。どうする？",
     "answers": [
-      "友だちと一緒に祝う",
+      "友達と一緒に祝う",
       "ふたりきりがいいと押し通す",
-      "まずふたりで、そのあと友だちと"
+      "まずふたりで、そのあと友達と"
     ]
   },
   "012d5335-8992-4122-81a7-8f20f6e61f1c": {
@@ -1740,7 +1740,7 @@
   },
   "9ed20021-d80f-4f8f-8cc6-71087328b9d9": {
     "en": "Your partner calling you \"baby\" in front of your friends...",
-    "text": "友だちの前で、恋人に甘い呼び方をされるのは…",
+    "text": "友達の前で、恋人に甘い呼び方をされるのは…",
     "answers": [
       "すごくかわいい",
       "いいけど家だけにしてほしい",
@@ -1853,7 +1853,7 @@
   },
   "d60adf90-40bf-4cd2-8730-519bb5ee1d1e": {
     "en": "Your partner invited friends over for dinner tonight without telling you. What do you do?",
-    "text": "恋人が何も言わずに、今夜友だちを夕飯に呼んでた。どうする？",
+    "text": "恋人が何も言わずに、今夜友達を夕飯に呼んでた。どうする？",
     "answers": [
       "喜んで料理に取りかかる",
       "その場は合わせて、あとで話す",
@@ -1876,7 +1876,7 @@
     "answers": [
       "ふたりきりで",
       "家族と",
-      "友だちとパーティー"
+      "友達とパーティー"
     ]
   },
   "c51d83be-122c-47f6-acb6-da205865c718": {

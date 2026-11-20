@@ -1,7 +1,7 @@
 {
   "962e164e-2bb4-43b6-91ff-a3f4a7f1e353": {
     "en": "Do you share the private details of your romantic dates with your friends?",
-    "text": "デートのナイショの話、友だちにしちゃう？"
+    "text": "デートのナイショの話、友達にしちゃう？"
   },
   "6f1cc8ff-d1b4-4bcc-adce-e1ec0ad7c3e5": {
     "en": "Which do you prioritize more in someone you're attracted to: having a nice body or being intelligent?",
@@ -33,10 +33,10 @@
   },
   "bdf4c3a2-6345-46c7-af8c-7b683dd8f0ba": {
     "en": "Which turns you on more: slow and romantic or fast and passionate?",
-    "text": "ゆっくりロマンチックにか、激しく情熱的にか、ドキドキするのはどっち？",
+    "text": "ゆっくりロマンチックなのと激しく情熱的なの、ドキドキするのはどっち？",
     "answers": [
-      "ゆっくりロマンチックに",
-      "激しく情熱的に"
+      "ゆっくりロマンチック",
+      "激しく情熱的"
     ]
   },
   "d10f5951-581e-459f-a7e9-9d46d34faefa": {
@@ -69,7 +69,7 @@
   },
   "a73425b0-93d5-4ec5-9178-8b7a8f55d1a0": {
     "en": "Do you enjoy cuddling and physical affection outside of intimate moments?",
-    "text": "そういう時じゃなくても、くっついたりスキンシップしたりするのは好き？"
+    "text": "そういうときじゃなくても、くっついたりスキンシップしたりするのは好き？"
   },
   "9cdd792e-827d-4513-b110-00bfaa66cf25": {
     "en": "Do you think cheating should be forgiven?",
@@ -105,11 +105,11 @@
   },
   "06dd4eba-bbc1-49d8-baa2-5a99ae3c9672": {
     "en": "Do compliments turn you on?",
-    "text": "褒められると、スイッチ入っちゃう？"
+    "text": "ほめられると、スイッチ入っちゃう？"
   },
   "55243368-64c9-496b-9031-2be396332bed": {
     "en": "Regarding romantic energy, do you prefer partners who are 'loud' or 'silent'?",
-    "text": "ムードが盛り上がった時、相手は声が出るタイプと静かなタイプ、どっちがいい？",
+    "text": "ムードが盛り上がったとき、相手は声が出るタイプと静かなタイプ、どっちがいい？",
     "answers": [
       "声が出るタイプ",
       "静かなタイプ"
@@ -133,11 +133,11 @@
   },
   "d2819c86-6b30-44b5-9277-8f4a66648271": {
     "en": "Do you think you can really stay friends with an ex?",
-    "text": "元恋人と本当に友だちでいられると思う？"
+    "text": "元恋人と本当に友達でいられると思う？"
   },
   "a5e7ddc4-8245-4f68-ab51-ed01fb4e0316": {
     "en": "Have you ever had a surprisingly romantic dream about a close friend?",
-    "text": "仲のいい友だちが出てくる、妙にロマンチックな夢を見たことある？"
+    "text": "仲のいい友達が出てくる、妙にロマンチックな夢を見たことある？"
   },
   "e31526a8-44b3-4a68-b14d-e3ed8d5b5f5f": {
     "en": "Do you enjoy receiving flirtatious messages?",
@@ -153,7 +153,7 @@
   },
   "85cf45c4-c7e8-4530-8754-d6b44e424d17": {
     "en": "Do you prefer to be the big spoon or the little spoon?",
-    "text": "くっついて寝る時、後ろから抱きしめる派？抱きしめられる派？",
+    "text": "くっついて寝るとき、後ろから抱きしめる派？抱きしめられる派？",
     "answers": [
       "抱きしめる派",
       "抱きしめられる派"
@@ -207,7 +207,7 @@
   },
   "094e743c-3c44-4162-a846-e7c68d41503f": {
     "en": "Have you ever had feelings for a friend’s ex?",
-    "text": "友だちの元恋人を好きになったことある？"
+    "text": "友達の元恋人を好きになったことある？"
   },
   "c24cdf4f-785c-4993-9bde-e087c268430b": {
     "en": "Would you ever make out in an elevator?",
@@ -223,7 +223,7 @@
   },
   "8739a1ba-5e73-4095-8ec3-0ad38131c452": {
     "en": "Intense passion or gentle affection?",
-    "text": "激しい情熱とやさしい愛情、どっち派？",
+    "text": "情熱的なキスとやさしいスキンシップ、どっち派？",
     "answers": [
       "情熱的なキス",
       "やさしいスキンシップ"
@@ -299,7 +299,7 @@
   },
   "c9e4a510-da33-4372-8a0f-80615e78921e": {
     "en": "Have you ever slept with a friend’s ex?",
-    "text": "友だちの元恋人と一線を越えたことある？"
+    "text": "友達の元恋人と一線を越えたことある？"
   },
   "0503603c-4468-4235-b6f2-42cf2ddccb28": {
     "en": "Have you ever experienced an instant romantic spark with someone you met through an app?",
@@ -418,19 +418,19 @@
   },
   "a22ea5f8-6754-4a95-a9d0-17a96c6df098": {
     "en": "Can your partner go on a vacation with a friend of the opposite gender?",
-    "text": "恋人が異性の友達と旅行に行くのはあり？",
+    "text": "恋人が異性の友達と旅行に行くのはアリ？",
     "flagged": true,
     "note": "Kept 異性 (opposite sex) as in source; assumes a mixed couple but reveals no player's gender."
   },
   "1842f9ec-93ce-42ad-bd60-fdee5e59090b": {
     "en": "Can your partner go to the same gym with a friend of the opposite gender?",
-    "text": "恋人が異性の友達と同じジムに通うのはあり？",
+    "text": "恋人が異性の友達と同じジムに通うのはアリ？",
     "flagged": true,
     "note": "Kept 異性 (opposite sex) as in source; assumes a mixed couple but reveals no player's gender."
   },
   "8dc24c93-0d98-4ae4-8641-60acd6ae6bfa": {
     "en": "Can your partner talk to their friends about the things you experience in your relationship?",
-    "text": "ふたりの間のことを、恋人が友達に話すのはあり？"
+    "text": "ふたりの間のことを、恋人が友達に話すのはアリ？"
   },
   "17352711-7d54-4aa6-8bdf-ed91aab0a2c5": {
     "en": "Have you ever waited for someone's relationship to end to confess your feelings?",
@@ -556,11 +556,11 @@
   },
   "35436f63-fa4e-47e9-a87a-6b1795f10fda": {
     "en": "Even if you are not attracted to someone, do you enjoy hearing nice words from them?",
-    "text": "タイプじゃない人からでも、褒められたらうれしい？"
+    "text": "タイプじゃない人からでも、ほめられたらうれしい？"
   },
   "006bf926-25fc-4c5b-8365-6331aef6dee1": {
     "en": "Would someone who loves receiving compliments from others a lot make you lose interest?",
-    "text": "人から褒められるのが大好きな人には、だんだん冷める？"
+    "text": "人からほめられるのが大好きな人には、だんだん冷める？"
   },
   "4742a947-efca-4c20-8483-534782b0b716": {
     "en": "Have you ever flirted with more than 3 people at the same time?",
@@ -600,7 +600,7 @@
   },
   "57def58a-7cfe-490b-b082-c0f22852c699": {
     "en": "Is it okay for your partner to stay for a short time at a friend of the opposite sex's house?",
-    "text": "恋人が異性の友達の家にしばらく泊まるのはあり？",
+    "text": "恋人が異性の友達の家にちょっとの間泊まるのはアリ？",
     "flagged": true,
     "note": "Kept 異性 (opposite sex) as in source; assumes a mixed couple but reveals no player's gender."
   },
@@ -777,10 +777,8 @@
     "text": "恋人の見た目で、一番グッとくるところは？"
   },
   "2cc2f00b-d449-447a-aa47-764da08a477f": {
-    "en": "What is the most attractive physical feature in a partner?",
-    "text": "恋人の見た目で、一番グッとくるところは？",
-    "flagged": true,
-    "note": "Exact duplicate of a10443c5 in the source; translated identically."
+    "en": "Where do you like being kissed the most?",
+    "text": "どこにキスされるのが一番好き？"
   },
   "e2903296-07ab-4631-81dc-828832555fd2": {
     "en": "What is the ideal time of day for romance?",
@@ -866,7 +864,7 @@
   },
   "db715c9a-6d8b-4609-a38b-457dea0fbb6d": {
     "en": "What's the most days you could go without intimacy?",
-    "text": "スキンシップなしで、最長何日がまんできる？"
+    "text": "スキンシップなしで、最長何日ガマンできる？"
   },
   "681b924d-51a4-4cea-964e-5a6c10aca55a": {
     "en": "What is the first sign that you are in the mood?",
@@ -1206,7 +1204,7 @@
   },
   "a5baa1ce-254a-43b4-8cee-8d2e650e86bc": {
     "en": "Which gets you more: them walking around in your shirt, or them getting all dressed up just for you?",
-    "text": "自分のTシャツを着て家でくつろぐ恋人と、自分のためにおしゃれしてくれる恋人、キュンとするのはどっち？",
+    "text": "自分のTシャツを着てくれるのと、自分のためにおしゃれしてくれるの、キュンとするのはどっち？",
     "answers": [
       "自分のTシャツを着てくれる",
       "自分のためにおしゃれしてくれる"
@@ -1214,18 +1212,18 @@
   },
   "5e4fef58-1a72-4651-85bf-131aa64dca2f": {
     "en": "Which turns you off more: never making the first move, or asking \"tonight?\" every single day?",
-    "text": "絶対に自分から誘わないのと、毎日「今夜どう？」と聞いてくるの、冷めるのはどっち？",
+    "text": "恋人から絶対に誘ってこないのと、毎日「今夜どう？」と聞いてくるの、冷めるのはどっち？",
     "answers": [
-      "自分から誘わない",
+      "絶対に誘ってこない",
       "毎日聞いてくる"
     ]
   },
   "862fba19-fdc5-41f2-bbd5-333e6b947e4e": {
     "en": "Which turns you off more: too much perfume, or never smelling good?",
-    "text": "香水がキツすぎるのと、いい匂いが全然しないの、冷めるのはどっち？",
+    "text": "香水がキツすぎるのと、いいにおいが全然しないの、冷めるのはどっち？",
     "answers": [
       "香水がキツすぎる",
-      "いい匂いが全然しない"
+      "いいにおいが全然しない"
     ]
   },
   "e6853947-be83-4878-81aa-c596fafa2c28": {
@@ -1430,7 +1428,7 @@
   },
   "efaad9e9-a415-497b-abca-91ce1e04b8dd": {
     "en": "Holding hands and cuddling in front of friends...",
-    "text": "友だちの前で手をつないだり、くっついたりするのは…",
+    "text": "友達の前で手をつないだり、くっついたりするのは…",
     "answers": [
       "大好き、隠す必要なし",
       "ちょっとならかわいい",

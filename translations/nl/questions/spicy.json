@@ -161,7 +161,7 @@
   },
   "6bb69588-c176-4e43-9599-67c04d89e30c": {
     "en": "In the future, would you choose stability or excitement in your relationship?",
-    "text": "Kies je later in je relatie voor stabiliteit of spanning?",
+    "text": "Waar kies je op den duur voor in een relatie: stabiliteit of spanning?",
     "answers": [
       "Stabiliteit",
       "Spanning"
@@ -641,7 +641,7 @@
     "en": "Chemistry between you and your partner...",
     "text": "De chemie tussen jou en je partner…",
     "answers": [
-      "Het allerbelangrijkste",
+      "Is het allerbelangrijkste",
       "Wordt overschat"
     ]
   },
@@ -762,10 +762,8 @@
     "text": "Wat vind je het aantrekkelijkste uiterlijke kenmerk bij een partner?"
   },
   "2cc2f00b-d449-447a-aa47-764da08a477f": {
-    "en": "What is the most attractive physical feature in a partner?",
-    "text": "Wat vind je het aantrekkelijkste uiterlijke kenmerk bij een partner?",
-    "flagged": true,
-    "note": "Duplicate of a10443c5 in the source (same EN/TR text); translated identically."
+    "en": "Where do you like being kissed the most?",
+    "text": "Waar word je het liefst gekust?"
   },
   "e2903296-07ab-4631-81dc-828832555fd2": {
     "en": "What is the ideal time of day for romance?",
@@ -931,7 +929,7 @@
   },
   "d0c1e7eb-fe8f-4fdb-a75b-b2bde40dab96": {
     "en": "What is the hottest compliment to get?",
-    "text": "Welk compliment is het heetst om te krijgen?",
+    "text": "Welk compliment vind je het heetst?",
     "answers": [
       "Over je ogen",
       "Over je stem",
@@ -1180,7 +1178,7 @@
   },
   "54ed2a29-dec5-4e11-bc08-d8f35f77cebe": {
     "en": "Which gets you more: being woken up with kisses, or being held until you fall asleep?",
-    "text": "Wat doet jou meer: wakker gekust worden, of vastgehouden worden tot je in slaap valt?",
+    "text": "Waar smelt je meer van: wakker gekust worden, of vastgehouden worden tot je in slaap valt?",
     "answers": [
       "Wakker gekust worden",
       "Vastgehouden tot ik slaap"
@@ -1188,7 +1186,7 @@
   },
   "a5baa1ce-254a-43b4-8cee-8d2e650e86bc": {
     "en": "Which gets you more: them walking around in your shirt, or them getting all dressed up just for you?",
-    "text": "Wat doet jou meer: je partner die in jouw shirt rondloopt, of die zich speciaal voor jou mooi maakt?",
+    "text": "Waar val je meer voor: je partner die in jouw shirt rondloopt, of die zich speciaal voor jou mooi maakt?",
     "answers": [
       "In mijn shirt rondlopen",
       "Zich mooi maken voor mij"
@@ -1372,7 +1370,7 @@
   },
   "1e704567-0f18-43f7-9230-7c7cc9d9a005": {
     "en": "Your partner opens up about their biggest insecurity for the first time. What do you do?",
-    "text": "Je partner vertelt je voor het eerst over de eigen grootste onzekerheid. Wat doe je?",
+    "text": "Je partner vertelt je voor het eerst waar die zich het onzekerst over voelt. Wat doe je?",
     "answers": [
       "Gewoon luisteren en knuffelen",
       "Zeggen dat het niet waar is",

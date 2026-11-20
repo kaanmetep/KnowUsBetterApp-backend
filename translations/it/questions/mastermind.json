@@ -20,8 +20,8 @@
     ]
   },
   "ebce1854-6bc1-47e3-b71a-d595f7f0e3d9": {
-    "en": "Which country's national flag is the only one in the world that features a modern firearm?",
-    "text": "Quale Paese ha l'unica bandiera al mondo con un'arma da fuoco moderna?",
+    "en": "Which country's flag features an AK-47 rifle?",
+    "text": "Quale Paese ha un fucile AK-47 sulla bandiera?",
     "answers": [
       "Mozambico",
       "Angola",
@@ -57,8 +57,8 @@
     ]
   },
   "79169b6e-6d47-46b6-b2e3-1c3403b8ad2b": {
-    "en": "Which animal species is the only known creature capable of biological immortality under ideal conditions?",
-    "text": "Quale specie animale è l'unica conosciuta capace di immortalità biologica in condizioni ideali?",
+    "en": "Which animal can turn back into its juvenile form, making it biologically immortal in theory?",
+    "text": "Quale animale può tornare allo stadio giovanile, diventando in teoria biologicamente immortale?",
     "answers": [
       "Medusa Turritopsis dohrnii",
       "Tardigrado",
@@ -97,14 +97,13 @@
     ]
   },
   "33649e7c-3151-42fa-b231-2b75a0bb5bdd": {
-    "en": "Which of these classic board games was originally designed as a critique of capitalism and unchecked monopolies?",
-    "text": "Quale di questi giochi da tavolo classici nacque come critica al capitalismo e ai monopoli senza freni?",
+    "en": "Which classic board game grew out of a game designed to criticize monopolies?",
+    "text": "Quale gioco da tavolo classico è nato da un gioco pensato per criticare i monopoli?",
     "answers": [
       "Monopoly",
       "Catan",
       "Risiko"
-    ],
-    "note": "Risk is sold in Italy as Risiko (the Italian edition); used the local name."
+    ]
   },
   "9ab5c474-fbb2-4c0a-806a-40a9d9cc8024": {
     "en": "Which country had a plain single-color national flag, with no symbols, stripes or designs, from 1977 to 2011?",
@@ -156,15 +155,13 @@
     ]
   },
   "00b54485-8cba-4983-a77e-4008337756f8": {
-    "en": "Which animal was the first living organism to have its complete genome fully sequenced by scientists in 1998?",
+    "en": "Which animal was the first multicellular organism to have its complete genome sequenced, in 1998?",
     "text": "Quale animale è stato il primo organismo pluricellulare con il genoma completo sequenziato, nel 1998?",
     "answers": [
       "Caenorhabditis elegans (nematode)",
       "Drosophila melanogaster (moscerino della frutta)",
       "Mus musculus (topo domestico)"
-    ],
-    "flagged": true,
-    "note": "English says 'first living organism', which is false (bacteria were sequenced in 1995). Followed the Turkish 'first multicellular organism', which is the true fact. Consider fixing the English source."
+    ]
   },
   "65a413b9-91a9-42d2-8a28-2ad753643f20": {
     "en": "Which of these well-known sea bodies on Earth is actually an endorheic lake with no natural outlet to any ocean?",
@@ -196,8 +193,8 @@
     ]
   },
   "4efb81b0-12ea-4ad6-8815-8460fff0dfec": {
-    "en": "Which famous scientist lost his sight in his later years, partly due to observing the Sun through a telescope?",
-    "text": "Quale famoso scienziato perse la vista in vecchiaia, in parte per aver osservato il Sole al telescopio?",
+    "en": "Which famous astronomer went completely blind in his final years?",
+    "text": "Quale famoso astronomo divenne completamente cieco negli ultimi anni di vita?",
     "answers": [
       "Galileo Galilei",
       "Isaac Newton",
@@ -206,8 +203,8 @@
     ]
   },
   "5b649245-27c2-441a-ac9c-d6cb4f55763a": {
-    "en": "Which island is the only natural habitat where wild lemurs can be found in the world?",
-    "text": "Qual è l'unica isola al mondo dove i lemuri vivono allo stato selvatico?",
+    "en": "Lemurs are native to only one island in the world. Which one?",
+    "text": "I lemuri sono originari di una sola isola al mondo. Quale?",
     "answers": [
       "Madagascar",
       "Tasmania",
@@ -1069,14 +1066,12 @@
     ]
   },
   "fdca625b-e0fb-4cff-a6a1-9fbf87b764a1": {
-    "en": "Which country is larger by land area?",
+    "en": "Which country has the larger total area?",
     "text": "Quale Paese ha la superficie totale più grande?",
     "answers": [
       "Canada",
       "Stati Uniti"
-    ],
-    "flagged": true,
-    "note": "Source says 'by land area', but by land area alone the US (~9.15M km²) is slightly larger than Canada (~8.97M km²); Canada is larger only by total area (incl. water). Italian uses 'superficie totale' so the key (Canada) stays true. Consider fixing the English source too."
+    ]
   },
   "da747a22-25c3-40fb-a01a-d6a8b8c9078d": {
     "en": "Who has more bones, a baby or an adult?",
@@ -1351,8 +1346,8 @@
     ]
   },
   "8384d067-1ad2-496f-a48c-807812a3c2b9": {
-    "en": "What is the longest river in the world?",
-    "text": "Qual è il fiume più lungo del mondo?",
+    "en": "Which river is traditionally considered the longest in the world?",
+    "text": "Quale fiume è tradizionalmente considerato il più lungo del mondo?",
     "accepted": [
       "Nilo",
       "Il Nilo",

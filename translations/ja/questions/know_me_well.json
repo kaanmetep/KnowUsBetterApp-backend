@@ -107,10 +107,10 @@
   },
   "382bc563-9823-4ab1-8071-cc2d74faf52a": {
     "en": "Would {{playerName}} rather spend a free day alone or with friends?",
-    "text": "{{playerName}}は休みの日、ひとりで過ごしたい？友だちと過ごしたい？",
+    "text": "{{playerName}}は休みの日、ひとりで過ごしたい？友達と過ごしたい？",
     "answers": [
       "ひとりで",
-      "友だちと"
+      "友達と"
     ]
   },
   "90825695-99aa-4d92-896a-29c6c59a277b": {
@@ -443,7 +443,7 @@
   },
   "df4aa404-cddd-4a94-b2bb-04fa25a26220": {
     "en": "Would {{playerName}} rather be remembered for their intelligence or their kindness?",
-    "text": "{{playerName}}は頭のよさで覚えられたい？やさしさで覚えられたい？",
+    "text": "{{playerName}}が人の記憶に残るなら、頭のよさ？やさしさ？",
     "answers": [
       "頭のよさ",
       "やさしさ"
@@ -543,7 +543,7 @@
   },
   "74c6652c-3f00-4012-8585-e196f91a11f9": {
     "en": "What's the first app {{playerName}} opens in the morning?",
-    "text": "{{playerName}}が朝いちばんに開くアプリは？"
+    "text": "{{playerName}}が朝一番に開くアプリは？"
   },
   "44cb3c9e-6be8-4872-9542-0b08384ef41e": {
     "en": "What's {{playerName}}'s favorite emoji?",
@@ -691,7 +691,7 @@
   },
   "6e745806-a8fc-4404-a45c-090c14c466a1": {
     "en": "What is {{playerName}} like when they're sick?",
-    "text": "体調が悪い時の{{playerName}}は？",
+    "text": "体調が悪いときの{{playerName}}は？",
     "answers": [
       "大げさに騒ぐ",
       "平気なふりをする",
@@ -772,7 +772,7 @@
   },
   "9a333a60-a208-4fa6-b5ad-715cc8915816": {
     "en": "How does {{playerName}} walk with someone?",
-    "text": "誰かと歩く時の{{playerName}}は？",
+    "text": "誰かと歩くときの{{playerName}}は？",
     "answers": [
       "遅れがち",
       "隣を歩く",
@@ -792,7 +792,7 @@
   },
   "0aca9c68-fa93-42be-9d3c-1de5a6691b90": {
     "en": "How much of their plate does {{playerName}} finish?",
-    "text": "{{playerName}}はごはんをどれくらい食べる？",
+    "text": "{{playerName}}は出された料理をどれくらい食べる？",
     "answers": [
       "半分残す",
       "少し残す",
@@ -802,7 +802,7 @@
   },
   "5c58e0a8-e571-49fa-9dcf-8bcabbfd351d": {
     "en": "How loud does {{playerName}} watch TV?",
-    "text": "{{playerName}}がテレビを見る時の音量は？",
+    "text": "{{playerName}}がテレビを見るときの音量は？",
     "answers": [
       "かなり小さめ",
       "ふつう",
@@ -842,7 +842,7 @@
   },
   "2cfc2473-9298-4832-91ac-7d80bdb6acf8": {
     "en": "What is {{playerName}}'s go-to comfort food when sad?",
-    "text": "{{playerName}}が落ち込んだ時に食べたくなるものは？"
+    "text": "{{playerName}}が落ち込んだときに食べたくなるものは？"
   },
   "1964cbeb-89e2-449a-8c9f-a62f03c5001e": {
     "en": "What is the first thing {{playerName}} checks on their phone in the morning?",
@@ -850,7 +850,7 @@
   },
   "72d01256-9cc6-4e00-9ee2-32149b3777c1": {
     "en": "What does {{playerName}} do when no one else is home?",
-    "text": "家にひとりの時、{{playerName}}は何してる？",
+    "text": "家にひとりのとき、{{playerName}}は何してる？",
     "answers": [
       "全力で歌う",
       "家の中で踊る",
@@ -870,7 +870,7 @@
   },
   "b8373ab6-1ddc-4a1b-9c77-fb896eac0d39": {
     "en": "What does {{playerName}} do after tripping in public?",
-    "text": "人前でつまずいた時、{{playerName}}はどうする？",
+    "text": "人前でつまずいたとき、{{playerName}}はどうする？",
     "answers": [
       "そのまま走り出す",
       "地面をにらむ",
@@ -1033,7 +1033,7 @@
   },
   "662aef93-2e41-413c-b62a-b150755f03f5": {
     "en": "How long has {{playerName}} known their oldest friend?",
-    "text": "{{playerName}}の一番古い友だちとは何年の付き合い？",
+    "text": "{{playerName}}の一番古い友達とは何年の付き合い？",
     "answers": [
       "5年未満",
       "5〜10年",
@@ -1043,11 +1043,11 @@
   },
   "65d60061-9ab6-4853-9aca-4eab081a4cce": {
     "en": "What's the name of {{playerName}}'s main group chat with friends?",
-    "text": "{{playerName}}がメインで使ってる友だちグループLINEの名前は？"
+    "text": "{{playerName}}がメインで使ってる友達グループLINEの名前は？"
   },
   "197d53a1-83ce-4902-a334-27066158fc78": {
     "en": "How often does {{playerName}} see their friends?",
-    "text": "{{playerName}}が友だちと会う頻度は？",
+    "text": "{{playerName}}が友達と会う頻度は？",
     "answers": [
       "ほぼ毎日",
       "毎週",
@@ -1057,7 +1057,7 @@
   },
   "6159136b-df0a-4257-b058-e896fc9de8df": {
     "en": "Where does {{playerName}} usually hang out with friends?",
-    "text": "{{playerName}}が友だちと遊ぶのはだいたいどこ？",
+    "text": "{{playerName}}が友達と遊ぶのはだいたいどこ？",
     "answers": [
       "誰かの家",
       "カフェ",
@@ -1067,7 +1067,7 @@
   },
   "a1fcb212-3cc0-4b2d-bd2f-8bda0513e11c": {
     "en": "How many people are in {{playerName}}'s main friend group?",
-    "text": "{{playerName}}のいつもの友だちグループは何人？",
+    "text": "{{playerName}}のいつもの友達グループは何人？",
     "answers": [
       "2〜3人",
       "4〜5人",
@@ -1077,7 +1077,7 @@
   },
   "7f03c313-0647-4db6-9922-02b1cd26700f": {
     "en": "How does {{playerName}} mostly keep in touch with friends?",
-    "text": "{{playerName}}が友だちと一番よく連絡を取る方法は？",
+    "text": "{{playerName}}が友達と一番よく連絡を取る方法は？",
     "answers": [
       "メッセージ",
       "ボイスメッセージ",
@@ -1087,7 +1087,7 @@
   },
   "c17d4951-9f29-4613-aebc-0dc559fa5a6d": {
     "en": "What do {{playerName}}'s friends call them?",
-    "text": "{{playerName}}は友だちから何て呼ばれてる？"
+    "text": "{{playerName}}は友達から何て呼ばれてる？"
   },
   "71ef9a47-46d4-4666-8665-3d3a7991768e": {
     "en": "How does {{playerName}} usually celebrate their birthday?",
@@ -1118,7 +1118,7 @@
       "毎日",
       "週に数回",
       "めったに上げない",
-      "上げない"
+      "まったく上げない"
     ]
   },
   "2d3caa55-6c03-45e4-ae52-8f4d9aabc5a7": {

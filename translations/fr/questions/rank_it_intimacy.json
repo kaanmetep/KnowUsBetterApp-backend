@@ -111,7 +111,7 @@
   },
   "70a62b93-c65f-4d98-a892-86b8a707fc3d": {
     "en": "Rank these from when you'd most to least want them.",
-    "text": "Classe ces moments, de celui où tu as le plus envie de ta moitié au moins.",
+    "text": "Quand as-tu le plus envie de ta moitié ? Classe du plus au moins.",
     "answers": [
       "Dès le réveil",
       "Tard le soir",
@@ -211,7 +211,7 @@
   },
   "7c0e85e4-e20f-4634-98c6-2261afc497b4": {
     "en": "If you only had ten minutes, rank how you'd spend them from most to least.",
-    "text": "Si vous n'aviez que dix minutes, classe comment tu les passerais, du plus au moins.",
+    "text": "Si vous n'aviez que dix minutes, classe comment les passer, du plus au moins.",
     "answers": [
       "S'embrasser",
       "Se parler tout près",
@@ -293,7 +293,7 @@
   },
   "e10a78c4-bba9-4cda-93b1-c4906cd97f5a": {
     "en": "Rank these from when you most to least want it.",
-    "text": "Classe ces moments, de celui où tu en as le plus envie au moins.",
+    "text": "Quand en as-tu le plus envie ? Classe du plus au moins.",
     "answers": [
       "Quand on a dix minutes",
       "Quand on a toute la nuit",
@@ -306,7 +306,7 @@
     "text": "Classe ces situations, de la plus tentante à la moins tentante, quand il ne faudrait pas.",
     "answers": [
       "Quelqu'un dans la pièce d'à côté",
-      "Vous êtes en retard",
+      "On est en retard",
       "Boulot demain matin",
       "Tu viens de t'habiller"
     ]

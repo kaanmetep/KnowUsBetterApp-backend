@@ -20,16 +20,14 @@
     ]
   },
   "ebce1854-6bc1-47e3-b71a-d595f7f0e3d9": {
-    "en": "Which country's national flag is the only one in the world that features a modern firearm?",
-    "text": "A bandeira nacional de qual país é a única no mundo que tem uma arma de fogo moderna?",
+    "en": "Which country's flag features an AK-47 rifle?",
+    "text": "Qual país tem um fuzil AK-47 na bandeira?",
     "answers": [
       "Moçambique",
       "Angola",
       "Guatemala",
       "Haiti"
-    ],
-    "flagged": true,
-    "note": "Guatemala's flag also includes rifles, so the 'only' wording can be seen as ambiguous."
+    ]
   },
   "b8b1f650-8af9-41b7-aa62-30d6ad15e5a7": {
     "en": "Which of these well-known capitals was explicitly planned and built from scratch to serve as a national capital?",
@@ -59,16 +57,14 @@
     ]
   },
   "79169b6e-6d47-46b6-b2e3-1c3403b8ad2b": {
-    "en": "Which animal species is the only known creature capable of biological immortality under ideal conditions?",
-    "text": "Qual espécie animal é a única conhecida capaz de imortalidade biológica em condições ideais?",
+    "en": "Which animal can turn back into its juvenile form, making it biologically immortal in theory?",
+    "text": "Qual animal consegue voltar à fase juvenil, o que em teoria o torna biologicamente imortal?",
     "answers": [
       "Água-viva Turritopsis dohrnii",
       "Tardígrado",
       "Tubarão-da-Groenlândia",
       "Axolote"
-    ],
-    "flagged": true,
-    "note": "The 'only known' claim is debatable because other organisms are sometimes described as biologically immortal."
+    ]
   },
   "d9266445-8fa1-4b7b-8f51-a95099e26f90": {
     "en": "Which country has a national anthem with no official lyrics at all?",
@@ -101,8 +97,8 @@
     ]
   },
   "33649e7c-3151-42fa-b231-2b75a0bb5bdd": {
-    "en": "Which of these classic board games was originally designed as a critique of capitalism and unchecked monopolies?",
-    "text": "Qual destes jogos de tabuleiro clássicos foi criado originalmente como uma crítica ao capitalismo e aos monopólios sem controle?",
+    "en": "Which classic board game grew out of a game designed to criticize monopolies?",
+    "text": "Qual jogo de tabuleiro clássico surgiu de um jogo criado para criticar os monopólios?",
     "answers": [
       "Monopoly",
       "Catan",
@@ -110,7 +106,7 @@
     ]
   },
   "9ab5c474-fbb2-4c0a-806a-40a9d9cc8024": {
-    "en": "Which country has a national flag that is a solid single color with no symbols, stripes, or designs between 1977 and 2011?",
+    "en": "Which country had a plain single-color national flag, with no symbols, stripes or designs, from 1977 to 2011?",
     "text": "Qual país teve uma bandeira nacional de uma única cor, sem símbolos, listras ou desenhos, entre 1977 e 2011?",
     "answers": [
       "Líbia",
@@ -159,7 +155,7 @@
     ]
   },
   "00b54485-8cba-4983-a77e-4008337756f8": {
-    "en": "Which animal was the first living organism to have its complete genome fully sequenced by scientists in 1998?",
+    "en": "Which animal was the first multicellular organism to have its complete genome sequenced, in 1998?",
     "text": "Qual animal foi o primeiro a ter seu genoma completo sequenciado por cientistas, em 1998?",
     "answers": [
       "Caenorhabditis elegans (verme nematódeo)",
@@ -197,20 +193,18 @@
     ]
   },
   "4efb81b0-12ea-4ad6-8815-8460fff0dfec": {
-    "en": "Which famous scientist lost his sight in his later years, partly due to observing the Sun through a telescope?",
-    "text": "Qual cientista famoso perdeu a visão nos últimos anos de vida, em parte por observar o Sol com um telescópio?",
+    "en": "Which famous astronomer went completely blind in his final years?",
+    "text": "Qual astrônomo famoso ficou completamente cego nos últimos anos de vida?",
     "answers": [
       "Galileo Galilei",
       "Isaac Newton",
       "Johannes Kepler",
       "Nicolau Copérnico"
-    ],
-    "flagged": true,
-    "note": "Galileo's blindness being partly caused by telescopic Sun observations is disputed."
+    ]
   },
   "5b649245-27c2-441a-ac9c-d6cb4f55763a": {
-    "en": "Which island is the only natural habitat where wild lemurs can be found in the world?",
-    "text": "Qual ilha é o único habitat natural do mundo onde dá para encontrar lêmures selvagens?",
+    "en": "Lemurs are native to only one island in the world. Which one?",
+    "text": "Os lêmures são nativos de uma única ilha no mundo. Qual?",
     "answers": [
       "Madagascar",
       "Tasmânia",
@@ -1079,14 +1073,12 @@
     ]
   },
   "fdca625b-e0fb-4cff-a6a1-9fbf87b764a1": {
-    "en": "Which country is larger by land area?",
+    "en": "Which country has the larger total area?",
     "text": "Qual país é maior em área territorial?",
     "answers": [
       "Canadá",
       "Estados Unidos"
-    ],
-    "flagged": true,
-    "note": "The answer depends on whether water area is included; by strict land area, the United States can be listed as larger than Canada."
+    ]
   },
   "da747a22-25c3-40fb-a01a-d6a8b8c9078d": {
     "en": "Who has more bones, a baby or an adult?",

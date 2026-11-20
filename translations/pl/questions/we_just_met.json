@@ -300,11 +300,11 @@
     "text": "Zdarzyło ci się kiedyś zakochać w kimś, w kim nie należało?"
   },
   "c141b0f8-c822-4fda-b966-2d0bfccab391": {
-    "en": "Would you want to know everything about your partner’s past or only the necessary parts?",
-    "text": "Chcesz wiedzieć wszystko o przeszłości swojej drugiej połówki czy tylko to, co konieczne?",
+    "en": "Would you rather your partner discover your flaws early on or bit by bit?",
+    "text": "Wolisz, żeby druga połówka poznała twoje wady od razu czy stopniowo?",
     "answers": [
-      "Wszystko",
-      "Tylko to, co konieczne"
+      "Od razu",
+      "Stopniowo"
     ]
   },
   "60fa63d8-776a-4cf9-91fa-806954a2c37c": {
@@ -416,10 +416,8 @@
     "text": "Czy pierwszy krok powinien zrobić mężczyzna?"
   },
   "e8dd11c5-218b-4d77-a137-0444c87fff31": {
-    "en": "If your partner looked a lot like their previous partner, would it bother you?",
-    "text": "Przeszkadza ci, jeśli wyglądasz łudząco podobnie do kogoś z byłych twojej drugiej połówki?",
-    "flagged": true,
-    "note": "EN says the partner looks like their previous partner (unclear); followed the TR meaning: you look a lot like your partner's ex."
+    "en": "If you looked a lot like your partner's ex, would it bother you?",
+    "text": "Przeszkadza ci, jeśli wyglądasz łudząco podobnie do kogoś z byłych twojej drugiej połówki?"
   },
   "69535b7c-b94c-4ebc-95b0-5fa46b811906": {
     "en": "If your partner wanted to read your messages with your friend group, would you let them?",

@@ -20,8 +20,8 @@
     ]
   },
   "ebce1854-6bc1-47e3-b71a-d595f7f0e3d9": {
-    "en": "Which country's national flag is the only one in the world that features a modern firearm?",
-    "text": "国旗に現代の銃が描かれている、世界で唯一の国は？",
+    "en": "Which country's flag features an AK-47 rifle?",
+    "text": "国旗にAK-47（カラシニコフ銃）が描かれている国は？",
     "answers": [
       "モザンビーク",
       "アンゴラ",
@@ -57,15 +57,14 @@
     ]
   },
   "79169b6e-6d47-46b6-b2e3-1c3403b8ad2b": {
-    "en": "Which animal species is the only known creature capable of biological immortality under ideal conditions?",
-    "text": "条件がそろえば「不老不死」になれる、唯一知られている生き物は？",
+    "en": "Which animal can turn back into its juvenile form, making it biologically immortal in theory?",
+    "text": "若い段階に戻れるため、理論上は「不老不死」とされる生き物は？",
     "answers": [
       "ベニクラゲ",
       "クマムシ",
       "ニシオンデンザメ",
       "ウーパールーパー"
-    ],
-    "note": "Used common Japanese names (ベニクラゲ for Turritopsis, ニシオンデンザメ, ウーパールーパー for axolotl)."
+    ]
   },
   "d9266445-8fa1-4b7b-8f51-a95099e26f90": {
     "en": "Which country has a national anthem with no official lyrics at all?",
@@ -98,8 +97,8 @@
     ]
   },
   "33649e7c-3151-42fa-b231-2b75a0bb5bdd": {
-    "en": "Which of these classic board games was originally designed as a critique of capitalism and unchecked monopolies?",
-    "text": "もともと資本主義や独占を批判するために作られたボードゲームは？",
+    "en": "Which classic board game grew out of a game designed to criticize monopolies?",
+    "text": "独占を批判するために作られたゲームから生まれた、定番のボードゲームは？",
     "answers": [
       "モノポリー",
       "カタン",
@@ -156,15 +155,13 @@
     ]
   },
   "00b54485-8cba-4983-a77e-4008337756f8": {
-    "en": "Which animal was the first living organism to have its complete genome fully sequenced by scientists in 1998?",
+    "en": "Which animal was the first multicellular organism to have its complete genome sequenced, in 1998?",
     "text": "1998年、多細胞生物として初めて全ゲノムが解読された生き物は？",
     "answers": [
       "線虫（C.エレガンス）",
       "ショウジョウバエ",
       "ハツカネズミ"
-    ],
-    "flagged": true,
-    "note": "English says 'first living organism', which is false (bacteria were sequenced in 1995); translated as 'first multicellular organism' like the Turkish. Options shortened to common Japanese names."
+    ]
   },
   "65a413b9-91a9-42d2-8a28-2ad753643f20": {
     "en": "Which of these well-known sea bodies on Earth is actually an endorheic lake with no natural outlet to any ocean?",
@@ -196,8 +193,8 @@
     ]
   },
   "4efb81b0-12ea-4ad6-8815-8460fff0dfec": {
-    "en": "Which famous scientist lost his sight in his later years, partly due to observing the Sun through a telescope?",
-    "text": "望遠鏡で太陽を観察したことも原因で、晩年に失明した科学者は？",
+    "en": "Which famous astronomer went completely blind in his final years?",
+    "text": "晩年に完全に失明した有名な天文学者は？",
     "answers": [
       "ガリレオ・ガリレイ",
       "アイザック・ニュートン",
@@ -206,8 +203,8 @@
     ]
   },
   "5b649245-27c2-441a-ac9c-d6cb4f55763a": {
-    "en": "Which island is the only natural habitat where wild lemurs can be found in the world?",
-    "text": "野生のキツネザルが暮らす、世界で唯一の島は？",
+    "en": "Lemurs are native to only one island in the world. Which one?",
+    "text": "キツネザルがもともと生息している、世界で唯一の島は？",
     "answers": [
       "マダガスカル",
       "タスマニア",
@@ -775,7 +772,7 @@
   },
   "ae92a4d9-9327-441e-95a0-22a22f1beebb": {
     "en": "What is the smallest country in the world?",
-    "text": "世界でいちばん小さい国は？",
+    "text": "世界で一番小さい国は？",
     "accepted": [
       "バチカン市国",
       "バチカン",
@@ -857,7 +854,7 @@
   },
   "3af2ac67-f389-4632-9a31-b214cc29271d": {
     "en": "What is the largest ocean on Earth?",
-    "text": "地球でいちばん大きい海は？",
+    "text": "地球で一番大きい海は？",
     "accepted": [
       "太平洋",
       "たいへいよう",
@@ -901,7 +898,7 @@
   },
   "f1f0bbda-e76c-4f6e-81e8-32b84966cab7": {
     "en": "Which planet is farthest from the Sun?",
-    "text": "太陽からいちばん遠い惑星は？",
+    "text": "太陽から一番遠い惑星は？",
     "answers": [
       "土星",
       "天王星",
@@ -921,7 +918,7 @@
   },
   "9f40989a-0762-40d3-903b-d4dea3240a03": {
     "en": "Sound travels fastest through which of these?",
-    "text": "音がいちばん速く伝わるのはどれ？",
+    "text": "音が一番速く伝わるのはどれ？",
     "answers": [
       "空気",
       "水",
@@ -1064,7 +1061,7 @@
     ]
   },
   "fdca625b-e0fb-4cff-a6a1-9fbf87b764a1": {
-    "en": "Which country is larger by land area?",
+    "en": "Which country has the larger total area?",
     "text": "国土の面積が大きいのはどっち？",
     "answers": [
       "カナダ",
@@ -1326,7 +1323,7 @@
   },
   "97e56b29-8c4e-4811-9a96-d4780db72a6f": {
     "en": "What is the highest mountain on Earth?",
-    "text": "世界でいちばん高い山は？",
+    "text": "世界で一番高い山は？",
     "answers": [
       "K2",
       "エベレスト",
@@ -1354,8 +1351,8 @@
     ]
   },
   "8384d067-1ad2-496f-a48c-807812a3c2b9": {
-    "en": "What is the longest river in the world?",
-    "text": "世界でいちばん長い川は？",
+    "en": "Which river is traditionally considered the longest in the world?",
+    "text": "一般に世界で一番長いとされる川は？",
     "accepted": [
       "ナイル川",
       "ナイル",
@@ -1637,7 +1634,7 @@
   },
   "db5641b6-8b6f-44ea-8949-08a4ccbedf59": {
     "en": "Which land animal has the longest pregnancy, nearly two years?",
-    "text": "妊娠期間が約2年と、陸の動物でいちばん長いのは？",
+    "text": "妊娠期間が約2年と、陸の動物で一番長いのは？",
     "answers": [
       "ゾウ",
       "キリン",

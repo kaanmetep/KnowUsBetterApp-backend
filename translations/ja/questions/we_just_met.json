@@ -164,7 +164,7 @@
     "en": "What hurts more in a relationship: being lied to or being ignored?",
     "text": "恋愛でもっと傷つくのはどっち？",
     "answers": [
-      "嘘をつかれる",
+      "ウソをつかれる",
       "無視される"
     ]
   },
@@ -307,11 +307,11 @@
     "text": "好きになっちゃいけない人を好きになったことある？"
   },
   "c141b0f8-c822-4fda-b966-2d0bfccab391": {
-    "en": "Would you want to know everything about your partner’s past or only the necessary parts?",
-    "text": "恋人の過去、全部知りたい？それとも必要なことだけ？",
+    "en": "Would you rather your partner discover your flaws early on or bit by bit?",
+    "text": "自分の欠点、恋人には最初から知ってほしい？それとも少しずつ？",
     "answers": [
-      "全部知りたい",
-      "必要なことだけ"
+      "最初から",
+      "少しずつ"
     ]
   },
   "60fa63d8-776a-4cf9-91fa-806954a2c37c": {
@@ -408,7 +408,7 @@
   },
   "7ee41bf9-fa8d-42ab-a4a5-25bd110543e0": {
     "en": "If you stopped trying in your relationship, would your partner still stay?",
-    "text": "恋愛でがんばるのをやめても、恋人はそばにいてくれると思う？"
+    "text": "ふたりの関係のために努力しなくなっても、恋人はそばにいてくれると思う？"
   },
   "b1eea995-fbe7-4313-be08-f61522b35b5a": {
     "en": "If your partner wanted to make a TikTok video with you for a trend, would you agree?",
@@ -425,10 +425,8 @@
     "note": "Source asks about a gender norm (men making the first move); kept as an opinion question, it does not reveal the players' genders."
   },
   "e8dd11c5-218b-4d77-a137-0444c87fff31": {
-    "en": "If your partner looked a lot like their previous partner, would it bother you?",
-    "text": "自分が恋人の元恋人にそっくりだったら、気になる？",
-    "flagged": true,
-    "note": "EN and TR differ: followed TR ('if YOU looked like your partner's ex'), which is the clearer reading."
+    "en": "If you looked a lot like your partner's ex, would it bother you?",
+    "text": "自分が恋人の元恋人にそっくりだったら、気になる？"
   },
   "69535b7c-b94c-4ebc-95b0-5fa46b811906": {
     "en": "If your partner wanted to read your messages with your friend group, would you let them?",
@@ -732,7 +730,7 @@
   },
   "ebed3fec-e1ae-4368-8a0e-4e4dd4e78af9": {
     "en": "What pet name do you use most for your partner?",
-    "text": "恋人をいちばんよく呼ぶあだ名は？"
+    "text": "恋人を一番よく呼ぶあだ名は？"
   },
   "d14e2f10-7c81-43cd-be66-3e778564a465": {
     "en": "What's the max number of past flirts your partner could have before it turns you off?",
@@ -748,7 +746,7 @@
   },
   "87658e97-ac2e-44a5-b542-433a08e7aabd": {
     "en": "What do you most want your partner to call you?",
-    "text": "恋人にいちばん呼ばれたい呼び方は？"
+    "text": "恋人に一番呼ばれたい呼び方は？"
   },
   "763e922e-ab9e-4f6f-827e-693af2a26f4d": {
     "en": "After how many years together would you want to move in?",
@@ -936,7 +934,7 @@
       "すぐ連絡する",
       "相手からの連絡を待つ",
       "明日にする",
-      "ストーリーを上げて見るかチェック"
+      "ストーリーを上げて見てくれるかチェック"
     ]
   },
   "585b6edd-f0f5-45dc-9b1a-70fadafc76c5": {
@@ -1013,9 +1011,9 @@
   },
   "b2e21ef2-40ff-43ce-8665-31fc326735d8": {
     "en": "Which turns you off more: posting every moment on social media or having no social media at all?",
-    "text": "冷めるのはどっち？何でもSNSに載せる人と、SNSを一切やってない人",
+    "text": "冷めるのはどっち？なんでもSNSに載せる人と、SNSを一切やってない人",
     "answers": [
-      "何でもSNSに載せる",
+      "なんでもSNSに載せる",
       "SNSを一切やってない"
     ]
   },

@@ -274,7 +274,7 @@
     "text": "Sparen voor een ruim pensioen, of je spaargeld uitgeven aan ervaringen nu je nog jong bent?",
     "answers": [
       "Sparen voor pensioen",
-      "Uitgeven aan herinneringen"
+      "Uitgeven aan ervaringen"
     ]
   },
   "b998c2fd-b632-4b5f-b225-7f874cceb713": {
@@ -351,7 +351,7 @@
   },
   "c5c2f072-cf24-4823-82c3-b9c717ffdda6": {
     "en": "If your partner had issues with sexual matters, would you help them?",
-    "text": "Als je partner seksuele problemen heeft, zou je dan helpen?"
+    "text": "Als je partner seksuele problemen heeft, zou je daar dan bij helpen?"
   },
   "d0de886c-2bc7-4537-9f02-0d2bb3d97dc4": {
     "en": "If your partner didn’t want to have children, would it turn you away from them?",
@@ -822,7 +822,7 @@
   },
   "c3b94f1d-30c4-4c5d-bed8-ab4965ec0b5b": {
     "en": "Questioning your partner in a relationship...",
-    "text": "Je partner ter verantwoording roepen is…",
+    "text": "Je partner aan de tand voelen is…",
     "answers": [
       "Normaal",
       "Een teken van onzekerheid"
@@ -1335,39 +1335,39 @@
   },
   "fe095dc1-749f-45bc-9e49-66ce37502e2a": {
     "en": "They now burp in front of you without a second thought. Out of 10, what score do they drop to?",
-    "text": "Je partner laat nu zonder gêne een boer waar jij bij bent. Welk cijfer van de 10 blijft er nog over?"
+    "text": "Je partner laat nu zonder gêne een boer waar jij bij bent. Welk cijfer van de 10 geef je nog?"
   },
   "33a52a1a-90d6-4fd3-ac1a-ff3fe639b28a": {
     "en": "They leave the bathroom door open while using the toilet. Out of 10, what score do they drop to?",
-    "text": "Je partner gaat met de deur open naar de wc. Welk cijfer van de 10 blijft er nog over?"
+    "text": "Je partner gaat met de deur open naar de wc. Welk cijfer van de 10 geef je nog?"
   },
   "aca627ea-b06e-41f6-985c-25a6da2d91d4": {
     "en": "They clip their nails on the couch. Out of 10, what score do they drop to?",
-    "text": "Je partner zit op de bank nagels te knippen. Welk cijfer van de 10 blijft er nog over?"
+    "text": "Je partner zit op de bank nagels te knippen. Welk cijfer van de 10 geef je nog?"
   },
   "69727950-a39d-4071-a35a-30125b09c4f1": {
     "en": "They only remember your anniversary because of a phone reminder. Out of 10, what score do they drop to?",
-    "text": "Je partner onthoudt jullie jubileum alleen dankzij een herinnering op de telefoon. Welk cijfer van de 10 blijft er nog over?"
+    "text": "Je partner onthoudt jullie jubileum alleen dankzij een herinnering op de telefoon. Welk cijfer van de 10 geef je nog?"
   },
   "2e2007bc-30a1-4468-9a75-f90c5d3186d1": {
     "en": "They eat from your plate without asking. Out of 10, what score do they drop to?",
-    "text": "Je partner eet zonder te vragen van jouw bord. Welk cijfer van de 10 blijft er nog over?"
+    "text": "Je partner eet zonder te vragen van jouw bord. Welk cijfer van de 10 geef je nog?"
   },
   "11200110-48f5-4598-b94f-35fd0e2dc090": {
     "en": "While you're talking, they stare at their phone and just say \"mhm\". Out of 10, what score do they drop to?",
-    "text": "Terwijl jij praat, staart je partner naar de telefoon en zegt alleen “hm-hm”. Welk cijfer van de 10 blijft er nog over?"
+    "text": "Terwijl jij praat, staart je partner naar de telefoon en zegt alleen “hm-hm”. Welk cijfer van de 10 geef je nog?"
   },
   "d32c6357-fdb8-4b3c-8e6b-4f53cb753413": {
     "en": "They leave their wet towel on the bed. Out of 10, what score do they drop to?",
-    "text": "Je partner laat de natte handdoek op bed liggen. Welk cijfer van de 10 blijft er nog over?"
+    "text": "Je partner laat de natte handdoek op bed liggen. Welk cijfer van de 10 geef je nog?"
   },
   "1f383d25-0eec-4656-b3ac-470c16d0a4f3": {
     "en": "They tell their friends about your fights. Out of 10, what score do they drop to?",
-    "text": "Je partner vertelt vrienden over jullie ruzies. Welk cijfer van de 10 blijft er nog over?"
+    "text": "Je partner vertelt vrienden over jullie ruzies. Welk cijfer van de 10 geef je nog?"
   },
   "61e8d220-0d50-4983-9d45-58c7f73ab1bb": {
     "en": "They've started hanging up without saying \"I love you\". Out of 10, what score do they drop to?",
-    "text": "Je partner hangt tegenwoordig op zonder “ik hou van je” te zeggen. Welk cijfer van de 10 krijgt je partner nog?"
+    "text": "Je partner hangt tegenwoordig op zonder “ik hou van je” te zeggen. Welk cijfer van de 10 geef je nog?"
   },
   "a5eb351e-ac14-4d92-936d-cb8b6638100e": {
     "en": "Your partner got fired and hasn't left the house in days. What do you do?",
@@ -1657,7 +1657,7 @@
   },
   "400b8c47-8966-42dc-ad12-a1b55903828a": {
     "en": "Seeing each other's location 24/7...",
-    "text": "Elkaars locatie 24/7 kunnen zien...",
+    "text": "Elkaars locatie 24/7 kunnen zien…",
     "answers": [
       "Geeft rust",
       "Onnodig, maar prima",
@@ -1666,7 +1666,7 @@
   },
   "5adfe009-507d-4cc1-8e49-8c5215ce100d": {
     "en": "Spending an entire Sunday in bed together...",
-    "text": "Een hele zondag samen in bed liggen...",
+    "text": "Een hele zondag samen in bed liggen…",
     "answers": [
       "De perfecte zondag",
       "Leuk tot de middag",
@@ -1675,7 +1675,7 @@
   },
   "b4e988e6-ef45-427d-a487-aa1b343e1253": {
     "en": "Sleeping in separate rooms to get better sleep...",
-    "text": "In aparte kamers slapen voor een betere nachtrust...",
+    "text": "In aparte kamers slapen voor een betere nachtrust…",
     "answers": [
       "Een slimme oplossing",
       "Het begin van het einde"
@@ -1692,7 +1692,7 @@
   },
   "0a9315a5-d764-46ce-89f9-a9f98e9836a4": {
     "en": "Cuddling while you sleep...",
-    "text": "Tegen elkaar aan slapen...",
+    "text": "Tegen elkaar aan slapen…",
     "answers": [
       "De hele nacht",
       "Tot we in slaap vallen",
@@ -1710,7 +1710,7 @@
   },
   "1ab4c8a3-015a-4fa9-a591-cb6c81ce2297": {
     "en": "Sharing one Spotify account as a couple...",
-    "text": "Samen één Spotify-account delen...",
+    "text": "Samen één Spotify-account delen…",
     "answers": [
       "Romantisch",
       "Verpest mijn algoritme"
@@ -1718,7 +1718,7 @@
   },
   "9ed20021-d80f-4f8f-8cc6-71087328b9d9": {
     "en": "Your partner calling you \"baby\" in front of your friends...",
-    "text": "Als je partner je “schatje” noemt waar je vrienden bij zijn...",
+    "text": "Als je partner je “schatje” noemt waar je vrienden bij zijn…",
     "answers": [
       "Zo schattig",
       "Prima, maar liever thuis",
@@ -1727,7 +1727,7 @@
   },
   "d4cf5241-eaf9-43d6-a263-9442c1a5b857": {
     "en": "Working out together as a couple...",
-    "text": "Samen sporten als stel...",
+    "text": "Samen sporten als stel…",
     "answers": [
       "Brengt ons dichter bij elkaar",
       "Af en toe leuk",
@@ -1754,7 +1754,7 @@
   },
   "d4645f3c-69a7-40fb-bd6a-62479129ae69": {
     "en": "Your pet sleeping in bed with us...",
-    "text": "Het huisdier dat bij ons in bed slaapt...",
+    "text": "Het huisdier dat bij ons in bed slaapt…",
     "answers": [
       "Niet onderhandelbaar",
       "Prima, aan het voeteneind",
@@ -1794,7 +1794,7 @@
   },
   "0b97884a-8325-43ab-bbf0-12659b04b160": {
     "en": "As a 70-year-old couple, our weekends would be spent...",
-    "text": "Als stel van 70 brengen we onze weekenden door...",
+    "text": "Als stel van 70 brengen we onze weekenden door…",
     "answers": [
       "Met oppassen op de kleinkinderen",
       "Met de wereld rondreizen",
@@ -1839,7 +1839,7 @@
   },
   "863c27e9-810a-4c3b-84bb-dccb057a351a": {
     "en": "Spending weekends with other couples...",
-    "text": "Weekenden doorbrengen met andere stellen...",
+    "text": "Weekenden doorbrengen met andere stellen…",
     "answers": [
       "Het allerleukste",
       "Af en toe gezellig",
@@ -1861,7 +1861,7 @@
   },
   "baacc08b-68b4-46f9-94df-14525d77c9ef": {
     "en": "Our home's style should be...",
-    "text": "De stijl van ons huis moet zijn...",
+    "text": "De stijl van ons huis moet zijn…",
     "answers": [
       "Strak en minimalistisch",
       "Knus en vol spullen",
@@ -1889,7 +1889,7 @@
   },
   "73bdd793-c8b6-4007-9ef5-167e6999c39f": {
     "en": "Phones at the dinner table...",
-    "text": "Telefoons aan tafel bij het avondeten...",
+    "text": "Telefoons aan tafel bij het avondeten…",
     "answers": [
       "Verboden aan tafel",
       "Op tafel, scherm naar beneden",

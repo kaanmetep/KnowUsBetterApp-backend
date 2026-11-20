@@ -139,7 +139,7 @@
     "en": "If you cancel on {{playerName}} last minute, what do they do?",
     "text": "{{playerName}}との約束をドタキャンしたら、どうする？",
     "answers": [
-      "「いいよ」と言う、本心で",
+      "心から「いいよ」と言う",
       "「いいよ」と言うけど、本当は嫌",
       "すぐに理由を聞く"
     ]
@@ -413,7 +413,7 @@
   },
   "2a444c7a-9b06-42ba-929c-3818403efe75": {
     "en": "What's {{playerName}}'s closest friend's name right now?",
-    "text": "今、{{playerName}}が一番仲いい友だちの名前は？"
+    "text": "今、{{playerName}}が一番仲いい友達の名前は？"
   },
   "0216b04b-1ca1-4963-a1e6-ff951b52d0a3": {
     "en": "How many countries has {{playerName}} been to?",
@@ -687,7 +687,7 @@
   },
   "a3fbf3a7-ae6b-452d-b250-d1345f8c330f": {
     "en": "How many friends from high school does {{playerName}} still talk to regularly?",
-    "text": "{{playerName}}が今もよく連絡を取ってる高校の友だちは何人？"
+    "text": "{{playerName}}が今もよく連絡を取ってる高校の友達は何人？"
   },
   "2f52c237-0f33-496b-98b3-d8052637d261": {
     "en": "How old was {{playerName}}'s mom when {{playerName}} was born?",

@@ -281,7 +281,7 @@
   },
   "d3176e15-3a75-42a3-b1bb-170482b855c3": {
     "en": "If your partner suggested putting our one-year savings into a joint account, would you agree?",
-    "text": "Si ta moitié proposait de mettre nos économies d'un an sur un compte commun, tu accepterais ?"
+    "text": "Si ta moitié proposait de mettre vos économies d'un an sur un compte commun, tu accepterais ?"
   },
   "93d80425-5f77-4d69-ac5b-c8e4cf99ab98": {
     "en": "If your best friend and partner met without telling you, would you get jealous?",
@@ -1697,7 +1697,7 @@
     "text": "Un seul chargeur. Ton téléphone est à 10 %, celui de ta moitié à 3 %. Que fais-tu ?",
     "answers": [
       "Laisser ta moitié charger d'abord",
-      "Charger le mien en premier",
+      "Charger le tien en premier",
       "Chacun son tour, toutes les 15 minutes"
     ]
   },

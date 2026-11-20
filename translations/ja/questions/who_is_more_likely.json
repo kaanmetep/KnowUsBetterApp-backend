@@ -105,7 +105,7 @@
   },
   "65f0f078-608b-4705-8278-e156b0ed2695": {
     "en": "Who is more likely to keep score of who did more housework this week?",
-    "text": "今週どれだけ家事をしたか、いちいち数えてそうなのはどっち？"
+    "text": "今週の家事の回数を、いちいち相手と比べてそうなのはどっち？"
   },
   "b3b45e54-a02c-4dab-ac3c-e81e6e89bdfb": {
     "en": "Who is more likely to say \"I told you so\" without saying the words?",
@@ -153,7 +153,7 @@
   },
   "b2071d71-215e-4a7b-a10e-52ab0b49e991": {
     "en": "Who is more likely to get jealous of the other person's friends?",
-    "text": "相手の友だちにヤキモチを焼きそうなのはどっち？"
+    "text": "相手の友達にヤキモチを焼きそうなのはどっち？"
   },
   "1be2e9b3-bca8-4974-9412-e4e88dc058c9": {
     "en": "Who is more likely to get emotional over a random video on their phone?",
@@ -267,7 +267,7 @@
   },
   "28d535c7-4fc3-424f-b47f-a52ba6c480b4": {
     "en": "Who is more likely to make new friends easily?",
-    "text": "すぐ新しい友だちができそうなのはどっち？"
+    "text": "すぐ新しい友達ができそうなのはどっち？"
   },
   "46e4f036-7243-431d-9556-c2463016bbae": {
     "en": "Who is more likely to quit a new job after one week?",
@@ -319,11 +319,11 @@
   },
   "594b03e2-ed6b-4f3f-aff7-b75ad6018c15": {
     "en": "Who is more likely to constantly need space in the relationship?",
-    "text": "いつもひとりの時間を欲しがりそうなのはどっち？"
+    "text": "いつもひとりの時間をほしがりそうなのはどっち？"
   },
   "1ea418cc-7f4a-4c58-80e9-8fc8225aab15": {
     "en": "Who is more likely to need more compliments every day?",
-    "text": "毎日たくさん褒めてほしいのはどっち？"
+    "text": "毎日たくさんほめてほしいのはどっち？"
   },
   "78748adf-0a3c-4007-af1e-0345d6d317fa": {
     "en": "Who is more likely to get very rich one day?",
@@ -379,7 +379,7 @@
   },
   "413300fb-62e5-415e-a54d-fc89cb62865d": {
     "en": "Who is more likely to stay friends with an ex?",
-    "text": "元恋人と友だちでいられそうなのはどっち？"
+    "text": "元恋人と友達でいられそうなのはどっち？"
   },
   "f64a5030-1b69-46e9-ae38-14dd5afdf649": {
     "en": "Who is more likely to start dancing when a good song comes on in public?",
@@ -519,7 +519,7 @@
   },
   "e4395d05-f9c5-4db8-ad2b-fd858da62922": {
     "en": "Who is more likely to want to buy everything they see?",
-    "text": "見たものを全部欲しくなりそうなのはどっち？"
+    "text": "見たものを全部ほしくなりそうなのはどっち？"
   },
   "c4704693-dd64-434d-997f-21b4f43459f7": {
     "en": "Who is more likely to send a 3-minute voice message instead of a quick text?",

@@ -253,13 +253,13 @@
     "answers": [
       "外に遊びに行く",
       "家で映画",
-      "友だちとごはん",
+      "友達とごはん",
       "早めに寝る"
     ]
   },
   "bfb749f1-2e80-4789-b1ab-f0716d523404": {
     "en": "Rank these from most to least important in a friend.",
-    "text": "友だちに求めるもの、大事な順に並べて",
+    "text": "友達に求めるもの、大事な順に並べて",
     "answers": [
       "裏切らないこと",
       "ユーモア",
@@ -395,7 +395,7 @@
   },
   "7e709583-f7fb-490f-8090-978c7f3c2c69": {
     "en": "Rank these from best to worst way to spend a random day off.",
-    "text": "急に休みになったら？いい過ごし方順に並べて",
+    "text": "急に休みになったら？過ごしたい順に並べて",
     "answers": [
       "昼まで寝る",
       "日帰り旅行",
@@ -405,7 +405,7 @@
   },
   "b5dbf5e4-bcc5-4c72-b2e1-9aabe0b37d44": {
     "en": "Rank these sports from most to least want to play.",
-    "text": "やってみたいスポーツ順に並べて",
+    "text": "スポーツ、やってみたい順に並べて",
     "answers": [
       "サッカー",
       "テニス",
@@ -445,7 +445,7 @@
   },
   "d3273be6-4d01-4bbe-b853-46cea4702fb3": {
     "en": "In a friend group, rank these roles from most to least like you.",
-    "text": "友だちグループでの役割、自分に近い順に並べて",
+    "text": "友達グループでの役割、自分に近い順に並べて",
     "answers": [
       "幹事役",
       "ムードメーカー",
@@ -514,7 +514,7 @@
     "answers": [
       "仕事",
       "家族",
-      "友だち"
+      "友達"
     ]
   },
   "cf8bfeb0-a6fc-4551-9260-5cce209385a8": {

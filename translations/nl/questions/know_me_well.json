@@ -49,7 +49,7 @@
   },
   "7d54b670-a981-422f-aced-7e9fa4bae1ec": {
     "en": "Would {{playerName}} rather trust their head or their heart when making decisions?",
-    "text": "Vertrouwt {{playerName}} bij beslissingen meer op het hoofd of op het hart?",
+    "text": "Laat {{playerName}} zich bij beslissingen leiden door het hoofd of door het hart?",
     "answers": [
       "Hoofd",
       "Hart"
@@ -81,9 +81,9 @@
   },
   "2be6067f-ee2d-45a3-83be-4fc9c72df2ef": {
     "en": "Would {{playerName}} rather have $1 million or marry the love of their life?",
-    "text": "Wil {{playerName}} liever 1 miljoen euro of trouwen met de grote liefde?",
+    "text": "Wil {{playerName}} liever 1 miljoen dollar of trouwen met de grote liefde?",
     "answers": [
-      "1 miljoen euro",
+      "1 miljoen dollar",
       "Trouwen met de grote liefde"
     ],
     "note": "Converted $1 million to 1 miljoen euro for a Dutch/Flemish audience."
@@ -258,7 +258,7 @@
   },
   "1f6efff9-3add-4515-85f1-c6d272731369": {
     "en": "Would {{playerName}} rather be famous or live a completely private life?",
-    "text": "Wordt {{playerName}} liever beroemd of leeft {{playerName}} liever volledig privé?",
+    "text": "Is {{playerName}} liever beroemd of leidt {{playerName}} liever een volledig privéleven?",
     "answers": [
       "Beroemd zijn",
       "Volledig privé"
@@ -442,7 +442,7 @@
   },
   "df4aa404-cddd-4a94-b2bb-04fa25a26220": {
     "en": "Would {{playerName}} rather be remembered for their intelligence or their kindness?",
-    "text": "Wil {{playerName}} liever herinnerd worden vanwege intelligentie of vanwege vriendelijkheid?",
+    "text": "Wil {{playerName}} liever herinnerd worden om intelligentie of om vriendelijkheid?",
     "answers": [
       "Intelligentie",
       "Vriendelijkheid"
@@ -542,7 +542,7 @@
   },
   "74c6652c-3f00-4012-8585-e196f91a11f9": {
     "en": "What's the first app {{playerName}} opens in the morning?",
-    "text": "Welke app opent {{playerName}} ’s ochtends als eerste?"
+    "text": "Welke app opent {{playerName}} 's ochtends als eerste?"
   },
   "44cb3c9e-6be8-4872-9542-0b08384ef41e": {
     "en": "What's {{playerName}}'s favorite emoji?",
@@ -642,7 +642,7 @@
     "en": "What does {{playerName}} do when they're lost?",
     "text": "Wat doet {{playerName}} als die verdwaald is?",
     "answers": [
-      "Vraagt het iemand",
+      "Vraagt de weg",
       "Kijkt op de kaart",
       "Loopt gewoon door",
       "Belt iemand"
@@ -660,7 +660,7 @@
   },
   "61d8bdfa-ccc2-48c1-8c58-446ed197d69c": {
     "en": "What's {{playerName}} like in the morning?",
-    "text": "Hoe is {{playerName}} ’s ochtends?",
+    "text": "Hoe is {{playerName}} 's ochtends?",
     "answers": [
       "Chagrijnig",
       "Zwijgt tot na de koffie",
@@ -700,10 +700,10 @@
   },
   "471a6e48-e963-420e-bf7d-7a708e35c2e0": {
     "en": "How does {{playerName}} take photos?",
-    "text": "Hoe maakt {{playerName}} foto’s?",
+    "text": "Hoe maakt {{playerName}} foto's?",
     "answers": [
       "Vijftig keer dezelfde foto",
-      "Maakt er nooit",
+      "Maakt nooit foto's",
       "Alleen selfies",
       "Alleen van het eten"
     ]
@@ -723,7 +723,7 @@
     "text": "Hoe lang staat {{playerName}} onder de douche?",
     "answers": [
       "Minder dan 5 minuten",
-      "Zo’n 10 minuten",
+      "Zo'n 10 minuten",
       "Ruim 20 minuten",
       "Een uur"
     ]
@@ -843,7 +843,7 @@
   },
   "1964cbeb-89e2-449a-8c9f-a62f03c5001e": {
     "en": "What is the first thing {{playerName}} checks on their phone in the morning?",
-    "text": "Waar kijkt {{playerName}} ’s ochtends als eerste naar op de telefoon?"
+    "text": "Waar kijkt {{playerName}} 's ochtends als eerste naar op de telefoon?"
   },
   "72d01256-9cc6-4e00-9ee2-32149b3777c1": {
     "en": "What does {{playerName}} do when no one else is home?",
@@ -1087,7 +1087,7 @@
   },
   "71ef9a47-46d4-4666-8665-3d3a7991768e": {
     "en": "How does {{playerName}} usually celebrate their birthday?",
-    "text": "Hoe viert {{playerName}} meestal de eigen verjaardag?",
+    "text": "Hoe viert {{playerName}} meestal de verjaardag?",
     "answers": [
       "Een groot feest",
       "Een etentje met goede vrienden",

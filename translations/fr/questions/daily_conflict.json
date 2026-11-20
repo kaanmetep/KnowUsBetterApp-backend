@@ -5,7 +5,7 @@
     "answers": [
       "Tout dire tout de suite",
       "Me taire et prendre du recul",
-      "Arrondir les angles, même si je n'ai pas fini",
+      "Calmer le jeu, même si je n'ai pas tout dit",
       "Quitter la pièce pour me calmer"
     ]
   },
@@ -53,7 +53,7 @@
   },
   "6ba99e54-c776-447b-ad7c-830ef561545a": {
     "en": "What do you hold back to keep the peace?",
-    "text": "Qu'est-ce que tu gardes pour toi pour préserver la paix ?",
+    "text": "Qu'est-ce que tu tais pour préserver la paix ?",
     "answers": [
       "Rien, je dis ce qui me dérange",
       "Les petits agacements",

@@ -361,7 +361,7 @@
   },
   "d9392be9-5bf4-4290-83cc-bb71d5a0ea2f": {
     "en": "Would you try to separate your friend from a toxic relationship?",
-    "text": "友達がヤバい相手と付き合ってたら、別れさせようとする？"
+    "text": "友達がよくない相手と付き合ってたら、別れさせようとする？"
   },
   "f6e1d589-f406-413a-84e1-4d10b010efa2": {
     "en": "Would you compliment a bad outfit just to make your friend happy?",
@@ -613,7 +613,7 @@
   },
   "5b670ad6-208b-4e58-b292-e273f3b78943": {
     "en": "What is the strongest thing in friendship...",
-    "text": "友情で一番強いのは…",
+    "text": "友情を一番強くするのは…",
     "answers": [
       "義理堅さ",
       "理解"
@@ -669,11 +669,11 @@
   },
   "5738b45b-1858-43f3-826e-11ef8d263b66": {
     "en": "If a close friend stays over, where do they sleep?",
-    "text": "仲いい友だちが泊まりに来たら、どこで寝てもらう？"
+    "text": "仲いい友達が泊まりに来たら、どこで寝てもらう？"
   },
   "240d4c3b-09f9-424b-8508-8f2413892f20": {
     "en": "When you need to say no to a friend, how do you do it?",
-    "text": "友だちに断らなきゃいけないとき、どうする？",
+    "text": "友達に断らなきゃいけないとき、どうする？",
     "answers": [
       "はっきり言う",
       "言い訳する",
@@ -683,7 +683,7 @@
   },
   "ed007dff-5f12-45f1-913a-814207c21337": {
     "en": "Where's your phone when you're hanging out with friends?",
-    "text": "友だちと遊んでるとき、スマホはどこにある？",
+    "text": "友達と遊んでるとき、スマホはどこにある？",
     "answers": [
       "テーブルの上",
       "画面を伏せて置く",
@@ -693,7 +693,7 @@
   },
   "472843d1-c68f-4443-8e98-1c7ebfff08f1": {
     "en": "When a friend is venting, what do you do?",
-    "text": "友だちが愚痴をこぼしてきたら、どうする？",
+    "text": "友達が愚痴をこぼしてきたら、どうする？",
     "answers": [
       "解決しようとする",
       "ただ聞く",
@@ -703,7 +703,7 @@
   },
   "9626e6ef-559e-4903-a872-8098df7019aa": {
     "en": "A friend cancels last minute. What do you do?",
-    "text": "友だちがドタキャンしてきた。どうする？",
+    "text": "友達がドタキャンしてきた。どうする？",
     "answers": [
       "「大丈夫だよ」と言う",
       "正直がっかりしたと言う",
@@ -713,7 +713,7 @@
   },
   "d7063b2a-a2b9-4e31-b9d5-ea73d3fc1b48": {
     "en": "How do you like hanging out with friends?",
-    "text": "友だちとはどう遊ぶのが好き？",
+    "text": "友達とはどう遊ぶのが好き？",
     "answers": [
       "サシで",
       "少人数で",
@@ -723,7 +723,7 @@
   },
   "b3285428-6a7b-494a-a8ce-607db3eff19a": {
     "en": "A friend is 20 minutes late and you're already there. What do you do?",
-    "text": "もう着いてるのに、友だちが20分遅れてる。どうする？",
+    "text": "もう着いてるのに、友達が20分遅れてる。どうする？",
     "answers": [
       "待つ",
       "連絡する",
@@ -733,7 +733,7 @@
   },
   "6e92199a-a131-4c52-8fcb-db5cdd54cb8b": {
     "en": "A friend calls at 1am. What do you do?",
-    "text": "夜中の1時に友だちから電話。どうする？",
+    "text": "夜中の1時に友達から電話。どうする？",
     "answers": [
       "出る",
       "「明日ね」とLINEする",
@@ -744,7 +744,7 @@
   },
   "ca4a3d3a-b6cd-42c6-acea-f2ddaffcee41": {
     "en": "When a friend starts roasting you, what do you do?",
-    "text": "友だちにいじられ始めたら、どうする？",
+    "text": "友達にいじられ始めたら、どうする？",
     "answers": [
       "いじり返す",
       "笑って流す",
@@ -754,7 +754,7 @@
   },
   "0b00eec2-7db8-49f6-9a33-2e91bfdafed9": {
     "en": "A friend borrowed something and hasn't given it back. What do you do?",
-    "text": "友だちに貸したものが返ってこない。どうする？",
+    "text": "友達に貸したものが返ってこない。どうする？",
     "answers": [
       "返してと催促する",
       "あきらめる",
@@ -774,7 +774,7 @@
   },
   "fc886a8f-d247-4df7-9911-70df16293d14": {
     "en": "A friend posts a bad photo of you without asking. What do you do?",
-    "text": "友だちが勝手に自分の変な写真を投稿した。どうする？",
+    "text": "友達が勝手に自分の変な写真を投稿した。どうする？",
     "answers": [
       "消してと頼む",
       "笑って流す",
@@ -784,7 +784,7 @@
   },
   "cf30ac84-0e23-499b-84f0-194255049b2e": {
     "en": "Two friends in your group are fighting. What do you do?",
-    "text": "グループの友だち2人がケンカしてる。どうする？",
+    "text": "グループの友達2人がケンカしてる。どうする？",
     "answers": [
       "関わらない",
       "仲裁する",
@@ -794,7 +794,7 @@
   },
   "a6aca301-d610-4229-8289-b89bedc32e1e": {
     "en": "How do you usually make plans with friends?",
-    "text": "友だちとの予定、いつもどう決まる？",
+    "text": "友達との予定、いつもどう決まる？",
     "answers": [
       "自分から声をかける",
       "誰かが言い出すのを待つ",
@@ -804,7 +804,7 @@
   },
   "79b31e12-db1a-4595-a37d-d8bf3a5d4ab1": {
     "en": "A friend is clearly wrong in an argument. What do you do?",
-    "text": "言い合いで友だちが明らかに間違ってる。どうする？",
+    "text": "言い合いで友達が明らかに間違ってる。どうする？",
     "answers": [
       "すぐ訂正する",
       "スルーする",
@@ -814,17 +814,17 @@
   },
   "43b8538b-f20e-4106-86db-2fb4ae991e8d": {
     "en": "A close friend goes quiet for a few weeks. What do you do?",
-    "text": "仲いい友だちから何週間も連絡がない。どうする？",
+    "text": "仲いい友達から何週間も連絡がない。どうする？",
     "answers": [
       "一回だけ連絡する",
       "連絡し続ける",
       "そっとしておく",
-      "共通の友だちに様子を聞く"
+      "共通の友達に様子を聞く"
     ]
   },
   "cf10e8ca-f5f7-4fd3-ade3-8d3dd80864a1": {
     "en": "Your friend asks for honest feedback on a bad haircut. What do you do?",
-    "text": "髪型を失敗した友だちに、正直な感想を聞かれた。どうする？",
+    "text": "髪型を失敗した友達に、正直な感想を聞かれた。どうする？",
     "answers": [
       "正直に言う",
       "いいところを1つ探す",
@@ -833,7 +833,7 @@
   },
   "5f50e363-7d88-40da-9fc3-20a70c1c98bc": {
     "en": "A close friend asks to stay at your place for a week. What do you say?",
-    "text": "仲いい友だちに「1週間泊めて」と言われた。なんて返す？",
+    "text": "仲いい友達に「1週間泊めて」と言われた。なんて返す？",
     "answers": [
       "必要なだけいていいよ",
       "数日なら。そのあと相談しよ",
@@ -842,7 +842,7 @@
   },
   "96a10636-c640-4c8e-b29c-8d5ea35a2325": {
     "en": "A friend you barely talk to anymore asks for a big favor. What do you do?",
-    "text": "最近ほぼ話してない友だちから、大きな頼みごと。どうする？",
+    "text": "最近ほぼ話してない友達から、大きな頼みごと。どうする？",
     "answers": [
       "昔みたいに助ける",
       "助けるけど、できる範囲で",
@@ -851,7 +851,7 @@
   },
   "8fbe5c15-1c5f-4d62-bb1c-8c87bd5e68e9": {
     "en": "Two friend groups invite you out on the same night. What do you do?",
-    "text": "同じ夜に、2つの友だちグループから誘われた。どうする？",
+    "text": "同じ夜に、2つの友達グループから誘われた。どうする？",
     "answers": [
       "先に誘ってくれたほうに行く",
       "会えないと寂しいほうに行く",
@@ -860,16 +860,16 @@
   },
   "da359ad8-f794-47c9-a71f-de550fd3df0c": {
     "en": "A close friend asks to borrow a good amount of money. What do you do?",
-    "text": "仲いい友だちに、けっこうな額のお金を貸してと言われた。どうする？",
+    "text": "仲いい友達に、けっこうな額のお金を貸してと言われた。どうする？",
     "answers": [
       "貸せるなら貸す",
       "返済計画がはっきりしてれば",
-      "友だちにお金は貸さない"
+      "友達にお金は貸さない"
     ]
   },
   "d6c8e97e-b3ba-44d7-b105-c1b6b2a57587": {
     "en": "Your friend is dating someone you really can't stand. What do you do?",
-    "text": "友だちの恋人が、どうしても好きになれない人。どうする？",
+    "text": "友達の恋人が、どうしても好きになれない人。どうする？",
     "answers": [
       "早めに伝える",
       "聞かれるまで待つ",
@@ -878,7 +878,7 @@
   },
   "0d743c77-1a58-418b-8117-3263ce8f4009": {
     "en": "A friend invites you somewhere expensive you can't really afford. What do you do?",
-    "text": "友だちに、正直予算オーバーな高いお店に誘われた。どうする？",
+    "text": "友達に、正直予算オーバーな高いお店に誘われた。どうする？",
     "answers": [
       "お金が厳しいと言う",
       "安いところを提案する",
@@ -887,7 +887,7 @@
   },
   "02bb14d7-0d08-400e-9917-9aec53c8b7c8": {
     "en": "You overhear a friend lightly trash-talking you. What do you do?",
-    "text": "友だちが自分のことを軽く悪く言ってるのを聞いちゃった。どうする？",
+    "text": "友達が自分のことを軽く悪く言ってるのを聞いちゃった。どうする？",
     "answers": [
       "本人に直接言う",
       "少し距離を置く",
@@ -896,7 +896,7 @@
   },
   "660a531c-8d5e-44d7-b117-483aafb66d83": {
     "en": "At a party, your friend is about to drunk-text their ex. What do you do?",
-    "text": "飲み会で、酔った友だちが元恋人に連絡しようとしてる。どうする？",
+    "text": "飲み会で、酔った友達が元恋人に連絡しようとしてる。どうする？",
     "answers": [
       "スマホを取り上げる",
       "好きにさせる"
@@ -905,7 +905,7 @@
   },
   "6ae65593-620a-47a3-bd16-3cfdba20307b": {
     "en": "At dinner, the bill comes and your friend \"forgot\" their wallet again. What do you do?",
-    "text": "ごはんの会計で、友だちがまた「財布忘れた」。どうする？",
+    "text": "ごはんの会計で、友達がまた「財布忘れた」。どうする？",
     "answers": [
       "払ってあげて、何も言わない",
       "払うけど、あとで言う"
@@ -913,7 +913,7 @@
   },
   "b2f40f63-d542-449f-b8d9-7251868fe21c": {
     "en": "In an Uber, your friend starts arguing with the driver. What do you do?",
-    "text": "タクシーで、友だちが運転手と言い合いを始めた。どうする？",
+    "text": "タクシーで、友達が運転手と言い合いを始めた。どうする？",
     "answers": [
       "間に入ってなだめる",
       "黙って終わるのを待つ"
@@ -923,7 +923,7 @@
   },
   "2fca8524-3f16-4523-b057-17699983cc36": {
     "en": "Your friend starts telling an embarrassing story about you to people you just met. What do you do?",
-    "text": "初対面の人たちの前で、友だちが自分の恥ずかしい話をし始めた。どうする？",
+    "text": "初対面の人たちの前で、友達が自分の恥ずかしい話をし始めた。どうする？",
     "answers": [
       "話をさえぎる",
       "最後まで話させる"
@@ -931,7 +931,7 @@
   },
   "1dc43db7-154f-4a47-9397-f3ec7f508978": {
     "en": "A friend tells you a secret and says \"don't even tell your partner.\" What do you do?",
-    "text": "友だちに秘密を打ち明けられて「恋人にも言わないで」と言われた。どうする？",
+    "text": "友達に秘密を打ち明けられて「恋人にも言わないで」と言われた。どうする？",
     "answers": [
       "絶対に守る",
       "それでも恋人には言う",
@@ -940,7 +940,7 @@
   },
   "f1a66bde-c82e-4903-9965-90c3fa82d1b0": {
     "en": "You and a close friend applied for the same job, and they got it. What do you do?",
-    "text": "仲いい友だちと同じ仕事に応募して、相手が受かった。どうする？",
+    "text": "仲いい友達と同じ仕事に応募して、相手が受かった。どうする？",
     "answers": [
       "心からお祝いする",
       "おめでとうと言うけど、内心くやしい",
@@ -949,7 +949,7 @@
   },
   "e4d8aa34-b71c-4d2c-babe-8ef1e1d37350": {
     "en": "A friend shows up at your door without texting first. What do you do?",
-    "text": "友だちが連絡なしで家に来た。どうする？",
+    "text": "友達が連絡なしで家に来た。どうする？",
     "answers": [
       "喜んで入れる",
       "入れるけど、ちょっとモヤッとする",
@@ -959,7 +959,7 @@
   },
   "5587411e-e5d6-4c3b-b709-925a48828ccd": {
     "en": "A friend asks you to cover for them with their partner. What do you do?",
-    "text": "友だちに、恋人へのアリバイ作りを頼まれた。どうする？",
+    "text": "友達に、恋人へのアリバイ作りを頼まれた。どうする？",
     "answers": [
       "何も聞かずに協力する",
       "事情がわかれば協力する",
@@ -969,7 +969,7 @@
   },
   "2ceb502c-1cb0-4d19-b751-39c067c789a3": {
     "en": "A close friend forgot your birthday. What do you do?",
-    "text": "仲いい友だちに誕生日を忘れられた。どうする？",
+    "text": "仲いい友達に誕生日を忘れられた。どうする？",
     "answers": [
       "全然気にしない",
       "傷つくけど何も言わない",
@@ -979,7 +979,7 @@
   },
   "90a8ef25-80da-4dce-a879-4c4de8f1272a": {
     "en": "How do you usually show a friend you care?",
-    "text": "友だちを大切に思ってること、いつもどう伝える？",
+    "text": "友達を大切に思ってること、いつもどう伝える？",
     "answers": [
       "一緒に過ごす",
       "ちょっとしたプレゼントやサプライズ",
@@ -999,7 +999,7 @@
   },
   "81c3e73b-6f4a-401f-be7c-7322f3c88d97": {
     "en": "How often should close friends talk?",
-    "text": "仲いい友だちとは、どれくらい連絡を取るべき？",
+    "text": "仲いい友達とは、どれくらい連絡を取るべき？",
     "answers": [
       "毎日",
       "週に数回",
@@ -1013,11 +1013,11 @@
   },
   "ad99c683-1579-4b76-ac84-bbe48ccc1529": {
     "en": "What's the most you'd spend on a close friend's birthday gift?",
-    "text": "仲いい友だちの誕生日プレゼント、最大いくらまで出せる？"
+    "text": "仲いい友達の誕生日プレゼント、最大いくらまで出せる？"
   },
   "fe5a5b25-7f16-4855-b749-d4e8e9cc1d5f": {
     "en": "Making new close friends as an adult is...",
-    "text": "大人になってから親しい友だちを作るのは…",
+    "text": "大人になってから親しい友達を作るのは…",
     "answers": [
       "自分から動けば簡単",
       "難しいけど、できる",
@@ -1043,7 +1043,7 @@
   },
   "68663bf0-f74e-4eb2-9375-794c0160fd51": {
     "en": "Hanging out with a friend in total silence, each doing your own thing...",
-    "text": "友だちと一緒にいて、会話なしでそれぞれ好きなことをする時間は…",
+    "text": "友達と一緒にいて、会話なしでそれぞれ好きなことをする時間は…",
     "answers": [
       "本当に仲いい証拠",
       "たまにならいい",
@@ -1062,25 +1062,25 @@
   },
   "c1fa53a1-cf09-4356-a17d-4b3af5c3a9f7": {
     "en": "What's one habit in a friend that drives you crazy?",
-    "text": "友だちのクセで、一番イラッとするのは？"
+    "text": "友達のクセで、一番イラッとするのは？"
   },
   "570b53e3-9da8-412a-88f9-c3df5793d601": {
     "en": "Would you start a business with a close friend?",
-    "text": "仲いい友だちと一緒に起業できる？"
+    "text": "仲いい友達と一緒に起業できる？"
   },
   "c72dd7bf-86a8-4621-b2f2-ed918e7319c3": {
     "en": "Your friend starts bringing their new partner to every hangout. What do you do?",
-    "text": "友だちが毎回、新しい恋人を連れてくるようになった。どうする？",
+    "text": "友達が毎回、新しい恋人を連れてくるようになった。どうする？",
     "answers": [
       "大歓迎、にぎやかなほうがいい",
       "いいけど、ふたりの時間が恋しい",
-      "友だちだけの時間もほしいと言う",
+      "友達だけの時間もほしいと言う",
       "会う回数を減らす"
     ]
   },
   "637c640b-fdb6-4280-9bb5-d10092e0490f": {
     "en": "Sharing streaming passwords with friends...",
-    "text": "動画サブスクのアカウントを友だちと共有するのは…",
+    "text": "動画サブスクのアカウントを友達と共有するのは…",
     "answers": [
       "全然アリ",
       "本当に仲いい人とだけ",
@@ -1089,7 +1089,7 @@
   },
   "11e1d92e-1142-4d19-b8eb-9e85b241a9c9": {
     "en": "Competition between close friends...",
-    "text": "仲いい友だち同士のライバル意識は…",
+    "text": "仲いい友達同士のライバル意識は…",
     "answers": [
       "やる気につながる",
       "少しずつ関係を壊す"
@@ -1097,7 +1097,7 @@
   },
   "04beefdc-5d0a-47a0-8476-209397119731": {
     "en": "A friend asks you to set them up with someone. What do you do?",
-    "text": "友だちに「誰か紹介して」と頼まれた。どうする？",
+    "text": "友達に「誰か紹介して」と頼まれた。どうする？",
     "answers": [
       "キューピッド役は大好き",
       "本当に合う人がいれば",
@@ -1106,7 +1106,7 @@
   },
   "d97011a0-577f-437e-b2f7-34d6e3f16ec7": {
     "en": "Your friend is sick at home alone. What do you do?",
-    "text": "友だちが家でひとりで寝込んでる。どうする？",
+    "text": "友達が家でひとりで寝込んでる。どうする？",
     "answers": [
       "おかゆと薬を持って行く",
       "デリバリーでごはんを送る",
@@ -1118,11 +1118,11 @@
   },
   "49f2c5bd-906c-4677-938d-2634f11f2c0e": {
     "en": "How many friends would you invite to your birthday?",
-    "text": "自分の誕生日に、友だちを何人呼ぶ？"
+    "text": "自分の誕生日に、友達を何人呼ぶ？"
   },
   "80b1847b-4029-4376-b594-cf2439e45e3c": {
     "en": "A friend starts copying your style and hobbies. How do you feel?",
-    "text": "友だちが自分のファッションや趣味をマネし始めた。どう思う？",
+    "text": "友達が自分のファッションや趣味をマネし始めた。どう思う？",
     "answers": [
       "ちょっとうれしい",
       "特に気にしない",
@@ -1132,7 +1132,7 @@
   },
   "9d61613c-1992-45d8-bef1-37f07f995e66": {
     "en": "A friend got you a much more expensive gift than you got them. What do you do?",
-    "text": "自分があげたものよりずっと高いプレゼントを友だちからもらった。どうする？",
+    "text": "自分があげたものよりずっと高いプレゼントを友達からもらった。どうする？",
     "answers": [
       "何もしない、競争じゃないし",
       "申し訳なくなる",
@@ -1141,7 +1141,7 @@
   },
   "826c30c4-7dae-497a-be3b-a89531829cef": {
     "en": "Would you lend your favorite piece of clothing to a friend?",
-    "text": "一番お気に入りの服、友だちに貸せる？"
+    "text": "一番お気に入りの服、友達に貸せる？"
   },
   "c17f6d8c-88be-4516-b333-5e7b45e4997f": {
     "en": "Your best friend asks you to help plan their wedding. What do you do?",
@@ -1154,11 +1154,11 @@
   },
   "bea820e2-cce1-49fc-aa07-4ab99ead86c4": {
     "en": "How many hours would you travel for a close friend's birthday?",
-    "text": "仲いい友だちの誕生日のためなら、何時間かけて行ける？"
+    "text": "仲いい友達の誕生日のためなら、何時間かけて行ける？"
   },
   "45cf28ad-01d6-458f-b371-d10cb5d628b3": {
     "en": "A friend needs a ride to the airport at 5am. What do you do?",
-    "text": "友だちに朝5時に空港まで送ってと頼まれた。どうする？",
+    "text": "友達に朝5時に空港まで送ってと頼まれた。どうする？",
     "answers": [
       "喜んで送る",
       "送るけど、ずっと文句を言う",
@@ -1168,19 +1168,19 @@
   },
   "cee7b4d0-8a85-42ae-9d36-e805461c3601": {
     "en": "Do you share your live location with your close friends?",
-    "text": "仲いい友だちと位置情報を共有してる？"
+    "text": "仲いい友達と位置情報を共有してる？"
   },
   "1261e2f8-c857-4478-8e71-e0a25b6dac19": {
     "en": "A friend who always tells you the harsh truth...",
-    "text": "いつも耳の痛い本音を言ってくれる友だちは…",
+    "text": "いつも耳の痛い本音を言ってくれる友達は…",
     "answers": [
-      "最高の友だち",
+      "最高の友達",
       "だんだん疲れる"
     ]
   },
   "6cb7ef7c-1478-4456-b1cf-d26358f74de0": {
     "en": "Friendships with a big age gap (10+ years)...",
-    "text": "10歳以上年の離れた友だち関係は…",
+    "text": "10歳以上年の離れた友達関係は…",
     "answers": [
       "全然アリ",
       "アリだけど、ちょっと違う感じ",
@@ -1189,7 +1189,7 @@
   },
   "9fea2ef2-07b0-4d41-b852-f5bf24dd2b6f": {
     "en": "On a group trip, one friend wants to spend way more than everyone else. What do you do?",
-    "text": "グループ旅行で、ひとりだけお金を使いたがる友だちがいる。どうする？",
+    "text": "グループ旅行で、ひとりだけお金を使いたがる友達がいる。どうする？",
     "answers": [
       "合わせる",
       "高いプランのときは別行動",
@@ -1199,21 +1199,21 @@
   },
   "e442ad82-0026-4be1-a02d-5cf52c6db6b3": {
     "en": "When a friend upsets you, do you tell them instead of quietly pulling away?",
-    "text": "友だちに嫌なことをされたら、黙って離れずに本人に伝える？"
+    "text": "友達に嫌なことをされたら、黙って離れずに本人に伝える？"
   },
   "a568c592-7960-40ea-b5e7-f8fcff9f1109": {
     "en": "A friend asks you to watch their pet for a week. What do you do?",
-    "text": "友だちに1週間ペットを預かってと頼まれた。どうする？",
+    "text": "友達に1週間ペットを預かってと頼まれた。どうする？",
     "answers": [
       "喜んで、動物大好き",
       "どんな動物かによる",
-      "いいけど、友だちの家でなら",
+      "いいけど、友達の家でなら",
       "断る"
     ]
   },
   "f7975688-29c1-4bff-9678-56257d052a89": {
     "en": "A close friend suddenly becomes famous. What changes for you?",
-    "text": "仲いい友だちが急に有名になった。何が変わる？",
+    "text": "仲いい友達が急に有名になった。何が変わる？",
     "answers": [
       "何も。今までどおり",
       "みんなに自慢する",
@@ -1223,7 +1223,7 @@
   },
   "53f44073-13ad-4340-b3dc-428d01768d73": {
     "en": "A friend starts selling stuff and keeps pitching it to you. What do you do?",
-    "text": "友だちが何かを売り始めて、しつこく勧めてくる。どうする？",
+    "text": "友達が何かを売り始めて、しつこく勧めてくる。どうする？",
     "answers": [
       "応援で一回だけ買う",
       "毎回やんわり断る",
@@ -1233,7 +1233,7 @@
   },
   "392563c7-8455-4b18-a840-2569bad40fb3": {
     "en": "After a fight with a close friend, who reaches out first?",
-    "text": "仲いい友だちとケンカしたあと、先に連絡するのは？",
+    "text": "仲いい友達とケンカしたあと、先に連絡するのは？",
     "answers": [
       "いつも自分",
       "悪かったほう",
@@ -1243,7 +1243,7 @@
   },
   "580d620b-1ff6-4662-b9e7-783a83b482ab": {
     "en": "Posting your friends on your social media...",
-    "text": "SNSに友だちとの写真を載せるのは…",
+    "text": "SNSに友達との写真を載せるのは…",
     "answers": [
       "大切に思ってる証拠",
       "別に必要ない"
@@ -1251,10 +1251,10 @@
   },
   "c01dd781-f740-41b0-a72c-d6706d48e8ff": {
     "en": "Could you be friends with your partner's ex?",
-    "text": "恋人の元恋人と友だちになれる？"
+    "text": "恋人の元恋人と友達になれる？"
   },
   "0dca06e6-2ca7-47d9-baad-475f804027d3": {
     "en": "What's the ideal number of people for a friends' trip?",
-    "text": "友だち旅行、理想の人数は何人？"
+    "text": "友達旅行、理想の人数は何人？"
   }
 }

@@ -20,8 +20,8 @@
     ]
   },
   "ebce1854-6bc1-47e3-b71a-d595f7f0e3d9": {
-    "en": "Which country's national flag is the only one in the world that features a modern firearm?",
-    "text": "Quel pays a le seul drapeau au monde orné d'une arme à feu moderne ?",
+    "en": "Which country's flag features an AK-47 rifle?",
+    "text": "Quel pays a un fusil AK-47 sur son drapeau ?",
     "answers": [
       "Mozambique",
       "Angola",
@@ -57,8 +57,8 @@
     ]
   },
   "79169b6e-6d47-46b6-b2e3-1c3403b8ad2b": {
-    "en": "Which animal species is the only known creature capable of biological immortality under ideal conditions?",
-    "text": "Quelle espèce animale est la seule connue capable d'immortalité biologique dans des conditions idéales ?",
+    "en": "Which animal can turn back into its juvenile form, making it biologically immortal in theory?",
+    "text": "Quel animal peut redevenir juvénile, ce qui le rend en théorie biologiquement immortel ?",
     "answers": [
       "La méduse Turritopsis dohrnii",
       "Le tardigrade",
@@ -97,8 +97,8 @@
     ]
   },
   "33649e7c-3151-42fa-b231-2b75a0bb5bdd": {
-    "en": "Which of these classic board games was originally designed as a critique of capitalism and unchecked monopolies?",
-    "text": "Lequel de ces jeux de société classiques a été conçu à l'origine pour critiquer le capitalisme et les monopoles ?",
+    "en": "Which classic board game grew out of a game designed to criticize monopolies?",
+    "text": "Quel jeu de société classique est né d'un jeu conçu pour critiquer les monopoles ?",
     "answers": [
       "Monopoly",
       "Catan",
@@ -155,7 +155,7 @@
     ]
   },
   "00b54485-8cba-4983-a77e-4008337756f8": {
-    "en": "Which animal was the first living organism to have its complete genome fully sequenced by scientists in 1998?",
+    "en": "Which animal was the first multicellular organism to have its complete genome sequenced, in 1998?",
     "text": "Quel animal a été le premier à voir son génome entièrement séquencé, en 1998 ?",
     "answers": [
       "Caenorhabditis elegans (ver nématode)",
@@ -193,8 +193,8 @@
     ]
   },
   "4efb81b0-12ea-4ad6-8815-8460fff0dfec": {
-    "en": "Which famous scientist lost his sight in his later years, partly due to observing the Sun through a telescope?",
-    "text": "Quel scientifique célèbre a perdu la vue sur ses vieux jours, en partie pour avoir observé le Soleil au télescope ?",
+    "en": "Which famous astronomer went completely blind in his final years?",
+    "text": "Quel astronome célèbre est devenu complètement aveugle à la fin de sa vie ?",
     "answers": [
       "Galilée",
       "Isaac Newton",
@@ -203,8 +203,8 @@
     ]
   },
   "5b649245-27c2-441a-ac9c-d6cb4f55763a": {
-    "en": "Which island is the only natural habitat where wild lemurs can be found in the world?",
-    "text": "Sur quelle île vivent les seuls lémuriens sauvages du monde ?",
+    "en": "Lemurs are native to only one island in the world. Which one?",
+    "text": "Les lémuriens ne sont originaires que d'une seule île au monde. Laquelle ?",
     "answers": [
       "Madagascar",
       "Tasmanie",
@@ -642,6 +642,7 @@
       "E.A.U.",
       "Les Émirats",
       "Emirats",
+      "Émirats",
       "UAE"
     ]
   },
@@ -949,7 +950,7 @@
   },
   "6500a604-8ff9-4f22-9e8f-7ecbba27e495": {
     "en": "How many strings does a standard violin have?",
-    "text": "Combien de cordes a un violon classique ?",
+    "text": "Combien de cordes a un violon ?",
     "answers": [
       "4",
       "5",
@@ -1056,14 +1057,12 @@
     ]
   },
   "fdca625b-e0fb-4cff-a6a1-9fbf87b764a1": {
-    "en": "Which country is larger by land area?",
+    "en": "Which country has the larger total area?",
     "text": "Quel pays a la plus grande superficie totale ?",
     "answers": [
       "Canada",
       "États-Unis"
-    ],
-    "flagged": true,
-    "note": "EN source says 'by land area', but by land area alone the US is slightly larger; Canada is larger by total area. FR asks total area so key 'Canada' is true; consider fixing EN/other languages."
+    ]
   },
   "da747a22-25c3-40fb-a01a-d6a8b8c9078d": {
     "en": "Who has more bones, a baby or an adult?",
@@ -1338,8 +1337,8 @@
     ]
   },
   "8384d067-1ad2-496f-a48c-807812a3c2b9": {
-    "en": "What is the longest river in the world?",
-    "text": "Quel est le plus long fleuve du monde ?",
+    "en": "Which river is traditionally considered the longest in the world?",
+    "text": "Quel fleuve est traditionnellement considéré comme le plus long du monde ?",
     "accepted": [
       "Le Nil",
       "Nil",

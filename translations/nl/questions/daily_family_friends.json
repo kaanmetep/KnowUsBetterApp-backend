@@ -1,7 +1,7 @@
 {
   "45b55eb0-9f7d-4819-8905-6bbf7412e967": {
     "en": "How often should you see your families?",
-    "text": "Hoe vaak zouden jullie de familie moeten zien?",
+    "text": "Hoe vaak zouden jullie je families moeten zien?",
     "answers": [
       "Elke week",
       "Een paar keer per maand",
@@ -31,11 +31,11 @@
   },
   "8bb0a2e7-1a3d-437d-a3ea-c821dbb2fd90": {
     "en": "Your ideal weekend social life?",
-    "text": "Je ideale weekend, sociaal gezien?",
+    "text": "Met wie breng je het weekend het liefst door?",
     "answers": [
       "Met een grote vriendengroep",
       "Met één ander stel",
-      "Alleen wij tweeën",
+      "Alleen met z'n tweeën",
       "Allebei met onze eigen vrienden"
     ]
   },
@@ -44,7 +44,7 @@
     "text": "Wat vind je van de vrienden van je partner?",
     "answers": [
       "Ik vind ze echt leuk",
-      "Prima, maar niet echt mijn mensen",
+      "Prima, maar niet echt mijn type",
       "Sommigen irriteren me",
       "Ik ken ze nauwelijks"
     ]
@@ -53,7 +53,7 @@
     "en": "How much should friends know about your relationship?",
     "text": "Hoeveel mogen vrienden weten over jullie relatie?",
     "answers": [
-      "Alles, het zijn mijn mensen",
+      "Alles, die horen erbij",
       "De leuke dingen",
       "Alleen groot nieuws",
       "Bijna niets"

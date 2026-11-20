@@ -220,7 +220,7 @@
   },
   "70eabbeb-a65f-4616-afbc-84cf134c985a": {
     "en": "Would you date your friend's ex if they had feelings for you?",
-    "text": "Als de ex van een vriend gevoelens voor je had, zou je er dan iets mee beginnen?"
+    "text": "Als de ex van een vriend gevoelens voor je had, zou je dan iets met diegene beginnen?"
   },
   "f06c0817-7f8d-48c4-9214-b515e112a31d": {
     "en": "Would you date someone with a very different music taste?",
@@ -664,7 +664,7 @@
   },
   "d420a12c-2ed3-4461-ba85-2938b2eacbed": {
     "en": "When the bill comes, how should friends split it?",
-    "text": "Hoe moeten vrienden de rekening verdelen als die komt?"
+    "text": "Hoe moeten vrienden de rekening verdelen?"
   },
   "5738b45b-1858-43f3-826e-11ef8d263b66": {
     "en": "If a close friend stays over, where do they sleep?",
@@ -696,7 +696,7 @@
     "answers": [
       "Het proberen op te lossen",
       "Gewoon luisteren",
-      "Aan het lachen maken",
+      "Diegene aan het lachen maken",
       "Mijn eigen verhaal vertellen"
     ]
   },
@@ -705,7 +705,7 @@
     "text": "Een vriend zegt op het laatste moment af. Wat doe je?",
     "answers": [
       "Zeggen dat het oké is",
-      "Zeggen dat het balen was",
+      "Zeggen dat ik het jammer vind",
       "Meteen een nieuwe datum prikken",
       "Even niet meer uitnodigen"
     ]
@@ -762,7 +762,7 @@
   },
   "3866d609-64de-4f95-9a99-d3b5aca59d4d": {
     "en": "How do you usually leave a hangout?",
-    "text": "Hoe vertrek je meestal als je met vrienden bent?",
+    "text": "Hoe ga je meestal weg als je met vrienden bent?",
     "answers": [
       "Gedag zeggen en gaan",
       "Stilletjes wegglippen",
@@ -880,7 +880,7 @@
     "answers": [
       "Zeggen dat het te duur is",
       "Iets goedkopers voorstellen",
-      "Toch gaan en je budget oprekken"
+      "Toch gaan en mijn budget oprekken"
     ]
   },
   "02bb14d7-0d08-400e-9917-9aec53c8b7c8": {
@@ -935,7 +935,7 @@
   },
   "f1a66bde-c82e-4903-9965-90c3fa82d1b0": {
     "en": "You and a close friend applied for the same job, and they got it. What do you do?",
-    "text": "Jij en een goede vriend solliciteerden op dezelfde baan, en die kreeg de baan. Wat doe je?",
+    "text": "Jij en een goede vriend solliciteerden op dezelfde baan en de ander werd aangenomen. Wat doe je?",
     "answers": [
       "Oprecht samen vieren",
       "Feliciteren, maar het steekt vanbinnen",

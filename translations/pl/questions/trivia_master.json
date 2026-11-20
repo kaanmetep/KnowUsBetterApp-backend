@@ -5,7 +5,7 @@
     "answers": [
       "Mózg",
       "Serce",
-      "Wątroba",
+      "Płuca",
       "Nerki"
     ]
   },
@@ -19,15 +19,13 @@
     ]
   },
   "c1cb1e49-a9cc-43e1-b6da-34f4da305a37": {
-    "en": "Which architectural feature was specifically invented by ancient Romans to support massive dome structures?",
+    "en": "Which architectural feature did the ancient Romans rely on to support massive domes?",
     "text": "Który element architektury starożytni Rzymianie rozwinęli, by podtrzymywać ogromne kopuły?",
     "answers": [
       "Łuk",
       "Kolumna",
       "Piramida"
-    ],
-    "flagged": true,
-    "note": "Source says Romans 'invented' the arch; historically it predates Rome (Mesopotamia), so softened to 'rozwinęli' (developed). Answer key unchanged."
+    ]
   },
   "e9339914-1d7d-423a-9a28-2519995eb9e6": {
     "en": "Which planet in our solar system spins in the opposite direction to most other planets?",
@@ -82,8 +80,8 @@
     "answers": [
       "Słoń",
       "Żyrafa",
-      "Hipopotam",
-      "Nosorożec"
+      "Koń",
+      "Jeleń"
     ]
   },
   "a98b74cf-707a-4d84-a017-ea98f2d69e68": {
@@ -105,8 +103,8 @@
     ]
   },
   "4563d6d4-5301-4f89-811a-045b66157aa2": {
-    "en": "Which soft drink was originally invented as a cough syrup and headache remedy?",
-    "text": "Który napój gazowany wymyślono pierwotnie jako lek na kaszel i ból głowy?",
+    "en": "Which soft drink was first sold as a medicine for headaches and fatigue?",
+    "text": "Który napój gazowany sprzedawano na początku jako lek na ból głowy i zmęczenie?",
     "answers": [
       "Coca-Cola",
       "Sprite",
@@ -124,13 +122,13 @@
     ]
   },
   "a79f90ff-8ce5-493b-8b50-2ef10c1f9c26": {
-    "en": "How many continents are there on planet Earth?",
-    "text": "Ile kontynentów jest na Ziemi?",
+    "en": "Which is the largest continent?",
+    "text": "Który kontynent jest największy?",
     "answers": [
-      "7",
-      "5",
-      "6",
-      "8"
+      "Azja",
+      "Afryka",
+      "Ameryka Północna",
+      "Antarktyda"
     ]
   },
   "b6c425a9-162f-4107-919c-20eea21afc7a": {
@@ -439,8 +437,8 @@
     ]
   },
   "78899d32-d997-4e60-b9a5-c635406a0d3a": {
-    "en": "Sushi originally comes from which country?",
-    "text": "Z jakiego kraju pochodzi sushi?",
+    "en": "Sushi is a traditional dish of which country?",
+    "text": "Sushi to tradycyjne danie którego kraju?",
     "accepted": [
       "Japonia",
       "Japonii",
@@ -1432,8 +1430,8 @@
     ]
   },
   "9f50ad95-1ce8-42ab-8e0b-3bd347d33019": {
-    "en": "In 2024, whose \"Eras Tour\" became the highest-grossing concert tour of all time?",
-    "text": "Czyja trasa „Eras Tour” stała się w 2024 roku najbardziej dochodową trasą koncertową w historii?",
+    "en": "Whose \"Eras Tour\" became the highest-grossing concert tour of all time?",
+    "text": "Czyja trasa „Eras Tour” stała się najbardziej dochodową trasą koncertową w historii?",
     "answers": [
       "Taylor Swift",
       "Beyoncé",

@@ -36,7 +36,7 @@
       "Une grande bande d'amis",
       "Un autre couple",
       "Juste nous deux",
-      "Avec nos amis respectifs"
+      "Chacun avec ses propres amis"
     ]
   },
   "b9c6e8e3-d7e3-45e4-810d-8e26270732b0": {
@@ -51,7 +51,7 @@
   },
   "2a964d04-7284-475d-bb2a-e104a8e02a1e": {
     "en": "How much should friends know about your relationship?",
-    "text": "Que devraient savoir les amis de votre relation ?",
+    "text": "Qu'est-ce que vos amis devraient savoir de votre relation ?",
     "answers": [
       "Tout, ce sont mes proches",
       "Les bons côtés",

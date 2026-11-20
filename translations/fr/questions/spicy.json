@@ -41,7 +41,7 @@
   },
   "d10f5951-581e-459f-a7e9-9d46d34faefa": {
     "en": "Receiving a good morning message every day: bare minimum or premium treatment?",
-    "text": "Recevoir un message de bonjour chaque matin : le strict minimum ou le grand luxe ?",
+    "text": "Recevoir un petit « bonjour » par message chaque matin : le strict minimum ou le grand luxe ?",
     "answers": [
       "Le strict minimum",
       "Le grand luxe"
@@ -647,7 +647,7 @@
   },
   "a73a68bb-6a40-4970-b4b2-3cb7ef9e09ab": {
     "en": "Who should make the first move in a relationship...",
-    "text": "Qui fait le premier pas dans une relation…",
+    "text": "Savoir qui fait le premier pas dans une relation…",
     "answers": [
       "C'est important",
       "Ça doit venir naturellement"
@@ -679,10 +679,10 @@
   },
   "9d00fc81-b6d6-4442-8290-2ab2bab0deb1": {
     "en": "Everything is good with your partner, but the excitement has decreased. What do you do?",
-    "text": "Tout va bien avec ta moitié, mais le frisson s'est un peu éteint. Tu fais quoi ?",
+    "text": "Tout va bien avec ta moitié, mais le frisson s'estompe un peu. Tu fais quoi ?",
     "answers": [
       "J'essaie de le raviver",
-      "Je laisse les choses venir"
+      "Je laisse les choses suivre leur cours"
     ]
   },
   "bbdb6e3c-b77c-4f9f-8f5a-e3f380283b39": {
@@ -762,10 +762,8 @@
     "text": "Quel détail physique te fait le plus craquer chez quelqu'un ?"
   },
   "2cc2f00b-d449-447a-aa47-764da08a477f": {
-    "en": "What is the most attractive physical feature in a partner?",
-    "text": "Quel détail physique te fait le plus craquer chez quelqu'un ?",
-    "flagged": true,
-    "note": "Duplicate of a10443c5 in the source (same EN/TR text); translated identically."
+    "en": "Where do you like being kissed the most?",
+    "text": "Où est-ce que tu préfères qu'on t'embrasse ?"
   },
   "e2903296-07ab-4631-81dc-828832555fd2": {
     "en": "What is the ideal time of day for romance?",
@@ -1271,7 +1269,7 @@
     "answers": [
       "Je réponds sur le même ton",
       "Je rigole et on continue",
-      "Je demande de calmer un peu le jeu"
+      "Je demande qu'on calme un peu le jeu"
     ]
   },
   "3c458b59-191a-4dce-b2a2-b65356bcae20": {

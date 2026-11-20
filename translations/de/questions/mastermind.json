@@ -20,8 +20,8 @@
     ]
   },
   "ebce1854-6bc1-47e3-b71a-d595f7f0e3d9": {
-    "en": "Which country's national flag is the only one in the world that features a modern firearm?",
-    "text": "Welches Land hat als einziges eine moderne Schusswaffe auf seiner Nationalflagge?",
+    "en": "Which country's flag features an AK-47 rifle?",
+    "text": "Auf welcher Landesflagge ist ein AK-47-Sturmgewehr abgebildet?",
     "answers": [
       "Mosambik",
       "Angola",
@@ -57,16 +57,14 @@
     ]
   },
   "79169b6e-6d47-46b6-b2e3-1c3403b8ad2b": {
-    "en": "Which animal species is the only known creature capable of biological immortality under ideal conditions?",
-    "text": "Welches Tier gilt als das einzige, das unter idealen Bedingungen biologisch unsterblich sein kann?",
+    "en": "Which animal can turn back into its juvenile form, making it biologically immortal in theory?",
+    "text": "Welches Tier kann sich in sein Jugendstadium zurückverwandeln und ist damit theoretisch biologisch unsterblich?",
     "answers": [
       "Qualle Turritopsis dohrnii",
       "Bärtierchen",
       "Grönlandhai",
       "Axolotl"
-    ],
-    "flagged": true,
-    "note": "Source claim 'only known' is debatable (Hydra is often cited too); softened to 'gilt als'. Answer unchanged."
+    ]
   },
   "d9266445-8fa1-4b7b-8f51-a95099e26f90": {
     "en": "Which country has a national anthem with no official lyrics at all?",
@@ -99,8 +97,8 @@
     ]
   },
   "33649e7c-3151-42fa-b231-2b75a0bb5bdd": {
-    "en": "Which of these classic board games was originally designed as a critique of capitalism and unchecked monopolies?",
-    "text": "Welcher dieser Brettspielklassiker war ursprünglich als Kritik an Kapitalismus und Monopolen gedacht?",
+    "en": "Which classic board game grew out of a game designed to criticize monopolies?",
+    "text": "Welcher Brettspielklassiker ging aus einem Spiel hervor, das Monopole kritisieren sollte?",
     "answers": [
       "Monopoly",
       "Catan",
@@ -157,7 +155,7 @@
     ]
   },
   "00b54485-8cba-4983-a77e-4008337756f8": {
-    "en": "Which animal was the first living organism to have its complete genome fully sequenced by scientists in 1998?",
+    "en": "Which animal was the first multicellular organism to have its complete genome sequenced, in 1998?",
     "text": "Von welchem Tier wurde 1998 als erstem das komplette Genom entschlüsselt?",
     "answers": [
       "Caenorhabditis elegans (Fadenwurm)",
@@ -195,8 +193,8 @@
     ]
   },
   "4efb81b0-12ea-4ad6-8815-8460fff0dfec": {
-    "en": "Which famous scientist lost his sight in his later years, partly due to observing the Sun through a telescope?",
-    "text": "Welcher berühmte Wissenschaftler erblindete im Alter, unter anderem weil er die Sonne durchs Teleskop beobachtet hatte?",
+    "en": "Which famous astronomer went completely blind in his final years?",
+    "text": "Welcher berühmte Astronom erblindete in seinen letzten Lebensjahren vollständig?",
     "answers": [
       "Galileo Galilei",
       "Isaac Newton",
@@ -205,8 +203,8 @@
     ]
   },
   "5b649245-27c2-441a-ac9c-d6cb4f55763a": {
-    "en": "Which island is the only natural habitat where wild lemurs can be found in the world?",
-    "text": "Welche Insel ist der einzige Ort der Welt, an dem Lemuren in freier Wildbahn leben?",
+    "en": "Lemurs are native to only one island in the world. Which one?",
+    "text": "Lemuren stammen nur von einer einzigen Insel der Welt. Von welcher?",
     "answers": [
       "Madagaskar",
       "Tasmanien",
@@ -1052,14 +1050,12 @@
     ]
   },
   "fdca625b-e0fb-4cff-a6a1-9fbf87b764a1": {
-    "en": "Which country is larger by land area?",
+    "en": "Which country has the larger total area?",
     "text": "Welches Land ist flächenmäßig größer?",
     "answers": [
       "Kanada",
       "USA"
-    ],
-    "flagged": true,
-    "note": "EN 'land area' makes the key wrong (US land ~9.15M vs Canada ~8.97M km²). DE uses total area (flächenmäßig), where Canada is correct; consider fixing EN to 'total area'."
+    ]
   },
   "da747a22-25c3-40fb-a01a-d6a8b8c9078d": {
     "en": "Who has more bones, a baby or an adult?",
@@ -1335,8 +1331,8 @@
     ]
   },
   "8384d067-1ad2-496f-a48c-807812a3c2b9": {
-    "en": "What is the longest river in the world?",
-    "text": "Was ist der längste Fluss der Welt?",
+    "en": "Which river is traditionally considered the longest in the world?",
+    "text": "Welcher Fluss gilt traditionell als längster Fluss der Welt?",
     "accepted": [
       "Nil",
       "der Nil",

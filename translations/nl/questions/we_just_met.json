@@ -207,7 +207,7 @@
   },
   "fbdb80de-c188-405f-82b0-4e79741032fb": {
     "en": "Do you believe that everyone deserves a second chance, regardless of what they did?",
-    "text": "Verdient iedereen volgens jou een tweede kans, wat er ook gebeurd is?"
+    "text": "Verdient iedereen volgens jou een tweede kans, wat iemand ook gedaan heeft?"
   },
   "f3b3010c-c0bd-47ed-a4bf-e62dd8e2006f": {
     "en": "Would you give up your biggest passion in life for someone you love?",
@@ -304,11 +304,11 @@
     "text": "Ben je ooit verliefd geworden op iemand op wie dat eigenlijk niet mocht?"
   },
   "c141b0f8-c822-4fda-b966-2d0bfccab391": {
-    "en": "Would you want to know everything about your partner’s past or only the necessary parts?",
-    "text": "Wil je alles weten over het verleden van je partner, of alleen wat nodig is?",
+    "en": "Would you rather your partner discover your flaws early on or bit by bit?",
+    "text": "Wil je dat je partner je minpunten meteen ontdekt of beetje bij beetje?",
     "answers": [
-      "Alles",
-      "Alleen wat nodig is"
+      "Meteen",
+      "Beetje bij beetje"
     ]
   },
   "60fa63d8-776a-4cf9-91fa-806954a2c37c": {
@@ -422,10 +422,8 @@
     "note": "Source itself asks about gender roles in general (not about the players); kept as an opinion question."
   },
   "e8dd11c5-218b-4d77-a137-0444c87fff31": {
-    "en": "If your partner looked a lot like their previous partner, would it bother you?",
-    "text": "Zou het je storen als je sterk lijkt op de ex van je partner?",
-    "flagged": true,
-    "note": "EN is ambiguous; followed the Turkish original (you resembling your partner's previous partner). Check intended meaning."
+    "en": "If you looked a lot like your partner's ex, would it bother you?",
+    "text": "Zou het je storen als je sterk lijkt op de ex van je partner?"
   },
   "69535b7c-b94c-4ebc-95b0-5fa46b811906": {
     "en": "If your partner wanted to read your messages with your friend group, would you let them?",
@@ -510,7 +508,7 @@
   },
   "f1a8d83b-d35c-43e5-b186-0b32e3f7b451": {
     "en": "Would you continue a relationship with someone who isn't very skilled sexually?",
-    "text": "Zou je doorgaan met een relatie als het in bed niet zo goed klikt?"
+    "text": "Zou je bij iemand blijven die niet zo goed is in bed?"
   },
   "d53cac0d-e7f5-4db7-ac2d-b7e17ffa702c": {
     "en": "Would it bother you if your partner's close friend of the opposite sex is very attractive?",
@@ -542,7 +540,7 @@
   },
   "9314d50f-94c5-418b-815c-f36bede1a87f": {
     "en": "Do you think it's normal in a relationship to know your partner's social media passwords?",
-    "text": "Vind je het normaal om in een relatie de social-mediawachtwoorden van je partner te kennen?"
+    "text": "Vind je het normaal om in een relatie de socialmediawachtwoorden van je partner te kennen?"
   },
   "7f9d30fa-6891-460d-a0b5-34d836cff571": {
     "en": "Does your partner staying silent during an argument make you more angry?",
@@ -845,7 +843,7 @@
   },
   "2afd06cc-aad0-4cd2-b85a-be260fc537a9": {
     "en": "Their dating app lights up on the table during your date. What do you do?",
-    "text": "Midden op jullie date licht de telefoon van je date op met een melding van een datingapp. Wat doe je?",
+    "text": "Tijdens jullie date krijgt je date een melding van een datingapp. Wat doe je?",
     "answers": [
       "Negeren",
       "Er een grapje over maken",
@@ -975,7 +973,7 @@
     "text": "Waar knap je meer op af: er anders uitzien dan op de foto's of liegen over de leeftijd op het profiel?",
     "answers": [
       "Ziet er anders uit dan op de foto's",
-      "Loog over de leeftijd"
+      "Liegt over de leeftijd"
     ]
   },
   "ad06a964-fa58-4061-8344-79edf5b520d8": {
@@ -1270,9 +1268,9 @@
     "en": "What tells you most that someone is into you?",
     "text": "Waaraan merk je het best dat iemand je leuk vindt?",
     "answers": [
-      "Hoe snel er gereageerd wordt",
-      "De volgende date wordt al gepland",
-      "Er worden veel vragen over mij gesteld",
+      "Snelle reacties",
+      "Meteen een volgende date plannen",
+      "Veel vragen over mij",
       "Lichaamstaal"
     ]
   },
@@ -1314,7 +1312,7 @@
   },
   "3a846774-458e-48e7-94ac-35ac1ed66723": {
     "en": "They check their reflection in every window you walk past. Out of 10, what score do they drop to?",
-    "text": "Je date checkt zichzelf in elke etalage waar jullie langslopen. Hoeveel punten van de 10 blijven er nog over?"
+    "text": "Je date bekijkt zichzelf in elke etalage waar jullie langslopen. Hoeveel punten van de 10 blijven er nog over?"
   },
   "77574632-f237-4a7a-af8a-16f63041d6fe": {
     "en": "On the first date, they ask \"So why are you single?\" What do you do?",

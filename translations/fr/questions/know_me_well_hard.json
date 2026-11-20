@@ -11,7 +11,7 @@
   },
   "8f65f3e0-e029-41cb-8233-1c0073efccc3": {
     "en": "After you park, {{playerName}} doesn't get out right away. What are they doing?",
-    "text": "Vous vous garez, et {{playerName}} ne sort pas tout de suite. Que se passe-t-il ?",
+    "text": "Tu te gares, et {{playerName}} ne sort pas tout de suite. Que se passe-t-il ?",
     "answers": [
       "Regarde son téléphone",
       "Profite du calme",
@@ -148,7 +148,7 @@
     "en": "If you borrow {{playerName}}'s clothes without asking, what do they do?",
     "text": "Si tu empruntes des vêtements de {{playerName}} sans demander, que se passe-t-il ?",
     "answers": [
-      "Aime te voir avec",
+      "Aime te voir dedans",
       "Veut les récupérer, tout de suite",
       "Ne remarque rien"
     ]
@@ -164,7 +164,7 @@
   },
   "30c1ecc9-a29f-474c-8fa8-3e13ffb9ef91": {
     "en": "If you pick up {{playerName}}'s phone and start scrolling, what do they do?",
-    "text": "Si tu prends le téléphone de {{playerName}} et que tu commences à faire défiler, que se passe-t-il ?",
+    "text": "Si tu prends le téléphone de {{playerName}} et que tu te mets à scroller, que se passe-t-il ?",
     "answers": [
       "S'en fiche",
       "Le reprend calmement",
@@ -805,7 +805,7 @@
   },
   "f06fce27-558a-4a14-bc7c-02797e48b165": {
     "en": "What's the name of {{playerName}}'s family group chat?",
-    "text": "Comment s'appelle le groupe de famille de {{playerName}} sur WhatsApp ?"
+    "text": "Comment s'appelle le groupe de discussion familial de {{playerName}} ?"
   },
   "1d27f445-8185-45f0-8e57-9d14df784fb8": {
     "en": "Which family member is {{playerName}} closest to?",

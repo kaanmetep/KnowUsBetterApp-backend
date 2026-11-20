@@ -468,7 +468,7 @@
   },
   "a1b6a93f-4d10-43a7-8164-0163bd3853f2": {
     "en": "Which of these is hardest for {{playerName}} to hear from their partner?",
-    "text": "恋人に言われて{{playerName}}がいちばんキツい言葉は？",
+    "text": "恋人に言われて{{playerName}}が一番キツい言葉は？",
     "answers": [
       "話があるんだけど",
       "少し距離を置きたい",
@@ -478,7 +478,7 @@
   },
   "c47a1f38-5b04-46da-9c44-7a474ed6d259": {
     "en": "If {{playerName}} catches you watching them after a shower, what do they do?",
-    "text": "シャワー後の{{playerName}}を見つめてるのがバレたら、どうする？",
+    "text": "シャワー上がりの姿を見てたのがバレたら、{{playerName}}はどうする？",
     "answers": [
       "見つめ返す",
       "目をそらす",
@@ -498,7 +498,7 @@
   },
   "8ce87b4f-b8db-4f01-98ba-f29870c3aed1": {
     "en": "If you whispered one thing, what would get to {{playerName}} more?",
-    "text": "耳元でささやくなら、{{playerName}}がいちばんドキッとするのは？",
+    "text": "耳元でささやくなら、{{playerName}}が一番ドキッとするのは？",
     "answers": [
       "こっち来て",
       "ドア閉めて",
@@ -518,7 +518,7 @@
   },
   "5cb070ee-8f2e-40d2-b2a4-eeb5e9aed5a6": {
     "en": "Which of these is harder for {{playerName}} to ignore?",
-    "text": "{{playerName}}がいちばんスルーできないのはどれ？",
+    "text": "{{playerName}}が一番目を奪われる恋人の姿は？",
     "answers": [
       "自分のTシャツを着てる姿",
       "髪が濡れてる姿",
@@ -528,7 +528,7 @@
   },
   "35eb5bdd-4604-405f-bbd9-ec6d407788ce": {
     "en": "If you walk in while {{playerName}} is changing, what do they do?",
-    "text": "{{playerName}}の着替え中に部屋に入っちゃったら、どうする？",
+    "text": "着替え中に部屋に入っちゃったら、{{playerName}}はどうする？",
     "answers": [
       "体を隠す",
       "気にしない",
@@ -558,17 +558,17 @@
   },
   "290d4e23-9ee9-41a5-86b2-90f954e2e486": {
     "en": "If you hug {{playerName}} from behind, what do they do?",
-    "text": "{{playerName}}を後ろからハグしたら、どうする？",
+    "text": "後ろからハグしたら、{{playerName}}はどうする？",
     "answers": [
       "もたれかかる",
-      "そのまま続ける",
+      "そのまま手を止めない",
       "手を握る",
       "振り向く"
     ]
   },
   "3aaf73d2-fba7-45d3-b142-eaf8b4b1f2c2": {
     "en": "If you kiss {{playerName}} while they're in the middle of something, what do they do?",
-    "text": "{{playerName}}が何かしてる最中にキスしたら、どうする？",
+    "text": "何かしてる最中にキスしたら、{{playerName}}はどうする？",
     "answers": [
       "キスを返して続ける",
       "「ちょっと待って」と言う",
@@ -587,7 +587,7 @@
   },
   "730dfdba-4777-40c1-ac4f-849cf3a8dab0": {
     "en": "If you whisper in {{playerName}}'s ear at a party, what do they do?",
-    "text": "パーティーで{{playerName}}に耳打ちしたら、どうする？",
+    "text": "パーティーで耳打ちしたら、{{playerName}}はどうする？",
     "answers": [
       "ニコッとする",
       "赤くなる",
@@ -605,7 +605,7 @@
   },
   "9a5a21f6-c21f-44ee-986d-7b807154604f": {
     "en": "If you fall asleep on {{playerName}} on the couch, what do they do?",
-    "text": "ソファで{{playerName}}にもたれて寝ちゃったら、どうする？",
+    "text": "ソファで肩にもたれて寝ちゃったら、{{playerName}}はどうする？",
     "answers": [
       "そのまま寝かせる",
       "起こしてベッドへ",
@@ -614,7 +614,7 @@
   },
   "d6cefc04-d2ec-40ca-b919-90873cd692a4": {
     "en": "If you put your cold hands on {{playerName}}, what do they do?",
-    "text": "冷たい手で{{playerName}}に触ったら、どうする？",
+    "text": "冷たい手で触ったら、{{playerName}}はどうする？",
     "answers": [
       "ビクッとする",
       "それでも握ってくれる",
@@ -650,7 +650,7 @@
   },
   "0ba7b11f-84f2-4fd6-a508-37ec2a630f94": {
     "en": "If you almost kiss {{playerName}} and pull away, what do they do?",
-    "text": "{{playerName}}にキスしかけて寸前でやめたら、どうする？",
+    "text": "キスしかけて寸前でやめたら、{{playerName}}はどうする？",
     "answers": [
       "自分からキスする",
       "じっと待つ",
@@ -659,7 +659,7 @@
   },
   "16f3d2e8-43b7-412a-aaf6-99b56d3ea05f": {
     "en": "If you sit on {{playerName}}'s lap, what do they do?",
-    "text": "{{playerName}}のひざの上に座ったら、どうする？",
+    "text": "ひざの上に座ったら、{{playerName}}はどうする？",
     "answers": [
       "ぎゅっと抱き寄せる",
       "まず周りを見る",
@@ -668,7 +668,7 @@
   },
   "bbf222fb-e5a6-45b2-be01-18d719ee84f2": {
     "en": "If you start taking {{playerName}}'s sweater off because it's warm inside, what do they do?",
-    "text": "部屋が暑いからって{{playerName}}のセーターを脱がせ始めたら、どうする？",
+    "text": "部屋が暑いからってセーターを脱がせ始めたら、{{playerName}}はどうする？",
     "answers": [
       "されるがまま",
       "自分で脱ぐ",
@@ -677,7 +677,7 @@
   },
   "f8558854-9108-4479-b20e-7a0c5c31c0ac": {
     "en": "If you kiss {{playerName}}'s cheek in the middle of their story, what do they do?",
-    "text": "{{playerName}}が話してる途中でほっぺにキスしたら、どうする？",
+    "text": "話の途中でほっぺにキスしたら、{{playerName}}はどうする？",
     "answers": [
       "そのまま話し続ける",
       "何の話か忘れる",
@@ -686,7 +686,7 @@
   },
   "c335f3ae-66fd-42b6-b5d1-3150b68b6b04": {
     "en": "Where does {{playerName}} love a massage the most?",
-    "text": "{{playerName}}がいちばんマッサージしてほしいのはどこ？",
+    "text": "{{playerName}}が一番マッサージしてほしいのはどこ？",
     "answers": [
       "肩",
       "背中",
@@ -696,7 +696,7 @@
   },
   "7c740bf2-6c29-4351-b1ea-1ac8b48d7e14": {
     "en": "What turns {{playerName}} on the most?",
-    "text": "{{playerName}}がいちばんグッとくるのは？",
+    "text": "{{playerName}}が一番グッとくるのは？",
     "answers": [
       "自信のある態度",
       "目が合うこと",
@@ -706,7 +706,7 @@
   },
   "c510bd61-7901-4014-bccc-3bf4072ab104": {
     "en": "In intimate moments, which sense matters most to {{playerName}}?",
-    "text": "ふたりきりの甘い時間、{{playerName}}がいちばん大事にする感覚は？",
+    "text": "ふたりきりの甘い時間、{{playerName}}が一番大事にする感覚は？",
     "answers": [
       "触れること",
       "見ること",
@@ -716,7 +716,7 @@
   },
   "10524676-70b8-4a0c-9c65-8021824e5bc1": {
     "en": "How does {{playerName}} most like to be seduced?",
-    "text": "{{playerName}}がいちばんときめく誘われ方は？",
+    "text": "{{playerName}}が一番ときめく誘われ方は？",
     "answers": [
       "言葉で",
       "視線で",
@@ -746,7 +746,7 @@
   },
   "720d3880-91f8-4dde-a17f-7da5e821ab00": {
     "en": "Which accessory on someone does {{playerName}} find hottest?",
-    "text": "{{playerName}}がいちばんグッとくるアクセサリーは？",
+    "text": "{{playerName}}が一番グッとくるアクセサリーは？",
     "answers": [
       "腕時計",
       "メガネ",
@@ -756,7 +756,7 @@
   },
   "4daea0de-71a4-40bc-82b1-c1a830c1e33f": {
     "en": "Which style on someone does {{playerName}} find hottest?",
-    "text": "{{playerName}}がいちばんグッとくるファッションは？",
+    "text": "{{playerName}}が一番グッとくるファッションは？",
     "answers": [
       "きれいめ",
       "スポーティー",
@@ -766,7 +766,7 @@
   },
   "9132974e-4bff-42a3-a774-e9046d4aa9f2": {
     "en": "What height does {{playerName}} find most attractive in a partner?",
-    "text": "{{playerName}}がいちばん惹かれる恋人の身長は？",
+    "text": "{{playerName}}が一番惹かれる恋人の身長は？",
     "answers": [
       "自分よりかなり高い",
       "自分より少し高い",
@@ -776,7 +776,7 @@
   },
   "8b3a4769-3529-4dd3-bf94-060c729a8477": {
     "en": "Which eye color does {{playerName}} find most attractive?",
-    "text": "{{playerName}}がいちばん惹かれる瞳の色は？",
+    "text": "{{playerName}}が一番惹かれる瞳の色は？",
     "answers": [
       "ブラウン",
       "グリーン",
@@ -786,7 +786,7 @@
   },
   "6e6db5c0-711a-4280-9da7-49e01a6e940c": {
     "en": "Which hair color does {{playerName}} find hottest?",
-    "text": "{{playerName}}がいちばんグッとくる髪の色は？",
+    "text": "{{playerName}}が一番グッとくる髪の色は？",
     "answers": [
       "黒",
       "茶色",
@@ -796,7 +796,7 @@
   },
   "401817cf-f61c-4724-9158-25592761bb11": {
     "en": "Which kind of fragrance does {{playerName}} find sexiest on someone?",
-    "text": "{{playerName}}がいちばんドキッとする香りは？",
+    "text": "{{playerName}}が一番ドキッとする香りは？",
     "answers": [
       "甘い系",
       "爽やか系",
@@ -816,7 +816,7 @@
   },
   "f5dadc53-d883-4924-8ba8-2f509d410ebb": {
     "en": "What age gap does {{playerName}} find most attractive?",
-    "text": "{{playerName}}がいちばん惹かれる年の差は？",
+    "text": "{{playerName}}が一番惹かれる年の差は？",
     "answers": [
       "同い年",
       "少し年上",
@@ -826,7 +826,7 @@
   },
   "f1dc9061-fa47-478b-b1ec-eba6a3b6f5fa": {
     "en": "Which job on someone does {{playerName}} find most attractive?",
-    "text": "{{playerName}}がいちばん惹かれる職業は？",
+    "text": "{{playerName}}が一番惹かれる職業は？",
     "answers": [
       "医者",
       "パイロット",
@@ -836,7 +836,7 @@
   },
   "dd7a8cb2-3e0a-4167-b573-0feea5f6b4ee": {
     "en": "Which piercing on someone does {{playerName}} find hottest?",
-    "text": "{{playerName}}がいちばんグッとくるピアスは？",
+    "text": "{{playerName}}が一番グッとくるピアスは？",
     "answers": [
       "耳",
       "鼻",
@@ -846,7 +846,7 @@
   },
   "2fd6a59e-72ba-4ff9-8feb-361bc39f3cb4": {
     "en": "Which skill on someone does {{playerName}} find hottest?",
-    "text": "{{playerName}}がいちばんグッとくる特技は？",
+    "text": "{{playerName}}が一番グッとくる特技は？",
     "answers": [
       "ギターが弾ける",
       "料理が上手",
@@ -856,7 +856,7 @@
   },
   "e5f4e852-e15d-471e-abc5-4c38cc69e9ec": {
     "en": "Which little feature on someone does {{playerName}} find cutest?",
-    "text": "{{playerName}}がいちばんかわいいと思うチャームポイントは？",
+    "text": "{{playerName}}が一番かわいいと思うチャームポイントは？",
     "answers": [
       "そばかす",
       "えくぼ",
@@ -868,7 +868,7 @@
   },
   "1fcbc4d3-9d36-4780-8e17-806a5eff3369": {
     "en": "Which body type does {{playerName}} find most attractive?",
-    "text": "{{playerName}}がいちばん惹かれる体型は？",
+    "text": "{{playerName}}が一番惹かれる体型は？",
     "answers": [
       "引き締まった体",
       "細身",
@@ -888,7 +888,7 @@
   },
   "7d10c4cc-934e-4c78-83dc-e7675b0c1ec0": {
     "en": "Which zodiac element does {{playerName}} find most attractive?",
-    "text": "{{playerName}}がいちばん惹かれる星座のタイプは？",
+    "text": "{{playerName}}が一番惹かれる星座のタイプは？",
     "answers": [
       "火の星座",
       "地の星座",
@@ -899,7 +899,7 @@
   },
   "f454ad94-c43b-4a6b-9340-e41b1ded7a80": {
     "en": "What kind of social media presence does {{playerName}} find most attractive?",
-    "text": "{{playerName}}がいちばん惹かれるSNSの使い方は？",
+    "text": "{{playerName}}が一番惹かれるSNSの使い方は？",
     "answers": [
       "よく投稿する",
       "鍵アカ",
@@ -909,7 +909,7 @@
   },
   "dcd3d4f4-f480-4ff0-b69b-af1f8b10c105": {
     "en": "What kind of hands does {{playerName}} find most attractive?",
-    "text": "{{playerName}}がいちばんグッとくる手は？",
+    "text": "{{playerName}}が一番グッとくる手は？",
     "answers": [
       "大きい手",
       "柔らかい手",
@@ -920,7 +920,7 @@
   },
   "44fffff9-e2b0-4e15-b91b-0eb866a37114": {
     "en": "What kind of humor on someone does {{playerName}} find most attractive?",
-    "text": "{{playerName}}がいちばん惹かれる笑いのセンスは？",
+    "text": "{{playerName}}が一番惹かれる笑いのセンスは？",
     "answers": [
       "皮肉っぽい",
       "おバカ系",
@@ -1083,7 +1083,7 @@
   },
   "ee007826-9eef-4d45-8c67-98923cf0b413": {
     "en": "What's {{playerName}}'s favorite date spot in your city?",
-    "text": "ふたりが住む街で、{{playerName}}がいちばん好きなデートスポットは？"
+    "text": "ふたりが住む街で、{{playerName}}が一番好きなデートスポットは？"
   },
   "9587900b-e8e3-414d-9ef0-199ab00dac18": {
     "en": "How does {{playerName}} feel about saying goodnight before bed, even when you're apart?",
@@ -1499,7 +1499,7 @@
     "answers": [
       "夕日のビーチ",
       "家でふたりきり",
-      "家族や友だちの前",
+      "家族や友達の前",
       "おしゃれなレストラン"
     ]
   },
@@ -1563,7 +1563,7 @@
   },
   "8c91b4ee-f250-479d-89f3-702b3b70832a": {
     "en": "What's {{playerName}}'s biggest deal-breaker in a relationship?",
-    "text": "{{playerName}}が恋人にこれだけは絶対ムリなことは？",
+    "text": "恋愛で{{playerName}}がこれだけは絶対ムリなことは？",
     "answers": [
       "ウソ",
       "嫉妬",

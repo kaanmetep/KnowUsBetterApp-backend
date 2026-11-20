@@ -304,11 +304,11 @@
     "text": "Hast du dich schon mal in die falsche Person verliebt?"
   },
   "c141b0f8-c822-4fda-b966-2d0bfccab391": {
-    "en": "Would you want to know everything about your partner’s past or only the necessary parts?",
-    "text": "Würdest du alles über die Vergangenheit deines Schatzes wissen wollen oder nur das Nötigste?",
+    "en": "Would you rather your partner discover your flaws early on or bit by bit?",
+    "text": "Soll dein Schatz deine Macken gleich am Anfang kennenlernen oder nach und nach?",
     "answers": [
-      "Alles",
-      "Nur das Nötigste"
+      "Gleich am Anfang",
+      "Nach und nach"
     ]
   },
   "60fa63d8-776a-4cf9-91fa-806954a2c37c": {
@@ -422,10 +422,8 @@
     "note": "Source itself assumes a man-woman dating setup; translated literally. Consider rewording all languages to e.g. 'Should the first move always come from one side?' or dropping it for same-sex couples."
   },
   "e8dd11c5-218b-4d77-a137-0444c87fff31": {
-    "en": "If your partner looked a lot like their previous partner, would it bother you?",
-    "text": "Würde es dich stören, wenn du dem Ex deines Schatzes total ähnlich siehst?",
-    "flagged": true,
-    "note": "EN ('your partner looks like their previous partner') makes little sense; followed TR meaning (you look like your partner's ex). 'dem Ex' is the generic form allowed for third parties."
+    "en": "If you looked a lot like your partner's ex, would it bother you?",
+    "text": "Würde es dich stören, wenn du dem Ex deines Schatzes total ähnlich siehst?"
   },
   "69535b7c-b94c-4ebc-95b0-5fa46b811906": {
     "en": "If your partner wanted to read your messages with your friend group, would you let them?",

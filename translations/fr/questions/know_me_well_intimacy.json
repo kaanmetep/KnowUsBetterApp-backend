@@ -417,7 +417,7 @@
   },
   "7e456f76-8350-46b3-b96e-af88c500c1b0": {
     "en": "Does {{playerName}} get uncomfortable if their partner watches them get ready?",
-    "text": "Ça met {{playerName}} mal à l'aise quand sa moitié regarde ses préparatifs ?"
+    "text": "Ça gêne {{playerName}} quand sa moitié l'observe se préparer ?"
   },
   "2f6a16f5-299a-4e7d-9906-f791ecb95db9": {
     "en": "Would {{playerName}} tell their partner if a stranger hit on them?",
@@ -461,7 +461,7 @@
     "answers": [
       "Minimise",
       "Devient timide",
-      "En retourne un",
+      "Renvoie le compliment",
       "Le savoure"
     ]
   },
@@ -1619,7 +1619,7 @@
   },
   "3eee6ce7-38c2-40e7-98fc-ab036b372c3a": {
     "en": "How long does it take {{playerName}} to get affectionate with someone new?",
-    "text": "Avec quelqu'un de nouveau, {{playerName}} met combien de temps à devenir tendre ?",
+    "text": "Avec quelqu'un de nouveau, {{playerName}} met combien de temps à se montrer tendre ?",
     "answers": [
       "Tout de suite",
       "Après quelques rendez-vous",

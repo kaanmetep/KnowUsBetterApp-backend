@@ -81,9 +81,9 @@
   },
   "2be6067f-ee2d-45a3-83be-4fc9c72df2ef": {
     "en": "Would {{playerName}} rather have $1 million or marry the love of their life?",
-    "text": "{{playerName}} préfère 1 million d'euros ou épouser l'amour de sa vie ?",
+    "text": "{{playerName}} préfère 1 million de dollars ou épouser l'amour de sa vie ?",
     "answers": [
-      "1 million d'euros",
+      "1 million de dollars",
       "Épouser l'amour de sa vie"
     ],
     "flagged": true,
@@ -246,10 +246,10 @@
   },
   "8ffb0025-b2a9-4460-a1ed-cb5a661a2088": {
     "en": "Would {{playerName}} rather be with someone very ambitious or someone very content with life?",
-    "text": "{{playerName}} préfère être avec une personne très ambitieuse ou une personne comblée par la vie ?",
+    "text": "{{playerName}} préfère être avec une personne très ambitieuse ou une personne heureuse de sa vie ?",
     "answers": [
       "Une personne très ambitieuse",
-      "Une personne comblée"
+      "Une personne heureuse de sa vie"
     ]
   },
   "3408836d-1ecf-441a-960f-2fea5ad49e27": {
@@ -504,7 +504,7 @@
   },
   "67bea7b0-936b-4108-b413-8eea681221e0": {
     "en": "What does {{playerName}} never leave the house without?",
-    "text": "{{playerName}} ne quitte jamais la maison sans quoi ?"
+    "text": "Qu'est-ce que {{playerName}} emporte toujours en sortant ?"
   },
   "10c8697c-0893-43cd-891b-3f8043ea9661": {
     "en": "What city was {{playerName}} born in?",
@@ -737,7 +737,7 @@
   },
   "4a4c1dcb-edc8-499a-b622-51d40eb7fed0": {
     "en": "How spicy does {{playerName}} like their food?",
-    "text": "{{playerName}} aime manger épicé à quel point ?",
+    "text": "{{playerName}} aime manger épicé jusqu'à quel point ?",
     "answers": [
       "Pas du tout",
       "Un peu",
@@ -767,7 +767,7 @@
   },
   "8d2288a5-7234-4b0a-9d04-a4df4a7c8276": {
     "en": "How warm does {{playerName}} like the room?",
-    "text": "{{playerName}} aime une pièce plutôt…",
+    "text": "{{playerName}} aime que la pièce soit plutôt…",
     "answers": [
       "Froide",
       "Fraîche",
@@ -1237,7 +1237,7 @@
       "Une série",
       "YouTube",
       "Des reels",
-      "Rien, mange juste"
+      "Rien, mange tranquille"
     ]
   },
   "fe4758c6-1a3f-4740-a65f-f3f9268b47dc": {

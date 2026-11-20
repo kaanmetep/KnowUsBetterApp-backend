@@ -5,7 +5,7 @@
     "answers": [
       "Hersenen",
       "Hart",
-      "Lever",
+      "Longen",
       "Nieren"
     ]
   },
@@ -19,15 +19,13 @@
     ]
   },
   "c1cb1e49-a9cc-43e1-b6da-34f4da305a37": {
-    "en": "Which architectural feature was specifically invented by ancient Romans to support massive dome structures?",
+    "en": "Which architectural feature did the ancient Romans rely on to support massive domes?",
     "text": "Welk bouwkundig element gebruikten de oude Romeinen vooral om enorme koepels te dragen?",
     "answers": [
       "De boog",
       "De zuil",
       "De piramide"
-    ],
-    "flagged": true,
-    "note": "Source says Romans 'invented' the arch, which is historically inaccurate (arches predate Rome); softened to 'used' to keep the fact true."
+    ]
   },
   "e9339914-1d7d-423a-9a28-2519995eb9e6": {
     "en": "Which planet in our solar system spins in the opposite direction to most other planets?",
@@ -78,12 +76,12 @@
   },
   "4d359908-e7a2-4ef5-bde1-d9fc49ee3218": {
     "en": "Which mammalian land animal is known for being unable to jump?",
-    "text": "Van welk landzoogdier is bekend dat het niet kan springen?",
+    "text": "Welk landzoogdier staat erom bekend dat het niet kan springen?",
     "answers": [
       "Olifant",
       "Giraf",
-      "Nijlpaard",
-      "Neushoorn"
+      "Paard",
+      "Hert"
     ]
   },
   "a98b74cf-707a-4d84-a017-ea98f2d69e68": {
@@ -105,8 +103,8 @@
     ]
   },
   "4563d6d4-5301-4f89-811a-045b66157aa2": {
-    "en": "Which soft drink was originally invented as a cough syrup and headache remedy?",
-    "text": "Welke frisdrank werd oorspronkelijk uitgevonden als hoestsiroop en middel tegen hoofdpijn?",
+    "en": "Which soft drink was first sold as a medicine for headaches and fatigue?",
+    "text": "Welke frisdrank werd oorspronkelijk verkocht als middel tegen hoofdpijn en vermoeidheid?",
     "answers": [
       "Coca-Cola",
       "Sprite",
@@ -124,16 +122,14 @@
     ]
   },
   "a79f90ff-8ce5-493b-8b50-2ef10c1f9c26": {
-    "en": "How many continents are there on planet Earth?",
-    "text": "Hoeveel continenten heeft de aarde?",
+    "en": "Which is the largest continent?",
+    "text": "Wat is het grootste continent?",
     "answers": [
-      "7",
-      "5",
-      "6",
-      "8"
-    ],
-    "flagged": true,
-    "note": "Continent count is taught differently per country (Dutch/Belgian schools often teach 6 or 5); answer key 7 follows the English model."
+      "Azië",
+      "Afrika",
+      "Noord-Amerika",
+      "Antarctica"
+    ]
   },
   "b6c425a9-162f-4107-919c-20eea21afc7a": {
     "en": "What is the name of the imaginary line that divides Earth into the Northern and Southern Hemispheres?",
@@ -269,7 +265,8 @@
       "jachtluipaard",
       "Cheetah",
       "Het jachtluipaard",
-      "Jachtluipaarden"
+      "Jachtluipaarden",
+      "Cheeta"
     ]
   },
   "2dce8722-4a23-4666-86b4-656be891094b": {
@@ -457,8 +454,8 @@
     ]
   },
   "78899d32-d997-4e60-b9a5-c635406a0d3a": {
-    "en": "Sushi originally comes from which country?",
-    "text": "Uit welk land komt sushi oorspronkelijk?",
+    "en": "Sushi is a traditional dish of which country?",
+    "text": "Sushi is een traditioneel gerecht uit welk land?",
     "accepted": [
       "Japan",
       "japan",
@@ -666,7 +663,7 @@
   },
   "7f301f40-bb88-4cd7-9822-4d51d3e99b3d": {
     "en": "In which sport do players hit a \"puck\" instead of a ball?",
-    "text": "Bij welke sport spelen spelers met een “puck” in plaats van een bal?",
+    "text": "Bij welke sport speel je met een “puck” in plaats van een bal?",
     "answers": [
       "IJshockey",
       "Curling",
@@ -1357,10 +1354,10 @@
     "en": "Constantinople was the capital of which empire until 1453?",
     "text": "Van welk rijk was Constantinopel tot 1453 de hoofdstad?",
     "answers": [
-      "Byzantijnse Rijk",
-      "Ottomaanse Rijk",
-      "Perzische Rijk",
-      "Mongoolse Rijk"
+      "Het Byzantijnse Rijk",
+      "Het Ottomaanse Rijk",
+      "Het Perzische Rijk",
+      "Het Mongoolse Rijk"
     ]
   },
   "4c492dce-98c0-4574-ae7e-6520dd83adfa": {
@@ -1452,8 +1449,8 @@
     ]
   },
   "9f50ad95-1ce8-42ab-8e0b-3bd347d33019": {
-    "en": "In 2024, whose \"Eras Tour\" became the highest-grossing concert tour of all time?",
-    "text": "Wiens “Eras Tour” werd in 2024 de concerttour met de hoogste opbrengst ooit?",
+    "en": "Whose \"Eras Tour\" became the highest-grossing concert tour of all time?",
+    "text": "Wiens “Eras Tour” werd de concerttour met de hoogste opbrengst ooit?",
     "answers": [
       "Taylor Swift",
       "Beyoncé",
@@ -1984,7 +1981,7 @@
   },
   "72adb892-47e1-4d39-9c16-1004d3de980a": {
     "en": "In \"Alice in Wonderland\", which animal does Alice follow down the hole?",
-    "text": "Welk dier volgt Alice in “Alice in Wonderland” het hol in?",
+    "text": "Achter welk dier aan gaat Alice in “Alice in Wonderland” het hol in?",
     "answers": [
       "Wit konijn",
       "Zwarte kat",

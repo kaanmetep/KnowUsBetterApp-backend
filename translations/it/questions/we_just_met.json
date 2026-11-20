@@ -301,11 +301,11 @@
     "text": "Ti è mai capitato di perdere la testa per la persona sbagliata?"
   },
   "c141b0f8-c822-4fda-b966-2d0bfccab391": {
-    "en": "Would you want to know everything about your partner’s past or only the necessary parts?",
-    "text": "Vorresti sapere tutto del passato del tuo amore o solo l'essenziale?",
+    "en": "Would you rather your partner discover your flaws early on or bit by bit?",
+    "text": "Preferisci che il tuo amore scopra i tuoi difetti subito o un po' alla volta?",
     "answers": [
-      "Tutto",
-      "Solo l'essenziale"
+      "Subito",
+      "Un po' alla volta"
     ]
   },
   "60fa63d8-776a-4cf9-91fa-806954a2c37c": {
@@ -418,10 +418,8 @@
     "text": "Il primo passo dovrebbe farlo l'uomo?"
   },
   "e8dd11c5-218b-4d77-a137-0444c87fff31": {
-    "en": "If your partner looked a lot like their previous partner, would it bother you?",
-    "text": "Ti darebbe fastidio somigliare tantissimo all'ex del tuo amore?",
-    "flagged": true,
-    "note": "EN says the partner resembles their own ex; TR says YOU resemble your partner's ex. Followed TR. Please confirm which meaning is intended."
+    "en": "If you looked a lot like your partner's ex, would it bother you?",
+    "text": "Ti darebbe fastidio somigliare tantissimo all'ex del tuo amore?"
   },
   "69535b7c-b94c-4ebc-95b0-5fa46b811906": {
     "en": "If your partner wanted to read your messages with your friend group, would you let them?",

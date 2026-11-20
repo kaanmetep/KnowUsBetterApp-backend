@@ -20,8 +20,8 @@
     ]
   },
   "ebce1854-6bc1-47e3-b71a-d595f7f0e3d9": {
-    "en": "Which country's national flag is the only one in the world that features a modern firearm?",
-    "text": "Welk land heeft als enige ter wereld een modern vuurwapen op de vlag?",
+    "en": "Which country's flag features an AK-47 rifle?",
+    "text": "Op de vlag van welk land staat een AK-47-geweer?",
     "answers": [
       "Mozambique",
       "Angola",
@@ -57,8 +57,8 @@
     ]
   },
   "79169b6e-6d47-46b6-b2e3-1c3403b8ad2b": {
-    "en": "Which animal species is the only known creature capable of biological immortality under ideal conditions?",
-    "text": "Welk dier is het enige bekende wezen dat onder ideale omstandigheden biologisch onsterfelijk kan zijn?",
+    "en": "Which animal can turn back into its juvenile form, making it biologically immortal in theory?",
+    "text": "Welk dier kan terugkeren naar zijn jeugdstadium en is daardoor in theorie biologisch onsterfelijk?",
     "answers": [
       "Kwal (Turritopsis dohrnii)",
       "Beerdiertje",
@@ -97,8 +97,8 @@
     ]
   },
   "33649e7c-3151-42fa-b231-2b75a0bb5bdd": {
-    "en": "Which of these classic board games was originally designed as a critique of capitalism and unchecked monopolies?",
-    "text": "Welk klassiek bordspel was oorspronkelijk bedoeld als kritiek op het kapitalisme en ongeremde monopolies?",
+    "en": "Which classic board game grew out of a game designed to criticize monopolies?",
+    "text": "Welk klassiek bordspel is ontstaan uit een spel dat bedoeld was als kritiek op monopolies?",
     "answers": [
       "Monopoly",
       "Catan",
@@ -155,15 +155,13 @@
     ]
   },
   "00b54485-8cba-4983-a77e-4008337756f8": {
-    "en": "Which animal was the first living organism to have its complete genome fully sequenced by scientists in 1998?",
+    "en": "Which animal was the first multicellular organism to have its complete genome sequenced, in 1998?",
     "text": "Van welk dier werd in 1998 als eerste meercellige organisme het volledige genoom in kaart gebracht?",
     "answers": [
       "Caenorhabditis elegans (rondworm)",
       "Drosophila melanogaster (fruitvlieg)",
       "Mus musculus (huismuis)"
-    ],
-    "flagged": true,
-    "note": "English says 'first living organism'; that is false (bacteria/yeast were earlier). Followed the Turkish 'first multicellular organism' to keep the fact true. Source EN should be fixed too."
+    ]
   },
   "65a413b9-91a9-42d2-8a28-2ad753643f20": {
     "en": "Which of these well-known sea bodies on Earth is actually an endorheic lake with no natural outlet to any ocean?",
@@ -195,8 +193,8 @@
     ]
   },
   "4efb81b0-12ea-4ad6-8815-8460fff0dfec": {
-    "en": "Which famous scientist lost his sight in his later years, partly due to observing the Sun through a telescope?",
-    "text": "Welke beroemde wetenschapper werd op latere leeftijd blind, deels doordat hij met een telescoop naar de zon keek?",
+    "en": "Which famous astronomer went completely blind in his final years?",
+    "text": "Welke beroemde astronoom werd aan het eind van zijn leven volledig blind?",
     "answers": [
       "Galileo Galilei",
       "Isaac Newton",
@@ -205,8 +203,8 @@
     ]
   },
   "5b649245-27c2-441a-ac9c-d6cb4f55763a": {
-    "en": "Which island is the only natural habitat where wild lemurs can be found in the world?",
-    "text": "Wat is het enige eiland ter wereld waar lemuren in het wild leven?",
+    "en": "Lemurs are native to only one island in the world. Which one?",
+    "text": "Lemuren komen van nature maar op één eiland ter wereld voor. Welk eiland?",
     "answers": [
       "Madagaskar",
       "Tasmanië",
@@ -876,7 +874,7 @@
   },
   "d2e6287e-ed49-4e42-be4f-dc35331190df": {
     "en": "How many chambers does the human heart have?",
-    "text": "Uit hoeveel holtes bestaat het menselijk hart?",
+    "text": "Hoeveel holtes heeft het menselijk hart?",
     "answers": [
       "2",
       "3",
@@ -1046,14 +1044,12 @@
     ]
   },
   "fdca625b-e0fb-4cff-a6a1-9fbf87b764a1": {
-    "en": "Which country is larger by land area?",
+    "en": "Which country has the larger total area?",
     "text": "Welk land is groter qua totale oppervlakte?",
     "answers": [
       "Canada",
       "Verenigde Staten"
-    ],
-    "flagged": true,
-    "note": "EN says \"by land area\", but by land area alone the US (~9.15M km2) beats Canada (~8.97M km2); NL asks total area so Canada stays correct. Source EN/TR should be fixed."
+    ]
   },
   "da747a22-25c3-40fb-a01a-d6a8b8c9078d": {
     "en": "Who has more bones, a baby or an adult?",
@@ -1220,7 +1216,7 @@
     "text": "In welke oceaan is de Titanic gezonken?",
     "answers": [
       "Atlantische Oceaan",
-      "Grote Oceaan",
+      "Stille Oceaan",
       "Indische Oceaan",
       "Noordelijke IJszee"
     ]
@@ -1329,8 +1325,8 @@
     ]
   },
   "8384d067-1ad2-496f-a48c-807812a3c2b9": {
-    "en": "What is the longest river in the world?",
-    "text": "Wat is de langste rivier ter wereld?",
+    "en": "Which river is traditionally considered the longest in the world?",
+    "text": "Welke rivier geldt traditioneel als de langste ter wereld?",
     "accepted": [
       "Nijl",
       "De Nijl",
@@ -1549,7 +1545,7 @@
   },
   "44510aab-e8ee-4cce-a85b-024ce43e245c": {
     "en": "Koalas have fingerprints almost identical to which species?",
-    "text": "De vingerafdrukken van koala's lijken bijna precies op die van welke soort?",
+    "text": "Koala's hebben vingerafdrukken die bijna gelijk zijn aan die van…",
     "answers": [
       "Mensen",
       "Chimpansees",
