@@ -1,0 +1,70 @@
+{
+  "7daf8ce4-e900-49bd-a99c-2bd3b2dc6623": {
+    "en": "How fairly do you feel chores are split between you?",
+    "text": "家事の分担、どれくらい公平だと思う？",
+    "answers": [
+      "完全に公平",
+      "だいたい公平",
+      "自分のほうが多くやってる",
+      "恋人のほうが多くやってる"
+    ]
+  },
+  "37e7075f-f8c0-4a6f-8bb1-15d4f63b79b8": {
+    "en": "How much time alone do you need in a normal week?",
+    "text": "ふだんの1週間で、ひとりの時間はどれくらい必要？",
+    "answers": [
+      "ほぼいらない",
+      "1〜2時間",
+      "ひと晩かそれ以上",
+      "たくさん、でも毎回は言えない"
+    ]
+  },
+  "2ec6384d-4e70-49a8-b8b4-60fc79668a5a": {
+    "en": "Your ideal weekday evening together?",
+    "text": "平日の夜、ふたりの理想の過ごし方は？",
+    "answers": [
+      "一緒に料理して食べる",
+      "ソファで何か観る",
+      "どこかに出かける",
+      "並んでそれぞれ好きなこと"
+    ]
+  },
+  "c3bfa96a-4683-46d7-a472-9844feb722ce": {
+    "en": "How do you feel about phones when you're together?",
+    "text": "一緒にいるときのスマホ、どう思う？",
+    "answers": [
+      "特に問題ない",
+      "たまに気になる",
+      "すごく気になる",
+      "たぶん自分のほうがいじってる"
+    ]
+  },
+  "ec39df53-45de-401b-83c5-c71fdc6a7b5c": {
+    "en": "Weekends should be…",
+    "text": "週末はどう過ごしたい？",
+    "answers": [
+      "予定をぎっしり",
+      "予定はひとつ、あとは自由",
+      "まったくのノープラン",
+      "ほぼ家でのんびり"
+    ]
+  },
+  "da536f27-fd8e-4b15-9bb2-fff1ab7cc79d": {
+    "en": "How tidy should home be?",
+    "text": "家はどれくらい片付いてるのがいい？",
+    "answers": [
+      "ピカピカ",
+      "そこそこ片付いてれば",
+      "生活感があるほうが落ち着く",
+      "散らかってても気づかない"
+    ]
+  },
+  "973523ee-da46-453e-8012-d7d01eb59fab": {
+    "en": "What part of your everyday life together do you love most?",
+    "text": "ふたりの毎日で、一番好きなところは？"
+  },
+  "455eea81-69be-46f9-a81e-7299fb4c5f1e": {
+    "en": "What small daily thing would you change about how you live together?",
+    "text": "ふたりの暮らしで、ちょっと変えたい日常のことは？"
+  }
+}

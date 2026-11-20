@@ -1,0 +1,578 @@
+{
+  "128daa78-4211-4349-afcf-3c2e4fb80ebd": {
+    "en": "Who is more likely to start an argument over something tiny?",
+    "text": "Qui est le plus susceptible de lancer une dispute pour un rien ?"
+  },
+  "004d6112-aa96-4cc0-bdab-ca7b9b6a549c": {
+    "en": "Who is more likely to hog the blanket at night?",
+    "text": "Qui est le plus susceptible de piquer toute la couverture la nuit ?"
+  },
+  "ccc4af3e-19b4-4571-924d-a03e07d8f0e4": {
+    "en": "Who is more likely to overpack for a weekend trip?",
+    "text": "Qui est le plus susceptible de faire une valise énorme pour un simple week-end ?"
+  },
+  "c93612e8-9cf4-4b67-9338-adcf6f79f9f7": {
+    "en": "Who is more likely to check their phone during a conversation?",
+    "text": "Qui est le plus susceptible de regarder son téléphone en pleine conversation ?"
+  },
+  "d94ff725-df3f-4f65-a39f-cde1a309b498": {
+    "en": "Who is more likely to burn dinner and blame the oven?",
+    "text": "Qui est le plus susceptible de cramer le dîner et d'accuser le four ?"
+  },
+  "d707d72a-847a-4c32-b44c-805e77516ce0": {
+    "en": "Who is more likely to turn a 5-minute nap into a 2-hour sleep?",
+    "text": "Qui est le plus susceptible de transformer une sieste de 5 minutes en dodo de 2 heures ?"
+  },
+  "edf79875-f26a-4d51-8481-960cf609100f": {
+    "en": "Who is more likely to get hangry and take it out on the other?",
+    "text": "Qui est le plus susceptible de s'énerver le ventre vide et de s'en prendre à l'autre ?"
+  },
+  "eb388e34-6d8c-4a00-9dd9-88675d129c37": {
+    "en": "Who is more likely to buy something just because it's on sale?",
+    "text": "Qui est le plus susceptible d'acheter un truc juste parce que c'est en promo ?"
+  },
+  "61d9c7ef-2729-46b5-94f2-6a82992b6d2d": {
+    "en": "Who is more likely to sing loudly in the car?",
+    "text": "Qui est le plus susceptible de chanter à tue-tête en voiture ?"
+  },
+  "e120d9ca-6740-4e0d-b8e3-860492bf9fc0": {
+    "en": "Who is more likely to still be deciding what to wear when it's time to leave?",
+    "text": "Qui est le plus susceptible de ne toujours pas savoir quoi mettre au moment de partir ?"
+  },
+  "267b8ea7-0710-441b-9f0b-fa3950b40167": {
+    "en": "Who is more likely to rewrite the grocery list halfway through the store?",
+    "text": "Qui est le plus susceptible de refaire la liste de courses en plein milieu du supermarché ?"
+  },
+  "ecc5a6b2-518f-43da-b6a0-718a8fb77306": {
+    "en": "Who is more likely to hold a grudge for weeks over something tiny?",
+    "text": "Qui est le plus susceptible de garder rancune des semaines pour un rien ?"
+  },
+  "b636f04e-0b14-403a-ad4b-973ab7835db1": {
+    "en": "Who is more likely to fake being sick to cancel plans?",
+    "text": "Qui est le plus susceptible de faire semblant d'être malade pour annuler une sortie ?"
+  },
+  "ad8398f5-a23f-46c9-acfc-c810cd41b1c7": {
+    "en": "Who is more likely to say \"I'm fine\" when they're clearly not?",
+    "text": "Qui est le plus susceptible de dire « Ça va » alors que ça ne va clairement pas ?"
+  },
+  "f34751f6-1336-4ffa-8e59-3ab5c6a59c9e": {
+    "en": "Who is more likely to bring up an old fight in the middle of a new one?",
+    "text": "Qui est le plus susceptible de ressortir une vieille dispute au beau milieu d'une nouvelle ?"
+  },
+  "9935df8f-65e7-4307-85b8-ab4d13768b8f": {
+    "en": "Who is more likely to pretend they knew a song the whole time after googling the lyrics?",
+    "text": "Qui est le plus susceptible de prétendre avoir toujours connu une chanson après avoir googlé les paroles ?"
+  },
+  "83959cf1-ccf1-41fe-9b55-4015974efd14": {
+    "en": "Who is more likely to need a pep talk before a simple phone call?",
+    "text": "Qui est le plus susceptible d'avoir besoin d'encouragements avant un simple coup de fil ?"
+  },
+  "09dfa79c-a933-42a7-9a09-4754deefc321": {
+    "en": "Who is more likely to win an argument and still feel guilty about it?",
+    "text": "Qui est le plus susceptible de gagner une dispute et de culpabiliser quand même ?"
+  },
+  "1c777201-2aa9-4a4b-ae3f-8b680e27edcb": {
+    "en": "Who is more likely to give a long explanation before saying what they actually want?",
+    "text": "Qui est le plus susceptible de faire tout un discours avant de dire ce qui lui fait vraiment envie ?"
+  },
+  "c964c1cc-3116-4e7a-af3b-c5f27d85cb89": {
+    "en": "Who is more likely to get homesick on the second day of a vacation?",
+    "text": "Qui est le plus susceptible d'avoir envie de rentrer dès le deuxième jour des vacances ?"
+  },
+  "abf2f175-2529-40e3-bea4-ae476eb39a6e": {
+    "en": "Who is more likely to remember every detail of a fight from two years ago?",
+    "text": "Qui est le plus susceptible de se souvenir de chaque détail d'une dispute d'il y a deux ans ?"
+  },
+  "2ea1c0c7-ae14-47fd-a2e4-7e128c4113aa": {
+    "en": "Who is more likely to start packing the night before and still forget something important?",
+    "text": "Qui est le plus susceptible de faire sa valise la veille et d'oublier quand même un truc important ?"
+  },
+  "d67d6226-e9f4-4337-bbe8-bce9ed1413ca": {
+    "en": "Who is more likely to say \"five more minutes\" and then sleep through the alarm?",
+    "text": "Qui est le plus susceptible de dire « Encore cinq minutes » et de ne même pas entendre le réveil ?"
+  },
+  "9a4d76a5-947f-4375-b5e6-942ca6429c66": {
+    "en": "Who is more likely to get quiet when they're actually angry?",
+    "text": "Qui est le plus susceptible de se taire quand la colère monte vraiment ?"
+  },
+  "12229735-d441-4d8e-909f-eed3fb07d3ac": {
+    "en": "Who is more likely to apologize first just to end the fight, even if they don't feel wrong?",
+    "text": "Qui est le plus susceptible de s'excuser en premier juste pour clore la dispute, même sans se sentir en tort ?"
+  },
+  "5a3744c7-218a-47d5-8687-6c28f535b8f1": {
+    "en": "Who is more likely to make a huge plan and then cancel it the day before?",
+    "text": "Qui est le plus susceptible de prévoir un grand projet et de tout annuler la veille ?"
+  },
+  "65f0f078-608b-4705-8278-e156b0ed2695": {
+    "en": "Who is more likely to keep score of who did more housework this week?",
+    "text": "Qui est le plus susceptible de compter qui a fait le plus de ménage cette semaine ?"
+  },
+  "b3b45e54-a02c-4dab-ac3c-e81e6e89bdfb": {
+    "en": "Who is more likely to say \"I told you so\" without saying the words?",
+    "text": "Qui est le plus susceptible de faire comprendre « Je te l'avais bien dit » sans prononcer les mots ?"
+  },
+  "0bac79ab-8f43-44cd-b06b-2f7241ffd931": {
+    "en": "Who is more likely to notice a tiny change in the other person's mood instantly?",
+    "text": "Qui est le plus susceptible de remarquer tout de suite le moindre changement d'humeur de l'autre ?"
+  },
+  "f0b70583-c6dd-446d-94d8-71daa840c366": {
+    "en": "Who is more likely to keep scrolling in bed long after saying \"I'm going to sleep\"?",
+    "text": "Qui est le plus susceptible de scroller au lit bien après avoir dit « Je vais dormir » ?"
+  },
+  "1f756aad-d6ea-4c7f-8372-d7b2f4946a9e": {
+    "en": "Who is more likely to turn a small inconvenience into a life crisis?",
+    "text": "Qui est le plus susceptible de faire d'un petit contretemps une crise existentielle ?"
+  },
+  "40f26789-09cf-4be6-a1c8-6e597beda283": {
+    "en": "Who is more likely to secretly rewatch the same comfort show for the tenth time?",
+    "text": "Qui est le plus susceptible de revoir en cachette sa série doudou pour la dixième fois ?"
+  },
+  "563e77ec-7d1e-4c04-a6ed-e5585bf5a819": {
+    "en": "Who is more likely to ask \"are you mad at me?\" when nothing is wrong?",
+    "text": "Qui est le plus susceptible de demander « Tu m'en veux ? » alors que tout va bien ?"
+  },
+  "ab7e9a9d-f140-4c10-8bcd-3ed69316edd5": {
+    "en": "Who is more likely to replay a conversation in their head for hours after it ends?",
+    "text": "Qui est le plus susceptible de repasser une conversation en boucle dans sa tête pendant des heures ?"
+  },
+  "8e1f26f5-c569-4f83-95d9-6a71835ce016": {
+    "en": "Who is more likely to say \"I'm not hungry\" and then eat half of the other person's food?",
+    "text": "Qui est le plus susceptible de dire « J'ai pas faim » puis de manger la moitié de l'assiette de l'autre ?"
+  },
+  "e01dd6c0-4124-49e3-ae46-9ab21287827b": {
+    "en": "Who is more likely to get defensive when they know they're wrong?",
+    "text": "Qui est le plus susceptible de se braquer tout en sachant avoir tort ?"
+  },
+  "c213166f-c45f-4cf7-9a52-d5a9d718ffbc": {
+    "en": "Who is more likely to start cleaning the whole house when they're stressed?",
+    "text": "Qui est le plus susceptible de faire le grand ménage dès que le stress monte ?"
+  },
+  "78e224aa-6802-4856-b008-ceeb432beffa": {
+    "en": "Who is more likely to insist they don't care, then clearly care a lot?",
+    "text": "Qui est le plus susceptible de jurer que ça lui est égal, puis de montrer clairement le contraire ?"
+  },
+  "b2071d71-215e-4a7b-a10e-52ab0b49e991": {
+    "en": "Who is more likely to get jealous of the other person's friends?",
+    "text": "Qui est le plus susceptible de ressentir de la jalousie envers les amis de l'autre ?"
+  },
+  "1be2e9b3-bca8-4974-9412-e4e88dc058c9": {
+    "en": "Who is more likely to get emotional over a random video on their phone?",
+    "text": "Qui est le plus susceptible de se laisser émouvoir par n'importe quelle vidéo sur son téléphone ?"
+  },
+  "a7a12b95-af3c-466a-921b-be8be2ac8d0b": {
+    "en": "Who is more likely to buy something expensive and then panic about the money?",
+    "text": "Qui est le plus susceptible d'acheter un truc cher puis de paniquer pour son compte en banque ?"
+  },
+  "e4c7d226-78cd-4ac5-b290-c39e1f38b7ec": {
+    "en": "Who is more likely to turn every story into a story about themselves?",
+    "text": "Qui est le plus susceptible de ramener chaque histoire à sa petite personne ?"
+  },
+  "5addc2ca-96e5-49ab-8010-ad64fedaacac": {
+    "en": "Who is more likely to say \"whatever you want\" and then hate the choice?",
+    "text": "Qui est le plus susceptible de dire « Comme tu veux » puis de détester le choix ?"
+  },
+  "abf02c68-9790-4e2c-b340-72d2d792f5f7": {
+    "en": "Who is more likely to keep a screenshot of a conversation \"just in case\"?",
+    "text": "Qui est le plus susceptible de garder une capture d'écran d'une conversation « au cas où » ?"
+  },
+  "cc850bef-b2f0-420c-90af-dfa940099917": {
+    "en": "Who is more likely to get weirdly competitive during a board game?",
+    "text": "Qui est le plus susceptible de prendre un jeu de société beaucoup trop au sérieux ?"
+  },
+  "ff768eb9-db7f-4d8e-b8aa-30b701aea05a": {
+    "en": "Who is more likely to turn a chill night in into a full productivity spiral?",
+    "text": "Qui est le plus susceptible de transformer une soirée cocooning en frénésie de productivité ?"
+  },
+  "af93822a-0c53-4b1c-b3e7-71d034b5c7c7": {
+    "en": "Who is more likely to fall asleep during a movie they chose?",
+    "text": "Qui est le plus susceptible de s'endormir devant un film de son propre choix ?"
+  },
+  "a51ba323-4a38-4332-8546-8e83fd7b9405": {
+    "en": "Who is more likely to spend too much on a trip and call it \"worth it\"?",
+    "text": "Qui est le plus susceptible de trop dépenser en voyage et de dire « Ça valait le coup » ?"
+  },
+  "9654a2e3-d0b3-42b3-b19e-66e6f81fec2f": {
+    "en": "Who is more likely to talk to strangers like they've known them for years?",
+    "text": "Qui est le plus susceptible de parler à des inconnus comme à de vieux amis ?"
+  },
+  "40395843-b35b-4ef5-830d-0725b11eef03": {
+    "en": "Who is more likely to get obsessed with a new hobby for two weeks and then quit?",
+    "text": "Qui est le plus susceptible de se passionner deux semaines pour un nouveau hobby, puis de tout lâcher ?"
+  },
+  "7ecdd878-4cfe-401a-8c5b-10e6db51a254": {
+    "en": "Who is more likely to be late even when they left early?",
+    "text": "Qui est le plus susceptible d'arriver en retard même en partant en avance ?"
+  },
+  "adb542ee-f2c1-4358-8825-0d141511b42d": {
+    "en": "Who is more likely to cry at the end of a good book?",
+    "text": "Qui est le plus susceptible de pleurer à la fin d'un bon livre ?"
+  },
+  "4e446a51-786f-4586-ad07-519b180d8c42": {
+    "en": "Who is more likely to get road rage in traffic?",
+    "text": "Qui est le plus susceptible de péter un câble dans les bouchons ?"
+  },
+  "8bcd11a8-99a3-4ba1-a563-8b655791384c": {
+    "en": "Who is more likely to order dessert even after saying they're full?",
+    "text": "Qui est le plus susceptible de prendre un dessert même après avoir dit « je n'ai plus faim » ?"
+  },
+  "248ec590-bdc9-449d-81cf-9bc4a9050ec5": {
+    "en": "Who is more likely to quit their job on a random Tuesday?",
+    "text": "Qui est le plus susceptible de démissionner un mardi comme les autres ?"
+  },
+  "6229c9a8-b0df-4148-92b9-b46f8effc807": {
+    "en": "Who is more likely to move to another country with one week's notice?",
+    "text": "Qui est le plus susceptible de partir vivre à l'étranger avec une semaine de préavis ?"
+  },
+  "378122bc-967c-49bf-95fd-31438a92d9ea": {
+    "en": "Who is more likely to change careers completely after 30?",
+    "text": "Qui est le plus susceptible de changer complètement de carrière après 30 ans ?"
+  },
+  "1e03ae0b-c194-4eab-a587-d9d86e3ebaa8": {
+    "en": "Who is more likely to adopt a street animal on the spot?",
+    "text": "Qui est le plus susceptible d'adopter un animal errant sur un coup de tête ?"
+  },
+  "a00d0698-fa36-4a7c-85e2-a62d28eaac98": {
+    "en": "Who is more likely to stay up all night finishing a project?",
+    "text": "Qui est le plus susceptible de passer une nuit blanche pour finir un projet ?"
+  },
+  "e2e2c3a2-03b1-48c9-ab84-a6ec89c6a52c": {
+    "en": "Who is more likely to fall for a scam email for half a second?",
+    "text": "Qui est le plus susceptible de croire une demi-seconde à un mail d'arnaque ?"
+  },
+  "037e86f0-d0c3-44be-b4c9-a78c50a1abc6": {
+    "en": "Who is more likely to start a diet and quit on day two?",
+    "text": "Qui est le plus susceptible de commencer un régime et de lâcher dès le deuxième jour ?"
+  },
+  "a4402031-dc42-4fa5-97a3-23620e6f244f": {
+    "en": "Who is more likely to dramatize everything when they get sick?",
+    "text": "Qui est le plus susceptible de tout dramatiser au moindre rhume ?"
+  },
+  "2b61e94c-bf37-4ffd-a056-7356cde6da96": {
+    "en": "Who is more likely to order takeout every day?",
+    "text": "Qui est le plus susceptible de commander à manger tous les jours ?"
+  },
+  "c767105b-f2b7-4892-a88b-d49b4314bb9a": {
+    "en": "Who is more addicted to caffeine?",
+    "text": "Qui est le plus accro à la caféine ?"
+  },
+  "5577e0b8-fba0-4567-a32a-57b4baae6446": {
+    "en": "Who loves the other more?",
+    "text": "Qui aime le plus l'autre ?"
+  },
+  "92a618fc-953d-41e0-9084-5fc824507e1e": {
+    "en": "Who is more likely to trust people too quickly?",
+    "text": "Qui est le plus susceptible de faire confiance aux gens trop vite ?"
+  },
+  "28d535c7-4fc3-424f-b47f-a52ba6c480b4": {
+    "en": "Who is more likely to make new friends easily?",
+    "text": "Qui est le plus susceptible de se faire de nouveaux amis facilement ?"
+  },
+  "46e4f036-7243-431d-9556-c2463016bbae": {
+    "en": "Who is more likely to quit a new job after one week?",
+    "text": "Qui est le plus susceptible de démissionner d'un nouveau job au bout d'une semaine ?"
+  },
+  "b8948f80-02b0-486d-82bc-8cd64938fd09": {
+    "en": "Who is more likely to leave dirty laundry on the floor for days?",
+    "text": "Qui est le plus susceptible de laisser traîner son linge sale par terre pendant des jours ?"
+  },
+  "19e1f219-e34a-4283-b0c8-c23eb1956742": {
+    "en": "Who is more likely to get emotionally attached to a random object?",
+    "text": "Qui est le plus susceptible de s'attacher à un objet complètement banal ?"
+  },
+  "47904874-db38-452c-b6d7-4c08f9e79caf": {
+    "en": "Who is more stubborn?",
+    "text": "Qui a la tête la plus dure ?"
+  },
+  "d484fa32-88fa-46b5-a952-e8cb5f7fb977": {
+    "en": "Who is more likely to get lost in a mall they've been to before?",
+    "text": "Qui est le plus susceptible de se perdre dans un centre commercial pourtant familier ?"
+  },
+  "bdfdc66a-7384-4d96-8943-e9d91298a927": {
+    "en": "Who is more likely to spoil a movie or show by accident?",
+    "text": "Qui est le plus susceptible de spoiler un film ou une série sans le faire exprès ?"
+  },
+  "49b04037-7707-455c-9300-f856e6d5845e": {
+    "en": "Who is messier?",
+    "text": "Qui met le plus de bazar ?"
+  },
+  "4c972345-30c2-4275-9be7-67c1232f43df": {
+    "en": "Who is more likely to laugh at the wrong moment?",
+    "text": "Qui est le plus susceptible de rire au mauvais moment ?"
+  },
+  "651bedb2-7e7d-4048-9b42-2bb4f9a76c14": {
+    "en": "Who is more likely to never feel like they have enough clothes?",
+    "text": "Qui est le plus susceptible d'avoir toujours l'impression de n'avoir rien à se mettre ?"
+  },
+  "6cd676d1-f008-4a00-859b-292575683562": {
+    "en": "Who is more likely to be late to work every morning?",
+    "text": "Qui est le plus susceptible d'arriver en retard au travail tous les matins ?"
+  },
+  "b22594da-cee2-49c1-8486-292269aaca1c": {
+    "en": "Who is more likely to scroll for 8 hours a day?",
+    "text": "Qui est le plus susceptible de scroller 8 heures par jour ?"
+  },
+  "ac62b153-0887-4efe-8ffd-ae6d96e0c0ab": {
+    "en": "Who is more likely to constantly bring up old events?",
+    "text": "Qui est le plus susceptible de ressortir sans arrêt de vieilles histoires ?"
+  },
+  "594b03e2-ed6b-4f3f-aff7-b75ad6018c15": {
+    "en": "Who is more likely to constantly need space in the relationship?",
+    "text": "Qui est le plus susceptible d'avoir sans cesse besoin d'espace dans le couple ?"
+  },
+  "1ea418cc-7f4a-4c58-80e9-8fc8225aab15": {
+    "en": "Who is more likely to need more compliments every day?",
+    "text": "Qui est le plus susceptible d'avoir besoin de toujours plus de compliments au quotidien ?"
+  },
+  "78748adf-0a3c-4007-af1e-0345d6d317fa": {
+    "en": "Who is more likely to get very rich one day?",
+    "text": "Qui est le plus susceptible de faire fortune un jour ?"
+  },
+  "5b530d79-93e3-40d6-a3f0-6de083fda986": {
+    "en": "Who is more likely to start a sentence with \"no offense, but...\"?",
+    "text": "Qui est le plus susceptible de commencer une phrase par « sans vouloir te vexer, mais… » ?"
+  },
+  "a7a1262e-c30e-4f10-8bcc-feaf1669220f": {
+    "en": "Who is more likely to take forever to pick what to watch?",
+    "text": "Qui est le plus susceptible de mettre une éternité à choisir quoi regarder ?"
+  },
+  "9be20215-668e-4b0c-8a8e-fa0b841b62e6": {
+    "en": "Who is more dramatic?",
+    "text": "Qui en fait le plus des tonnes ?"
+  },
+  "fdfa3701-532a-4c58-a4ce-a8fbc0df87ce": {
+    "en": "Who is more likely to forget why they walked into a room?",
+    "text": "Qui est le plus susceptible d'entrer dans une pièce et d'oublier pourquoi ?"
+  },
+  "ec2a2eaa-bc93-484e-b421-0757f04a7ddf": {
+    "en": "Who is more likely to get competitive about who slept less?",
+    "text": "Qui est le plus susceptible de faire un concours de qui a le moins dormi ?"
+  },
+  "18e7a18b-c48c-4d85-bf10-c9125e351b19": {
+    "en": "Who is more likely to say \"I'll do it tomorrow\" for a week straight?",
+    "text": "Qui est le plus susceptible de dire « je le ferai demain » pendant une semaine entière ?"
+  },
+  "7ab6aa59-ff73-475a-9401-0ea233798194": {
+    "en": "Who is more likely to get way too invested in a reality show?",
+    "text": "Qui est le plus susceptible de se prendre beaucoup trop au jeu d'une téléréalité ?"
+  },
+  "20bc5de9-b908-4f78-9cdf-f7f764c5261e": {
+    "en": "Who is more impatient?",
+    "text": "Qui a le moins de patience ?"
+  },
+  "aee4451c-dfa3-4da1-9f9d-c74099966415": {
+    "en": "Who is more likely to get very angry when hungry?",
+    "text": "Qui est le plus susceptible de s'énerver dès que la faim se fait sentir ?"
+  },
+  "6ca900a2-104d-4e5f-8375-0662f386df6e": {
+    "en": "Who is more likely to get hungry again an hour after eating?",
+    "text": "Qui est le plus susceptible d'avoir déjà faim une heure après avoir mangé ?"
+  },
+  "f8a97f95-b0fb-4c11-94e6-a827a386069c": {
+    "en": "Who is more likely to lose their keys at least once a week?",
+    "text": "Qui est le plus susceptible de perdre ses clés au moins une fois par semaine ?"
+  },
+  "c23fc8dc-b4b1-4849-a570-2dd748ad6400": {
+    "en": "Who is more likely to get offended by a joke too easily?",
+    "text": "Qui est le plus susceptible de se vexer trop facilement pour une blague ?"
+  },
+  "413300fb-62e5-415e-a54d-fc89cb62865d": {
+    "en": "Who is more likely to stay friends with an ex?",
+    "text": "Qui est le plus susceptible de rester en bons termes avec un ex ?"
+  },
+  "f64a5030-1b69-46e9-ae38-14dd5afdf649": {
+    "en": "Who is more likely to start dancing when a good song comes on in public?",
+    "text": "Qui est le plus susceptible de se mettre à danser en public dès qu'une bonne chanson passe ?"
+  },
+  "9a2f1444-dd4b-409f-8442-4bf13cb6535b": {
+    "en": "Who is more likely to hold a grudge against a fictional character?",
+    "text": "Qui est le plus susceptible de garder rancune à un personnage de fiction ?"
+  },
+  "156eade8-400a-4673-82be-423e5f58252d": {
+    "en": "Who is more likely to check the fridge three times hoping new food appeared?",
+    "text": "Qui est le plus susceptible d'ouvrir le frigo trois fois en espérant y trouver quelque chose de nouveau ?"
+  },
+  "90949a64-da3b-4f4f-912d-2aedddbe08e2": {
+    "en": "Who is more socially awkward?",
+    "text": "Qui est le plus susceptible d'être mal à l'aise en société ?"
+  },
+  "f3b96e52-1cc1-456d-93c3-00e897de9ab4": {
+    "en": "Who is more likely to fall asleep mid-conversation?",
+    "text": "Qui est le plus susceptible de s'endormir en pleine conversation ?"
+  },
+  "39db58d0-afd0-4ed5-b281-206497633046": {
+    "en": "Who is more likely to send a paragraph-long text when a short one would do?",
+    "text": "Qui est le plus susceptible d'envoyer un pavé alors qu'un petit message aurait suffi ?"
+  },
+  "247467d9-fb35-4a9c-b528-96c9d9a7baa1": {
+    "en": "Who is more forgetful?",
+    "text": "Qui est le plus susceptible d'oublier tout et n'importe quoi ?"
+  },
+  "05be5d5c-9f83-46d1-82be-9abd3afdc926": {
+    "en": "Who is more likely to turn a simple errand into a three-hour adventure?",
+    "text": "Qui est le plus susceptible de transformer une simple course en aventure de trois heures ?"
+  },
+  "b65ea2dc-a944-46ed-997e-646dd2415538": {
+    "en": "Who is more likely to buy concert tickets and then regret the price?",
+    "text": "Qui est le plus susceptible d'acheter des places de concert puis de regretter le prix ?"
+  },
+  "aa333593-b1fd-432e-85eb-903139ce8f82": {
+    "en": "Who is more likely to talk through an entire movie?",
+    "text": "Qui est le plus susceptible de parler pendant tout le film ?"
+  },
+  "4332637b-c390-40bb-9fb6-ea03fe1a3e0e": {
+    "en": "Who is more likely to get lost in a parking garage?",
+    "text": "Qui est le plus susceptible de se perdre dans un parking souterrain ?"
+  },
+  "6dd82e26-c42d-41e2-a068-009cb51942d7": {
+    "en": "Who is more likely to start a fight with customer service?",
+    "text": "Qui est le plus susceptible de se prendre la tête avec le service client ?"
+  },
+  "6a7c728f-1ebc-4c0d-8a83-a1caa509d3b0": {
+    "en": "Who is more likely to forget where they parked the car?",
+    "text": "Qui est le plus susceptible d'oublier où la voiture est garée ?"
+  },
+  "cda710ec-f385-4b4e-a762-f7c0dccd32df": {
+    "en": "Who is more likely to never find what they're looking for?",
+    "text": "Qui est le plus susceptible de chercher partout sans jamais rien trouver ?"
+  },
+  "399738f6-59da-4647-9096-5be53561b51d": {
+    "en": "Who is more likely to lose the car keys?",
+    "text": "Qui est le plus susceptible de perdre les clés de la voiture ?"
+  },
+  "5a908d0b-5678-4228-8a13-33b8aff90f13": {
+    "en": "Who is more likely to leave the house messy for two weeks straight?",
+    "text": "Qui est le plus susceptible de laisser la maison en bazar pendant deux semaines d'affilée ?"
+  },
+  "348a9869-f1c1-44f3-986f-692088ef16fc": {
+    "en": "Who is more likely to actually manage waking up early every morning?",
+    "text": "Qui est le plus susceptible de vraiment réussir à se lever tôt tous les matins ?"
+  },
+  "321b6fd0-a62e-4378-a3d7-3a13a39d86ee": {
+    "en": "Who is more likely to get emotional over a childhood memory out of nowhere?",
+    "text": "Qui est le plus susceptible d'avoir d'un coup la larme à l'œil pour un souvenir d'enfance ?"
+  },
+  "02930f44-8dd1-494d-b2d6-56ef58f50e7b": {
+    "en": "Who is more likely to start a new series at midnight and finish three episodes?",
+    "text": "Qui est le plus susceptible de lancer une nouvelle série à minuit et d'enchaîner trois épisodes ?"
+  },
+  "dbe30509-5c4f-43e2-bebc-c99f512ba1ee": {
+    "en": "Who is more likely to get paranoid about a weird noise in the house?",
+    "text": "Qui est le plus susceptible de se faire des films à cause d'un bruit bizarre dans la maison ?"
+  },
+  "112d8dbd-b53c-4703-9691-2efcc2f374f4": {
+    "en": "Who is more likely to become the DJ of every car ride?",
+    "text": "Qui est le plus susceptible de devenir le DJ de chaque trajet en voiture ?"
+  },
+  "b283991b-2ac1-4c1f-9934-c038282962de": {
+    "en": "Who is more likely to say \"one more episode\" and mean five?",
+    "text": "Qui est le plus susceptible de dire « encore un épisode » et d'en regarder cinq ?"
+  },
+  "cfd55717-f395-45fe-b79a-8904a9dd3c9e": {
+    "en": "Who is more likely to take a million photos and never look at them again?",
+    "text": "Qui est le plus susceptible de prendre mille photos sans jamais les regarder ?"
+  },
+  "37510763-3446-4f2e-b228-578c9433dc22": {
+    "en": "Who is more likely to get nervous before a simple doctor's appointment?",
+    "text": "Qui est le plus susceptible de stresser avant un simple rendez-vous chez le médecin ?"
+  },
+  "9767719d-e57e-4630-ade0-c800a701b44a": {
+    "en": "Who is more likely to become obsessed with a new restaurant for a month?",
+    "text": "Qui est le plus susceptible de devenir accro à un nouveau resto pendant un mois ?"
+  },
+  "2d169a85-7ac9-4ee0-a148-9ed89cd261df": {
+    "en": "Who is more likely to start packing for a trip way too early?",
+    "text": "Qui est le plus susceptible de faire ses valises beaucoup trop tôt avant un voyage ?"
+  },
+  "ffc983ff-c82a-4d2b-aaf9-b2534b0e7779": {
+    "en": "Who is more likely to get weirdly specific about how they like their coffee?",
+    "text": "Qui est le plus susceptible d'avoir des exigences bizarrement précises pour son café ?"
+  },
+  "306342a6-3c4b-4af3-88cf-fa6b188cfa57": {
+    "en": "Who is more likely to fall asleep with the lights on?",
+    "text": "Qui est le plus susceptible de s'endormir avec la lumière allumée ?"
+  },
+  "1a6d5f5f-89a4-44ba-9152-21b5c7c7acaa": {
+    "en": "Who is more likely to wear the same hoodie for a week straight?",
+    "text": "Qui est le plus susceptible de porter le même sweat à capuche toute une semaine ?"
+  },
+  "23ba263d-ac55-4f6b-812f-83f239cb9572": {
+    "en": "Who is more likely to get into a bad mood because of the weather?",
+    "text": "Qui est le plus susceptible de se mettre de mauvaise humeur à cause de la météo ?"
+  },
+  "73d56b41-036e-4663-b690-4b573a66d373": {
+    "en": "Who is more likely to leave wet towels on the bed?",
+    "text": "Qui est le plus susceptible de laisser des serviettes mouillées sur le lit ?"
+  },
+  "7d29e116-823d-4ad8-9681-36d32bd6a288": {
+    "en": "Who is more likely to get scared watching a mildly scary movie?",
+    "text": "Qui est le plus susceptible d'avoir peur devant un film à peine flippant ?"
+  },
+  "b9038aad-86fb-4dcc-904a-223703f4da1b": {
+    "en": "Who is more likely to memorize new songs right away?",
+    "text": "Qui est le plus susceptible de connaître les nouvelles chansons par cœur en un rien de temps ?"
+  },
+  "56a26139-045b-4228-9588-c10819ef527d": {
+    "en": "Who is more likely to eat almost any kind of food?",
+    "text": "Qui est le plus susceptible de manger à peu près de tout ?"
+  },
+  "e4395d05-f9c5-4db8-ad2b-fd858da62922": {
+    "en": "Who is more likely to want to buy everything they see?",
+    "text": "Qui est le plus susceptible de vouloir acheter tout ce qui lui passe sous les yeux ?"
+  },
+  "c4704693-dd64-434d-997f-21b4f43459f7": {
+    "en": "Who is more likely to send a 3-minute voice message instead of a quick text?",
+    "text": "Qui est le plus susceptible d'envoyer un vocal de 3 minutes au lieu d'un petit texto ?"
+  },
+  "080a9ae4-6962-4dc4-9e89-d06ee9766db3": {
+    "en": "Who is more likely to read reviews for half an hour before buying something cheap?",
+    "text": "Qui est le plus susceptible de lire des avis pendant une demi-heure avant d'acheter un truc pas cher ?"
+  },
+  "3429bb59-5d37-4dc8-8f9e-8bc47d42073b": {
+    "en": "Who is more likely to pretend to be on the phone to avoid talking to someone?",
+    "text": "Qui est le plus susceptible de faire semblant d'être au téléphone pour éviter de parler à quelqu'un ?"
+  },
+  "7dc01a0e-3941-464f-9707-fdd7473c6226": {
+    "en": "Who is more likely to leave a party without saying goodbye to anyone?",
+    "text": "Qui est le plus susceptible de quitter une soirée sans dire au revoir à personne ?"
+  },
+  "eec86832-875d-434b-84ca-35c31801cef8": {
+    "en": "Who is more likely to take a selfie in every elevator mirror?",
+    "text": "Qui est le plus susceptible de faire un selfie dans chaque miroir d'ascenseur ?"
+  },
+  "4bcdf786-9e92-43a1-9eb3-270b1b687272": {
+    "en": "Who is more likely to rehearse an argument in the shower that will never happen?",
+    "text": "Qui est le plus susceptible de répéter sous la douche une dispute qui n'aura jamais lieu ?"
+  },
+  "f3166e62-68dd-4386-aa86-ae9cdd084b3f": {
+    "en": "Who is more likely to finish the movie snacks before the movie even starts?",
+    "text": "Qui est le plus susceptible de finir le pop-corn avant même le début du film ?"
+  },
+  "b32aeb5a-2efe-4fe6-bcfb-2e7646777582": {
+    "en": "Who is more likely to text \"5 minutes away\" while still at home?",
+    "text": "Qui est le plus susceptible d'écrire « j'arrive dans 5 minutes » en étant encore chez soi ?"
+  },
+  "27532cbc-7140-462e-a62e-04f4b0d10bb4": {
+    "en": "Who is more likely to stop to pet every dog on the street?",
+    "text": "Qui est le plus susceptible de s'arrêter pour caresser chaque chien dans la rue ?"
+  },
+  "8cbd6c4d-b711-41e4-8f71-39024e902e35": {
+    "en": "Who is more likely to laugh at their own joke before finishing it?",
+    "text": "Qui est le plus susceptible de rire de sa propre blague avant de la finir ?"
+  },
+  "9e761155-d830-42a8-8f97-7669dccecc01": {
+    "en": "Who is more likely to plan the whole vacation down to the hour?",
+    "text": "Qui est le plus susceptible de planifier les vacances heure par heure ?"
+  },
+  "a3eb24e9-a764-4480-995c-30ee44c563c7": {
+    "en": "Who is more likely to fall asleep in the car ten minutes into a road trip?",
+    "text": "Qui est le plus susceptible de s'endormir en voiture dix minutes après le départ d'un long trajet ?"
+  },
+  "9fcc2208-af9e-4eb4-9c53-794ce71de112": {
+    "en": "Who is more likely to come home from a trip with a suitcase full of souvenirs?",
+    "text": "Qui est le plus susceptible de rentrer de voyage avec une valise pleine de souvenirs ?"
+  },
+  "3827fe8e-9ce1-4ff3-88c9-c49da7c2ea48": {
+    "en": "Who is more likely to keep posting vacation photos weeks after getting home?",
+    "text": "Qui est le plus susceptible de poster des photos de vacances des semaines après le retour ?"
+  }
+}

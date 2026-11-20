@@ -1,0 +1,142 @@
+{
+  "categories": {
+    "just_friends": {
+      "category": "ただの友達",
+      "short": "友達"
+    },
+    "we_just_met": {
+      "category": "出会ったばかり",
+      "short": "出会ったばかり"
+    },
+    "deep_talk": {
+      "category": "深いトーク"
+    },
+    "long_term": {
+      "category": "長続きカップル",
+      "short": "長続き"
+    },
+    "future_talk": {
+      "category": "将来のこと"
+    },
+    "spicy": {
+      "category": "親密さ・つながり",
+      "short": "親密さ"
+    },
+    "know_me_well": {
+      "category": "私のこと知ってる？",
+      "short": "知ってる？"
+    },
+    "know_me_well_hard": {
+      "category": "私のこと知ってる？"
+    },
+    "know_me_well_intimacy": {
+      "category": "私のこと知ってる？"
+    },
+    "trivia_master": {
+      "category": "雑学マスター",
+      "short": "雑学"
+    },
+    "mastermind": {
+      "category": "天才クイズ",
+      "short": "天才"
+    },
+    "who_is_more_likely": {
+      "category": "どっちがしそう？",
+      "short": "どっち？"
+    },
+    "who_is_more_likely_intimacy": {
+      "category": "どっちがしそう？",
+      "short": "どっち？"
+    },
+    "rank_it": {
+      "category": "ランキング",
+      "short": "ランキング"
+    },
+    "rank_it_intimacy": {
+      "category": "ランキング",
+      "short": "ランキング"
+    },
+    "two_truths": {
+      "category": "2つの真実と1つのウソ",
+      "short": "ウソはどれ？"
+    },
+    "daily_analysis": {
+      "category": "今日の分析",
+      "short": "分析"
+    },
+    "daily_love_language": {
+      "category": "ふたりの愛し方",
+      "short": "愛情"
+    },
+    "daily_conflict": {
+      "category": "ケンカしたとき",
+      "short": "ケンカ"
+    },
+    "daily_everyday_life": {
+      "category": "ふたりの日常",
+      "short": "日常"
+    },
+    "daily_trust_jealousy": {
+      "category": "信頼と嫉妬",
+      "short": "信頼"
+    },
+    "daily_future": {
+      "category": "ふたりの将来",
+      "short": "将来"
+    },
+    "daily_money": {
+      "category": "お金の使い方",
+      "short": "お金"
+    },
+    "daily_family_friends": {
+      "category": "家族と友達",
+      "short": "家族"
+    },
+    "daily_intimacy": {
+      "category": "距離感と親密さ",
+      "short": "親密さ"
+    }
+  },
+  "category_groups": {
+    "see_your_match": {
+      "category": "答えて相性をチェック"
+    },
+    "know_each_other": {
+      "category": "お互いのこと、どれだけ知ってる？"
+    },
+    "who_knows_better": {
+      "category": "どっちが物知り？"
+    },
+    "who_is_more_likely": {
+      "category": "どっちがしそう？"
+    },
+    "rank_it": {
+      "category": "ランキング"
+    },
+    "daily_analysis": {
+      "category": "今日の分析"
+    },
+    "two_truths": {
+      "category": "2つの真実と1つのウソ"
+    }
+  },
+  "game_reactions": {
+    "love": "大好き",
+    "laugh": "笑",
+    "kiss": "チュー",
+    "angry": "ムッ",
+    "eye_roll": "あきれ",
+    "fire": "アツい",
+    "shy": "照れ"
+  },
+  "announcements": {
+    "f84bf4da-77b8-4f6f-96e6-beff58570ea5": {
+      "title": "新モード：2つの真実と1つのウソ！",
+      "message": "自分について本当のことを2つ、ウソを1つ書いて、恋人のウソを見破ろう。相手のことをよく知ってるのは？ウソが上手なのは？😏"
+    },
+    "05fc8cad-2351-4fe1-b4b7-6592386fc900": {
+      "title": "新モード：ランキング！",
+      "message": "選択肢を1位から順に並べて、恋人の順番とどれだけ近いかチェックしよう。「ランキング」をプレイするか、「ランキング（親密さ）」でもっと深く。"
+    }
+  }
+}

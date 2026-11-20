@@ -78,6 +78,9 @@ const STYLE: Partial<Record<Lang, string>> = {
   de: styleFile("de"),
   it: styleFile("it"),
   pl: styleFile("pl"),
+  fr: styleFile("fr"),
+  ja: styleFile("ja"),
+  nl: styleFile("nl"),
 };
 
 const MODES: Record<string, string> = {
@@ -120,6 +123,9 @@ type Entry = {
 type CategoryFile = Record<string, Entry>;
 
 async function loadRows(): Promise<Row[]> {
+  // Optional local snapshot (written by `rows-cache`) so many parallel dry-runs don't hit the DB.
+  const cache = process.env.TRANSLATE_ROWS_CACHE;
+  if (cache && fs.existsSync(cache)) return JSON.parse(fs.readFileSync(cache, "utf8"));
   const { rows } = await getAdminPool().query<Row>(
     `SELECT q.id, q.category_id, c.group_id, q.texts, q.question_type, q.answers, q.correct_answer
        FROM questions q LEFT JOIN categories c ON c.id = q.category_id
@@ -248,6 +254,19 @@ function grammarErrors(strings: string[]): string[] {
     if (has(/(?<![\p{L}\p{N}])(twój|twoja|twojego|twoim|twojej) (partner|partnerka|partnera|partnerki|chłopak|dziewczyna)(?![\p{L}\p{N}])/iu)) {
       errors.push('say "twoja druga połówka", not partner/partnerka/chłopak/dziewczyna');
     }
+  }
+  if (LANG === "fr") {
+    if (has(/(?<![\p{L}\p{N}])(ton|ta) (partenaire|copain|copine|chéri|chérie|mec|meuf)(?![\p{L}\p{N}])/iu)) errors.push('say "ta moitié" / "ton amour", not partenaire/copain/copine');
+    if (has(/(?<![\p{L}\p{N}])(d|qu|l)['’]\{\{playerName\}\}/iu)) errors.push('no elision before {{playerName}}: write "de {{playerName}}", "que {{playerName}}"');
+    if (has(/[^\s\u00a0\u202f?!][?!;]/u)) errors.push("French needs a space before ? ! ;");
+  }
+  if (LANG === "nl") {
+    if (has(/\{\{playerName\}\}['’]?s(?![\p{L}\p{N}])/u)) errors.push('no genitive -s on {{playerName}}; use "van {{playerName}}"');
+    if (has(/(?<![\p{L}\p{N}])je (vriendje|vriendinnetje|vriendin|man|vrouw)(?![\p{L}\p{N}])/iu)) errors.push('say "je partner" / "je lief", not vriend(in)/man/vrouw');
+  }
+  if (LANG === "ja") {
+    if (has(/彼氏|彼女|あなた|お前|旦那|奥さん/u)) errors.push("no 彼氏/彼女/あなた/お前/旦那/奥さん; use 恋人/相手 or drop the pronoun");
+    if (has(/\{\{playerName\}\}(さん|くん|君|ちゃん|様)/u)) errors.push("no honorific after {{playerName}}");
   }
   return errors;
 }
@@ -715,6 +734,16 @@ const commands: Record<string, () => Promise<unknown>> = {
   apply,
   source,
   import: importDrafts,
+  "rows-cache": async () => {
+    const file = flag("out") ?? "translations/_source/rows-cache.json";
+    const { rows } = await getAdminPool().query<Row>(
+      `SELECT q.id, q.category_id, c.group_id, q.texts, q.question_type, q.answers, q.correct_answer
+         FROM questions q LEFT JOIN categories c ON c.id = q.category_id
+        ORDER BY q.category_id, q.order_index NULLS LAST, q.created_at`,
+    );
+    fs.writeFileSync(file, JSON.stringify(rows));
+    console.log(`wrote ${rows.length} rows to ${file}`);
+  },
 };
 const run = commands[command];
 if (!run) {

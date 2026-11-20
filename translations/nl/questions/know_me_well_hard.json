@@ -1,0 +1,957 @@
+{
+  "02d1eea2-7558-454e-9560-9e4115e31dc5": {
+    "en": "When someone they love is hurting, what does {{playerName}} do?",
+    "text": "Iemand dierbaars heeft het moeilijk. Wat doet {{playerName}}?",
+    "answers": [
+      "Probeert het op te lossen",
+      "Blijft gewoon bij diegene",
+      "Maakt diegene aan het lachen",
+      "Geeft ruimte"
+    ]
+  },
+  "8f65f3e0-e029-41cb-8233-1c0073efccc3": {
+    "en": "After you park, {{playerName}} doesn't get out right away. What are they doing?",
+    "text": "Je hebt geparkeerd, maar {{playerName}} stapt niet meteen uit. Wat is er aan de hand?",
+    "answers": [
+      "Zit op de telefoon",
+      "Geniet van de stilte",
+      "Zoent jou"
+    ]
+  },
+  "b6802604-bee1-44ef-b402-3d614299e874": {
+    "en": "You both just got home. {{playerName}} still has their shoes on. What are they doing?",
+    "text": "Jullie zijn net thuis. {{playerName}} heeft de schoenen nog aan. Wat is er aan de hand?",
+    "answers": [
+      "Zit op de telefoon",
+      "Wacht tot jij eerst naar binnen gaat",
+      "Wacht op een kus"
+    ]
+  },
+  "525b7a39-af6b-443c-8d4b-e04df6bb666d": {
+    "en": "The movie ended. {{playerName}} hasn't moved. What are they doing?",
+    "text": "De film is afgelopen. {{playerName}} beweegt niet. Wat is er aan de hand?",
+    "answers": [
+      "Zit er nog helemaal in",
+      "Kijkt naar jou",
+      "Zit al op de telefoon"
+    ]
+  },
+  "87a626ec-edc2-4c73-8b8c-2316370de28c": {
+    "en": "{{playerName}} opened the fridge and is just standing there. What are they doing?",
+    "text": "{{playerName}} trekt de koelkast open en blijft daar staan. Wat is er aan de hand?",
+    "answers": [
+      "Zoekt echt iets",
+      "Staart in het niets",
+      "Wacht op jou"
+    ]
+  },
+  "45ffa91d-cf8c-4de3-b9cc-35eecf07a0e8": {
+    "en": "You asked {{playerName}} something. They smiled and haven't answered. What are they doing?",
+    "text": "Je vraagt {{playerName}} iets. Je krijgt een glimlach, maar geen antwoord. Wat is er aan de hand?",
+    "answers": [
+      "Denkt na",
+      "Zit je te plagen",
+      "Wil eerst een kus"
+    ]
+  },
+  "331f8ded-e21e-4f4a-8c54-5eff81ad09d8": {
+    "en": "{{playerName}} has been in the bathroom a while. The water's running. What are they doing?",
+    "text": "{{playerName}} zit al een tijdje in de badkamer. De kraan loopt. Wat is er aan de hand?",
+    "answers": [
+      "Maakt zich echt klaar",
+      "Zit op de telefoon",
+      "Wacht tot jij binnenkomt"
+    ]
+  },
+  "d4a67a3f-58fb-4dfb-a9fa-7ccbd119b76a": {
+    "en": "If you roast {{playerName}} in front of their closest friends, what do they do?",
+    "text": "Je neemt {{playerName}} flink op de hak bij de beste vrienden van {{playerName}}. Wat dan?",
+    "answers": [
+      "Lacht en kaatst de bal terug",
+      "Wordt stil",
+      "Lacht nu, begint er later over"
+    ]
+  },
+  "0fa9d630-8f79-407e-b467-c6619e937183": {
+    "en": "If you leave {{playerName}}'s flirty text on read for a few hours, what do they do?",
+    "text": "{{playerName}} stuurt je een flirterig berichtje en je laat het een paar uur op gelezen staan. Wat dan?",
+    "answers": [
+      "Stuurt er nog een",
+      "Doet alsof het niks was",
+      "Wacht en doet dan normaal"
+    ]
+  },
+  "72f44c82-e80d-4048-8907-88aa16325526": {
+    "en": "If {{playerName}} loses to you at something they take seriously, what do they do?",
+    "text": "Je verslaat {{playerName}} in iets wat {{playerName}} heel serieus neemt. Wat dan?",
+    "answers": [
+      "Eist revanche",
+      "Zit even te mokken",
+      "Feliciteert je en meent het"
+    ]
+  },
+  "0f63d809-97bc-4a06-af87-dcdf7259d217": {
+    "en": "If you correct {{playerName}} in front of other people, what do they do?",
+    "text": "Je verbetert {{playerName}} waar anderen bij zijn. Wat doet {{playerName}}?",
+    "answers": [
+      "Laat het erbij",
+      "Maakt een grapje, maar het steekt",
+      "Gaat er meteen tegenin"
+    ]
+  },
+  "0411fe10-be71-42ce-96e0-f0b4b8f30d01": {
+    "en": "If you eat the last bite {{playerName}} was saving, what do they do?",
+    "text": "Je eet het laatste hapje op dat {{playerName}} had bewaard. Wat dan?",
+    "answers": [
+      "Wordt echt boos",
+      "Maakt er voor de grap een drama van",
+      "Merkt het niet"
+    ]
+  },
+  "cbf55a0d-77d9-49b6-8b18-df9bfec9721b": {
+    "en": "If you fall asleep while {{playerName}} is mid-story, what do they do?",
+    "text": "Je valt in slaap terwijl {{playerName}} midden in een verhaal zit. Wat dan?",
+    "answers": [
+      "Maakt je wakker en vertelt verder",
+      "Wordt stil en laat je slapen",
+      "Filmt het om je later mee te plagen"
+    ]
+  },
+  "9793ce24-d328-401c-9858-5e3c9e5253d7": {
+    "en": "If you show up to {{playerName}}'s family's house empty-handed, what do they do?",
+    "text": "Je komt met lege handen aan bij de familie van {{playerName}}. Wat dan?",
+    "answers": [
+      "Springt voor je in",
+      "Kijkt je veelbetekenend aan",
+      "Vindt het totaal geen punt"
+    ]
+  },
+  "db4d9102-32bd-44e6-afa1-7eae78199ee6": {
+    "en": "If you keep using a word {{playerName}} hates, on purpose, what do they do?",
+    "text": "Je gebruikt expres steeds een woord waar {{playerName}} een hekel aan heeft. Wat dan?",
+    "answers": [
+      "Lacht er elke keer om",
+      "Vraagt je serieus te stoppen",
+      "Gaat het zelf ook gebruiken"
+    ]
+  },
+  "c00aa094-a9f0-4858-a29d-551c1cd3ca18": {
+    "en": "If you cancel on {{playerName}} last minute, what do they do?",
+    "text": "Je zegt op het laatste moment af bij {{playerName}}. Wat dan?",
+    "answers": [
+      "Zegt “geeft niks” en meent het",
+      "Zegt “geeft niks”, maar het geeft wel",
+      "Vraagt meteen waarom"
+    ]
+  },
+  "008d5998-0535-4df5-a12b-0f96ad8e625f": {
+    "en": "If you borrow {{playerName}}'s clothes without asking, what do they do?",
+    "text": "Je leent kleren van {{playerName}} zonder het te vragen. Wat dan?",
+    "answers": [
+      "Ziet je er graag in",
+      "Wil ze nu meteen terug",
+      "Merkt het niet"
+    ]
+  },
+  "d01e1cff-bb0c-409a-a1f2-125ec6c79f76": {
+    "en": "If you're late to meet {{playerName}} and you don't text, what do they do?",
+    "text": "Je bent te laat voor een afspraak met {{playerName}} en laat niks van je horen. Wat dan?",
+    "answers": [
+      "Stuurt “Waar ben je?”",
+      "Wacht en zegt niks",
+      "Gaat weg"
+    ]
+  },
+  "30c1ecc9-a29f-474c-8fa8-3e13ffb9ef91": {
+    "en": "If you pick up {{playerName}}'s phone and start scrolling, what do they do?",
+    "text": "Je pakt de telefoon van {{playerName}} en begint te scrollen. Wat dan?",
+    "answers": [
+      "Vindt het prima",
+      "Pakt hem rustig terug",
+      "Pakt hem allesbehalve rustig terug"
+    ]
+  },
+  "0d9143dd-9554-4015-9d7c-8a689f8ac7ca": {
+    "en": "If you invite someone {{playerName}} doesn't like, what do they do?",
+    "text": "Je nodigt iemand uit die {{playerName}} niet mag. Wat dan?",
+    "answers": [
+      "Legt zich erbij neer",
+      "Zegt het hardop",
+      "Is de hele tijd stil"
+    ]
+  },
+  "fce90c77-7a35-44c0-a40a-406848fd42f4": {
+    "en": "It starts pouring and there's no umbrella. What does {{playerName}} do?",
+    "text": "Het begint te stortregenen en er is geen paraplu. Wat doet {{playerName}}?",
+    "answers": [
+      "Zet het op een rennen",
+      "Wacht tot het over is"
+    ]
+  },
+  "aa68e98e-f9ba-4240-82d9-233e6d3a1ddd": {
+    "en": "{{playerName}}'s coffee comes out wrong. What do they do?",
+    "text": "De koffie van {{playerName}} is niet goed gemaakt. Wat dan?",
+    "answers": [
+      "Stuurt hem terug",
+      "Drinkt hem toch op"
+    ]
+  },
+  "c9db61c9-a1ab-40e4-8d0c-92dea5576a34": {
+    "en": "{{playerName}} spills something on their shirt right before going out. What do they do?",
+    "text": "Vlak voor het weggaan morst {{playerName}} iets op het shirt. Wat dan?",
+    "answers": [
+      "Trekt iets anders aan",
+      "Gaat gewoon zo"
+    ]
+  },
+  "4e97ab2e-b06b-44ce-b8db-e15db3bb987f": {
+    "en": "{{playerName}} just missed the bus. What do they do?",
+    "text": "{{playerName}} mist net de bus. Wat dan?",
+    "answers": [
+      "Rent erachteraan",
+      "Wacht op de volgende"
+    ]
+  },
+  "d339e7bd-ebce-4481-ad0a-e8b8ed05442a": {
+    "en": "The Wi-Fi dies in the middle of something {{playerName}} is watching. What do they do?",
+    "text": "De wifi valt uit terwijl {{playerName}} iets aan het kijken is. Wat dan?",
+    "answers": [
+      "Gaat de strijd aan met de router",
+      "Geeft het op en doet iets anders"
+    ]
+  },
+  "ac0f3027-b51a-426f-b6e9-6a3b4aa38199": {
+    "en": "{{playerName}} gets a parking ticket. What do they do?",
+    "text": "{{playerName}} krijgt een parkeerboete. Wat dan?",
+    "answers": [
+      "Wordt boos",
+      "Lacht het weg"
+    ]
+  },
+  "c3ec2d4b-d284-4714-8e9e-d2da5ef9c6d7": {
+    "en": "{{playerName}}'s alarm didn't go off. They're already 20 minutes late. What do they do?",
+    "text": "De wekker van {{playerName}} ging niet af. Al 20 minuten te laat. Wat dan?",
+    "answers": [
+      "Slaat het ontbijt over en rent",
+      "Stuurt “ik ben wat later” en doet rustig aan",
+      "Belt en geeft het eerlijk toe"
+    ]
+  },
+  "94c90555-87e2-4c29-9117-a323c27d95c4": {
+    "en": "When {{playerName}} is late, what's the first thing they blame?",
+    "text": "{{playerName}} is te laat. Wat krijgt als eerste de schuld?"
+  },
+  "fdd1c924-ee99-4f05-a5bd-dfcd6d9c8f03": {
+    "en": "After a small argument, how many minutes until {{playerName}} texts first?",
+    "text": "Na een kleine ruzie: na hoeveel minuten stuurt {{playerName}} als eerste een bericht?"
+  },
+  "b54e1bb1-3bf8-47c3-a48a-86023b0f0add": {
+    "en": "Where does {{playerName}} go when they need to be alone?",
+    "text": "Waar gaat {{playerName}} heen om even alleen te zijn?"
+  },
+  "3b1883ec-15de-4788-9bef-ba8f5c5bc8a7": {
+    "en": "What does {{playerName}} order when they can't decide?",
+    "text": "Wat bestelt {{playerName}} bij twijfel?"
+  },
+  "238665e7-e0da-45ce-a9d7-0eb9eef65a6c": {
+    "en": "How many times does {{playerName}} check the lock before they can leave?",
+    "text": "Hoe vaak checkt {{playerName}} vóór het weggaan het slot?"
+  },
+  "466890df-b2fd-43de-a06e-7bf3787838fa": {
+    "en": "What's {{playerName}}'s dad's name?",
+    "text": "Hoe heet de vader van {{playerName}}?"
+  },
+  "83463f47-91d7-4aad-9222-957f815550ec": {
+    "en": "What color are {{playerName}}'s eyes?",
+    "text": "Welke kleur ogen heeft {{playerName}}?"
+  },
+  "82b2f614-a300-4077-aebb-1f5fc9d783da": {
+    "en": "What's {{playerName}}'s favorite sport?",
+    "text": "Wat is de favoriete sport van {{playerName}}?"
+  },
+  "57674f98-004a-4613-ae68-f9a5aeb47287": {
+    "en": "What city did {{playerName}} grow up in?",
+    "text": "In welke stad is {{playerName}} opgegroeid?"
+  },
+  "978cc42e-c57a-4a1f-ab39-e3ae2bea3021": {
+    "en": "What's {{playerName}}'s mom's name?",
+    "text": "Hoe heet de moeder van {{playerName}}?"
+  },
+  "cfd2c28a-8bea-4257-879e-95cbc762962f": {
+    "en": "How tall is {{playerName}}, in cm?",
+    "text": "Hoe lang is {{playerName}}, in cm?"
+  },
+  "f323e901-c9d8-402a-a779-6dfc98dbb068": {
+    "en": "What's {{playerName}}'s favorite video game?",
+    "text": "Wat is de favoriete game van {{playerName}}?"
+  },
+  "25851c79-797f-40fd-b2f6-6c0d20b9dfdd": {
+    "en": "What car does {{playerName}} drive?",
+    "text": "In welke auto rijdt {{playerName}}?"
+  },
+  "a4265570-c916-40c1-a402-d063a73be6b2": {
+    "en": "What's {{playerName}}'s favorite holiday?",
+    "text": "Wat is de favoriete feestdag van {{playerName}}?"
+  },
+  "5fe73127-bbe3-48f7-8abc-2d69d6a88593": {
+    "en": "What's {{playerName}}'s shoe size?",
+    "text": "Welke schoenmaat heeft {{playerName}}?"
+  },
+  "75c9c2af-241b-4035-b6fc-5fdcd08973cd": {
+    "en": "What's {{playerName}}'s favorite book?",
+    "text": "Wat is het lievelingsboek van {{playerName}}?"
+  },
+  "8deddb72-b5b8-4818-b368-0c4fbe051257": {
+    "en": "What's {{playerName}}'s favorite restaurant?",
+    "text": "Wat is het favoriete restaurant van {{playerName}}?"
+  },
+  "c550dc4b-c6cf-4d1b-9345-6b74e5d47623": {
+    "en": "What year was {{playerName}} born?",
+    "text": "In welk jaar is {{playerName}} geboren?"
+  },
+  "c0da2701-3741-4588-b8cf-d7b1a08492e5": {
+    "en": "How many tattoos does {{playerName}} have? Write 0 if none.",
+    "text": "Hoeveel tatoeages heeft {{playerName}}? Vul 0 in als het er geen zijn."
+  },
+  "a7c5d198-7df7-4778-b8af-c3da4d319a6a": {
+    "en": "What did {{playerName}} want to be as a kid?",
+    "text": "Wat wilde {{playerName}} als kind later worden?"
+  },
+  "a6ec160b-1139-4b18-aab2-c508fc0485f3": {
+    "en": "What's {{playerName}}'s favorite flower?",
+    "text": "Wat is de lievelingsbloem van {{playerName}}?"
+  },
+  "ef039303-b61e-4a8b-bf07-dc13a7c57752": {
+    "en": "What's {{playerName}}'s childhood best friend's name?",
+    "text": "Hoe heet het beste maatje van {{playerName}} uit de kindertijd?"
+  },
+  "57351c4a-3e7e-4748-949e-5d4cd1e5b792": {
+    "en": "How many languages does {{playerName}} speak?",
+    "text": "Hoeveel talen spreekt {{playerName}}?"
+  },
+  "cd7eb1b7-52d5-4472-91a7-87fe860c68cb": {
+    "en": "What's {{playerName}}'s favorite subject in school?",
+    "text": "Welk vak vond {{playerName}} op school het leukst?"
+  },
+  "7a48b2bc-038b-4504-867c-31349dc9471d": {
+    "en": "What's {{playerName}}'s favorite YouTuber?",
+    "text": "Wie is de favoriete YouTuber van {{playerName}}?"
+  },
+  "76919acd-9f2a-43b7-a1b8-4be6522808b0": {
+    "en": "What was the name of {{playerName}}'s first pet? Write none if they never had one.",
+    "text": "Hoe heette het eerste huisdier van {{playerName}}? Vul “geen” in als er nooit een was."
+  },
+  "e54fbf2e-38bb-43a2-98b7-d0e60e44704d": {
+    "en": "What's {{playerName}}'s favorite store?",
+    "text": "Wat is de favoriete winkel van {{playerName}}?"
+  },
+  "758457aa-b4a0-440c-936d-2eca36532d6f": {
+    "en": "How many hours does {{playerName}} sleep?",
+    "text": "Hoeveel uur slaapt {{playerName}} per nacht?"
+  },
+  "f5e59e0f-6ada-44bb-b1f6-ff0bfc6460d9": {
+    "en": "What's {{playerName}}'s favorite app?",
+    "text": "Wat is de favoriete app van {{playerName}}?"
+  },
+  "c4230968-34f8-4da4-9b47-c58b40930364": {
+    "en": "What high school did {{playerName}} go to?",
+    "text": "Naar welke middelbare school ging {{playerName}}?"
+  },
+  "bab594db-3246-436a-831c-a26fee4a3985": {
+    "en": "What's {{playerName}}'s favorite movie?",
+    "text": "Wat is de favoriete film van {{playerName}}?"
+  },
+  "628a486a-362b-421c-9680-eafb40c7b515": {
+    "en": "How many cousins does {{playerName}} have?",
+    "text": "Hoeveel neven en nichten heeft {{playerName}}?"
+  },
+  "a67f93da-08cb-45b8-83c4-d2adc75192af": {
+    "en": "What's {{playerName}}'s star sign?",
+    "text": "Wat is het sterrenbeeld van {{playerName}}?"
+  },
+  "f137c9c9-7ff7-49dd-ada5-72f5ed4c03f0": {
+    "en": "Which country would {{playerName}} want to live in?",
+    "text": "In welk land zou {{playerName}} willen wonen?"
+  },
+  "021867cf-def0-4843-abe0-b40da48d2a2c": {
+    "en": "Which country does {{playerName}} want to visit the most?",
+    "text": "Welk land wil {{playerName}} het liefst bezoeken?"
+  },
+  "19b93f52-01ab-4cb7-8136-c4aba531b1b3": {
+    "en": "In which city did {{playerName}} go to university?",
+    "text": "In welke stad heeft {{playerName}} gestudeerd?"
+  },
+  "112ed697-0ec4-43c7-b2f1-12d1ab95aae3": {
+    "en": "What's {{playerName}}'s younger sibling's name? Write none if they don't have one.",
+    "text": "Hoe heet het jongere broertje of zusje van {{playerName}}? Vul “geen” in als er geen is."
+  },
+  "26767042-b7af-43d8-ad6f-ea87f4304f2f": {
+    "en": "What's {{playerName}}'s grandma's name? (mom's mom)",
+    "text": "Hoe heet de oma van {{playerName}} van moederskant?"
+  },
+  "a3279d43-a655-4bbb-8718-b6d15227c517": {
+    "en": "What's {{playerName}}'s grandpa's name?",
+    "text": "Hoe heet de opa van {{playerName}}?"
+  },
+  "5b5320ad-a6ce-44c4-8e2b-fb2bae61cbf1": {
+    "en": "What's {{playerName}}'s favorite car brand?",
+    "text": "Wat is het favoriete automerk van {{playerName}}?"
+  },
+  "ff9d0b85-deed-41dd-807c-1f3d0a3bb83c": {
+    "en": "What's {{playerName}}'s favorite car color?",
+    "text": "Welke autokleur vindt {{playerName}} het mooist?"
+  },
+  "98059ab8-7dbf-4b1c-8c78-78ebc984c60e": {
+    "en": "How much does {{playerName}} weigh, in kg?",
+    "text": "Hoeveel weegt {{playerName}}, in kilo?"
+  },
+  "b48fa9ed-dd37-473f-b435-ce10eb15ae06": {
+    "en": "How many piercings does {{playerName}} have in their ears? Write 0 if none.",
+    "text": "Hoeveel piercings heeft {{playerName}} in de oren? Typ 0 als het er geen zijn."
+  },
+  "2a444c7a-9b06-42ba-929c-3818403efe75": {
+    "en": "What's {{playerName}}'s closest friend's name right now?",
+    "text": "Hoe heet de beste vriend of vriendin van {{playerName}} op dit moment?"
+  },
+  "0216b04b-1ca1-4963-a1e6-ff951b52d0a3": {
+    "en": "How many countries has {{playerName}} been to?",
+    "text": "In hoeveel landen is {{playerName}} al geweest?"
+  },
+  "42a0d55b-eca3-40f2-bc31-14b9428ad7e6": {
+    "en": "What's {{playerName}}'s tell when they're lying?",
+    "text": "Waaraan merk je dat {{playerName}} liegt?"
+  },
+  "29cd2b71-30b4-431f-8ec3-1c32bd8e39aa": {
+    "en": "What's {{playerName}}'s blood type?",
+    "text": "Welke bloedgroep heeft {{playerName}}?"
+  },
+  "042f678e-2937-4acb-8425-a35fe0e7b9c5": {
+    "en": "What's {{playerName}}'s older sibling's name? Write none if they don't have one.",
+    "text": "Hoe heet de oudere broer of zus van {{playerName}}? Typ “geen” als die er niet is."
+  },
+  "c511a069-e3da-4591-b416-bd506028c5ad": {
+    "en": "What was {{playerName}}'s first car? Write none if they never had one.",
+    "text": "Wat was de eerste auto van {{playerName}}? Typ “geen” als er nooit een was."
+  },
+  "57c09d65-f7f9-4b4f-9a7a-bb66f4b6a62d": {
+    "en": "What is {{playerName}} most afraid of?",
+    "text": "Waar is {{playerName}} het bangst voor?"
+  },
+  "b9710f34-86f6-4db8-96d3-752d4559d726": {
+    "en": "What is {{playerName}} proudest of in life?",
+    "text": "Waar is {{playerName}} het meest trots op in het leven?"
+  },
+  "ace03250-f070-4ff0-ae9c-703406313716": {
+    "en": "What does {{playerName}} do when they get really angry?",
+    "text": "Wat doet {{playerName}} als die echt boos wordt?",
+    "answers": [
+      "Wordt stil en kropt het op",
+      "Schreeuwt en kalmeert dan",
+      "Loopt weg",
+      "Wil het meteen uitpraten"
+    ]
+  },
+  "b90eefb2-04d9-470b-bde1-ed9df3dacdd8": {
+    "en": "When {{playerName}} gets bad news, who do they turn to first?",
+    "text": "Bij wie klopt {{playerName}} na slecht nieuws als eerste aan?",
+    "answers": [
+      "De partner",
+      "Een ouder",
+      "De beste vriend of vriendin",
+      "Niemand, eerst zelf verwerken"
+    ]
+  },
+  "7bddbacb-8e74-4c5e-b299-5305af0053f5": {
+    "en": "What does {{playerName}} regret most?",
+    "text": "Waar heeft {{playerName}} de meeste spijt van?",
+    "answers": [
+      "Iets wat nooit gezegd is",
+      "Een gemiste kans",
+      "Iemand pijn hebben gedaan",
+      "Nergens, doet niet aan spijt"
+    ]
+  },
+  "4bcbeb5e-2463-48a0-8cd0-babea7e0a72f": {
+    "en": "What was {{playerName}}'s first job?",
+    "text": "Wat was de eerste baan van {{playerName}}?"
+  },
+  "61e3c86d-76bd-4582-88c5-71bfe7622ee0": {
+    "en": "At what age did {{playerName}} get their driver's license? Write none if they don't have one.",
+    "text": "Op welke leeftijd haalde {{playerName}} het rijbewijs? Typ “geen” als er geen rijbewijs is."
+  },
+  "10084e8c-9292-4aa3-9dbd-75531bb7486a": {
+    "en": "How many bones has {{playerName}} broken? Write 0 if none.",
+    "text": "Hoeveel botten heeft {{playerName}} ooit gebroken? Typ 0 als het er geen zijn."
+  },
+  "c1def649-d319-4211-aeb5-0858840e7bdc": {
+    "en": "Who did {{playerName}} see at their first concert? Write none if they've never been.",
+    "text": "Wie zag {{playerName}} op het allereerste concert? Typ “geen” als {{playerName}} nog nooit naar een concert is geweest."
+  },
+  "1046beaa-623b-4faf-8f88-38b87419d2e6": {
+    "en": "What is {{playerName}} allergic to? Write none if nothing.",
+    "text": "Waar is {{playerName}} allergisch voor? Typ “geen” als {{playerName}} nergens allergisch voor is."
+  },
+  "ba2de278-23d7-45a4-8448-cb563db767d5": {
+    "en": "How old was {{playerName}} the first time they went abroad? Write never if they haven't.",
+    "text": "Hoe oud was {{playerName}} bij de eerste reis naar het buitenland? Typ “nooit” als dat nog niet gebeurd is."
+  },
+  "6a7ace14-0321-4e93-9cc7-2baa1d9bee41": {
+    "en": "How many times has {{playerName}} moved homes?",
+    "text": "Hoe vaak is {{playerName}} al verhuisd?"
+  },
+  "ba6c616e-1d98-469a-b2e3-92b66c0981d1": {
+    "en": "What's the name of {{playerName}}'s paternal grandmother?",
+    "text": "Hoe heet de oma van {{playerName}} van vaderskant?"
+  },
+  "2f57ffab-1be4-44cc-a0f8-a393c9fad863": {
+    "en": "What was {{playerName}}'s first phone?",
+    "text": "Wat was de eerste telefoon van {{playerName}}?"
+  },
+  "00bb499d-b0c3-4f78-9b18-cffb65b03524": {
+    "en": "How old was {{playerName}} at their first kiss?",
+    "text": "Hoe oud was {{playerName}} bij de eerste kus?"
+  },
+  "1c34b99b-0d35-4532-8459-984d6017ea4a": {
+    "en": "What was {{playerName}}'s worst subject in school?",
+    "text": "Wat was het slechtste schoolvak van {{playerName}}?"
+  },
+  "c701e374-0098-4d9a-9a64-f02e08d52b16": {
+    "en": "Where is {{playerName}}'s biggest scar? Write none if they don't have one.",
+    "text": "Waar zit het grootste litteken van {{playerName}}? Typ “geen” als er geen is."
+  },
+  "170581cc-7ae8-4bc3-9ca8-8fa5e87b5fc2": {
+    "en": "What size t-shirt does {{playerName}} wear?",
+    "text": "Welke T-shirtmaat draagt {{playerName}}?",
+    "answers": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL of groter"
+    ]
+  },
+  "01e70d49-b6d6-4142-971d-22b27d35b17f": {
+    "en": "What was the name of {{playerName}}'s favorite teacher?",
+    "text": "Hoe heette de favoriete docent van {{playerName}}?"
+  },
+  "43294aea-9009-4d5a-aad8-f7694a3b51a5": {
+    "en": "What time of day was {{playerName}} born?",
+    "text": "Hoe laat op de dag is {{playerName}} geboren?",
+    "answers": [
+      "Nacht (00-06)",
+      "Ochtend (06-12)",
+      "Middag (12-18)",
+      "Avond (18-24)"
+    ]
+  },
+  "749b9061-a5d0-4ff6-900b-e3ba010281ed": {
+    "en": "Which famous person has {{playerName}} met in person? Write none if no one.",
+    "text": "Welke beroemdheid heeft {{playerName}} in het echt ontmoet? Typ “geen” als dat nooit gebeurd is."
+  },
+  "9f26e1c3-409c-4553-98aa-52ecb367ba15": {
+    "en": "Which instrument has {{playerName}} played or tried to learn? Write none if never.",
+    "text": "Welk instrument heeft {{playerName}} ooit gespeeld of geprobeerd te leren? Typ “geen” als dat nooit zo was."
+  },
+  "bf1c6470-4a2a-48c7-8d98-2f82482ce877": {
+    "en": "How many times did {{playerName}} fail their driving test? Write 0 if never.",
+    "text": "Hoe vaak is {{playerName}} gezakt voor het rijexamen? Typ 0 als dat nooit gebeurde."
+  },
+  "f881bedc-d173-4bdb-ae2d-694246d7f4d8": {
+    "en": "How old was {{playerName}} when they moved out of their family home? Write never if they haven't.",
+    "text": "Op welke leeftijd ging {{playerName}} uit huis? Typ “nooit” als dat nog niet gebeurd is."
+  },
+  "7600e024-4a37-494e-96f6-cc1c03f58f89": {
+    "en": "Where is {{playerName}} most ticklish?",
+    "text": "Waar is {{playerName}} het kieteligst?"
+  },
+  "deb2b852-ecc2-4a4b-939e-cbcf025845f4": {
+    "en": "What's {{playerName}}'s natural hair color?",
+    "text": "Wat is de natuurlijke haarkleur van {{playerName}}?"
+  },
+  "f5418f78-b11d-4776-825c-c5ac189d7b37": {
+    "en": "Where is {{playerName}}'s birthmark? Write none if they don't have one.",
+    "text": "Waar zit de moedervlek van {{playerName}}? Typ “geen” als er geen is."
+  },
+  "096b7ab0-dfe3-49bc-956e-cafc81272088": {
+    "en": "Does {{playerName}} snore?",
+    "text": "Snurkt {{playerName}}?",
+    "answers": [
+      "Nooit",
+      "Alleen als die doodmoe is",
+      "Soms",
+      "Elke nacht"
+    ]
+  },
+  "f620465f-147d-4168-af5a-2bb985faf47d": {
+    "en": "What does {{playerName}} sleep in?",
+    "text": "Waarin slaapt {{playerName}}?",
+    "answers": [
+      "Pyjama",
+      "T-shirt en korte broek",
+      "Alleen ondergoed",
+      "Niks"
+    ]
+  },
+  "5f58a2de-2ed0-446f-9727-0329eb1902d6": {
+    "en": "Did {{playerName}} ever wear braces?",
+    "text": "Heeft {{playerName}} ooit een beugel gehad?"
+  },
+  "a655c4c5-4928-4826-bbb2-746b6c2282e8": {
+    "en": "What's {{playerName}}'s natural hair texture?",
+    "text": "Hoe is het haar van {{playerName}} van nature?",
+    "answers": [
+      "Steil",
+      "Golvend",
+      "Krullend",
+      "Heel krullend"
+    ]
+  },
+  "0d808bea-8434-4452-aedb-e5bd28afc9f3": {
+    "en": "What perfume or cologne does {{playerName}} wear the most? Write none if they don't.",
+    "text": "Welk parfum draagt {{playerName}} het vaakst? Typ “geen” als {{playerName}} geen parfum draagt."
+  },
+  "e9d46c08-1bf4-4c6e-bed3-5617405af0ec": {
+    "en": "Does {{playerName}} sleep with socks on?",
+    "text": "Slaapt {{playerName}} met sokken aan?"
+  },
+  "d616c1f7-4c37-47a7-8a0e-4b9963af2764": {
+    "en": "How many wisdom teeth has {{playerName}} had removed?",
+    "text": "Hoeveel verstandskiezen zijn er bij {{playerName}} getrokken?",
+    "answers": [
+      "Geen",
+      "1",
+      "2",
+      "3",
+      "Alle 4"
+    ]
+  },
+  "ff103caa-415a-4e58-8c01-e153cd9bae9b": {
+    "en": "How many times has {{playerName}} gotten stitches? Write 0 if never.",
+    "text": "Hoe vaak heeft {{playerName}} al hechtingen gekregen? Typ 0 als dat nooit gebeurde."
+  },
+  "5a101639-bde0-469e-b2f2-60b2ef0a85fd": {
+    "en": "How old was {{playerName}} when they learned to swim? Write never if they can't swim.",
+    "text": "Op welke leeftijd leerde {{playerName}} zwemmen? Typ “nooit” als {{playerName}} niet kan zwemmen."
+  },
+  "424b64a3-27da-4ae4-be6d-0e4fb5e26709": {
+    "en": "How many fillings does {{playerName}} have? Write 0 if none.",
+    "text": "Hoeveel vullingen heeft {{playerName}}? Typ 0 als het er geen zijn."
+  },
+  "5554d5d2-4a3f-442a-b4c8-38e8511d257a": {
+    "en": "How many times has {{playerName}} stayed overnight in a hospital as a patient? Write 0 if never.",
+    "text": "Hoe vaak heeft {{playerName}} als patiënt een nacht in het ziekenhuis gelegen? Typ 0 als dat nooit gebeurde."
+  },
+  "c318ef52-cf6a-49e9-84a8-45961906b50b": {
+    "en": "Can {{playerName}} drive a manual car?",
+    "text": "Kan {{playerName}} in een auto met schakelbak rijden?",
+    "answers": [
+      "Ja, makkelijk",
+      "Ja, maar niet goed",
+      "Alleen automaat",
+      "Kan helemaal niet rijden"
+    ]
+  },
+  "6074363d-0509-4dea-9335-e5320a8e427a": {
+    "en": "How many times has {{playerName}} fainted? Write 0 if never.",
+    "text": "Hoe vaak is {{playerName}} flauwgevallen? Typ 0 als dat nooit gebeurde."
+  },
+  "48b3c23a-3cd0-4c20-9384-01aa898ae50c": {
+    "en": "How old was {{playerName}} on their first plane flight? Write never if they haven't flown.",
+    "text": "Hoe oud was {{playerName}} bij de eerste vliegreis? Typ “nooit” als dat nog niet gebeurd is."
+  },
+  "39a4a20b-eb71-4852-86d1-c1f6ef17b787": {
+    "en": "How many different jobs has {{playerName}} had so far?",
+    "text": "Hoeveel verschillende banen heeft {{playerName}} tot nu toe gehad?"
+  },
+  "5c90da6e-06f8-4571-af38-0ac84e0c7278": {
+    "en": "How many times has {{playerName}} dyed their hair? Write 0 if never.",
+    "text": "Hoe vaak heeft {{playerName}} het haar geverfd? Typ 0 als dat nooit gebeurde."
+  },
+  "58871fe6-0f6c-4951-bf1b-4e65c2cb2fbb": {
+    "en": "How old was {{playerName}} when they got their ears pierced? Write never if they haven't.",
+    "text": "Hoe oud was {{playerName}} toen er gaatjes in de oren kwamen? Typ “nooit” als die er niet zijn."
+  },
+  "7fec5c7e-5fd4-4d15-b827-9764d0017c5a": {
+    "en": "How many speeding tickets has {{playerName}} gotten? Write 0 if none.",
+    "text": "Hoeveel snelheidsboetes heeft {{playerName}} gekregen? Typ 0 als het er geen zijn."
+  },
+  "1c483831-40c8-4c84-b3e4-1e6b2febd48f": {
+    "en": "How many times has {{playerName}} cracked a phone screen? Write 0 if never.",
+    "text": "Hoe vaak heeft {{playerName}} een telefoonscherm gebroken? Typ 0 als dat nooit gebeurde."
+  },
+  "84f3b4d3-8ce2-4dd7-a7a0-3ceb564ace5b": {
+    "en": "How many hours was {{playerName}}'s longest flight? Write 0 if they've never flown.",
+    "text": "Hoeveel uur duurde de langste vlucht van {{playerName}}? Typ 0 als {{playerName}} nooit heeft gevlogen."
+  },
+  "a3fbf3a7-ae6b-452d-b250-d1345f8c330f": {
+    "en": "How many friends from high school does {{playerName}} still talk to regularly?",
+    "text": "Met hoeveel vrienden van de middelbare school heeft {{playerName}} nog geregeld contact?"
+  },
+  "2f52c237-0f33-496b-98b3-d8052637d261": {
+    "en": "How old was {{playerName}}'s mom when {{playerName}} was born?",
+    "text": "Hoe oud was de moeder van {{playerName}} bij de geboorte van {{playerName}}?"
+  },
+  "84e04131-a72c-4735-abf3-e7da9b624e05": {
+    "en": "How many years apart are {{playerName}} and their closest-in-age sibling? Write 0 if they're an only child.",
+    "text": "Hoeveel jaar verschil zit er tussen {{playerName}} en de broer of zus die qua leeftijd het dichtstbij is? Typ 0 als {{playerName}} enig kind is."
+  },
+  "e5b9acdd-03b4-4cdb-869d-19a7eb400217": {
+    "en": "What's the most hours {{playerName}} has ever slept in one go?",
+    "text": "Hoeveel uur heeft {{playerName}} ooit het langst achter elkaar geslapen?"
+  },
+  "b8b3c241-4570-48ed-8a1f-2f7048d5fc4f": {
+    "en": "How old was {{playerName}} when they got their own room? Write 0 if they always had one.",
+    "text": "Vanaf welke leeftijd had {{playerName}} een eigen kamer? Typ 0 als dat altijd al zo was."
+  },
+  "f7b7d52b-0b27-4bac-9729-6f4e6d186c17": {
+    "en": "How many hours was {{playerName}}'s longest road trip in one day?",
+    "text": "Hoeveel uur duurde de langste autorit van {{playerName}} op één dag?"
+  },
+  "f94eac2c-1bd8-4e69-87f5-c716eb17f1a2": {
+    "en": "How many times has {{playerName}} lost their wallet? Write 0 if never.",
+    "text": "Hoe vaak is {{playerName}} een portemonnee kwijtgeraakt? Nooit? Vul 0 in."
+  },
+  "56f5acaa-9dd8-44b3-abe6-ddd01fb46fbc": {
+    "en": "How many nieces and nephews does {{playerName}} have? Write 0 if none.",
+    "text": "Hoeveel neefjes en nichtjes heeft {{playerName}}? Geen? Vul 0 in."
+  },
+  "1e5f97a7-0622-4095-9b35-2ba310517424": {
+    "en": "How many times has {{playerName}} changed their phone number? Write 0 if never.",
+    "text": "Hoe vaak heeft {{playerName}} een nieuw telefoonnummer genomen? Nooit? Vul 0 in."
+  },
+  "4ea1a7bd-b472-44ce-8df0-b219ccf8a88e": {
+    "en": "How many different cities has {{playerName}} lived in?",
+    "text": "In hoeveel verschillende steden heeft {{playerName}} gewoond?"
+  },
+  "7dc6a0e3-d5ef-4a8a-b388-ec39afa991ee": {
+    "en": "How many times has {{playerName}} been on TV? Write 0 if never.",
+    "text": "Hoe vaak is {{playerName}} op tv geweest? Nooit? Vul 0 in."
+  },
+  "e260b248-f935-47ca-a527-80c93355361e": {
+    "en": "Roughly how many concerts has {{playerName}} been to? Write 0 if none.",
+    "text": "Naar hoeveel concerten is {{playerName}} ongeveer geweest? Geen? Vul 0 in."
+  },
+  "d0901538-26fb-44ba-8fa0-ba285d31c744": {
+    "en": "How many times has {{playerName}} had food poisoning? Write 0 if never.",
+    "text": "Hoe vaak heeft {{playerName}} een voedselvergiftiging gehad? Nooit? Vul 0 in."
+  },
+  "0c5e695a-a458-499d-ae51-13c53adcddd2": {
+    "en": "How many pets has {{playerName}} had in their life? Write 0 if none.",
+    "text": "Hoeveel huisdieren heeft {{playerName}} in totaal gehad? Geen? Vul 0 in."
+  },
+  "a3eecac6-d128-49e7-8809-8a6d4eedf356": {
+    "en": "What's {{playerName}}'s middle name? Write none if they don't have one.",
+    "text": "Wat is de tweede naam van {{playerName}}? Geen? Schrijf “geen”."
+  },
+  "5c62f03d-f338-4beb-9eb8-99d6e896a798": {
+    "en": "What does {{playerName}}'s mom do for work?",
+    "text": "Wat voor werk doet de moeder van {{playerName}}?"
+  },
+  "a6dcacce-d2ae-40e1-8a57-fe01eb25d77d": {
+    "en": "What was {{playerName}}'s first game console? Write none if they never had one.",
+    "text": "Wat was de eerste spelcomputer van {{playerName}}? Nooit gehad? Schrijf “geen”."
+  },
+  "d43890e5-f0e6-42aa-bdd5-e3ef209d81b5": {
+    "en": "What did {{playerName}} study at university? Write none if they didn't go.",
+    "text": "Wat heeft {{playerName}} gestudeerd? Niet gestudeerd? Schrijf “geen”.",
+    "note": "English 'university' broadened to 'gestudeerd' so hbo/hogeschool also counts, which is how Dutch speakers think of studying."
+  },
+  "ea679c49-9e58-42f6-b148-b6b2530f82c6": {
+    "en": "What's the last country {{playerName}} traveled to?",
+    "text": "Naar welk land is {{playerName}} het laatst op reis geweest?"
+  },
+  "29017788-31b1-41e7-a760-28bf42fa1183": {
+    "en": "What does {{playerName}}'s dad do for work?",
+    "text": "Wat voor werk doet de vader van {{playerName}}?"
+  },
+  "97764295-e7a4-40ab-9835-8beed1341a06": {
+    "en": "Which city is {{playerName}}'s family originally from?",
+    "text": "Uit welke stad komt de familie van {{playerName}} oorspronkelijk?"
+  },
+  "17d89504-80b5-460f-9d75-39d388c6d8e1": {
+    "en": "Which sports team does {{playerName}} support? Write none if they don't.",
+    "text": "Van welke club is {{playerName}} fan? Geen? Schrijf “geen”."
+  },
+  "ba5b2fe7-b030-4467-983a-7ebbe43f19a4": {
+    "en": "What was the first social media app {{playerName}} ever used?",
+    "text": "Welke socialmedia-app gebruikte {{playerName}} als allereerste?"
+  },
+  "ffaae1fb-40ff-4933-ac17-c36aeadb43da": {
+    "en": "What was the first foreign language {{playerName}} learned? Write none if they never learned one.",
+    "text": "Wat was de eerste vreemde taal die {{playerName}} leerde? Geen? Schrijf “geen”."
+  },
+  "cceb5f1f-90a3-4cb3-a7c4-1c3d10ae4a65": {
+    "en": "What month is {{playerName}}'s mom's birthday?",
+    "text": "In welke maand is de moeder van {{playerName}} jarig?"
+  },
+  "5c700d73-3a6e-4d31-a32f-14a00f61881d": {
+    "en": "In which city did {{playerName}}'s parents meet?",
+    "text": "In welke stad hebben de ouders van {{playerName}} elkaar leren kennen?"
+  },
+  "91dc1c80-891d-4922-81db-e2c858b111b1": {
+    "en": "Who was {{playerName}} named after? Write no one if they weren't.",
+    "text": "Naar wie is {{playerName}} vernoemd? Naar niemand? Schrijf “niemand”."
+  },
+  "bf0c5622-a87e-47c2-abf2-11f67d3d36bc": {
+    "en": "What's the name of {{playerName}}'s closest cousin? Write none if they don't have cousins.",
+    "text": "Hoe heet de neef of nicht met wie {{playerName}} de beste band heeft? Geen? Schrijf “geen”.",
+    "note": "Dutch neef/nicht is gendered for the cousin (not the player), so both are given."
+  },
+  "d53064e2-ac96-4ec2-88c1-e4d4728e53b6": {
+    "en": "What does {{playerName}}'s sibling do for work? Write none if they don't have one.",
+    "text": "Wat voor werk doet de broer of zus van {{playerName}}? Geen? Schrijf “geen”."
+  },
+  "f06fce27-558a-4a14-bc7c-02797e48b165": {
+    "en": "What's the name of {{playerName}}'s family group chat?",
+    "text": "Hoe heet de familiegroepsapp van {{playerName}}?"
+  },
+  "1d27f445-8185-45f0-8e57-9d14df784fb8": {
+    "en": "Which family member is {{playerName}} closest to?",
+    "text": "Met welk familielid heeft {{playerName}} de beste band?"
+  },
+  "c7027cd1-a723-44f4-bae3-0d74ea7873bf": {
+    "en": "Which family member does {{playerName}} look the most like?",
+    "text": "Op welk familielid lijkt {{playerName}} het meest?"
+  },
+  "927e687b-cd16-47ef-819a-d52fdb385158": {
+    "en": "What's {{playerName}}'s favorite dish that their mom makes?",
+    "text": "Welk gerecht van mama vindt {{playerName}} het lekkerst?"
+  },
+  "0f5a6d75-fc6a-4252-bf49-cfb3c9c1d8e3": {
+    "en": "How many people lived in {{playerName}}'s home growing up, including them?",
+    "text": "Hoeveel mensen woonden er in het huis waar {{playerName}} opgroeide, zelf meegerekend?"
+  },
+  "aa7dabf5-ad66-4574-8d46-c2393faff547": {
+    "en": "What name did {{playerName}}'s parents almost give them? Write none if there wasn't one.",
+    "text": "Welke naam had {{playerName}} bijna gekregen? Geen? Schrijf “geen”."
+  },
+  "3be027a4-5536-41b3-be2b-d519cc235f36": {
+    "en": "What was the name of {{playerName}}'s longest-time desk mate at school?",
+    "text": "Naast wie zat {{playerName}} op school het langst in de klas?",
+    "note": "Rephrased 'desk mate' as 'next to whom' to avoid gendered klasgenoot/klasgenote or buurman/buurvrouw."
+  },
+  "b5817a96-4ca4-421b-aa69-e3598c7f8328": {
+    "en": "What did {{playerName}} always buy from the school canteen?",
+    "text": "Wat haalde {{playerName}} altijd in de schoolkantine?"
+  },
+  "4fb25a1c-f14e-43cf-a6ad-00295780f027": {
+    "en": "Which school club or team was {{playerName}} part of? Write none if they weren't.",
+    "text": "Bij welke club of welk team zat {{playerName}} op school? Geen? Schrijf “geen”."
+  },
+  "5cf32bca-3e5e-4a5d-8d70-15f22575349a": {
+    "en": "Where did {{playerName}} spend summers as a kid?",
+    "text": "Waar bracht {{playerName}} als kind de zomers door?"
+  },
+  "b9e75a17-3bf6-4f39-a58a-94e10faf1e5f": {
+    "en": "How old was {{playerName}} when they got their first phone?",
+    "text": "Hoe oud was {{playerName}} bij de eerste eigen telefoon?"
+  },
+  "1f4648ed-da5e-4361-a8b0-5b188502eeb3": {
+    "en": "How old was {{playerName}} when they got their first tattoo? Write never if they don't have one.",
+    "text": "Hoe oud was {{playerName}} bij de eerste tattoo? Geen tattoo? Schrijf “nooit”."
+  },
+  "07337fdd-2317-4fa6-9482-d45b276fa891": {
+    "en": "How old was {{playerName}} when they started their first job? Write never if they haven't worked.",
+    "text": "Hoe oud was {{playerName}} bij de eerste baan? Nog nooit gewerkt? Schrijf “nooit”."
+  },
+  "130baf14-361c-409b-a393-03f2783cc726": {
+    "en": "How old was {{playerName}} when they got their first pet? Write never if they've never had one.",
+    "text": "Hoe oud was {{playerName}} bij het eerste huisdier? Nooit gehad? Schrijf “nooit”."
+  },
+  "79495e9d-536f-494e-aa55-4e131ab53c80": {
+    "en": "How old was {{playerName}} when they got their first car? Write never if they haven't.",
+    "text": "Hoe oud was {{playerName}} bij de eerste eigen auto? Nooit gehad? Schrijf “nooit”."
+  },
+  "9bf2b42d-0981-47cc-baa9-92516c7b48c8": {
+    "en": "How old was {{playerName}} when they opened their first social media account?",
+    "text": "Hoe oud was {{playerName}} bij het eerste socialmedia-account?"
+  },
+  "65b9ad53-1684-4c07-b7b0-7a3bbaba7445": {
+    "en": "How old was {{playerName}} the first time they watched a match at a stadium? Write never if they haven't.",
+    "text": "Hoe oud was {{playerName}} bij de eerste wedstrijd in een stadion? Nooit geweest? Schrijf “nooit”."
+  },
+  "03114fc5-15b6-48bb-bf85-29e6add1ee9c": {
+    "en": "What's the longest {{playerName}} has stayed awake in one go, in hours?",
+    "text": "Hoeveel uur is {{playerName}} maximaal achter elkaar wakker gebleven?"
+  },
+  "da47bdf7-4ae2-43ad-9deb-e98bb8e58f41": {
+    "en": "How many push-ups can {{playerName}} do in a row?",
+    "text": "Hoeveel push-ups kan {{playerName}} achter elkaar doen?"
+  },
+  "ef21e83e-7879-4eab-af7b-feae41efa6ce": {
+    "en": "What's the most kilometers {{playerName}} has walked in a single day?",
+    "text": "Hoeveel kilometer heeft {{playerName}} maximaal op één dag gelopen?"
+  },
+  "c9959107-d596-493f-ab42-38479f81059c": {
+    "en": "How many seconds can {{playerName}} hold a plank?",
+    "text": "Hoeveel seconden kan {{playerName}} een plank volhouden?"
+  },
+  "3c10a729-5ed9-49cf-84b4-8df6c848e51b": {
+    "en": "What's the most pizza slices {{playerName}} has eaten in one sitting?",
+    "text": "Hoeveel pizzapunten heeft {{playerName}} maximaal in één keer gegeten?"
+  },
+  "77e0d3af-2aea-4969-a40d-1c525508c55b": {
+    "en": "How many pull-ups can {{playerName}} do in a row?",
+    "text": "Hoeveel pull-ups kan {{playerName}} achter elkaar doen?"
+  },
+  "1a1ab67d-8a8e-47dd-97ce-a4de6836a290": {
+    "en": "What's the most episodes of a series {{playerName}} has watched in one day?",
+    "text": "Hoeveel afleveringen van een serie heeft {{playerName}} maximaal op één dag gekeken?"
+  },
+  "d76a8b89-f7a4-4022-9fac-7ae3adf56d1b": {
+    "en": "How many hours was {{playerName}}'s longest gaming session? Write 0 if they don't play.",
+    "text": "Hoeveel uur duurde de langste gamesessie van {{playerName}}? Gamet niet? Vul 0 in."
+  },
+  "61cc3182-df1a-43ea-8850-6cdc26f84934": {
+    "en": "What's the heaviest {{playerName}} can bench press, in kg? Write 0 if they never have.",
+    "text": "Hoeveel kilo kan {{playerName}} maximaal bankdrukken? Nooit gedaan? Vul 0 in."
+  },
+  "4a4e5dde-be6e-43c8-9ad5-26aad6cbdac6": {
+    "en": "What's the most hours {{playerName}} has studied in a single day?",
+    "text": "Hoeveel uur heeft {{playerName}} maximaal op één dag gestudeerd?"
+  },
+  "75852c20-379b-4202-87bb-0e3d463805b9": {
+    "en": "How many pairs of shoes does {{playerName}} own?",
+    "text": "Hoeveel paar schoenen heeft {{playerName}}?"
+  },
+  "2685c7a1-b045-4991-9374-d3447fa52427": {
+    "en": "How many perfumes or colognes does {{playerName}} own? Write 0 if none.",
+    "text": "Hoeveel parfums heeft {{playerName}}? Geen? Vul 0 in."
+  },
+  "a9674a7b-5a5d-4732-88b3-255c8e792b84": {
+    "en": "How many keys are on {{playerName}}'s keychain?",
+    "text": "Hoeveel sleutels zitten er aan de sleutelbos van {{playerName}}?"
+  },
+  "b1b1f89d-947e-4941-aa89-eb5dfab51ded": {
+    "en": "How many plants does {{playerName}} have at home? Write 0 if none.",
+    "text": "Hoeveel planten heeft {{playerName}} in huis? Geen? Vul 0 in."
+  },
+  "262d61d0-ef48-4779-8ee9-1875799e82ac": {
+    "en": "How many watches does {{playerName}} own? Write 0 if none.",
+    "text": "Hoeveel horloges heeft {{playerName}}? Geen? Vul 0 in."
+  },
+  "946f1533-886c-453c-8334-4e55d560944c": {
+    "en": "How many pairs of sunglasses does {{playerName}} own? Write 0 if none.",
+    "text": "Hoeveel zonnebrillen heeft {{playerName}}? Geen? Vul 0 in."
+  },
+  "b7c7975d-2421-40bd-a659-d3128b57304a": {
+    "en": "What's {{playerName}}'s favorite city they've ever visited?",
+    "text": "Welke stad vond {{playerName}} de allerleukste om te bezoeken?"
+  },
+  "dc0048e9-f6b3-4c51-9e2b-d88c9d917917": {
+    "en": "What's the name of {{playerName}}'s current pet? Write none if they don't have one.",
+    "text": "Hoe heet het huidige huisdier van {{playerName}}? Geen? Schrijf “geen”."
+  },
+  "539cdb75-9f36-46bd-ba9f-9445c11c27f1": {
+    "en": "What does {{playerName}} always order at their favorite restaurant?",
+    "text": "Wat bestelt {{playerName}} altijd in het lievelingsrestaurant?"
+  },
+  "9dbe2d27-e8a4-4652-86d0-f9d51adeeb30": {
+    "en": "How is {{playerName}}'s mom saved in their phone?",
+    "text": "Onder welke naam heeft {{playerName}} mama in de telefoon staan?"
+  },
+  "0e45d0a2-47ea-4285-9a24-fc6a0d270a8f": {
+    "en": "What time does {{playerName}}'s first alarm go off on weekdays?",
+    "text": "Hoe laat gaat doordeweeks de eerste wekker van {{playerName}}?"
+  }
+}

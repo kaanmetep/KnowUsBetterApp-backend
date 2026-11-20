@@ -18,6 +18,9 @@ const question = (answers: Record<string, string[]>): Question =>
       text_de: "F",
       text_it: "D",
       text_pl: "P",
+      text_fr: "Q",
+      text_ja: "質問",
+      text_nl: "V",
     },
     category: "long_term",
     haveAnswers: true,
@@ -33,6 +36,9 @@ const full = question({
   answers_de: ["Strand", "Berge"],
   answers_it: ["Spiaggia", "Montagna"],
   answers_pl: ["Plaża", "Góry"],
+  answers_fr: ["Plage", "Montagnes"],
+  answers_ja: ["海", "山"],
+  answers_nl: ["Strand", "Bergen"],
 });
 
 test("findAnswerObject matches an answer picked in any language", () => {
@@ -44,8 +50,11 @@ test("findAnswerObject matches an answer picked in any language", () => {
     de: "Berge",
     it: "Montagna",
     pl: "Góry",
+    fr: "Montagnes",
+    ja: "山",
+    nl: "Bergen",
   };
-  for (const pick of ["Mountains", "Dağlar", "Montañas", "Montanhas", "Berge", "Montagna", "Góry"]) {
+  for (const pick of ["Mountains", "Dağlar", "Montañas", "Montanhas", "Berge", "Montagna", "Góry", "Montagnes", "山", "Bergen"]) {
     assert.deepEqual(findAnswerObject(pick, full), expected);
   }
   assert.equal(findAnswerObject("Desert", full), null);
@@ -65,6 +74,9 @@ test("findAnswerObject on a room stored before Portuguese falls back to the pick
     de: "Plaj",
     it: "Plaj",
     pl: "Plaj",
+    fr: "Plaj",
+    ja: "Plaj",
+    nl: "Plaj",
   });
 });
 
@@ -74,7 +86,7 @@ test("typed trivia key reveals each language, English when one is missing", () =
   assert.deepEqual(key, {
     kind: "text",
     accepted: ["Mars", "Marte"],
-    reveal: { en: "Mars", tr: "Mars", es: "Marte", pt: "Mars", de: "Mars", it: "Mars", pl: "Mars" },
+    reveal: { en: "Mars", tr: "Mars", es: "Marte", pt: "Mars", de: "Mars", it: "Mars", pl: "Mars", fr: "Mars", ja: "Mars", nl: "Mars" },
   });
 });
 
@@ -89,12 +101,15 @@ test("multiple choice trivia key carries the Portuguese answer", () => {
       de: "Strand",
       it: "Spiaggia",
       pl: "Plaża",
+      fr: "Plage",
+      ja: "海",
+      nl: "Strand",
     },
   });
 });
 
 test("admin questions need every language's text and answers", () => {
-  const texts = { text_en: "Q", text_tr: "S", text_es: "P", text_pt: "P", text_de: "F", text_it: "D", text_pl: "P" };
+  const texts = { text_en: "Q", text_tr: "S", text_es: "P", text_pt: "P", text_de: "F", text_it: "D", text_pl: "P", text_fr: "Q", text_ja: "質問", text_nl: "V" };
   const answers = {
     answers_en: ["A", "B"],
     answers_tr: ["A", "B"],
@@ -103,6 +118,9 @@ test("admin questions need every language's text and answers", () => {
     answers_de: ["A", "B"],
     answers_it: ["A", "B"],
     answers_pl: ["A", "B"],
+    answers_fr: ["A", "B"],
+    answers_ja: ["A", "B"],
+    answers_nl: ["A", "B"],
   };
   const body = { category_id: "long_term", texts, have_answers: true, answers };
   const { text_pt: _pt, ...noPt } = texts;
@@ -119,7 +137,7 @@ test("admin questions need every language's text and answers", () => {
 test("a typed key given as one list applies to every language", () => {
   const ok = validateQuestionInput({
     category_id: "mastermind",
-    texts: { text_en: "Q", text_tr: "S", text_es: "P", text_pt: "P", text_de: "F", text_it: "D", text_pl: "P" },
+    texts: { text_en: "Q", text_tr: "S", text_es: "P", text_pt: "P", text_de: "F", text_it: "D", text_pl: "P", text_fr: "Q", text_ja: "質問", text_nl: "V" },
     question_type: "text",
     correct_answer: ["Ankara"],
   });
@@ -131,6 +149,9 @@ test("a typed key given as one list applies to every language", () => {
     de: ["Ankara"],
     it: ["Ankara"],
     pl: ["Ankara"],
+    fr: ["Ankara"],
+    ja: ["Ankara"],
+    nl: ["Ankara"],
   });
 });
 
@@ -178,6 +199,26 @@ test("Portuguese profanity is masked, ordinary words are not", () => {
   }
 });
 
+test("French and Dutch profanity is masked, everyday words are not", () => {
+  for (const [dirty, masked] of [
+    ["putain de merde", "p***** de m****"],
+    ["sale connard", "sale c******"],
+    ["wat een klootzak", "wat een k*******"],
+    ["kut", "k**"],
+  ]) {
+    assert.equal(maskProfanity(dirty), masked);
+  }
+  for (const clean of [
+    "café con leche", "con amore", "la bite", "computer", "dispute", "Hoe gaat het",
+    "Je t'aime", "lulu", "hoera!", "Ja ik ben er", "ビールが好き",
+    "Un peu en retard", "Sous la douche", "Pique-nique au parc", "makkelijk slagen",
+    "Als je partner 100 kilo woog, zou je", "een schoonmaker huren", "Wat weegt meer, de lever",
+    "maakt je lichaam aan als je huid", "une soirée de folie",
+  ]) {
+    assert.equal(maskProfanity(clean), clean);
+  }
+});
+
 test("German, Italian and Polish profanity is masked, everyday words are not", () => {
   for (const [dirty, masked] of [
     ["Du Arschloch", "Du A********"],
@@ -202,4 +243,12 @@ test("typed answers compare without Polish ł or German ß", async () => {
   assert.equal(comparable("Łódź"), comparable("lodz"));
   assert.equal(comparable("Straße"), comparable("strasse"));
   assert.equal(comparable("Çiğ  Köfte!"), "cig kofte");
+  // Japanese: voiced marks are part of the letter, not accents.
+  assert.notEqual(comparable("ビール"), comparable("ピール"));
+  assert.notEqual(comparable("ビール"), comparable("ヒール"));
+  assert.equal(comparable("ビール"), comparable("びーる"));
+  assert.equal(comparable("ｶﾞｽ"), comparable("ガス"));
+  assert.equal(comparable("東京タワー！"), "東京たわー");
+  assert.equal(comparable("Ｔｏｋｙｏ"), "tokyo");
+  assert.equal(comparable("Crème brûlée"), "creme brulee");
 });

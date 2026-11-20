@@ -1,0 +1,70 @@
+{
+  "0da22e32-fa22-493b-bc7f-f4b3a1ae901b": {
+    "en": "Where do you see yourselves living in 5 years?",
+    "text": "Où vous voyez-vous vivre dans 5 ans ?",
+    "answers": [
+      "Là où on vit maintenant",
+      "Dans une plus grande ville",
+      "Dans un coin calme, près de la nature",
+      "Dans un autre pays"
+    ]
+  },
+  "094980c9-ac72-48cd-8fec-ded5e8c859f2": {
+    "en": "How do you feel about having kids?",
+    "text": "Avoir des enfants, tu en penses quoi ?",
+    "answers": [
+      "Carrément, et bientôt",
+      "Oui, mais pas tout de suite",
+      "Je ne sais pas encore",
+      "Pas pour moi"
+    ]
+  },
+  "9dd0cb25-5e52-4bbd-8b84-0845b7a42506": {
+    "en": "What matters most for your future together?",
+    "text": "Qu'est-ce qui compte le plus pour votre avenir à deux ?",
+    "answers": [
+      "La stabilité et la sécurité",
+      "L'aventure et la nouveauté",
+      "Fonder une famille",
+      "Notre épanouissement personnel"
+    ]
+  },
+  "0bcc27d3-1ef3-44af-a395-189f4c9bd2c7": {
+    "en": "You get a dream job offer in another city. You…",
+    "text": "On te propose le job de tes rêves dans une autre ville. Ta réaction ?",
+    "answers": [
+      "J'accepte seulement si on déménage ensemble",
+      "On tente la distance un temps",
+      "Je refuse, pour nous",
+      "J'accepte, on trouvera une solution"
+    ]
+  },
+  "8ef516ca-6075-4b91-baa4-ddf344730612": {
+    "en": "How do you prefer to plan the future?",
+    "text": "Comment préfères-tu planifier l'avenir ?",
+    "answers": [
+      "Des plans détaillés, des années à l'avance",
+      "Une direction générale",
+      "Étape par étape",
+      "Laisser la vie nous surprendre"
+    ]
+  },
+  "afb504c6-4c43-4b52-ac1f-3313b26b9e24": {
+    "en": "How sure are you that you two want the same future?",
+    "text": "À quel point crois-tu que vous voulez le même avenir, vous deux ?",
+    "answers": [
+      "Aucun doute",
+      "Plutôt, avec quelques questions en suspens",
+      "On n'en a jamais vraiment parlé",
+      "J'ai de gros doutes"
+    ]
+  },
+  "983f732f-f006-4caf-acec-f1b565922810": {
+    "en": "In one sentence: where are the two of you in five years?",
+    "text": "En une phrase : vous deux, dans cinq ans, vous en êtes où ?"
+  },
+  "9a479602-d540-4c0d-818d-eca22f12ae13": {
+    "en": "What's one thing about the future you've been hesitant to bring up?",
+    "text": "Quel sujet sur l'avenir hésites-tu à aborder ?"
+  }
+}

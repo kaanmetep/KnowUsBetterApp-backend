@@ -1,0 +1,2041 @@
+{
+  "980115c5-d5c7-49e5-a782-cc1175a6518b": {
+    "en": "Which organ in the human body consumes the highest percentage of total energy?",
+    "text": "体の中で、全エネルギーのうち一番多くを使う臓器は？",
+    "answers": [
+      "脳",
+      "心臓",
+      "肝臓",
+      "腎臓"
+    ]
+  },
+  "a1a237a1-628a-4008-9ba2-36d59a0e6171": {
+    "en": "Which primary color mixture produces the color green in standard visual pigments?",
+    "text": "絵の具で緑を作るには、どの色を混ぜる？",
+    "answers": [
+      "青と黄色",
+      "赤と青",
+      "黄色と赤"
+    ]
+  },
+  "c1cb1e49-a9cc-43e1-b6da-34f4da305a37": {
+    "en": "Which architectural feature was specifically invented by ancient Romans to support massive dome structures?",
+    "text": "古代ローマ人が巨大なドームを支えるために活用した建築の技術は？",
+    "answers": [
+      "アーチ",
+      "柱",
+      "ピラミッド"
+    ],
+    "flagged": true,
+    "note": "Source says Romans 'invented' the arch; arches predate Rome (Mesopotamia). Softened to 'made use of' to keep it true."
+  },
+  "e9339914-1d7d-423a-9a28-2519995eb9e6": {
+    "en": "Which planet in our solar system spins in the opposite direction to most other planets?",
+    "text": "太陽系で、ほかの多くの惑星と逆向きに自転している惑星は？",
+    "answers": [
+      "金星",
+      "火星",
+      "木星",
+      "土星"
+    ]
+  },
+  "52c90157-fc1f-4878-9f00-91c318581ade": {
+    "en": "Which animal holds the record for having the longest lifespan among vertebrates on Earth?",
+    "text": "脊椎動物の中で、一番長生きする記録を持つ動物は？",
+    "answers": [
+      "ニシオンデンザメ",
+      "ガラパゴスゾウガメ",
+      "ホッキョククジラ"
+    ]
+  },
+  "c3b7010c-35ea-402f-a186-4035fa9be837": {
+    "en": "Which fruit is botanically classified as a berry, despite common belief?",
+    "text": "意外にも、植物学では「ベリー（液果）」に分類される果物は？",
+    "answers": [
+      "バナナ",
+      "イチゴ",
+      "ラズベリー"
+    ]
+  },
+  "0e882595-4846-4d01-a879-ccb1be0cdc0a": {
+    "en": "Which country is home to the famous Eiffel Tower?",
+    "text": "エッフェル塔がある国は？",
+    "answers": [
+      "フランス",
+      "イタリア",
+      "スペイン",
+      "ドイツ"
+    ]
+  },
+  "5f20efa2-53ef-4bc7-b7de-966c2a271457": {
+    "en": "Which planet in our solar system is known as the \"Red Planet\"?",
+    "text": "太陽系で「赤い惑星」と呼ばれているのは？",
+    "answers": [
+      "火星",
+      "木星",
+      "金星"
+    ]
+  },
+  "4d359908-e7a2-4ef5-bde1-d9fc49ee3218": {
+    "en": "Which mammalian land animal is known for being unable to jump?",
+    "text": "ジャンプできないことで知られる陸の哺乳類は？",
+    "answers": [
+      "ゾウ",
+      "キリン",
+      "カバ",
+      "サイ"
+    ]
+  },
+  "a98b74cf-707a-4d84-a017-ea98f2d69e68": {
+    "en": "How many sides does a standard stop sign on the road have?",
+    "text": "欧米でよく見る「STOP」の標識、辺はいくつ？",
+    "answers": [
+      "8",
+      "6",
+      "10"
+    ],
+    "flagged": true,
+    "note": "Japan's own stop sign (止まれ) is an inverted triangle, so the question is anchored to the Western STOP sign (octagon)."
+  },
+  "1002c05b-034b-4dd1-a1fb-adf942e36c58": {
+    "en": "What color do you get when you mix blue and yellow together?",
+    "text": "青と黄色を混ぜると何色になる？",
+    "answers": [
+      "緑",
+      "紫",
+      "オレンジ"
+    ]
+  },
+  "4563d6d4-5301-4f89-811a-045b66157aa2": {
+    "en": "Which soft drink was originally invented as a cough syrup and headache remedy?",
+    "text": "もともと咳止めシロップや頭痛薬として作られた炭酸飲料は？",
+    "answers": [
+      "コカ・コーラ",
+      "スプライト",
+      "ファンタ",
+      "ペプシ"
+    ]
+  },
+  "83fbd060-6ae4-4fc1-9ebe-4b0e7a2e0c15": {
+    "en": "Which organ in the human body pumps blood through the circulatory system?",
+    "text": "体中に血液を送り出している臓器は？",
+    "answers": [
+      "心臓",
+      "肺",
+      "腎臓"
+    ]
+  },
+  "a79f90ff-8ce5-493b-8b50-2ef10c1f9c26": {
+    "en": "How many continents are there on planet Earth?",
+    "text": "世界で一般的な数え方だと、大陸はいくつ？",
+    "answers": [
+      "7",
+      "5",
+      "6",
+      "8"
+    ],
+    "flagged": true,
+    "note": "Japanese schools teach 6 continents (六大陸), so a Japanese player may pick 6. Wording points to the common worldwide (7-continent) count; consider whether to keep this item for ja."
+  },
+  "b6c425a9-162f-4107-919c-20eea21afc7a": {
+    "en": "What is the name of the imaginary line that divides Earth into the Northern and Southern Hemispheres?",
+    "text": "地球を北半球と南半球に分ける線の名前は？",
+    "answers": [
+      "赤道",
+      "本初子午線",
+      "北回帰線"
+    ]
+  },
+  "6d38ce25-2cda-440e-b549-81e7ac23cec6": {
+    "en": "Which country gave the Statue of Liberty to the United States as a gift?",
+    "text": "アメリカに自由の女神像を贈った国は？",
+    "answers": [
+      "フランス",
+      "イギリス",
+      "スペイン"
+    ]
+  },
+  "71f547f0-2910-4a59-b084-5a1da579b6fd": {
+    "en": "What is the largest living mammal on planet Earth?",
+    "text": "今生きている哺乳類で一番大きいのは？",
+    "answers": [
+      "シロナガスクジラ",
+      "アフリカゾウ",
+      "キリン"
+    ]
+  },
+  "eb10929a-ee75-431c-8b54-1c62a3954c40": {
+    "en": "Which piece can move in any direction and any number of squares in a game of chess?",
+    "text": "チェスで、どの方向にも何マスでも進める駒は？",
+    "answers": [
+      "クイーン",
+      "ルーク",
+      "ナイト"
+    ]
+  },
+  "d322c35e-b645-48fb-a14c-cb92c5fd3a2d": {
+    "en": "Which metal is liquid at room temperature?",
+    "text": "常温で液体の金属は？",
+    "answers": [
+      "水銀",
+      "金",
+      "銀"
+    ]
+  },
+  "cb7fac86-596c-459d-a42f-b6ba0d8fc977": {
+    "en": "Which country is famous for giving pizza and pasta to world cuisine?",
+    "text": "ピザとパスタを世界に広めたことで有名な国は？",
+    "answers": [
+      "イタリア",
+      "ギリシャ",
+      "スペイン"
+    ]
+  },
+  "5aabe2cc-9cc4-458a-835e-7b996e00fc3f": {
+    "en": "Which sea creature is known for having eight arms and three hearts?",
+    "text": "腕が8本、心臓が3つあることで知られる海の生き物は？",
+    "answers": [
+      "タコ",
+      "クラゲ",
+      "イルカ"
+    ]
+  },
+  "6a8c5efa-0b23-4be2-9388-f2160e79d450": {
+    "en": "What is the chemical symbol for gold on the periodic table?",
+    "text": "周期表で、金の元素記号は？",
+    "accepted": [
+      "Au",
+      "au",
+      "AU",
+      "Ａｕ"
+    ]
+  },
+  "b96c042c-87f1-4b1d-9bf1-420704c1751d": {
+    "en": "Which pigment gives human skin, hair, and eyes their color?",
+    "text": "肌や髪、目の色を決めている色素は？",
+    "accepted": [
+      "メラニン",
+      "メラニン色素",
+      "めらにん",
+      "Melanin"
+    ]
+  },
+  "1508ac33-05f6-4377-b707-44fedf4e71dd": {
+    "en": "What is the name of the outer protective layer of human teeth?",
+    "text": "歯の一番外側を守っている層の名前は？",
+    "accepted": [
+      "エナメル質",
+      "エナメル",
+      "えなめる質",
+      "えなめるしつ",
+      "Enamel"
+    ]
+  },
+  "b67421f6-8ac4-4d1a-80be-6e67cd22a44a": {
+    "en": "Which biological process allows green plants to turn sunlight into food?",
+    "text": "植物が太陽の光から栄養を作るしくみは？",
+    "accepted": [
+      "光合成",
+      "こうごうせい",
+      "Photosynthesis"
+    ]
+  },
+  "ff20387b-ecc5-4100-8a3e-4a10c409f056": {
+    "en": "What is the natural satellite of planet Earth?",
+    "text": "地球の衛星は？",
+    "accepted": [
+      "月",
+      "つき",
+      "ツキ",
+      "ムーン",
+      "Moon"
+    ]
+  },
+  "6aaa16e5-4afb-4d6a-ae8c-cd19dbcc710e": {
+    "en": "Which naturally occurring mineral is the hardest substance on the Mohs scale?",
+    "text": "モース硬度で一番硬い天然の鉱物は？",
+    "accepted": [
+      "ダイヤモンド",
+      "ダイヤ",
+      "だいやもんど",
+      "金剛石",
+      "Diamond"
+    ]
+  },
+  "084018a1-dd49-4965-aebd-934b0318c6a6": {
+    "en": "What is the fastest land animal in the world over short distances?",
+    "text": "短距離なら世界最速の陸上動物は？",
+    "accepted": [
+      "チーター",
+      "ちーたー",
+      "Cheetah"
+    ]
+  },
+  "2dce8722-4a23-4666-86b4-656be891094b": {
+    "en": "Which scientist is credited with formulating the three laws of motion that laid the foundation for classical mechanics?",
+    "text": "古典力学の土台になった「運動の3法則」をまとめた科学者は？",
+    "answers": [
+      "アイザック・ニュートン",
+      "ガリレオ・ガリレイ",
+      "アルベルト・アインシュタイン",
+      "ニコラ・テスラ"
+    ]
+  },
+  "8a9f4fe4-c5b9-409a-be56-e499c4c63f03": {
+    "en": "Which ancient civilization is credited with inventing cuneiform, one of the earliest writing systems in human history?",
+    "text": "人類最古級の文字、楔形文字を生み出した古代文明は？",
+    "answers": [
+      "シュメール人",
+      "古代エジプト人",
+      "マヤ人",
+      "インダス文明"
+    ]
+  },
+  "6b0624f0-17cf-4745-9229-15a908f2a283": {
+    "en": "Which city is nicknamed \"The Big Apple\"?",
+    "text": "「ビッグアップル」の愛称で呼ばれる都市は？",
+    "accepted": [
+      "ニューヨーク",
+      "ニューヨーク市",
+      "NY",
+      "NYC",
+      "New York",
+      "マンハッタン"
+    ]
+  },
+  "b5a1d6a7-2975-45c3-9da2-527a6839b14b": {
+    "en": "Which famous city lies on two continents, Europe and Asia?",
+    "text": "ヨーロッパとアジア、2つの大陸にまたがる有名な都市は？",
+    "accepted": [
+      "イスタンブール",
+      "イスタンブル",
+      "いすたんぶーる",
+      "コンスタンティノープル",
+      "Istanbul"
+    ]
+  },
+  "3b45c9ca-6907-4477-b5ea-8bfc62790c60": {
+    "en": "Which city is famous for its canals and gondolas?",
+    "text": "運河とゴンドラで有名な都市は？",
+    "accepted": [
+      "ヴェネツィア",
+      "ベネチア",
+      "ベネツィア",
+      "ヴェネチア",
+      "ヴェニス",
+      "ベニス",
+      "Venice",
+      "Venezia"
+    ]
+  },
+  "23c98892-b152-43da-b6a0-82128ebef70a": {
+    "en": "Hollywood is a neighborhood of which city?",
+    "text": "ハリウッドがあるのはどの都市？",
+    "accepted": [
+      "ロサンゼルス",
+      "ロサンジェルス",
+      "ロス",
+      "LA",
+      "L.A.",
+      "Los Angeles"
+    ]
+  },
+  "1d666e97-1005-4ff3-81d3-e770e64be6ec": {
+    "en": "In which city is the Eiffel Tower located?",
+    "text": "エッフェル塔がある都市は？",
+    "accepted": [
+      "パリ",
+      "ぱり",
+      "Paris"
+    ]
+  },
+  "1b8bf486-da98-42aa-a150-48e2a7258023": {
+    "en": "The famous Leaning Tower is in which Italian city?",
+    "text": "有名な斜塔があるイタリアの都市は？",
+    "accepted": [
+      "ピサ",
+      "ぴさ",
+      "Pisa"
+    ]
+  },
+  "f6b38b97-7a9e-42e4-9197-e65bb05144fe": {
+    "en": "The Brandenburg Gate is a famous landmark of which city?",
+    "text": "ブランデンブルク門がシンボルの都市は？",
+    "accepted": [
+      "ベルリン",
+      "べるりん",
+      "Berlin"
+    ]
+  },
+  "d58f0d3d-5ae0-4d57-9c67-31b512ad9ec9": {
+    "en": "What is the largest animal that has ever lived on Earth?",
+    "text": "地球の歴史上、一番大きな動物は？",
+    "accepted": [
+      "シロナガスクジラ",
+      "しろながすくじら",
+      "白長須鯨",
+      "Blue whale"
+    ]
+  },
+  "bac52e71-1145-40f6-995a-c19cdb34796f": {
+    "en": "What plant makes up almost all of a giant panda's diet?",
+    "text": "ジャイアントパンダの食べ物のほとんどを占める植物は？",
+    "accepted": [
+      "竹",
+      "笹",
+      "たけ",
+      "ささ",
+      "タケ",
+      "ササ",
+      "バンブー",
+      "Bamboo"
+    ]
+  },
+  "0ab4f29e-ab23-48bd-9b43-ac381b2402b6": {
+    "en": "How many legs does a spider have?",
+    "text": "クモの脚は何本？",
+    "accepted": [
+      "8本",
+      "8",
+      "八本",
+      "八",
+      "はっぽん",
+      "はち"
+    ]
+  },
+  "a10b4878-ff6f-48e9-9efa-b5ca90f7787e": {
+    "en": "Which horse-like African animal is famous for its black-and-white stripes?",
+    "text": "白黒のしま模様で有名な、馬に似たアフリカの動物は？",
+    "accepted": [
+      "シマウマ",
+      "しまうま",
+      "縞馬",
+      "ゼブラ",
+      "Zebra"
+    ]
+  },
+  "b6e68e10-746b-4a94-9206-99458a27c2f8": {
+    "en": "Which bird lays the largest eggs in the world?",
+    "text": "世界で一番大きな卵を産む鳥は？",
+    "accepted": [
+      "ダチョウ",
+      "だちょう",
+      "駝鳥",
+      "Ostrich"
+    ]
+  },
+  "70cd3353-de0e-4861-a3a2-4d30de21df32": {
+    "en": "Which white bird is a worldwide symbol of peace?",
+    "text": "世界中で平和のシンボルとされる白い鳥は？",
+    "accepted": [
+      "ハト",
+      "鳩",
+      "はと",
+      "白いハト",
+      "白い鳩",
+      "平和の鳩",
+      "Dove"
+    ]
+  },
+  "1ce201ba-eaae-4e68-9728-8b1eda0a8ca5": {
+    "en": "Which sea creature has eight arms and can squirt ink?",
+    "text": "腕が8本あって、墨を吐く海の生き物は？",
+    "accepted": [
+      "タコ",
+      "たこ",
+      "蛸",
+      "オクトパス",
+      "Octopus"
+    ]
+  },
+  "78899d32-d997-4e60-b9a5-c635406a0d3a": {
+    "en": "Sushi originally comes from which country?",
+    "text": "寿司はもともとどこの国の料理？",
+    "accepted": [
+      "日本",
+      "にほん",
+      "にっぽん",
+      "ニッポン",
+      "Japan"
+    ],
+    "flagged": true,
+    "note": "Trivially easy for Japanese players; kept as a giveaway question."
+  },
+  "e3224e00-4e9d-4756-b4b7-34c7b3a1d378": {
+    "en": "What is the main ingredient of guacamole?",
+    "text": "ワカモレのメインの材料は？",
+    "accepted": [
+      "アボカド",
+      "アボガド",
+      "あぼかど",
+      "Avocado"
+    ]
+  },
+  "b8c37ace-a5e4-48f1-8f35-dfe55af4f856": {
+    "en": "Pizza Margherita's tomato, mozzarella and basil match the colors of which country's flag?",
+    "text": "マルゲリータのトマト・モッツァレラ・バジルは、どの国の国旗の色？",
+    "accepted": [
+      "イタリア",
+      "いたりあ",
+      "Italy",
+      "Italia"
+    ]
+  },
+  "64af17d4-a459-43d3-8605-b2bb6c19f828": {
+    "en": "Paella, the famous rice dish, comes from which country?",
+    "text": "有名な米料理、パエリアはどこの国の料理？",
+    "accepted": [
+      "スペイン",
+      "すぺいん",
+      "バレンシア",
+      "Spain",
+      "España"
+    ]
+  },
+  "b7003871-d60e-401b-9b08-41e7e2e5526e": {
+    "en": "The long, crusty bread called the baguette is a symbol of which country?",
+    "text": "細長くて皮がパリッとしたパン、バゲットはどこの国のシンボル？",
+    "accepted": [
+      "フランス",
+      "ふらんす",
+      "仏",
+      "パリ",
+      "France"
+    ]
+  },
+  "f621bf3d-8230-483c-9cb0-c0a50a2d71c2": {
+    "en": "Ketchup is mainly made from which fruit?",
+    "text": "ケチャップの主な原料は？",
+    "accepted": [
+      "トマト",
+      "とまと",
+      "トマトペースト",
+      "Tomato"
+    ]
+  },
+  "e0117c78-8511-4559-a40c-807bf3b44bef": {
+    "en": "What color is wasabi, the spicy paste served with sushi?",
+    "text": "お寿司に添えるツンと辛いわさび、何色？",
+    "accepted": [
+      "緑",
+      "緑色",
+      "みどり",
+      "黄緑",
+      "黄緑色",
+      "薄緑",
+      "グリーン"
+    ]
+  },
+  "f5489aa3-87f1-4b69-92dc-5cf074b1632c": {
+    "en": "Tacos and burritos come from which country's cuisine?",
+    "text": "タコスとブリトーはどこの国の料理？",
+    "accepted": [
+      "メキシコ",
+      "めきしこ",
+      "メキシコ料理",
+      "Mexico"
+    ]
+  },
+  "a65dcf3d-b93a-4b2c-92db-b4d5f1fd4e1e": {
+    "en": "Which alcoholic drink is made from fermented grapes?",
+    "text": "ぶどうを発酵させて作るお酒は？",
+    "accepted": [
+      "ワイン",
+      "わいん",
+      "ぶどう酒",
+      "葡萄酒",
+      "赤ワイン",
+      "白ワイン",
+      "Wine"
+    ]
+  },
+  "8777cf9c-ad05-4381-831d-fdbe8e97e782": {
+    "en": "How many players does each football (soccer) team have on the pitch?",
+    "text": "サッカーで、1チームがピッチに出せる選手は何人？",
+    "answers": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ]
+  },
+  "8bc06cc3-41d5-48fb-b558-a0e7211cd256": {
+    "en": "How many rings are on the Olympic flag?",
+    "text": "オリンピックの旗の輪はいくつ？",
+    "answers": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "bc53010b-e468-4440-b51f-1e8e88af45a9": {
+    "en": "In basketball, how many points is a shot from behind the arc worth?",
+    "text": "バスケで、ゴールから遠い弧のラインの外から決めたシュートは何点？",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  "d861a43a-aa1f-4890-8756-19fc302921f3": {
+    "en": "Which sport is played with a shuttlecock?",
+    "text": "シャトルを打ち合うスポーツは？",
+    "answers": [
+      "スカッシュ",
+      "卓球",
+      "バドミントン",
+      "バレーボール"
+    ]
+  },
+  "b74a73e3-86ad-4c53-9ad8-d9959e914da9": {
+    "en": "How long is a standard football (soccer) match, not counting stoppage time?",
+    "text": "アディショナルタイムを除くと、サッカーの試合時間は？",
+    "answers": [
+      "60分",
+      "80分",
+      "90分",
+      "120分"
+    ]
+  },
+  "e5177139-279d-43ba-9958-7a7f8ff4d66a": {
+    "en": "In which sport can you score a \"hole-in-one\"?",
+    "text": "「ホールインワン」が出るスポーツは？",
+    "answers": [
+      "ゴルフ",
+      "ボウリング",
+      "ビリヤード",
+      "クリケット"
+    ]
+  },
+  "2efd87ad-07be-4fbd-9049-16b0c884f7fa": {
+    "en": "Which country hosted the first modern Olympic Games in 1896?",
+    "text": "1896年、最初の近代オリンピックが開かれた国は？",
+    "answers": [
+      "フランス",
+      "ギリシャ",
+      "イングランド",
+      "イタリア"
+    ]
+  },
+  "6f4517f0-b61a-4482-8c7c-4f9e7a09247d": {
+    "en": "How many players from each team are on a basketball court at the same time?",
+    "text": "バスケで、1チームが同時にコートに立てるのは何人？",
+    "answers": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "b0b4d45e-7c09-442b-bba9-0fcffb41bc6e": {
+    "en": "The Tour de France is one of the world's most famous races in which sport?",
+    "text": "ツール・ド・フランスは、どのスポーツの世界的に有名なレース？",
+    "answers": [
+      "ランニング",
+      "自転車",
+      "モータースポーツ",
+      "ヨット"
+    ]
+  },
+  "5d12f0e6-811f-489a-9320-5d65f5c62454": {
+    "en": "Which sport made Michael Jordan a global legend?",
+    "text": "マイケル・ジョーダンを世界的なレジェンドにしたスポーツは？",
+    "answers": [
+      "野球",
+      "バスケットボール",
+      "アメフト",
+      "ゴルフ"
+    ]
+  },
+  "7f301f40-bb88-4cd7-9822-4d51d3e99b3d": {
+    "en": "In which sport do players hit a \"puck\" instead of a ball?",
+    "text": "ボールの代わりに「パック」を打つスポーツは？",
+    "answers": [
+      "アイスホッケー",
+      "カーリング",
+      "水球",
+      "ラクロス"
+    ]
+  },
+  "03918dea-d42e-41dc-b17e-8877d98ca587": {
+    "en": "Roughly how long is a marathon?",
+    "text": "マラソンの距離はだいたい何km？",
+    "answers": [
+      "21km",
+      "30km",
+      "42km",
+      "50km"
+    ]
+  },
+  "ff362948-8ff9-4b08-97b1-e6782a964795": {
+    "en": "Sumo wrestling is the national sport of which country?",
+    "text": "相撲が国技とされている国は？",
+    "answers": [
+      "中国",
+      "韓国",
+      "日本",
+      "モンゴル"
+    ]
+  },
+  "ce92e413-1961-4e02-9cc6-1d7f7e665b44": {
+    "en": "In football (soccer), which card does the referee show to send a player off?",
+    "text": "サッカーで、審判が選手を退場させるときに出すカードは？",
+    "answers": [
+      "イエローカード",
+      "レッドカード",
+      "ブルーカード",
+      "グリーンカード"
+    ]
+  },
+  "e0376cd2-b821-4778-a104-f2f21460e4f9": {
+    "en": "How many holes are played in a standard round of golf?",
+    "text": "ゴルフの1ラウンドはふつう何ホール？",
+    "answers": [
+      "9",
+      "12",
+      "18",
+      "24"
+    ]
+  },
+  "470f370a-f1ff-46dc-ad04-0921db1801da": {
+    "en": "Usain Bolt became a world record holder in which event?",
+    "text": "ウサイン・ボルトが世界記録を持っている競技は？",
+    "answers": [
+      "水泳",
+      "短距離走",
+      "走り幅跳び",
+      "自転車"
+    ]
+  },
+  "448ec511-95bf-40f4-9e1b-c12c083b0267": {
+    "en": "How many players from each team are on a volleyball court at once?",
+    "text": "バレーボールで、1チームがコートに同時に出られるのは何人？",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "31b3a033-8fdd-40dd-8c2e-d5087aedbfbf": {
+    "en": "Muhammad Ali is considered one of the greatest athletes ever in which sport?",
+    "text": "モハメド・アリが史上最高のアスリートの1人とされるスポーツは？",
+    "answers": [
+      "レスリング",
+      "ボクシング",
+      "柔道",
+      "キックボクシング"
+    ]
+  },
+  "ad108c04-5948-421c-92cf-87d856111268": {
+    "en": "How many Grand Slam tournaments are there in tennis each year?",
+    "text": "テニスのグランドスラム大会は毎年いくつある？",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "66d937da-ec80-4572-84ed-902aed03fdbf": {
+    "en": "How many bones does an adult human body have?",
+    "text": "大人の体には骨が何本ある？",
+    "answers": [
+      "106",
+      "206",
+      "306",
+      "406"
+    ]
+  },
+  "b881df18-afa4-4f6d-b8d4-2f69928d90eb": {
+    "en": "What is the largest organ of the human body?",
+    "text": "人間の体で一番大きい臓器は？",
+    "answers": [
+      "肝臓",
+      "肺",
+      "皮膚",
+      "脳"
+    ]
+  },
+  "79a5250b-5c10-48e6-9226-2beb082fe4d3": {
+    "en": "Which gas makes up most of the air we breathe?",
+    "text": "空気の大部分を占めている気体は？",
+    "answers": [
+      "酸素",
+      "窒素",
+      "二酸化炭素",
+      "水素"
+    ]
+  },
+  "04109646-2470-4e9a-b82d-aaf64ee50fb8": {
+    "en": "At sea level, water boils at what temperature?",
+    "text": "海抜0mだと、水は何度で沸騰する？",
+    "answers": [
+      "80℃",
+      "90℃",
+      "100℃",
+      "120℃"
+    ]
+  },
+  "53d74eaf-20e2-4dde-b2c0-667e94047ee8": {
+    "en": "What is the largest planet in our solar system?",
+    "text": "太陽系で一番大きい惑星は？",
+    "answers": [
+      "土星",
+      "木星",
+      "海王星",
+      "地球"
+    ]
+  },
+  "adef6293-e6aa-4850-be6c-f7739e07b347": {
+    "en": "How many teeth does an adult usually have, including wisdom teeth?",
+    "text": "親知らずも入れると、大人の歯はふつう何本？",
+    "answers": [
+      "24",
+      "28",
+      "32",
+      "36"
+    ]
+  },
+  "2e7bb5bd-dbe2-4b29-b666-9fcbe35f814f": {
+    "en": "Which planet is closest to the Sun?",
+    "text": "太陽に一番近い惑星は？",
+    "answers": [
+      "金星",
+      "水星",
+      "火星",
+      "地球"
+    ]
+  },
+  "5f4a008d-499e-4bc0-97a6-616d03dfb26d": {
+    "en": "What is the chemical formula for water?",
+    "text": "水の化学式は？",
+    "answers": [
+      "CO2",
+      "H2O",
+      "O2",
+      "NaCl"
+    ]
+  },
+  "30ec3ae6-6d94-49df-a591-f425c03aea90": {
+    "en": "Which blood type is known as the \"universal donor\"?",
+    "text": "「万能ドナー」と呼ばれる血液型は？",
+    "answers": [
+      "A型Rh+",
+      "B型Rh−",
+      "AB型Rh+",
+      "O型Rh−"
+    ]
+  },
+  "1ba39886-208f-42cc-b5e8-b669b49fa583": {
+    "en": "How long does it take the Earth to travel once around the Sun?",
+    "text": "地球が太陽の周りを1周するのにかかる時間は？",
+    "answers": [
+      "1日",
+      "1週間",
+      "1か月",
+      "1年"
+    ]
+  },
+  "9c4656bf-e418-43a7-853c-5807919a8b22": {
+    "en": "The smallest bone in the human body is found in which part of the body?",
+    "text": "人間の体で一番小さい骨があるのはどこ？",
+    "answers": [
+      "手の指",
+      "耳",
+      "鼻",
+      "足の指"
+    ]
+  },
+  "9ccb760a-3543-48a3-bca4-7b133a9a147c": {
+    "en": "Which vitamin does your body make when your skin gets sunlight?",
+    "text": "肌に日光が当たると体の中で作られるビタミンは？",
+    "answers": [
+      "ビタミンA",
+      "ビタミンB12",
+      "ビタミンC",
+      "ビタミンD"
+    ]
+  },
+  "18255e04-f4d6-44cf-9d19-201792d1a91f": {
+    "en": "How many planets are in our solar system?",
+    "text": "太陽系に惑星はいくつある？",
+    "answers": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ]
+  },
+  "94e3ba92-0a32-47a3-8762-d141d5e3a183": {
+    "en": "Which force pulls objects toward the ground when you drop them?",
+    "text": "落とした物を地面に引っぱる力は？",
+    "answers": [
+      "磁力",
+      "摩擦力",
+      "重力",
+      "電気"
+    ]
+  },
+  "406d0c4d-062e-4fc9-8ac0-16e35645a12e": {
+    "en": "Which scientist is famous for the theory of relativity?",
+    "text": "相対性理論で有名な科学者は？",
+    "answers": [
+      "アイザック・ニュートン",
+      "ニコラ・テスラ",
+      "アルベルト・アインシュタイン",
+      "チャールズ・ダーウィン"
+    ]
+  },
+  "4f0e8e7a-a404-4e28-ba7d-184e88177cac": {
+    "en": "In which animated film does a young lion named Simba become king?",
+    "text": "子ライオンのシンバが王になるアニメ映画は？",
+    "answers": [
+      "ジャングル・ブック",
+      "マダガスカル",
+      "ライオン・キング",
+      "ターザン"
+    ]
+  },
+  "5f150e47-227f-4d1d-991e-f0624b6da732": {
+    "en": "What is the name of the wizarding school Harry Potter attends?",
+    "text": "ハリー・ポッターが通う魔法学校の名前は？",
+    "answers": [
+      "ナルニア",
+      "ホグワーツ",
+      "ゴッサム",
+      "裂け谷"
+    ]
+  },
+  "42580561-ded8-4a9f-bee4-4a9dac914ceb": {
+    "en": "John, Paul, George and Ringo were the members of which legendary band?",
+    "text": "ジョン、ポール、ジョージ、リンゴがいた伝説のバンドは？",
+    "answers": [
+      "ローリング・ストーンズ",
+      "クイーン",
+      "ビートルズ",
+      "ABBA"
+    ]
+  },
+  "e757c23e-fdde-4bbe-aa9c-4d068f5b4787": {
+    "en": "Which superhero is known as the \"Man of Steel\"?",
+    "text": "「鋼鉄の男」と呼ばれるスーパーヒーローは？",
+    "answers": [
+      "バットマン",
+      "アイアンマン",
+      "スーパーマン",
+      "スパイダーマン"
+    ]
+  },
+  "ee441246-10de-4b35-9265-842c9d2d761d": {
+    "en": "Which famous fictional detective lives at 221B Baker Street?",
+    "text": "ベーカー街221Bに住む有名な名探偵は？",
+    "answers": [
+      "エルキュール・ポアロ",
+      "シャーロック・ホームズ",
+      "ジェームズ・ボンド",
+      "インディ・ジョーンズ"
+    ]
+  },
+  "6d5f5c00-4706-4eb4-a7e3-4124932add70": {
+    "en": "Which ship sinks in the 1997 film starring Leonardo DiCaprio and Kate Winslet?",
+    "text": "レオナルド・ディカプリオとケイト・ウィンスレット主演の1997年の映画で沈む船は？",
+    "answers": [
+      "ポセイドン号",
+      "タイタニック号",
+      "ブラックパール号",
+      "クイーン・メリー号"
+    ]
+  },
+  "07691c96-35a5-4bd4-8b5a-562834877635": {
+    "en": "Who is Mickey Mouse's girlfriend?",
+    "text": "ミッキーマウスの恋人は？",
+    "answers": [
+      "デイジーダック",
+      "ミニーマウス",
+      "ベティ・ブープ",
+      "ジェシカ・ラビット"
+    ]
+  },
+  "b5b94a65-fed5-48cc-9e59-2fa7da99e027": {
+    "en": "What color does the Hulk turn when he gets angry?",
+    "text": "ハルクは怒ると何色になる？",
+    "answers": [
+      "赤",
+      "青",
+      "緑",
+      "紫"
+    ]
+  },
+  "1fcb25d2-57d4-4a43-bc7d-6503751ac0bd": {
+    "en": "Which musical instrument usually has 88 keys?",
+    "text": "鍵盤がふつう88個ある楽器は？",
+    "answers": [
+      "アコーディオン",
+      "ピアノ",
+      "ハープ",
+      "オルガン"
+    ]
+  },
+  "70c1e912-e703-4c28-8b68-fc55363fc96f": {
+    "en": "Which yellow cartoon family lives in the town of Springfield?",
+    "text": "スプリングフィールドに住む、黄色いアニメの家族は？",
+    "answers": [
+      "原始家族フリントストーン",
+      "ザ・シンプソンズ",
+      "アダムス・ファミリー",
+      "Mr.インクレディブル"
+    ]
+  },
+  "e6af68c7-cfd6-4fee-8949-ad182b20c596": {
+    "en": "Which famous video game character is an Italian plumber?",
+    "text": "イタリア人の配管工として有名なゲームキャラは？",
+    "answers": [
+      "ソニック",
+      "マリオ",
+      "パックマン",
+      "リンク"
+    ]
+  },
+  "e597ee36-f357-4ca7-91c3-430633c04158": {
+    "en": "Which fairy-tale character leaves a glass slipper behind at the ball?",
+    "text": "舞踏会にガラスの靴を残していくおとぎ話の主人公は？",
+    "answers": [
+      "白雪姫",
+      "シンデレラ",
+      "ラプンツェル",
+      "眠れる森の美女"
+    ]
+  },
+  "c98b5d34-10f7-4aa0-b7bd-ab549781cc63": {
+    "en": "In \"Finding Nemo\", what kind of fish is Nemo?",
+    "text": "「ファインディング・ニモ」のニモは何の魚？",
+    "answers": [
+      "金魚",
+      "フグ",
+      "カクレクマノミ",
+      "エンゼルフィッシュ"
+    ]
+  },
+  "4e4bfb42-2755-4d4c-8c5a-ab447668af3a": {
+    "en": "Which toy brand is famous for its colorful plastic building bricks?",
+    "text": "カラフルなプラスチックのブロックで有名なおもちゃブランドは？",
+    "answers": [
+      "バービー",
+      "ホットウィール",
+      "レゴ",
+      "プレイモービル"
+    ]
+  },
+  "e31805cd-d8c7-4d1e-8c2b-28df2ce2a412": {
+    "en": "Which famous Leonardo da Vinci painting shows a woman with a mysterious smile?",
+    "text": "謎めいた微笑みの女性を描いた、レオナルド・ダ・ヴィンチの有名な絵は？",
+    "answers": [
+      "星月夜",
+      "モナ・リザ",
+      "叫び",
+      "真珠の耳飾りの少女"
+    ]
+  },
+  "3104ed09-5f7c-4629-b071-53d9dee2d10a": {
+    "en": "Who is credited with inventing the telephone?",
+    "text": "電話を発明したとされる人は？",
+    "answers": [
+      "トーマス・エジソン",
+      "グラハム・ベル",
+      "ニコラ・テスラ",
+      "グリエルモ・マルコーニ"
+    ]
+  },
+  "8b5365af-e8cc-4486-9637-7782e4301b3b": {
+    "en": "Which of the Seven Wonders of the Ancient World is still standing today?",
+    "text": "古代世界の七不思議のうち、今も残っているのは？",
+    "answers": [
+      "ロドス島の巨像",
+      "ギザの大ピラミッド",
+      "バビロンの空中庭園",
+      "アレクサンドリアの大灯台"
+    ]
+  },
+  "4ca1bd44-e128-4f6a-b188-b56e814b331e": {
+    "en": "Who was the first person to walk on the Moon?",
+    "text": "初めて月面を歩いた人は？",
+    "answers": [
+      "ユーリイ・ガガーリン",
+      "バズ・オルドリン",
+      "ニール・アームストロング",
+      "マイケル・コリンズ"
+    ]
+  },
+  "9e9b93d0-7f5e-46d6-9578-bd3f41347a07": {
+    "en": "In which year did World War II end?",
+    "text": "第二次世界大戦が終わったのは何年？",
+    "answers": [
+      "1918",
+      "1939",
+      "1945",
+      "1950"
+    ]
+  },
+  "1fe111a8-2b47-47f0-aa0c-a866284920b9": {
+    "en": "The Great Wall was built to protect which country?",
+    "text": "万里の長城はどの国を守るために造られた？",
+    "answers": [
+      "日本",
+      "モンゴル",
+      "中国",
+      "インド"
+    ]
+  },
+  "6e7737ef-a295-4fb1-a481-56af330d1a0c": {
+    "en": "In Star Wars, who says \"I am your father\"?",
+    "text": "スター・ウォーズで「ルーク、私がおまえの父だ」と言うのは？",
+    "answers": [
+      "ダース・ベイダー",
+      "ヨーダ",
+      "ハン・ソロ",
+      "オビ＝ワン・ケノービ"
+    ]
+  },
+  "5490c031-4ae8-41db-ad1e-1c0f19e1d670": {
+    "en": "What is Spider-Man's real name?",
+    "text": "スパイダーマンの本名は？",
+    "accepted": [
+      "ピーター・パーカー",
+      "ピーターパーカー",
+      "パーカー",
+      "Peter Parker",
+      "Parker"
+    ]
+  },
+  "6ea2b330-632e-4ef4-9cd7-90fa3fd103c1": {
+    "en": "In \"Friends\", what is the name of the coffee shop where the group hangs out?",
+    "text": "「フレンズ」でみんながたまっているカフェの名前は？",
+    "answers": [
+      "セントラル・パーク",
+      "モンクス・カフェ",
+      "マクラーレンズ",
+      "ルークス・ダイナー"
+    ]
+  },
+  "64d0f7ef-3667-4c57-b401-c38494f12c44": {
+    "en": "In \"Frozen\", which character has ice powers?",
+    "text": "「アナと雪の女王」で氷の魔法を持っているのは？",
+    "answers": [
+      "エルサ",
+      "アナ",
+      "オラフ",
+      "クリストフ"
+    ]
+  },
+  "fc6c254d-6de9-4709-ba51-783d75afab03": {
+    "en": "Which green ogre lives in a swamp and marries Princess Fiona?",
+    "text": "沼に住んでいて、フィオナ姫と結婚する緑の怪物は？",
+    "accepted": [
+      "シュレック",
+      "しゅれっく",
+      "Shrek"
+    ]
+  },
+  "1a3ded96-3fb4-45e1-8b80-9439a1685b82": {
+    "en": "In \"Toy Story\", what is the cowboy's name?",
+    "text": "「トイ・ストーリー」のカウボーイの名前は？",
+    "answers": [
+      "ウッディ",
+      "バズ・ライトイヤー",
+      "ジェシー",
+      "レックス"
+    ]
+  },
+  "f93285f1-ec42-4086-a538-3f91311a45c0": {
+    "en": "Which fictional British spy is known as 007?",
+    "text": "「007」として知られるイギリスの架空のスパイは？",
+    "accepted": [
+      "ジェームズ・ボンド",
+      "ジェームズボンド",
+      "ジェームス・ボンド",
+      "ボンド",
+      "James Bond",
+      "Bond"
+    ]
+  },
+  "79b804b0-d450-49ac-afbc-178a25ccd947": {
+    "en": "In Greek mythology, who is the king of the gods?",
+    "text": "ギリシャ神話で神々の王は？",
+    "answers": [
+      "ゼウス",
+      "ポセイドン",
+      "ハデス",
+      "アポロン"
+    ]
+  },
+  "32820bda-0ce0-453c-a562-eb1d5f3a3077": {
+    "en": "Which woman in Greek mythology had snakes for hair?",
+    "text": "ギリシャ神話で、髪がヘビになっている女性は？",
+    "accepted": [
+      "メドゥーサ",
+      "メデューサ",
+      "メドゥサ",
+      "Medusa"
+    ]
+  },
+  "65246fe5-4f6f-4580-96d8-e333c4d4b682": {
+    "en": "What did the Greeks hide their soldiers in to get inside Troy?",
+    "text": "ギリシャ軍がトロイアに入り込むため、兵士を隠したものは？",
+    "accepted": [
+      "トロイの木馬",
+      "木馬",
+      "馬",
+      "トロイアの木馬",
+      "Trojan Horse"
+    ]
+  },
+  "7d8bc519-edf5-489d-9664-20e491062274": {
+    "en": "Which Norse god carries a hammer called Mjölnir?",
+    "text": "ミョルニルというハンマーを持つ北欧神話の神は？",
+    "answers": [
+      "トール",
+      "オーディン",
+      "ロキ",
+      "フレイヤ"
+    ]
+  },
+  "13639837-1420-4b70-a5f2-85cd1936839d": {
+    "en": "Who is the Greek god of the sea?",
+    "text": "ギリシャ神話の海の神は？",
+    "answers": [
+      "ポセイドン",
+      "ゼウス",
+      "アレス",
+      "ヘルメス"
+    ]
+  },
+  "2f98dc52-9124-4edc-9676-f90d8ee22eb4": {
+    "en": "What is the name of the winged horse in Greek mythology?",
+    "text": "ギリシャ神話に出てくる翼のある馬の名前は？",
+    "accepted": [
+      "ペガサス",
+      "ペガソス",
+      "Pegasus",
+      "Pegasos"
+    ]
+  },
+  "70030863-62b4-4574-abac-555c03cbe7da": {
+    "en": "Which mythical bird is reborn from its own ashes?",
+    "text": "自分の灰からよみがえる伝説の鳥は？",
+    "answers": [
+      "フェニックス",
+      "グリフォン",
+      "ハーピー",
+      "ロック鳥"
+    ]
+  },
+  "5d05ef74-11b4-418b-8208-0038040e4b8c": {
+    "en": "In the Chinese zodiac, each year is represented by what?",
+    "text": "十二支では、それぞれの年を何で表す？",
+    "answers": [
+      "動物",
+      "色",
+      "花",
+      "惑星"
+    ],
+    "flagged": true,
+    "note": "Chinese zodiac rendered as 十二支 (the Japanese eto system); trivially easy for Japanese players since 干支 is everyday knowledge."
+  },
+  "5f91f2c0-2e80-4762-852a-e38903ffdf4d": {
+    "en": "Which app has a white ghost on a yellow background as its logo?",
+    "text": "黄色い背景に白いおばけのロゴのアプリは？",
+    "answers": [
+      "Snapchat",
+      "Instagram",
+      "TikTok",
+      "WhatsApp"
+    ]
+  },
+  "6fe4f7ea-f19c-4d71-adf1-1c1615bcb44b": {
+    "en": "Which Pokémon does Pikachu evolve into?",
+    "text": "ピカチュウが進化するとどのポケモンになる？",
+    "answers": [
+      "ライチュウ",
+      "ピチュー",
+      "サンダース",
+      "エレブー"
+    ]
+  },
+  "a8c5a088-b9e1-4ff0-9b49-79956d86728a": {
+    "en": "In \"The Lord of the Rings\", what does Frodo have to destroy?",
+    "text": "「ロード・オブ・ザ・リング」でフロドが壊さなきゃいけないものは？",
+    "answers": [
+      "一つの指輪",
+      "魔法の剣",
+      "金の王冠",
+      "ドラゴンの卵"
+    ]
+  },
+  "9866a681-5192-4844-8f0a-767c92c836ad": {
+    "en": "Which series is famous for dragons, the Iron Throne and \"Winter is coming\"?",
+    "text": "ドラゴン、鉄の玉座、「冬来たる」で有名なドラマは？",
+    "answers": [
+      "ゲーム・オブ・スローンズ",
+      "ウィッチャー",
+      "ヴァイキング",
+      "ラスト・キングダム"
+    ]
+  },
+  "19701645-7659-4b6f-b90c-54c31e3cf003": {
+    "en": "In \"Pinocchio\", what happens when Pinocchio tells a lie?",
+    "text": "ピノキオがうそをつくとどうなる？",
+    "answers": [
+      "鼻が伸びる",
+      "耳が大きくなる",
+      "ロバになる",
+      "体が縮む"
+    ]
+  },
+  "b844d102-54ad-49a2-ac2f-23a887b2c59d": {
+    "en": "Ken is the boyfriend of which famous doll?",
+    "text": "恋人がケンという有名な人形は？",
+    "accepted": [
+      "バービー",
+      "バービー人形",
+      "Barbie"
+    ]
+  },
+  "c0c78278-5634-4c86-afb6-611012b803c7": {
+    "en": "In \"Snow White\", how many dwarfs are there?",
+    "text": "「白雪姫」に出てくる小人は何人？",
+    "answers": [
+      "7",
+      "5",
+      "6",
+      "9"
+    ]
+  },
+  "49e03a41-4eff-4efc-9c86-072bd6cd80c0": {
+    "en": "Which explorer reached the Americas in 1492?",
+    "text": "1492年にアメリカ大陸にたどり着いた探検家は？",
+    "accepted": [
+      "コロンブス",
+      "クリストファー・コロンブス",
+      "クリストファーコロンブス",
+      "Columbus",
+      "Christopher Columbus"
+    ]
+  },
+  "5f8c1ea9-e0c6-4c3a-8990-78fc55538881": {
+    "en": "Which Scandinavian warriors sailed longships and raided Europe?",
+    "text": "細長い船で海を渡り、ヨーロッパを襲った北欧の戦士たちは？",
+    "answers": [
+      "ヴァイキング",
+      "剣闘士",
+      "スパルタ人",
+      "モンゴル人"
+    ]
+  },
+  "e27f003c-9cdd-4965-8cfc-eafee22ae3a8": {
+    "en": "What were Japan's warriors who followed a strict code of honor called?",
+    "text": "厳しい名誉の掟を守った日本の戦士を何と呼ぶ？",
+    "answers": [
+      "侍",
+      "忍者",
+      "将軍",
+      "力士"
+    ],
+    "flagged": true,
+    "note": "Very easy for Japanese players; kept as is. Answer uses 侍 (could also be 武士)."
+  },
+  "f3f0b78d-5df4-4715-9c88-7c29a049c6d5": {
+    "en": "Napoleon Bonaparte was the emperor of which country?",
+    "text": "ナポレオン・ボナパルトはどこの国の皇帝だった？",
+    "answers": [
+      "フランス",
+      "スペイン",
+      "イタリア",
+      "オーストリア"
+    ]
+  },
+  "f61d23d9-8b7c-4b17-871e-60492ce71426": {
+    "en": "Constantinople was the capital of which empire until 1453?",
+    "text": "1453年まで、コンスタンティノープルを首都にしていた帝国は？",
+    "answers": [
+      "ビザンツ帝国",
+      "オスマン帝国",
+      "ペルシア帝国",
+      "モンゴル帝国"
+    ]
+  },
+  "4c492dce-98c0-4574-ae7e-6520dd83adfa": {
+    "en": "Who founded the Mongol Empire?",
+    "text": "モンゴル帝国を築いたのは誰？",
+    "answers": [
+      "チンギス・ハン",
+      "アッティラ",
+      "フビライ・ハン",
+      "ティムール"
+    ]
+  },
+  "e744b5f7-37e8-4566-9a72-369fd1ed7d94": {
+    "en": "K-pop is popular music from which country?",
+    "text": "K-POPはどこの国のポップミュージック？",
+    "accepted": [
+      "韓国",
+      "大韓民国",
+      "かんこく",
+      "コリア",
+      "South Korea",
+      "Korea"
+    ]
+  },
+  "eaad765d-b1c1-4969-a0e2-461cbc8d308c": {
+    "en": "Which Colombian singer is famous for \"Hips Don't Lie\"?",
+    "text": "「Hips Don't Lie」で有名なコロンビア出身の歌手は？",
+    "answers": [
+      "シャキーラ",
+      "カロル・G",
+      "ジェニファー・ロペス",
+      "タリア"
+    ]
+  },
+  "9c63629f-eefd-427d-aac7-cd721197899c": {
+    "en": "Which country won the 2022 FIFA World Cup in Qatar?",
+    "text": "2022年のカタールW杯で優勝した国は？",
+    "answers": [
+      "アルゼンチン",
+      "フランス",
+      "ブラジル",
+      "クロアチア"
+    ]
+  },
+  "60129856-af3b-48ca-b4fd-675f43bc388a": {
+    "en": "In 2023, Twitter was renamed to which single letter?",
+    "text": "2023年、Twitterの新しい名前になったアルファベット1文字は？",
+    "accepted": [
+      "X",
+      "エックス",
+      "えっくす"
+    ]
+  },
+  "0d429599-8d87-454b-b4f5-8302b97634f4": {
+    "en": "Which city hosted the 2024 Summer Olympics?",
+    "text": "2024年の夏季オリンピックが開かれた都市は？",
+    "answers": [
+      "パリ",
+      "東京",
+      "ロサンゼルス",
+      "ロンドン"
+    ]
+  },
+  "e4eb8205-7b58-4c9a-9eb4-71abdb1ae774": {
+    "en": "Which company created ChatGPT?",
+    "text": "ChatGPTを作った会社は？",
+    "answers": [
+      "OpenAI",
+      "Google",
+      "Meta",
+      "Apple"
+    ]
+  },
+  "b691f446-45c9-4b87-951f-8c5fb76881c2": {
+    "en": "Which British queen died in 2022 after 70 years on the throne?",
+    "text": "70年の在位を経て、2022年に亡くなったイギリスの女王は？",
+    "answers": [
+      "エリザベス2世",
+      "ヴィクトリア",
+      "メアリー",
+      "アン"
+    ]
+  },
+  "7210faaa-4175-4b0a-b70c-5730d0ba7514": {
+    "en": "In 2023, which country became the first to land a spacecraft near the Moon's south pole?",
+    "text": "2023年、月の南極付近に初めて探査機を着陸させた国は？",
+    "answers": [
+      "インド",
+      "中国",
+      "アメリカ",
+      "日本"
+    ]
+  },
+  "9f50ad95-1ce8-42ab-8e0b-3bd347d33019": {
+    "en": "In 2024, whose \"Eras Tour\" became the highest-grossing concert tour of all time?",
+    "text": "2024年、「Eras Tour」で史上最高の興行収入を記録したのは誰？",
+    "answers": [
+      "テイラー・スウィフト",
+      "ビヨンセ",
+      "コールドプレイ",
+      "エド・シーラン"
+    ]
+  },
+  "dbef5a1b-e8b9-4e2f-badd-ecc584b2a506": {
+    "en": "In 2021, which company changed its name to Meta?",
+    "text": "2021年に社名をMetaに変えた会社は？",
+    "answers": [
+      "Facebook",
+      "Google",
+      "Snapchat",
+      "Microsoft"
+    ]
+  },
+  "f06c1b8a-6980-42df-89fe-b55adeb50680": {
+    "en": "Which film won the Oscar for Best Picture in 2024?",
+    "text": "2024年のアカデミー賞で作品賞を取った映画は？",
+    "answers": [
+      "オッペンハイマー",
+      "バービー",
+      "哀れなるものたち",
+      "キラーズ・オブ・ザ・フラワームーン"
+    ]
+  },
+  "4ae711d9-060b-4476-ba2a-54553f7598ab": {
+    "en": "Which football star joined Inter Miami in 2023?",
+    "text": "2023年にインテル・マイアミに移籍したスター選手は？",
+    "answers": [
+      "リオネル・メッシ",
+      "クリスティアーノ・ロナウド",
+      "ネイマール",
+      "キリアン・エムバペ"
+    ]
+  },
+  "b0f5a3bb-d026-41bb-ae04-4b9fe39d8c07": {
+    "en": "Who sang \"Flowers\", Spotify's most-streamed song of 2023?",
+    "text": "2023年にSpotifyで一番聴かれた曲「Flowers」を歌ったのは？",
+    "answers": [
+      "マイリー・サイラス",
+      "デュア・リパ",
+      "オリヴィア・ロドリゴ",
+      "セレーナ・ゴメス"
+    ]
+  },
+  "a4003081-4a10-4950-ae5a-bc8ba3af8698": {
+    "en": "Who headlined the Super Bowl halftime show in February 2025?",
+    "text": "2025年2月のスーパーボウル・ハーフタイムショーでメインを務めたのは？",
+    "answers": [
+      "ケンドリック・ラマー",
+      "ドレイク",
+      "リアーナ",
+      "アッシャー"
+    ]
+  },
+  "78e44743-475f-450c-8cd8-181778fb078b": {
+    "en": "Which club did Kylian Mbappé join in 2024?",
+    "text": "2024年、キリアン・エムバペが移籍したクラブは？",
+    "answers": [
+      "レアル・マドリード",
+      "バルセロナ",
+      "マンチェスター・シティ",
+      "リバプール"
+    ]
+  },
+  "beb5059d-78c3-4c48-bdde-a60719e40b3a": {
+    "en": "Which country won Euro 2024?",
+    "text": "EURO 2024で優勝した国は？",
+    "answers": [
+      "スペイン",
+      "イングランド",
+      "フランス",
+      "ドイツ"
+    ]
+  },
+  "f1832cc6-7df0-42ab-92bb-969b46f7b33d": {
+    "en": "Who won Album of the Year at the 2025 Grammys with \"Cowboy Carter\"?",
+    "text": "『Cowboy Carter』で2025年のグラミー賞最優秀アルバム賞を取ったのは誰？",
+    "answers": [
+      "ビヨンセ",
+      "テイラー・スウィフト",
+      "ビリー・アイリッシュ",
+      "サブリナ・カーペンター"
+    ]
+  },
+  "e5687820-3e50-4945-a40e-cb0d9e381200": {
+    "en": "Which Formula 1 driver won four world titles in a row from 2021 to 2024?",
+    "text": "2021年から2024年まで4年連続でF1王者になったドライバーは？",
+    "answers": [
+      "マックス・フェルスタッペン",
+      "ルイス・ハミルトン",
+      "シャルル・ルクレール",
+      "ランド・ノリス"
+    ]
+  },
+  "6c98b4bf-4573-474a-bb8b-0e1d7b3eb0b5": {
+    "en": "Which Saudi club did Cristiano Ronaldo join in 2023?",
+    "text": "2023年、クリスティアーノ・ロナウドが移籍したサウジアラビアのクラブは？",
+    "answers": [
+      "アル・ナスル",
+      "アル・ヒラル",
+      "アル・イテハド",
+      "アル・アハリ"
+    ]
+  },
+  "4eddca60-90bb-4c91-b86b-30b870db71c6": {
+    "en": "Which BLACKPINK member sang the 2024 hit \"APT.\" with Bruno Mars?",
+    "text": "ブルーノ・マーズと2024年のヒット曲「APT.」を歌ったBLACKPINKのメンバーは？",
+    "answers": [
+      "ロゼ",
+      "リサ",
+      "ジェニー",
+      "ジス"
+    ]
+  },
+  "09e025bc-1030-4bba-ac13-bfb856378373": {
+    "en": "Which country's flag has a red maple leaf on it?",
+    "text": "国旗に赤いカエデの葉が描かれている国は？",
+    "answers": [
+      "カナダ",
+      "アメリカ",
+      "スイス",
+      "オーストリア"
+    ]
+  },
+  "be0a9d42-e487-408f-8aa9-1680a9bd2eb9": {
+    "en": "Which country's flag is a red circle on a white background?",
+    "text": "白地に赤い丸の国旗はどこの国？",
+    "answers": [
+      "日本",
+      "韓国",
+      "中国",
+      "バングラデシュ"
+    ],
+    "flagged": true,
+    "note": "Trivially easy for Japanese players (it's their own flag); consider swapping or accepting as a freebie."
+  },
+  "d3a8cb5e-faea-404d-becf-a6a5c2675ee0": {
+    "en": "Which phrase is written on Brazil's flag?",
+    "text": "ブラジルの国旗に書かれている言葉は？",
+    "answers": [
+      "秩序と進歩",
+      "自由と団結",
+      "神と祖国",
+      "平和と愛"
+    ]
+  },
+  "b9d0f221-dc7d-4119-89da-5a278014a8f0": {
+    "en": "Which bird is shown eating a snake on Mexico's flag?",
+    "text": "メキシコの国旗で、ヘビをくわえている鳥は？",
+    "accepted": [
+      "ワシ",
+      "鷲",
+      "わし",
+      "イヌワシ",
+      "犬鷲",
+      "いぬわし",
+      "Eagle",
+      "Golden eagle"
+    ]
+  },
+  "5b6681a5-b76e-450c-b88f-52f29f0d943e": {
+    "en": "Which country has a square red flag with a white cross in the middle?",
+    "text": "正方形の赤い国旗の真ん中に白い十字がある国は？",
+    "answers": [
+      "スイス",
+      "デンマーク",
+      "ノルウェー",
+      "イングランド"
+    ]
+  },
+  "3aa65717-7a8e-4eee-a644-d4fdfc1fb1a7": {
+    "en": "In \"Breaking Bad\", what subject does Walter White teach at the start of the series?",
+    "text": "『ブレイキング・バッド』の序盤、ウォルター・ホワイトが教えている教科は？",
+    "answers": [
+      "化学",
+      "物理",
+      "生物",
+      "数学"
+    ]
+  },
+  "6fe3ba30-9ac6-43ac-8281-7d47be849ef1": {
+    "en": "In \"Money Heist\", whose face is on the masks the robbers wear?",
+    "text": "『ペーパー・ハウス』で強盗団がかぶるマスクは誰の顔？",
+    "answers": [
+      "サルバドール・ダリ",
+      "パブロ・ピカソ",
+      "ゴッホ",
+      "フリーダ・カーロ"
+    ],
+    "note": "Money Heist is known in Japan as 『ペーパー・ハウス』 (Netflix JP title)."
+  },
+  "258b3c9e-6f64-4fec-9d76-bfb5439d4a48": {
+    "en": "In the \"Despicable Me\" films, which fruit are the Minions obsessed with?",
+    "text": "『怪盗グルー』シリーズで、ミニオンたちが大好きな果物は？",
+    "answers": [
+      "バナナ",
+      "リンゴ",
+      "イチゴ",
+      "スイカ"
+    ]
+  },
+  "2177f9a0-4d6d-4f5f-904d-df07c99b1bcb": {
+    "en": "In 2025, which name did the newly elected pope choose?",
+    "text": "2025年に選ばれた新しいローマ教皇の名前は？",
+    "answers": [
+      "レオ14世",
+      "フランシスコ2世",
+      "ヨハネ・パウロ3世",
+      "ベネディクト17世"
+    ]
+  },
+  "48fb1a79-23aa-439f-ad30-141b7581e8de": {
+    "en": "Which three countries co-hosted the 2026 FIFA World Cup?",
+    "text": "2026年のFIFAワールドカップを共同開催した3か国は？",
+    "answers": [
+      "アメリカ・カナダ・メキシコ",
+      "スペイン・ポルトガル・モロッコ",
+      "ブラジル・アルゼンチン・チリ",
+      "カタール・サウジアラビア・UAE"
+    ]
+  },
+  "6d6ed0ee-a48d-420f-89bf-7815676ee13c": {
+    "en": "Which country hosted the 2026 Winter Olympics?",
+    "text": "2026年の冬季オリンピックが開かれた国は？",
+    "answers": [
+      "イタリア",
+      "フランス",
+      "スイス",
+      "オーストリア"
+    ]
+  },
+  "1901294e-19fd-4941-a041-87d2932a8d77": {
+    "en": "Which club won the Champions League for the first time in its history in 2025?",
+    "text": "2025年、クラブ史上初めてチャンピオンズリーグを制したのは？",
+    "answers": [
+      "パリ・サンジェルマン",
+      "アーセナル",
+      "インテル",
+      "マンチェスター・シティ"
+    ]
+  },
+  "b25b0033-312e-4e62-9e2e-3246c3dbb31b": {
+    "en": "Which toothy little monster doll became a worldwide craze in 2025?",
+    "text": "2025年に世界中で大ブームになった、ギザギザの歯の小さなモンスター人形は？",
+    "answers": [
+      "ラブブ",
+      "ファービー",
+      "スクイッシュマロ",
+      "クライベイビー"
+    ]
+  },
+  "bd4c05b5-3582-4380-987c-132223ed6f46": {
+    "en": "In 2025, Taylor Swift got engaged to which NFL player?",
+    "text": "2025年、テイラー・スウィフトが婚約したNFL選手は？",
+    "answers": [
+      "トラビス・ケルシー",
+      "パトリック・マホームズ",
+      "トム・ブレイディ",
+      "ジェイソン・ケルシー"
+    ]
+  },
+  "14ab9242-9fa4-44f6-a528-7c4354dd1715": {
+    "en": "In December 2024, which famous cathedral reopened after five years of restoration?",
+    "text": "2024年12月、5年の修復を終えて再開した有名な大聖堂は？",
+    "answers": [
+      "パリのノートルダム大聖堂",
+      "サグラダ・ファミリア",
+      "ケルン大聖堂",
+      "セント・ポール大聖堂"
+    ]
+  },
+  "ac86a66e-c7b5-4935-acf1-7fad4b92b968": {
+    "en": "Which club won the first 32-team FIFA Club World Cup in 2025?",
+    "text": "2025年、32チーム制になった初のクラブW杯で優勝したのは？",
+    "answers": [
+      "チェルシー",
+      "パリ・サンジェルマン",
+      "レアル・マドリード",
+      "バイエルン・ミュンヘン"
+    ]
+  },
+  "80b8ddc9-0e7c-4a73-964b-12e040b5f9cc": {
+    "en": "Who won the 2025 Ballon d'Or?",
+    "text": "2025年のバロンドールを受賞したのは？",
+    "answers": [
+      "ウスマン・デンベレ",
+      "ラミン・ヤマル",
+      "キリアン・エムバペ",
+      "モハメド・サラー"
+    ]
+  },
+  "4e4aac0f-c689-49f6-9a1c-cd7c9ef5891b": {
+    "en": "Which country won Eurovision 2025?",
+    "text": "ユーロビジョン2025で優勝した国は？",
+    "answers": [
+      "オーストリア",
+      "スウェーデン",
+      "イスラエル",
+      "スイス"
+    ]
+  },
+  "7553dfa4-325a-40dd-9d78-74834ab54496": {
+    "en": "Which phrase was named Oxford's Word of the Year for 2024?",
+    "text": "オックスフォード辞典が2024年の「今年の言葉」に選んだのは？",
+    "answers": [
+      "Brain rot（脳腐れ）",
+      "Rizz",
+      "Demure",
+      "Brat"
+    ],
+    "flagged": true,
+    "note": "English slang words kept in Latin script as Japanese media did; may be obscure for Japanese players."
+  },
+  "860858d1-7627-4e3c-a607-a71bfcac23ad": {
+    "en": "Which company released the Vision Pro headset in 2024?",
+    "text": "2024年にヘッドセット「Vision Pro」を発売した会社は？",
+    "answers": [
+      "Apple",
+      "Meta",
+      "サムスン",
+      "ソニー"
+    ]
+  },
+  "bb232a4c-eda8-4ff2-b7f3-451f28a0c6f3": {
+    "en": "Who sang the 2024 summer hit \"Espresso\"?",
+    "text": "2024年夏のヒット曲「Espresso」を歌ったのは？",
+    "answers": [
+      "サブリナ・カーペンター",
+      "オリヴィア・ロドリゴ",
+      "ビリー・アイリッシュ",
+      "アリアナ・グランデ"
+    ]
+  },
+  "385cd09c-b6d3-442d-a926-4b263fe7db71": {
+    "en": "At Paris 2024, Turkish shooter Yusuf Dikeç went viral for competing how?",
+    "text": "パリ五輪で話題になったトルコの射撃選手ユスフ・ディケチ。どんな姿で競技した？",
+    "answers": [
+      "片手をポケットに入れて",
+      "目を閉じて",
+      "イスに座って",
+      "裸足で"
+    ]
+  },
+  "a99409ba-4dff-4234-8fa3-e5122182a598": {
+    "en": "Which company launched the app Threads in 2023?",
+    "text": "2023年にアプリ「Threads」を出した会社は？",
+    "answers": [
+      "Meta",
+      "Google",
+      "X",
+      "TikTok"
+    ]
+  },
+  "7c110f47-2553-4f6c-b3ae-b11d40772eeb": {
+    "en": "In December 2024, which cryptocurrency passed $100,000 for the first time?",
+    "text": "2024年12月、初めて10万ドルを突破した暗号資産は？",
+    "answers": [
+      "ビットコイン",
+      "イーサリアム",
+      "ドージコイン",
+      "ソラナ"
+    ]
+  },
+  "c2d44ca2-e912-4652-9b99-ea8e67b1afc3": {
+    "en": "In early 2025, which Chinese AI chatbot shook global tech markets?",
+    "text": "2025年初め、世界のテック市場を揺るがした中国のAIチャットボットは？",
+    "answers": [
+      "DeepSeek",
+      "ERNIE",
+      "Qwen",
+      "Kimi"
+    ]
+  },
+  "9117d33a-156b-42bb-bb39-fa7c97969e9d": {
+    "en": "At Euro 2024, who became the youngest goalscorer in the tournament's history?",
+    "text": "EURO 2024で大会史上最年少ゴールを決めたのは？",
+    "answers": [
+      "ラミン・ヤマル",
+      "ジュード・ベリンガム",
+      "ジャマル・ムシアラ",
+      "アルダ・ギュレル"
+    ]
+  },
+  "dfb5e5d1-fe6f-4e8c-a491-f161dd922f53": {
+    "en": "Which rapper became a viral star as a TV reporter at the Paris 2024 Olympics?",
+    "text": "パリ五輪でテレビのリポーターとしてバズったラッパーは？",
+    "answers": [
+      "スヌープ・ドッグ",
+      "ドレイク",
+      "エミネム",
+      "ジェイ・Z"
+    ]
+  },
+  "6e3815c6-71e2-4a08-9404-56eb6108233f": {
+    "en": "In which language did Bad Bunny perform most of his 2026 Super Bowl halftime show?",
+    "text": "2026年のスーパーボウル・ハーフタイムショーで、バッド・バニーが主に歌ったのは何語？",
+    "answers": [
+      "スペイン語",
+      "英語",
+      "ポルトガル語",
+      "半々"
+    ]
+  },
+  "6695b2a1-53de-4737-8ccb-0a0417c89995": {
+    "en": "Which Formula 1 team did Lewis Hamilton join in 2025?",
+    "text": "2025年、ルイス・ハミルトンが移籍したF1チームは？",
+    "answers": [
+      "フェラーリ",
+      "レッドブル",
+      "マクラーレン",
+      "アストンマーティン"
+    ]
+  },
+  "7966f3a2-6d2c-4325-bd64-d28634bdc6e2": {
+    "en": "Freddie Mercury was the lead singer of which band?",
+    "text": "フレディ・マーキュリーがボーカルを務めたバンドは？",
+    "answers": [
+      "クイーン",
+      "ローリング・ストーンズ",
+      "レッド・ツェッペリン",
+      "ピンク・フロイド"
+    ]
+  },
+  "32d4f212-d53e-476e-9251-0558b612c0e4": {
+    "en": "Which South Korean singer's \"Gangnam Style\" became the first YouTube video to hit 1 billion views?",
+    "text": "「江南スタイル」でYouTube初の10億回再生を達成した韓国の歌手は？",
+    "answers": [
+      "PSY",
+      "BTS",
+      "BIGBANG",
+      "Rain"
+    ]
+  },
+  "4d2db1c8-550c-44d3-8caa-999f963a8dd3": {
+    "en": "Who sang \"Shape of You\"?",
+    "text": "「Shape of You」を歌ったのは？",
+    "answers": [
+      "エド・シーラン",
+      "ジャスティン・ビーバー",
+      "ショーン・メンデス",
+      "ハリー・スタイルズ"
+    ]
+  },
+  "809a1048-fbc4-4d75-9756-c24b4148d2fd": {
+    "en": "Which British singer is behind the hits \"Hello\" and \"Someone Like You\"?",
+    "text": "「Hello」や「Someone Like You」のヒットで知られるイギリスの歌手は？",
+    "answers": [
+      "アデル",
+      "エイミー・ワインハウス",
+      "デュア・リパ",
+      "エリー・ゴールディング"
+    ]
+  },
+  "dee7a5f4-0d3e-47c5-beac-68dfc289cd1d": {
+    "en": "In 2023, whose \"Blinding Lights\" became the most-streamed song in Spotify history?",
+    "text": "2023年、Spotify史上最も再生された曲になった「Blinding Lights」は誰の曲？",
+    "answers": [
+      "ザ・ウィークエンド",
+      "ドレイク",
+      "ブルーノ・マーズ",
+      "ポスト・マローン"
+    ]
+  },
+  "ec9edd24-0567-42cd-88f0-0060565936ce": {
+    "en": "Which country is shaped like a boot on the map?",
+    "text": "地図で見るとブーツの形をしている国は？",
+    "answers": [
+      "イタリア",
+      "ギリシャ",
+      "ポルトガル",
+      "クロアチア"
+    ]
+  },
+  "cda07f75-8c73-4c97-9d5f-73eadc4f0e87": {
+    "en": "In which country is the Taj Mahal?",
+    "text": "タージ・マハルがある国は？",
+    "answers": [
+      "インド",
+      "パキスタン",
+      "イラン",
+      "ネパール"
+    ]
+  },
+  "86f4c26f-20cb-47b3-a176-78618bf88998": {
+    "en": "In which country is the ancient city of Petra, carved into pink rock?",
+    "text": "ピンク色の岩を彫って造られた古代都市ペトラがある国は？",
+    "answers": [
+      "ヨルダン",
+      "エジプト",
+      "トルコ",
+      "ギリシャ"
+    ]
+  },
+  "a0c31118-39a0-4875-a58d-1ef025a7309e": {
+    "en": "Which country is known as the \"Land of the Rising Sun\"?",
+    "text": "「日出ずる国」と呼ばれる国は？",
+    "answers": [
+      "日本",
+      "中国",
+      "韓国",
+      "タイ"
+    ],
+    "flagged": true,
+    "note": "Trivially easy for Japanese players (it's Japan itself); consider swapping."
+  },
+  "5c5574b9-62a0-4271-accb-e5a5e62ac439": {
+    "en": "In which country do kangaroos live in the wild?",
+    "text": "野生のカンガルーが暮らしている国は？",
+    "answers": [
+      "オーストラリア",
+      "南アフリカ",
+      "ブラジル",
+      "インド"
+    ]
+  },
+  "d272d3e9-0403-44d5-a333-ac84a9c3e63e": {
+    "en": "Flamenco dancing comes from which country?",
+    "text": "フラメンコが生まれた国は？",
+    "answers": [
+      "スペイン",
+      "メキシコ",
+      "イタリア",
+      "アルゼンチン"
+    ]
+  },
+  "6c03ce24-a77c-4a0b-8749-b9c629915679": {
+    "en": "In \"Little Red Riding Hood\", which animal pretends to be the grandmother?",
+    "text": "『赤ずきん』で、おばあさんのふりをする動物は？",
+    "answers": [
+      "オオカミ",
+      "キツネ",
+      "クマ",
+      "ライオン"
+    ]
+  },
+  "72adb892-47e1-4d39-9c16-1004d3de980a": {
+    "en": "In \"Alice in Wonderland\", which animal does Alice follow down the hole?",
+    "text": "『不思議の国のアリス』で、アリスが追いかけて穴に落ちる動物は？",
+    "answers": [
+      "白ウサギ",
+      "黒ネコ",
+      "ネズミ",
+      "カエル"
+    ]
+  },
+  "44450874-8b02-4a4a-b49e-b9bc602d9afd": {
+    "en": "In \"Hansel and Gretel\", what is the witch's house made of?",
+    "text": "『ヘンゼルとグレーテル』で、魔女の家は何でできてる？",
+    "answers": [
+      "お菓子とパン",
+      "氷",
+      "金",
+      "わら"
+    ]
+  },
+  "66f55237-2675-4545-aa32-6db8582998d0": {
+    "en": "What is Rapunzel famous for?",
+    "text": "ラプンツェルといえば？",
+    "answers": [
+      "とても長い髪",
+      "ガラスの靴",
+      "毒リンゴ",
+      "100年の眠り"
+    ]
+  },
+  "d6637d23-6147-4499-96a8-d0a2ff60e547": {
+    "en": "In \"Aladdin\", how many wishes does the genie of the lamp grant?",
+    "text": "『アラジン』で、ランプの魔人がかなえてくれる願いはいくつ？",
+    "answers": [
+      "3つ",
+      "1つ",
+      "5つ",
+      "7つ"
+    ]
+  }
+}

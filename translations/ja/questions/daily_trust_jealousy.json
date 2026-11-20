@@ -1,0 +1,69 @@
+{
+  "df0f185f-6d69-4ba4-9994-5996b2f0bf68": {
+    "en": "Looking at your partner's phone is…",
+    "text": "恋人のスマホを見るのは…",
+    "answers": [
+      "絶対ダメ、プライバシーだから",
+      "許可があればOK",
+      "OK、隠すことなんてない",
+      "こっそり見たことがある"
+    ]
+  },
+  "dd3aaedc-07ee-412b-bb83-7c23dbb377c1": {
+    "en": "Someone gives your partner a lot of attention. You…",
+    "text": "誰かが恋人にやたらと好意を見せてくる。どうする？",
+    "answers": [
+      "全然気にしない",
+      "ちょっとモヤッとするけど信じてる",
+      "ふたりで話し合いたい",
+      "あからさまにヤキモチをやく"
+    ]
+  },
+  "fbf507be-cbda-4663-9a38-9a01f9393e66": {
+    "en": "Your partner staying friends with an ex is…",
+    "text": "恋人が元恋人と友達のままでいるのは…",
+    "answers": [
+      "まったく問題ない",
+      "もう何もないならOK",
+      "正直モヤモヤする",
+      "絶対ムリ"
+    ]
+  },
+  "785701ac-e83a-456a-9d90-e85d4aca204d": {
+    "en": "How often do you feel jealous, even if you don't show it?",
+    "text": "表に出さなくても、ヤキモチを感じることはどれくらいある？",
+    "answers": [
+      "よくある",
+      "ときどき",
+      "めったにない",
+      "まったくない"
+    ]
+  },
+  "9ba59f61-1758-4d30-ba63-f6104de991cd": {
+    "en": "What would damage your trust the most?",
+    "text": "一番信頼が崩れるのは？",
+    "answers": [
+      "小さなウソでも",
+      "誰かとの隠れたやりとり",
+      "何度も破られる約束",
+      "ふたりだけの話を他人に話される"
+    ]
+  },
+  "18def8e1-5fa7-44a3-85e4-81cb688a31db": {
+    "en": "How much do you want to know about each other's day?",
+    "text": "お互いの1日のこと、どこまで知りたい？",
+    "answers": [
+      "全部、どこで誰といたかまで",
+      "大事なことだけ",
+      "相手が話したいことだけ"
+    ]
+  },
+  "b0a8928f-0b53-439c-9f66-ca1a6c92eb86": {
+    "en": "What makes you feel completely secure with your partner?",
+    "text": "恋人といて、心から安心できるのはどんなとき？"
+  },
+  "e045d939-d801-4bea-b637-ed0df364efa8": {
+    "en": "Is there anything that makes you even slightly insecure in this relationship? Be honest.",
+    "text": "この関係で、少しでも不安になることってある？正直に。"
+  }
+}

@@ -1,0 +1,962 @@
+{
+  "02d1eea2-7558-454e-9560-9e4115e31dc5": {
+    "en": "When someone they love is hurting, what does {{playerName}} do?",
+    "text": "大切な人が落ち込んでるとき、{{playerName}}はどうする？",
+    "answers": [
+      "なんとか解決しようとする",
+      "そばにいる",
+      "笑わせる",
+      "そっとしておく"
+    ]
+  },
+  "8f65f3e0-e029-41cb-8233-1c0073efccc3": {
+    "en": "After you park, {{playerName}} doesn't get out right away. What are they doing?",
+    "text": "車を停めたのに、{{playerName}}がすぐ降りない。何してる？",
+    "answers": [
+      "スマホを見てる",
+      "静かに座ってる",
+      "キスしようとしてる"
+    ]
+  },
+  "b6802604-bee1-44ef-b402-3d614299e874": {
+    "en": "You both just got home. {{playerName}} still has their shoes on. What are they doing?",
+    "text": "ふたりで帰ってきたのに、{{playerName}}はまだ靴をはいたまま。何してる？",
+    "answers": [
+      "スマホを見てる",
+      "先に入ってくれるのを待ってる",
+      "キス待ち"
+    ]
+  },
+  "525b7a39-af6b-443c-8d4b-e04df6bb666d": {
+    "en": "The movie ended. {{playerName}} hasn't moved. What are they doing?",
+    "text": "映画が終わっても{{playerName}}が動かない。何してる？",
+    "answers": [
+      "まだ余韻にひたってる",
+      "こっちを見てる",
+      "もうスマホを見てる"
+    ]
+  },
+  "87a626ec-edc2-4c73-8b8c-2316370de28c": {
+    "en": "{{playerName}} opened the fridge and is just standing there. What are they doing?",
+    "text": "{{playerName}}が冷蔵庫を開けたまま立ってる。何してる？",
+    "answers": [
+      "ちゃんと探してる",
+      "ぼーっとしてる",
+      "こっちが来るのを待ってる"
+    ]
+  },
+  "45ffa91d-cf8c-4de3-b9cc-35eecf07a0e8": {
+    "en": "You asked {{playerName}} something. They smiled and haven't answered. What are they doing?",
+    "text": "{{playerName}}に何か聞いたら、ニコッとしたまま答えない。何してる？",
+    "answers": [
+      "考えてる",
+      "からかってる",
+      "先にキスしてほしい"
+    ]
+  },
+  "331f8ded-e21e-4f4a-8c54-5eff81ad09d8": {
+    "en": "{{playerName}} has been in the bathroom a while. The water's running. What are they doing?",
+    "text": "{{playerName}}がしばらくお風呂場から出てこない。水の音がする。何してる？",
+    "answers": [
+      "ちゃんと準備してる",
+      "スマホを見てる",
+      "入ってくるのを待ってる"
+    ]
+  },
+  "d4a67a3f-58fb-4dfb-a9fa-7ccbd119b76a": {
+    "en": "If you roast {{playerName}} in front of their closest friends, what do they do?",
+    "text": "{{playerName}}を親友たちの前でいじったら、どうする？",
+    "answers": [
+      "笑っていじり返す",
+      "黙りこむ",
+      "その場は笑って、あとで言う"
+    ]
+  },
+  "0fa9d630-8f79-407e-b467-c6619e937183": {
+    "en": "If you leave {{playerName}}'s flirty text on read for a few hours, what do they do?",
+    "text": "{{playerName}}からの甘いLINEを数時間既読スルーしたら、どうする？",
+    "answers": [
+      "もう1通送る",
+      "気にしてないふりをする",
+      "待ってから、普段どおりにする"
+    ]
+  },
+  "72f44c82-e80d-4048-8907-88aa16325526": {
+    "en": "If {{playerName}} loses to you at something they take seriously, what do they do?",
+    "text": "{{playerName}}が本気でやってることでこっちに負けたら、どうする？",
+    "answers": [
+      "リベンジを要求する",
+      "しばらくすねる",
+      "心から「おめでとう」と言う"
+    ]
+  },
+  "0f63d809-97bc-4a06-af87-dcdf7259d217": {
+    "en": "If you correct {{playerName}} in front of other people, what do they do?",
+    "text": "人前で{{playerName}}の間違いを指摘したら、どうする？",
+    "answers": [
+      "軽く流す",
+      "冗談で返すけど、実は傷ついてる",
+      "その場で言い返す"
+    ]
+  },
+  "0411fe10-be71-42ce-96e0-f0b4b8f30d01": {
+    "en": "If you eat the last bite {{playerName}} was saving, what do they do?",
+    "text": "{{playerName}}がとっておいた最後の一口を食べちゃったら、どうする？",
+    "answers": [
+      "本気で怒る",
+      "わざと大げさに騒ぐ",
+      "気づかない"
+    ]
+  },
+  "cbf55a0d-77d9-49b6-8b18-df9bfec9721b": {
+    "en": "If you fall asleep while {{playerName}} is mid-story, what do they do?",
+    "text": "{{playerName}}の話の途中で寝ちゃったら、どうする？",
+    "answers": [
+      "起こして最後まで話す",
+      "黙って寝かせてくれる",
+      "あとでいじるために録画する"
+    ]
+  },
+  "9793ce24-d328-401c-9858-5e3c9e5253d7": {
+    "en": "If you show up to {{playerName}}'s family's house empty-handed, what do they do?",
+    "text": "{{playerName}}の実家に手ぶらで行ったら、どうする？",
+    "answers": [
+      "うまくフォローしてくれる",
+      "チラッとにらむ",
+      "まったく気にしない"
+    ]
+  },
+  "db4d9102-32bd-44e6-afa1-7eae78199ee6": {
+    "en": "If you keep using a word {{playerName}} hates, on purpose, what do they do?",
+    "text": "{{playerName}}が嫌いな言葉をわざと使い続けたら、どうする？",
+    "answers": [
+      "毎回笑う",
+      "本気でやめてと言う",
+      "同じ言葉で仕返しする"
+    ]
+  },
+  "c00aa094-a9f0-4858-a29d-551c1cd3ca18": {
+    "en": "If you cancel on {{playerName}} last minute, what do they do?",
+    "text": "{{playerName}}との約束をドタキャンしたら、どうする？",
+    "answers": [
+      "「いいよ」と言う、本心で",
+      "「いいよ」と言うけど、本当は嫌",
+      "すぐに理由を聞く"
+    ]
+  },
+  "008d5998-0535-4df5-a12b-0f96ad8e625f": {
+    "en": "If you borrow {{playerName}}'s clothes without asking, what do they do?",
+    "text": "{{playerName}}の服を勝手に借りたら、どうする？",
+    "answers": [
+      "着てるのを見てうれしくなる",
+      "今すぐ返してと言う",
+      "気づかない"
+    ]
+  },
+  "d01e1cff-bb0c-409a-a1f2-125ec6c79f76": {
+    "en": "If you're late to meet {{playerName}} and you don't text, what do they do?",
+    "text": "{{playerName}}との待ち合わせに連絡なしで遅れたら、どうする？",
+    "answers": [
+      "「今どこ？」と送る",
+      "何も言わずに待つ",
+      "帰る"
+    ]
+  },
+  "30c1ecc9-a29f-474c-8fa8-3e13ffb9ef91": {
+    "en": "If you pick up {{playerName}}'s phone and start scrolling, what do they do?",
+    "text": "{{playerName}}のスマホを手に取って見始めたら、どうする？",
+    "answers": [
+      "気にしない",
+      "落ち着いて取り返す",
+      "あわてて取り返す"
+    ]
+  },
+  "0d9143dd-9554-4015-9d7c-8a689f8ac7ca": {
+    "en": "If you invite someone {{playerName}} doesn't like, what do they do?",
+    "text": "{{playerName}}が苦手な人を誘ったら、どうする？",
+    "answers": [
+      "合わせる",
+      "はっきり言う",
+      "ずっと黙ってる"
+    ]
+  },
+  "fce90c77-7a35-44c0-a40a-406848fd42f4": {
+    "en": "It starts pouring and there's no umbrella. What does {{playerName}} do?",
+    "text": "急にどしゃ降りになったのに傘がない。{{playerName}}はどうする？",
+    "answers": [
+      "走る",
+      "やむまで待つ"
+    ]
+  },
+  "aa68e98e-f9ba-4240-82d9-233e6d3a1ddd": {
+    "en": "{{playerName}}'s coffee comes out wrong. What do they do?",
+    "text": "{{playerName}}が頼んだコーヒーと違うのが来た。どうする？",
+    "answers": [
+      "作り直してもらう",
+      "そのまま飲む"
+    ]
+  },
+  "c9db61c9-a1ab-40e4-8d0c-92dea5576a34": {
+    "en": "{{playerName}} spills something on their shirt right before going out. What do they do?",
+    "text": "出かける直前に、{{playerName}}が服に何かこぼした。どうする？",
+    "answers": [
+      "着替える",
+      "そのまま行く"
+    ]
+  },
+  "4e97ab2e-b06b-44ce-b8db-e15db3bb987f": {
+    "en": "{{playerName}} just missed the bus. What do they do?",
+    "text": "{{playerName}}がバスに乗り遅れた。どうする？",
+    "answers": [
+      "追いかける",
+      "次のを待つ"
+    ]
+  },
+  "d339e7bd-ebce-4481-ad0a-e8b8ed05442a": {
+    "en": "The Wi-Fi dies in the middle of something {{playerName}} is watching. What do they do?",
+    "text": "{{playerName}}が何か観てる途中でWi-Fiが切れた。どうする？",
+    "answers": [
+      "ルーターと格闘する",
+      "あきらめて別のことをする"
+    ]
+  },
+  "ac0f3027-b51a-426f-b6e9-6a3b4aa38199": {
+    "en": "{{playerName}} gets a parking ticket. What do they do?",
+    "text": "{{playerName}}が駐禁を切られた。どうする？",
+    "answers": [
+      "イライラする",
+      "笑ってすませる"
+    ]
+  },
+  "c3ec2d4b-d284-4714-8e9e-d2da5ef9c6d7": {
+    "en": "{{playerName}}'s alarm didn't go off. They're already 20 minutes late. What do they do?",
+    "text": "{{playerName}}のアラームが鳴らず、もう20分遅刻。どうする？",
+    "answers": [
+      "朝ごはん抜きでダッシュ",
+      "「遅れる」と送ってマイペース",
+      "電話して正直に謝る"
+    ]
+  },
+  "94c90555-87e2-4c29-9117-a323c27d95c4": {
+    "en": "When {{playerName}} is late, what's the first thing they blame?",
+    "text": "{{playerName}}が遅刻したとき、まず何のせいにする？"
+  },
+  "fdd1c924-ee99-4f05-a5bd-dfcd6d9c8f03": {
+    "en": "After a small argument, how many minutes until {{playerName}} texts first?",
+    "text": "ちょっとしたケンカのあと、{{playerName}}から連絡してくるまで何分？"
+  },
+  "b54e1bb1-3bf8-47c3-a48a-86023b0f0add": {
+    "en": "Where does {{playerName}} go when they need to be alone?",
+    "text": "{{playerName}}がひとりになりたいとき、どこに行く？"
+  },
+  "3b1883ec-15de-4788-9bef-ba8f5c5bc8a7": {
+    "en": "What does {{playerName}} order when they can't decide?",
+    "text": "{{playerName}}が迷ったときに頼むメニューは？"
+  },
+  "238665e7-e0da-45ce-a9d7-0eb9eef65a6c": {
+    "en": "How many times does {{playerName}} check the lock before they can leave?",
+    "text": "{{playerName}}は出かける前に鍵を何回確認する？"
+  },
+  "466890df-b2fd-43de-a06e-7bf3787838fa": {
+    "en": "What's {{playerName}}'s dad's name?",
+    "text": "{{playerName}}のお父さんの名前は？"
+  },
+  "83463f47-91d7-4aad-9222-957f815550ec": {
+    "en": "What color are {{playerName}}'s eyes?",
+    "text": "{{playerName}}の目の色は？"
+  },
+  "82b2f614-a300-4077-aebb-1f5fc9d783da": {
+    "en": "What's {{playerName}}'s favorite sport?",
+    "text": "{{playerName}}の一番好きなスポーツは？"
+  },
+  "57674f98-004a-4613-ae68-f9a5aeb47287": {
+    "en": "What city did {{playerName}} grow up in?",
+    "text": "{{playerName}}が育った街は？"
+  },
+  "978cc42e-c57a-4a1f-ab39-e3ae2bea3021": {
+    "en": "What's {{playerName}}'s mom's name?",
+    "text": "{{playerName}}のお母さんの名前は？"
+  },
+  "cfd2c28a-8bea-4257-879e-95cbc762962f": {
+    "en": "How tall is {{playerName}}, in cm?",
+    "text": "{{playerName}}の身長は何cm？"
+  },
+  "f323e901-c9d8-402a-a779-6dfc98dbb068": {
+    "en": "What's {{playerName}}'s favorite video game?",
+    "text": "{{playerName}}の一番好きなゲームは？"
+  },
+  "25851c79-797f-40fd-b2f6-6c0d20b9dfdd": {
+    "en": "What car does {{playerName}} drive?",
+    "text": "{{playerName}}が乗ってる車は？"
+  },
+  "a4265570-c916-40c1-a402-d063a73be6b2": {
+    "en": "What's {{playerName}}'s favorite holiday?",
+    "text": "{{playerName}}が一番好きな行事は？",
+    "flagged": true,
+    "note": "'Holiday' adapted to 行事 (yearly events like New Year, Christmas, Obon); Japan has no single holiday-season concept."
+  },
+  "5fe73127-bbe3-48f7-8abc-2d69d6a88593": {
+    "en": "What's {{playerName}}'s shoe size?",
+    "text": "{{playerName}}の靴のサイズは？"
+  },
+  "75c9c2af-241b-4035-b6fc-5fdcd08973cd": {
+    "en": "What's {{playerName}}'s favorite book?",
+    "text": "{{playerName}}の一番好きな本は？"
+  },
+  "8deddb72-b5b8-4818-b368-0c4fbe051257": {
+    "en": "What's {{playerName}}'s favorite restaurant?",
+    "text": "{{playerName}}の一番好きなお店は？"
+  },
+  "c550dc4b-c6cf-4d1b-9345-6b74e5d47623": {
+    "en": "What year was {{playerName}} born?",
+    "text": "{{playerName}}は何年生まれ？"
+  },
+  "c0da2701-3741-4588-b8cf-d7b1a08492e5": {
+    "en": "How many tattoos does {{playerName}} have? Write 0 if none.",
+    "text": "{{playerName}}はタトゥーをいくつ入れてる？なければ0と書いて。"
+  },
+  "a7c5d198-7df7-4778-b8af-c3da4d319a6a": {
+    "en": "What did {{playerName}} want to be as a kid?",
+    "text": "{{playerName}}の子どもの頃の夢は？"
+  },
+  "a6ec160b-1139-4b18-aab2-c508fc0485f3": {
+    "en": "What's {{playerName}}'s favorite flower?",
+    "text": "{{playerName}}の一番好きな花は？"
+  },
+  "ef039303-b61e-4a8b-bf07-dc13a7c57752": {
+    "en": "What's {{playerName}}'s childhood best friend's name?",
+    "text": "{{playerName}}の子どもの頃の親友の名前は？"
+  },
+  "57351c4a-3e7e-4748-949e-5d4cd1e5b792": {
+    "en": "How many languages does {{playerName}} speak?",
+    "text": "{{playerName}}は何か国語話せる？"
+  },
+  "cd7eb1b7-52d5-4472-91a7-87fe860c68cb": {
+    "en": "What's {{playerName}}'s favorite subject in school?",
+    "text": "{{playerName}}が学校で一番好きだった教科は？"
+  },
+  "7a48b2bc-038b-4504-867c-31349dc9471d": {
+    "en": "What's {{playerName}}'s favorite YouTuber?",
+    "text": "{{playerName}}の一番好きなYouTuberは？"
+  },
+  "76919acd-9f2a-43b7-a1b8-4be6522808b0": {
+    "en": "What was the name of {{playerName}}'s first pet? Write none if they never had one.",
+    "text": "{{playerName}}が初めて飼ったペットの名前は？飼ったことがなければ「なし」と書いて。"
+  },
+  "e54fbf2e-38bb-43a2-98b7-d0e60e44704d": {
+    "en": "What's {{playerName}}'s favorite store?",
+    "text": "{{playerName}}の一番好きなショップは？"
+  },
+  "758457aa-b4a0-440c-936d-2eca36532d6f": {
+    "en": "How many hours does {{playerName}} sleep?",
+    "text": "{{playerName}}は1日何時間寝る？"
+  },
+  "f5e59e0f-6ada-44bb-b1f6-ff0bfc6460d9": {
+    "en": "What's {{playerName}}'s favorite app?",
+    "text": "{{playerName}}の一番好きなアプリは？"
+  },
+  "c4230968-34f8-4da4-9b47-c58b40930364": {
+    "en": "What high school did {{playerName}} go to?",
+    "text": "{{playerName}}の出身高校は？"
+  },
+  "bab594db-3246-436a-831c-a26fee4a3985": {
+    "en": "What's {{playerName}}'s favorite movie?",
+    "text": "{{playerName}}の一番好きな映画は？"
+  },
+  "628a486a-362b-421c-9680-eafb40c7b515": {
+    "en": "How many cousins does {{playerName}} have?",
+    "text": "{{playerName}}はいとこが何人いる？"
+  },
+  "a67f93da-08cb-45b8-83c4-d2adc75192af": {
+    "en": "What's {{playerName}}'s star sign?",
+    "text": "{{playerName}}の星座は？"
+  },
+  "f137c9c9-7ff7-49dd-ada5-72f5ed4c03f0": {
+    "en": "Which country would {{playerName}} want to live in?",
+    "text": "{{playerName}}が住んでみたい国は？"
+  },
+  "021867cf-def0-4843-abe0-b40da48d2a2c": {
+    "en": "Which country does {{playerName}} want to visit the most?",
+    "text": "{{playerName}}が一番行ってみたい国は？"
+  },
+  "19b93f52-01ab-4cb7-8136-c4aba531b1b3": {
+    "en": "In which city did {{playerName}} go to university?",
+    "text": "{{playerName}}が大学に通ってた街は？"
+  },
+  "112ed697-0ec4-43c7-b2f1-12d1ab95aae3": {
+    "en": "What's {{playerName}}'s younger sibling's name? Write none if they don't have one.",
+    "text": "{{playerName}}の弟か妹の名前は？いなければ「なし」と書いて。"
+  },
+  "26767042-b7af-43d8-ad6f-ea87f4304f2f": {
+    "en": "What's {{playerName}}'s grandma's name? (mom's mom)",
+    "text": "{{playerName}}の母方のおばあちゃんの名前は？"
+  },
+  "a3279d43-a655-4bbb-8718-b6d15227c517": {
+    "en": "What's {{playerName}}'s grandpa's name?",
+    "text": "{{playerName}}のおじいちゃんの名前は？"
+  },
+  "5b5320ad-a6ce-44c4-8e2b-fb2bae61cbf1": {
+    "en": "What's {{playerName}}'s favorite car brand?",
+    "text": "{{playerName}}が一番好きな車のメーカーは？"
+  },
+  "ff9d0b85-deed-41dd-807c-1f3d0a3bb83c": {
+    "en": "What's {{playerName}}'s favorite car color?",
+    "text": "{{playerName}}が一番好きな車の色は？"
+  },
+  "98059ab8-7dbf-4b1c-8c78-78ebc984c60e": {
+    "en": "How much does {{playerName}} weigh, in kg?",
+    "text": "{{playerName}}の体重は何kg？"
+  },
+  "b48fa9ed-dd37-473f-b435-ce10eb15ae06": {
+    "en": "How many piercings does {{playerName}} have in their ears? Write 0 if none.",
+    "text": "{{playerName}}は耳にピアスの穴がいくつある？なければ0って書いて。"
+  },
+  "2a444c7a-9b06-42ba-929c-3818403efe75": {
+    "en": "What's {{playerName}}'s closest friend's name right now?",
+    "text": "今、{{playerName}}が一番仲いい友だちの名前は？"
+  },
+  "0216b04b-1ca1-4963-a1e6-ff951b52d0a3": {
+    "en": "How many countries has {{playerName}} been to?",
+    "text": "{{playerName}}は今までに何か国行ったことある？"
+  },
+  "42a0d55b-eca3-40f2-bc31-14b9428ad7e6": {
+    "en": "What's {{playerName}}'s tell when they're lying?",
+    "text": "{{playerName}}がウソをついてるとき、どこでバレる？"
+  },
+  "29cd2b71-30b4-431f-8ec3-1c32bd8e39aa": {
+    "en": "What's {{playerName}}'s blood type?",
+    "text": "{{playerName}}の血液型は？"
+  },
+  "042f678e-2937-4acb-8425-a35fe0e7b9c5": {
+    "en": "What's {{playerName}}'s older sibling's name? Write none if they don't have one.",
+    "text": "{{playerName}}の上のきょうだいの名前は？いなければ「なし」って書いて。"
+  },
+  "c511a069-e3da-4591-b416-bd506028c5ad": {
+    "en": "What was {{playerName}}'s first car? Write none if they never had one.",
+    "text": "{{playerName}}の最初の車は？持ったことなければ「なし」って書いて。"
+  },
+  "57c09d65-f7f9-4b4f-9a7a-bb66f4b6a62d": {
+    "en": "What is {{playerName}} most afraid of?",
+    "text": "{{playerName}}が一番怖いものは？"
+  },
+  "b9710f34-86f6-4db8-96d3-752d4559d726": {
+    "en": "What is {{playerName}} proudest of in life?",
+    "text": "{{playerName}}が人生で一番誇りに思ってることは？"
+  },
+  "ace03250-f070-4ff0-ae9c-703406313716": {
+    "en": "What does {{playerName}} do when they get really angry?",
+    "text": "{{playerName}}は本気で怒ったらどうなる？",
+    "answers": [
+      "黙って溜め込む",
+      "怒鳴って、そのあと落ち着く",
+      "その場を離れる",
+      "すぐ話し合おうとする"
+    ]
+  },
+  "b90eefb2-04d9-470b-bde1-ed9df3dacdd8": {
+    "en": "When {{playerName}} gets bad news, who do they turn to first?",
+    "text": "悪い知らせを聞いたとき、{{playerName}}が最初に頼るのは？",
+    "answers": [
+      "恋人",
+      "親",
+      "親友",
+      "誰にも言わず、まずひとりで整理する"
+    ]
+  },
+  "7bddbacb-8e74-4c5e-b299-5305af0053f5": {
+    "en": "What does {{playerName}} regret most?",
+    "text": "{{playerName}}が一番後悔してることは？",
+    "answers": [
+      "言えなかったひと言",
+      "逃したチャンス",
+      "誰かを傷つけたこと",
+      "特になし、後悔しないタイプ"
+    ]
+  },
+  "4bcbeb5e-2463-48a0-8cd0-babea7e0a72f": {
+    "en": "What was {{playerName}}'s first job?",
+    "text": "{{playerName}}の初めての仕事・バイトは？"
+  },
+  "61e3c86d-76bd-4582-88c5-71bfe7622ee0": {
+    "en": "At what age did {{playerName}} get their driver's license? Write none if they don't have one.",
+    "text": "{{playerName}}が運転免許を取ったのは何歳？持ってなければ「なし」って書いて。"
+  },
+  "10084e8c-9292-4aa3-9dbd-75531bb7486a": {
+    "en": "How many bones has {{playerName}} broken? Write 0 if none.",
+    "text": "{{playerName}}は今までに何回骨折したことある？なければ0って書いて。"
+  },
+  "c1def649-d319-4211-aeb5-0858840e7bdc": {
+    "en": "Who did {{playerName}} see at their first concert? Write none if they've never been.",
+    "text": "{{playerName}}が初めて行ったライブは誰の？行ったことなければ「なし」って書いて。"
+  },
+  "1046beaa-623b-4faf-8f88-38b87419d2e6": {
+    "en": "What is {{playerName}} allergic to? Write none if nothing.",
+    "text": "{{playerName}}のアレルギーは？なければ「なし」って書いて。"
+  },
+  "ba2de278-23d7-45a4-8448-cb563db767d5": {
+    "en": "How old was {{playerName}} the first time they went abroad? Write never if they haven't.",
+    "text": "{{playerName}}が初めて海外に行ったのは何歳？まだなら「なし」って書いて。"
+  },
+  "6a7ace14-0321-4e93-9cc7-2baa1d9bee41": {
+    "en": "How many times has {{playerName}} moved homes?",
+    "text": "{{playerName}}は今までに何回引っ越したことある？"
+  },
+  "ba6c616e-1d98-469a-b2e3-92b66c0981d1": {
+    "en": "What's the name of {{playerName}}'s paternal grandmother?",
+    "text": "{{playerName}}の父方のおばあちゃんの名前は？"
+  },
+  "2f57ffab-1be4-44cc-a0f8-a393c9fad863": {
+    "en": "What was {{playerName}}'s first phone?",
+    "text": "{{playerName}}が初めて持ったケータイは？"
+  },
+  "00bb499d-b0c3-4f78-9b18-cffb65b03524": {
+    "en": "How old was {{playerName}} at their first kiss?",
+    "text": "{{playerName}}のファーストキスは何歳のとき？"
+  },
+  "1c34b99b-0d35-4532-8459-984d6017ea4a": {
+    "en": "What was {{playerName}}'s worst subject in school?",
+    "text": "学生時代、{{playerName}}が一番苦手だった科目は？"
+  },
+  "c701e374-0098-4d9a-9a64-f02e08d52b16": {
+    "en": "Where is {{playerName}}'s biggest scar? Write none if they don't have one.",
+    "text": "{{playerName}}の一番大きい傷あとはどこにある？なければ「なし」って書いて。"
+  },
+  "170581cc-7ae8-4bc3-9ca8-8fa5e87b5fc2": {
+    "en": "What size t-shirt does {{playerName}} wear?",
+    "text": "{{playerName}}が着るTシャツのサイズは？",
+    "answers": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL以上"
+    ]
+  },
+  "01e70d49-b6d6-4142-971d-22b27d35b17f": {
+    "en": "What was the name of {{playerName}}'s favorite teacher?",
+    "text": "{{playerName}}が一番好きだった先生の名前は？"
+  },
+  "43294aea-9009-4d5a-aad8-f7694a3b51a5": {
+    "en": "What time of day was {{playerName}} born?",
+    "text": "{{playerName}}が生まれたのは何時ごろ？",
+    "answers": [
+      "深夜（0〜6時）",
+      "朝（6〜12時）",
+      "午後（12〜18時）",
+      "夜（18〜24時）"
+    ]
+  },
+  "749b9061-a5d0-4ff6-900b-e3ba010281ed": {
+    "en": "Which famous person has {{playerName}} met in person? Write none if no one.",
+    "text": "{{playerName}}が直接会ったことある有名人は？いなければ「なし」って書いて。"
+  },
+  "9f26e1c3-409c-4553-98aa-52ecb367ba15": {
+    "en": "Which instrument has {{playerName}} played or tried to learn? Write none if never.",
+    "text": "{{playerName}}がやってた、または習おうとした楽器は？なければ「なし」って書いて。"
+  },
+  "bf1c6470-4a2a-48c7-8d98-2f82482ce877": {
+    "en": "How many times did {{playerName}} fail their driving test? Write 0 if never.",
+    "text": "{{playerName}}は運転免許の試験に何回落ちた？一度もなければ0って書いて。"
+  },
+  "f881bedc-d173-4bdb-ae2d-694246d7f4d8": {
+    "en": "How old was {{playerName}} when they moved out of their family home? Write never if they haven't.",
+    "text": "{{playerName}}が実家を出たのは何歳？まだなら「なし」って書いて。"
+  },
+  "7600e024-4a37-494e-96f6-cc1c03f58f89": {
+    "en": "Where is {{playerName}} most ticklish?",
+    "text": "{{playerName}}が一番くすぐったいところは？"
+  },
+  "deb2b852-ecc2-4a4b-939e-cbcf025845f4": {
+    "en": "What's {{playerName}}'s natural hair color?",
+    "text": "{{playerName}}の地毛の色は？"
+  },
+  "f5418f78-b11d-4776-825c-c5ac189d7b37": {
+    "en": "Where is {{playerName}}'s birthmark? Write none if they don't have one.",
+    "text": "{{playerName}}の生まれつきのあざはどこにある？なければ「なし」って書いて。"
+  },
+  "096b7ab0-dfe3-49bc-956e-cafc81272088": {
+    "en": "Does {{playerName}} snore?",
+    "text": "{{playerName}}はいびきをかく？",
+    "answers": [
+      "全然かかない",
+      "すごく疲れたときだけ",
+      "ときどき",
+      "毎晩"
+    ]
+  },
+  "f620465f-147d-4168-af5a-2bb985faf47d": {
+    "en": "What does {{playerName}} sleep in?",
+    "text": "{{playerName}}は何を着て寝る？",
+    "answers": [
+      "パジャマ",
+      "Tシャツと短パン",
+      "下着だけ",
+      "何も着ない"
+    ]
+  },
+  "5f58a2de-2ed0-446f-9727-0329eb1902d6": {
+    "en": "Did {{playerName}} ever wear braces?",
+    "text": "{{playerName}}は歯の矯正をしたことある？"
+  },
+  "a655c4c5-4928-4826-bbb2-746b6c2282e8": {
+    "en": "What's {{playerName}}'s natural hair texture?",
+    "text": "{{playerName}}の髪質は、もともとどんな感じ？",
+    "answers": [
+      "ストレート",
+      "ゆるいウェーブ",
+      "くせ毛",
+      "かなりのくせ毛"
+    ]
+  },
+  "0d808bea-8434-4452-aedb-e5bd28afc9f3": {
+    "en": "What perfume or cologne does {{playerName}} wear the most? Write none if they don't.",
+    "text": "{{playerName}}が一番よく使う香水は？使ってなければ「なし」って書いて。"
+  },
+  "e9d46c08-1bf4-4c6e-bed3-5617405af0ec": {
+    "en": "Does {{playerName}} sleep with socks on?",
+    "text": "{{playerName}}は靴下をはいたまま寝る？"
+  },
+  "d616c1f7-4c37-47a7-8a0e-4b9963af2764": {
+    "en": "How many wisdom teeth has {{playerName}} had removed?",
+    "text": "{{playerName}}は親知らずを何本抜いた？",
+    "answers": [
+      "抜いてない",
+      "1本",
+      "2本",
+      "3本",
+      "4本全部"
+    ]
+  },
+  "ff103caa-415a-4e58-8c01-e153cd9bae9b": {
+    "en": "How many times has {{playerName}} gotten stitches? Write 0 if never.",
+    "text": "{{playerName}}は今までに何回ケガで縫ったことある？なければ0って書いて。"
+  },
+  "5a101639-bde0-469e-b2f2-60b2ef0a85fd": {
+    "en": "How old was {{playerName}} when they learned to swim? Write never if they can't swim.",
+    "text": "{{playerName}}が泳げるようになったのは何歳？泳げなければ「なし」って書いて。"
+  },
+  "424b64a3-27da-4ae4-be6d-0e4fb5e26709": {
+    "en": "How many fillings does {{playerName}} have? Write 0 if none.",
+    "text": "{{playerName}}の歯の詰め物はいくつ？なければ0って書いて。"
+  },
+  "5554d5d2-4a3f-442a-b4c8-38e8511d257a": {
+    "en": "How many times has {{playerName}} stayed overnight in a hospital as a patient? Write 0 if never.",
+    "text": "{{playerName}}は今までに何回入院したことある？なければ0って書いて。"
+  },
+  "c318ef52-cf6a-49e9-84a8-45961906b50b": {
+    "en": "Can {{playerName}} drive a manual car?",
+    "text": "{{playerName}}はマニュアル車を運転できる？",
+    "answers": [
+      "余裕でできる",
+      "できるけど下手",
+      "オートマだけ",
+      "そもそも運転できない"
+    ]
+  },
+  "6074363d-0509-4dea-9335-e5320a8e427a": {
+    "en": "How many times has {{playerName}} fainted? Write 0 if never.",
+    "text": "{{playerName}}は今までに何回気を失ったことある？なければ0って書いて。"
+  },
+  "48b3c23a-3cd0-4c20-9384-01aa898ae50c": {
+    "en": "How old was {{playerName}} on their first plane flight? Write never if they haven't flown.",
+    "text": "{{playerName}}が初めて飛行機に乗ったのは何歳？乗ったことなければ「なし」って書いて。"
+  },
+  "39a4a20b-eb71-4852-86d1-c1f6ef17b787": {
+    "en": "How many different jobs has {{playerName}} had so far?",
+    "text": "{{playerName}}は今までにいくつの仕事を経験した？"
+  },
+  "5c90da6e-06f8-4571-af38-0ac84e0c7278": {
+    "en": "How many times has {{playerName}} dyed their hair? Write 0 if never.",
+    "text": "{{playerName}}は今までに何回髪を染めた？なければ0って書いて。"
+  },
+  "58871fe6-0f6c-4951-bf1b-4e65c2cb2fbb": {
+    "en": "How old was {{playerName}} when they got their ears pierced? Write never if they haven't.",
+    "text": "{{playerName}}が耳にピアスを開けたのは何歳？開けてなければ「なし」って書いて。"
+  },
+  "7fec5c7e-5fd4-4d15-b827-9764d0017c5a": {
+    "en": "How many speeding tickets has {{playerName}} gotten? Write 0 if none.",
+    "text": "{{playerName}}はスピード違反で何回捕まった？なければ0って書いて。"
+  },
+  "1c483831-40c8-4c84-b3e4-1e6b2febd48f": {
+    "en": "How many times has {{playerName}} cracked a phone screen? Write 0 if never.",
+    "text": "{{playerName}}は今までに何回スマホの画面を割った？なければ0って書いて。"
+  },
+  "84f3b4d3-8ce2-4dd7-a7a0-3ceb564ace5b": {
+    "en": "How many hours was {{playerName}}'s longest flight? Write 0 if they've never flown.",
+    "text": "{{playerName}}が乗った一番長いフライトは何時間？乗ったことなければ0って書いて。"
+  },
+  "a3fbf3a7-ae6b-452d-b250-d1345f8c330f": {
+    "en": "How many friends from high school does {{playerName}} still talk to regularly?",
+    "text": "{{playerName}}が今もよく連絡を取ってる高校の友だちは何人？"
+  },
+  "2f52c237-0f33-496b-98b3-d8052637d261": {
+    "en": "How old was {{playerName}}'s mom when {{playerName}} was born?",
+    "text": "{{playerName}}が生まれたとき、お母さんは何歳だった？"
+  },
+  "84e04131-a72c-4735-abf3-e7da9b624e05": {
+    "en": "How many years apart are {{playerName}} and their closest-in-age sibling? Write 0 if they're an only child.",
+    "text": "{{playerName}}と一番年の近いきょうだいは何歳差？ひとりっ子なら0って書いて。"
+  },
+  "e5b9acdd-03b4-4cdb-869d-19a7eb400217": {
+    "en": "What's the most hours {{playerName}} has ever slept in one go?",
+    "text": "{{playerName}}が今までで一番長く寝続けたのは何時間？"
+  },
+  "b8b3c241-4570-48ed-8a1f-2f7048d5fc4f": {
+    "en": "How old was {{playerName}} when they got their own room? Write 0 if they always had one.",
+    "text": "{{playerName}}が自分の部屋をもらったのは何歳？ずっとあったなら0って書いて。"
+  },
+  "f7b7d52b-0b27-4bac-9729-6f4e6d186c17": {
+    "en": "How many hours was {{playerName}}'s longest road trip in one day?",
+    "text": "{{playerName}}が1日で車移動した最長記録は何時間？"
+  },
+  "f94eac2c-1bd8-4e69-87f5-c716eb17f1a2": {
+    "en": "How many times has {{playerName}} lost their wallet? Write 0 if never.",
+    "text": "{{playerName}}が財布をなくした回数は？なければ0で。"
+  },
+  "56f5acaa-9dd8-44b3-abe6-ddd01fb46fbc": {
+    "en": "How many nieces and nephews does {{playerName}} have? Write 0 if none.",
+    "text": "{{playerName}}には甥っ子・姪っ子が何人いる？いなければ0で。"
+  },
+  "1e5f97a7-0622-4095-9b35-2ba310517424": {
+    "en": "How many times has {{playerName}} changed their phone number? Write 0 if never.",
+    "text": "{{playerName}}が電話番号を変えた回数は？なければ0で。"
+  },
+  "4ea1a7bd-b472-44ce-8df0-b219ccf8a88e": {
+    "en": "How many different cities has {{playerName}} lived in?",
+    "text": "{{playerName}}が今まで住んだことのある街はいくつ？"
+  },
+  "7dc6a0e3-d5ef-4a8a-b388-ec39afa991ee": {
+    "en": "How many times has {{playerName}} been on TV? Write 0 if never.",
+    "text": "{{playerName}}がテレビに出た回数は？なければ0で。"
+  },
+  "e260b248-f935-47ca-a527-80c93355361e": {
+    "en": "Roughly how many concerts has {{playerName}} been to? Write 0 if none.",
+    "text": "{{playerName}}がライブに行った回数はだいたい何回？なければ0で。"
+  },
+  "d0901538-26fb-44ba-8fa0-ba285d31c744": {
+    "en": "How many times has {{playerName}} had food poisoning? Write 0 if never.",
+    "text": "{{playerName}}が食あたりになった回数は？なければ0で。"
+  },
+  "0c5e695a-a458-499d-ae51-13c53adcddd2": {
+    "en": "How many pets has {{playerName}} had in their life? Write 0 if none.",
+    "text": "{{playerName}}が今までに飼ったペットは何匹？いなければ0で。"
+  },
+  "a3eecac6-d128-49e7-8809-8a6d4eedf356": {
+    "en": "What's {{playerName}}'s middle name? Write none if they don't have one.",
+    "text": "{{playerName}}のミドルネームは？なければ「なし」で。",
+    "flagged": true,
+    "note": "Middle names are rare in Japan; most Japanese players will answer なし. Kept as-is for mixed/international couples."
+  },
+  "5c62f03d-f338-4beb-9eb8-99d6e896a798": {
+    "en": "What does {{playerName}}'s mom do for work?",
+    "text": "{{playerName}}のお母さんの仕事は？"
+  },
+  "a6dcacce-d2ae-40e1-8a57-fe01eb25d77d": {
+    "en": "What was {{playerName}}'s first game console? Write none if they never had one.",
+    "text": "{{playerName}}が初めて持ったゲーム機は？なければ「なし」で。"
+  },
+  "d43890e5-f0e6-42aa-bdd5-e3ef209d81b5": {
+    "en": "What did {{playerName}} study at university? Write none if they didn't go.",
+    "text": "{{playerName}}の大学での専攻は？行ってなければ「なし」で。"
+  },
+  "ea679c49-9e58-42f6-b148-b6b2530f82c6": {
+    "en": "What's the last country {{playerName}} traveled to?",
+    "text": "{{playerName}}が最後に行った国は？"
+  },
+  "29017788-31b1-41e7-a760-28bf42fa1183": {
+    "en": "What does {{playerName}}'s dad do for work?",
+    "text": "{{playerName}}のお父さんの仕事は？"
+  },
+  "97764295-e7a4-40ab-9835-8beed1341a06": {
+    "en": "Which city is {{playerName}}'s family originally from?",
+    "text": "{{playerName}}の家族はもともとどこの街の出身？"
+  },
+  "17d89504-80b5-460f-9d75-39d388c6d8e1": {
+    "en": "Which sports team does {{playerName}} support? Write none if they don't.",
+    "text": "{{playerName}}が応援してるチームは？なければ「なし」で。"
+  },
+  "ba5b2fe7-b030-4467-983a-7ebbe43f19a4": {
+    "en": "What was the first social media app {{playerName}} ever used?",
+    "text": "{{playerName}}が初めて使ったSNSは？"
+  },
+  "ffaae1fb-40ff-4933-ac17-c36aeadb43da": {
+    "en": "What was the first foreign language {{playerName}} learned? Write none if they never learned one.",
+    "text": "{{playerName}}が最初に習った外国語は？なければ「なし」で。"
+  },
+  "cceb5f1f-90a3-4cb3-a7c4-1c3d10ae4a65": {
+    "en": "What month is {{playerName}}'s mom's birthday?",
+    "text": "{{playerName}}のお母さんの誕生日は何月？"
+  },
+  "5c700d73-3a6e-4d31-a32f-14a00f61881d": {
+    "en": "In which city did {{playerName}}'s parents meet?",
+    "text": "{{playerName}}の両親が出会った街は？"
+  },
+  "91dc1c80-891d-4922-81db-e2c858b111b1": {
+    "en": "Who was {{playerName}} named after? Write no one if they weren't.",
+    "text": "{{playerName}}の名前は誰にちなんでつけられた？いなければ「なし」で。"
+  },
+  "bf0c5622-a87e-47c2-abf2-11f67d3d36bc": {
+    "en": "What's the name of {{playerName}}'s closest cousin? Write none if they don't have cousins.",
+    "text": "{{playerName}}のいとこで一番仲がいい人の名前は？いとこがいなければ「なし」で。"
+  },
+  "d53064e2-ac96-4ec2-88c1-e4d4728e53b6": {
+    "en": "What does {{playerName}}'s sibling do for work? Write none if they don't have one.",
+    "text": "{{playerName}}のきょうだいの仕事は？いなければ「なし」で。"
+  },
+  "f06fce27-558a-4a14-bc7c-02797e48b165": {
+    "en": "What's the name of {{playerName}}'s family group chat?",
+    "text": "{{playerName}}の家族のLINEグループの名前は？",
+    "flagged": true,
+    "note": "Adapted WhatsApp/group chat to LINE, the default messenger in Japan."
+  },
+  "1d27f445-8185-45f0-8e57-9d14df784fb8": {
+    "en": "Which family member is {{playerName}} closest to?",
+    "text": "{{playerName}}が家族の中で一番仲いいのは誰？"
+  },
+  "c7027cd1-a723-44f4-bae3-0d74ea7873bf": {
+    "en": "Which family member does {{playerName}} look the most like?",
+    "text": "{{playerName}}が家族の中で一番似てるのは誰？"
+  },
+  "927e687b-cd16-47ef-819a-d52fdb385158": {
+    "en": "What's {{playerName}}'s favorite dish that their mom makes?",
+    "text": "{{playerName}}がお母さんの手料理で一番好きなのは？"
+  },
+  "0f5a6d75-fc6a-4252-bf49-cfb3c9c1d8e3": {
+    "en": "How many people lived in {{playerName}}'s home growing up, including them?",
+    "text": "{{playerName}}が育った家には本人も入れて何人住んでた？"
+  },
+  "aa7dabf5-ad66-4574-8d46-c2393faff547": {
+    "en": "What name did {{playerName}}'s parents almost give them? Write none if there wasn't one.",
+    "text": "{{playerName}}の名前、候補だった別の名前は？なければ「なし」で。"
+  },
+  "3be027a4-5536-41b3-be2b-d519cc235f36": {
+    "en": "What was the name of {{playerName}}'s longest-time desk mate at school?",
+    "text": "{{playerName}}が学校で一番長く隣の席だった人の名前は？"
+  },
+  "b5817a96-4ca4-421b-aa69-e3598c7f8328": {
+    "en": "What did {{playerName}} always buy from the school canteen?",
+    "text": "{{playerName}}が学校の購買でいつも買ってたものは？",
+    "flagged": true,
+    "note": "School canteen adapted to 購買 (school shop), the usual equivalent in Japanese schools."
+  },
+  "4fb25a1c-f14e-43cf-a6ad-00295780f027": {
+    "en": "Which school club or team was {{playerName}} part of? Write none if they weren't.",
+    "text": "{{playerName}}が学生時代に入ってた部活は？なければ「なし」で。"
+  },
+  "5cf32bca-3e5e-4a5d-8d70-15f22575349a": {
+    "en": "Where did {{playerName}} spend summers as a kid?",
+    "text": "{{playerName}}が子どもの頃、夏休みを過ごしてた場所は？"
+  },
+  "b9e75a17-3bf6-4f39-a58a-94e10faf1e5f": {
+    "en": "How old was {{playerName}} when they got their first phone?",
+    "text": "{{playerName}}が初めてケータイを持ったのは何歳？"
+  },
+  "1f4648ed-da5e-4361-a8b0-5b188502eeb3": {
+    "en": "How old was {{playerName}} when they got their first tattoo? Write never if they don't have one.",
+    "text": "{{playerName}}が初めてタトゥーを入れたのは何歳？なければ「なし」で。"
+  },
+  "07337fdd-2317-4fa6-9482-d45b276fa891": {
+    "en": "How old was {{playerName}} when they started their first job? Write never if they haven't worked.",
+    "text": "{{playerName}}が初めて仕事を始めたのは何歳？働いたことがなければ「なし」で。"
+  },
+  "130baf14-361c-409b-a393-03f2783cc726": {
+    "en": "How old was {{playerName}} when they got their first pet? Write never if they've never had one.",
+    "text": "{{playerName}}が初めてペットを飼ったのは何歳？飼ったことなければ「なし」で。"
+  },
+  "79495e9d-536f-494e-aa55-4e131ab53c80": {
+    "en": "How old was {{playerName}} when they got their first car? Write never if they haven't.",
+    "text": "{{playerName}}が初めて自分の車を持ったのは何歳？なければ「なし」で。"
+  },
+  "9bf2b42d-0981-47cc-baa9-92516c7b48c8": {
+    "en": "How old was {{playerName}} when they opened their first social media account?",
+    "text": "{{playerName}}が初めてSNSのアカウントを作ったのは何歳？"
+  },
+  "65b9ad53-1684-4c07-b7b0-7a3bbaba7445": {
+    "en": "How old was {{playerName}} the first time they watched a match at a stadium? Write never if they haven't.",
+    "text": "{{playerName}}が初めてスタジアムで試合を観たのは何歳？なければ「なし」で。"
+  },
+  "03114fc5-15b6-48bb-bf85-29e6add1ee9c": {
+    "en": "What's the longest {{playerName}} has stayed awake in one go, in hours?",
+    "text": "{{playerName}}が寝ずに起きてた最長記録は何時間？"
+  },
+  "da47bdf7-4ae2-43ad-9deb-e98bb8e58f41": {
+    "en": "How many push-ups can {{playerName}} do in a row?",
+    "text": "{{playerName}}は腕立て伏せを連続で何回できる？"
+  },
+  "ef21e83e-7879-4eab-af7b-feae41efa6ce": {
+    "en": "What's the most kilometers {{playerName}} has walked in a single day?",
+    "text": "{{playerName}}が1日で歩いた最長距離は何キロ？"
+  },
+  "c9959107-d596-493f-ab42-38479f81059c": {
+    "en": "How many seconds can {{playerName}} hold a plank?",
+    "text": "{{playerName}}はプランクを何秒キープできる？"
+  },
+  "3c10a729-5ed9-49cf-84b4-8df6c848e51b": {
+    "en": "What's the most pizza slices {{playerName}} has eaten in one sitting?",
+    "text": "{{playerName}}が一度に食べたピザの最高記録は何切れ？"
+  },
+  "77e0d3af-2aea-4969-a40d-1c525508c55b": {
+    "en": "How many pull-ups can {{playerName}} do in a row?",
+    "text": "{{playerName}}は懸垂を連続で何回できる？"
+  },
+  "1a1ab67d-8a8e-47dd-97ce-a4de6836a290": {
+    "en": "What's the most episodes of a series {{playerName}} has watched in one day?",
+    "text": "{{playerName}}が1日でドラマを一気見した最高記録は何話？"
+  },
+  "d76a8b89-f7a4-4022-9fac-7ae3adf56d1b": {
+    "en": "How many hours was {{playerName}}'s longest gaming session? Write 0 if they don't play.",
+    "text": "{{playerName}}がぶっ通しでゲームした最長は何時間？やらないなら0で。"
+  },
+  "61cc3182-df1a-43ea-8850-6cdc26f84934": {
+    "en": "What's the heaviest {{playerName}} can bench press, in kg? Write 0 if they never have.",
+    "text": "{{playerName}}がベンチプレスで挙げられる最高は何キロ？やったことなければ0で。"
+  },
+  "4a4e5dde-be6e-43c8-9ad5-26aad6cbdac6": {
+    "en": "What's the most hours {{playerName}} has studied in a single day?",
+    "text": "{{playerName}}が1日で勉強した最長は何時間？"
+  },
+  "75852c20-379b-4202-87bb-0e3d463805b9": {
+    "en": "How many pairs of shoes does {{playerName}} own?",
+    "text": "{{playerName}}は靴を何足持ってる？"
+  },
+  "2685c7a1-b045-4991-9374-d3447fa52427": {
+    "en": "How many perfumes or colognes does {{playerName}} own? Write 0 if none.",
+    "text": "{{playerName}}は香水をいくつ持ってる？なければ0で。"
+  },
+  "a9674a7b-5a5d-4732-88b3-255c8e792b84": {
+    "en": "How many keys are on {{playerName}}'s keychain?",
+    "text": "{{playerName}}のキーホルダーには鍵が何本ついてる？"
+  },
+  "b1b1f89d-947e-4941-aa89-eb5dfab51ded": {
+    "en": "How many plants does {{playerName}} have at home? Write 0 if none.",
+    "text": "{{playerName}}の家には植物がいくつある？なければ0で。"
+  },
+  "262d61d0-ef48-4779-8ee9-1875799e82ac": {
+    "en": "How many watches does {{playerName}} own? Write 0 if none.",
+    "text": "{{playerName}}は腕時計をいくつ持ってる？なければ0で。"
+  },
+  "946f1533-886c-453c-8334-4e55d560944c": {
+    "en": "How many pairs of sunglasses does {{playerName}} own? Write 0 if none.",
+    "text": "{{playerName}}はサングラスをいくつ持ってる？なければ0で。"
+  },
+  "b7c7975d-2421-40bd-a659-d3128b57304a": {
+    "en": "What's {{playerName}}'s favorite city they've ever visited?",
+    "text": "{{playerName}}が今まで行った中で一番好きな街は？"
+  },
+  "dc0048e9-f6b3-4c51-9e2b-d88c9d917917": {
+    "en": "What's the name of {{playerName}}'s current pet? Write none if they don't have one.",
+    "text": "{{playerName}}が今飼ってるペットの名前は？いなければ「なし」で。"
+  },
+  "539cdb75-9f36-46bd-ba9f-9445c11c27f1": {
+    "en": "What does {{playerName}} always order at their favorite restaurant?",
+    "text": "{{playerName}}がお気に入りのお店でいつも頼むものは？"
+  },
+  "9dbe2d27-e8a4-4652-86d0-f9d51adeeb30": {
+    "en": "How is {{playerName}}'s mom saved in their phone?",
+    "text": "{{playerName}}のスマホで、お母さんは何て名前で登録されてる？"
+  },
+  "0e45d0a2-47ea-4285-9a24-fc6a0d270a8f": {
+    "en": "What time does {{playerName}}'s first alarm go off on weekdays?",
+    "text": "{{playerName}}の平日の最初のアラームは何時？"
+  }
+}

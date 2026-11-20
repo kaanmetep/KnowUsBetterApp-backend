@@ -1,0 +1,71 @@
+{
+  "7daf8ce4-e900-49bd-a99c-2bd3b2dc6623": {
+    "en": "How fairly do you feel chores are split between you?",
+    "text": "Hoe eerlijk vind je het huishouden tussen jullie verdeeld?",
+    "answers": [
+      "Helemaal eerlijk",
+      "Grotendeels eerlijk",
+      "Ik doe meer dan de helft",
+      "Mijn partner doet meer dan de helft"
+    ],
+    "note": "\"More than my/their share\" rendered as \"meer dan de helft\" to avoid a gendered possessive for the partner."
+  },
+  "37e7075f-f8c0-4a6f-8bb1-15d4f63b79b8": {
+    "en": "How much time alone do you need in a normal week?",
+    "text": "Hoeveel tijd voor jezelf heb je nodig in een gewone week?",
+    "answers": [
+      "Bijna geen",
+      "Een uurtje of twee",
+      "Een avond of meer",
+      "Veel, en dat zeg ik niet altijd"
+    ]
+  },
+  "2ec6384d-4e70-49a8-b8b4-60fc79668a5a": {
+    "en": "Your ideal weekday evening together?",
+    "text": "Jullie ideale doordeweekse avond samen?",
+    "answers": [
+      "Samen koken en eten",
+      "Iets kijken op de bank",
+      "Ergens op stap gaan",
+      "Naast elkaar, allebei met iets eigens bezig"
+    ]
+  },
+  "c3bfa96a-4683-46d7-a472-9844feb722ce": {
+    "en": "How do you feel about phones when you're together?",
+    "text": "Hoe denk je over telefoons als jullie samen zijn?",
+    "answers": [
+      "Voor ons geen probleem",
+      "Het stoort me soms",
+      "Het stoort me heel erg",
+      "Ik zit er zelf waarschijnlijk meer op"
+    ]
+  },
+  "ec39df53-45de-401b-83c5-c71fdc6a7b5c": {
+    "en": "Weekends should be…",
+    "text": "Het ideale weekend is…",
+    "answers": [
+      "Gepland en vol",
+      "Eén plan, de rest vrij",
+      "Helemaal ongepland",
+      "Vooral thuis uitrusten"
+    ]
+  },
+  "da536f27-fd8e-4b15-9bb2-fff1ab7cc79d": {
+    "en": "How tidy should home be?",
+    "text": "Hoe opgeruimd moet het thuis zijn?",
+    "answers": [
+      "Brandschoon",
+      "Netjes genoeg",
+      "Een beetje rommel is gezellig",
+      "Ik zie de rommel niet eens"
+    ]
+  },
+  "973523ee-da46-453e-8012-d7d01eb59fab": {
+    "en": "What part of your everyday life together do you love most?",
+    "text": "Wat vind je het mooiste aan jullie dagelijkse leven samen?"
+  },
+  "455eea81-69be-46f9-a81e-7299fb4c5f1e": {
+    "en": "What small daily thing would you change about how you live together?",
+    "text": "Welk klein dagelijks ding zou je willen veranderen aan hoe jullie samenleven?"
+  }
+}

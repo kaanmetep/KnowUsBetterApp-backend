@@ -1,0 +1,1463 @@
+{
+  "33e860c5-d68a-4622-8bff-5c2395b7b4fa": {
+    "en": "Would {{playerName}} rather stay home or go out on weekends?",
+    "text": "週末、{{playerName}}は家でのんびり派？それとも出かける派？",
+    "answers": [
+      "家でのんびり",
+      "出かける"
+    ]
+  },
+  "b54e736a-1ca6-4282-8d2f-f8395b87aea1": {
+    "en": "Would {{playerName}} rather text or call someone?",
+    "text": "{{playerName}}は連絡するならメッセージ派？電話派？",
+    "answers": [
+      "メッセージ",
+      "電話"
+    ]
+  },
+  "4bc843bb-07c2-4f26-b817-0f3d3b9614b9": {
+    "en": "Would {{playerName}} rather plan everything or be spontaneous?",
+    "text": "{{playerName}}は全部計画したい派？その場のノリ派？",
+    "answers": [
+      "全部計画する",
+      "その場のノリ"
+    ]
+  },
+  "82c0e606-aae6-4ff9-b103-b95342fd82dd": {
+    "en": "Would {{playerName}} rather rewatch a favorite movie or watch something new?",
+    "text": "{{playerName}}は好きな映画をまた観たい派？新しいのを観たい派？",
+    "answers": [
+      "好きな作品をもう一度",
+      "新しい作品"
+    ]
+  },
+  "91ca43c8-5750-446e-a192-ac3bbc581934": {
+    "en": "Would {{playerName}} rather live near the ocean or in the mountains?",
+    "text": "{{playerName}}が住むなら海の近く？山の中？",
+    "answers": [
+      "海の近く",
+      "山の中"
+    ]
+  },
+  "f35c8f81-62c1-4a7f-a513-8d4236bd98a5": {
+    "en": "Would {{playerName}} rather arrive too early or slightly late?",
+    "text": "{{playerName}}はかなり早めに着く派？ちょっと遅れる派？",
+    "answers": [
+      "かなり早め",
+      "ちょっと遅れる"
+    ]
+  },
+  "7d54b670-a981-422f-aced-7e9fa4bae1ec": {
+    "en": "Would {{playerName}} rather trust their head or their heart when making decisions?",
+    "text": "何かを決めるとき、{{playerName}}は頭で考える派？気持ちで決める派？",
+    "answers": [
+      "頭",
+      "気持ち"
+    ]
+  },
+  "b4de40ca-d4cd-4e56-ae5d-4dea9004dd81": {
+    "en": "Would {{playerName}} rather keep a secret or tell the truth even if it hurts?",
+    "text": "{{playerName}}は秘密を守る派？傷つけても本当のことを言う派？",
+    "answers": [
+      "秘密を守る",
+      "本当のことを言う"
+    ]
+  },
+  "f6926734-79ef-490a-a4e4-630f9273a4f5": {
+    "en": "Would {{playerName}} rather work hard for success or get lucky and succeed easily?",
+    "text": "{{playerName}}は努力して成功したい？運でラクに成功したい？",
+    "answers": [
+      "努力して成功",
+      "運でラクに成功"
+    ]
+  },
+  "5447a180-538c-4a12-9efb-cc3a5b935f41": {
+    "en": "Would {{playerName}} rather forgive easily or hold a grudge for a long time?",
+    "text": "{{playerName}}はすぐ許せる派？ずっと根に持つ派？",
+    "answers": [
+      "すぐ許せる",
+      "根に持つ"
+    ]
+  },
+  "2be6067f-ee2d-45a3-83be-4fc9c72df2ef": {
+    "en": "Would {{playerName}} rather have $1 million or marry the love of their life?",
+    "text": "{{playerName}}が選ぶなら、1億円？運命の人との結婚？",
+    "answers": [
+      "1億円",
+      "運命の人と結婚"
+    ],
+    "flagged": true,
+    "note": "$1 million adapted to 1億円 (round, natural sum in Japan)."
+  },
+  "12f83f4b-5b4b-4a12-a517-c315e06f329e": {
+    "en": "Would {{playerName}} rather live in their hometown or in different countries?",
+    "text": "{{playerName}}は地元で暮らしたい？いろんな国で暮らしたい？",
+    "answers": [
+      "地元",
+      "いろんな国"
+    ]
+  },
+  "e17c9f6b-cf1a-45b3-87f4-27c8bdc82bae": {
+    "en": "Would {{playerName}} rather cook at home or eat out?",
+    "text": "{{playerName}}は家で作る派？外食派？",
+    "answers": [
+      "家で作る",
+      "外食"
+    ]
+  },
+  "382bc563-9823-4ab1-8071-cc2d74faf52a": {
+    "en": "Would {{playerName}} rather spend a free day alone or with friends?",
+    "text": "{{playerName}}は休みの日、ひとりで過ごしたい？友だちと過ごしたい？",
+    "answers": [
+      "ひとりで",
+      "友だちと"
+    ]
+  },
+  "90825695-99aa-4d92-896a-29c6c59a277b": {
+    "en": "Would {{playerName}} rather have a high salary but a stressful job or a lower salary but a relaxed job?",
+    "text": "{{playerName}}が選ぶなら、高給だけどストレスの多い仕事？給料低めだけどゆるい仕事？",
+    "answers": [
+      "高給でストレス多め",
+      "給料低めでゆるい"
+    ]
+  },
+  "f2281a28-c027-428c-99bd-5a083fee5ca4": {
+    "en": "Would {{playerName}} rather confess love first or wait for the other person to do it?",
+    "text": "{{playerName}}は自分から告白する派？告白されるのを待つ派？",
+    "answers": [
+      "自分から告白",
+      "待つ"
+    ]
+  },
+  "475783c3-4b71-401d-87db-c959f01b2d7e": {
+    "en": "Would {{playerName}} rather fall in love quickly or fall in love over time?",
+    "text": "{{playerName}}はすぐ好きになる派？だんだん好きになる派？",
+    "answers": [
+      "すぐ",
+      "だんだん"
+    ]
+  },
+  "1ab0317c-029e-4bb2-9de6-372e922d68aa": {
+    "en": "Would {{playerName}} rather express their feelings openly or keep them to themselves?",
+    "text": "{{playerName}}は気持ちを素直に出す派？胸にしまう派？",
+    "answers": [
+      "素直に出す",
+      "胸にしまう"
+    ]
+  },
+  "786f9f17-3200-414f-9269-969c05476a85": {
+    "en": "Would {{playerName}} rather be the one who loves more or be loved more?",
+    "text": "{{playerName}}はもっと好きになる側がいい？もっと好かれる側がいい？",
+    "answers": [
+      "もっと好きになる側",
+      "もっと好かれる側"
+    ]
+  },
+  "0739e76d-bd4b-4bcc-a375-4048e59d974a": {
+    "en": "Would {{playerName}} rather go for someone who is emotionally intense or emotionally calm?",
+    "text": "{{playerName}}が惹かれるのは感情が激しい人？穏やかな人？",
+    "answers": [
+      "感情が激しい人",
+      "穏やかな人"
+    ]
+  },
+  "76484c65-35c7-4c3c-9a1e-42230c7921f2": {
+    "en": "Would {{playerName}} rather have a predictable life or an unpredictable exciting life?",
+    "text": "{{playerName}}は安定した人生がいい？予想できないワクワクする人生がいい？",
+    "answers": [
+      "安定した人生",
+      "ワクワクする人生"
+    ]
+  },
+  "239177fa-9d95-4c4e-bf05-9ca0e0153f5c": {
+    "en": "Would {{playerName}} rather have a big family or keep their family small?",
+    "text": "{{playerName}}は大家族がいい？少人数の家族がいい？",
+    "answers": [
+      "大家族",
+      "少人数の家族"
+    ]
+  },
+  "1918743a-fff6-42ba-bacb-9f6930488c49": {
+    "en": "Would {{playerName}} rather spend holidays with family or travel somewhere new?",
+    "text": "{{playerName}}は連休を家族と過ごしたい？新しい場所へ旅行したい？",
+    "answers": [
+      "家族と過ごす",
+      "新しい場所へ旅行"
+    ]
+  },
+  "77ba1277-946e-480b-b878-ed1aa3b631ad": {
+    "en": "Would {{playerName}} rather have kids early in life or later in life?",
+    "text": "{{playerName}}は子どもを早めに欲しい？もう少し先がいい？",
+    "answers": [
+      "早めに",
+      "もう少し先"
+    ]
+  },
+  "598ab765-c9fe-4082-bc14-d4b8d064861f": {
+    "en": "Would {{playerName}} rather have one child or two children?",
+    "text": "{{playerName}}が欲しい子どもの数は1人？2人？",
+    "answers": [
+      "1人",
+      "2人"
+    ]
+  },
+  "d704896b-0ef4-4c00-9fd7-3a47551b146a": {
+    "en": "Would {{playerName}} rather have a stable job for life or take risks to build their own business?",
+    "text": "{{playerName}}は一生安定した仕事がいい？リスクを取って起業したい？",
+    "answers": [
+      "一生安定した仕事",
+      "起業する"
+    ]
+  },
+  "6fb61eae-df85-4a81-bbd6-5ead952fdd6f": {
+    "en": "Would {{playerName}} rather work remotely from anywhere or work in a fixed office environment?",
+    "text": "{{playerName}}はどこでもリモートで働きたい？オフィスに通いたい？",
+    "answers": [
+      "リモート",
+      "オフィス"
+    ]
+  },
+  "47219491-e82d-4220-afd0-f8f976dbacbc": {
+    "en": "Would {{playerName}} rather move in with a partner early or wait a long time before living together?",
+    "text": "{{playerName}}は恋人とすぐ同棲したい派？じっくり時間をかけたい派？",
+    "answers": [
+      "すぐ同棲",
+      "じっくり待つ"
+    ]
+  },
+  "245377c3-2b87-4c1e-a318-e374030cc54a": {
+    "en": "If {{playerName}} had to choose, would they rather be with someone who is very jealous or someone who is very stingy?",
+    "text": "どうしても選ぶなら、{{playerName}}はすごく嫉妬深い人とすごくケチな人、どっちと付き合う？",
+    "answers": [
+      "すごく嫉妬深い",
+      "すごくケチ"
+    ]
+  },
+  "11fcbe7e-56a2-4147-b883-7adfe6ae91bf": {
+    "en": "If {{playerName}} had to choose, would they rather be with someone who is very controlling or someone who is very emotionally distant?",
+    "text": "どうしても選ぶなら、{{playerName}}は束縛が強い人と心の距離がある人、どっちと付き合う？",
+    "answers": [
+      "束縛が強い",
+      "心の距離がある"
+    ]
+  },
+  "8ffb0025-b2a9-4460-a1ed-cb5a661a2088": {
+    "en": "Would {{playerName}} rather be with someone very ambitious or someone very content with life?",
+    "text": "{{playerName}}が付き合うなら、野心家？今の生活に満足してる人？",
+    "answers": [
+      "野心家",
+      "今に満足してる人"
+    ]
+  },
+  "3408836d-1ecf-441a-960f-2fea5ad49e27": {
+    "en": "Would {{playerName}} rather have a cat or a dog as a pet?",
+    "text": "{{playerName}}が飼うなら猫？犬？",
+    "answers": [
+      "猫",
+      "犬"
+    ]
+  },
+  "1f6efff9-3add-4515-85f1-c6d272731369": {
+    "en": "Would {{playerName}} rather be famous or live a completely private life?",
+    "text": "{{playerName}}は有名になりたい？人に知られず静かに暮らしたい？",
+    "answers": [
+      "有名になる",
+      "静かに暮らす"
+    ]
+  },
+  "89b861b5-b18b-4c8f-a6db-d3267f82af3f": {
+    "en": "Would {{playerName}} rather always tell the truth or always avoid conflict?",
+    "text": "{{playerName}}はいつも本音を言う派？ぶつかるのを避ける派？",
+    "answers": [
+      "いつも本音を言う",
+      "ぶつかるのを避ける"
+    ]
+  },
+  "390d3b45-4e67-40bf-a304-e54b49a54d93": {
+    "en": "Would {{playerName}} rather forgive easily or take time before forgiving someone?",
+    "text": "{{playerName}}はすぐに許す派？許すまで時間がかかる派？",
+    "answers": [
+      "すぐに許す",
+      "時間をかけて許す"
+    ]
+  },
+  "778652b2-f2c7-4a02-8dbf-bf8fbb62d089": {
+    "en": "Would {{playerName}} rather take things slow in a relationship or feel instant chemistry?",
+    "text": "恋愛で{{playerName}}はゆっくり距離を縮めたい？ビビッとくる出会いがいい？",
+    "answers": [
+      "ゆっくり進める",
+      "ビビッとくる"
+    ]
+  },
+  "6b1a102c-c5a3-4261-97eb-1379c2d19a64": {
+    "en": "Would {{playerName}} rather show affection in public or keep it private?",
+    "text": "{{playerName}}は人前でもラブラブしたい？ふたりきりのときだけがいい？",
+    "answers": [
+      "人前でも",
+      "ふたりきりのとき"
+    ]
+  },
+  "1a19c968-2cfd-4823-80a6-b871d121e44a": {
+    "en": "Would {{playerName}} rather have intense chemistry or emotional comfort in a relationship?",
+    "text": "恋愛で{{playerName}}が求めるのは強いドキドキ？心の安らぎ？",
+    "answers": [
+      "強いドキドキ",
+      "心の安らぎ"
+    ]
+  },
+  "8ca453c1-959a-4c76-9ea7-54987d756b27": {
+    "en": "Would {{playerName}} rather have a partner who is very jealous or someone who gives complete freedom?",
+    "text": "{{playerName}}は嫉妬深い恋人がいい？完全に自由にさせてくれる恋人がいい？",
+    "answers": [
+      "すごく嫉妬深い",
+      "完全に自由をくれる"
+    ]
+  },
+  "d5fadf41-1231-4b0c-8efa-9d625b1ca6fb": {
+    "en": "Would {{playerName}} rather be with someone very expressive physically or someone more controlled and calm?",
+    "text": "{{playerName}}が付き合うなら、スキンシップが多い人？落ち着いた人？",
+    "answers": [
+      "スキンシップが多い",
+      "落ち着いている"
+    ]
+  },
+  "f1ed238f-43db-4120-a454-f66430ed55c7": {
+    "en": "Would {{playerName}} rather be in a relationship with strong physical chemistry or strong emotional connection?",
+    "text": "{{playerName}}が恋愛で大事にするのは体の相性？心のつながり？",
+    "answers": [
+      "体の相性",
+      "心のつながり"
+    ]
+  },
+  "aefd3291-56f1-4c7b-ae95-6cace501472d": {
+    "en": "Does {{playerName}} prefer sunny or rainy weather?",
+    "text": "{{playerName}}は晴れの日が好き？雨の日が好き？",
+    "answers": [
+      "晴れ",
+      "雨"
+    ]
+  },
+  "9cb91fa0-017a-492d-adbe-adb31919cbdd": {
+    "en": "Does {{playerName}} prefer intimacy in the morning or at night?",
+    "text": "{{playerName}}がイチャイチャしたいのは朝？夜？",
+    "answers": [
+      "朝",
+      "夜"
+    ]
+  },
+  "a003660c-bffd-47f5-952c-0a40d2a45686": {
+    "en": "Does {{playerName}} prefer spontaneous or planned intimacy?",
+    "text": "{{playerName}}はムードで自然に始まる派？ちゃんと予定して楽しむ派？",
+    "answers": [
+      "自然な流れで",
+      "予定して"
+    ]
+  },
+  "8a17d77f-14ed-4528-b669-78594d0da8ac": {
+    "en": "Does {{playerName}} prefer a wild night out or a cozy night in?",
+    "text": "{{playerName}}は夜は外で盛り上がりたい？家でまったりしたい？",
+    "answers": [
+      "外で盛り上がる",
+      "家でまったり"
+    ]
+  },
+  "a0fac6c6-6686-45b8-8cf4-408edc5d032c": {
+    "en": "Does {{playerName}} prefer a beach vacation or a mountain vacation?",
+    "text": "{{playerName}}は旅行するなら海派？山派？",
+    "answers": [
+      "海",
+      "山"
+    ]
+  },
+  "cffb0f75-9040-45b1-8d12-300ef3ca08be": {
+    "en": "Does {{playerName}} prefer a sweet text message or a long phone call?",
+    "text": "{{playerName}}がうれしいのは甘いメッセージ？長電話？",
+    "answers": [
+      "甘いメッセージ",
+      "長電話"
+    ]
+  },
+  "59e97775-72fe-4bf0-9f4c-5b0cd575a4ce": {
+    "en": "Does {{playerName}} prefer a surprise date or a carefully planned one?",
+    "text": "{{playerName}}はサプライズデートが好き？しっかり計画したデートが好き？",
+    "answers": [
+      "サプライズデート",
+      "計画したデート"
+    ]
+  },
+  "d164f584-fdb2-4f62-b924-781f1bd75ac9": {
+    "en": "Does {{playerName}} prefer receiving compliments on their looks or their personality?",
+    "text": "{{playerName}}がうれしいのは見た目をほめられること？中身をほめられること？",
+    "answers": [
+      "見た目",
+      "中身"
+    ]
+  },
+  "0492fd1f-f383-4660-8df4-d63bc67d178a": {
+    "en": "Does {{playerName}} prefer making big life decisions solo or together with their partner?",
+    "text": "人生の大事なことを、{{playerName}}はひとりで決めたい？恋人と一緒に決めたい？",
+    "answers": [
+      "ひとりで",
+      "一緒に"
+    ]
+  },
+  "94f9ac5e-0878-4a02-ae8c-7b4008f74ad4": {
+    "en": "If {{playerName}} could time travel, would they fix a mistake in the past or visit the future?",
+    "text": "タイムトラベルできたら、{{playerName}}は過去の失敗をやり直す？未来を見に行く？",
+    "answers": [
+      "過去をやり直す",
+      "未来を見に行く"
+    ]
+  },
+  "bd441de0-5c15-4416-99b1-89df1671c114": {
+    "en": "Was {{playerName}} a mischievous troublemaker or a quiet, rule-following kid?",
+    "text": "子どもの頃の{{playerName}}はやんちゃないたずらっ子？おとなしい優等生タイプ？",
+    "answers": [
+      "いたずらっ子",
+      "おとなしい子"
+    ]
+  },
+  "347689ab-707b-4407-a09f-69f9f19343de": {
+    "en": "As a child, did {{playerName}} prefer playing outside in the dirt or staying indoors with toys?",
+    "text": "子どもの頃の{{playerName}}は泥んこになって外で遊ぶ派？家でおもちゃで遊ぶ派？",
+    "answers": [
+      "外遊び",
+      "家遊び"
+    ]
+  },
+  "c022d8ce-34b3-4ab0-a227-06d30b81bd48": {
+    "en": "Does {{playerName}} prefer to keep their food separate on the plate or mix it all together?",
+    "text": "{{playerName}}はお皿の料理を分けて食べる派？全部混ぜる派？",
+    "answers": [
+      "分けて食べる",
+      "全部混ぜる"
+    ]
+  },
+  "060551e0-79ca-4006-9c48-f247b618ce82": {
+    "en": "Does {{playerName}} prefer sleeping in absolute silence or with some background noise (like music or a fan)?",
+    "text": "{{playerName}}は寝るとき完全に無音がいい？音楽や扇風機の音があるほうがいい？",
+    "answers": [
+      "完全に無音",
+      "少し音がある"
+    ]
+  },
+  "df4aa404-cddd-4a94-b2bb-04fa25a26220": {
+    "en": "Would {{playerName}} rather be remembered for their intelligence or their kindness?",
+    "text": "{{playerName}}は頭のよさで覚えられたい？やさしさで覚えられたい？",
+    "answers": [
+      "頭のよさ",
+      "やさしさ"
+    ]
+  },
+  "d3b1c0c7-84b5-46cf-9492-69d50264f744": {
+    "en": "When stressed, does {{playerName}} isolate to cope or seek support from loved ones?",
+    "text": "ストレスがたまると、{{playerName}}はひとりで抱え込む？大切な人に頼る？",
+    "answers": [
+      "ひとりで抱え込む",
+      "誰かに頼る"
+    ]
+  },
+  "85b2e103-ec68-46a7-969f-9a2a9845765f": {
+    "en": "When making a major decision, does {{playerName}} follow their gut instinct or do they need to analyze all the facts?",
+    "text": "大きな決断のとき、{{playerName}}は直感で決める？データを全部調べて決める？",
+    "answers": [
+      "直感",
+      "データと事実"
+    ]
+  },
+  "1291050c-1544-4303-aec4-8dfb5336fede": {
+    "en": "How important is the environment (lighting, music, atmosphere) to {{playerName}} during intimacy?",
+    "text": "ふたりきりの時間、{{playerName}}にとって照明や音楽などのムードはどれくらい大事？",
+    "answers": [
+      "全部大事",
+      "まったく気にしない"
+    ]
+  },
+  "936fc0ce-528b-4397-9401-6e314e091ea9": {
+    "en": "When in an intimate moment, does {{playerName}} prefer verbal affirmation or focusing purely on the physical sensation?",
+    "text": "ふたりきりの甘い時間、{{playerName}}が大事にするのは言葉？それとも肌で感じること？",
+    "answers": [
+      "言葉で伝える",
+      "肌で感じるだけ"
+    ]
+  },
+  "e9b217eb-eb8e-4bf3-96e3-0529186355f9": {
+    "en": "What time does {{playerName}} usually wake up?",
+    "text": "{{playerName}}はいつも何時に起きる？"
+  },
+  "0c937cba-97a4-4782-a859-d321a0e52b16": {
+    "en": "How many siblings does {{playerName}} have?",
+    "text": "{{playerName}}はきょうだいが何人いる？"
+  },
+  "8e7430ec-4498-4aff-a4dc-10933a46c12d": {
+    "en": "What month was {{playerName}} born in?",
+    "text": "{{playerName}}の誕生月は？"
+  },
+  "b5c36562-c5d4-42ae-9205-85f0b0262bad": {
+    "en": "What's {{playerName}}'s favorite ice cream flavor?",
+    "text": "{{playerName}}の好きなアイスの味は？"
+  },
+  "67bea7b0-936b-4108-b413-8eea681221e0": {
+    "en": "What does {{playerName}} never leave the house without?",
+    "text": "{{playerName}}が出かけるとき絶対に持っていくものは？"
+  },
+  "10c8697c-0893-43cd-891b-3f8043ea9661": {
+    "en": "What city was {{playerName}} born in?",
+    "text": "{{playerName}}が生まれた街は？"
+  },
+  "67bddf7d-4d5a-49ff-b2bd-544f70c541e0": {
+    "en": "What's {{playerName}}'s favorite color?",
+    "text": "{{playerName}}の好きな色は？"
+  },
+  "7e32c0fb-1531-4e16-af1c-629343ffb7e9": {
+    "en": "What does {{playerName}} love eating most for breakfast?",
+    "text": "{{playerName}}が朝ごはんで一番好きなものは？"
+  },
+  "0425f81b-0c26-4d2f-b061-adfe977513d3": {
+    "en": "What's {{playerName}}'s favorite pizza topping?",
+    "text": "{{playerName}}が好きなピザのトッピングは？"
+  },
+  "dfbde649-f017-4e8e-8d54-6ec9c9694fc5": {
+    "en": "What's {{playerName}}'s usual coffee order?",
+    "text": "{{playerName}}がカフェでいつも頼むコーヒーは？"
+  },
+  "d99e5617-1698-4240-a0a8-c3daea39022d": {
+    "en": "What's {{playerName}}'s favorite snack?",
+    "text": "{{playerName}}の好きなおやつは？"
+  },
+  "ee877ca1-488d-4f97-9598-fd22509ac148": {
+    "en": "What's {{playerName}}'s favorite fruit?",
+    "text": "{{playerName}}の好きなフルーツは？"
+  },
+  "9592c028-df70-4e2a-b66d-f17130e2480e": {
+    "en": "How does {{playerName}} like their eggs?",
+    "text": "{{playerName}}が好きな卵の食べ方は？"
+  },
+  "1bd92319-ff3e-43b3-81b8-f13be6fd47bf": {
+    "en": "What time does {{playerName}} usually go to sleep?",
+    "text": "{{playerName}}はだいたい何時に寝る？"
+  },
+  "d90798ff-2c56-4b01-a1c8-2780928f2161": {
+    "en": "What's {{playerName}}'s favorite childhood cartoon?",
+    "text": "{{playerName}}が子どもの頃好きだったアニメは？"
+  },
+  "74c6652c-3f00-4012-8585-e196f91a11f9": {
+    "en": "What's the first app {{playerName}} opens in the morning?",
+    "text": "{{playerName}}が朝いちばんに開くアプリは？"
+  },
+  "44cb3c9e-6be8-4872-9542-0b08384ef41e": {
+    "en": "What's {{playerName}}'s favorite emoji?",
+    "text": "{{playerName}}のお気に入りの絵文字は？"
+  },
+  "7dc94a81-6d5d-4d12-9d9b-f9ab59fc038a": {
+    "en": "What phone brand does {{playerName}} use?",
+    "text": "{{playerName}}のスマホはどこのメーカー？"
+  },
+  "a8cb7aac-c671-48bd-a093-3d7fd524491e": {
+    "en": "What is {{playerName}} currently watching?",
+    "text": "{{playerName}}が今見てるドラマは？"
+  },
+  "17ec277b-a7f7-49ce-8eec-99683adbcbb2": {
+    "en": "What's {{playerName}}'s favorite animal?",
+    "text": "{{playerName}}の好きな動物は？"
+  },
+  "145f2f5b-8e80-4252-a357-3ae2d5c4c1d0": {
+    "en": "What's {{playerName}}'s lucky number?",
+    "text": "{{playerName}}のラッキーナンバーは？"
+  },
+  "2a1297e0-6d77-4cf2-a3ff-e5f8057dcc30": {
+    "en": "What's {{playerName}}'s star sign?",
+    "text": "{{playerName}}の星座は？"
+  },
+  "e867a504-b007-4206-8378-19171432174d": {
+    "en": "What's {{playerName}}'s favorite season?",
+    "text": "{{playerName}}が好きな季節は？"
+  },
+  "55cc5151-4dc7-4a67-90de-b1829ca19dc8": {
+    "en": "What was {{playerName}}'s childhood nickname?",
+    "text": "{{playerName}}の子どもの頃のあだ名は？"
+  },
+  "bb5df921-8ba2-4082-90b4-fb7c936731dc": {
+    "en": "What's {{playerName}}'s favorite singer?",
+    "text": "{{playerName}}が一番好きなアーティストは？"
+  },
+  "ebad8d20-818e-4d82-8191-1a2c198bfa7f": {
+    "en": "What's {{playerName}}'s favorite chocolate?",
+    "text": "{{playerName}}の好きなチョコは？"
+  },
+  "a029377a-dcee-4c47-80ac-e652ce1363f6": {
+    "en": "What's {{playerName}}'s favorite fast food?",
+    "text": "{{playerName}}の好きなファストフードは？"
+  },
+  "34591a59-c1f0-426b-a04c-c98cee22942d": {
+    "en": "What does {{playerName}} call their mom?",
+    "text": "{{playerName}}はお母さんのことを何て呼んでる？"
+  },
+  "d557c7ce-b091-4b4b-ad44-73eb4a9f1d17": {
+    "en": "What's {{playerName}}'s favorite superhero?",
+    "text": "{{playerName}}の好きなスーパーヒーローは？"
+  },
+  "ff54dc71-bbb6-46f6-973f-7381edb1f930": {
+    "en": "What does {{playerName}} do first when they get home?",
+    "text": "{{playerName}}が家に帰ってまずすることは？"
+  },
+  "837a824d-df7a-4c64-b6ba-16f11164e978": {
+    "en": "What chore does {{playerName}} hate the most?",
+    "text": "{{playerName}}が一番嫌いな家事は？"
+  },
+  "792869b8-ec29-496c-b85e-f010457ea0ae": {
+    "en": "What does {{playerName}} always lose?",
+    "text": "{{playerName}}がいつもなくすものは？"
+  },
+  "b140bb4d-c30d-4ef6-9106-988634717a5f": {
+    "en": "How fast does {{playerName}} reply to messages?",
+    "text": "{{playerName}}のメッセージの返信の早さは？",
+    "answers": [
+      "即レス",
+      "何時間も後",
+      "既読スルー",
+      "ボイスメッセージで返す"
+    ]
+  },
+  "4a6273eb-4b65-4061-a9b8-e0926c7675eb": {
+    "en": "What's {{playerName}} like at a party?",
+    "text": "パーティーでの{{playerName}}はどんな感じ？",
+    "answers": [
+      "ずっと踊ってる",
+      "すみっこにいる",
+      "キッチンにいる",
+      "早めに帰る"
+    ]
+  },
+  "401000a3-ed4d-43cd-98a9-9eb83866750c": {
+    "en": "How does {{playerName}} pack for a trip?",
+    "text": "{{playerName}}の旅行の荷造りは？",
+    "answers": [
+      "1週間前から",
+      "前の晩",
+      "半分忘れる",
+      "詰め込みすぎ"
+    ]
+  },
+  "22169b2f-f26f-4151-8015-bafef065eb8f": {
+    "en": "What does {{playerName}} do when they're lost?",
+    "text": "{{playerName}}は道に迷ったらどうする？",
+    "answers": [
+      "人に聞く",
+      "地図を見る",
+      "とりあえず歩き続ける",
+      "誰かに電話する"
+    ]
+  },
+  "eca7e545-d5fe-43d3-b4fe-2e6aec589557": {
+    "en": "What does {{playerName}} do with leftovers?",
+    "text": "{{playerName}}は残りものをどうする？",
+    "answers": [
+      "取っておく",
+      "夜中に食べる",
+      "捨てる",
+      "冷蔵庫に入れたまま忘れる"
+    ]
+  },
+  "61d8bdfa-ccc2-48c1-8c58-446ed197d69c": {
+    "en": "What's {{playerName}} like in the morning?",
+    "text": "朝の{{playerName}}はどんな感じ？",
+    "answers": [
+      "不機嫌",
+      "コーヒーまで無言",
+      "朝からおしゃべり",
+      "スヌーズ無限ループ"
+    ]
+  },
+  "5dfed285-7d4f-4e71-8506-84c8415cbc26": {
+    "en": "What's {{playerName}} like as a passenger?",
+    "text": "助手席の{{playerName}}はどんな感じ？",
+    "answers": [
+      "ずっと寝てる",
+      "音楽担当",
+      "ナビ担当",
+      "「まだ着かない？」連発"
+    ]
+  },
+  "a1f2d79a-ce13-4322-a5b8-f10091d8772d": {
+    "en": "How does {{playerName}} pick a restaurant?",
+    "text": "{{playerName}}のお店選びは？",
+    "answers": [
+      "口コミを全部読む",
+      "いつもの店に行く",
+      "最初に見つけた店に入る",
+      "相手に任せる"
+    ]
+  },
+  "6e745806-a8fc-4404-a45c-090c14c466a1": {
+    "en": "What is {{playerName}} like when they're sick?",
+    "text": "体調が悪い時の{{playerName}}は？",
+    "answers": [
+      "大げさに騒ぐ",
+      "平気なふりをする",
+      "一日中寝てる",
+      "ほっといてほしい"
+    ]
+  },
+  "471a6e48-e963-420e-bf7d-7a708e35c2e0": {
+    "en": "How does {{playerName}} take photos?",
+    "text": "{{playerName}}の写真の撮り方は？",
+    "answers": [
+      "同じ写真を50枚",
+      "まったく撮らない",
+      "自撮りだけ",
+      "ごはんだけ"
+    ]
+  },
+  "368f1aa0-70bc-4aa8-8117-95ecbf9ab3cf": {
+    "en": "How does {{playerName}} usually sleep?",
+    "text": "{{playerName}}はどんな体勢で寝る？",
+    "answers": [
+      "仰向け",
+      "横向き",
+      "うつ伏せ",
+      "大の字"
+    ]
+  },
+  "f32d78d9-ad1f-4da1-a4eb-bb631981389d": {
+    "en": "How long is {{playerName}}'s shower?",
+    "text": "{{playerName}}のお風呂の時間は？",
+    "answers": [
+      "5分以内",
+      "10分くらい",
+      "しっかり20分",
+      "1時間"
+    ],
+    "note": "Shower adapted to お風呂 (bath time) since Japanese usually bathe; options still fit."
+  },
+  "4a4c1dcb-edc8-499a-b622-51d40eb7fed0": {
+    "en": "How spicy does {{playerName}} like their food?",
+    "text": "{{playerName}}が好きな辛さは？",
+    "answers": [
+      "辛くないのがいい",
+      "ちょっと辛め",
+      "かなり辛め",
+      "メニューで一番辛いの"
+    ]
+  },
+  "64443fba-3210-45c2-91a7-e445962bb768": {
+    "en": "How many alarms does {{playerName}} set?",
+    "text": "{{playerName}}はアラームをいくつかける？",
+    "answers": [
+      "0個",
+      "1個",
+      "2〜3個",
+      "数えきれない"
+    ]
+  },
+  "7ae392a8-9407-45b1-8393-659cd8c7ff06": {
+    "en": "How much ice does {{playerName}} want in a drink?",
+    "text": "{{playerName}}が飲み物に入れたい氷の量は？",
+    "answers": [
+      "なし",
+      "少なめ",
+      "コップ半分",
+      "たっぷり"
+    ]
+  },
+  "8d2288a5-7234-4b0a-9d04-a4df4a7c8276": {
+    "en": "How warm does {{playerName}} like the room?",
+    "text": "{{playerName}}が好きな部屋の温度は？",
+    "answers": [
+      "寒いくらい",
+      "涼しめ",
+      "あったかめ",
+      "暑いくらい"
+    ]
+  },
+  "9a333a60-a208-4fa6-b5ad-715cc8915816": {
+    "en": "How does {{playerName}} walk with someone?",
+    "text": "誰かと歩く時の{{playerName}}は？",
+    "answers": [
+      "遅れがち",
+      "隣を歩く",
+      "先を歩く",
+      "先に着いて待ってる"
+    ]
+  },
+  "03e69dee-3b69-4951-8dc6-3b8264f042b0": {
+    "en": "How bright does {{playerName}} like the lights?",
+    "text": "{{playerName}}が好きな部屋の明るさは？",
+    "answers": [
+      "ほぼ真っ暗",
+      "薄暗め",
+      "ふつう",
+      "全開"
+    ]
+  },
+  "0aca9c68-fa93-42be-9d3c-1de5a6691b90": {
+    "en": "How much of their plate does {{playerName}} finish?",
+    "text": "{{playerName}}はごはんをどれくらい食べる？",
+    "answers": [
+      "半分残す",
+      "少し残す",
+      "完食",
+      "おかわりする"
+    ]
+  },
+  "5c58e0a8-e571-49fa-9dcf-8bcabbfd351d": {
+    "en": "How loud does {{playerName}} watch TV?",
+    "text": "{{playerName}}がテレビを見る時の音量は？",
+    "answers": [
+      "かなり小さめ",
+      "ふつう",
+      "大きめ",
+      "マンション中に響く"
+    ],
+    "note": "'Whole building' rendered as マンション中 (apartment building), the natural Japanese image."
+  },
+  "8dcf54f4-7604-4a50-868f-a1059383d60f": {
+    "en": "What sport does {{playerName}} watch the most?",
+    "text": "{{playerName}}が一番よく見るスポーツは？"
+  },
+  "518cefed-96bc-4925-a6d7-cbbbe1bafe71": {
+    "en": "{{playerName}}'s phone volume is usually...",
+    "text": "{{playerName}}のスマホの音はだいたい…",
+    "answers": [
+      "マナーモード",
+      "小さめで控えめ",
+      "部屋中に響く"
+    ]
+  },
+  "b194f4d3-f0fd-4181-9fe0-ba5a5d8df660": {
+    "en": "What is {{playerName}}'s favorite drink?",
+    "text": "{{playerName}}の好きな飲み物は？"
+  },
+  "479bda74-7ea0-4281-b895-aa99f5ec2cd2": {
+    "en": "What is {{playerName}}'s favorite day of the week?",
+    "text": "{{playerName}}が一番好きな曜日は？"
+  },
+  "d8a84507-b8e2-4a95-843a-ee747cc48192": {
+    "en": "What shoe brand does {{playerName}} wear the most?",
+    "text": "{{playerName}}が一番よく履く靴のブランドは？"
+  },
+  "93071ba2-48c1-40a4-9b45-223d4ea76fba": {
+    "en": "What is {{playerName}}'s favorite clothing brand?",
+    "text": "{{playerName}}の好きな服のブランドは？"
+  },
+  "2cfc2473-9298-4832-91ac-7d80bdb6acf8": {
+    "en": "What is {{playerName}}'s go-to comfort food when sad?",
+    "text": "{{playerName}}が落ち込んだ時に食べたくなるものは？"
+  },
+  "1964cbeb-89e2-449a-8c9f-a62f03c5001e": {
+    "en": "What is the first thing {{playerName}} checks on their phone in the morning?",
+    "text": "{{playerName}}が朝スマホで最初にチェックするのは？"
+  },
+  "72d01256-9cc6-4e00-9ee2-32149b3777c1": {
+    "en": "What does {{playerName}} do when no one else is home?",
+    "text": "家にひとりの時、{{playerName}}は何してる？",
+    "answers": [
+      "全力で歌う",
+      "家の中で踊る",
+      "脳内で誰かと会話",
+      "ベッドでごはん"
+    ]
+  },
+  "5426502c-b09e-4e22-9d93-14cdcc37e444": {
+    "en": "When {{playerName}} forgets someone's name, what do they do?",
+    "text": "{{playerName}}は人の名前を忘れたらどうする？",
+    "answers": [
+      "名前を呼ばずにごまかす",
+      "適当なあだ名で呼ぶ",
+      "すぐ正直に言う",
+      "こっそり他の人に聞く"
+    ]
+  },
+  "b8373ab6-1ddc-4a1b-9c77-fb896eac0d39": {
+    "en": "What does {{playerName}} do after tripping in public?",
+    "text": "人前でつまずいた時、{{playerName}}はどうする？",
+    "answers": [
+      "そのまま走り出す",
+      "地面をにらむ",
+      "爆笑する",
+      "何もなかったふり"
+    ]
+  },
+  "c01488a8-0bfe-43e5-8da7-3d73f726e8a8": {
+    "en": "If {{playerName}} won the lottery, what would they do first?",
+    "text": "{{playerName}}が宝くじに当たったら、まず何する？",
+    "answers": [
+      "仕事を辞める",
+      "家を買う",
+      "世界一周",
+      "誰にも言わない"
+    ]
+  },
+  "9c6b53e4-f5b8-473e-b934-46874be76618": {
+    "en": "In a zombie apocalypse, who would {{playerName}} be?",
+    "text": "ゾンビだらけの世界で、{{playerName}}はどんな役？",
+    "answers": [
+      "リーダー",
+      "最初にかまれる人",
+      "お菓子を買いだめする人",
+      "裏切り者"
+    ]
+  },
+  "23003c7d-5093-46f0-a54a-2f942131eb3c": {
+    "en": "If {{playerName}} could pick one superpower, which would it be?",
+    "text": "{{playerName}}が超能力をひとつ選ぶなら？",
+    "answers": [
+      "空を飛ぶ",
+      "透明になる",
+      "心を読む",
+      "瞬間移動"
+    ]
+  },
+  "f29d4add-5a02-4673-af37-22538518bf1d": {
+    "en": "What's on {{playerName}}'s lock screen right now?",
+    "text": "{{playerName}}のロック画面、今は何？"
+  },
+  "2c118d16-4d4d-47ed-a1e5-324d8ff8801c": {
+    "en": "What's {{playerName}}'s average daily screen time, in hours?",
+    "text": "{{playerName}}の1日の平均スクリーンタイムは何時間？"
+  },
+  "87169443-4ab3-4ed7-a6a9-86d699553988": {
+    "en": "Which app does {{playerName}} spend the most time on, according to their screen time?",
+    "text": "スクリーンタイムで、{{playerName}}が一番長く使ってるアプリは？"
+  },
+  "d2eb66d6-376f-48c0-a8c4-b9bd593f2533": {
+    "en": "How many unread notifications does {{playerName}} usually have?",
+    "text": "{{playerName}}のスマホの未読通知はだいたい何件？",
+    "answers": [
+      "0件、いつも消す",
+      "数件",
+      "数十件",
+      "数百件"
+    ]
+  },
+  "b33c8cde-b296-45cf-b287-875bb5ce045e": {
+    "en": "What's {{playerName}}'s phone battery usually at?",
+    "text": "{{playerName}}のスマホの充電、だいたいどれくらい？",
+    "answers": [
+      "いつも80%以上",
+      "半分くらい",
+      "だいたい20%以下",
+      "いつも電池切れ寸前"
+    ]
+  },
+  "7a8fe703-7dff-4a13-a22a-e41eb71b652a": {
+    "en": "What's {{playerName}}'s home Wi-Fi name?",
+    "text": "{{playerName}}の家のWi-Fiの名前は？"
+  },
+  "147fc614-cbc3-40c2-99c8-4c3153cd6e71": {
+    "en": "What's the last thing {{playerName}} bought online?",
+    "text": "{{playerName}}がネットで最後に買ったものは？"
+  },
+  "517564ba-2931-43ca-827c-58dddf379dac": {
+    "en": "What food will {{playerName}} never eat, no matter what?",
+    "text": "{{playerName}}が何があっても絶対に食べないものは？"
+  },
+  "e294c59a-bb70-4d8c-9d80-6dbb06a09b36": {
+    "en": "Which sound drives {{playerName}} the craziest?",
+    "text": "{{playerName}}が一番イラッとする音は？",
+    "answers": [
+      "クチャクチャ食べる音",
+      "黒板をひっかく音",
+      "鼻をすする音",
+      "口笛"
+    ]
+  },
+  "19eebdd7-760a-4ea1-ae18-5bf88eb2dafc": {
+    "en": "What annoys {{playerName}} the most when texting?",
+    "text": "LINEで{{playerName}}が一番イラッとするのは？",
+    "answers": [
+      "「OK」だけの返信",
+      "ボイスメッセージ",
+      "返信が遅い",
+      "短いメッセージの連投"
+    ],
+    "note": "Used LINE as the default messaging app in Japan instead of generic 'texting'."
+  },
+  "52b4cdec-cd4a-4442-998d-f07cd4081db4": {
+    "en": "What bothers {{playerName}} the most at a restaurant?",
+    "text": "お店で{{playerName}}が一番気になるのは？",
+    "answers": [
+      "提供が遅い",
+      "テーブルが汚い",
+      "音楽がうるさい",
+      "量が少ない"
+    ]
+  },
+  "5be0c0e8-8892-4a92-9758-2f00fcce2015": {
+    "en": "Which mess at home bothers {{playerName}} the most?",
+    "text": "家で{{playerName}}が一番気になる散らかりは？",
+    "answers": [
+      "シンクの洗い物",
+      "床に脱ぎっぱなしの服",
+      "ぐちゃぐちゃのベッド",
+      "テーブルの食べかす"
+    ]
+  },
+  "2dd218d8-d3ec-46ee-9285-47f6ed61d659": {
+    "en": "What makes {{playerName}} lose it fastest in traffic?",
+    "text": "運転中、{{playerName}}が一番イラッとくるのは？",
+    "answers": [
+      "遅い車",
+      "クラクション",
+      "割り込み",
+      "ウインカーを出さない車"
+    ]
+  },
+  "644b7cf5-7ae6-430a-9220-f3fb43701063": {
+    "en": "What annoys {{playerName}} the most when waiting in line?",
+    "text": "列に並んでるとき、{{playerName}}が一番イラッとするのは？",
+    "answers": [
+      "割り込みする人",
+      "距離が近すぎる人",
+      "レジが遅い",
+      "小銭で払う人"
+    ]
+  },
+  "b9f365dd-1aa6-4d48-af88-95d026d024d5": {
+    "en": "What does {{playerName}} spend the most money on?",
+    "text": "{{playerName}}が一番お金を使うのは？",
+    "answers": [
+      "食べ物・外食",
+      "服",
+      "ガジェット・家電",
+      "旅行"
+    ]
+  },
+  "be8f4942-1a57-4943-8b5b-8bb89b022314": {
+    "en": "What's the most expensive thing {{playerName}} has ever bought?",
+    "text": "{{playerName}}が今までで一番高い買い物は？"
+  },
+  "50d0db45-ce2c-468e-a3d6-23f0704fc3a4": {
+    "en": "Where did {{playerName}} meet their best friend?",
+    "text": "{{playerName}}は親友とどこで出会った？"
+  },
+  "662aef93-2e41-413c-b62a-b150755f03f5": {
+    "en": "How long has {{playerName}} known their oldest friend?",
+    "text": "{{playerName}}の一番古い友だちとは何年の付き合い？",
+    "answers": [
+      "5年未満",
+      "5〜10年",
+      "10〜20年",
+      "20年以上"
+    ]
+  },
+  "65d60061-9ab6-4853-9aca-4eab081a4cce": {
+    "en": "What's the name of {{playerName}}'s main group chat with friends?",
+    "text": "{{playerName}}がメインで使ってる友だちグループLINEの名前は？"
+  },
+  "197d53a1-83ce-4902-a334-27066158fc78": {
+    "en": "How often does {{playerName}} see their friends?",
+    "text": "{{playerName}}が友だちと会う頻度は？",
+    "answers": [
+      "ほぼ毎日",
+      "毎週",
+      "月に数回",
+      "めったに会わない"
+    ]
+  },
+  "6159136b-df0a-4257-b058-e896fc9de8df": {
+    "en": "Where does {{playerName}} usually hang out with friends?",
+    "text": "{{playerName}}が友だちと遊ぶのはだいたいどこ？",
+    "answers": [
+      "誰かの家",
+      "カフェ",
+      "居酒屋・バー",
+      "外"
+    ]
+  },
+  "a1fcb212-3cc0-4b2d-bd2f-8bda0513e11c": {
+    "en": "How many people are in {{playerName}}'s main friend group?",
+    "text": "{{playerName}}のいつもの友だちグループは何人？",
+    "answers": [
+      "2〜3人",
+      "4〜5人",
+      "6〜8人",
+      "9人以上"
+    ]
+  },
+  "7f03c313-0647-4db6-9922-02b1cd26700f": {
+    "en": "How does {{playerName}} mostly keep in touch with friends?",
+    "text": "{{playerName}}が友だちと一番よく連絡を取る方法は？",
+    "answers": [
+      "メッセージ",
+      "ボイスメッセージ",
+      "電話",
+      "ミームやリールを送り合う"
+    ]
+  },
+  "c17d4951-9f29-4613-aebc-0dc559fa5a6d": {
+    "en": "What do {{playerName}}'s friends call them?",
+    "text": "{{playerName}}は友だちから何て呼ばれてる？"
+  },
+  "71ef9a47-46d4-4666-8665-3d3a7991768e": {
+    "en": "How does {{playerName}} usually celebrate their birthday?",
+    "text": "{{playerName}}の誕生日の過ごし方は？",
+    "answers": [
+      "盛大にパーティー",
+      "仲良しとごはん",
+      "のんびり過ごす",
+      "特に祝わない"
+    ]
+  },
+  "01b87d7a-2853-4e22-8290-2f44cb342e8a": {
+    "en": "Which city does {{playerName}}'s best friend live in?",
+    "text": "{{playerName}}の親友が住んでる街は？"
+  },
+  "1abd3aae-173d-497f-bb52-95bd395ab563": {
+    "en": "What is {{playerName}} saving money for right now? Write nothing if they aren't.",
+    "text": "{{playerName}}が今お金を貯めてる目的は？貯めてなければ空欄で。"
+  },
+  "7bf99537-3613-478d-881c-d35960165b3e": {
+    "en": "What business would {{playerName}} open if they could?",
+    "text": "もしお店を開けるなら、{{playerName}}は何のお店にする？"
+  },
+  "e100c90f-796f-4d06-8999-61f07e8e2040": {
+    "en": "How often does {{playerName}} post stories?",
+    "text": "{{playerName}}がストーリーを上げる頻度は？",
+    "answers": [
+      "毎日",
+      "週に数回",
+      "めったに上げない",
+      "上げない"
+    ]
+  },
+  "2d3caa55-6c03-45e4-ae52-8f4d9aabc5a7": {
+    "en": "How many accounts does {{playerName}} follow on Instagram?",
+    "text": "{{playerName}}のインスタのフォロー数は？",
+    "answers": [
+      "300未満",
+      "300〜700",
+      "700〜1,500",
+      "1,500以上"
+    ]
+  },
+  "a06282e0-ae61-4541-bf4d-24c8336d031e": {
+    "en": "What was {{playerName}}'s last Instagram post? Write none if they never post.",
+    "text": "{{playerName}}のインスタの最新投稿は？投稿しない人なら「なし」で。"
+  },
+  "e2c75092-cf85-48f6-96b7-e8022bda2ae4": {
+    "en": "Has {{playerName}} ever deleted a post because it didn't get enough likes?",
+    "text": "{{playerName}}は「いいね」が少なくて投稿を消したことある？"
+  },
+  "843b062a-8c76-44f7-99bb-72f4319b57ef": {
+    "en": "What does {{playerName}} spend most of their social media time doing?",
+    "text": "{{playerName}}がSNSで一番時間を使ってるのは？",
+    "answers": [
+      "リールを見る",
+      "ストーリーを見る",
+      "DMする",
+      "プロフィールを覗く"
+    ]
+  },
+  "e32b237d-f1dd-44b2-b30e-36fa9979cd3f": {
+    "en": "How many followers does {{playerName}} have on Instagram?",
+    "text": "{{playerName}}のインスタのフォロワー数は？",
+    "answers": [
+      "300人未満",
+      "300〜700人",
+      "700〜1,500人",
+      "1,500人以上"
+    ]
+  },
+  "ab6fb3d1-3476-436b-af30-74e7d7f96ea6": {
+    "en": "Does {{playerName}} have a second, secret Instagram account?",
+    "text": "{{playerName}}はインスタの裏アカ持ってる？"
+  },
+  "c5fbea67-c014-4be3-a141-986603d7784a": {
+    "en": "When does {{playerName}} scroll social media the most?",
+    "text": "{{playerName}}が一番SNSを見てるのはいつ？",
+    "answers": [
+      "寝る前にベッドで",
+      "起きてすぐ",
+      "トイレで",
+      "仕事中・授業中"
+    ]
+  },
+  "d799cefe-4533-4a40-b9fd-0b26b49dced4": {
+    "en": "What's in {{playerName}}'s Instagram profile picture right now?",
+    "text": "{{playerName}}の今のインスタのアイコンは？",
+    "answers": [
+      "自分ひとりの写真",
+      "誰かとの写真",
+      "その他（ペット、景色など）",
+      "アイコンなし"
+    ]
+  },
+  "99140b21-a78b-4823-8931-da81598e0099": {
+    "en": "Which food delivery app does {{playerName}} use the most?",
+    "text": "{{playerName}}が一番使うデリバリーアプリは？"
+  },
+  "99a08b68-a66b-49c5-a1d4-c5ea876ddf1c": {
+    "en": "How often does {{playerName}} order food delivery?",
+    "text": "{{playerName}}がデリバリーを頼む頻度は？",
+    "answers": [
+      "ほぼ毎日",
+      "週に数回",
+      "月に数回",
+      "ほとんど頼まない"
+    ]
+  },
+  "cfbd02eb-acdd-41f0-a82c-d633cd6ec6f4": {
+    "en": "When does {{playerName}} order food the most?",
+    "text": "{{playerName}}がデリバリーを一番頼むのはいつ？",
+    "answers": [
+      "お昼",
+      "夜ごはん",
+      "深夜",
+      "週末の朝"
+    ]
+  },
+  "b6c53b84-8968-4576-9582-556d78e1aa08": {
+    "en": "How long does {{playerName}} scroll the app before ordering?",
+    "text": "{{playerName}}が注文する前にアプリを眺める時間は？",
+    "answers": [
+      "1分で決める",
+      "10分くらい",
+      "30分",
+      "迷って結局いつもの"
+    ]
+  },
+  "fe6f43a3-1fd6-4b4f-8d95-7aab9b9ab8bb": {
+    "en": "Does {{playerName}} tip on delivery orders?",
+    "text": "{{playerName}}はデリバリーでチップを払う？",
+    "answers": [
+      "絶対払わない",
+      "たまに",
+      "いつも少し",
+      "いつも多めに"
+    ],
+    "flagged": true,
+    "note": "Tipping is uncommon in Japan, though some delivery apps (Uber Eats) offer it; kept as is."
+  },
+  "98443ab8-023f-4a17-b4f4-a95567bc476e": {
+    "en": "What does {{playerName}} watch while eating takeout?",
+    "text": "{{playerName}}がテイクアウトを食べながら見るのは？",
+    "answers": [
+      "ドラマ",
+      "YouTube",
+      "リール",
+      "何も見ずに食べる"
+    ]
+  },
+  "fe4758c6-1a3f-4740-a65f-f3f9268b47dc": {
+    "en": "How often does {{playerName}} return things they've bought?",
+    "text": "{{playerName}}が買ったものを返品する頻度は？",
+    "answers": [
+      "一度もない",
+      "めったにない",
+      "よくある",
+      "ほぼ全部返品"
+    ]
+  },
+  "519747f8-ac05-4e2e-bd62-8a11dab0a5b1": {
+    "en": "How does {{playerName}} watch a new series?",
+    "text": "{{playerName}}の新しいドラマの見方は？",
+    "answers": [
+      "週末で一気見",
+      "毎晩1話ずつ",
+      "見始めて途中でやめる",
+      "全話そろうまで待つ"
+    ]
+  },
+  "39f5d8f3-514c-4fa3-93d6-add3a148a74c": {
+    "en": "How does {{playerName}} usually listen to music?",
+    "text": "{{playerName}}の音楽の聴き方は？",
+    "answers": [
+      "自分のプレイリストをシャッフル",
+      "同じ数曲をリピート",
+      "アルバムを最初から最後まで",
+      "アプリのおすすめ任せ"
+    ]
+  },
+  "3ef13a99-6e73-4c3f-ab4c-23ff736d1b22": {
+    "en": "Where does {{playerName}} listen to music the most?",
+    "text": "{{playerName}}が一番音楽を聴くのはどこ？",
+    "answers": [
+      "車の中",
+      "移動中にイヤホンで",
+      "お風呂",
+      "仕事中・勉強中"
+    ]
+  },
+  "e24b651e-6331-4162-899d-df89456006b4": {
+    "en": "What song would {{playerName}} pick at karaoke?",
+    "text": "カラオケで{{playerName}}が入れる曲は？"
+  },
+  "bbf96cda-756f-454a-b2be-3b11d36b3a67": {
+    "en": "What streaming app does {{playerName}} use the most?",
+    "text": "{{playerName}}が一番使う動画配信サービスは？"
+  },
+  "07f20cd4-0210-4b95-8df9-d623a0bd0a5c": {
+    "en": "Which movie has {{playerName}} watched the most times?",
+    "text": "{{playerName}}が一番たくさん見た映画は？"
+  },
+  "c78c11b1-99b4-4da4-a62f-f5c91f4a4f18": {
+    "en": "What's the comfort show {{playerName}} always goes back to?",
+    "text": "{{playerName}}が何度も見返しちゃうドラマは？"
+  },
+  "1292f03a-b50e-440f-adcf-712349e40719": {
+    "en": "How does {{playerName}} usually shop for clothes?",
+    "text": "{{playerName}}の服の買い方は？",
+    "answers": [
+      "ネットだけ",
+      "お店で全部試着",
+      "ボロボロになったら買う",
+      "いつも衝動買い"
+    ]
+  },
+  "d9725e20-1b77-4925-822c-a0600200c830": {
+    "en": "How does {{playerName}} do grocery shopping?",
+    "text": "{{playerName}}のスーパーでの買い物スタイルは？",
+    "answers": [
+      "リスト通りに買う",
+      "ぶらぶらして気になる物を買う",
+      "ネットスーパーで注文",
+      "肝心な物をいつも忘れる"
+    ]
+  },
+  "b9664338-39be-4c85-b84c-556d4340b75b": {
+    "en": "How long does {{playerName}} leave things in their online cart?",
+    "text": "{{playerName}}はネットのカートに商品をどれくらい入れっぱなし？",
+    "answers": [
+      "すぐ買う",
+      "数日",
+      "何週間も",
+      "結局買わない"
+    ]
+  },
+  "bf330b67-2579-4879-9284-e1bb389ddd97": {
+    "en": "What does {{playerName}} do when there's a big sale?",
+    "text": "大型セールのとき、{{playerName}}はどうする？",
+    "answers": [
+      "いらない物まで買う",
+      "欲しかった物だけ買う",
+      "完全にスルー",
+      "カートに入れるだけで買わない"
+    ]
+  },
+  "f880e846-1a46-4448-b7b8-432d8820bb89": {
+    "en": "What's {{playerName}}'s go-to café?",
+    "text": "{{playerName}}の行きつけのカフェは？"
+  },
+  "e452eb3a-71ca-491f-908b-d5c948b61374": {
+    "en": "What does {{playerName}} always order at their favorite fast food place?",
+    "text": "{{playerName}}が好きなファストフード店でいつも頼むのは？"
+  },
+  "e6f97bcb-be04-4815-b108-322f1284b685": {
+    "en": "What color is {{playerName}}'s phone case? Write none if they don't use one.",
+    "text": "{{playerName}}のスマホケースは何色？ケースなしなら「なし」で。"
+  },
+  "34493f68-a720-495a-b39a-52d484d3610e": {
+    "en": "Which shopping app does {{playerName}} use the most?",
+    "text": "{{playerName}}が一番使うショッピングアプリは？"
+  },
+  "835abc8b-f60f-4b56-9fa3-853e42ad5ffe": {
+    "en": "How many pillows does {{playerName}} sleep with?",
+    "text": "{{playerName}}は枕を何個使って寝てる？"
+  },
+  "e1b8328b-6a31-46d0-bc54-46c41d2ca166": {
+    "en": "How many tabs does {{playerName}} usually have open in their browser?",
+    "text": "{{playerName}}のブラウザ、いつもタブは何個開いてる？",
+    "answers": [
+      "1〜5個",
+      "6〜20個",
+      "21〜50個",
+      "数えきれない"
+    ]
+  },
+  "9265875a-abaf-454a-9d5d-cf7c21f409e4": {
+    "en": "How many photos are in {{playerName}}'s camera roll?",
+    "text": "{{playerName}}のカメラロールの写真は何枚？",
+    "answers": [
+      "1,000枚未満",
+      "1,000〜5,000枚",
+      "5,000〜20,000枚",
+      "20,000枚以上"
+    ]
+  },
+  "696b6beb-bb08-43ed-86eb-eb4bd17e515c": {
+    "en": "How many apps does {{playerName}} have on their phone?",
+    "text": "{{playerName}}のスマホに入ってるアプリの数は？",
+    "answers": [
+      "30個未満",
+      "30〜60個",
+      "60〜100個",
+      "100個以上"
+    ]
+  },
+  "7afba473-dc61-4be7-b01c-0ca03119939b": {
+    "en": "Who's the last person {{playerName}} called?",
+    "text": "{{playerName}}が最後に電話した相手は？"
+  },
+  "5901193f-1beb-49eb-90ed-1da2b9274c76": {
+    "en": "Does {{playerName}} use dark mode on their phone?",
+    "text": "{{playerName}}のスマホはダークモード？",
+    "answers": [
+      "いつもダーク",
+      "いつもライト",
+      "時間で自動切り替え"
+    ]
+  },
+  "377237c2-590f-4200-a7a5-1e53377d8f42": {
+    "en": "When does {{playerName}} usually shower?",
+    "text": "{{playerName}}がお風呂に入るのはだいたいいつ？",
+    "answers": [
+      "朝",
+      "夜",
+      "毎日朝も夜も",
+      "決まってない"
+    ],
+    "flagged": true,
+    "note": "Shower adapted to お風呂 (bathing), the natural Japanese routine framing."
+  },
+  "9e3e7f73-8945-458a-a0a1-c3657b5d58f6": {
+    "en": "How long does {{playerName}} take to get ready to go out?",
+    "text": "{{playerName}}が出かける準備にかかる時間は？",
+    "answers": [
+      "10分未満",
+      "10〜30分",
+      "30分〜1時間",
+      "1時間以上"
+    ]
+  },
+  "57230422-8ea9-4e5f-9273-087b5d605ec8": {
+    "en": "What hobby does {{playerName}} spend the most time on?",
+    "text": "{{playerName}}が一番時間をかけてる趣味は？"
+  },
+  "dc836b7d-8918-41b2-975b-19f9a43a801d": {
+    "en": "How many books has {{playerName}} read this year? Write 0 if none.",
+    "text": "{{playerName}}は今年本を何冊読んだ？読んでなければ0で。"
+  },
+  "04f5785b-6dbc-40dd-b7fa-d6850be17248": {
+    "en": "What game is {{playerName}} playing on their phone these days? Write none if they don't play.",
+    "text": "{{playerName}}が最近ハマってるスマホゲームは？やってなければ「なし」で。"
+  },
+  "1a62fc00-3404-48f5-860f-c31f4b6121b0": {
+    "en": "How many times a week does {{playerName}} work out?",
+    "text": "{{playerName}}は週に何回運動してる？",
+    "answers": [
+      "しない",
+      "1〜2回",
+      "3〜4回",
+      "5回以上"
+    ]
+  },
+  "b9c19285-78bf-4372-896c-ca131cb93459": {
+    "en": "What's the last movie {{playerName}} saw at the cinema?",
+    "text": "{{playerName}}が最後に映画館で見た映画は？"
+  },
+  "9d5dec86-f93f-4a8b-b522-75f77e6b759b": {
+    "en": "What's the last thing {{playerName}} cooked?",
+    "text": "{{playerName}}が最後に作った料理は？"
+  },
+  "9b999915-7237-47f9-a9a6-5d6d8beae33a": {
+    "en": "Where does {{playerName}} usually work out?",
+    "text": "{{playerName}}が運動するのはだいたいどこ？",
+    "answers": [
+      "ジム",
+      "家",
+      "外",
+      "運動しない"
+    ]
+  }
+}

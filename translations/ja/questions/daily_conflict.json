@@ -1,0 +1,72 @@
+{
+  "ad42c59d-bd4b-4f67-963a-f1a1c512f2c9": {
+    "en": "When a disagreement starts, your first instinct is to…",
+    "text": "ケンカが始まったら、まずどうする？",
+    "answers": [
+      "すぐ全部言う",
+      "黙って距離を置く",
+      "モヤモヤしても丸くおさめる",
+      "頭を冷やしに部屋を出る"
+    ]
+  },
+  "4847cd44-98d1-4533-bb0a-e8b49438e2a6": {
+    "en": "What do you need before a fight can really end for you?",
+    "text": "ケンカが本当に終わったと思えるには、何が必要？",
+    "answers": [
+      "心からの謝罪",
+      "わかってもらえたと感じること",
+      "はっきりした解決策",
+      "まずひとりの時間",
+      "スキンシップ"
+    ]
+  },
+  "0a402b2b-06aa-4c65-9534-cd5828e42c46": {
+    "en": "How do you feel about making the first move to make up?",
+    "text": "仲直りのとき、先に歩み寄るのってどう？",
+    "answers": [
+      "だいたい自分からで、それでいい",
+      "だいたい自分からで、最近モヤモヤする",
+      "相手から来るのを待ちがち",
+      "そうしたくても、なかなかできない"
+    ]
+  },
+  "d0ec371b-99c3-42e2-86fe-60295e7a3aba": {
+    "en": "After a fight is over, how long does it stay with you?",
+    "text": "ケンカが終わったあと、どれくらい引きずる？",
+    "answers": [
+      "仲直りしたらすぐ忘れる",
+      "数時間",
+      "1〜2日",
+      "あとでまた思い出す"
+    ]
+  },
+  "375bb36b-b6d9-4321-a8e4-b8fdcd60abcf": {
+    "en": "What escalates a fight fastest for you?",
+    "text": "ケンカが一気にヒートアップするきっかけは？",
+    "answers": [
+      "大きな声やきつい口調",
+      "話をさえぎられる、聞いてもらえない",
+      "昔のことを蒸し返される",
+      "黙りこむ、その場を去る",
+      "皮肉やあきれ顔"
+    ]
+  },
+  "6ba99e54-c776-447b-ad7c-830ef561545a": {
+    "en": "What do you hold back to keep the peace?",
+    "text": "波風を立てないように、言わずにいることは？",
+    "answers": [
+      "ない、イヤなことは言う",
+      "ちょっとした不満",
+      "もっと大事な要望",
+      "相手の家族や友達のこと"
+    ]
+  },
+  "0a32a02d-0e74-4f0b-836a-4a5ae6890ab7": {
+    "en": "In a few words: what do you two keep arguing about?",
+    "text": "ひとことで言うと、ふたりがいつもケンカになる話題は？"
+  },
+  "80d0cd30-bef6-4ec4-aeac-17776ab4b318": {
+    "en": "What does your partner do in arguments that you wish they'd stop?",
+    "text": "ケンカのとき、恋人にやめてほしいことは？"
+  }
+}

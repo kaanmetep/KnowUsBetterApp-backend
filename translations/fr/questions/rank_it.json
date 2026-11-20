@@ -1,0 +1,583 @@
+{
+  "d2506eb5-9325-430f-85af-798b38f9a7cf": {
+    "en": "Rank these superpowers from the one you want most to least.",
+    "text": "Classe ces superpouvoirs, de celui que tu veux le plus à celui que tu veux le moins.",
+    "answers": [
+      "La téléportation",
+      "Lire dans les pensées",
+      "L'invisibilité",
+      "Pouvoir voler"
+    ]
+  },
+  "7a299d26-b0e9-461c-a952-14499c90afdf": {
+    "en": "Rank these habits from most to least annoying.",
+    "text": "Classe ces habitudes, de la plus agaçante à la moins agaçante.",
+    "answers": [
+      "Mâcher bruyamment",
+      "Être toujours en retard",
+      "Le téléphone à table",
+      "La vaisselle qui traîne dans l'évier"
+    ]
+  },
+  "b7aa7d14-1b21-4f69-9cad-4ae2a270c692": {
+    "en": "You just won the lottery: rank what you'd do first to last.",
+    "text": "Tu viens de gagner au loto : classe ce que tu ferais, du premier au dernier.",
+    "answers": [
+      "Quitter mon boulot",
+      "Acheter une maison",
+      "Faire le tour du monde",
+      "Gâter ma famille"
+    ]
+  },
+  "ff5bf103-56b6-4364-a9d3-d195dca85237": {
+    "en": "Rank these from hardest to easiest to give up for a month.",
+    "text": "Classe ces choses, de la plus dure à la plus facile à arrêter pendant un mois.",
+    "answers": [
+      "Le café",
+      "Les réseaux sociaux",
+      "Le sucré",
+      "Les séries"
+    ]
+  },
+  "5adcd763-7eec-464e-88fd-64b8cbfd4948": {
+    "en": "Rank these vacation types from the one you want most to least.",
+    "text": "Classe ces types de vacances, de celui qui te tente le plus à celui qui te tente le moins.",
+    "answers": [
+      "Club à la plage",
+      "Week-end en ville",
+      "Chalet à la montagne",
+      "Voyage sac à dos"
+    ]
+  },
+  "c29c6c93-ad80-43fa-bf82-954924ca2fde": {
+    "en": "Rank these from what you'd splurge on most to least.",
+    "text": "Classe ces dépenses, de celle où tu te lâches le plus à celle où tu te lâches le moins.",
+    "answers": [
+      "La bouffe",
+      "Les fringues",
+      "Les voyages",
+      "Les gadgets"
+    ]
+  },
+  "d7264952-e63a-40e4-8f72-598c5e8e1e6d": {
+    "en": "Rank these dinner options for tonight from most to least tempting.",
+    "text": "Pour ce soir, classe ces dîners, du plus tentant au moins tentant.",
+    "answers": [
+      "Pizza",
+      "Sushis",
+      "Burger",
+      "Petit plat maison"
+    ]
+  },
+  "9a23b401-c86d-4d5d-a222-8bce67002bfd": {
+    "en": "Rank these from what you'd most to least like to be famous for.",
+    "text": "Classe ces domaines, de celui où tu aimerais le plus être célèbre à celui où tu aimerais le moins.",
+    "answers": [
+      "La musique",
+      "Le cinéma",
+      "Le sport",
+      "Une invention"
+    ]
+  },
+  "4b5c0ee1-8bd2-429e-825f-73a4f4397942": {
+    "en": "Rank these from most to least important in a home.",
+    "text": "Dans un logement, classe ces critères, du plus important au moins important.",
+    "answers": [
+      "Une grande cuisine",
+      "Une belle vue",
+      "Un quartier calme",
+      "Un emplacement central"
+    ]
+  },
+  "f29d95b6-334a-4e51-802d-d393456740a1": {
+    "en": "Rank these first dates from most to least romantic.",
+    "text": "Classe ces premiers rendez-vous, du plus romantique au moins romantique.",
+    "answers": [
+      "Dîner aux chandelles",
+      "Pique-nique au parc",
+      "Concert live"
+    ]
+  },
+  "9de1f1d3-d6e7-41f7-8e6a-028b918747e7": {
+    "en": "Rank these birthday plans from your favorite to least favorite.",
+    "text": "Classe ces façons de fêter ton anniversaire, de ta préférée à celle que tu aimes le moins.",
+    "answers": [
+      "Une grosse fête",
+      "Un dîner entre proches",
+      "Une journée tranquille à la maison"
+    ]
+  },
+  "9af251a5-162a-45e3-9343-31bc812797fc": {
+    "en": "Rank these from hardest to easiest to forgive.",
+    "text": "Classe ces choses, de la plus dure à la plus facile à pardonner.",
+    "answers": [
+      "Un mensonge",
+      "Une promesse non tenue",
+      "Un « vu » sans réponse"
+    ]
+  },
+  "5f90850f-df8e-468c-9b0b-5d6dc399588c": {
+    "en": "Rank these from most to least stressful.",
+    "text": "Classe ces étapes, de la plus stressante à la moins stressante.",
+    "answers": [
+      "Déménager",
+      "Commencer un nouveau job",
+      "Organiser un mariage"
+    ]
+  },
+  "04824d81-4596-4b0b-a73d-95cbedf55785": {
+    "en": "Rank these seasons from your favorite to least favorite.",
+    "text": "Classe ces saisons, de ta préférée à celle que tu aimes le moins.",
+    "answers": [
+      "L'été",
+      "L'hiver",
+      "Le printemps",
+      "L'automne"
+    ]
+  },
+  "69a18a71-7917-404c-a664-c99043f21803": {
+    "en": "Rank these movie nights from your favorite to least favorite.",
+    "text": "Soirée film : classe ces genres, de ton préféré à celui que tu aimes le moins.",
+    "answers": [
+      "Comédie",
+      "Horreur",
+      "Action",
+      "Romance"
+    ]
+  },
+  "4cc06286-ef52-48d7-b23b-8065e8ee38dc": {
+    "en": "Rank these from what you'd most to least like to be great at.",
+    "text": "Classe ces talents, de celui que tu voudrais le plus avoir à celui que tu voudrais le moins.",
+    "answers": [
+      "Cuisiner",
+      "Danser",
+      "Faire rire",
+      "Tout réparer"
+    ]
+  },
+  "58ec522b-1421-4cd1-8553-b7ab262f6622": {
+    "en": "Rank these chores from most to least hated.",
+    "text": "Classe ces corvées, de la plus détestée à la moins détestée.",
+    "answers": [
+      "Faire la vaisselle",
+      "Plier le linge",
+      "Nettoyer la salle de bain",
+      "Faire les courses"
+    ]
+  },
+  "b0450eb6-45f7-4f3e-9b67-b1ff0b54b3e4": {
+    "en": "If you could time travel, rank these eras from most to least want to visit.",
+    "text": "Voyage dans le temps : classe ces époques, de celle qui te tente le plus à celle qui te tente le moins.",
+    "answers": [
+      "L'Égypte ancienne",
+      "L'ère des dinosaures",
+      "Les années 80",
+      "Dans 100 ans"
+    ]
+  },
+  "fa4abf61-c110-478a-b700-fc6a9ec4d83d": {
+    "en": "Rank these from best to worst way to start your day.",
+    "text": "Classe ces façons de commencer la journée, de la meilleure à la pire.",
+    "answers": [
+      "Une tasse de café",
+      "Une douche chaude",
+      "Un gros petit-déj",
+      "Une séance de sport"
+    ]
+  },
+  "e1ebc3be-a701-4eaf-867d-ce34a164646e": {
+    "en": "At a party, rank where you're most to least likely to be found.",
+    "text": "En soirée, où est-ce qu'on te trouve ? Classe du plus probable au moins probable.",
+    "answers": [
+      "Sur la piste de danse",
+      "En cuisine, à grignoter",
+      "Sur le balcon, en grande discussion",
+      "À câliner l'animal de la maison"
+    ]
+  },
+  "a96a20cd-d106-452f-9421-515c5ffc306d": {
+    "en": "Rank these from scariest to least scary.",
+    "text": "Classe ces choses, de celle qui te fait le plus peur à celle qui te fait le moins peur.",
+    "answers": [
+      "Les araignées",
+      "Le vide",
+      "Le noir",
+      "Parler en public"
+    ]
+  },
+  "b65cca80-bfb9-4361-94d6-998f0f832520": {
+    "en": "Rank these from best to worst way to get bad news.",
+    "text": "Classe ces façons d'apprendre une mauvaise nouvelle, de la meilleure à la pire.",
+    "answers": [
+      "En face à face",
+      "Par téléphone",
+      "Par SMS",
+      "Par message vocal"
+    ]
+  },
+  "2ddba795-9bed-4d19-8b2a-fccd94baf47c": {
+    "en": "Rank these desserts from favorite to least favorite.",
+    "text": "Classe ces desserts, de ton préféré à celui que tu aimes le moins.",
+    "answers": [
+      "Gâteau au chocolat",
+      "Glace",
+      "Cheesecake",
+      "Baklava"
+    ]
+  },
+  "cab983d2-ab5b-45fb-8292-86d5318bbcb9": {
+    "en": "Rank these ways to travel from favorite to least favorite.",
+    "text": "Classe ces façons de voyager, de ta préférée à celle que tu aimes le moins.",
+    "answers": [
+      "L'avion",
+      "Le train",
+      "Le road trip",
+      "La croisière"
+    ]
+  },
+  "9778af27-8b84-4091-b02e-f08880539016": {
+    "en": "Rank these music genres from favorite to least favorite.",
+    "text": "Classe ces styles de musique, de ton préféré à celui que tu aimes le moins.",
+    "answers": [
+      "Pop",
+      "Rock",
+      "Rap",
+      "Électro"
+    ]
+  },
+  "f3e67fc8-51dc-451f-9510-c43b009782cd": {
+    "en": "Rank these Friday night plans from favorite to least favorite.",
+    "text": "Classe ces plans du vendredi soir, de ton préféré à celui que tu aimes le moins.",
+    "answers": [
+      "Sortir faire la fête",
+      "Soirée film à la maison",
+      "Dîner entre amis",
+      "Au lit de bonne heure"
+    ]
+  },
+  "bfb749f1-2e80-4789-b1ab-f0716d523404": {
+    "en": "Rank these from most to least important in a friend.",
+    "text": "En amitié, classe ces qualités, de la plus importante à la moins importante.",
+    "answers": [
+      "La loyauté",
+      "L'humour",
+      "L'honnêteté",
+      "Être toujours là"
+    ]
+  },
+  "27735d11-2437-4649-9945-de2bd059516b": {
+    "en": "Rank these apps from the one you spend the most to least time on.",
+    "text": "Classe ces applis, de celle où tu passes le plus de temps à celle où tu en passes le moins.",
+    "answers": [
+      "Instagram",
+      "TikTok",
+      "YouTube",
+      "X (Twitter)"
+    ]
+  },
+  "6c66d5cf-eeea-419c-8322-9df9fa1ac88f": {
+    "en": "In an argument, rank these from most to least like you.",
+    "text": "Pendant une dispute, classe ces réactions, de celle qui te ressemble le plus à celle qui te ressemble le moins.",
+    "answers": [
+      "En parler tout de suite",
+      "Se calmer d'abord",
+      "Laisser tomber et passer à autre chose"
+    ]
+  },
+  "be0b6b2f-e54f-4990-9ec1-01bf2a41e417": {
+    "en": "Rank these gifts from most to least you'd love to receive.",
+    "text": "Classe ces cadeaux, de celui qui te ferait le plus plaisir à celui qui te ferait le moins plaisir.",
+    "answers": [
+      "Une expérience",
+      "Un truc que tu voulais",
+      "Un objet fait main"
+    ]
+  },
+  "87d18697-0aca-48a2-8007-6fde1b154dd3": {
+    "en": "Rank these places from where you'd most to least like to live.",
+    "text": "Classe ces lieux, de celui où tu voudrais le plus vivre à celui où tu voudrais le moins.",
+    "answers": [
+      "Une grande ville",
+      "Une ville au bord de la mer",
+      "Un village de montagne"
+    ]
+  },
+  "847c9e3d-d7ec-46dd-b05c-29679ed2ccc2": {
+    "en": "While waiting in line, rank these from most to least likely to do.",
+    "text": "Dans une file d'attente, classe ces activités, de la plus probable à la moins probable pour toi.",
+    "answers": [
+      "Scroller sur mon téléphone",
+      "Observer les gens",
+      "Discuter avec un inconnu"
+    ]
+  },
+  "bc508cef-059b-4be8-b7c4-9fd8942144b0": {
+    "en": "Rank these rainy-day plans from favorite to least favorite.",
+    "text": "Jour de pluie : classe ces plans, de ton préféré à celui que tu aimes le moins.",
+    "answers": [
+      "Une longue sieste",
+      "Cuisiner un truc nouveau",
+      "Enchaîner les épisodes d'une série",
+      "Lire un livre"
+    ]
+  },
+  "de820213-4cb3-4d77-94c5-7a6fb3679b92": {
+    "en": "Rank these pizza toppings from favorite to least favorite.",
+    "text": "Classe ces garnitures de pizza, de ta préférée à celle que tu aimes le moins.",
+    "answers": [
+      "Pepperoni",
+      "Champignons",
+      "Double fromage",
+      "Ananas"
+    ]
+  },
+  "572b666f-8b45-4753-bdda-09ace7b9ec62": {
+    "en": "Rank these sounds from most to least annoying.",
+    "text": "Classe ces bruits, du plus agaçant au moins agaçant.",
+    "answers": [
+      "Un robinet qui goutte",
+      "Quelqu'un qui mâche fort",
+      "Un téléphone qui vibre",
+      "La circulation dehors"
+    ]
+  },
+  "f4c75c25-0f05-42ea-8ab9-95b9eb823b9c": {
+    "en": "Rank these from most to least want to watch live.",
+    "text": "Classe ces spectacles, de celui que tu veux le plus voir en vrai à celui que tu veux le moins.",
+    "answers": [
+      "Un concert",
+      "Un match de foot",
+      "Un spectacle de stand-up",
+      "Une pièce de théâtre"
+    ]
+  },
+  "2e15d589-dfff-4b22-9f5d-937e0d6f76df": {
+    "en": "Rank these breakfasts from favorite to least favorite.",
+    "text": "Classe ces petits-déjeuners, de ton préféré à celui que tu aimes le moins.",
+    "answers": [
+      "Des œufs",
+      "Des viennoiseries",
+      "Des céréales",
+      "Les restes de la veille"
+    ]
+  },
+  "1bf09c68-e14e-4fd9-9af9-6ab43536719a": {
+    "en": "Rank these ways of getting around the city from favorite to least favorite.",
+    "text": "Classe ces façons de te déplacer en ville, de ta préférée à celle que tu aimes le moins.",
+    "answers": [
+      "À pied",
+      "En métro",
+      "En taxi",
+      "À vélo"
+    ]
+  },
+  "d6ccbab5-66ad-490f-a711-b180fdacaf91": {
+    "en": "Rank these from most to least want to learn.",
+    "text": "Classe ces choses, de celle que tu veux le plus apprendre à celle que tu veux le moins.",
+    "answers": [
+      "Une nouvelle langue",
+      "Un instrument",
+      "La photo",
+      "Un art martial"
+    ]
+  },
+  "e2c60482-29c1-4ca0-b333-2394d575e3f2": {
+    "en": "On a plane, rank these seatmates from most to least annoying.",
+    "text": "En avion, classe ces voisins de siège, du plus agaçant au moins agaçant.",
+    "answers": [
+      "Un bébé qui pleure",
+      "Quelqu'un qui parle pendant tout le vol",
+      "Quelqu'un qui prend les deux accoudoirs",
+      "Quelqu'un qui regarde des vidéos sans écouteurs"
+    ]
+  },
+  "7e709583-f7fb-490f-8090-978c7f3c2c69": {
+    "en": "Rank these from best to worst way to spend a random day off.",
+    "text": "Classe ces façons de passer un jour de congé surprise, de la meilleure à la pire.",
+    "answers": [
+      "Faire la grasse mat'",
+      "Une escapade d'une journée",
+      "Rattraper les corvées",
+      "Ne rien faire du tout"
+    ]
+  },
+  "b5dbf5e4-bcc5-4c72-b2e1-9aabe0b37d44": {
+    "en": "Rank these sports from most to least want to play.",
+    "text": "Classe ces sports, de celui que tu veux le plus pratiquer à celui que tu veux le moins.",
+    "answers": [
+      "Le foot",
+      "Le tennis",
+      "La natation",
+      "Le basket"
+    ]
+  },
+  "7a6db19c-b747-447e-ac27-1e3ee1a237f8": {
+    "en": "At the movies, rank these from most to least annoying.",
+    "text": "Au cinéma, classe ces choses, de la plus agaçante à la moins agaçante.",
+    "answers": [
+      "Les gens qui parlent",
+      "Un écran de téléphone allumé",
+      "Quelqu'un qui tape dans ton siège",
+      "Quelqu'un qui grignote bruyamment"
+    ]
+  },
+  "c549159c-e2f9-4433-bed1-6ab3ef853db8": {
+    "en": "At the zoo, rank these from most to least want to see.",
+    "text": "Au zoo, classe ces animaux, de celui que tu veux le plus voir à celui que tu veux le moins.",
+    "answers": [
+      "Les lions",
+      "Les pingouins",
+      "Les éléphants",
+      "Les girafes"
+    ]
+  },
+  "72063979-e728-45e6-920b-f44bc65b70ea": {
+    "en": "Rank these reasons for cancelling from the one you use most to the one you use least.",
+    "text": "Classe ces excuses pour annuler, de celle que tu utilises le plus à celle que tu utilises le moins.",
+    "answers": [
+      "Je suis malade",
+      "Je suis à plat",
+      "Il fait trop mauvais",
+      "J'ai juste pas envie"
+    ]
+  },
+  "d3273be6-4d01-4bbe-b853-46cea4702fb3": {
+    "en": "In a friend group, rank these roles from most to least like you.",
+    "text": "Dans ta bande, classe ces rôles, de celui qui te ressemble le plus à celui qui te ressemble le moins.",
+    "answers": [
+      "Organiser les sorties",
+      "Faire rire tout le monde",
+      "Écouter les problèmes des autres",
+      "Toujours arriver en retard"
+    ],
+    "note": "Role nouns (organisateur, psy...) rephrased as verbs to stay gender-neutral."
+  },
+  "1d9f1cf6-ff18-476d-b262-9926a3af1a4f": {
+    "en": "Rank these from most to least embarrassing to get caught doing.",
+    "text": "Classe ces situations, de la plus gênante à la moins gênante si on te surprend.",
+    "answers": [
+      "Se parler à soi-même",
+      "Chanter en voiture",
+      "Relire une vieille conversation",
+      "Pleurer devant un film"
+    ]
+  },
+  "08c85336-4cf2-4a17-8f79-c249f102416f": {
+    "en": "Rank these from most to least want to be.",
+    "text": "Classe ces atouts, de celui que tu voudrais le plus avoir à celui que tu voudrais le moins.",
+    "answers": [
+      "La chance",
+      "L'intelligence",
+      "L'humour"
+    ],
+    "note": "Adjectives (chanceux/se, drôle) turned into nouns to avoid gender agreement."
+  },
+  "d9334183-97f5-4de2-9dca-5031097dca93": {
+    "en": "Rank these from most to least want more of.",
+    "text": "Classe ces choses selon ton envie d'en avoir plus, de la plus forte à la plus faible.",
+    "answers": [
+      "Du temps",
+      "De l'argent",
+      "De l'énergie"
+    ]
+  },
+  "45821d6c-fd1e-4da3-bf72-18cab7b99761": {
+    "en": "Rank these from favorite to least favorite way to get a story.",
+    "text": "Classe ces façons de découvrir une histoire, de ta préférée à celle que tu aimes le moins.",
+    "answers": [
+      "Un livre",
+      "Un film",
+      "Une série"
+    ]
+  },
+  "610b9768-1bc0-4eac-b8cc-fd0b09dbcc54": {
+    "en": "Rank these plane seats from favorite to least favorite.",
+    "text": "Classe ces places dans l'avion, de ta préférée à celle que tu aimes le moins.",
+    "answers": [
+      "Hublot",
+      "Couloir",
+      "Milieu"
+    ]
+  },
+  "c0e50912-bba6-4a65-9e58-ab43157df798": {
+    "en": "Rank these cuisines from favorite to least favorite.",
+    "text": "Classe ces cuisines, de ta préférée à celle que tu aimes le moins.",
+    "answers": [
+      "Italienne",
+      "Japonaise",
+      "Mexicaine"
+    ]
+  },
+  "b102d223-a646-48ed-bce7-0c37cf717334": {
+    "en": "Rank these from most to least important in life.",
+    "text": "Dans la vie, classe ces choses, de la plus importante à la moins importante.",
+    "answers": [
+      "La carrière",
+      "La famille",
+      "Les amis"
+    ]
+  },
+  "cf8bfeb0-a6fc-4551-9260-5cce209385a8": {
+    "en": "Rank these from most to least want in your life.",
+    "text": "Classe ces choses, de celle que tu veux le plus dans ta vie à celle que tu veux le moins.",
+    "answers": [
+      "L'aventure",
+      "Le confort",
+      "La stabilité"
+    ]
+  },
+  "148f0253-a506-401c-822a-c90c86ec58fb": {
+    "en": "Rank these from most to least want to live in.",
+    "text": "Classe ces époques, de celle où tu voudrais le plus vivre à celle où tu voudrais le moins.",
+    "answers": [
+      "Le passé",
+      "Le présent",
+      "Le futur"
+    ]
+  },
+  "09fe5b68-7d42-4bc6-849b-f6c45d9e0094": {
+    "en": "Rank these from most to least want from people.",
+    "text": "Classe ce que tu attends des autres, du plus important au moins important.",
+    "answers": [
+      "L'amour",
+      "Le respect",
+      "La paix"
+    ]
+  },
+  "253e9387-799e-4054-9b42-768967047f2c": {
+    "en": "Rank these from most to least you'd want more of.",
+    "text": "Classe ces choses selon ton envie d'en avoir plus, de la plus forte à la plus faible.",
+    "answers": [
+      "La célébrité",
+      "La liberté",
+      "La vie privée"
+    ]
+  },
+  "3a5b3a7d-84be-4da4-a056-1d7e1724844f": {
+    "en": "Rank these from most to least you trust.",
+    "text": "Classe ce à quoi tu te fies, du plus au moins.",
+    "answers": [
+      "Ta tête",
+      "Ton cœur",
+      "Ton instinct"
+    ]
+  },
+  "910a54d3-3922-405c-b870-0d94ad8441f5": {
+    "en": "Rank these from most to least want.",
+    "text": "Classe ces choses, de celle que tu veux le plus à celle que tu veux le moins.",
+    "answers": [
+      "La réussite",
+      "Le bonheur",
+      "Une vie qui a du sens"
+    ]
+  },
+  "ca443e3e-b43f-42d3-8128-c303931412a5": {
+    "en": "Rank these from most to least important in a person.",
+    "text": "Chez quelqu'un, classe ces qualités, de la plus importante à la moins importante.",
+    "answers": [
+      "La beauté",
+      "L'intelligence",
+      "La gentillesse"
+    ]
+  }
+}

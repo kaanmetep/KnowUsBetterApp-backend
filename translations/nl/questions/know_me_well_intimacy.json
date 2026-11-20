@@ -1,0 +1,1676 @@
+{
+  "8fc01dc5-83b3-444e-bf05-19983365bb14": {
+    "en": "If {{playerName}} had a fantasy they've never shared, would they rather confess it openly or wait for their partner to discover it?",
+    "text": "Stel dat {{playerName}} een fantasie heeft die nog nooit gedeeld is: eerlijk opbiechten of wachten tot de partner erachter komt?",
+    "answers": [
+      "Eerlijk opbiechten",
+      "Wachten tot het ontdekt wordt"
+    ]
+  },
+  "55d5089f-adbc-4486-9caf-71a65e3522cc": {
+    "en": "Lights on or lights off for {{playerName}}?",
+    "text": "Licht aan of licht uit voor {{playerName}}?",
+    "answers": [
+      "Licht aan",
+      "Licht uit"
+    ]
+  },
+  "f265038d-f5ec-4355-ad38-81c9e5c98ff0": {
+    "en": "When it comes to romance, is {{playerName}} more of a morning or night person?",
+    "text": "Is {{playerName}} qua romantiek meer een ochtend- of een avondmens?",
+    "answers": [
+      "Ochtend",
+      "Avond"
+    ]
+  },
+  "f5df704c-d34d-4cbe-866e-e5cef10d00b8": {
+    "en": "Would {{playerName}} rather be kissed out of nowhere in public, or wait until you're finally alone?",
+    "text": "Wordt {{playerName}} liever onverwacht in het openbaar gezoend, of wacht die liever tot jullie eindelijk alleen zijn?",
+    "answers": [
+      "Onverwacht, in het openbaar",
+      "Pas als jullie alleen zijn"
+    ]
+  },
+  "15587c50-a9a2-4fd3-9247-0153004d7d4c": {
+    "en": "Does {{playerName}} like it more when their partner dresses up, or when they're just lounging around at home in a t-shirt?",
+    "text": "Vindt {{playerName}} het leuker als de partner zich mooi aankleedt, of als die thuis in een T-shirt rondhangt?",
+    "answers": [
+      "Mooi aangekleed",
+      "Gewoon een T-shirt"
+    ]
+  },
+  "44e16874-15b9-407b-89c7-b9d6a6523f27": {
+    "en": "Would {{playerName}} rather get a flirty text in the middle of a boring workday, or hear it all in person later?",
+    "text": "Krijgt {{playerName}} liever een flirterig berichtje op een saaie werkdag, of hoort die het later liever persoonlijk?",
+    "answers": [
+      "Een flirterig berichtje",
+      "Later persoonlijk"
+    ]
+  },
+  "52ff8815-c04d-4145-9bac-953c078df9ce": {
+    "en": "In romantic moments, does {{playerName}} like taking things slow, or getting straight to the point?",
+    "text": "Doet {{playerName}} het in romantische momenten liever rustig aan, of komt die liever meteen ter zake?",
+    "answers": [
+      "Rustig aan",
+      "Meteen ter zake"
+    ]
+  },
+  "73562a31-6a7a-4363-aa77-d5168d7657fa": {
+    "en": "Which does {{playerName}} love more: a kiss on the forehead or a kiss on the neck?",
+    "text": "Waar houdt {{playerName}} meer van: een kus op het voorhoofd of in de hals?",
+    "answers": [
+      "Op het voorhoofd",
+      "In de hals"
+    ]
+  },
+  "58600fd8-bed4-471f-91be-8876ab4af01d": {
+    "en": "What gets to {{playerName}} more: their partner's voice or their scent?",
+    "text": "Waar valt {{playerName}} meer voor: de stem of de geur van de partner?",
+    "answers": [
+      "De stem",
+      "De geur"
+    ]
+  },
+  "b34eb481-b4ee-4a67-bef3-76ceca435273": {
+    "en": "Would {{playerName}} rather spend a lazy Sunday morning in bed together, or get up and go out for breakfast?",
+    "text": "Blijft {{playerName}} op een luie zondagochtend liever samen in bed liggen, of gaat die liever ergens ontbijten?",
+    "answers": [
+      "Samen in bed blijven",
+      "Buiten de deur ontbijten"
+    ]
+  },
+  "ff31b1f9-1519-4e9a-966e-88eb3e89e15e": {
+    "en": "In public, is {{playerName}} more of a hand-holder or an arm-around-the-waist type?",
+    "text": "Loopt {{playerName}} buiten liever hand in hand, of met een arm om het middel?",
+    "answers": [
+      "Hand in hand",
+      "Arm om het middel"
+    ]
+  },
+  "ea43324f-2787-4e83-bb8e-9eedbf0f7ad1": {
+    "en": "What would make {{playerName}} melt faster: a handwritten love note or a voice message saying \"I miss you\"?",
+    "text": "Waar smelt {{playerName}} sneller van: een handgeschreven liefdesbriefje of een spraakbericht met “Ik mis je”?",
+    "answers": [
+      "Handgeschreven briefje",
+      "Spraakbericht"
+    ]
+  },
+  "ed79272c-fd55-4bed-b17d-e352eee18176": {
+    "en": "When {{playerName}} wants attention, do they just say it, or keep getting closer until their partner notices?",
+    "text": "Zegt {{playerName}} het gewoon als die aandacht wil, of kruipt die steeds dichterbij tot de partner het doorheeft?",
+    "answers": [
+      "Zegt het gewoon",
+      "Kruipt steeds dichterbij"
+    ]
+  },
+  "6e7d8c88-1870-4a44-ac83-2e52fc810ff5": {
+    "en": "Does {{playerName}} like falling asleep wrapped up together, or with a little space?",
+    "text": "Valt {{playerName}} liever in slaap dicht tegen de partner aan, of met wat ruimte ertussen?",
+    "answers": [
+      "Dicht tegen elkaar aan",
+      "Een beetje ruimte"
+    ]
+  },
+  "efc015d4-4330-4335-aa0f-69b7c14d8bed": {
+    "en": "Would {{playerName}} rather have a pillow fight that turns into cuddling, or a quiet movie night under one blanket?",
+    "text": "Kiest {{playerName}} liever een kussengevecht dat eindigt in knuffelen, of een rustige filmavond onder één deken?",
+    "answers": [
+      "Kussengevecht",
+      "Film onder één deken"
+    ]
+  },
+  "b27cee43-3684-412d-b534-08870705e73e": {
+    "en": "When their partner stares at them for too long, does {{playerName}} get shy or stare right back?",
+    "text": "Wordt {{playerName}} verlegen als de partner lang blijft staren, of staart die gewoon terug?",
+    "answers": [
+      "Wordt verlegen",
+      "Staart gewoon terug"
+    ]
+  },
+  "cff2f676-9a56-4ea0-b786-9545641e62b9": {
+    "en": "Would {{playerName}} rather get a back scratch or have someone play with their hair?",
+    "text": "Wordt {{playerName}} liever op de rug gekriebeld, of door het haar geaaid?",
+    "answers": [
+      "Rug kriebelen",
+      "Door het haar aaien"
+    ]
+  },
+  "bb72e4b5-804e-4a42-b538-f64c2bbdd554": {
+    "en": "Which would {{playerName}} rather hear: \"You look amazing\" or \"I can't stop thinking about you\"?",
+    "text": "Wat hoort {{playerName}} liever: “Je ziet er geweldig uit” of “Ik moet steeds aan je denken”?",
+    "answers": [
+      "Je ziet er geweldig uit",
+      "Ik moet steeds aan je denken"
+    ]
+  },
+  "ef612bf3-373f-42f1-982d-550e02b21d58": {
+    "en": "When {{playerName}} misses their partner, do they call right away or play it cool and wait?",
+    "text": "Als {{playerName}} de partner mist: meteen bellen of cool blijven en afwachten?",
+    "answers": [
+      "Belt meteen",
+      "Blijft cool"
+    ]
+  },
+  "93250f31-1b51-4551-abe8-ad4359373b2e": {
+    "en": "Does {{playerName}} love cute nicknames, or prefer just being called by their name?",
+    "text": "Vindt {{playerName}} schattige koosnaampjes leuk, of liever gewoon de eigen naam?",
+    "answers": [
+      "Schattige koosnaampjes",
+      "Gewoon de eigen naam"
+    ]
+  },
+  "22527ac4-d6a5-432b-8fa4-ab5962083141": {
+    "en": "Would {{playerName}} rather slow dance to a love song, or go wild together to a party song?",
+    "text": "Wil {{playerName}} liever schuifelen op een liefdesliedje, of samen helemaal losgaan op een feestnummer?",
+    "answers": [
+      "Schuifelen",
+      "Helemaal losgaan"
+    ]
+  },
+  "b85f77c2-3213-4c78-90c5-313d4e8817dd": {
+    "en": "What's {{playerName}}'s favorite way to wake up?",
+    "text": "Hoe wordt {{playerName}} het liefst gewekt?",
+    "answers": [
+      "Met kusjes",
+      "Met ontbijt op bed",
+      "Liever helemaal niet gewekt"
+    ]
+  },
+  "4cf2fe6c-5971-4915-bbae-2d3f5e9b5449": {
+    "en": "What's the fastest way to win {{playerName}} back after a fight?",
+    "text": "Hoe maak je het na een ruzie het snelst goed met {{playerName}}?",
+    "answers": [
+      "Oprecht sorry zeggen",
+      "Een lange knuffel",
+      "Aan het lachen brengen"
+    ]
+  },
+  "71e6ef76-6fb4-4f07-a11b-fa9ec4a3e346": {
+    "en": "Where would {{playerName}} go for a romantic getaway?",
+    "text": "Waar gaat {{playerName}} heen voor een romantisch weekendje weg?",
+    "answers": [
+      "Een huisje in de bergen",
+      "Een villa aan het strand",
+      "Een hotel in een grote stad"
+    ]
+  },
+  "052a85cc-24fc-4f39-9aa0-fc9d73c403e5": {
+    "en": "How does {{playerName}} usually show they want to be close?",
+    "text": "Hoe laat {{playerName}} meestal merken dat die dichtbij wil zijn?",
+    "answers": [
+      "Veel aanraken",
+      "Met een bepaalde blik",
+      "Zegt het gewoon"
+    ]
+  },
+  "db2a565a-627a-40a8-be8c-14a3bfe6b537": {
+    "en": "What's {{playerName}}'s biggest weakness when it comes to their partner?",
+    "text": "Waar wordt {{playerName}} bij de partner helemaal week van?",
+    "answers": [
+      "Die lach",
+      "Die geur",
+      "Die blik"
+    ]
+  },
+  "4e100e90-af39-4cc2-b65c-a50b7057d41b": {
+    "en": "Complete it: {{playerName}} can't resist someone who...",
+    "text": "Maak af: {{playerName}} kan geen weerstand bieden aan iemand die…",
+    "answers": [
+      "je aan het lachen maakt",
+      "iets mysterieus heeft",
+      "goed voor je zorgt"
+    ]
+  },
+  "04adab2d-d8cb-41d8-9a80-265a693b3119": {
+    "en": "Which of these would make {{playerName}} blush the most?",
+    "text": "Van welke zin gaat {{playerName}} het hardst blozen?",
+    "answers": [
+      "Ik kan mijn ogen niet van je afhouden",
+      "Je maakt me zo gelukkig",
+      "Ik ben zo trots op je"
+    ]
+  },
+  "c06bb1e8-b5b3-4a99-8d8c-bfe321d8ad59": {
+    "en": "When {{playerName}} gets jealous, how does it show?",
+    "text": "Hoe merk je dat {{playerName}} jaloers is?",
+    "answers": [
+      "Wordt stil",
+      "Maakt sarcastische grapjes",
+      "Wordt extra aanhalig"
+    ]
+  },
+  "7b30dfc6-380f-431f-8046-dd300e522480": {
+    "en": "How good is {{playerName}} at flirting?",
+    "text": "Hoe goed kan {{playerName}} flirten?",
+    "answers": [
+      "Een echte pro",
+      "Schattig maar onhandig",
+      "Hopeloos"
+    ]
+  },
+  "27220b40-4180-4289-9126-bef2279fb254": {
+    "en": "How does {{playerName}} show love the most?",
+    "text": "Hoe laat {{playerName}} liefde het meest zien?",
+    "answers": [
+      "Aanrakingen",
+      "Lieve woorden",
+      "Kleine cadeautjes",
+      "Quality time"
+    ]
+  },
+  "85c4d519-9f35-4249-9208-8aab551dda52": {
+    "en": "Where would {{playerName}} most love to get a surprise kiss?",
+    "text": "Waar wordt {{playerName}} het liefst onverwacht gezoend?",
+    "answers": [
+      "In de regen",
+      "In een lift",
+      "Op een concert",
+      "In de keuken, tijdens het koken"
+    ]
+  },
+  "ac0b7de1-f6da-407e-aaa2-b0bf657e00f2": {
+    "en": "When does {{playerName}} fall for their partner all over again?",
+    "text": "Wanneer wordt {{playerName}} opnieuw verliefd op de partner?",
+    "answers": [
+      "Als die lacht",
+      "Als die ergens in opgaat",
+      "Als die zorgzaam is",
+      "Als die net wakker is"
+    ]
+  },
+  "aff4bbb1-e2c4-4b5d-9db6-7b16909db94f": {
+    "en": "What kind of message would {{playerName}} love to wake up to?",
+    "text": "Met wat voor bericht wordt {{playerName}} het liefst wakker?",
+    "answers": [
+      "Een lief goedemorgen",
+      "Een schattige foto",
+      "Een spraakbericht",
+      "Iets flirterigs"
+    ]
+  },
+  "52b200de-7096-4387-b6c3-aab3bc6a22f3": {
+    "en": "Which gift would make {{playerName}} the happiest?",
+    "text": "Van welk cadeau wordt {{playerName}} het blijst?",
+    "answers": [
+      "Sieraden",
+      "Een verrassingsreisje",
+      "Iets zelfgemaakts",
+      "De hoodie van de partner"
+    ]
+  },
+  "cdf6776b-ec39-4a4d-9341-6a663d850ceb": {
+    "en": "On a cozy night in with their partner, what kind of movie does {{playerName}} put on?",
+    "text": "Welke film zet {{playerName}} op tijdens een knusse avond thuis met de partner?",
+    "answers": [
+      "Romantische komedie",
+      "Horror, als smoesje om te knuffelen",
+      "Actie",
+      "Maakt niet uit, niemand kijkt toch"
+    ]
+  },
+  "a09650e4-8007-4b75-bb66-a01a84c37710": {
+    "en": "What's the biggest turn-off for {{playerName}} on a date?",
+    "text": "Waar knapt {{playerName}} op een date het meest op af?",
+    "answers": [
+      "Steeds op de telefoon zitten",
+      "Te laat komen",
+      "Onbeleefd zijn tegen de bediening",
+      "Over een ex praten"
+    ]
+  },
+  "e947abf2-fe3e-433a-af75-9f623d7cb898": {
+    "en": "What does {{playerName}} love most about their partner's looks?",
+    "text": "Wat vindt {{playerName}} het mooist aan het uiterlijk van de partner?"
+  },
+  "923210d5-6873-4446-9080-09044dcdd460": {
+    "en": "What's {{playerName}}'s favorite romantic movie?",
+    "text": "Wat is de favoriete romantische film van {{playerName}}?"
+  },
+  "ae069d22-9332-49fa-87c8-f9d4106ddb43": {
+    "en": "What color does {{playerName}} think their partner looks best in?",
+    "text": "Welke kleur staat de partner volgens {{playerName}} het best?"
+  },
+  "9815c91b-f38b-4218-849b-e27988242497": {
+    "en": "What does {{playerName}} usually order to drink on a date?",
+    "text": "Wat bestelt {{playerName}} meestal te drinken op een date?"
+  },
+  "7d61b0d4-ff9c-4359-9a4f-1b68b01c0d93": {
+    "en": "What pet name does {{playerName}} use most for their partner?",
+    "text": "Welk koosnaampje gebruikt {{playerName}} het vaakst voor de partner?"
+  },
+  "a6a533ee-ff93-43cd-b0d3-becf90d811a5": {
+    "en": "What food would {{playerName}} pick for a romantic dinner?",
+    "text": "Wat kiest {{playerName}} voor een romantisch diner?"
+  },
+  "8d3c5120-8c4d-4484-9b1d-1f06711f2f87": {
+    "en": "Where on their partner's face does {{playerName}} kiss the most?",
+    "text": "Waar op het gezicht van de partner geeft {{playerName}} de meeste kusjes?"
+  },
+  "6d3a66de-2db7-4570-8928-1d88fa7313a2": {
+    "en": "Which country would {{playerName}} pick for a honeymoon?",
+    "text": "Welk land kiest {{playerName}} voor een huwelijksreis?"
+  },
+  "e07608ce-6461-4038-a32b-5d730d917fd2": {
+    "en": "Which season does {{playerName}} find the most romantic?",
+    "text": "Welk seizoen vindt {{playerName}} het meest romantisch?"
+  },
+  "b1b50f40-4260-4b91-ae69-ce97c1032c3e": {
+    "en": "Which TV show would {{playerName}} love to binge with their partner?",
+    "text": "Welke serie zou {{playerName}} graag samen met de partner bingewatchen?"
+  },
+  "4f3d5a83-ed50-4992-a428-d7ce354e1d13": {
+    "en": "Which city would {{playerName}} love to live in with their partner?",
+    "text": "In welke stad zou {{playerName}} graag met de partner wonen?"
+  },
+  "31ceef31-d267-481e-ac9a-5885eb6f8dbb": {
+    "en": "What dish does {{playerName}} love cooking for their partner?",
+    "text": "Welk gerecht kookt {{playerName}} graag voor de partner?"
+  },
+  "83cf4d9b-21b6-4e72-80bd-fdd8ccbe4103": {
+    "en": "Does {{playerName}} like being kissed in public?",
+    "text": "Vindt {{playerName}} het fijn om in het openbaar gezoend te worden?"
+  },
+  "7c0c6ea7-9626-4681-84fc-23837e598bb6": {
+    "en": "Would {{playerName}} rather stay in than go out on a date night?",
+    "text": "Zou {{playerName}} op een date-avond liever thuisblijven dan uitgaan?"
+  },
+  "5dfad39f-e8f8-4f9d-87ea-a5329b8a5853": {
+    "en": "Does {{playerName}} say \"I love you\" first?",
+    "text": "Zegt {{playerName}} als eerste “Ik hou van je”?"
+  },
+  "068fcbfc-a8b0-49b3-85fc-75ac1889e68a": {
+    "en": "Does {{playerName}} like nicknames in public?",
+    "text": "Vindt {{playerName}} koosnaampjes in het openbaar leuk?"
+  },
+  "6b361ee2-7951-4425-8e4e-2f13d1927417": {
+    "en": "Does {{playerName}} check their partner's location when they miss them?",
+    "text": "Checkt {{playerName}} de locatie van de partner als het gemis toeslaat?"
+  },
+  "c4e4a739-4104-4af1-b91e-a3b9a3b95fb1": {
+    "en": "Does {{playerName}} like matching outfits with their partner?",
+    "text": "Vindt {{playerName}} matchende outfits met de partner leuk?"
+  },
+  "514ef284-99e0-4e87-8f64-f18fa20e828d": {
+    "en": "Would {{playerName}} get a couple tattoo?",
+    "text": "Zou {{playerName}} een koppeltattoo laten zetten?"
+  },
+  "18299c05-dc5f-4f1f-93a4-e202af729808": {
+    "en": "Does {{playerName}} reread old messages from their partner?",
+    "text": "Leest {{playerName}} oude berichtjes van de partner terug?"
+  },
+  "43b0bad7-bcd8-49c3-a575-6363492aa1e2": {
+    "en": "Has {{playerName}} ever searched their partner's name on the internet?",
+    "text": "Heeft {{playerName}} de partner ooit gegoogeld?"
+  },
+  "9aa01c3d-202b-407d-8cfc-7afe582df680": {
+    "en": "Does {{playerName}} still keep old love letters or gifts from an ex?",
+    "text": "Bewaart {{playerName}} nog oude liefdesbrieven of cadeaus van een ex?"
+  },
+  "5046da73-768b-4c75-9098-c717dc041cc5": {
+    "en": "Would {{playerName}} stop in the middle of an intimate moment if their phone rang?",
+    "text": "Zou {{playerName}} midden in een intiem moment stoppen als de telefoon gaat?"
+  },
+  "7e456f76-8350-46b3-b96e-af88c500c1b0": {
+    "en": "Does {{playerName}} get uncomfortable if their partner watches them get ready?",
+    "text": "Vindt {{playerName}} het ongemakkelijk om zich klaar te maken terwijl de partner toekijkt?"
+  },
+  "2f6a16f5-299a-4e7d-9906-f791ecb95db9": {
+    "en": "Would {{playerName}} tell their partner if a stranger hit on them?",
+    "text": "Als een onbekende met {{playerName}} flirt, zou die dat dan aan de partner vertellen?"
+  },
+  "2374ed2f-f749-4d36-bca1-213e6dd39af2": {
+    "en": "Does {{playerName}} like it when their partner is a little louder than usual?",
+    "text": "Vindt {{playerName}} het fijn als de partner wat luider is dan normaal?"
+  },
+  "021b3fea-592b-4a5c-9fc3-cf4f90da5728": {
+    "en": "Does {{playerName}} like it when their partner talks during intimate moments?",
+    "text": "Vindt {{playerName}} het fijn als de partner praat tijdens intieme momenten?"
+  },
+  "ec853fc4-ea5e-4d6b-b368-baccff2859e2": {
+    "en": "Does {{playerName}} like it when their partner leaves a mark, even a small one?",
+    "text": "Vindt {{playerName}} het fijn als de partner een spoortje achterlaat, al is het maar klein?"
+  },
+  "7407ed24-af63-48a2-9623-376827a17dd2": {
+    "en": "After a fight, what does {{playerName}} need first?",
+    "text": "Wat heeft {{playerName}} na een ruzie als eerste nodig?",
+    "answers": [
+      "Ruimte",
+      "Het uitpraten",
+      "Een knuffel, zonder woorden",
+      "Doen alsof er niets gebeurd is"
+    ]
+  },
+  "58262567-9ba2-4777-87bf-eb1256c82bdb": {
+    "en": "What does {{playerName}} want right after intimacy?",
+    "text": "Waar heeft {{playerName}} vlak na een intiem moment zin in?",
+    "answers": [
+      "Praten",
+      "Stil tegen elkaar aan liggen",
+      "In slaap vallen",
+      "Opstaan"
+    ]
+  },
+  "1c394649-6625-4f03-84f0-3e53b920c956": {
+    "en": "When their partner compliments them, what does {{playerName}} do?",
+    "text": "Je geeft {{playerName}} een compliment. Wat gebeurt er?",
+    "answers": [
+      "Wuift het weg",
+      "Wordt verlegen",
+      "Geeft er meteen een terug",
+      "Laat het echt binnenkomen"
+    ]
+  },
+  "a1b6a93f-4d10-43a7-8164-0163bd3853f2": {
+    "en": "Which of these is hardest for {{playerName}} to hear from their partner?",
+    "text": "Wat vindt {{playerName}} het lastigst om van jou te horen?",
+    "answers": [
+      "We moeten praten",
+      "Ik heb ruimte nodig",
+      "Ik ben teleurgesteld",
+      "Je had gelijk"
+    ]
+  },
+  "c47a1f38-5b04-46da-9c44-7a474ed6d259": {
+    "en": "If {{playerName}} catches you watching them after a shower, what do they do?",
+    "text": "{{playerName}} komt net uit de douche en betrapt je erop dat je kijkt. Wat nu?",
+    "answers": [
+      "Kijkt terug",
+      "Kijkt weg",
+      "Maakt een grapje",
+      "Komt naar je toe"
+    ]
+  },
+  "e89d0de4-7a91-4f6e-b779-b94e48e546d2": {
+    "en": "It's 2am and you're both still awake. What does {{playerName}} want?",
+    "text": "Het is 2 uur 's nachts en jullie zijn allebei nog wakker. Waar heeft {{playerName}} zin in?",
+    "answers": [
+      "Praten in het donker",
+      "Zoenen, dan slapen",
+      "Samen scrollen",
+      "Echt gaan slapen"
+    ]
+  },
+  "8ce87b4f-b8db-4f01-98ba-f29870c3aed1": {
+    "en": "If you whispered one thing, what would get to {{playerName}} more?",
+    "text": "Welke gefluisterde zin doet het meest met {{playerName}}?",
+    "answers": [
+      "Kom hier",
+      "Doe de deur dicht",
+      "Kijk me aan",
+      "Nog niet"
+    ]
+  },
+  "0e4ed2f2-bc25-4e09-a90f-302effdc8620": {
+    "en": "On the couch at night, how close does {{playerName}} sit?",
+    "text": "Hoe dicht zit {{playerName}} 's avonds bij je op de bank?",
+    "answers": [
+      "Met wat ruimte",
+      "Dicht tegen je aan",
+      "Benen over de jouwe",
+      "Half op je schoot"
+    ]
+  },
+  "5cb070ee-8f2e-40d2-b2a4-eeb5e9aed5a6": {
+    "en": "Which of these is harder for {{playerName}} to ignore?",
+    "text": "Waar kan {{playerName}} het moeilijkst omheen kijken?",
+    "answers": [
+      "Jij in een geleend T-shirt",
+      "Jij met nat haar",
+      "Jij terwijl je je klaarmaakt om uit te gaan",
+      "Jij net wakker"
+    ],
+    "flagged": true,
+    "note": "'You in their t-shirt' rendered as 'a borrowed T-shirt' to avoid a gendered possessive (zijn/haar); placeholder not allowed in options."
+  },
+  "35eb5bdd-4604-405f-bbd9-ec6d407788ce": {
+    "en": "If you walk in while {{playerName}} is changing, what do they do?",
+    "text": "Je loopt binnen terwijl {{playerName}} zich omkleedt. Wat gebeurt er?",
+    "answers": [
+      "Bedekt zich",
+      "Vindt het geen punt",
+      "Stuurt je weg",
+      "Trekt je naar zich toe"
+    ]
+  },
+  "63883f17-6122-4b32-bd02-7c77127de516": {
+    "en": "At dinner, where is {{playerName}}'s hand?",
+    "text": "Waar is de hand van {{playerName}} tijdens het eten?",
+    "answers": [
+      "Op tafel",
+      "In jouw hand",
+      "Op je knie",
+      "Onder tafel"
+    ]
+  },
+  "d4a5ae02-a778-4a8a-a976-915ab86b182c": {
+    "en": "At the door at the end of the night, what does {{playerName}} do?",
+    "text": "Wat doet {{playerName}} aan het eind van de avond bij de deur?",
+    "answers": [
+      "Een snelle kus",
+      "Een lange kus",
+      "Trekt je naar binnen",
+      "Zegt “tot morgen”"
+    ]
+  },
+  "290d4e23-9ee9-41a5-86b2-90f954e2e486": {
+    "en": "If you hug {{playerName}} from behind, what do they do?",
+    "text": "Je slaat van achteren je armen om {{playerName}} heen. Wat nu?",
+    "answers": [
+      "Leunt achterover",
+      "Gaat gewoon door",
+      "Pakt je handen",
+      "Draait zich om"
+    ]
+  },
+  "3aaf73d2-fba7-45d3-b142-eaf8b4b1f2c2": {
+    "en": "If you kiss {{playerName}} while they're in the middle of something, what do they do?",
+    "text": "Je zoent {{playerName}} terwijl die net ergens mee bezig is. Wat nu?",
+    "answers": [
+      "Zoent terug en gaat door",
+      "Zegt dat je moet wachten",
+      "Legt alles neer",
+      "Lacht en schudt het hoofd"
+    ]
+  },
+  "20568aba-1de1-4c32-9c4b-84046e0a89a3": {
+    "en": "If you say \"come to bed\", what does {{playerName}} do?",
+    "text": "Je zegt “kom naar bed”. Wat doet {{playerName}}?",
+    "answers": [
+      "Komt meteen",
+      "Wil nog vijf minuten",
+      "Wil gehaald worden"
+    ]
+  },
+  "730dfdba-4777-40c1-ac4f-849cf3a8dab0": {
+    "en": "If you whisper in {{playerName}}'s ear at a party, what do they do?",
+    "text": "Je fluistert {{playerName}} op een feestje iets in het oor. Wat nu?",
+    "answers": [
+      "Glimlacht",
+      "Wordt rood",
+      "Trekt je even apart"
+    ]
+  },
+  "793c87e8-9ced-435c-af13-49aef0550f10": {
+    "en": "In the back of a taxi, what does {{playerName}} do?",
+    "text": "Wat doet {{playerName}} achter in een taxi?",
+    "answers": [
+      "Kijkt uit het raam",
+      "Legt het hoofd op je schouder",
+      "Houdt je hand vast"
+    ]
+  },
+  "9a5a21f6-c21f-44ee-986d-7b807154604f": {
+    "en": "If you fall asleep on {{playerName}} on the couch, what do they do?",
+    "text": "Je valt op de bank in slaap tegen {{playerName}} aan. Wat gebeurt er?",
+    "answers": [
+      "Laat je lekker slapen",
+      "Maakt je wakker om naar bed te gaan",
+      "Blijft zitten, ook met een slapende arm"
+    ]
+  },
+  "d6cefc04-d2ec-40ca-b919-90873cd692a4": {
+    "en": "If you put your cold hands on {{playerName}}, what do they do?",
+    "text": "Je legt je koude handen op {{playerName}}. Wat nu?",
+    "answers": [
+      "Schrikt op",
+      "Houdt ze toch vast",
+      "Warmt ze op in de nek"
+    ]
+  },
+  "d84a8b9f-1082-4a61-a4fb-3a0ce7561ce4": {
+    "en": "If you say \"let's go home\" while you're out, what does {{playerName}} do?",
+    "text": "Jullie zijn uit en je zegt: “Kom, we gaan naar huis.” Wat doet {{playerName}}?",
+    "answers": [
+      "Wilde dat al",
+      "Wil nog een uurtje",
+      "Kwam net lekker op gang"
+    ]
+  },
+  "51f4a26a-da00-4845-a418-a9ee3398e5bf": {
+    "en": "If someone is clearly checking you out, what does {{playerName}} do?",
+    "text": "Iemand checkt je overduidelijk uit. Wat doet {{playerName}}?",
+    "answers": [
+      "Merkt het niet",
+      "Trekt je dichterbij",
+      "Kijkt diegene recht aan"
+    ]
+  },
+  "acceaaf6-dbea-46b8-b01d-8c157c320363": {
+    "en": "If you start dancing in the kitchen for no reason, what does {{playerName}} do?",
+    "text": "Je begint zomaar te dansen in de keuken. Wat doet {{playerName}}?",
+    "answers": [
+      "Doet mee",
+      "Kijkt toe",
+      "Noemt je belachelijk en doet dan mee"
+    ]
+  },
+  "0ba7b11f-84f2-4fd6-a508-37ec2a630f94": {
+    "en": "If you almost kiss {{playerName}} and pull away, what do they do?",
+    "text": "Je zoent {{playerName}} bijna en trekt je dan terug. Wat nu?",
+    "answers": [
+      "Maakt het af",
+      "Wacht af",
+      "Lacht het weg"
+    ]
+  },
+  "16f3d2e8-43b7-412a-aaf6-99b56d3ea05f": {
+    "en": "If you sit on {{playerName}}'s lap, what do they do?",
+    "text": "Je gaat bij {{playerName}} op schoot zitten. Wat gebeurt er?",
+    "answers": [
+      "Trekt je tegen zich aan",
+      "Kijkt eerst om zich heen",
+      "Lacht en duwt je eraf"
+    ]
+  },
+  "bbf222fb-e5a6-45b2-be01-18d719ee84f2": {
+    "en": "If you start taking {{playerName}}'s sweater off because it's warm inside, what do they do?",
+    "text": "Het is warm binnen en je begint de trui van {{playerName}} uit te trekken. Wat nu?",
+    "answers": [
+      "Laat je begaan",
+      "Doet het zelf",
+      "Houdt je hand tegen"
+    ]
+  },
+  "f8558854-9108-4479-b20e-7a0c5c31c0ac": {
+    "en": "If you kiss {{playerName}}'s cheek in the middle of their story, what do they do?",
+    "text": "Je geeft {{playerName}} midden in een verhaal een kus op de wang. Wat nu?",
+    "answers": [
+      "Praat gewoon door",
+      "Raakt de draad kwijt",
+      "Kust terug en vertelt verder"
+    ]
+  },
+  "c335f3ae-66fd-42b6-b5d1-3150b68b6b04": {
+    "en": "Where does {{playerName}} love a massage the most?",
+    "text": "Waar wordt {{playerName}} het liefst gemasseerd?",
+    "answers": [
+      "Schouders",
+      "Rug",
+      "Voeten",
+      "Hoofd"
+    ]
+  },
+  "7c740bf2-6c29-4351-b1ea-1ac8b48d7e14": {
+    "en": "What turns {{playerName}} on the most?",
+    "text": "Wat windt {{playerName}} het meest op?",
+    "answers": [
+      "Zelfvertrouwen",
+      "Oogcontact",
+      "Een lekkere geur",
+      "Geplaagd worden"
+    ]
+  },
+  "c510bd61-7901-4014-bccc-3bf4072ab104": {
+    "en": "In intimate moments, which sense matters most to {{playerName}}?",
+    "text": "Welk zintuig is voor {{playerName}} het belangrijkst in intieme momenten?",
+    "answers": [
+      "Aanraking",
+      "Zicht",
+      "Geur",
+      "Geluid"
+    ]
+  },
+  "10524676-70b8-4a0c-9c65-8021824e5bc1": {
+    "en": "How does {{playerName}} most like to be seduced?",
+    "text": "Hoe wordt {{playerName}} het liefst verleid?",
+    "answers": [
+      "Met woorden",
+      "Met blikken",
+      "Met aanrakingen",
+      "Met een verrassing"
+    ]
+  },
+  "47197335-c957-4d42-90c1-bd55aec65195": {
+    "en": "What's the first thing {{playerName}} looks at on someone they find attractive?",
+    "text": "Waar kijkt {{playerName}} als eerste naar bij iemand die in de smaak valt?",
+    "answers": [
+      "Ogen",
+      "Lippen",
+      "Handen",
+      "Lichaam"
+    ]
+  },
+  "7fcfdb68-3ae8-4607-9be5-32b49375a3ac": {
+    "en": "If you send {{playerName}} a flirty photo in the middle of the day, what do they do?",
+    "text": "Je stuurt {{playerName}} midden op de dag een flirterige foto. Wat nu?",
+    "answers": [
+      "Stuurt er een terug",
+      "Belt je meteen",
+      "“Nu even niet, ik ben bezig”",
+      "Komt eerder naar huis"
+    ]
+  },
+  "720d3880-91f8-4dde-a17f-7da5e821ab00": {
+    "en": "Which accessory on someone does {{playerName}} find hottest?",
+    "text": "Welk accessoire vindt {{playerName}} het meest sexy bij iemand?",
+    "answers": [
+      "Een horloge",
+      "Een bril",
+      "Een schakelketting",
+      "Ringen"
+    ]
+  },
+  "4daea0de-71a4-40bc-82b1-c1a830c1e33f": {
+    "en": "Which style on someone does {{playerName}} find hottest?",
+    "text": "Welke stijl vindt {{playerName}} het meest sexy bij iemand?",
+    "answers": [
+      "Chic",
+      "Sportief",
+      "Streetwear",
+      "Helemaal in het zwart"
+    ]
+  },
+  "9132974e-4bff-42a3-a774-e9046d4aa9f2": {
+    "en": "What height does {{playerName}} find most attractive in a partner?",
+    "text": "Welke lengte vindt {{playerName}} het aantrekkelijkst bij een partner?",
+    "answers": [
+      "Een stuk langer",
+      "Iets langer",
+      "Even lang",
+      "Kleiner"
+    ]
+  },
+  "8b3a4769-3529-4dd3-bf94-060c729a8477": {
+    "en": "Which eye color does {{playerName}} find most attractive?",
+    "text": "Welke oogkleur vindt {{playerName}} het aantrekkelijkst?",
+    "answers": [
+      "Bruin",
+      "Groen",
+      "Blauw",
+      "Hazelnootbruin"
+    ]
+  },
+  "6e6db5c0-711a-4280-9da7-49e01a6e940c": {
+    "en": "Which hair color does {{playerName}} find hottest?",
+    "text": "Welke haarkleur vindt {{playerName}} het meest sexy?",
+    "answers": [
+      "Zwart",
+      "Bruin",
+      "Blond",
+      "Rood"
+    ]
+  },
+  "401817cf-f61c-4724-9158-25592761bb11": {
+    "en": "Which kind of fragrance does {{playerName}} find sexiest on someone?",
+    "text": "Welk soort geur vindt {{playerName}} het meest sexy bij iemand?",
+    "answers": [
+      "Zoet",
+      "Fris",
+      "Houtachtig",
+      "Kruidig"
+    ]
+  },
+  "4dacabdc-99dd-4c78-9b92-52680146831d": {
+    "en": "How does {{playerName}} feel about tattoos on a partner?",
+    "text": "Wat vindt {{playerName}} van tatoeages bij een partner?",
+    "answers": [
+      "Geweldig",
+      "Eentje of twee is leuk",
+      "Niet zo'n fan",
+      "Maakt niet uit"
+    ]
+  },
+  "f5dadc53-d883-4924-8ba8-2f509d410ebb": {
+    "en": "What age gap does {{playerName}} find most attractive?",
+    "text": "Welk leeftijdsverschil vindt {{playerName}} het aantrekkelijkst?",
+    "answers": [
+      "Even oud",
+      "Een paar jaar ouder",
+      "Een paar jaar jonger",
+      "Veel ouder"
+    ]
+  },
+  "f1dc9061-fa47-478b-b1ec-eba6a3b6f5fa": {
+    "en": "Which job on someone does {{playerName}} find most attractive?",
+    "text": "Welk beroep vindt {{playerName}} het aantrekkelijkst bij iemand?",
+    "answers": [
+      "Arts",
+      "Piloot",
+      "Bij de brandweer",
+      "Chef-kok"
+    ]
+  },
+  "dd7a8cb2-3e0a-4167-b573-0feea5f6b4ee": {
+    "en": "Which piercing on someone does {{playerName}} find hottest?",
+    "text": "Welke piercing vindt {{playerName}} het meest sexy bij iemand?",
+    "answers": [
+      "Oor",
+      "Neus",
+      "Lip",
+      "Helemaal geen"
+    ]
+  },
+  "2fd6a59e-72ba-4ff9-8feb-361bc39f3cb4": {
+    "en": "Which skill on someone does {{playerName}} find hottest?",
+    "text": "Welk talent vindt {{playerName}} het meest sexy bij iemand?",
+    "answers": [
+      "Gitaar spelen",
+      "Goed koken",
+      "Goed dansen",
+      "Een andere taal spreken"
+    ]
+  },
+  "e5f4e852-e15d-471e-abc5-4c38cc69e9ec": {
+    "en": "Which little feature on someone does {{playerName}} find cutest?",
+    "text": "Welk klein detail vindt {{playerName}} het schattigst bij iemand?",
+    "answers": [
+      "Sproetjes",
+      "Kuiltjes",
+      "Lange wimpers",
+      "Spleetje tussen de tanden"
+    ]
+  },
+  "1fcbc4d3-9d36-4780-8e17-806a5eff3369": {
+    "en": "Which body type does {{playerName}} find most attractive?",
+    "text": "Welk lichaamstype vindt {{playerName}} het aantrekkelijkst?",
+    "answers": [
+      "Atletisch",
+      "Slank",
+      "Gespierd",
+      "Zacht en knuffelbaar"
+    ]
+  },
+  "3d2b3db6-0219-4cf1-9d6d-4f31684ea5e8": {
+    "en": "Which ride would make someone more attractive to {{playerName}}?",
+    "text": "Met welk vervoer wordt iemand aantrekkelijker voor {{playerName}}?",
+    "answers": [
+      "Een klassieke auto",
+      "Een sportauto",
+      "Een motor",
+      "Maakt helemaal niet uit"
+    ]
+  },
+  "7d10c4cc-934e-4c78-83dc-e7675b0c1ec0": {
+    "en": "Which zodiac element does {{playerName}} find most attractive?",
+    "text": "Welk element van de sterrenbeelden vindt {{playerName}} het aantrekkelijkst?",
+    "answers": [
+      "Vuurtekens",
+      "Aardetekens",
+      "Luchttekens",
+      "Watertekens",
+      "Maakt helemaal niet uit"
+    ]
+  },
+  "f454ad94-c43b-4a6b-9340-e41b1ded7a80": {
+    "en": "What kind of social media presence does {{playerName}} find most attractive?",
+    "text": "Wat voor social media-gedrag vindt {{playerName}} het aantrekkelijkst?",
+    "answers": [
+      "Post veel",
+      "Privéaccount",
+      "Post bijna nooit",
+      "Helemaal geen social media"
+    ]
+  },
+  "dcd3d4f4-f480-4ff0-b69b-af1f8b10c105": {
+    "en": "What kind of hands does {{playerName}} find most attractive?",
+    "text": "Wat voor handen vindt {{playerName}} het aantrekkelijkst?",
+    "answers": [
+      "Grote handen",
+      "Zachte handen",
+      "Handen met aders",
+      "Lange vingers",
+      "Let nooit op handen"
+    ]
+  },
+  "44fffff9-e2b0-4e15-b91b-0eb866a37114": {
+    "en": "What kind of humor on someone does {{playerName}} find most attractive?",
+    "text": "Welk soort humor vindt {{playerName}} het aantrekkelijkst bij iemand?",
+    "answers": [
+      "Sarcastisch",
+      "Melig",
+      "Droog",
+      "Zwart",
+      "Lief en onschuldig"
+    ]
+  },
+  "3f4de5c5-8d26-4746-af84-d4886575c2c3": {
+    "en": "How does {{playerName}} feel about someone who's really into fitness?",
+    "text": "Wat vindt {{playerName}} van iemand die fanatiek sport?",
+    "answers": [
+      "Super sexy",
+      "Leuk, maar hoeft niet",
+      "Knapt erop af"
+    ]
+  },
+  "97a9c1dd-266d-442a-b459-db1ac587aed5": {
+    "en": "How tidy does someone need to be for {{playerName}} to find them attractive?",
+    "text": "Hoe netjes moet iemand zijn om {{playerName}} aan te trekken?",
+    "answers": [
+      "Brandschoon",
+      "Redelijk netjes",
+      "Rommelig mag"
+    ]
+  },
+  "c90f6f30-b874-47d1-b68b-7e77d055b747": {
+    "en": "How does {{playerName}} feel about someone with a huge friend group?",
+    "text": "Wat vindt {{playerName}} van iemand met een enorme vriendengroep?",
+    "answers": [
+      "Aantrekkelijk",
+      "Maakt niet uit",
+      "Liever een kleine kring"
+    ]
+  },
+  "549ec369-ee49-4656-adf4-6465987bcc3d": {
+    "en": "How does {{playerName}} feel about someone who's still friends with their ex?",
+    "text": "Wat vindt {{playerName}} van iemand die nog bevriend is met een ex?",
+    "answers": [
+      "Helemaal prima",
+      "Hangt van de ex af",
+      "Dealbreaker"
+    ]
+  },
+  "cbd96d73-a197-449c-9bfa-e6646c6151f6": {
+    "en": "How does {{playerName}} feel about someone who makes the first move?",
+    "text": "Wat vindt {{playerName}} van iemand die de eerste stap zet?",
+    "answers": [
+      "Super sexy",
+      "Leuk",
+      "Zet de eerste stap liever zelf"
+    ]
+  },
+  "f55c2d09-b0cc-4a36-af77-1fa6cace237a": {
+    "en": "How does {{playerName}} feel about sharing phone passwords with a partner?",
+    "text": "Wat vindt {{playerName}} van telefooncodes delen met een partner?",
+    "answers": [
+      "Mooi teken van vertrouwen",
+      "Maakt niet uit",
+      "Houdt liever wat privacy"
+    ]
+  },
+  "f11bae34-c304-42a5-825d-b0680937d30a": {
+    "en": "How does {{playerName}} feel about someone who texts all day long?",
+    "text": "Wat vindt {{playerName}} van iemand die de hele dag appt?",
+    "answers": [
+      "Heerlijk",
+      "Paar keer per dag is genoeg",
+      "Te klef"
+    ]
+  },
+  "30b5a4b1-c0ac-4d99-9f38-c00d848f5f4b": {
+    "en": "How does {{playerName}} feel about a partner who wants to spend every free moment together?",
+    "text": "Wat vindt {{playerName}} van een partner die elk vrij moment samen wil zijn?",
+    "answers": [
+      "Heerlijk",
+      "Wil ook tijd voor zichzelf",
+      "Te veel van het goede"
+    ]
+  },
+  "3f92749d-64b0-4c89-9f3e-bf2cd0c77507": {
+    "en": "How does {{playerName}} feel about someone who says \"I love you\" very early?",
+    "text": "Wat vindt {{playerName}} van iemand die heel snel “ik hou van je” zegt?",
+    "answers": [
+      "Lief",
+      "Te snel",
+      "Een red flag"
+    ]
+  },
+  "e730a2da-4ace-47c7-b3c3-4f59f76edfd0": {
+    "en": "How does {{playerName}} feel about someone who goes out partying every weekend?",
+    "text": "Wat vindt {{playerName}} van iemand die elk weekend gaat stappen?",
+    "answers": [
+      "Leuk, gaat mee",
+      "Af en toe prima",
+      "Niet echt het type",
+      "Dealbreaker"
+    ]
+  },
+  "8e724ce7-d131-4821-903b-70bc0cf1b935": {
+    "en": "How does {{playerName}} feel about a long-distance relationship?",
+    "text": "Wat vindt {{playerName}} van een relatie op afstand?",
+    "answers": [
+      "Kan dat prima",
+      "Alleen voor even",
+      "Nooit"
+    ]
+  },
+  "b7b57f9f-d72e-4537-9146-ca94491221c1": {
+    "en": "How does {{playerName}} feel about long hugs?",
+    "text": "Wat vindt {{playerName}} van lange knuffels?",
+    "answers": [
+      "Hoe langer hoe beter",
+      "Paar seconden is genoeg",
+      "Niet zo'n knuffelaar"
+    ]
+  },
+  "75e4151b-0b3a-442d-870f-36fce120c053": {
+    "en": "How does {{playerName}} feel about falling asleep on a video call?",
+    "text": "Wat vindt {{playerName}} van in slaap vallen tijdens een videogesprek?",
+    "answers": [
+      "Heerlijk",
+      "Alleen als jullie apart zijn",
+      "Vindt het raar"
+    ]
+  },
+  "ad6c46b6-c615-4dca-a1d2-b9a95e92638c": {
+    "en": "How does {{playerName}} feel about celebrating monthly anniversaries?",
+    "text": "Wat vindt {{playerName}} van elke maand vieren dat jullie samen zijn?",
+    "answers": [
+      "Viert het elke maand",
+      "Alleen één keer per jaar",
+      "Houdt geen datums bij"
+    ]
+  },
+  "7d3785ce-afa5-43e8-b150-57d16a20c299": {
+    "en": "Which song does {{playerName}} think of as \"your song\"?",
+    "text": "Welk nummer is voor {{playerName}} “jullie nummer”?"
+  },
+  "efd278ae-b799-4742-915c-89349777f4bf": {
+    "en": "How does {{playerName}} like to hold hands?",
+    "text": "Hoe houdt {{playerName}} het liefst handjes vast?",
+    "answers": [
+      "Vingers verstrengeld",
+      "Handpalm tegen handpalm",
+      "Alleen de pinkjes",
+      "Hand in je achterzak"
+    ]
+  },
+  "7d25b7f5-1dc6-43d6-af4b-e31f6e0a738c": {
+    "en": "How does {{playerName}} feel about sharing food from the same plate?",
+    "text": "Wat vindt {{playerName}} van samen van één bord eten?",
+    "answers": [
+      "Heerlijk",
+      "Alleen het toetje",
+      "Eigen bord, eigen eten"
+    ]
+  },
+  "ee007826-9eef-4d45-8c67-98923cf0b413": {
+    "en": "What's {{playerName}}'s favorite date spot in your city?",
+    "text": "Wat is de favoriete plek van {{playerName}} voor een date in jullie stad?"
+  },
+  "9587900b-e8e3-414d-9ef0-199ab00dac18": {
+    "en": "How does {{playerName}} feel about saying goodnight before bed, even when you're apart?",
+    "text": "Wat vindt {{playerName}} van welterusten zeggen voor het slapengaan, ook als jullie apart zijn?",
+    "answers": [
+      "Slaat het nooit over",
+      "De meeste avonden",
+      "Niet zo belangrijk"
+    ]
+  },
+  "258de284-fd20-452c-b8c4-c119ee242b8e": {
+    "en": "How does {{playerName}} feel about making playlists for someone they love?",
+    "text": "Hoe staat {{playerName}} tegenover een playlist maken voor een geliefde?",
+    "answers": [
+      "Doet het voortdurend",
+      "Af en toe",
+      "Niet echt een fan"
+    ]
+  },
+  "36ee3456-2eb7-422c-92d5-f661f5891af0": {
+    "en": "How long can {{playerName}} go without seeing you before they start missing you?",
+    "text": "Na hoelang zonder jou begint {{playerName}} je te missen?",
+    "answers": [
+      "Een paar uur",
+      "Een dag",
+      "Een paar dagen",
+      "Een week of langer"
+    ]
+  },
+  "fbc96261-3273-4853-806b-93ec3437cd96": {
+    "en": "How does {{playerName}} feel about meeting a partner's family early on?",
+    "text": "Hoe staat {{playerName}} tegenover vroeg kennismaken met de familie van een partner?",
+    "answers": [
+      "Vindt het een leuk idee",
+      "Zenuwachtig, maar doet het",
+      "Wacht liever even"
+    ]
+  },
+  "45b5ba6f-ee49-41d7-a447-cefef0f65c9c": {
+    "en": "How often does {{playerName}} send \"I miss you\" texts?",
+    "text": "Hoe vaak stuurt {{playerName}} een “ik mis je”-berichtje?",
+    "answers": [
+      "De hele tijd",
+      "Pas na een tijdje apart",
+      "Zelden, laat het anders merken"
+    ]
+  },
+  "0e8861dc-f445-40dc-acd8-39b6825d2abf": {
+    "en": "When you're in the car together, does {{playerName}} like holding hands?",
+    "text": "Houdt {{playerName}} graag je hand vast als jullie samen in de auto zitten?",
+    "answers": [
+      "Altijd",
+      "Soms",
+      "Heeft beide handen nodig"
+    ]
+  },
+  "95324c07-425a-4d15-9ce4-80159e7e681d": {
+    "en": "What's {{playerName}}'s favorite gift they've ever gotten from you?",
+    "text": "Wat is het leukste cadeau dat {{playerName}} ooit van jou kreeg?"
+  },
+  "4f5b2363-db4a-45ac-b84e-c456394f226d": {
+    "en": "How does {{playerName}} feel about cooking together?",
+    "text": "Hoe staat {{playerName}} tegenover samen koken?",
+    "answers": [
+      "Vindt het heerlijk",
+      "De een kookt, de ander helpt",
+      "Te chaotisch"
+    ]
+  },
+  "bb99cfdc-a916-42ae-9584-c8efc29f4784": {
+    "en": "What's {{playerName}}'s favorite memory with you?",
+    "text": "Wat is de mooiste herinnering van {{playerName}} aan jullie samen?"
+  },
+  "20c3fd78-4175-4c32-9545-a4c74b10856f": {
+    "en": "What nickname would {{playerName}} love you to call them?",
+    "text": "Met welk koosnaampje zou {{playerName}} graag door jou genoemd worden?"
+  },
+  "ee761baa-8a83-4e12-ad9e-9b93262037ee": {
+    "en": "How does {{playerName}} feel about inside jokes with a partner?",
+    "text": "Hoe denkt {{playerName}} over inside jokes met een partner?",
+    "answers": [
+      "Kan niet zonder",
+      "Heeft een paar favorieten",
+      "Niet echt een fan"
+    ]
+  },
+  "c0b28a60-af14-4d78-bf1c-71b01b6e9781": {
+    "en": "How does {{playerName}} feel about long walks together?",
+    "text": "Hoe staat {{playerName}} tegenover lange wandelingen samen?",
+    "answers": [
+      "Favoriete soort date",
+      "Af en toe leuk",
+      "Zit liever ergens"
+    ]
+  },
+  "c0bd510b-8853-40c8-954c-5da8d83539e8": {
+    "en": "How does {{playerName}} react when you sing to them?",
+    "text": "Je zingt een liedje voor {{playerName}}. Wat is de reactie?",
+    "answers": [
+      "Smelt",
+      "Moet lachen",
+      "Zingt mee",
+      "Vraagt je te stoppen"
+    ]
+  },
+  "ed027bd1-f69f-478f-bee8-0a9228254da7": {
+    "en": "When {{playerName}} sees something that reminds them of you, what do they do?",
+    "text": "Wat doet {{playerName}} als iets aan jou doet denken?",
+    "answers": [
+      "Stuurt je een foto",
+      "Koopt het voor je",
+      "Vertelt het je later",
+      "Glimlacht stilletjes"
+    ]
+  },
+  "028beae9-fde3-42a9-a054-07a4dbbabcb0": {
+    "en": "How does {{playerName}} feel about road trips together?",
+    "text": "Hoe staat {{playerName}} tegenover samen een roadtrip maken?",
+    "answers": [
+      "Favoriete manier van reizen",
+      "Alleen korte",
+      "Vliegt liever"
+    ]
+  },
+  "b4a70fed-3cd4-4e55-9e22-97b5562bce50": {
+    "en": "How does {{playerName}} feel about watching the sunset together?",
+    "text": "Hoe staat {{playerName}} tegenover samen naar de zonsondergang kijken?",
+    "answers": [
+      "Smelt elke keer",
+      "Af en toe leuk",
+      "Snapt de hype niet"
+    ]
+  },
+  "cf5d6a6f-6357-4012-8fb4-140bc2c4f96c": {
+    "en": "When you're apart, how does {{playerName}} usually stay in touch?",
+    "text": "Hoe houdt {{playerName}} meestal contact als jullie niet bij elkaar zijn?",
+    "answers": [
+      "Bellen",
+      "De hele dag appen",
+      "Spraakberichten",
+      "Videobellen"
+    ]
+  },
+  "c3c74699-6d51-40f8-9586-75b6e70eeeed": {
+    "en": "After a fight, how quickly does {{playerName}} say sorry?",
+    "text": "Hoe snel zegt {{playerName}} sorry na een ruzie?",
+    "answers": [
+      "Meteen",
+      "Eerst even afkoelen",
+      "Wacht tot jij het eerst zegt"
+    ]
+  },
+  "d35c16f5-47c4-4441-9e0c-7e6302acbb98": {
+    "en": "How does {{playerName}} feel about giving massages?",
+    "text": "Hoe staat {{playerName}} tegenover een massage geven?",
+    "answers": [
+      "Geeft er dolgraag een",
+      "Alleen als je erom vraagt",
+      "Krijgt er liever een"
+    ]
+  },
+  "5e74dced-4bfb-4b03-9528-d54ad42f4037": {
+    "en": "How would {{playerName}} feel about taking dance classes together?",
+    "text": "Hoe zou {{playerName}} het vinden om samen op dansles te gaan?",
+    "answers": [
+      "Zou het geweldig vinden",
+      "Eén keer, voor de lol",
+      "Echt niet"
+    ]
+  },
+  "512d800b-d7ff-4309-8b5d-70f4d0db6e8c": {
+    "en": "How does {{playerName}} feel about adopting a pet together?",
+    "text": "Hoe staat {{playerName}} tegenover samen een huisdier nemen?",
+    "answers": [
+      "Is er nu al klaar voor",
+      "Ooit",
+      "Geen interesse"
+    ]
+  },
+  "3db5b1ff-4d70-4d69-808a-27382595baa1": {
+    "en": "When you're sick, what does {{playerName}} do?",
+    "text": "Wat doet {{playerName}} als jij ziek bent?",
+    "answers": [
+      "Regelt alles",
+      "Brengt soep en checkt hoe het gaat",
+      "Appt vanaf een afstandje",
+      "Raakt in paniek"
+    ]
+  },
+  "92a22485-f820-45d0-83e4-ab79238d7d89": {
+    "en": "How does {{playerName}} feel about Valentine's Day?",
+    "text": "Hoe denkt {{playerName}} over Valentijnsdag?",
+    "answers": [
+      "Pakt groots uit",
+      "Een klein gebaar is genoeg",
+      "Vindt het pure marketing"
+    ]
+  },
+  "bf48ba1b-6bbd-4024-b2e5-b85cc5b82fb2": {
+    "en": "How does {{playerName}} feel about you taking photos of them?",
+    "text": "Hoe vindt {{playerName}} het om door jou gefotografeerd te worden?",
+    "answers": [
+      "Poseert dolgraag",
+      "Alleen van de goede kant",
+      "Verbergt het gezicht"
+    ]
+  },
+  "a323a07a-bf57-46e6-962f-73895cc7fbdb": {
+    "en": "Which chore does {{playerName}} happily do for you?",
+    "text": "Welk klusje in huis doet {{playerName}} met plezier voor jou?",
+    "answers": [
+      "Koken",
+      "Afwassen",
+      "De was",
+      "Boodschappen doen",
+      "Geen enkel, leuk geprobeerd"
+    ]
+  },
+  "4dbcf0c0-3b53-423d-b632-ac62285221f1": {
+    "en": "How would {{playerName}} love to spend New Year's Eve with you?",
+    "text": "Hoe zou {{playerName}} oudejaarsavond het liefst met jou doorbrengen?",
+    "answers": [
+      "Op een groot feest",
+      "Alleen jullie tweeën",
+      "Met familie",
+      "Voor middernacht al in slaap"
+    ]
+  },
+  "c718c4f9-d752-4afd-8f09-36e6ce0ffee9": {
+    "en": "How does {{playerName}} like to fall asleep next to you?",
+    "text": "Hoe valt {{playerName}} het liefst naast je in slaap?",
+    "answers": [
+      "Hoofd op je borst",
+      "Hand in hand",
+      "Benen verstrengeld",
+      "Rug aan rug"
+    ]
+  },
+  "8616c7c3-6247-4327-bff2-b82c78533937": {
+    "en": "How does {{playerName}} feel about flirting with you in front of others?",
+    "text": "Hoe staat {{playerName}} tegenover met jou flirten waar anderen bij zijn?",
+    "answers": [
+      "Vindt de spanning heerlijk",
+      "Alleen subtiel",
+      "Bewaart het voor als jullie alleen zijn"
+    ]
+  },
+  "a17464b3-ef66-4fd0-9c8f-959c10c51527": {
+    "en": "How does {{playerName}} feel about cuddling when it's hot outside?",
+    "text": "Hoe staat {{playerName}} tegenover knuffelen als het warm is?",
+    "answers": [
+      "Altijd, warm of niet",
+      "Alleen met de airco aan",
+      "Afblijven tot de winter"
+    ]
+  },
+  "d40fcdb4-c134-4918-8387-b0fd0ce59b60": {
+    "en": "How long does {{playerName}} like a morning cuddle to last?",
+    "text": "Hoelang wil {{playerName}} ’s ochtends knuffelen?",
+    "answers": [
+      "Heel even",
+      "Zo’n 5 minuten",
+      "Kan de hele ochtend blijven liggen",
+      "Houdt niet van ochtendknuffels"
+    ]
+  },
+  "fb287bfb-df5f-4bef-b15f-867244572371": {
+    "en": "How does {{playerName}} feel about playing footsie under the table?",
+    "text": "Hoe staat {{playerName}} tegenover voetjevrijen onder tafel?",
+    "answers": [
+      "Vindt het heerlijk",
+      "Lacht en doet mee",
+      "Trekt de voeten terug"
+    ]
+  },
+  "271796d1-b618-46f6-89cf-72c719b420b3": {
+    "en": "How does {{playerName}} feel about cuddling during a movie?",
+    "text": "Hoe staat {{playerName}} tegenover knuffelen tijdens een film?",
+    "answers": [
+      "De hele film",
+      "Tot de film spannend wordt",
+      "Heeft eigen ruimte nodig"
+    ]
+  },
+  "bacfd5fb-ef55-4144-ad17-e9dc138e5715": {
+    "en": "When you're cold, what does {{playerName}} do?",
+    "text": "Wat doet {{playerName}} als jij het koud hebt?",
+    "answers": [
+      "Doet de jas uit voor je",
+      "Knuffelt je stevig",
+      "Zegt: “Ik zei het toch”",
+      "Zet de verwarming hoger"
+    ]
+  },
+  "68d163d4-311c-4df9-9ddb-fb626513290f": {
+    "en": "How does {{playerName}} feel about cuddling in public, like on a park bench?",
+    "text": "Hoe staat {{playerName}} tegenover knuffelen in het openbaar, zoals op een bankje in het park?",
+    "answers": [
+      "Vindt het heerlijk",
+      "Een beetje kan",
+      "Bewaart het voor thuis"
+    ]
+  },
+  "1a7c65d8-abac-4ab0-a252-46030a85e57c": {
+    "en": "How does {{playerName}} feel about you drawing on their back with your finger?",
+    "text": "Je tekent met je vinger op de rug van {{playerName}}. Wat is de reactie?",
+    "answers": [
+      "Heerlijk",
+      "Te kietelig",
+      "Valt meteen in slaap",
+      "Probeert de vorm te raden"
+    ]
+  },
+  "fbe5d714-2a14-48f2-acf5-408782341481": {
+    "en": "How does {{playerName}} feel about piggyback rides?",
+    "text": "Hoe denkt {{playerName}} over op de rug gedragen worden?",
+    "answers": [
+      "Vindt het geweldig",
+      "Alleen als de benen moe zijn",
+      "Draagt liever zelf",
+      "Voelt zich er gek bij"
+    ]
+  },
+  "dfc86686-6866-4a23-bb37-353ad50677da": {
+    "en": "On a long bus or plane ride, does {{playerName}} fall asleep on your shoulder?",
+    "text": "Valt {{playerName}} tijdens een lange bus- of vliegreis op je schouder in slaap?",
+    "answers": [
+      "Elke keer",
+      "Alleen met loodzware ogen",
+      "Kan zo niet slapen",
+      "Andersom: jij valt in slaap"
+    ]
+  },
+  "cf9a252d-ee3b-45ca-a038-a95babace7fd": {
+    "en": "In bed, does {{playerName}} put their cold feet on you?",
+    "text": "Legt {{playerName}} in bed koude voeten tegen je aan?",
+    "answers": [
+      "Elke nacht",
+      "Soms, expres",
+      "Nooit, altijd warme voeten"
+    ]
+  },
+  "584ad277-5458-4583-bae7-761f728440fa": {
+    "en": "Does {{playerName}} steal the blanket at night?",
+    "text": "Steelt {{playerName}} ’s nachts het dekbed?",
+    "answers": [
+      "Elke nacht",
+      "Soms",
+      "Nooit, deelt eerlijk",
+      "Jij bent de dief"
+    ]
+  },
+  "fb34cc17-6029-405b-a37e-1aa9e01a2538": {
+    "en": "How does {{playerName}} feel about being tickled?",
+    "text": "Hoe denkt {{playerName}} over gekieteld worden?",
+    "answers": [
+      "Vindt het heerlijk",
+      "Lacht, maar haat het",
+      "Streng verboden"
+    ]
+  },
+  "566c4ec7-94ab-414f-8453-eb373885d216": {
+    "en": "How does {{playerName}} feel about you resting your head on their lap?",
+    "text": "Je legt je hoofd bij {{playerName}} op schoot. Wat is de reactie?",
+    "answers": [
+      "Heerlijk, speelt met je haar",
+      "Prima, voor even",
+      "Krijgt een slapend been"
+    ]
+  },
+  "71c91998-41c8-4284-a017-f23bcfca973f": {
+    "en": "At night in bed, how much does {{playerName}} talk before falling asleep?",
+    "text": "Hoeveel praat {{playerName}} ’s avonds in bed voor het slapengaan?",
+    "answers": [
+      "Kletst tot de ogen dichtvallen",
+      "Paar woorden, dan slapen",
+      "Slaapt meteen als een blok"
+    ]
+  },
+  "186e2323-e74d-4a2c-a97a-c096f09fbf6a": {
+    "en": "How does {{playerName}} feel about sharing earbuds with you?",
+    "text": "Hoe staat {{playerName}} tegenover oortjes delen met jou?",
+    "answers": [
+      "Vindt het leuk",
+      "Voor één nummer",
+      "Heeft beide oren nodig"
+    ]
+  },
+  "b5b7464c-ed09-41e5-af07-89584a8accc4": {
+    "en": "At what age would {{playerName}} like to get married? Write never if they don't want to.",
+    "text": "Op welke leeftijd wil {{playerName}} trouwen? Typ “nooit” als trouwen er niet in zit."
+  },
+  "1fa6303e-48c2-49b7-bde8-31a1ffd430c6": {
+    "en": "What kind of wedding does {{playerName}} dream of?",
+    "text": "Van wat voor bruiloft droomt {{playerName}}?",
+    "answers": [
+      "Een groot feest",
+      "Klein en intiem",
+      "Een bruiloft in het buitenland",
+      "Alleen tekenen, geen ceremonie"
+    ]
+  },
+  "03b62bf8-cd94-4d6c-9cf5-768f6416b7d0": {
+    "en": "Who was {{playerName}}'s first celebrity crush as a kid?",
+    "text": "Op welke beroemdheid was {{playerName}} als kind voor het eerst verliefd?"
+  },
+  "6b73c5ca-feb7-4d89-89d3-30030e67b220": {
+    "en": "Where would {{playerName}} love to be proposed to?",
+    "text": "Waar zou {{playerName}} graag ten huwelijk gevraagd worden?",
+    "answers": [
+      "Op het strand bij zonsondergang",
+      "Thuis, alleen jullie tweeën",
+      "Waar familie en vrienden bij zijn",
+      "In een chic restaurant"
+    ]
+  },
+  "1cf60842-17a0-46b3-95ff-5b7741f37888": {
+    "en": "Which song would {{playerName}} want for their wedding's first dance?",
+    "text": "Welk nummer wil {{playerName}} voor de openingsdans op de bruiloft?"
+  },
+  "719aeb6d-792f-4a87-9a22-2edb862bd44f": {
+    "en": "How long does {{playerName}} think a couple should date before getting engaged?",
+    "text": "Hoelang moet een stel volgens {{playerName}} samen zijn voor een verloving?",
+    "answers": [
+      "Minder dan een jaar",
+      "1-2 jaar",
+      "3-5 jaar",
+      "Geen enkele haast"
+    ]
+  },
+  "9e57117a-0fa1-4441-bb07-f7881ddab173": {
+    "en": "How many dates does {{playerName}} think should come before a first kiss?",
+    "text": "Na hoeveel dates hoort volgens {{playerName}} de eerste kus?",
+    "answers": [
+      "De eerste date kan prima",
+      "2-3 dates",
+      "4 of meer",
+      "Geen regels"
+    ]
+  },
+  "0bee78f3-1f8e-4cd0-9f87-7935107663c0": {
+    "en": "What kind of honeymoon would {{playerName}} pick?",
+    "text": "Wat voor huwelijksreis zou {{playerName}} kiezen?",
+    "answers": [
+      "Strand en relaxen",
+      "Van stad naar stad",
+      "Avontuur en natuur",
+      "Een roadtrip"
+    ]
+  },
+  "89123ef6-61e1-4291-b833-98c7ed6aecac": {
+    "en": "What name would {{playerName}} love to give their first child? Write none if they don't want kids.",
+    "text": "Hoe zou {{playerName}} het eerste kind het liefst noemen? Typ “geen” als kinderen er niet in zitten."
+  },
+  "5b678108-1630-4c12-bb6b-5119b1aeb2fd": {
+    "en": "How does {{playerName}} feel about living together before marriage?",
+    "text": "Hoe staat {{playerName}} tegenover samenwonen vóór het huwelijk?",
+    "answers": [
+      "Een must",
+      "Kan allebei",
+      "Pas na het huwelijk"
+    ]
+  },
+  "b896a88c-c43f-4e58-a4dd-62b9ff025423": {
+    "en": "How does {{playerName}} feel about a joint bank account as a couple?",
+    "text": "Hoe staat {{playerName}} tegenover een gezamenlijke rekening als stel?",
+    "answers": [
+      "Alles samen",
+      "Samen plus eigen",
+      "Helemaal gescheiden"
+    ]
+  },
+  "8c91b4ee-f250-479d-89f3-702b3b70832a": {
+    "en": "What's {{playerName}}'s biggest deal-breaker in a relationship?",
+    "text": "Wat is voor {{playerName}} de grootste dealbreaker in een relatie?",
+    "answers": [
+      "Liegen",
+      "Jaloezie",
+      "Gebrek aan respect",
+      "Luiheid"
+    ]
+  },
+  "18918be4-6dab-4039-8c8e-c37d9d78b77a": {
+    "en": "How does {{playerName}} feel about couples therapy?",
+    "text": "Hoe staat {{playerName}} tegenover relatietherapie?",
+    "answers": [
+      "Goed idee, altijd",
+      "Alleen bij problemen",
+      "Ziet het niet zitten"
+    ]
+  },
+  "c39bcbdd-6bd3-4ed5-9581-aa4d3af4a8d0": {
+    "en": "How does {{playerName}} feel about couples sleeping in separate beds?",
+    "text": "Hoe denkt {{playerName}} over stellen die in aparte bedden slapen?",
+    "answers": [
+      "Nooit doen",
+      "Alleen als iemand snurkt",
+      "Klinkt eerlijk gezegd heerlijk"
+    ]
+  },
+  "11881fa3-028b-4408-9923-3390338938f0": {
+    "en": "How does {{playerName}} feel about having kids someday?",
+    "text": "Hoe staat {{playerName}} tegenover later kinderen krijgen?",
+    "answers": [
+      "Wil zeker kinderen",
+      "Misschien, nog niet zeker",
+      "Wil geen kinderen"
+    ]
+  },
+  "a3878ad1-c0c8-4f1f-ab15-f155b987909a": {
+    "en": "How would {{playerName}} feel if their partner earned a lot more than them?",
+    "text": "Hoe zou {{playerName}} het vinden als een partner veel meer verdient?",
+    "answers": [
+      "Helemaal prima",
+      "Beetje vreemd",
+      "Verdient liever zelf meer"
+    ]
+  },
+  "c0cd1b97-f84d-47c8-9376-bf3c4b3996d6": {
+    "en": "After marriage, how close does {{playerName}} want to live to their parents?",
+    "text": "Hoe dicht bij de eigen ouders wil {{playerName}} na het trouwen wonen?",
+    "answers": [
+      "Zo dichtbij mogelijk",
+      "Dezelfde stad is genoeg",
+      "Hoe verder, hoe beter"
+    ]
+  },
+  "74705d76-6191-4da0-b08a-ea2ece7fc561": {
+    "en": "What does {{playerName}} find more romantic?",
+    "text": "Wat vindt {{playerName}} romantischer?",
+    "answers": [
+      "Grote gebaren",
+      "Kleine dagelijkse dingen",
+      "Een mix van beide"
+    ]
+  },
+  "3eee6ce7-38c2-40e7-98fc-ab036b372c3a": {
+    "en": "How long does it take {{playerName}} to get affectionate with someone new?",
+    "text": "Hoelang duurt het voordat {{playerName}} aanhalig wordt met iemand nieuws?",
+    "answers": [
+      "Meteen",
+      "Na een paar dates",
+      "Een paar weken",
+      "Maanden"
+    ]
+  },
+  "78cf8a3c-1a27-457b-b826-e87c9249632f": {
+    "en": "What does {{playerName}} love most about being in love?",
+    "text": "Wat vindt {{playerName}} het mooiste aan verliefd zijn?",
+    "answers": [
+      "De vlinders",
+      "Je veilig voelen",
+      "Een partner in crime hebben",
+      "De lichamelijke nabijheid"
+    ]
+  },
+  "418127a7-370d-4e07-b2ea-58268797c159": {
+    "en": "Which setting feels most romantic to {{playerName}}?",
+    "text": "Welke setting vindt {{playerName}} het romantischst?",
+    "answers": [
+      "Kaarslicht",
+      "Onder de sterren",
+      "Regen tegen het raam",
+      "Bij de open haard"
+    ]
+  },
+  "23de8a5f-4637-4904-a694-503d2956f946": {
+    "en": "How does {{playerName}} most like to receive love?",
+    "text": "Waarmee voelt {{playerName}} zich het meest geliefd?",
+    "answers": [
+      "Lieve woorden",
+      "Aanraking",
+      "Kleine cadeautjes",
+      "Quality time",
+      "Hulp bij alledaagse dingen"
+    ]
+  },
+  "f2241fe7-454d-4bad-85d1-93605b59514c": {
+    "en": "What's {{playerName}}'s favorite kind of date?",
+    "text": "Wat is de favoriete soort date van {{playerName}}?",
+    "answers": [
+      "Lekker uit eten",
+      "Iets avontuurlijks",
+      "Gezellige avond thuis",
+      "Concert of voorstelling"
+    ]
+  },
+  "1d4ceb01-3f65-4edf-84de-10da86582aa0": {
+    "en": "Which romantic cliché does {{playerName}} secretly love?",
+    "text": "Op welk romantisch cliché valt {{playerName}} stiekem?",
+    "answers": [
+      "Overal rozenblaadjes",
+      "Een serenade als verrassing",
+      "Ontbijt op bed",
+      "Een liefdesbrief"
+    ]
+  }
+}

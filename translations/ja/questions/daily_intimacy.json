@@ -1,0 +1,69 @@
+{
+  "dae2d4cc-1750-4ff2-ad27-8844b09f1ea3": {
+    "en": "When do you feel closest to your partner?",
+    "text": "恋人を一番近くに感じるのはどんなとき？",
+    "answers": [
+      "夜遅くまで話してるとき",
+      "一緒に笑ってるとき",
+      "くっついてるとき",
+      "大変なことを一緒に乗り越えたあと"
+    ]
+  },
+  "b1333bff-a865-4cb9-9293-ec4f88e184e2": {
+    "en": "How satisfied are you with your physical closeness lately?",
+    "text": "最近のスキンシップ、どれくらい満足してる？",
+    "answers": [
+      "すごく満足",
+      "だいたい満足",
+      "もっとほしい",
+      "何かしっくりこない"
+    ]
+  },
+  "54b1befc-8d38-4ad9-b0f7-4ecc5da68448": {
+    "en": "How do you like intimacy to begin?",
+    "text": "いい雰囲気になるとき、どう始まるのが好き？",
+    "answers": [
+      "ゆっくり、あせらず",
+      "自然な流れで",
+      "まずは言葉から",
+      "計画的に、待つ時間もドキドキ"
+    ]
+  },
+  "a23bd9c0-604e-42e9-a98a-4f1494b812c3": {
+    "en": "What kills the mood fastest for you?",
+    "text": "一番ムードが冷めるのは？",
+    "answers": [
+      "スマホ",
+      "その日のストレス",
+      "急かされること",
+      "解決してないわだかまり"
+    ]
+  },
+  "6689e4d3-270f-4a02-9581-f286060425d0": {
+    "en": "How important is affection outside the bedroom to you?",
+    "text": "ベッド以外での愛情表現って、どれくらい大事？",
+    "answers": [
+      "絶対に必要",
+      "あるとすごくうれしい",
+      "そこまで重要じゃない"
+    ]
+  },
+  "3cb8d865-6f52-410b-a73c-647cc8ed78fb": {
+    "en": "Telling your partner what you want in intimacy is…",
+    "text": "ベッドでしてほしいことを恋人に伝えるのは…",
+    "answers": [
+      "簡単にできる",
+      "メッセージのほうが言いやすい",
+      "照れくさいけど伝えたい",
+      "つい避けちゃう"
+    ]
+  },
+  "176ce7a7-80c4-44da-b820-4488d4d1d280": {
+    "en": "Which moment between you two do you keep replaying in your head?",
+    "text": "ふたりの思い出で、何度も思い返しちゃう瞬間は？"
+  },
+  "0d7aff47-dea9-4a0b-a71b-03f9e196e0f5": {
+    "en": "In a few words: what makes you feel desired?",
+    "text": "ひとことで言うと、どんなときに求められてるって感じる？"
+  }
+}

@@ -1,8 +1,9 @@
 /**
  * Profanity masking for short user text (typed answers, player names), backed
  * by terlik.js. The answer's language is unknown, so the Turkish, English,
- * Spanish, German, Portuguese, Italian and Polish word lists all run and their
- * matches are merged. A flagged span
+ * Spanish, German, Portuguese, Italian, Polish, French and Dutch word lists all
+ * run and their matches are merged. Japanese has no list (no word boundaries, so
+ * substring matching would flag everyday words); moderation covers it. A flagged span
  * keeps its first character and the rest becomes "*".
  */
 import { Terlik } from "terlik.js";
@@ -37,9 +38,23 @@ const POLISH_WORDS = [
   "skurwiel", "cipa", "kutas", "ciota", "zjeb", "debil",
 ];
 
+// French and Dutch ride on the English filter too. French "con" (es/it "with"),
+// "bite" (English "bite") and "chatte" (cat) are left out, as are Dutch "kanker"
+// (cancer), "eikel" (acorn) and "pik" (also a plain word in other languages).
+const FRENCH_WORDS = [
+  "putain", "merde", "connard", "connasse", "salope", "salopes", "enculé", "encule",
+  "enculer", "enculés", "niquer", "nique", "ntm", "pute", "putes", "pétasse", "petasse",
+  "foutre", "branleur", "branleuse", "pédé", "tapette", "bâtard", "batard", "couilles",
+  "fdp", "bordel de merde",
+];
+const DUTCH_WORDS = [
+  "kut", "kutwijf", "klootzak", "klootzakken", "lul", "godverdomme", "tering", "tyfus",
+  "hoer", "hoeren", "neuken", "flikker", "mongool", "trut", "teringlijer", "kankerlijer",
+];
+
 const FILTERS = [
   new Terlik({ language: "tr" }),
-  new Terlik({ language: "en", customList: [...ITALIAN_WORDS, ...POLISH_WORDS] }),
+  new Terlik({ language: "en", customList: [...ITALIAN_WORDS, ...POLISH_WORDS, ...FRENCH_WORDS, ...DUTCH_WORDS] }),
   new Terlik({ language: "es", customList: PORTUGUESE_WORDS }),
   new Terlik({ language: "de" }),
 ];
@@ -52,6 +67,8 @@ const FILTERS = [
  * in Italian "non". Drop those matches by looking at how the word was spelled.
  */
 const POLISH_PREPOSITIONS = new Set(["na", "z", "ze", "w", "we", "po", "do", "u", "przy", "o", "od", "obok", "pod", "nad"]);
+
+const FRENCH_BEFORE_NOUN = new Set(["en", "du", "de", "sans", "ton", "mon", "son", "ce", "un", "le", "des", "les", "leur", "votre", "notre", "petit", "gros"]);
 
 function isFalsePositive(match: Match, text: string): boolean {
   const word = match.word.toLocaleLowerCase("tr");
@@ -100,6 +117,23 @@ function isFalsePositive(match: Match, text: string): boolean {
       return word === "put";
     case "spast":
       return !word.startsWith("spast");
+    // French and Dutch everyday words that look like English/German/Turkish insults.
+    case "retard": // French "en retard" (late)
+      return FRENCH_BEFORE_NOUN.has(before) || (word === "retards" && /[éèêàçù]/i.test(text)) || /^retard(e|é|s|er|ait)?$/.test(word) && /\b(en|du)\s+$/i.test(text.slice(0, match.index));
+    case "douche": // French/Dutch "shower"
+      return !word.startsWith("douchebag") && !["a", "you", "such", "what", "total", "big"].includes(before);
+    case "nique": // "pique-nique" (picnic)
+      return word.includes("pique");
+    case "slag": // Dutch "slagen" (to succeed), "slagroom"
+      return word.length > 5;
+    case "wog": // Dutch "woog" (weighed)
+      return word.startsWith("woo");
+    case "hure": // Dutch "huren" (to rent)
+      return word === "huren";
+    case "anal": // Dutch "aan als …" read across a space
+    case "defol":
+    case "merde": // Dutch "meer, de"
+      return /[\s,.]/.test(word) || word.length < 4;
     default:
       return false;
   }

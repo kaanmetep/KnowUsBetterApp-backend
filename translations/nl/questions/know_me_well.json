@@ -1,0 +1,1455 @@
+{
+  "33e860c5-d68a-4622-8bff-5c2395b7b4fa": {
+    "en": "Would {{playerName}} rather stay home or go out on weekends?",
+    "text": "Blijft {{playerName}} in het weekend liever thuis of gaat {{playerName}} liever uit?",
+    "answers": [
+      "Thuisblijven",
+      "Uitgaan"
+    ]
+  },
+  "b54e736a-1ca6-4282-8d2f-f8395b87aea1": {
+    "en": "Would {{playerName}} rather text or call someone?",
+    "text": "Stuurt {{playerName}} liever een berichtje of belt {{playerName}} liever?",
+    "answers": [
+      "Berichtje sturen",
+      "Bellen"
+    ]
+  },
+  "4bc843bb-07c2-4f26-b817-0f3d3b9614b9": {
+    "en": "Would {{playerName}} rather plan everything or be spontaneous?",
+    "text": "Plant {{playerName}} liever alles of is {{playerName}} liever spontaan?",
+    "answers": [
+      "Alles plannen",
+      "Spontaan zijn"
+    ]
+  },
+  "82c0e606-aae6-4ff9-b103-b95342fd82dd": {
+    "en": "Would {{playerName}} rather rewatch a favorite movie or watch something new?",
+    "text": "Kijkt {{playerName}} liever een lievelingsfilm opnieuw of iets nieuws?",
+    "answers": [
+      "Lievelingsfilm opnieuw",
+      "Iets nieuws kijken"
+    ]
+  },
+  "91ca43c8-5750-446e-a192-ac3bbc581934": {
+    "en": "Would {{playerName}} rather live near the ocean or in the mountains?",
+    "text": "Woont {{playerName}} liever aan zee of in de bergen?",
+    "answers": [
+      "Aan zee",
+      "In de bergen"
+    ]
+  },
+  "f35c8f81-62c1-4a7f-a513-8d4236bd98a5": {
+    "en": "Would {{playerName}} rather arrive too early or slightly late?",
+    "text": "Is {{playerName}} liever veel te vroeg of een beetje te laat?",
+    "answers": [
+      "Veel te vroeg",
+      "Een beetje te laat"
+    ]
+  },
+  "7d54b670-a981-422f-aced-7e9fa4bae1ec": {
+    "en": "Would {{playerName}} rather trust their head or their heart when making decisions?",
+    "text": "Vertrouwt {{playerName}} bij beslissingen meer op het hoofd of op het hart?",
+    "answers": [
+      "Hoofd",
+      "Hart"
+    ]
+  },
+  "b4de40ca-d4cd-4e56-ae5d-4dea9004dd81": {
+    "en": "Would {{playerName}} rather keep a secret or tell the truth even if it hurts?",
+    "text": "Bewaart {{playerName}} liever een geheim of vertelt {{playerName}} de waarheid, ook als die pijn doet?",
+    "answers": [
+      "Geheim bewaren",
+      "De waarheid vertellen"
+    ]
+  },
+  "f6926734-79ef-490a-a4e4-630f9273a4f5": {
+    "en": "Would {{playerName}} rather work hard for success or get lucky and succeed easily?",
+    "text": "Werkt {{playerName}} liever hard voor succes of heeft {{playerName}} liever geluk en gaat het vanzelf?",
+    "answers": [
+      "Hard werken voor succes",
+      "Geluk hebben, makkelijk slagen"
+    ]
+  },
+  "5447a180-538c-4a12-9efb-cc3a5b935f41": {
+    "en": "Would {{playerName}} rather forgive easily or hold a grudge for a long time?",
+    "text": "Vergeeft {{playerName}} snel of blijft {{playerName}} lang wrok koesteren?",
+    "answers": [
+      "Snel vergeven",
+      "Wrok koesteren"
+    ]
+  },
+  "2be6067f-ee2d-45a3-83be-4fc9c72df2ef": {
+    "en": "Would {{playerName}} rather have $1 million or marry the love of their life?",
+    "text": "Wil {{playerName}} liever 1 miljoen euro of trouwen met de grote liefde?",
+    "answers": [
+      "1 miljoen euro",
+      "Trouwen met de grote liefde"
+    ],
+    "note": "Converted $1 million to 1 miljoen euro for a Dutch/Flemish audience."
+  },
+  "12f83f4b-5b4b-4a12-a517-c315e06f329e": {
+    "en": "Would {{playerName}} rather live in their hometown or in different countries?",
+    "text": "Woont {{playerName}} liever in de eigen geboorteplaats of in verschillende landen?",
+    "answers": [
+      "Geboorteplaats",
+      "Verschillende landen"
+    ]
+  },
+  "e17c9f6b-cf1a-45b3-87f4-27c8bdc82bae": {
+    "en": "Would {{playerName}} rather cook at home or eat out?",
+    "text": "Kookt {{playerName}} liever thuis of gaat {{playerName}} liever uit eten?",
+    "answers": [
+      "Thuis koken",
+      "Uit eten"
+    ]
+  },
+  "382bc563-9823-4ab1-8071-cc2d74faf52a": {
+    "en": "Would {{playerName}} rather spend a free day alone or with friends?",
+    "text": "Brengt {{playerName}} een vrije dag liever alleen door of met vrienden?",
+    "answers": [
+      "Alleen",
+      "Met vrienden"
+    ]
+  },
+  "90825695-99aa-4d92-896a-29c6c59a277b": {
+    "en": "Would {{playerName}} rather have a high salary but a stressful job or a lower salary but a relaxed job?",
+    "text": "Heeft {{playerName}} liever een goedbetaalde, stressvolle baan of een slechter betaalde, relaxte baan?",
+    "answers": [
+      "Hoog salaris, veel stress",
+      "Lager salaris, relaxte baan"
+    ]
+  },
+  "f2281a28-c027-428c-99bd-5a083fee5ca4": {
+    "en": "Would {{playerName}} rather confess love first or wait for the other person to do it?",
+    "text": "Zegt {{playerName}} liever als eerste “ik hou van je” of wacht {{playerName}} tot de ander het zegt?",
+    "answers": [
+      "Als eerste zeggen",
+      "Wachten"
+    ]
+  },
+  "475783c3-4b71-401d-87db-c959f01b2d7e": {
+    "en": "Would {{playerName}} rather fall in love quickly or fall in love over time?",
+    "text": "Wordt {{playerName}} snel verliefd of groeit de liefde langzaam?",
+    "answers": [
+      "Snel",
+      "Langzaam"
+    ]
+  },
+  "1ab0317c-029e-4bb2-9de6-372e922d68aa": {
+    "en": "Would {{playerName}} rather express their feelings openly or keep them to themselves?",
+    "text": "Toont {{playerName}} gevoelens liever openlijk of houdt {{playerName}} ze liever voor zich?",
+    "answers": [
+      "Openlijk tonen",
+      "Voor zich houden"
+    ]
+  },
+  "786f9f17-3200-414f-9269-969c05476a85": {
+    "en": "Would {{playerName}} rather be the one who loves more or be loved more?",
+    "text": "Is {{playerName}} liever degene die het meest liefheeft of degene die het meest geliefd wordt?",
+    "answers": [
+      "Meer liefhebben",
+      "Meer geliefd worden"
+    ]
+  },
+  "0739e76d-bd4b-4bcc-a375-4048e59d974a": {
+    "en": "Would {{playerName}} rather go for someone who is emotionally intense or emotionally calm?",
+    "text": "Valt {{playerName}} eerder op iemand die emotioneel intens is of juist emotioneel rustig?",
+    "answers": [
+      "Emotioneel intens",
+      "Emotioneel rustig"
+    ]
+  },
+  "76484c65-35c7-4c3c-9a1e-42230c7921f2": {
+    "en": "Would {{playerName}} rather have a predictable life or an unpredictable exciting life?",
+    "text": "Heeft {{playerName}} liever een voorspelbaar leven of een onvoorspelbaar, spannend leven?",
+    "answers": [
+      "Voorspelbaar leven",
+      "Spannend, onvoorspelbaar leven"
+    ]
+  },
+  "239177fa-9d95-4c4e-bf05-9ca0e0153f5c": {
+    "en": "Would {{playerName}} rather have a big family or keep their family small?",
+    "text": "Wil {{playerName}} liever een groot gezin of een klein gezin?",
+    "answers": [
+      "Groot gezin",
+      "Klein gezin"
+    ]
+  },
+  "1918743a-fff6-42ba-bacb-9f6930488c49": {
+    "en": "Would {{playerName}} rather spend holidays with family or travel somewhere new?",
+    "text": "Brengt {{playerName}} vakanties liever door met familie of reist {{playerName}} liever naar een nieuwe plek?",
+    "answers": [
+      "Met familie",
+      "Naar een nieuwe plek"
+    ]
+  },
+  "77ba1277-946e-480b-b878-ed1aa3b631ad": {
+    "en": "Would {{playerName}} rather have kids early in life or later in life?",
+    "text": "Krijgt {{playerName}} liever jong kinderen of pas later?",
+    "answers": [
+      "Jong",
+      "Later"
+    ]
+  },
+  "598ab765-c9fe-4082-bc14-d4b8d064861f": {
+    "en": "Would {{playerName}} rather have one child or two children?",
+    "text": "Wil {{playerName}} liever één kind of twee kinderen?",
+    "answers": [
+      "Eén kind",
+      "Twee kinderen"
+    ]
+  },
+  "d704896b-0ef4-4c00-9fd7-3a47551b146a": {
+    "en": "Would {{playerName}} rather have a stable job for life or take risks to build their own business?",
+    "text": "Kiest {{playerName}} liever een vaste baan voor het leven of het risico van een eigen bedrijf?",
+    "answers": [
+      "Vaste baan voor het leven",
+      "Eigen bedrijf beginnen"
+    ]
+  },
+  "6fb61eae-df85-4a81-bbd6-5ead952fdd6f": {
+    "en": "Would {{playerName}} rather work remotely from anywhere or work in a fixed office environment?",
+    "text": "Werkt {{playerName}} liever op afstand, vanaf elke plek, of op een vast kantoor?",
+    "answers": [
+      "Op afstand werken",
+      "Op kantoor werken"
+    ]
+  },
+  "47219491-e82d-4220-afd0-f8f976dbacbc": {
+    "en": "Would {{playerName}} rather move in with a partner early or wait a long time before living together?",
+    "text": "Gaat {{playerName}} liever snel samenwonen of wacht {{playerName}} daar liever lang mee?",
+    "answers": [
+      "Snel samenwonen",
+      "Lang wachten"
+    ]
+  },
+  "245377c3-2b87-4c1e-a318-e374030cc54a": {
+    "en": "If {{playerName}} had to choose, would they rather be with someone who is very jealous or someone who is very stingy?",
+    "text": "Als {{playerName}} moest kiezen: liever een relatie met iemand die heel jaloers is of met iemand die heel gierig is?",
+    "answers": [
+      "Heel jaloers",
+      "Heel gierig"
+    ]
+  },
+  "11fcbe7e-56a2-4147-b883-7adfe6ae91bf": {
+    "en": "If {{playerName}} had to choose, would they rather be with someone who is very controlling or someone who is very emotionally distant?",
+    "text": "Als {{playerName}} moest kiezen: liever een relatie met iemand die heel controlerend is of met iemand die emotioneel heel afstandelijk is?",
+    "answers": [
+      "Heel controlerend",
+      "Emotioneel afstandelijk"
+    ]
+  },
+  "8ffb0025-b2a9-4460-a1ed-cb5a661a2088": {
+    "en": "Would {{playerName}} rather be with someone very ambitious or someone very content with life?",
+    "text": "Wil {{playerName}} liever samen zijn met iemand die heel ambitieus is of met iemand die heel tevreden is met het leven?",
+    "answers": [
+      "Heel ambitieus",
+      "Heel tevreden"
+    ]
+  },
+  "3408836d-1ecf-441a-960f-2fea5ad49e27": {
+    "en": "Would {{playerName}} rather have a cat or a dog as a pet?",
+    "text": "Wil {{playerName}} liever een kat of een hond als huisdier?",
+    "answers": [
+      "Kat",
+      "Hond"
+    ]
+  },
+  "1f6efff9-3add-4515-85f1-c6d272731369": {
+    "en": "Would {{playerName}} rather be famous or live a completely private life?",
+    "text": "Wordt {{playerName}} liever beroemd of leeft {{playerName}} liever volledig privé?",
+    "answers": [
+      "Beroemd zijn",
+      "Volledig privé"
+    ]
+  },
+  "89b861b5-b18b-4c8f-a6db-d3267f82af3f": {
+    "en": "Would {{playerName}} rather always tell the truth or always avoid conflict?",
+    "text": "Vertelt {{playerName}} liever altijd de waarheid of gaat {{playerName}} conflicten liever altijd uit de weg?",
+    "answers": [
+      "Altijd de waarheid",
+      "Conflicten vermijden"
+    ]
+  },
+  "390d3b45-4e67-40bf-a304-e54b49a54d93": {
+    "en": "Would {{playerName}} rather forgive easily or take time before forgiving someone?",
+    "text": "Vergeeft {{playerName}} iemand snel of is daar eerst tijd voor nodig?",
+    "answers": [
+      "Snel vergeven",
+      "Tijd nodig om te vergeven"
+    ]
+  },
+  "778652b2-f2c7-4a02-8dbf-bf8fbb62d089": {
+    "en": "Would {{playerName}} rather take things slow in a relationship or feel instant chemistry?",
+    "text": "Doet {{playerName}} het in een relatie liever rustig aan of wil {{playerName}} meteen een klik voelen?",
+    "answers": [
+      "Rustig aan",
+      "Meteen een klik"
+    ]
+  },
+  "6b1a102c-c5a3-4261-97eb-1379c2d19a64": {
+    "en": "Would {{playerName}} rather show affection in public or keep it private?",
+    "text": "Toont {{playerName}} genegenheid liever in het openbaar of houdt {{playerName}} het liever privé?",
+    "answers": [
+      "In het openbaar",
+      "Privé"
+    ]
+  },
+  "1a19c968-2cfd-4823-80a6-b871d121e44a": {
+    "en": "Would {{playerName}} rather have intense chemistry or emotional comfort in a relationship?",
+    "text": "Wil {{playerName}} in een relatie liever intense chemie of emotionele geborgenheid?",
+    "answers": [
+      "Intense chemie",
+      "Emotionele geborgenheid"
+    ]
+  },
+  "8ca453c1-959a-4c76-9ea7-54987d756b27": {
+    "en": "Would {{playerName}} rather have a partner who is very jealous or someone who gives complete freedom?",
+    "text": "Wil {{playerName}} liever een partner die heel jaloers is of iemand die alle vrijheid geeft?",
+    "answers": [
+      "Heel jaloers",
+      "Geeft alle vrijheid"
+    ]
+  },
+  "d5fadf41-1231-4b0c-8efa-9d625b1ca6fb": {
+    "en": "Would {{playerName}} rather be with someone very expressive physically or someone more controlled and calm?",
+    "text": "Wil {{playerName}} liever samen zijn met iemand die fysiek heel expressief is of met iemand die beheerster en rustiger is?",
+    "answers": [
+      "Heel expressief",
+      "Beheerst en rustig"
+    ]
+  },
+  "f1ed238f-43db-4120-a454-f66430ed55c7": {
+    "en": "Would {{playerName}} rather be in a relationship with strong physical chemistry or strong emotional connection?",
+    "text": "Wil {{playerName}} liever een relatie met sterke fysieke aantrekking of met een sterke emotionele band?",
+    "answers": [
+      "Fysieke aantrekking",
+      "Emotionele band"
+    ]
+  },
+  "aefd3291-56f1-4c7b-ae95-6cace501472d": {
+    "en": "Does {{playerName}} prefer sunny or rainy weather?",
+    "text": "Houdt {{playerName}} meer van zonnig of van regenachtig weer?",
+    "answers": [
+      "Zonnig",
+      "Regenachtig"
+    ]
+  },
+  "9cb91fa0-017a-492d-adbe-adb31919cbdd": {
+    "en": "Does {{playerName}} prefer intimacy in the morning or at night?",
+    "text": "Heeft {{playerName}} intieme momenten liever 's ochtends of 's avonds?",
+    "answers": [
+      "'s Ochtends",
+      "'s Avonds"
+    ]
+  },
+  "a003660c-bffd-47f5-952c-0a40d2a45686": {
+    "en": "Does {{playerName}} prefer spontaneous or planned intimacy?",
+    "text": "Heeft {{playerName}} intimiteit liever spontaan of gepland?",
+    "answers": [
+      "Spontaan",
+      "Gepland"
+    ]
+  },
+  "8a17d77f-14ed-4528-b669-78594d0da8ac": {
+    "en": "Does {{playerName}} prefer a wild night out or a cozy night in?",
+    "text": "Heeft {{playerName}} liever een wild avondje uit of een knus avondje thuis?",
+    "answers": [
+      "Avondje uit",
+      "Avondje thuis"
+    ]
+  },
+  "a0fac6c6-6686-45b8-8cf4-408edc5d032c": {
+    "en": "Does {{playerName}} prefer a beach vacation or a mountain vacation?",
+    "text": "Gaat {{playerName}} liever op strandvakantie of naar de bergen?",
+    "answers": [
+      "Strand",
+      "Bergen"
+    ]
+  },
+  "cffb0f75-9040-45b1-8d12-300ef3ca08be": {
+    "en": "Does {{playerName}} prefer a sweet text message or a long phone call?",
+    "text": "Krijgt {{playerName}} liever een lief berichtje of een lang telefoongesprek?",
+    "answers": [
+      "Lief berichtje",
+      "Lang telefoongesprek"
+    ]
+  },
+  "59e97775-72fe-4bf0-9f4c-5b0cd575a4ce": {
+    "en": "Does {{playerName}} prefer a surprise date or a carefully planned one?",
+    "text": "Heeft {{playerName}} liever een verrassingsdate of een goed geplande date?",
+    "answers": [
+      "Verrassingsdate",
+      "Geplande date"
+    ]
+  },
+  "d164f584-fdb2-4f62-b924-781f1bd75ac9": {
+    "en": "Does {{playerName}} prefer receiving compliments on their looks or their personality?",
+    "text": "Krijgt {{playerName}} liever complimenten over het uiterlijk of over het karakter?",
+    "answers": [
+      "Uiterlijk",
+      "Karakter"
+    ]
+  },
+  "0492fd1f-f383-4660-8df4-d63bc67d178a": {
+    "en": "Does {{playerName}} prefer making big life decisions solo or together with their partner?",
+    "text": "Neemt {{playerName}} grote levensbeslissingen liever alleen of samen met de partner?",
+    "answers": [
+      "Alleen",
+      "Samen"
+    ]
+  },
+  "94f9ac5e-0878-4a02-ae8c-7b4008f74ad4": {
+    "en": "If {{playerName}} could time travel, would they fix a mistake in the past or visit the future?",
+    "text": "Als {{playerName}} kon tijdreizen: een fout uit het verleden rechtzetten of de toekomst bezoeken?",
+    "answers": [
+      "Het verleden rechtzetten",
+      "De toekomst bezoeken"
+    ]
+  },
+  "bd441de0-5c15-4416-99b1-89df1671c114": {
+    "en": "Was {{playerName}} a mischievous troublemaker or a quiet, rule-following kid?",
+    "text": "Was {{playerName}} als kind een echte deugniet of een rustig kind dat zich aan de regels hield?",
+    "answers": [
+      "Deugniet",
+      "Rustig kind"
+    ]
+  },
+  "347689ab-707b-4407-a09f-69f9f19343de": {
+    "en": "As a child, did {{playerName}} prefer playing outside in the dirt or staying indoors with toys?",
+    "text": "Speelde {{playerName}} als kind liever buiten in de modder of binnen met speelgoed?",
+    "answers": [
+      "Buiten spelen",
+      "Binnen spelen"
+    ]
+  },
+  "c022d8ce-34b3-4ab0-a227-06d30b81bd48": {
+    "en": "Does {{playerName}} prefer to keep their food separate on the plate or mix it all together?",
+    "text": "Houdt {{playerName}} het eten op het bord liever gescheiden of gooit {{playerName}} alles door elkaar?",
+    "answers": [
+      "Gescheiden houden",
+      "Alles door elkaar"
+    ]
+  },
+  "060551e0-79ca-4006-9c48-f247b618ce82": {
+    "en": "Does {{playerName}} prefer sleeping in absolute silence or with some background noise (like music or a fan)?",
+    "text": "Slaapt {{playerName}} liever in doodse stilte of met wat geluid op de achtergrond (zoals muziek of een ventilator)?",
+    "answers": [
+      "Doodse stilte",
+      "Achtergrondgeluid"
+    ]
+  },
+  "df4aa404-cddd-4a94-b2bb-04fa25a26220": {
+    "en": "Would {{playerName}} rather be remembered for their intelligence or their kindness?",
+    "text": "Wil {{playerName}} liever herinnerd worden vanwege intelligentie of vanwege vriendelijkheid?",
+    "answers": [
+      "Intelligentie",
+      "Vriendelijkheid"
+    ]
+  },
+  "d3b1c0c7-84b5-46cf-9492-69d50264f744": {
+    "en": "When stressed, does {{playerName}} isolate to cope or seek support from loved ones?",
+    "text": "Trekt {{playerName}} zich bij stress terug of zoekt {{playerName}} steun bij dierbaren?",
+    "answers": [
+      "Zich terugtrekken",
+      "Steun zoeken"
+    ]
+  },
+  "85b2e103-ec68-46a7-969f-9a2a9845765f": {
+    "en": "When making a major decision, does {{playerName}} follow their gut instinct or do they need to analyze all the facts?",
+    "text": "Volgt {{playerName}} bij een grote beslissing het onderbuikgevoel of moeten eerst alle feiten op een rij staan?",
+    "answers": [
+      "Onderbuikgevoel",
+      "Feiten"
+    ]
+  },
+  "1291050c-1544-4303-aec4-8dfb5336fede": {
+    "en": "How important is the environment (lighting, music, atmosphere) to {{playerName}} during intimacy?",
+    "text": "Hoe belangrijk is de sfeer (licht, muziek, ambiance) voor {{playerName}} bij intieme momenten?",
+    "answers": [
+      "Alles telt",
+      "Maakt helemaal niet uit"
+    ]
+  },
+  "936fc0ce-528b-4397-9401-6e314e091ea9": {
+    "en": "When in an intimate moment, does {{playerName}} prefer verbal affirmation or focusing purely on the physical sensation?",
+    "text": "Wil {{playerName}} tijdens een intiem moment liever lieve woorden horen of zich puur op het gevoel richten?",
+    "answers": [
+      "Lieve woorden",
+      "Puur fysiek"
+    ]
+  },
+  "e9b217eb-eb8e-4bf3-96e3-0529186355f9": {
+    "en": "What time does {{playerName}} usually wake up?",
+    "text": "Hoe laat wordt {{playerName}} meestal wakker?"
+  },
+  "0c937cba-97a4-4782-a859-d321a0e52b16": {
+    "en": "How many siblings does {{playerName}} have?",
+    "text": "Hoeveel broers en zussen heeft {{playerName}}?"
+  },
+  "8e7430ec-4498-4aff-a4dc-10933a46c12d": {
+    "en": "What month was {{playerName}} born in?",
+    "text": "In welke maand is {{playerName}} geboren?"
+  },
+  "b5c36562-c5d4-42ae-9205-85f0b0262bad": {
+    "en": "What's {{playerName}}'s favorite ice cream flavor?",
+    "text": "Wat is de favoriete ijssmaak van {{playerName}}?"
+  },
+  "67bea7b0-936b-4108-b413-8eea681221e0": {
+    "en": "What does {{playerName}} never leave the house without?",
+    "text": "Zonder wat gaat {{playerName}} nooit de deur uit?"
+  },
+  "10c8697c-0893-43cd-891b-3f8043ea9661": {
+    "en": "What city was {{playerName}} born in?",
+    "text": "In welke stad is {{playerName}} geboren?"
+  },
+  "67bddf7d-4d5a-49ff-b2bd-544f70c541e0": {
+    "en": "What's {{playerName}}'s favorite color?",
+    "text": "Wat is de lievelingskleur van {{playerName}}?"
+  },
+  "7e32c0fb-1531-4e16-af1c-629343ffb7e9": {
+    "en": "What does {{playerName}} love eating most for breakfast?",
+    "text": "Wat eet {{playerName}} het liefst als ontbijt?"
+  },
+  "0425f81b-0c26-4d2f-b061-adfe977513d3": {
+    "en": "What's {{playerName}}'s favorite pizza topping?",
+    "text": "Wat wil {{playerName}} het liefst op een pizza?"
+  },
+  "dfbde649-f017-4e8e-8d54-6ec9c9694fc5": {
+    "en": "What's {{playerName}}'s usual coffee order?",
+    "text": "Welke koffie bestelt {{playerName}} meestal?"
+  },
+  "d99e5617-1698-4240-a0a8-c3daea39022d": {
+    "en": "What's {{playerName}}'s favorite snack?",
+    "text": "Wat is de favoriete snack van {{playerName}}?"
+  },
+  "ee877ca1-488d-4f97-9598-fd22509ac148": {
+    "en": "What's {{playerName}}'s favorite fruit?",
+    "text": "Welk fruit eet {{playerName}} het liefst?"
+  },
+  "9592c028-df70-4e2a-b66d-f17130e2480e": {
+    "en": "How does {{playerName}} like their eggs?",
+    "text": "Hoe eet {{playerName}} eieren het liefst?"
+  },
+  "1bd92319-ff3e-43b3-81b8-f13be6fd47bf": {
+    "en": "What time does {{playerName}} usually go to sleep?",
+    "text": "Hoe laat gaat {{playerName}} meestal slapen?"
+  },
+  "d90798ff-2c56-4b01-a1c8-2780928f2161": {
+    "en": "What's {{playerName}}'s favorite childhood cartoon?",
+    "text": "Naar welke tekenfilm keek {{playerName}} als kind het liefst?"
+  },
+  "74c6652c-3f00-4012-8585-e196f91a11f9": {
+    "en": "What's the first app {{playerName}} opens in the morning?",
+    "text": "Welke app opent {{playerName}} ’s ochtends als eerste?"
+  },
+  "44cb3c9e-6be8-4872-9542-0b08384ef41e": {
+    "en": "What's {{playerName}}'s favorite emoji?",
+    "text": "Wat is de favoriete emoji van {{playerName}}?"
+  },
+  "7dc94a81-6d5d-4d12-9d9b-f9ab59fc038a": {
+    "en": "What phone brand does {{playerName}} use?",
+    "text": "Welk merk telefoon heeft {{playerName}}?"
+  },
+  "a8cb7aac-c671-48bd-a093-3d7fd524491e": {
+    "en": "What is {{playerName}} currently watching?",
+    "text": "Wat kijkt {{playerName}} op dit moment?"
+  },
+  "17ec277b-a7f7-49ce-8eec-99683adbcbb2": {
+    "en": "What's {{playerName}}'s favorite animal?",
+    "text": "Wat is het lievelingsdier van {{playerName}}?"
+  },
+  "145f2f5b-8e80-4252-a357-3ae2d5c4c1d0": {
+    "en": "What's {{playerName}}'s lucky number?",
+    "text": "Wat is het geluksgetal van {{playerName}}?"
+  },
+  "2a1297e0-6d77-4cf2-a3ff-e5f8057dcc30": {
+    "en": "What's {{playerName}}'s star sign?",
+    "text": "Wat is het sterrenbeeld van {{playerName}}?"
+  },
+  "e867a504-b007-4206-8378-19171432174d": {
+    "en": "What's {{playerName}}'s favorite season?",
+    "text": "Welk seizoen vindt {{playerName}} het fijnst?"
+  },
+  "55cc5151-4dc7-4a67-90de-b1829ca19dc8": {
+    "en": "What was {{playerName}}'s childhood nickname?",
+    "text": "Wat was de bijnaam van {{playerName}} als kind?"
+  },
+  "bb5df921-8ba2-4082-90b4-fb7c936731dc": {
+    "en": "What's {{playerName}}'s favorite singer?",
+    "text": "Naar welke artiest luistert {{playerName}} het liefst?"
+  },
+  "ebad8d20-818e-4d82-8191-1a2c198bfa7f": {
+    "en": "What's {{playerName}}'s favorite chocolate?",
+    "text": "Welke chocolade eet {{playerName}} het liefst?"
+  },
+  "a029377a-dcee-4c47-80ac-e652ce1363f6": {
+    "en": "What's {{playerName}}'s favorite fast food?",
+    "text": "Wat is het favoriete fastfood van {{playerName}}?"
+  },
+  "34591a59-c1f0-426b-a04c-c98cee22942d": {
+    "en": "What does {{playerName}} call their mom?",
+    "text": "Hoe noemt {{playerName}} de eigen moeder?"
+  },
+  "d557c7ce-b091-4b4b-ad44-73eb4a9f1d17": {
+    "en": "What's {{playerName}}'s favorite superhero?",
+    "text": "Wie is de favoriete superheld van {{playerName}}?"
+  },
+  "ff54dc71-bbb6-46f6-973f-7381edb1f930": {
+    "en": "What does {{playerName}} do first when they get home?",
+    "text": "Wat doet {{playerName}} als eerste zodra die thuiskomt?"
+  },
+  "837a824d-df7a-4c64-b6ba-16f11164e978": {
+    "en": "What chore does {{playerName}} hate the most?",
+    "text": "Welk klusje in huis haat {{playerName}} het meest?"
+  },
+  "792869b8-ec29-496c-b85e-f010457ea0ae": {
+    "en": "What does {{playerName}} always lose?",
+    "text": "Wat raakt {{playerName}} altijd kwijt?"
+  },
+  "b140bb4d-c30d-4ef6-9106-988634717a5f": {
+    "en": "How fast does {{playerName}} reply to messages?",
+    "text": "Hoe snel reageert {{playerName}} op berichten?",
+    "answers": [
+      "Meteen",
+      "Uren later",
+      "Laat je op gelezen staan",
+      "Stuurt een spraakbericht"
+    ]
+  },
+  "4a6273eb-4b65-4061-a9b8-e0926c7675eb": {
+    "en": "What's {{playerName}} like at a party?",
+    "text": "Hoe is {{playerName}} op een feestje?",
+    "answers": [
+      "Op de dansvloer",
+      "In een hoekje",
+      "In de keuken",
+      "Gaat vroeg naar huis"
+    ]
+  },
+  "401000a3-ed4d-43cd-98a9-9eb83866750c": {
+    "en": "How does {{playerName}} pack for a trip?",
+    "text": "Hoe pakt {{playerName}} in voor een reis?",
+    "answers": [
+      "Een week van tevoren",
+      "De avond ervoor",
+      "Vergeet de helft",
+      "Neemt veel te veel mee"
+    ]
+  },
+  "22169b2f-f26f-4151-8015-bafef065eb8f": {
+    "en": "What does {{playerName}} do when they're lost?",
+    "text": "Wat doet {{playerName}} als die verdwaald is?",
+    "answers": [
+      "Vraagt het iemand",
+      "Kijkt op de kaart",
+      "Loopt gewoon door",
+      "Belt iemand"
+    ]
+  },
+  "eca7e545-d5fe-43d3-b4fe-2e6aec589557": {
+    "en": "What does {{playerName}} do with leftovers?",
+    "text": "Wat doet {{playerName}} met restjes?",
+    "answers": [
+      "Bewaart ze",
+      "Eet ze om middernacht op",
+      "Gooit ze weg",
+      "Vergeet ze in de koelkast"
+    ]
+  },
+  "61d8bdfa-ccc2-48c1-8c58-446ed197d69c": {
+    "en": "What's {{playerName}} like in the morning?",
+    "text": "Hoe is {{playerName}} ’s ochtends?",
+    "answers": [
+      "Chagrijnig",
+      "Zwijgt tot na de koffie",
+      "Kletst al volop",
+      "Blijft eindeloos snoozen"
+    ]
+  },
+  "5dfed285-7d4f-4e71-8506-84c8415cbc26": {
+    "en": "What's {{playerName}} like as a passenger?",
+    "text": "Hoe is {{playerName}} als bijrijder?",
+    "answers": [
+      "Slaapt de hele rit",
+      "Bepaalt de muziek",
+      "Navigeert",
+      "Vraagt steeds: “Zijn we er al?”"
+    ]
+  },
+  "a1f2d79a-ce13-4322-a5b8-f10091d8772d": {
+    "en": "How does {{playerName}} pick a restaurant?",
+    "text": "Hoe kiest {{playerName}} een restaurant?",
+    "answers": [
+      "Leest alle reviews",
+      "Gaat naar het vaste adresje",
+      "Loopt de eerste de beste binnen",
+      "Laat de ander kiezen"
+    ]
+  },
+  "6e745806-a8fc-4404-a45c-090c14c466a1": {
+    "en": "What is {{playerName}} like when they're sick?",
+    "text": "Hoe is {{playerName}} als die ziek is?",
+    "answers": [
+      "Maakt er een drama van",
+      "Doet alsof er niks is",
+      "Slaapt de hele dag",
+      "Wil met rust gelaten worden"
+    ]
+  },
+  "471a6e48-e963-420e-bf7d-7a708e35c2e0": {
+    "en": "How does {{playerName}} take photos?",
+    "text": "Hoe maakt {{playerName}} foto’s?",
+    "answers": [
+      "Vijftig keer dezelfde foto",
+      "Maakt er nooit",
+      "Alleen selfies",
+      "Alleen van het eten"
+    ]
+  },
+  "368f1aa0-70bc-4aa8-8117-95ecbf9ab3cf": {
+    "en": "How does {{playerName}} usually sleep?",
+    "text": "Hoe slaapt {{playerName}} meestal?",
+    "answers": [
+      "Op de rug",
+      "Op de zij",
+      "Op de buik",
+      "Uitgestrekt als een zeester"
+    ]
+  },
+  "f32d78d9-ad1f-4da1-a4eb-bb631981389d": {
+    "en": "How long is {{playerName}}'s shower?",
+    "text": "Hoe lang staat {{playerName}} onder de douche?",
+    "answers": [
+      "Minder dan 5 minuten",
+      "Zo’n 10 minuten",
+      "Ruim 20 minuten",
+      "Een uur"
+    ]
+  },
+  "4a4c1dcb-edc8-499a-b622-51d40eb7fed0": {
+    "en": "How spicy does {{playerName}} like their food?",
+    "text": "Hoe pittig eet {{playerName}} het liefst?",
+    "answers": [
+      "Niet pittig",
+      "Een beetje",
+      "Best pittig",
+      "Het pittigste van de kaart"
+    ]
+  },
+  "64443fba-3210-45c2-91a7-e445962bb768": {
+    "en": "How many alarms does {{playerName}} set?",
+    "text": "Hoeveel wekkers zet {{playerName}}?",
+    "answers": [
+      "Geen",
+      "Eén",
+      "Twee of drie",
+      "Een hele rits"
+    ]
+  },
+  "7ae392a8-9407-45b1-8393-659cd8c7ff06": {
+    "en": "How much ice does {{playerName}} want in a drink?",
+    "text": "Hoeveel ijs wil {{playerName}} in een drankje?",
+    "answers": [
+      "Geen",
+      "Een beetje",
+      "Een half glas",
+      "Tot de rand vol"
+    ]
+  },
+  "8d2288a5-7234-4b0a-9d04-a4df4a7c8276": {
+    "en": "How warm does {{playerName}} like the room?",
+    "text": "Hoe warm wil {{playerName}} de kamer hebben?",
+    "answers": [
+      "Koud",
+      "Fris",
+      "Warm",
+      "Bloedheet"
+    ]
+  },
+  "9a333a60-a208-4fa6-b5ad-715cc8915816": {
+    "en": "How does {{playerName}} walk with someone?",
+    "text": "Hoe loopt {{playerName}} samen met iemand?",
+    "answers": [
+      "Blijft achter",
+      "Loopt er precies naast",
+      "Loopt voorop",
+      "Staat al bij de deur te wachten"
+    ]
+  },
+  "03e69dee-3b69-4951-8dc6-3b8264f042b0": {
+    "en": "How bright does {{playerName}} like the lights?",
+    "text": "Hoe fel wil {{playerName}} het licht?",
+    "answers": [
+      "Bijna donker",
+      "Gedimd",
+      "Normaal",
+      "Alles vol aan"
+    ]
+  },
+  "0aca9c68-fa93-42be-9d3c-1de5a6691b90": {
+    "en": "How much of their plate does {{playerName}} finish?",
+    "text": "Hoeveel van het bord eet {{playerName}} op?",
+    "answers": [
+      "Laat de helft liggen",
+      "Laat een beetje liggen",
+      "Eet alles op",
+      "Schept nog een keer op"
+    ]
+  },
+  "5c58e0a8-e571-49fa-9dcf-8bcabbfd351d": {
+    "en": "How loud does {{playerName}} watch TV?",
+    "text": "Hoe hard zet {{playerName}} de tv?",
+    "answers": [
+      "Heel zacht",
+      "Normaal",
+      "Hard",
+      "Het hele gebouw hoort mee"
+    ]
+  },
+  "8dcf54f4-7604-4a50-868f-a1059383d60f": {
+    "en": "What sport does {{playerName}} watch the most?",
+    "text": "Naar welke sport kijkt {{playerName}} het meest?"
+  },
+  "518cefed-96bc-4925-a6d7-cbbbe1bafe71": {
+    "en": "{{playerName}}'s phone volume is usually...",
+    "text": "De telefoon van {{playerName}} staat meestal…",
+    "answers": [
+      "Op stil of trillen",
+      "Zachtjes, netjes",
+      "Zo hard dat iedereen meeluistert"
+    ]
+  },
+  "b194f4d3-f0fd-4181-9fe0-ba5a5d8df660": {
+    "en": "What is {{playerName}}'s favorite drink?",
+    "text": "Wat is het favoriete drankje van {{playerName}}?"
+  },
+  "479bda74-7ea0-4281-b895-aa99f5ec2cd2": {
+    "en": "What is {{playerName}}'s favorite day of the week?",
+    "text": "Welke dag van de week vindt {{playerName}} het leukst?"
+  },
+  "d8a84507-b8e2-4a95-843a-ee747cc48192": {
+    "en": "What shoe brand does {{playerName}} wear the most?",
+    "text": "Welk schoenenmerk draagt {{playerName}} het vaakst?"
+  },
+  "93071ba2-48c1-40a4-9b45-223d4ea76fba": {
+    "en": "What is {{playerName}}'s favorite clothing brand?",
+    "text": "Wat is het favoriete kledingmerk van {{playerName}}?"
+  },
+  "2cfc2473-9298-4832-91ac-7d80bdb6acf8": {
+    "en": "What is {{playerName}}'s go-to comfort food when sad?",
+    "text": "Naar welk troosteten grijpt {{playerName}} bij verdriet?"
+  },
+  "1964cbeb-89e2-449a-8c9f-a62f03c5001e": {
+    "en": "What is the first thing {{playerName}} checks on their phone in the morning?",
+    "text": "Waar kijkt {{playerName}} ’s ochtends als eerste naar op de telefoon?"
+  },
+  "72d01256-9cc6-4e00-9ee2-32149b3777c1": {
+    "en": "What does {{playerName}} do when no one else is home?",
+    "text": "Wat doet {{playerName}} als er niemand thuis is?",
+    "answers": [
+      "Zingt keihard",
+      "Danst door het huis",
+      "Voert denkbeeldige gesprekken",
+      "Eet in bed"
+    ]
+  },
+  "5426502c-b09e-4e22-9d93-14cdcc37e444": {
+    "en": "When {{playerName}} forgets someone's name, what do they do?",
+    "text": "Wat doet {{playerName}} als die iemands naam vergeten is?",
+    "answers": [
+      "Zegt de naam gewoon niet",
+      "Verzint een bijnaampje",
+      "Geeft het meteen toe",
+      "Vraagt het stiekem aan een ander"
+    ]
+  },
+  "b8373ab6-1ddc-4a1b-9c77-fb896eac0d39": {
+    "en": "What does {{playerName}} do after tripping in public?",
+    "text": "Wat doet {{playerName}} na een struikelpartij op straat?",
+    "answers": [
+      "Doet alsof het een sprintje was",
+      "Kijkt boos naar de grond",
+      "Schiet in de lach",
+      "Doet alsof er niks gebeurd is"
+    ]
+  },
+  "c01488a8-0bfe-43e5-8da7-3d73f726e8a8": {
+    "en": "If {{playerName}} won the lottery, what would they do first?",
+    "text": "Wat zou {{playerName}} als eerste doen na het winnen van de loterij?",
+    "answers": [
+      "Ontslag nemen",
+      "Een huis kopen",
+      "De wereld rondreizen",
+      "Niemand iets vertellen"
+    ]
+  },
+  "9c6b53e4-f5b8-473e-b934-46874be76618": {
+    "en": "In a zombie apocalypse, who would {{playerName}} be?",
+    "text": "Wat doet {{playerName}} in een zombieapocalyps?",
+    "answers": [
+      "Neemt de leiding",
+      "Wordt als eerste gebeten",
+      "Hamstert alle snacks",
+      "Verraadt iedereen"
+    ]
+  },
+  "23003c7d-5093-46f0-a54a-2f942131eb3c": {
+    "en": "If {{playerName}} could pick one superpower, which would it be?",
+    "text": "Welke superkracht zou {{playerName}} kiezen?",
+    "answers": [
+      "Vliegen",
+      "Onzichtbaar zijn",
+      "Gedachten lezen",
+      "Teleporteren"
+    ]
+  },
+  "f29d4add-5a02-4673-af37-22538518bf1d": {
+    "en": "What's on {{playerName}}'s lock screen right now?",
+    "text": "Wat staat er nu op het vergrendelscherm van {{playerName}}?"
+  },
+  "2c118d16-4d4d-47ed-a1e5-324d8ff8801c": {
+    "en": "What's {{playerName}}'s average daily screen time, in hours?",
+    "text": "Hoeveel uur schermtijd heeft {{playerName}} gemiddeld per dag?"
+  },
+  "87169443-4ab3-4ed7-a6a9-86d699553988": {
+    "en": "Which app does {{playerName}} spend the most time on, according to their screen time?",
+    "text": "In welke app zit {{playerName}} volgens de schermtijd het meest?"
+  },
+  "d2eb66d6-376f-48c0-a8c4-b9bd593f2533": {
+    "en": "How many unread notifications does {{playerName}} usually have?",
+    "text": "Hoeveel ongelezen meldingen heeft {{playerName}} meestal?",
+    "answers": [
+      "Nul, altijd weggeklikt",
+      "Een paar",
+      "Tientallen",
+      "Honderden"
+    ]
+  },
+  "b33c8cde-b296-45cf-b287-875bb5ce045e": {
+    "en": "What's {{playerName}}'s phone battery usually at?",
+    "text": "Hoe vol is de telefoonbatterij van {{playerName}} meestal?",
+    "answers": [
+      "Altijd boven de 80%",
+      "Ergens in het midden",
+      "Meestal onder de 20%",
+      "Altijd bijna leeg"
+    ]
+  },
+  "7a8fe703-7dff-4a13-a22a-e41eb71b652a": {
+    "en": "What's {{playerName}}'s home Wi-Fi name?",
+    "text": "Hoe heet de wifi bij {{playerName}} thuis?"
+  },
+  "147fc614-cbc3-40c2-99c8-4c3153cd6e71": {
+    "en": "What's the last thing {{playerName}} bought online?",
+    "text": "Wat heeft {{playerName}} als laatste online gekocht?"
+  },
+  "517564ba-2931-43ca-827c-58dddf379dac": {
+    "en": "What food will {{playerName}} never eat, no matter what?",
+    "text": "Wat eet {{playerName}} nooit, wat er ook gebeurt?"
+  },
+  "e294c59a-bb70-4d8c-9d80-6dbb06a09b36": {
+    "en": "Which sound drives {{playerName}} the craziest?",
+    "text": "Van welk geluid wordt {{playerName}} het gekst?",
+    "answers": [
+      "Luid smakken",
+      "Nagels over een krijtbord",
+      "Iemand die snottert",
+      "Iemand die fluit"
+    ]
+  },
+  "19eebdd7-760a-4ea1-ae18-5bf88eb2dafc": {
+    "en": "What annoys {{playerName}} the most when texting?",
+    "text": "Waar ergert {{playerName}} zich het meest aan bij het appen?",
+    "answers": [
+      "Een kaal “oké”",
+      "Spraakberichten",
+      "Trage reacties",
+      "Veel korte berichtjes achter elkaar"
+    ]
+  },
+  "52b4cdec-cd4a-4442-998d-f07cd4081db4": {
+    "en": "What bothers {{playerName}} the most at a restaurant?",
+    "text": "Waar stoort {{playerName}} zich het meest aan in een restaurant?",
+    "answers": [
+      "Trage bediening",
+      "Een vieze tafel",
+      "Harde muziek",
+      "Kleine porties"
+    ]
+  },
+  "5be0c0e8-8892-4a92-9758-2f00fcce2015": {
+    "en": "Which mess at home bothers {{playerName}} the most?",
+    "text": "Welke rommel in huis stoort {{playerName}} het meest?",
+    "answers": [
+      "Afwas in de gootsteen",
+      "Kleren op de vloer",
+      "Een onopgemaakt bed",
+      "Kruimels op tafel"
+    ]
+  },
+  "2dd218d8-d3ec-46ee-9285-47f6ed61d659": {
+    "en": "What makes {{playerName}} lose it fastest in traffic?",
+    "text": "Waar wordt {{playerName}} in het verkeer het snelst gek van?",
+    "answers": [
+      "Trage bestuurders",
+      "Getoeter",
+      "Mensen die afsnijden",
+      "Geen richting aangeven"
+    ]
+  },
+  "644b7cf5-7ae6-430a-9220-f3fb43701063": {
+    "en": "What annoys {{playerName}} the most when waiting in line?",
+    "text": "Waar ergert {{playerName}} zich het meest aan in de rij?",
+    "answers": [
+      "Voordringers",
+      "Mensen die te dichtbij staan",
+      "Een trage kassamedewerker",
+      "Iemand die met muntjes betaalt"
+    ]
+  },
+  "b9f365dd-1aa6-4d48-af88-95d026d024d5": {
+    "en": "What does {{playerName}} spend the most money on?",
+    "text": "Waar geeft {{playerName}} het meeste geld aan uit?",
+    "answers": [
+      "Eten en uit eten gaan",
+      "Kleding",
+      "Tech en gadgets",
+      "Reizen"
+    ]
+  },
+  "be8f4942-1a57-4943-8b5b-8bb89b022314": {
+    "en": "What's the most expensive thing {{playerName}} has ever bought?",
+    "text": "Wat is het duurste dat {{playerName}} ooit heeft gekocht?"
+  },
+  "50d0db45-ce2c-468e-a3d6-23f0704fc3a4": {
+    "en": "Where did {{playerName}} meet their best friend?",
+    "text": "Waar leerde {{playerName}} de beste vriend of vriendin kennen?"
+  },
+  "662aef93-2e41-413c-b62a-b150755f03f5": {
+    "en": "How long has {{playerName}} known their oldest friend?",
+    "text": "Hoelang duurt de oudste vriendschap van {{playerName}} al?",
+    "answers": [
+      "Minder dan 5 jaar",
+      "5-10 jaar",
+      "10-20 jaar",
+      "Meer dan 20 jaar"
+    ]
+  },
+  "65d60061-9ab6-4853-9aca-4eab081a4cce": {
+    "en": "What's the name of {{playerName}}'s main group chat with friends?",
+    "text": "Hoe heet de belangrijkste groepsapp van {{playerName}} met vrienden?"
+  },
+  "197d53a1-83ce-4902-a334-27066158fc78": {
+    "en": "How often does {{playerName}} see their friends?",
+    "text": "Hoe vaak ziet {{playerName}} vrienden?",
+    "answers": [
+      "Bijna elke dag",
+      "Elke week",
+      "Een paar keer per maand",
+      "Zelden"
+    ]
+  },
+  "6159136b-df0a-4257-b058-e896fc9de8df": {
+    "en": "Where does {{playerName}} usually hang out with friends?",
+    "text": "Waar spreekt {{playerName}} meestal af met vrienden?",
+    "answers": [
+      "Bij iemand thuis",
+      "In een koffietentje",
+      "In de kroeg",
+      "Buiten"
+    ]
+  },
+  "a1fcb212-3cc0-4b2d-bd2f-8bda0513e11c": {
+    "en": "How many people are in {{playerName}}'s main friend group?",
+    "text": "Hoeveel mensen zitten er in de vaste vriendengroep van {{playerName}}?",
+    "answers": [
+      "2-3",
+      "4-5",
+      "6-8",
+      "Meer dan 8"
+    ]
+  },
+  "7f03c313-0647-4db6-9922-02b1cd26700f": {
+    "en": "How does {{playerName}} mostly keep in touch with friends?",
+    "text": "Hoe houdt {{playerName}} vooral contact met vrienden?",
+    "answers": [
+      "Appen",
+      "Spraakberichten",
+      "Bellen",
+      "Memes en reels sturen"
+    ]
+  },
+  "c17d4951-9f29-4613-aebc-0dc559fa5a6d": {
+    "en": "What do {{playerName}}'s friends call them?",
+    "text": "Welke bijnaam heeft {{playerName}} bij vrienden?"
+  },
+  "71ef9a47-46d4-4666-8665-3d3a7991768e": {
+    "en": "How does {{playerName}} usually celebrate their birthday?",
+    "text": "Hoe viert {{playerName}} meestal de eigen verjaardag?",
+    "answers": [
+      "Een groot feest",
+      "Een etentje met goede vrienden",
+      "Een rustige dag",
+      "Viert het niet"
+    ]
+  },
+  "01b87d7a-2853-4e22-8290-2f44cb342e8a": {
+    "en": "Which city does {{playerName}}'s best friend live in?",
+    "text": "In welke stad woont de beste vriend of vriendin van {{playerName}}?"
+  },
+  "1abd3aae-173d-497f-bb52-95bd395ab563": {
+    "en": "What is {{playerName}} saving money for right now? Write nothing if they aren't.",
+    "text": "Waarvoor spaart {{playerName}} op dit moment? Laat leeg als er niet gespaard wordt."
+  },
+  "7bf99537-3613-478d-881c-d35960165b3e": {
+    "en": "What business would {{playerName}} open if they could?",
+    "text": "Wat voor zaak zou {{playerName}} openen als dat kon?"
+  },
+  "e100c90f-796f-4d06-8999-61f07e8e2040": {
+    "en": "How often does {{playerName}} post stories?",
+    "text": "Hoe vaak plaatst {{playerName}} stories?",
+    "answers": [
+      "Elke dag",
+      "Een paar keer per week",
+      "Zelden",
+      "Nooit"
+    ]
+  },
+  "2d3caa55-6c03-45e4-ae52-8f4d9aabc5a7": {
+    "en": "How many accounts does {{playerName}} follow on Instagram?",
+    "text": "Hoeveel accounts volgt {{playerName}} op Instagram?",
+    "answers": [
+      "Minder dan 300",
+      "300-700",
+      "700-1.500",
+      "Meer dan 1.500"
+    ]
+  },
+  "a06282e0-ae61-4541-bf4d-24c8336d031e": {
+    "en": "What was {{playerName}}'s last Instagram post? Write none if they never post.",
+    "text": "Wat was de laatste Instagrampost van {{playerName}}? Schrijf “geen” als er nooit iets gepost wordt."
+  },
+  "e2c75092-cf85-48f6-96b7-e8022bda2ae4": {
+    "en": "Has {{playerName}} ever deleted a post because it didn't get enough likes?",
+    "text": "Heeft {{playerName}} ooit een post verwijderd omdat die te weinig likes kreeg?"
+  },
+  "843b062a-8c76-44f7-99bb-72f4319b57ef": {
+    "en": "What does {{playerName}} spend most of their social media time doing?",
+    "text": "Waar besteedt {{playerName}} de meeste tijd aan op social media?",
+    "answers": [
+      "Reels kijken",
+      "Stories kijken",
+      "Berichtjes sturen",
+      "Profielen stalken"
+    ]
+  },
+  "e32b237d-f1dd-44b2-b30e-36fa9979cd3f": {
+    "en": "How many followers does {{playerName}} have on Instagram?",
+    "text": "Hoeveel volgers heeft {{playerName}} op Instagram?",
+    "answers": [
+      "Minder dan 300",
+      "300-700",
+      "700-1.500",
+      "Meer dan 1.500"
+    ]
+  },
+  "ab6fb3d1-3476-436b-af30-74e7d7f96ea6": {
+    "en": "Does {{playerName}} have a second, secret Instagram account?",
+    "text": "Heeft {{playerName}} een tweede, geheim Instagramaccount?"
+  },
+  "c5fbea67-c014-4be3-a141-986603d7784a": {
+    "en": "When does {{playerName}} scroll social media the most?",
+    "text": "Wanneer scrolt {{playerName}} het meest door social media?",
+    "answers": [
+      "In bed voor het slapen",
+      "Meteen na het wakker worden",
+      "Op de wc",
+      "Op het werk of op school"
+    ]
+  },
+  "d799cefe-4533-4a40-b9fd-0b26b49dced4": {
+    "en": "What's in {{playerName}}'s Instagram profile picture right now?",
+    "text": "Wat staat er nu op de profielfoto van {{playerName}} op Instagram?",
+    "answers": [
+      "Een solofoto",
+      "Een foto met iemand",
+      "Iets anders (huisdier, uitzicht…)",
+      "Geen foto"
+    ]
+  },
+  "99140b21-a78b-4823-8931-da81598e0099": {
+    "en": "Which food delivery app does {{playerName}} use the most?",
+    "text": "Welke bezorgapp gebruikt {{playerName}} het meest?"
+  },
+  "99a08b68-a66b-49c5-a1d4-c5ea876ddf1c": {
+    "en": "How often does {{playerName}} order food delivery?",
+    "text": "Hoe vaak bestelt {{playerName}} eten?",
+    "answers": [
+      "Bijna elke dag",
+      "Een paar keer per week",
+      "Een paar keer per maand",
+      "Bijna nooit"
+    ]
+  },
+  "cfbd02eb-acdd-41f0-a82c-d633cd6ec6f4": {
+    "en": "When does {{playerName}} order food the most?",
+    "text": "Wanneer bestelt {{playerName}} het vaakst eten?",
+    "answers": [
+      "Bij de lunch",
+      "Bij het avondeten",
+      "Na middernacht",
+      "In het weekend, 's ochtends"
+    ]
+  },
+  "b6c53b84-8968-4576-9582-556d78e1aa08": {
+    "en": "How long does {{playerName}} scroll the app before ordering?",
+    "text": "Hoelang scrolt {{playerName}} door de app voordat er besteld wordt?",
+    "answers": [
+      "Bestelt binnen een minuut",
+      "Zo'n 10 minuten",
+      "Een halfuur",
+      "Geeft op, bestelt toch weer hetzelfde"
+    ]
+  },
+  "fe6f43a3-1fd6-4b4f-8d95-7aab9b9ab8bb": {
+    "en": "Does {{playerName}} tip on delivery orders?",
+    "text": "Geeft {{playerName}} fooi bij bezorging?",
+    "answers": [
+      "Nooit",
+      "Soms",
+      "Altijd een beetje",
+      "Altijd royaal"
+    ]
+  },
+  "98443ab8-023f-4a17-b4f4-a95567bc476e": {
+    "en": "What does {{playerName}} watch while eating takeout?",
+    "text": "Wat kijkt {{playerName}} tijdens een afhaalmaaltijd?",
+    "answers": [
+      "Een serie",
+      "YouTube",
+      "Reels",
+      "Niks, eet gewoon"
+    ]
+  },
+  "fe4758c6-1a3f-4740-a65f-f3f9268b47dc": {
+    "en": "How often does {{playerName}} return things they've bought?",
+    "text": "Hoe vaak brengt {{playerName}} gekochte spullen terug?",
+    "answers": [
+      "Nooit",
+      "Zelden",
+      "Vaak",
+      "Bijna alles"
+    ]
+  },
+  "519747f8-ac05-4e2e-bd62-8a11dab0a5b1": {
+    "en": "How does {{playerName}} watch a new series?",
+    "text": "Hoe kijkt {{playerName}} een nieuwe serie?",
+    "answers": [
+      "Bingewatcht het in één weekend",
+      "Elke avond één aflevering",
+      "Begint, maar kijkt het nooit af",
+      "Wacht tot het hele seizoen uit is"
+    ]
+  },
+  "39f5d8f3-514c-4fa3-93d6-add3a148a74c": {
+    "en": "How does {{playerName}} usually listen to music?",
+    "text": "Hoe luistert {{playerName}} meestal muziek?",
+    "answers": [
+      "Eigen playlists op shuffle",
+      "Dezelfde paar nummers op repeat",
+      "Hele albums van begin tot eind",
+      "Wat de app aanraadt"
+    ]
+  },
+  "3ef13a99-6e73-4c3f-ab4c-23ff736d1b22": {
+    "en": "Where does {{playerName}} listen to music the most?",
+    "text": "Waar luistert {{playerName}} het meest muziek?",
+    "answers": [
+      "In de auto",
+      "Onderweg met oortjes",
+      "Onder de douche",
+      "Tijdens het werken of studeren"
+    ]
+  },
+  "e24b651e-6331-4162-899d-df89456006b4": {
+    "en": "What song would {{playerName}} pick at karaoke?",
+    "text": "Welk nummer kiest {{playerName}} bij karaoke?"
+  },
+  "bbf96cda-756f-454a-b2be-3b11d36b3a67": {
+    "en": "What streaming app does {{playerName}} use the most?",
+    "text": "Welke streamingdienst gebruikt {{playerName}} het meest?"
+  },
+  "07f20cd4-0210-4b95-8df9-d623a0bd0a5c": {
+    "en": "Which movie has {{playerName}} watched the most times?",
+    "text": "Welke film heeft {{playerName}} het vaakst gezien?"
+  },
+  "c78c11b1-99b4-4da4-a62f-f5c91f4a4f18": {
+    "en": "What's the comfort show {{playerName}} always goes back to?",
+    "text": "Naar welke comfortserie grijpt {{playerName}} altijd terug?"
+  },
+  "1292f03a-b50e-440f-adcf-712349e40719": {
+    "en": "How does {{playerName}} usually shop for clothes?",
+    "text": "Hoe koopt {{playerName}} meestal kleren?",
+    "answers": [
+      "Alleen online",
+      "In de winkel, alles passen",
+      "Pas als iets versleten is",
+      "Constant impulsaankopen"
+    ]
+  },
+  "d9725e20-1b77-4925-822c-a0600200c830": {
+    "en": "How does {{playerName}} do grocery shopping?",
+    "text": "Hoe doet {{playerName}} de boodschappen?",
+    "answers": [
+      "Met een lijstje en houdt zich eraan",
+      "Struint rond, pakt wat lekker lijkt",
+      "Bestelt online",
+      "Vergeet altijd juist dat ene ding"
+    ]
+  },
+  "b9664338-39be-4c85-b84c-556d4340b75b": {
+    "en": "How long does {{playerName}} leave things in their online cart?",
+    "text": "Hoelang laat {{playerName}} spullen in het online winkelmandje liggen?",
+    "answers": [
+      "Koopt meteen",
+      "Een paar dagen",
+      "Weken",
+      "Koopt ze uiteindelijk nooit"
+    ]
+  },
+  "bf330b67-2579-4879-9284-e1bb389ddd97": {
+    "en": "What does {{playerName}} do when there's a big sale?",
+    "text": "Wat doet {{playerName}} bij een grote uitverkoop?",
+    "answers": [
+      "Koopt dingen die niet eens nodig zijn",
+      "Koopt alleen wat al op het lijstje stond",
+      "Negeert het volledig",
+      "Vult het mandje en koopt dan niks"
+    ]
+  },
+  "f880e846-1a46-4448-b7b8-432d8820bb89": {
+    "en": "What's {{playerName}}'s go-to café?",
+    "text": "Wat is het vaste koffietentje van {{playerName}}?"
+  },
+  "e452eb3a-71ca-491f-908b-d5c948b61374": {
+    "en": "What does {{playerName}} always order at their favorite fast food place?",
+    "text": "Wat bestelt {{playerName}} altijd bij de favoriete fastfoodzaak?"
+  },
+  "e6f97bcb-be04-4815-b108-322f1284b685": {
+    "en": "What color is {{playerName}}'s phone case? Write none if they don't use one.",
+    "text": "Welke kleur heeft het telefoonhoesje van {{playerName}}? Schrijf “geen” als er geen hoesje omheen zit."
+  },
+  "34493f68-a720-495a-b39a-52d484d3610e": {
+    "en": "Which shopping app does {{playerName}} use the most?",
+    "text": "Welke shoppingapp gebruikt {{playerName}} het meest?"
+  },
+  "835abc8b-f60f-4b56-9fa3-853e42ad5ffe": {
+    "en": "How many pillows does {{playerName}} sleep with?",
+    "text": "Met hoeveel kussens slaapt {{playerName}}?"
+  },
+  "e1b8328b-6a31-46d0-bc54-46c41d2ca166": {
+    "en": "How many tabs does {{playerName}} usually have open in their browser?",
+    "text": "Hoeveel tabbladen heeft {{playerName}} meestal open in de browser?",
+    "answers": [
+      "1 tot 5",
+      "6 tot 20",
+      "21 tot 50",
+      "Niet meer te tellen"
+    ]
+  },
+  "9265875a-abaf-454a-9d5d-cf7c21f409e4": {
+    "en": "How many photos are in {{playerName}}'s camera roll?",
+    "text": "Hoeveel foto's staan er in de fotogalerij van {{playerName}}?",
+    "answers": [
+      "Minder dan 1.000",
+      "1.000 tot 5.000",
+      "5.000 tot 20.000",
+      "Meer dan 20.000"
+    ]
+  },
+  "696b6beb-bb08-43ed-86eb-eb4bd17e515c": {
+    "en": "How many apps does {{playerName}} have on their phone?",
+    "text": "Hoeveel apps staan er op de telefoon van {{playerName}}?",
+    "answers": [
+      "Minder dan 30",
+      "30 tot 60",
+      "60 tot 100",
+      "Meer dan 100"
+    ]
+  },
+  "7afba473-dc61-4be7-b01c-0ca03119939b": {
+    "en": "Who's the last person {{playerName}} called?",
+    "text": "Naar wie heeft {{playerName}} als laatste gebeld?"
+  },
+  "5901193f-1beb-49eb-90ed-1da2b9274c76": {
+    "en": "Does {{playerName}} use dark mode on their phone?",
+    "text": "Gebruikt {{playerName}} de donkere modus op de telefoon?",
+    "answers": [
+      "Altijd donker",
+      "Altijd licht",
+      "Automatisch, wisselt met het tijdstip"
+    ]
+  },
+  "377237c2-590f-4200-a7a5-1e53377d8f42": {
+    "en": "When does {{playerName}} usually shower?",
+    "text": "Wanneer douchet {{playerName}} meestal?",
+    "answers": [
+      "'s Ochtends",
+      "'s Avonds",
+      "Allebei, elke dag",
+      "Wisselt, geen vaste tijd"
+    ]
+  },
+  "9e3e7f73-8945-458a-a0a1-c3657b5d58f6": {
+    "en": "How long does {{playerName}} take to get ready to go out?",
+    "text": "Hoelang doet {{playerName}} erover om zich klaar te maken om uit te gaan?",
+    "answers": [
+      "Minder dan 10 minuten",
+      "10 tot 30 minuten",
+      "30 minuten tot een uur",
+      "Meer dan een uur"
+    ]
+  },
+  "57230422-8ea9-4e5f-9273-087b5d605ec8": {
+    "en": "What hobby does {{playerName}} spend the most time on?",
+    "text": "Aan welke hobby besteedt {{playerName}} de meeste tijd?"
+  },
+  "dc836b7d-8918-41b2-975b-19f9a43a801d": {
+    "en": "How many books has {{playerName}} read this year? Write 0 if none.",
+    "text": "Hoeveel boeken heeft {{playerName}} dit jaar gelezen? Schrijf 0 als het er geen zijn."
+  },
+  "04f5785b-6dbc-40dd-b7fa-d6850be17248": {
+    "en": "What game is {{playerName}} playing on their phone these days? Write none if they don't play.",
+    "text": "Welk spelletje speelt {{playerName}} tegenwoordig op de telefoon? Schrijf “geen” als er niet gegamed wordt."
+  },
+  "1a62fc00-3404-48f5-860f-c31f4b6121b0": {
+    "en": "How many times a week does {{playerName}} work out?",
+    "text": "Hoe vaak per week sport {{playerName}}?",
+    "answers": [
+      "Nooit",
+      "1 tot 2 keer",
+      "3 tot 4 keer",
+      "5 keer of vaker"
+    ]
+  },
+  "b9c19285-78bf-4372-896c-ca131cb93459": {
+    "en": "What's the last movie {{playerName}} saw at the cinema?",
+    "text": "Wat is de laatste film die {{playerName}} in de bioscoop zag?"
+  },
+  "9d5dec86-f93f-4a8b-b522-75f77e6b759b": {
+    "en": "What's the last thing {{playerName}} cooked?",
+    "text": "Wat heeft {{playerName}} het laatst gekookt?"
+  },
+  "9b999915-7237-47f9-a9a6-5d6d8beae33a": {
+    "en": "Where does {{playerName}} usually work out?",
+    "text": "Waar sport {{playerName}} meestal?",
+    "answers": [
+      "In de sportschool",
+      "Thuis",
+      "Buiten",
+      "Sport niet"
+    ]
+  }
+}

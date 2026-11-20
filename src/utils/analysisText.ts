@@ -28,6 +28,8 @@ export const LANGUAGE_MAP: Record<string, string> = LANGUAGE_NAMES;
 const GENDER_NOTE: Partial<Record<Lang, string>> = {
   it: "Grammar: the players' genders are unknown and they can be two women, two men or mixed. Never use a gendered adjective, past participle, pronoun or article for a player or for both together: no -o/-a agreement, no lui/lei, no entrambi/entrambe, tutti e due, l'uno/l'altro, uno/l'altra, il/la partner. Address them as 'voi' with verbs ('avete', 'vi piace'), or use their names, 'voi due', 'ognuno di voi', 'la coppia'.",
   pl: "Grammar: the players' genders are unknown and they can be two women, two men or mixed. Never use gendered forms for a player or for both together: no past tense or conditional (-ł/-ła, -łeś/-łaś, -liście/-łyście, -łby), no gendered adjectives or nouns (tacy/takie, sami/same, zadowolony/a, domator/domatorka), no oboje/obaj/obie, no on/ona/jego/jej. Use 'wy' with present-tense or perfective-future verbs ('lubicie', 'macie', 'zobaczycie'), nouns, 'każda ze stron', or the players' names in the nominative case only.",
+  fr: "Grammar: the players' genders are unknown and they can be two women, two men or mixed. Never use a gendered adjective, past participle, pronoun or noun for a player or for both together: no -é/-ée, -eux/-euse, -if/-ive agreement, no il/elle/ils/elles for the players, no tous les deux/toutes les deux, l'un/l'une… l'autre, chacun/chacune, partenaire, copain/copine. Address them as 'vous' with verbs ('vous avez', 'vous aimez'), epicene adjectives (drôle, calme, sensible), nouns, 'vous deux', 'votre couple', or use their names ('Robin a besoin d'espace, Ala veut parler tout de suite').",
+  ja: "Style: write natural casual Japanese addressed to the two players (ふたり), like a friend writing on LINE, not keigo, not a textbook. Never use 彼/彼女/彼氏 for a player; use their names or ふたり.",
   de: "Grammar: the players' genders are unknown and they can be two women, two men or mixed. Never refer to a player with er/sie, ihn/sie, sein/ihr, der/die (also not as a relative pronoun: not 'Robin, der …'), einer/eine … der/die andere, or gendered nouns (Partner/Partnerin, Freund/Freundin). Use the players' names, 'ihr beide', or rephrase ('Robin braucht Abstand, Ala will sofort reden').",
 };
 
@@ -46,6 +48,9 @@ const YES_NO_MAP: Record<Lang, Record<string, string>> = {
   de: { yes: "Ja", no: "Nein" },
   it: { yes: "Sì", no: "No" },
   pl: { yes: "Tak", no: "Nie" },
+  fr: { yes: "Oui", no: "Non" },
+  ja: { yes: "はい", no: "いいえ" },
+  nl: { yes: "Ja", no: "Nee" },
 };
 
 const NO_ANSWER_MAP: Record<string, string> = {
@@ -56,6 +61,9 @@ const NO_ANSWER_MAP: Record<string, string> = {
   de: "(keine Antwort)",
   it: "(nessuna risposta)",
   pl: "(bez odpowiedzi)",
+  fr: "(pas de réponse)",
+  ja: "(未回答)",
+  nl: "(geen antwoord)",
 };
 
 const HIDDEN_ANSWER_MAP: Record<string, string> = {
@@ -66,6 +74,9 @@ const HIDDEN_ANSWER_MAP: Record<string, string> = {
   de: "(Antwort verborgen)",
   it: "(risposta nascosta)",
   pl: "(odpowiedź ukryta)",
+  fr: "(réponse masquée)",
+  ja: "(回答は非表示)",
+  nl: "(antwoord verborgen)",
 };
 
 export function resolveQuestionText(

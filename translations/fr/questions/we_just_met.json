@@ -1,0 +1,1451 @@
+{
+  "f8b8e4f3-28d9-4886-af07-a40660eecc99": {
+    "en": "Would you date someone with a very different music taste?",
+    "text": "Tu sortirais avec quelqu'un qui a des goûts musicaux très différents des tiens ?"
+  },
+  "f304ce02-dda7-4317-8fdb-ea25aee9c4a4": {
+    "en": "Is your partner’s education level important to you?",
+    "text": "Le niveau d'études de ta moitié compte pour toi ?"
+  },
+  "53cff209-fbc0-4246-b117-18b3555971df": {
+    "en": "Would you date someone shorter than you?",
+    "text": "Tu sortirais avec quelqu'un de plus petit que toi ?"
+  },
+  "bc57ff15-11b9-4073-ae40-e1d0f01c0fad": {
+    "en": "Are you afraid of ending up alone in life?",
+    "text": "Finir ta vie sans personne, ça te fait peur ?"
+  },
+  "f43d3e26-8697-42a0-8804-7145be8be518": {
+    "en": "Would it bother you if your partner has had more exes than you?",
+    "text": "Ça te dérangerait que ta moitié ait eu plus d'ex que toi ?"
+  },
+  "a341a8ea-7831-4c4c-993b-95651f9220ee": {
+    "en": "Would you date someone you're not physically attracted to?",
+    "text": "Tu sortirais avec quelqu'un qui ne t'attire pas physiquement ?"
+  },
+  "83898e96-79ac-41d0-a2cd-f95d16e018bd": {
+    "en": "Would it bother you if your partner talks about marriage at the start of a relationship?",
+    "text": "Ça te dérangerait que ta moitié parle mariage dès le début de la relation ?"
+  },
+  "1bc54b46-bd63-495c-979d-0d1e4203d959": {
+    "en": "Would you consider marrying someone from a foreign country?",
+    "text": "Tu envisagerais d'épouser quelqu'un d'un autre pays ?"
+  },
+  "fc039185-c94b-4708-bb45-c273aa7abbc5": {
+    "en": "Should the man pay the bill on the first date?",
+    "text": "Au premier rendez-vous, c'est à l'homme de payer l'addition ?"
+  },
+  "32406677-bba7-491a-aff9-d64567ca82c0": {
+    "en": "Would you pay your partner's debt?",
+    "text": "Tu paierais les dettes de ta moitié ?"
+  },
+  "16ab0dae-f337-4214-84b3-f4fd1d237451": {
+    "en": "Have you ever been physically with someone you didn't have feelings for?",
+    "text": "Ça t'est déjà arrivé d'avoir une aventure physique avec quelqu'un pour qui tu n'avais pas de sentiments ?"
+  },
+  "24afb9f9-09fe-479b-b7fe-222f914f546d": {
+    "en": "Have you ever used someone who was deeply in love with you just to avoid being alone?",
+    "text": "Tu as déjà profité de quelqu'un qui t'aimait profondément, juste pour éviter la solitude ?"
+  },
+  "2e854593-1245-4f29-8c9d-dc97306eaeb0": {
+    "en": "In the future, would you prefer living in a big city or a quiet town with your partner?",
+    "text": "Plus tard, tu préférerais vivre avec ta moitié dans une grande ville ou dans une petite ville calme ?",
+    "answers": [
+      "Grande ville",
+      "Petite ville calme"
+    ]
+  },
+  "9fcb5dab-3f2e-4a0d-b23a-61900bc49522": {
+    "en": "Would you date someone who becomes unpleasant when they drink alcohol?",
+    "text": "Tu sortirais avec quelqu'un qui devient désagréable après quelques verres ?"
+  },
+  "97b6d4e0-ab32-423e-bc3f-53883b958a5d": {
+    "en": "Would you stay in a relationship if you felt emotionally unfulfilled but not unhappy?",
+    "text": "Tu resterais dans une relation qui ne te comble pas émotionnellement, sans pour autant te rendre triste ?"
+  },
+  "32b5d1f7-97f4-466b-ad7f-395b505c73a7": {
+    "en": "Can a relationship work without physical chemistry?",
+    "text": "Une relation peut-elle marcher sans alchimie physique ?"
+  },
+  "2d748ea6-89f2-4ad3-bb23-ea30c2c73842": {
+    "en": "If offered 1 million dollars to seduce your best friend's partner, would you accept?",
+    "text": "Si on t'offrait 1 million de dollars pour séduire la moitié de ton meilleur ami, tu accepterais ?"
+  },
+  "e55ea49c-c670-4fe9-bf1c-267153fc88e0": {
+    "en": "Do you think you have ever hurt someone in the same way you fear being hurt?",
+    "text": "Tu penses avoir déjà fait à quelqu'un le mal que tu as peur qu'on te fasse ?"
+  },
+  "5264f2b0-12db-44aa-81d2-395cee494d0c": {
+    "en": "If you had a lot of money, would you live without working?",
+    "text": "Si tu avais beaucoup d'argent, tu vivrais sans travailler ?"
+  },
+  "92350381-e030-4eb9-adea-eba4539776db": {
+    "en": "In the future, would you choose to stay in your hometown with your partner or move to a completely new place together?",
+    "text": "Plus tard, tu choisirais de rester dans ta ville natale avec ta moitié ou de partir vivre ailleurs ensemble ?",
+    "answers": [
+      "Rester dans ma ville natale",
+      "Partir vivre ailleurs"
+    ]
+  },
+  "3e001ead-34f3-49cd-841b-0adf7ed83ee2": {
+    "en": "Would you go through your partner's phone?",
+    "text": "Tu fouillerais dans le téléphone de ta moitié ?"
+  },
+  "cb65844c-0923-4018-827e-7e5e742a2c88": {
+    "en": "Would you be okay if your partner needed space from you for an extended period of time?",
+    "text": "Ça t'irait que ta moitié ait besoin de prendre ses distances avec toi pendant longtemps ?"
+  },
+  "13769262-3c15-4137-99c0-eee392521846": {
+    "en": "For you, is it more important who your partner was in the past or who they want to become in the future?",
+    "text": "Pour toi, qu'est-ce qui compte le plus chez ta moitié : son passé ou son potentiel pour l'avenir ?",
+    "answers": [
+      "Son passé",
+      "Son potentiel"
+    ]
+  },
+  "6b732428-5ccc-4b9e-a751-ea915f51024f": {
+    "en": "Do you expect a good morning message from your partner every day?",
+    "text": "Tu t'attends à recevoir un « bonjour » de ta moitié chaque matin ?"
+  },
+  "d2cb8fd1-c4ee-43e7-9bec-026c60baf9ad": {
+    "en": "Would you interfere with your partner's clothing style?",
+    "text": "Tu te mêlerais du style vestimentaire de ta moitié ?"
+  },
+  "04b359db-733e-4009-8f92-b0814aa0b03a": {
+    "en": "Have you ever ignored a message from your partner to seem cooler?",
+    "text": "Tu as déjà ignoré un message de ta moitié pour paraître plus cool ?"
+  },
+  "a0098eef-632a-4297-94cf-514d6abb3a58": {
+    "en": "Is it harder to be the one who leaves or the one who stays?",
+    "text": "Qu'est-ce qui est le plus dur : être la personne qui part ou celle qui reste ?",
+    "answers": [
+      "Celle qui part",
+      "Celle qui reste"
+    ]
+  },
+  "44bf894e-1b91-4709-9c94-74b54c849ec9": {
+    "en": "In the future, would it be a problem for you if your partner only wanted a son and did not want a daughter at all?",
+    "text": "Plus tard, ça te poserait problème que ta moitié veuille uniquement des garçons et pas du tout de fille ?"
+  },
+  "8e44a610-70a6-443a-a5f4-6695dd7f2acb": {
+    "en": "Have you ever cheated on your partner?",
+    "text": "Tu as déjà trompé quelqu'un avec qui tu étais en couple ?"
+  },
+  "f7cd4adc-4c3a-462d-80b8-a9cb5e0d59a7": {
+    "en": "Have you ever been cheated on by your partner?",
+    "text": "Tu as déjà été victime d'une infidélité ?",
+    "note": "Avoided 'tu as été trompé(e)' / 't'a trompé(e)' (participle agreement); 'victime' is epicene."
+  },
+  "b06e47ff-0765-4387-a852-0e0f8d671331": {
+    "en": "Can someone who truly loves you forgive anything?",
+    "text": "Quelqu'un qui t'aime vraiment peut-il tout pardonner ?"
+  },
+  "6e964579-93e2-4ea7-a602-f2da4dc10c40": {
+    "en": "Would you date someone who doesn't like animals?",
+    "text": "Tu sortirais avec quelqu'un qui n'aime pas les animaux ?"
+  },
+  "9da6aa5a-72e2-4cfc-967b-a1333bc77fde": {
+    "en": "Would it bother you if your partner stayed in touch with their ex?",
+    "text": "Ça te dérangerait que ta moitié reste en contact avec son ex ?"
+  },
+  "5a13add7-782e-4168-a409-a8dd27a630b6": {
+    "en": "Would you continue a relationship with someone who doesn't enjoy exercising?",
+    "text": "Tu resterais avec quelqu'un qui n'aime pas faire du sport ?"
+  },
+  "97b0ab35-8d44-44b9-9ab1-814f1f7f85a8": {
+    "en": "Would you date someone older than you?",
+    "text": "Tu sortirais avec quelqu'un de plus âgé que toi ?"
+  },
+  "fdcd6d7e-01fa-494d-a8de-7b442ca67c54": {
+    "en": "What hurts more in a relationship: being lied to or being ignored?",
+    "text": "Qu'est-ce qui fait le plus mal dans une relation : le mensonge ou l'indifférence ?",
+    "answers": [
+      "Le mensonge",
+      "L'indifférence"
+    ]
+  },
+  "20510bb3-bf38-4b99-bb6d-4afcab715e9e": {
+    "en": "Have you ever acted like you had money during flirting when you actually didn't?",
+    "text": "En plein flirt, tu as déjà fait croire que tu avais de l'argent alors que non ?"
+  },
+  "cb8b64a7-939c-4ae3-8a90-74b432a1443c": {
+    "en": "If you were in love but your future goals were very different, would you continue the relationship?",
+    "text": "Si tu aimais quelqu'un mais que vos projets d'avenir étaient très différents, tu continuerais la relation ?"
+  },
+  "008255f4-ad49-4afa-b3ff-75cdf23edc79": {
+    "en": "If you didn't talk to your partner for a whole day, would it cause an argument?",
+    "text": "Si tu ne parlais pas à ta moitié de toute une journée, ça finirait en dispute ?"
+  },
+  "fa0c44cc-ec0b-436b-9ccd-7bbc0543e25b": {
+    "en": "If your mother wanted you to break up with your partner, would you do it? (No compromise allowed)",
+    "text": "Si ta mère voulait que tu quittes ta moitié, tu le ferais ? (Pas de compromis possible)"
+  },
+  "1317fcea-d7cc-4eec-8f68-f27242b04416": {
+    "en": "Would you let your partner read your Instagram DMs?",
+    "text": "Tu laisserais ta moitié lire tes DM Instagram ?"
+  },
+  "dbc65ae7-6de1-4c22-a234-30dfe8df9e83": {
+    "en": "Would you start a serious relationship with someone you met on social media?",
+    "text": "Tu commencerais une relation sérieuse avec quelqu'un rencontré sur les réseaux sociaux ?"
+  },
+  "1049e2d0-ff17-4ee1-ab4f-f85fe3f9b87c": {
+    "en": "Would you control your partner's Instagram posts?",
+    "text": "Tu contrôlerais les publications Instagram de ta moitié ?"
+  },
+  "a62df855-633d-493b-8ab3-2550e3b3365e": {
+    "en": "If your partner is online but doesn't reply, would it cause a fight?",
+    "text": "Si ta moitié est en ligne mais ne te répond pas, ça finit en dispute ?"
+  },
+  "ae38b2a8-6c8a-4e8c-a318-b1e20f4aa648": {
+    "en": "In the future, would you consider marrying someone who has been with more people than you?",
+    "text": "Plus tard, tu envisagerais d'épouser quelqu'un qui a connu plus de partenaires que toi ?"
+  },
+  "3854250e-4b69-4774-8b6a-a2e7d388e9cf": {
+    "en": "Have you ever forgiven someone who cheated on you?",
+    "text": "Tu as déjà pardonné une infidélité ?"
+  },
+  "fbdb80de-c188-405f-82b0-4e79741032fb": {
+    "en": "Do you believe that everyone deserves a second chance, regardless of what they did?",
+    "text": "Tu crois que tout le monde mérite une seconde chance, quoi qu'on ait fait ?"
+  },
+  "f3b3010c-c0bd-47ed-a4bf-e62dd8e2006f": {
+    "en": "Would you give up your biggest passion in life for someone you love?",
+    "text": "Tu renoncerais à ta plus grande passion pour la personne que tu aimes ?"
+  },
+  "fdb7ee23-84ac-47e3-82cc-e99cfdc6faef": {
+    "en": "Do you believe that people can truly change their core personality over time?",
+    "text": "Tu crois qu'on peut vraiment changer de personnalité profonde avec le temps ?"
+  },
+  "c29fa0f5-b83a-4d47-b83a-23415dbccd57": {
+    "en": "Would it bother you if your partner was the only woman/man in a large group of friends?",
+    "text": "Ça te dérangerait que ta moitié soit la seule femme ou le seul homme d'une grande bande d'amis ?"
+  },
+  "8a608656-6f0c-4340-a4ea-9946910b72b5": {
+    "en": "In the future, would you choose a partner who wants to save money for the future or a partner who prefers to enjoy spending in the present?",
+    "text": "Plus tard, tu choisirais quelqu'un qui veut économiser pour l'avenir ou quelqu'un qui préfère profiter et dépenser maintenant ?",
+    "answers": [
+      "Économiser pour l'avenir",
+      "Profiter et dépenser maintenant"
+    ]
+  },
+  "23c84c87-92c4-43a2-8803-f5f70ee8691a": {
+    "en": "Would you date someone who loves nightlife?",
+    "text": "Tu sortirais avec quelqu'un qui adore la vie nocturne ?"
+  },
+  "ce87d138-4cfa-4aee-9758-29ca3d1b954b": {
+    "en": "Do you believe that everything that will happen to you is already written?",
+    "text": "Tu crois que tout ce qui va t'arriver est déjà écrit ?"
+  },
+  "3decdc82-9ae0-4505-91f6-6302b5c53c41": {
+    "en": "Would you date someone who constantly needs your attention?",
+    "text": "Tu sortirais avec quelqu'un qui réclame sans cesse ton attention ?"
+  },
+  "706d8700-739b-47ae-9dd1-dce16f162a07": {
+    "en": "Would you date someone who is stingy?",
+    "text": "Tu sortirais avec quelqu'un de radin ?"
+  },
+  "0b4812d9-d4b8-4f65-8890-54552b41ef89": {
+    "en": "Would you date someone whose voice you don't like?",
+    "text": "Tu sortirais avec quelqu'un dont tu n'aimes pas la voix ?"
+  },
+  "001a4314-020a-4324-a750-caa1ad0bc9e4": {
+    "en": "Would you want your partner to delete their old social media posts?",
+    "text": "Tu voudrais que ta moitié supprime ses anciennes publications sur les réseaux ?"
+  },
+  "0d6447bb-6e82-460a-b04d-5d2f003696e4": {
+    "en": "In the future, would you include your partner in all of your life plans?",
+    "text": "Plus tard, tu inclurais ta moitié dans tous tes projets de vie ?"
+  },
+  "6d5ea62e-65a1-4df6-945b-5f285684a863": {
+    "en": "Would you date someone who doesn't like reading books?",
+    "text": "Tu sortirais avec quelqu'un qui n'aime pas lire ?"
+  },
+  "ac395c4f-0f1f-409a-b052-949dc725b2d7": {
+    "en": "Would you date someone who is unemployed?",
+    "text": "Tu sortirais avec quelqu'un au chômage ?"
+  },
+  "5bad6b2a-f446-40b8-80eb-1eb297558aaf": {
+    "en": "Have you ever kept talking to someone you didn't like just for attention?",
+    "text": "Tu as déjà continué à parler à quelqu'un qui ne te plaisait pas, juste pour l'attention ?"
+  },
+  "2ea3cafa-eafd-4846-ae37-6b1bd3b0afe0": {
+    "en": "Do you expect your partner to remember all the special dates in your relationship?",
+    "text": "Pour toi, ta moitié doit se souvenir de toutes les dates importantes de votre couple ?"
+  },
+  "69756540-7f71-4731-b79c-4eb07fe1da71": {
+    "en": "Have you ever imagined what kind of wedding you would have?",
+    "text": "Tu as déjà imaginé à quoi ressemblerait ton mariage ?"
+  },
+  "fe1b8a27-eb1b-4098-a0a4-914e39ab95eb": {
+    "en": "Is it a problem for you if your partner is not at the same intellectual level as you?",
+    "text": "Ça te pose problème si ta moitié n'a pas le même niveau intellectuel que toi ?"
+  },
+  "86fdbda3-1523-4d06-9d8c-07124f41ef2f": {
+    "en": "Have you ever used a dating app?",
+    "text": "Tu as déjà utilisé une appli de rencontres ?"
+  },
+  "93527a98-af04-46b4-ac9c-fa8ef3187751": {
+    "en": "In the future, would it be a problem for you if the person you want to marry already had a child with someone else?",
+    "text": "Plus tard, ça te poserait problème si la personne que tu veux épouser avait déjà un enfant avec quelqu'un d'autre ?"
+  },
+  "edf7a999-9c89-4253-9fd5-b1ef5ab799ed": {
+    "en": "Does love have an age limit?",
+    "text": "L'amour a-t-il un âge ?"
+  },
+  "e635d076-0016-4987-9d87-f888b2e841ad": {
+    "en": "Is it a problem for you if your partner does not like reading books?",
+    "text": "Ça te pose problème si ta moitié n'aime pas lire ?"
+  },
+  "79e8a155-3eb1-4fd5-89a7-b2848c75044b": {
+    "en": "Have you ever fallen in love with someone you shouldn’t have?",
+    "text": "Ça t'est déjà arrivé de craquer pour quelqu'un qu'il ne fallait pas ?"
+  },
+  "c141b0f8-c822-4fda-b966-2d0bfccab391": {
+    "en": "Would you want to know everything about your partner’s past or only the necessary parts?",
+    "text": "Tu voudrais tout savoir du passé de ta moitié, ou seulement l'essentiel ?",
+    "answers": [
+      "Tout",
+      "Seulement l'essentiel"
+    ]
+  },
+  "60fa63d8-776a-4cf9-91fa-806954a2c37c": {
+    "en": "Ambitious career growth where we’re busy, or a slower, balanced life with more time together?",
+    "text": "Une carrière ambitieuse et un agenda chargé, ou une vie plus lente et équilibrée avec plus de temps à deux ?",
+    "answers": [
+      "Carrière ambitieuse",
+      "Vie équilibrée"
+    ]
+  },
+  "4aec1675-cf2f-4623-9c75-47bc416fb320": {
+    "en": "Would you act cold on purpose to impress someone you like?",
+    "text": "Tu jouerais la froideur exprès pour séduire quelqu'un qui te plaît ?"
+  },
+  "1613d859-b83f-4783-aa2d-695aadcc9bc2": {
+    "en": "Have you ever done something silly to get over a breakup?",
+    "text": "Tu as déjà fait une bêtise pour te remettre d'une rupture ?"
+  },
+  "7183b9a1-aaff-4c67-a4a6-e86933246045": {
+    "en": "Is it important for you to have the same taste in food as your partner?",
+    "text": "Avoir les mêmes goûts culinaires que ta moitié, c'est important pour toi ?",
+    "answers": [
+      "Important",
+      "Pas important"
+    ]
+  },
+  "17ab270c-0960-4272-bef3-497c0338069f": {
+    "en": "Would you rather share all passwords and locations for total trust, or keep some digital privacy for independence?",
+    "text": "Tout partager (mots de passe, localisation) pour une confiance totale, ou garder un peu de vie privée numérique pour ton indépendance ?",
+    "answers": [
+      "Transparence totale",
+      "Vie privée numérique"
+    ]
+  },
+  "ebc6c164-d692-4a9a-b39e-76ed5c8b4435": {
+    "en": "Would you lie to your partner just to make them happy?",
+    "text": "Tu mentirais à ta moitié juste pour lui faire plaisir ?"
+  },
+  "54c4d6cd-73cc-47f0-b70b-da72232dad98": {
+    "en": "Would you seek revenge on a partner who cheated on you?",
+    "text": "Tu te vengerais si ta moitié te trompait ?"
+  },
+  "39450fcf-8356-4078-b219-8cb06da5af79": {
+    "en": "If you stayed single for a long time, would you lower your standards to be with someone?",
+    "text": "Après un long célibat, tu baisserais tes exigences pour être avec quelqu'un ?"
+  },
+  "a041fab5-92d4-4a5f-be2f-b957f329b5bd": {
+    "en": "Your partner talking about their past relationships...",
+    "text": "Que ta moitié parle de ses anciennes relations, c'est…",
+    "answers": [
+      "Normal et nécessaire",
+      "Inutile et blessant"
+    ]
+  },
+  "65a85275-79ea-4d17-8c24-c1eb58cbcd86": {
+    "en": "Is texting every day with your partner necessary for you?",
+    "text": "Échanger des messages tous les jours avec ta moitié, c'est indispensable pour toi ?"
+  },
+  "c5d257bf-030a-472a-bd4c-a2d48ae36e84": {
+    "en": "Would you date someone your friends don't consider a good physical match for you?",
+    "text": "Tu sortirais avec quelqu'un qui, selon tes amis, ne va pas avec toi physiquement ?"
+  },
+  "289535a4-8bd1-40f3-b08b-3a922499bbb7": {
+    "en": "Would you date someone who is famous online?",
+    "text": "Tu sortirais avec quelqu'un de connu sur Internet ?"
+  },
+  "b1acfbe5-f3af-4497-a227-9d505804fc19": {
+    "en": "Would you date someone who is very flirtatious?",
+    "text": "Tu sortirais avec quelqu'un de très dragueur ?"
+  },
+  "c5360398-4fae-4217-b9a9-688f74fe7070": {
+    "en": "Do you believe in love at first sight?",
+    "text": "Tu crois au coup de foudre ?"
+  },
+  "2ee5b9b7-f944-4184-95fa-6126fc6e3728": {
+    "en": "Is physical attractiveness more important to you than intelligence?",
+    "text": "Le physique compte plus que l'intelligence pour toi ?"
+  },
+  "e6bbcb00-c081-42da-8fa3-49ddc918d36d": {
+    "en": "Have you ever had a period when you were very flirty?",
+    "text": "Tu as déjà eu une période où tu draguais beaucoup ?"
+  },
+  "a0104269-bc85-49c8-ab80-c42c0378b7a1": {
+    "en": "If your friends don't like your partner, would it make you lose interest in them?",
+    "text": "Si tes amis n'aimaient pas ta moitié, ça te refroidirait ?"
+  },
+  "2f245f8d-f7f9-44a4-a1ef-70380caf5c51": {
+    "en": "Do you think long-term friends can become romantic partners later?",
+    "text": "Tu penses que des amis de longue date peuvent finir en couple ?"
+  },
+  "40004a65-7deb-4d2e-894f-c10ac0c02ede": {
+    "en": "If your friend were romantically attracted to you, would you give them a chance?",
+    "text": "Si un de tes amis avait des sentiments pour toi, tu lui laisserais une chance ?"
+  },
+  "7ee41bf9-fa8d-42ab-a4a5-25bd110543e0": {
+    "en": "If you stopped trying in your relationship, would your partner still stay?",
+    "text": "Si tu arrêtais de faire des efforts dans ta relation, ta moitié resterait quand même ?"
+  },
+  "b1eea995-fbe7-4313-be08-f61522b35b5a": {
+    "en": "If your partner wanted to make a TikTok video with you for a trend, would you agree?",
+    "text": "Si ta moitié voulait tourner une vidéo TikTok avec toi pour suivre une tendance, tu accepterais ?"
+  },
+  "2a9a3787-2ade-4db3-a8ca-ac97c25f2a80": {
+    "en": "If you fell out of love, would you stay for the sake of history?",
+    "text": "Si l'amour s'éteignait, tu resterais pour tout ce que vous avez vécu ?"
+  },
+  "c76d7425-b712-41a8-8a78-e20b3844a382": {
+    "en": "Should the man make the first move?",
+    "text": "C'est à l'homme de faire le premier pas ?",
+    "flagged": true,
+    "note": "Source assumes a man in the couple; kept as a general-opinion question."
+  },
+  "e8dd11c5-218b-4d77-a137-0444c87fff31": {
+    "en": "If your partner looked a lot like their previous partner, would it bother you?",
+    "text": "Si ta moitié ressemblait beaucoup à son ex, ça te dérangerait ?"
+  },
+  "69535b7c-b94c-4ebc-95b0-5fa46b811906": {
+    "en": "If your partner wanted to read your messages with your friend group, would you let them?",
+    "text": "Si ta moitié voulait lire tes messages avec ton groupe d'amis, tu accepterais ?"
+  },
+  "308773bf-cdf6-4b94-ad4b-f180e08e5163": {
+    "en": "If your partner is a big fan of a celebrity of the opposite sex, would it be a problem?",
+    "text": "Si ta moitié est très fan d'une star du sexe opposé, ça te pose problème ?"
+  },
+  "22a15b58-da54-4651-8f7e-1fe19d7759bb": {
+    "en": "What is harder to rebuild after it is broken?",
+    "text": "Qu'est-ce qui est le plus dur à reconstruire une fois brisé ?",
+    "answers": [
+      "La confiance",
+      "Le respect"
+    ]
+  },
+  "3576a2e2-2091-4b80-be80-5ab444b547cd": {
+    "en": "Would you live in the same house with a friend of the opposite sex while having a partner?",
+    "text": "Tu es en couple : tu vivrais en coloc avec quelqu'un du sexe opposé, en toute amitié ?",
+    "flagged": true,
+    "note": "'a friend of the opposite sex' -> 'quelqu'un du sexe opposé, en toute amitié' to avoid ami/amie revealing the player's gender."
+  },
+  "a174d015-ea8e-438b-b656-4f2fd4c4d34a": {
+    "en": "Do you constantly check your partner's social media followers and who they follow?",
+    "text": "Tu vérifies sans arrêt les abonnés et les abonnements de ta moitié sur les réseaux ?"
+  },
+  "9dbad2cb-e77a-4d79-ab55-a910ff298ae6": {
+    "en": "Have you ever ghosted any of your flirts before?",
+    "text": "Tu as déjà ghosté quelqu'un avec qui tu flirtais ?"
+  },
+  "40f38dbd-3632-412b-8639-66caf198eccb": {
+    "en": "Would you prefer a passionate but argumentative relationship over a calm and romantic one?",
+    "text": "Tu préférerais une relation passionnée mais orageuse à une relation calme et romantique ?"
+  },
+  "e79b86a4-0b67-4524-863e-99c6afe7244b": {
+    "en": "Do you constantly stalk someone you're attracted to?",
+    "text": "Tu stalkes sans arrêt quelqu'un qui te plaît ?"
+  },
+  "f60eb06e-d599-4397-9b8e-d998cf3aa387": {
+    "en": "Would you stop talking to a friend who finds you attractive if your partner asked you to?",
+    "text": "Si ta moitié te le demandait, tu arrêterais de parler à un ami qui craque pour toi ?"
+  },
+  "88d9192e-4744-437f-a872-d8506811e724": {
+    "en": "Would you like it if your partner told you every time someone hit on them?",
+    "text": "Tu aimerais que ta moitié te prévienne chaque fois qu'on lui fait du rentre-dedans ?"
+  },
+  "ac9241fd-9c2f-4660-b29f-54b5f376e587": {
+    "en": "If your best friend and partner met without telling you, would you get jealous?",
+    "text": "Si ta moitié et ton meilleur ami se voyaient sans te le dire, tu ressentirais de la jalousie ?"
+  },
+  "2f3ce1da-32a3-4290-bfed-f7010eceef7f": {
+    "en": "Would you go on a double date with someone you don't like just for your friend?",
+    "text": "Tu accepterais un double rencard avec quelqu'un qui ne te plaît pas, juste pour rendre service à un pote ?"
+  },
+  "70d85605-9926-497a-bc33-8f1f160a767b": {
+    "en": "If both you and your friend liked the same person, would you be the one to step back?",
+    "text": "Si un de tes potes et toi craquiez pour la même personne, ce serait toi qui laisserais la place ?"
+  },
+  "c721139f-fab6-47e1-a92a-ac02286c6f63": {
+    "en": "Is a good friendship better than a good romantic relationship?",
+    "text": "Une belle amitié vaut-elle mieux qu'une belle histoire d'amour ?"
+  },
+  "8859ae1e-8d5b-42ae-b6c0-58f9db24d4e6": {
+    "en": "Would you try to find someone else immediately after breaking up to forget your partner?",
+    "text": "Après une rupture, tu chercherais tout de suite quelqu'un d'autre pour oublier ton ex ?"
+  },
+  "eb40b9fd-6df9-4f75-973c-88fd188c976a": {
+    "en": "Have you ever been with someone who wasn't very smart but was very attractive?",
+    "text": "Tu as déjà été avec quelqu'un de pas très malin, mais de très attirant ?"
+  },
+  "225fc433-ee24-4a08-a284-549ba829e019": {
+    "en": "Have you ever tried a relationship with someone just because they liked you, even if you weren’t very into them?",
+    "text": "Tu as déjà tenté une relation juste parce que tu plaisais à quelqu'un, sans que ça t'attire vraiment ?"
+  },
+  "6b4a33bb-950c-4e92-b374-36b9671321b2": {
+    "en": "Would you date someone who strongly believes in zodiac signs?",
+    "text": "Tu sortirais avec quelqu'un qui croit dur comme fer à l'astrologie ?"
+  },
+  "c50d0e1f-0a2d-43a9-8770-bcf5d941ef75": {
+    "en": "Is your partner's sexual ability an important factor for you?",
+    "text": "Les talents au lit de ta moitié, c'est un critère important pour toi ?"
+  },
+  "f1a8d83b-d35c-43e5-b186-0b32e3f7b451": {
+    "en": "Would you continue a relationship with someone who isn't very skilled sexually?",
+    "text": "Tu resterais avec quelqu'un qui n'est pas très doué au lit ?"
+  },
+  "d53cac0d-e7f5-4db7-ac2d-b7e17ffa702c": {
+    "en": "Would it bother you if your partner's close friend of the opposite sex is very attractive?",
+    "text": "Ça te dérangerait que ta moitié soit très proche d'une personne du sexe opposé très séduisante ?"
+  },
+  "a1f43837-d310-4c12-8369-557c27f561fc": {
+    "en": "Is it a problem for you if your partner has a very high libido?",
+    "text": "Ça te pose problème si ta moitié a une libido très élevée ?"
+  },
+  "6c5538e2-5508-4b67-a9ea-a489348c4c37": {
+    "en": "Is it a problem for you if your partner has a low libido?",
+    "text": "Ça te pose problème si ta moitié a une libido faible ?"
+  },
+  "a10af84c-2ef5-49d4-8905-9088ce451ce5": {
+    "en": "Is it important to you how your partner earns a living?",
+    "text": "La façon dont ta moitié gagne sa vie, c'est important pour toi ?"
+  },
+  "6aaee788-917c-4ee2-8a9a-9cca6a9c69f7": {
+    "en": "Have you ever had feelings for a friend’s ex?",
+    "text": "Tu as déjà eu des sentiments pour l'ex d'un de tes amis ?"
+  },
+  "eea3c3ff-7e4d-47bd-afff-b4e7461f0ec2": {
+    "en": "Have you ever pretended to be sick to avoid a date?",
+    "text": "Tu as déjà fait semblant d'être malade pour éviter un rencard ?"
+  },
+  "712df3cd-471a-4405-9e76-d54832abbcc4": {
+    "en": "Have you ever changed a feature just because someone wanted it?",
+    "text": "Tu as déjà changé quelque chose chez toi juste parce que quelqu'un le voulait ?"
+  },
+  "9314d50f-94c5-418b-815c-f36bede1a87f": {
+    "en": "Do you think it's normal in a relationship to know your partner's social media passwords?",
+    "text": "Pour toi, c'est normal en couple de connaître les mots de passe des réseaux de ta moitié ?"
+  },
+  "7f9d30fa-6891-460d-a0b5-34d836cff571": {
+    "en": "Does your partner staying silent during an argument make you more angry?",
+    "text": "Quand ta moitié se tait pendant une dispute, ça t'énerve encore plus ?"
+  },
+  "8ae7a335-ee23-4949-91da-d79b1a50e8f5": {
+    "en": "Does it bother you if your partner constantly deletes messages on their phone?",
+    "text": "Ça te dérange si ta moitié supprime sans arrêt des messages sur son téléphone ?"
+  },
+  "a6b504e5-84cd-460b-b095-9cb3103dbdb0": {
+    "en": "Do you think a person's closest friend should be their partner?",
+    "text": "Selon toi, l'amitié la plus forte, ça devrait être avec sa moitié ?"
+  },
+  "0fbdca85-41a4-499a-931d-8491a38e651b": {
+    "en": "Do you think differences in religion and race make a relationship more difficult?",
+    "text": "Tu penses que des différences de religion et d'origine compliquent une relation ?"
+  },
+  "2084f3b0-b540-4c5f-a400-f9f0d46a7310": {
+    "en": "Which one do you find more attractive: intelligence or body?",
+    "text": "Qu'est-ce qui t'attire le plus : l'intelligence ou le physique ?",
+    "answers": [
+      "L'intelligence",
+      "Le physique"
+    ]
+  },
+  "ebcc2753-cafa-4764-8de8-00c9e8c64d81": {
+    "en": "Which is worse: your partner cheating on you emotionally or physically?",
+    "text": "Qu'est-ce qui serait pire : que ta moitié te trompe émotionnellement ou physiquement ?",
+    "answers": [
+      "Émotionnellement",
+      "Physiquement"
+    ]
+  },
+  "63b32ee8-1fa7-4e8a-8e78-a4e97cac10d7": {
+    "en": "Which would bother you more: your partner being overly honest or sometimes hiding their feelings?",
+    "text": "Qu'est-ce qui te gênerait le plus chez ta moitié : trop de franchise ou des sentiments parfois cachés ?",
+    "answers": [
+      "Trop de franchise",
+      "Sentiments cachés"
+    ]
+  },
+  "df254cfe-4e09-4956-92ce-5d706c4c7d50": {
+    "en": "Can your partner restrict you in certain situations?",
+    "text": "Tu accepterais que ta moitié te fixe des limites dans certaines situations ?"
+  },
+  "779c01e5-9ba2-48ed-84f5-747084bda093": {
+    "en": "Does your partner have to share a photo with you on their social media accounts?",
+    "text": "Pour toi, ta moitié se doit de poster une photo de vous deux sur ses réseaux ?"
+  },
+  "7dfca2ae-4653-499b-8b35-8409ac9cb8e5": {
+    "en": "Would you be with someone who has been married before?",
+    "text": "Tu pourrais sortir avec quelqu'un qui a déjà été marié ?"
+  },
+  "ecb7bf85-0455-46c5-9045-8c485aa6c8d6": {
+    "en": "Would you be with someone whose previous relationship ended very recently?",
+    "text": "Tu pourrais sortir avec quelqu'un qui sort tout juste d'une relation ?"
+  },
+  "7713469e-5c7c-4081-885e-784fcefc308b": {
+    "en": "If you really liked a piece of clothing, would you buy it even if it was very expensive?",
+    "text": "Si un vêtement te plaît vraiment, tu l'achètes même s'il coûte très cher ?"
+  },
+  "a25b6694-0388-469a-80c3-1a065d4641da": {
+    "en": "Would you be with someone who never likes cooking and always eats out?",
+    "text": "Tu pourrais sortir avec quelqu'un qui déteste cuisiner et mange toujours dehors ?"
+  },
+  "9106e2f1-c28e-4b6d-a27f-3ac47f185e39": {
+    "en": "Do you think your ex-partner should be removed from social media accounts?",
+    "text": "Selon toi, il faut supprimer son ex de ses réseaux sociaux ?"
+  },
+  "1d7b03f4-df47-452a-8a54-1b98528dd75a": {
+    "en": "Would you want to have had only one partner since high school and married them?",
+    "text": "Tu aurais aimé n'avoir qu'un seul amour depuis le lycée et finir par l'épouser ?"
+  },
+  "e371edc7-ba67-4d14-8fa7-dad00b7d6b31": {
+    "en": "Would you start a relationship with someone you love but doubt their loyalty?",
+    "text": "Tu te mettrais en couple avec quelqu'un que tu aimes, mais dont la fidélité te fait douter ?"
+  },
+  "36c6f327-8de2-42ed-8165-752c783ae56d": {
+    "en": "Do you think it's normal for someone to have other flirts while in a flirtation period with you?",
+    "text": "Tu trouves normal que quelqu'un qui flirte avec toi flirte aussi avec d'autres ?"
+  },
+  "c7aec6af-0246-41d9-bcc6-ce59c3b9403e": {
+    "en": "Would you be suspicious of someone who always places their phone face down on the table when going to the bathroom?",
+    "text": "Tu te méfierais de quelqu'un qui pose toujours son téléphone face cachée sur la table avant d'aller aux toilettes ?"
+  },
+  "b0f272c0-ca82-4663-bc78-6c406bb5b831": {
+    "en": "Have you ever completely cut off a relationship over something trivial?",
+    "text": "Ça t'est déjà arrivé de tout couper avec quelqu'un pour une broutille ?"
+  },
+  "c70818b5-97c6-4134-8b6e-94b01052f279": {
+    "en": "Would you feel turned off if your partner refused to drink from the same bottle as you?",
+    "text": "Ça te refroidirait si ta moitié refusait de boire à la même bouteille que toi ?"
+  },
+  "4c354718-87c5-46d1-b2d7-733646f06068": {
+    "en": "Is it okay for your partner to treat a friend of the opposite sex to a meal?",
+    "text": "Pour toi, ta moitié peut inviter à manger un ami ou une amie de l'autre sexe ?"
+  },
+  "29870733-c386-448b-82a7-a2f059a50ba4": {
+    "en": "Is it okay for your partner to meet one-on-one with a friend of the opposite sex?",
+    "text": "Pour toi, ta moitié peut voir en tête-à-tête un ami ou une amie de l'autre sexe ?"
+  },
+  "e392db65-9315-4f83-8930-34c5a450b24a": {
+    "en": "Would you get upset if your partner refused to show you their messages with a friend of the opposite sex?",
+    "text": "Ça t'énerverait si ta moitié refusait de te montrer ses messages avec un ami ou une amie de l'autre sexe ?"
+  },
+  "1b878572-51f3-4ef5-b869-57695d5b4bba": {
+    "en": "Is it okay for your partner to buy coffee for a friend of the opposite sex?",
+    "text": "Pour toi, ta moitié peut offrir un café à un ami ou une amie de l'autre sexe ?"
+  },
+  "1338669a-0f18-42d9-b936-97fa0009639f": {
+    "en": "Would you want to know everything about your partner’s past or only the necessary parts?",
+    "text": "Tu voudrais tout savoir du passé de ta moitié, ou seulement l'essentiel ?",
+    "answers": [
+      "Tout",
+      "Seulement l'essentiel"
+    ]
+  },
+  "35f1ccbf-5cf0-4b91-b844-cdc93470350c": {
+    "en": "Jealousy between you and your partner...",
+    "text": "La jalousie dans votre couple…",
+    "answers": [
+      "C'est mignon",
+      "Ça abîme la relation"
+    ]
+  },
+  "b60dd292-09bb-4403-8129-eceb964a89bb": {
+    "en": "Who texts first in a relationship...",
+    "text": "Qui écrit en premier, dans une relation…",
+    "answers": [
+      "Un équilibre important",
+      "Pas de quoi s'en soucier"
+    ]
+  },
+  "8a5c8ef1-6310-4d06-8af8-e41508b1d9af": {
+    "en": "What's the ideal length of a first date, in hours?",
+    "text": "Combien d'heures doit durer un premier rendez-vous idéal ?"
+  },
+  "3038d09c-8a48-432e-8f6a-3173cdf1b0f3": {
+    "en": "After how many dates is a first kiss okay?",
+    "text": "Le premier baiser, c'est OK après combien de rendez-vous ?"
+  },
+  "3a7b78ae-2cd0-461c-a69f-f2f5e35d2593": {
+    "en": "What's the best time of day for a first date?",
+    "text": "Quel est le meilleur moment de la journée pour un premier rendez-vous ?"
+  },
+  "8488f194-3774-470b-ac98-dfab1027a149": {
+    "en": "How many days should you wait before asking for a second date?",
+    "text": "Combien de jours faut-il attendre avant de proposer un deuxième rendez-vous ?"
+  },
+  "00d225ad-05d7-4044-9a9a-f002791aa06b": {
+    "en": "What's a good age gap in a relationship, in years?",
+    "text": "Un bon écart d'âge dans un couple, c'est combien d'années ?"
+  },
+  "52369eca-4691-4ff4-ba5c-db44489ab01d": {
+    "en": "How often should new couples text each day?",
+    "text": "Un nouveau couple devrait s'écrire combien de fois par jour ?"
+  },
+  "0e7b5127-24d4-48bc-b454-f43ae9fade2d": {
+    "en": "After how many dates is staying over okay?",
+    "text": "Dormir chez l'autre, c'est OK après combien de rendez-vous ?"
+  },
+  "831590be-5c22-4b45-b378-5794e75e0f56": {
+    "en": "How many minutes late is acceptable on a first date?",
+    "text": "Combien de minutes de retard sont acceptables à un premier rendez-vous ?"
+  },
+  "7192abf5-e884-4f12-80e1-1d0b1a96e8c0": {
+    "en": "How many exes is too many?",
+    "text": "À partir de combien d'ex, c'est trop ?"
+  },
+  "f8ed25d1-90b1-4de2-a09b-6adbf13a1e81": {
+    "en": "How long should you talk before meeting in person, in days?",
+    "text": "Combien de jours faut-il discuter avant de se voir en vrai ?"
+  },
+  "38f9ad51-d981-4adf-94a0-90ebe2900c76": {
+    "en": "What should you never order on a first date?",
+    "text": "Qu'est-ce qu'il ne faut jamais commander à un premier rendez-vous ?"
+  },
+  "ebed3fec-e1ae-4368-8a0e-4e4dd4e78af9": {
+    "en": "What pet name do you use most for your partner?",
+    "text": "Quel petit surnom tu donnes le plus souvent à ta moitié ?"
+  },
+  "d14e2f10-7c81-43cd-be66-3e778564a465": {
+    "en": "What's the max number of past flirts your partner could have before it turns you off?",
+    "text": "Combien d'anciens flirts de ta moitié, au maximum, avant que ça te refroidisse ?"
+  },
+  "010dfc92-9c21-441a-a0f5-b159412b70a2": {
+    "en": "How many years in a past relationship would turn you off? Write 0 if none would.",
+    "text": "À partir de combien d'années, une ancienne relation de ta moitié te refroidirait ? Écris 0 si la durée ne te gêne pas."
+  },
+  "9cd5fd8b-3a6e-4b0f-a091-7d8612fb213f": {
+    "en": "What should your partner never call you?",
+    "text": "Quel surnom ta moitié ne devrait jamais te donner ?"
+  },
+  "87658e97-ac2e-44a5-b542-433a08e7aabd": {
+    "en": "What do you most want your partner to call you?",
+    "text": "Quel surnom aimerais-tu le plus que ta moitié te donne ?"
+  },
+  "763e922e-ab9e-4f6f-827e-693af2a26f4d": {
+    "en": "After how many years together would you want to move in?",
+    "text": "Au bout de combien d'années de couple voudrais-tu vivre ensemble ?"
+  },
+  "77c7dd5e-0ffd-4698-b393-0ff78d1e213b": {
+    "en": "After how many months would you want to meet their family?",
+    "text": "Au bout de combien de mois voudrais-tu rencontrer la famille de ta moitié ?"
+  },
+  "595fa92e-a25b-4dc9-8f78-4550f1d8608f": {
+    "en": "After how many years of marriage would you want kids?",
+    "text": "Au bout de combien d'années de mariage voudrais-tu des enfants ?"
+  },
+  "3a380d3f-8123-4e99-b4f3-e7d2ec4ff655": {
+    "en": "What's your ideal first date?",
+    "text": "Ton premier rendez-vous idéal ?",
+    "answers": [
+      "Un café",
+      "Une balade",
+      "Un dîner",
+      "Un verre"
+    ]
+  },
+  "804c67c5-9dd5-4bf0-9448-3e0ab96b2928": {
+    "en": "Someone you're talking to takes two days to reply. What do you do?",
+    "text": "Quelqu'un avec qui tu discutes met deux jours à répondre. Tu fais quoi ?",
+    "answers": [
+      "Tu attends",
+      "Tu relances gentiment",
+      "Tu fais pareil",
+      "Tu perds tout intérêt"
+    ]
+  },
+  "6edf2d1a-551c-4860-991c-3fb9641f6085": {
+    "en": "How should a good first date end?",
+    "text": "Comment doit se terminer un bon premier rendez-vous ?",
+    "answers": [
+      "Un câlin",
+      "Un baiser",
+      "Un deuxième rendez-vous calé",
+      "Un simple « à plus »"
+    ]
+  },
+  "4f7b735e-59a7-4eeb-bcaa-43853cdf224a": {
+    "en": "Where's your phone on a first date?",
+    "text": "Où est ton téléphone pendant un premier rendez-vous ?",
+    "answers": [
+      "Dans ton sac ou ta poche",
+      "Face cachée sur la table",
+      "En silencieux, pas loin",
+      "Tu l'oublies presque"
+    ]
+  },
+  "10ca97e0-e294-417e-84be-a586b2a6e65c": {
+    "en": "Who should plan the second date?",
+    "text": "Qui doit organiser le deuxième rendez-vous ?",
+    "answers": [
+      "La personne qui a proposé le premier",
+      "L'autre, cette fois",
+      "La personne la plus dispo",
+      "Ensemble"
+    ]
+  },
+  "15087f4a-b129-4ded-bda9-9b8e9f2ce9c9": {
+    "en": "The first date was fine, not amazing. What do you do?",
+    "text": "Premier rendez-vous correct, sans plus. Tu fais quoi ?",
+    "answers": [
+      "Tu tentes un deuxième rendez-vous",
+      "Tu disparais poliment",
+      "Tu dis que ça ne colle pas",
+      "Tu continues à écrire pour voir"
+    ]
+  },
+  "9d5474ab-62cf-433d-8a62-9cfe83a90018": {
+    "en": "How do you prefer to be asked out?",
+    "text": "Comment préfères-tu qu'on te propose un rendez-vous ?",
+    "answers": [
+      "En personne",
+      "Par message",
+      "Avec un plan précis",
+      "Tranquille, sans pression"
+    ]
+  },
+  "46002351-0295-45f1-a0f9-322e2d7f98b9": {
+    "en": "They bring up their ex on the first date. What do you do?",
+    "text": "La personne parle de son ex dès le premier rendez-vous. Tu fais quoi ?",
+    "answers": [
+      "Tu changes de sujet",
+      "Tu écoutes un peu",
+      "Tu poses une question",
+      "Tu perds tout intérêt"
+    ]
+  },
+  "a90fff4b-18ba-402c-920d-e141465c46fb": {
+    "en": "When do you tell friends you're seeing someone new?",
+    "text": "Quand dis-tu à tes amis que tu vois quelqu'un ?",
+    "answers": [
+      "Après le premier rendez-vous",
+      "Après quelques rendez-vous",
+      "Quand ça devient sérieux",
+      "Tu gardes ça pour toi un moment"
+    ]
+  },
+  "2afd06cc-aad0-4cd2-b85a-be260fc537a9": {
+    "en": "Their dating app lights up on the table during your date. What do you do?",
+    "text": "En plein rendez-vous, son appli de rencontre s'allume sur la table. Tu fais quoi ?",
+    "answers": [
+      "Tu fais comme si de rien n'était",
+      "Tu en plaisantes",
+      "Tu poses directement la question",
+      "Tu perds tout intérêt"
+    ]
+  },
+  "80a133aa-e818-4387-ba13-6d18f3eca48c": {
+    "en": "An awkward silence hits for 20 seconds. What do you do?",
+    "text": "Un silence gênant de 20 secondes s'installe. Tu fais quoi ?",
+    "answers": [
+      "Tu poses une question au hasard",
+      "Tu fais une blague sur le silence",
+      "Tu le vis tranquillement",
+      "Tu paniques un peu intérieurement"
+    ]
+  },
+  "54ae559d-c747-4baa-b836-c2ac0f6d5914": {
+    "en": "You run into your ex during the date. What do you do?",
+    "text": "Tu croises ton ex pendant le rendez-vous. Tu fais quoi ?",
+    "answers": [
+      "Un petit bonjour et tu passes",
+      "Tu fais vite les présentations",
+      "Tu fais semblant de ne rien voir"
+    ]
+  },
+  "1862d1eb-0f5f-4433-b278-f78ae8e65a56": {
+    "en": "They order for you without asking. What do you do?",
+    "text": "La personne commande pour toi sans te demander. Tu fais quoi ?",
+    "answers": [
+      "Tu suis le mouvement",
+      "Tu changes poliment ta commande",
+      "Tu fais remarquer que c'est un peu trop"
+    ]
+  },
+  "b5794a9f-d967-4b5d-924b-08fde07181dd": {
+    "en": "Someone you're talking to sends you a 4-minute voice note. What do you do?",
+    "text": "La personne avec qui tu discutes t'envoie un vocal de 4 minutes. Tu fais quoi ?",
+    "answers": [
+      "Tu écoutes tout",
+      "Tu l'écoutes en x1,5",
+      "Tu réponds par un vocal",
+      "Tu demandes plutôt un message écrit"
+    ]
+  },
+  "11057121-36b1-4bec-8fe0-a951f48a59cb": {
+    "en": "Before your second date, they like a photo of yours from 2019. What do you do?",
+    "text": "Avant votre deuxième rendez-vous, la personne like une de tes photos de 2019. Tu fais quoi ?",
+    "answers": [
+      "Tu en ris",
+      "Tu likes une vieille photo en retour",
+      "Tu en plaisantes au rendez-vous",
+      "Ça te fait un peu flipper"
+    ]
+  },
+  "2018faf7-7f62-4184-ab8d-f8daddf0c55b": {
+    "en": "You bump into each other at a friend's party. Nobody knows you've been seeing each other. What do you do?",
+    "text": "Vous vous croisez à la soirée d'un ami. Personne ne sait que vous vous voyez. Tu fais quoi ?",
+    "answers": [
+      "Tu fais comme si vous ne vous connaissiez pas",
+      "Tu dis bonjour, l'air de rien",
+      "Tu vas direct vers l'autre et vous restez ensemble"
+    ]
+  },
+  "4186af00-6693-48c4-b037-597f68eca363": {
+    "en": "The day after your date, a mutual friend tells you they described the whole thing. How do you feel?",
+    "text": "Le lendemain du rendez-vous, un ami commun te dit que la personne lui a tout raconté. Ça te fait quoi ?",
+    "answers": [
+      "Ça te flatte",
+      "Tu veux savoir ce qui s'est dit",
+      "Ça t'agace un peu",
+      "Rien de grave, tu as fait pareil"
+    ]
+  },
+  "90996073-0d83-444d-b35a-979f896c0b5a": {
+    "en": "You get home after a great first date. Neither of you has texted yet. What do you do?",
+    "text": "Tu rentres après un super premier rendez-vous. Personne n'a encore écrit. Tu fais quoi ?",
+    "answers": [
+      "Tu écris tout de suite",
+      "Tu attends que l'autre écrive",
+      "Tu laisses ça à demain",
+      "Tu postes une story pour voir si l'autre la regarde"
+    ]
+  },
+  "585b6edd-f0f5-45dc-9b1a-70fadafc76c5": {
+    "en": "Which turns you off more on a first date: being rude to the waiter or never looking up from their phone?",
+    "text": "Au premier rendez-vous, qu'est-ce qui te refroidit le plus : mal parler au serveur ou garder le nez dans son téléphone ?",
+    "answers": [
+      "Mal parler au serveur",
+      "Le nez dans son téléphone"
+    ]
+  },
+  "6fbf29f6-9fdd-469b-a49f-dceeae0f2960": {
+    "en": "Which turns you off more: talking only about themselves or never sharing anything about themselves?",
+    "text": "Qu'est-ce qui te refroidit le plus : ne parler que de soi ou ne jamais se confier ?",
+    "answers": [
+      "Ne parler que de soi",
+      "Ne jamais se confier"
+    ]
+  },
+  "7d216358-afbd-4df9-bcbf-5dd6d671e303": {
+    "en": "Which turns you off more: a bad kiss or a boring conversation?",
+    "text": "Qu'est-ce qui te refroidit le plus : un baiser raté ou une conversation ennuyeuse ?",
+    "answers": [
+      "Un baiser raté",
+      "Une conversation ennuyeuse"
+    ]
+  },
+  "720a9cbc-8710-4872-80f2-53300dbadf6f": {
+    "en": "In the early days, which turns you off more: texting nonstop or barely texting at all?",
+    "text": "Au début, qu'est-ce qui te refroidit le plus : écrire sans arrêt ou presque jamais ?",
+    "answers": [
+      "Écrire sans arrêt",
+      "Écrire à peine"
+    ]
+  },
+  "3cf1a84d-e223-4e63-93d8-777459021597": {
+    "en": "Which turns you off more: turning everything into a joke or never getting a joke?",
+    "text": "Qu'est-ce qui te refroidit le plus : tout tourner en blague ou ne jamais comprendre une blague ?",
+    "answers": [
+      "Tout tourner en blague",
+      "Ne jamais saisir l'humour"
+    ]
+  },
+  "fc011c5b-4593-4cc1-b280-0684ad82df8d": {
+    "en": "Which turns you off more: looking different from their photos or lying about their age on their profile?",
+    "text": "Qu'est-ce qui te refroidit le plus : ne pas ressembler à ses photos ou mentir sur son âge dans son profil ?",
+    "answers": [
+      "Ne pas ressembler à ses photos",
+      "Mentir sur son âge"
+    ]
+  },
+  "ad06a964-fa58-4061-8344-79edf5b520d8": {
+    "en": "Which turns you off more: saying \"I don't mind\" to everything or having an opinion on everything?",
+    "text": "Qu'est-ce qui te refroidit le plus : répondre « ça m'est égal » à tout ou avoir un avis sur tout ?",
+    "answers": [
+      "« Ça m'est égal » à tout",
+      "Un avis sur tout"
+    ]
+  },
+  "4f531856-318c-487f-a619-fa0a59a99d7f": {
+    "en": "Which turns you off more: smelling bad or dressing badly?",
+    "text": "Qu'est-ce qui te refroidit le plus : sentir mauvais ou mal s'habiller ?",
+    "answers": [
+      "Sentir mauvais",
+      "Mal s'habiller"
+    ]
+  },
+  "ef9f4128-7b1c-403e-ad46-17990ee3ceef": {
+    "en": "Which turns you off more: telling their family everything or telling their family nothing?",
+    "text": "Qu'est-ce qui te refroidit le plus : tout raconter à sa famille ou ne rien lui dire ?",
+    "answers": [
+      "Tout raconter à sa famille",
+      "Ne rien dire à sa famille"
+    ]
+  },
+  "b2e21ef2-40ff-43ce-8665-31fc326735d8": {
+    "en": "Which turns you off more: posting every moment on social media or having no social media at all?",
+    "text": "Qu'est-ce qui te refroidit le plus : tout partager sur les réseaux ou ne pas y être du tout ?",
+    "answers": [
+      "Partager chaque instant",
+      "Aucun réseau social"
+    ]
+  },
+  "125f2188-cb75-4827-bba0-a5721c1d2e63": {
+    "en": "On the first date, they keep showing you photos of themselves. Out of 10, what score do they drop to?",
+    "text": "Au premier rendez-vous, la personne te montre sans arrêt ses selfies. Sur 10, sa note tombe à combien ?"
+  },
+  "abb96582-9c4f-4d8e-87c3-439282f14837": {
+    "en": "They bring a friend along to your first date. Out of 10, what score do they drop to?",
+    "text": "La personne vient à votre premier rendez-vous avec un ami. Sur 10, sa note tombe à combien ?"
+  },
+  "b94e3ab0-6f33-4e74-8909-a86affc709f8": {
+    "en": "Their texts are full of spelling mistakes. Out of 10, what score do they drop to?",
+    "text": "Ses messages sont bourrés de fautes d'orthographe. Sur 10, sa note tombe à combien ?"
+  },
+  "9dd33cdd-203d-49b4-ac8e-90c529ee3982": {
+    "en": "They chew with their mouth open on your date. Out of 10, what score do they drop to?",
+    "text": "Pendant le rendez-vous, la personne mâche la bouche ouverte. Sur 10, sa note tombe à combien ?"
+  },
+  "f17f2378-b71d-448f-a910-91514691cbee": {
+    "en": "They call you \"babe\" on the first date. Out of 10, what score do they drop to?",
+    "text": "Au premier rendez-vous, la personne t'appelle « bébé ». Sur 10, sa note tombe à combien ?"
+  },
+  "44d96acd-17b5-4b5f-a320-c1803fc73ed3": {
+    "en": "When the bill comes, they split it down to the last cent: \"I didn't have that drink.\" Out of 10, what score do they drop to?",
+    "text": "À l'addition, la personne compte au centime près : « Moi, je n'ai pas pris ce verre. » Sur 10, sa note tombe à combien ?"
+  },
+  "ddf5199c-bd3b-4909-8d04-6f6e2951ffc6": {
+    "en": "Nobody can touch the food until they've taken a photo of it. Out of 10, what score do they drop to?",
+    "text": "Personne n'a le droit de toucher aux plats avant qu'ils soient pris en photo. Sur 10, sa note tombe à combien ?"
+  },
+  "7511a7b3-1b46-4b57-add4-b6dced443721": {
+    "en": "Mid-date, they video-call their mom and introduce you. Out of 10, what score do they drop to?",
+    "text": "En plein rendez-vous, la personne appelle sa mère en visio et te présente. Sur 10, sa note tombe à combien ?"
+  },
+  "6273d5bb-2aa4-4236-9e4d-ad2b58f1d214": {
+    "en": "They let you pick the place, then complain about it all night. Out of 10, what score do they drop to?",
+    "text": "La personne te laisse choisir le lieu, puis s'en plaint toute la soirée. Sur 10, sa note tombe à combien ?"
+  },
+  "4368d704-52f8-4d12-b05a-6ffe29f0c12c": {
+    "en": "They show up to your first date in sweatpants. Out of 10, what score do they drop to?",
+    "text": "La personne arrive à votre premier rendez-vous en jogging. Sur 10, sa note tombe à combien ?"
+  },
+  "0a291386-f57e-4cd1-8c4a-b585cbd08dfd": {
+    "en": "They reply to every text with a voice note. Out of 10, what score do they drop to?",
+    "text": "La personne répond à chaque message par un vocal. Sur 10, sa note tombe à combien ?"
+  },
+  "96a32a32-c92c-4e00-b24f-51b848ebecca": {
+    "en": "They talk about themselves in the third person. Out of 10, what score do they drop to?",
+    "text": "La personne parle d'elle-même à la troisième personne. Sur 10, sa note tombe à combien ?"
+  },
+  "0b6fd4c0-2fdb-4c43-812f-077f6dc0615b": {
+    "en": "They laugh so loud that the whole place turns to look. Out of 10, what score do they drop to?",
+    "text": "La personne rit si fort que toute la salle se retourne. Sur 10, sa note tombe à combien ?"
+  },
+  "91a24e9e-a8a6-497f-b828-394c850e07b2": {
+    "en": "With someone new, which of these would you do first?",
+    "text": "Avec quelqu'un de nouveau, tu ferais quoi en premier ?",
+    "answers": [
+      "L'afficher en story",
+      "Lui présenter tes amis",
+      "Partir en week-end",
+      "Créer une playlist commune"
+    ]
+  },
+  "76536319-97cd-490d-9836-5f8187f0d46f": {
+    "en": "When you start seeing someone, which comes first for you?",
+    "text": "Quand tu commences à voir quelqu'un, tu fais quoi en premier ?",
+    "answers": [
+      "Supprimer les applis de rencontre",
+      "Partager ta localisation",
+      "L'enregistrer avec un cœur",
+      "Poster une photo à deux"
+    ]
+  },
+  "f1ae02e8-b052-4b76-a32e-d4ce62d46246": {
+    "en": "With someone new, which would you be okay with first?",
+    "text": "Avec quelqu'un de nouveau, qu'est-ce qui te semblerait normal en premier ?",
+    "answers": [
+      "Une brosse à dents chez toi",
+      "Une visite quand tu es malade",
+      "Un double de tes clés",
+      "Un séjour chez toi en ton absence"
+    ]
+  },
+  "cd2b5109-18c4-46b4-8c38-1380eb70b2a2": {
+    "en": "With someone new, which would you do first?",
+    "text": "Avec quelqu'un de nouveau, tu oserais quoi en premier ?",
+    "answers": [
+      "Pleurer devant l'autre",
+      "Parler de soucis d'argent",
+      "Te montrer avec ta pire tête",
+      "Confier ce que tu n'as jamais dit à personne"
+    ]
+  },
+  "1bc66b63-cc8e-424a-80f4-c6b7b3bbba3c": {
+    "en": "When you start seeing someone, which would you do first?",
+    "text": "Quand tu commences à voir quelqu'un, tu ferais quoi en premier ?",
+    "answers": [
+      "L'inviter à ton anniversaire",
+      "L'emmener comme +1 à un mariage",
+      "Passer le réveillon ensemble",
+      "Prévoir des vacances ensemble"
+    ]
+  },
+  "aed88a42-6f84-4456-8aa7-669766f78264": {
+    "en": "Which wins you over more: someone who makes you laugh or someone who really listens?",
+    "text": "Qu'est-ce qui te séduit le plus : quelqu'un qui te fait rire ou quelqu'un qui t'écoute vraiment ?",
+    "answers": [
+      "Qui te fait rire",
+      "Qui t'écoute vraiment"
+    ]
+  },
+  "a95cb18b-bd0a-42b1-b2d3-ad598f132ba6": {
+    "en": "Which wins you over more: a date planned down to the details or a spontaneous last-minute idea?",
+    "text": "Qu'est-ce qui te séduit le plus : un rendez-vous préparé dans les moindres détails ou une idée spontanée de dernière minute ?",
+    "answers": [
+      "Préparé dans les moindres détails",
+      "Une idée spontanée"
+    ]
+  },
+  "3d173579-d941-4634-b884-665b6e4fe6eb": {
+    "en": "Which wins you over more: remembering a small detail you mentioned or surprising you?",
+    "text": "Qu'est-ce qui te séduit le plus : qu'on se souvienne d'un petit détail que tu as mentionné ou qu'on te fasse une surprise ?",
+    "answers": [
+      "Se souvenir d'un petit détail",
+      "Te faire une surprise"
+    ]
+  },
+  "0b5becd8-64bd-4166-a997-e0a4e90d99f5": {
+    "en": "Which attracts you more: someone confident or someone a little shy?",
+    "text": "Qu'est-ce qui t'attire le plus : l'assurance ou un brin de timidité ?",
+    "answers": [
+      "L'assurance",
+      "Un brin de timidité"
+    ]
+  },
+  "e1bf3858-7a28-4bb5-b306-cbb230ca1d89": {
+    "en": "Which attracts you more: a nice voice or a nice smile?",
+    "text": "Qu'est-ce qui t'attire le plus : une belle voix ou un beau sourire ?",
+    "answers": [
+      "Une belle voix",
+      "Un beau sourire"
+    ]
+  },
+  "58cb7a84-520d-4e1e-a840-a01661805b2a": {
+    "en": "After how many weeks of talking should you have the \"what are we?\" talk?",
+    "text": "Après combien de semaines à se parler faut-il avoir la discussion « On est quoi, nous deux ? » ?"
+  },
+  "e3bfce26-3369-44e3-8e06-8841c696cdcd": {
+    "en": "Where would you most like to meet someone new?",
+    "text": "Où aimerais-tu le plus rencontrer quelqu'un de nouveau ?",
+    "answers": [
+      "Sur une appli de rencontre",
+      "Par des amis",
+      "En soirée ou dans un bar",
+      "Par hasard au quotidien",
+      "Sur les réseaux sociaux"
+    ]
+  },
+  "a4750d8e-f80d-409d-884b-a642b1b6dcd6": {
+    "en": "On the second date, they say \"I've never felt this way about anyone.\" What do you do?",
+    "text": "Au deuxième rendez-vous, la personne te dit : « Je n'ai jamais ressenti ça pour personne. » Tu fais quoi ?",
+    "answers": [
+      "Je fonds, j'adore",
+      "Ça me touche, mais je reste sur mes gardes",
+      "Alerte rouge, beaucoup trop rapide",
+      "Je dis la même chose"
+    ]
+  },
+  "9ac2b9fd-533c-407e-b82b-6935fec25be7": {
+    "en": "On the first date, they ask how much you earn. Out of 10, what score do they drop to?",
+    "text": "Au premier rendez-vous, la personne te demande combien tu gagnes. Sur 10, sa note tombe à combien ?"
+  },
+  "c0bef968-f505-44bc-87ab-8cbde316e110": {
+    "en": "On the first date, they pull out a discount coupon. Out of 10, what score do they drop to?",
+    "text": "Au premier rendez-vous, la personne sort un bon de réduction. Sur 10, sa note tombe à combien ?"
+  },
+  "24b88807-660c-4370-a23b-c312eb1fa5d4": {
+    "en": "It's your third date and they still haven't tried to kiss you. What do you do?",
+    "text": "C'est votre troisième rendez-vous et la personne n'a toujours pas essayé de t'embrasser. Tu fais quoi ?",
+    "answers": [
+      "Je fais le premier pas",
+      "J'attends, rien ne presse",
+      "Je commence à douter de lui plaire",
+      "Je pose la question franchement"
+    ]
+  },
+  "0f374e99-c247-4f9c-bbc6-59e5974d0741": {
+    "en": "They forget something you told them on your first date. How do you feel?",
+    "text": "La personne a oublié un truc que tu as raconté au premier rendez-vous. Tu ressens quoi ?",
+    "answers": [
+      "Pas grave",
+      "Un peu de déception",
+      "Preuve qu'on ne m'écoutait pas vraiment"
+    ]
+  },
+  "a969d002-3891-4a18-a767-6c5373b1d28a": {
+    "en": "Which wins you over more: a handwritten note or a playlist made just for you?",
+    "text": "Qu'est-ce qui te séduit le plus : un mot écrit à la main ou une playlist rien que pour toi ?",
+    "answers": [
+      "Un mot écrit à la main",
+      "Une playlist rien que pour moi"
+    ]
+  },
+  "56c6743f-a1c8-4be0-8dc7-bbeb9b977d38": {
+    "en": "They tell the waiter \"We're on a first date!\" Out of 10, what score do they drop to?",
+    "text": "La personne lance au serveur : « C'est notre premier rendez-vous ! » Sur 10, sa note tombe à combien ?"
+  },
+  "f9cf2832-da5d-4f1f-ad46-f011c7282e4d": {
+    "en": "You've been dating for a month. What's the right first gift?",
+    "text": "Ça fait un mois que vous vous voyez. C'est quoi, le bon premier cadeau ?",
+    "answers": [
+      "Un petit geste attentionné",
+      "Des fleurs",
+      "Rien pour l'instant, c'est trop tôt",
+      "Un truc cher pour impressionner"
+    ]
+  },
+  "d576e86d-b1d4-4c38-a056-f1141160b590": {
+    "en": "Which attracts you more: someone with a clear plan for their life or someone who goes with the flow?",
+    "text": "Qu'est-ce qui t'attire le plus : quelqu'un qui a un plan de vie clair ou quelqu'un qui se laisse porter ?",
+    "answers": [
+      "Un plan de vie clair",
+      "Se laisser porter"
+    ]
+  },
+  "0186074f-f074-4446-b042-ca7e9247e1cc": {
+    "en": "They cook for you and it's honestly terrible. What do you do?",
+    "text": "La personne te fait à manger et, franchement, c'est immangeable. Tu fais quoi ?",
+    "answers": [
+      "Je mange tout avec le sourire",
+      "J'en mange un peu et je dis gentiment la vérité",
+      "J'en fais une blague",
+      "Je propose de commander"
+    ]
+  },
+  "2509137a-251a-41b6-b10e-b4e1f7ca4da9": {
+    "en": "Would you start seeing someone who lives in another city?",
+    "text": "Tu pourrais commencer à voir quelqu'un qui vit dans une autre ville ?"
+  },
+  "4bbac10f-fb66-4378-be37-a399f606ae2f": {
+    "en": "For the second date, they suggest their hobby that you've never tried. What do you do?",
+    "text": "Pour le deuxième rendez-vous, la personne te propose son loisir préféré, que tu n'as jamais testé. Tu fais quoi ?",
+    "answers": [
+      "J'y vais, ça a l'air fun",
+      "J'y vais, mais j'ai un peu le trac",
+      "Je propose autre chose",
+      "Je dis que ce n'est pas pour moi"
+    ]
+  },
+  "96dd7fb8-e845-4e6b-a7de-0fada99a35ab": {
+    "en": "Which turns you off more: bragging about money or always complaining about money?",
+    "text": "Qu'est-ce qui te refroidit le plus : frimer avec l'argent ou se plaindre sans cesse d'argent ?",
+    "answers": [
+      "Frimer avec l'argent",
+      "Se plaindre sans cesse d'argent"
+    ]
+  },
+  "1d5c05ff-2738-4558-9f0a-efd6cb6e2bf8": {
+    "en": "What tells you most that someone is into you?",
+    "text": "Qu'est-ce qui te montre le plus que tu plais à quelqu'un ?",
+    "answers": [
+      "La rapidité de ses réponses",
+      "Le prochain rendez-vous déjà prévu",
+      "Plein de questions sur moi",
+      "Son langage corporel"
+    ]
+  },
+  "37a4b498-8f1d-4740-923e-2165e8b08457": {
+    "en": "After your first date, they send a long message about how much they enjoyed it. How do you feel?",
+    "text": "Après votre premier rendez-vous, la personne t'envoie un long message pour dire à quel point la soirée lui a plu. Tu ressens quoi ?",
+    "answers": [
+      "J'adore",
+      "Mignon, mais un peu trop",
+      "Trop intense, ça me fait fuir"
+    ]
+  },
+  "3a3a17ca-df5d-4a0c-9477-da964cfb471b": {
+    "en": "They show up to your first date with flowers. How do you feel?",
+    "text": "La personne arrive à votre premier rendez-vous avec des fleurs. Tu ressens quoi ?",
+    "answers": [
+      "J'adore, c'est trop mignon",
+      "Mignon, mais pas pratique à trimballer toute la soirée",
+      "Trop pour un premier rendez-vous"
+    ]
+  },
+  "509690bc-b54a-4e17-9080-4c04c87541c3": {
+    "en": "Halfway through the date, you realize you're not into them. What do you do?",
+    "text": "En plein rendez-vous, tu te rends compte que la personne ne te plaît pas. Tu fais quoi ?",
+    "answers": [
+      "Je finis poliment le rendez-vous",
+      "J'écourte avec une excuse",
+      "Je lui dis franchement",
+      "Je me fais appeler pour une fausse urgence"
+    ]
+  },
+  "5f774143-d352-4756-b32a-a6c502a594e9": {
+    "en": "They correct your grammar during the date. Out of 10, what score do they drop to?",
+    "text": "Pendant le rendez-vous, la personne corrige tes fautes de grammaire. Sur 10, sa note tombe à combien ?"
+  },
+  "d9c822f9-0c0c-4348-8e9e-3d2873d20d44": {
+    "en": "How long should a first hug last, in seconds?",
+    "text": "Combien de secondes doit durer un premier câlin ?"
+  },
+  "3a846774-458e-48e7-94ac-35ac1ed66723": {
+    "en": "They check their reflection in every window you walk past. Out of 10, what score do they drop to?",
+    "text": "La personne vérifie son reflet dans chaque vitrine devant laquelle vous passez. Sur 10, sa note tombe à combien ?"
+  },
+  "77574632-f237-4a7a-af8a-16f63041d6fe": {
+    "en": "On the first date, they ask \"So why are you single?\" What do you do?",
+    "text": "Au premier rendez-vous, la personne te demande : « Alors, pourquoi tu es célibataire ? » Tu fais quoi ?",
+    "answers": [
+      "Je réponds franchement",
+      "Je m'en sors avec une blague",
+      "Je retourne la question",
+      "Je trouve la question bizarre"
+    ]
+  },
+  "5e952fa0-bed1-4717-8caa-4119278e8391": {
+    "en": "Which wins you over more: someone who's amazing over text or someone who's amazing in person?",
+    "text": "Qu'est-ce qui te séduit le plus : quelqu'un au top par message ou quelqu'un au top en vrai ?",
+    "answers": [
+      "Au top par message",
+      "Au top en vrai"
+    ]
+  },
+  "f0726201-11ea-476c-88d9-a86ca0ab1c0b": {
+    "en": "Would you go on a blind date a friend set up, without seeing a photo first?",
+    "text": "Tu accepterais un rendez-vous arrangé par des amis, sans voir de photo avant ?"
+  },
+  "426fe6d2-47b9-4935-a993-c3742dae971f": {
+    "en": "They pay for the date with their parents' credit card. Out of 10, what score do they drop to?",
+    "text": "La personne paie le rendez-vous avec la carte bancaire de ses parents. Sur 10, sa note tombe à combien ?"
+  },
+  "e70a355f-92db-47ef-8640-7cf10d74d366": {
+    "en": "They suggest sharing a dessert, then eat almost all of it. What do you do?",
+    "text": "La personne propose de partager un dessert, puis le mange presque en entier. Tu fais quoi ?",
+    "answers": [
+      "Je ris, c'est mignon",
+      "Je me moque gentiment",
+      "J'en commande un autre pour moi",
+      "Je le note dans un coin de ma tête"
+    ]
+  },
+  "cc7cdfce-f102-4924-a15a-428fe1f01c5c": {
+    "en": "Which turns you off more: no sense of style or trying way too hard?",
+    "text": "Qu'est-ce qui te refroidit le plus : aucun sens du style ou en faire beaucoup trop ?",
+    "answers": [
+      "Aucun sens du style",
+      "En faire beaucoup trop"
+    ]
+  },
+  "27981878-ef1d-4561-9d9f-58ca583788cf": {
+    "en": "After just two dates, they want to video call every night. How do you feel?",
+    "text": "Après seulement deux rendez-vous, la personne veut faire une visio tous les soirs. Tu ressens quoi ?",
+    "answers": [
+      "J'adore",
+      "De temps en temps, pas tous les soirs",
+      "Trop, et trop tôt"
+    ]
+  },
+  "b230407f-3278-456c-b2bf-1fa8b314b92c": {
+    "en": "They get a little tipsy on your first date. How do you feel?",
+    "text": "La personne est un peu pompette à votre premier rendez-vous. Tu ressens quoi ?",
+    "answers": [
+      "Fun, ça détend l'ambiance",
+      "Ça va, tant que ça reste léger",
+      "Ça me refroidit",
+      "Je m'assure que la personne rentre bien"
+    ]
+  },
+  "9effa5fe-d2d6-4990-94f9-68ba44015a64": {
+    "en": "Which wins you over more: a smooth pickup line or an awkward, honest \"I think you're cute\"?",
+    "text": "Qu'est-ce qui te séduit le plus : une phrase de drague bien rodée ou un « tu me plais » maladroit mais sincère ?",
+    "answers": [
+      "Une phrase de drague bien rodée",
+      "Un compliment maladroit mais sincère"
+    ]
+  },
+  "081089e4-8c91-4803-a20f-fc33ee46f1bb": {
+    "en": "A song you both love comes on, and they start singing out loud in public. What do you do?",
+    "text": "Une chanson que vous adorez passe, et la personne se met à chanter à tue-tête en public. Tu fais quoi ?",
+    "answers": [
+      "Je chante aussi",
+      "Je ris et je filme",
+      "J'ai un peu honte",
+      "J'adore son énergie, mais je ne chante pas"
+    ]
+  },
+  "ae914c7b-0a58-44ae-ae10-b58a248728fb": {
+    "en": "After how many dates would you go on a weekend trip together?",
+    "text": "Après combien de rendez-vous partirais-tu en week-end à deux ?"
+  },
+  "edb7e967-3a36-4adb-b55f-e4660c847d6a": {
+    "en": "They spend the whole date complaining about their job. Out of 10, what score do they drop to?",
+    "text": "La personne passe tout le rendez-vous à se plaindre de son boulot. Sur 10, sa note tombe à combien ?"
+  },
+  "7a5ec267-e342-468f-bbba-7370d91f8ecc": {
+    "en": "It starts pouring rain on your walk and nobody has an umbrella. What do you do?",
+    "text": "Une grosse averse tombe pendant votre balade et personne n'a de parapluie. Tu fais quoi ?",
+    "answers": [
+      "On court s'abriter en riant",
+      "Je danse sous la pluie",
+      "J'appelle tout de suite un taxi",
+      "On partage une veste et on continue"
+    ]
+  },
+  "7378fa18-c11d-4566-83e6-9ee68d7c53a9": {
+    "en": "Which attracts you more: a morning person or a night owl?",
+    "text": "Qu'est-ce qui t'attire le plus : une personne du matin ou une personne du soir ?",
+    "answers": [
+      "Une personne du matin",
+      "Une personne du soir"
+    ]
+  },
+  "0b4e55e8-2a68-40f6-a431-c6455f6e7bd8": {
+    "en": "After three dates, they still haven't followed you on social media. What do you do?",
+    "text": "Après trois rendez-vous, la personne ne te suit toujours pas sur les réseaux. Tu fais quoi ?",
+    "answers": [
+      "Ça m'est égal",
+      "Je m'abonne en premier",
+      "Je commence à me demander pourquoi",
+      "Je pose la question"
+    ]
+  },
+  "b92ab70e-57ad-46d9-bbfc-957ae51e4d9d": {
+    "en": "They talk about their crypto investments all night. Out of 10, what score do they drop to?",
+    "text": "La personne parle de ses placements en crypto toute la soirée. Sur 10, sa note tombe à combien ?"
+  },
+  "b5861af8-2dea-46b5-bcc9-1a6e26e6be5a": {
+    "en": "Which wins you over more: someone who cooks you dinner or someone who takes you to their favorite spot?",
+    "text": "Qu'est-ce qui te séduit le plus : quelqu'un qui te cuisine un dîner ou quelqu'un qui t'emmène à son endroit préféré ?",
+    "answers": [
+      "Un dîner fait maison",
+      "Son endroit préféré"
+    ]
+  },
+  "86ab68e2-ba49-4ba4-abd7-529512d370ce": {
+    "en": "How many minutes into a first date do you know if you like someone?",
+    "text": "Au bout de combien de minutes d'un premier rendez-vous sais-tu si quelqu'un te plaît ?"
+  },
+  "2a28efa4-4ab1-4d2e-8173-d3d510ca3fde": {
+    "en": "How many hours after a great first date should you text?",
+    "text": "Combien d'heures après un super premier rendez-vous faut-il envoyer un message ?"
+  }
+}

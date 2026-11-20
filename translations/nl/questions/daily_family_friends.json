@@ -1,0 +1,70 @@
+{
+  "45b55eb0-9f7d-4819-8905-6bbf7412e967": {
+    "en": "How often should you see your families?",
+    "text": "Hoe vaak zouden jullie de familie moeten zien?",
+    "answers": [
+      "Elke week",
+      "Een paar keer per maand",
+      "Bij speciale gelegenheden",
+      "Zo min mogelijk"
+    ]
+  },
+  "0186e34c-69ce-4b3a-a0ca-eeda47599e25": {
+    "en": "A family member criticizes your partner. You…",
+    "text": "Een familielid heeft kritiek op je partner. Wat doe je?",
+    "answers": [
+      "Meteen voor mijn partner opkomen",
+      "Later onder vier ogen met mijn familie praten",
+      "Me er niet mee bemoeien",
+      "Mijn partner vragen wat ik moet doen"
+    ]
+  },
+  "6df93e1d-bb18-418a-bb9e-fc88799efaf1": {
+    "en": "How much say should parents have in your decisions as a couple?",
+    "text": "Hoeveel inspraak horen ouders te hebben in jullie beslissingen als stel?",
+    "answers": [
+      "Geen, het is ons leven",
+      "We luisteren en beslissen dan zelf",
+      "Hun mening telt zwaar",
+      "Hangt van de beslissing af"
+    ]
+  },
+  "8bb0a2e7-1a3d-437d-a3ea-c821dbb2fd90": {
+    "en": "Your ideal weekend social life?",
+    "text": "Je ideale weekend, sociaal gezien?",
+    "answers": [
+      "Met een grote vriendengroep",
+      "Met één ander stel",
+      "Alleen wij tweeën",
+      "Allebei met onze eigen vrienden"
+    ]
+  },
+  "b9c6e8e3-d7e3-45e4-810d-8e26270732b0": {
+    "en": "How do you feel about your partner's friends?",
+    "text": "Wat vind je van de vrienden van je partner?",
+    "answers": [
+      "Ik vind ze echt leuk",
+      "Prima, maar niet echt mijn mensen",
+      "Sommigen irriteren me",
+      "Ik ken ze nauwelijks"
+    ]
+  },
+  "2a964d04-7284-475d-bb2a-e104a8e02a1e": {
+    "en": "How much should friends know about your relationship?",
+    "text": "Hoeveel mogen vrienden weten over jullie relatie?",
+    "answers": [
+      "Alles, het zijn mijn mensen",
+      "De leuke dingen",
+      "Alleen groot nieuws",
+      "Bijna niets"
+    ]
+  },
+  "04308de1-190c-466a-816f-1fc04d957ce2": {
+    "en": "Which family tradition would you want to keep, or start, together?",
+    "text": "Welke familietraditie zou je samen willen voortzetten of juist beginnen?"
+  },
+  "8316d765-29a3-4f40-a97e-1adc20b8da80": {
+    "en": "What's one thing about your partner's family or friends you've never said out loud?",
+    "text": "Wat heb je over de familie of vrienden van je partner nog nooit hardop gezegd?"
+  }
+}

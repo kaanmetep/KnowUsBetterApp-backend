@@ -4,7 +4,7 @@
  * (`text_pt`, `answers_pt`, `{ pt: ... }`), so adding one here is the
  * backend half of adding a language.
  */
-export const LANGS = ["en", "tr", "es", "pt", "de", "it", "pl"] as const;
+export const LANGS = ["en", "tr", "es", "pt", "de", "it", "pl", "fr", "ja", "nl"] as const;
 export type Lang = (typeof LANGS)[number];
 
 export const LANGUAGE_NAMES: Record<Lang, string> = {
@@ -15,6 +15,9 @@ export const LANGUAGE_NAMES: Record<Lang, string> = {
   de: "German",
   it: "Italian",
   pl: "Polish",
+  fr: "French",
+  ja: "Japanese",
+  nl: "Dutch",
 };
 
 export function isLang(value: unknown): value is Lang {

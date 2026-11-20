@@ -461,7 +461,7 @@ YASAK (AI kokan her şey):
 - Ünlem, emoji, Markdown, madde işareti. Soruları olduğu gibi tekrar etmek.
 
 DİĞER:
-- Kullanıcı mesajında belirtilen dilde yaz, çifte direkt hitap et ("siz" / "you" / "ustedes" / "vocês" / "ihr" / "voi" / "wy").
+- Kullanıcı mesajında belirtilen dilde yaz, çifte direkt hitap et ("siz" / "you" / "ustedes" / "vocês" / "ihr" / "voi" / "wy" / "vous" / "ふたり" / "jullie").
 - ÖNCEKİ BÖLÜMLER verildiyse ve bugünkü cevaplarla gerçekten bağlantılıysa (aynı örüntü tekrar ediyorsa) bunu bir kez söyle. Bağlantı yoksa hiç değinme.
 
 JSON formatında SADECE şu yapıda cevap ver:
@@ -612,6 +612,18 @@ const READY_PUSH: Record<Lang, { title: string; body: string }> = {
   pl: {
     title: "Wasza analiza jest gotowa",
     body: "Dzisiejszy rozdział o was jest już napisany. Dotknij, aby go przeczytać.",
+  },
+  fr: {
+    title: "Votre analyse est prête",
+    body: "Le chapitre du jour sur vous deux est écrit. Touchez pour le lire.",
+  },
+  ja: {
+    title: "ふたりの分析ができました",
+    body: "今日のふたりのチャプターが届きました。タップして読んでね。",
+  },
+  nl: {
+    title: "Jullie analyse is klaar",
+    body: "Het hoofdstuk van vandaag over jullie twee is geschreven. Tik om het te lezen.",
   },
 };
 

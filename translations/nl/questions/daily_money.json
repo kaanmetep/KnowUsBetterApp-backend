@@ -1,0 +1,69 @@
+{
+  "74e8638b-8b64-4231-9da1-49a411091b71": {
+    "en": "An unexpected bonus lands in your account. You…",
+    "text": "Er staat onverwacht een bonus op je rekening. Wat doe je?",
+    "answers": [
+      "Sparen",
+      "Uitgeven aan iets voor ons samen",
+      "Mezelf verwennen",
+      "Iets afbetalen"
+    ]
+  },
+  "27d986a2-af92-4a2b-8c11-c88a505f4ffc": {
+    "en": "How should couples handle money?",
+    "text": "Hoe moeten stellen met geld omgaan?",
+    "answers": [
+      "Alles gezamenlijk",
+      "Een gezamenlijke rekening plus elk een eigen",
+      "Volledig apart, de kosten delen"
+    ]
+  },
+  "529c952f-f5ce-4a9a-811e-de16b44436ca": {
+    "en": "Which describes you best with money?",
+    "text": "Wat past het best bij jou als het om geld gaat?",
+    "answers": [
+      "Ik spaar zorgvuldig",
+      "Ik geef graag uit",
+      "Ik plan met een budget",
+      "Hangt van mijn bui af"
+    ],
+    "note": "Person nouns (saver/spender) rephrased as verbs to stay gender-neutral."
+  },
+  "69067652-637f-4025-a1a9-bf8fe43e5541": {
+    "en": "How much can you spend without telling your partner?",
+    "text": "Hoeveel mag je uitgeven zonder het je partner te vertellen?",
+    "answers": [
+      "Alles, het is mijn geld",
+      "Tot een klein bedrag",
+      "Niets groots zonder eerst te overleggen"
+    ]
+  },
+  "3801b3f8-ca7a-427a-8049-b7eb1a4a83a1": {
+    "en": "What worries you most about money?",
+    "text": "Waar maak je je het meest zorgen over als het om geld gaat?",
+    "answers": [
+      "Te weinig spaargeld",
+      "Schulden",
+      "Dat we het er niet over eens zijn",
+      "Eerlijk gezegd niets"
+    ]
+  },
+  "782694ff-ef2a-453d-b2b0-820147b9c492": {
+    "en": "How comfortable are you talking about money with your partner?",
+    "text": "Hoe makkelijk praat je met je partner over geld?",
+    "answers": [
+      "Heel makkelijk, we praten er open over",
+      "Prima, maar we doen het zelden",
+      "Een beetje ongemakkelijk",
+      "Ik vermijd het"
+    ]
+  },
+  "383497c5-6a90-487f-acfb-ba23d85788e9": {
+    "en": "What's the biggest money decision you want to make together in the next few years?",
+    "text": "Wat is de grootste financiële beslissing die je de komende jaren samen wilt nemen?"
+  },
+  "b43559b3-b10b-49de-b3d6-d71e7cdb85b6": {
+    "en": "What did money mean in the home you grew up in?",
+    "text": "Wat betekende geld in het gezin waarin je opgroeide?"
+  }
+}
