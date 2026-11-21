@@ -1,4 +1,5 @@
 import { SupabaseClient } from "@supabase/supabase-js";
+import { captureServerEvent } from "./analytics.js";
 
 export type CoinTransactionType =
   | "game_start"
@@ -55,6 +56,24 @@ async function logTransaction(
   if (error) console.warn("⚠️ Failed to log coin transaction:", error);
 }
 
+/**
+ * Every coin that moves, on the player's PostHog timeline: what it was for
+ * and the balance it left, so spending and free coins can be told apart.
+ */
+function trackCoins(
+  event: "server_coins_spent" | "server_coins_credited",
+  appUserId: string,
+  amount: number,
+  type: CoinTransactionType,
+  balanceAfter: number,
+): void {
+  captureServerEvent(event, { appUserId }, {
+    amount,
+    reason: type,
+    balance_after: balanceAfter,
+  });
+}
+
 /** Writes `next` only if the stored balance is still `expected`. */
 async function compareAndSet(
   supabaseAdmin: SupabaseClient,
@@ -109,6 +128,7 @@ export async function spendCoins(
     if (written === null) return { ok: false, reason: "error" };
     if (written) {
       await logTransaction(supabaseAdmin, appUserId, amount, type);
+      trackCoins("server_coins_spent", appUserId, amount, type, row.balance - amount);
       return { ok: true, newBalance: row.balance - amount };
     }
   }
@@ -137,6 +157,7 @@ export async function creditCoins(
         .insert({ app_user_id: appUserId, balance: amount });
       if (!error) {
         await logTransaction(supabaseAdmin, appUserId, amount, type);
+        trackCoins("server_coins_credited", appUserId, amount, type, amount);
         return { ok: true, newBalance: amount };
       }
       // 23505: another request created the row first; retry as an update.
@@ -156,6 +177,7 @@ export async function creditCoins(
     if (written === null) return { ok: false, reason: "error" };
     if (written) {
       await logTransaction(supabaseAdmin, appUserId, amount, type);
+      trackCoins("server_coins_credited", appUserId, amount, type, row.balance + amount);
       return { ok: true, newBalance: row.balance + amount };
     }
   }
@@ -234,6 +256,7 @@ export async function claimDailyReward(
       });
       if (!insertError) {
         await logTransaction(supabaseAdmin, appUserId, amount, "daily_reward");
+        trackCoins("server_coins_credited", appUserId, amount, "daily_reward", amount);
         return { ok: true, newBalance: amount, nextClaimAt };
       }
       if (insertError.code !== "23505") {

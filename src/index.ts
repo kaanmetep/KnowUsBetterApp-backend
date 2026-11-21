@@ -660,6 +660,68 @@ async function roomAppUserIds(room: Room): Promise<string[]> {
   return [...new Set(ids.filter((id): id is string => !!id))];
 }
 
+/** "boy" or "girl" from the avatar a player picked (boy_avatar_3, girl_avatar_7). */
+const avatarStyle = (avatar: string | undefined): string | null => {
+  const match = avatar?.match(/^(boy|girl)_avatar_/i);
+  return match ? match[1].toLowerCase() : null;
+};
+
+/**
+ * One event per game that really started, from the host: both players'
+ * app user ids (so couples can be followed across games), how they play,
+ * and who paid. Avatar styles are what they picked, not who they are.
+ */
+async function trackGameStarted(
+  socket: AppSocket,
+  claimedAppUserId: unknown,
+  room: Room,
+  charge: {
+    listedCost: number;
+    charged: number;
+    passHolder: string | null;
+    questionCount: number;
+  },
+): Promise<void> {
+  const host = room.players.find((p) => p.isHost);
+  const partner = room.players.find((p) => !p.isHost);
+  const singlePhone = !!partner?.localOf;
+  const hostId = await resolveAppUserId(socket, claimedAppUserId);
+  const partnerId = partner && !singlePhone ? await appUserIdOf(partner.id) : null;
+  const coupleId = singlePhone
+    ? hostId && `${hostId}#local`
+    : hostId && partnerId && [hostId, partnerId].sort().join("+");
+  captureServerEvent(
+    "server_game_started",
+    { appUserId: hostId ?? undefined, socketId: socket.id },
+    {
+      room_code: room.roomCode,
+      category: room.settings.category,
+      mode: room.settings.mode,
+      daily_topic: room.settings.dailyTopic?.id,
+      play_mode: singlePhone ? "single_phone" : "two_phones",
+      player_count: room.players.length,
+      question_count: charge.questionCount,
+      host_app_user_id: hostId,
+      partner_app_user_id: partnerId,
+      couple_id: coupleId || null,
+      host_avatar: host?.avatar,
+      host_avatar_style: avatarStyle(host?.avatar),
+      partner_avatar: partner?.avatar,
+      partner_avatar_style: avatarStyle(partner?.avatar),
+      listed_cost: charge.listedCost,
+      coins_charged: charge.charged,
+      paid_by:
+        charge.listedCost === 0
+          ? "free"
+          : charge.passHolder
+            ? charge.passHolder === hostId
+              ? "host_unlimited"
+              : "partner_unlimited"
+            : "host_coins",
+    },
+  );
+}
+
 /**
  * Puts a player's Unlimited pass on their seat, so both phones see that the
  * room plays paid categories for free.
@@ -2274,6 +2336,12 @@ io.on(
             duration: getQuestionDuration(started.room.settings, started.round.question),
           });
           scheduleRoundTimeout(started.room, started.round, true);
+          trackGameStarted(socket, appUserId, started.room, {
+            listedCost,
+            charged: cost,
+            passHolder,
+            questionCount: questions.length,
+          }).catch(() => {});
         } catch (error) {
           console.error("Error starting game:", error);
           socket.emit("room-error", {

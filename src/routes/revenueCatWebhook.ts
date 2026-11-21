@@ -5,6 +5,7 @@ import {
   keepRawBody,
   verifyRevenueCatRequest,
 } from "../middleware/revenueCat.js";
+import { captureServerEvent } from "../services/analytics.js";
 import { creditCoins } from "../services/coinLedger.js";
 import { PUBLIC_RUNTIME_CONFIG } from "../services/publicConfigService.js";
 import { getCoinsFromProductId } from "../utils/helpers.js";
@@ -64,6 +65,42 @@ async function releaseEvent(
   if (error) {
     console.error(`❌ Failed to release RevenueCat event ${eventId}:`, error);
   }
+}
+
+const text = (value: unknown): string | undefined =>
+  typeof value === "string" && value !== "" ? value : undefined;
+const num = (value: unknown): number | undefined =>
+  typeof value === "number" && Number.isFinite(value) ? value : undefined;
+
+/**
+ * Every RevenueCat event (purchases, renewals, cancellations, refunds,
+ * billing issues) as `server_revenue_event`, with the USD price, so revenue
+ * no longer depends on the app being open. A retried delivery repeats the
+ * event; count distinct `rc_event_id` to de-duplicate.
+ */
+function trackRevenueCatEvent(event: any): void {
+  const appUserId = text(event.app_user_id);
+  if (!appUserId) return;
+  captureServerEvent("server_revenue_event", { appUserId }, {
+    rc_event_id: text(event.id),
+    rc_type: text(event.type),
+    product_id: text(event.product_id),
+    price_usd: num(event.price),
+    price_local: num(event.price_in_purchased_currency),
+    currency: text(event.currency),
+    takehome_percentage: num(event.takehome_percentage),
+    store: text(event.store),
+    rc_environment: text(event.environment),
+    country_code: text(event.country_code),
+    period_type: text(event.period_type),
+    is_trial_conversion: typeof event.is_trial_conversion === "boolean" ? event.is_trial_conversion : undefined,
+    renewal_number: num(event.renewal_number),
+    cancel_reason: text(event.cancel_reason),
+    expiration_reason: text(event.expiration_reason),
+    transaction_id: text(event.transaction_id),
+    original_transaction_id: text(event.original_transaction_id),
+    offer_code: text(event.offer_code),
+  });
 }
 
 const appUserIds = (value: unknown): string[] =>
@@ -128,6 +165,13 @@ async function mergeTransferredWallets(
       (data.status === "moved" ? `, ${data.moved} coins, new balance ${data.new_balance}` : ""),
   );
   if (data.status === "moved" && data.new_balance !== null) {
+    // The old ids are drained to 0; the coins show up once, on the new id.
+    captureServerEvent("server_coins_credited", { appUserId: target }, {
+      amount: data.moved,
+      reason: "transfer_in",
+      balance_after: data.new_balance,
+      from_count: (data.drained ?? []).length,
+    });
     return {
       status: "moved",
       target,
@@ -178,6 +222,7 @@ export function createRevenueCatWebhookRouter({
           console.error("❌ Supabase not configured");
           return res.status(500).json({ error: "Supabase not configured" });
         }
+        trackRevenueCatEvent(event);
 
         if (event.type === "TRANSFER") {
           const passTarget =
