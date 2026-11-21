@@ -16,7 +16,12 @@ export const isLocalRoom = (room: Pick<Room, "players">): boolean =>
   room.players.some((player) => !!player.localOf);
 
 /** The partner for the host's phone; they share the host's app, so its features. */
-export function makeLocalPartner(host: Player, name: string, avatar: string): Player {
+export function makeLocalPartner(
+  host: Player,
+  name: string,
+  avatar: string,
+  manualAdvance = false,
+): Player {
   return {
     id: localPartnerId(host.id),
     name,
@@ -31,8 +36,13 @@ export function makeLocalPartner(host: Player, name: string, avatar: string): Pl
     supportsDailyAnalysis: host.supportsDailyAnalysis,
     supportsTwoTruths: host.supportsTwoTruths,
     localOf: host.id,
+    ...(manualAdvance && { manualAdvance: true }),
   };
 }
+
+/** The host's app moves past each result with a button (see Player.manualAdvance). */
+export const advancesManually = (room: Pick<Room, "players">): boolean =>
+  room.players.some((player) => !!player.localOf && player.manualAdvance === true);
 
 /**
  * Who a socket's answer (or consent) is for: itself, or a partner on its
@@ -53,6 +63,12 @@ export function actingPlayerId(
 
 // Time for the phone to change hands and the partner to get ready.
 const HANDOFF_SECONDS = 90;
+
+/**
+ * With the button, the result waits this long before moving on by itself: the
+ * phone was left lying around, and the room shouldn't stay open forever.
+ */
+export const MANUAL_ADVANCE_FALLBACK_SECONDS = 5 * 60;
 
 /** On one phone the two players answer one after the other. */
 export const localRoundSeconds = (questionSeconds: number) =>

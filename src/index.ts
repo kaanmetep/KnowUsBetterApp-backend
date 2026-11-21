@@ -16,6 +16,8 @@ import {
   actingPlayerId,
   deviceOf,
   isLocalRoom,
+  advancesManually,
+  MANUAL_ADVANCE_FALLBACK_SECONDS,
   localRoundSeconds,
   makeLocalPartner,
 } from "./localPlay.js";
@@ -66,6 +68,8 @@ import {
   getResultDisplayDuration,
   withRevealedAnswer,
   cleanPlayerName,
+  uniquePlayerName,
+  refundsUnfinishedGame,
   cleanAvatar,
   HIDDEN_TEXT_ANSWER,
   type SendReactionResult,
@@ -77,6 +81,7 @@ import { ipWhitelistMiddleware } from "./middleware/ipWhitelist.js";
 import { healthRateLimiter } from "./middleware/rateLimiter.js";
 import { createRevenueCatWebhookRouter } from "./routes/revenueCatWebhook.js";
 import { createIdentityRouter } from "./routes/identity.js";
+import { createSupportRouter } from "./routes/support.js";
 import {
   allowLegacyClients,
   checkAppUser,
@@ -259,6 +264,7 @@ app.use(
 
 if (supabaseAdmin) {
   app.use("/api/identity", createIdentityRouter(supabaseAdmin));
+  app.use("/api/support", createSupportRouter(supabaseAdmin));
   app.use(
     "/api/daily-analysis",
     createDailyAnalysisRouter(supabaseAdmin, {
@@ -304,7 +310,9 @@ const PING_TIMEOUT = parseInt(process.env.SOCKET_PING_TIMEOUT || "20000", 10);
 // room code, a tunnel, a network switch) keeps their seat for a while. Mid-game
 // the hold is short: the partner plays on with blank answers meanwhile.
 const SEAT_HOLD_WAITING_MS = 2 * 60_000;
-const SEAT_HOLD_PLAYING_MS = 30_000;
+// 90 s covers answering a message or a network switch (the server only
+// notices a silent drop after pingInterval + pingTimeout on top of that).
+const SEAT_HOLD_PLAYING_MS = 90_000;
 // A host still alone in a new room has usually left the app to send the code,
 // and the partner may first have to install the app. The room is kept open
 // that long; the host takes their seat back on a new socket (reclaimSeat).
@@ -777,17 +785,87 @@ const GAME_CANCELLED_MESSAGE =
   "A player left during the game. Game has been cancelled.";
 
 const roundTimers = new Map<string, ReturnType<typeof setTimeout>>();
+/**
+ * What runs once a round's result has been shown: the next question or the
+ * end of the game. On a timer, or on single phone when the host taps next.
+ * Whoever takes the entry out of the map runs it, so it runs once.
+ */
+type PendingAdvance = {
+  questionId: string;
+  /** False if it already ran (or another round's result replaced it). */
+  run: () => boolean;
+  timer: ReturnType<typeof setTimeout>;
+};
+const pendingAdvances = new Map<string, PendingAdvance>();
+
+function scheduleAdvance(
+  roomCode: string,
+  questionId: string,
+  seconds: number,
+  proceed: () => Promise<void>,
+): void {
+  const previous = pendingAdvances.get(roomCode);
+  if (previous) clearTimeout(previous.timer);
+  const entry: PendingAdvance = {
+    questionId,
+    run: () => {
+      if (pendingAdvances.get(roomCode) !== entry) return false;
+      clearTimeout(entry.timer);
+      pendingAdvances.delete(roomCode);
+      proceed().catch((error) =>
+        console.error(`❌ Failed to continue game in room ${roomCode}:`, error),
+      );
+      return true;
+    },
+    timer: setTimeout(() => void entry.run(), seconds * 1000),
+  };
+  pendingAdvances.set(roomCode, entry);
+}
 /** `room:question:player` answers being checked on this instance; repeats are dropped. */
 const answersInFlight = new Set<string>();
 
 // room code -> what the host paid to start the game in progress. Kept off the
 // room, which is sent to both players.
-const gameStartCharges = new Map<string, { appUserId: string; amount: number }>();
+// Also written to Redis: after a crash this process's memory is gone, and the
+// stale-game sweep still has to refund the host.
+type GameStartCharge = { appUserId: string; amount: number };
+const CHARGE_KEY_PREFIX = "game-start-charge:";
+const CHARGE_TTL_SECONDS = 6 * 60 * 60;
+const chargesInMemory = new Map<string, GameStartCharge>();
+const gameStartCharges = {
+  get: (roomCode: string) => chargesInMemory.get(roomCode),
+  set(roomCode: string, charge: GameStartCharge) {
+    chargesInMemory.set(roomCode, charge);
+    redis
+      .set(CHARGE_KEY_PREFIX + roomCode, JSON.stringify(charge), "EX", CHARGE_TTL_SECONDS)
+      .catch((error) => console.error(`❌ Could not save the start charge of ${roomCode}:`, error));
+  },
+  delete(roomCode: string) {
+    chargesInMemory.delete(roomCode);
+    redis.del(CHARGE_KEY_PREFIX + roomCode).catch(() => undefined);
+  },
+  /** The charge, from memory or (after a restart) from Redis; removed either way. */
+  async take(roomCode: string): Promise<GameStartCharge | undefined> {
+    const local = chargesInMemory.get(roomCode);
+    chargesInMemory.delete(roomCode);
+    const key = CHARGE_KEY_PREFIX + roomCode;
+    const stored = await redis.get(key).catch(() => null);
+    await redis.del(key).catch(() => undefined);
+    if (local) return local;
+    try {
+      const parsed = stored ? JSON.parse(stored) : null;
+      return parsed && typeof parsed.appUserId === "string" && typeof parsed.amount === "number"
+        ? parsed
+        : undefined;
+    } catch {
+      return undefined;
+    }
+  },
+};
 
 /** Gives the host back the start cost of a game the server couldn't finish. */
 async function refundGameStart(roomCode: string): Promise<void> {
-  const charge = gameStartCharges.get(roomCode);
-  gameStartCharges.delete(roomCode);
+  const charge = await gameStartCharges.take(roomCode);
   if (!charge || !supabaseAdmin) return;
   try {
     const refund = await creditCoins(
@@ -1153,6 +1231,9 @@ async function completeRound(
     );
   }
   const displayDuration = getResultDisplayDuration(room.settings, question);
+  // Single phone: the players are side by side, so they move on when they're
+  // done talking about it. A result that isn't shown (0 s) still moves on.
+  const manualAdvance = displayDuration > 0 && advancesManually(room);
   const percentage = getGamePercentage(room);
 
   io.to(roomCode).emit("round-completed", {
@@ -1163,6 +1244,7 @@ async function completeRound(
     ...(similarity !== undefined && { similarity }),
     ...(completed.lies && { lies: completed.lies }),
     displayDuration,
+    ...(manualAdvance && { manualAdvance: true }),
     playerAnswers: room.players.map((player) => ({
       playerId: player.id,
       playerName: player.name,
@@ -1180,14 +1262,12 @@ async function completeRound(
     ...(answerKey && { mode: "trivia" as const }),
   });
 
-  setTimeout(() => {
-    (isLast
-      ? finishGame(roomCode)
-      : advanceRound(roomCode, questionId, startedAt)
-    ).catch((error) =>
-      console.error(`❌ Failed to continue game in room ${roomCode}:`, error),
-    );
-  }, displayDuration * 1000);
+  scheduleAdvance(
+    roomCode,
+    questionId,
+    manualAdvance ? MANUAL_ADVANCE_FALLBACK_SECONDS : displayDuration,
+    () => (isLast ? finishGame(roomCode) : advanceRound(roomCode, questionId, startedAt)),
+  );
 }
 
 /** After a round's result was shown: the next question, or the end. */
@@ -1383,6 +1463,43 @@ async function finishGame(roomCode: string): Promise<void> {
   }
 }
 
+/**
+ * A game whose round hasn't moved for this long has lost its round timer: the
+ * process that owned it died without its shutdown cleanup (OOM, kill -9, an
+ * instance crash). Longer than any round (single-phone two truths included).
+ */
+const STALE_GAME_MS = parseInt(process.env.STALE_GAME_MS || "600000", 10);
+const STALE_SWEEP_INTERVAL_MS = parseInt(process.env.STALE_SWEEP_INTERVAL_MS || "60000", 10);
+
+/** Cancels games left `playing` with no live round timer anywhere. */
+async function sweepStaleGames(): Promise<void> {
+  if (shuttingDown) return;
+  const now = Date.now();
+  for (const room of await roomManager.getAllRooms()) {
+    if (room.status !== "playing") continue;
+    const startedAt = room.currentRound?.startedAt;
+    if (typeof startedAt !== "number" || now - startedAt < STALE_GAME_MS) continue;
+    const reset = await roomManager.withRoomLock(room.roomCode, async () => {
+      const fresh = await roomManager.getRoom(room.roomCode);
+      if (fresh?.status !== "playing" || fresh.currentRound?.startedAt !== startedAt) return null;
+      return roomManager.resetRoom(room.roomCode);
+    });
+    if (!reset) continue;
+    clearRoundTimer(room.roomCode);
+    await endUnfinishedGame(room.roomCode, true);
+    console.warn(`🧹 Room ${room.roomCode}: game stuck since ${new Date(startedAt).toISOString()}, cancelled`);
+    io.to(room.roomCode).emit("game-cancelled", {
+      message: "This game was interrupted by a server problem. Please start a new one.",
+      code: "SERVER_ERROR",
+      room: reset,
+    });
+  }
+}
+
+setInterval(() => {
+  sweepStaleGames().catch((error) => console.error("❌ Stale game sweep failed:", error));
+}, STALE_SWEEP_INTERVAL_MS).unref();
+
 type ReportTarget = {
   roomCode: string;
   answer: unknown;
@@ -1432,33 +1549,59 @@ async function findReportTarget(
 }
 
 /** Takes a player out of a room; a game in progress is cancelled and the room reset. */
+/**
+ * `timedOutUser`: the seat is freed because this user never came back (not a
+ * choice), so the game start is refunded unless that user is the one who paid.
+ */
 async function removeFromRoom(
   roomCode: string,
   socketId: string,
+  timedOutUser?: string | null,
 ): Promise<{ room: Room | null; cancelled: boolean }> {
   const result = await roomManager.withRoomLock(roomCode, async () => {
     const before = await roomManager.getRoom(roomCode);
     const cancelled =
       before?.status === "playing" &&
       before.players.some((player) => player.id === socketId);
+    // Read before the reset below clears them. Rounds the leaving player
+    // really answered: while they're gone the game goes on with blank rounds,
+    // which say nothing about how much of it they had.
+    const roundsPlayed = (before?.completedRounds ?? []).filter((round) => {
+      const answer = round.answers?.[socketId];
+      return answer !== undefined && answer !== null && answer !== "";
+    }).length;
+    const totalRounds = before?.questions?.length || before?.settings?.totalQuestions || 0;
 
     await roomManager.removePlayer(socketId);
     let room = (await roomManager.getRoom(roomCode)) ?? null;
     if (room && cancelled) room = (await roomManager.resetRoom(roomCode)) ?? room;
     if (room && room.players.length === 0) await roomManager.deleteRoom(roomCode);
-    return { room, cancelled };
+    return { room, cancelled, roundsPlayed, totalRounds };
   });
   if (result.cancelled) clearRoundTimer(roomCode);
   if (result.cancelled || !result.room?.players.length) {
-    // A restart isn't anyone's fault, so the host gets the start cost back.
-    await endUnfinishedGame(roomCode, shuttingDown);
+    // A restart isn't anyone's fault, and neither is the partner's lost
+    // connection, so the host gets the start cost back. Only while most of
+    // the game is still unplayed: otherwise a second phone switched off near
+    // the end would make every paid game free.
+    const payer = gameStartCharges.get(roomCode)?.appUserId;
+    const partnerTimedOut =
+      result.cancelled &&
+      timedOutUser !== undefined &&
+      (!payer || payer !== timedOutUser) &&
+      refundsUnfinishedGame(result.roundsPlayed, result.totalRounds);
+    await endUnfinishedGame(roomCode, shuttingDown || partnerTimedOut);
   }
-  return result;
+  return { room: result.room, cancelled: result.cancelled };
 }
 
 /** removeFromRoom, then tells whoever is still in the room. */
-async function takePlayerOut(roomCode: string, socketId: string): Promise<boolean> {
-  const { room, cancelled } = await removeFromRoom(roomCode, socketId);
+async function takePlayerOut(
+  roomCode: string,
+  socketId: string,
+  timedOutUser?: string | null,
+): Promise<boolean> {
+  const { room, cancelled } = await removeFromRoom(roomCode, socketId, timedOutUser);
   if (cancelled) {
     io.to(roomCode).emit("game-cancelled", {
       message: GAME_CANCELLED_MESSAGE,
@@ -1504,15 +1647,20 @@ const FINAL_DISCONNECT_REASONS = new Set([
 
 async function freeSeat(
   socketId: string,
+  timedOutUser?: string | null,
 ): Promise<{ roomCode: string; cancelled: boolean } | null> {
   // Reconnected in the meantime with the same socket id.
   if (io.sockets.sockets.has(socketId)) return null;
   const roomCode = await roomManager.getPlayerRoom(socketId);
   if (!roomCode) return null;
-  return { roomCode, cancelled: await takePlayerOut(roomCode, socketId) };
+  return { roomCode, cancelled: await takePlayerOut(roomCode, socketId, timedOutUser) };
 }
 
-async function handleDroppedPlayer(socketId: string, reason: string): Promise<void> {
+async function handleDroppedPlayer(
+  socketId: string,
+  reason: string,
+  appUserId: string | null = null,
+): Promise<void> {
   const roomCode = await roomManager.getPlayerRoom(socketId);
   if (!roomCode) return;
   if (shuttingDown || FINAL_DISCONNECT_REASONS.has(reason)) {
@@ -1540,7 +1688,7 @@ async function handleDroppedPlayer(socketId: string, reason: string): Promise<vo
     setTimeout(() => {
       seatHolds.delete(socketId);
       trackCleanup(
-        freeSeat(socketId).then((freed) => {
+        freeSeat(socketId, appUserId).then((freed) => {
           if (!freed) return;
           console.warn(
             `🪑 Seat of ${socketId} in room ${freed.roomCode} (${status}) freed: didn't come back within ${holdMs / 1000}s` +
@@ -1935,6 +2083,12 @@ io.on(
     );
 
     // 3. Get Room Info
+    // The app checks a connection that may have died unnoticed (after the
+    // network or the app came back) by asking for an answer within seconds.
+    socket.on("app-ping", (ack) => {
+      if (typeof ack === "function") ack();
+    });
+
     socket.on("get-room", async ({ roomCode }: GetRoomData) => {
       try {
         let room =
@@ -3099,7 +3253,7 @@ io.on(
         );
       }
 
-      trackCleanup(handleDroppedPlayer(socket.id, reason));
+      trackCleanup(handleDroppedPlayer(socket.id, reason, socket.data.appUserId ?? null));
     });
     // 11. Change Category (Host only, waiting room only)
     socket.on(
@@ -3158,7 +3312,7 @@ io.on(
     // the host's phone instead of joining with the code; null undoes it.
     socket.on(
       "set-local-partner",
-      async ({ roomCode, partner }: SetLocalPartnerData, ack) => {
+      async ({ roomCode, partner, manualAdvance }: SetLocalPartnerData, ack) => {
         const reply = typeof ack === "function" ? ack : () => {};
         try {
           const valid =
@@ -3190,8 +3344,9 @@ io.on(
                 room.players.push(
                   makeLocalPartner(
                     host,
-                    cleanPlayerName(partner.name),
+                    uniquePlayerName(cleanPlayerName(partner.name), [host.name]),
                     cleanAvatar(partner.avatar),
+                    manualAdvance === true,
                   ),
                 );
               }
@@ -3233,6 +3388,28 @@ io.on(
 
     // A player agreed on their device to the daily analysis sending their
     // answers to OpenAI; the host can't start one until everyone has.
+    // Single phone: the host taps "next question" on a round's result.
+    socket.on("advance-round", async ({ roomCode, questionId }, ack) => {
+      const reply = typeof ack === "function" ? ack : () => {};
+      try {
+        if (typeof roomCode !== "string" || typeof questionId !== "string") {
+          return reply({ ok: false });
+        }
+        const pending = pendingAdvances.get(roomCode);
+        if (!pending || pending.questionId !== questionId) return reply({ ok: false });
+        const room = await roomManager.getRoom(roomCode);
+        const host = room?.players.find((p) => p.id === socket.id);
+        if (!room || !host?.isHost || !advancesManually(room)) {
+          return reply({ ok: false });
+        }
+        // False if the fallback timer or another tap got there first.
+        reply({ ok: pending.run() });
+      } catch (error) {
+        console.error("Error advancing round:", error);
+        reply({ ok: false });
+      }
+    });
+
     socket.on("ai-consent", async ({ roomCode, playerId }) => {
       try {
         if (typeof roomCode !== "string" || !roomCode) return;

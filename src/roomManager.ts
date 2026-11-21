@@ -1,6 +1,7 @@
 import { Room, Player, JoinRoomResult, Category, GameMode } from "./types.js";
 import { redis, withLock } from "./utils/redis.js";
 import { generateRoomCode, moveSeat } from "./roomCodes.js";
+import { uniquePlayerName } from "./utils/helpers.js";
 
 // Redis key patterns
 const ROOM_KEY_PREFIX = "room:";
@@ -215,7 +216,10 @@ export class RoomManager {
 
     const player: Player = {
       id: socketId,
-      name: playerName,
+      name: uniquePlayerName(
+        playerName,
+        room.players.map((p) => p.name),
+      ),
       avatar: avatar,
       isHost: false,
       hasAnswered: false,

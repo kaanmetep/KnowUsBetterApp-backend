@@ -187,7 +187,7 @@
     document.querySelectorAll(".tab").forEach((tab) => {
       tab.classList.toggle("active", tab.dataset.tab === name);
     });
-    for (const key of ["list", "form", "sql", "announcements", "push"]) {
+    for (const key of ["list", "form", "sql", "announcements", "push", "support"]) {
       $(`tab-${key}`).classList.toggle("hidden", key !== name);
     }
     window.scrollTo({ top: 0 });
@@ -200,6 +200,7 @@
       if (tab.dataset.tab === "announcements") {
         loadAnnouncements().catch((err) => toast(err.message, true));
       }
+      if (tab.dataset.tab === "support") loadSupport().catch((err) => toast(err.message, true));
       switchTab(tab.dataset.tab);
     });
   });
@@ -1543,6 +1544,119 @@ RETURNING id, category_id, texts;`;
   $("btn-a-clear").addEventListener("click", resetAnnouncementForm);
   $("btn-a-refresh").addEventListener("click", withBusy($("btn-a-refresh"), loadAnnouncements));
 
+  // ---------- support inbox ----------
+  // Feedback, contact and data deletion requests sent from the app.
+
+  const SUPPORT_KIND_LABELS = {
+    feedback: "Geri bildirim",
+    contact: "İletişim",
+    data_deletion: "Veri silme",
+  };
+  state.supportStatus = "open";
+
+  function formatWhen(iso) {
+    if (!iso) return "";
+    return new Date(iso).toLocaleString("tr-TR", { dateStyle: "medium", timeStyle: "short" });
+  }
+
+  function renderSupportBadge(openCounts) {
+    const total = Object.values(openCounts || {}).reduce((sum, n) => sum + n, 0);
+    const badge = $("support-badge");
+    badge.textContent = String(total);
+    badge.classList.toggle("hidden", !total);
+  }
+
+  function supportCard(request) {
+    const meta = [
+      formatWhen(request.created_at),
+      [request.platform, request.os_version].filter(Boolean).join(" "),
+      request.app_version ? `v${request.app_version}` : "",
+      request.language ? request.language.toUpperCase() : "",
+    ].filter(Boolean).join(" · ");
+
+    const actions = [];
+    if (request.email) {
+      actions.push(
+        el("a", {
+          class: "btn small",
+          href: `mailto:${request.email}?subject=${encodeURIComponent("KnowUsBetter")}`,
+          text: "Cevapla",
+        }),
+      );
+    }
+    if (request.kind === "data_deletion" && request.status === "open") {
+      const del = el("button", { class: "btn small danger", text: "Verileri sil" });
+      del.addEventListener(
+        "click",
+        withBusy(del, async () => {
+          const target = state.localBypass ? "LOKAL (.env DATABASE_URL)" : "PROD";
+          if (!confirm(`${request.app_user_id} kullanıcısının bütün verisi ${target} veritabanından silinecek. Geri alınamaz. Emin misin?`)) return;
+          if (!state.localBypass) await passkeyAssertion("step-up");
+          const summary = await api(`support/${request.id}/delete-user-data`, { method: "POST", body: {} });
+          const lines = Object.entries(summary.deleted)
+            .filter(([, n]) => n)
+            .map(([table, n]) => `${table}: ${n}`);
+          alert(`Silindi: ${summary.appUserId}\n\n${lines.join("\n") || "Kayıt bulunamadı (zaten boştu)"}\n\nSon adım: PostHog → Persons → bu ID'yi ara → Delete person.${request.email ? `\nSonra ${request.email} adresine "silindi" maili at.` : ""}`);
+          await loadSupport();
+        }),
+      );
+      actions.push(del);
+    }
+    const toggle = el("button", {
+      class: "btn small ghost",
+      text: request.status === "open" ? "Bitti olarak işaretle" : "Tekrar aç",
+    });
+    toggle.addEventListener(
+      "click",
+      withBusy(toggle, async () => {
+        await api(`support/${request.id}/status`, {
+          method: "PATCH",
+          body: { status: request.status === "open" ? "done" : "open" },
+        });
+        await loadSupport();
+      }),
+    );
+    actions.push(toggle);
+
+    const copyId = el("button", { class: "btn small ghost", text: "ID kopyala" });
+    copyId.addEventListener("click", () => {
+      navigator.clipboard?.writeText(request.app_user_id || "").then(() => toast("Kopyalandı"));
+    });
+    if (request.app_user_id) actions.push(copyId);
+
+    return el("div", { class: "card" }, [
+      el("div", { class: "row", style: "justify-content:space-between;align-items:center" }, [
+        el("span", { class: `kind-pill ${request.kind}`, text: SUPPORT_KIND_LABELS[request.kind] || request.kind }),
+        el("span", { class: "support-meta", text: request.status === "done" ? `✓ ${formatWhen(request.resolved_at)}` : "" }),
+      ]),
+      request.message ? el("div", { class: "support-msg", text: request.message }) : null,
+      el("div", { class: "support-meta", text: meta }),
+      request.email ? el("div", { class: "support-meta", text: `✉️ ${request.email}` }) : null,
+      request.app_user_id ? el("div", { class: "support-meta", text: `ID: ${request.app_user_id}` }) : null,
+      el("div", { class: "row", style: "margin-top:12px;flex-wrap:wrap;gap:8px" }, actions),
+    ]);
+  }
+
+  async function loadSupport() {
+    const { requests, openCounts } = await api(`support?status=${state.supportStatus}`);
+    renderSupportBadge(openCounts);
+    const list = $("support-list");
+    list.replaceChildren(
+      ...(requests.length
+        ? requests.map(supportCard)
+        : [el("div", { class: "card muted", text: "Mesaj yok." })]),
+    );
+  }
+
+  document.querySelectorAll("#support-filter .chip").forEach((chip) => {
+    chip.addEventListener("click", () => {
+      state.supportStatus = chip.dataset.status;
+      document.querySelectorAll("#support-filter .chip").forEach((c) => c.classList.toggle("active", c === chip));
+      loadSupport().catch((err) => toast(err.message, true));
+    });
+  });
+  $("btn-s-refresh").addEventListener("click", withBusy($("btn-s-refresh"), loadSupport));
+
   // ---------- boot ----------
 
   async function enterApp() {
@@ -1551,6 +1665,8 @@ RETURNING id, category_id, texts;`;
     showLoginError("");
     await loadCategories();
     await loadQuestions();
+    // Just for the tab's unread badge.
+    loadSupport().catch(() => {});
   }
 
   function applyLocalBypassUi() {
