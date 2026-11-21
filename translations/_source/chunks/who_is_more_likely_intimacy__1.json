@@ -1,0 +1,458 @@
+[
+ {
+  "id": "3b993168-e497-470b-888e-4d3caa0c7f0a",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to initiate a late-night makeout session?",
+  "tr": "Gece geç saatte öpüşmeyi başlatmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "7aaeda10-ef04-42c0-8b1a-7d7ccda4e1d5",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get turned on by a random compliment?",
+  "tr": "Rastgele bir iltifatla tahrik olmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "bf99aa12-d9a0-41d4-be71-244b0c80f6c5",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to send a spicy selfie out of nowhere?",
+  "tr": "Hiçbir sebep yokken ateşli bir selfie atmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "c5976fd8-7dfc-4d4f-b15a-987ced798cd4",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get jealous if someone flirts with their partner?",
+  "tr": "Birisi partnerine flört ederse kıskanmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "4c091667-d020-4d23-904f-82443c953483",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to pull the other into a bathroom for a quick kiss?",
+  "tr": "Diğerini hızlı bir öpücük için tuvalete çekmeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "b1f4aa8b-d01d-4e85-a0bb-d65944ec5829",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get loud?",
+  "tr": "Sesli olmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "7cbe016e-c566-4ea9-b5ed-a404bb35e4d7",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to want lights off?",
+  "tr": "Işıkların kapalı olmasını istemeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "80585101-9d07-4bfb-8495-13302e8ba676",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to steal the covers after intimacy?",
+  "tr": "Samimiyetten sonra battaniyeyi üstüne çekmeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "0ab59b31-443e-4f14-81fc-74f28ac94313",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to bite during a kiss?",
+  "tr": "Öpüşürken ısırmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "9900e1b7-68f0-40be-a4f2-6bc9f393bb97",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to want to shower together?",
+  "tr": "Birlikte duş almak istemeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "f93f720c-af22-4bd9-9ed4-3764187f8d1b",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get shy about dirty talk?",
+  "tr": "Müstehcen konuşurken utanmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "1c5ee7b6-cacd-4909-8f7f-ef0d1dd9ed3d",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to initiate cuddling after a fight?",
+  "tr": "Kavgadan sonra sarılmayı başlatmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "8125b425-7734-44ca-aa5b-f1b54047ffa4",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to flirt with their partner in front of friends on purpose?",
+  "tr": "Arkadaşların önünde bilerek partnerine flört etmeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "8fe256cf-b5e8-4640-8797-4aa36ff98d54",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to fall asleep holding the other's hand?",
+  "tr": "Diğerinin elini tutarak uyuyakalmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "e9138d18-ae79-4abd-8978-43017386ad30",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to open up about their fears first?",
+  "tr": "Korkularını ilk açmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "abd67337-624e-4ebb-a1f3-655f83a000ce",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to miss the other after only a few hours apart?",
+  "tr": "Birkaç saat ayrı kalınca özlemeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "596a3559-bef3-4ede-92aa-79fc501df19a",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to say \"I love you\" just because?",
+  "tr": "Sebepsiz yere \"seni seviyorum\" demeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "521f989d-ca7c-4035-9498-137bc7bc2e37",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to remember the little details the other mentioned weeks ago?",
+  "tr": "Diğerinin haftalar önce söylediği ufak detayları hatırlamaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "04a6413a-c628-4bcc-a4df-87ae4f8fdffd",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get emotional during a deep conversation?",
+  "tr": "Derin bir sohbette duygulanmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "317096fb-3a29-449b-99c4-90bbd9399009",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to feel safest in the other's arms?",
+  "tr": "Diğerinin kollarında en güvende hissetmeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "fbd61779-2bc8-4f69-9548-0da261a6f1cd",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to pull away when things get too emotionally intense?",
+  "tr": "İşler duygusal olarak çok yoğunlaşınca uzaklaşmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "6747a0d9-ea01-47d2-8638-3c15749745f7",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to fall harder, faster?",
+  "tr": "Daha hızlı ve daha derin aşık olmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "1431b6ae-98ca-4dfa-ab24-0f68758da7e7",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to need constant physical touch throughout the day?",
+  "tr": "Gün boyu sürekli fiziksel temasa ihtiyaç duymaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "73e49983-cab9-4512-97bd-c7825931ab55",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get distant after an argument and need time alone?",
+  "tr": "Kavgadan sonra uzaklaşıp yalnız kalmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "19d1b834-8809-451e-8ee9-454584d57633",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get scared when the relationship gets too serious?",
+  "tr": "İlişki fazla ciddileşince korkmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "28103024-b9c8-4e37-bbfd-631f85709495",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to hide their feelings until they explode?",
+  "tr": "Duygularını patlayana kadar saklamaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "8fa2dcaa-298d-471b-b055-db58ad1f7822",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get jealous of the other's past?",
+  "tr": "Diğerinin geçmişini kıskanmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "ccc3d5c9-ed20-4caf-a00e-cb8c48f4deef",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to forgive quickly just to keep the peace?",
+  "tr": "Huzur bozulmasın diye çabuk affetmeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "4167f7e3-47b7-4974-931d-e810d7707122",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to want kids to feel complete in love?",
+  "tr": "Aşkı tamamlamak için çocuk istemeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "a221c218-a4a0-45a6-b23f-7d967ebabf62",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to fall for someone through deep talks alone?",
+  "tr": "Sadece derin sohbetlerle aşık olmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "075d3d93-1f13-499e-9dc0-ccd66940f136",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to want to get married and have kids as soon as possible?",
+  "tr": "Bir an önce evlenip çocuk yapmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "4f6d21d9-5ed1-452f-afc7-ec72840b9a36",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who wants more closeness?",
+  "tr": "Hanginiz daha çok yakınlık ister?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "22ce055b-ea8e-41eb-9785-735a87871205",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to want the lights on during intimacy?",
+  "tr": "Yakınlaşma anında ışıkların açık olmasını istemeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "05fd03ad-4d94-4c51-88e1-1fbea8061e6e",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more romantic?",
+  "tr": "Kim daha romantik?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "62f25e84-cf3d-4333-abf3-538399700d10",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to bring up marriage first?",
+  "tr": "Evlilik konusunu ilk açmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "a0d7f2ff-c5c0-4372-b107-6dc79b2d01a1",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who texts \"I miss you\" more?",
+  "tr": "Kim daha çok \"özledim\" yazar?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "2524d883-b56b-478e-a642-255a66c86824",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get jealous over a like on Instagram?",
+  "tr": "Instagram’da bir beğeni yüzünden kıskanmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "14bbf777-b052-4fea-b8fc-8ef1376ac97f",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more possessive?",
+  "tr": "Kim daha sahiplenici?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "339b5762-4e84-4805-af6b-6ce66194858e",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who says \"I love you\" more?",
+  "tr": "Kim daha çok \"seni seviyorum\" der?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "5ae110e1-6768-4e74-8088-ad9114dff528",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to check the other's phone?",
+  "tr": "Diğerinin telefonuna bakmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "27a7c471-65d0-4204-b8fd-c772f16fa511",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who gets more jealous?",
+  "tr": "Kim daha çok kıskanır?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "c10f07c8-e7d3-4c9f-9796-ca0bfe4a157c",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more flirty with their partner?",
+  "tr": "Partnerine kim daha flörtöz davranır?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "bc7f9ffc-baaf-4910-8769-3c790a5c2d1f",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to send a suggestive text at work?",
+  "tr": "İş yerinde imalı bir mesaj atmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "6a167972-34e2-4517-8622-be1fb1e636fa",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who wants it more often?",
+  "tr": "Kim daha sık ister?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "b6a21868-94bb-4e68-adfd-37f98d1e6a2c",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to start kissing in the kitchen for no reason?",
+  "tr": "Mutfakta sebepsiz yere öpüşmeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "a10aaf50-3c56-4ae4-b7a2-5504b13cf018",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more adventurous behind closed doors?",
+  "tr": "Kapılar kapalıyken kim daha maceracı?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "f3a6c468-d3f9-463f-9f41-4695f3260770",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to want a lazy morning in bed together?",
+  "tr": "Birlikte yatakta tembel bir sabah istemeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "8a01e423-7ece-4575-a301-a3ea658c21a1",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get shy about what they want?",
+  "tr": "Ne istediği konusunda utanmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "abeddb94-68f7-4115-8e15-9cd0e988d876",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to ask \"how was it?\" after intimacy?",
+  "tr": "Yakınlıktan sonra \"nasıldı?\" diye sormaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "39702a38-c792-498d-a464-574ecaf63052",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to keep talking during intimacy?",
+  "tr": "Yakınlık sırasında sürekli konuşmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "b25d34f4-2c1a-4fb6-8960-86d208ecd297",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to want more right after intimacy?",
+  "tr": "Yakınlıktan hemen sonra daha fazlasını istemeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "1db6f4dc-98a6-4b19-937d-c3c9bff8794a",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to want food right after intimacy?",
+  "tr": "Yakınlıktan hemen sonra bir şeyler yemek istemeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "6d6ecf8c-bd5e-4e45-a05f-e4d38c5b6035",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to fall asleep first after intimacy?",
+  "tr": "Yakınlıktan sonra ilk uyuyakalmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "ae850540-3258-4373-bdbc-b6e73828d932",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to laugh at the wrong moment during intimacy?",
+  "tr": "Yakınlık sırasında yanlış anda gülmeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "a08ec32a-d7ea-4c39-8a0f-e70bcecc7a93",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more dominant?",
+  "tr": "Kim daha dominant?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "8bca1f93-73a6-47a6-a699-f2adc7ac5167",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to leave marks on purpose?",
+  "tr": "Bilerek iz bırakmaya kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ },
+ {
+  "id": "43f36f4a-d563-449a-ac82-ddf935227109",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to want music on during intimacy?",
+  "tr": "Yakınlık sırasında müzik açılmasını istemeye kim daha yatkın?",
+  "category": "who_is_more_likely_intimacy"
+ }
+]

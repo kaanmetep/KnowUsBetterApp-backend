@@ -1,0 +1,580 @@
+{
+  "779c01e5-9ba2-48ed-84f5-747084bda093": {
+    "text": "Muss dein Schatz auf Social Media ein Foto mit dir posten?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7dfca2ae-4653-499b-8b35-8409ac9cb8e5": {
+    "text": "Würdest du mit jemandem zusammen sein, der schon mal verheiratet war?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ecb7bf85-0455-46c5-9045-8c485aa6c8d6": {
+    "text": "Würdest du mit jemandem zusammenkommen, dessen letzte Beziehung gerade erst vorbei ist?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7713469e-5c7c-4081-885e-784fcefc308b": {
+    "text": "Würdest du ein Kleidungsstück, das du richtig toll findest, auch kaufen, wenn es sehr teuer ist?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a25b6694-0388-469a-80c3-1a065d4641da": {
+    "text": "Würdest du mit jemandem zusammen sein, der nie gern kocht und immer auswärts isst?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9106e2f1-c28e-4b6d-a27f-3ac47f185e39": {
+    "text": "Findest du, dein Ex sollte von deinen Social-Media-Accounts verschwinden?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1d7b03f4-df47-452a-8a54-1b98528dd75a": {
+    "text": "Hättest du gern seit der Schulzeit nur eine einzige Beziehung gehabt und diese Person geheiratet?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e371edc7-ba67-4d14-8fa7-dad00b7d6b31": {
+    "text": "Würdest du eine Beziehung mit jemandem anfangen, den du liebst, an dessen Treue du aber zweifelst?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "36c6f327-8de2-42ed-8165-752c783ae56d": {
+    "text": "Findest du es normal, wenn jemand, den du gerade kennenlernst, nebenbei noch mit anderen flirtet?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c7aec6af-0246-41d9-bcc6-ce59c3b9403e": {
+    "text": "Würde es dich misstrauisch machen, wenn jemand vor jedem Gang zur Toilette das Handy umgedreht auf den Tisch legt?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b0f272c0-ca82-4663-bc78-6c406bb5b831": {
+    "text": "Hast du schon mal eine Beziehung wegen einer Kleinigkeit komplett beendet?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c70818b5-97c6-4134-8b6e-94b01052f279": {
+    "text": "Würde es dich abtörnen, wenn dein Schatz nicht aus derselben Flasche trinken will wie du?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4c354718-87c5-46d1-b2d7-733646f06068": {
+    "text": "Ist es okay, wenn dein Schatz eine befreundete Person des anderen Geschlechts zum Essen einlädt?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "29870733-c386-448b-82a7-a2f059a50ba4": {
+    "text": "Ist es okay, wenn dein Schatz sich allein mit einer befreundeten Person des anderen Geschlechts trifft?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e392db65-9315-4f83-8930-34c5a450b24a": {
+    "text": "Wärst du sauer, wenn dein Schatz dir die Chats mit einer befreundeten Person des anderen Geschlechts nicht zeigen will?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1b878572-51f3-4ef5-b869-57695d5b4bba": {
+    "text": "Ist es okay, wenn dein Schatz einer befreundeten Person des anderen Geschlechts einen Kaffee ausgibt?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1338669a-0f18-42d9-b936-97fa0009639f": {
+    "text": "Willst du alles über die Vergangenheit deines Schatzes wissen oder nur das Nötigste?",
+    "answers": [
+      "Alles",
+      "Nur das Nötigste"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "35f1ccbf-5cf0-4b91-b844-cdc93470350c": {
+    "text": "Eifersucht zwischen dir und deinem Schatz ist …",
+    "answers": [
+      "Irgendwie süß",
+      "Schädlich für die Beziehung"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b60dd292-09bb-4403-8129-eceb964a89bb": {
+    "text": "Die Frage „Wer schreibt zuerst?“ in einer Beziehung …",
+    "answers": [
+      "Ist wichtig fürs Gleichgewicht",
+      "Sollte egal sein"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8a5c8ef1-6310-4d06-8af8-e41508b1d9af": {
+    "text": "Wie viele Stunden dauert das perfekte erste Date?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3038d09c-8a48-432e-8f6a-3173cdf1b0f3": {
+    "text": "Nach wie vielen Dates ist ein erster Kuss okay?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3a7b78ae-2cd0-461c-a69f-f2f5e35d2593": {
+    "text": "Was ist die beste Uhrzeit für ein erstes Date?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8488f194-3774-470b-ac98-dfab1027a149": {
+    "text": "Wie viele Tage sollte man warten, bevor man nach einem zweiten Date fragt?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "00d225ad-05d7-4044-9a9a-f002791aa06b": {
+    "text": "Wie viele Jahre Altersunterschied sind in einer Beziehung gut?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "52369eca-4691-4ff4-ba5c-db44489ab01d": {
+    "text": "Wie oft am Tag sollten sich frische Paare schreiben?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0e7b5127-24d4-48bc-b454-f43ae9fade2d": {
+    "text": "Nach wie vielen Dates ist Übernachten okay?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "831590be-5c22-4b45-b378-5794e75e0f56": {
+    "text": "Wie viele Minuten Verspätung sind beim ersten Date okay?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7192abf5-e884-4f12-80e1-1d0b1a96e8c0": {
+    "text": "Wie viele Ex-Beziehungen sind zu viele?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f8ed25d1-90b1-4de2-a09b-6adbf13a1e81": {
+    "text": "Wie viele Tage sollte man schreiben, bevor man sich persönlich trifft?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "38f9ad51-d981-4adf-94a0-90ebe2900c76": {
+    "text": "Was sollte man beim ersten Date nie bestellen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ebed3fec-e1ae-4368-8a0e-4e4dd4e78af9": {
+    "text": "Welchen Kosenamen benutzt du am häufigsten für deinen Schatz?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d14e2f10-7c81-43cd-be66-3e778564a465": {
+    "text": "Wie viele frühere Flirts darf dein Schatz höchstens gehabt haben, bevor es dich abtörnt?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "010dfc92-9c21-441a-a0f5-b159412b70a2": {
+    "text": "Ab wie vielen Jahren Dauer törnt dich eine frühere Beziehung deines Schatzes ab? Schreib 0, wenn dich das nie stört.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9cd5fd8b-3a6e-4b0f-a091-7d8612fb213f": {
+    "text": "Wie sollte dein Schatz dich niemals nennen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "87658e97-ac2e-44a5-b542-433a08e7aabd": {
+    "text": "Wie möchtest du von deinem Schatz am liebsten genannt werden?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "763e922e-ab9e-4f6f-827e-693af2a26f4d": {
+    "text": "Nach wie vielen Jahren Beziehung würdest du zusammenziehen wollen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "77c7dd5e-0ffd-4698-b393-0ff78d1e213b": {
+    "text": "Nach wie vielen Monaten würdest du die Familie deines Schatzes kennenlernen wollen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "595fa92e-a25b-4dc9-8f78-4550f1d8608f": {
+    "text": "Nach wie vielen Ehejahren würdest du Kinder wollen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3a380d3f-8123-4e99-b4f3-e7d2ec4ff655": {
+    "text": "Was ist dein ideales erstes Date?",
+    "answers": [
+      "Kaffee",
+      "Spaziergang",
+      "Abendessen",
+      "Drinks"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "804c67c5-9dd5-4bf0-9448-3e0ab96b2928": {
+    "text": "Jemand, mit dem du schreibst, braucht zwei Tage für eine Antwort. Was machst du?",
+    "answers": [
+      "Abwarten",
+      "Locker nachhaken",
+      "Im selben Tempo antworten",
+      "Das Interesse verlieren"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6edf2d1a-551c-4860-991c-3fb9641f6085": {
+    "text": "Wie sollte ein gutes erstes Date enden?",
+    "answers": [
+      "Mit einer Umarmung",
+      "Mit einem Kuss",
+      "Mit einem klaren Plan fürs zweite Date",
+      "Einfach mit „Bis bald“"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4f7b735e-59a7-4eeb-bcaa-43853cdf224a": {
+    "text": "Wo ist dein Handy beim ersten Date?",
+    "answers": [
+      "In der Tasche",
+      "Umgedreht auf dem Tisch",
+      "Lautlos in der Nähe",
+      "Du vergisst es fast"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "10ca97e0-e294-417e-84be-a586b2a6e65c": {
+    "text": "Wer sollte das zweite Date planen?",
+    "answers": [
+      "Wer das erste vorgeschlagen hat",
+      "Diesmal die andere Person",
+      "Wer mehr Zeit hat",
+      "Gemeinsam planen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "15087f4a-b129-4ded-bda9-9b8e9f2ce9c9": {
+    "text": "Das erste Date war okay, aber nicht umwerfend. Was machst du?",
+    "answers": [
+      "Ein zweites Date wagen",
+      "Höflich ghosten",
+      "Sagen, dass es nicht funkt",
+      "Weiterschreiben und abwarten"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9d5474ab-62cf-433d-8a62-9cfe83a90018": {
+    "text": "Wie wirst du am liebsten nach einem Date gefragt?",
+    "answers": [
+      "Persönlich",
+      "Per Nachricht",
+      "Mit einem konkreten Plan",
+      "Locker, ohne Druck"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "46002351-0295-45f1-a0f9-322e2d7f98b9": {
+    "text": "Dein Date erzählt beim ersten Treffen von der letzten Beziehung. Was machst du?",
+    "answers": [
+      "Das Thema wechseln",
+      "Kurz zuhören",
+      "Eine Rückfrage stellen",
+      "Das Interesse verlieren"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a90fff4b-18ba-402c-920d-e141465c46fb": {
+    "text": "Wann erzählst du deinen Freunden, dass du jemanden datest?",
+    "answers": [
+      "Nach dem ersten Date",
+      "Nach ein paar Dates",
+      "Erst wenn es ernst wird",
+      "Du behältst es eine Weile für dich"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2afd06cc-aad0-4cd2-b85a-be260fc537a9": {
+    "text": "Beim Date leuchtet auf dem Handy deines Gegenübers eine Dating-App auf. Was machst du?",
+    "answers": [
+      "Ignorieren",
+      "Einen Witz drüber machen",
+      "Direkt nachfragen",
+      "Das Interesse verlieren"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "80a133aa-e818-4387-ba13-6d18f3eca48c": {
+    "text": "20 Sekunden peinliche Stille. Was machst du?",
+    "answers": [
+      "Eine zufällige Frage stellen",
+      "Einen Witz über die Stille machen",
+      "Die Stille entspannt aushalten",
+      "Innerlich ein bisschen panisch werden"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "54ae559d-c747-4baa-b836-c2ac0f6d5914": {
+    "text": "Beim Date läufst du zufällig deinem Ex über den Weg. Was machst du?",
+    "answers": [
+      "Kurz hallo sagen, weitergehen",
+      "Die beiden kurz vorstellen",
+      "So tun, als hättest du nichts gesehen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1862d1eb-0f5f-4433-b278-f78ae8e65a56": {
+    "text": "Dein Date bestellt für dich, ohne zu fragen. Was machst du?",
+    "answers": [
+      "Es so lassen",
+      "Höflich umbestellen",
+      "Sagen, dass das etwas zu viel ist"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b5794a9f-d967-4b5d-924b-08fde07181dd": {
+    "text": "Jemand, mit dem du schreibst, schickt dir eine 4-minütige Sprachnachricht. Was machst du?",
+    "answers": [
+      "Komplett anhören",
+      "Auf 1,5-fach abspielen",
+      "Mit einer Sprachnachricht antworten",
+      "Um eine Textnachricht bitten"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "11057121-36b1-4bec-8fe0-a951f48a59cb": {
+    "text": "Vor eurem zweiten Date liked dein Date ein Foto von dir aus dem Jahr 2019. Was machst du?",
+    "answers": [
+      "Drüber lachen",
+      "Ein altes Foto zurückliken",
+      "Beim Date einen Spruch dazu bringen",
+      "Es ein bisschen creepy finden"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2018faf7-7f62-4184-ab8d-f8daddf0c55b": {
+    "text": "Ihr trefft euch zufällig auf einer Party bei Freunden. Niemand weiß, dass ihr euch datet. Was machst du?",
+    "answers": [
+      "So tun, als würdet ihr euch nicht kennen",
+      "Locker hallo sagen, nichts verraten",
+      "Direkt hingehen und zusammenbleiben"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4186af00-6693-48c4-b037-597f68eca363": {
+    "text": "Am Tag nach eurem Date erfährst du über gemeinsame Freunde, dass dein Date alles erzählt hat. Wie fühlst du dich?",
+    "answers": [
+      "Geschmeichelt",
+      "Neugierig, was erzählt wurde",
+      "Ein bisschen genervt",
+      "Halb so wild, du hast es ja auch erzählt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "90996073-0d83-444d-b35a-979f896c0b5a": {
+    "text": "Du kommst nach einem tollen ersten Date nach Hause. Noch hat niemand von euch geschrieben. Was machst du?",
+    "answers": [
+      "Sofort schreiben",
+      "Warten, bis dein Date schreibt",
+      "Es auf morgen verschieben",
+      "Eine Story posten und schauen, ob dein Date sie ansieht"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "585b6edd-f0f5-45dc-9b1a-70fadafc76c5": {
+    "text": "Was törnt dich beim ersten Date mehr ab: unhöflich zur Bedienung sein oder nie vom Handy aufschauen?",
+    "answers": [
+      "Unhöflich zur Bedienung",
+      "Ständig am Handy"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6fbf29f6-9fdd-469b-a49f-dceeae0f2960": {
+    "text": "Was törnt dich mehr ab: nur über sich selbst reden oder nie etwas von sich erzählen?",
+    "answers": [
+      "Redet nur über sich",
+      "Öffnet sich nie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7d216358-afbd-4df9-bcbf-5dd6d671e303": {
+    "text": "Was törnt dich mehr ab: ein schlechter Kuss oder ein langweiliges Gespräch?",
+    "answers": [
+      "Ein schlechter Kuss",
+      "Ein langweiliges Gespräch"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "720a9cbc-8710-4872-80f2-53300dbadf6f": {
+    "text": "Was törnt dich am Anfang mehr ab: ununterbrochen schreiben oder kaum schreiben?",
+    "answers": [
+      "Schreibt ununterbrochen",
+      "Schreibt kaum"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3cf1a84d-e223-4e63-93d8-777459021597": {
+    "text": "Was törnt dich mehr ab: aus allem einen Witz machen oder keinen Spaß verstehen?",
+    "answers": [
+      "Macht über alles Witze",
+      "Versteht keinen Spaß"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fc011c5b-4593-4cc1-b280-0684ad82df8d": {
+    "text": "Was törnt dich mehr ab: anders aussehen als auf den Fotos oder im Profil beim Alter lügen?",
+    "answers": [
+      "Sieht anders aus als auf den Fotos",
+      "Hat beim Alter gelogen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ad06a964-fa58-4061-8344-79edf5b520d8": {
+    "text": "Was törnt dich mehr ab: zu allem „Ist mir egal“ sagen oder zu allem eine Meinung haben?",
+    "answers": [
+      "Zu allem „Ist mir egal“",
+      "Zu allem eine Meinung"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4f531856-318c-487f-a619-fa0a59a99d7f": {
+    "text": "Was törnt dich mehr ab: schlechter Geruch oder schlechter Kleidungsstil?",
+    "answers": [
+      "Schlechter Geruch",
+      "Schlechter Kleidungsstil"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ef9f4128-7b1c-403e-ad46-17990ee3ceef": {
+    "text": "Was törnt dich mehr ab: der Familie alles erzählen oder der Familie nichts erzählen?",
+    "answers": [
+      "Erzählt der Familie alles",
+      "Erzählt der Familie nichts"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

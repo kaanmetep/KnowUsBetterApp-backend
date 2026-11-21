@@ -1,0 +1,692 @@
+{
+  "ad42c59d-bd4b-4f67-963a-f1a1c512f2c9": {
+    "text": "Quando inizia una discussione, il tuo primo istinto è…",
+    "answers": [
+      "Dire subito tutto",
+      "Chiudermi nel silenzio",
+      "Smorzare i toni, anche se per me non è finita",
+      "Uscire dalla stanza per calmarmi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4847cd44-98d1-4533-bb0a-e8b49438e2a6": {
+    "text": "Di cosa hai bisogno per chiudere davvero una lite?",
+    "answers": [
+      "Delle scuse sincere",
+      "Sentire comprensione",
+      "Una soluzione chiara",
+      "Prima un po' di tempo per me",
+      "Vicinanza fisica"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0a402b2b-06aa-4c65-9534-cd5828e42c46": {
+    "text": "Fare il primo passo per fare pace: come lo vivi?",
+    "answers": [
+      "Di solito lo faccio io e mi va bene",
+      "Di solito lo faccio io e inizia a pesarmi",
+      "Tendo ad aspettare che si faccia avanti",
+      "Mi costa fatica, anche quando vorrei"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d0ec371b-99c3-42e2-86fe-60295e7a3aba": {
+    "text": "Finita una lite, per quanto tempo ti resta dentro?",
+    "answers": [
+      "Sparisce appena facciamo pace",
+      "Qualche ora",
+      "Un giorno o due",
+      "Prima o poi torna a galla"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "375bb36b-b6d9-4321-a8e4-b8fdcd60abcf": {
+    "text": "Cosa fa degenerare una lite più in fretta, per te?",
+    "answers": [
+      "Voce alta o tono duro",
+      "Interrompermi o non ascoltarmi",
+      "Tirare fuori vecchie questioni",
+      "Il silenzio o andarsene",
+      "Sarcasmo o occhi al cielo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6ba99e54-c776-447b-ad7c-830ef561545a": {
+    "text": "Cosa tieni per te per quieto vivere?",
+    "answers": [
+      "Niente, dico quello che mi dà fastidio",
+      "I piccoli fastidi",
+      "Bisogni miei più importanti",
+      "Cose sulla sua famiglia o sui suoi amici"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0a32a02d-0e74-4f0b-836a-4a5ae6890ab7": {
+    "text": "In poche parole: su cosa continuate a litigare voi due?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "80d0cd30-bef6-4ec4-aeac-17776ab4b318": {
+    "text": "Quando litigate, cosa fa il tuo amore che vorresti smettesse di fare?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7daf8ce4-e900-49bd-a99c-2bd3b2dc6623": {
+    "text": "Quanto è equa, secondo te, la divisione delle faccende tra voi?",
+    "answers": [
+      "Del tutto equa",
+      "Abbastanza equa",
+      "Faccio più della mia parte",
+      "Il mio amore fa più della sua parte"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "37e7075f-f8c0-4a6f-8bb1-15d4f63b79b8": {
+    "text": "Quanto tempo tutto per te ti serve in una settimana normale?",
+    "answers": [
+      "Quasi niente",
+      "Un'ora o due",
+      "Una serata o più",
+      "Tanto, e non sempre lo dico"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2ec6384d-4e70-49a8-b8b4-60fc79668a5a": {
+    "text": "La vostra serata ideale insieme in settimana?",
+    "answers": [
+      "Cucinare e cenare insieme",
+      "Guardare qualcosa sul divano",
+      "Uscire da qualche parte",
+      "Fianco a fianco, a fare cose diverse"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c3bfa96a-4683-46d7-a472-9844feb722ce": {
+    "text": "Cosa pensi dei telefoni quando siete insieme?",
+    "answers": [
+      "Per noi non è un problema",
+      "A volte mi dà fastidio",
+      "Mi dà molto fastidio",
+      "Probabilmente lo uso più io"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ec39df53-45de-401b-83c5-c71fdc6a7b5c": {
+    "text": "Il weekend dovrebbe essere…",
+    "answers": [
+      "Pianificato e pieno",
+      "Un solo programma, il resto libero",
+      "Senza alcun programma",
+      "Soprattutto riposo a casa"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "da536f27-fd8e-4b15-9bb2-fff1ab7cc79d": {
+    "text": "Quanto dovrebbe essere ordinata la casa?",
+    "answers": [
+      "Impeccabile",
+      "Abbastanza in ordine",
+      "Un po' di disordine fa casa",
+      "Il disordine non lo noto"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "973523ee-da46-453e-8012-d7d01eb59fab": {
+    "text": "Cosa ami di più della vostra quotidianità insieme?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "455eea81-69be-46f9-a81e-7299fb4c5f1e": {
+    "text": "Quale piccola cosa di tutti i giorni cambieresti nel vostro modo di vivere insieme?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "45b55eb0-9f7d-4819-8905-6bbf7412e967": {
+    "text": "Quanto spesso dovreste vedere le vostre famiglie?",
+    "answers": [
+      "Ogni settimana",
+      "Un paio di volte al mese",
+      "Nelle occasioni speciali",
+      "Il meno possibile"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0186e34c-69ce-4b3a-a0ca-eeda47599e25": {
+    "text": "Un tuo familiare critica il tuo amore. Tu…",
+    "answers": [
+      "Prendo subito le sue difese",
+      "Poi ne parlo in privato con la mia famiglia",
+      "Non mi intrometto",
+      "Chiedo al mio amore cosa vuole che faccia"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6df93e1d-bb18-418a-bb9e-fc88799efaf1": {
+    "text": "Quanta voce in capitolo dovrebbero avere i genitori nelle vostre decisioni di coppia?",
+    "answers": [
+      "Nessuna, è la nostra vita",
+      "Li ascoltiamo, poi decidiamo noi",
+      "La loro opinione conta molto",
+      "Dipende dalla decisione"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8bb0a2e7-1a3d-437d-a3ea-c821dbb2fd90": {
+    "text": "La tua vita sociale ideale nel weekend?",
+    "answers": [
+      "Un bel gruppo di amici",
+      "Un'altra coppia",
+      "Solo noi due",
+      "Con i rispettivi amici"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b9c6e8e3-d7e3-45e4-810d-8e26270732b0": {
+    "text": "Cosa pensi degli amici del tuo amore?",
+    "answers": [
+      "Mi piacciono davvero",
+      "Simpatici, ma non sono il mio giro",
+      "Alcuni mi danno fastidio",
+      "Li conosco appena"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2a964d04-7284-475d-bb2a-e104a8e02a1e": {
+    "text": "Quanto dovrebbero sapere gli amici della vostra relazione?",
+    "answers": [
+      "Tutto, sono la mia gente",
+      "Le cose belle",
+      "Solo le grandi novità",
+      "Quasi niente"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "04308de1-190c-466a-816f-1fc04d957ce2": {
+    "text": "Quale tradizione di famiglia vorresti portare avanti, o iniziare, insieme?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8316d765-29a3-4f40-a97e-1adc20b8da80": {
+    "text": "Cosa non hai mai detto ad alta voce sulla famiglia o sugli amici del tuo amore?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0da22e32-fa22-493b-bc7f-f4b3a1ae901b": {
+    "text": "Tra 5 anni, dove vi immagini a vivere?",
+    "answers": [
+      "Proprio dove siamo ora",
+      "In una città più grande",
+      "In un posto tranquillo, nella natura",
+      "In un altro paese"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "094980c9-ac72-48cd-8fec-ded5e8c859f2": {
+    "text": "Avere figli: cosa ne pensi?",
+    "answers": [
+      "Sicuramente, e presto",
+      "Sì, ma non ancora",
+      "Non lo so",
+      "Non fa per me"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9dd0cb25-5e52-4bbd-8b84-0845b7a42506": {
+    "text": "Cosa conta di più per il vostro futuro insieme?",
+    "answers": [
+      "Stabilità e sicurezza",
+      "Avventure ed esperienze nuove",
+      "Costruire una famiglia",
+      "Crescere come persone"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0bcc27d3-1ef3-44af-a395-189f4c9bd2c7": {
+    "text": "Ti offrono il lavoro dei sogni in un'altra città. Tu…",
+    "answers": [
+      "Accetto solo se ci trasferiamo insieme",
+      "Provo la relazione a distanza per un po'",
+      "Rifiuto, per noi",
+      "Accetto, troveremo un modo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8ef516ca-6075-4b91-baa4-ddf344730612": {
+    "text": "Come preferisci pianificare il futuro?",
+    "answers": [
+      "Piani dettagliati, con anni di anticipo",
+      "Una direzione di massima",
+      "Un passo alla volta",
+      "Lasciamo che la vita ci sorprenda"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "afb504c6-4c43-4b52-ac1f-3313b26b9e24": {
+    "text": "Quanta certezza hai che voi due vogliate lo stesso futuro?",
+    "answers": [
+      "Ne ho la certezza",
+      "Quasi del tutto, con qualche domanda aperta",
+      "Non ne abbiamo mai parlato davvero",
+      "Nessuna certezza"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "983f732f-f006-4caf-acec-f1b565922810": {
+    "text": "In una frase: dove sarete voi due tra cinque anni?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9a479602-d540-4c0d-818d-eca22f12ae13": {
+    "text": "Quale argomento sul futuro esiti a tirare fuori?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "dae2d4cc-1750-4ff2-ad27-8844b09f1ea3": {
+    "text": "Quando senti più forte il legame con il tuo amore?",
+    "answers": [
+      "Parlando a tarda notte",
+      "Ridendo insieme",
+      "Nei momenti di vicinanza fisica",
+      "Dopo aver superato qualcosa di difficile"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b1333bff-a865-4cb9-9293-ec4f88e184e2": {
+    "text": "Ultimamente, quanto ti soddisfa la vostra vicinanza fisica?",
+    "answers": [
+      "Moltissimo",
+      "Abbastanza",
+      "Ne vorrei di più",
+      "Qualcosa non torna"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "54b1befc-8d38-4ad9-b0f7-4ecc5da68448": {
+    "text": "Come ti piace che inizi l'intimità?",
+    "answers": [
+      "Piano, senza fretta",
+      "In modo spontaneo",
+      "Prima con le parole",
+      "Pianificata, l'attesa aiuta"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a23bd9c0-604e-42e9-a98a-4f1494b812c3": {
+    "text": "Cosa rovina l'atmosfera più in fretta, per te?",
+    "answers": [
+      "I telefoni",
+      "Lo stress della giornata",
+      "La fretta",
+      "Le tensioni irrisolte"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6689e4d3-270f-4a02-9581-f286060425d0": {
+    "text": "Quanto conta per te l'affetto fuori dalla camera da letto?",
+    "answers": [
+      "È essenziale",
+      "È molto bello averlo",
+      "Non è fondamentale"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3cb8d865-6f52-410b-a73c-647cc8ed78fb": {
+    "text": "Dire al tuo amore cosa desideri nell'intimità è…",
+    "answers": [
+      "Facile per me",
+      "Più facile per messaggio",
+      "Imbarazzante, ma vorrei farlo",
+      "Qualcosa che evito"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "176ce7a7-80c4-44da-b820-4488d4d1d280": {
+    "text": "Quale momento tra voi due continui a rivivere nella mente?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0d7aff47-dea9-4a0b-a71b-03f9e196e0f5": {
+    "text": "In poche parole: cosa ti fa sentire che il tuo amore ti desidera?",
+    "answers": [],
+    "accepted": [],
+    "flagged": true,
+    "note": "\"Feel desired\" (sentirsi desiderato/a) is gendered; rephrased as 'what makes you feel your partner desires you', which narrows 'desired' to the partner."
+  },
+  "f6a2734f-3505-4f4a-9316-0bbe08fdc1f4": {
+    "text": "Cosa ti fa sentire di più l'amore che ricevi?",
+    "answers": [
+      "Sentirmelo dire ad alta voce",
+      "Tempo insieme senza distrazioni",
+      "Che mi semplifichi la vita",
+      "Il contatto fisico",
+      "Una sorpresa pensata per me"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "133e06f4-dacb-4900-9789-001a5b70e6b0": {
+    "text": "Come dimostri l'amore nel modo più naturale per te?",
+    "answers": [
+      "Dicendolo",
+      "Trovando del tempo",
+      "Facendo cose per chi amo",
+      "Con il contatto fisico",
+      "Con piccole sorprese"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e4d36f8a-1611-4d47-8524-7fa4e276d576": {
+    "text": "Cosa ti fa sentire più in fretta che manca l'amore?",
+    "answers": [
+      "Giorni senza una parola gentile",
+      "Il telefono in mano quando siamo insieme",
+      "Dover pensare a tutto io",
+      "Niente affetto per un po'",
+      "Il mio impegno che passa inosservato"
+    ],
+    "accepted": [],
+    "flagged": true,
+    "note": "\"Feel unloved\" (sentirsi non amato/a) is gendered; rephrased as 'what makes you feel, fastest, that love is missing'."
+  },
+  "3bab62fd-1bc7-4eca-8947-a5d212b2d5f2": {
+    "text": "Nei momenti di stress, cosa vuoi dal tuo amore?",
+    "answers": [
+      "Che ne parli con me",
+      "Che mi stia semplicemente accanto",
+      "Che si occupi di qualcosa al posto mio",
+      "Che mi abbracci",
+      "Che mi lasci il mio spazio"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0d6c4a65-26ce-4b3d-a4a9-bc4d2ca492db": {
+    "text": "Quanto affetto fisico vuoi in una giornata normale?",
+    "answers": [
+      "Tanto, sempre",
+      "Qualche momento al giorno",
+      "Un po' mi basta",
+      "Non sono una persona molto fisica"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f8892d3c-58cc-4820-bbdc-cd6f7d7f87e9": {
+    "text": "Quanto spesso senti che l'amore che dai passa inosservato?",
+    "answers": [
+      "Quasi mai",
+      "A volte",
+      "Spesso",
+      "Quasi sempre"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "be0526e5-ba2f-4129-a55a-0238be57b8da": {
+    "text": "Racconta l'ultima volta in cui hai sentito davvero tutto l'amore della tua dolce metà.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "190ea05e-76db-489f-a50d-c3473f48f2e7": {
+    "text": "Quale gesto d'amore fai che, secondo te, la tua dolce metà non nota?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "74e8638b-8b64-4231-9da1-49a411091b71": {
+    "text": "Ti arriva sul conto un bonus inaspettato. Tu…",
+    "answers": [
+      "Lo metto da parte",
+      "Lo spendo in qualcosa per noi",
+      "Mi concedo un regalo",
+      "Ci saldo un debito"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "27d986a2-af92-4a2b-8c11-c88a505f4ffc": {
+    "text": "Come dovrebbe gestire i soldi una coppia?",
+    "answers": [
+      "Tutto in comune",
+      "Un conto comune più quelli personali",
+      "Tutto separato, spese a metà"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "529c952f-f5ce-4a9a-811e-de16b44436ca": {
+    "text": "Con i soldi, cosa ti descrive meglio?",
+    "answers": [
+      "Risparmio con attenzione",
+      "Spendo volentieri",
+      "Pianifico con un budget",
+      "Dipende dall'umore"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "69067652-637f-4025-a1a9-bf8fe43e5541": {
+    "text": "Quanto puoi spendere senza dirlo al tuo amore?",
+    "answers": [
+      "Quanto voglio, sono soldi miei",
+      "Fino a una piccola cifra",
+      "Niente di grosso senza parlarne prima"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3801b3f8-ca7a-427a-8049-b7eb1a4a83a1": {
+    "text": "Cosa ti preoccupa di più dei soldi?",
+    "answers": [
+      "Non avere abbastanza risparmi",
+      "I debiti",
+      "Non essere d'accordo tra noi",
+      "Sinceramente, niente"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "782694ff-ef2a-453d-b2b0-820147b9c492": {
+    "text": "Quanto ti senti a tuo agio a parlare di soldi con il tuo amore?",
+    "answers": [
+      "Del tutto, ne parliamo apertamente",
+      "Abbastanza, ma lo facciamo di rado",
+      "È un po' imbarazzante",
+      "Lo evito"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "383497c5-6a90-487f-acfb-ba23d85788e9": {
+    "text": "Qual è la decisione economica più grande che vorresti prendere insieme nei prossimi anni?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b43559b3-b10b-49de-b3d6-d71e7cdb85b6": {
+    "text": "Nella casa della tua infanzia, cosa significavano i soldi?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "df0f185f-6d69-4ba4-9994-5996b2f0bf68": {
+    "text": "Guardare il telefono del tuo amore è…",
+    "answers": [
+      "Mai accettabile, è privato",
+      "Ok, se c'è il permesso",
+      "Ok, non abbiamo niente da nascondere",
+      "Qualcosa che ho fatto senza chiedere"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "dd3aaedc-07ee-412b-bb83-7c23dbb377c1": {
+    "text": "Qualcuno riempie di attenzioni il tuo amore. Tu…",
+    "answers": [
+      "Non ci faccio caso",
+      "Sento una fitta, ma mi fido",
+      "Vorrei parlarne",
+      "Mi ingelosirei, e si vedrebbe"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fbf507be-cbda-4663-9a38-9a01f9393e66": {
+    "text": "Che il tuo amore resti in buoni rapporti con un ex è…",
+    "answers": [
+      "Del tutto normale",
+      "Ok, se tra loro non c'è più niente",
+      "Qualcosa che mi mette a disagio",
+      "Inaccettabile"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "785701ac-e83a-456a-9d90-e85d4aca204d": {
+    "text": "Quanto spesso provi gelosia, anche se non lo dai a vedere?",
+    "answers": [
+      "Spesso",
+      "A volte",
+      "Raramente",
+      "Mai"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9ba59f61-1758-4d30-ba63-f6104de991cd": {
+    "text": "Cosa incrinerebbe di più la tua fiducia?",
+    "answers": [
+      "Una bugia, anche piccola",
+      "Conversazioni nascoste con qualcuno",
+      "Una promessa non mantenuta più volte",
+      "Le nostre cose private raccontate ad altri"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "18def8e1-5fa7-44a3-85e4-81cb688a31db": {
+    "text": "Quanto vuoi sapere della giornata del tuo amore?",
+    "answers": [
+      "Tutto, dove e con chi",
+      "Le cose principali",
+      "Solo ciò che vuole condividere"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b0a8928f-0b53-439c-9f66-ca1a6c92eb86": {
+    "text": "Cosa ti fa sentire completamente al sicuro con il tuo amore?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e045d939-d801-4bea-b637-ed0df364efa8": {
+    "text": "C'è qualcosa in questa relazione che ti dà anche solo un filo di insicurezza? Rispondi con sincerità.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

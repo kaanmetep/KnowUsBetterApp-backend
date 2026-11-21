@@ -1,0 +1,650 @@
+[
+ {
+  "id": "e311d79f-d53f-46c1-93eb-338151484b54",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which one do you find more attractive: intelligence or body?",
+  "tr": "Hangisini daha çekici buluyorsun: zeka mı yoksa vücut mu?",
+  "answers_en": [
+   "Intelligence",
+   "Body"
+  ],
+  "answers_tr": [
+   "Zeka",
+   "Vücut"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "e85ef99e-7a01-4c52-96fe-c28ce75a53bc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever flirted with a friend’s ex?",
+  "tr": "Daha önce hiç bir arkadaşının eski sevgilisiyle flört ettin mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "6abdb7e6-0111-492e-be17-f4da73afef20",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you believe a romantic intimacy can exist without love?",
+  "tr": "Sence aşk olmadan romantik bir yakınlık kurulabilir mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "d025e2f8-bfcb-473a-a8eb-0d7101281b2c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever refused a request from any of your partners?",
+  "tr": "Daha önce hiç bir partnerinin isteğini reddettin mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "f724acf1-65af-4a86-8e23-0de64197c4b9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: your partner cheating on you emotionally or physically?",
+  "tr": "Hangisi daha kötü: partnerinin seni duygusal olarak aldatması mı, fiziksel olarak aldatması mı?",
+  "answers_en": [
+   "Emotionally",
+   "Physically"
+  ],
+  "answers_tr": [
+   "Duygusal olarak",
+   "Fiziksel olarak"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "2bce8b60-21a6-4b4a-9285-14387333ace6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: your partner not finding you emotionally attractive or not finding you physically attractive?",
+  "tr": "Hangisi daha kötü: partnerinin seni duygusal anlamda çekici bulmaması mı, fiziksel anlamda çekici bulmaması mı?",
+  "answers_en": [
+   "Emotionally",
+   "Physically"
+  ],
+  "answers_tr": [
+   "Duygusal olarak",
+   "Fiziksel olarak"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "8a9e7849-5b20-4a12-acce-31d0f9a6ca32",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: catching your partner cheating or your partner catching you cheating?",
+  "tr": "Hangisi daha kötü: partnerini aldatırken yakalamak mı, partnerinin seni aldatırken yakalaması mı?",
+  "answers_en": [
+   "Catching them",
+   "Being caught"
+  ],
+  "answers_tr": [
+   "Partnerini yakalamak",
+   "Kendin yakalanmak"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "bb9547f7-87f4-436b-8299-188ecf87872b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: your partner finds you physically attractive but not emotionally, or the opposite?",
+  "tr": "Hangisi daha kötü: sevgilin seni fiziksel olarak çekici buluyor ama duygusal olarak bulmuyor, yoksa tam tersi mi?",
+  "answers_en": [
+   "Physically yes, emotionally no",
+   "Emotionally yes, physically no"
+  ],
+  "answers_tr": [
+   "Fiziksel evet, duygusal hayır",
+   "Duygusal evet, fiziksel hayır"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "72f5752e-17d8-455d-9634-cbd71a6006b3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: your partner being very short or very overweight?",
+  "tr": "Hangisi daha kötü: partnerinin çok kısa olması mı, çok kilolu olması mı?",
+  "answers_en": [
+   "Very short",
+   "Very overweight"
+  ],
+  "answers_tr": [
+   "Çok kısa",
+   "Çok kilolu"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "e4c1cfef-0706-4974-bdc0-0b8583a863df",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: your partner having one very long past relationship or several short ones?",
+  "tr": "Hangisi daha kötü: partnerinin çok uzun bir eski ilişkisi olması mı, kısa kısa birden fazla ilişkisi olması mı?",
+  "answers_en": [
+   "One long relationship",
+   "Several short ones"
+  ],
+  "answers_tr": [
+   "Bir uzun ilişki",
+   "Kısa kısa birden fazla ilişki"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "bc7914af-8df9-4786-b0f1-955d2deaee8a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Regarding a partner's relationship history, which is a bigger concern: being 'very experienced' or having 'no experience'?",
+  "tr": "Partnerinin ilişki geçmişi söz konusu olduğunda hangisi daha büyük bir endişedir: 'çok tecrübeli' olması mı, yoksa 'hiç tecrübesi' olmaması mı?",
+  "answers_en": [
+   "Very experienced",
+   "No experience"
+  ],
+  "answers_tr": [
+   "Çok tecrübeli",
+   "Hiç tecrübesi yok"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "b0a55b69-ec5c-4509-acb7-338b9b1c74e7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: your partner always wanting close intimacy or rarely wanting it?",
+  "tr": "Hangisi daha kötü: partnerinin sürekli yakın temas istemesi mi, çok az istemesi mi?",
+  "answers_en": [
+   "Always wants",
+   "Rarely wants"
+  ],
+  "answers_tr": [
+   "Sürekli istemesi",
+   "Çok az istemesi"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "f6367d9f-5d4e-4790-9840-7b07d4587575",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Does it bother you if your partner constantly wants to be in close intimacy?",
+  "tr": "Partnerinin sürekli yakın temas halinde olmayı istemesi seni rahatsız eder mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "613f4572-cca6-473c-a7cd-42b570a95890",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you feel upset if your partner says no when you want to get close?",
+  "tr": "Sen yakınlaşmak istediğinde partnerin hayır derse bozulur musun?",
+  "category": "spicy"
+ },
+ {
+  "id": "bce9b4c1-32cb-4fc5-8e40-4a948960f673",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: someone who has had a lot of intimacy before or someone who has had none?",
+  "tr": "Hangisi daha kötü: daha önce çok fazla yakınlık kurmuş biri mi, hiç kurmamış biri mi?",
+  "answers_en": [
+   "A lot before",
+   "None before"
+  ],
+  "answers_tr": [
+   "Çok fazla",
+   "Hiç"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "d9fea7e2-ed9e-4b64-beba-28501fa6102d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: your partner kissing a friend of the opposite gender, or that friend kissing your partner?",
+  "tr": "Hangisi daha kötü: sevgilinin karşı cins arkadaşını öpmesi mi, yoksa karşı cins arkadaşının sevgilini öpmesi mi?",
+  "answers_en": [
+   "My partner kissing them",
+   "Them kissing my partner"
+  ],
+  "answers_tr": [
+   "Sevgilimin onu öpmesi",
+   "Onun sevgilimi öpmesi"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "a22ea5f8-6754-4a95-a9d0-17a96c6df098",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Can your partner go on a vacation with a friend of the opposite gender?",
+  "tr": "Sevgilin, karşı cins bir arkadaşıyla tatile çıkabilir mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "1842f9ec-93ce-42ad-bd60-fdee5e59090b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Can your partner go to the same gym with a friend of the opposite gender?",
+  "tr": "Sevgilin, karşı cins bir arkadaşıyla aynı spor salonuna gidebilir mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "8dc24c93-0d98-4ae4-8641-60acd6ae6bfa",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Can your partner talk to their friends about the things you experience in your relationship?",
+  "tr": "Partnerin, ilişkide yaşadığınız şeyleri kendi arkadaşlarına anlatabilir mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "17352711-7d54-4aa6-8bdf-ed91aab0a2c5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever waited for someone's relationship to end to confess your feelings?",
+  "tr": "Hiç hoşlandığın birinin ona açılmak için ilişkisinin bitmesini bekledin mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "969cba86-6a49-4490-bad1-f68cb953cba1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone who has been with more people than you in the past?",
+  "tr": "Geçmişte senden daha çok kişiyle beraber olmuş biriyle sevgili olur musun?",
+  "category": "spicy"
+ },
+ {
+  "id": "789a1d48-2335-41e0-a7a7-1d1e4c7ec823",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you only liked someone physically, would you be with them?",
+  "tr": "Birini sadece fiziksel olarak beğensen, onunla beraber olur musun?",
+  "category": "spicy"
+ },
+ {
+  "id": "98e2d325-86cc-4298-be9f-b7390af25b77",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you stopped being physically attracted to your spouse after marriage, would you get a divorce?",
+  "tr": "Evlendikten sonra eşinden fiziksel olarak etkilenmeyi bıraksan boşanır mısın?",
+  "category": "spicy"
+ },
+ {
+  "id": "a16fe79b-cde3-49c9-bfd4-0d63e0978bf1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you prefer to make love in daylight or by candlelight?",
+  "tr": "Gün ışığında mı daha çok seversin, mum ışığında mı?",
+  "answers_en": [
+   "Daylight",
+   "Candlelight"
+  ],
+  "answers_tr": [
+   "Gün ışığı",
+   "Mum ışığı"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "49c4ecc8-addd-414f-bada-93c5a25cf26c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you had to be with someone, who would you choose: your best friend or your ex?",
+  "tr": "Birisiyle beraber olmak zorunda olsan, hangisini seçersin: en yakın arkadaşın, eski sevgilin?",
+  "answers_en": [
+   "Best friend",
+   "Ex"
+  ],
+  "answers_tr": [
+   "En yakın arkadaş",
+   "Eski sevgili"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "bbb84050-36f0-484a-b13e-cac0e7ec40ed",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever completely cut off a relationship over something trivial?",
+  "tr": "Daha önce hiç bir sevgilinle aran çok saçma bir şey yüzünden tamamen kesildi mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "522e74fb-6d0c-4e44-8763-60b5200d8467",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever had a crush on someone you definitely should not have?",
+  "tr": "Daha önce kesinlikle hoşlanmaman gereken birine karşı hislerin oldu mu?",
+  "category": "spicy"
+ },
+ {
+  "id": "6de27feb-21ed-4a51-bc8d-403efe2a48b9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You have to choose one: never being kissed again or never kissing someone again?",
+  "tr": "Birini seçmek zorundasın: sonsuza kadar öpülmemek mi yoksa sonsuza kadar kimseyi öpememek mi?",
+  "answers_en": [
+   "Never being kissed again",
+   "Never kissing someone again"
+  ],
+  "answers_tr": [
+   "Sonsuza kadar öpülmemek",
+   "Sonsuza kadar kimseyi öpememek"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "4706dab3-3457-4745-9554-34d0f19a006f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You have to choose one: be in a relationship with no physical affection or no emotional connection?",
+  "tr": "Birini seçmek zorundasın: fiziksel yakınlık olmayan bir ilişki mi yoksa duygusal bağ olmayan bir ilişki mi?",
+  "answers_en": [
+   "No physical affection",
+   "No emotional connection"
+  ],
+  "answers_tr": [
+   "Fiziksel yakınlık yok",
+   "Duygusal bağ yok"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "e7f3b3dc-747a-4f9d-841d-85737a21d60f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you accept not having any physical contact with anyone for 20 years in exchange for 1 million dollars?",
+  "tr": "1 milyon dolar karşılığında 20 yıl boyunca kimseyle fiziksel temas kurmamayı kabul eder miydin?",
+  "category": "spicy"
+ },
+ {
+  "id": "67dcae50-5f93-4123-a65a-ee9d538bf56a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is more attractive: getting close when emotional or when angry?",
+  "tr": "Hangisi daha çekici: duygusalken yakınlaşmak mı yoksa sinirliyken yakınlaşmak mı?",
+  "answers_en": [
+   "When emotional",
+   "When angry"
+  ],
+  "answers_tr": [
+   "Duygusalken",
+   "Sinirliyken"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "a72eb6c0-02af-43a3-8860-394ee0b8c7dd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you lose interest if your partner rejected your unusual fantasies?",
+  "tr": "Sevgilin garip fantezilerine karşı çıkarsa ondan soğur musun?",
+  "category": "spicy"
+ },
+ {
+  "id": "9a115b84-3552-4376-ac9c-532899e3c414",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You have to choose one: a partner with no fantasies at all or a partner with very unusual fantasies?",
+  "tr": "Birini seçmek zorundasın: hiç fantezisi olmayan bir partner mi yoksa çok garip fantezileri olan bir partner mi?",
+  "answers_en": [
+   "No fantasies at all",
+   "Very unusual fantasies"
+  ],
+  "answers_tr": [
+   "Hiç fantezisi olmayan",
+   "Çok garip fantezileri olan"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "07b51b4d-cd4a-4490-a903-54c0c7495114",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you feel turned off if your partner smelled bad?",
+  "tr": "Sevgilinin kötü kokmasından tiksinir misin?",
+  "category": "spicy"
+ },
+ {
+  "id": "98b98d8b-6a5d-42f3-84fb-75a44d04546c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You have to choose one: never being intimate at night or never being intimate during the day?",
+  "tr": "Birini seçmek zorundasın: geceleri asla yakınlaşamamak mı yoksa gündüzleri asla yakınlaşamamak mı?",
+  "answers_en": [
+   "Never at night",
+   "Never during the day"
+  ],
+  "answers_tr": [
+   "Geceleri asla",
+   "Gündüzleri asla"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "603a000d-9b8c-4fd1-b535-60b0e93e3ecb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you openly tell your partner if you weren’t happy with a romantic gesture?",
+  "tr": "Partnerinin yaptığı romantik bir jestten memnun kalmazsan bunu ona açıkça söyler miydin?",
+  "category": "spicy"
+ },
+ {
+  "id": "323f67ee-88ea-4e81-9904-3159ce876a4e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is more attractive: being able to cook really well or being able to sing really well?",
+  "tr": "Hangisi daha çekici: çok iyi yemek yapabilmesi mi yoksa çok iyi şarkı söyleyebilmesi mi?",
+  "answers_en": [
+   "Cooking really well",
+   "Singing really well"
+  ],
+  "answers_tr": [
+   "Çok iyi yemek yapabilmesi",
+   "Çok iyi şarkı söyleyebilmesi"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "bb62b8f9-7083-48ba-ba35-c894b69c0448",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is more attractive: charming words or unexpected affectionate gestures?",
+  "tr": "Hangisi daha çekici: etkileyici sözler mi yoksa beklenmedik sevecen hareketler mi?",
+  "answers_en": [
+   "Charming words",
+   "Unexpected affectionate gestures"
+  ],
+  "answers_tr": [
+   "Etkileyici sözler",
+   "Beklenmedik sevecen hareketler"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "611ca602-11fc-4e40-862b-af39644816ef",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you be with someone who drinks too much alcohol?",
+  "tr": "Çok fazla alkol içen biriyle beraber olur musun?",
+  "category": "spicy"
+ },
+ {
+  "id": "7b563148-4cd6-4ee2-af6a-2bd8158cc08b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you flirt with someone even if you knew it might lead to nothing?",
+  "tr": "Bunun hiçbir şeye yol açmayacağını bilsen bile biriyle flört eder miydin?",
+  "category": "spicy"
+ },
+ {
+  "id": "35436f63-fa4e-47e9-a87a-6b1795f10fda",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Even if you are not attracted to someone, do you enjoy hearing nice words from them?",
+  "tr": "Sen birisinden etkilenmesen bile ondan güzel sözler duymak hoşuna gider mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "006bf926-25fc-4c5b-8365-6331aef6dee1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would someone who loves receiving compliments from others a lot make you lose interest?",
+  "tr": "Başka insanlardan iltifat almayı çok seven birine karşı zamanla ilgini kaybeder misin?",
+  "category": "spicy"
+ },
+ {
+  "id": "4742a947-efca-4c20-8483-534782b0b716",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever flirted with more than 3 people at the same time?",
+  "tr": "Daha önce hiç 3’ten fazla insanla aynı anda flört ettiğin bir dönem oldu mu?",
+  "category": "spicy"
+ },
+ {
+  "id": "48fe3f70-8bf2-4a43-8707-76ded1078252",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever flirted with more than 5 people at the same time?",
+  "tr": "Daha önce hiç 5’ten fazla insanla aynı anda flört ettiğin bir dönem oldu mu?",
+  "category": "spicy"
+ },
+ {
+  "id": "e9d757e9-fcdd-4723-9c4e-8cf0eff346a0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you feel uncomfortable if your partner had very close friends of the opposite sex?",
+  "tr": "Sevgilinin karşı cinsten çok yakın arkadaşları olması seni rahatsız eder mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "9fc1e8c4-dd8e-47c7-9731-77ca700eee1d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you thought your partner smelled bad, would you tell them directly?",
+  "tr": "Partnerinin kötü koktuğunu düşünsen bunu ona açıkça söyler misin?",
+  "category": "spicy"
+ },
+ {
+  "id": "019db5dd-c8f5-40d7-91cd-c3f4edb948df",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you forgive your partner if they secretly kept a significant part of their past from you?",
+  "tr": "Partnerin geçmişinin önemli bir kısmını senden gizlice saklamış olsa, affeder miydin?",
+  "category": "spicy"
+ },
+ {
+  "id": "51970ba8-9c75-40dc-bf9c-fcede505cbda",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You have to choose: would you rather your partner have very bad future plans or a very bad past?",
+  "tr": "Birini seç: partnerinin kötü gelecek planlarına sahip olması mı, kötü geçmişe sahip olması mı?",
+  "answers_en": [
+   "Bad future plans",
+   "Bad past"
+  ],
+  "answers_tr": [
+   "Kötü gelecek planlarına sahip olması",
+   "Kötü geçmişe sahip olması"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "5abcaa80-63a9-4204-b167-5a4f55abd29f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you get upset if your partner refused to show you their messages with a friend of the opposite sex?",
+  "tr": "Sevgilin karşı cinsten bir arkadaşıyla olan mesajlarını sana okutmazsa ona sinirlenir misin?",
+  "category": "spicy"
+ },
+ {
+  "id": "57def58a-7cfe-490b-b082-c0f22852c699",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it okay for your partner to stay for a short time at a friend of the opposite sex's house?",
+  "tr": "Sevgilin karşı cinsten bir arkadaşının evinde kısa süreliğine yaşayabilir mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "a5d871c0-3719-4c5b-8aa5-3fd5059a5799",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Physical touch (hugging, contact) with your partner...",
+  "tr": "Partnerinle tensel temas (sarılma, temas)…",
+  "answers_en": [
+   "Should be constant",
+   "Only in special moments"
+  ],
+  "answers_tr": [
+   "Sürekli olmalı",
+   "Sadece özel anlarda"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "418e9305-6c34-4922-a24e-ed9ccb8e52ec",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Physical compatibility...",
+  "tr": "Fiziksel uyum…",
+  "answers_en": [
+   "Key point of the relationship",
+   "Love is more important"
+  ],
+  "answers_tr": [
+   "İlişkinin kilit noktası",
+   "Aşk daha önemlidir"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "e8657f35-f04b-4530-9287-ec692e0cc1d9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Low physical compatibility with your partner...",
+  "tr": "Partnerinle fiziksel uyumun düşük olması…",
+  "answers_en": [
+   "A big problem",
+   "Something solvable"
+  ],
+  "answers_tr": [
+   "Büyük sorun",
+   "Çözülebilir bir şey"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "7879657a-1d58-455c-8089-bf54ac04d303",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Attraction between you and your partner...",
+  "tr": "Partnerinle arandaki çekim…",
+  "answers_en": [
+   "Increases over time",
+   "Either exists or it doesn’t"
+  ],
+  "answers_tr": [
+   "Zamanla artar",
+   "Ya vardır ya yoktur"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "302534ec-32ed-44b8-8994-dfeabd4eaeb3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Keeping the spark alive in a relationship (continuing to flirt and charm each other)...",
+  "tr": "İlişkide flört etmek (birbirini baştan çıkarmaya devam etmek)…",
+  "answers_en": [
+   "Should be constant",
+   "Can decrease over time"
+  ],
+  "answers_tr": [
+   "Sürekli olmalı",
+   "Zamanla azalabilir"
+  ],
+  "category": "spicy"
+ }
+]

@@ -1,0 +1,1177 @@
+[
+ {
+  "id": "249c9d8c-a57c-45fb-8233-19701c9a3df3",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which of these iconic tech devices was released first?",
+  "tr": "Bu ikonik teknolojik cihazlardan hangisi daha önce piyasaya sürülmüştür?",
+  "answers_en": [
+   "Game Boy",
+   "Sony Walkman",
+   "Commodore 64",
+   "Macintosh 128K"
+  ],
+  "answers_tr": [
+   "Game Boy",
+   "Sony Walkman",
+   "Commodore 64",
+   "Macintosh 128K"
+  ],
+  "correct_answer": "Sony Walkman",
+  "category": "mastermind"
+ },
+ {
+  "id": "fbc24695-a39a-4f53-9717-f339a7bbd994",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country has the highest number of time zones, including its overseas territories?",
+  "tr": "Denizaşırı toprakları da dahil edildiğinde en çok saat dilimine sahip ülke hangisidir?",
+  "answers_en": [
+   "Russia",
+   "United States",
+   "France",
+   "China"
+  ],
+  "answers_tr": [
+   "Rusya",
+   "Amerika Birleşik Devletleri",
+   "Fransa",
+   "Çin"
+  ],
+  "correct_answer": "France",
+  "category": "mastermind"
+ },
+ {
+  "id": "ebce1854-6bc1-47e3-b71a-d595f7f0e3d9",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country's national flag is the only one in the world that features a modern firearm?",
+  "tr": "Hangi ülkenin ulusal bayrağı dünyada üzerinde modern bir ateşli silah bulunan tek bayraktır?",
+  "answers_en": [
+   "Mozambique",
+   "Angola",
+   "Guatemala",
+   "Haiti"
+  ],
+  "answers_tr": [
+   "Mozambik",
+   "Angola",
+   "Guatemala",
+   "Haiti"
+  ],
+  "correct_answer": "Mozambique",
+  "category": "mastermind"
+ },
+ {
+  "id": "b8b1f650-8af9-41b7-aa62-30d6ad15e5a7",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which of these well-known capitals was explicitly planned and built from scratch to serve as a national capital?",
+  "tr": "Bu tanınmış başkentlerden hangisi sırf ulusal başkent olması amacıyla sıfırdan planlanıp inşa edilmiştir?",
+  "answers_en": [
+   "Brasília",
+   "Ottawa",
+   "Reykjavík"
+  ],
+  "answers_tr": [
+   "Brasília",
+   "Ottawa",
+   "Reykjavík"
+  ],
+  "correct_answer": "Brasília",
+  "category": "mastermind"
+ },
+ {
+  "id": "216fe966-7360-468d-8a76-a6388e9f00fd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which painting holds the record for being the most expensive artwork ever sold at a public auction?",
+  "tr": "Hangi tablo, açık artırmada satılan en pahalı sanat eseri rekorunu elinde tutmaktadır?",
+  "answers_en": [
+   "Salvator Mundi",
+   "Interchange",
+   "Les Femmes d'Alger"
+  ],
+  "answers_tr": [
+   "Salvator Mundi",
+   "Interchange",
+   "Cezayirli Kadınlar"
+  ],
+  "correct_answer": "Salvator Mundi",
+  "category": "mastermind"
+ },
+ {
+  "id": "3384b472-139f-433d-975f-e1d81d3dd857",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which organ in the human body consumes roughly 20% of the total energy despite making up only about 2% of total body weight?",
+  "tr": "İnsan vücudundaki toplam ağırlığın yaklaşık %2'sini oluşturmasına rağmen toplam enerjinin yaklaşık %20'sini tüketen organ hangisidir?",
+  "answers_en": [
+   "Brain",
+   "Heart",
+   "Liver"
+  ],
+  "answers_tr": [
+   "Beyin",
+   "Kalp",
+   "Karaciğer"
+  ],
+  "correct_answer": "Brain",
+  "category": "mastermind"
+ },
+ {
+  "id": "79169b6e-6d47-46b6-b2e3-1c3403b8ad2b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which animal species is the only known creature capable of biological immortality under ideal conditions?",
+  "tr": "Hangi hayvan türü, ideal koşullar altında biyolojik ölümsüzlüğe ulaşabilen bilinen tek canlıdır?",
+  "answers_en": [
+   "Turritopsis dohrnii jellyfish",
+   "Tardigrade",
+   "Greenland Shark",
+   "Axolotl"
+  ],
+  "answers_tr": [
+   "Turritopsis dohrnii denizanası",
+   "Tardigrat (Su ayısı)",
+   "Grönland köpekbalığı",
+   "Aksolotl"
+  ],
+  "correct_answer": "Turritopsis dohrnii jellyfish",
+  "category": "mastermind"
+ },
+ {
+  "id": "d9266445-8fa1-4b7b-8f51-a95099e26f90",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country has a national anthem with no official lyrics at all?",
+  "tr": "Hangi ülkenin milli marşının resmi olarak hiç sözü yoktur?",
+  "answers_en": [
+   "Spain",
+   "Greece",
+   "Austria",
+   "Finland"
+  ],
+  "answers_tr": [
+   "İspanya",
+   "Yunanistan",
+   "Avusturya",
+   "Finlandiya"
+  ],
+  "correct_answer": "Spain",
+  "category": "mastermind"
+ },
+ {
+  "id": "216b9e84-7694-41e2-af5d-f6a321f39d9d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which naturally occurring substance on Earth never spoils or expires if stored properly?",
+  "tr": "Yeryüzünde uygun şekilde saklandığında asla bozulmayan veya son kullanma tarihi geçmeyen doğal madde hangisidir?",
+  "answers_en": [
+   "Honey",
+   "Olive oil",
+   "Maple syrup",
+   "Ghee"
+  ],
+  "answers_tr": [
+   "Bal",
+   "Zeytinyağı",
+   "Akçaağaç şurubu",
+   "Sade yağ"
+  ],
+  "correct_answer": "Honey",
+  "category": "mastermind"
+ },
+ {
+  "id": "2fa3792a-8bb2-4d12-9828-3caa4b924ede",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country has the longest official geographical coastlines in the entire world?",
+  "tr": "Tüm dünyada resmi olarak en uzun coğrafi kıyı şeridine sahip olan ülke hangisidir?",
+  "answers_en": [
+   "Canada",
+   "Indonesia",
+   "Russia",
+   "Australia"
+  ],
+  "answers_tr": [
+   "Kanada",
+   "Endonezya",
+   "Rusya",
+   "Avustralya"
+  ],
+  "correct_answer": "Canada",
+  "category": "mastermind"
+ },
+ {
+  "id": "33649e7c-3151-42fa-b231-2b75a0bb5bdd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which of these classic board games was originally designed as a critique of capitalism and unchecked monopolies?",
+  "tr": "Bu klasik masa oyunlarından hangisi aslında kapitalizmi ve denetimsiz tekelciliği eleştirmek amacıyla tasarlanmıştır?",
+  "answers_en": [
+   "Monopoly",
+   "Catan",
+   "Risk"
+  ],
+  "answers_tr": [
+   "Monopoly",
+   "Catan",
+   "Risk"
+  ],
+  "correct_answer": "Monopoly",
+  "category": "mastermind"
+ },
+ {
+  "id": "9ab5c474-fbb2-4c0a-806a-40a9d9cc8024",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country had a plain single-color national flag, with no symbols, stripes or designs, from 1977 to 2011?",
+  "tr": "1977-2011 arasında hiçbir sembol, çizgi veya desen olmayan tek renkli bir bayrak kullanan ülke hangisiydi?",
+  "answers_en": [
+   "Libya",
+   "Oman",
+   "Mauritania",
+   "Somalia"
+  ],
+  "answers_tr": [
+   "Libya",
+   "Oman",
+   "Moritanya",
+   "Somali"
+  ],
+  "correct_answer": "Libya",
+  "category": "mastermind"
+ },
+ {
+  "id": "613334ba-46f2-4057-8e33-69fb31894584",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which human organ is the only internal organ capable of naturally regenerating lost or damaged tissue back to its original size?",
+  "tr": "İnsan vücudundaki hangi iç organ, kaybolan veya hasar gören dokusunu doğal olarak orijinal boyutuna geri tamamlayabilen tek organdır?",
+  "answers_en": [
+   "Liver",
+   "Spleen",
+   "Pancreas",
+   "Kidney"
+  ],
+  "answers_tr": [
+   "Karaciğer",
+   "Dalak",
+   "Pankreas",
+   "Böbrek"
+  ],
+  "correct_answer": "Liver",
+  "category": "mastermind"
+ },
+ {
+  "id": "40918421-b186-4fc1-8671-93d38e453858",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which space agency was the first to successfully land a robotic probe on the surface of another planet?",
+  "tr": "Başka bir gezegenin yüzeyine başarılı bir şekilde robotik bir uzay aracı indiren ilk uzay ajansı hangisidir?",
+  "answers_en": [
+   "Soviet Space Program (USSR)",
+   "NASA (USA)",
+   "ESA (Europe)"
+  ],
+  "answers_tr": [
+   "Sovyet Uzay Programı (SSCB)",
+   "NASA (ABD)",
+   "ESA (Avrupa)"
+  ],
+  "correct_answer": "Soviet Space Program (USSR)",
+  "category": "mastermind"
+ },
+ {
+  "id": "3afba6ab-16e0-4ac5-b590-7ca44451914e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country contains the only capital city in the world that borders two different foreign nations?",
+  "tr": "Dünyada iki farklı yabancı ülkeyle sınırı olan tek başkente sahip ülke hangisidir?",
+  "answers_en": [
+   "Slovakia",
+   "Austria",
+   "Hungary",
+   "Switzerland"
+  ],
+  "answers_tr": [
+   "Slovakya",
+   "Avusturya",
+   "Macaristan",
+   "İsviçre"
+  ],
+  "correct_answer": "Slovakia",
+  "category": "mastermind"
+ },
+ {
+  "id": "ed8c8613-d924-4efa-87d6-5785029d9802",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which historic space mission was the first to take photographs of the far side of the Moon, never before seen by human eyes?",
+  "tr": "İnsan gözüyle daha önce hiç görülmemiş olan Ay'ın karanlık/arka yüzünün ilk fotoğraflarını çeken tarihi uzay görevi hangisidir?",
+  "answers_en": [
+   "Luna 3",
+   "Apollo 8",
+   "Sputnik 2",
+   "Voyager 1"
+  ],
+  "answers_tr": [
+   "Luna 3",
+   "Apollo 8",
+   "Sputnik 2",
+   "Voyager 1"
+  ],
+  "correct_answer": "Luna 3",
+  "category": "mastermind"
+ },
+ {
+  "id": "00b54485-8cba-4983-a77e-4008337756f8",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which animal was the first living organism to have its complete genome fully sequenced by scientists in 1998?",
+  "tr": "1998 yılında bilim insanları tarafından tüm genomu eksiksiz olarak dizilinen ilk çok hücreli canlı organizma hangisidir?",
+  "answers_en": [
+   "Caenorhabditis elegans (Nematode worm)",
+   "Drosophila melanogaster (Fruit fly)",
+   "Mus musculus (House mouse)"
+  ],
+  "answers_tr": [
+   "Caenorhabditis elegans (Nematod solucanı)",
+   "Drosophila melanogaster (Meyve sineği)",
+   "Mus musculus (Ev faresi)"
+  ],
+  "correct_answer": "Caenorhabditis elegans (Nematode worm)",
+  "category": "mastermind"
+ },
+ {
+  "id": "65a413b9-91a9-42d2-8a28-2ad753643f20",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which of these well-known sea bodies on Earth is actually an endorheic lake with no natural outlet to any ocean?",
+  "tr": "Dünyadaki bu tanınmış denizlerden hangisi aslında hiçbir okyanusa doğal çıkışı olmayan kapalı bir havza gölüdür?",
+  "answers_en": [
+   "Caspian Sea",
+   "Red Sea",
+   "Black Sea",
+   "Baltic Sea"
+  ],
+  "answers_tr": [
+   "Hazar Denizi",
+   "Kızıldeniz",
+   "Karadeniz",
+   "Baltık Denizi"
+  ],
+  "correct_answer": "Caspian Sea",
+  "category": "mastermind"
+ },
+ {
+  "id": "28337b33-f997-40cc-9a60-62fe1ce2afef",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which of these famous landmarks was originally constructed as a temporary structure intended to be dismantled after 20 years?",
+  "tr": "Bu ünlü yapılardan hangisi aslında 20 yıl sonra sökülmek üzere geçici bir yapı olarak inşa edilmiştir?",
+  "answers_en": [
+   "Eiffel Tower",
+   "Statue of Liberty",
+   "Big Ben",
+   "Golden Gate Bridge"
+  ],
+  "answers_tr": [
+   "Eyfel Kulesi",
+   "Özgürlük Heykeli",
+   "Big Ben",
+   "Golden Gate Köprüsü"
+  ],
+  "correct_answer": "Eiffel Tower",
+  "category": "mastermind"
+ },
+ {
+  "id": "cbec4c4a-b349-4cf9-9350-232bd2ce2084",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country contains the world's northernmost permanently inhabited settlement with a civilian population?",
+  "tr": "Sivil nüfusa sahip, dünyadaki en kuzeydeki kalıcı yerleşim yerini sınırlarında barındıran ülke hangisidir?",
+  "answers_en": [
+   "Norway",
+   "Canada",
+   "Greenland"
+  ],
+  "answers_tr": [
+   "Norveç",
+   "Kanada",
+   "Grönland"
+  ],
+  "correct_answer": "Norway",
+  "category": "mastermind"
+ },
+ {
+  "id": "4efb81b0-12ea-4ad6-8815-8460fff0dfec",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which famous scientist lost his sight in his later years, partly due to observing the Sun through a telescope?",
+  "tr": "Hangi ünlü bilim insanı, kısmen Güneş'i teleskopla gözlemlediği için yaşamının son yıllarında görme yetisini kaybetmiştir?",
+  "answers_en": [
+   "Galileo Galilei",
+   "Isaac Newton",
+   "Johannes Kepler",
+   "Nicolaus Copernicus"
+  ],
+  "answers_tr": [
+   "Galileo Galilei",
+   "Isaac Newton",
+   "Johannes Kepler",
+   "Nikolaus Kopernik"
+  ],
+  "correct_answer": "Galileo Galilei",
+  "category": "mastermind"
+ },
+ {
+  "id": "5b649245-27c2-441a-ac9c-d6cb4f55763a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which island is the only natural habitat where wild lemurs can be found in the world?",
+  "tr": "Dünyada yaban hayatındaki lemurların doğal olarak yaşadığı tek ada hangisidir?",
+  "answers_en": [
+   "Madagascar",
+   "Tasmania",
+   "Borneo",
+   "Sri Lanka"
+  ],
+  "answers_tr": [
+   "Madagaskar",
+   "Tazmanya",
+   "Borneo",
+   "Sri Lanka"
+  ],
+  "correct_answer": "Madagascar",
+  "category": "mastermind"
+ },
+ {
+  "id": "07d21811-0a44-4fe1-bc87-4653d33e744d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which element is the most abundant gas in Earth's atmosphere, making up about 78% of the air we breathe?",
+  "tr": "Soluduğumuz havanın yaklaşık %78'ini oluşturan, Dünya atmosferinde en bol bulunan gaz hangisidir?",
+  "answers_en": [
+   "Nitrogen",
+   "Oxygen",
+   "Carbon Dioxide"
+  ],
+  "answers_tr": [
+   "Azot (Nitrojen)",
+   "Oksijen",
+   "Karbondioksit"
+  ],
+  "correct_answer": "Nitrogen",
+  "category": "mastermind"
+ },
+ {
+  "id": "306a0b2b-4cd9-4cb2-874b-b09bbe3c20c1",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which organ in the human body is responsible for producing insulin to regulate blood sugar levels?",
+  "tr": "İnsan vücudunda kan şekerini düzenleyen insülin hormonunu üretmekten sorumlu organ hangisidir?",
+  "answers_en": [
+   "Pancreas",
+   "Liver",
+   "Thyroid",
+   "Kidney"
+  ],
+  "answers_tr": [
+   "Pankreas",
+   "Karaciğer",
+   "Tiroit",
+   "Böbrek"
+  ],
+  "correct_answer": "Pancreas",
+  "category": "mastermind"
+ },
+ {
+  "id": "4b072b2c-27e3-4f5d-8e61-6073892c3edc",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which ocean is the smallest and shallowest among the world's five major oceans?",
+  "tr": "Dünyanın beş büyük okyanusu arasında en küçük ve en sığ olanı hangisidir?",
+  "answers_en": [
+   "Arctic Ocean",
+   "Indian Ocean",
+   "Southern Ocean"
+  ],
+  "answers_tr": [
+   "Arktik Okyanusu (Kuzey Buz Denizi)",
+   "Hint Okyanusu",
+   "Güney Okyanusu"
+  ],
+  "correct_answer": "Arctic Ocean",
+  "category": "mastermind"
+ },
+ {
+  "id": "5eba4cd4-3e28-4755-b946-b1162f9e1f52",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country contains the highest number of natural lakes in the world, far more than all other countries combined?",
+  "tr": "Dünyadaki en çok doğal göle sahip olan ve diğer tüm ülkelerin toplamından daha fazla göle ev sahipliği yapan ülke hangisidir?",
+  "answers_en": [
+   "Canada",
+   "Finland",
+   "Sweden",
+   "Russia"
+  ],
+  "answers_tr": [
+   "Kanada",
+   "Finlandiya",
+   "İsveç",
+   "Rusya"
+  ],
+  "correct_answer": "Canada",
+  "category": "mastermind"
+ },
+ {
+  "id": "d2e91574-e563-4b4d-bca7-5089e2c95a3d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which internal organ in the human body consumes the most oxygen at rest per gram of tissue?",
+  "tr": "İnsan vücudundaki hangi iç organ, dinlenme halindeyken gram başına en fazla oksijeni tüketir?",
+  "answers_en": [
+   "Kidneys",
+   "Brain",
+   "Heart"
+  ],
+  "answers_tr": [
+   "Böbrekler",
+   "Beyin",
+   "Kalp"
+  ],
+  "correct_answer": "Heart",
+  "category": "mastermind"
+ },
+ {
+  "id": "cfe101aa-6323-4701-9f6b-c0c1b78bcd31",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which chemical element has the symbol 'Fe' on the periodic table?",
+  "tr": "Periyodik tabloda 'Fe' simgesiyle gösterilen kimyasal element hangisidir?",
+  "answers_en": [
+   "Iron",
+   "Fluorine",
+   "Francium",
+   "Lead"
+  ],
+  "answers_tr": [
+   "Demir",
+   "Flor",
+   "Fransiyum",
+   "Kurşun"
+  ],
+  "correct_answer": "Iron",
+  "category": "mastermind"
+ },
+ {
+  "id": "f82eeb1d-6bc5-4620-9662-4b6db7d03f85",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country has the largest total population in the world?",
+  "tr": "Dünyanın en fazla toplam nüfusuna sahip olan ülke hangisidir?",
+  "answers_en": [
+   "India",
+   "China",
+   "United States"
+  ],
+  "answers_tr": [
+   "Hindistan",
+   "Çin",
+   "Amerika Birleşik Devletleri"
+  ],
+  "correct_answer": "India",
+  "category": "mastermind"
+ },
+ {
+  "id": "aefe5538-8b82-4150-946e-1e448c7294dd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which city was the Titanic built?",
+  "tr": "Titanik hangi şehirde inşa edildi?",
+  "answers_en": [
+   "Southampton",
+   "Liverpool",
+   "Belfast",
+   "Glasgow"
+  ],
+  "answers_tr": [
+   "Southampton",
+   "Liverpool",
+   "Belfast",
+   "Glasgow"
+  ],
+  "correct_answer": "Belfast",
+  "category": "mastermind"
+ },
+ {
+  "id": "f24855c8-5dff-43bf-8f9a-b43c20369617",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which language has the most native speakers in the world?",
+  "tr": "Dünyada en çok kişinin ana dili olan dil hangisi?",
+  "answers_en": [
+   "English",
+   "Spanish",
+   "Mandarin Chinese",
+   "Hindi"
+  ],
+  "answers_tr": [
+   "İngilizce",
+   "İspanyolca",
+   "Mandarin Çincesi",
+   "Hintçe"
+  ],
+  "correct_answer": "Mandarin Chinese",
+  "category": "mastermind"
+ },
+ {
+  "id": "074003da-986a-4f39-b69d-edf24fa0e6bd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which famous composer kept writing music even after losing his hearing?",
+  "tr": "Hangi ünlü besteci işitme yetisini kaybettikten sonra da beste yapmaya devam etti?",
+  "answers_en": [
+   "Mozart",
+   "Bach",
+   "Beethoven",
+   "Chopin"
+  ],
+  "answers_tr": [
+   "Mozart",
+   "Bach",
+   "Beethoven",
+   "Chopin"
+  ],
+  "correct_answer": "Beethoven",
+  "category": "mastermind"
+ },
+ {
+  "id": "445bc232-d72c-441e-8870-db27d398660c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the longest river in Europe?",
+  "tr": "Avrupa'nın en uzun nehri hangisi?",
+  "answers_en": [
+   "Danube",
+   "Rhine",
+   "Volga",
+   "Dnieper"
+  ],
+  "answers_tr": [
+   "Tuna",
+   "Ren",
+   "Volga",
+   "Dinyeper"
+  ],
+  "correct_answer": "Volga",
+  "category": "mastermind"
+ },
+ {
+  "id": "50e6fa72-58b1-4e43-9ff3-19a6b061b079",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country has the most ancient pyramids in the world?",
+  "tr": "Dünyada en çok antik piramide sahip ülke hangisi?",
+  "answers_en": [
+   "Egypt",
+   "Mexico",
+   "Sudan",
+   "Peru"
+  ],
+  "answers_tr": [
+   "Mısır",
+   "Meksika",
+   "Sudan",
+   "Peru"
+  ],
+  "correct_answer": "Sudan",
+  "category": "mastermind"
+ },
+ {
+  "id": "764b8baf-3e52-4147-805a-5b2db69e761e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which ancient Roman city was buried by the eruption of Mount Vesuvius in 79 AD?",
+  "tr": "MS 79'da Vezüv Yanardağı'nın patlamasıyla küller altında kalan antik Roma şehri hangisi?",
+  "answers_en": [
+   "Troy",
+   "Carthage",
+   "Pompeii",
+   "Ephesus"
+  ],
+  "answers_tr": [
+   "Truva",
+   "Kartaca",
+   "Pompeii",
+   "Efes"
+  ],
+  "correct_answer": "Pompeii",
+  "category": "mastermind"
+ },
+ {
+  "id": "46a1bf16-1ff6-4b35-9344-067efca85bf8",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "The zloty is the currency of which country?",
+  "tr": "Zloti hangi ülkenin para birimidir?",
+  "answers_en": [
+   "Czech Republic",
+   "Hungary",
+   "Poland",
+   "Romania"
+  ],
+  "answers_tr": [
+   "Çekya",
+   "Macaristan",
+   "Polonya",
+   "Romanya"
+  ],
+  "correct_answer": "Poland",
+  "category": "mastermind"
+ },
+ {
+  "id": "48c26cda-20cb-499c-a406-b596bdf0fcfe",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which country is the famous temple complex Angkor Wat?",
+  "tr": "Ünlü tapınak kompleksi Angkor Wat hangi ülkede?",
+  "answers_en": [
+   "Thailand",
+   "Vietnam",
+   "Cambodia",
+   "Laos"
+  ],
+  "answers_tr": [
+   "Tayland",
+   "Vietnam",
+   "Kamboçya",
+   "Laos"
+  ],
+  "correct_answer": "Cambodia",
+  "category": "mastermind"
+ },
+ {
+  "id": "15e2a3be-9cf7-44c7-82c2-73a20cf4e32e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country was known as Persia until 1935?",
+  "tr": "1935'e kadar Pers ülkesi olarak bilinen ülke hangisi?",
+  "answers_en": [
+   "Iraq",
+   "Iran",
+   "Afghanistan",
+   "Syria"
+  ],
+  "answers_tr": [
+   "Irak",
+   "İran",
+   "Afganistan",
+   "Suriye"
+  ],
+  "correct_answer": "Iran",
+  "category": "mastermind"
+ },
+ {
+  "id": "038f3d47-7343-4fe0-9233-1e1ebe34924c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which is the driest continent on Earth?",
+  "tr": "Dünyanın en kurak kıtası hangisi?",
+  "answers_en": [
+   "Africa",
+   "Australia",
+   "Antarctica",
+   "Asia"
+  ],
+  "answers_tr": [
+   "Afrika",
+   "Avustralya",
+   "Antarktika",
+   "Asya"
+  ],
+  "correct_answer": "Antarctica",
+  "category": "mastermind"
+ },
+ {
+  "id": "25b14b4f-e324-469f-95f9-97764d1e5aba",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which famous painter cut off part of his own ear?",
+  "tr": "Hangi ünlü ressam kendi kulağının bir kısmını kesti?",
+  "answers_en": [
+   "Pablo Picasso",
+   "Salvador Dalí",
+   "Vincent van Gogh",
+   "Claude Monet"
+  ],
+  "answers_tr": [
+   "Pablo Picasso",
+   "Salvador Dalí",
+   "Vincent van Gogh",
+   "Claude Monet"
+  ],
+  "correct_answer": "Vincent van Gogh",
+  "category": "mastermind"
+ },
+ {
+  "id": "ad97147d-91f6-4461-950a-037d2e2ba3e5",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which civilization built Machu Picchu?",
+  "tr": "Machu Picchu'yu hangi uygarlık inşa etti?",
+  "answers_en": [
+   "Maya",
+   "Aztec",
+   "Inca",
+   "Olmec"
+  ],
+  "answers_tr": [
+   "Maya",
+   "Aztek",
+   "İnka",
+   "Olmek"
+  ],
+  "correct_answer": "Inca",
+  "category": "mastermind"
+ },
+ {
+  "id": "9eddd7ce-3b44-4ff8-bd55-f8722f54735a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who developed the first successful polio vaccine?",
+  "tr": "İlk başarılı çocuk felci aşısını kim geliştirdi?",
+  "answers_en": [
+   "Louis Pasteur",
+   "Alexander Fleming",
+   "Jonas Salk",
+   "Edward Jenner"
+  ],
+  "answers_tr": [
+   "Louis Pasteur",
+   "Alexander Fleming",
+   "Jonas Salk",
+   "Edward Jenner"
+  ],
+  "correct_answer": "Jonas Salk",
+  "category": "mastermind"
+ },
+ {
+  "id": "16f5a75d-b234-4cf5-b764-42f88f585fb4",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which year did the Berlin Wall fall?",
+  "tr": "Berlin Duvarı hangi yıl yıkıldı?",
+  "answers_en": [
+   "1985",
+   "1989",
+   "1991",
+   "1993"
+  ],
+  "answers_tr": [
+   "1985",
+   "1989",
+   "1991",
+   "1993"
+  ],
+  "correct_answer": "1989",
+  "category": "mastermind"
+ },
+ {
+  "id": "09b32070-8382-46c5-acab-7febba8d1ec8",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which planet is famous for its \"Great Red Spot,\" a giant storm?",
+  "tr": "Dev bir fırtına olan \"Büyük Kırmızı Leke\" ile ünlü gezegen hangisi?",
+  "answers_en": [
+   "Mars",
+   "Saturn",
+   "Jupiter",
+   "Neptune"
+  ],
+  "answers_tr": [
+   "Mars",
+   "Satürn",
+   "Jüpiter",
+   "Neptün"
+  ],
+  "correct_answer": "Jupiter",
+  "category": "mastermind"
+ },
+ {
+  "id": "47c54123-8d9b-4b45-a060-a7d644f27b4b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who wrote the novel \"One Hundred Years of Solitude\"?",
+  "tr": "\"Yüzyıllık Yalnızlık\" romanını kim yazdı?",
+  "answers_en": [
+   "Jorge Luis Borges",
+   "Pablo Neruda",
+   "Gabriel García Márquez",
+   "Mario Vargas Llosa"
+  ],
+  "answers_tr": [
+   "Jorge Luis Borges",
+   "Pablo Neruda",
+   "Gabriel García Márquez",
+   "Mario Vargas Llosa"
+  ],
+  "correct_answer": "Gabriel García Márquez",
+  "category": "mastermind"
+ },
+ {
+  "id": "fa255715-8112-4dbe-9570-2771aa214284",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the longest bone in the human body?",
+  "tr": "İnsan vücudundaki en uzun kemik hangisi?",
+  "answers_en": [
+   "Tibia",
+   "Femur",
+   "Humerus",
+   "Spine"
+  ],
+  "answers_tr": [
+   "Kaval kemiği",
+   "Uyluk kemiği",
+   "Pazu kemiği",
+   "Omurga"
+  ],
+  "correct_answer": "Femur",
+  "category": "mastermind"
+ },
+ {
+  "id": "a411e5d4-9ce4-400d-bc15-c163ec9ebb03",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the largest country in Africa by area?",
+  "tr": "Yüzölçümü bakımından Afrika'nın en büyük ülkesi hangisi?",
+  "answers_en": [
+   "Sudan",
+   "DR Congo",
+   "Algeria",
+   "Egypt"
+  ],
+  "answers_tr": [
+   "Sudan",
+   "Kongo DC",
+   "Cezayir",
+   "Mısır"
+  ],
+  "correct_answer": "Algeria",
+  "category": "mastermind"
+ },
+ {
+  "id": "78ee5f59-8c97-41fa-a626-e8591b8f855d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "IKEA was founded in which country?",
+  "tr": "IKEA hangi ülkede kuruldu?",
+  "answers_en": [
+   "Denmark",
+   "Norway",
+   "Sweden",
+   "Finland"
+  ],
+  "answers_tr": [
+   "Danimarka",
+   "Norveç",
+   "İsveç",
+   "Finlandiya"
+  ],
+  "correct_answer": "Sweden",
+  "category": "mastermind"
+ },
+ {
+  "id": "a5474f1a-12e0-4f8f-ba4e-36c55526f4d5",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which car brand's logo is made of four interlocking rings?",
+  "tr": "Logosu iç içe geçmiş dört halkadan oluşan otomobil markası hangisi?",
+  "answers_en": [
+   "BMW",
+   "Audi",
+   "Volkswagen",
+   "Mercedes-Benz"
+  ],
+  "answers_tr": [
+   "BMW",
+   "Audi",
+   "Volkswagen",
+   "Mercedes-Benz"
+  ],
+  "correct_answer": "Audi",
+  "category": "mastermind"
+ },
+ {
+  "id": "316853c7-fe4d-406a-837f-9be36e71791e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Samsung is a company from which country?",
+  "tr": "Samsung hangi ülkenin şirketidir?",
+  "answers_en": [
+   "Japan",
+   "China",
+   "South Korea",
+   "Taiwan"
+  ],
+  "answers_tr": [
+   "Japonya",
+   "Çin",
+   "Güney Kore",
+   "Tayvan"
+  ],
+  "correct_answer": "South Korea",
+  "category": "mastermind"
+ },
+ {
+  "id": "f6443fb2-9cf5-4361-82ab-69ae23034358",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What color is an airplane's \"black box\" flight recorder actually?",
+  "tr": "Uçaklardaki \"kara kutu\" aslında ne renktir?",
+  "answers_en": [
+   "Black",
+   "Orange",
+   "Red",
+   "Silver"
+  ],
+  "answers_tr": [
+   "Siyah",
+   "Turuncu",
+   "Kırmızı",
+   "Gümüş"
+  ],
+  "correct_answer": "Orange",
+  "category": "mastermind"
+ },
+ {
+  "id": "a751f437-62dc-4e3e-8f21-bc7adcf9a725",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many squares are there on a chessboard?",
+  "tr": "Bir satranç tahtasında kaç kare vardır?",
+  "answers_en": [
+   "48",
+   "64",
+   "81",
+   "100"
+  ],
+  "answers_tr": [
+   "48",
+   "64",
+   "81",
+   "100"
+  ],
+  "correct_answer": "64",
+  "category": "mastermind"
+ },
+ {
+  "id": "3c7ac84e-460a-420b-bc49-e161bbdfb680",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Nokia, the famous phone brand, comes from which country?",
+  "tr": "Ünlü telefon markası Nokia hangi ülkenin markasıdır?",
+  "answers_en": [
+   "Sweden",
+   "Finland",
+   "Japan",
+   "Germany"
+  ],
+  "answers_tr": [
+   "İsveç",
+   "Finlandiya",
+   "Japonya",
+   "Almanya"
+  ],
+  "correct_answer": "Finland",
+  "category": "mastermind"
+ },
+ {
+  "id": "ce67c01c-6fac-4cc1-83b4-97c6f79d35c3",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "On a standard die, what do the numbers on opposite sides always add up to?",
+  "tr": "Standart bir zarda karşılıklı yüzlerdeki sayıların toplamı her zaman kaçtır?",
+  "answers_en": [
+   "6",
+   "7",
+   "8",
+   "12"
+  ],
+  "answers_tr": [
+   "6",
+   "7",
+   "8",
+   "12"
+  ],
+  "correct_answer": "7",
+  "category": "mastermind"
+ },
+ {
+  "id": "23122005-b25f-4c6e-be69-ccd34cfb98bd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many hours are there in a week?",
+  "tr": "Bir haftada kaç saat vardır?",
+  "answers_en": [
+   "148",
+   "158",
+   "168",
+   "178"
+  ],
+  "answers_tr": [
+   "148",
+   "158",
+   "168",
+   "178"
+  ],
+  "correct_answer": "168",
+  "category": "mastermind"
+ },
+ {
+  "id": "f131e63e-96c1-440a-b031-5c318d8bc323",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Nutella was created in which country?",
+  "tr": "Nutella hangi ülkede icat edildi?",
+  "answers_en": [
+   "France",
+   "Switzerland",
+   "Belgium",
+   "Italy"
+  ],
+  "answers_tr": [
+   "Fransa",
+   "İsviçre",
+   "Belçika",
+   "İtalya"
+  ],
+  "correct_answer": "Italy",
+  "category": "mastermind"
+ },
+ {
+  "id": "5213fdb8-17ca-4e41-a7c3-2e29888dc910",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many cards are in a standard deck, not counting jokers?",
+  "tr": "Jokerler hariç standart bir iskambil destesinde kaç kart vardır?",
+  "answers_en": [
+   "48",
+   "52",
+   "54",
+   "56"
+  ],
+  "answers_tr": [
+   "48",
+   "52",
+   "54",
+   "56"
+  ],
+  "correct_answer": "52",
+  "category": "mastermind"
+ }
+]

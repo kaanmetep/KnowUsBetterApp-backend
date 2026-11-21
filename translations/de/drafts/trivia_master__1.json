@@ -1,0 +1,830 @@
+{
+  "980115c5-d5c7-49e5-a782-cc1175a6518b": {
+    "text": "Welches Organ im menschlichen Körper verbraucht den größten Anteil unserer Energie?",
+    "answers": [
+      "Gehirn",
+      "Herz",
+      "Leber",
+      "Nieren"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a1a237a1-628a-4008-9ba2-36d59a0e6171": {
+    "text": "Welche Grundfarben mischt man beim Malen zu Grün?",
+    "answers": [
+      "Blau und Gelb",
+      "Rot und Blau",
+      "Gelb und Rot"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c1cb1e49-a9cc-43e1-b6da-34f4da305a37": {
+    "text": "Welches Bauelement nutzten die alten Römer gezielt, um riesige Kuppeln zu tragen?",
+    "answers": [
+      "Der Bogen",
+      "Die Säule",
+      "Die Pyramide"
+    ],
+    "accepted": [],
+    "flagged": true,
+    "note": "Source says Romans 'invented' the arch, which is historically inaccurate (arches predate Rome). Softened to 'used specifically'; please review the source fact."
+  },
+  "e9339914-1d7d-423a-9a28-2519995eb9e6": {
+    "text": "Welcher Planet unseres Sonnensystems dreht sich andersherum als die meisten anderen?",
+    "answers": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "52c90157-fc1f-4878-9f00-91c318581ade": {
+    "text": "Welches Wirbeltier hält den Rekord für die längste Lebensdauer?",
+    "answers": [
+      "Grönlandhai",
+      "Galapagos-Riesenschildkröte",
+      "Grönlandwal"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c3b7010c-35ea-402f-a186-4035fa9be837": {
+    "text": "Welche Frucht ist botanisch gesehen eine Beere, auch wenn das kaum jemand glaubt?",
+    "answers": [
+      "Banane",
+      "Erdbeere",
+      "Himbeere"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0e882595-4846-4d01-a879-ccb1be0cdc0a": {
+    "text": "In welchem Land steht der berühmte Eiffelturm?",
+    "answers": [
+      "Frankreich",
+      "Italien",
+      "Spanien",
+      "Deutschland"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5f20efa2-53ef-4bc7-b7de-966c2a271457": {
+    "text": "Welcher Planet unseres Sonnensystems wird „der Rote Planet“ genannt?",
+    "answers": [
+      "Mars",
+      "Jupiter",
+      "Venus"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4d359908-e7a2-4ef5-bde1-d9fc49ee3218": {
+    "text": "Welches Landsäugetier ist dafür bekannt, dass es nicht springen kann?",
+    "answers": [
+      "Elefant",
+      "Giraffe",
+      "Nilpferd",
+      "Nashorn"
+    ],
+    "accepted": [],
+    "flagged": true,
+    "note": "Hippos and adult rhinos also can't really jump, so 'Elephant' as the only answer is debatable; same issue as in the source."
+  },
+  "a98b74cf-707a-4d84-a017-ea98f2d69e68": {
+    "text": "Wie viele Ecken hat ein Stoppschild?",
+    "answers": [
+      "8",
+      "6",
+      "10"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1002c05b-034b-4dd1-a1fb-adf942e36c58": {
+    "text": "Welche Farbe entsteht, wenn man Blau und Gelb mischt?",
+    "answers": [
+      "Grün",
+      "Lila",
+      "Orange"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4563d6d4-5301-4f89-811a-045b66157aa2": {
+    "text": "Welches Erfrischungsgetränk wurde ursprünglich als Mittel gegen Husten und Kopfschmerzen erfunden?",
+    "answers": [
+      "Coca-Cola",
+      "Sprite",
+      "Fanta",
+      "Pepsi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "83fbd060-6ae4-4fc1-9ebe-4b0e7a2e0c15": {
+    "text": "Welches Organ pumpt das Blut durch unseren Kreislauf?",
+    "answers": [
+      "Herz",
+      "Lunge",
+      "Nieren"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a79f90ff-8ce5-493b-8b50-2ef10c1f9c26": {
+    "text": "Wie viele Kontinente gibt es auf der Erde?",
+    "answers": [
+      "7",
+      "5",
+      "6",
+      "8"
+    ],
+    "accepted": [],
+    "flagged": true,
+    "note": "Continent count depends on the model taught; 7 is common in German schools, but 5 or 6 are also taught in parts of Europe."
+  },
+  "b6c425a9-162f-4107-919c-20eea21afc7a": {
+    "text": "Wie heißt die gedachte Linie, die die Erde in Nord- und Südhalbkugel teilt?",
+    "answers": [
+      "Äquator",
+      "Nullmeridian",
+      "Wendekreis des Krebses"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6d38ce25-2cda-440e-b549-81e7ac23cec6": {
+    "text": "Welches Land hat den USA die Freiheitsstatue geschenkt?",
+    "answers": [
+      "Frankreich",
+      "Großbritannien",
+      "Spanien"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "71f547f0-2910-4a59-b084-5a1da579b6fd": {
+    "text": "Welches ist das größte lebende Säugetier der Erde?",
+    "answers": [
+      "Blauwal",
+      "Afrikanischer Elefant",
+      "Giraffe"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "eb10929a-ee75-431c-8b54-1c62a3954c40": {
+    "text": "Welche Schachfigur darf beliebig weit in jede Richtung ziehen?",
+    "answers": [
+      "Dame",
+      "Turm",
+      "Springer"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d322c35e-b645-48fb-a14c-cb92c5fd3a2d": {
+    "text": "Welches Metall ist bei Zimmertemperatur flüssig?",
+    "answers": [
+      "Quecksilber",
+      "Gold",
+      "Silber"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cb7fac86-596c-459d-a42f-b6ba0d8fc977": {
+    "text": "Welchem Land verdankt die Welt Pizza und Pasta?",
+    "answers": [
+      "Italien",
+      "Griechenland",
+      "Spanien"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5aabe2cc-9cc4-458a-835e-7b996e00fc3f": {
+    "text": "Welches Meerestier hat acht Arme und drei Herzen?",
+    "answers": [
+      "Oktopus",
+      "Qualle",
+      "Delfin"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6a8c5efa-0b23-4be2-9388-f2160e79d450": {
+    "text": "Was ist das chemische Symbol für Gold im Periodensystem?",
+    "answers": [],
+    "accepted": [
+      "Au",
+      "au",
+      "AU"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "b96c042c-87f1-4b1d-9bf1-420704c1751d": {
+    "text": "Welches Pigment gibt Haut, Haaren und Augen ihre Farbe?",
+    "answers": [],
+    "accepted": [
+      "Melanin",
+      "melanin",
+      "Melanine"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "1508ac33-05f6-4377-b707-44fedf4e71dd": {
+    "text": "Wie heißt die äußere Schutzschicht unserer Zähne?",
+    "answers": [],
+    "accepted": [
+      "Zahnschmelz",
+      "Schmelz",
+      "zahnschmelz",
+      "schmelz",
+      "Enamel"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "b67421f6-8ac4-4d1a-80be-6e67cd22a44a": {
+    "text": "Durch welchen Prozess machen grüne Pflanzen aus Sonnenlicht Nahrung?",
+    "answers": [],
+    "accepted": [
+      "Photosynthese",
+      "Fotosynthese",
+      "photosynthese",
+      "fotosynthese"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "ff20387b-ecc5-4100-8a3e-4a10c409f056": {
+    "text": "Wie heißt der natürliche Satellit der Erde?",
+    "answers": [],
+    "accepted": [
+      "Mond",
+      "Der Mond",
+      "mond",
+      "der mond",
+      "Erdmond"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "6aaa16e5-4afb-4d6a-ae8c-cd19dbcc710e": {
+    "text": "Welches natürliche Mineral ist auf der Mohs-Skala das härteste?",
+    "answers": [],
+    "accepted": [
+      "Diamant",
+      "diamant",
+      "Diamanten"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "084018a1-dd49-4965-aebd-934b0318c6a6": {
+    "text": "Welches Landtier ist auf kurzen Strecken das schnellste der Welt?",
+    "answers": [],
+    "accepted": [
+      "Gepard",
+      "gepard",
+      "Der Gepard",
+      "Geparden",
+      "Cheetah"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "2dce8722-4a23-4666-86b4-656be891094b": {
+    "text": "Wer stellte die drei Bewegungsgesetze auf, auf denen die klassische Mechanik beruht?",
+    "answers": [
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Albert Einstein",
+      "Nikola Tesla"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8a9f4fe4-c5b9-409a-be56-e499c4c63f03": {
+    "text": "Welche antike Kultur gilt als Erfinderin der Keilschrift, einer der ältesten Schriften der Menschheit?",
+    "answers": [
+      "Sumerer",
+      "Alte Ägypter",
+      "Maya",
+      "Indus-Kultur"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6b0624f0-17cf-4745-9229-15a908f2a283": {
+    "text": "Welche Stadt hat den Spitznamen „The Big Apple“?",
+    "answers": [],
+    "accepted": [
+      "New York",
+      "New York City",
+      "NYC",
+      "NY",
+      "Newyork",
+      "Manhattan"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "b5a1d6a7-2975-45c3-9da2-527a6839b14b": {
+    "text": "Welche berühmte Stadt liegt auf zwei Kontinenten, in Europa und Asien?",
+    "answers": [],
+    "accepted": [
+      "Istanbul",
+      "İstanbul",
+      "Konstantinopel",
+      "Byzanz",
+      "Stambul",
+      "Ist"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "3b45c9ca-6907-4477-b5ea-8bfc62790c60": {
+    "text": "Welche Stadt ist für ihre Kanäle und Gondeln berühmt?",
+    "answers": [],
+    "accepted": [
+      "Venedig",
+      "venedig",
+      "Venezia",
+      "Venice",
+      "Venedik"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "23c98892-b152-43da-b6a0-82128ebef70a": {
+    "text": "Hollywood ist ein Stadtteil welcher Stadt?",
+    "answers": [],
+    "accepted": [
+      "Los Angeles",
+      "LA",
+      "L.A.",
+      "Losangeles",
+      "Los Ángeles",
+      "Stadt der Engel"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "1d666e97-1005-4ff3-81d3-e770e64be6ec": {
+    "text": "In welcher Stadt steht der Eiffelturm?",
+    "answers": [],
+    "accepted": [
+      "Paris",
+      "paris",
+      "Pari",
+      "Stadt der Liebe",
+      "Stadt der Lichter"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "1b8bf486-da98-42aa-a150-48e2a7258023": {
+    "text": "In welcher italienischen Stadt steht der berühmte Schiefe Turm?",
+    "answers": [],
+    "accepted": [
+      "Pisa",
+      "pisa",
+      "Piza"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "f6b38b97-7a9e-42e4-9197-e65bb05144fe": {
+    "text": "Das Brandenburger Tor ist das Wahrzeichen welcher Stadt?",
+    "answers": [],
+    "accepted": [
+      "Berlin",
+      "berlin",
+      "Berlin Deutschland",
+      "Berlin, Deutschland",
+      "BER"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "d58f0d3d-5ae0-4d57-9c67-31b512ad9ec9": {
+    "text": "Welches ist das größte Tier, das je auf der Erde gelebt hat?",
+    "answers": [],
+    "accepted": [
+      "Blauwal",
+      "Blauwale",
+      "Blau-Wal",
+      "Blauer Wal",
+      "Balaenoptera musculus",
+      "Blue whale"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "bac52e71-1145-40f6-995a-c19cdb34796f": {
+    "text": "Welche Pflanze frisst ein Großer Panda fast ausschließlich?",
+    "answers": [],
+    "accepted": [
+      "Bambus",
+      "bambus",
+      "Bambussprossen",
+      "Bambusblätter",
+      "Bamboo",
+      "Bambu"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "0ab4f29e-ab23-48bd-9b43-ac381b2402b6": {
+    "text": "Wie viele Beine hat eine Spinne?",
+    "answers": [],
+    "accepted": [
+      "8",
+      "Acht",
+      "acht",
+      "8 Beine",
+      "Acht Beine",
+      "4 Paar"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "a10b4878-ff6f-48e9-9efa-b5ca90f7787e": {
+    "text": "Welches pferdeähnliche Tier aus Afrika ist für seine schwarz-weißen Streifen berühmt?",
+    "answers": [],
+    "accepted": [
+      "Zebra",
+      "zebra",
+      "Zebras",
+      "Zebbra",
+      "Cebra"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "b6e68e10-746b-4a94-9206-99458a27c2f8": {
+    "text": "Welcher Vogel legt die größten Eier der Welt?",
+    "answers": [],
+    "accepted": [
+      "Strauß",
+      "Strauss",
+      "Vogel Strauß",
+      "Afrikanischer Strauß",
+      "Straußenvogel",
+      "Ostrich"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "70cd3353-de0e-4861-a3a2-4d30de21df32": {
+    "text": "Welcher weiße Vogel ist weltweit ein Symbol für Frieden?",
+    "answers": [],
+    "accepted": [
+      "Taube",
+      "Friedenstaube",
+      "Weiße Taube",
+      "Tauben",
+      "taube",
+      "Dove"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "1ce201ba-eaae-4e68-9728-8b1eda0a8ca5": {
+    "text": "Welches Meerestier hat acht Arme und kann Tinte verspritzen?",
+    "answers": [],
+    "accepted": [
+      "Oktopus",
+      "Krake",
+      "Octopus",
+      "Kraken",
+      "Tintenfisch",
+      "Oktopusse"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "78899d32-d997-4e60-b9a5-c635406a0d3a": {
+    "text": "Aus welchem Land kommt Sushi ursprünglich?",
+    "answers": [],
+    "accepted": [
+      "Japan",
+      "japan",
+      "Nippon",
+      "Nihon",
+      "Japanisch",
+      "Japn"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "e3224e00-4e9d-4756-b4b7-34c7b3a1d378": {
+    "text": "Was ist die Hauptzutat von Guacamole?",
+    "answers": [],
+    "accepted": [
+      "Avocado",
+      "Avocados",
+      "Avokado",
+      "Avacado",
+      "avocado",
+      "Aguacate"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "b8c37ace-a5e4-48f1-8f35-dfe55af4f856": {
+    "text": "Tomate, Mozzarella und Basilikum auf der Pizza Margherita zeigen die Farben welcher Landesflagge?",
+    "answers": [],
+    "accepted": [
+      "Italien",
+      "italien",
+      "Italia",
+      "Italy",
+      "Italienisch",
+      "Itlaien"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "64af17d4-a459-43d3-8605-b2bb6c19f828": {
+    "text": "Aus welchem Land kommt das berühmte Reisgericht Paella?",
+    "answers": [],
+    "accepted": [
+      "Spanien",
+      "spanien",
+      "España",
+      "Espana",
+      "Spain",
+      "Valencia"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "b7003871-d60e-401b-9b08-41e7e2e5526e": {
+    "text": "Für welches Land ist das lange, knusprige Baguette ein Symbol?",
+    "answers": [],
+    "accepted": [
+      "Frankreich",
+      "frankreich",
+      "Französisch",
+      "France",
+      "Frankreisch",
+      "Paris"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "f621bf3d-8230-483c-9cb0-c0a50a2d71c2": {
+    "text": "Aus welcher Frucht wird Ketchup hauptsächlich gemacht?",
+    "answers": [],
+    "accepted": [
+      "Tomate",
+      "Tomaten",
+      "tomate",
+      "tomaten",
+      "Tomatenmark",
+      "Paradeiser"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "e0117c78-8511-4559-a40c-807bf3b44bef": {
+    "text": "Welche Farbe hat Wasabi, die scharfe Paste zu Sushi?",
+    "answers": [],
+    "accepted": [
+      "Grün",
+      "grün",
+      "Gruen",
+      "Hellgrün",
+      "Blassgrün",
+      "Green"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "f5489aa3-87f1-4b69-92dc-5cf074b1632c": {
+    "text": "Aus der Küche welches Landes stammen Tacos und Burritos?",
+    "answers": [],
+    "accepted": [
+      "Mexiko",
+      "mexiko",
+      "Mexico",
+      "México",
+      "Mexikanisch",
+      "Mexikanische Küche"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "a65dcf3d-b93a-4b2c-92db-b4d5f1fd4e1e": {
+    "text": "Welches alkoholische Getränk wird aus vergorenen Trauben gemacht?",
+    "answers": [],
+    "accepted": [
+      "Wein",
+      "wein",
+      "Rotwein",
+      "Weißwein",
+      "Weine",
+      "Wine"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "8777cf9c-ad05-4381-831d-fdbe8e97e782": {
+    "text": "Wie viele Spieler hat eine Fußballmannschaft auf dem Platz?",
+    "answers": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8bc06cc3-41d5-48fb-b558-a0e7211cd256": {
+    "text": "Wie viele Ringe sind auf der Olympiaflagge?",
+    "answers": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bc53010b-e468-4440-b51f-1e8e88af45a9": {
+    "text": "Wie viele Punkte bringt beim Basketball ein Wurf von außerhalb der Dreierlinie?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d861a43a-aa1f-4890-8756-19fc302921f3": {
+    "text": "Bei welchem Sport spielt man mit einem Federball?",
+    "answers": [
+      "Squash",
+      "Tischtennis",
+      "Badminton",
+      "Volleyball"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b74a73e3-86ad-4c53-9ad8-d9959e914da9": {
+    "text": "Wie lange dauert ein normales Fußballspiel ohne Nachspielzeit?",
+    "answers": [
+      "60 Minuten",
+      "80 Minuten",
+      "90 Minuten",
+      "120 Minuten"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e5177139-279d-43ba-9958-7a7f8ff4d66a": {
+    "text": "In welcher Sportart gibt es ein „Hole-in-One“?",
+    "answers": [
+      "Golf",
+      "Bowling",
+      "Billard",
+      "Cricket"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2efd87ad-07be-4fbd-9049-16b0c884f7fa": {
+    "text": "Welches Land war 1896 Gastgeber der ersten modernen Olympischen Spiele?",
+    "answers": [
+      "Frankreich",
+      "Griechenland",
+      "England",
+      "Italien"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6f4517f0-b61a-4482-8c7c-4f9e7a09247d": {
+    "text": "Wie viele Spieler pro Team stehen beim Basketball gleichzeitig auf dem Feld?",
+    "answers": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b0b4d45e-7c09-442b-bba9-0fcffb41bc6e": {
+    "text": "Die Tour de France ist eines der berühmtesten Rennen der Welt. In welcher Sportart?",
+    "answers": [
+      "Laufen",
+      "Radsport",
+      "Motorsport",
+      "Segeln"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5d12f0e6-811f-489a-9320-5d65f5c62454": {
+    "text": "Mit welchem Sport wurde Michael Jordan zur Weltlegende?",
+    "answers": [
+      "Baseball",
+      "Basketball",
+      "American Football",
+      "Golf"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7f301f40-bb88-4cd7-9822-4d51d3e99b3d": {
+    "text": "Bei welchem Sport spielt man mit einem Puck statt mit einem Ball?",
+    "answers": [
+      "Eishockey",
+      "Curling",
+      "Wasserball",
+      "Lacrosse"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "03918dea-d42e-41dc-b17e-8877d98ca587": {
+    "text": "Wie lang ist ein Marathon ungefähr?",
+    "answers": [
+      "21 km",
+      "30 km",
+      "42 km",
+      "50 km"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ff362948-8ff9-4b08-97b1-e6782a964795": {
+    "text": "Sumo-Ringen ist der Nationalsport welches Landes?",
+    "answers": [
+      "China",
+      "Südkorea",
+      "Japan",
+      "Mongolei"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ce92e413-1961-4e02-9cc6-1d7f7e665b44": {
+    "text": "Welche Karte zeigt der Schiedsrichter beim Fußball, um einen Spieler vom Platz zu stellen?",
+    "answers": [
+      "Gelbe Karte",
+      "Rote Karte",
+      "Blaue Karte",
+      "Grüne Karte"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,724 @@
+[
+ {
+  "id": "55d66540-f07c-4809-b8bb-fc3cec48428c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Excitement in a relationship...",
+  "tr": "İlişkide “heyecan”…",
+  "answers_en": [
+   "Should be maintained",
+   "Can come and go from time to time"
+  ],
+  "answers_tr": [
+   "Korunmalı",
+   "Zaman zaman gidip gelebilir"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "f1fd75b1-9142-4cca-bd74-1a11a05edaa9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Chemistry between you and your partner...",
+  "tr": "Partnerinle arandaki “kimya”…",
+  "answers_en": [
+   "Most important thing",
+   "Overrated"
+  ],
+  "answers_tr": [
+   "En önemli şey",
+   "Abartılıyor"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "a73a68bb-6a40-4970-b4b2-3cb7ef9e09ab",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Who should make the first move in a relationship...",
+  "tr": "İlişkide “ilk adımı kim atar” konusu…",
+  "answers_en": [
+   "Important",
+   "Should happen naturally"
+  ],
+  "answers_tr": [
+   "Önemlidir",
+   "Doğal akışa bırakılmalı"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "eaca2542-8556-401a-b615-6b488c66a3ee",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "The feeling of being hard to get in a relationship...",
+  "tr": "İlişkide “zor elde edilen kişi” hissi…",
+  "answers_en": [
+   "Increases attraction",
+   "Creates unnecessary drama"
+  ],
+  "answers_tr": [
+   "Çekimi artırır",
+   "Gereksiz drama yaratır"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "f88c69fb-d9b5-49bb-8ddf-a7d3c7863bc5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner leaving you a little curious or uncertain...",
+  "tr": "Partnerinin seni biraz “merakta bırakması”…",
+  "answers_en": [
+   "Increases excitement",
+   "Is uncomfortable"
+  ],
+  "answers_tr": [
+   "Heyecanı artırır",
+   "Rahatsız edicidir"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "e64fc79a-c14f-4180-ba89-bd73ce32dd66",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "The feeling of chase in a relationship...",
+  "tr": "İlişkide “kovalamaca hissi”…",
+  "answers_en": [
+   "Part of attraction",
+   "Should not exist"
+  ],
+  "answers_tr": [
+   "Çekimin parçasıdır",
+   "Olmamalı"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "9d00fc81-b6d6-4442-8290-2ab2bab0deb1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Everything is good with your partner, but the excitement has decreased. What do you do?",
+  "tr": "Partnerinle aranda her şey iyi ama “heyecan” biraz azalmış. Ne yaparsın?",
+  "answers_en": [
+   "I try to increase it",
+   "I let it flow naturally"
+  ],
+  "answers_tr": [
+   "Üzerine gider, artırmaya çalışırım",
+   "Doğal akışına bırakırım"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "bbdb6e3c-b77c-4f9f-8f5a-e3f380283b39",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How do you feel when others find your partner attractive?",
+  "tr": "Partnerinin başkaları tarafından beğenilmesi seni nasıl etkiler?",
+  "answers_en": [
+   "It makes me uncomfortable",
+   "It makes me feel proud"
+  ],
+  "answers_tr": [
+   "Seni rahatsız eder",
+   "Sana gurur verir"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "402dd8ac-c9fd-40fd-813a-7b50c5075e66",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Freedom in a relationship...",
+  "tr": "İlişkide özgürlük...",
+  "answers_en": [
+   "Exists with clear boundaries",
+   "Does not need many rules"
+  ],
+  "answers_tr": [
+   "Net sınırlarla olur",
+   "Fazla kurala gerek yoktur"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "9cd320ad-9dd9-4232-b2d8-80291317b7e9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner having a history of flirting with others...",
+  "tr": "Partnerin başkalarıyla flört etmiş geçmişi...",
+  "answers_en": [
+   "A serious red flag",
+   "Something that belongs to the past"
+  ],
+  "answers_tr": [
+   "Önemli bir kırmızı bayrak",
+   "Geçmişte kalmış bir şey"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "e3b94271-2220-48cb-926f-bc6dc7f097b1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Friends circle in a relationship...",
+  "tr": "İlişkide arkadaş çevresi...",
+  "answers_en": [
+   "Should be somewhat controlled",
+   "Should be completely free"
+  ],
+  "answers_tr": [
+   "Kontrollü olmalı",
+   "Tamamen özgür olmalı"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "83543925-87f8-4b70-9e5c-dd5d00edf70a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you feel your partner is flirting with someone...",
+  "tr": "Partnerinin biriyle flört ettiğini hissedersen...",
+  "answers_en": [
+   "You directly bring it up",
+   "You first observe their behavior"
+  ],
+  "answers_tr": [
+   "Direkt konuyu açarsın",
+   "Önce davranışlarını gözlemlersin"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "b51d6316-6d74-45bb-a560-ff735e91e94c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Risky but exciting behaviors in a relationship...",
+  "tr": "İlişkide “riskli ama heyecanlı” davranışlar...",
+  "answers_en": [
+   "Should be avoided",
+   "Sometimes keeps the relationship alive"
+  ],
+  "answers_tr": [
+   "Kaçınılmalı",
+   "Bazen ilişkiyi canlı tutar"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "da303f91-32fc-4c6a-8358-3a86118a7820",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner keeps their gaze on you for a long time...",
+  "tr": "Partnerin sana bakışlarını uzun süre tutuyorsa...",
+  "answers_en": [
+   "You feel uncomfortable / tense",
+   "You like it"
+  ],
+  "answers_tr": [
+   "Gerilirsin / rahatsız olursun",
+   "Hoşuna gider"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "43f446b3-7b7a-4c59-b0a1-233109f49a45",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If there is a feeling of \"who will make the first move\" between you and your partner...",
+  "tr": "Partnerinle aranda “kim ilk hamleyi yapacak” hissi varsa...",
+  "answers_en": [
+   "You want clarity",
+   "You see it as part of the game"
+  ],
+  "answers_tr": [
+   "Netlik istersin",
+   "Oyunun bir parçası gibi görürsün"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "5e2081e6-21ec-415d-8ee7-41151f25acea",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When the atmosphere between you and your partner becomes slightly tense when alone...",
+  "tr": "Partnerinle yalnızken ortamın biraz “gerilimli” olması...",
+  "answers_en": [
+   "It creates discomfort",
+   "It increases attraction"
+  ],
+  "answers_tr": [
+   "Gerginlik yaratır",
+   "Çekimi artırır"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "a10443c5-8ccb-4122-9b35-31945282581c",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the most attractive physical feature in a partner?",
+  "tr": "Bir partnerde sana en çekici gelen fiziksel özellik nedir?",
+  "category": "spicy"
+ },
+ {
+  "id": "2cc2f00b-d449-447a-aa47-764da08a477f",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the most attractive physical feature in a partner?",
+  "tr": "Bir partnerde sana en çekici gelen fiziksel özellik nedir?",
+  "category": "spicy"
+ },
+ {
+  "id": "e2903296-07ab-4631-81dc-828832555fd2",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the ideal time of day for romance?",
+  "tr": "Romantizm için günün en ideal zamanı/saati nedir?",
+  "category": "spicy"
+ },
+ {
+  "id": "7897189d-8ad5-40e4-b76a-623ef82d53ce",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the most attractive outfit or style on a partner?",
+  "tr": "Bir partnerde gördüğün en çekici kıyafet/tarz nedir?",
+  "category": "spicy"
+ },
+ {
+  "id": "e4a7f6e6-e387-459e-8d22-d9c5842e0995",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How long should a perfect romantic kiss last?",
+  "tr": "Mükemmel bir romantik öpücük yaklaşık kaç saniye sürmeli?",
+  "category": "spicy"
+ },
+ {
+  "id": "72576768-b419-42bd-a56d-5e205197167f",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the most attractive non-physical trait in a partner?",
+  "tr": "Bir partnerde gördüğün en çekici fiziksel olmayan özellik nedir?",
+  "category": "spicy"
+ },
+ {
+  "id": "c02d636a-e11c-4f8a-8fd7-5910d7ac40fc",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the most romantic gesture a partner could surprise you with?",
+  "tr": "Bir partnerin sana yapabileceği en romantik sürpriz jest nedir?",
+  "category": "spicy"
+ },
+ {
+  "id": "1e1a09c2-4ae9-4fd2-9586-21f428953644",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the best time of year for a cozy, romantic vacation?",
+  "tr": "Sıcak ve romantik bir tatil kaçamağı için yılın en iyi mevsimi hangisidir?",
+  "category": "spicy"
+ },
+ {
+  "id": "5d6410a2-4f8b-44bb-a731-563502e921d7",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the most attractive habit or skill a partner can have?",
+  "tr": "Bir partnerin sahip olabileceği en çekici alışkanlık veya yetenek nedir?",
+  "category": "spicy"
+ },
+ {
+  "id": "65a22aa4-fec5-403e-9e4e-6990fd3a5c93",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "Which room in the house feels the most tempting?",
+  "tr": "Evde en baştan çıkarıcı gelen oda hangisi?",
+  "category": "spicy"
+ },
+ {
+  "id": "a6507af8-06fe-4e48-be79-fcb69409a2d4",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What should we never do in public even if we want to?",
+  "tr": "İstesek bile asla toplum içinde ne yapmamalıyız?",
+  "category": "spicy"
+ },
+ {
+  "id": "487854d7-123e-4049-90af-5be5879ca6fa",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What should never come into the bedroom?",
+  "tr": "Yatak odasına asla ne girmemeli?",
+  "category": "spicy"
+ },
+ {
+  "id": "f2b3d498-f439-4810-b99f-8395109f68fa",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What instantly kills the mood for you?",
+  "tr": "Senin için ortamı anında bozan şey ne?",
+  "category": "spicy"
+ },
+ {
+  "id": "48a3c058-0100-4d6d-9b9e-f75d858568ff",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What would make you jealous the fastest?",
+  "tr": "Seni en hızlı ne kıskandırır?",
+  "category": "spicy"
+ },
+ {
+  "id": "5c9dc92f-20dc-4767-bdb1-142dda6b6025",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the sexiest thing someone can do without touching you?",
+  "tr": "Biri sana dokunmadan yapabileceği en çekici şey ne?",
+  "category": "spicy"
+ },
+ {
+  "id": "ade74d7b-247a-459d-af5a-d7b33e9ad221",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the one thing you should never tease a partner about?",
+  "tr": "Bir partnerle asla dalga geçilmemesi gereken şey ne?",
+  "category": "spicy"
+ },
+ {
+  "id": "619f6186-6a3f-445a-8808-67c318fe740b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What kind of weather makes everything feel more tempting?",
+  "tr": "Hangi hava her şeyi daha baştan çıkarıcı hissettirir?",
+  "category": "spicy"
+ },
+ {
+  "id": "33508d01-f09b-4a5a-82f1-9b6888683f55",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What drink belongs in our hands on a flirty night?",
+  "tr": "Flörtöz bir gecede elimizde hangi içecek olmalı?",
+  "category": "spicy"
+ },
+ {
+  "id": "41ffe4a1-e86c-44df-b108-97d179d7015b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What color looks the hottest on a partner?",
+  "tr": "Bir partnerin üzerinde en ateşli duran renk hangisi?",
+  "category": "spicy"
+ },
+ {
+  "id": "f412a9ee-4c9a-4005-917c-3fee1062cbd6",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What time of night feels the most dangerous for us?",
+  "tr": "Gecenin hangi saati bizim için en tehlikeli hissettirir?",
+  "category": "spicy"
+ },
+ {
+  "id": "eac3ce2c-ce08-4a3d-93be-28a7853d699f",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "If we got matching tattoos, what would they be of?",
+  "tr": "Eşleşen dövmeler yapsak neyin dövmesi olurdu?",
+  "category": "spicy"
+ },
+ {
+  "id": "89de3de6-9967-493d-bdb2-3e7e23e8c14a",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is your biggest weakness in a partner?",
+  "tr": "Bir partnerde senin en büyük zayıf noktan ne?",
+  "category": "spicy"
+ },
+ {
+  "id": "db715c9a-6d8b-4609-a38b-457dea0fbb6d",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What's the most days you could go without intimacy?",
+  "tr": "En fazla kaç gün yakınlık yaşamadan durabilirsin?",
+  "category": "spicy"
+ },
+ {
+  "id": "681b924d-51a4-4cea-964e-5a6c10aca55a",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the first sign that you are in the mood?",
+  "tr": "Canın istediğinin ilk işareti ne olur?",
+  "category": "spicy"
+ },
+ {
+  "id": "9565615b-0832-431c-b21d-3187888419b6",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the one thing that makes you say yes too fast?",
+  "tr": "Seni fazla hızlı \"evet\" dedirten tek şey ne?",
+  "category": "spicy"
+ },
+ {
+  "id": "462df680-7a81-48e5-ba26-b81c8ec12ccf",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is more irresistible: a lingering look, a whisper, a slow touch, or a sudden pull closer?",
+  "tr": "Hangisi daha karşı konulmaz: uzun bir bakış, bir fısıltı, yavaş bir dokunuş mu yoksa ani bir çekiş mi?",
+  "answers_en": [
+   "A lingering look",
+   "A whisper",
+   "A slow touch",
+   "A sudden pull closer"
+  ],
+  "answers_tr": [
+   "Uzun bir bakış",
+   "Bir fısıltı",
+   "Yavaş bir dokunuş",
+   "Ani bir çekiş"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "306c5451-599b-48bf-95f8-ac42b2f9f0ad",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Where would you most want a first kiss of the night to happen?",
+  "tr": "Gecenin ilk öpücüğü en çok nerede olsun isterdin?",
+  "answers_en": [
+   "In the kitchen",
+   "By the door",
+   "In the car",
+   "In the dark"
+  ],
+  "answers_tr": [
+   "Mutfakta",
+   "Kapının yanında",
+   "Arabada",
+   "Karanlıkta"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "519bc663-be30-40c7-9388-c98e32275f22",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is the hottest time to start something: morning, after work, late night, or after a fight?",
+  "tr": "Bir şeye başlamak için en ateşli an hangisi: sabah, işten sonra, gece yarısı mı yoksa kavgadan sonra mı?",
+  "answers_en": [
+   "Morning",
+   "After work",
+   "Late night",
+   "After a fight"
+  ],
+  "answers_tr": [
+   "Sabah",
+   "İşten sonra",
+   "Gece yarısı",
+   "Kavgadan sonra"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "c67efeac-6d04-411a-8b95-0e22a4a1526c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What should never be allowed in the bedroom?",
+  "tr": "Yatak odasında asla neye izin verilmemeli?",
+  "answers_en": [
+   "Phones",
+   "Work talk",
+   "The lights on",
+   "Rushing"
+  ],
+  "answers_tr": [
+   "Telefonlar",
+   "İş konuşması",
+   "Açık ışık",
+   "Acele etmek"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "4465a984-e7d0-462b-afc8-742f5ced6fda",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What makes someone instantly more attractive: confidence, a laugh, a voice, or silence?",
+  "tr": "Birini anında daha çekici kılan şey ne: özgüven, bir kahkaha, bir ses mi yoksa sessizlik mi?",
+  "answers_en": [
+   "Confidence",
+   "A laugh",
+   "A voice",
+   "Silence"
+  ],
+  "answers_tr": [
+   "Özgüven",
+   "Bir kahkaha",
+   "Bir ses",
+   "Sessizlik"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "2362915b-b21d-49e1-b59c-cc4a012f0918",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If we only had ten minutes, what would we spend them on?",
+  "tr": "Sadece on dakikamız olsa bunu neye harcardık?",
+  "answers_en": [
+   "Kissing",
+   "Talking close",
+   "Dancing",
+   "Doing nothing"
+  ],
+  "answers_tr": [
+   "Öpüşmek",
+   "Yakın konuşmak",
+   "Dans etmek",
+   "Hiçbir şey yapmamak"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "aad10471-a143-41db-a557-4b9255bf8bce",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What should we do right after a good night together?",
+  "tr": "Güzel bir gecenin hemen ardından ne yapmalıyız?",
+  "answers_en": [
+   "Fall asleep",
+   "Talk",
+   "Eat something",
+   "Stay in bed longer"
+  ],
+  "answers_tr": [
+   "Uyumak",
+   "Konuşmak",
+   "Bir şey yemek",
+   "Yatakta daha uzun kalmak"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "d0c1e7eb-fe8f-4fdb-a75b-b2bde40dab96",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is the hottest compliment to get?",
+  "tr": "Alınabilecek en ateşli iltifat hangisi?",
+  "answers_en": [
+   "About your eyes",
+   "About your voice",
+   "About how you walk",
+   "About your mind"
+  ],
+  "answers_tr": [
+   "Gözlerin hakkında",
+   "Sesin hakkında",
+   "Yürüyüşün hakkında",
+   "Zihnin hakkında"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "6ade6d02-62a8-478c-b640-01d8be057a4f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Where should a partner's hands go first?",
+  "tr": "Bir partnerin elleri ilk nereye gitmeli?",
+  "answers_en": [
+   "Waist",
+   "Face",
+   "Hair",
+   "Back"
+  ],
+  "answers_tr": [
+   "Bel",
+   "Yüz",
+   "Saç",
+   "Sırt"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "1c40b55e-c015-439b-9ddc-8d894df3e4a2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What pace feels the hottest?",
+  "tr": "Hangi tempo en ateşli gelir?",
+  "answers_en": [
+   "Slow",
+   "Playful",
+   "Sudden",
+   "Quiet"
+  ],
+  "answers_tr": [
+   "Yavaş",
+   "Oyuncu",
+   "Ani",
+   "Sessiz"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "75940eb9-7fbf-41f7-bc4e-66f204f5e48e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How should the lights be when things start to get interesting?",
+  "tr": "İşler ilginçleşmeye başlayınca ışıklar nasıl olmalı?",
+  "answers_en": [
+   "Off",
+   "Candles",
+   "A small lamp",
+   "Whatever, ignore them"
+  ],
+  "answers_tr": [
+   "Kapalı",
+   "Mum",
+   "Küçük bir lamba",
+   "Fark etmez, umursama"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "354b396b-ec94-4e79-875e-0d785df654b4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Where would it feel the most dangerous to almost get caught?",
+  "tr": "Neredeyse yakalanmak neresi en tehlikeli hissettirirdi?",
+  "answers_en": [
+   "An elevator",
+   "A hallway",
+   "A parking garage",
+   "A balcony"
+  ],
+  "answers_tr": [
+   "Asansör",
+   "Koridor",
+   "Otopark",
+   "Balkon"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "8bdad457-c9d4-428f-b2c0-c7f30d33f2bd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What's the hottest reply to \"what are you doing?\"",
+  "tr": "\"Ne yapıyorsun?\" sorusuna verilebilecek en ateşli cevap ne?",
+  "answers_en": [
+   "Waiting for you",
+   "Nothing I can't leave",
+   "Get over here"
+  ],
+  "answers_tr": [
+   "Seni bekliyorum",
+   "Bırakamayacağım bir şey değil",
+   "Gel buraya"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "dc481a50-3190-4c1c-975b-f7f2c81e8269",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many times a week should intimacy happen?",
+  "tr": "Haftada kaç kez yakınlık yaşanmalı?",
+  "category": "spicy"
+ }
+]

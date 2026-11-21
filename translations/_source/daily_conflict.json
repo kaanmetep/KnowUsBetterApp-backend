@@ -1,0 +1,134 @@
+[
+ {
+  "id": "ad42c59d-bd4b-4f67-963a-f1a1c512f2c9",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "When a disagreement starts, your first instinct is to…",
+  "tr": "Bir anlaşmazlık başladığında ilk içgüdün…",
+  "answers_en": [
+   "Say everything right away",
+   "Go quiet and pull back",
+   "Smooth it over, even if I'm not done",
+   "Leave the room to cool off"
+  ],
+  "answers_tr": [
+   "Her şeyi hemen söylemek",
+   "Susup geri çekilmek",
+   "İçim rahat etmese de ortamı yumuşatmak",
+   "Sakinleşmek için odadan çıkmak"
+  ]
+ },
+ {
+  "id": "4847cd44-98d1-4533-bb0a-e8b49438e2a6",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What do you need before a fight can really end for you?",
+  "tr": "Bir kavganın senin için gerçekten bitmesi için neye ihtiyacın var?",
+  "answers_en": [
+   "A sincere apology",
+   "To feel understood",
+   "A clear solution",
+   "Time alone first",
+   "Physical closeness"
+  ],
+  "answers_tr": [
+   "Samimi bir özür",
+   "Anlaşıldığımı hissetmek",
+   "Net bir çözüm",
+   "Önce biraz yalnız kalmak",
+   "Fiziksel yakınlık"
+  ]
+ },
+ {
+  "id": "0a402b2b-06aa-4c65-9534-cd5828e42c46",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How do you feel about making the first move to make up?",
+  "tr": "Barışmak için ilk adımı atmak hakkında ne hissediyorsun?",
+  "answers_en": [
+   "I usually do it and I'm fine with that",
+   "I usually do it and it's starting to bother me",
+   "I tend to wait for them",
+   "It's hard for me, even when I want to"
+  ],
+  "answers_tr": [
+   "Genelde ben atarım, sorun değil",
+   "Genelde ben atarım ve bu artık canımı sıkıyor",
+   "Genelde onun gelmesini beklerim",
+   "İstesem bile bu bana zor geliyor"
+  ]
+ },
+ {
+  "id": "d0ec371b-99c3-42e2-86fe-60295e7a3aba",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "After a fight is over, how long does it stay with you?",
+  "tr": "Bir kavga bittikten sonra ne kadar aklında kalır?",
+  "answers_en": [
+   "It's gone once we make up",
+   "A few hours",
+   "A day or two",
+   "It comes back up later"
+  ],
+  "answers_tr": [
+   "Barıştığımız an biter",
+   "Birkaç saat",
+   "Bir iki gün",
+   "Sonra tekrar aklıma gelir"
+  ]
+ },
+ {
+  "id": "375bb36b-b6d9-4321-a8e4-b8fdcd60abcf",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What escalates a fight fastest for you?",
+  "tr": "Bir kavgayı senin için en hızlı ne büyütür?",
+  "answers_en": [
+   "A raised voice or harsh tone",
+   "Being interrupted or not heard",
+   "Old issues being brought up",
+   "Silence or walking away",
+   "Sarcasm or eye-rolling"
+  ],
+  "answers_tr": [
+   "Yükselen ses ya da sert ton",
+   "Sözümün kesilmesi, dinlenmemek",
+   "Eski meselelerin açılması",
+   "Susmak ya da çekip gitmek",
+   "İğneleme ya da göz devirme"
+  ]
+ },
+ {
+  "id": "6ba99e54-c776-447b-ad7c-830ef561545a",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What do you hold back to keep the peace?",
+  "tr": "Ortam bozulmasın diye neleri söylemezsin?",
+  "answers_en": [
+   "Nothing, I say what bothers me",
+   "Small annoyances",
+   "Bigger needs I have",
+   "Things about their family or friends"
+  ],
+  "answers_tr": [
+   "Hiçbir şey, canımı sıkanı söylerim",
+   "Küçük rahatsızlıklarımı",
+   "Daha büyük ihtiyaçlarımı",
+   "Ailesi ya da arkadaşlarıyla ilgili şeyleri"
+  ]
+ },
+ {
+  "id": "0a32a02d-0e74-4f0b-836a-4a5ae6890ab7",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "In a few words: what do you two keep arguing about?",
+  "tr": "Birkaç kelimeyle: ikiniz sürekli ne hakkında tartışıyorsunuz?"
+ },
+ {
+  "id": "80d0cd30-bef6-4ec4-aeac-17776ab4b318",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What does your partner do in arguments that you wish they'd stop?",
+  "tr": "Partnerinin tartışırken yaptığı ve bırakmasını istediğin şey ne?"
+ }
+]

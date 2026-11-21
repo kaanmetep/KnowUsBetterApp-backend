@@ -1,0 +1,545 @@
+{
+ "9c033c13-73b4-44e7-a935-0242b4fae94f": {
+  "text": "Wkurzałoby cię, gdyby twoja druga połówka nigdy nie przedstawiła cię swoim znajomym?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "40137f6d-8f1e-45c1-a4dc-a63c87f0a92f": {
+  "text": "Uważasz, że eks trzeba usunąć ze wszystkich social mediów?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "32bec47e-fda0-4934-bb7e-536d8e4cf7f2": {
+  "text": "Gdyby po ślubie twoja druga połówka przestała cię fizycznie pociągać, czy rozwód wchodziłby w grę?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0f881ec0-2f6d-4a8d-8f6f-1fe54395c59f": {
+  "text": "Wolisz, żeby wasze dziecko było bardziej podobne do ciebie czy do twojej drugiej połówki?",
+  "answers": [
+   "Do mnie",
+   "Do mojej drugiej połówki"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ae4f73ff-5e35-4faa-bea5-ccb6fff9920e": {
+  "text": "Jeśli twojej drugiej połówce będzie bardzo zależeć, dasz dziecku imię po teściowej?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": "Used 'teściowa' (partner's mother) to avoid a gendered pronoun for the partner."
+ },
+ "b246de81-762a-451c-8b6a-a4a4cdf1c14f": {
+  "text": "Przeszkadzałoby ci, gdyby twoja druga połówka miała fejkowe konto tylko do stalkowania ludzi?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "04fb3b07-0c4a-4470-906f-69ff3696620b": {
+  "text": "Gdy w związku coś nie gra, lepiej zrobić sobie przerwę czy rozwiązywać problemy bez niej?",
+  "answers": [
+   "Zrobić przerwę",
+   "Rozwiązać bez przerwy"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9abff03b-7b65-419f-b4d6-2d469b4dc7be": {
+  "text": "Co wybierasz: 1 milion dolarów i 2 lata rozłąki z drugą połówką czy 10 milionów i 4 lata rozłąki?",
+  "answers": [
+   "1 milion dolarów, 2 lata osobno",
+   "10 milionów dolarów, 4 lata osobno"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "80bd3596-b457-49a1-a292-e3a26678f409": {
+  "text": "Co wolisz: związek z kimś, kogo kochasz, ale z ciągłymi kłótniami, czy mniej dopasowany, ale spokojny?",
+  "answers": [
+   "Miłość, ale kłótnie",
+   "Mniej dopasowania, ale spokój"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "550b4795-47de-43b4-9981-5522c66470f3": {
+  "text": "Jakie oświadczyny od drugiej połówki wolisz: skromne czy z rozmachem?",
+  "answers": [
+   "Skromne oświadczyny",
+   "Oświadczyny z rozmachem"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c90ae871-809e-4ada-9637-99d6ff40dce7": {
+  "text": "Co wolisz: pierścionek zaręczynowy, na który twoja druga połówka ledwo może sobie pozwolić, czy dużo tańszy, niż mogłaby kupić?",
+  "answers": [
+   "Pierścionek na granicy budżetu",
+   "Dużo tańszy pierścionek"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9ae0640c-d472-4528-a93b-99746bc50ea6": {
+  "text": "Co wolisz: żeby twoja druga połówka zaplanowała oświadczyny zupełnie sama czy po cichu poprosiła o radę twoich znajomych?",
+  "answers": [
+   "Planuje bez niczyjej pomocy",
+   "Po cichu pyta znajomych"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4d5dde88-5d3a-4751-91aa-1004648687c2": {
+  "text": "Co wolisz: gdy druga połówka okazuje miłość wielkimi gestami czy drobiazgami na co dzień?",
+  "answers": [
+   "Wielkie gesty",
+   "Drobiazgi na co dzień"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "db9d8560-2591-456f-b350-c20096c3e897": {
+  "text": "Czy twoja druga połówka może przytulić osobę przeciwnej płci z grona znajomych?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d1af31ed-9299-485a-941b-b8031854ca9c": {
+  "text": "Czy twoja druga połówka może postawić obiad osobie przeciwnej płci z grona znajomych?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1fd7db14-1dfd-4713-a16a-91a0bc778c60": {
+  "text": "Czy twoja druga połówka może spotkać się sam na sam z osobą przeciwnej płci z grona znajomych?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "49fd0add-5bf4-4012-b988-e6a0c6e704c2": {
+  "text": "Czy to dla ciebie problem, jeśli twoja druga połówka podkochuje się w kimś sławnym?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9cd41d79-298f-431e-92ae-8a1bba9c478f": {
+  "text": "Uważasz, że można czytać wiadomości drugiej połówki z osobami przeciwnej płci?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "585ec0e7-b6f1-444c-b04c-2ef0117d83bd": {
+  "text": "Z drugą połówką wolisz…",
+  "answers": [
+   "Bezpieczną, ale nudną więź",
+   "Ryzykowną, ale żywą więź"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "12cc068c-eb0e-44d6-b816-c39859648964": {
+  "text": "Złościłoby cię, gdyby twoja druga połówka nie chciała pokazać ci swoich wiadomości z osobą przeciwnej płci?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "940c094a-220c-40f3-9526-a5fea4f487bd": {
+  "text": "Czy twoja druga połówka może przez krótki czas pomieszkać u osoby przeciwnej płci z grona znajomych?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "db9c8d1c-063f-4c3d-8da6-84abfcb592e7": {
+  "text": "Byłby to dla ciebie powód do kłótni, gdyby twoja druga połówka chciała cały weekend sama grać w gry wideo?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8c809c4c-7508-47c3-b12b-68ca4fae57b8": {
+  "text": "W długim związku miłość z czasem…",
+  "answers": [
+   "Rośnie",
+   "Zmienia formę"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2e1f0de3-37db-41c9-a49f-ceb0bde8402f": {
+  "text": "Na czym twoja druga połówka powinna bardziej się skupiać: na własnej przyszłości czy na twojej?",
+  "answers": [
+   "Na własnej przyszłości",
+   "Na twojej przyszłości"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "58cc044f-d0e6-407b-b19f-4db600605254": {
+  "text": "To, że druga połówka próbuje cię zmienić…",
+  "answers": [
+   "Jest do przyjęcia",
+   "Nigdy nie jest do przyjęcia"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "faeb28bd-22ea-4bb9-89c6-5cd68917656d": {
+  "text": "W długim związku monotonia…",
+  "answers": [
+   "Jest nieunikniona",
+   "Da się jej uniknąć"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "93bfc65c-0d46-4cbc-86a5-46802820f43b": {
+  "text": "To, że druga połówka próbuje cię zmienić, nawet „dla twojego dobra”…",
+  "answers": [
+   "Jest do przyjęcia",
+   "Nigdy nie jest do przyjęcia"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d396fe80-cd3f-43c3-842a-fcd6c54b23b4": {
+  "text": "Gdy druga połówka opowiada o swoich byłych związkach…",
+  "answers": [
+   "To normalne i potrzebne",
+   "To zbędne i szkodliwe"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1145588f-eea5-4226-80b3-a98a5d0b043c": {
+  "text": "Zazdrość…",
+  "answers": [
+   "To oznaka miłości",
+   "To oznaka niepewności"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "aabf084a-c712-4d5f-872c-8351c008d756": {
+  "text": "Jeśli twoja druga połówka nie lubi twoich znajomych…",
+  "answers": [
+   "To może być problem",
+   "To żaden problem"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "31b2a2da-9927-44e9-948c-1edd25445983": {
+  "text": "Jeśli twoja druga połówka nie pisze do ciebie non stop…",
+  "answers": [
+   "To normalne",
+   "To brak zainteresowania"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "aaa13474-4c03-4f25-b201-c6c81cf34b35": {
+  "text": "Jeśli twoja druga połówka bez planowania daje znać w ostatniej chwili…",
+  "answers": [
+   "To spontaniczność",
+   "To brak szacunku"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c8052202-a0f7-4d5a-9e3d-4aaa2bba5caf": {
+  "text": "Spędzanie razem każdej wolnej chwili…",
+  "answers": [
+   "Zbliża",
+   "Dusi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "48e6113e-51b4-4e1f-a138-7c7149028fa3": {
+  "text": "Milczenie podczas kłótni…",
+  "answers": [
+   "To dojrzałość",
+   "To ucieczka"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c3b94f1d-30c4-4c5d-bed8-ab4965ec0b5b": {
+  "text": "Rozliczanie drugiej połówki z każdego kroku…",
+  "answers": [
+   "To normalne",
+   "To oznaka braku zaufania"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e2f38a08-615d-4063-9ef1-e1194aabb7a6": {
+  "text": "Wolność w związku…",
+  "answers": [
+   "To najważniejsze",
+   "Osłabia miłość"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3354bd61-f081-4c81-8939-a8009d25b348": {
+  "text": "Spędzanie czasu osobno w związku…",
+  "answers": [
+   "Jest zdrowe",
+   "Oddala od siebie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "64a23406-a16e-4819-9dd8-da44d139f8e6": {
+  "text": "Cisza między tobą a drugą połówką…",
+  "answers": [
+   "To oznaka swobody",
+   "To oznaka dystansu"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "52bd1a52-d873-4451-8a68-da4c7ade05d3": {
+  "text": "Rutyna w długim związku…",
+  "answers": [
+   "Buduje zaufanie",
+   "Rodzi nudę"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7a0db8b2-560c-41e6-849a-993e7e074ae8": {
+  "text": "Co jest ważniejsze w związku: miłość czy szacunek?",
+  "answers": [
+   "Miłość",
+   "Szacunek"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9d7e63d7-607b-48a9-949a-16936f965dc6": {
+  "text": "Dzielenie się wszystkim z drugą połówką…",
+  "answers": [
+   "Buduje bliskość",
+   "Odbiera przestrzeń osobistą"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7ee80276-4cae-4786-8e8a-6c3732d4bad2": {
+  "text": "W długim związku miłość to bardziej…",
+  "answers": [
+   "Wybór",
+   "Uczucie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ddcf2c7d-04d2-4a0c-b0ed-119f2f636bc6": {
+  "text": "Największe ryzyko w związku…",
+  "answers": [
+   "Oddalenie się",
+   "Zbytnie przyzwyczajenie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2b676dd8-d2b2-4d4d-91f2-6cd5c4997b2b": {
+  "text": "W długich związkach ludzie częściej…",
+  "answers": [
+   "Uzupełniają się",
+   "Upodabniają się do siebie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d28a64f1-32ba-433f-82dd-72bf9c2cc578": {
+  "text": "Akceptowanie drugiej połówki taką, jaka jest…",
+  "answers": [
+   "To szczyt miłości",
+   "Hamuje rozwój"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "08a3ebbf-7806-4766-923d-2957e0c0d2c2": {
+  "text": "Z drugą połówką wolisz…",
+  "answers": [
+   "Duże dopasowanie, mało namiętności",
+   "Dużo namiętności, ciągłe konflikty"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b97d013a-ccd8-4678-b52e-c6ba122ef54b": {
+  "text": "W związku gorzej, gdy…",
+  "answers": [
+   "Wszystko staje się rutyną",
+   "Nic nie jest stabilne"
+  ],
+  "accepted": [],
+  "flagged": true,
+  "note": "Source stem 'In a relationship...' is ambiguous; interpreted as 'which is worse' (matches the dilemma). Check intent."
+ },
+ "b933a4a0-fb1a-423e-8571-96ecb4dd4b7b": {
+  "text": "W związku wolisz, gdy…",
+  "answers": [
+   "Miłość słabnie, ale spokoju przybywa",
+   "Miłość trwa, ale spokoju ubywa"
+  ],
+  "accepted": [],
+  "flagged": true,
+  "note": "Source stem 'In a relationship...' is ambiguous; interpreted as a preference. Check intent."
+ },
+ "641d3889-c306-47c1-875c-525e5c928cdc": {
+  "text": "Co gorsze w związku: zawiedzione zaufanie czy całkowity brak zainteresowania?",
+  "answers": [
+   "Zawiedzione zaufanie",
+   "Całkowity brak zainteresowania"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d1483a50-6ff5-4975-9b46-224f67e0036b": {
+  "text": "Co gorsze w długim związku: ciągłe podejrzenia czy ciągła pustka?",
+  "answers": [
+   "Ciągłe podejrzenia",
+   "Ciągła pustka"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d0a3444e-8114-4511-a054-56a7198b70a0": {
+  "text": "Co trudniejsze w długim związku: trwać, nie wiedząc, czy druga strona cię kocha, czy trwać, wiedząc, że ty już nie kochasz?",
+  "answers": [
+   "Nie wiedzieć, czy cię kocha",
+   "Wiedzieć, że nie kochasz"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": "Avoided gendered 'być kochanym/kochaną' by making the partner the subject."
+ },
+ "86598b9e-9d8a-47a4-b230-ea71b1e47093": {
+  "text": "Co zdrowsze w długim związku: wszystko wyjaśniać rozmową czy niektóre sprawy zostawić czasowi?",
+  "answers": [
+   "Wszystko wyjaśniać rozmową",
+   "Niektóre sprawy zostawić czasowi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a3f28e46-c315-4260-8130-3b9f5f03147d": {
+  "text": "Zaufanie w związku…",
+  "answers": [
+   "Buduje się otwartością",
+   "Rodzi się po cichu z czasem"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bab53c7d-eba6-4584-a606-4af030d5d86b": {
+  "text": "Różnice między tobą a drugą połówką…",
+  "answers": [
+   "Wyjaśnia się je rozmową",
+   "Akceptuje się je i żyje z nimi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0972afde-efba-45c4-84f3-1ecccab07b8b": {
+  "text": "Ile dzieci chcesz mieć?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "877a7f71-261e-441f-ae71-d19aafbce112": {
+  "text": "Jeśli jutro trafimy szóstkę w Lotto, co kupujemy najpierw?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7a6c7486-c2d0-4670-8265-229eb7648fa1": {
+  "text": "Który pokój w naszym przyszłym domu jest dla ciebie najważniejszy?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "da02be22-6278-4003-867b-4669430cca9c": {
+  "text": "Gdyby nasza historia miłosna mogła się wydarzyć w innej dekadzie, którą wybierasz?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6a9340b3-6abd-422e-9d0d-2755d92b2626": {
+  "text": "Jaki wiek jest według ciebie idealny na ślub?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "84f363db-cdd5-4d66-b0ee-a92b4e42ea36": {
+  "text": "Jaką porę roku wybierasz na nasz ślub?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

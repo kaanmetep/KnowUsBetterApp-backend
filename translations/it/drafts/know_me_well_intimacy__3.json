@@ -1,0 +1,728 @@
+{
+ "258de284-fd20-452c-b8c4-c119ee242b8e": {
+  "text": "Cosa ne pensa {{playerName}} di fare playlist per chi ama?",
+  "answers": [
+   "Ne fa di continuo",
+   "Ogni tanto",
+   "Non è il suo genere"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "36ee3456-2eb7-422c-92d5-f661f5891af0": {
+  "text": "Dopo quanto tempo senza vederti {{playerName}} inizia a sentire la tua mancanza?",
+  "answers": [
+   "Qualche ora",
+   "Un giorno",
+   "Qualche giorno",
+   "Una settimana o più"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fbc96261-3273-4853-806b-93ec3437cd96": {
+  "text": "Cosa ne pensa {{playerName}} di conoscere presto la famiglia di chi frequenta?",
+  "answers": [
+   "Adora l'idea",
+   "Un po' d'ansia, ma ci sta",
+   "Preferisce aspettare"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "45b5ba6f-ee49-41d7-a447-cefef0f65c9c": {
+  "text": "Quanto spesso {{playerName}} ti scrive «mi manchi»?",
+  "answers": [
+   "Di continuo",
+   "Solo dopo un po' di distanza",
+   "Di rado, lo mostra in altri modi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0e8861dc-f445-40dc-acd8-39b6825d2abf": {
+  "text": "Quando siete in macchina, a {{playerName}} piace tenersi per mano?",
+  "answers": [
+   "Sempre",
+   "A volte",
+   "Servono tutte e due le mani"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "95324c07-425a-4d15-9ce4-80159e7e681d": {
+  "text": "Tra tutti i tuoi regali, qual è il preferito di {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4f5b2363-db4a-45ac-b84e-c456394f226d": {
+  "text": "Cosa ne pensa {{playerName}} di cucinare insieme?",
+  "answers": [
+   "Lo adora",
+   "Chi cucina e chi aiuta",
+   "Troppo caos"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bb99cfdc-a916-42ae-9584-c8efc29f4784": {
+  "text": "Qual è il ricordo con te che {{playerName}} ama di più?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "20c3fd78-4175-4c32-9545-a4c74b10856f": {
+  "text": "Che soprannome vorrebbe {{playerName}} sentirsi dare da te?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ee761baa-8a83-4e12-ad9e-9b93262037ee": {
+  "text": "Cosa pensa {{playerName}} delle battute che si capiscono solo in coppia?",
+  "answers": [
+   "Non può farne a meno",
+   "Ha qualche preferita",
+   "Non è il suo genere"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c0b28a60-af14-4d78-bf1c-71b01b6e9781": {
+  "text": "Cosa pensa {{playerName}} delle lunghe passeggiate insieme?",
+  "answers": [
+   "Il suo appuntamento ideale",
+   "Belle ogni tanto",
+   "Preferisce sedersi da qualche parte"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c0bd510b-8853-40c8-954c-5da8d83539e8": {
+  "text": "Quando canti per {{playerName}}, come reagisce?",
+  "answers": [
+   "Si scioglie",
+   "Ride",
+   "Canta con te",
+   "Ti chiede di smettere"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ed027bd1-f69f-478f-bee8-0a9228254da7": {
+  "text": "Quando {{playerName}} vede qualcosa che fa pensare a te, cosa fa?",
+  "answers": [
+   "Ti manda una foto",
+   "Te lo compra",
+   "Te lo racconta dopo",
+   "Sorride tra sé e sé"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "028beae9-fde3-42a9-a054-07a4dbbabcb0": {
+  "text": "Cosa pensa {{playerName}} dei viaggi in macchina insieme?",
+  "answers": [
+   "Il suo modo preferito di viaggiare",
+   "Solo quelli brevi",
+   "Preferisce l'aereo"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b4a70fed-3cd4-4e55-9e22-97b5562bce50": {
+  "text": "Cosa ne pensa {{playerName}} di guardare il tramonto insieme?",
+  "answers": [
+   "Si scioglie ogni volta",
+   "Bello ogni tanto",
+   "Non capisce tutto questo entusiasmo"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cf5d6a6f-6357-4012-8fb4-140bc2c4f96c": {
+  "text": "Quando non siete insieme, come si fa sentire di solito {{playerName}}?",
+  "answers": [
+   "Chiamate",
+   "Messaggi tutto il giorno",
+   "Vocali",
+   "Videochiamate"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c3c74699-6d51-40f8-9586-75b6e70eeeed": {
+  "text": "Dopo una lite, quanto ci mette {{playerName}} a chiedere scusa?",
+  "answers": [
+   "Subito",
+   "A rabbia sbollita",
+   "Aspetta che sia tu a cominciare"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d35c16f5-47c4-4441-9e0c-7e6302acbb98": {
+  "text": "Cosa ne pensa {{playerName}} di fare massaggi?",
+  "answers": [
+   "Adora farli",
+   "Solo se glielo chiedi",
+   "Preferisce riceverli"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5e74dced-4bfb-4b03-9528-d54ad42f4037": {
+  "text": "Cosa direbbe {{playerName}} di un corso di ballo insieme?",
+  "answers": [
+   "Lo adorerebbe",
+   "Magari una volta, per ridere",
+   "Neanche per sogno"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "512d800b-d7ff-4309-8b5d-70f4d0db6e8c": {
+  "text": "Cosa ne pensa {{playerName}} di adottare un animale insieme?",
+  "answers": [
+   "Anche subito",
+   "Un giorno",
+   "Nessun interesse"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3db5b1ff-4d70-4d69-808a-27382595baa1": {
+  "text": "Quando stai male, cosa fa {{playerName}}?",
+  "answers": [
+   "Pensa a tutto",
+   "Porta il brodo e chiede come stai",
+   "Ti scrive da lontano",
+   "Va nel panico"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "92a22485-f820-45d0-83e4-ab79238d7d89": {
+  "text": "Cosa pensa {{playerName}} di San Valentino?",
+  "answers": [
+   "Fa le cose in grande",
+   "Basta un piccolo pensiero",
+   "Lo trova solo marketing"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bf48ba1b-6bbd-4024-b2e5-b85cc5b82fb2": {
+  "text": "Cosa ne pensa {{playerName}} di farsi fotografare da te?",
+  "answers": [
+   "Adora posare",
+   "Solo dal lato buono",
+   "Si copre la faccia"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a323a07a-bf57-46e6-962f-73895cc7fbdb": {
+  "text": "Quale faccenda di casa {{playerName}} fa volentieri per te?",
+  "answers": [
+   "Cucinare",
+   "I piatti",
+   "Il bucato",
+   "La spesa",
+   "Nessuna, bel tentativo"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4dbcf0c0-3b53-423d-b632-ac62285221f1": {
+  "text": "Come vorrebbe passare il Capodanno con te {{playerName}}?",
+  "answers": [
+   "A una grande festa",
+   "Solo voi due",
+   "In famiglia",
+   "A dormire prima di mezzanotte"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c718c4f9-d752-4afd-8f09-36e6ce0ffee9": {
+  "text": "Come preferisce addormentarsi {{playerName}} accanto a te?",
+  "answers": [
+   "Con la testa sul tuo petto",
+   "Mano nella mano",
+   "Con le gambe intrecciate",
+   "Schiena contro schiena"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8616c7c3-6247-4327-bff2-b82c78533937": {
+  "text": "Cosa ne pensa {{playerName}} di flirtare con te davanti agli altri?",
+  "answers": [
+   "Adora il brivido",
+   "Solo con discrezione",
+   "Aspetta di stare a tu per tu"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a17464b3-ef66-4fd0-9c8f-959c10c51527": {
+  "text": "Cosa pensa {{playerName}} delle coccole quando fa caldo?",
+  "answers": [
+   "Sempre, caldo o no",
+   "Solo con l'aria condizionata",
+   "Niente contatto fino all'inverno"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d40fcdb4-c134-4918-8387-b0fd0ce59b60": {
+  "text": "Quanto devono durare le coccole del mattino per {{playerName}}?",
+  "answers": [
+   "Un attimo",
+   "Circa 5 minuti",
+   "Resterebbe lì tutta la mattina",
+   "Niente coccole al mattino"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fb287bfb-df5f-4bef-b15f-867244572371": {
+  "text": "Cosa pensa {{playerName}} del piedino sotto il tavolo?",
+  "answers": [
+   "Lo adora",
+   "Ride e sta al gioco",
+   "Ritira i piedi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "271796d1-b618-46f6-89cf-72c719b420b3": {
+  "text": "Cosa pensa {{playerName}} delle coccole durante un film?",
+  "answers": [
+   "Per tutto il film",
+   "Finché il film non si fa interessante",
+   "Ha bisogno dei suoi spazi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bacfd5fb-ef55-4144-ad17-e9dc138e5715": {
+  "text": "Quando hai freddo, cosa fa {{playerName}}?",
+  "answers": [
+   "Ti dà la sua giacca",
+   "Ti abbraccia forte",
+   "Dice «te l'avevo detto»",
+   "Alza il riscaldamento"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "68d163d4-311c-4df9-9ddb-fb626513290f": {
+  "text": "Cosa pensa {{playerName}} delle coccole in pubblico, tipo su una panchina?",
+  "answers": [
+   "Le adora",
+   "Un po' va bene",
+   "Le tiene per casa"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1a7c65d8-abac-4ab0-a252-46030a85e57c": {
+  "text": "Cosa pensa {{playerName}} dei tuoi disegni col dito sulla sua schiena?",
+  "answers": [
+   "Li adora",
+   "Soffre troppo il solletico",
+   "Si addormenta all'istante",
+   "Prova a indovinare la forma"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fbe5d714-2a14-48f2-acf5-408782341481": {
+  "text": "Cosa pensa {{playerName}} dei giri a cavalluccio?",
+  "answers": [
+   "Li adora",
+   "Solo quando non ce la fa più",
+   "Preferisce fare da cavallo",
+   "Lo trova ridicolo"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dfc86686-6866-4a23-bb37-353ad50677da": {
+  "text": "In un lungo viaggio in bus o in aereo, {{playerName}} si addormenta sulla tua spalla?",
+  "answers": [
+   "Ogni volta",
+   "Solo se ha tanto sonno",
+   "Così non riesce a dormire",
+   "Sei tu a dormire sulla sua spalla"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cf9a252d-ee3b-45ca-a038-a95babace7fd": {
+  "text": "A letto, {{playerName}} ti mette addosso i piedi freddi?",
+  "answers": [
+   "Ogni notte",
+   "A volte, apposta",
+   "Mai, ha sempre i piedi caldi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "584ad277-5458-4583-bae7-761f728440fa": {
+  "text": "Di notte {{playerName}} ti ruba la coperta?",
+  "answers": [
+   "Ogni notte",
+   "A volte",
+   "Mai, fa a metà",
+   "Sei tu a rubarla"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fb34cc17-6029-405b-a37e-1aa9e01a2538": {
+  "text": "Cosa pensa {{playerName}} del solletico?",
+  "answers": [
+   "Lo adora",
+   "Ride, ma lo odia",
+   "Severamente vietato"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "566c4ec7-94ab-414f-8453-eb373885d216": {
+  "text": "Cosa ne pensa {{playerName}} se appoggi la testa sulle sue gambe?",
+  "answers": [
+   "Lo adora, ti accarezza i capelli",
+   "Per un po' va bene",
+   "Poi la gamba si addormenta"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "71c91998-41c8-4284-a017-f23bcfca973f": {
+  "text": "La sera a letto, quanto parla {{playerName}} prima di addormentarsi?",
+  "answers": [
+   "Parla fino a prendere sonno",
+   "Due parole, poi dorme",
+   "Crolla subito"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "186e2323-e74d-4a2c-a97a-c096f09fbf6a": {
+  "text": "Cosa ne pensa {{playerName}} di condividere gli auricolari con te?",
+  "answers": [
+   "Lo adora",
+   "Solo per una canzone",
+   "Servono entrambe le orecchie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b5b7464c-ed09-41e5-af07-89584a8accc4": {
+  "text": "A che età vorrebbe sposarsi {{playerName}}? Scrivi «mai» se non vuole.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1fa6303e-48c2-49b7-bde8-31a1ffd430c6": {
+  "text": "Che matrimonio sogna {{playerName}}?",
+  "answers": [
+   "Una grande festa",
+   "Piccolo e intimo",
+   "All'estero, in un posto da sogno",
+   "Solo le firme, niente cerimonia"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "03b62bf8-cd94-4d6c-9cf5-768f6416b7d0": {
+  "text": "Chi è stata la prima cotta famosa dell'infanzia di {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6b73c5ca-feb7-4d89-89d3-30030e67b220": {
+  "text": "Dove vorrebbe ricevere la proposta di matrimonio {{playerName}}?",
+  "answers": [
+   "Su una spiaggia al tramonto",
+   "A casa, solo voi due",
+   "Davanti a famiglia e amici",
+   "In un ristorante elegante"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1cf60842-17a0-46b3-95ff-5b7741f37888": {
+  "text": "Quale canzone vorrebbe {{playerName}} per il primo ballo al suo matrimonio?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "719aeb6d-792f-4a87-9a22-2edb862bd44f": {
+  "text": "Secondo {{playerName}}, quanto dovrebbe stare insieme una coppia prima di fidanzarsi ufficialmente?",
+  "answers": [
+   "Meno di un anno",
+   "1-2 anni",
+   "3-5 anni",
+   "Nessuna fretta"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9e57117a-0fa1-4441-bb07-f7881ddab173": {
+  "text": "Secondo {{playerName}}, quanti appuntamenti servono prima del primo bacio?",
+  "answers": [
+   "Va bene anche il primo",
+   "2-3 appuntamenti",
+   "4 o più",
+   "Nessuna regola"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0bee78f3-1f8e-4cd0-9f87-7935107663c0": {
+  "text": "Che luna di miele sceglierebbe {{playerName}}?",
+  "answers": [
+   "Mare e relax",
+   "Tour di città",
+   "Avventura e natura",
+   "Un viaggio on the road"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "89123ef6-61e1-4291-b833-98c7ed6aecac": {
+  "text": "Che nome vorrebbe dare {{playerName}} al primo figlio? Scrivi «nessuno» se non vuole figli.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5b678108-1630-4c12-bb6b-5119b1aeb2fd": {
+  "text": "Cosa pensa {{playerName}} della convivenza prima del matrimonio?",
+  "answers": [
+   "È d'obbligo",
+   "Va bene comunque",
+   "Solo dopo le nozze"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b896a88c-c43f-4e58-a4dd-62b9ff025423": {
+  "text": "Cosa pensa {{playerName}} del conto cointestato di coppia?",
+  "answers": [
+   "Tutto in comune",
+   "Uno comune e uno personale",
+   "Tutto separato"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8c91b4ee-f250-479d-89f3-702b3b70832a": {
+  "text": "Qual è il limite invalicabile di {{playerName}} in una relazione?",
+  "answers": [
+   "Le bugie",
+   "La gelosia",
+   "La mancanza di rispetto",
+   "La pigrizia"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "18918be4-6dab-4039-8c8e-c37d9d78b77a": {
+  "text": "Cosa pensa {{playerName}} della terapia di coppia?",
+  "answers": [
+   "Ottima idea, sempre",
+   "Solo se c'è un problema",
+   "Non fa al caso suo"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c39bcbdd-6bd3-4ed5-9581-aa4d3af4a8d0": {
+  "text": "Cosa pensa {{playerName}} delle coppie che dormono in letti separati?",
+  "answers": [
+   "Mai",
+   "Solo se qualcuno russa",
+   "Sinceramente, che sogno"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "11881fa3-028b-4408-9923-3390338938f0": {
+  "text": "Cosa ne pensa {{playerName}} di avere figli, un giorno?",
+  "answers": [
+   "Li vuole di sicuro",
+   "Forse, non ha ancora deciso",
+   "Non vuole figli"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a3878ad1-c0c8-4f1f-ab15-f155b987909a": {
+  "text": "Come la vivrebbe {{playerName}} se il suo amore guadagnasse molto di più?",
+  "answers": [
+   "Nessun problema",
+   "Un po' strano",
+   "Preferirebbe essere chi guadagna di più"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c0cd1b97-f84d-47c8-9376-bf3c4b3996d6": {
+  "text": "Dopo il matrimonio, quanto vicino ai suoi genitori vorrebbe vivere {{playerName}}?",
+  "answers": [
+   "Il più vicino possibile",
+   "Basta la stessa città",
+   "Più lontano è, meglio è"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "74705d76-6191-4da0-b08a-ea2ece7fc561": {
+  "text": "Cosa trova più romantico {{playerName}}?",
+  "answers": [
+   "I grandi gesti",
+   "I piccoli dettagli quotidiani",
+   "Un mix di entrambi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3eee6ce7-38c2-40e7-98fc-ab036b372c3a": {
+  "text": "Quanto ci mette {{playerName}} a lasciarsi andare alle tenerezze con una persona nuova?",
+  "answers": [
+   "Subito",
+   "Dopo qualche appuntamento",
+   "Qualche settimana",
+   "Mesi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "78cf8a3c-1a27-457b-b826-e87c9249632f": {
+  "text": "Cosa ama di più {{playerName}} dell'innamoramento?",
+  "answers": [
+   "Le farfalle nello stomaco",
+   "Sentirsi al sicuro",
+   "Avere un complice",
+   "La vicinanza fisica"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "418127a7-370d-4e07-b2ea-58268797c159": {
+  "text": "Quale atmosfera trova più romantica {{playerName}}?",
+  "answers": [
+   "A lume di candela",
+   "Sotto le stelle",
+   "La pioggia sui vetri",
+   "Davanti al camino"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "23de8a5f-4637-4904-a694-503d2956f946": {
+  "text": "In che modo {{playerName}} ama di più ricevere amore?",
+  "answers": [
+   "Parole dolci",
+   "Contatto fisico",
+   "Piccoli regali",
+   "Tempo di qualità insieme",
+   "Aiuto nelle cose di ogni giorno"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f2241fe7-454d-4bad-85d1-93605b59514c": {
+  "text": "Qual è l'appuntamento preferito di {{playerName}}?",
+  "answers": [
+   "Una bella cena",
+   "Qualcosa di avventuroso",
+   "Una serata tranquilla a casa",
+   "Un concerto o uno spettacolo"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1d4ceb01-3f65-4edf-84de-10da86582aa0": {
+  "text": "Quale cliché romantico adora segretamente {{playerName}}?",
+  "answers": [
+   "Petali di rosa ovunque",
+   "Una serenata a sorpresa",
+   "La colazione a letto",
+   "Una lettera d'amore"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

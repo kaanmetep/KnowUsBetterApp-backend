@@ -1,0 +1,594 @@
+[
+ {
+  "id": "93527a98-af04-46b4-ac9c-fa8ef3187751",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the future, would it be a problem for you if the person you want to marry already had a child with someone else?",
+  "tr": "Gelecekte evlenmek istediğin kişinin başka birinden bir çocuğu olması senin için bir problem olur muydu?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "edf7a999-9c89-4253-9fd5-b1ef5ab799ed",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Does love have an age limit?",
+  "tr": "Aşkın yaşı olur mu?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "e635d076-0016-4987-9d87-f888b2e841ad",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it a problem for you if your partner does not like reading books?",
+  "tr": "Sevgilinin kitap okumayı sevmemesi senin için bir problem mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "79e8a155-3eb1-4fd5-89a7-b2848c75044b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever fallen in love with someone you shouldn’t have?",
+  "tr": "Daha önce hiç aşık olmaman gereken birine aşık oldun mu?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "c141b0f8-c822-4fda-b966-2d0bfccab391",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you want to know everything about your partner’s past or only the necessary parts?",
+  "tr": "Partnerinin geçmişine dair her şeyi mi bilmek istersin yoksa sadece gerekli kısımları mı?",
+  "answers_en": [
+   "Everything",
+   "Only necessary parts"
+  ],
+  "answers_tr": [
+   "Her şey",
+   "Sadece gerekli kısımlar"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "60fa63d8-776a-4cf9-91fa-806954a2c37c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Ambitious career growth where we’re busy, or a slower, balanced life with more time together?",
+  "tr": "Kariyer odaklı yoğun bir tempo mu, yoksa daha yavaş ama birbirimize bol vakit ayıran bir hayat mı?",
+  "answers_en": [
+   "Ambitious Career",
+   "Balanced Life"
+  ],
+  "answers_tr": [
+   "Hırslı Kariyer",
+   "Dengeli Hayat"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "4aec1675-cf2f-4623-9c75-47bc416fb320",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you act cold on purpose to impress someone you like?",
+  "tr": "Hoşlandığın kişiyi etkilemek için bilerek soğuk davranır mısın?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "1613d859-b83f-4783-aa2d-695aadcc9bc2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever done something silly to get over a breakup?",
+  "tr": "Hiç ayrılık acısını atlatmak için saçmaladığın oldu mu?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "7183b9a1-aaff-4c67-a4a6-e86933246045",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it important for you to have the same taste in food as your partner?",
+  "tr": "Partnerinle aynı damak zevkine sahip olmak senin için önemli mi?",
+  "answers_en": [
+   "Important",
+   "Not important"
+  ],
+  "answers_tr": [
+   "Önemli",
+   "Önemli değil"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "17ab270c-0960-4272-bef3-497c0338069f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you rather share all passwords and locations for total trust, or keep some digital privacy for independence?",
+  "tr": "Tam güven için tüm şifreleri ve konumları paylaşmak mı, yoksa bağımsız kalmak adına biraz dijital gizlilik mi?",
+  "answers_en": [
+   "Total Transparency",
+   "Digital Privacy"
+  ],
+  "answers_tr": [
+   "Tam Şeffaflık",
+   "Dijital Gizlilik"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "ebc6c164-d692-4a9a-b39e-76ed5c8b4435",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you lie to your partner just to make them happy?",
+  "tr": "Sırf mutlu olsun diye sevgiline yalan söyler misin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "54c4d6cd-73cc-47f0-b70b-da72232dad98",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you seek revenge on a partner who cheated on you?",
+  "tr": "Seni aldatan sevgilinden intikam alır mısın?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "39450fcf-8356-4078-b219-8cb06da5af79",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you stayed single for a long time, would you lower your standards to be with someone?",
+  "tr": "Çok uzun süre yalnız kalsan, çok seçici olmadan biriyle birlikte olur musun?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "a041fab5-92d4-4a5f-be2f-b957f329b5bd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner talking about their past relationships...",
+  "tr": "Partnerinin eski ilişkilerini anlatması…",
+  "answers_en": [
+   "Normal and necessary",
+   "Unnecessary and harmful"
+  ],
+  "answers_tr": [
+   "Normal ve gerekli",
+   "Gereksiz ve zarar verir"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "65a85275-79ea-4d17-8c24-c1eb58cbcd86",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is texting every day with your partner necessary for you?",
+  "tr": "Sevgilinle her gün mesajlaşmak senin için gerekli bir şart mıdır?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "c5d257bf-030a-472a-bd4c-a2d48ae36e84",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone your friends don't consider a good physical match for you?",
+  "tr": "Arkadaş çevrenin sana fiziksel olarak yakıştırmadığı biriyle beraber olur musun?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "289535a4-8bd1-40f3-b08b-3a922499bbb7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone who is famous online?",
+  "tr": "İnternette ünlü olan biriyle beraber olur musun?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "b1acfbe5-f3af-4497-a227-9d505804fc19",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone who is very flirtatious?",
+  "tr": "Flörtöz biriyle birlikte olur musun?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "c5360398-4fae-4217-b9a9-688f74fe7070",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you believe in love at first sight?",
+  "tr": "İlk bakışta aşka inanır mısın?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "2ee5b9b7-f944-4184-95fa-6126fc6e3728",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is physical attractiveness more important to you than intelligence?",
+  "tr": "Yakışıklılık ya da güzellik senin için zekadan önce mi gelir?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "e6bbcb00-c081-42da-8fa3-49ddc918d36d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever had a period when you were very flirty?",
+  "tr": "Çok fazla çapkın olduğun bir dönem oldu mu?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "a0104269-bc85-49c8-ab80-c42c0378b7a1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your friends don't like your partner, would it make you lose interest in them?",
+  "tr": "Arkadaşların sevgilinden hoşlanmasa, bu sevgilinden soğumana sebep olur mu?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "2f245f8d-f7f9-44a4-a1ef-70380caf5c51",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think long-term friends can become romantic partners later?",
+  "tr": "Sence uzun süreli arkadaşlar sonradan sevgili olabilir mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "40004a65-7deb-4d2e-894f-c10ac0c02ede",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your friend were romantically attracted to you, would you give them a chance?",
+  "tr": "Arkadaşın senden hoşlanıyor olsa romantik anlamda, ona bir şans verir miydin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "7ee41bf9-fa8d-42ab-a4a5-25bd110543e0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you stopped trying in your relationship, would your partner still stay?",
+  "tr": "İlişkinde çabalamayı bıraksan, partnerin yine de kalır mıydı?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "b1eea995-fbe7-4313-be08-f61522b35b5a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner wanted to make a TikTok video with you for a trend, would you agree?",
+  "tr": "Sevgilin bir TikTok akımı için seninle video çekmek isterse, bunu kabul eder misin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "2a9a3787-2ade-4db3-a8ca-ac97c25f2a80",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you fell out of love, would you stay for the sake of history?",
+  "tr": "Aşkın bitse bile sadece yaşanmışlıkların hatırına kalmaya devam eder miydin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "c76d7425-b712-41a8-8a78-e20b3844a382",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Should the man make the first move?",
+  "tr": "İlk adımı erkek mi atmalı?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "e8dd11c5-218b-4d77-a137-0444c87fff31",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner looked a lot like their previous partner, would it bother you?",
+  "tr": "Sevgilinin bir önceki sevgilisine çok benziyor olsan, sorun çıkarır mıydın?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "69535b7c-b94c-4ebc-95b0-5fa46b811906",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner wanted to read your messages with your friend group, would you let them?",
+  "tr": "Sevgilin, senin arkadaş grubunla olan mesajlarını okumak isterse okutur musun?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "308773bf-cdf6-4b94-ad4b-f180e08e5163",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner is a big fan of a celebrity of the opposite sex, would it be a problem?",
+  "tr": "Sevgilin eğer ki karşı cins bir ünlüye çok fan ise, bu bir sorun yaratır mı?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "22a15b58-da54-4651-8f7e-1fe19d7759bb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is harder to rebuild after it is broken?",
+  "tr": "Kırıldıktan sonra hangisini yeniden inşa etmek daha zordur?",
+  "answers_en": [
+   "Trust",
+   "Respect"
+  ],
+  "answers_tr": [
+   "Güven",
+   "Saygı"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "3576a2e2-2091-4b80-be80-5ab444b547cd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you live in the same house with a friend of the opposite sex while having a partner?",
+  "tr": "Sevgilin varken karşı cins arkadaşınla aynı evde yaşar mısın?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "a174d015-ea8e-438b-b656-4f2fd4c4d34a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you constantly check your partner's social media followers and who they follow?",
+  "tr": "Sevgilinin sosyal medyadaki takipçilerini ve takip ettiklerini sürekli kontrol eder misin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "9dbad2cb-e77a-4d79-ab55-a910ff298ae6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever ghosted any of your flirts before?",
+  "tr": "Daha önce hiçbir flörtünü ghostladın mı?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "40f38dbd-3632-412b-8639-66caf198eccb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you prefer a passionate but argumentative relationship over a calm and romantic one?",
+  "tr": "Merhametli ve romantik bir ilişki yerine, tutkulu ama tartışmalı bir ilişki tercih eder misin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "e79b86a4-0b67-4524-863e-99c6afe7244b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you constantly stalk someone you're attracted to?",
+  "tr": "Hoşlandığın birini sürekli olarak stalklar mısın?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "f60eb06e-d599-4397-9b8e-d998cf3aa387",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you stop talking to a friend who finds you attractive if your partner asked you to?",
+  "tr": "Seni çekici bulan arkadaşınla, partnerin istediği için konuşmayı bırakır mısın?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "88d9192e-4744-437f-a872-d8506811e724",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you like it if your partner told you every time someone hit on them?",
+  "tr": "Sevgilinin sana her yürüyeni söylemesi hoşuna gider mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "ac9241fd-9c2f-4660-b29f-54b5f376e587",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your best friend and partner met without telling you, would you get jealous?",
+  "tr": "En yakın arkadaşın ve sevgilin senden habersiz buluşmuşlar. Kıskanır mıydın?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "2f3ce1da-32a3-4290-bfed-f7010eceef7f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you go on a double date with someone you don't like just for your friend?",
+  "tr": "Arkadaşın için beğenmediğin biri olsa bile 4'lü date'e çıkar mısın?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "70d85605-9926-497a-bc33-8f1f160a767b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If both you and your friend liked the same person, would you be the one to step back?",
+  "tr": "Arkadaşınla ikiniz de aynı kişiden hoşlansanız, geri çekilen taraf sen mi olursun?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "c721139f-fab6-47e1-a92a-ac02286c6f63",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is a good friendship better than a good romantic relationship?",
+  "tr": "İyi bir dostluk ilişkisi, iyi bir sevgiliden daha mı iyidir?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "8859ae1e-8d5b-42ae-b6c0-58f9db24d4e6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you try to find someone else immediately after breaking up to forget your partner?",
+  "tr": "Sevgilinle ayrıldıktan hemen sonra onu unutmak için başkasını bulmaya çalışır mısın?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "eb40b9fd-6df9-4f75-973c-88fd188c976a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever been with someone who wasn't very smart but was very attractive?",
+  "tr": "Çok zeki olmasa da çok çekici olduğu için birisiyle beraber olduğun oldu mu?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "225fc433-ee24-4a08-a284-549ba829e019",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever tried a relationship with someone just because they liked you, even if you weren’t very into them?",
+  "tr": "Sırf arkadaşın olduğu için çok hoşlanmasan bile senden hoşlandığı için bir ilişki denedin mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "6b4a33bb-950c-4e92-b374-36b9671321b2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone who strongly believes in zodiac signs?",
+  "tr": "Burçlara çok fazla inanan biriyle sevgili olur musun?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "c50d0e1f-0a2d-43a9-8770-bcf5d941ef75",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is your partner's sexual ability an important factor for you?",
+  "tr": "Partnerinin cinsel becerisi senin için önemli bir etken mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "f1a8d83b-d35c-43e5-b186-0b32e3f7b451",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you continue a relationship with someone who isn't very skilled sexually?",
+  "tr": "Cinsellikte çok iyi olmayan biriyle ilişkinizi devam ettirir misin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "d53cac0d-e7f5-4db7-ac2d-b7e17ffa702c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would it bother you if your partner's close friend of the opposite sex is very attractive?",
+  "tr": "Sevgilinin yakın karşı cins arkadaşı çok güzel/yakışıklı olmasi seni rahatsız eder mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "a1f43837-d310-4c12-8369-557c27f561fc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it a problem for you if your partner has a very high libido?",
+  "tr": "Partnerinin libidosunun çok yüksek olması senin için bir sorun mu?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "6c5538e2-5508-4b67-a9ea-a489348c4c37",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it a problem for you if your partner has a low libido?",
+  "tr": "Sevgilinin libidosunun düşük olması senin için bir problem mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "a10af84c-2ef5-49d4-8905-9088ce451ce5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it important to you how your partner earns a living?",
+  "tr": "Partnerinin geçimini nasıl sağladığı senin için önemli mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "6aaee788-917c-4ee2-8a9a-9cca6a9c69f7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever had feelings for a friend’s ex?",
+  "tr": "Hiç bir arkadaşının eski sevgilisine karşı bir şeyler hissettin mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "eea3c3ff-7e4d-47bd-afff-b4e7461f0ec2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever pretended to be sick to avoid a date?",
+  "tr": "Hiç bir buluşmadan kaçmak için hasta numarası yaptın mı?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "712df3cd-471a-4405-9e76-d54832abbcc4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever changed a feature just because someone wanted it?",
+  "tr": "Daha önce hiç bir insan istediği için bir özelliği değiştirdin mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "9314d50f-94c5-418b-815c-f36bede1a87f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think it's normal in a relationship to know your partner's social media passwords?",
+  "tr": "İlişkide sevgilinin sosyal medya hesabı şifrelerini bilmek sence normal mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "7f9d30fa-6891-460d-a0b5-34d836cff571",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Does your partner staying silent during an argument make you more angry?",
+  "tr": "Partnerinin tartışma esnasında sessiz kalması seni daha çok sinirlendirir mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "8ae7a335-ee23-4949-91da-d79b1a50e8f5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Does it bother you if your partner constantly deletes messages on their phone?",
+  "tr": "Partnerin sürekli telefonundaki mesajları siliyorsa, bu seni rahatsız eder mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "a6b504e5-84cd-460b-b095-9cb3103dbdb0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think a person's closest friend should be their partner?",
+  "tr": "Bir insanın en yakın arkadaşı sence partneri mi olmalıdır?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "0fbdca85-41a4-499a-931d-8491a38e651b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think differences in religion and race make a relationship more difficult?",
+  "tr": "Sence bir ilişkide din ve ırk farklılığı, ilişkiyi zorlaştırır mı?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "2084f3b0-b540-4c5f-a400-f9f0d46a7310",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which one do you find more attractive: intelligence or body?",
+  "tr": "Hangisini daha çekici buluyorsun: zeka mı yoksa vücut mu?",
+  "answers_en": [
+   "Intelligence",
+   "Body"
+  ],
+  "answers_tr": [
+   "Zeka",
+   "Vücut"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "ebcc2753-cafa-4764-8de8-00c9e8c64d81",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: your partner cheating on you emotionally or physically?",
+  "tr": "Hangisi daha kötü: partnerinin seni duygusal olarak aldatması mı, fiziksel olarak aldatması mı?",
+  "answers_en": [
+   "Emotionally",
+   "Physically"
+  ],
+  "answers_tr": [
+   "Duygusal olarak",
+   "Fiziksel olarak"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "63b32ee8-1fa7-4e8a-8e78-a4e97cac10d7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which would bother you more: your partner being overly honest or sometimes hiding their feelings?",
+  "tr": "Hangisi seni daha çok rahatsız eder: sevgilin aşırı açık sözlü olursa mı, yoksa duygularını bazen saklarsa mı?",
+  "answers_en": [
+   "Being honest",
+   "Hiding feelings"
+  ],
+  "answers_tr": [
+   "Açık sözlü olması",
+   "Duygularını saklaması"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "df254cfe-4e09-4956-92ce-5d706c4c7d50",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Can your partner restrict you in certain situations?",
+  "tr": "Sevgilin seni bazı konularda kısıtlayabilir mi?",
+  "category": "we_just_met"
+ }
+]

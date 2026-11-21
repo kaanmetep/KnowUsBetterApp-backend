@@ -1,0 +1,1372 @@
+[
+ {
+  "id": "4c492dce-98c0-4574-ae7e-6520dd83adfa",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who founded the Mongol Empire?",
+  "tr": "Moğol İmparatorluğu'nu kim kurdu?",
+  "answers_en": [
+   "Genghis Khan",
+   "Attila",
+   "Kublai Khan",
+   "Tamerlane"
+  ],
+  "answers_tr": [
+   "Cengiz Han",
+   "Attila",
+   "Kubilay Han",
+   "Timur"
+  ],
+  "correct_answer": "Genghis Khan",
+  "category": "trivia_master"
+ },
+ {
+  "id": "e744b5f7-37e8-4566-9a72-369fd1ed7d94",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "K-pop is popular music from which country?",
+  "tr": "K-pop hangi ülkenin popüler müziğidir?",
+  "accepted_en": [
+   "South Korea",
+   "Korea",
+   "Republic of Korea"
+  ],
+  "accepted_tr": [
+   "Güney Kore",
+   "Kore"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "eaad765d-b1c1-4969-a0e2-461cbc8d308c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which Colombian singer is famous for \"Hips Don't Lie\"?",
+  "tr": "\"Hips Don't Lie\" şarkısıyla ünlü Kolombiyalı şarkıcı kim?",
+  "answers_en": [
+   "Shakira",
+   "Karol G",
+   "Jennifer Lopez",
+   "Thalía"
+  ],
+  "answers_tr": [
+   "Shakira",
+   "Karol G",
+   "Jennifer Lopez",
+   "Thalía"
+  ],
+  "correct_answer": "Shakira",
+  "category": "trivia_master"
+ },
+ {
+  "id": "9c63629f-eefd-427d-aac7-cd721197899c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country won the 2022 FIFA World Cup in Qatar?",
+  "tr": "2022 Katar Dünya Kupası'nı hangi ülke kazandı?",
+  "answers_en": [
+   "Argentina",
+   "France",
+   "Brazil",
+   "Croatia"
+  ],
+  "answers_tr": [
+   "Arjantin",
+   "Fransa",
+   "Brezilya",
+   "Hırvatistan"
+  ],
+  "correct_answer": "Argentina",
+  "category": "trivia_master"
+ },
+ {
+  "id": "60129856-af3b-48ca-b4fd-675f43bc388a",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "In 2023, Twitter was renamed to which single letter?",
+  "tr": "Twitter 2023'te hangi tek harfli isme dönüştü?",
+  "accepted_en": [
+   "X"
+  ],
+  "accepted_tr": [
+   "X"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "0d429599-8d87-454b-b4f5-8302b97634f4",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which city hosted the 2024 Summer Olympics?",
+  "tr": "2024 Yaz Olimpiyatları hangi şehirde yapıldı?",
+  "answers_en": [
+   "Paris",
+   "Tokyo",
+   "Los Angeles",
+   "London"
+  ],
+  "answers_tr": [
+   "Paris",
+   "Tokyo",
+   "Los Angeles",
+   "Londra"
+  ],
+  "correct_answer": "Paris",
+  "category": "trivia_master"
+ },
+ {
+  "id": "e4eb8205-7b58-4c9a-9eb4-71abdb1ae774",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which company created ChatGPT?",
+  "tr": "ChatGPT'yi hangi şirket geliştirdi?",
+  "answers_en": [
+   "OpenAI",
+   "Google",
+   "Meta",
+   "Apple"
+  ],
+  "answers_tr": [
+   "OpenAI",
+   "Google",
+   "Meta",
+   "Apple"
+  ],
+  "correct_answer": "OpenAI",
+  "category": "trivia_master"
+ },
+ {
+  "id": "b691f446-45c9-4b87-951f-8c5fb76881c2",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which British queen died in 2022 after 70 years on the throne?",
+  "tr": "70 yıllık saltanatın ardından 2022'de ölen İngiliz kraliçesi kimdir?",
+  "answers_en": [
+   "Elizabeth II",
+   "Victoria",
+   "Mary",
+   "Anne"
+  ],
+  "answers_tr": [
+   "II. Elizabeth",
+   "Victoria",
+   "Mary",
+   "Anne"
+  ],
+  "correct_answer": "Elizabeth II",
+  "category": "trivia_master"
+ },
+ {
+  "id": "7210faaa-4175-4b0a-b70c-5730d0ba7514",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In 2023, which country became the first to land a spacecraft near the Moon's south pole?",
+  "tr": "2023'te Ay'ın güney kutbu yakınına uzay aracı indiren ilk ülke hangisi oldu?",
+  "answers_en": [
+   "India",
+   "China",
+   "United States",
+   "Japan"
+  ],
+  "answers_tr": [
+   "Hindistan",
+   "Çin",
+   "ABD",
+   "Japonya"
+  ],
+  "correct_answer": "India",
+  "category": "trivia_master"
+ },
+ {
+  "id": "9f50ad95-1ce8-42ab-8e0b-3bd347d33019",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In 2024, whose \"Eras Tour\" became the highest-grossing concert tour of all time?",
+  "tr": "2024'te \"Eras Tour\" ile tüm zamanların en çok hasılat yapan konser turnesine imza atan şarkıcı kim?",
+  "answers_en": [
+   "Taylor Swift",
+   "Beyoncé",
+   "Coldplay",
+   "Ed Sheeran"
+  ],
+  "answers_tr": [
+   "Taylor Swift",
+   "Beyoncé",
+   "Coldplay",
+   "Ed Sheeran"
+  ],
+  "correct_answer": "Taylor Swift",
+  "category": "trivia_master"
+ },
+ {
+  "id": "dbef5a1b-e8b9-4e2f-badd-ecc584b2a506",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In 2021, which company changed its name to Meta?",
+  "tr": "2021'de adını Meta olarak değiştiren şirket hangisi?",
+  "answers_en": [
+   "Facebook",
+   "Google",
+   "Snapchat",
+   "Microsoft"
+  ],
+  "answers_tr": [
+   "Facebook",
+   "Google",
+   "Snapchat",
+   "Microsoft"
+  ],
+  "correct_answer": "Facebook",
+  "category": "trivia_master"
+ },
+ {
+  "id": "f06c1b8a-6980-42df-89fe-b55adeb50680",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which film won the Oscar for Best Picture in 2024?",
+  "tr": "2024'te En İyi Film Oscar'ını hangi film kazandı?",
+  "answers_en": [
+   "Oppenheimer",
+   "Barbie",
+   "Poor Things",
+   "Killers of the Flower Moon"
+  ],
+  "answers_tr": [
+   "Oppenheimer",
+   "Barbie",
+   "Zavallı Şeyler",
+   "Killers of the Flower Moon"
+  ],
+  "correct_answer": "Oppenheimer",
+  "category": "trivia_master"
+ },
+ {
+  "id": "4ae711d9-060b-4476-ba2a-54553f7598ab",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which football star joined Inter Miami in 2023?",
+  "tr": "2023'te Inter Miami'ye transfer olan yıldız futbolcu kim?",
+  "answers_en": [
+   "Lionel Messi",
+   "Cristiano Ronaldo",
+   "Neymar",
+   "Kylian Mbappé"
+  ],
+  "answers_tr": [
+   "Lionel Messi",
+   "Cristiano Ronaldo",
+   "Neymar",
+   "Kylian Mbappé"
+  ],
+  "correct_answer": "Lionel Messi",
+  "category": "trivia_master"
+ },
+ {
+  "id": "b0f5a3bb-d026-41bb-ae04-4b9fe39d8c07",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who sang \"Flowers\", Spotify's most-streamed song of 2023?",
+  "tr": "Spotify'da 2023'ün en çok dinlenen şarkısı \"Flowers\"ı kim söyledi?",
+  "answers_en": [
+   "Miley Cyrus",
+   "Dua Lipa",
+   "Olivia Rodrigo",
+   "Selena Gomez"
+  ],
+  "answers_tr": [
+   "Miley Cyrus",
+   "Dua Lipa",
+   "Olivia Rodrigo",
+   "Selena Gomez"
+  ],
+  "correct_answer": "Miley Cyrus",
+  "category": "trivia_master"
+ },
+ {
+  "id": "a4003081-4a10-4950-ae5a-bc8ba3af8698",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who headlined the Super Bowl halftime show in February 2025?",
+  "tr": "Şubat 2025'teki Super Bowl devre arası şovunda kim sahne aldı?",
+  "answers_en": [
+   "Kendrick Lamar",
+   "Drake",
+   "Rihanna",
+   "Usher"
+  ],
+  "answers_tr": [
+   "Kendrick Lamar",
+   "Drake",
+   "Rihanna",
+   "Usher"
+  ],
+  "correct_answer": "Kendrick Lamar",
+  "category": "trivia_master"
+ },
+ {
+  "id": "78e44743-475f-450c-8cd8-181778fb078b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which club did Kylian Mbappé join in 2024?",
+  "tr": "Kylian Mbappé 2024'te hangi kulübe transfer oldu?",
+  "answers_en": [
+   "Real Madrid",
+   "Barcelona",
+   "Manchester City",
+   "Liverpool"
+  ],
+  "answers_tr": [
+   "Real Madrid",
+   "Barcelona",
+   "Manchester City",
+   "Liverpool"
+  ],
+  "correct_answer": "Real Madrid",
+  "category": "trivia_master"
+ },
+ {
+  "id": "beb5059d-78c3-4c48-bdde-a60719e40b3a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country won Euro 2024?",
+  "tr": "Euro 2024'ü hangi ülke kazandı?",
+  "answers_en": [
+   "Spain",
+   "England",
+   "France",
+   "Germany"
+  ],
+  "answers_tr": [
+   "İspanya",
+   "İngiltere",
+   "Fransa",
+   "Almanya"
+  ],
+  "correct_answer": "Spain",
+  "category": "trivia_master"
+ },
+ {
+  "id": "f1832cc6-7df0-42ab-92bb-969b46f7b33d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who won Album of the Year at the 2025 Grammys with \"Cowboy Carter\"?",
+  "tr": "2025 Grammy'lerinde \"Cowboy Carter\" ile Yılın Albümü ödülünü kim kazandı?",
+  "answers_en": [
+   "Beyoncé",
+   "Taylor Swift",
+   "Billie Eilish",
+   "Sabrina Carpenter"
+  ],
+  "answers_tr": [
+   "Beyoncé",
+   "Taylor Swift",
+   "Billie Eilish",
+   "Sabrina Carpenter"
+  ],
+  "correct_answer": "Beyoncé",
+  "category": "trivia_master"
+ },
+ {
+  "id": "e5687820-3e50-4945-a40e-cb0d9e381200",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which Formula 1 driver won four world titles in a row from 2021 to 2024?",
+  "tr": "2021'den 2024'e üst üste dört kez Formula 1 şampiyonu olan pilot kim?",
+  "answers_en": [
+   "Max Verstappen",
+   "Lewis Hamilton",
+   "Charles Leclerc",
+   "Lando Norris"
+  ],
+  "answers_tr": [
+   "Max Verstappen",
+   "Lewis Hamilton",
+   "Charles Leclerc",
+   "Lando Norris"
+  ],
+  "correct_answer": "Max Verstappen",
+  "category": "trivia_master"
+ },
+ {
+  "id": "6c98b4bf-4573-474a-bb8b-0e1d7b3eb0b5",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which Saudi club did Cristiano Ronaldo join in 2023?",
+  "tr": "Cristiano Ronaldo 2023'te hangi Suudi Arabistan kulübüne transfer oldu?",
+  "answers_en": [
+   "Al Nassr",
+   "Al Hilal",
+   "Al Ittihad",
+   "Al Ahli"
+  ],
+  "answers_tr": [
+   "Al Nassr",
+   "Al Hilal",
+   "Al Ittihad",
+   "Al Ahli"
+  ],
+  "correct_answer": "Al Nassr",
+  "category": "trivia_master"
+ },
+ {
+  "id": "4eddca60-90bb-4c91-b86b-30b870db71c6",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which BLACKPINK member sang the 2024 hit \"APT.\" with Bruno Mars?",
+  "tr": "Bruno Mars ile 2024'ün hit şarkısı \"APT.\"yi söyleyen BLACKPINK üyesi kim?",
+  "answers_en": [
+   "Rosé",
+   "Lisa",
+   "Jennie",
+   "Jisoo"
+  ],
+  "answers_tr": [
+   "Rosé",
+   "Lisa",
+   "Jennie",
+   "Jisoo"
+  ],
+  "correct_answer": "Rosé",
+  "category": "trivia_master"
+ },
+ {
+  "id": "09e025bc-1030-4bba-ac13-bfb856378373",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country's flag has a red maple leaf on it?",
+  "tr": "Bayrağında kırmızı bir akçaağaç yaprağı olan ülke hangisi?",
+  "answers_en": [
+   "Canada",
+   "United States",
+   "Switzerland",
+   "Austria"
+  ],
+  "answers_tr": [
+   "Kanada",
+   "ABD",
+   "İsviçre",
+   "Avusturya"
+  ],
+  "correct_answer": "Canada",
+  "category": "trivia_master"
+ },
+ {
+  "id": "be0a9d42-e487-408f-8aa9-1680a9bd2eb9",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country's flag is a red circle on a white background?",
+  "tr": "Bayrağı beyaz zemin üzerinde kırmızı bir daire olan ülke hangisi?",
+  "answers_en": [
+   "Japan",
+   "South Korea",
+   "China",
+   "Bangladesh"
+  ],
+  "answers_tr": [
+   "Japonya",
+   "Güney Kore",
+   "Çin",
+   "Bangladeş"
+  ],
+  "correct_answer": "Japan",
+  "category": "trivia_master"
+ },
+ {
+  "id": "d3a8cb5e-faea-404d-becf-a6a5c2675ee0",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which phrase is written on Brazil's flag?",
+  "tr": "Brezilya bayrağında hangi söz yazar?",
+  "answers_en": [
+   "Order and Progress",
+   "Freedom and Unity",
+   "God and Country",
+   "Peace and Love"
+  ],
+  "answers_tr": [
+   "Düzen ve İlerleme",
+   "Özgürlük ve Birlik",
+   "Tanrı ve Vatan",
+   "Barış ve Sevgi"
+  ],
+  "correct_answer": "Order and Progress",
+  "category": "trivia_master"
+ },
+ {
+  "id": "b9d0f221-dc7d-4119-89da-5a278014a8f0",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which bird is shown eating a snake on Mexico's flag?",
+  "tr": "Meksika bayrağında yılan yiyen kuş hangisi?",
+  "accepted_en": [
+   "Eagle",
+   "Golden eagle"
+  ],
+  "accepted_tr": [
+   "Kartal",
+   "Altın kartal"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "5b6681a5-b76e-450c-b88f-52f29f0d943e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country has a square red flag with a white cross in the middle?",
+  "tr": "Kare şeklindeki kırmızı bayrağının ortasında beyaz bir haç olan ülke hangisi?",
+  "answers_en": [
+   "Switzerland",
+   "Denmark",
+   "Norway",
+   "England"
+  ],
+  "answers_tr": [
+   "İsviçre",
+   "Danimarka",
+   "Norveç",
+   "İngiltere"
+  ],
+  "correct_answer": "Switzerland",
+  "category": "trivia_master"
+ },
+ {
+  "id": "3aa65717-7a8e-4eee-a644-d4fdfc1fb1a7",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Breaking Bad\", what subject does Walter White teach at the start of the series?",
+  "tr": "\"Breaking Bad\"in başında Walter White hangi dersin öğretmeni?",
+  "answers_en": [
+   "Chemistry",
+   "Physics",
+   "Biology",
+   "Math"
+  ],
+  "answers_tr": [
+   "Kimya",
+   "Fizik",
+   "Biyoloji",
+   "Matematik"
+  ],
+  "correct_answer": "Chemistry",
+  "category": "trivia_master"
+ },
+ {
+  "id": "6fe3ba30-9ac6-43ac-8281-7d47be849ef1",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Money Heist\", whose face is on the masks the robbers wear?",
+  "tr": "\"La Casa de Papel\"de soyguncuların taktığı maskede kimin yüzü var?",
+  "answers_en": [
+   "Salvador Dalí",
+   "Pablo Picasso",
+   "Vincent van Gogh",
+   "Frida Kahlo"
+  ],
+  "answers_tr": [
+   "Salvador Dalí",
+   "Pablo Picasso",
+   "Vincent van Gogh",
+   "Frida Kahlo"
+  ],
+  "correct_answer": "Salvador Dalí",
+  "category": "trivia_master"
+ },
+ {
+  "id": "258b3c9e-6f64-4fec-9d76-bfb5439d4a48",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In the \"Despicable Me\" films, which fruit are the Minions obsessed with?",
+  "tr": "\"Çılgın Hırsız\" filmlerinde Minyonlar hangi meyveye bayılıyor?",
+  "answers_en": [
+   "Banana",
+   "Apple",
+   "Strawberry",
+   "Watermelon"
+  ],
+  "answers_tr": [
+   "Muz",
+   "Elma",
+   "Çilek",
+   "Karpuz"
+  ],
+  "correct_answer": "Banana",
+  "category": "trivia_master"
+ },
+ {
+  "id": "2177f9a0-4d6d-4f5f-904d-df07c99b1bcb",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In 2025, which name did the newly elected pope choose?",
+  "tr": "2025'te seçilen yeni papa hangi ismi aldı?",
+  "answers_en": [
+   "Leo XIV",
+   "Francis II",
+   "John Paul III",
+   "Benedict XVII"
+  ],
+  "answers_tr": [
+   "XIV. Leo",
+   "II. Francis",
+   "III. John Paul",
+   "XVII. Benedict"
+  ],
+  "correct_answer": "Leo XIV",
+  "category": "trivia_master"
+ },
+ {
+  "id": "48fb1a79-23aa-439f-ad30-141b7581e8de",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which three countries co-hosted the 2026 FIFA World Cup?",
+  "tr": "2026 FIFA Dünya Kupası'na hangi üç ülke ortak ev sahipliği yaptı?",
+  "answers_en": [
+   "USA, Canada and Mexico",
+   "Spain, Portugal and Morocco",
+   "Brazil, Argentina and Chile",
+   "Qatar, Saudi Arabia and UAE"
+  ],
+  "answers_tr": [
+   "ABD, Kanada ve Meksika",
+   "İspanya, Portekiz ve Fas",
+   "Brezilya, Arjantin ve Şili",
+   "Katar, Suudi Arabistan ve BAE"
+  ],
+  "correct_answer": "USA, Canada and Mexico",
+  "category": "trivia_master"
+ },
+ {
+  "id": "6d6ed0ee-a48d-420f-89bf-7815676ee13c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country hosted the 2026 Winter Olympics?",
+  "tr": "2026 Kış Olimpiyatları hangi ülkede yapıldı?",
+  "answers_en": [
+   "Italy",
+   "France",
+   "Switzerland",
+   "Austria"
+  ],
+  "answers_tr": [
+   "İtalya",
+   "Fransa",
+   "İsviçre",
+   "Avusturya"
+  ],
+  "correct_answer": "Italy",
+  "category": "trivia_master"
+ },
+ {
+  "id": "1901294e-19fd-4941-a041-87d2932a8d77",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which club won the Champions League for the first time in its history in 2025?",
+  "tr": "2025'te tarihinde ilk kez Şampiyonlar Ligi'ni kazanan kulüp hangisi?",
+  "answers_en": [
+   "Paris Saint-Germain",
+   "Arsenal",
+   "Inter",
+   "Manchester City"
+  ],
+  "answers_tr": [
+   "Paris Saint-Germain",
+   "Arsenal",
+   "Inter",
+   "Manchester City"
+  ],
+  "correct_answer": "Paris Saint-Germain",
+  "category": "trivia_master"
+ },
+ {
+  "id": "b25b0033-312e-4e62-9e2e-3246c3dbb31b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which toothy little monster doll became a worldwide craze in 2025?",
+  "tr": "2025'te tüm dünyada çılgınlık yaratan sivri dişli küçük canavar oyuncak hangisi?",
+  "answers_en": [
+   "Labubu",
+   "Furby",
+   "Squishmallow",
+   "Cry Baby"
+  ],
+  "answers_tr": [
+   "Labubu",
+   "Furby",
+   "Squishmallow",
+   "Cry Baby"
+  ],
+  "correct_answer": "Labubu",
+  "category": "trivia_master"
+ },
+ {
+  "id": "bd4c05b5-3582-4380-987c-132223ed6f46",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In 2025, Taylor Swift got engaged to which NFL player?",
+  "tr": "Taylor Swift 2025'te hangi NFL oyuncusuyla nişanlandı?",
+  "answers_en": [
+   "Travis Kelce",
+   "Patrick Mahomes",
+   "Tom Brady",
+   "Jason Kelce"
+  ],
+  "answers_tr": [
+   "Travis Kelce",
+   "Patrick Mahomes",
+   "Tom Brady",
+   "Jason Kelce"
+  ],
+  "correct_answer": "Travis Kelce",
+  "category": "trivia_master"
+ },
+ {
+  "id": "14ab9242-9fa4-44f6-a528-7c4354dd1715",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In December 2024, which famous cathedral reopened after five years of restoration?",
+  "tr": "Aralık 2024'te 5 yıllık restorasyonun ardından yeniden açılan ünlü katedral hangisi?",
+  "answers_en": [
+   "Notre-Dame de Paris",
+   "Sagrada Família",
+   "Cologne Cathedral",
+   "St. Paul's Cathedral"
+  ],
+  "answers_tr": [
+   "Notre-Dame de Paris",
+   "Sagrada Família",
+   "Köln Katedrali",
+   "St. Paul Katedrali"
+  ],
+  "correct_answer": "Notre-Dame de Paris",
+  "category": "trivia_master"
+ },
+ {
+  "id": "ac86a66e-c7b5-4935-acf1-7fad4b92b968",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which club won the first 32-team FIFA Club World Cup in 2025?",
+  "tr": "2025'te 32 takımla oynanan ilk FIFA Kulüpler Dünya Kupası'nı hangi kulüp kazandı?",
+  "answers_en": [
+   "Chelsea",
+   "Paris Saint-Germain",
+   "Real Madrid",
+   "Bayern Munich"
+  ],
+  "answers_tr": [
+   "Chelsea",
+   "Paris Saint-Germain",
+   "Real Madrid",
+   "Bayern Münih"
+  ],
+  "correct_answer": "Chelsea",
+  "category": "trivia_master"
+ },
+ {
+  "id": "80b8ddc9-0e7c-4a73-964b-12e040b5f9cc",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who won the 2025 Ballon d'Or?",
+  "tr": "2025 Ballon d'Or'u (Altın Top) kim kazandı?",
+  "answers_en": [
+   "Ousmane Dembélé",
+   "Lamine Yamal",
+   "Kylian Mbappé",
+   "Mohamed Salah"
+  ],
+  "answers_tr": [
+   "Ousmane Dembélé",
+   "Lamine Yamal",
+   "Kylian Mbappé",
+   "Mohamed Salah"
+  ],
+  "correct_answer": "Ousmane Dembélé",
+  "category": "trivia_master"
+ },
+ {
+  "id": "4e4aac0f-c689-49f6-9a1c-cd7c9ef5891b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country won Eurovision 2025?",
+  "tr": "Eurovision 2025'i hangi ülke kazandı?",
+  "answers_en": [
+   "Austria",
+   "Sweden",
+   "Israel",
+   "Switzerland"
+  ],
+  "answers_tr": [
+   "Avusturya",
+   "İsveç",
+   "İsrail",
+   "İsviçre"
+  ],
+  "correct_answer": "Austria",
+  "category": "trivia_master"
+ },
+ {
+  "id": "7553dfa4-325a-40dd-9d78-74834ab54496",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which phrase was named Oxford's Word of the Year for 2024?",
+  "tr": "Oxford sözlüğü 2024'ün yılın kelimesi olarak hangisini seçti?",
+  "answers_en": [
+   "Brain rot",
+   "Rizz",
+   "Demure",
+   "Brat"
+  ],
+  "answers_tr": [
+   "Brain rot (beyin çürümesi)",
+   "Rizz",
+   "Demure",
+   "Brat"
+  ],
+  "correct_answer": "Brain rot",
+  "category": "trivia_master"
+ },
+ {
+  "id": "860858d1-7627-4e3c-a607-a71bfcac23ad",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which company released the Vision Pro headset in 2024?",
+  "tr": "2024'te Vision Pro gözlüğünü hangi şirket piyasaya sürdü?",
+  "answers_en": [
+   "Apple",
+   "Meta",
+   "Samsung",
+   "Sony"
+  ],
+  "answers_tr": [
+   "Apple",
+   "Meta",
+   "Samsung",
+   "Sony"
+  ],
+  "correct_answer": "Apple",
+  "category": "trivia_master"
+ },
+ {
+  "id": "bb232a4c-eda8-4ff2-b7f3-451f28a0c6f3",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who sang the 2024 summer hit \"Espresso\"?",
+  "tr": "2024 yazının hiti \"Espresso\" şarkısı kimin?",
+  "answers_en": [
+   "Sabrina Carpenter",
+   "Olivia Rodrigo",
+   "Billie Eilish",
+   "Ariana Grande"
+  ],
+  "answers_tr": [
+   "Sabrina Carpenter",
+   "Olivia Rodrigo",
+   "Billie Eilish",
+   "Ariana Grande"
+  ],
+  "correct_answer": "Sabrina Carpenter",
+  "category": "trivia_master"
+ },
+ {
+  "id": "385cd09c-b6d3-442d-a926-4b263fe7db71",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "At Paris 2024, Turkish shooter Yusuf Dikeç went viral for competing how?",
+  "tr": "Paris 2024'te Türk atıcı Yusuf Dikeç nasıl yarıştığı için dünyada viral oldu?",
+  "answers_en": [
+   "With one hand in his pocket",
+   "With his eyes closed",
+   "Sitting on a chair",
+   "Barefoot"
+  ],
+  "answers_tr": [
+   "Bir eli cebinde",
+   "Gözleri kapalı",
+   "Sandalyede oturarak",
+   "Yalınayak"
+  ],
+  "correct_answer": "With one hand in his pocket",
+  "category": "trivia_master"
+ },
+ {
+  "id": "a99409ba-4dff-4234-8fa3-e5122182a598",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which company launched the app Threads in 2023?",
+  "tr": "Threads uygulamasını 2023'te hangi şirket çıkardı?",
+  "answers_en": [
+   "Meta",
+   "Google",
+   "X",
+   "TikTok"
+  ],
+  "answers_tr": [
+   "Meta",
+   "Google",
+   "X",
+   "TikTok"
+  ],
+  "correct_answer": "Meta",
+  "category": "trivia_master"
+ },
+ {
+  "id": "7c110f47-2553-4f6c-b3ae-b11d40772eeb",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In December 2024, which cryptocurrency passed $100,000 for the first time?",
+  "tr": "Aralık 2024'te ilk kez 100.000 doları geçen kripto para hangisi?",
+  "answers_en": [
+   "Bitcoin",
+   "Ethereum",
+   "Dogecoin",
+   "Solana"
+  ],
+  "answers_tr": [
+   "Bitcoin",
+   "Ethereum",
+   "Dogecoin",
+   "Solana"
+  ],
+  "correct_answer": "Bitcoin",
+  "category": "trivia_master"
+ },
+ {
+  "id": "c2d44ca2-e912-4652-9b99-ea8e67b1afc3",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In early 2025, which Chinese AI chatbot shook global tech markets?",
+  "tr": "2025'in başında küresel teknoloji piyasalarını sarsan Çin yapımı yapay zeka sohbet botu hangisi?",
+  "answers_en": [
+   "DeepSeek",
+   "Ernie",
+   "Qwen",
+   "Kimi"
+  ],
+  "answers_tr": [
+   "DeepSeek",
+   "Ernie",
+   "Qwen",
+   "Kimi"
+  ],
+  "correct_answer": "DeepSeek",
+  "category": "trivia_master"
+ },
+ {
+  "id": "9117d33a-156b-42bb-bb39-fa7c97969e9d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "At Euro 2024, who became the youngest goalscorer in the tournament's history?",
+  "tr": "Euro 2024'te turnuva tarihinin en genç golcüsü kim oldu?",
+  "answers_en": [
+   "Lamine Yamal",
+   "Jude Bellingham",
+   "Jamal Musiala",
+   "Arda Güler"
+  ],
+  "answers_tr": [
+   "Lamine Yamal",
+   "Jude Bellingham",
+   "Jamal Musiala",
+   "Arda Güler"
+  ],
+  "correct_answer": "Lamine Yamal",
+  "category": "trivia_master"
+ },
+ {
+  "id": "dfb5e5d1-fe6f-4e8c-a491-f161dd922f53",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which rapper became a viral star as a TV reporter at the Paris 2024 Olympics?",
+  "tr": "Paris 2024 Olimpiyatları'nda TV muhabiri olarak viral olan rapçi kim?",
+  "answers_en": [
+   "Snoop Dogg",
+   "Drake",
+   "Eminem",
+   "Jay-Z"
+  ],
+  "answers_tr": [
+   "Snoop Dogg",
+   "Drake",
+   "Eminem",
+   "Jay-Z"
+  ],
+  "correct_answer": "Snoop Dogg",
+  "category": "trivia_master"
+ },
+ {
+  "id": "6e3815c6-71e2-4a08-9404-56eb6108233f",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which language did Bad Bunny perform most of his 2026 Super Bowl halftime show?",
+  "tr": "Bad Bunny 2026 Super Bowl devre arası şovunun çoğunu hangi dilde söyledi?",
+  "answers_en": [
+   "Spanish",
+   "English",
+   "Portuguese",
+   "Half and half"
+  ],
+  "answers_tr": [
+   "İspanyolca",
+   "İngilizce",
+   "Portekizce",
+   "Yarı yarıya"
+  ],
+  "correct_answer": "Spanish",
+  "category": "trivia_master"
+ },
+ {
+  "id": "6695b2a1-53de-4737-8ccb-0a0417c89995",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which Formula 1 team did Lewis Hamilton join in 2025?",
+  "tr": "Lewis Hamilton 2025'te hangi Formula 1 takımına geçti?",
+  "answers_en": [
+   "Ferrari",
+   "Red Bull",
+   "McLaren",
+   "Aston Martin"
+  ],
+  "answers_tr": [
+   "Ferrari",
+   "Red Bull",
+   "McLaren",
+   "Aston Martin"
+  ],
+  "correct_answer": "Ferrari",
+  "category": "trivia_master"
+ },
+ {
+  "id": "7966f3a2-6d2c-4325-bd64-d28634bdc6e2",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Freddie Mercury was the lead singer of which band?",
+  "tr": "Freddie Mercury hangi grubun solistiydi?",
+  "answers_en": [
+   "Queen",
+   "The Rolling Stones",
+   "Led Zeppelin",
+   "Pink Floyd"
+  ],
+  "answers_tr": [
+   "Queen",
+   "The Rolling Stones",
+   "Led Zeppelin",
+   "Pink Floyd"
+  ],
+  "correct_answer": "Queen",
+  "category": "trivia_master"
+ },
+ {
+  "id": "32d4f212-d53e-476e-9251-0558b612c0e4",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which South Korean singer's \"Gangnam Style\" became the first YouTube video to hit 1 billion views?",
+  "tr": "\"Gangnam Style\" ile YouTube'da 1 milyar izlenmeyi geçen ilk videonun sahibi Güney Koreli şarkıcı kim?",
+  "answers_en": [
+   "PSY",
+   "BTS",
+   "Big Bang",
+   "Rain"
+  ],
+  "answers_tr": [
+   "PSY",
+   "BTS",
+   "Big Bang",
+   "Rain"
+  ],
+  "correct_answer": "PSY",
+  "category": "trivia_master"
+ },
+ {
+  "id": "4d2db1c8-550c-44d3-8caa-999f963a8dd3",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who sang \"Shape of You\"?",
+  "tr": "\"Shape of You\" şarkısı kimin?",
+  "answers_en": [
+   "Ed Sheeran",
+   "Justin Bieber",
+   "Shawn Mendes",
+   "Harry Styles"
+  ],
+  "answers_tr": [
+   "Ed Sheeran",
+   "Justin Bieber",
+   "Shawn Mendes",
+   "Harry Styles"
+  ],
+  "correct_answer": "Ed Sheeran",
+  "category": "trivia_master"
+ },
+ {
+  "id": "809a1048-fbc4-4d75-9756-c24b4148d2fd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which British singer is behind the hits \"Hello\" and \"Someone Like You\"?",
+  "tr": "\"Hello\" ve \"Someone Like You\" şarkılarıyla tanınan İngiliz şarkıcı kim?",
+  "answers_en": [
+   "Adele",
+   "Amy Winehouse",
+   "Dua Lipa",
+   "Ellie Goulding"
+  ],
+  "answers_tr": [
+   "Adele",
+   "Amy Winehouse",
+   "Dua Lipa",
+   "Ellie Goulding"
+  ],
+  "correct_answer": "Adele",
+  "category": "trivia_master"
+ },
+ {
+  "id": "dee7a5f4-0d3e-47c5-beac-68dfc289cd1d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In 2023, whose \"Blinding Lights\" became the most-streamed song in Spotify history?",
+  "tr": "2023'te Spotify tarihinin en çok dinlenen şarkısı olan \"Blinding Lights\" kimin?",
+  "answers_en": [
+   "The Weeknd",
+   "Drake",
+   "Bruno Mars",
+   "Post Malone"
+  ],
+  "answers_tr": [
+   "The Weeknd",
+   "Drake",
+   "Bruno Mars",
+   "Post Malone"
+  ],
+  "correct_answer": "The Weeknd",
+  "category": "trivia_master"
+ },
+ {
+  "id": "ec9edd24-0567-42cd-88f0-0060565936ce",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country is shaped like a boot on the map?",
+  "tr": "Haritada çizme şeklinde görünen ülke hangisi?",
+  "answers_en": [
+   "Italy",
+   "Greece",
+   "Portugal",
+   "Croatia"
+  ],
+  "answers_tr": [
+   "İtalya",
+   "Yunanistan",
+   "Portekiz",
+   "Hırvatistan"
+  ],
+  "correct_answer": "Italy",
+  "category": "trivia_master"
+ },
+ {
+  "id": "cda07f75-8c73-4c97-9d5f-73eadc4f0e87",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which country is the Taj Mahal?",
+  "tr": "Tac Mahal hangi ülkede?",
+  "answers_en": [
+   "India",
+   "Pakistan",
+   "Iran",
+   "Nepal"
+  ],
+  "answers_tr": [
+   "Hindistan",
+   "Pakistan",
+   "İran",
+   "Nepal"
+  ],
+  "correct_answer": "India",
+  "category": "trivia_master"
+ },
+ {
+  "id": "86f4c26f-20cb-47b3-a176-78618bf88998",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which country is the ancient city of Petra, carved into pink rock?",
+  "tr": "Pembe kayalara oyulmuş antik kent Petra hangi ülkede?",
+  "answers_en": [
+   "Jordan",
+   "Egypt",
+   "Turkey",
+   "Greece"
+  ],
+  "answers_tr": [
+   "Ürdün",
+   "Mısır",
+   "Türkiye",
+   "Yunanistan"
+  ],
+  "correct_answer": "Jordan",
+  "category": "trivia_master"
+ },
+ {
+  "id": "a0c31118-39a0-4875-a58d-1ef025a7309e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country is known as the \"Land of the Rising Sun\"?",
+  "tr": "\"Doğan Güneşin Ülkesi\" olarak bilinen ülke hangisi?",
+  "answers_en": [
+   "Japan",
+   "China",
+   "South Korea",
+   "Thailand"
+  ],
+  "answers_tr": [
+   "Japonya",
+   "Çin",
+   "Güney Kore",
+   "Tayland"
+  ],
+  "correct_answer": "Japan",
+  "category": "trivia_master"
+ },
+ {
+  "id": "5c5574b9-62a0-4271-accb-e5a5e62ac439",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which country do kangaroos live in the wild?",
+  "tr": "Kangurular doğada hangi ülkede yaşar?",
+  "answers_en": [
+   "Australia",
+   "South Africa",
+   "Brazil",
+   "India"
+  ],
+  "answers_tr": [
+   "Avustralya",
+   "Güney Afrika",
+   "Brezilya",
+   "Hindistan"
+  ],
+  "correct_answer": "Australia",
+  "category": "trivia_master"
+ },
+ {
+  "id": "d272d3e9-0403-44d5-a333-ac84a9c3e63e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Flamenco dancing comes from which country?",
+  "tr": "Flamenko dansı hangi ülkeden çıkmıştır?",
+  "answers_en": [
+   "Spain",
+   "Mexico",
+   "Italy",
+   "Argentina"
+  ],
+  "answers_tr": [
+   "İspanya",
+   "Meksika",
+   "İtalya",
+   "Arjantin"
+  ],
+  "correct_answer": "Spain",
+  "category": "trivia_master"
+ },
+ {
+  "id": "6c03ce24-a77c-4a0b-8749-b9c629915679",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Little Red Riding Hood\", which animal pretends to be the grandmother?",
+  "tr": "\"Kırmızı Başlıklı Kız\"da büyükanne kılığına giren hayvan hangisi?",
+  "answers_en": [
+   "Wolf",
+   "Fox",
+   "Bear",
+   "Lion"
+  ],
+  "answers_tr": [
+   "Kurt",
+   "Tilki",
+   "Ayı",
+   "Aslan"
+  ],
+  "correct_answer": "Wolf",
+  "category": "trivia_master"
+ },
+ {
+  "id": "72adb892-47e1-4d39-9c16-1004d3de980a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Alice in Wonderland\", which animal does Alice follow down the hole?",
+  "tr": "\"Alice Harikalar Diyarında\"da Alice deliğe hangi hayvanın peşinden düşer?",
+  "answers_en": [
+   "White Rabbit",
+   "Black Cat",
+   "Mouse",
+   "Frog"
+  ],
+  "answers_tr": [
+   "Beyaz Tavşan",
+   "Kara Kedi",
+   "Fare",
+   "Kurbağa"
+  ],
+  "correct_answer": "White Rabbit",
+  "category": "trivia_master"
+ },
+ {
+  "id": "44450874-8b02-4a4a-b49e-b9bc602d9afd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Hansel and Gretel\", what is the witch's house made of?",
+  "tr": "\"Hansel ve Gretel\"de cadının evi neden yapılmıştır?",
+  "answers_en": [
+   "Candy and gingerbread",
+   "Ice",
+   "Gold",
+   "Straw"
+  ],
+  "answers_tr": [
+   "Şeker ve kurabiye",
+   "Buz",
+   "Altın",
+   "Saman"
+  ],
+  "correct_answer": "Candy and gingerbread",
+  "category": "trivia_master"
+ },
+ {
+  "id": "66f55237-2675-4545-aa32-6db8582998d0",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is Rapunzel famous for?",
+  "tr": "Rapunzel neyiyle meşhurdur?",
+  "answers_en": [
+   "Her very long hair",
+   "A glass slipper",
+   "A poisoned apple",
+   "Sleeping for 100 years"
+  ],
+  "answers_tr": [
+   "Upuzun saçları",
+   "Cam ayakkabısı",
+   "Zehirli elma",
+   "100 yıl uyuması"
+  ],
+  "correct_answer": "Her very long hair",
+  "category": "trivia_master"
+ },
+ {
+  "id": "d6637d23-6147-4499-96a8-d0a2ff60e547",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Aladdin\", how many wishes does the genie of the lamp grant?",
+  "tr": "\"Alaaddin\"de lambanın cini kaç dilek hakkı verir?",
+  "answers_en": [
+   "3",
+   "1",
+   "5",
+   "7"
+  ],
+  "answers_tr": [
+   "3",
+   "1",
+   "5",
+   "7"
+  ],
+  "correct_answer": "3",
+  "category": "trivia_master"
+ }
+]

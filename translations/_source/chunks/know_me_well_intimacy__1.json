@@ -1,0 +1,904 @@
+[
+ {
+  "id": "8fc01dc5-83b3-444e-bf05-19983365bb14",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If {{playerName}} had a fantasy they've never shared, would they rather confess it openly or wait for their partner to discover it?",
+  "tr": "Hiç paylaşmadığı bir fantezisi olsaydı, {{playerName}} bunu açıkça itiraf etmeyi mi, yoksa partnerinin keşfetmesini beklemeyi mi tercih ederdi?",
+  "answers_en": [
+   "Confess openly",
+   "Wait to be discovered"
+  ],
+  "answers_tr": [
+   "Açıkça itiraf eder",
+   "Keşfedilmesini bekler"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "55d5089f-adbc-4486-9caf-71a65e3522cc",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Lights on or lights off for {{playerName}}?",
+  "tr": "{{playerName}} için ışıklar açık mı, kapalı mı?",
+  "answers_en": [
+   "Lights on",
+   "Lights off"
+  ],
+  "answers_tr": [
+   "Açık",
+   "Kapalı"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "f265038d-f5ec-4355-ad38-81c9e5c98ff0",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "When it comes to romance, is {{playerName}} more of a morning or night person?",
+  "tr": "{{playerName}} romantizm konusunda sabahçı mı, gececi mi?",
+  "answers_en": [
+   "Morning",
+   "Night"
+  ],
+  "answers_tr": [
+   "Sabah",
+   "Gece"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "f5df704c-d34d-4cbe-866e-e5cef10d00b8",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather be kissed out of nowhere in public, or wait until you're finally alone?",
+  "tr": "{{playerName}} herkesin içinde bir anda öpülmeyi mi tercih eder, yoksa baş başa kalana kadar beklemeyi mi?",
+  "answers_en": [
+   "Out of nowhere in public",
+   "Wait until alone"
+  ],
+  "answers_tr": [
+   "Herkesin içinde, bir anda",
+   "Baş başa kalınca"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "15587c50-a9a2-4fd3-9247-0153004d7d4c",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} like it more when their partner dresses up, or when they're just lounging around at home in a t-shirt?",
+  "tr": "{{playerName}} partnerinin şık giyinmesini mi daha çok sever, yoksa evde salaş bir tişörtle takılmasını mı?",
+  "answers_en": [
+   "Dressed up",
+   "Just a t-shirt"
+  ],
+  "answers_tr": [
+   "Şık giyinmiş",
+   "Salaş bir tişört"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "44e16874-15b9-407b-89c7-b9d6a6523f27",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather get a flirty text in the middle of a boring workday, or hear it all in person later?",
+  "tr": "{{playerName}} sıkıcı bir iş gününün ortasında flörtöz bir mesaj almayı mı sever, yoksa hepsini sonra yüz yüze duymayı mı?",
+  "answers_en": [
+   "A flirty text",
+   "In person later"
+  ],
+  "answers_tr": [
+   "Flörtöz bir mesaj",
+   "Sonra yüz yüze"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "52ff8815-c04d-4145-9bac-953c078df9ce",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "In romantic moments, does {{playerName}} like taking things slow, or getting straight to the point?",
+  "tr": "{{playerName}} romantik anlarda işleri yavaştan almayı mı sever, yoksa direkt sadede gelmeyi mi?",
+  "answers_en": [
+   "Taking it slow",
+   "Straight to the point"
+  ],
+  "answers_tr": [
+   "Yavaştan almak",
+   "Direkt sadede gelmek"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "73562a31-6a7a-4363-aa77-d5168d7657fa",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which does {{playerName}} love more: a kiss on the forehead or a kiss on the neck?",
+  "tr": "{{playerName}} hangisini daha çok sever: alnından öpülmeyi mi, boynundan öpülmeyi mi?",
+  "answers_en": [
+   "On the forehead",
+   "On the neck"
+  ],
+  "answers_tr": [
+   "Alından",
+   "Boyundan"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "58600fd8-bed4-471f-91be-8876ab4af01d",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What gets to {{playerName}} more: their partner's voice or their scent?",
+  "tr": "{{playerName}} partnerinin sesinden mi daha çok etkilenir, yoksa kokusundan mı?",
+  "answers_en": [
+   "Their voice",
+   "Their scent"
+  ],
+  "answers_tr": [
+   "Sesi",
+   "Kokusu"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "b34eb481-b4ee-4a67-bef3-76ceca435273",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather spend a lazy Sunday morning in bed together, or get up and go out for breakfast?",
+  "tr": "{{playerName}} tembel bir pazar sabahını birlikte yatakta geçirmeyi mi tercih eder, yoksa kalkıp dışarıda kahvaltı yapmayı mı?",
+  "answers_en": [
+   "Stay in bed together",
+   "Go out for breakfast"
+  ],
+  "answers_tr": [
+   "Birlikte yatakta kalmak",
+   "Dışarıda kahvaltı"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "ff31b1f9-1519-4e9a-966e-88eb3e89e15e",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "In public, is {{playerName}} more of a hand-holder or an arm-around-the-waist type?",
+  "tr": "{{playerName}} dışarıda el ele tutuşmayı mı sever, yoksa partnerinin beline sarılmayı mı?",
+  "answers_en": [
+   "Holding hands",
+   "Arm around the waist"
+  ],
+  "answers_tr": [
+   "El ele tutuşmak",
+   "Beline sarılmak"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "ea43324f-2787-4e83-bb8e-9eedbf0f7ad1",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What would make {{playerName}} melt faster: a handwritten love note or a voice message saying \"I miss you\"?",
+  "tr": "{{playerName}} hangisiyle daha çabuk erir: elle yazılmış bir aşk notuyla mı, yoksa \"seni özledim\" diyen bir sesli mesajla mı?",
+  "answers_en": [
+   "Handwritten note",
+   "Voice message"
+  ],
+  "answers_tr": [
+   "Elle yazılmış not",
+   "Sesli mesaj"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "ed79272c-fd55-4bed-b17d-e352eee18176",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "When {{playerName}} wants attention, do they just say it, or keep getting closer until their partner notices?",
+  "tr": "{{playerName}} ilgi istediğinde bunu açıkça mı söyler, yoksa partneri fark edene kadar yavaş yavaş yanına mı sokulur?",
+  "answers_en": [
+   "Just says it",
+   "Keeps getting closer"
+  ],
+  "answers_tr": [
+   "Açıkça söyler",
+   "Yavaş yavaş sokulur"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "6e7d8c88-1870-4a44-ac83-2e52fc810ff5",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} like falling asleep wrapped up together, or with a little space?",
+  "tr": "{{playerName}} sarmaş dolaş uyumayı mı sever, yoksa biraz alan bırakarak uyumayı mı?",
+  "answers_en": [
+   "Wrapped up together",
+   "A little space"
+  ],
+  "answers_tr": [
+   "Sarmaş dolaş",
+   "Biraz alan"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "efc015d4-4330-4335-aa0f-69b7c14d8bed",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather have a pillow fight that turns into cuddling, or a quiet movie night under one blanket?",
+  "tr": "{{playerName}} sarılmaya dönüşen bir yastık kavgasını mı tercih eder, yoksa tek battaniye altında sakin bir film gecesini mi?",
+  "answers_en": [
+   "Pillow fight",
+   "Movie under one blanket"
+  ],
+  "answers_tr": [
+   "Yastık kavgası",
+   "Tek battaniyede film"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "b27cee43-3684-412d-b534-08870705e73e",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "When their partner stares at them for too long, does {{playerName}} get shy or stare right back?",
+  "tr": "Partneri ona uzun uzun baktığında {{playerName}} utanır mı, yoksa o da gözünü kaçırmadan bakar mı?",
+  "answers_en": [
+   "Gets shy",
+   "Stares right back"
+  ],
+  "answers_tr": [
+   "Utanır",
+   "Gözünü kaçırmaz"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "cff2f676-9a56-4ea0-b786-9545641e62b9",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather get a back scratch or have someone play with their hair?",
+  "tr": "{{playerName}} sırtının kaşınmasını mı sever, yoksa saçlarıyla oynanmasını mı?",
+  "answers_en": [
+   "Back scratch",
+   "Playing with their hair"
+  ],
+  "answers_tr": [
+   "Sırt kaşıma",
+   "Saçlarıyla oynanması"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "bb72e4b5-804e-4a42-b538-f64c2bbdd554",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which would {{playerName}} rather hear: \"You look amazing\" or \"I can't stop thinking about you\"?",
+  "tr": "{{playerName}} hangisini duymayı daha çok ister: \"Harika görünüyorsun\" mu, yoksa \"Aklımdan çıkmıyorsun\" mu?",
+  "answers_en": [
+   "You look amazing",
+   "I can't stop thinking about you"
+  ],
+  "answers_tr": [
+   "Harika görünüyorsun",
+   "Aklımdan çıkmıyorsun"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "ef612bf3-373f-42f1-982d-550e02b21d58",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "When {{playerName}} misses their partner, do they call right away or play it cool and wait?",
+  "tr": "{{playerName}} partnerini özlediğinde hemen arar mı, yoksa belli etmeyip bekler mi?",
+  "answers_en": [
+   "Calls right away",
+   "Plays it cool"
+  ],
+  "answers_tr": [
+   "Hemen arar",
+   "Belli etmez"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "93250f31-1b51-4551-abe8-ad4359373b2e",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} love cute nicknames, or prefer just being called by their name?",
+  "tr": "{{playerName}} tatlı lakaplarla çağrılmayı mı sever, yoksa kendi adıyla çağrılmayı mı?",
+  "answers_en": [
+   "Cute nicknames",
+   "Just their name"
+  ],
+  "answers_tr": [
+   "Tatlı lakaplar",
+   "Kendi adı"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "22527ac4-d6a5-432b-8fa4-ab5962083141",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather slow dance to a love song, or go wild together to a party song?",
+  "tr": "{{playerName}} romantik bir şarkıda ağır ağır dans etmeyi mi tercih eder, yoksa hareketli bir şarkıda birlikte çılgınca dans etmeyi mi?",
+  "answers_en": [
+   "Slow dance",
+   "Go wild"
+  ],
+  "answers_tr": [
+   "Ağır dans",
+   "Çılgınca dans"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "b85f77c2-3213-4c78-90c5-313d4e8817dd",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What's {{playerName}}'s favorite way to wake up?",
+  "tr": "{{playerName}} en çok nasıl uyandırılmayı sever?",
+  "answers_en": [
+   "With kisses",
+   "With breakfast in bed",
+   "Don't wake them at all"
+  ],
+  "answers_tr": [
+   "Öpücüklerle",
+   "Yatakta kahvaltıyla",
+   "Hiç uyandırılmamayı"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "4cf2fe6c-5971-4915-bbae-2d3f5e9b5449",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What's the fastest way to win {{playerName}} back after a fight?",
+  "tr": "Kavgadan sonra {{playerName}} gönlünü almanın en hızlı yolu nedir?",
+  "answers_en": [
+   "A sincere apology",
+   "A long hug",
+   "Making them laugh"
+  ],
+  "answers_tr": [
+   "İçten bir özür",
+   "Uzun bir sarılma",
+   "Onu güldürmek"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "71e6ef76-6fb4-4f07-a11b-fa9ec4a3e346",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Where would {{playerName}} go for a romantic getaway?",
+  "tr": "{{playerName}} romantik bir kaçamak için nereyi seçer?",
+  "answers_en": [
+   "A cabin in the mountains",
+   "A villa by the beach",
+   "A hotel in a big city"
+  ],
+  "answers_tr": [
+   "Dağda bir kulübe",
+   "Deniz kenarında bir villa",
+   "Büyük şehirde bir otel"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "052a85cc-24fc-4f39-9aa0-fc9d73c403e5",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} usually show they want to be close?",
+  "tr": "{{playerName}} yakınlık istediğini genelde nasıl belli eder?",
+  "answers_en": [
+   "Lots of touching",
+   "With a certain look",
+   "Just says it"
+  ],
+  "answers_tr": [
+   "Sürekli dokunarak",
+   "Bakışlarıyla",
+   "Açıkça söyleyerek"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "db2a565a-627a-40a8-be8c-14a3bfe6b537",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What's {{playerName}}'s biggest weakness when it comes to their partner?",
+  "tr": "Partneri söz konusu olduğunda {{playerName}} en büyük zaafı nedir?",
+  "answers_en": [
+   "Their laugh",
+   "Their scent",
+   "The way they look at them"
+  ],
+  "answers_tr": [
+   "Gülüşü",
+   "Kokusu",
+   "Ona bakışı"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "4e100e90-af39-4cc2-b65c-a50b7057d41b",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Complete it: {{playerName}} can't resist someone who...",
+  "tr": "Tamamla: {{playerName}} ... birine karşı koyamaz.",
+  "answers_en": [
+   "makes them laugh",
+   "has a mysterious vibe",
+   "takes care of them"
+  ],
+  "answers_tr": [
+   "onu güldüren",
+   "gizemli havası olan",
+   "onunla ilgilenen"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "04adab2d-d8cb-41d8-9a80-265a693b3119",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which of these would make {{playerName}} blush the most?",
+  "tr": "Bunlardan hangisi {{playerName}} en çok kızartır?",
+  "answers_en": [
+   "I can't take my eyes off you",
+   "You make me so happy",
+   "I'm so proud of you"
+  ],
+  "answers_tr": [
+   "Gözümü senden alamıyorum",
+   "Beni çok mutlu ediyorsun",
+   "Seninle gurur duyuyorum"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "c06bb1e8-b5b3-4a99-8d8c-bfe321d8ad59",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "When {{playerName}} gets jealous, how does it show?",
+  "tr": "{{playerName}} kıskandığında bu nasıl belli olur?",
+  "answers_en": [
+   "Goes quiet",
+   "Makes sarcastic jokes",
+   "Gets extra affectionate"
+  ],
+  "answers_tr": [
+   "Sessizleşir",
+   "İğneleyici espriler yapar",
+   "Daha da yapışır"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "7b30dfc6-380f-431f-8046-dd300e522480",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How good is {{playerName}} at flirting?",
+  "tr": "{{playerName}} flört konusunda nasıldır?",
+  "answers_en": [
+   "A total pro",
+   "Cute but clumsy",
+   "Hopeless"
+  ],
+  "answers_tr": [
+   "Tam bir usta",
+   "Tatlı ama sakar",
+   "Umutsuz vaka"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "27220b40-4180-4289-9126-bef2279fb254",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} show love the most?",
+  "tr": "{{playerName}} sevgisini en çok nasıl gösterir?",
+  "answers_en": [
+   "Physical touch",
+   "Sweet words",
+   "Little gifts",
+   "Quality time"
+  ],
+  "answers_tr": [
+   "Dokunarak",
+   "Tatlı sözlerle",
+   "Küçük hediyelerle",
+   "Birlikte vakit geçirerek"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "85c4d519-9f35-4249-9208-8aab551dda52",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Where would {{playerName}} most love to get a surprise kiss?",
+  "tr": "{{playerName}} sürpriz bir öpücüğü en çok nerede ister?",
+  "answers_en": [
+   "In the rain",
+   "In an elevator",
+   "At a concert",
+   "In the kitchen while cooking"
+  ],
+  "answers_tr": [
+   "Yağmurun altında",
+   "Asansörde",
+   "Bir konserde",
+   "Yemek yaparken mutfakta"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "ac0b7de1-f6da-407e-aaa2-b0bf657e00f2",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "When does {{playerName}} fall for their partner all over again?",
+  "tr": "{{playerName}} partnerine en çok ne zaman yeniden aşık olur?",
+  "answers_en": [
+   "When they laugh",
+   "When they're focused on something",
+   "When they take care of them",
+   "When they just woke up"
+  ],
+  "answers_tr": [
+   "O gülerken",
+   "Bir şeye odaklanmışken",
+   "Onunla ilgilenirken",
+   "Yeni uyanmışken"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "aff4bbb1-e2c4-4b5d-9db6-7b16909db94f",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What kind of message would {{playerName}} love to wake up to?",
+  "tr": "{{playerName}} sabah uyandığında nasıl bir mesaj görmek ister?",
+  "answers_en": [
+   "A sweet good morning",
+   "A cute photo",
+   "A voice note",
+   "Something a little flirty"
+  ],
+  "answers_tr": [
+   "Tatlı bir günaydın",
+   "Tatlı bir fotoğraf",
+   "Sesli bir mesaj",
+   "Biraz flörtöz bir şey"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "52b200de-7096-4387-b6c3-aab3bc6a22f3",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which gift would make {{playerName}} the happiest?",
+  "tr": "{{playerName}} hangi hediyeyle en çok mutlu olur?",
+  "answers_en": [
+   "Jewelry",
+   "A surprise trip",
+   "Something handmade",
+   "Their partner's hoodie"
+  ],
+  "answers_tr": [
+   "Takı",
+   "Sürpriz bir tatil",
+   "El yapımı bir şey",
+   "Partnerinin kapüşonlusu"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "cdf6776b-ec39-4a4d-9341-6a663d850ceb",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "On a cozy night in with their partner, what kind of movie does {{playerName}} put on?",
+  "tr": "Partneriyle evde baş başa bir gecede {{playerName}} hangi tür film açar?",
+  "answers_en": [
+   "Romantic comedy",
+   "Horror, an excuse to cuddle",
+   "Action",
+   "Doesn't matter, nobody's watching it anyway"
+  ],
+  "answers_tr": [
+   "Romantik komedi",
+   "Korku, sarılmak için bahane",
+   "Aksiyon",
+   "Fark etmez, nasılsa izlenmeyecek"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "a09650e4-8007-4b75-bb66-a01a84c37710",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What's the biggest turn-off for {{playerName}} on a date?",
+  "tr": "Bir buluşmada {{playerName}} en çok neden soğur?",
+  "answers_en": [
+   "Being on the phone all the time",
+   "Showing up late",
+   "Being rude to the waiter",
+   "Talking about an ex"
+  ],
+  "answers_tr": [
+   "Sürekli telefonla uğraşmak",
+   "Geç kalmak",
+   "Garsona kaba davranmak",
+   "Eski sevgiliden bahsetmek"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "e947abf2-fe3e-433a-af75-9f623d7cb898",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What does {{playerName}} love most about their partner's looks?",
+  "tr": "{{playerName}} partnerinin görünüşünde en çok neyi seviyor?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "923210d5-6873-4446-9080-09044dcdd460",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite romantic movie?",
+  "tr": "{{playerName}} en çok hangi romantik filmi sever?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "ae069d22-9332-49fa-87c8-f9d4106ddb43",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What color does {{playerName}} think their partner looks best in?",
+  "tr": "{{playerName}} partnerine en çok hangi rengin yakıştığını düşünüyor?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "9815c91b-f38b-4218-849b-e27988242497",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What does {{playerName}} usually order to drink on a date?",
+  "tr": "{{playerName}} buluşmalarda genelde ne içer?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "7d61b0d4-ff9c-4359-9a4f-1b68b01c0d93",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What pet name does {{playerName}} use most for their partner?",
+  "tr": "{{playerName}} partnerine en çok ne diye hitap eder?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "a6a533ee-ff93-43cd-b0d3-becf90d811a5",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What food would {{playerName}} pick for a romantic dinner?",
+  "tr": "{{playerName}} romantik bir akşam yemeğinde ne yemeyi seçer?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "8d3c5120-8c4d-4484-9b1d-1f06711f2f87",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "Where on their partner's face does {{playerName}} kiss the most?",
+  "tr": "{{playerName}} partnerini en çok yüzünün neresinden öper?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "6d3a66de-2db7-4570-8928-1d88fa7313a2",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "Which country would {{playerName}} pick for a honeymoon?",
+  "tr": "{{playerName}} balayı için hangi ülkeyi seçer?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "e07608ce-6461-4038-a32b-5d730d917fd2",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "Which season does {{playerName}} find the most romantic?",
+  "tr": "{{playerName}} en romantik mevsimin hangisi olduğunu düşünüyor?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "b1b50f40-4260-4b91-ae69-ce97c1032c3e",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "Which TV show would {{playerName}} love to binge with their partner?",
+  "tr": "{{playerName}} partneriyle hangi diziyi bir solukta bitirmek ister?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "4f3d5a83-ed50-4992-a428-d7ce354e1d13",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "Which city would {{playerName}} love to live in with their partner?",
+  "tr": "{{playerName}} partneriyle hangi şehirde yaşamak ister?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "31ceef31-d267-481e-ac9a-5885eb6f8dbb",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What dish does {{playerName}} love cooking for their partner?",
+  "tr": "{{playerName}} partnerine en çok hangi yemeği yapmayı sever?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "83cf4d9b-21b6-4e72-80bd-fdd8ccbe4103",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} like being kissed in public?",
+  "tr": "{{playerName}} herkesin içinde öpülmeyi sever mi?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "7c0c6ea7-9626-4681-84fc-23837e598bb6",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather stay in than go out on a date night?",
+  "tr": "{{playerName}} bir randevu gecesinde dışarı çıkmak yerine evde kalmayı tercih eder mi?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "5dfad39f-e8f8-4f9d-87ea-a5329b8a5853",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} say \"I love you\" first?",
+  "tr": "{{playerName}} \"seni seviyorum\"u genelde ilk söyleyen taraf mıdır?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "068fcbfc-a8b0-49b3-85fc-75ac1889e68a",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} like nicknames in public?",
+  "tr": "{{playerName}} dışarıda lakapla çağrılmayı sever mi?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "6b361ee2-7951-4425-8e4e-2f13d1927417",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} check their partner's location when they miss them?",
+  "tr": "{{playerName}} özleyince partnerinin konumuna bakar mı?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "c4e4a739-4104-4af1-b91e-a3b9a3b95fb1",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} like matching outfits with their partner?",
+  "tr": "{{playerName}} partneriyle kombin kıyafet giymeyi sever mi?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "514ef284-99e0-4e87-8f64-f18fa20e828d",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} get a couple tattoo?",
+  "tr": "{{playerName}} çift dövmesi yaptırır mı?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "18299c05-dc5f-4f1f-93a4-e202af729808",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} reread old messages from their partner?",
+  "tr": "{{playerName}} partnerinin eski mesajlarını tekrar okur mu?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "43b0bad7-bcd8-49c3-a575-6363492aa1e2",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Has {{playerName}} ever searched their partner's name on the internet?",
+  "tr": "{{playerName}} partnerinin adını internette arattı mı hiç?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "9aa01c3d-202b-407d-8cfc-7afe582df680",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} still keep old love letters or gifts from an ex?",
+  "tr": "{{playerName}} eski sevgililerinden kalan mektupları veya hediyeleri hâlâ saklıyor mu?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "5046da73-768b-4c75-9098-c717dc041cc5",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} stop in the middle of an intimate moment if their phone rang?",
+  "tr": "Yakın bir anın ortasında telefon çalsa {{playerName}} durur mu?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "7e456f76-8350-46b3-b96e-af88c500c1b0",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} get uncomfortable if their partner watches them get ready?",
+  "tr": "{{playerName}} partneri hazırlanırken izlerse rahatsız olur mu?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "2f6a16f5-299a-4e7d-9906-f791ecb95db9",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} tell their partner if a stranger hit on them?",
+  "tr": "Bir yabancı {{playerName}} ile flört etse, bunu partnerine söyler mi?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "2374ed2f-f749-4d36-bca1-213e6dd39af2",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} like it when their partner is a little louder than usual?",
+  "tr": "{{playerName}} partnerinin her zamankinden biraz daha sesli olmasını sever mi?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "021b3fea-592b-4a5c-9fc3-cf4f90da5728",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} like it when their partner talks during intimate moments?",
+  "tr": "{{playerName}} yakınlık anlarında partnerinin konuşmasını sever mi?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "ec853fc4-ea5e-4d6b-b368-baccff2859e2",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} like it when their partner leaves a mark, even a small one?",
+  "tr": "{{playerName}} partnerinin küçük de olsa bir iz bırakmasını sever mi?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "7407ed24-af63-48a2-9623-376827a17dd2",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "After a fight, what does {{playerName}} need first?",
+  "tr": "Kavga bittikten sonra {{playerName}} ilk ne ister?",
+  "answers_en": [
+   "Space",
+   "To talk it out",
+   "A hug, no talking",
+   "To pretend nothing happened"
+  ],
+  "answers_tr": [
+   "Alan",
+   "Konuşmak",
+   "Konuşmadan bir sarılma",
+   "Hiçbir şey olmamış gibi yapmak"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "58262567-9ba2-4777-87bf-eb1256c82bdb",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What does {{playerName}} want right after intimacy?",
+  "tr": "Yakınlıktan hemen sonra {{playerName}} ne ister?",
+  "answers_en": [
+   "To talk",
+   "To stay close, quietly",
+   "To fall asleep",
+   "To get up"
+  ],
+  "answers_tr": [
+   "Konuşmak",
+   "Sessizce yakın kalmak",
+   "Uyuyakalmak",
+   "Kalkıp gitmek"
+  ],
+  "category": "know_me_well_intimacy"
+ }
+]

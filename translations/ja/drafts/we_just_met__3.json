@@ -1,0 +1,580 @@
+{
+  "779c01e5-9ba2-48ed-84f5-747084bda093": {
+    "text": "恋人にはSNSでふたりの写真を載せてほしい？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7dfca2ae-4653-499b-8b35-8409ac9cb8e5": {
+    "text": "結婚したことがある人と付き合える？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ecb7bf85-0455-46c5-9045-8c485aa6c8d6": {
+    "text": "前の恋愛が終わったばかりの人と付き合える？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7713469e-5c7c-4081-885e-784fcefc308b": {
+    "text": "すごく気に入った服なら、高くても買っちゃう？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a25b6694-0388-469a-80c3-1a065d4641da": {
+    "text": "料理が全然好きじゃなくて、いつも外食の人と付き合える？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9106e2f1-c28e-4b6d-a27f-3ac47f185e39": {
+    "text": "別れたら、元恋人はSNSから消すべきだと思う？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1d7b03f4-df47-452a-8a54-1b98528dd75a": {
+    "text": "高校からずっと1人の人とだけ付き合って、そのまま結婚したかった？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e371edc7-ba67-4d14-8fa7-dad00b7d6b31": {
+    "text": "大好きでも、浮気しそうな気がする人と付き合える？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "36c6f327-8de2-42ed-8165-752c783ae56d": {
+    "text": "いい感じの相手が、ほかの人ともデートしてるのはアリ？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c7aec6af-0246-41d9-bcc6-ce59c3b9403e": {
+    "text": "トイレに立つとき、いつもスマホを伏せて置く人って怪しいと思う？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b0f272c0-ca82-4663-bc78-6c406bb5b831": {
+    "text": "くだらないことがきっかけで、恋人と完全に縁を切ったことある？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c70818b5-97c6-4134-8b6e-94b01052f279": {
+    "text": "恋人に回し飲みを断られたら、ちょっと冷める？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4c354718-87c5-46d1-b2d7-733646f06068": {
+    "text": "恋人が異性の友達にごはんをおごるのはアリ？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "29870733-c386-448b-82a7-a2f059a50ba4": {
+    "text": "恋人が異性の友達とふたりきりで会うのはアリ？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e392db65-9315-4f83-8930-34c5a450b24a": {
+    "text": "恋人が異性の友達とのLINEを見せてくれなかったら、イラッとする？",
+    "answers": [],
+    "accepted": [],
+    "flagged": true,
+    "note": "\"messages\" localized as LINE, the default messenger in Japan."
+  },
+  "1b878572-51f3-4ef5-b869-57695d5b4bba": {
+    "text": "恋人が異性の友達にコーヒーをおごるのはアリ？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1338669a-0f18-42d9-b936-97fa0009639f": {
+    "text": "恋人の過去は全部知りたい？それとも必要なことだけ？",
+    "answers": [
+      "全部知りたい",
+      "必要なことだけ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "35f1ccbf-5cf0-4b91-b844-cdc93470350c": {
+    "text": "恋人同士のヤキモチって…",
+    "answers": [
+      "かわいいもの",
+      "関係によくない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b60dd292-09bb-4403-8129-eceb964a89bb": {
+    "text": "恋愛で「どっちが先に連絡するか」は…",
+    "answers": [
+      "大事なバランス",
+      "気にしなくていい"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8a5c8ef1-6310-4d06-8af8-e41508b1d9af": {
+    "text": "初デートは何時間くらいがベスト？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3038d09c-8a48-432e-8f6a-3173cdf1b0f3": {
+    "text": "ファーストキスは何回目のデートならアリ？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3a7b78ae-2cd0-461c-a69f-f2f5e35d2593": {
+    "text": "初デートにベストな時間帯は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8488f194-3774-470b-ac98-dfab1027a149": {
+    "text": "2回目のデートに誘うまで、何日空けるべき？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "00d225ad-05d7-4044-9a9a-f002791aa06b": {
+    "text": "恋人との年の差は何歳くらいがちょうどいい？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "52369eca-4691-4ff4-ba5c-db44489ab01d": {
+    "text": "付き合いたてのふたりは、1日何回くらい連絡するべき？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0e7b5127-24d4-48bc-b454-f43ae9fade2d": {
+    "text": "お泊まりは何回目のデートからならアリ？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "831590be-5c22-4b45-b378-5794e75e0f56": {
+    "text": "初デートの遅刻、何分までなら許せる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7192abf5-e884-4f12-80e1-1d0b1a96e8c0": {
+    "text": "元恋人が何人いたら多すぎる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f8ed25d1-90b1-4de2-a09b-6adbf13a1e81": {
+    "text": "実際に会うまで、何日くらいやりとりするべき？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "38f9ad51-d981-4adf-94a0-90ebe2900c76": {
+    "text": "初デートで絶対に頼んじゃダメなものは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ebed3fec-e1ae-4368-8a0e-4e4dd4e78af9": {
+    "text": "恋人をいちばんよく呼ぶあだ名は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d14e2f10-7c81-43cd-be66-3e778564a465": {
+    "text": "恋人の過去のデート相手が何人以上だと冷める？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "010dfc92-9c21-441a-a0f5-b159412b70a2": {
+    "text": "恋人の前の恋愛が何年続いてたら冷める？気にならないなら0と書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9cd5fd8b-3a6e-4b0f-a091-7d8612fb213f": {
+    "text": "恋人に絶対こう呼ばれたくない、っていう呼び方は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "87658e97-ac2e-44a5-b542-433a08e7aabd": {
+    "text": "恋人にいちばん呼ばれたい呼び方は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "763e922e-ab9e-4f6f-827e-693af2a26f4d": {
+    "text": "付き合って何年たったら同棲したい？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "77c7dd5e-0ffd-4698-b393-0ff78d1e213b": {
+    "text": "付き合って何か月たったら、恋人の家族に会いたい？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "595fa92e-a25b-4dc9-8f78-4550f1d8608f": {
+    "text": "結婚して何年たったら子どもがほしい？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3a380d3f-8123-4e99-b4f3-e7d2ec4ff655": {
+    "text": "理想の初デートは？",
+    "answers": [
+      "カフェ",
+      "散歩",
+      "ディナー",
+      "飲み"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "804c67c5-9dd5-4bf0-9448-3e0ab96b2928": {
+    "text": "いい感じの相手から2日も返信がない。どうする？",
+    "answers": [
+      "気長に待つ",
+      "軽く追いLINEする",
+      "同じペースで返す",
+      "冷める"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6edf2d1a-551c-4860-991c-3fb9641f6085": {
+    "text": "いい初デートの終わり方は？",
+    "answers": [
+      "ハグ",
+      "キス",
+      "次のデートの約束",
+      "とりあえずバイバイ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4f7b735e-59a7-4eeb-bcaa-43853cdf224a": {
+    "text": "初デート中、スマホはどこにある？",
+    "answers": [
+      "バッグかポケットの中",
+      "テーブルに伏せて",
+      "マナーモードで手元に",
+      "存在を忘れてる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "10ca97e0-e294-417e-84be-a586b2a6e65c": {
+    "text": "2回目のデートは誰がプランを立てるべき？",
+    "answers": [
+      "1回目に誘った人",
+      "今度はもう1人のほう",
+      "時間に余裕があるほう",
+      "ふたりで決める"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "15087f4a-b129-4ded-bda9-9b8e9f2ce9c9": {
+    "text": "初デートは悪くなかったけど、最高でもなかった。どうする？",
+    "answers": [
+      "2回目も行ってみる",
+      "そっとフェードアウト",
+      "ピンとこないと伝える",
+      "連絡を続けて様子見"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9d5474ab-62cf-433d-8a62-9cfe83a90018": {
+    "text": "デートにはどう誘われたい？",
+    "answers": [
+      "直接会って",
+      "メッセージで",
+      "具体的なプラン付きで",
+      "気負わず軽いノリで"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "46002351-0295-45f1-a0f9-322e2d7f98b9": {
+    "text": "初デートで相手が元恋人の話を始めた。どうする？",
+    "answers": [
+      "話題を変える",
+      "少しだけ聞く",
+      "1つだけ質問する",
+      "冷める"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a90fff4b-18ba-402c-920d-e141465c46fb": {
+    "text": "新しくいい感じの人ができたら、友達にいつ話す？",
+    "answers": [
+      "初デートのあと",
+      "何回かデートしてから",
+      "本気っぽくなってから",
+      "しばらくは内緒"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2afd06cc-aad0-4cd2-b85a-be260fc537a9": {
+    "text": "デート中、テーブルの上の相手のスマホにマッチングアプリの通知が。どうする？",
+    "answers": [
+      "見なかったことにする",
+      "冗談っぽくいじる",
+      "はっきり聞く",
+      "冷める"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "80a133aa-e818-4387-ba13-6d18f3eca48c": {
+    "text": "気まずい沈黙が20秒続いた。どうする？",
+    "answers": [
+      "適当に質問する",
+      "沈黙をネタにする",
+      "気にせずそのまま",
+      "内心ちょっと焦る"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "54ae559d-c747-4baa-b836-c2ac0f6d5914": {
+    "text": "デート中に元恋人とばったり。どうする？",
+    "answers": [
+      "軽く挨拶してすぐ離れる",
+      "さらっと紹介する",
+      "気づかないふり"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1862d1eb-0f5f-4433-b278-f78ae8e65a56": {
+    "text": "相手が何も聞かずに、こっちの分まで注文した。どうする？",
+    "answers": [
+      "そのまま受け入れる",
+      "やんわり変える",
+      "ちょっとやりすぎと言う"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b5794a9f-d967-4b5d-924b-08fde07181dd": {
+    "text": "いい感じの相手から4分のボイスメッセージが届いた。どうする？",
+    "answers": [
+      "最後まで聞く",
+      "1.5倍速で聞く",
+      "ボイスで返す",
+      "「文字で送って」と頼む"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "11057121-36b1-4bec-8fe0-a951f48a59cb": {
+    "text": "2回目のデート前、相手が自分の2019年のインスタ投稿にいいねしてきた。どうする？",
+    "answers": [
+      "笑って流す",
+      "相手の昔の投稿にいいねし返す",
+      "デートでいじる",
+      "ちょっと引く"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2018faf7-7f62-4184-ab8d-f8daddf0c55b": {
+    "text": "友達のパーティーでばったり。会ってることは誰も知らない。どうする？",
+    "answers": [
+      "知らないふりをする",
+      "さりげなく挨拶してバレないようにする",
+      "すぐそばに行ってずっと一緒にいる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4186af00-6693-48c4-b037-597f68eca363": {
+    "text": "デートの翌日、共通の友達から、相手がデートのことを全部話してたと聞いた。どう思う？",
+    "answers": [
+      "ちょっとうれしい",
+      "何を話したか気になる",
+      "ちょっとモヤッとする",
+      "お互いさまだから平気"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "90996073-0d83-444d-b35a-979f896c0b5a": {
+    "text": "最高の初デートから帰宅。まだどっちも連絡してない。どうする？",
+    "answers": [
+      "すぐ連絡する",
+      "相手からの連絡を待つ",
+      "明日にする",
+      "ストーリーを上げて見るかチェック"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "585b6edd-f0f5-45dc-9b1a-70fadafc76c5": {
+    "text": "初デートで、店員さんに失礼なのとずっとスマホばかり見てるの、どっちが冷める？",
+    "answers": [
+      "店員さんに失礼",
+      "スマホばかり見てる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6fbf29f6-9fdd-469b-a49f-dceeae0f2960": {
+    "text": "自分の話ばかりするのと、自分のことを全然話さないの、どっちが冷める？",
+    "answers": [
+      "自分の話ばかり",
+      "自分のことを話さない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7d216358-afbd-4df9-bcbf-5dd6d671e303": {
+    "text": "キスが下手なのと会話がつまらないの、どっちが冷める？",
+    "answers": [
+      "キスが下手",
+      "会話がつまらない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "720a9cbc-8710-4872-80f2-53300dbadf6f": {
+    "text": "付き合いたての頃、ずっと連絡してくるのとほとんど連絡してこないの、どっちが冷める？",
+    "answers": [
+      "ずっと連絡してくる",
+      "ほとんど連絡してこない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3cf1a84d-e223-4e63-93d8-777459021597": {
+    "text": "なんでも冗談にするのと冗談が通じないの、どっちが冷める？",
+    "answers": [
+      "なんでも冗談にする",
+      "冗談が通じない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fc011c5b-4593-4cc1-b280-0684ad82df8d": {
+    "text": "写真と実物が違うのと、プロフィールの年齢がウソなの、どっちが冷める？",
+    "answers": [
+      "写真と実物が違う",
+      "年齢がウソ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ad06a964-fa58-4061-8344-79edf5b520d8": {
+    "text": "なんでも「どっちでもいい」って言うのと、なんにでも口を出すの、どっちが冷める？",
+    "answers": [
+      "なんでも「どっちでもいい」",
+      "なんにでも口を出す"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4f531856-318c-487f-a619-fa0a59a99d7f": {
+    "text": "ニオイがキツいのと服がダサいの、どっちが冷める？",
+    "answers": [
+      "ニオイがキツい",
+      "服がダサい"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ef9f4128-7b1c-403e-ad46-17990ee3ceef": {
+    "text": "家族になんでも話すのと、家族になにも話さないの、どっちが冷める？",
+    "answers": [
+      "家族になんでも話す",
+      "家族になにも話さない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

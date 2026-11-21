@@ -1,0 +1,610 @@
+[
+ {
+  "id": "962e164e-2bb4-43b6-91ff-a3f4a7f1e353",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you share the private details of your romantic dates with your friends?",
+  "tr": "Randevularının özel detaylarını arkadaşlarınla paylaşır mısın?",
+  "category": "spicy"
+ },
+ {
+  "id": "6f1cc8ff-d1b4-4bcc-adce-e1ec0ad7c3e5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which do you prioritize more in someone you're attracted to: having a nice body or being intelligent?",
+  "tr": "Karşı cinste hangisine daha çok öncelik verirsin: vücudunun güzel olmasına mı yoksa zeki olmasına mı?",
+  "answers_en": [
+   "Having a nice body",
+   "Being intelligent"
+  ],
+  "answers_tr": [
+   "Vücudunun güzel olması",
+   "Zeki olması"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "d283940a-ec09-4a1e-b0a0-2af67c9ff09d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is physical chemistry a must-have for you in a relationship?",
+  "tr": "Ten uyumu senin için bir ilişkide olmazsa olmaz mı?",
+  "category": "spicy"
+ },
+ {
+  "id": "1e9518a0-15bd-4f18-99f6-30f1f8480b28",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you on more: giving a massage or receiving a massage?",
+  "tr": "Hangisi seni daha çok heyecanlandırır: masaj yapmak mı yoksa masaj almak mı?",
+  "answers_en": [
+   "Giving a massage",
+   "Receiving a massage"
+  ],
+  "answers_tr": [
+   "Masaj yapmak",
+   "Masaj almak"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "203f91fa-50d9-4f2b-971d-00aa063d09cb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you on more: kissing or hugging?",
+  "tr": "Hangisi seni daha çok heyecanlandırır: öpüşmek mi yoksa sarılmak mı?",
+  "answers_en": [
+   "Kissing",
+   "Hugging"
+  ],
+  "answers_tr": [
+   "Öpüşmek",
+   "Sarılmak"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "bdf4c3a2-6345-46c7-af8c-7b683dd8f0ba",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you on more: slow and romantic or fast and passionate?",
+  "tr": "Hangisi seni daha çok heyecanlandırır: yavaş ve romantik mi yoksa hızlı ve tutkulu mu?",
+  "answers_en": [
+   "Slow and romantic",
+   "Fast and passionate"
+  ],
+  "answers_tr": [
+   "Yavaş ve romantik",
+   "Hızlı ve tutkulu"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "d10f5951-581e-459f-a7e9-9d46d34faefa",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Receiving a good morning message every day: bare minimum or premium treatment?",
+  "tr": "Her sabah günaydın mesajı almak: bare minimum mu yoksa premium treatment mi?",
+  "answers_en": [
+   "Bare minimum",
+   "Premium treatment"
+  ],
+  "answers_tr": [
+   "Bare minimum",
+   "Premium treatment"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "65ed3a72-65ae-44d1-b594-348f258936d9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is your partner being bad in bed a reason to break up?",
+  "tr": "Partnerinin cinsel anlamda kötü olması bir ayrılık sebebi midir?",
+  "category": "spicy"
+ },
+ {
+  "id": "5bc80737-30df-4421-a3df-a5f0ac1c759b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Are you against being intimate on the first date?",
+  "tr": "İlk buluşmada yakınlaşmaya karşı mısın?",
+  "category": "spicy"
+ },
+ {
+  "id": "3fdb267c-d82f-4b33-b102-c316d2690af9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would it bother you if your partner had an uncommon fantasy?",
+  "tr": "Partnerinin çok yaygın olmayan bir fantezisi olsa bu seni rahatsız eder mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "92e0004c-454b-489a-aef0-a1e616681fac",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you try sexual things you haven't done before just because your partner asked?",
+  "tr": "Sadece partnerin istediği için daha önce denemediğin cinsel şeyleri dener miydin?",
+  "category": "spicy"
+ },
+ {
+  "id": "88736518-ac6d-45bb-ba23-17d6d8de3e24",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Are you open to incorporating toys or other accessories into your intimate experiences?",
+  "tr": "Yakın ilişkilerinde oyuncakları veya diğer aksesuarları kullanmaya açık mısın?",
+  "category": "spicy"
+ },
+ {
+  "id": "a73425b0-93d5-4ec5-9178-8b7a8f55d1a0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you enjoy cuddling and physical affection outside of intimate moments?",
+  "tr": "Cinsellik dışında sarılmayı ve fiziksel yakınlığı sever misin?",
+  "category": "spicy"
+ },
+ {
+  "id": "9cdd792e-827d-4513-b110-00bfaa66cf25",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think cheating should be forgiven?",
+  "tr": "Aldatma affedilmeli mi sence?",
+  "category": "spicy"
+ },
+ {
+  "id": "f4152a0c-706e-4948-986a-3c2eb52ad7c5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you enjoy eating breakfast in bed?",
+  "tr": "Yatakta kahvaltı yapmaktan hoşlanır mısın?",
+  "category": "spicy"
+ },
+ {
+  "id": "089a6c6b-258a-4b1d-a5e4-41df49a05778",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever lived with a partner?",
+  "tr": "Hiç bir partnerinle birlikte yaşadın mı?",
+  "category": "spicy"
+ },
+ {
+  "id": "91381dbf-d62a-4b88-b699-18ff55045bbd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever flirted just for fun?",
+  "tr": "Hiç sadece eğlence olsun diye flört ettin mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "21bcf8e6-f321-42db-8fbc-56d31d4ecad4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever imagined undressing someone with your eyes?",
+  "tr": "Hiç birini gözlerinle soyduğunu hayal ettiğin oldu mu?",
+  "category": "spicy"
+ },
+ {
+  "id": "718daf11-2d92-415d-af4d-996e0bc6006f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever followed an instant spark and started a romantic connection immediately?",
+  "tr": "Hiç anlık bir çekime kapılıp romantik bir bağın hemen o an başlamasına izin verdin mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "52fa33f8-7fdd-4fe2-bae5-7b9631d7b86a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you fantasized about someone you shouldn’t?",
+  "tr": "Olmaması gereken biri hakkında hiç fantezi kurdun mu?",
+  "category": "spicy"
+ },
+ {
+  "id": "1e8b01a3-ef5b-488f-a8ef-ba43eb960037",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you have a secret fantasy you've never told anyone?",
+  "tr": "Kimseye söylemediğin gizli bir fantezin var mı?",
+  "category": "spicy"
+ },
+ {
+  "id": "06dd4eba-bbc1-49d8-baa2-5a99ae3c9672",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do compliments turn you on?",
+  "tr": "İltifatlar seni tahrik eder mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "55243368-64c9-496b-9031-2be396332bed",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Regarding romantic energy, do you prefer partners who are 'loud' or 'silent'?",
+  "tr": "Romantik bir çekim sırasında, enerjisini 'yüksek sesli' mi yoksa 'sessiz' mi dışa vuranları tercih edersin?",
+  "answers_en": [
+   "Loud",
+   "Silent"
+  ],
+  "answers_tr": [
+   "Yüksek sesli",
+   "Sessiz"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "fb9007c8-c53d-438d-9fc6-a55d3d6fd202",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which creates a stronger connection for you: physical touch or romantic words?",
+  "tr": "Senin için hangisi daha güçlü bir bağ kurar: fiziksel temas mı yoksa romantik sözler mi?",
+  "answers_en": [
+   "Touch",
+   "Words"
+  ],
+  "answers_tr": [
+   "Dokunuş",
+   "Sözler"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "347f9c8d-b8f0-4456-87b4-f7fad08258fb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "After a long and romantic date, do you prefer to stay over or head home?",
+  "tr": "Uzun ve romantik bir randevudan sonra, kalmayı mı yoksa eve dönmeyi mi tercih edersin?",
+  "answers_en": [
+   "Sleep over",
+   "Leave"
+  ],
+  "answers_tr": [
+   "Kalmak",
+   "Ayrılmak"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "d2819c86-6b30-44b5-9277-8f4a66648271",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think you can really stay friends with an ex?",
+  "tr": "Bir ex'inle gerçekten arkadaş kalabileceğine inanıyor musun?",
+  "category": "spicy"
+ },
+ {
+  "id": "a5e7ddc4-8245-4f68-ab51-ed01fb4e0316",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever had a surprisingly romantic dream about a close friend?",
+  "tr": "Hiç yakın bir arkadaşın hakkında şaşırtıcı derecede romantik bir rüya gördün mü?",
+  "category": "spicy"
+ },
+ {
+  "id": "e31526a8-44b3-4a68-b14d-e3ed8d5b5f5f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you enjoy receiving flirtatious messages?",
+  "tr": "Flörtöz mesajlar almayı sever misin?",
+  "category": "spicy"
+ },
+ {
+  "id": "938b68ee-cc2f-4266-b4be-3d76068058a6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you like to move fast or take it slow?",
+  "tr": "Hızlı mı yoksa yavaş mı hareket etmeyi seversin?",
+  "answers_en": [
+   "Move fast",
+   "Take it slow"
+  ],
+  "answers_tr": [
+   "Hızlı hareket etmek",
+   "Yavaş almak"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "85cf45c4-c7e8-4530-8754-d6b44e424d17",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you prefer to be the big spoon or the little spoon?",
+  "tr": "Büyük kaşık mı yoksa küçük kaşık olmayı mı tercih edersin?",
+  "answers_en": [
+   "Big spoon",
+   "Little spoon"
+  ],
+  "answers_tr": [
+   "Büyük kaşık",
+   "Küçük kaşık"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "6bb69588-c176-4e43-9599-67c04d89e30c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the future, would you choose stability or excitement in your relationship?",
+  "tr": "Gelecekte ilişkinde istikrarı mı yoksa heyecanı mı seçerdin?",
+  "answers_en": [
+   "Stability",
+   "Excitement"
+  ],
+  "answers_tr": [
+   "İstikrar",
+   "Heyecan"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "e972c82a-b11a-4588-8a4e-dfe953e6c639",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "First date kisses: yes or no?",
+  "tr": "İlk buluşmada öpüşme: evet mi hayır mı?",
+  "category": "spicy"
+ },
+ {
+  "id": "c6b6c542-d9ca-4fb3-9ce5-ce254ef933f5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you enjoy falling asleep together?",
+  "tr": "Birlikte uyumayı sever misin?",
+  "category": "spicy"
+ },
+ {
+  "id": "4231ad4b-0d9a-4efc-8027-4c7857abcfe1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What are your thoughts on open relationships/non-monogamy?",
+  "tr": "Açık ilişkiler veya tek eşlilik dışı ilişkiler hakkında ne düşünüyorsun?",
+  "answers_en": [
+   "Never",
+   "I can try"
+  ],
+  "answers_tr": [
+   "Hiçbir zaman",
+   "Deneyebilirim"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "4e986796-4744-4fe4-b02d-f04fdc54a153",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever kept a relationship a secret?",
+  "tr": "Hiç bir ilişkiyi gizli tutmak zorunda kaldın mı?",
+  "category": "spicy"
+ },
+ {
+  "id": "1c93b5b9-1b7e-471c-8766-754b8473ee86",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you ever tell someone you love them even if you don’t?",
+  "tr": "Sevmediğin halde birine seni seviyorum der misin?",
+  "category": "spicy"
+ },
+ {
+  "id": "b413d4e7-0559-412f-a7c3-fd401b80cb61",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever felt an instant romantic connection on a first date?",
+  "tr": "Hiç bir ilk buluşmada anında güçlü bir romantik çekim hissettin mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "e1ef8d27-157d-4961-bc79-c607914239af",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you enjoy drinking cocktails?",
+  "tr": "Kokteyl içmekten hoşlanır mısın?",
+  "category": "spicy"
+ },
+ {
+  "id": "4dfdd768-ebad-44e2-87a8-1adb0bbdbfe6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever kissed a stranger?",
+  "tr": "Hiç yabancı birini öptün mü?",
+  "category": "spicy"
+ },
+ {
+  "id": "094e743c-3c44-4162-a846-e7c68d41503f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever had feelings for a friend’s ex?",
+  "tr": "Hiç bir arkadaşının eski sevgilisine karşı bir şeyler hissettin mi?",
+  "category": "spicy"
+ },
+ {
+  "id": "c24cdf4f-785c-4993-9bde-e087c268430b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you ever make out in an elevator?",
+  "tr": "Asansörde öpüşür müydün?",
+  "category": "spicy"
+ },
+ {
+  "id": "3b98c734-ae2b-478e-811f-c4d7a2f2e8d0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever woken up next to someone and didn’t remember their name?",
+  "tr": "Hiç birinin yanında uyandın ama adını hatırlayamadın mı?",
+  "category": "spicy"
+ },
+ {
+  "id": "bca72d06-a4a5-441c-9d02-0c415c3302b0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever pretended to be sick to avoid a date?",
+  "tr": "Hiç bir buluşmadan kaçmak için hasta numarası yaptın mı?",
+  "category": "spicy"
+ },
+ {
+  "id": "8739a1ba-5e73-4095-8ec3-0ad38131c452",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Intense passion or gentle affection?",
+  "tr": "Yoğun bir tutku mu yoksa nazik bir şefkat mi?",
+  "answers_en": [
+   "Passionate makeouts",
+   "Gentle intimacy"
+  ],
+  "answers_tr": [
+   "Tutkulu öpüşmeler",
+   "Nazik yakın temas"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "8b499548-b2d7-4dbd-9cdf-6bc922d7c800",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Music in the background or just the sounds of each other?",
+  "tr": "Arka planda müzik mi yoksa sadece birbirinizin sesleri mi?",
+  "answers_en": [
+   "Music in the background",
+   "Just the sounds of each other"
+  ],
+  "answers_tr": [
+   "Arka planda müzik",
+   "Sadece birbirimizin sesleri"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "5152a24a-5cb3-4c8e-bfa8-37c13ead9118",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Breakfast in bed or surprise night out?",
+  "tr": "Yatakta kahvaltı mı yoksa sürpriz gece gezmesi mi?",
+  "answers_en": [
+   "Breakfast in bed",
+   "Surprise night out"
+  ],
+  "answers_tr": [
+   "Yatakta kahvaltı",
+   "Sürpriz gece gezmesi"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "947669ca-1428-44d9-a2a0-d2494c2e336b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Be in control or let them take charge?",
+  "tr": "Kontrol sende mi olsun yoksa onun yönetmesine mi izin verirsin?",
+  "answers_en": [
+   "Be in control",
+   "Let them take charge"
+  ],
+  "answers_tr": [
+   "Kontrol sende olsun",
+   "Onun yönetmesine izin ver"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "72d629e3-ca86-4ae3-b507-5287e7d76001",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "One long kiss or many short kisses?",
+  "tr": "Tek uzun öpücük mü yoksa birçok kısa öpücük mü?",
+  "answers_en": [
+   "One long kiss",
+   "Many short kisses"
+  ],
+  "answers_tr": [
+   "Tek uzun öpücük",
+   "Birden fazla kısa öpücük"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "433e48b7-a765-411e-8a51-ff818cbeaae9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When do you feel the strongest romantic energy: in the morning or at midnight?",
+  "tr": "Romantik enerjinin en yüksek olduğu an sence hangisidir: sabahın ilk ışıkları mı yoksa gece yarısı mı?",
+  "answers_en": [
+   "In the morning",
+   "At midnight"
+  ],
+  "answers_tr": [
+   "Sabah",
+   "Gece yarısı"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "08708487-24d5-4836-ab67-fbd6762dc270",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Keep it romantic or get a little wild?",
+  "tr": "İlişkiyi romantik mi tutarsın yoksa biraz daha heyecanlı mı yaparsın?",
+  "answers_en": [
+   "Keep it romantic",
+   "Get a little wild"
+  ],
+  "answers_tr": [
+   "Romantik tutmak",
+   "Biraz heyecan katmak"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "40a6dec0-8045-4374-9b02-b83e57dbe15d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner doesn't want children before age 40, is that a dealbreaker for you?",
+  "tr": "Partnerin 40 yaşından önce çocuk sahibi olmak istemese, bu senin için bir sorun olur mu?",
+  "category": "spicy"
+ },
+ {
+  "id": "cc10b349-6a57-442d-b40f-125e8d37bd25",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Fall asleep in each other’s arms or stay up all night talking?",
+  "tr": "Birbirinizin kollarında uyumayı mı yoksa tüm gece sohbet etmeyi mi tercih edersiniz?",
+  "answers_en": [
+   "Fall asleep in each other’s arms",
+   "Stay up all night talking"
+  ],
+  "answers_tr": [
+   "Kollarında uyumak",
+   "Tüm gece sohbet etmek"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "4f721029-0cd8-4599-b152-ab73388f1166",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have a romantic dinner or order pizza in bed?",
+  "tr": "Romantik bir akşam yemeği mi yoksa yatakta pizza mı tercih edersin?",
+  "answers_en": [
+   "Romantic dinner",
+   "Pizza in bed"
+  ],
+  "answers_tr": [
+   "Romantik akşam yemeği",
+   "Yatakta pizza"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "c9e4a510-da33-4372-8a0f-80615e78921e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever slept with a friend’s ex?",
+  "tr": "Hiç bir arkadaşının eski sevgilisiyle yakın temas yaşadın mı?",
+  "category": "spicy"
+ },
+ {
+  "id": "0503603c-4468-4235-b6f2-42cf2ddccb28",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever experienced an instant romantic spark with someone you met through an app?",
+  "tr": "Hiç bir uygulama üzerinden tanıştığın biriyle anında romantik bir çekim hissettin mi?",
+  "category": "spicy"
+ }
+]

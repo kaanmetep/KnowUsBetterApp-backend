@@ -1,0 +1,475 @@
+{
+  "f8b8e4f3-28d9-4886-af07-a40660eecc99": {
+    "text": "Tu sortirais avec quelqu'un qui a des goûts musicaux très différents des tiens ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f304ce02-dda7-4317-8fdb-ea25aee9c4a4": {
+    "text": "Le niveau d'études de ta moitié compte pour toi ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "53cff209-fbc0-4246-b117-18b3555971df": {
+    "text": "Tu sortirais avec quelqu'un de plus petit que toi ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bc57ff15-11b9-4073-ae40-e1d0f01c0fad": {
+    "text": "Finir ta vie sans personne, ça te fait peur ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f43d3e26-8697-42a0-8804-7145be8be518": {
+    "text": "Ça te dérangerait que ta moitié ait eu plus d'ex que toi ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a341a8ea-7831-4c4c-993b-95651f9220ee": {
+    "text": "Tu sortirais avec quelqu'un qui ne t'attire pas physiquement ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "83898e96-79ac-41d0-a2cd-f95d16e018bd": {
+    "text": "Ça te dérangerait que ta moitié parle mariage dès le début de la relation ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1bc54b46-bd63-495c-979d-0d1e4203d959": {
+    "text": "Tu envisagerais d'épouser quelqu'un d'un autre pays ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fc039185-c94b-4708-bb45-c273aa7abbc5": {
+    "text": "Au premier rendez-vous, c'est à l'homme de payer l'addition ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "32406677-bba7-491a-aff9-d64567ca82c0": {
+    "text": "Tu paierais les dettes de ta moitié ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "16ab0dae-f337-4214-84b3-f4fd1d237451": {
+    "text": "Ça t'est déjà arrivé d'avoir une aventure physique avec quelqu'un pour qui tu n'avais pas de sentiments ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "24afb9f9-09fe-479b-b7fe-222f914f546d": {
+    "text": "Tu as déjà profité de quelqu'un qui t'aimait profondément, juste pour éviter la solitude ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2e854593-1245-4f29-8c9d-dc97306eaeb0": {
+    "text": "Plus tard, tu préférerais vivre avec ta moitié dans une grande ville ou dans une petite ville calme ?",
+    "answers": [
+      "Grande ville",
+      "Petite ville calme"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9fcb5dab-3f2e-4a0d-b23a-61900bc49522": {
+    "text": "Tu sortirais avec quelqu'un qui devient désagréable après quelques verres ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "97b6d4e0-ab32-423e-bc3f-53883b958a5d": {
+    "text": "Tu resterais dans une relation qui ne te comble pas émotionnellement, sans pour autant te rendre triste ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "32b5d1f7-97f4-466b-ad7f-395b505c73a7": {
+    "text": "Une relation peut-elle marcher sans alchimie physique ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2d748ea6-89f2-4ad3-bb23-ea30c2c73842": {
+    "text": "Si on t'offrait 1 million de dollars pour séduire la moitié de ton meilleur ami, tu accepterais ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e55ea49c-c670-4fe9-bf1c-267153fc88e0": {
+    "text": "Tu penses avoir déjà fait à quelqu'un le mal que tu as peur qu'on te fasse ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5264f2b0-12db-44aa-81d2-395cee494d0c": {
+    "text": "Si tu avais beaucoup d'argent, tu vivrais sans travailler ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "92350381-e030-4eb9-adea-eba4539776db": {
+    "text": "Plus tard, tu choisirais de rester dans ta ville natale avec ta moitié ou de partir vivre ailleurs ensemble ?",
+    "answers": [
+      "Rester dans ma ville natale",
+      "Partir vivre ailleurs"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3e001ead-34f3-49cd-841b-0adf7ed83ee2": {
+    "text": "Tu fouillerais dans le téléphone de ta moitié ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cb65844c-0923-4018-827e-7e5e742a2c88": {
+    "text": "Ça t'irait que ta moitié ait besoin de prendre ses distances avec toi pendant longtemps ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "13769262-3c15-4137-99c0-eee392521846": {
+    "text": "Pour toi, qu'est-ce qui compte le plus chez ta moitié : son passé ou son potentiel pour l'avenir ?",
+    "answers": [
+      "Son passé",
+      "Son potentiel"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6b732428-5ccc-4b9e-a751-ea915f51024f": {
+    "text": "Tu t'attends à recevoir un « bonjour » de ta moitié chaque matin ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d2cb8fd1-c4ee-43e7-9bec-026c60baf9ad": {
+    "text": "Tu te mêlerais du style vestimentaire de ta moitié ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "04b359db-733e-4009-8f92-b0814aa0b03a": {
+    "text": "Tu as déjà ignoré un message de ta moitié pour paraître plus cool ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a0098eef-632a-4297-94cf-514d6abb3a58": {
+    "text": "Qu'est-ce qui est le plus dur : être la personne qui part ou celle qui reste ?",
+    "answers": [
+      "Celle qui part",
+      "Celle qui reste"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "44bf894e-1b91-4709-9c94-74b54c849ec9": {
+    "text": "Plus tard, ça te poserait problème que ta moitié veuille uniquement des garçons et pas du tout de fille ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8e44a610-70a6-443a-a5f4-6695dd7f2acb": {
+    "text": "Tu as déjà trompé quelqu'un avec qui tu étais en couple ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f7cd4adc-4c3a-462d-80b8-a9cb5e0d59a7": {
+    "text": "Tu as déjà été victime d'une infidélité ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": "Avoided 'tu as été trompé(e)' / 't'a trompé(e)' (participle agreement); 'victime' is epicene."
+  },
+  "b06e47ff-0765-4387-a852-0e0f8d671331": {
+    "text": "Quelqu'un qui t'aime vraiment peut-il tout pardonner ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6e964579-93e2-4ea7-a602-f2da4dc10c40": {
+    "text": "Tu sortirais avec quelqu'un qui n'aime pas les animaux ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9da6aa5a-72e2-4cfc-967b-a1333bc77fde": {
+    "text": "Ça te dérangerait que ta moitié reste en contact avec son ex ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5a13add7-782e-4168-a409-a8dd27a630b6": {
+    "text": "Tu resterais avec quelqu'un qui n'aime pas faire du sport ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "97b0ab35-8d44-44b9-9ab1-814f1f7f85a8": {
+    "text": "Tu sortirais avec quelqu'un de plus âgé que toi ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fdcd6d7e-01fa-494d-a8de-7b442ca67c54": {
+    "text": "Qu'est-ce qui fait le plus mal dans une relation : le mensonge ou l'indifférence ?",
+    "answers": [
+      "Le mensonge",
+      "L'indifférence"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "20510bb3-bf38-4b99-bb6d-4afcab715e9e": {
+    "text": "En plein flirt, tu as déjà fait croire que tu avais de l'argent alors que non ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cb8b64a7-939c-4ae3-8a90-74b432a1443c": {
+    "text": "Si tu aimais quelqu'un mais que vos projets d'avenir étaient très différents, tu continuerais la relation ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "008255f4-ad49-4afa-b3ff-75cdf23edc79": {
+    "text": "Si tu ne parlais pas à ta moitié de toute une journée, ça finirait en dispute ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fa0c44cc-ec0b-436b-9ccd-7bbc0543e25b": {
+    "text": "Si ta mère voulait que tu quittes ta moitié, tu le ferais ? (Pas de compromis possible)",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1317fcea-d7cc-4eec-8f68-f27242b04416": {
+    "text": "Tu laisserais ta moitié lire tes DM Instagram ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "dbc65ae7-6de1-4c22-a234-30dfe8df9e83": {
+    "text": "Tu commencerais une relation sérieuse avec quelqu'un rencontré sur les réseaux sociaux ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1049e2d0-ff17-4ee1-ab4f-f85fe3f9b87c": {
+    "text": "Tu contrôlerais les publications Instagram de ta moitié ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a62df855-633d-493b-8ab3-2550e3b3365e": {
+    "text": "Si ta moitié est en ligne mais ne te répond pas, ça finit en dispute ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ae38b2a8-6c8a-4e8c-a318-b1e20f4aa648": {
+    "text": "Plus tard, tu envisagerais d'épouser quelqu'un qui a connu plus de partenaires que toi ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3854250e-4b69-4774-8b6a-a2e7d388e9cf": {
+    "text": "Tu as déjà pardonné une infidélité ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fbdb80de-c188-405f-82b0-4e79741032fb": {
+    "text": "Tu crois que tout le monde mérite une seconde chance, quoi qu'on ait fait ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f3b3010c-c0bd-47ed-a4bf-e62dd8e2006f": {
+    "text": "Tu renoncerais à ta plus grande passion pour la personne que tu aimes ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fdb7ee23-84ac-47e3-82cc-e99cfdc6faef": {
+    "text": "Tu crois qu'on peut vraiment changer de personnalité profonde avec le temps ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c29fa0f5-b83a-4d47-b83a-23415dbccd57": {
+    "text": "Ça te dérangerait que ta moitié soit la seule femme ou le seul homme d'une grande bande d'amis ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8a608656-6f0c-4340-a4ea-9946910b72b5": {
+    "text": "Plus tard, tu choisirais quelqu'un qui veut économiser pour l'avenir ou quelqu'un qui préfère profiter et dépenser maintenant ?",
+    "answers": [
+      "Économiser pour l'avenir",
+      "Profiter et dépenser maintenant"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "23c84c87-92c4-43a2-8803-f5f70ee8691a": {
+    "text": "Tu sortirais avec quelqu'un qui adore la vie nocturne ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ce87d138-4cfa-4aee-9758-29ca3d1b954b": {
+    "text": "Tu crois que tout ce qui va t'arriver est déjà écrit ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3decdc82-9ae0-4505-91f6-6302b5c53c41": {
+    "text": "Tu sortirais avec quelqu'un qui réclame sans cesse ton attention ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "706d8700-739b-47ae-9dd1-dce16f162a07": {
+    "text": "Tu sortirais avec quelqu'un de radin ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0b4812d9-d4b8-4f65-8890-54552b41ef89": {
+    "text": "Tu sortirais avec quelqu'un dont tu n'aimes pas la voix ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "001a4314-020a-4324-a750-caa1ad0bc9e4": {
+    "text": "Tu voudrais que ta moitié supprime ses anciennes publications sur les réseaux ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0d6447bb-6e82-460a-b04d-5d2f003696e4": {
+    "text": "Plus tard, tu inclurais ta moitié dans tous tes projets de vie ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6d5ea62e-65a1-4df6-945b-5f285684a863": {
+    "text": "Tu sortirais avec quelqu'un qui n'aime pas lire ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ac395c4f-0f1f-409a-b052-949dc725b2d7": {
+    "text": "Tu sortirais avec quelqu'un au chômage ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5bad6b2a-f446-40b8-80eb-1eb297558aaf": {
+    "text": "Tu as déjà continué à parler à quelqu'un qui ne te plaisait pas, juste pour l'attention ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2ea3cafa-eafd-4846-ae37-6b1bd3b0afe0": {
+    "text": "Pour toi, ta moitié doit se souvenir de toutes les dates importantes de votre couple ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "69756540-7f71-4731-b79c-4eb07fe1da71": {
+    "text": "Tu as déjà imaginé à quoi ressemblerait ton mariage ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fe1b8a27-eb1b-4098-a0a4-914e39ab95eb": {
+    "text": "Ça te pose problème si ta moitié n'a pas le même niveau intellectuel que toi ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "86fdbda3-1523-4d06-9d8c-07124f41ef2f": {
+    "text": "Tu as déjà utilisé une appli de rencontres ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

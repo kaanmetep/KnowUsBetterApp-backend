@@ -1,0 +1,545 @@
+{
+ "9c033c13-73b4-44e7-a935-0242b4fae94f": {
+  "text": "Ça t'énerverait que ta moitié ne te présente jamais à ses amis ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "40137f6d-8f1e-45c1-a4dc-a63c87f0a92f": {
+  "text": "Selon toi, il faut supprimer son ex de ses réseaux sociaux ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "32bec47e-fda0-4934-bb7e-536d8e4cf7f2": {
+  "text": "Si, après le mariage, ta moitié ne t'attirait plus physiquement, tu divorcerais ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0f881ec0-2f6d-4a8d-8f6f-1fe54395c59f": {
+  "text": "Tu préférerais que votre enfant ressemble plutôt à toi ou à ta moitié ?",
+  "answers": [
+   "À moi",
+   "À ma moitié"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ae4f73ff-5e35-4faa-bea5-ccb6fff9920e": {
+  "text": "Si ta moitié y tenait vraiment, tu donnerais à votre enfant le prénom de la mère de ta moitié ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b246de81-762a-451c-8b6a-a4a4cdf1c14f": {
+  "text": "Ça te dérangerait que ta moitié ait un faux compte juste pour espionner les gens ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "04fb3b07-0c4a-4470-906f-69ff3696620b": {
+  "text": "En couple, mieux vaut faire une pause pour arranger les choses, ou tout régler sans pause ?",
+  "answers": [
+   "Faire une pause",
+   "Régler sans pause"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9abff03b-7b65-419f-b4d6-2d469b4dc7be": {
+  "text": "1 million de dollars et 2 ans sans voir ta moitié, ou 10 millions de dollars et 4 ans sans voir ta moitié ?",
+  "answers": [
+   "1 million $, 2 ans à distance",
+   "10 millions $, 4 ans à distance"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "80bd3596-b457-49a1-a292-e3a26678f409": {
+  "text": "Tu préfères quelqu'un que tu aimes mais avec qui tu te disputes sans cesse, ou quelqu'un de moins compatible mais avec qui c'est paisible ?",
+  "answers": [
+   "L'amour avec des disputes",
+   "Moins compatible mais paisible"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "550b4795-47de-43b4-9981-5522c66470f3": {
+  "text": "Tu préférerais une demande en mariage simple ou grandiose de la part de ta moitié ?",
+  "answers": [
+   "Demande simple",
+   "Demande grandiose"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c90ae871-809e-4ada-9637-99d6ff40dce7": {
+  "text": "Tu préférerais que ta moitié t'offre une bague de fiançailles à la limite de son budget, ou une bague bien en dessous de ses moyens ?",
+  "answers": [
+   "Bague à la limite du budget",
+   "Bague bien moins chère"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9ae0640c-d472-4528-a93b-99746bc50ea6": {
+  "text": "Tu préférerais que ta moitié organise la demande en mariage sans aide, ou demande conseil en secret à tes amis ?",
+  "answers": [
+   "Organise sans aide",
+   "Demande conseil en secret"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4d5dde88-5d3a-4751-91aa-1004648687c2": {
+  "text": "Tu préfères quelqu'un qui montre son amour par de grands gestes, ou par de petites attentions du quotidien ?",
+  "answers": [
+   "Grands gestes",
+   "Petites attentions du quotidien"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "db9d8560-2591-456f-b350-c20096c3e897": {
+  "text": "C'est OK pour toi que ta moitié fasse un câlin à un ami ou une amie du sexe opposé ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d1af31ed-9299-485a-941b-b8031854ca9c": {
+  "text": "C'est OK pour toi que ta moitié invite au resto un ami ou une amie du sexe opposé ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1fd7db14-1dfd-4713-a16a-91a0bc778c60": {
+  "text": "C'est OK pour toi que ta moitié voie en tête-à-tête un ami ou une amie du sexe opposé ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "49fd0add-5bf4-4012-b988-e6a0c6e704c2": {
+  "text": "Ça te pose problème que ta moitié ait un crush sur une célébrité ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9cd41d79-298f-431e-92ae-8a1bba9c478f": {
+  "text": "Selon toi, c'est acceptable de lire les messages de ta moitié avec ses amis du sexe opposé ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "585ec0e7-b6f1-444c-b04c-2ef0117d83bd": {
+  "text": "Avec ta moitié, tu préfères…",
+  "answers": [
+   "Un lien sûr mais ennuyeux",
+   "Un lien risqué mais vivant"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "12cc068c-eb0e-44d6-b816-c39859648964": {
+  "text": "Ça t'énerverait que ta moitié refuse de te montrer ses messages avec un ami ou une amie du sexe opposé ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "940c094a-220c-40f3-9526-a5fea4f487bd": {
+  "text": "C'est OK pour toi que ta moitié loge quelque temps chez un ami ou une amie du sexe opposé ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "db9c8d1c-063f-4c3d-8da6-84abfcb592e7": {
+  "text": "Ce serait un motif de dispute si ta moitié voulait passer tout le week-end à jouer aux jeux vidéo dans son coin ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8c809c4c-7508-47c3-b12b-68ca4fae57b8": {
+  "text": "Dans une longue relation, avec le temps, l'amour…",
+  "answers": [
+   "Grandit",
+   "Change de forme"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2e1f0de3-37db-41c9-a49f-ceb0bde8402f": {
+  "text": "Ta moitié devrait penser d'abord à son avenir ou au tien ?",
+  "answers": [
+   "Son propre avenir",
+   "Mon avenir"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "58cc044f-d0e6-407b-b19f-4db600605254": {
+  "text": "Que ta moitié essaie de te changer…",
+  "answers": [
+   "Acceptable",
+   "Jamais acceptable"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "faeb28bd-22ea-4bb9-89c6-5cd68917656d": {
+  "text": "Dans une longue relation, la monotonie…",
+  "answers": [
+   "Inévitable",
+   "Évitable"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "93bfc65c-0d46-4cbc-86a5-46802820f43b": {
+  "text": "Que ta moitié essaie de te changer, même « pour ton bien »…",
+  "answers": [
+   "Acceptable",
+   "Jamais acceptable"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d396fe80-cd3f-43c3-842a-fcd6c54b23b4": {
+  "text": "Que ta moitié parle de ses anciennes relations…",
+  "answers": [
+   "Normal et nécessaire",
+   "Inutile et nuisible"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1145588f-eea5-4226-80b3-a98a5d0b043c": {
+  "text": "La jalousie…",
+  "answers": [
+   "Une preuve d'amour",
+   "Un manque de confiance"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "aabf084a-c712-4d5f-872c-8351c008d756": {
+  "text": "Si ta moitié n'aime pas tes amis…",
+  "answers": [
+   "Ça peut poser problème",
+   "Ce n'est pas un problème"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "31b2a2da-9927-44e9-948c-1edd25445983": {
+  "text": "Si ta moitié ne t'écrit pas sans arrêt…",
+  "answers": [
+   "C'est normal",
+   "C'est un manque d'intérêt"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "aaa13474-4c03-4f25-b201-c6c81cf34b35": {
+  "text": "Si ta moitié te prévient à la dernière minute, sans rien prévoir…",
+  "answers": [
+   "De la spontanéité",
+   "Un manque de respect"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c8052202-a0f7-4d5a-9e3d-4aaa2bba5caf": {
+  "text": "Passer tout son temps ensemble dans un couple…",
+  "answers": [
+   "Ça rapproche",
+   "Ça étouffe"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "48e6113e-51b4-4e1f-a138-7c7149028fa3": {
+  "text": "Se taire pendant une dispute…",
+  "answers": [
+   "De la maturité",
+   "De la fuite"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c3b94f1d-30c4-4c5d-bed8-ab4965ec0b5b": {
+  "text": "Demander des comptes à ta moitié…",
+  "answers": [
+   "C'est normal",
+   "Un manque de confiance"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e2f38a08-615d-4063-9ef1-e1194aabb7a6": {
+  "text": "La liberté dans un couple…",
+  "answers": [
+   "Ce qui compte le plus",
+   "Ça affaiblit l'amour"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3354bd61-f081-4c81-8939-a8009d25b348": {
+  "text": "Avoir du temps pour soi dans un couple…",
+  "answers": [
+   "C'est sain",
+   "Ça éloigne"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "64a23406-a16e-4819-9dd8-da44d139f8e6": {
+  "text": "Le silence entre ta moitié et toi…",
+  "answers": [
+   "Un signe de bien-être",
+   "Un signe de distance"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "52bd1a52-d873-4451-8a68-da4c7ade05d3": {
+  "text": "La routine dans une longue relation…",
+  "answers": [
+   "Ça rassure",
+   "Ça crée de l'ennui"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7a0db8b2-560c-41e6-849a-993e7e074ae8": {
+  "text": "Le plus important dans un couple : l'amour ou le respect ?",
+  "answers": [
+   "L'amour",
+   "Le respect"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9d7e63d7-607b-48a9-949a-16936f965dc6": {
+  "text": "Tout partager avec ta moitié…",
+  "answers": [
+   "Ça crée de la complicité",
+   "Ça tue l'espace perso"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7ee80276-4cae-4786-8e8a-6c3732d4bad2": {
+  "text": "Dans une longue relation, l'amour est plutôt…",
+  "answers": [
+   "Un choix",
+   "Un sentiment"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ddcf2c7d-04d2-4a0c-b0ed-119f2f636bc6": {
+  "text": "Le plus grand risque dans un couple…",
+  "answers": [
+   "S'éloigner",
+   "Trop s'habituer"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2b676dd8-d2b2-4d4d-91f2-6cd5c4997b2b": {
+  "text": "Dans une longue relation, on finit plutôt par…",
+  "answers": [
+   "Se compléter",
+   "Se ressembler"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d28a64f1-32ba-433f-82dd-72bf9c2cc578": {
+  "text": "Tout accepter de ta moitié…",
+  "answers": [
+   "Le summum de l'amour",
+   "Ça empêche d'évoluer"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "08a3ebbf-7806-4766-923d-2957e0c0d2c2": {
+  "text": "Avec ta moitié, tu préfères…",
+  "answers": [
+   "Complicité forte, peu de passion",
+   "Passion forte, conflits sans fin"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b97d013a-ccd8-4678-b52e-c6ba122ef54b": {
+  "text": "Dans un couple…",
+  "answers": [
+   "Que tout devienne routine",
+   "Que rien ne soit stable"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b933a4a0-fb1a-423e-8571-96ecb4dd4b7b": {
+  "text": "Dans un couple…",
+  "answers": [
+   "Moins d'amour mais plus de paix",
+   "Un amour fort mais moins de paix"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "641d3889-c306-47c1-875c-525e5c928cdc": {
+  "text": "Le pire dans un couple : la confiance trahie ou la perte totale d'intérêt ?",
+  "answers": [
+   "La confiance trahie",
+   "La perte totale d'intérêt"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d1483a50-6ff5-4975-9b46-224f67e0036b": {
+  "text": "Dans une longue relation, c'est quoi le pire : douter sans cesse ou ressentir sans cesse un vide ?",
+  "answers": [
+   "Le doute permanent",
+   "Le vide permanent"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d0a3444e-8114-4511-a054-56a7198b70a0": {
+  "text": "Dans une longue relation, c'est quoi le plus dur : rester sans savoir si on t'aime, ou rester en sachant que tu n'aimes pas l'autre ?",
+  "answers": [
+   "Rester sans savoir si on t'aime",
+   "Rester sans aimer l'autre"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "86598b9e-9d8a-47a4-b230-ea71b1e47093": {
+  "text": "Dans une longue relation, c'est quoi le plus sain : tout régler en parlant, ou laisser le temps arranger certaines choses ?",
+  "answers": [
+   "Tout régler en parlant",
+   "Laisser faire le temps"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a3f28e46-c315-4260-8130-3b9f5f03147d": {
+  "text": "Dans un couple, la confiance…",
+  "answers": [
+   "Se construit par la transparence",
+   "Naît en silence avec le temps"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bab53c7d-eba6-4584-a606-4af030d5d86b": {
+  "text": "Les différences dans un couple…",
+  "answers": [
+   "Se règlent en discutant",
+   "S'acceptent telles quelles"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0972afde-efba-45c4-84f3-1ecccab07b8b": {
+  "text": "Combien d'enfants aimerais-tu avoir ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "877a7f71-261e-441f-ae71-d19aafbce112": {
+  "text": "Si on gagnait au loto demain, qu'est-ce qu'on devrait acheter en premier ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7a6c7486-c2d0-4670-8265-229eb7648fa1": {
+  "text": "Dans notre future maison, quelle pièce compte le plus pour toi ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "da02be22-6278-4003-867b-4669430cca9c": {
+  "text": "Si on pouvait vivre notre histoire d'amour dans une autre décennie, laquelle choisirais-tu ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6a9340b3-6abd-422e-9d0d-2755d92b2626": {
+  "text": "Selon toi, quel est l'âge idéal pour se marier ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "84f363db-cdd5-4d66-b0ee-a92b4e42ea36": {
+  "text": "En quelle saison aimerais-tu qu'on se marie ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

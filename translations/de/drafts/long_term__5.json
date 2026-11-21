@@ -1,0 +1,656 @@
+{
+  "61e8d220-0d50-4983-9d45-58c7f73ab1bb": {
+    "text": "Dein Schatz legt neuerdings auf, ohne „Ich liebe dich“ zu sagen. Wie viele von 10 Punkten gibt es dann noch?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a5eb351e-ac14-4d92-936d-cb8b6638100e": {
+    "text": "Dein Schatz hat den Job verloren und geht seit Tagen nicht mehr vor die Tür. Was machst du?",
+    "answers": [
+      "Sofort bei der Jobsuche helfen",
+      "Zeit zum Erholen geben",
+      "Zum Rausgehen drängen",
+      "Mit kleinen Überraschungen aufmuntern"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a3fd2913-9478-4548-8a89-01aa2af2444a": {
+    "text": "Dein Schatz liegt krank im Bett, und heute Abend steigt die Geburtstagsparty von deinem besten Freund. Was machst du?",
+    "answers": [
+      "Absagen und bei deinem Schatz bleiben",
+      "Kurz vorbeischauen und zurückkommen",
+      "Hingehen, aber ständig schreiben"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7094abfc-9802-4319-99be-454ec741410c": {
+    "text": "Dein Schatz ist seit Monaten unglücklich und sagt nicht, warum. Was machst du?",
+    "answers": [
+      "Nachhaken, bis es rauskommt",
+      "Warten, bis dein Schatz sich öffnet",
+      "Eine Therapie vorschlagen",
+      "Jemanden aus dem engen Freundeskreis um Hilfe bitten"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8aaf405f-56bb-4c98-9939-137ab11e1be8": {
+    "text": "Dein Schatz muss für 6 Monate beruflich in eine andere Stadt. Was machst du?",
+    "answers": [
+      "Jedes Wochenende besuchen",
+      "Mit umziehen",
+      "Eine Fernbeziehung führen",
+      "Bitten, nicht zu gehen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "de905a3e-0edc-44e7-9e86-c7dc5564a1d3": {
+    "text": "Dein Schatz steckt in einer stressigen Phase und reagiert ständig gereizt auf dich. Was machst du?",
+    "answers": [
+      "Darüber hinwegsehen",
+      "Eine klare Grenze ziehen",
+      "Abstand halten, bis es vorbei ist",
+      "In einem ruhigen Moment darüber reden"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3c595094-97f5-4d24-b08f-83322c9cde8b": {
+    "text": "Dein Schatz hatte einen heftigen Streit mit einer Person aus deinem Freundeskreis und will, dass du sie nicht mehr triffst. Was machst du?",
+    "answers": [
+      "Den Kontakt abbrechen",
+      "Heimlich weiter treffen",
+      "Offen sagen, dass der Kontakt bleibt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5cf16284-d233-4d68-b5cd-03e5bfe57372": {
+    "text": "Wegen deines Schatzes habt ihr den Flug in den Urlaub verpasst. Was machst du?",
+    "answers": [
+      "Kurz sauer sein, dann ist es gut",
+      "Dir gar nichts anmerken lassen",
+      "Noch lange darauf herumreiten",
+      "Darüber lachen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "00ffdc81-1788-48f6-a0d2-bbb694227990": {
+    "text": "Dein Schatz will den sicheren Job kündigen und sich selbstständig machen. Was machst du?",
+    "answers": [
+      "Voll und ganz unterstützen",
+      "Erst einen Plan sehen, dann unterstützen",
+      "Versuchen, es auszureden"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b8801cb9-755d-4cf9-9c75-1e31d7882f66": {
+    "text": "Die Mutter deines Schatzes kritisiert beim Essen deine Kochkünste. Was machst du?",
+    "answers": [
+      "Lächeln und drüberstehen",
+      "Höflich antworten",
+      "Warten, dass dein Schatz dich verteidigt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9144ca3b-9ba6-432d-8fde-06ba516c50c0": {
+    "text": "Dein Schatz telefoniert jeden Tag eine Stunde mit der eigenen Mutter. Was denkst du?",
+    "answers": [
+      "Völlig normal",
+      "Etwas viel, aber nicht meine Sache",
+      "Sollte man mal ansprechen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ef6eab32-1878-439c-867c-5aa2d8656d56": {
+    "text": "Deine Mutter ist richtig kühl zu deinem Schatz. Was machst du?",
+    "answers": [
+      "Mit deiner Mutter reden",
+      "Deinen Schatz um Geduld bitten",
+      "Abwarten, bis es mit der Zeit besser wird",
+      "Die Familie seltener besuchen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "aab9a69b-21c6-4f1a-91c7-83f56cc39eec": {
+    "text": "Ihr habt „dieses Jahr keine Geschenke“ ausgemacht, aber dein Schatz schenkt dir etwas Teures. Was machst du?",
+    "answers": [
+      "Dich riesig freuen",
+      "Verlegen sein",
+      "Am nächsten Tag auch etwas besorgen",
+      "Sauer sein wegen der gebrochenen Abmachung"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "37e84834-ba8c-49a2-97b6-1191c6552042": {
+    "text": "Das Geschenk von deinem Schatz gefällt dir überhaupt nicht. Was machst du?",
+    "answers": [
+      "So tun, als fändest du es toll",
+      "Vorsichtig einen Umtausch vorschlagen",
+      "Ehrlich sagen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cd352866-de22-4f72-9b83-6ccdd5825cd9": {
+    "text": "Euer Jahrestag steht vor der Tür und niemand hat etwas geplant. Was machst du?",
+    "answers": [
+      "Auf den letzten Drücker was organisieren",
+      "Warten, dass dein Schatz etwas plant",
+      "Zu Hause zu zweit feiern",
+      "Ausfallen lassen ist auch okay"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "dd4e91c7-b24c-4483-8ca5-0bf334aed491": {
+    "text": "Dein Schatz schmeißt dir eine Überraschungsparty, aber du hasst Überraschungen. Was machst du?",
+    "answers": [
+      "Genießen und dir nichts anmerken lassen",
+      "Freude vorspielen, später ansprechen",
+      "Es direkt zeigen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "280552dc-e7e8-4c5b-8682-028899d5fd0e": {
+    "text": "Am Valentinstag sind die Restaurants voll und überteuert. Was machst du?",
+    "answers": [
+      "Trotzdem ausgehen",
+      "Zu Hause kochen",
+      "Einen Tag vorher oder nachher feiern",
+      "Valentinstag gar nicht feiern"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c2165bb4-4fa4-45c4-9b37-069d18ee412f": {
+    "text": "Jemand aus deinem Freundeskreis wurde zum Jahrestag riesig überrascht, und die Storys sind voll davon. Was machst du?",
+    "answers": [
+      "Gar nicht beeindruckt sein",
+      "Ein bisschen neidisch werden",
+      "Deinem Schatz einen Wink geben",
+      "Es deinem Schatz zeigen: „Wir sind die Nächsten“"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1201ae23-1c71-4203-a62c-03651040e822": {
+    "text": "Was für ein Geburtstagsgeschenk machst du deinem Schatz?",
+    "answers": [
+      "Etwas, das mein Budget sprengt",
+      "Etwas Vernünftiges, das gebraucht wird",
+      "Etwas Günstiges, aber Bedeutungsvolles",
+      "Etwas Selbstgemachtes"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "daa60757-b2eb-4fde-add6-bab68b63940d": {
+    "text": "Dein Schatz hat Geburtstag und will mit Freunden feiern, du lieber zu zweit. Was machst du?",
+    "answers": [
+      "Mit Freunden feiern",
+      "Darauf bestehen, zu zweit zu feiern",
+      "Erst zu zweit, dann mit Freunden"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "012d5335-8992-4122-81a7-8f20f6e61f1c": {
+    "text": "Im Urlaub willst du am Pool liegen, dein Schatz will die Stadt erkunden. Was machst du?",
+    "answers": [
+      "Mit auf Erkundungstour gehen",
+      "Dein Schatz zieht los, du bleibst",
+      "Tageweise abwechseln",
+      "Deinen Schatz zum Pool überreden"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0409d66b-4953-4ec5-965a-618f85f375ae": {
+    "text": "In einer Woche geht der Urlaub los und es gibt noch null Plan. Was machst du?",
+    "answers": [
+      "Alles selbst planen",
+      "Deinem Schatz überlassen",
+      "„Wir schauen dann vor Ort“",
+      "Zusammensetzen und gemeinsam planen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0556bf3a-66c5-4f8a-bef7-7afeed863703": {
+    "text": "Im Urlaub sollst du ständig Fotos von deinem Schatz machen. Was machst du?",
+    "answers": [
+      "Gern knipsen",
+      "Ein paar machen, dann ist Schluss",
+      "Knipsen, aber dabei meckern",
+      "Einen Selfie-Stick schenken"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a5084572-7caa-4df2-b89e-86b53e301f4b": {
+    "text": "Welches Hotel wählst du für den Urlaub?",
+    "answers": [
+      "Günstig, mehr Geld für Ausflüge",
+      "Etwas dazwischen",
+      "Teuer, es ist schließlich Urlaub"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a18c029b-1fb7-4e38-b075-942bba970ac5": {
+    "text": "Im Urlaub beantwortet dein Schatz ständig Arbeitsmails. Was machst du?",
+    "answers": [
+      "Verständnis haben, Job ist Job",
+      "Bitten, das Handy wegzulegen",
+      "Selbst im Handy versinken",
+      "Eine Stunde Arbeit pro Tag vereinbaren"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f1bd216a-1365-46b4-99c9-31e6443032d6": {
+    "text": "Du sagst: „Ich hätte so Lust auf eine Orange.“ Was erwartest du von deinem Schatz?",
+    "answers": [
+      "Geschält und geschnitten servieren",
+      "Bringen, schälen tu ich selbst",
+      "Nichts, ich hol sie mir selbst"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "71e00290-5959-49df-b598-98d5f6a4ec3e": {
+    "text": "Du bittest deinen Schatz, spontan einen Frauen- oder Männernamen zu nennen, und es ist nicht deiner. Was machst du?",
+    "answers": [
+      "Drüber lachen",
+      "Aus Spaß beleidigt tun",
+      "Echt eingeschnappt sein"
+    ],
+    "accepted": [],
+    "flagged": true,
+    "note": "Source 'name a woman/man' trend; kept both options in one phrase so the player's gender isn't implied. Check it still reads as the trend."
+  },
+  "ff0a9654-ef6b-4984-a3ea-8df891dae9b9": {
+    "text": "„Wer wirklich will, der macht es auch.“ Stimmst du zu?",
+    "answers": [
+      "Ja, wer will, findet einen Weg",
+      "Nein, manchmal geht es wirklich nicht"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f97521f5-e091-42dc-ba9e-dde538e4608d": {
+    "text": "Dein Schatz nennt ein Essen, das du liebst, „eklig“. Wie fühlst du dich?",
+    "answers": [
+      "Ist mir völlig egal",
+      "Dann bitte erst mal richtig probieren",
+      "Ein bisschen gekränkt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d9f822a7-b480-41cb-b9e0-c606b68bfd16": {
+    "text": "Dein Schatz wacht eines Morgens als Wurm auf. Was machst du?",
+    "answers": [
+      "Ins Glas setzen und für immer lieben",
+      "Immer noch lieben, aber Schluss machen",
+      "Im Garten freilassen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "48f856be-c25a-4766-981c-e33f6a605766": {
+    "text": "Welches Duo seid ihr als Paar?",
+    "answers": [
+      "Ein Golden Retriever und eine schwarze Katze",
+      "Zwei Golden Retriever",
+      "Zwei schwarze Katzen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "400b8c47-8966-42dc-ad12-a1b55903828a": {
+    "text": "Rund um die Uhr gegenseitig den Standort sehen …",
+    "answers": [
+      "Gibt mir Sicherheit",
+      "Unnötig, aber okay",
+      "Fühlt sich erdrückend an"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5adfe009-507d-4cc1-8e49-8c5215ce100d": {
+    "text": "Einen ganzen Sonntag zusammen im Bett verbringen …",
+    "answers": [
+      "Der perfekte Sonntag",
+      "Schön bis mittags",
+      "Ein verschwendeter Tag"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b4e988e6-ef45-427d-a487-aa1b343e1253": {
+    "text": "Getrennte Schlafzimmer für besseren Schlaf …",
+    "answers": [
+      "Eine clevere Lösung",
+      "Der Anfang vom Ende"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "08b4096a-d212-4509-889e-c4423a0554af": {
+    "text": "Würdest du wollen, dass dein Schatz nach deinem Tod wieder heiratet?",
+    "answers": [
+      "Ja, Hauptsache glücklich",
+      "Ja, aber erst nach ein paar Jahren",
+      "Nein"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0a9315a5-d764-46ce-89f9-a9f98e9836a4": {
+    "text": "Kuscheln beim Schlafen …",
+    "answers": [
+      "Die ganze Nacht",
+      "Bis wir einschlafen",
+      "Nie, getrennte Bettseiten"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "124b29b3-d2d3-4c27-ae44-007195469854": {
+    "text": "Es gibt nur ein Ladekabel. Dein Akku hat 10 %, der von deinem Schatz 3 %. Was machst du?",
+    "answers": [
+      "Dein Schatz lädt zuerst",
+      "Ich lade zuerst",
+      "Alle 15 Minuten abwechseln"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1ab4c8a3-015a-4fa9-a591-cb6c81ce2297": {
+    "text": "Ein gemeinsames Spotify-Konto als Paar …",
+    "answers": [
+      "Romantisch",
+      "Ruiniert meinen Algorithmus"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9ed20021-d80f-4f8f-8cc6-71087328b9d9": {
+    "text": "Wenn dein Schatz dich vor deinen Freunden „Baby“ nennt …",
+    "answers": [
+      "Total süß",
+      "Okay, aber lieber zu Hause",
+      "Cringe"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d4cf5241-eaf9-43d6-a263-9442c1a5b857": {
+    "text": "Als Paar zusammen Sport machen …",
+    "answers": [
+      "Schweißt uns zusammen",
+      "Ab und zu lustig",
+      "Lieber getrennt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1599daab-37c5-4052-bebd-b0921c2b10b1": {
+    "text": "Dein Schatz will „für unsere Gesundheit“ Chips und Süßkram aus der Wohnung verbannen. Was machst du?",
+    "answers": [
+      "Sofort mitmachen",
+      "Einen geheimen Vorrat verstecken",
+      "Auf keinen Fall"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a57a03b6-72f4-4628-9c11-9d68ed1b2a10": {
+    "text": "Dein Schatz schiebt einen Arztbesuch seit Monaten vor sich her. Was machst du?",
+    "answers": [
+      "Selbst den Termin machen",
+      "Drängeln, aber nicht entscheiden",
+      "Nicht mein Problem"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d4645f3c-69a7-40fb-bd6a-62479129ae69": {
+    "text": "Das Haustier schläft bei uns im Bett …",
+    "answers": [
+      "Nicht verhandelbar",
+      "Okay, am Fußende",
+      "Nicht im Schlafzimmer"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6457f609-4c80-4b62-8708-eaa0dd15685b": {
+    "text": "Dein Schatz bringt ungefragt ein Straßenkätzchen mit nach Hause. Was machst du?",
+    "answers": [
+      "Sofort einen Namen geben",
+      "Heute Nacht bleibt es, dann reden wir",
+      "Bitten, es zurückzubringen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "84dcc837-d437-43f8-a32c-2c908a01280d": {
+    "text": "Euer Haustier braucht eine OP, die ein ganzes Monatsgehalt kostet. Was machst du?",
+    "answers": [
+      "Ohne zu zögern zahlen",
+      "In Raten zahlen, auch wenn's wehtut",
+      "Das ist zu viel Geld"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2055e918-d825-4db5-bf33-f8d2b212406b": {
+    "text": "Mit wie vielen Jahren würdest du gern in Rente gehen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "89abda44-6324-4d47-a68f-35b99f178055": {
+    "text": "Wo sollen wir zusammen alt werden?",
+    "answers": [
+      "Mitten in der Stadt",
+      "In einem Ort am Meer",
+      "Im Landhaus mit Garten"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0b97884a-8325-43ab-bbf0-12659b04b160": {
+    "text": "Als Paar mit 70 verbringen wir unsere Wochenenden …",
+    "answers": [
+      "Mit Enkelhüten",
+      "Auf Weltreise",
+      "Gemütlich zu Hause"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e0a3fc7a-1fcc-4328-9216-a50f1a9c5c4f": {
+    "text": "Mit wie vielen Jahren sollte ein Kind das erste Handy bekommen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "38575eee-4902-4368-9db9-64498f572cfd": {
+    "text": "Euer Kind bekommt im Supermarkt einen Schreianfall. Was machst du?",
+    "answers": [
+      "Ruhig abwarten",
+      "Kaufen, was es will",
+      "Schreien lassen, da muss es durch"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "afdb8824-8f0d-4e00-aaf8-39f4d18dcbaf": {
+    "text": "Auf welche Schule sollen unsere Kinder gehen?",
+    "answers": [
+      "Staatliche Schule",
+      "Privatschule",
+      "Bilinguale Schule"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "01682675-5b57-4c45-b1a7-0672c6e18e01": {
+    "text": "Wie oft im Monat sollten wir Gäste einladen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d60adf90-40bf-4cd2-8730-519bb5ee1d1e": {
+    "text": "Dein Schatz hat für heute Abend ohne Absprache Freunde zum Essen eingeladen. Was machst du?",
+    "answers": [
+      "Gut gelaunt mitkochen",
+      "Mitspielen, später drüber reden",
+      "Sofort sauer werden",
+      "Eigene Pläne machen und los"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "863c27e9-810a-4c3b-84bb-dccb057a351a": {
+    "text": "Wochenenden mit anderen Paaren verbringen …",
+    "answers": [
+      "Das Beste überhaupt",
+      "Ab und zu schön",
+      "Wochenenden gehören uns"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c07892b4-7740-4d98-82aa-2c86690a8807": {
+    "text": "Wo sollten wir Silvester verbringen?",
+    "answers": [
+      "Nur wir zwei",
+      "Mit der Familie",
+      "Mit Freunden feiern"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c51d83be-122c-47f6-acb6-da205865c718": {
+    "text": "Wie oft pro Woche ist es normal, Essen zu bestellen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "baacc08b-68b4-46f9-94df-14525d77c9ef": {
+    "text": "Unser Zuhause sollte so sein …",
+    "answers": [
+      "Schlicht und minimalistisch",
+      "Gemütlich mit viel Krimskrams",
+      "Mutig und bunt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3055e469-8d10-45cb-9328-a630c3531e8f": {
+    "text": "Wenn du krank bist, wie soll dein Schatz sich um dich kümmern?",
+    "answers": [
+      "Nicht von meiner Seite weichen",
+      "Suppe bringen, dann Ruhe lassen",
+      "Mich einfach in Ruhe lassen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "41d947ea-20c7-4c34-91f5-c210259d6bcb": {
+    "text": "Dein Schatz flirtet gar nicht mehr mit dir. Was machst du?",
+    "answers": [
+      "Den ersten Schritt machen",
+      "Offen darüber reden",
+      "Dezente Andeutungen machen",
+      "Hinnehmen, das gehört zur Langzeitliebe"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "73bdd793-c8b6-4007-9ef5-167e6999c39f": {
+    "text": "Handys beim Abendessen …",
+    "answers": [
+      "Haben am Tisch nichts verloren",
+      "Liegen da, Display nach unten",
+      "Keine Regeln, alles entspannt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

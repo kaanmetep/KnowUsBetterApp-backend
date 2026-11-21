@@ -1,0 +1,638 @@
+[
+ {
+  "id": "26767042-b7af-43d8-ad6f-ea87f4304f2f",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s grandma's name? (mom's mom)",
+  "tr": "{{playerName}}'in anneannesinin adı ne?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "a3279d43-a655-4bbb-8718-b6d15227c517",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s grandpa's name?",
+  "tr": "{{playerName}}'in dedesinin adı ne?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "5b5320ad-a6ce-44c4-8e2b-fb2bae61cbf1",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite car brand?",
+  "tr": "{{playerName}} en çok hangi araba markasını sever?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "ff9d0b85-deed-41dd-807c-1f3d0a3bb83c",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite car color?",
+  "tr": "{{playerName}} en çok hangi araba rengini sever?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "98059ab8-7dbf-4b1c-8c78-78ebc984c60e",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How much does {{playerName}} weigh, in kg?",
+  "tr": "{{playerName}} kaç kilo?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "b48fa9ed-dd37-473f-b435-ce10eb15ae06",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many piercings does {{playerName}} have in their ears? Write 0 if none.",
+  "tr": "{{playerName}}'in kulağında kaç piercing var? Yoksa 0 yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "2a444c7a-9b06-42ba-929c-3818403efe75",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s closest friend's name right now?",
+  "tr": "{{playerName}}'in şu an en yakın arkadaşının adı ne?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "0216b04b-1ca1-4963-a1e6-ff951b52d0a3",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many countries has {{playerName}} been to?",
+  "tr": "{{playerName}} kaç ülkede bulundu?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "42a0d55b-eca3-40f2-bc31-14b9428ad7e6",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s tell when they're lying?",
+  "tr": "{{playerName}} yalan söyleyince nasıl belli olur?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "29cd2b71-30b4-431f-8ec3-1c32bd8e39aa",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s blood type?",
+  "tr": "{{playerName}}'in kan grubu ne?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "042f678e-2937-4acb-8425-a35fe0e7b9c5",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s older sibling's name? Write none if they don't have one.",
+  "tr": "{{playerName}}'in büyük kardeşinin adı ne? Yoksa yok yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "c511a069-e3da-4591-b416-bd506028c5ad",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What was {{playerName}}'s first car? Write none if they never had one.",
+  "tr": "{{playerName}}'in ilk arabası neydi? Hiç olmadıysa yok yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "57c09d65-f7f9-4b4f-9a7a-bb66f4b6a62d",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What is {{playerName}} most afraid of?",
+  "tr": "{{playerName}} en çok neden korkar?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "b9710f34-86f6-4db8-96d3-752d4559d726",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What is {{playerName}} proudest of in life?",
+  "tr": "{{playerName}} hayatında en çok neyle gurur duyuyor?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "ace03250-f070-4ff0-ae9c-703406313716",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What does {{playerName}} do when they get really angry?",
+  "tr": "{{playerName}} çok sinirlenince ne yapar?",
+  "answers_en": [
+   "Goes quiet and bottles it up",
+   "Yells, then calms down",
+   "Walks out",
+   "Wants to talk it out right away"
+  ],
+  "answers_tr": [
+   "Susar, içine atar",
+   "Bağırır, sonra sakinleşir",
+   "Ortamı terk eder",
+   "Hemen konuşup çözmek ister"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "b90eefb2-04d9-470b-bde1-ed9df3dacdd8",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "When {{playerName}} gets bad news, who do they turn to first?",
+  "tr": "{{playerName}} kötü bir haber alınca ilk kime açılır?",
+  "answers_en": [
+   "Their partner",
+   "A parent",
+   "Their best friend",
+   "No one, they process it alone first"
+  ],
+  "answers_tr": [
+   "Partnerine",
+   "Annesine ya da babasına",
+   "En yakın arkadaşına",
+   "Kimseye, önce kendi sindirir"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "7bddbacb-8e74-4c5e-b299-5305af0053f5",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What does {{playerName}} regret most?",
+  "tr": "{{playerName}} en çok neyden pişmanlık duyar?",
+  "answers_en": [
+   "Something left unsaid",
+   "A missed opportunity",
+   "Hurting someone",
+   "Nothing, they don't do regrets"
+  ],
+  "answers_tr": [
+   "Söylemediği bir sözden",
+   "Kaçırdığı bir fırsattan",
+   "Birini kırmış olmaktan",
+   "Hiçbir şeyden, pişmanlıkla yaşamaz"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "4bcbeb5e-2463-48a0-8cd0-babea7e0a72f",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What was {{playerName}}'s first job?",
+  "tr": "{{playerName}} hayatında ilk hangi işte çalıştı?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "61e3c86d-76bd-4582-88c5-71bfe7622ee0",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "At what age did {{playerName}} get their driver's license? Write none if they don't have one.",
+  "tr": "{{playerName}} ehliyetini kaç yaşında aldı? Yoksa yok yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "10084e8c-9292-4aa3-9dbd-75531bb7486a",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many bones has {{playerName}} broken? Write 0 if none.",
+  "tr": "{{playerName}} bugüne kadar kaç kez kemik kırdı? Hiç kırmadıysa 0 yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "c1def649-d319-4211-aeb5-0858840e7bdc",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "Who did {{playerName}} see at their first concert? Write none if they've never been.",
+  "tr": "{{playerName}} hayatındaki ilk konserde kimi izledi? Hiç gitmediyse yok yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "1046beaa-623b-4faf-8f88-38b87419d2e6",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What is {{playerName}} allergic to? Write none if nothing.",
+  "tr": "{{playerName}} neye alerjik? Hiçbir şeye değilse yok yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "ba2de278-23d7-45a4-8448-cb563db767d5",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How old was {{playerName}} the first time they went abroad? Write never if they haven't.",
+  "tr": "{{playerName}} ilk kez kaç yaşında yurt dışına çıktı? Hiç çıkmadıysa yok yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "6a7ace14-0321-4e93-9cc7-2baa1d9bee41",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many times has {{playerName}} moved homes?",
+  "tr": "{{playerName}} hayatı boyunca kaç kez ev taşıdı?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "ba6c616e-1d98-469a-b2e3-92b66c0981d1",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's the name of {{playerName}}'s paternal grandmother?",
+  "tr": "{{playerName}} hakkında: babaannesinin adı ne?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "2f57ffab-1be4-44cc-a0f8-a393c9fad863",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What was {{playerName}}'s first phone?",
+  "tr": "{{playerName}}'in ilk telefonu neydi?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "00bb499d-b0c3-4f78-9b18-cffb65b03524",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How old was {{playerName}} at their first kiss?",
+  "tr": "{{playerName}} ilk kez kaç yaşında öpüştü?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "1c34b99b-0d35-4532-8459-984d6017ea4a",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What was {{playerName}}'s worst subject in school?",
+  "tr": "{{playerName}} okulda en kötü olduğu ders hangisiydi?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "c701e374-0098-4d9a-9a64-f02e08d52b16",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "Where is {{playerName}}'s biggest scar? Write none if they don't have one.",
+  "tr": "{{playerName}}'in en büyük yara izi nerede? Yoksa yok yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "170581cc-7ae8-4bc3-9ca8-8fa5e87b5fc2",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What size t-shirt does {{playerName}} wear?",
+  "tr": "{{playerName}} kaç beden tişört giyer?",
+  "answers_en": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL or bigger"
+  ],
+  "answers_tr": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL ve üstü"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "01e70d49-b6d6-4142-971d-22b27d35b17f",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What was the name of {{playerName}}'s favorite teacher?",
+  "tr": "{{playerName}}'in en sevdiği öğretmeninin adı neydi?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "43294aea-9009-4d5a-aad8-f7694a3b51a5",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What time of day was {{playerName}} born?",
+  "tr": "{{playerName}} günün hangi saatinde doğdu?",
+  "answers_en": [
+   "Night (00-06)",
+   "Morning (06-12)",
+   "Afternoon (12-18)",
+   "Evening (18-24)"
+  ],
+  "answers_tr": [
+   "Gece (00-06)",
+   "Sabah (06-12)",
+   "Öğleden sonra (12-18)",
+   "Akşam (18-24)"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "749b9061-a5d0-4ff6-900b-e3ba010281ed",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "Which famous person has {{playerName}} met in person? Write none if no one.",
+  "tr": "{{playerName}} hangi ünlüyle yüz yüze tanıştı? Kimseyle tanışmadıysa yok yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "9f26e1c3-409c-4553-98aa-52ecb367ba15",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "Which instrument has {{playerName}} played or tried to learn? Write none if never.",
+  "tr": "{{playerName}} hangi enstrümanı çaldı ya da öğrenmeye çalıştı? Hiç denemediyse yok yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "bf1c6470-4a2a-48c7-8d98-2f82482ce877",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many times did {{playerName}} fail their driving test? Write 0 if never.",
+  "tr": "{{playerName}} ehliyet sınavından kaç kez kaldı? Hiç kalmadıysa 0 yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "f881bedc-d173-4bdb-ae2d-694246d7f4d8",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How old was {{playerName}} when they moved out of their family home? Write never if they haven't.",
+  "tr": "{{playerName}} aile evinden kaç yaşında ayrıldı? Ayrılmadıysa hiç yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "7600e024-4a37-494e-96f6-cc1c03f58f89",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "Where is {{playerName}} most ticklish?",
+  "tr": "{{playerName}}'in en çok gıdıklandığı yer neresi?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "deb2b852-ecc2-4a4b-939e-cbcf025845f4",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s natural hair color?",
+  "tr": "{{playerName}}'in doğal saç rengi ne?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "f5418f78-b11d-4776-825c-c5ac189d7b37",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "Where is {{playerName}}'s birthmark? Write none if they don't have one.",
+  "tr": "{{playerName}}'in doğum lekesi nerede? Yoksa yok yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "096b7ab0-dfe3-49bc-956e-cafc81272088",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} snore?",
+  "tr": "{{playerName}} horlar mı?",
+  "answers_en": [
+   "Never",
+   "Only when really tired",
+   "Sometimes",
+   "Every night"
+  ],
+  "answers_tr": [
+   "Hiç horlamaz",
+   "Sadece çok yorgunken",
+   "Bazen",
+   "Her gece"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "f620465f-147d-4168-af5a-2bb985faf47d",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What does {{playerName}} sleep in?",
+  "tr": "{{playerName}} yatarken ne giyer?",
+  "answers_en": [
+   "Pajamas",
+   "T-shirt and shorts",
+   "Just underwear",
+   "Nothing"
+  ],
+  "answers_tr": [
+   "Pijama",
+   "Tişört ve şort",
+   "Sadece iç çamaşırı",
+   "Hiçbir şey"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "5f58a2de-2ed0-446f-9727-0329eb1902d6",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Did {{playerName}} ever wear braces?",
+  "tr": "{{playerName}} hiç diş teli taktı mı?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "a655c4c5-4928-4826-bbb2-746b6c2282e8",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What's {{playerName}}'s natural hair texture?",
+  "tr": "{{playerName}}'in saçı doğal haliyle nasıl?",
+  "answers_en": [
+   "Straight",
+   "Wavy",
+   "Curly",
+   "Very curly"
+  ],
+  "answers_tr": [
+   "Düz",
+   "Dalgalı",
+   "Kıvırcık",
+   "Çok kıvırcık"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "0d808bea-8434-4452-aedb-e5bd28afc9f3",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What perfume or cologne does {{playerName}} wear the most? Write none if they don't.",
+  "tr": "{{playerName}} en çok hangi parfümü kullanır? Kullanmıyorsa yok yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "e9d46c08-1bf4-4c6e-bed3-5617405af0ec",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} sleep with socks on?",
+  "tr": "{{playerName}} çorapla mı uyur?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "d616c1f7-4c37-47a7-8a0e-4b9963af2764",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How many wisdom teeth has {{playerName}} had removed?",
+  "tr": "{{playerName}}'in kaç yirmi yaş dişi çekildi?",
+  "answers_en": [
+   "None",
+   "1",
+   "2",
+   "3",
+   "All 4"
+  ],
+  "answers_tr": [
+   "Hiç",
+   "1",
+   "2",
+   "3",
+   "4'ü de"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "ff103caa-415a-4e58-8c01-e153cd9bae9b",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many times has {{playerName}} gotten stitches? Write 0 if never.",
+  "tr": "{{playerName}}'e bugüne kadar kaç kez dikiş atıldı? Hiç atılmadıysa 0 yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "5a101639-bde0-469e-b2f2-60b2ef0a85fd",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How old was {{playerName}} when they learned to swim? Write never if they can't swim.",
+  "tr": "{{playerName}} yüzmeyi kaç yaşında öğrendi? Bilmiyorsa yok yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "424b64a3-27da-4ae4-be6d-0e4fb5e26709",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many fillings does {{playerName}} have? Write 0 if none.",
+  "tr": "{{playerName}}'in kaç dolgusu var? Yoksa 0 yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "5554d5d2-4a3f-442a-b4c8-38e8511d257a",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many times has {{playerName}} stayed overnight in a hospital as a patient? Write 0 if never.",
+  "tr": "{{playerName}} bugüne kadar kaç kez hastanede yatarak kaldı? Hiç kalmadıysa 0 yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "c318ef52-cf6a-49e9-84a8-45961906b50b",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Can {{playerName}} drive a manual car?",
+  "tr": "{{playerName}} manuel vites araba kullanabilir mi?",
+  "answers_en": [
+   "Yes, easily",
+   "Yes, but not well",
+   "Only automatic",
+   "Can't drive at all"
+  ],
+  "answers_tr": [
+   "Evet, rahatça",
+   "Evet ama pek iyi değil",
+   "Sadece otomatik",
+   "Hiç araba kullanamaz"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "6074363d-0509-4dea-9335-e5320a8e427a",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many times has {{playerName}} fainted? Write 0 if never.",
+  "tr": "{{playerName}} bugüne kadar kaç kez bayıldı? Hiç bayılmadıysa 0 yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "48b3c23a-3cd0-4c20-9384-01aa898ae50c",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How old was {{playerName}} on their first plane flight? Write never if they haven't flown.",
+  "tr": "{{playerName}} ilk kez kaç yaşında uçağa bindi? Hiç binmediyse yok yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "39a4a20b-eb71-4852-86d1-c1f6ef17b787",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many different jobs has {{playerName}} had so far?",
+  "tr": "{{playerName}} bugüne kadar kaç farklı işte çalıştı?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "5c90da6e-06f8-4571-af38-0ac84e0c7278",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many times has {{playerName}} dyed their hair? Write 0 if never.",
+  "tr": "{{playerName}} bugüne kadar kaç kez saçını boyattı? Hiç boyatmadıysa 0 yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "58871fe6-0f6c-4951-bf1b-4e65c2cb2fbb",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How old was {{playerName}} when they got their ears pierced? Write never if they haven't.",
+  "tr": "{{playerName}} kulağını kaç yaşında deldirdi? Deldirmediyse yok yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "7fec5c7e-5fd4-4d15-b827-9764d0017c5a",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many speeding tickets has {{playerName}} gotten? Write 0 if none.",
+  "tr": "{{playerName}} bugüne kadar kaç kez hız cezası yedi? Hiç yemediyse 0 yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "1c483831-40c8-4c84-b3e4-1e6b2febd48f",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many times has {{playerName}} cracked a phone screen? Write 0 if never.",
+  "tr": "{{playerName}} bugüne kadar kaç kez telefon ekranı kırdı? Hiç kırmadıysa 0 yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "84f3b4d3-8ce2-4dd7-a7a0-3ceb564ace5b",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many hours was {{playerName}}'s longest flight? Write 0 if they've never flown.",
+  "tr": "{{playerName}}'in bindiği en uzun uçuş kaç saatti? Hiç uçmadıysa 0 yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "a3fbf3a7-ae6b-452d-b250-d1345f8c330f",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many friends from high school does {{playerName}} still talk to regularly?",
+  "tr": "{{playerName}} liseden kaç arkadaşıyla hâlâ düzenli görüşüyor?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "2f52c237-0f33-496b-98b3-d8052637d261",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How old was {{playerName}}'s mom when {{playerName}} was born?",
+  "tr": "{{playerName}} doğduğunda annesi kaç yaşındaydı?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "84e04131-a72c-4735-abf3-e7da9b624e05",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many years apart are {{playerName}} and their closest-in-age sibling? Write 0 if they're an only child.",
+  "tr": "{{playerName}} ile yaşça en yakın kardeşi arasında kaç yaş fark var? Tek çocuksa 0 yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "e5b9acdd-03b4-4cdb-869d-19a7eb400217",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's the most hours {{playerName}} has ever slept in one go?",
+  "tr": "{{playerName}} hayatında tek seferde en fazla kaç saat uyudu?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "b8b3c241-4570-48ed-8a1f-2f7048d5fc4f",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How old was {{playerName}} when they got their own room? Write 0 if they always had one.",
+  "tr": "{{playerName}} kendi odasına kaç yaşında kavuştu? Hep kendi odası olduysa 0 yaz.",
+  "category": "know_me_well_hard"
+ }
+]

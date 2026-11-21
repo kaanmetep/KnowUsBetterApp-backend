@@ -1,0 +1,740 @@
+{
+  "5738b45b-1858-43f3-826e-11ef8d263b66": {
+    "text": "Als een goede vriend bij je blijft slapen, waar slaapt die dan?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "240d4c3b-09f9-424b-8508-8f2413892f20": {
+    "text": "Hoe zeg je nee tegen een vriend?",
+    "answers": [
+      "Recht voor z'n raap zeggen",
+      "Een smoesje verzinnen",
+      "Het voor me uit schuiven",
+      "Ik zeg geen nee"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ed007dff-5f12-45f1-913a-814207c21337": {
+    "text": "Waar is je telefoon als je met vrienden afspreekt?",
+    "answers": [
+      "Op tafel",
+      "Op tafel, scherm naar beneden",
+      "In mijn tas",
+      "In mijn hand"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "472843d1-c68f-4443-8e98-1c7ebfff08f1": {
+    "text": "Een vriend moet even stoom afblazen. Wat doe jij?",
+    "answers": [
+      "Het proberen op te lossen",
+      "Gewoon luisteren",
+      "Aan het lachen maken",
+      "Mijn eigen verhaal vertellen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9626e6ef-559e-4903-a872-8098df7019aa": {
+    "text": "Een vriend zegt op het laatste moment af. Wat doe je?",
+    "answers": [
+      "Zeggen dat het oké is",
+      "Zeggen dat het balen was",
+      "Meteen een nieuwe datum prikken",
+      "Even niet meer uitnodigen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d7063b2a-a2b9-4e31-b9d5-ea73d3fc1b48": {
+    "text": "Hoe spreek je het liefst af met vrienden?",
+    "answers": [
+      "Met z'n tweeën",
+      "In een klein groepje",
+      "Met de hele groep",
+      "Met wie er maar kan"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b3285428-6a7b-494a-a8ce-607db3eff19a": {
+    "text": "Een vriend is 20 minuten te laat en jij bent er al. Wat doe je?",
+    "answers": [
+      "Wachten",
+      "Een appje sturen",
+      "Alvast bestellen",
+      "Weggaan"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6e92199a-a131-4c52-8fcb-db5cdd54cb8b": {
+    "text": "Een vriend belt om 1 uur 's nachts. Wat doe je?",
+    "answers": [
+      "Opnemen",
+      "Appen: “morgen”",
+      "Laten overgaan",
+      "Later terugbellen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ca4a3d3a-b6cd-42c6-acea-f2ddaffcee41": {
+    "text": "Een vriend begint je te roasten. Wat doe je?",
+    "answers": [
+      "Keihard terugroasten",
+      "Erom lachen",
+      "Stilvallen",
+      "Zeggen dat het genoeg is"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0b00eec2-7db8-49f6-9a33-2e91bfdafed9": {
+    "text": "Een vriend heeft iets van je geleend en het nog steeds niet teruggegeven. Wat doe je?",
+    "answers": [
+      "Er even aan herinneren",
+      "Laten gaan",
+      "Nooit meer iets uitlenen",
+      "Er grapjes over maken tot het lampje gaat branden"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3866d609-64de-4f95-9a99-d3b5aca59d4d": {
+    "text": "Hoe vertrek je meestal als je met vrienden bent?",
+    "answers": [
+      "Gedag zeggen en gaan",
+      "Stilletjes wegglippen",
+      "Ik ben altijd de laatste",
+      "Wachten tot iemand meegaat"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fc886a8f-d247-4df7-9911-70df16293d14": {
+    "text": "Een vriend post zonder te vragen een lelijke foto van je. Wat doe je?",
+    "answers": [
+      "Vragen om de foto weg te halen",
+      "Erom lachen",
+      "Een nog lelijkere terugposten",
+      "De posts even dempen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cf30ac84-0e23-499b-84f0-194255049b2e": {
+    "text": "Twee vrienden uit je groep hebben ruzie. Wat doe je?",
+    "answers": [
+      "Me erbuiten houden",
+      "Proberen te bemiddelen",
+      "Kiezen voor wie volgens mij gelijk heeft",
+      "Met allebei apart praten"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a6aca301-d610-4229-8289-b89bedc32e1e": {
+    "text": "Hoe maak je meestal plannen met vrienden?",
+    "answers": [
+      "Ik stuur het eerste bericht",
+      "Ik wacht tot een ander begint",
+      "Ik blijf voorstellen tot er iets lukt",
+      "Ik sluit gewoon aan waar ze heen gaan"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "79b31e12-db1a-4595-a37d-d8bf3a5d4ab1": {
+    "text": "Een vriend heeft in een discussie duidelijk ongelijk. Wat doe je?",
+    "answers": [
+      "Meteen verbeteren",
+      "Laten gaan",
+      "Het later onder vier ogen zeggen",
+      "Hardop meegaan, in m'n hoofd niet"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "43b8538b-f20e-4106-86db-2fb4ae991e8d": {
+    "text": "Een goede vriend is al een paar weken stil. Wat doe je?",
+    "answers": [
+      "Eén keer vragen hoe het gaat",
+      "Contact blijven zoeken",
+      "Ruimte geven",
+      "Gemeenschappelijke vrienden vragen wat er is"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cf10e8ca-f5f7-4fd3-ade3-8d3dd80864a1": {
+    "text": "Een vriend vraagt je eerlijke mening over een mislukt kapsel. Wat doe je?",
+    "answers": [
+      "De waarheid zeggen",
+      "Iets positiefs zoeken",
+      "Over iets anders beginnen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5f50e363-7d88-40da-9fc3-20a70c1c98bc": {
+    "text": "Een goede vriend vraagt of die een week bij je mag logeren. Wat zeg je?",
+    "answers": [
+      "Blijf zo lang als nodig",
+      "Een paar dagen, dan zien we verder",
+      "Deze week niet, maar ik help op een andere manier"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "96a10636-c640-4c8e-b29c-8d5ea35a2325": {
+    "text": "Iemand met wie je amper nog contact hebt, vraagt een grote gunst. Wat doe je?",
+    "answers": [
+      "Helpen zoals vroeger",
+      "Helpen, maar niet te veel",
+      "Eerlijk zeggen dat jullie niet meer zo close zijn"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8fbe5c15-1c5f-4d62-bb1c-8c87bd5e68e9": {
+    "text": "Twee vriendengroepen vragen je mee uit op dezelfde avond. Wat doe je?",
+    "answers": [
+      "Naar wie het eerst vroeg",
+      "Naar wie ik het meest zou missen",
+      "Proberen bij allebei langs te gaan"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "da359ad8-f794-47c9-a71f-de550fd3df0c": {
+    "text": "Een goede vriend wil een flink bedrag van je lenen. Wat doe je?",
+    "answers": [
+      "Uitlenen als het kan",
+      "Alleen met een duidelijk afbetalingsplan",
+      "Ik leen geen geld aan vrienden"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d6c8e97e-b3ba-44d7-b105-c1b6b2a57587": {
+    "text": "Een vriend heeft iets met iemand die je echt niet kunt uitstaan. Wat doe je?",
+    "answers": [
+      "Het meteen zeggen",
+      "Wachten tot het gevraagd wordt",
+      "Zwijgen en steunen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0d743c77-1a58-418b-8117-3263ce8f4009": {
+    "text": "Een vriend nodigt je uit voor iets duurs dat je eigenlijk niet kunt betalen. Wat doe je?",
+    "answers": [
+      "Zeggen dat het te duur is",
+      "Iets goedkopers voorstellen",
+      "Toch gaan en je budget oprekken"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "02bb14d7-0d08-400e-9917-9aec53c8b7c8": {
+    "text": "Je hoort een vriend een beetje over je roddelen. Wat doe je?",
+    "answers": [
+      "Er meteen op aanspreken",
+      "Wat afstand nemen",
+      "Het één keer laten passeren"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "660a531c-8d5e-44d7-b117-483aafb66d83": {
+    "text": "Op een feestje staat een vriend op het punt dronken de ex te appen. Wat doe je?",
+    "answers": [
+      "De telefoon afpakken",
+      "Laten gebeuren"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6ae65593-620a-47a3-bd16-3cfdba20307b": {
+    "text": "Na het eten komt de rekening en een vriend is de portemonnee wéér “vergeten”. Wat doe je?",
+    "answers": [
+      "Betalen en het laten rusten",
+      "Betalen, maar er later over beginnen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b2f40f63-d542-449f-b8d9-7251868fe21c": {
+    "text": "In een Uber krijgt een vriend ruzie met de chauffeur. Wat doe je?",
+    "answers": [
+      "Ingrijpen en de boel sussen",
+      "Stil blijven en hopen dat het stopt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2fca8524-3f16-4523-b057-17699983cc36": {
+    "text": "Een vriend begint een gênant verhaal over jou te vertellen aan mensen die je net kent. Wat doe je?",
+    "answers": [
+      "Onderbreken",
+      "Laten uitpraten"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1dc43db7-154f-4a47-9397-f3ec7f508978": {
+    "text": "Een vriend vertelt je een geheim en zegt: “Zelfs niet aan je partner vertellen.” Wat doe je?",
+    "answers": [
+      "Het helemaal geheimhouden",
+      "Het toch aan mijn partner vertellen",
+      "Geheimhouden, tenzij het iets ernstigs is"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f1a66bde-c82e-4903-9965-90c3fa82d1b0": {
+    "text": "Jij en een goede vriend solliciteerden op dezelfde baan, en die kreeg de baan. Wat doe je?",
+    "answers": [
+      "Oprecht samen vieren",
+      "Feliciteren, maar het steekt vanbinnen",
+      "Even wat afstand nodig hebben"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e4d8aa34-b71c-4d2c-babe-8ef1e1d37350": {
+    "text": "Een vriend staat onaangekondigd voor je deur. Wat doe je?",
+    "answers": [
+      "Blij binnenlaten",
+      "Binnenlaten, maar ik baal een beetje",
+      "Doen alsof ik niet thuis ben",
+      "Binnenlaten, maar zeggen: volgende keer even appen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5587411e-e5d6-4c3b-b709-925a48828ccd": {
+    "text": "Een vriend vraagt je om diegene in te dekken tegenover de partner. Wat doe je?",
+    "answers": [
+      "Indekken, geen vragen",
+      "Alleen als ik weet wat er speelt",
+      "Nee zeggen, ik wil er niks mee te maken hebben",
+      "Ja zeggen, maar dit is de laatste keer"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2ceb502c-1cb0-4d19-b751-39c067c789a3": {
+    "text": "Een goede vriend is je verjaardag vergeten. Wat doe je?",
+    "answers": [
+      "Het boeit me echt niet",
+      "Gekwetst, maar ik zeg niks",
+      "Er grappend over beginnen",
+      "Zeggen dat het echt pijn deed"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "90a8ef25-80da-4dce-a879-4c4de8f1272a": {
+    "text": "Hoe laat je een vriend meestal merken dat je om diegene geeft?",
+    "answers": [
+      "Samen tijd doorbrengen",
+      "Kleine cadeautjes en verrassingen",
+      "Ophemelen en complimentjes geven",
+      "Helpen als het nodig is",
+      "Zomaar een appje sturen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5ea9ba87-e9a5-45bd-b147-03e94f0d2eee": {
+    "text": "Vergeleken met een relatiebreuk doet het verliezen van een goede vriend…",
+    "answers": [
+      "Meer pijn",
+      "Minder pijn",
+      "Ongeveer evenveel pijn"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "81c3e73b-6f4a-401f-be7c-7322f3c88d97": {
+    "text": "Hoe vaak zouden goede vrienden elkaar moeten spreken?",
+    "answers": [
+      "Elke dag",
+      "Een paar keer per week",
+      "Zo'n keer per week",
+      "Maakt niet uit, er zijn geen regels"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bf330507-367e-4d2b-a74c-51bbacecc0de": {
+    "text": "Kan iemand die je alleen online kent echt een goede vriend zijn?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ad99c683-1579-4b76-ac84-bbe48ccc1529": {
+    "text": "Hoeveel geef je maximaal uit aan een verjaardagscadeau voor een goede vriend?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fe5a5b25-7f16-4855-b749-d4e8e9cc1d5f": {
+    "text": "Als volwassene nieuwe goede vrienden maken is…",
+    "answers": [
+      "Makkelijk als je jezelf openstelt",
+      "Moeilijk, maar het kan",
+      "Bijna onmogelijk"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8c65c713-6463-475a-bf56-9ec5381e9302": {
+    "text": "Kan een collega een van je beste vrienden worden?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "beb7f795-5c55-41bd-98fc-a459db151882": {
+    "text": "Hoelang moet je iemand kennen voordat je diegene een goede vriend noemt?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fb50cd2d-2221-4e5f-b6eb-1a37644fda56": {
+    "text": "Een goede vriend krijgt iets met je broer of zus. Hoe voelt dat?",
+    "answers": [
+      "Ik ben blij voor ze",
+      "Raar, maar ik went er wel aan",
+      "Helemaal niet oké"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "68663bf0-f74e-4eb2-9375-794c0160fd51": {
+    "text": "Samen met een vriend in stilte elk je eigen ding doen…",
+    "answers": [
+      "Voelt als echte verbondenheid",
+      "Af en toe prima",
+      "Voelt ongemakkelijk"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fb1756d1-62b7-4393-9307-53cd0f287376": {
+    "text": "Als je groot nieuws hebt, wie hoort het als eerste?",
+    "answers": [
+      "Mijn partner",
+      "Mijn beste vriend",
+      "Mijn familie",
+      "Iedereen tegelijk in de groepsapp"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c1fa53a1-cf09-4356-a17d-4b3af5c3a9f7": {
+    "text": "Welke gewoonte van een vriend maakt je gek?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "570b53e3-9da8-412a-88f9-c3df5793d601": {
+    "text": "Zou je een bedrijf beginnen met een goede vriend?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c72dd7bf-86a8-4621-b2f2-ed918e7319c3": {
+    "text": "Een vriend neemt de nieuwe partner overal mee naartoe. Wat doe je?",
+    "answers": [
+      "Heerlijk, hoe meer zielen, hoe meer vreugd",
+      "Prima, maar ik mis onze tijd samen",
+      "Vragen om af en toe zonder partner af te spreken",
+      "Elkaar minder gaan zien"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "637c640b-fdb6-4280-9bb5-d10092e0490f": {
+    "text": "Wachtwoorden van streamingdiensten delen met vrienden…",
+    "answers": [
+      "Heel normaal",
+      "Alleen met mijn beste vrienden",
+      "Nooit"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "11e1d92e-1142-4d19-b8eb-9e85b241a9c9": {
+    "text": "Rivaliteit tussen goede vrienden…",
+    "answers": [
+      "Houdt ons scherp",
+      "Maakt de vriendschap langzaam kapot"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "04beefdc-5d0a-47a0-8476-209397119731": {
+    "text": "Een vriend vraagt of je diegene aan iemand kunt koppelen. Wat doe je?",
+    "answers": [
+      "Ik speel graag koppelaar",
+      "Alleen als ik echt een goede match weet",
+      "Ik blijf erbuiten, te riskant"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d97011a0-577f-437e-b2f7-34d6e3f16ec7": {
+    "text": "Een vriend ligt ziek en alleen thuis. Wat doe je?",
+    "answers": [
+      "Langsgaan met soep en medicijnen",
+      "Eten laten bezorgen",
+      "Een appje sturen hoe het gaat",
+      "Wachten tot er om hulp gevraagd wordt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "49f2c5bd-906c-4677-938d-2634f11f2c0e": {
+    "text": "Hoeveel vrienden zou je uitnodigen voor je verjaardag?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "80b1847b-4029-4376-b594-cf2439e45e3c": {
+    "text": "Een vriend begint je stijl en hobby's na te doen. Hoe voelt dat?",
+    "answers": [
+      "Gevleid",
+      "Maakt me niet zoveel uit",
+      "Een beetje irritant",
+      "Ik zou er iets van zeggen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9d61613c-1992-45d8-bef1-37f07f995e66": {
+    "text": "Een vriend geeft je een veel duurder cadeau dan jij hebt gegeven. Wat doe je?",
+    "answers": [
+      "Niks, het is geen wedstrijd",
+      "Me een beetje schamen",
+      "Het de volgende keer goedmaken"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "826c30c4-7dae-497a-be3b-a89531829cef": {
+    "text": "Zou je je favoriete kledingstuk uitlenen aan een vriend?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c17f6d8c-88be-4516-b333-5e7b45e4997f": {
+    "text": "Je beste vriend vraagt je te helpen met het plannen van de bruiloft. Wat doe je?",
+    "answers": [
+      "Er helemaal induiken",
+      "Helpen, maar met grenzen",
+      "Gewoon op de grote dag komen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bea820e2-cce1-49fc-aa07-4ab99ead86c4": {
+    "text": "Hoeveel uur zou je reizen voor de verjaardag van een goede vriend?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "45cf28ad-01d6-458f-b371-d10cb5d628b3": {
+    "text": "Een vriend moet om 5 uur 's ochtends naar het vliegveld. Wat doe je?",
+    "answers": [
+      "Brengen, geen probleem",
+      "Brengen, maar de hele rit mopperen",
+      "Een taxi betalen",
+      "Zeggen dat het niet lukt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cee7b4d0-8a85-42ae-9d36-e805461c3601": {
+    "text": "Deel je je live locatie met je beste vrienden?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1261e2f8-c857-4478-8e71-e0a25b6dac19": {
+    "text": "Een vriend die je altijd de harde waarheid vertelt…",
+    "answers": [
+      "Is de beste soort vriend",
+      "Wordt na een tijdje vermoeiend"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6cb7ef7c-1478-4456-b1cf-d26358f74de0": {
+    "text": "Vriendschappen met een groot leeftijdsverschil (10+ jaar)…",
+    "answers": [
+      "Werken prima",
+      "Werken, maar voelen anders",
+      "Moeilijk om echt te klikken"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9fea2ef2-07b0-4d41-b852-f5bf24dd2b6f": {
+    "text": "Op groepsreis wil één vriend veel meer uitgeven dan de rest. Wat doe je?",
+    "answers": [
+      "Meegaan",
+      "Apart gaan bij dure plannen",
+      "Vooraf een groepsbudget afspreken",
+      "Eerlijk zeggen dat het te veel is"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e442ad82-0026-4be1-a02d-5cf52c6db6b3": {
+    "text": "Als een vriend je kwetst, zeg je het dan in plaats van stilletjes afstand te nemen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a568c592-7960-40ea-b5e7-f8fcff9f1109": {
+    "text": "Een vriend vraagt of je een week op een huisdier wilt passen. Wat doe je?",
+    "answers": [
+      "Graag, ik ben dol op dieren",
+      "Hangt van het dier af",
+      "Ja, maar alleen bij diegene thuis",
+      "Nee zeggen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f7975688-29c1-4bff-9678-56257d052a89": {
+    "text": "Een goede vriend wordt ineens beroemd. Wat verandert er voor jou?",
+    "answers": [
+      "Niks, voor mij blijft het dezelfde persoon",
+      "Ik zou er overal over opscheppen",
+      "Ik zou vanzelf wat afstand nemen",
+      "Ik zou bang zijn dat die verandert"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "53f44073-13ad-4340-b3dc-428d01768d73": {
+    "text": "Een vriend begint iets te verkopen en probeert het steeds aan jou te slijten. Wat doe je?",
+    "answers": [
+      "Eén keer kopen om te steunen",
+      "Elke keer beleefd nee zeggen",
+      "Zeggen dat het irritant wordt",
+      "Dempen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "392563c7-8455-4b18-a840-2569bad40fb3": {
+    "text": "Wie zet na een ruzie met een goede vriend de eerste stap?",
+    "answers": [
+      "Altijd ik",
+      "Wie ongelijk had",
+      "Niemand, we doen alsof er niks is gebeurd",
+      "Niemand, meestal houdt het daar op"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "580d620b-1ff6-4662-b9e7-783a83b482ab": {
+    "text": "Je vrienden op je socials zetten…",
+    "answers": [
+      "Laat zien dat je om ze geeft",
+      "Is helemaal niet nodig"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c01dd781-f740-41b0-a72c-d6706d48e8ff": {
+    "text": "Zou je bevriend kunnen zijn met de ex van je partner?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0dca06e6-2ca7-47d9-baad-475f804027d3": {
+    "text": "Wat is het ideale aantal mensen voor een vakantie met vrienden?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

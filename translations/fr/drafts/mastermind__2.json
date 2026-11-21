@@ -1,0 +1,685 @@
+{
+"b7ea512f-5675-4ed5-b6ee-e67bf475a40e": {
+"text": "Sur un clavier, quelle lettre se trouve entre le G et le J ?",
+"answers": [
+"F",
+"H",
+"K",
+"B"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"fc9fb6fc-80f1-4d6f-acf9-a97d285e1148": {
+"text": "Combien de temps met environ la lumière du Soleil pour atteindre la Terre ?",
+"answers": [
+"8 secondes",
+"8 minutes",
+"8 heures",
+"8 jours"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"f7577fd3-cd79-400b-a94e-b36666958681": {
+"text": "Combien de cordes a une guitare classique ?",
+"answers": [
+"4",
+"5",
+"6",
+"7"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"de06546b-8966-4a0f-8a03-6e5c4262d6fc": {
+"text": "Combien de jours compte février lors d'une année bissextile ?",
+"answers": [
+"28",
+"29",
+"30",
+"31"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"19816c87-dfa3-45ff-9bb0-ef7558f119de": {
+"text": "La cornée fait partie de quel organe ?",
+"answers": [
+"L'oreille",
+"L'œil",
+"Le cœur",
+"La peau"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"5259ce96-2e3b-458a-9f7c-b637fd887db0": {
+"text": "Quel métal trouve-t-on dans la plupart des fils électriques domestiques ?",
+"answers": [],
+"accepted": [
+"Cuivre",
+"Le cuivre",
+"Cu",
+"Fil de cuivre",
+"Cuivr",
+"Copper"
+],
+"flagged": false,
+"note": ""
+},
+"40cb4e70-a58a-4f05-b31c-d3e3fdb89927": {
+"text": "Quel gaz donne leurs bulles aux boissons gazeuses ?",
+"answers": [],
+"accepted": [
+"Dioxyde de carbone",
+"Gaz carbonique",
+"CO2",
+"CO₂",
+"Dioxide de carbone",
+"Le gaz carbonique"
+],
+"flagged": false,
+"note": ""
+},
+"268fe19d-11a8-41cc-8d63-fe56498a715a": {
+"text": "Dubaï est une ville de quel pays ?",
+"answers": [],
+"accepted": [
+"Émirats arabes unis",
+"Emirats arabes unis",
+"EAU",
+"E.A.U.",
+"Les Émirats",
+"Emirats",
+"UAE"
+],
+"flagged": false,
+"note": ""
+},
+"8df2cfec-7013-48f4-8e0a-1f2cac3d73e2": {
+"text": "Comment appelle-t-on la peur extrême des araignées ?",
+"answers": [],
+"accepted": [
+"Arachnophobie",
+"L'arachnophobie",
+"Arachnofobie",
+"Araknophobie",
+"Arachnophobia"
+],
+"flagged": false,
+"note": ""
+},
+"bdcca45d-f2ae-441d-a885-a521f51b3ece": {
+"text": "Quelle planète est souvent appelée « l'étoile du berger » ?",
+"answers": [],
+"accepted": [
+"Vénus",
+"Venus",
+"La planète Vénus",
+"Planète Vénus"
+],
+"flagged": false,
+"note": ""
+},
+"f766a74f-7af2-4363-870d-632389e2bc90": {
+"text": "Que signifie « www » dans une adresse de site web ?",
+"answers": [],
+"accepted": [
+"World Wide Web",
+"Worldwide Web",
+"WorldWide Web",
+"World Wideweb",
+"Toile d'araignée mondiale",
+"La toile mondiale"
+],
+"flagged": false,
+"note": ""
+},
+"4d63a2f7-355d-418a-99f7-288076d7c5ed": {
+"text": "Quelle épice est la plus chère du monde au poids ?",
+"answers": [],
+"accepted": [
+"Safran",
+"Le safran",
+"Saffran",
+"Saffron",
+"Crocus"
+],
+"flagged": false,
+"note": ""
+},
+"a5f1d330-c07c-40b9-a6ed-e6037bf4f4c3": {
+"text": "Quelle est la capitale de l'Australie ?",
+"answers": [],
+"accepted": [
+"Canberra",
+"Canbera",
+"Canberrra",
+"Kanberra",
+"Canburra"
+],
+"flagged": false,
+"note": ""
+},
+"ffe9c080-1f5b-4192-bc7b-2b4258c9d0e2": {
+"text": "Que signifie QR dans « QR code » ?",
+"answers": [],
+"accepted": [
+"Quick Response",
+"Quick-Response",
+"Quickresponse",
+"Réponse rapide",
+"Reponse rapide"
+],
+"flagged": false,
+"note": ""
+},
+"c38c6d5a-4784-49a4-8ec9-564ba0912926": {
+"text": "Quelle est la capitale du Canada ?",
+"answers": [],
+"accepted": [
+"Ottawa",
+"Ottowa",
+"Otawa",
+"Ottava"
+],
+"flagged": false,
+"note": ""
+},
+"b9f40b61-c0e9-4172-ab62-a3c1c740f0c9": {
+"text": "Que signifie GPS ?",
+"answers": [],
+"accepted": [
+"Global Positioning System",
+"Global Position System",
+"Global Positioning",
+"Système de positionnement global",
+"Systeme de positionnement global",
+"Système de positionnement mondial"
+],
+"flagged": false,
+"note": ""
+},
+"e52435ce-d075-4980-b9ac-9dcf9d712df1": {
+"text": "Une médaille d'or olympique est surtout faite de quel métal ?",
+"answers": [],
+"accepted": [
+"Argent",
+"L'argent",
+"Ag",
+"Argent massif",
+"Argent sterling",
+"Silver"
+],
+"flagged": false,
+"note": ""
+},
+"d45b83c7-fd0f-4522-b35f-567c66d4f42b": {
+"text": "Comment s'appelle la galaxie dans laquelle on vit ?",
+"answers": [],
+"accepted": [
+"Voie lactée",
+"La Voie lactée",
+"Voie Lactée",
+"Voie lactee",
+"Voix lactée",
+"Milky Way"
+],
+"flagged": false,
+"note": ""
+},
+"ec7a91a5-65a4-43e9-baf6-d3bd61ca9817": {
+"text": "Quelle est la formule chimique du sel de table ?",
+"answers": [],
+"accepted": [
+"NaCl",
+"Nacl",
+"NACl",
+"Chlorure de sodium",
+"Chlorure de sodium (NaCl)"
+],
+"flagged": false,
+"note": ""
+},
+"ae92a4d9-9327-441e-95a0-22a22f1beebb": {
+"text": "Quel est le plus petit pays du monde ?",
+"answers": [],
+"accepted": [
+"Vatican",
+"Le Vatican",
+"Cité du Vatican",
+"Cite du Vatican",
+"Saint-Siège",
+"Vatican City"
+],
+"flagged": false,
+"note": ""
+},
+"47f1968f-3313-44f3-af0c-2a16d6840dcc": {
+"text": "Quelle est la langue officielle du Brésil ?",
+"answers": [],
+"accepted": [
+"Portugais",
+"Le portugais",
+"Portugais brésilien",
+"Portuguais",
+"Portugai",
+"Portuguese"
+],
+"flagged": false,
+"note": ""
+},
+"a33b8db2-9aed-4a46-9a20-5aeb046044a9": {
+"text": "Quelle planète naine était considérée comme la neuvième planète jusqu'en 2006 ?",
+"answers": [],
+"accepted": [
+"Pluton",
+"La planète Pluton",
+"Pluto",
+"Plutón",
+"Planète naine Pluton"
+],
+"flagged": false,
+"note": ""
+},
+"ebe23394-c55a-452c-be4a-2f1c1655ec87": {
+"text": "Quel fleuve traverse Londres ?",
+"answers": [],
+"accepted": [
+"Tamise",
+"La Tamise",
+"Thames",
+"The Thames",
+"River Thames",
+"Tamisse"
+],
+"flagged": false,
+"note": ""
+},
+"e0497815-9994-4bb7-993f-733104d56ff6": {
+"text": "Comment s'appelle l'art japonais du pliage de papier ?",
+"answers": [],
+"accepted": [
+"Origami",
+"L'origami",
+"Origamii",
+"Origame",
+"Origamie"
+],
+"flagged": false,
+"note": ""
+},
+"9ad71b86-781c-4956-aa69-66af96050f05": {
+"text": "Quelle est la capitale de la Turquie ?",
+"answers": [],
+"accepted": [
+"Ankara",
+"Ancara",
+"Angora",
+"Ankkara",
+"Ankarra"
+],
+"flagged": false,
+"note": ""
+},
+"ff8385a7-6ae7-49da-9342-e89a326fe6b4": {
+"text": "Quel est le plus grand désert chaud du monde ?",
+"answers": [],
+"accepted": [
+"Sahara",
+"Le Sahara",
+"Désert du Sahara",
+"Desert du Sahara",
+"Grand Sahara"
+],
+"flagged": false,
+"note": ""
+},
+"3af2ac67-f389-4632-9a31-b214cc29271d": {
+"text": "Quel est le plus grand océan de la Terre ?",
+"answers": [],
+"accepted": [
+"Pacifique",
+"Océan Pacifique",
+"L'océan Pacifique",
+"Ocean Pacifique",
+"Le Pacifique",
+"Pacific"
+],
+"flagged": false,
+"note": ""
+},
+"fa343599-9ecc-4caf-af1a-63e4de335e1f": {
+"text": "Qui a été le premier humain à aller dans l'espace ?",
+"answers": [],
+"accepted": [
+"Youri Gagarine",
+"Gagarine",
+"Yuri Gagarin",
+"Gagarin",
+"Youri",
+"Iouri Gagarine"
+],
+"flagged": false,
+"note": ""
+},
+"8a5538b6-5391-4ca2-9170-66ac0420f280": {
+"text": "Combien y a-t-il de bits dans un octet ?",
+"answers": [],
+"accepted": [
+"8",
+"Huit",
+"8 bits",
+"Huit bits",
+"8 bit",
+"huit"
+],
+"flagged": false,
+"note": ""
+},
+"d2e6287e-ed49-4e42-be4f-dc35331190df": {
+"text": "Combien de cavités compte le cœur humain ?",
+"answers": [
+"2",
+"3",
+"4"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"f1f0bbda-e76c-4f6e-81e8-32b84966cab7": {
+"text": "Quelle planète est la plus éloignée du Soleil ?",
+"answers": [
+"Saturne",
+"Uranus",
+"Neptune"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"e3dfd91a-47bd-46d6-90c8-2e49867eac21": {
+"text": "Au Japon, de quel côté de la route roule-t-on ?",
+"answers": [
+"À gauche",
+"À droite",
+"Ça dépend de la ville"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"9f40989a-0762-40d3-903b-d4dea3240a03": {
+"text": "Dans lequel de ces milieux le son va-t-il le plus vite ?",
+"answers": [
+"L'air",
+"L'eau",
+"L'acier"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"dff24315-b611-4cfe-8d7f-20be40432141": {
+"text": "Quel est le premier élément du tableau périodique ?",
+"answers": [
+"Hélium",
+"Hydrogène",
+"Carbone"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"ea6d9d3d-2197-4db4-b60c-62bcb6447bd5": {
+"text": "Combien de degrés fait la somme des angles d'un triangle ?",
+"answers": [
+"90",
+"180",
+"360"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"1572c049-70cc-40f7-a2ca-6961b2ed1349": {
+"text": "La Grande Barrière de corail se trouve au large de quel pays ?",
+"answers": [
+"Indonésie",
+"Australie",
+"Nouvelle-Zélande"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"6500a604-8ff9-4f22-9e8f-7ecbba27e495": {
+"text": "Combien de cordes a un violon classique ?",
+"answers": [
+"4",
+"5",
+"6"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"9f810db5-4fdb-423e-abf2-3292b8b9edd9": {
+"text": "À l'état sauvage, les manchots vivent autour de quel pôle ?",
+"answers": [
+"Pôle Nord",
+"Pôle Sud",
+"Les deux pôles"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"ac7df825-f26e-45a2-ab65-51db4df6502f": {
+"text": "Lequel de ces pays n'utilise pas l'euro ?",
+"answers": [
+"Espagne",
+"Italie",
+"Royaume-Uni"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"9c91cd31-abbe-4fb9-9763-dda7a0f91054": {
+"text": "Que mesure une année-lumière ?",
+"answers": [
+"Une durée",
+"Une distance",
+"Une vitesse"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"60aeb9a2-e94c-4393-82d8-853cc1806d3e": {
+"text": "Combien de zéros y a-t-il dans un million ?",
+"answers": [
+"3",
+"6",
+"9"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"1ed3a9a8-0ddd-47cf-9fdf-81494802742a": {
+"text": "Le diamant est composé de quel élément ?",
+"answers": [
+"Fer",
+"Carbone",
+"Silicium"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"48ce5e69-8d9b-429c-b688-5df35d7a98f6": {
+"text": "Dans quel océan se trouve le triangle des Bermudes ?",
+"answers": [
+"Atlantique",
+"Pacifique",
+"Indien"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"121f2786-e448-4d1a-8a19-3224285579fc": {
+"text": "Dans quel pays le papier a-t-il été inventé ?",
+"answers": [
+"Égypte",
+"Chine",
+"Grèce"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"5e59546c-0d39-49e7-89de-59bddc720db9": {
+"text": "Lequel de ces animaux est un mammifère ?",
+"answers": [
+"Requin",
+"Dauphin",
+"Crocodile"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"fae56cbe-9751-4315-889d-0738a1e46523": {
+"text": "Combien de mois de l'année ont 31 jours ?",
+"answers": [
+"5",
+"7",
+"8"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"c2adfed9-80a9-4017-be0c-fa78e6c60d22": {
+"text": "Dans quel pays se trouve Casablanca ?",
+"answers": [
+"Espagne",
+"Maroc",
+"Algérie"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"3040e835-4830-4c50-ba4f-c21e473ca2de": {
+"text": "Combien d'étoiles y a-t-il sur le drapeau de l'Union européenne ?",
+"answers": [
+"12",
+"15",
+"27"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"fdca625b-e0fb-4cff-a6a1-9fbf87b764a1": {
+"text": "Quel pays a la plus grande superficie totale ?",
+"answers": [
+"Canada",
+"États-Unis"
+],
+"accepted": [],
+"flagged": true,
+"note": "EN source says 'by land area', but by land area alone the US is slightly larger; Canada is larger by total area. FR asks total area so key 'Canada' is true; consider fixing EN/other languages."
+},
+"da747a22-25c3-40fb-a01a-d6a8b8c9078d": {
+"text": "Qui a le plus d'os, un bébé ou un adulte ?",
+"answers": [
+"Un bébé",
+"Un adulte"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"eb0f96be-4bb7-47cb-8149-8802bd503ac5": {
+"text": "Le verre est-il un liquide ou un solide ?",
+"answers": [
+"Liquide",
+"Solide"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"65c04a62-0c2e-4482-922d-d4174cefdb30": {
+"text": "Pendant un orage, qu'est-ce qui te parvient en premier ?",
+"answers": [
+"L'éclair",
+"Le tonnerre"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"f8ffdcfd-cc69-4f84-b259-47b5d33b2203": {
+"text": "Lequel est le plus dense : l'eau ou l'huile ?",
+"answers": [
+"L'eau",
+"L'huile"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"5aef0691-be25-44b1-a148-b2b2bc673aca": {
+"text": "Quelle entreprise a été fondée en premier ?",
+"answers": [
+"Google",
+"Facebook"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"624f394a-6a99-474b-80ee-a0ecaaf71403": {
+"text": "Lequel est le plus grand en superficie : le Groenland ou l'Afrique ?",
+"answers": [
+"Le Groenland",
+"L'Afrique"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"6fe00fe8-2109-4c1e-beae-07ba77a12da0": {
+"text": "Quelle planète a le plus de lunes, la Terre ou Mars ?",
+"answers": [
+"La Terre",
+"Mars"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"97985581-9569-4731-b79e-f357f42c3689": {
+"text": "En botanique, laquelle est une baie : la banane ou la fraise ?",
+"answers": [
+"La banane",
+"La fraise"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+}
+}

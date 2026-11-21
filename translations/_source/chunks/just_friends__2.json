@@ -1,0 +1,770 @@
+[
+ {
+  "id": "efa81feb-3048-40c9-b743-e0413c82fa99",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you hate someone just because your best friend hates them?",
+  "tr": "En yakın arkadaşının nefret ettiği kişiden, sen de nefret eder misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "188b4c0d-b8d9-4f31-b01e-8ba90565c27e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you choose to live forever if it meant watching everyone you love die?",
+  "tr": "Sevdiğin herkesin ölümünü izlemek anlamına gelseydi, sonsuza kadar yaşamak ister miydin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "e1289513-98a5-4528-a112-ee6aae47fd77",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you be suspicious of someone who gets along well with everyone?",
+  "tr": "Herkesle iyi anlaşan birinin kişiliğinden şüphe eder misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "1a3fa76f-851d-4401-a4a8-789dcf598d3c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever had a period when you were very flirty?",
+  "tr": "Çok fazla çapkın olduğun bir dönem oldu mu?",
+  "category": "just_friends"
+ },
+ {
+  "id": "1fc8abbf-0128-4618-b81d-2b76f09bf03a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your friends don't like your partner, would it make you lose interest in them?",
+  "tr": "Arkadaşların sevgilinden hoşlanmasa, bu sevgilinden soğumana sebep olur mu?",
+  "category": "just_friends"
+ },
+ {
+  "id": "c2ebf044-0c54-4059-b541-f3714baf47d8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Are you currently attracted to a friend in a way that's more than just friendship?",
+  "tr": "Şu anda bir arkadaşından başka anlamda hoşlanıyor musun?",
+  "category": "just_friends"
+ },
+ {
+  "id": "f0f56623-ce68-4bea-b65e-f5622ebe270d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think long-term friends can become romantic partners later?",
+  "tr": "Sence uzun süreli arkadaşlar sonradan sevgili olabilir mi?",
+  "category": "just_friends"
+ },
+ {
+  "id": "460a428d-36bd-4f1a-b14b-0381b0822d60",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What drives human behavior more?",
+  "tr": "İnsan davranışlarını hangisi daha çok yönlendirir?",
+  "answers_en": [
+   "Fear of pain",
+   "Desire for pleasure"
+  ],
+  "answers_tr": [
+   "Acıdan kaçma korkusu",
+   "Haz alma arzusu"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "6a4f5fd8-c46c-4f5f-ac95-578a22429850",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your friend were romantically attracted to you, would you give them a chance?",
+  "tr": "Arkadaşın senden hoşlanıyor olsa romantik anlamda, ona bir şans verir miydin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "d3fdeab4-014d-4d6f-889c-4f57f67b5f4f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you live in the same house with a friend of the opposite sex while having a partner?",
+  "tr": "Sevgilin varken karşı cins arkadaşınla aynı evde yaşar mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "c967305f-6cc1-4697-a3d7-e69d67c253d3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you were attracted to a friend, would you hide it to avoid damaging your friendship?",
+  "tr": "Arkadaşından hoşlansan, arkadaşlığınızın zedelenmemesi için bunu saklar mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "6f319932-cbc0-4efc-ac99-17a2e8db1022",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you get jealous of your friend's partners?",
+  "tr": "Arkadaşının sevgililerini kıskanır mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "1539ca94-1bf7-4737-a2e7-0888edc17875",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Does it bother you if your friend has closer friends than you?",
+  "tr": "Arkadaşının senden daha yakın arkadaşları olması seni rahatsız eder mi?",
+  "category": "just_friends"
+ },
+ {
+  "id": "af046054-1900-4f56-acc3-3ce73fae637d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would it feel strange if your friend found you attractive?",
+  "tr": "Arkadaşının seni çekici bulması sana garip gelir mi?",
+  "category": "just_friends"
+ },
+ {
+  "id": "560aae7c-660a-48c7-a995-16082b7a329c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you stop talking to a friend who finds you attractive if your partner asked you to?",
+  "tr": "Seni çekici bulan arkadaşınla, partnerin istediği için konuşmayı bırakır mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "85f1d55b-0ab2-477b-bc89-8f1079b657df",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your best friend and partner met without telling you, would you get jealous?",
+  "tr": "En yakın arkadaşın ve sevgilin senden habersiz buluşmuşlar. Kıskanır mıydın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "d3f796b9-46b0-4ea6-af2e-79f8db92e1b4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you be friends with someone who constantly talks about their partner?",
+  "tr": "Sürekli kendi sevgilisinden bahseden biriyle arkadaş olur musun?",
+  "category": "just_friends"
+ },
+ {
+  "id": "c19c811e-bdd4-431c-9ae2-fe158cd5ce51",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you be friends with someone who constantly talks about their problems?",
+  "tr": "Sürekli kendi dertlerinden bahseden biriyle arkadaş olur musun?",
+  "category": "just_friends"
+ },
+ {
+  "id": "d9392be9-5bf4-4290-83cc-bb71d5a0ea2f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you try to separate your friend from a toxic relationship?",
+  "tr": "Kankanı toksik ilişkisinden ayırmaya çalışır mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "f6e1d589-f406-413a-84e1-4d10b010efa2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you compliment a bad outfit just to make your friend happy?",
+  "tr": "Sırf kankan mutlu olsun diye kötü kombinini över misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "36a8a92f-d12b-4cde-b020-95c045851054",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you be upset if not added to your best friend's Close Friends list?",
+  "tr": "En yakın arkadaşının Close Friends listesine ekli olmadığını öğrenirsen sinirlenir misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "cd28855b-6bbc-4754-bf67-925fafc08e08",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you go somewhere you don't want to, just so your friend isn't alone?",
+  "tr": "Gitmek istemediğin bir yere sırf arkadaşın yalnız kalmasın diye gider misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "30180f6d-9944-4221-8ee1-b6a426b20c14",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you go on a double date with someone you don't like just for your friend?",
+  "tr": "Arkadaşın için beğenmediğin biri olsa bile 4'lü date'e çıkar mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "ae0d1125-a621-4872-9096-7e1c73f8195a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you listen to your best friend's 30-minute voice message?",
+  "tr": "En yakın arkadaşın 30 dakikalık ses kaydı atsa bile hepsini dinler misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "544d795e-cf98-43ae-8031-965c2fbb83ef",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you saw your friend's cheating partner on the street, would you greet them?",
+  "tr": "Kankanı aldatan sevgilisini sokakta görsen selam verir misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "dbed90fb-08d1-454d-a7c8-53e94c8dfae2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If both you and your friend liked the same person, would you be the one to step back?",
+  "tr": "Arkadaşınla ikiniz de aynı kişiden hoşlansanız, geri çekilen taraf sen mi olursun?",
+  "category": "just_friends"
+ },
+ {
+  "id": "e01fa88f-9bf7-4a07-b915-156123bf6854",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you consider yourself successful and skilled at confessing to someone you like?",
+  "tr": "Hoşlandığın kişiye açılma konusunda kendini başarılı ve yetenekli bulur musun?",
+  "category": "just_friends"
+ },
+ {
+  "id": "70ec9505-e1b3-41af-806f-8922805e641e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you go on a one-month vacation with a close friend of the opposite sex?",
+  "tr": "Yakın karşı cins arkadaşınla 1 aylık tatile çıkar mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "cb2ea32b-d004-42f0-9a51-8737c96bc6a4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think you can really stay friends with an ex?",
+  "tr": "Bir ex'inle gerçekten arkadaş kalabileceğine inanıyor musun?",
+  "category": "just_friends"
+ },
+ {
+  "id": "1864a491-86d1-49a2-80a2-c32e41c6a728",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever had feelings for a friend’s ex?",
+  "tr": "Hiç bir arkadaşının eski sevgilisine karşı bir şeyler hissettin mi?",
+  "category": "just_friends"
+ },
+ {
+  "id": "665c9713-06bc-480c-95b9-dcca3d1c59fb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is a bigger problem for you: your friends not liking your partner or your family not liking your partner?",
+  "tr": "Senin için hangisi daha büyük bir problem: arkadaşlarının sevgilini sevmemesi mi, ailenin sevgilini sevmemesi mi?",
+  "answers_en": [
+   "Friends not liking them",
+   "Family not liking them"
+  ],
+  "answers_tr": [
+   "Arkadaşların sevmemesi",
+   "Ailenin sevmemesi"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "39a0d847-c6a2-420f-bc9b-2da40532d0bd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which would upset you more: cutting off a friend or breaking up with your partner?",
+  "tr": "Seni hangisi daha çok üzer: bir arkadaşınla konuşmayı bırakmak mı, sevgilinden ayrılmak mı?",
+  "answers_en": [
+   "Cutting off a friend",
+   "Breaking up with a partner"
+  ],
+  "answers_tr": [
+   "Arkadaşı bırakmak",
+   "Sevgiliden ayrılmak"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "40150bf7-574c-4cc0-b8e4-5082f4273ff6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you really liked a piece of clothing, would you buy it even if it was very expensive?",
+  "tr": "Bir kıyafeti çok beğensen, parası çok pahalı da olsa satın alır mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "02576a6e-45da-4195-94ad-bfa3d432229e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever distanced yourself from a friend because of their behavior?",
+  "tr": "Daha önce hiç bir arkadaşından davranışları yüzünden soğudun mu?",
+  "category": "just_friends"
+ },
+ {
+  "id": "c791f673-121c-4f78-b6b2-138fff984d94",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever introduced a friend to your family?",
+  "tr": "Daha önce hiç bir arkadaşını ailenle tanıştırdın mı?",
+  "category": "just_friends"
+ },
+ {
+  "id": "3768b0c2-7e45-4ea2-bb34-94459ecfdaa6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever made a promise with a friend to marry them if you are both still single at 30?",
+  "tr": "Daha önce bir arkadaşınla, 30 yaşına kadar kimseyle evlenmezseniz birbirinizle evlenme sözü verdin mi?",
+  "category": "just_friends"
+ },
+ {
+  "id": "333ba234-d38e-4da7-adbf-90c465fe9959",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever completely cut off a friendship over something trivial?",
+  "tr": "Daha önce hiç bir arkadaşınla aran çok saçma bir şey yüzünden tamamen kesildi mi?",
+  "category": "just_friends"
+ },
+ {
+  "id": "d6594cf3-1942-4fe1-93eb-0a767331054d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Being close friends with the opposite gender...",
+  "tr": "Karşı cinsle yakın arkadaş olmak…",
+  "answers_en": [
+   "Completely normal",
+   "Boundaries should be set"
+  ],
+  "answers_tr": [
+   "Tamamen normal",
+   "Sınır koyulmalı"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "e2bd6991-cecd-4263-bf0b-428f21242273",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Staying friends with an ex...",
+  "tr": "Eski sevgiliyle arkadaş kalmak…",
+  "answers_en": [
+   "Can be possible",
+   "Never acceptable"
+  ],
+  "answers_tr": [
+   "Olabilir",
+   "Asla kabul edilmez"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "f252224b-4d0b-4690-b195-2f1acc7c55cc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Forming emotional bonds in friendship...",
+  "tr": "Arkadaşlıkta duygusal bağ kurmak…",
+  "answers_en": [
+   "Natural",
+   "Risky"
+  ],
+  "answers_tr": [
+   "Doğaldır",
+   "Risklidir"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "a481faea-e2d5-4288-bee9-49a6e561002c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Constantly messaging someone you say \"we are just friends\" with...",
+  "tr": "\"Sadece arkadaşız\" dediğin biriyle sürekli mesajlaşmak…",
+  "answers_en": [
+   "Is normal",
+   "Can be misunderstood"
+  ],
+  "answers_tr": [
+   "Normaldir",
+   "Yanlış anlaşılır"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "c1051de3-6210-48d9-bbee-a1bd27339e24",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Physical closeness in friendship (like hugging)...",
+  "tr": "Arkadaşlıkta fiziksel yakınlık (sarılma vs.)…",
+  "answers_en": [
+   "Is normal",
+   "Sends the wrong signal"
+  ],
+  "answers_tr": [
+   "Normaldir",
+   "Yanlış sinyal verir"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "54e10e6d-36d5-4c2f-90fa-90ab841a4a40",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner often seeing someone they call just a friend...",
+  "tr": "Partnerin \"sadece arkadaşım\" dediği kişiyi çok sık görmesi…",
+  "answers_en": [
+   "I am okay with it",
+   "It makes me uncomfortable"
+  ],
+  "answers_tr": [
+   "Umursamam",
+   "Rahatsız eder"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "cbc9d01b-ad4e-4822-ba0d-6d460dd7b24f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Keeping some privacy in friendship (hiding certain things from your partner)...",
+  "tr": "Arkadaşlıkta gizlilik (partnerden bazı şeyleri saklamak)…",
+  "answers_en": [
+   "May be necessary",
+   "Is wrong"
+  ],
+  "answers_tr": [
+   "Gerekli olabilir",
+   "Yanlıştır"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "b15024f0-b284-4cf6-b9da-8ee1b47f31db",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Knowing every detail of your closest friend’s life...",
+  "tr": "En yakın arkadaşının hayatındaki her detayı bilmek…",
+  "answers_en": [
+   "Is natural",
+   "Is unnecessary"
+  ],
+  "answers_tr": [
+   "Doğaldır",
+   "Gereksizdir"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "93d7d2aa-65e5-4158-bbdc-86bbfaab33e8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your friend becoming part of your other friend group...",
+  "tr": "Arkadaşının senin diğer arkadaş grubuna dahil olması…",
+  "answers_en": [
+   "Can be fun",
+   "Can cause problems"
+  ],
+  "answers_tr": [
+   "Eğlenceli olabilir",
+   "Problem yaratabilir"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "a24ff5ae-632a-4c56-8f91-b151d975be08",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Staying just as close even after not seeing each other for a long time...",
+  "tr": "Uzun süre görüşmeyip aynı samimiyette kalmak…",
+  "answers_en": [
+   "True friendship",
+   "May be difficult"
+  ],
+  "answers_tr": [
+   "Gerçek dostluktur",
+   "Problem oluşturabilir"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "4ad582dc-a947-4194-b0d1-981b04af1c82",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Not being your closest friend’s closest friend...",
+  "tr": "En yakın arkadaşının en yakın arkadaşı olmamak…",
+  "answers_en": [
+   "Should not happen",
+   "Acceptable"
+  ],
+  "answers_tr": [
+   "Olmaz",
+   "Kabul edilebilir"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "6440ff9b-487a-43cc-8af1-563d9734e2ed",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your closest friend starts calling you less after getting a new partner...",
+  "tr": "En yakın arkadaşın yeni bir sevgili yapınca seni daha az aramaya başlıyor…",
+  "answers_en": [
+   "It is normal, life changes",
+   "It feels like neglect"
+  ],
+  "answers_tr": [
+   "Normaldir, hayatı değişmiştir",
+   "İhmal hissi yaratır"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "787f606d-df56-459b-87bf-7714b646077d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your friend never introduces you to their other friend group...",
+  "tr": "Arkadaşın başka bir arkadaş grubuyla seni hiç tanıştırmıyor…",
+  "answers_en": [
+   "Not important",
+   "Feels strange"
+  ],
+  "answers_tr": [
+   "Önemli değil",
+   "Garip hissettirir"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "18b7fca3-3bce-4521-ae0f-ef66c3e2ffb0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When you don’t talk for a long time with your friend, you continue as if nothing happened...",
+  "tr": "Arkadaşın seninle uzun süre konuşmadığında hiçbir şey olmamış gibi devam ediyorsunuz…",
+  "answers_en": [
+   "Healthy bond",
+   "Feels superficial"
+  ],
+  "answers_tr": [
+   "Sağlıklı bağ",
+   "Yüzeysellik"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "fb3d0920-f21b-45b3-b8ac-0aa9f8870491",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "The most important thing in friendship...",
+  "tr": "Arkadaşlıkta en önemli şey…",
+  "answers_en": [
+   "Loyalty",
+   "Sharing"
+  ],
+  "answers_tr": [
+   "Sadakat",
+   "Paylaşım"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "cdca9b4b-dde6-41ef-b066-1a1fe07dc941",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A good friend accepts you with your flaws or tries to help you improve in a positive way.",
+  "tr": "İyi arkadaş: seni kötü yönlerinle kabul eder ya da seni iyi anlamda değiştirmeye çalışır.",
+  "answers_en": [
+   "Accepts as you are",
+   "Helps you improve"
+  ],
+  "answers_tr": [
+   "Olduğun gibi kabul eder",
+   "İyi anlamda değiştirmeye çalışır"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "991aa3a5-200d-41b4-beae-58d6f0d655da",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A true friend is someone who is there in your bad times or in your good times.",
+  "tr": "Gerçek dost: kötü zamanında yanında olandır ya da iyi zamanında yanında olandır.",
+  "answers_en": [
+   "Bad times matter more",
+   "Good times matter more"
+  ],
+  "answers_tr": [
+   "Kötü zaman daha önemlidir",
+   "İyi zaman daha önemlidir"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "b7db9932-142a-4d10-bfa4-b5f580458954",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What matters more in friendship: quality or consistency?",
+  "tr": "Arkadaşlıkta daha önemli olan nedir: kalite mi süreklilik mi?",
+  "answers_en": [
+   "Quality",
+   "Consistency"
+  ],
+  "answers_tr": [
+   "Kalite",
+   "Süreklilik"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "f0636f5f-63ef-4074-a615-3e24a6667f9e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A good friend...",
+  "tr": "İyi arkadaş…",
+  "answers_en": [
+   "Criticizes you",
+   "Supports you"
+  ],
+  "answers_tr": [
+   "Seni eleştirir",
+   "Seni destekler"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "b9784638-ea19-44da-ab12-cb649859a032",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is stronger in friendship: loyalty or empathy?",
+  "tr": "Arkadaşlıkta daha güçlü olan… sadakat mi empati mi?",
+  "answers_en": [
+   "Loyalty",
+   "Empathy"
+  ],
+  "answers_tr": [
+   "Sadakat",
+   "Empati"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "a2f297b8-10e7-4517-b7f0-a0c832d370c7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Good friendship...",
+  "tr": "İyi dostluk…",
+  "answers_en": [
+   "Requires effort",
+   "Flows naturally"
+  ],
+  "answers_tr": [
+   "Emek ister",
+   "Doğal akar"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "5b670ad6-208b-4e58-b292-e273f3b78943",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is the strongest thing in friendship...",
+  "tr": "Arkadaşlıkta en güçlü şey…",
+  "answers_en": [
+   "Loyalty",
+   "Understanding"
+  ],
+  "answers_tr": [
+   "Bağlılık",
+   "Anlayış"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "d10fdd35-8f20-43ae-8d73-b6dfde704d1e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A good friend...",
+  "tr": "İyi bir arkadaş…",
+  "answers_en": [
+   "Makes you feel comfortable",
+   "Helps you grow"
+  ],
+  "answers_tr": [
+   "Sizi rahat hissettirir",
+   "Sizi geliştirir"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "05689bed-28ec-43c5-b237-0302642ef9b4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you marry this person if you were both not married by the age of 40?",
+  "tr": "Eğer ikiniz de 40 yaşınıza kadar evlenmezseniz, bu kişiyle evlenir miydin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "8025e660-1505-4af6-80ae-abfc0310e57e",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many close friends do you actually need?",
+  "tr": "Kaç tane gerçekten yakın arkadaş yeter?",
+  "category": "just_friends"
+ },
+ {
+  "id": "379cc9b1-f4e7-4870-89f1-7a7618d01d47",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "If a close friend is late, after how many minutes does it start bothering you?",
+  "tr": "Yakın arkadaşın geç kalınca kaç dakikadan sonra sinirlenmeye başlarsın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "6bed572f-b7ef-4dfd-9f13-d05e4450629e",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What kills a friendship the fastest for you?",
+  "tr": "Senin için bir arkadaşlığı en çabuk ne bitirir?",
+  "category": "just_friends"
+ },
+ {
+  "id": "019bcbc6-27a4-454b-b3af-7434fb094414",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many times a month do you need to see a close friend?",
+  "tr": "Yakın bir arkadaşını ayda kaç kere görmen yeter?",
+  "category": "just_friends"
+ },
+ {
+  "id": "9904dd28-27f8-48e6-a7c9-f91b70c02a3b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many days can a close friend stay at your place?",
+  "tr": "Yakın bir arkadaşın evinde en fazla kaç gün kalabilir?",
+  "category": "just_friends"
+ },
+ {
+  "id": "fb412a91-d561-4398-b5fc-44e7a463c33b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What's the first thing you offer a friend who comes over?",
+  "tr": "Eve gelen arkadaşına ilk ne ikram edersin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "6e09b141-b4f9-4a4b-a8d4-a1cb738c388a",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What can a friend take from your fridge without asking?",
+  "tr": "Bir arkadaşın buzdolabından sormadan ne alabilir?",
+  "category": "just_friends"
+ },
+ {
+  "id": "3dcd0f58-587e-4181-9f97-956ea9f95e64",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What's off-limits to joke about with friends?",
+  "tr": "Arkadaşlar arasında şaka konusu olmayacak şey nedir?",
+  "category": "just_friends"
+ },
+ {
+  "id": "d420a12c-2ed3-4461-ba85-2938b2eacbed",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "When the bill comes, how should friends split it?",
+  "tr": "Hesap gelince arkadaşlar arasında nasıl bölünmeli?",
+  "category": "just_friends"
+ }
+]

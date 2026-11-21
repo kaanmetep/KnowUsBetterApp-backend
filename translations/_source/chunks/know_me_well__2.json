@@ -1,0 +1,884 @@
+[
+ {
+  "id": "7e32c0fb-1531-4e16-af1c-629343ffb7e9",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What does {{playerName}} love eating most for breakfast?",
+  "tr": "{{playerName}} kahvaltı öğününde en çok ne yemeyi sever?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "0425f81b-0c26-4d2f-b061-adfe977513d3",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite pizza topping?",
+  "tr": "{{playerName}} pizzada en çok hangi malzemeyi sever?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "dfbde649-f017-4e8e-8d54-6ec9c9694fc5",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s usual coffee order?",
+  "tr": "{{playerName}} kahvede genelde ne söyler?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "d99e5617-1698-4240-a0a8-c3daea39022d",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite snack?",
+  "tr": "{{playerName}} en çok hangi atıştırmalığı sever?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "ee877ca1-488d-4f97-9598-fd22509ac148",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite fruit?",
+  "tr": "{{playerName}} en çok hangi meyveyi sever?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "9592c028-df70-4e2a-b66d-f17130e2480e",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How does {{playerName}} like their eggs?",
+  "tr": "{{playerName}} yumurtayı nasıl sever?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "1bd92319-ff3e-43b3-81b8-f13be6fd47bf",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What time does {{playerName}} usually go to sleep?",
+  "tr": "{{playerName}} genelde saat kaçta uyur?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "d90798ff-2c56-4b01-a1c8-2780928f2161",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite childhood cartoon?",
+  "tr": "{{playerName}} çocukken en çok hangi çizgi filmi severdi?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "74c6652c-3f00-4012-8585-e196f91a11f9",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's the first app {{playerName}} opens in the morning?",
+  "tr": "{{playerName}} sabah ilk hangi uygulamayı açar?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "44cb3c9e-6be8-4872-9542-0b08384ef41e",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite emoji?",
+  "tr": "{{playerName}} en çok hangi emojiyi kullanır?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "7dc94a81-6d5d-4d12-9d9b-f9ab59fc038a",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What phone brand does {{playerName}} use?",
+  "tr": "{{playerName}} hangi telefon markasını kullanıyor?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "a8cb7aac-c671-48bd-a093-3d7fd524491e",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What is {{playerName}} currently watching?",
+  "tr": "{{playerName}} şu an hangi diziyi izliyor?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "17ec277b-a7f7-49ce-8eec-99683adbcbb2",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite animal?",
+  "tr": "{{playerName}} en çok hangi hayvanı sever?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "145f2f5b-8e80-4252-a357-3ae2d5c4c1d0",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s lucky number?",
+  "tr": "{{playerName}}'in şanslı sayısı kaç?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "2a1297e0-6d77-4cf2-a3ff-e5f8057dcc30",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s star sign?",
+  "tr": "{{playerName}} hangi burç?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "e867a504-b007-4206-8378-19171432174d",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite season?",
+  "tr": "{{playerName}} en çok hangi mevsimi sever?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "55cc5151-4dc7-4a67-90de-b1829ca19dc8",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What was {{playerName}}'s childhood nickname?",
+  "tr": "{{playerName}}'in çocukluk lakabı neydi?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "bb5df921-8ba2-4082-90b4-fb7c936731dc",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite singer?",
+  "tr": "{{playerName}} en çok hangi şarkıcıyı sever?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "ebad8d20-818e-4d82-8191-1a2c198bfa7f",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite chocolate?",
+  "tr": "{{playerName}} en çok hangi çikolatayı sever?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "a029377a-dcee-4c47-80ac-e652ce1363f6",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite fast food?",
+  "tr": "{{playerName}} en çok hangi fast food'u sever?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "34591a59-c1f0-426b-a04c-c98cee22942d",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What does {{playerName}} call their mom?",
+  "tr": "{{playerName}} annesine ne der?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "d557c7ce-b091-4b4b-ad44-73eb4a9f1d17",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite superhero?",
+  "tr": "{{playerName}} en çok hangi süper kahramanı sever?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "ff54dc71-bbb6-46f6-973f-7381edb1f930",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What does {{playerName}} do first when they get home?",
+  "tr": "{{playerName}} eve gelince ilk ne yapar?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "837a824d-df7a-4c64-b6ba-16f11164e978",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What chore does {{playerName}} hate the most?",
+  "tr": "{{playerName}} en çok hangi ev işinden nefret eder?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "792869b8-ec29-496c-b85e-f010457ea0ae",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What does {{playerName}} always lose?",
+  "tr": "{{playerName}} hep neyi kaybeder?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "b140bb4d-c30d-4ef6-9106-988634717a5f",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How fast does {{playerName}} reply to messages?",
+  "tr": "{{playerName}} mesajlara ne kadar çabuk döner?",
+  "answers_en": [
+   "Instantly",
+   "Hours later",
+   "Leaves them on read",
+   "Sends a voice note"
+  ],
+  "answers_tr": [
+   "Hemen",
+   "Saatler sonra",
+   "Görüldü bırakır",
+   "Sesli mesaj atar"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "4a6273eb-4b65-4061-a9b8-e0926c7675eb",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What's {{playerName}} like at a party?",
+  "tr": "{{playerName}} partide nasıldır?",
+  "answers_en": [
+   "On the dance floor",
+   "In the corner",
+   "In the kitchen",
+   "Leaves early"
+  ],
+  "answers_tr": [
+   "Dans pistinde",
+   "Köşede",
+   "Mutfakta",
+   "Erken çıkar"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "401000a3-ed4d-43cd-98a9-9eb83866750c",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} pack for a trip?",
+  "tr": "{{playerName}} valizini nasıl yapar?",
+  "answers_en": [
+   "A week early",
+   "The night before",
+   "Forgets half of it",
+   "Overpacks everything"
+  ],
+  "answers_tr": [
+   "Bir hafta önceden",
+   "Bir gece önce",
+   "Yarısını unutur",
+   "Fazlasıyla doldurur"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "22169b2f-f26f-4151-8015-bafef065eb8f",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What does {{playerName}} do when they're lost?",
+  "tr": "{{playerName}} yolu kaybedince ne yapar?",
+  "answers_en": [
+   "Asks someone",
+   "Checks the map",
+   "Keeps walking",
+   "Calls someone"
+  ],
+  "answers_tr": [
+   "Birine sorar",
+   "Haritaya bakar",
+   "Yürümeye devam eder",
+   "Birini arar"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "eca7e545-d5fe-43d3-b4fe-2e6aec589557",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What does {{playerName}} do with leftovers?",
+  "tr": "{{playerName}} artan yemeğe ne yapar?",
+  "answers_en": [
+   "Saves them",
+   "Eats them at midnight",
+   "Throws them out",
+   "Forgets them in the fridge"
+  ],
+  "answers_tr": [
+   "Kutuya koyar",
+   "Gece yarısı yer",
+   "Çöpe atar",
+   "Buzdolabında unutur"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "61d8bdfa-ccc2-48c1-8c58-446ed197d69c",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What's {{playerName}} like in the morning?",
+  "tr": "{{playerName}} sabahları nasıldır?",
+  "answers_en": [
+   "Grumpy",
+   "Silent until coffee",
+   "Already chatting",
+   "Hits snooze forever"
+  ],
+  "answers_tr": [
+   "Huysuz",
+   "Kahveye kadar susar",
+   "Hemen konuşmaya başlar",
+   "Alarmı defalarca erteler"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "5dfed285-7d4f-4e71-8506-84c8415cbc26",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What's {{playerName}} like as a passenger?",
+  "tr": "{{playerName}} yolcuyken nasıldır?",
+  "answers_en": [
+   "Sleeps the whole way",
+   "Controls the music",
+   "Navigates",
+   "Keeps asking if you're there yet"
+  ],
+  "answers_tr": [
+   "Hep uyur",
+   "Müziği o seçer",
+   "Yol tarifi verir",
+   "\"Geldik mi\" diye sorar"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "a1f2d79a-ce13-4322-a5b8-f10091d8772d",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} pick a restaurant?",
+  "tr": "{{playerName}} restoranı nasıl seçer?",
+  "answers_en": [
+   "Reads all the reviews",
+   "Goes to the usual spot",
+   "Walks into the first one",
+   "Lets the other pick"
+  ],
+  "answers_tr": [
+   "Bütün yorumları okur",
+   "Hep aynı yere gider",
+   "İlk gördüğüne girer",
+   "Karşı tarafı seçtirir"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "6e745806-a8fc-4404-a45c-090c14c466a1",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What is {{playerName}} like when they're sick?",
+  "tr": "{{playerName}} hastayken nasıldır?",
+  "answers_en": [
+   "Makes a big deal",
+   "Acts like they're fine",
+   "Sleeps all day",
+   "Wants to be left alone"
+  ],
+  "answers_tr": [
+   "Dramatikleşir",
+   "Hiçbir şey yokmuş gibi yapar",
+   "Bütün gün uyur",
+   "Rahat bırakılmak ister"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "471a6e48-e963-420e-bf7d-7a708e35c2e0",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} take photos?",
+  "tr": "{{playerName}} fotoğraf çekerken nasıldır?",
+  "answers_en": [
+   "Fifty of the same shot",
+   "Never takes any",
+   "Only selfies",
+   "Only of the food"
+  ],
+  "answers_tr": [
+   "Aynısından elli tane",
+   "Hiç çekmez",
+   "Sadece selfie",
+   "Sadece yemeğin"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "368f1aa0-70bc-4aa8-8117-95ecbf9ab3cf",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} usually sleep?",
+  "tr": "{{playerName}} genelde nasıl uyur?",
+  "answers_en": [
+   "On their back",
+   "On their side",
+   "On their stomach",
+   "Spread out like a starfish"
+  ],
+  "answers_tr": [
+   "Sırtüstü",
+   "Yan",
+   "Yüzüstü",
+   "Yıldız gibi açılıp"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "f32d78d9-ad1f-4da1-a4eb-bb631981389d",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How long is {{playerName}}'s shower?",
+  "tr": "{{playerName}}'in duşu ne kadar sürer?",
+  "answers_en": [
+   "Under 5 minutes",
+   "Around 10 minutes",
+   "A good 20 minutes",
+   "1 hour"
+  ],
+  "answers_tr": [
+   "5 dakikadan az",
+   "Yaklaşık 10 dakika",
+   "Rahat 20 dakika",
+   "1 saat"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "4a4c1dcb-edc8-499a-b622-51d40eb7fed0",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How spicy does {{playerName}} like their food?",
+  "tr": "{{playerName}} yemeği ne kadar acılı sever?",
+  "answers_en": [
+   "No spice",
+   "A little",
+   "Pretty hot",
+   "The hottest on the menu"
+  ],
+  "answers_tr": [
+   "Acısız",
+   "Az acılı",
+   "Oldukça acı",
+   "Menüdeki en acısı"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "64443fba-3210-45c2-91a7-e445962bb768",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How many alarms does {{playerName}} set?",
+  "tr": "{{playerName}} kaç alarm kurar?",
+  "answers_en": [
+   "None",
+   "One",
+   "Two or three",
+   "A pile of them"
+  ],
+  "answers_tr": [
+   "Hiç",
+   "Bir tane",
+   "İki üç tane",
+   "Bir sürü"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "7ae392a8-9407-45b1-8393-659cd8c7ff06",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How much ice does {{playerName}} want in a drink?",
+  "tr": "{{playerName}} içeceğine ne kadar buz ister?",
+  "answers_en": [
+   "None",
+   "A little",
+   "Half the cup",
+   "Filled to the top"
+  ],
+  "answers_tr": [
+   "Hiç",
+   "Biraz",
+   "Bardağın yarısı",
+   "Ağzına kadar"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "8d2288a5-7234-4b0a-9d04-a4df4a7c8276",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How warm does {{playerName}} like the room?",
+  "tr": "{{playerName}} odayı nasıl sever?",
+  "answers_en": [
+   "Cold",
+   "Cool",
+   "Warm",
+   "Hot"
+  ],
+  "answers_tr": [
+   "Soğuk",
+   "Serin",
+   "Ilık",
+   "Sıcak"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "9a333a60-a208-4fa6-b5ad-715cc8915816",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} walk with someone?",
+  "tr": "{{playerName}} biriyle yürürken nasıldır?",
+  "answers_en": [
+   "Falls behind",
+   "Right beside them",
+   "Walks ahead",
+   "Already waiting at the door"
+  ],
+  "answers_tr": [
+   "Geride kalır",
+   "Yan yana",
+   "Önden gider",
+   "Kapıda bekliyordur"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "03e69dee-3b69-4951-8dc6-3b8264f042b0",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How bright does {{playerName}} like the lights?",
+  "tr": "{{playerName}} ışıkları nasıl sever?",
+  "answers_en": [
+   "Almost dark",
+   "Dim",
+   "Normal",
+   "Fully on"
+  ],
+  "answers_tr": [
+   "Neredeyse karanlık",
+   "Loş",
+   "Normal",
+   "Tüm ışıklar açık"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "0aca9c68-fa93-42be-9d3c-1de5a6691b90",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How much of their plate does {{playerName}} finish?",
+  "tr": "{{playerName}} tabağını ne kadar bitirir?",
+  "answers_en": [
+   "Leaves half",
+   "Leaves a little",
+   "Finishes it",
+   "Goes for seconds"
+  ],
+  "answers_tr": [
+   "Yarısını bırakır",
+   "Biraz bırakır",
+   "Hepsini bitirir",
+   "Bir tabak daha alır"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "5c58e0a8-e571-49fa-9dcf-8bcabbfd351d",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How loud does {{playerName}} watch TV?",
+  "tr": "{{playerName}} televizyonu ne kadar açık izler?",
+  "answers_en": [
+   "Very quiet",
+   "Normal",
+   "Loud",
+   "The whole building hears it"
+  ],
+  "answers_tr": [
+   "Çok kısık",
+   "Normal",
+   "Yüksek",
+   "Bütün bina duyar"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "8dcf54f4-7604-4a50-868f-a1059383d60f",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What sport does {{playerName}} watch the most?",
+  "tr": "{{playerName}} en çok hangi sporu izler?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "518cefed-96bc-4925-a6d7-cbbbe1bafe71",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "{{playerName}}'s phone volume is usually...",
+  "tr": "{{playerName}} telefonunun sesi genelde...",
+  "answers_en": [
+   "On silent / vibrate",
+   "Low, polite",
+   "Loud enough for the whole room"
+  ],
+  "answers_tr": [
+   "Sessiz veya titreşimde",
+   "Kısık, kibar",
+   "Bütün oda duyar"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "b194f4d3-f0fd-4181-9fe0-ba5a5d8df660",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What is {{playerName}}'s favorite drink?",
+  "tr": "{{playerName}} en çok hangi içeceği sever?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "479bda74-7ea0-4281-b895-aa99f5ec2cd2",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What is {{playerName}}'s favorite day of the week?",
+  "tr": "{{playerName}} haftanın hangi gününü en çok sever?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "d8a84507-b8e2-4a95-843a-ee747cc48192",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What shoe brand does {{playerName}} wear the most?",
+  "tr": "{{playerName}} en çok hangi ayakkabı markasını giyer?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "93071ba2-48c1-40a4-9b45-223d4ea76fba",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What is {{playerName}}'s favorite clothing brand?",
+  "tr": "{{playerName}} en çok hangi kıyafet markasını sever?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "2cfc2473-9298-4832-91ac-7d80bdb6acf8",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What is {{playerName}}'s go-to comfort food when sad?",
+  "tr": "{{playerName}} üzgünken en çok ne yer / içer?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "1964cbeb-89e2-449a-8c9f-a62f03c5001e",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What is the first thing {{playerName}} checks on their phone in the morning?",
+  "tr": "{{playerName}} sabah telefonda ilk neye bakar?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "72d01256-9cc6-4e00-9ee2-32149b3777c1",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What does {{playerName}} do when no one else is home?",
+  "tr": "{{playerName}} evde kimse yokken ne yapar?",
+  "answers_en": [
+   "Sings at full volume",
+   "Dances around the house",
+   "Has imaginary conversations",
+   "Eats in bed"
+  ],
+  "answers_tr": [
+   "Avazı çıktığı kadar şarkı söyler",
+   "Evin içinde dans eder",
+   "Hayali konuşmalar yapar",
+   "Yatakta yemek yer"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "5426502c-b09e-4e22-9d93-14cdcc37e444",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "When {{playerName}} forgets someone's name, what do they do?",
+  "tr": "{{playerName}} birinin adını unutunca ne yapar?",
+  "answers_en": [
+   "Avoids saying it",
+   "Uses a random nickname",
+   "Admits it right away",
+   "Quietly asks someone else"
+  ],
+  "answers_tr": [
+   "Adını söylemekten kaçınır",
+   "\"Kanka, canım\" diye geçiştirir",
+   "Hemen itiraf eder",
+   "Gizlice başkasına sorar"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "b8373ab6-1ddc-4a1b-9c77-fb896eac0d39",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What does {{playerName}} do after tripping in public?",
+  "tr": "{{playerName}} herkesin içinde tökezleyince ne yapar?",
+  "answers_en": [
+   "Turns it into a jog",
+   "Glares at the ground",
+   "Bursts out laughing",
+   "Acts like nothing happened"
+  ],
+  "answers_tr": [
+   "Koşuya çevirir",
+   "Dönüp yere bakar",
+   "Kahkahayı basar",
+   "Hiçbir şey olmamış gibi yapar"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "c01488a8-0bfe-43e5-8da7-3d73f726e8a8",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If {{playerName}} won the lottery, what would they do first?",
+  "tr": "{{playerName}} piyangoyu kazansa ilk ne yapar?",
+  "answers_en": [
+   "Quit their job",
+   "Buy a house",
+   "Travel the world",
+   "Tell no one"
+  ],
+  "answers_tr": [
+   "İşten istifa eder",
+   "Ev alır",
+   "Dünyayı gezer",
+   "Kimseye söylemez"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "9c6b53e4-f5b8-473e-b934-46874be76618",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "In a zombie apocalypse, who would {{playerName}} be?",
+  "tr": "Zombi kıyametinde {{playerName}} kim olurdu?",
+  "answers_en": [
+   "The leader",
+   "The first one bitten",
+   "The snack hoarder",
+   "The traitor"
+  ],
+  "answers_tr": [
+   "Grubun lideri",
+   "İlk ısırılan",
+   "Atıştırmalıkları stoklayan",
+   "Herkese ihanet eden"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "23003c7d-5093-46f0-a54a-2f942131eb3c",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If {{playerName}} could pick one superpower, which would it be?",
+  "tr": "{{playerName}} tek bir süper güç seçebilse hangisini seçer?",
+  "answers_en": [
+   "Flying",
+   "Invisibility",
+   "Reading minds",
+   "Teleporting"
+  ],
+  "answers_tr": [
+   "Uçmak",
+   "Görünmezlik",
+   "Akıl okumak",
+   "Işınlanmak"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "f29d4add-5a02-4673-af37-22538518bf1d",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's on {{playerName}}'s lock screen right now?",
+  "tr": "{{playerName}}'in kilit ekranında şu an ne var?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "2c118d16-4d4d-47ed-a1e5-324d8ff8801c",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s average daily screen time, in hours?",
+  "tr": "{{playerName}}'in günlük ortalama ekran süresi kaç saat?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "87169443-4ab3-4ed7-a6a9-86d699553988",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "Which app does {{playerName}} spend the most time on, according to their screen time?",
+  "tr": "Ekran süresine göre {{playerName}} en çok hangi uygulamada vakit geçiriyor?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "d2eb66d6-376f-48c0-a8c4-b9bd593f2533",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How many unread notifications does {{playerName}} usually have?",
+  "tr": "{{playerName}}'in telefonunda genelde kaç okunmamış bildirim olur?",
+  "answers_en": [
+   "Zero, always cleared",
+   "A few",
+   "Dozens",
+   "Hundreds"
+  ],
+  "answers_tr": [
+   "Sıfır, hep temizler",
+   "Birkaç tane",
+   "Onlarca",
+   "Yüzlerce"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "b33c8cde-b296-45cf-b287-875bb5ce045e",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What's {{playerName}}'s phone battery usually at?",
+  "tr": "{{playerName}}'in telefon şarjı genelde yüzde kaçtadır?",
+  "answers_en": [
+   "Always above 80%",
+   "Somewhere in the middle",
+   "Usually under 20%",
+   "Always about to die"
+  ],
+  "answers_tr": [
+   "Hep %80'in üstünde",
+   "Ortalarda",
+   "Genelde %20'nin altında",
+   "Hep ölmek üzere"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "7a8fe703-7dff-4a13-a22a-e41eb71b652a",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s home Wi-Fi name?",
+  "tr": "{{playerName}}'in evdeki Wi-Fi adı ne?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "147fc614-cbc3-40c2-99c8-4c3153cd6e71",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's the last thing {{playerName}} bought online?",
+  "tr": "{{playerName}} internetten en son ne satın aldı?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "517564ba-2931-43ca-827c-58dddf379dac",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What food will {{playerName}} never eat, no matter what?",
+  "tr": "{{playerName}} ne olursa olsun asla yemediği yemek ne?",
+  "category": "know_me_well"
+ }
+]

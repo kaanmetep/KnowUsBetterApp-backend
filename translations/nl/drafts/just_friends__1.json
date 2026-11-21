@@ -1,0 +1,492 @@
+{
+ "a76a2d11-aeaa-4ea4-91fe-2bfc67c9b4ee": {
+  "text": "Heb je ooit iets geheimgehouden voor een goede vriend?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a2574b99-8b8b-4f57-a394-6af757de58fc": {
+  "text": "Heb je ooit een vriendschap beëindigd zonder uit te leggen waarom?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4c272380-343e-41d5-a398-4c4fcc2393a4": {
+  "text": "Heb je ooit spijt gehad dat je iemand te snel vertrouwde?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3fce436d-bf31-4be9-8add-95f13c0fcdac": {
+  "text": "Ben je ooit jaloers geweest op het succes van een vriend?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9c806b2a-139b-4619-a67e-4409da20bcc9": {
+  "text": "Heb je ooit sorry gezegd terwijl je vond dat je niks fout had gedaan?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0dbafd24-b1dd-4ecd-b1e2-88f673a60613": {
+  "text": "Heb je ooit iemand vertrouwd die dat niet verdiende?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2924f8e7-4561-47d2-8135-81cf04ebe967": {
+  "text": "Heb je ooit expres een appje van een vriend genegeerd?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9741b4d7-889c-4894-b559-c3f66ce2d8c0": {
+  "text": "Heb je ooit iets persoonlijks met de verkeerde persoon gedeeld?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4486c9a6-d2b2-4540-8644-03cd4ef2e13a": {
+  "text": "Heb je ooit voor een vriend gekozen in plaats van voor je partner?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "479b8431-53a3-462f-9785-3d70008bbd20": {
+  "text": "Zou je bevriend blijven met een ex?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f1152066-83ba-4c0c-a1f0-093b14c8b069": {
+  "text": "Denk je dat je jezelf helemaal kent?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9ef4e846-52f9-4144-a18f-cedffa321545": {
+  "text": "Heb je ooit een vriendschap beëindigd omdat jullie te anders in het leven stonden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "48f95dce-4d8a-4fbb-9150-baba0bf7376a": {
+  "text": "Geloof je dat vriendschappen voor altijd kunnen duren?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b9a730b9-929e-45c8-9108-f0836b286438": {
+  "text": "Heb je ooit het gevoel gehad dat jij meer moeite deed in een vriendschap?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "94981afe-79fa-4085-b6a2-cd42c7ac5800": {
+  "text": "Heb je ooit na lange tijd weer contact gezocht met een oude vriend?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3b2f524c-98cf-4ac0-9dfe-f822ee4c1fcc": {
+  "text": "Zou je een oude vriend een berichtje sturen om het goed te maken?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dc5dc001-691c-47f8-9cc2-0518e6e920d8": {
+  "text": "Denk je dat je nu bent wie je echt wilde worden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "604a53b7-0d5d-4881-acb1-ef4c66be7893": {
+  "text": "Zou je met iemand uit je vriendengroep trouwen als je op je 30e nog niemand hebt gevonden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": "'a friend' rendered as 'iemand uit je vriendengroep' to avoid gendered vriend/vriendin in a romantic context."
+ },
+ "a32f5825-7334-4307-831f-c4bb0c024527": {
+  "text": "Zou je je bemoeien met de relatiekeuzes van je vrienden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fb251482-1fac-46cf-bf85-b3d27110335f": {
+  "text": "Wil je dat je vrienden zich met je relatie bemoeien?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6036b346-3ea2-4404-a7e1-7c30a0ec22c0": {
+  "text": "Geloof je dat mannen en vrouwen gewoon vrienden kunnen zijn?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bd04cdb5-6343-4875-980f-c340449f6b57": {
+  "text": "Heb je ooit lang een hechte vriendschap gehad met iemand van het andere geslacht?",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "Source assumes a gender binary ('opposite sex'); kept literal, doesn't reveal player's gender but may feel heteronormative."
+ },
+ "db880921-8caf-4a1d-8391-e7aeb26d5dc7": {
+  "text": "Als je de partner van een vriend niet mag, zou je dat dan zeggen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e5ef89d4-f7f5-4c0e-9bf5-ea3e13031a8c": {
+  "text": "Als een vriend iets krijgt met iemand die je niet mag, zou je de vriendschap dan verbreken?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e0d04d04-aa00-4c84-bcfb-881361a82be5": {
+  "text": "Geloof je in vriendschappen voor het leven?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d0639d2c-258d-4d36-832b-842e6b52ee4c": {
+  "text": "Heb je vrienden met wie het goed blijft, ook zonder vaak contact?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a3ddb95a-24aa-4a29-949f-79889f10ddcc": {
+  "text": "Erger je je als een vriend je laat wachten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5d796767-8cc5-431b-b5ad-b3a6f33f64cf": {
+  "text": "Als je partner zou vragen om niet meer met een vriend te praten, zou je dat doen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e6e52f89-0870-4970-9f5a-b5b4741216b0": {
+  "text": "Hou je goed contact met vrienden uit andere landen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3102138c-c867-425a-98fd-d9c35cac8a9b": {
+  "text": "Zou je bevriend blijven met mensen met wie je het niet eens bent?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3403d85a-a7ae-4759-b627-46cb7e2287d4": {
+  "text": "Ben je ooit verraden door een vriend?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0588bdf0-7b25-4c73-92a6-00fe19080183": {
+  "text": "Heb je ooit een vriend verraden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9f61963e-ef73-4d2a-a108-8788c781c036": {
+  "text": "Zou je geleend geld terugvragen aan je vrienden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a3d59d54-8850-46e2-9bb2-1125148aebcf": {
+  "text": "Zou je het vervelend vinden als een vriend je vraagt geleend geld terug te betalen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6746bd67-c0ef-46aa-a2c3-dfab5234341f": {
+  "text": "Betaal je je vrienden altijd op tijd terug?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a5404a83-2a72-4b9c-aca7-0c5e6cc77fc2": {
+  "text": "Kun je goed opschieten met de familie van je vrienden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0667992f-49f5-42f3-bcd4-cc5626feea01": {
+  "text": "Zou je je vrienden aan je familie voorstellen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "aae21c2f-9de5-4456-adc1-eba72108ef9b": {
+  "text": "Zou je je vrienden aan je partner voorstellen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5341cb61-0a8e-4848-b2a5-32f8b43656f4": {
+  "text": "Like je de Instagram-stories van je vrienden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a8afd3b9-7b97-4874-83ee-06aa92b6cf35": {
+  "text": "Geloof je dat je met je keuzes je lot kunt veranderen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6e0ab277-84ad-4dad-9719-677b7e583d65": {
+  "text": "Heb je een close friends-lijst of een privéaccount op social media?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "866cc351-c73d-44e8-a94e-26f20ca6375e": {
+  "text": "Denk je dat zelfs je beste vrienden stiekem jaloers zijn op je succes?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ff350837-4cca-4972-9f75-3a7d85e1d892": {
+  "text": "Zou je een vriend met je auto laten rijden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "490bbcc4-3454-4d35-879e-13652017c4bc": {
+  "text": "Vraag je je constant af wat je doel is in deze wereld?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "36cd5f8d-45cf-451d-bd2f-bd912e1e1f87": {
+  "text": "Zou je je kamer met een vriend delen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e65ed24a-9d70-4bb5-a43d-e2a6b09ca93c": {
+  "text": "Zou je met een vriend van hetzelfde bord eten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fb0c893c-1702-43a5-919e-990fe5850e4b": {
+  "text": "Geef je je vrienden graag relatieadvies?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a85cccb3-3565-47d8-b01e-c4994dbc738b": {
+  "text": "Roddel je graag met je vrienden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "60a273fa-a707-4ff2-af68-3eaa00bcb00a": {
+  "text": "Als je hoodie bij een vriend was blijven liggen, zou je die terugvragen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2a7b5e54-a35c-4222-94db-5604ef6ff521": {
+  "text": "Vind je dat vrienden elkaar geld moeten lenen als het gevraagd wordt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d14dc487-ef43-4f80-934d-3da11c4645bd": {
+  "text": "Als de andere twee in je vriendengroepje van drie niet meer met elkaar praten, zou je dan partij kiezen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "358ce8a0-4d0f-4e4a-a9ab-4d17bce190dc": {
+  "text": "Als een vriend dakloos werd, zou je die dan een jaar bij je laten wonen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f5016fd4-e85a-4f44-a6e7-3480dfc318e2": {
+  "text": "Zou je bevriend blijven met iemand met slechte gewoontes?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d09f45b0-b833-4273-9dc6-837da0408b6b": {
+  "text": "Vind je het geloof van je vrienden belangrijk?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "70eabbeb-a65f-4616-afbc-84cf134c985a": {
+  "text": "Als de ex van een vriend gevoelens voor je had, zou je er dan iets mee beginnen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f06c0817-7f8d-48c4-9214-b515e112a31d": {
+  "text": "Zou je daten met iemand met een totaal andere muzieksmaak?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bd3487cc-2911-4c0d-b46f-5fd2bc55332d": {
+  "text": "Vloek je vaak?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f7b39a40-cab5-4bac-8dc1-e50a12e37459": {
+  "text": "Als je 1 miljoen dollar kreeg om iets te beginnen met iemand uit je vriendengroep, zou je dan ja zeggen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b8699a10-76fe-421a-898d-0d6c91a4392f": {
+  "text": "Heb je een vriendschap die al meer dan 10 jaar duurt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e6297b54-f961-4c0b-892f-bc95baceb49e": {
+  "text": "Verberg je vaak wat je echt voelt om de lieve vrede te bewaren?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "44e89723-382d-4e81-a4ce-a775b0f88494": {
+  "text": "Is een goede vriend ooit verliefd op je geweest?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4af94076-243b-4c2d-a36d-0438a980fdf1": {
+  "text": "Heb je ooit iemand gefriendzoned?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f1c49c55-a070-4de9-88b0-8f36313a97a1": {
+  "text": "Ben je ooit gefriendzoned?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "34efefdf-7c84-442c-a5a3-38133fa0948e": {
+  "text": "Als een leugen iedereen blij maakt en niemand pijn doet, is die dan moreel oké?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f35c52a4-f28b-4d39-94a9-291aba678b56": {
+  "text": "Verberg je voor je vrienden hoeveel geld je hebt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "29f055a2-8038-41d1-b238-e05e99378afb": {
+  "text": "Denk je dat lijden nodig is om echt als mens te groeien?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d3cdfbea-f97c-4e33-9968-8034077edcca": {
+  "text": "Praat je graag over politiek met vrienden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "159acfa6-597d-472d-bcb3-d987da64dea8": {
+  "text": "Zou je breken met een vriend die een misdrijf zonder geweld heeft gepleegd?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f0172f90-003d-4c7f-8771-04ec7e4f490d": {
+  "text": "Zou het je dwarszitten als je partner meer carrière maakte dan jij?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7956d371-c089-4a04-a387-6ff8f68b5866": {
+  "text": "Als je precies kon weten op welke dag je sterft, zou je dat willen weten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

@@ -1,0 +1,2648 @@
+[
+ {
+  "id": "962e164e-2bb4-43b6-91ff-a3f4a7f1e353",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you share the private details of your romantic dates with your friends?",
+  "tr": "Randevularının özel detaylarını arkadaşlarınla paylaşır mısın?"
+ },
+ {
+  "id": "6f1cc8ff-d1b4-4bcc-adce-e1ec0ad7c3e5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which do you prioritize more in someone you're attracted to: having a nice body or being intelligent?",
+  "tr": "Karşı cinste hangisine daha çok öncelik verirsin: vücudunun güzel olmasına mı yoksa zeki olmasına mı?",
+  "answers_en": [
+   "Having a nice body",
+   "Being intelligent"
+  ],
+  "answers_tr": [
+   "Vücudunun güzel olması",
+   "Zeki olması"
+  ]
+ },
+ {
+  "id": "d283940a-ec09-4a1e-b0a0-2af67c9ff09d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is physical chemistry a must-have for you in a relationship?",
+  "tr": "Ten uyumu senin için bir ilişkide olmazsa olmaz mı?"
+ },
+ {
+  "id": "1e9518a0-15bd-4f18-99f6-30f1f8480b28",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you on more: giving a massage or receiving a massage?",
+  "tr": "Hangisi seni daha çok heyecanlandırır: masaj yapmak mı yoksa masaj almak mı?",
+  "answers_en": [
+   "Giving a massage",
+   "Receiving a massage"
+  ],
+  "answers_tr": [
+   "Masaj yapmak",
+   "Masaj almak"
+  ]
+ },
+ {
+  "id": "203f91fa-50d9-4f2b-971d-00aa063d09cb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you on more: kissing or hugging?",
+  "tr": "Hangisi seni daha çok heyecanlandırır: öpüşmek mi yoksa sarılmak mı?",
+  "answers_en": [
+   "Kissing",
+   "Hugging"
+  ],
+  "answers_tr": [
+   "Öpüşmek",
+   "Sarılmak"
+  ]
+ },
+ {
+  "id": "bdf4c3a2-6345-46c7-af8c-7b683dd8f0ba",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you on more: slow and romantic or fast and passionate?",
+  "tr": "Hangisi seni daha çok heyecanlandırır: yavaş ve romantik mi yoksa hızlı ve tutkulu mu?",
+  "answers_en": [
+   "Slow and romantic",
+   "Fast and passionate"
+  ],
+  "answers_tr": [
+   "Yavaş ve romantik",
+   "Hızlı ve tutkulu"
+  ]
+ },
+ {
+  "id": "d10f5951-581e-459f-a7e9-9d46d34faefa",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Receiving a good morning message every day: bare minimum or premium treatment?",
+  "tr": "Her sabah günaydın mesajı almak: bare minimum mu yoksa premium treatment mi?",
+  "answers_en": [
+   "Bare minimum",
+   "Premium treatment"
+  ],
+  "answers_tr": [
+   "Bare minimum",
+   "Premium treatment"
+  ]
+ },
+ {
+  "id": "65ed3a72-65ae-44d1-b594-348f258936d9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is your partner being bad in bed a reason to break up?",
+  "tr": "Partnerinin cinsel anlamda kötü olması bir ayrılık sebebi midir?"
+ },
+ {
+  "id": "5bc80737-30df-4421-a3df-a5f0ac1c759b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Are you against being intimate on the first date?",
+  "tr": "İlk buluşmada yakınlaşmaya karşı mısın?"
+ },
+ {
+  "id": "3fdb267c-d82f-4b33-b102-c316d2690af9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would it bother you if your partner had an uncommon fantasy?",
+  "tr": "Partnerinin çok yaygın olmayan bir fantezisi olsa bu seni rahatsız eder mi?"
+ },
+ {
+  "id": "92e0004c-454b-489a-aef0-a1e616681fac",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you try sexual things you haven't done before just because your partner asked?",
+  "tr": "Sadece partnerin istediği için daha önce denemediğin cinsel şeyleri dener miydin?"
+ },
+ {
+  "id": "88736518-ac6d-45bb-ba23-17d6d8de3e24",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Are you open to incorporating toys or other accessories into your intimate experiences?",
+  "tr": "Yakın ilişkilerinde oyuncakları veya diğer aksesuarları kullanmaya açık mısın?"
+ },
+ {
+  "id": "a73425b0-93d5-4ec5-9178-8b7a8f55d1a0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you enjoy cuddling and physical affection outside of intimate moments?",
+  "tr": "Cinsellik dışında sarılmayı ve fiziksel yakınlığı sever misin?"
+ },
+ {
+  "id": "9cdd792e-827d-4513-b110-00bfaa66cf25",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think cheating should be forgiven?",
+  "tr": "Aldatma affedilmeli mi sence?"
+ },
+ {
+  "id": "f4152a0c-706e-4948-986a-3c2eb52ad7c5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you enjoy eating breakfast in bed?",
+  "tr": "Yatakta kahvaltı yapmaktan hoşlanır mısın?"
+ },
+ {
+  "id": "089a6c6b-258a-4b1d-a5e4-41df49a05778",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever lived with a partner?",
+  "tr": "Hiç bir partnerinle birlikte yaşadın mı?"
+ },
+ {
+  "id": "91381dbf-d62a-4b88-b699-18ff55045bbd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever flirted just for fun?",
+  "tr": "Hiç sadece eğlence olsun diye flört ettin mi?"
+ },
+ {
+  "id": "21bcf8e6-f321-42db-8fbc-56d31d4ecad4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever imagined undressing someone with your eyes?",
+  "tr": "Hiç birini gözlerinle soyduğunu hayal ettiğin oldu mu?"
+ },
+ {
+  "id": "718daf11-2d92-415d-af4d-996e0bc6006f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever followed an instant spark and started a romantic connection immediately?",
+  "tr": "Hiç anlık bir çekime kapılıp romantik bir bağın hemen o an başlamasına izin verdin mi?"
+ },
+ {
+  "id": "52fa33f8-7fdd-4fe2-bae5-7b9631d7b86a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you fantasized about someone you shouldn’t?",
+  "tr": "Olmaması gereken biri hakkında hiç fantezi kurdun mu?"
+ },
+ {
+  "id": "1e8b01a3-ef5b-488f-a8ef-ba43eb960037",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you have a secret fantasy you've never told anyone?",
+  "tr": "Kimseye söylemediğin gizli bir fantezin var mı?"
+ },
+ {
+  "id": "06dd4eba-bbc1-49d8-baa2-5a99ae3c9672",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do compliments turn you on?",
+  "tr": "İltifatlar seni tahrik eder mi?"
+ },
+ {
+  "id": "55243368-64c9-496b-9031-2be396332bed",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Regarding romantic energy, do you prefer partners who are 'loud' or 'silent'?",
+  "tr": "Romantik bir çekim sırasında, enerjisini 'yüksek sesli' mi yoksa 'sessiz' mi dışa vuranları tercih edersin?",
+  "answers_en": [
+   "Loud",
+   "Silent"
+  ],
+  "answers_tr": [
+   "Yüksek sesli",
+   "Sessiz"
+  ]
+ },
+ {
+  "id": "fb9007c8-c53d-438d-9fc6-a55d3d6fd202",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which creates a stronger connection for you: physical touch or romantic words?",
+  "tr": "Senin için hangisi daha güçlü bir bağ kurar: fiziksel temas mı yoksa romantik sözler mi?",
+  "answers_en": [
+   "Touch",
+   "Words"
+  ],
+  "answers_tr": [
+   "Dokunuş",
+   "Sözler"
+  ]
+ },
+ {
+  "id": "347f9c8d-b8f0-4456-87b4-f7fad08258fb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "After a long and romantic date, do you prefer to stay over or head home?",
+  "tr": "Uzun ve romantik bir randevudan sonra, kalmayı mı yoksa eve dönmeyi mi tercih edersin?",
+  "answers_en": [
+   "Sleep over",
+   "Leave"
+  ],
+  "answers_tr": [
+   "Kalmak",
+   "Ayrılmak"
+  ]
+ },
+ {
+  "id": "d2819c86-6b30-44b5-9277-8f4a66648271",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think you can really stay friends with an ex?",
+  "tr": "Bir ex'inle gerçekten arkadaş kalabileceğine inanıyor musun?"
+ },
+ {
+  "id": "a5e7ddc4-8245-4f68-ab51-ed01fb4e0316",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever had a surprisingly romantic dream about a close friend?",
+  "tr": "Hiç yakın bir arkadaşın hakkında şaşırtıcı derecede romantik bir rüya gördün mü?"
+ },
+ {
+  "id": "e31526a8-44b3-4a68-b14d-e3ed8d5b5f5f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you enjoy receiving flirtatious messages?",
+  "tr": "Flörtöz mesajlar almayı sever misin?"
+ },
+ {
+  "id": "938b68ee-cc2f-4266-b4be-3d76068058a6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you like to move fast or take it slow?",
+  "tr": "Hızlı mı yoksa yavaş mı hareket etmeyi seversin?",
+  "answers_en": [
+   "Move fast",
+   "Take it slow"
+  ],
+  "answers_tr": [
+   "Hızlı hareket etmek",
+   "Yavaş almak"
+  ]
+ },
+ {
+  "id": "85cf45c4-c7e8-4530-8754-d6b44e424d17",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you prefer to be the big spoon or the little spoon?",
+  "tr": "Büyük kaşık mı yoksa küçük kaşık olmayı mı tercih edersin?",
+  "answers_en": [
+   "Big spoon",
+   "Little spoon"
+  ],
+  "answers_tr": [
+   "Büyük kaşık",
+   "Küçük kaşık"
+  ]
+ },
+ {
+  "id": "6bb69588-c176-4e43-9599-67c04d89e30c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the future, would you choose stability or excitement in your relationship?",
+  "tr": "Gelecekte ilişkinde istikrarı mı yoksa heyecanı mı seçerdin?",
+  "answers_en": [
+   "Stability",
+   "Excitement"
+  ],
+  "answers_tr": [
+   "İstikrar",
+   "Heyecan"
+  ]
+ },
+ {
+  "id": "e972c82a-b11a-4588-8a4e-dfe953e6c639",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "First date kisses: yes or no?",
+  "tr": "İlk buluşmada öpüşme: evet mi hayır mı?"
+ },
+ {
+  "id": "c6b6c542-d9ca-4fb3-9ce5-ce254ef933f5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you enjoy falling asleep together?",
+  "tr": "Birlikte uyumayı sever misin?"
+ },
+ {
+  "id": "4231ad4b-0d9a-4efc-8027-4c7857abcfe1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What are your thoughts on open relationships/non-monogamy?",
+  "tr": "Açık ilişkiler veya tek eşlilik dışı ilişkiler hakkında ne düşünüyorsun?",
+  "answers_en": [
+   "Never",
+   "I can try"
+  ],
+  "answers_tr": [
+   "Hiçbir zaman",
+   "Deneyebilirim"
+  ]
+ },
+ {
+  "id": "4e986796-4744-4fe4-b02d-f04fdc54a153",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever kept a relationship a secret?",
+  "tr": "Hiç bir ilişkiyi gizli tutmak zorunda kaldın mı?"
+ },
+ {
+  "id": "1c93b5b9-1b7e-471c-8766-754b8473ee86",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you ever tell someone you love them even if you don’t?",
+  "tr": "Sevmediğin halde birine seni seviyorum der misin?"
+ },
+ {
+  "id": "b413d4e7-0559-412f-a7c3-fd401b80cb61",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever felt an instant romantic connection on a first date?",
+  "tr": "Hiç bir ilk buluşmada anında güçlü bir romantik çekim hissettin mi?"
+ },
+ {
+  "id": "e1ef8d27-157d-4961-bc79-c607914239af",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you enjoy drinking cocktails?",
+  "tr": "Kokteyl içmekten hoşlanır mısın?"
+ },
+ {
+  "id": "4dfdd768-ebad-44e2-87a8-1adb0bbdbfe6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever kissed a stranger?",
+  "tr": "Hiç yabancı birini öptün mü?"
+ },
+ {
+  "id": "094e743c-3c44-4162-a846-e7c68d41503f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever had feelings for a friend’s ex?",
+  "tr": "Hiç bir arkadaşının eski sevgilisine karşı bir şeyler hissettin mi?"
+ },
+ {
+  "id": "c24cdf4f-785c-4993-9bde-e087c268430b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you ever make out in an elevator?",
+  "tr": "Asansörde öpüşür müydün?"
+ },
+ {
+  "id": "3b98c734-ae2b-478e-811f-c4d7a2f2e8d0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever woken up next to someone and didn’t remember their name?",
+  "tr": "Hiç birinin yanında uyandın ama adını hatırlayamadın mı?"
+ },
+ {
+  "id": "bca72d06-a4a5-441c-9d02-0c415c3302b0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever pretended to be sick to avoid a date?",
+  "tr": "Hiç bir buluşmadan kaçmak için hasta numarası yaptın mı?"
+ },
+ {
+  "id": "8739a1ba-5e73-4095-8ec3-0ad38131c452",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Intense passion or gentle affection?",
+  "tr": "Yoğun bir tutku mu yoksa nazik bir şefkat mi?",
+  "answers_en": [
+   "Passionate makeouts",
+   "Gentle intimacy"
+  ],
+  "answers_tr": [
+   "Tutkulu öpüşmeler",
+   "Nazik yakın temas"
+  ]
+ },
+ {
+  "id": "8b499548-b2d7-4dbd-9cdf-6bc922d7c800",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Music in the background or just the sounds of each other?",
+  "tr": "Arka planda müzik mi yoksa sadece birbirinizin sesleri mi?",
+  "answers_en": [
+   "Music in the background",
+   "Just the sounds of each other"
+  ],
+  "answers_tr": [
+   "Arka planda müzik",
+   "Sadece birbirimizin sesleri"
+  ]
+ },
+ {
+  "id": "5152a24a-5cb3-4c8e-bfa8-37c13ead9118",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Breakfast in bed or surprise night out?",
+  "tr": "Yatakta kahvaltı mı yoksa sürpriz gece gezmesi mi?",
+  "answers_en": [
+   "Breakfast in bed",
+   "Surprise night out"
+  ],
+  "answers_tr": [
+   "Yatakta kahvaltı",
+   "Sürpriz gece gezmesi"
+  ]
+ },
+ {
+  "id": "947669ca-1428-44d9-a2a0-d2494c2e336b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Be in control or let them take charge?",
+  "tr": "Kontrol sende mi olsun yoksa onun yönetmesine mi izin verirsin?",
+  "answers_en": [
+   "Be in control",
+   "Let them take charge"
+  ],
+  "answers_tr": [
+   "Kontrol sende olsun",
+   "Onun yönetmesine izin ver"
+  ]
+ },
+ {
+  "id": "72d629e3-ca86-4ae3-b507-5287e7d76001",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "One long kiss or many short kisses?",
+  "tr": "Tek uzun öpücük mü yoksa birçok kısa öpücük mü?",
+  "answers_en": [
+   "One long kiss",
+   "Many short kisses"
+  ],
+  "answers_tr": [
+   "Tek uzun öpücük",
+   "Birden fazla kısa öpücük"
+  ]
+ },
+ {
+  "id": "433e48b7-a765-411e-8a51-ff818cbeaae9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When do you feel the strongest romantic energy: in the morning or at midnight?",
+  "tr": "Romantik enerjinin en yüksek olduğu an sence hangisidir: sabahın ilk ışıkları mı yoksa gece yarısı mı?",
+  "answers_en": [
+   "In the morning",
+   "At midnight"
+  ],
+  "answers_tr": [
+   "Sabah",
+   "Gece yarısı"
+  ]
+ },
+ {
+  "id": "08708487-24d5-4836-ab67-fbd6762dc270",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Keep it romantic or get a little wild?",
+  "tr": "İlişkiyi romantik mi tutarsın yoksa biraz daha heyecanlı mı yaparsın?",
+  "answers_en": [
+   "Keep it romantic",
+   "Get a little wild"
+  ],
+  "answers_tr": [
+   "Romantik tutmak",
+   "Biraz heyecan katmak"
+  ]
+ },
+ {
+  "id": "40a6dec0-8045-4374-9b02-b83e57dbe15d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner doesn't want children before age 40, is that a dealbreaker for you?",
+  "tr": "Partnerin 40 yaşından önce çocuk sahibi olmak istemese, bu senin için bir sorun olur mu?"
+ },
+ {
+  "id": "cc10b349-6a57-442d-b40f-125e8d37bd25",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Fall asleep in each other’s arms or stay up all night talking?",
+  "tr": "Birbirinizin kollarında uyumayı mı yoksa tüm gece sohbet etmeyi mi tercih edersiniz?",
+  "answers_en": [
+   "Fall asleep in each other’s arms",
+   "Stay up all night talking"
+  ],
+  "answers_tr": [
+   "Kollarında uyumak",
+   "Tüm gece sohbet etmek"
+  ]
+ },
+ {
+  "id": "4f721029-0cd8-4599-b152-ab73388f1166",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have a romantic dinner or order pizza in bed?",
+  "tr": "Romantik bir akşam yemeği mi yoksa yatakta pizza mı tercih edersin?",
+  "answers_en": [
+   "Romantic dinner",
+   "Pizza in bed"
+  ],
+  "answers_tr": [
+   "Romantik akşam yemeği",
+   "Yatakta pizza"
+  ]
+ },
+ {
+  "id": "c9e4a510-da33-4372-8a0f-80615e78921e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever slept with a friend’s ex?",
+  "tr": "Hiç bir arkadaşının eski sevgilisiyle yakın temas yaşadın mı?"
+ },
+ {
+  "id": "0503603c-4468-4235-b6f2-42cf2ddccb28",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever experienced an instant romantic spark with someone you met through an app?",
+  "tr": "Hiç bir uygulama üzerinden tanıştığın biriyle anında romantik bir çekim hissettin mi?"
+ },
+ {
+  "id": "e311d79f-d53f-46c1-93eb-338151484b54",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which one do you find more attractive: intelligence or body?",
+  "tr": "Hangisini daha çekici buluyorsun: zeka mı yoksa vücut mu?",
+  "answers_en": [
+   "Intelligence",
+   "Body"
+  ],
+  "answers_tr": [
+   "Zeka",
+   "Vücut"
+  ]
+ },
+ {
+  "id": "e85ef99e-7a01-4c52-96fe-c28ce75a53bc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever flirted with a friend’s ex?",
+  "tr": "Daha önce hiç bir arkadaşının eski sevgilisiyle flört ettin mi?"
+ },
+ {
+  "id": "6abdb7e6-0111-492e-be17-f4da73afef20",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you believe a romantic intimacy can exist without love?",
+  "tr": "Sence aşk olmadan romantik bir yakınlık kurulabilir mi?"
+ },
+ {
+  "id": "d025e2f8-bfcb-473a-a8eb-0d7101281b2c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever refused a request from any of your partners?",
+  "tr": "Daha önce hiç bir partnerinin isteğini reddettin mi?"
+ },
+ {
+  "id": "f724acf1-65af-4a86-8e23-0de64197c4b9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: your partner cheating on you emotionally or physically?",
+  "tr": "Hangisi daha kötü: partnerinin seni duygusal olarak aldatması mı, fiziksel olarak aldatması mı?",
+  "answers_en": [
+   "Emotionally",
+   "Physically"
+  ],
+  "answers_tr": [
+   "Duygusal olarak",
+   "Fiziksel olarak"
+  ]
+ },
+ {
+  "id": "2bce8b60-21a6-4b4a-9285-14387333ace6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: your partner not finding you emotionally attractive or not finding you physically attractive?",
+  "tr": "Hangisi daha kötü: partnerinin seni duygusal anlamda çekici bulmaması mı, fiziksel anlamda çekici bulmaması mı?",
+  "answers_en": [
+   "Emotionally",
+   "Physically"
+  ],
+  "answers_tr": [
+   "Duygusal olarak",
+   "Fiziksel olarak"
+  ]
+ },
+ {
+  "id": "8a9e7849-5b20-4a12-acce-31d0f9a6ca32",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: catching your partner cheating or your partner catching you cheating?",
+  "tr": "Hangisi daha kötü: partnerini aldatırken yakalamak mı, partnerinin seni aldatırken yakalaması mı?",
+  "answers_en": [
+   "Catching them",
+   "Being caught"
+  ],
+  "answers_tr": [
+   "Partnerini yakalamak",
+   "Kendin yakalanmak"
+  ]
+ },
+ {
+  "id": "bb9547f7-87f4-436b-8299-188ecf87872b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: your partner finds you physically attractive but not emotionally, or the opposite?",
+  "tr": "Hangisi daha kötü: sevgilin seni fiziksel olarak çekici buluyor ama duygusal olarak bulmuyor, yoksa tam tersi mi?",
+  "answers_en": [
+   "Physically yes, emotionally no",
+   "Emotionally yes, physically no"
+  ],
+  "answers_tr": [
+   "Fiziksel evet, duygusal hayır",
+   "Duygusal evet, fiziksel hayır"
+  ]
+ },
+ {
+  "id": "72f5752e-17d8-455d-9634-cbd71a6006b3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: your partner being very short or very overweight?",
+  "tr": "Hangisi daha kötü: partnerinin çok kısa olması mı, çok kilolu olması mı?",
+  "answers_en": [
+   "Very short",
+   "Very overweight"
+  ],
+  "answers_tr": [
+   "Çok kısa",
+   "Çok kilolu"
+  ]
+ },
+ {
+  "id": "e4c1cfef-0706-4974-bdc0-0b8583a863df",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: your partner having one very long past relationship or several short ones?",
+  "tr": "Hangisi daha kötü: partnerinin çok uzun bir eski ilişkisi olması mı, kısa kısa birden fazla ilişkisi olması mı?",
+  "answers_en": [
+   "One long relationship",
+   "Several short ones"
+  ],
+  "answers_tr": [
+   "Bir uzun ilişki",
+   "Kısa kısa birden fazla ilişki"
+  ]
+ },
+ {
+  "id": "bc7914af-8df9-4786-b0f1-955d2deaee8a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Regarding a partner's relationship history, which is a bigger concern: being 'very experienced' or having 'no experience'?",
+  "tr": "Partnerinin ilişki geçmişi söz konusu olduğunda hangisi daha büyük bir endişedir: 'çok tecrübeli' olması mı, yoksa 'hiç tecrübesi' olmaması mı?",
+  "answers_en": [
+   "Very experienced",
+   "No experience"
+  ],
+  "answers_tr": [
+   "Çok tecrübeli",
+   "Hiç tecrübesi yok"
+  ]
+ },
+ {
+  "id": "b0a55b69-ec5c-4509-acb7-338b9b1c74e7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: your partner always wanting close intimacy or rarely wanting it?",
+  "tr": "Hangisi daha kötü: partnerinin sürekli yakın temas istemesi mi, çok az istemesi mi?",
+  "answers_en": [
+   "Always wants",
+   "Rarely wants"
+  ],
+  "answers_tr": [
+   "Sürekli istemesi",
+   "Çok az istemesi"
+  ]
+ },
+ {
+  "id": "f6367d9f-5d4e-4790-9840-7b07d4587575",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Does it bother you if your partner constantly wants to be in close intimacy?",
+  "tr": "Partnerinin sürekli yakın temas halinde olmayı istemesi seni rahatsız eder mi?"
+ },
+ {
+  "id": "613f4572-cca6-473c-a7cd-42b570a95890",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you feel upset if your partner says no when you want to get close?",
+  "tr": "Sen yakınlaşmak istediğinde partnerin hayır derse bozulur musun?"
+ },
+ {
+  "id": "bce9b4c1-32cb-4fc5-8e40-4a948960f673",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: someone who has had a lot of intimacy before or someone who has had none?",
+  "tr": "Hangisi daha kötü: daha önce çok fazla yakınlık kurmuş biri mi, hiç kurmamış biri mi?",
+  "answers_en": [
+   "A lot before",
+   "None before"
+  ],
+  "answers_tr": [
+   "Çok fazla",
+   "Hiç"
+  ]
+ },
+ {
+  "id": "d9fea7e2-ed9e-4b64-beba-28501fa6102d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: your partner kissing a friend of the opposite gender, or that friend kissing your partner?",
+  "tr": "Hangisi daha kötü: sevgilinin karşı cins arkadaşını öpmesi mi, yoksa karşı cins arkadaşının sevgilini öpmesi mi?",
+  "answers_en": [
+   "My partner kissing them",
+   "Them kissing my partner"
+  ],
+  "answers_tr": [
+   "Sevgilimin onu öpmesi",
+   "Onun sevgilimi öpmesi"
+  ]
+ },
+ {
+  "id": "a22ea5f8-6754-4a95-a9d0-17a96c6df098",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Can your partner go on a vacation with a friend of the opposite gender?",
+  "tr": "Sevgilin, karşı cins bir arkadaşıyla tatile çıkabilir mi?"
+ },
+ {
+  "id": "1842f9ec-93ce-42ad-bd60-fdee5e59090b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Can your partner go to the same gym with a friend of the opposite gender?",
+  "tr": "Sevgilin, karşı cins bir arkadaşıyla aynı spor salonuna gidebilir mi?"
+ },
+ {
+  "id": "8dc24c93-0d98-4ae4-8641-60acd6ae6bfa",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Can your partner talk to their friends about the things you experience in your relationship?",
+  "tr": "Partnerin, ilişkide yaşadığınız şeyleri kendi arkadaşlarına anlatabilir mi?"
+ },
+ {
+  "id": "17352711-7d54-4aa6-8bdf-ed91aab0a2c5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever waited for someone's relationship to end to confess your feelings?",
+  "tr": "Hiç hoşlandığın birinin ona açılmak için ilişkisinin bitmesini bekledin mi?"
+ },
+ {
+  "id": "969cba86-6a49-4490-bad1-f68cb953cba1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone who has been with more people than you in the past?",
+  "tr": "Geçmişte senden daha çok kişiyle beraber olmuş biriyle sevgili olur musun?"
+ },
+ {
+  "id": "789a1d48-2335-41e0-a7a7-1d1e4c7ec823",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you only liked someone physically, would you be with them?",
+  "tr": "Birini sadece fiziksel olarak beğensen, onunla beraber olur musun?"
+ },
+ {
+  "id": "98e2d325-86cc-4298-be9f-b7390af25b77",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you stopped being physically attracted to your spouse after marriage, would you get a divorce?",
+  "tr": "Evlendikten sonra eşinden fiziksel olarak etkilenmeyi bıraksan boşanır mısın?"
+ },
+ {
+  "id": "a16fe79b-cde3-49c9-bfd4-0d63e0978bf1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you prefer to make love in daylight or by candlelight?",
+  "tr": "Gün ışığında mı daha çok seversin, mum ışığında mı?",
+  "answers_en": [
+   "Daylight",
+   "Candlelight"
+  ],
+  "answers_tr": [
+   "Gün ışığı",
+   "Mum ışığı"
+  ]
+ },
+ {
+  "id": "49c4ecc8-addd-414f-bada-93c5a25cf26c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you had to be with someone, who would you choose: your best friend or your ex?",
+  "tr": "Birisiyle beraber olmak zorunda olsan, hangisini seçersin: en yakın arkadaşın, eski sevgilin?",
+  "answers_en": [
+   "Best friend",
+   "Ex"
+  ],
+  "answers_tr": [
+   "En yakın arkadaş",
+   "Eski sevgili"
+  ]
+ },
+ {
+  "id": "bbb84050-36f0-484a-b13e-cac0e7ec40ed",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever completely cut off a relationship over something trivial?",
+  "tr": "Daha önce hiç bir sevgilinle aran çok saçma bir şey yüzünden tamamen kesildi mi?"
+ },
+ {
+  "id": "522e74fb-6d0c-4e44-8763-60b5200d8467",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever had a crush on someone you definitely should not have?",
+  "tr": "Daha önce kesinlikle hoşlanmaman gereken birine karşı hislerin oldu mu?"
+ },
+ {
+  "id": "6de27feb-21ed-4a51-bc8d-403efe2a48b9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You have to choose one: never being kissed again or never kissing someone again?",
+  "tr": "Birini seçmek zorundasın: sonsuza kadar öpülmemek mi yoksa sonsuza kadar kimseyi öpememek mi?",
+  "answers_en": [
+   "Never being kissed again",
+   "Never kissing someone again"
+  ],
+  "answers_tr": [
+   "Sonsuza kadar öpülmemek",
+   "Sonsuza kadar kimseyi öpememek"
+  ]
+ },
+ {
+  "id": "4706dab3-3457-4745-9554-34d0f19a006f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You have to choose one: be in a relationship with no physical affection or no emotional connection?",
+  "tr": "Birini seçmek zorundasın: fiziksel yakınlık olmayan bir ilişki mi yoksa duygusal bağ olmayan bir ilişki mi?",
+  "answers_en": [
+   "No physical affection",
+   "No emotional connection"
+  ],
+  "answers_tr": [
+   "Fiziksel yakınlık yok",
+   "Duygusal bağ yok"
+  ]
+ },
+ {
+  "id": "e7f3b3dc-747a-4f9d-841d-85737a21d60f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you accept not having any physical contact with anyone for 20 years in exchange for 1 million dollars?",
+  "tr": "1 milyon dolar karşılığında 20 yıl boyunca kimseyle fiziksel temas kurmamayı kabul eder miydin?"
+ },
+ {
+  "id": "67dcae50-5f93-4123-a65a-ee9d538bf56a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is more attractive: getting close when emotional or when angry?",
+  "tr": "Hangisi daha çekici: duygusalken yakınlaşmak mı yoksa sinirliyken yakınlaşmak mı?",
+  "answers_en": [
+   "When emotional",
+   "When angry"
+  ],
+  "answers_tr": [
+   "Duygusalken",
+   "Sinirliyken"
+  ]
+ },
+ {
+  "id": "a72eb6c0-02af-43a3-8860-394ee0b8c7dd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you lose interest if your partner rejected your unusual fantasies?",
+  "tr": "Sevgilin garip fantezilerine karşı çıkarsa ondan soğur musun?"
+ },
+ {
+  "id": "9a115b84-3552-4376-ac9c-532899e3c414",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You have to choose one: a partner with no fantasies at all or a partner with very unusual fantasies?",
+  "tr": "Birini seçmek zorundasın: hiç fantezisi olmayan bir partner mi yoksa çok garip fantezileri olan bir partner mi?",
+  "answers_en": [
+   "No fantasies at all",
+   "Very unusual fantasies"
+  ],
+  "answers_tr": [
+   "Hiç fantezisi olmayan",
+   "Çok garip fantezileri olan"
+  ]
+ },
+ {
+  "id": "07b51b4d-cd4a-4490-a903-54c0c7495114",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you feel turned off if your partner smelled bad?",
+  "tr": "Sevgilinin kötü kokmasından tiksinir misin?"
+ },
+ {
+  "id": "98b98d8b-6a5d-42f3-84fb-75a44d04546c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You have to choose one: never being intimate at night or never being intimate during the day?",
+  "tr": "Birini seçmek zorundasın: geceleri asla yakınlaşamamak mı yoksa gündüzleri asla yakınlaşamamak mı?",
+  "answers_en": [
+   "Never at night",
+   "Never during the day"
+  ],
+  "answers_tr": [
+   "Geceleri asla",
+   "Gündüzleri asla"
+  ]
+ },
+ {
+  "id": "603a000d-9b8c-4fd1-b535-60b0e93e3ecb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you openly tell your partner if you weren’t happy with a romantic gesture?",
+  "tr": "Partnerinin yaptığı romantik bir jestten memnun kalmazsan bunu ona açıkça söyler miydin?"
+ },
+ {
+  "id": "323f67ee-88ea-4e81-9904-3159ce876a4e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is more attractive: being able to cook really well or being able to sing really well?",
+  "tr": "Hangisi daha çekici: çok iyi yemek yapabilmesi mi yoksa çok iyi şarkı söyleyebilmesi mi?",
+  "answers_en": [
+   "Cooking really well",
+   "Singing really well"
+  ],
+  "answers_tr": [
+   "Çok iyi yemek yapabilmesi",
+   "Çok iyi şarkı söyleyebilmesi"
+  ]
+ },
+ {
+  "id": "bb62b8f9-7083-48ba-ba35-c894b69c0448",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is more attractive: charming words or unexpected affectionate gestures?",
+  "tr": "Hangisi daha çekici: etkileyici sözler mi yoksa beklenmedik sevecen hareketler mi?",
+  "answers_en": [
+   "Charming words",
+   "Unexpected affectionate gestures"
+  ],
+  "answers_tr": [
+   "Etkileyici sözler",
+   "Beklenmedik sevecen hareketler"
+  ]
+ },
+ {
+  "id": "611ca602-11fc-4e40-862b-af39644816ef",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you be with someone who drinks too much alcohol?",
+  "tr": "Çok fazla alkol içen biriyle beraber olur musun?"
+ },
+ {
+  "id": "7b563148-4cd6-4ee2-af6a-2bd8158cc08b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you flirt with someone even if you knew it might lead to nothing?",
+  "tr": "Bunun hiçbir şeye yol açmayacağını bilsen bile biriyle flört eder miydin?"
+ },
+ {
+  "id": "35436f63-fa4e-47e9-a87a-6b1795f10fda",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Even if you are not attracted to someone, do you enjoy hearing nice words from them?",
+  "tr": "Sen birisinden etkilenmesen bile ondan güzel sözler duymak hoşuna gider mi?"
+ },
+ {
+  "id": "006bf926-25fc-4c5b-8365-6331aef6dee1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would someone who loves receiving compliments from others a lot make you lose interest?",
+  "tr": "Başka insanlardan iltifat almayı çok seven birine karşı zamanla ilgini kaybeder misin?"
+ },
+ {
+  "id": "4742a947-efca-4c20-8483-534782b0b716",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever flirted with more than 3 people at the same time?",
+  "tr": "Daha önce hiç 3’ten fazla insanla aynı anda flört ettiğin bir dönem oldu mu?"
+ },
+ {
+  "id": "48fe3f70-8bf2-4a43-8707-76ded1078252",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever flirted with more than 5 people at the same time?",
+  "tr": "Daha önce hiç 5’ten fazla insanla aynı anda flört ettiğin bir dönem oldu mu?"
+ },
+ {
+  "id": "e9d757e9-fcdd-4723-9c4e-8cf0eff346a0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you feel uncomfortable if your partner had very close friends of the opposite sex?",
+  "tr": "Sevgilinin karşı cinsten çok yakın arkadaşları olması seni rahatsız eder mi?"
+ },
+ {
+  "id": "9fc1e8c4-dd8e-47c7-9731-77ca700eee1d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you thought your partner smelled bad, would you tell them directly?",
+  "tr": "Partnerinin kötü koktuğunu düşünsen bunu ona açıkça söyler misin?"
+ },
+ {
+  "id": "019db5dd-c8f5-40d7-91cd-c3f4edb948df",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you forgive your partner if they secretly kept a significant part of their past from you?",
+  "tr": "Partnerin geçmişinin önemli bir kısmını senden gizlice saklamış olsa, affeder miydin?"
+ },
+ {
+  "id": "51970ba8-9c75-40dc-bf9c-fcede505cbda",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You have to choose: would you rather your partner have very bad future plans or a very bad past?",
+  "tr": "Birini seç: partnerinin kötü gelecek planlarına sahip olması mı, kötü geçmişe sahip olması mı?",
+  "answers_en": [
+   "Bad future plans",
+   "Bad past"
+  ],
+  "answers_tr": [
+   "Kötü gelecek planlarına sahip olması",
+   "Kötü geçmişe sahip olması"
+  ]
+ },
+ {
+  "id": "5abcaa80-63a9-4204-b167-5a4f55abd29f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you get upset if your partner refused to show you their messages with a friend of the opposite sex?",
+  "tr": "Sevgilin karşı cinsten bir arkadaşıyla olan mesajlarını sana okutmazsa ona sinirlenir misin?"
+ },
+ {
+  "id": "57def58a-7cfe-490b-b082-c0f22852c699",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it okay for your partner to stay for a short time at a friend of the opposite sex's house?",
+  "tr": "Sevgilin karşı cinsten bir arkadaşının evinde kısa süreliğine yaşayabilir mi?"
+ },
+ {
+  "id": "a5d871c0-3719-4c5b-8aa5-3fd5059a5799",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Physical touch (hugging, contact) with your partner...",
+  "tr": "Partnerinle tensel temas (sarılma, temas)…",
+  "answers_en": [
+   "Should be constant",
+   "Only in special moments"
+  ],
+  "answers_tr": [
+   "Sürekli olmalı",
+   "Sadece özel anlarda"
+  ]
+ },
+ {
+  "id": "418e9305-6c34-4922-a24e-ed9ccb8e52ec",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Physical compatibility...",
+  "tr": "Fiziksel uyum…",
+  "answers_en": [
+   "Key point of the relationship",
+   "Love is more important"
+  ],
+  "answers_tr": [
+   "İlişkinin kilit noktası",
+   "Aşk daha önemlidir"
+  ]
+ },
+ {
+  "id": "e8657f35-f04b-4530-9287-ec692e0cc1d9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Low physical compatibility with your partner...",
+  "tr": "Partnerinle fiziksel uyumun düşük olması…",
+  "answers_en": [
+   "A big problem",
+   "Something solvable"
+  ],
+  "answers_tr": [
+   "Büyük sorun",
+   "Çözülebilir bir şey"
+  ]
+ },
+ {
+  "id": "7879657a-1d58-455c-8089-bf54ac04d303",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Attraction between you and your partner...",
+  "tr": "Partnerinle arandaki çekim…",
+  "answers_en": [
+   "Increases over time",
+   "Either exists or it doesn’t"
+  ],
+  "answers_tr": [
+   "Zamanla artar",
+   "Ya vardır ya yoktur"
+  ]
+ },
+ {
+  "id": "302534ec-32ed-44b8-8994-dfeabd4eaeb3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Keeping the spark alive in a relationship (continuing to flirt and charm each other)...",
+  "tr": "İlişkide flört etmek (birbirini baştan çıkarmaya devam etmek)…",
+  "answers_en": [
+   "Should be constant",
+   "Can decrease over time"
+  ],
+  "answers_tr": [
+   "Sürekli olmalı",
+   "Zamanla azalabilir"
+  ]
+ },
+ {
+  "id": "55d66540-f07c-4809-b8bb-fc3cec48428c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Excitement in a relationship...",
+  "tr": "İlişkide “heyecan”…",
+  "answers_en": [
+   "Should be maintained",
+   "Can come and go from time to time"
+  ],
+  "answers_tr": [
+   "Korunmalı",
+   "Zaman zaman gidip gelebilir"
+  ]
+ },
+ {
+  "id": "f1fd75b1-9142-4cca-bd74-1a11a05edaa9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Chemistry between you and your partner...",
+  "tr": "Partnerinle arandaki “kimya”…",
+  "answers_en": [
+   "Most important thing",
+   "Overrated"
+  ],
+  "answers_tr": [
+   "En önemli şey",
+   "Abartılıyor"
+  ]
+ },
+ {
+  "id": "a73a68bb-6a40-4970-b4b2-3cb7ef9e09ab",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Who should make the first move in a relationship...",
+  "tr": "İlişkide “ilk adımı kim atar” konusu…",
+  "answers_en": [
+   "Important",
+   "Should happen naturally"
+  ],
+  "answers_tr": [
+   "Önemlidir",
+   "Doğal akışa bırakılmalı"
+  ]
+ },
+ {
+  "id": "eaca2542-8556-401a-b615-6b488c66a3ee",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "The feeling of being hard to get in a relationship...",
+  "tr": "İlişkide “zor elde edilen kişi” hissi…",
+  "answers_en": [
+   "Increases attraction",
+   "Creates unnecessary drama"
+  ],
+  "answers_tr": [
+   "Çekimi artırır",
+   "Gereksiz drama yaratır"
+  ]
+ },
+ {
+  "id": "f88c69fb-d9b5-49bb-8ddf-a7d3c7863bc5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner leaving you a little curious or uncertain...",
+  "tr": "Partnerinin seni biraz “merakta bırakması”…",
+  "answers_en": [
+   "Increases excitement",
+   "Is uncomfortable"
+  ],
+  "answers_tr": [
+   "Heyecanı artırır",
+   "Rahatsız edicidir"
+  ]
+ },
+ {
+  "id": "e64fc79a-c14f-4180-ba89-bd73ce32dd66",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "The feeling of chase in a relationship...",
+  "tr": "İlişkide “kovalamaca hissi”…",
+  "answers_en": [
+   "Part of attraction",
+   "Should not exist"
+  ],
+  "answers_tr": [
+   "Çekimin parçasıdır",
+   "Olmamalı"
+  ]
+ },
+ {
+  "id": "9d00fc81-b6d6-4442-8290-2ab2bab0deb1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Everything is good with your partner, but the excitement has decreased. What do you do?",
+  "tr": "Partnerinle aranda her şey iyi ama “heyecan” biraz azalmış. Ne yaparsın?",
+  "answers_en": [
+   "I try to increase it",
+   "I let it flow naturally"
+  ],
+  "answers_tr": [
+   "Üzerine gider, artırmaya çalışırım",
+   "Doğal akışına bırakırım"
+  ]
+ },
+ {
+  "id": "bbdb6e3c-b77c-4f9f-8f5a-e3f380283b39",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How do you feel when others find your partner attractive?",
+  "tr": "Partnerinin başkaları tarafından beğenilmesi seni nasıl etkiler?",
+  "answers_en": [
+   "It makes me uncomfortable",
+   "It makes me feel proud"
+  ],
+  "answers_tr": [
+   "Seni rahatsız eder",
+   "Sana gurur verir"
+  ]
+ },
+ {
+  "id": "402dd8ac-c9fd-40fd-813a-7b50c5075e66",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Freedom in a relationship...",
+  "tr": "İlişkide özgürlük...",
+  "answers_en": [
+   "Exists with clear boundaries",
+   "Does not need many rules"
+  ],
+  "answers_tr": [
+   "Net sınırlarla olur",
+   "Fazla kurala gerek yoktur"
+  ]
+ },
+ {
+  "id": "9cd320ad-9dd9-4232-b2d8-80291317b7e9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner having a history of flirting with others...",
+  "tr": "Partnerin başkalarıyla flört etmiş geçmişi...",
+  "answers_en": [
+   "A serious red flag",
+   "Something that belongs to the past"
+  ],
+  "answers_tr": [
+   "Önemli bir kırmızı bayrak",
+   "Geçmişte kalmış bir şey"
+  ]
+ },
+ {
+  "id": "e3b94271-2220-48cb-926f-bc6dc7f097b1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Friends circle in a relationship...",
+  "tr": "İlişkide arkadaş çevresi...",
+  "answers_en": [
+   "Should be somewhat controlled",
+   "Should be completely free"
+  ],
+  "answers_tr": [
+   "Kontrollü olmalı",
+   "Tamamen özgür olmalı"
+  ]
+ },
+ {
+  "id": "83543925-87f8-4b70-9e5c-dd5d00edf70a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you feel your partner is flirting with someone...",
+  "tr": "Partnerinin biriyle flört ettiğini hissedersen...",
+  "answers_en": [
+   "You directly bring it up",
+   "You first observe their behavior"
+  ],
+  "answers_tr": [
+   "Direkt konuyu açarsın",
+   "Önce davranışlarını gözlemlersin"
+  ]
+ },
+ {
+  "id": "b51d6316-6d74-45bb-a560-ff735e91e94c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Risky but exciting behaviors in a relationship...",
+  "tr": "İlişkide “riskli ama heyecanlı” davranışlar...",
+  "answers_en": [
+   "Should be avoided",
+   "Sometimes keeps the relationship alive"
+  ],
+  "answers_tr": [
+   "Kaçınılmalı",
+   "Bazen ilişkiyi canlı tutar"
+  ]
+ },
+ {
+  "id": "da303f91-32fc-4c6a-8358-3a86118a7820",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner keeps their gaze on you for a long time...",
+  "tr": "Partnerin sana bakışlarını uzun süre tutuyorsa...",
+  "answers_en": [
+   "You feel uncomfortable / tense",
+   "You like it"
+  ],
+  "answers_tr": [
+   "Gerilirsin / rahatsız olursun",
+   "Hoşuna gider"
+  ]
+ },
+ {
+  "id": "43f446b3-7b7a-4c59-b0a1-233109f49a45",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If there is a feeling of \"who will make the first move\" between you and your partner...",
+  "tr": "Partnerinle aranda “kim ilk hamleyi yapacak” hissi varsa...",
+  "answers_en": [
+   "You want clarity",
+   "You see it as part of the game"
+  ],
+  "answers_tr": [
+   "Netlik istersin",
+   "Oyunun bir parçası gibi görürsün"
+  ]
+ },
+ {
+  "id": "5e2081e6-21ec-415d-8ee7-41151f25acea",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When the atmosphere between you and your partner becomes slightly tense when alone...",
+  "tr": "Partnerinle yalnızken ortamın biraz “gerilimli” olması...",
+  "answers_en": [
+   "It creates discomfort",
+   "It increases attraction"
+  ],
+  "answers_tr": [
+   "Gerginlik yaratır",
+   "Çekimi artırır"
+  ]
+ },
+ {
+  "id": "a10443c5-8ccb-4122-9b35-31945282581c",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the most attractive physical feature in a partner?",
+  "tr": "Bir partnerde sana en çekici gelen fiziksel özellik nedir?"
+ },
+ {
+  "id": "2cc2f00b-d449-447a-aa47-764da08a477f",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the most attractive physical feature in a partner?",
+  "tr": "Bir partnerde sana en çekici gelen fiziksel özellik nedir?"
+ },
+ {
+  "id": "e2903296-07ab-4631-81dc-828832555fd2",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the ideal time of day for romance?",
+  "tr": "Romantizm için günün en ideal zamanı/saati nedir?"
+ },
+ {
+  "id": "7897189d-8ad5-40e4-b76a-623ef82d53ce",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the most attractive outfit or style on a partner?",
+  "tr": "Bir partnerde gördüğün en çekici kıyafet/tarz nedir?"
+ },
+ {
+  "id": "e4a7f6e6-e387-459e-8d22-d9c5842e0995",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How long should a perfect romantic kiss last?",
+  "tr": "Mükemmel bir romantik öpücük yaklaşık kaç saniye sürmeli?"
+ },
+ {
+  "id": "72576768-b419-42bd-a56d-5e205197167f",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the most attractive non-physical trait in a partner?",
+  "tr": "Bir partnerde gördüğün en çekici fiziksel olmayan özellik nedir?"
+ },
+ {
+  "id": "c02d636a-e11c-4f8a-8fd7-5910d7ac40fc",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the most romantic gesture a partner could surprise you with?",
+  "tr": "Bir partnerin sana yapabileceği en romantik sürpriz jest nedir?"
+ },
+ {
+  "id": "1e1a09c2-4ae9-4fd2-9586-21f428953644",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the best time of year for a cozy, romantic vacation?",
+  "tr": "Sıcak ve romantik bir tatil kaçamağı için yılın en iyi mevsimi hangisidir?"
+ },
+ {
+  "id": "5d6410a2-4f8b-44bb-a731-563502e921d7",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the most attractive habit or skill a partner can have?",
+  "tr": "Bir partnerin sahip olabileceği en çekici alışkanlık veya yetenek nedir?"
+ },
+ {
+  "id": "65a22aa4-fec5-403e-9e4e-6990fd3a5c93",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "Which room in the house feels the most tempting?",
+  "tr": "Evde en baştan çıkarıcı gelen oda hangisi?"
+ },
+ {
+  "id": "a6507af8-06fe-4e48-be79-fcb69409a2d4",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What should we never do in public even if we want to?",
+  "tr": "İstesek bile asla toplum içinde ne yapmamalıyız?"
+ },
+ {
+  "id": "487854d7-123e-4049-90af-5be5879ca6fa",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What should never come into the bedroom?",
+  "tr": "Yatak odasına asla ne girmemeli?"
+ },
+ {
+  "id": "f2b3d498-f439-4810-b99f-8395109f68fa",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What instantly kills the mood for you?",
+  "tr": "Senin için ortamı anında bozan şey ne?"
+ },
+ {
+  "id": "48a3c058-0100-4d6d-9b9e-f75d858568ff",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What would make you jealous the fastest?",
+  "tr": "Seni en hızlı ne kıskandırır?"
+ },
+ {
+  "id": "5c9dc92f-20dc-4767-bdb1-142dda6b6025",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the sexiest thing someone can do without touching you?",
+  "tr": "Biri sana dokunmadan yapabileceği en çekici şey ne?"
+ },
+ {
+  "id": "ade74d7b-247a-459d-af5a-d7b33e9ad221",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the one thing you should never tease a partner about?",
+  "tr": "Bir partnerle asla dalga geçilmemesi gereken şey ne?"
+ },
+ {
+  "id": "619f6186-6a3f-445a-8808-67c318fe740b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What kind of weather makes everything feel more tempting?",
+  "tr": "Hangi hava her şeyi daha baştan çıkarıcı hissettirir?"
+ },
+ {
+  "id": "33508d01-f09b-4a5a-82f1-9b6888683f55",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What drink belongs in our hands on a flirty night?",
+  "tr": "Flörtöz bir gecede elimizde hangi içecek olmalı?"
+ },
+ {
+  "id": "41ffe4a1-e86c-44df-b108-97d179d7015b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What color looks the hottest on a partner?",
+  "tr": "Bir partnerin üzerinde en ateşli duran renk hangisi?"
+ },
+ {
+  "id": "f412a9ee-4c9a-4005-917c-3fee1062cbd6",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What time of night feels the most dangerous for us?",
+  "tr": "Gecenin hangi saati bizim için en tehlikeli hissettirir?"
+ },
+ {
+  "id": "eac3ce2c-ce08-4a3d-93be-28a7853d699f",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "If we got matching tattoos, what would they be of?",
+  "tr": "Eşleşen dövmeler yapsak neyin dövmesi olurdu?"
+ },
+ {
+  "id": "89de3de6-9967-493d-bdb2-3e7e23e8c14a",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is your biggest weakness in a partner?",
+  "tr": "Bir partnerde senin en büyük zayıf noktan ne?"
+ },
+ {
+  "id": "db715c9a-6d8b-4609-a38b-457dea0fbb6d",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What's the most days you could go without intimacy?",
+  "tr": "En fazla kaç gün yakınlık yaşamadan durabilirsin?"
+ },
+ {
+  "id": "681b924d-51a4-4cea-964e-5a6c10aca55a",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the first sign that you are in the mood?",
+  "tr": "Canın istediğinin ilk işareti ne olur?"
+ },
+ {
+  "id": "9565615b-0832-431c-b21d-3187888419b6",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the one thing that makes you say yes too fast?",
+  "tr": "Seni fazla hızlı \"evet\" dedirten tek şey ne?"
+ },
+ {
+  "id": "462df680-7a81-48e5-ba26-b81c8ec12ccf",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is more irresistible: a lingering look, a whisper, a slow touch, or a sudden pull closer?",
+  "tr": "Hangisi daha karşı konulmaz: uzun bir bakış, bir fısıltı, yavaş bir dokunuş mu yoksa ani bir çekiş mi?",
+  "answers_en": [
+   "A lingering look",
+   "A whisper",
+   "A slow touch",
+   "A sudden pull closer"
+  ],
+  "answers_tr": [
+   "Uzun bir bakış",
+   "Bir fısıltı",
+   "Yavaş bir dokunuş",
+   "Ani bir çekiş"
+  ]
+ },
+ {
+  "id": "306c5451-599b-48bf-95f8-ac42b2f9f0ad",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Where would you most want a first kiss of the night to happen?",
+  "tr": "Gecenin ilk öpücüğü en çok nerede olsun isterdin?",
+  "answers_en": [
+   "In the kitchen",
+   "By the door",
+   "In the car",
+   "In the dark"
+  ],
+  "answers_tr": [
+   "Mutfakta",
+   "Kapının yanında",
+   "Arabada",
+   "Karanlıkta"
+  ]
+ },
+ {
+  "id": "519bc663-be30-40c7-9388-c98e32275f22",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is the hottest time to start something: morning, after work, late night, or after a fight?",
+  "tr": "Bir şeye başlamak için en ateşli an hangisi: sabah, işten sonra, gece yarısı mı yoksa kavgadan sonra mı?",
+  "answers_en": [
+   "Morning",
+   "After work",
+   "Late night",
+   "After a fight"
+  ],
+  "answers_tr": [
+   "Sabah",
+   "İşten sonra",
+   "Gece yarısı",
+   "Kavgadan sonra"
+  ]
+ },
+ {
+  "id": "c67efeac-6d04-411a-8b95-0e22a4a1526c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What should never be allowed in the bedroom?",
+  "tr": "Yatak odasında asla neye izin verilmemeli?",
+  "answers_en": [
+   "Phones",
+   "Work talk",
+   "The lights on",
+   "Rushing"
+  ],
+  "answers_tr": [
+   "Telefonlar",
+   "İş konuşması",
+   "Açık ışık",
+   "Acele etmek"
+  ]
+ },
+ {
+  "id": "4465a984-e7d0-462b-afc8-742f5ced6fda",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What makes someone instantly more attractive: confidence, a laugh, a voice, or silence?",
+  "tr": "Birini anında daha çekici kılan şey ne: özgüven, bir kahkaha, bir ses mi yoksa sessizlik mi?",
+  "answers_en": [
+   "Confidence",
+   "A laugh",
+   "A voice",
+   "Silence"
+  ],
+  "answers_tr": [
+   "Özgüven",
+   "Bir kahkaha",
+   "Bir ses",
+   "Sessizlik"
+  ]
+ },
+ {
+  "id": "2362915b-b21d-49e1-b59c-cc4a012f0918",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If we only had ten minutes, what would we spend them on?",
+  "tr": "Sadece on dakikamız olsa bunu neye harcardık?",
+  "answers_en": [
+   "Kissing",
+   "Talking close",
+   "Dancing",
+   "Doing nothing"
+  ],
+  "answers_tr": [
+   "Öpüşmek",
+   "Yakın konuşmak",
+   "Dans etmek",
+   "Hiçbir şey yapmamak"
+  ]
+ },
+ {
+  "id": "aad10471-a143-41db-a557-4b9255bf8bce",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What should we do right after a good night together?",
+  "tr": "Güzel bir gecenin hemen ardından ne yapmalıyız?",
+  "answers_en": [
+   "Fall asleep",
+   "Talk",
+   "Eat something",
+   "Stay in bed longer"
+  ],
+  "answers_tr": [
+   "Uyumak",
+   "Konuşmak",
+   "Bir şey yemek",
+   "Yatakta daha uzun kalmak"
+  ]
+ },
+ {
+  "id": "d0c1e7eb-fe8f-4fdb-a75b-b2bde40dab96",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is the hottest compliment to get?",
+  "tr": "Alınabilecek en ateşli iltifat hangisi?",
+  "answers_en": [
+   "About your eyes",
+   "About your voice",
+   "About how you walk",
+   "About your mind"
+  ],
+  "answers_tr": [
+   "Gözlerin hakkında",
+   "Sesin hakkında",
+   "Yürüyüşün hakkında",
+   "Zihnin hakkında"
+  ]
+ },
+ {
+  "id": "6ade6d02-62a8-478c-b640-01d8be057a4f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Where should a partner's hands go first?",
+  "tr": "Bir partnerin elleri ilk nereye gitmeli?",
+  "answers_en": [
+   "Waist",
+   "Face",
+   "Hair",
+   "Back"
+  ],
+  "answers_tr": [
+   "Bel",
+   "Yüz",
+   "Saç",
+   "Sırt"
+  ]
+ },
+ {
+  "id": "1c40b55e-c015-439b-9ddc-8d894df3e4a2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What pace feels the hottest?",
+  "tr": "Hangi tempo en ateşli gelir?",
+  "answers_en": [
+   "Slow",
+   "Playful",
+   "Sudden",
+   "Quiet"
+  ],
+  "answers_tr": [
+   "Yavaş",
+   "Oyuncu",
+   "Ani",
+   "Sessiz"
+  ]
+ },
+ {
+  "id": "75940eb9-7fbf-41f7-bc4e-66f204f5e48e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How should the lights be when things start to get interesting?",
+  "tr": "İşler ilginçleşmeye başlayınca ışıklar nasıl olmalı?",
+  "answers_en": [
+   "Off",
+   "Candles",
+   "A small lamp",
+   "Whatever, ignore them"
+  ],
+  "answers_tr": [
+   "Kapalı",
+   "Mum",
+   "Küçük bir lamba",
+   "Fark etmez, umursama"
+  ]
+ },
+ {
+  "id": "354b396b-ec94-4e79-875e-0d785df654b4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Where would it feel the most dangerous to almost get caught?",
+  "tr": "Neredeyse yakalanmak neresi en tehlikeli hissettirirdi?",
+  "answers_en": [
+   "An elevator",
+   "A hallway",
+   "A parking garage",
+   "A balcony"
+  ],
+  "answers_tr": [
+   "Asansör",
+   "Koridor",
+   "Otopark",
+   "Balkon"
+  ]
+ },
+ {
+  "id": "8bdad457-c9d4-428f-b2c0-c7f30d33f2bd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What's the hottest reply to \"what are you doing?\"",
+  "tr": "\"Ne yapıyorsun?\" sorusuna verilebilecek en ateşli cevap ne?",
+  "answers_en": [
+   "Waiting for you",
+   "Nothing I can't leave",
+   "Get over here"
+  ],
+  "answers_tr": [
+   "Seni bekliyorum",
+   "Bırakamayacağım bir şey değil",
+   "Gel buraya"
+  ]
+ },
+ {
+  "id": "dc481a50-3190-4c1c-975b-f7f2c81e8269",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many times a week should intimacy happen?",
+  "tr": "Haftada kaç kez yakınlık yaşanmalı?"
+ },
+ {
+  "id": "c74d1995-343a-43a9-adcf-31e2f8b56073",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What do you need most right after intimacy?",
+  "tr": "Yakınlıktan hemen sonra en çok neye ihtiyaç duyarsın?"
+ },
+ {
+  "id": "c82bd3fe-b845-484d-a34c-c3df3f2c6404",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is the fastest way to feel close again after a fight?",
+  "tr": "Kavgadan sonra tekrar yakın hissetmenin en hızlı yolu ne?",
+  "answers_en": [
+   "A hug",
+   "A talk",
+   "Some space"
+  ],
+  "answers_tr": [
+   "Sarılmak",
+   "Konuşmak",
+   "Biraz alan"
+  ]
+ },
+ {
+  "id": "522acc6b-c549-4821-a672-968ad51faffd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What do you need most right after intimacy?",
+  "tr": "Yakınlıktan hemen sonra en çok neye ihtiyaç duyarsın?",
+  "answers_en": [
+   "Cuddle",
+   "Talk",
+   "Sleep"
+  ],
+  "answers_tr": [
+   "Sarılmak",
+   "Konuşmak",
+   "Uyumak"
+  ]
+ },
+ {
+  "id": "d032b906-702c-4c1d-a60e-14225c8a08a1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How often should intimacy happen?",
+  "tr": "Yakınlık ne sıklıkla yaşanmalı?",
+  "answers_en": [
+   "Every day",
+   "A few times a week",
+   "Once a week"
+  ],
+  "answers_tr": [
+   "Her gün",
+   "Haftada birkaç kez",
+   "Haftada bir"
+  ]
+ },
+ {
+  "id": "ab4d48ab-4861-45d3-a0c1-548feb01af72",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What makes you feel safest getting close?",
+  "tr": "Yakınlaşırken seni en çok ne güvende hissettirir?",
+  "answers_en": [
+   "Going slow",
+   "A locked door",
+   "Lights off"
+  ],
+  "answers_tr": [
+   "Yavaş gitmek",
+   "Kilitli kapı",
+   "Işıklar kapalı"
+  ]
+ },
+ {
+  "id": "c415ca2b-8b70-42d5-afe1-b55e6ca0cd96",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What should we steal time from just to get closer?",
+  "tr": "Sadece yakınlaşmak için zamanı nereden çalmalıyız?",
+  "answers_en": [
+   "Sleep",
+   "Work",
+   "Plans"
+  ],
+  "answers_tr": [
+   "Uyku",
+   "İş",
+   "Planlar"
+  ]
+ },
+ {
+  "id": "a5b0e887-d4ed-49c4-8541-1503d3766f95",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How long should intimacy last?",
+  "tr": "Yakınlık ne kadar sürmeli?",
+  "answers_en": [
+   "5-15 minutes",
+   "30-60 minutes",
+   "2-6 hours"
+  ],
+  "answers_tr": [
+   "5-15 dk",
+   "30-60 dk",
+   "2-6 saat"
+  ]
+ },
+ {
+  "id": "5001079e-e1d6-4dfe-8d09-471b46077412",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How long can you go without intimacy?",
+  "tr": "Yakınlık olmadan en fazla ne kadar durabilirsin?",
+  "answers_en": [
+   "1-2 days",
+   "About a week",
+   "A few weeks"
+  ],
+  "answers_tr": [
+   "1-2 gün",
+   "Yaklaşık bir hafta",
+   "Birkaç hafta"
+  ]
+ },
+ {
+  "id": "fc2de0d5-e319-4965-b658-0aadfdc156da",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How long should a morning in bed last?",
+  "tr": "Yatakta bir sabah ne kadar sürmeli?",
+  "answers_en": [
+   "15-30 minutes",
+   "1-2 hours",
+   "Until noon"
+  ],
+  "answers_tr": [
+   "15-30 dk",
+   "1-2 saat",
+   "Öğlene kadar"
+  ]
+ },
+ {
+  "id": "36466dd9-33fc-430a-8c5b-6cd74f5649f6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the middle of a meeting, your partner sends you a very suggestive text. What do you do?",
+  "tr": "Toplantının ortasında partnerinden çok imalı bir mesaj geldi. Ne yaparsın?",
+  "answers_en": [
+   "Match their energy",
+   "Reply with just an emoji",
+   "Text \"see you tonight\" and leave it there"
+  ],
+  "answers_tr": [
+   "Aynı dozda cevap veririm",
+   "Bir emojiyle geçiştiririm",
+   "\"Akşam görüşürüz\" yazıp bırakırım"
+  ]
+ },
+ {
+  "id": "0b0a004c-7110-41c1-9efb-a1250d65cc5e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "At noon, your partner texts \"come home early tonight\" and nothing else. How does your day go?",
+  "tr": "Öğlen partnerin \"bu akşam erken gel\" yazdı, başka hiçbir şey demedi. Günün nasıl geçer?",
+  "answers_en": [
+   "It's all I can think about",
+   "I forget about it until evening",
+   "I call right away to ask what it means"
+  ],
+  "answers_tr": [
+   "Bütün gün aklımdan çıkmaz",
+   "Akşama kadar unuturum",
+   "Hemen arayıp ne demek istediğini sorarım"
+  ]
+ },
+ {
+  "id": "478d596f-0925-454b-a6c7-07e62476a0f4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Sending your partner a slightly daring photo during the day...",
+  "tr": "Gün içinde partnerine biraz cesur bir fotoğraf atmak...",
+  "answers_en": [
+   "I'd happily do it",
+   "Only if they send one first",
+   "Never, I don't trust phones"
+  ],
+  "answers_tr": [
+   "Seve seve atarım",
+   "Ancak o atarsa atarım",
+   "Asla, telefonlara güvenmem"
+  ]
+ },
+ {
+  "id": "1947e301-1523-4dd2-8b02-eebcd5a27569",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You accidentally sent your suggestive text to the family group chat. What's your first move?",
+  "tr": "İmalı mesajını yanlışlıkla aile grubuna attın. İlk ne yaparsın?",
+  "answers_en": [
+   "Delete it fast and pray no one saw",
+   "Write \"wrong chat\" and laugh it off",
+   "Turn off my phone and leave the country"
+  ],
+  "answers_tr": [
+   "Hemen silip kimse görmemiştir diye dua ederim",
+   "\"Yanlış gruba\" yazıp gülüp geçerim",
+   "Telefonu kapatıp ülkeyi terk ederim"
+  ]
+ },
+ {
+  "id": "be4f6aae-d73e-47ac-87fd-599d2d29b15a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Flirting with each other over text during the day...",
+  "tr": "Gün içinde mesajla birbirinizle flörtleşmek...",
+  "answers_en": [
+   "Should happen every day",
+   "Now and then, as a surprise",
+   "Not needed, face to face is better"
+  ],
+  "answers_tr": [
+   "Her gün olmalı",
+   "Arada bir, sürpriz olarak",
+   "Gerek yok, yüz yüze daha iyi"
+  ]
+ },
+ {
+  "id": "88f7728c-67b0-480a-9632-74158a756911",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Just as things heat up, your partner's phone rings. It's their mom. What should happen?",
+  "tr": "Tam işler ısınırken partnerinin telefonu çalıyor, arayan annesi. Ne olmalı?",
+  "answers_en": [
+   "Ignore it, call back later",
+   "Answer and keep it short",
+   "Answer, the mood's gone anyway"
+  ],
+  "answers_tr": [
+   "Açmasın, sonra arasın",
+   "Açsın, kısa kessin",
+   "Açsın, büyü zaten bozuldu"
+  ]
+ },
+ {
+  "id": "451823de-7a5e-47f1-887c-a876847a8a39",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You're staying at your partner's parents' place, and the rooms share a wall. Getting close...",
+  "tr": "Partnerinin ailesinin evinde kalıyorsunuz ve odalar duvar duvara. Yakınlaşmak...",
+  "answers_en": [
+   "No way, it can wait until we're home",
+   "Fine, if we're really quiet",
+   "Forbidden makes it more exciting"
+  ],
+  "answers_tr": [
+   "Asla, eve dönene kadar bekler",
+   "Çok sessiz olursak olur",
+   "Yasak olan daha heyecanlı"
+  ]
+ },
+ {
+  "id": "c5f56ed9-13b2-4806-9ec5-6991e9e95554",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Just as things heat up, the doorbell rings. It's the package you've been waiting for. What do you do?",
+  "tr": "Tam işler ısınırken kapı çalıyor, günlerdir beklediğin kargo gelmiş. Ne yaparsın?",
+  "answers_en": [
+   "The package can wait",
+   "Grab it fast and come right back",
+   "Open it, we'll pick things up later"
+  ],
+  "answers_tr": [
+   "Kargo bekleyebilir",
+   "Hızlıca alıp hemen dönerim",
+   "Alıp açarım, gerisine sonra bakarız"
+  ]
+ },
+ {
+  "id": "451cd58d-bd27-47da-ac84-aa316a133bd6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Just as you get close, your cat jumps on the bed and stares at you both. What happens?",
+  "tr": "Tam yakınlaşırken kediniz yatağa atlayıp ikinize bakmaya başlıyor. Ne olur?",
+  "answers_en": [
+   "Out of the room it goes",
+   "We ignore it and carry on",
+   "We burst out laughing, and that's the end of that"
+  ],
+  "answers_tr": [
+   "Odadan çıkarırız",
+   "Umursamadan devam ederiz",
+   "Gülme krizine gireriz, iş orada biter"
+  ]
+ },
+ {
+  "id": "4092ab00-13ca-4261-a43a-7279301878a4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Just as you get close, your partner says \"wait, let's finish this episode first.\" What do you do?",
+  "tr": "Tam yakınlaşırken partnerin \"dur, şu bölümün sonunu görelim\" diyor. Ne yaparsın?",
+  "answers_en": [
+   "Laugh and wait",
+   "Get offended, the mood is gone",
+   "Hide the remote"
+  ],
+  "answers_tr": [
+   "Gülüp beklerim",
+   "Bozulurum, havam söner",
+   "Kumandayı saklarım"
+  ]
+ },
+ {
+  "id": "02764dd4-39e2-40b9-a6d4-886bea53759e",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "Right after getting close, they roll over and start snoring. Out of 10, what score do they drop to?",
+  "tr": "Yakınlaşmanızdan hemen sonra arkasını dönüp horlamaya başlıyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "9ba84b4f-ec82-47aa-a4a3-9f280b56470b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "You catch them kissing you with their eyes wide open. Out of 10, what score do they drop to?",
+  "tr": "Öpüşürken gözlerinin kocaman açık olduğunu fark ediyorsun. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "f70cfa93-cddd-4ad1-8344-03c22063c588",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They get into bed with their socks on and keep them on. Out of 10, what score do they drop to?",
+  "tr": "Yatağa çorapla giriyor ve çıkarmıyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "5466613d-c6c7-4f92-a9a4-12695fecef33",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "While you're getting close, they check a notification on their phone. Out of 10, what score do they drop to?",
+  "tr": "Yakınlaşırken telefonuna gelen bildirime bakıyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "3e7e65b3-90c9-4fd7-9917-1d0c56328de1",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They go in for the kiss with gum still in their mouth. Out of 10, what score do they drop to?",
+  "tr": "Ağzında sakızla öpmeye geliyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "54ed2a29-dec5-4e11-bc08-d8f35f77cebe",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which gets you more: being woken up with kisses, or being held until you fall asleep?",
+  "tr": "Hangisi seni daha çok etkiler: sabah seni öpücüklerle uyandırması mı, gece sarılarak uyutması mı?",
+  "answers_en": [
+   "Woken up with kisses",
+   "Held until I fall asleep"
+  ],
+  "answers_tr": [
+   "Öpücüklerle uyandırması",
+   "Sarılarak uyutması"
+  ]
+ },
+ {
+  "id": "a5baa1ce-254a-43b4-8cee-8d2e650e86bc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which gets you more: them walking around in your shirt, or them getting all dressed up just for you?",
+  "tr": "Hangisi seni daha çok etkiler: senin tişörtünü giyip evde dolaşması mı, sadece senin için özenle hazırlanması mı?",
+  "answers_en": [
+   "Wearing my shirt",
+   "Dressing up just for me"
+  ],
+  "answers_tr": [
+   "Benim tişörtümü giymesi",
+   "Sadece benim için hazırlanması"
+  ]
+ },
+ {
+  "id": "5e4fef58-1a72-4651-85bf-131aa64dca2f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: never making the first move, or asking \"tonight?\" every single day?",
+  "tr": "Hangisi seni daha çok soğutur: hiç ilk adımı atmaması mı, her gün \"bu akşam?\" diye sorup durması mı?",
+  "answers_en": [
+   "Never making the first move",
+   "Asking every single day"
+  ],
+  "answers_tr": [
+   "Hiç ilk adımı atmaması",
+   "Her gün sorup durması"
+  ]
+ },
+ {
+  "id": "862fba19-fdc5-41f2-bbd5-333e6b947e4e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: too much perfume, or never smelling good?",
+  "tr": "Hangisi seni daha çok soğutur: parfümü fazla sıkması mı, hiç güzel kokmaması mı?",
+  "answers_en": [
+   "Too much perfume",
+   "Never smelling good"
+  ],
+  "answers_tr": [
+   "Parfümü fazla sıkması",
+   "Hiç güzel kokmaması"
+  ]
+ },
+ {
+  "id": "e6853947-be83-4878-81aa-c596fafa2c28",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You want to try something new with your partner. What's the easiest way for you?",
+  "tr": "Partnerinden yeni bir şey denemek istiyorsun. Senin için en rahat yol hangisi?",
+  "answers_en": [
+   "Say it out loud, face to face",
+   "Write it in a text",
+   "Hint and hope they get it",
+   "I can't say it, it stays inside"
+  ],
+  "answers_tr": [
+   "Yüz yüze, açık açık söylerim",
+   "Mesajla yazarım",
+   "İma ederim, anlamasını beklerim",
+   "Söyleyemem, içimde kalır"
+  ]
+ },
+ {
+  "id": "735638ce-f7b1-4795-8c58-77fe461637aa",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner wants something you really don't. How do you say no?",
+  "tr": "Partnerin senin hiç istemediğin bir şey istiyor. Hayır'ı nasıl dersin?",
+  "answers_en": [
+   "Straight out, no sugar",
+   "Softly, so they don't feel rejected",
+   "I go along with it anyway"
+  ],
+  "answers_tr": [
+   "Direkt, süslemeden",
+   "Kırılmasın diye yumuşakça",
+   "Yine de uyarım"
+  ]
+ },
+ {
+  "id": "e9b5ff0c-f5e3-4792-83b9-6589ac229c71",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner says \"not tonight.\" How do you take it?",
+  "tr": "Partnerin \"bu akşam olmaz\" diyor. Bunu nasıl karşılarsın?",
+  "answers_en": [
+   "Fine, no questions",
+   "I ask if something's wrong",
+   "I get a little hurt"
+  ],
+  "answers_tr": [
+   "Tamam, sormam",
+   "Bir şey mi var diye sorarım",
+   "Biraz kırılırım"
+  ]
+ },
+ {
+  "id": "368c67a7-73bd-4702-989a-91e47493e9f7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "After getting close, talking about what you liked...",
+  "tr": "Yakınlaştıktan sonra neyin hoşuna gittiğini konuşmak...",
+  "answers_en": [
+   "Makes the next time better",
+   "Kills the mood",
+   "Only if they start it"
+  ],
+  "answers_tr": [
+   "Bir sonrakini daha iyi yapar",
+   "Havayı bozar",
+   "Ancak o başlarsa"
+  ]
+ },
+ {
+  "id": "bfedd7c5-ce55-4024-8018-b7ce739cce29",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "While you're getting close, your partner asks \"is this okay?\" What do you feel?",
+  "tr": "Yakınlaşırken partnerin \"bu iyi mi?\" diye soruyor. Ne hissedersin?",
+  "answers_en": [
+   "Cared for",
+   "A little pulled out of the moment",
+   "I wish they'd just keep going"
+  ],
+  "answers_tr": [
+   "Önemsendiğimi hissederim",
+   "Biraz andan koparım",
+   "Keşke sormadan devam etse"
+  ]
+ },
+ {
+  "id": "17a06cb8-e7fa-495c-a692-290c1460e181",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Something they did didn't feel good. When do you tell them?",
+  "tr": "Yaptığı bir şey hoşuna gitmedi. Ne zaman söylersin?",
+  "answers_en": [
+   "Right then",
+   "The next day, calmly",
+   "I never say it"
+  ],
+  "answers_tr": [
+   "O anda",
+   "Ertesi gün, sakin sakin",
+   "Hiç söylemem"
+  ]
+ },
+ {
+  "id": "f84a9f94-e846-4ec5-8236-8ad07652afb0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner starts talking in a way that catches you off guard. What do you do?",
+  "tr": "Partnerin hiç beklemediğin şekilde konuşmaya başlıyor. Ne yaparsın?",
+  "answers_en": [
+   "Match their energy",
+   "Laugh and keep going",
+   "Ask them to tone it down"
+  ],
+  "answers_tr": [
+   "Aynı tona girerim",
+   "Gülüp devam ederim",
+   "Biraz kısmasını isterim"
+  ]
+ },
+ {
+  "id": "3c458b59-191a-4dce-b2a2-b65356bcae20",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner shares a fantasy you've never heard from them. What's your first reaction?",
+  "tr": "Partnerin senden hiç duymadığın bir fantezi anlatıyor. İlk tepkin ne?",
+  "answers_en": [
+   "Curious, I want to hear more",
+   "Open, but I need time to think",
+   "Uncomfortable, I'd rather not"
+  ],
+  "answers_tr": [
+   "Merak ederim, devamını isterim",
+   "Açığım ama düşünmem lazım",
+   "Rahatsız olurum, duymak istemem"
+  ]
+ },
+ {
+  "id": "fef555de-c1d3-43e9-9605-37eec8fbde2d",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "The second you finish getting close, they ask \"so... how was I?\" Out of 10, what score do they drop to?",
+  "tr": "Yakınlaşmanız biter bitmez \"ee, nasıldım?\" diye soruyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "c5033475-5d32-4b8f-947e-cf7dcc230829",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "Right in the moment, they start listing tomorrow's to-do list. Out of 10, what score do they drop to?",
+  "tr": "Tam o anda yarının yapılacaklar listesini saymaya başlıyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "033a99fb-d6ea-4dfc-babb-146b6b014079",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "While you're getting close, they call you \"buddy.\" Out of 10, what score do they drop to?",
+  "tr": "Yakınlaşırken sana \"kanka\" diyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "cba3d458-f072-477c-991c-734f8ed03ece",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "When it's over, they go for a high five. Out of 10, what score do they drop to?",
+  "tr": "Bitince high five çekmeye geliyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "b9b04a31-a234-45ae-aaad-de08af7471b5",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "When it's over, they check the time and say \"nice, under 10 minutes.\" Out of 10, what score do they drop to?",
+  "tr": "Bitince saate bakıp \"güzel, 10 dakikanın altında\" diyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "d159131e-c8f0-4d44-af47-1514971573bf",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Crying in front of your partner...",
+  "tr": "Partnerinin önünde ağlamak...",
+  "answers_en": [
+   "I cry freely",
+   "Only when it's really hard",
+   "Never, I cry alone"
+  ],
+  "answers_tr": [
+   "Rahatlıkla ağlarım",
+   "Sadece çok zor anlarda",
+   "Asla, yalnızken ağlarım"
+  ]
+ },
+ {
+  "id": "da0a868e-280d-4541-ac22-5e355899f285",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner hasn't been in the mood for months because of work stress. What do you do?",
+  "tr": "Partnerin aylardır iş stresi yüzünden yakınlaşmak istemiyor. Ne yaparsın?",
+  "answers_en": [
+   "Wait patiently, no pressure",
+   "Talk about it openly",
+   "Plan a stress-free getaway",
+   "Suggest seeing a professional"
+  ],
+  "answers_tr": [
+   "Baskı yapmadan sabırla beklersin",
+   "Açık açık konuşursun",
+   "Stressiz bir kaçamak planlarsın",
+   "Bir uzmana gitmeyi önerirsin"
+  ]
+ },
+ {
+  "id": "62965379-6dbf-441e-aa0f-6d5bfce5967f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner gained some weight and now wants the lights off. What do you do?",
+  "tr": "Partnerin kilo aldı ve artık ışıklar kapalı olsun istiyor. Ne yaparsın?",
+  "answers_en": [
+   "Remind them how attractive they are to you",
+   "Respect it and turn the lights off",
+   "Gently talk about why"
+  ],
+  "answers_tr": [
+   "Sana ne kadar çekici geldiğini söylersin",
+   "Saygı duyar, ışığı kapatırsın",
+   "Nedenini nazikçe konuşursun"
+  ]
+ },
+ {
+  "id": "27725fd4-9ec3-4ea7-ab17-eca3de08bb2d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In a packed restaurant, your partner gives you a long kiss on the lips. What do you do?",
+  "tr": "Kalabalık bir restoranda partnerin seni dudaktan uzun uzun öpüyor. Ne yaparsın?",
+  "answers_en": [
+   "Kiss back, who cares",
+   "Give a quick kiss and pull back",
+   "Laugh it off awkwardly",
+   "Tell them \"not here\""
+  ],
+  "answers_tr": [
+   "Karşılık verirsin, kime ne",
+   "Kısa öpüp geri çekilirsin",
+   "Utanıp gülersin",
+   "\"Burada olmaz\" dersin"
+  ]
+ },
+ {
+  "id": "ace18a34-2c0b-4aef-9fab-bf1b2a2d3e02",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Lately your intimacy has fallen into the same old routine. What do you do?",
+  "tr": "Son aylarda yakınlığınız hep aynı rutine döndü. Ne yaparsın?",
+  "answers_en": [
+   "Surprise them with something new",
+   "Bring it up and plan together",
+   "Book a night away from home",
+   "It's fine, routine is comfy"
+  ],
+  "answers_tr": [
+   "Yeni bir şeyle sürpriz yaparsın",
+   "Konuyu açıp birlikte planlarsınız",
+   "Evden uzakta bir gece ayarlarsın",
+   "Sorun değil, rutin rahattır"
+  ]
+ },
+ {
+  "id": "5dc6ac28-16ab-425f-aec7-b5c6dca08089",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You're in the mood, but your partner is exhausted. What happens?",
+  "tr": "Sen istiyorsun ama partnerin çok yorgun. Ne olur?",
+  "answers_en": [
+   "Cuddle and fall asleep",
+   "Try to change their mind",
+   "Save it for the morning",
+   "Feel a little rejected"
+  ],
+  "answers_tr": [
+   "Sarılıp uyursunuz",
+   "Fikrini değiştirmeye çalışırsın",
+   "Sabaha saklarsınız",
+   "Biraz reddedilmiş hissedersin"
+  ]
+ },
+ {
+  "id": "6d467b67-0680-4c5a-a01e-55031b0bc0ab",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A kiss before leaving the house...",
+  "tr": "Evden çıkarken öpücük...",
+  "answers_en": [
+   "A must, every single day",
+   "When we remember",
+   "Not needed"
+  ],
+  "answers_tr": [
+   "Her gün şart",
+   "Aklımıza gelirse",
+   "Gerek yok"
+  ]
+ },
+ {
+  "id": "1e704567-0f18-43f7-9230-7c7cc9d9a005",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner opens up about their biggest insecurity for the first time. What do you do?",
+  "tr": "Partnerin kimseye anlatmadığı en büyük güvensizliğini ilk kez sana anlattı. Ne yaparsın?",
+  "answers_en": [
+   "Just listen and hug them",
+   "Tell them it's not true",
+   "Share one of yours too",
+   "Look for ways to help"
+  ],
+  "answers_tr": [
+   "Sadece dinleyip sarılırsın",
+   "\"Hiç de öyle değil\" dersin",
+   "Sen de kendi güvensizliğini anlatırsın",
+   "Çözüm yolu ararsın"
+  ]
+ },
+ {
+  "id": "251fa297-28a5-470f-a5b4-2d89eff44148",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Scheduling intimacy on the calendar...",
+  "tr": "Yakınlaşmak için takvime gün yazmak...",
+  "answers_en": [
+   "Smart, it keeps us close",
+   "Fine if life gets busy",
+   "Kills the passion"
+  ],
+  "answers_tr": [
+   "Akıllıca, bizi yakın tutar",
+   "Hayat yoğunsa olur",
+   "Tutkuyu öldürür"
+  ]
+ },
+ {
+  "id": "f398ab1a-ea92-42d9-bc5e-bfc0380abe1b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "One person always making the first move...",
+  "tr": "İlk adımı hep aynı kişinin atması...",
+  "answers_en": [
+   "Totally fine",
+   "Gets tiring after a while",
+   "A real problem"
+  ],
+  "answers_tr": [
+   "Hiç sorun değil",
+   "Bir süre sonra yorar",
+   "Ciddi bir sorun"
+  ]
+ },
+ {
+  "id": "e34ac078-acf4-4646-b713-abb4535b76ca",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Our last 10 minutes before falling asleep should be spent...",
+  "tr": "Uyumadan önceki son 10 dakikamız...",
+  "answers_en": [
+   "Cuddling in silence",
+   "Talking about our day",
+   "Each on our own phone",
+   "Watching or reading something together"
+  ],
+  "answers_tr": [
+   "Sessizce sarılarak",
+   "Günümüzü konuşarak",
+   "Herkes kendi telefonunda",
+   "Birlikte bir şey izleyerek ya da okuyarak"
+  ]
+ },
+ {
+  "id": "efaad9e9-a415-497b-abca-91ce1e04b8dd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Holding hands and cuddling in front of friends...",
+  "tr": "Arkadaşların yanında el ele tutuşmak, sarılmak...",
+  "answers_en": [
+   "Love it, no need to hide",
+   "A little is cute",
+   "Save it for when we're alone"
+  ],
+  "answers_tr": [
+   "Bayılırım, saklamaya gerek yok",
+   "Biraz tatlı olur",
+   "Baş başayken yapalım"
+  ]
+ },
+ {
+  "id": "b0a69874-b41c-487d-8c74-f8b71a692cf7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You'll be in different cities for two months for work. How do you keep the closeness alive?",
+  "tr": "İş yüzünden iki ay ayrı şehirlerde olacaksınız. Yakınlığı nasıl canlı tutarsınız?",
+  "answers_en": [
+   "Video calls every night",
+   "Flirty texts all day",
+   "Surprise visits",
+   "We just wait it out"
+  ],
+  "answers_tr": [
+   "Her gece görüntülü konuşarak",
+   "Gün boyu flörtöz mesajlarla",
+   "Sürpriz ziyaretlerle",
+   "Bekleriz, geçer"
+  ]
+ },
+ {
+  "id": "55b7de30-6949-47e2-8b1c-ff1d2e6c04a9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You can't remember the last time your partner complimented you. What do you do?",
+  "tr": "Partnerinden en son ne zaman iltifat duyduğunu hatırlamıyorsun. Ne yaparsın?",
+  "answers_en": [
+   "Tell them you miss it",
+   "Compliment them first",
+   "Let it go, I know I'm loved"
+  ],
+  "answers_tr": [
+   "Bunu özlediğini söylersin",
+   "İlk iltifatı sen edersin",
+   "Takılmazsın, sevildiğini biliyorsun"
+  ]
+ }
+]

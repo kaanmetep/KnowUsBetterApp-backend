@@ -1,0 +1,611 @@
+{
+  "b2e21ef2-40ff-43ce-8665-31fc326735d8": {
+    "text": "冷めるのはどっち？何でもSNSに載せる人と、SNSを一切やってない人",
+    "answers": [
+      "何でもSNSに載せる",
+      "SNSを一切やってない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "125f2188-cb75-4827-bba0-a5721c1d2e63": {
+    "text": "初デートで相手が自分の写真ばかり見せてくる。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "abb96582-9c4f-4d8e-87c3-439282f14837": {
+    "text": "初デートに相手が友達を連れてきた。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b94e3ab0-6f33-4e74-8909-a86affc709f8": {
+    "text": "相手のLINEが誤字だらけ。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": true,
+    "note": "Spelling mistakes adapted to 誤字 (typos) in LINE messages, the natural Japanese equivalent."
+  },
+  "9dd33cdd-203d-49b4-ac8e-90c529ee3982": {
+    "text": "デート中、相手がクチャクチャ音を立てて食べる。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f17f2378-b71d-448f-a910-91514691cbee": {
+    "text": "初デートなのに相手がいきなり呼び捨てしてくる。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": true,
+    "note": "'Babe' has no natural Japanese equivalent; adapted to suddenly calling you by first name without honorific (呼び捨て), which carries the same 'too familiar too soon' feel."
+  },
+  "44d96acd-17b5-4b5f-a320-c1803fc73ed3": {
+    "text": "会計で相手が「そのドリンク飲んでないから」と1円単位で割り勘する。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ddf5199c-bd3b-4909-8d04-6f6e2951ffc6": {
+    "text": "相手が写真を撮り終わるまで誰も料理に手をつけられない。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7511a7b3-1b46-4b57-add4-b6dced443721": {
+    "text": "デート中に相手がお母さんとビデオ通話して紹介してくる。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6273d5bb-2aa4-4236-9e4d-ad2b58f1d214": {
+    "text": "相手がお店選びを任せてきたのに、一晩中そのお店に文句を言ってる。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4368d704-52f8-4d12-b05a-6ffe29f0c12c": {
+    "text": "初デートに相手がスウェットで来た。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0a291386-f57e-4cd1-8c4a-b585cbd08dfd": {
+    "text": "相手がどんなメッセージにも毎回ボイスメッセージで返してくる。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "96a32a32-c92c-4e00-b24f-51b848ebecca": {
+    "text": "相手が自分のことを名前で呼んで話す。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": true,
+    "note": "Third-person self-reference adapted to referring to oneself by one's own name, the usual Japanese form of this habit."
+  },
+  "0b6fd4c0-2fdb-4c43-812f-077f6dc0615b": {
+    "text": "相手の笑い声が大きすぎて、お店中の人が振り返る。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "91a24e9e-a8a6-497f-b828-394c850e07b2": {
+    "text": "出会ったばかりの人と、最初にするならどれ？",
+    "answers": [
+      "ストーリーに載せる",
+      "友達に紹介する",
+      "週末の小旅行に行く",
+      "ふたりのプレイリストを作る"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "76536319-97cd-490d-9836-5f8187f0d46f": {
+    "text": "誰かといい感じになったら、最初にすることは？",
+    "answers": [
+      "マッチングアプリを消す",
+      "位置情報を共有する",
+      "連絡先の名前にハートをつける",
+      "ツーショットを載せる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f1ae02e8-b052-4b76-a32e-d4ce62d46246": {
+    "text": "出会ったばかりの相手に、最初にOKできるのはどれ？",
+    "answers": [
+      "うちに歯ブラシを置く",
+      "体調が悪いときに来てくれる",
+      "うちの合鍵を持つ",
+      "留守中にうちに泊まる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cd2b5109-18c4-46b4-8c38-1380eb70b2a2": {
+    "text": "出会ったばかりの人に、最初にできるのはどれ？",
+    "answers": [
+      "目の前で泣く",
+      "お金の悩みを話す",
+      "ボロボロの姿を見せる",
+      "誰にも言ってないことを話す"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1bc66b63-cc8e-424a-80f4-c6b7b3bbba3c": {
+    "text": "誰かといい感じになったら、最初にするならどれ？",
+    "answers": [
+      "誕生日に呼ぶ",
+      "結婚式に同伴者として連れて行く",
+      "一緒に年越しする",
+      "一緒に旅行の計画を立てる"
+    ],
+    "accepted": [],
+    "flagged": true,
+    "note": "Bringing a +1 to a wedding is rare in Japan; kept as 同伴者 since the meaning is clear, but may feel foreign."
+  },
+  "aed88a42-6f84-4456-8aa7-669766f78264": {
+    "text": "惹かれるのはどっち？笑わせてくれる人と、ちゃんと話を聞いてくれる人",
+    "answers": [
+      "笑わせてくれる",
+      "ちゃんと話を聞いてくれる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a95cb18b-bd0a-42b1-b2d3-ad598f132ba6": {
+    "text": "惹かれるのはどっち？細かく計画されたデートと、その場の思いつき",
+    "answers": [
+      "細かく計画されたデート",
+      "その場の思いつき"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3d173579-d941-4634-b884-665b6e4fe6eb": {
+    "text": "惹かれるのはどっち？話した小さなことを覚えててくれるのと、サプライズしてくれるの",
+    "answers": [
+      "小さなことを覚えててくれる",
+      "サプライズしてくれる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0b5becd8-64bd-4166-a997-e0a4e90d99f5": {
+    "text": "惹かれるのはどっち？自信がある人と、ちょっとシャイな人",
+    "answers": [
+      "自信がある",
+      "ちょっとシャイ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e1bf3858-7a28-4bb5-b306-cbb230ca1d89": {
+    "text": "惹かれるのはどっち？いい声と、素敵な笑顔",
+    "answers": [
+      "いい声",
+      "素敵な笑顔"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "58cb7a84-520d-4e1e-a840-a01661805b2a": {
+    "text": "連絡を取り始めて何週間たったら、ふたりの関係をはっきりさせるべき？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e3bfce26-3369-44e3-8e06-8841c696cdcd": {
+    "text": "新しい人と出会うなら、どこが一番いい？",
+    "answers": [
+      "マッチングアプリ",
+      "友達の紹介",
+      "パーティーやバー",
+      "日常の偶然",
+      "SNS"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a4750d8e-f80d-409d-884b-a642b1b6dcd6": {
+    "text": "2回目のデートで相手が「誰かにこんな気持ちになったの初めて」と言ってきた。どうする？",
+    "answers": [
+      "キュンとする、うれしい",
+      "うれしいけど慎重になる",
+      "危険信号、早すぎ",
+      "同じ言葉を返す"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9ac2b9fd-533c-407e-b82b-6935fec25be7": {
+    "text": "初デートで相手に年収を聞かれた。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c0bef968-f505-44bc-87ab-8cbde316e110": {
+    "text": "初デートで相手がクーポンを出してきた。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "24b88807-660c-4370-a23b-c312eb1fa5d4": {
+    "text": "3回目のデートなのに、相手がまだキスしようとしてこない。どうする？",
+    "answers": [
+      "自分からいく",
+      "待つ、焦らなくていい",
+      "脈なしかもと考え始める",
+      "直接聞いてみる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0f374e99-c247-4f9c-bbc6-59e5974d0741": {
+    "text": "初デートで話したことを相手が忘れてた。どう思う？",
+    "answers": [
+      "別に気にしない",
+      "ちょっと残念",
+      "ちゃんと聞いてなかったってこと"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a969d002-3891-4a18-a767-6c5373b1d28a": {
+    "text": "グッとくるのはどっち？手書きのメッセージと、自分のために作られたプレイリスト",
+    "answers": [
+      "手書きのメッセージ",
+      "自分のためのプレイリスト"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "56c6743f-a1c8-4be0-8dc7-bbeb9b977d38": {
+    "text": "相手が店員さんに「今日初デートなんです！」と言う。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f9cf2832-da5d-4f1f-ad46-f011c7282e4d": {
+    "text": "会い始めて1か月。最初のプレゼントは何がいい？",
+    "answers": [
+      "小さくても気持ちのこもったもの",
+      "花",
+      "まだ早い、何もなし",
+      "高価なもので印象づける"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d576e86d-b1d4-4c38-a056-f1141160b590": {
+    "text": "惹かれるのはどっち？人生の計画がはっきりしてる人と、流れに任せる人",
+    "answers": [
+      "人生の計画がはっきりしてる",
+      "流れに任せる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0186074f-f074-4446-b042-ca7e9247e1cc": {
+    "text": "相手が手料理を作ってくれたけど、正直まずい。どうする？",
+    "answers": [
+      "笑顔で全部食べる",
+      "少し食べて、やんわり本音を言う",
+      "冗談にする",
+      "何か頼もうって言う"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2509137a-251a-41b6-b10e-b4e1f7ca4da9": {
+    "text": "別の街に住んでる人と付き合い始められる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4bbac10f-fb66-4378-be37-a399f606ae2f": {
+    "text": "2回目のデートで、相手が自分のやったことない趣味を提案してきた。どうする？",
+    "answers": [
+      "やってみる、楽しそう",
+      "行くけどちょっと緊張",
+      "別のことを提案する",
+      "自分には合わないと言う"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "96dd7fb8-e845-4e6b-a7de-0fada99a35ab": {
+    "text": "冷めるのはどっち？お金自慢と、いつもお金の愚痴",
+    "answers": [
+      "お金自慢",
+      "いつもお金の愚痴"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1d5c05ff-2738-4558-9f0a-efd6cb6e2bf8": {
+    "text": "相手が自分に気があるって一番わかるのは？",
+    "answers": [
+      "返信の速さ",
+      "次のデートを決めてくる",
+      "自分のことをたくさん聞いてくる",
+      "しぐさ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "37a4b498-8f1d-4740-923e-2165e8b08457": {
+    "text": "初デートのあと、相手から「すごく楽しかった」と長文が届いた。どう思う？",
+    "answers": [
+      "うれしい",
+      "かわいいけどちょっと重い",
+      "重すぎて引く"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3a3a17ca-df5d-4a0c-9477-da964cfb471b": {
+    "text": "初デートに相手が花束を持ってきた。どう思う？",
+    "answers": [
+      "うれしい、素敵",
+      "うれしいけど一晩中持ち歩くのは困る",
+      "初デートにしてはやりすぎ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "509690bc-b54a-4e17-9080-4c04c87541c3": {
+    "text": "デートの途中で、この人はないなと気づいた。どうする？",
+    "answers": [
+      "最後まで感じよく過ごす",
+      "理由をつけて早めに切り上げる",
+      "正直に伝える",
+      "友達に急用の電話をかけてもらう"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5f774143-d352-4756-b32a-a6c502a594e9": {
+    "text": "デート中、相手がいちいち言葉づかいを直してくる。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d9c822f9-0c0c-4348-8e9e-3d2873d20d44": {
+    "text": "初めてのハグは何秒がちょうどいい？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3a846774-458e-48e7-94ac-35ac1ed66723": {
+    "text": "相手が通りかかるショーウィンドウでいちいち自分の姿をチェックする。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "77574632-f237-4a7a-af8a-16f63041d6fe": {
+    "text": "初デートで相手に「なんで恋人いないの？」と聞かれた。どうする？",
+    "answers": [
+      "正直に答える",
+      "冗談で流す",
+      "同じことを聞き返す",
+      "変な質問だと思う"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5e952fa0-bed1-4717-8caa-4119278e8391": {
+    "text": "惹かれるのはどっち？メッセージだと最高な人と、会うと最高な人",
+    "answers": [
+      "メッセージだと最高",
+      "会うと最高"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f0726201-11ea-476c-88d9-a86ca0ab1c0b": {
+    "text": "友達がセッティングしてくれた相手に、写真を見ないで会いに行ける？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "426fe6d2-47b9-4935-a993-c3742dae971f": {
+    "text": "相手がデート代を親のクレジットカードで払う。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e70a355f-92db-47ef-8640-7cf10d74d366": {
+    "text": "相手が「デザート分けよう」と言ったのに、ほぼ全部食べた。どうする？",
+    "answers": [
+      "笑う、かわいい",
+      "いじる",
+      "自分の分をもうひとつ頼む",
+      "黙って心にメモする"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cc7cdfce-f102-4924-a15a-428fe1f01c5c": {
+    "text": "冷めるのはどっち？センスがまったくないのと、頑張りすぎてるの",
+    "answers": [
+      "センスがまったくない",
+      "頑張りすぎてる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "27981878-ef1d-4561-9d9f-58ca583788cf": {
+    "text": "まだ2回会っただけなのに、相手が毎晩ビデオ通話したがる。どう思う？",
+    "answers": [
+      "うれしい",
+      "たまにならいいけど毎晩はちょっと",
+      "いきなりすぎて重い"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b230407f-3278-456c-b2bf-1fa8b314b92c": {
+    "text": "初デートで相手がちょっとほろ酔いになった。どう思う？",
+    "answers": [
+      "楽しい、場がほぐれる",
+      "軽く酔う程度ならいい",
+      "冷める",
+      "無事に帰れるか見届ける"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9effa5fe-d2d6-4990-94f9-68ba44015a64": {
+    "text": "グッとくるのはどっち？スマートな口説き文句と、不器用だけど正直な「かわいいと思う」",
+    "answers": [
+      "スマートな口説き文句",
+      "不器用だけど正直なほめ言葉"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "081089e4-8c91-4803-a20f-fc33ee46f1bb": {
+    "text": "ふたりとも好きな曲が流れて、相手が人前で大声で歌い出した。どうする？",
+    "answers": [
+      "一緒に歌う",
+      "笑って動画を撮る",
+      "恥ずかしくなる",
+      "ノリは好きだけど自分は黙ってる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ae914c7b-0a58-44ae-ae10-b58a248728fb": {
+    "text": "何回デートしたら、一緒に週末旅行に行ける？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "edb7e967-3a36-4adb-b55f-e4660c847d6a": {
+    "text": "デート中ずっと、相手が仕事の愚痴を言ってる。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7a5ec267-e342-468f-bbba-7370d91f8ecc": {
+    "text": "歩いてたら急に土砂降り。ふたりとも傘がない。どうする？",
+    "answers": [
+      "笑いながら雨宿りできる場所へ走る",
+      "雨の中で踊る",
+      "すぐタクシーを呼ぶ",
+      "上着を一緒にかぶって歩き続ける"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7378fa18-c11d-4566-83e6-9ee68d7c53a9": {
+    "text": "惹かれるのはどっち？朝型の人と、夜型の人",
+    "answers": [
+      "朝型",
+      "夜型"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0b4e55e8-2a68-40f6-a431-c6455f6e7bd8": {
+    "text": "3回デートしたのに、相手がまだSNSをフォローしてこない。どうする？",
+    "answers": [
+      "別に気にしない",
+      "自分から先にフォローする",
+      "なんでだろうと考え始める",
+      "直接聞いてみる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b92ab70e-57ad-46d9-bbfc-957ae51e4d9d": {
+    "text": "相手が一晩中、仮想通貨投資の話をしてる。10点満点で何点に下がる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b5861af8-2dea-46b5-bcc9-1a6e26e6be5a": {
+    "text": "グッとくるのはどっち？夕飯を作ってくれる人と、お気に入りの場所に連れて行ってくれる人",
+    "answers": [
+      "夕飯を作ってくれる",
+      "お気に入りの場所に連れて行ってくれる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "86ab68e2-ba49-4ba4-abd7-529512d370ce": {
+    "text": "初デートで、好きかどうかは何分でわかる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2a28efa4-4ab1-4d2e-8173-d3d510ca3fde": {
+    "text": "最高の初デートのあと、何時間後に連絡するべき？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

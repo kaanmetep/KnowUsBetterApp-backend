@@ -1,0 +1,562 @@
+[
+ {
+  "id": "a76a2d11-aeaa-4ea4-91fe-2bfc67c9b4ee",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever kept a secret from a close friend?",
+  "tr": "Hiç yakın bir arkadaşından bir şey sakladığın oldu mu?",
+  "category": "just_friends"
+ },
+ {
+  "id": "a2574b99-8b8b-4f57-a394-6af757de58fc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever ended a friendship without explaining why?",
+  "tr": "Hiç bir arkadaşlığı nedenini söylemeden bitirdin mi?",
+  "category": "just_friends"
+ },
+ {
+  "id": "4c272380-343e-41d5-a398-4c4fcc2393a4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever regretted trusting someone too quickly?",
+  "tr": "Birine çok çabuk güvendiğin için pişman olduğun oldu mu?",
+  "category": "just_friends"
+ },
+ {
+  "id": "3fce436d-bf31-4be9-8add-95f13c0fcdac",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever felt jealous of a friend's success?",
+  "tr": "Bir arkadaşının başarısını kıskandığın oldu mu?",
+  "category": "just_friends"
+ },
+ {
+  "id": "9c806b2a-139b-4619-a67e-4409da20bcc9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever apologized even though you didn’t think you were wrong?",
+  "tr": "Haksız olduğunu düşünmediğin halde özür dilediğin oldu mu?",
+  "category": "just_friends"
+ },
+ {
+  "id": "0dbafd24-b1dd-4ecd-b1e2-88f673a60613",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever trusted someone who didn’t deserve it?",
+  "tr": "Güvenmeyi hak etmeyen birine güvendiğin oldu mu?",
+  "category": "just_friends"
+ },
+ {
+  "id": "2924f8e7-4561-47d2-8135-81cf04ebe967",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever ignored a message from a friend on purpose?",
+  "tr": "Hiç bir arkadaşının mesajını bilerek görmezden geldiğin oldu mu?",
+  "category": "just_friends"
+ },
+ {
+  "id": "9741b4d7-889c-4894-b559-c3f66ce2d8c0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever shared something private with the wrong person?",
+  "tr": "Özel bir şeyi yanlış kişiyle paylaştığın oldu mu?",
+  "category": "just_friends"
+ },
+ {
+  "id": "4486c9a6-d2b2-4540-8644-03cd4ef2e13a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever chosen your friend over your partner?",
+  "tr": "Sevgiline karşı arkadaşını tercih ettiğin oldu mu?",
+  "category": "just_friends"
+ },
+ {
+  "id": "479b8431-53a3-462f-9785-3d70008bbd20",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you stay friends with an ex-partner?",
+  "tr": "Eski sevgilinle arkadaş kalır mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "f1152066-83ba-4c0c-a1f0-093b14c8b069",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you believe you know yourself completely?",
+  "tr": "Kendini tamamen tanıdığını düşünüyor musun?",
+  "category": "just_friends"
+ },
+ {
+  "id": "9ef4e846-52f9-4144-a18f-cedffa321545",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever ended a friendship because your lifestyles were too different?",
+  "tr": "Hayat tarzlarınız çok farklı olduğu için bir arkadaşlığı bitirdiğin oldu mu?",
+  "category": "just_friends"
+ },
+ {
+  "id": "48f95dce-4d8a-4fbb-9150-baba0bf7376a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you believe that friendships can last forever?",
+  "tr": "Arkadaşlıkların sonsuza kadar sürebileceğine inanır mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "b9a730b9-929e-45c8-9108-f0836b286438",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever felt like you were giving more effort than your friend?",
+  "tr": "Bir arkadaşlığında kendini daha fazla çaba gösteren taraf gibi hissettin mi?",
+  "category": "just_friends"
+ },
+ {
+  "id": "94981afe-79fa-4085-b6a2-cd42c7ac5800",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever reconnected with a friend after a long time apart?",
+  "tr": "Uzun zaman ayrı kaldığın bir arkadaşınla tekrar iletişim kurduğun oldu mu?",
+  "category": "just_friends"
+ },
+ {
+  "id": "3b2f524c-98cf-4ac0-9dfe-f822ee4c1fcc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you message an old friend to make peace?",
+  "tr": "Uzun süredir konuşmadığın bir arkadaşına barışmak için mesaj atar mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "dc5dc001-691c-47f8-9cc2-0518e6e920d8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think the person you are today is who you truly wanted to become?",
+  "tr": "Bugün olduğun kişinin gerçekten olmak istediğin kişi olduğunu düşünüyor musun?",
+  "category": "just_friends"
+ },
+ {
+  "id": "604a53b7-0d5d-4881-acb1-ef4c66be7893",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you marry a friend if you reach 30 and find no one?",
+  "tr": "30 yaşına gelip kimseyi bulamazsan bir arkadaşınla evlenir misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "a32f5825-7334-4307-831f-c4bb0c024527",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you get involved in your friend's relationship decisions?",
+  "tr": "Arkadaşının sevgilisiyle ilgili kararlarına karışır mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "fb251482-1fac-46cf-bf85-b3d27110335f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you want your friend to interfere in your relationship?",
+  "tr": "Arkadaşının senin ilişkine karışmasını ister misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "6036b346-3ea2-4404-a7e1-7c30a0ec22c0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you believe that men and women can be just friends?",
+  "tr": "Kız ve erkeklerin sadece arkadaş olabileceğine inanıyor musun?",
+  "category": "just_friends"
+ },
+ {
+  "id": "bd04cdb5-6343-4875-980f-c340449f6b57",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever had an opposite-sex friend you stayed close with for a long time?",
+  "tr": "Daha önce uzun süre yakın kaldığın bir karşı cins arkadaşın oldu mu?",
+  "category": "just_friends"
+ },
+ {
+  "id": "db880921-8caf-4a1d-8391-e7aeb26d5dc7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you do not like your friend's partner, would you tell them?",
+  "tr": "Arkadaşının sevgilisini sevmesen ona söyler misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "e5ef89d4-f7f5-4c0e-9bf5-ea3e13031a8c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your friend dates someone you dislike, would you end the friendship?",
+  "tr": "Arkadaşın sevmediğin biriyle sevgili olursa onunla arkadaşlığını bitirir misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "e0d04d04-aa00-4c84-bcfb-881361a82be5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you believe long-term friendships are possible?",
+  "tr": "Çok uzun süreli arkadaşlıklar kurulabileceğine inanıyor musun?",
+  "category": "just_friends"
+ },
+ {
+  "id": "d0639d2c-258d-4d36-832b-842e6b52ee4c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you have friends you stay close to even without regular contact?",
+  "tr": "Hiç iletişimde olmasan bile arkadaş kaldığın insanlar var mı?",
+  "category": "just_friends"
+ },
+ {
+  "id": "a3ddb95a-24aa-4a29-949f-79889f10ddcc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you get annoyed if your friend keeps you waiting?",
+  "tr": "Arkadaşının seni bekletmesine sinir olur musun?",
+  "category": "just_friends"
+ },
+ {
+  "id": "5d796767-8cc5-431b-b5ad-b3a6f33f64cf",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner asked you to stop talking to a friend, would you do it?",
+  "tr": "Eğer sevgilin, arkadaşınla konuşmanı kesmeni isterse, bunu yapar mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "e6e52f89-0870-4970-9f5a-b5b4741216b0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you maintain good relationships with friends from different countries?",
+  "tr": "Farklı ülkelerden arkadaşlarınla aranı iyi tutar mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "3102138c-c867-425a-98fd-d9c35cac8a9b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you continue a friendship with people whose views you disagree with?",
+  "tr": "Senin görüşüne uygun olmayan insanlarla arkadaşlığını sürdürür müsün?",
+  "category": "just_friends"
+ },
+ {
+  "id": "3403d85a-a7ae-4759-b627-46cb7e2287d4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever been betrayed by a friend?",
+  "tr": "Daha önce hiç arkadaşın tarafından ihanete uğradın mı?",
+  "category": "just_friends"
+ },
+ {
+  "id": "0588bdf0-7b25-4c73-92a6-00fe19080183",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever betrayed a friend?",
+  "tr": "Daha önce hiç arkadaşını ihanete uğrattın mı?",
+  "category": "just_friends"
+ },
+ {
+  "id": "9f61963e-ef73-4d2a-a108-8788c781c036",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you ask your friends to return money you lent them?",
+  "tr": "Arkadaşlarından borcunu geri isteyebilir misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "a3d59d54-8850-46e2-9bb2-1125148aebcf",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would it bother you if a friend asked you to return money they lent you?",
+  "tr": "Arkadaşının senden borcunu geri istemesi seni rahatsız eder mi?",
+  "category": "just_friends"
+ },
+ {
+  "id": "6746bd67-c0ef-46aa-a2c3-dfab5234341f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you pay back your friends on time?",
+  "tr": "Arkadaşlarına borcunu zamanında öder misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "a5404a83-2a72-4b9c-aca7-0c5e6cc77fc2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you get along well with your friend's families?",
+  "tr": "Arkadaşlarının ailesiyle iyi anlaşır mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "0667992f-49f5-42f3-bcd4-cc5626feea01",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you introduce your friends to your family?",
+  "tr": "Arkadaşlarını ailenle tanıştırır mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "aae21c2f-9de5-4456-adc1-eba72108ef9b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you introduce your friend to your partner?",
+  "tr": "Arkadaşını sevgilinle tanıştırır mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "5341cb61-0a8e-4848-b2a5-32f8b43656f4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you like your friend's Instagram stories?",
+  "tr": "Arkadaşlarının Instagram hikayelerini beğenir misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "a8afd3b9-7b97-4874-83ee-06aa92b6cf35",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you believe that a person can change their destiny with the choices they make?",
+  "tr": "Bir insanın yaptığı seçimlerle kaderini değiştirebileceğine inanıyor musun?",
+  "category": "just_friends"
+ },
+ {
+  "id": "6e0ab277-84ad-4dad-9719-677b7e583d65",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you have a close friends list or a private account on social media?",
+  "tr": "Sosyal medya hesaplarında close friends alanın ya da özel hesabın var mı?",
+  "category": "just_friends"
+ },
+ {
+  "id": "866cc351-c73d-44e8-a94e-26f20ca6375e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you believe that even your closest friends might secretly envy your success?",
+  "tr": "Yaptığın başarılarının en yakın arkadaşların tarafından bile kıskanıldığını düşünür müsün?",
+  "category": "just_friends"
+ },
+ {
+  "id": "ff350837-4cca-4972-9f75-3a7d85e1d892",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you let a friend use your car?",
+  "tr": "Aracını bir arkadaşının kullanmasına izin verir misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "490bbcc4-3454-4d35-879e-13652017c4bc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you constantly question your purpose in this world?",
+  "tr": "Sürekli olarak bu dünyadaki amacını sorgular mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "36cd5f8d-45cf-451d-bd2f-bd912e1e1f87",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you share your room with a friend?",
+  "tr": "Arkadaşınla odanı paylaşır mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "e65ed24a-9d70-4bb5-a43d-e2a6b09ca93c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you eat from the same plate as your friend?",
+  "tr": "Arkadaşınla aynı tabaktan yemek yer misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "fb0c893c-1702-43a5-919e-990fe5850e4b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you like giving relationship advice to your friends?",
+  "tr": "Arkadaşına ilişki tavsiyesi vermeyi sever misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "a85cccb3-3565-47d8-b01e-c4994dbc738b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you like gossiping with your friends?",
+  "tr": "Arkadaşınla dedikodu yapmayı sever misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "60a273fa-a707-4ff2-af68-3eaa00bcb00a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your sweatshirt stayed with a friend, would you want it back?",
+  "tr": "Sweatshirtün arkadaşında kalsa geri ister miydin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "2a7b5e54-a35c-4222-94db-5604ef6ff521",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think friends should lend money to each other when asked?",
+  "tr": "Sence arkadaşlar birbirine borç istendiğinde para vermeli mi?",
+  "category": "just_friends"
+ },
+ {
+  "id": "d14dc487-ef43-4f80-934d-3da11c4645bd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If two people in your group of three stopped talking, would you take sides?",
+  "tr": "3 kişilik arkadaş grubunuzda 2 kişi konuşmayı bıraktıysa taraf tutar mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "358ce8a0-4d0f-4e4a-a9ab-4d17bce190dc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your friend became homeless, would you let them stay in your house for a year?",
+  "tr": "Arkadaşın evsiz kalsa ona evini 1 yıllığına açar mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "f5016fd4-e85a-4f44-a6e7-3480dfc318e2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your friend had bad habits, would you continue your friendship?",
+  "tr": "Arkadaşının kötü alışkanlıkları varsa onunla arkadaşlığını sürdürür müsün?",
+  "category": "just_friends"
+ },
+ {
+  "id": "d09f45b0-b833-4273-9dc6-837da0408b6b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is your friend's religious belief important to you?",
+  "tr": "Arkadaşının dini görüşü senin için önemli mi?",
+  "category": "just_friends"
+ },
+ {
+  "id": "70eabbeb-a65f-4616-afbc-84cf134c985a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date your friend's ex if they had feelings for you?",
+  "tr": "Arkadaşının eski sevgilisi sana karşı bir şeyler hissediyorsa onunla sevgili olur muydun?",
+  "category": "just_friends"
+ },
+ {
+  "id": "f06c0817-7f8d-48c4-9214-b515e112a31d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone with a very different music taste?",
+  "tr": "Çok farklı bir müzik zevkine sahip biriyle çıkar mıydın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "bd3487cc-2911-4c0d-b46f-5fd2bc55332d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you swear often?",
+  "tr": "Çok sık küfür eder misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "f7b39a40-cab5-4bac-8dc1-e50a12e37459",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If someone offered you 1 million dollars to date your friend, would you accept?",
+  "tr": "Arkadaşınla sevgili olman karşılığında 1 milyon dolar teklif etseler, kabul eder misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "b8699a10-76fe-421a-898d-0d6c91a4392f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you have a friendship that has lasted more than 10 years?",
+  "tr": "10 yıldan fazla süren arkadaşlığın var mı?",
+  "category": "just_friends"
+ },
+ {
+  "id": "e6297b54-f961-4c0b-892f-bc95baceb49e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you often hide your true feelings to keep the peace?",
+  "tr": "Huzuru bozmamak için gerçek duygularını sık sık saklar mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "44e89723-382d-4e81-a4ce-a775b0f88494",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Has a close friend ever had a crush on you?",
+  "tr": "Hiç yakın arkadaşlarından biri senden hoşlandı mı?",
+  "category": "just_friends"
+ },
+ {
+  "id": "4af94076-243b-4c2d-a36d-0438a980fdf1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever friendzoned someone?",
+  "tr": "Hiç friendzone yaptın mı?",
+  "category": "just_friends"
+ },
+ {
+  "id": "f1c49c55-a070-4de9-88b0-8f36313a97a1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever been friendzoned?",
+  "tr": "Friendzone yapıldın mı?",
+  "category": "just_friends"
+ },
+ {
+  "id": "34efefdf-7c84-442c-a5a3-38133fa0948e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If a lie makes everyone happy and hurts nobody, does it become moral?",
+  "tr": "Bir yalan herkesi mutlu ediyor ve kimseye zarar vermiyorsa, ahlaki sayılır mı?",
+  "category": "just_friends"
+ },
+ {
+  "id": "f35c52a4-f28b-4d39-94a9-291aba678b56",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you hide how much money you have from your friends?",
+  "tr": "Ne kadar paran olduğunu arkadaşlarından gizler misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "29f055a2-8038-41d1-b238-e05e99378afb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think suffering is necessary for profound personal growth?",
+  "tr": "Sence derin bir kişisel gelişim için acı çekmek şart mıdır?",
+  "category": "just_friends"
+ },
+ {
+  "id": "d3cdfbea-f97c-4e33-9968-8034077edcca",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you enjoy talking politics with friends?",
+  "tr": "Arkadaşlarınla siyaset konuşmayı sever misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "159acfa6-597d-472d-bcb3-d987da64dea8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you cut ties with a friend who committed a non-violent crime?",
+  "tr": "Şiddet içermeyen bir suç işleyen arkadaşınla bağını koparır mıydın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "f0172f90-003d-4c7f-8771-04ec7e4f490d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would it bother you if your partner were more successful than you at work?",
+  "tr": "İş hayatında senden daha başarılı biriyle birlikte olsan, rahatsız olur musun?",
+  "category": "just_friends"
+ },
+ {
+  "id": "7956d371-c089-4a04-a387-6ff8f68b5866",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you could know the exact day you will die, would you choose to know?",
+  "tr": "Öleceğin günü tam olarak bilme şansın olsaydı, bilmek ister miydin?",
+  "category": "just_friends"
+ }
+]

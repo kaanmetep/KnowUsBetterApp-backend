@@ -1,0 +1,828 @@
+[
+ {
+  "id": "779c01e5-9ba2-48ed-84f5-747084bda093",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Does your partner have to share a photo with you on their social media accounts?",
+  "tr": "Sevgilin sosyal medya hesaplarında seninle bir fotoğraf paylaşmak zorunda mıdır?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "7dfca2ae-4653-499b-8b35-8409ac9cb8e5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you be with someone who has been married before?",
+  "tr": "Daha önce evlilik yapmış biriyle beraber olur musun?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "ecb7bf85-0455-46c5-9045-8c485aa6c8d6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you be with someone whose previous relationship ended very recently?",
+  "tr": "İlişkisi çok yakın zamanda bitmiş biriyle beraber olur musun?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "7713469e-5c7c-4081-885e-784fcefc308b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you really liked a piece of clothing, would you buy it even if it was very expensive?",
+  "tr": "Bir kıyafeti çok beğensen, parası çok pahalı da olsa satın alır mısın?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "a25b6694-0388-469a-80c3-1a065d4641da",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you be with someone who never likes cooking and always eats out?",
+  "tr": "Yemek yapmayı asla sevmeyen, hep dışarıdan yemek yiyen biriyle beraber olur musun?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "9106e2f1-c28e-4b6d-a27f-3ac47f185e39",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think your ex-partner should be removed from social media accounts?",
+  "tr": "Sence ayrıldığın sevgilin sosyal medya hesaplarından silinmeli mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "1d7b03f4-df47-452a-8a54-1b98528dd75a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you want to have had only one partner since high school and married them?",
+  "tr": "Lise yıllarından beri sadece 1 sevgilinin olmasını ve onunla evlenmiş olmayı ister miydin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "e371edc7-ba67-4d14-8fa7-dad00b7d6b31",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you start a relationship with someone you love but doubt their loyalty?",
+  "tr": "Sadakati hakkında şüphe duyduğun ama aşık olduğun biriyle bir ilişkiye başlar mısın?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "36c6f327-8de2-42ed-8165-752c783ae56d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think it's normal for someone to have other flirts while in a flirtation period with you?",
+  "tr": "Birisiyle flört dönemindeyken, başka flörtlerinin de olması sence normal mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "c7aec6af-0246-41d9-bcc6-ce59c3b9403e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you be suspicious of someone who always places their phone face down on the table when going to the bathroom?",
+  "tr": "Tuvalete giderken telefonunu her zaman masaya ters koyan birinden şüphelenir misin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "b0f272c0-ca82-4663-bc78-6c406bb5b831",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever completely cut off a relationship over something trivial?",
+  "tr": "Daha önce hiç bir sevgilinle aran çok saçma bir şey yüzünden tamamen kesildi mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "c70818b5-97c6-4134-8b6e-94b01052f279",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you feel turned off if your partner refused to drink from the same bottle as you?",
+  "tr": "Sevgilin senin içtiğin su şişesinden su içmezse ondan soğur musun?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "4c354718-87c5-46d1-b2d7-733646f06068",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it okay for your partner to treat a friend of the opposite sex to a meal?",
+  "tr": "Partnerin karşı cinsten bir arkadaşına yemek ısmarlayabilir mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "29870733-c386-448b-82a7-a2f059a50ba4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it okay for your partner to meet one-on-one with a friend of the opposite sex?",
+  "tr": "Sevgilin karşı cinsten bir arkadaşıyla baş başa buluşabilir mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "e392db65-9315-4f83-8930-34c5a450b24a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you get upset if your partner refused to show you their messages with a friend of the opposite sex?",
+  "tr": "Sevgilin karşı cinsten bir arkadaşıyla olan mesajlarını sana okutmazsa ona sinirlenir misin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "1b878572-51f3-4ef5-b869-57695d5b4bba",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it okay for your partner to buy coffee for a friend of the opposite sex?",
+  "tr": "Partnerin karşı cinsiyetten olan bir arkadaşına kahve ısmarlayabilir mi?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "1338669a-0f18-42d9-b936-97fa0009639f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you want to know everything about your partner’s past or only the necessary parts?",
+  "tr": "Partnerinin geçmişine dair her şeyi mi bilmek istersin yoksa sadece gerekli kısımları mı?",
+  "answers_en": [
+   "Everything",
+   "Only necessary parts"
+  ],
+  "answers_tr": [
+   "Her şey",
+   "Sadece gerekli kısımlar"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "35f1ccbf-5cf0-4b91-b844-cdc93470350c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Jealousy between you and your partner...",
+  "tr": "Partnerinle arandaki kıskançlık…",
+  "answers_en": [
+   "A sweet thing",
+   "Harmful to the relationship"
+  ],
+  "answers_tr": [
+   "Tatlı bir şeydir",
+   "İlişkiye zarar verir"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "b60dd292-09bb-4403-8129-eceb964a89bb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Who texts first in a relationship...",
+  "tr": "İlişkide “ilk yazan kim” konusu…",
+  "answers_en": [
+   "An important balance",
+   "Should not be cared about"
+  ],
+  "answers_tr": [
+   "Önemli bir dengedir",
+   "Umursanmamalı"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "8a5c8ef1-6310-4d06-8af8-e41508b1d9af",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What's the ideal length of a first date, in hours?",
+  "tr": "İlk buluşma ideal kaç saat sürer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "3038d09c-8a48-432e-8f6a-3173cdf1b0f3",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "After how many dates is a first kiss okay?",
+  "tr": "İlk öpücük kaçıncı buluşmada olur?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "3a7b78ae-2cd0-461c-a69f-f2f5e35d2593",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What's the best time of day for a first date?",
+  "tr": "İlk buluşma için günün en iyi saati ne?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "8488f194-3774-470b-ac98-dfab1027a149",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many days should you wait before asking for a second date?",
+  "tr": "İkinci buluşmayı istemeden önce kaç gün beklenmeli?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "00d225ad-05d7-4044-9a9a-f002791aa06b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What's a good age gap in a relationship, in years?",
+  "tr": "İlişkide iyi bir yaş farkı kaç yıl?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "52369eca-4691-4ff4-ba5c-db44489ab01d",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How often should new couples text each day?",
+  "tr": "Yeni çiftler günde kaç kere yazışmalı?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "0e7b5127-24d4-48bc-b454-f43ae9fade2d",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "After how many dates is staying over okay?",
+  "tr": "Evde kalmak kaçıncı buluşmada olur?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "831590be-5c22-4b45-b378-5794e75e0f56",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many minutes late is acceptable on a first date?",
+  "tr": "İlk buluşmada kaç dakika geç kalmak kabul edilir?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "7192abf5-e884-4f12-80e1-1d0b1a96e8c0",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many exes is too many?",
+  "tr": "Kaç eski sevgili fazla kaçmış olur?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "f8ed25d1-90b1-4de2-a09b-6adbf13a1e81",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How long should you talk before meeting in person, in days?",
+  "tr": "Yüz yüze buluşmadan önce kaç gün yazışılmalı?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "38f9ad51-d981-4adf-94a0-90ebe2900c76",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What should you never order on a first date?",
+  "tr": "İlk buluşmada asla ne sipariş edilmez?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "ebed3fec-e1ae-4368-8a0e-4e4dd4e78af9",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What pet name do you use most for your partner?",
+  "tr": "Sevgiline en çok hangi lakapla hitap edersin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "d14e2f10-7c81-43cd-be66-3e778564a465",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What's the max number of past flirts your partner could have before it turns you off?",
+  "tr": "Sevgilinin geçmişte en fazla kaç flörtü olursa ondan soğursun?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "010dfc92-9c21-441a-a0f5-b159412b70a2",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many years in a past relationship would turn you off? Write 0 if none would.",
+  "tr": "Sevgilinin eski bir ilişkisi kaç yıllık olsa seni soğutur? Hiçbiri soğutmazsa 0 yaz.",
+  "category": "we_just_met"
+ },
+ {
+  "id": "9cd5fd8b-3a6e-4b0f-a091-7d8612fb213f",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What should your partner never call you?",
+  "tr": "Sevgilinin sana asla ne diye hitap etmesini istemezsin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "87658e97-ac2e-44a5-b542-433a08e7aabd",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What do you most want your partner to call you?",
+  "tr": "Sevgilinin sana en çok ne diye hitap etmesini istersin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "763e922e-ab9e-4f6f-827e-693af2a26f4d",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "After how many years together would you want to move in?",
+  "tr": "Sevgilinle kaç yıldan sonra aynı eve taşınmayı istersin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "77c7dd5e-0ffd-4698-b393-0ff78d1e213b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "After how many months would you want to meet their family?",
+  "tr": "Sevgilinle kaç aydan sonra ailesiyle buluşmayı istersin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "595fa92e-a25b-4dc9-8f78-4550f1d8608f",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "After how many years of marriage would you want kids?",
+  "tr": "Sevgilinle kaç yıl evli kaldıktan sonra çocuk yapmak istersin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "3a380d3f-8123-4e99-b4f3-e7d2ec4ff655",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What's your ideal first date?",
+  "tr": "İdeal ilk buluşman ne olur?",
+  "answers_en": [
+   "Coffee",
+   "A walk",
+   "Dinner",
+   "Drinks"
+  ],
+  "answers_tr": [
+   "Kahve",
+   "Yürüyüş",
+   "Akşam yemeği",
+   "Bir şeyler içmek"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "804c67c5-9dd5-4bf0-9448-3e0ab96b2928",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Someone you're talking to takes two days to reply. What do you do?",
+  "tr": "Konuştuğun biri iki gündür cevap vermiyor. Ne yaparsın?",
+  "answers_en": [
+   "Wait it out",
+   "Send a light follow-up",
+   "Match their energy",
+   "Lose interest"
+  ],
+  "answers_tr": [
+   "Beklersin",
+   "Hafif bir follow-up atarsın",
+   "Onların temposuna uyarsın",
+   "İlgini kaybedersin"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "6edf2d1a-551c-4860-991c-3fb9641f6085",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How should a good first date end?",
+  "tr": "İyi bir ilk buluşma nasıl bitmeli?",
+  "answers_en": [
+   "A hug",
+   "A kiss",
+   "A clear plan for date two",
+   "Just goodbye for now"
+  ],
+  "answers_tr": [
+   "Sarılmak",
+   "Öpücük",
+   "Net bir ikinci buluşma planı",
+   "Şimdilik sadece bay bay"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "4f7b735e-59a7-4eeb-bcaa-43853cdf224a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Where's your phone on a first date?",
+  "tr": "İlk buluşmada telefonun nerede?",
+  "answers_en": [
+   "In your bag or pocket",
+   "Face down on the table",
+   "On silent, nearby",
+   "You barely notice it"
+  ],
+  "answers_tr": [
+   "Çantanda veya cebinde",
+   "Masada ters",
+   "Sessizde, yakında",
+   "Neredeyse fark etmezsin"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "10ca97e0-e294-417e-84be-a586b2a6e65c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Who should plan the second date?",
+  "tr": "İkinci buluşmayı kim planlamalı?",
+  "answers_en": [
+   "Whoever asked for date one",
+   "The other person this time",
+   "Whoever's more free",
+   "Plan it together"
+  ],
+  "answers_tr": [
+   "İlk buluşmayı kim istediyse",
+   "Bu sefer diğeri",
+   "Kim daha müsaitse",
+   "Birlikte planlayın"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "15087f4a-b129-4ded-bda9-9b8e9f2ce9c9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "The first date was fine, not amazing. What do you do?",
+  "tr": "İlk buluşma fena değildi ama muhteşem de değildi. Ne yaparsın?",
+  "answers_en": [
+   "Give it a second date",
+   "Ghost politely",
+   "Say you're not feeling it",
+   "Keep texting and see"
+  ],
+  "answers_tr": [
+   "İkinci şans verirsin",
+   "Sessizce uzaklaşırsın",
+   "Hissetmediğini söylersin",
+   "Yazışmaya devam edip bakarsın"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "9d5474ab-62cf-433d-8a62-9cfe83a90018",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How do you prefer to be asked out?",
+  "tr": "Senden nasıl çıkma teklifi edilmesini seversin?",
+  "answers_en": [
+   "In person",
+   "Over text",
+   "With a specific plan",
+   "Casually, no pressure"
+  ],
+  "answers_tr": [
+   "Yüz yüze",
+   "Mesajla",
+   "Net bir planla",
+   "Rahat, baskısız"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "46002351-0295-45f1-a0f9-322e2d7f98b9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They bring up their ex on the first date. What do you do?",
+  "tr": "İlk buluşmada eski sevgilisini açıyor. Ne yaparsın?",
+  "answers_en": [
+   "Change the subject",
+   "Listen briefly",
+   "Ask one follow-up",
+   "Lose interest"
+  ],
+  "answers_tr": [
+   "Konuyu değiştirirsin",
+   "Kısaca dinlersin",
+   "Bir soru daha sorarsın",
+   "İlgini kaybedersin"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "a90fff4b-18ba-402c-920d-e141465c46fb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When do you tell friends you're seeing someone new?",
+  "tr": "Yeni biriyle çıktığını arkadaşlarına ne zaman söylersin?",
+  "answers_en": [
+   "After the first date",
+   "After a few dates",
+   "Only when it feels serious",
+   "You keep it private for a while"
+  ],
+  "answers_tr": [
+   "İlk buluşmadan sonra",
+   "Birkaç buluşmadan sonra",
+   "Ciddi hissedince",
+   "Bir süre gizli tutarsın"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "2afd06cc-aad0-4cd2-b85a-be260fc537a9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Their dating app lights up on the table during your date. What do you do?",
+  "tr": "Buluşurken masadaki telefonda dating app yanıyor. Ne yaparsın?",
+  "answers_en": [
+   "Ignore it",
+   "Joke about it",
+   "Ask about it directly",
+   "Lose interest"
+  ],
+  "answers_tr": [
+   "Görmezden gelirsin",
+   "Şakaya vurursun",
+   "Direkt sorarsın",
+   "İlgini kaybedersin"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "80a133aa-e818-4387-ba13-6d18f3eca48c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "An awkward silence hits for 20 seconds. What do you do?",
+  "tr": "20 saniyelik garip bir sessizlik oluyor. Ne yaparsın?",
+  "answers_en": [
+   "Ask a random question",
+   "Make a joke about the silence",
+   "Sit in it comfortably",
+   "Panic a little inside"
+  ],
+  "answers_tr": [
+   "Rastgele bir soru atarsın",
+   "Sessizlikle dalga geçersin",
+   "Rahatça oturursun",
+   "İçinden biraz paniklersin"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "54ae559d-c747-4baa-b836-c2ac0f6d5914",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You run into your ex during the date. What do you do?",
+  "tr": "Buluşurken eski sevgiline rastlıyorsun. Ne yaparsın?",
+  "answers_en": [
+   "Quick hello, keep moving",
+   "Introduce them briefly",
+   "Pretend you didn't see them"
+  ],
+  "answers_tr": [
+   "Hızlı selam, yola devam",
+   "Kısaca tanıştırırsın",
+   "Görmemiş gibi yaparsın"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "1862d1eb-0f5f-4433-b278-f78ae8e65a56",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They order for you without asking. What do you do?",
+  "tr": "Sormadan senin adına sipariş veriyorlar. Ne yaparsın?",
+  "answers_en": [
+   "Go with it",
+   "Change it politely",
+   "Call it out as a bit much"
+  ],
+  "answers_tr": [
+   "Uyarsın",
+   "Nazikçe değiştirirsin",
+   "Biraz fazla bulduğunu söylersin"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "b5794a9f-d967-4b5d-924b-08fde07181dd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Someone you're talking to sends you a 4-minute voice note. What do you do?",
+  "tr": "Konuştuğun kişi sana 4 dakikalık bir sesli mesaj atıyor. Ne yaparsın?",
+  "answers_en": [
+   "Listen to the whole thing",
+   "Play it at 1.5x",
+   "Reply with a voice note",
+   "Ask them to just text"
+  ],
+  "answers_tr": [
+   "Sonuna kadar dinlersin",
+   "1,5x hızda dinlersin",
+   "Sen de sesli atarsın",
+   "\"Yazsana\" dersin"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "11057121-36b1-4bec-8fe0-a951f48a59cb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Before your second date, they like a photo of yours from 2019. What do you do?",
+  "tr": "İkinci buluşmadan önce Instagram'da 2019'dan bir fotoğrafını beğeniyor. Ne yaparsın?",
+  "answers_en": [
+   "Laugh it off",
+   "Like an old one of theirs back",
+   "Tease them about it on the date",
+   "Get a little creeped out"
+  ],
+  "answers_tr": [
+   "Gülüp geçersin",
+   "Sen de onun eski bir fotoğrafını beğenirsin",
+   "Buluşmada şakasını yaparsın",
+   "Biraz ürkersin"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "2018faf7-7f62-4184-ab8d-f8daddf0c55b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You bump into each other at a friend's party. Nobody knows you've been seeing each other. What do you do?",
+  "tr": "Bir arkadaşının partisinde karşılaşıyorsunuz. Görüştüğünüzü kimse bilmiyor. Ne yaparsın?",
+  "answers_en": [
+   "Act like strangers",
+   "Say hi casually, give nothing away",
+   "Go straight over and stick together"
+  ],
+  "answers_tr": [
+   "Tanımıyormuş gibi yaparsın",
+   "Normal selam verir, belli etmezsin",
+   "Direkt yanına gidip takılırsın"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "4186af00-6693-48c4-b037-597f68eca363",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "The day after your date, a mutual friend tells you they described the whole thing. How do you feel?",
+  "tr": "Buluşmanın ertesi günü, ortak bir arkadaşınızdan her şeyi anlattığını öğreniyorsun. Ne hissedersin?",
+  "answers_en": [
+   "Flattered",
+   "Curious what they said",
+   "A little annoyed",
+   "No big deal, you told yours too"
+  ],
+  "answers_tr": [
+   "Hoşuna gider",
+   "Ne anlattığını merak edersin",
+   "Biraz bozulursun",
+   "Sorun etmezsin, sen de anlattın"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "90996073-0d83-444d-b35a-979f896c0b5a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You get home after a great first date. Neither of you has texted yet. What do you do?",
+  "tr": "Çok iyi geçen ilk buluşmadan sonra eve vardın. İkiniz de henüz yazmadınız. Ne yaparsın?",
+  "answers_en": [
+   "Text them right away",
+   "Wait for them to text first",
+   "Leave it till tomorrow",
+   "Post a story and see if they watch"
+  ],
+  "answers_tr": [
+   "Hemen yazarsın",
+   "Onun yazmasını beklersin",
+   "Yarına bırakırsın",
+   "Story atıp bakıp bakmadığını izlersin"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "585b6edd-f0f5-45dc-9b1a-70fadafc76c5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more on a first date: being rude to the waiter or never looking up from their phone?",
+  "tr": "İlk buluşmada hangisi seni daha çok soğutur: garsona kaba davranması mı, telefondan hiç başını kaldırmaması mı?",
+  "answers_en": [
+   "Rude to the waiter",
+   "Glued to their phone"
+  ],
+  "answers_tr": [
+   "Garsona kaba davranması",
+   "Telefondan başını kaldırmaması"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "6fbf29f6-9fdd-469b-a49f-dceeae0f2960",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: talking only about themselves or never sharing anything about themselves?",
+  "tr": "Hangisi seni daha çok soğutur: sürekli kendinden bahsetmesi mi, kendinden hiç bahsetmemesi mi?",
+  "answers_en": [
+   "Only talks about themselves",
+   "Never opens up"
+  ],
+  "answers_tr": [
+   "Sürekli kendinden bahsetmesi",
+   "Kendinden hiç bahsetmemesi"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "7d216358-afbd-4df9-bcbf-5dd6d671e303",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: a bad kiss or a boring conversation?",
+  "tr": "Hangisi seni daha çok soğutur: kötü öpüşmesi mi, sohbetinin sıkıcı olması mı?",
+  "answers_en": [
+   "A bad kiss",
+   "A boring conversation"
+  ],
+  "answers_tr": [
+   "Kötü öpüşmesi",
+   "Sıkıcı sohbet"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "720a9cbc-8710-4872-80f2-53300dbadf6f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the early days, which turns you off more: texting nonstop or barely texting at all?",
+  "tr": "İlk dönemde hangisi seni daha çok soğutur: durmadan yazması mı, neredeyse hiç yazmaması mı?",
+  "answers_en": [
+   "Texting nonstop",
+   "Barely texting"
+  ],
+  "answers_tr": [
+   "Durmadan yazması",
+   "Neredeyse hiç yazmaması"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "3cf1a84d-e223-4e63-93d8-777459021597",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: turning everything into a joke or never getting a joke?",
+  "tr": "Hangisi seni daha çok soğutur: her şeyi şakaya vurması mı, hiç şakadan anlamaması mı?",
+  "answers_en": [
+   "Jokes about everything",
+   "Never gets a joke"
+  ],
+  "answers_tr": [
+   "Her şeyi şakaya vurması",
+   "Şakadan anlamaması"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "fc011c5b-4593-4cc1-b280-0684ad82df8d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: looking different from their photos or lying about their age on their profile?",
+  "tr": "Hangisi seni daha çok soğutur: fotoğraflarından farklı çıkması mı, profilinde yaşını yalan yazması mı?",
+  "answers_en": [
+   "Looks different from their photos",
+   "Lied about their age"
+  ],
+  "answers_tr": [
+   "Fotoğraflarından farklı çıkması",
+   "Yaşını yalan yazması"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "ad06a964-fa58-4061-8344-79edf5b520d8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: saying \"I don't mind\" to everything or having an opinion on everything?",
+  "tr": "Hangisi seni daha çok soğutur: her şeye \"fark etmez\" demesi mi, her şeye karışması mı?",
+  "answers_en": [
+   "\"I don't mind\" to everything",
+   "An opinion on everything"
+  ],
+  "answers_tr": [
+   "Her şeye \"fark etmez\" demesi",
+   "Her şeye karışması"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "4f531856-318c-487f-a619-fa0a59a99d7f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: smelling bad or dressing badly?",
+  "tr": "Hangisi seni daha çok soğutur: kötü kokması mı, kötü giyinmesi mi?",
+  "answers_en": [
+   "Smelling bad",
+   "Dressing badly"
+  ],
+  "answers_tr": [
+   "Kötü kokması",
+   "Kötü giyinmesi"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "ef9f4128-7b1c-403e-ad46-17990ee3ceef",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: telling their family everything or telling their family nothing?",
+  "tr": "Hangisi seni daha çok soğutur: ailesine her şeyi anlatması mı, ailesine hiçbir şey anlatmaması mı?",
+  "answers_en": [
+   "Tells their family everything",
+   "Tells their family nothing"
+  ],
+  "answers_tr": [
+   "Ailesine her şeyi anlatması",
+   "Ailesine hiçbir şey anlatmaması"
+  ],
+  "category": "we_just_met"
+ }
+]

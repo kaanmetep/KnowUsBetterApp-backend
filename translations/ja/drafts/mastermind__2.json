@@ -1,0 +1,684 @@
+{
+  "b7ea512f-5675-4ed5-b6ee-e67bf475a40e": {
+    "text": "ふつうのキーボードで、GとJの間にある文字は？",
+    "answers": [
+      "F",
+      "H",
+      "K",
+      "B"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fc9fb6fc-80f1-4d6f-acf9-a97d285e1148": {
+    "text": "太陽の光が地球に届くまで、だいたいどのくらいかかる？",
+    "answers": [
+      "約8秒",
+      "約8分",
+      "約8時間",
+      "約8日"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f7577fd3-cd79-400b-a94e-b36666958681": {
+    "text": "一般的なギターの弦は何本？",
+    "answers": [
+      "4本",
+      "5本",
+      "6本",
+      "7本"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "de06546b-8966-4a0f-8a03-6e5c4262d6fc": {
+    "text": "うるう年の2月は何日まである？",
+    "answers": [
+      "28日",
+      "29日",
+      "30日",
+      "31日"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "19816c87-dfa3-45ff-9bb0-ef7558f119de": {
+    "text": "角膜があるのはどの器官？",
+    "answers": [
+      "耳",
+      "目",
+      "心臓",
+      "皮膚"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5259ce96-2e3b-458a-9f7c-b637fd887db0": {
+    "text": "家の電気コードの多くに使われている金属は？",
+    "answers": [],
+    "accepted": [
+      "銅",
+      "どう",
+      "ドウ",
+      "銅線",
+      "Cu",
+      "Copper"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "40cb4e70-a58a-4f05-b31c-d3e3fdb89927": {
+    "text": "炭酸飲料のシュワシュワのもとになっている気体は？",
+    "answers": [],
+    "accepted": [
+      "二酸化炭素",
+      "炭酸ガス",
+      "CO2",
+      "CO₂",
+      "にさんかたんそ",
+      "Carbon dioxide"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "268fe19d-11a8-41cc-8d63-fe56498a715a": {
+    "text": "ドバイがあるのはどこの国？",
+    "answers": [],
+    "accepted": [
+      "アラブ首長国連邦",
+      "UAE",
+      "アラブ首長国",
+      "首長国連邦",
+      "U.A.E.",
+      "United Arab Emirates"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "8df2cfec-7013-48f4-8e0a-1f2cac3d73e2": {
+    "text": "クモを極端に怖がることをなんていう？",
+    "answers": [],
+    "accepted": [
+      "クモ恐怖症",
+      "蜘蛛恐怖症",
+      "くも恐怖症",
+      "アラクノフォビア",
+      "Arachnophobia"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "bdcca45d-f2ae-441d-a885-a521f51b3ece": {
+    "text": "「明けの明星」と呼ばれる惑星は？",
+    "answers": [],
+    "accepted": [
+      "金星",
+      "きんせい",
+      "キンセイ",
+      "ビーナス",
+      "ヴィーナス",
+      "Venus"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "f766a74f-7af2-4363-870d-632389e2bc90": {
+    "text": "サイトのURLにある「www」は何の略？",
+    "answers": [],
+    "accepted": [
+      "World Wide Web",
+      "ワールドワイドウェブ",
+      "ワールド・ワイド・ウェブ",
+      "WorldWide Web",
+      "Worldwide Web",
+      "World Wideweb"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "4d63a2f7-355d-418a-99f7-288076d7c5ed": {
+    "text": "重さあたりの値段が世界一高いスパイスは？",
+    "answers": [],
+    "accepted": [
+      "サフラン",
+      "さふらん",
+      "Saffron",
+      "Safran"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "a5f1d330-c07c-40b9-a6ed-e6037bf4f4c3": {
+    "text": "オーストラリアの首都は？",
+    "answers": [],
+    "accepted": [
+      "キャンベラ",
+      "きゃんべら",
+      "Canberra",
+      "Canbera"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "ffe9c080-1f5b-4192-bc7b-2b4258c9d0e2": {
+    "text": "「QRコード」のQRって何の略？",
+    "answers": [],
+    "accepted": [
+      "Quick Response",
+      "クイックレスポンス",
+      "クイック・レスポンス",
+      "Quick-Response",
+      "Quickresponse"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "c38c6d5a-4784-49a4-8ec9-564ba0912926": {
+    "text": "カナダの首都は？",
+    "answers": [],
+    "accepted": [
+      "オタワ",
+      "おたわ",
+      "Ottawa",
+      "Ottowa",
+      "Otawa"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "b9f40b61-c0e9-4172-ab62-a3c1c740f0c9": {
+    "text": "GPSって何の略？",
+    "answers": [],
+    "accepted": [
+      "Global Positioning System",
+      "全地球測位システム",
+      "グローバル・ポジショニング・システム",
+      "グローバルポジショニングシステム",
+      "Global Position System"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "e52435ce-d075-4980-b9ac-9dcf9d712df1": {
+    "text": "オリンピックの「金」メダル、実はほとんどが何の金属でできてる？",
+    "answers": [],
+    "accepted": [
+      "銀",
+      "ぎん",
+      "ギン",
+      "純銀",
+      "Ag",
+      "Silver"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "d45b83c7-fd0f-4522-b35f-567c66d4f42b": {
+    "text": "私たちが住んでる銀河の名前は？",
+    "answers": [],
+    "accepted": [
+      "天の川銀河",
+      "天の川",
+      "銀河系",
+      "あまのがわ",
+      "天の川銀河系",
+      "Milky Way"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "ec7a91a5-65a4-43e9-baf6-d3bd61ca9817": {
+    "text": "食塩の化学式は？",
+    "answers": [],
+    "accepted": [
+      "NaCl",
+      "塩化ナトリウム",
+      "Nacl",
+      "NACl",
+      "えんかナトリウム",
+      "Sodium chloride"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "ae92a4d9-9327-441e-95a0-22a22f1beebb": {
+    "text": "世界でいちばん小さい国は？",
+    "answers": [],
+    "accepted": [
+      "バチカン市国",
+      "バチカン",
+      "ヴァチカン",
+      "ヴァチカン市国",
+      "Vatican",
+      "Vatican City"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "47f1968f-3313-44f3-af0c-2a16d6840dcc": {
+    "text": "ブラジルの公用語は？",
+    "answers": [],
+    "accepted": [
+      "ポルトガル語",
+      "ぽるとがるご",
+      "ポルトガル",
+      "ブラジルポルトガル語",
+      "Portuguese"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "a33b8db2-9aed-4a46-9a20-5aeb046044a9": {
+    "text": "2006年まで9番目の惑星とされていた準惑星は？",
+    "answers": [],
+    "accepted": [
+      "冥王星",
+      "めいおうせい",
+      "メイオウセイ",
+      "プルート",
+      "Pluto"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "ebe23394-c55a-452c-be4a-2f1c1655ec87": {
+    "text": "ロンドンの街を流れる川は？",
+    "answers": [],
+    "accepted": [
+      "テムズ川",
+      "テムズ",
+      "テムズがわ",
+      "テームズ川",
+      "Thames",
+      "River Thames"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "e0497815-9994-4bb7-993f-733104d56ff6": {
+    "text": "紙を折っていろんな形を作る、日本の伝統的な遊びは？",
+    "answers": [],
+    "accepted": [
+      "折り紙",
+      "おりがみ",
+      "折紙",
+      "オリガミ",
+      "Origami"
+    ],
+    "flagged": true,
+    "note": "Asking a Japanese player for the Japanese word for paper folding is trivially easy; rephrased as 'traditional Japanese paper-folding pastime'. Consider swapping the question for ja."
+  },
+  "9ad71b86-781c-4956-aa69-66af96050f05": {
+    "text": "トルコの首都は？",
+    "answers": [],
+    "accepted": [
+      "アンカラ",
+      "あんから",
+      "Ankara",
+      "Ankkara",
+      "Angora"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "ff8385a7-6ae7-49da-9342-e89a326fe6b4": {
+    "text": "寒い砂漠を除いて、世界最大の砂漠は？",
+    "answers": [],
+    "accepted": [
+      "サハラ砂漠",
+      "サハラ",
+      "さはら砂漠",
+      "さはら",
+      "Sahara",
+      "Sahara Desert"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "3af2ac67-f389-4632-9a31-b214cc29271d": {
+    "text": "地球でいちばん大きい海は？",
+    "answers": [],
+    "accepted": [
+      "太平洋",
+      "たいへいよう",
+      "タイヘイヨウ",
+      "Pacific",
+      "Pacific Ocean"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "fa343599-9ecc-4caf-af1a-63e4de335e1f": {
+    "text": "人類で初めて宇宙に行ったのは誰？",
+    "answers": [],
+    "accepted": [
+      "ガガーリン",
+      "ユーリイ・ガガーリン",
+      "ユーリ・ガガーリン",
+      "ユーリガガーリン",
+      "Yuri Gagarin",
+      "Gagarin"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "8a5538b6-5391-4ca2-9170-66ac0420f280": {
+    "text": "1バイトは何ビット？",
+    "answers": [],
+    "accepted": [
+      "8",
+      "8ビット",
+      "八",
+      "はち",
+      "8bit",
+      "8 bits"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "d2e6287e-ed49-4e42-be4f-dc35331190df": {
+    "text": "人の心臓はいくつの部屋に分かれてる？",
+    "answers": [
+      "2つ",
+      "3つ",
+      "4つ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f1f0bbda-e76c-4f6e-81e8-32b84966cab7": {
+    "text": "太陽からいちばん遠い惑星は？",
+    "answers": [
+      "土星",
+      "天王星",
+      "海王星"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e3dfd91a-47bd-46d6-90c8-2e49867eac21": {
+    "text": "日本では、車は道路のどっち側を走る？",
+    "answers": [
+      "左側",
+      "右側",
+      "都市によって違う"
+    ],
+    "accepted": [],
+    "flagged": true,
+    "note": "Trivially easy for players in Japan; kept as-is for consistency. Consider swapping the country for ja (e.g. UK or Thailand also drive on the left)."
+  },
+  "9f40989a-0762-40d3-903b-d4dea3240a03": {
+    "text": "音がいちばん速く伝わるのはどれ？",
+    "answers": [
+      "空気",
+      "水",
+      "鋼鉄"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "dff24315-b611-4cfe-8d7f-20be40432141": {
+    "text": "周期表で1番目の元素は？",
+    "answers": [
+      "ヘリウム",
+      "水素",
+      "炭素"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ea6d9d3d-2197-4db4-b60c-62bcb6447bd5": {
+    "text": "三角形の内角の和は何度？",
+    "answers": [
+      "90度",
+      "180度",
+      "360度"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1572c049-70cc-40f7-a2ca-6961b2ed1349": {
+    "text": "グレートバリアリーフがあるのはどこの国の沖？",
+    "answers": [
+      "インドネシア",
+      "オーストラリア",
+      "ニュージーランド"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6500a604-8ff9-4f22-9e8f-7ecbba27e495": {
+    "text": "一般的なバイオリンの弦は何本？",
+    "answers": [
+      "4本",
+      "5本",
+      "6本"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9f810db5-4fdb-423e-abf2-3292b8b9edd9": {
+    "text": "野生のペンギンが住んでいるのはどっちの極のまわり？",
+    "answers": [
+      "北極",
+      "南極",
+      "両方"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ac7df825-f26e-45a2-ab65-51db4df6502f": {
+    "text": "この中でユーロを使っていない国は？",
+    "answers": [
+      "スペイン",
+      "イタリア",
+      "イギリス"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9c91cd31-abbe-4fb9-9763-dda7a0f91054": {
+    "text": "「光年」は何をはかる単位？",
+    "answers": [
+      "時間",
+      "距離",
+      "速さ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "60aeb9a2-e94c-4393-82d8-853cc1806d3e": {
+    "text": "100万にはゼロがいくつある？",
+    "answers": [
+      "3つ",
+      "6つ",
+      "9つ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1ed3a9a8-0ddd-47cf-9fdf-81494802742a": {
+    "text": "ダイヤモンドは何の元素でできてる？",
+    "answers": [
+      "鉄",
+      "炭素",
+      "ケイ素"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "48ce5e69-8d9b-429c-b688-5df35d7a98f6": {
+    "text": "バミューダトライアングルがあるのはどの海？",
+    "answers": [
+      "大西洋",
+      "太平洋",
+      "インド洋"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "121f2786-e448-4d1a-8a19-3224285579fc": {
+    "text": "紙が最初に発明された国は？",
+    "answers": [
+      "エジプト",
+      "中国",
+      "ギリシャ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5e59546c-0d39-49e7-89de-59bddc720db9": {
+    "text": "この中で哺乳類はどれ？",
+    "answers": [
+      "サメ",
+      "イルカ",
+      "ワニ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fae56cbe-9751-4315-889d-0738a1e46523": {
+    "text": "1年のうち、31日まである月はいくつ？",
+    "answers": [
+      "5つ",
+      "7つ",
+      "8つ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c2adfed9-80a9-4017-be0c-fa78e6c60d22": {
+    "text": "カサブランカがあるのはどこの国？",
+    "answers": [
+      "スペイン",
+      "モロッコ",
+      "アルジェリア"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3040e835-4830-4c50-ba4f-c21e473ca2de": {
+    "text": "EUの旗にある星はいくつ？",
+    "answers": [
+      "12個",
+      "15個",
+      "27個"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fdca625b-e0fb-4cff-a6a1-9fbf87b764a1": {
+    "text": "国土の面積が大きいのはどっち？",
+    "answers": [
+      "カナダ",
+      "アメリカ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "da747a22-25c3-40fb-a01a-d6a8b8c9078d": {
+    "text": "骨の数が多いのは、赤ちゃんと大人どっち？",
+    "answers": [
+      "赤ちゃん",
+      "大人"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "eb0f96be-4bb7-47cb-8149-8802bd503ac5": {
+    "text": "ガラスは液体？それとも固体？",
+    "answers": [
+      "液体",
+      "固体"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "65c04a62-0c2e-4482-922d-d4174cefdb30": {
+    "text": "雷のとき、先に届くのはどっち？",
+    "answers": [
+      "稲光",
+      "雷の音"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f8ffdcfd-cc69-4f84-b259-47b5d33b2203": {
+    "text": "密度が高いのは、水と油どっち？",
+    "answers": [
+      "水",
+      "油"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5aef0691-be25-44b1-a148-b2b2bc673aca": {
+    "text": "先に創業したのはどっち？",
+    "answers": [
+      "Google",
+      "Facebook"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "624f394a-6a99-474b-80ee-a0ecaaf71403": {
+    "text": "面積が大きいのは、グリーンランドとアフリカどっち？",
+    "answers": [
+      "グリーンランド",
+      "アフリカ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6fe00fe8-2109-4c1e-beae-07ba77a12da0": {
+    "text": "衛星の数が多いのは、地球と火星どっち？",
+    "answers": [
+      "地球",
+      "火星"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "97985581-9569-4731-b79e-f357f42c3689": {
+    "text": "植物学的に「ベリー」なのは、バナナといちごどっち？",
+    "answers": [
+      "バナナ",
+      "いちご"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,520 @@
+{
+  "b4c750af-f8f0-4584-ae71-dfb8801c9aa6": {
+    "text": "Ordne diese Küsse von deinem Favoriten bis zum Schlusslicht.",
+    "answers": [
+      "Auf die Lippen",
+      "Auf den Hals",
+      "Auf die Stirn"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "67cb823d-e3f0-4ac9-8866-d796508abd1f": {
+    "text": "Ordne danach, wie sehr dich das anzieht – von am meisten bis am wenigsten.",
+    "answers": [
+      "Selbstbewusstsein",
+      "Humor",
+      "Ein guter Duft"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a40ede2b-78ff-4724-9449-a45c57461c96": {
+    "text": "Ordne diese Nachrichten danach, worüber du dich am meisten freuen würdest – von am meisten bis am wenigsten.",
+    "answers": [
+      "Ich vermisse dich",
+      "Ich muss ständig an dich denken",
+      "Komm heute Abend vorbei"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "815a3f98-b4a5-4fd0-9f9b-d700fc77085b": {
+    "text": "Ordne diese Stimmungen im Schlafzimmer von deinem Favoriten bis zum Schlusslicht.",
+    "answers": [
+      "Kerzen und langsame Musik",
+      "Spontan und wild",
+      "Morgens faul kuscheln"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b43bd567-b100-45e3-a20c-29efb8bae93c": {
+    "text": "Ordne von am heißesten bis am wenigsten heiß.",
+    "answers": [
+      "Ein langsamer Tanz zu Hause",
+      "Ein Kompliment, ins Ohr geflüstert",
+      "Ein Blick quer durch den Raum"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "87e215dc-b11a-4f67-bda3-06ade8bea882": {
+    "text": "Ordne diese Date-Outfits an deinem Schatz von deinem Favoriten bis zum Schlusslicht.",
+    "answers": [
+      "Ganz in Schwarz",
+      "Etwas Lässiges",
+      "Schick angezogen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4525a249-5bf6-42b2-be08-48341df1ba75": {
+    "text": "Ordne danach, wie wichtig das im Bett ist – von am wichtigsten bis am unwichtigsten.",
+    "answers": [
+      "Chemie",
+      "Vertrauen",
+      "Sich Zeit lassen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c001fd14-8d0f-4dff-94b1-69e0db438326": {
+    "text": "Ordne danach, was du am liebsten hören würdest – von am liebsten bis am wenigsten gern.",
+    "answers": [
+      "Ich liebe dich",
+      "Du siehst umwerfend aus",
+      "Ich bin stolz auf dich"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f4742bda-b53d-49b1-b191-4150fc278d81": {
+    "text": "Ordne danach, wie sehr dich das anmacht – von am meisten bis am wenigsten.",
+    "answers": [
+      "Blickkontakt",
+      "Eine Hand an deiner Taille",
+      "Eine Nachricht spätnachts"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "df78beb9-c350-487c-a235-b0518a3bfbfe": {
+    "text": "Ordne diese Pläne für den Morgen danach von deinem Favoriten bis zum Schlusslicht.",
+    "answers": [
+      "Im Bett bleiben",
+      "Kaffee holen gehen",
+      "Frühstück machen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "41b2c062-252c-4c10-a8bf-e88d710b5ea4": {
+    "text": "Ordne danach, wie du am liebsten einschläfst – von am liebsten bis am wenigsten gern.",
+    "answers": [
+      "Kopf auf der Brust",
+      "In Löffelchenstellung",
+      "Händchen haltend"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8eda301d-7c3f-49af-aec2-fc0423901d80": {
+    "text": "Ordne danach, wann dein Schatz am heißesten aussieht – von am heißesten bis am wenigsten heiß.",
+    "answers": [
+      "Frisch aus der Dusche",
+      "Gerade aufgewacht",
+      "Schick zum Ausgehen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "70a62b93-c65f-4d98-a892-86b8a707fc3d": {
+    "text": "Ordne danach, wann du am meisten Lust auf deinen Schatz hast – von am meisten bis am wenigsten.",
+    "answers": [
+      "Gleich am Morgen",
+      "Spät in der Nacht",
+      "An einem faulen Nachmittag"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "75e0cb19-fea2-4494-8adf-0e22931ec893": {
+    "text": "Ordne danach, wo du gerade am liebsten mit deinem Schatz wärst – von am liebsten bis am wenigsten gern.",
+    "answers": [
+      "Im Bett",
+      "Auf dem Sofa",
+      "In der Küche"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2ca4f57f-c3f5-47b4-93a7-9c2f1dc169dd": {
+    "text": "Ordne danach, wobei dein Schatz am heißesten wirkt – von am heißesten bis am wenigsten heiß.",
+    "answers": [
+      "Beim Kochen",
+      "Beim Autofahren",
+      "Beim Fertigmachen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "974a6f9c-093b-4c48-835e-d7b5bac59203": {
+    "text": "Ordne danach, wie du das Licht am liebsten hast – von am liebsten bis am wenigsten gern.",
+    "answers": [
+      "Aus",
+      "Gedimmt",
+      "An"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "88d7fedc-4d52-4be0-98d2-a75a0d9f53e4": {
+    "text": "Ordne danach, was du in der Öffentlichkeit am liebsten magst – von am liebsten bis am wenigsten gern.",
+    "answers": [
+      "Händchen halten",
+      "Ein Kuss",
+      "Den Arm um dich gelegt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2a5bfd54-ff94-420a-9fcf-512cd8271196": {
+    "text": "Ordne diese Stimmungskiller von am schlimmsten bis am harmlosesten.",
+    "answers": [
+      "Das Handy im Bett",
+      "Socken anbehalten",
+      "Über morgen reden"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a3acaf1b-03bc-4d5d-bf4f-ef8f162d0024": {
+    "text": "Ordne danach, was du an deinem Schatz am heißesten findest – von am heißesten bis am wenigsten heiß.",
+    "answers": [
+      "Die Stimme",
+      "Das Lachen",
+      "Die Hände"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3940d942-8ee8-4f59-a1b9-ce5291035cb3": {
+    "text": "Ordne danach, was im Hintergrund laufen soll, wenn ihr euch nahe seid – von am liebsten bis am wenigsten gern.",
+    "answers": [
+      "Musik",
+      "Ein Film",
+      "Stille"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "349e6ac2-ca86-4787-bd63-0fa8d2a01c9c": {
+    "text": "Ordne diese Komplimente von am heißesten bis am wenigsten heiß.",
+    "answers": [
+      "Deine Augen",
+      "Dein Gang",
+      "Dein Verstand"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c9a2949b-c673-4d84-bb91-2957d6aac12a": {
+    "text": "Ordne von am unwiderstehlichsten bis am wenigsten unwiderstehlich.",
+    "answers": [
+      "Ein langer Blick",
+      "Eine langsame Berührung",
+      "Plötzlich an sich gezogen werden"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ebe6f489-3e4f-4e3b-99f3-3457442aaf0f": {
+    "text": "Ordne danach, wo es am gefährlichsten wäre, fast erwischt zu werden – von am meisten bis am wenigsten.",
+    "answers": [
+      "Im Aufzug",
+      "Im Hausflur",
+      "In der Tiefgarage",
+      "Auf dem Balkon"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7c0e85e4-e20f-4634-98c6-2261afc497b4": {
+    "text": "Ihr hättet nur zehn Minuten: Ordne, womit du sie am liebsten verbringen würdest – von am liebsten bis am wenigsten gern.",
+    "answers": [
+      "Küssen",
+      "Ganz nah reden",
+      "Tanzen",
+      "Nichts tun"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ebe249a6-680c-486b-9131-11b007a670c7": {
+    "text": "Ordne danach, was du nach einer schönen gemeinsamen Nacht am liebsten machst – von am liebsten bis am wenigsten gern.",
+    "answers": [
+      "Einschlafen",
+      "Reden",
+      "Etwas essen",
+      "Länger im Bett bleiben"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d4fd32e2-7d6a-44a8-91ef-e94c0f2c3451": {
+    "text": "Welches Tempo findest du am heißesten? Ordne von am heißesten bis am wenigsten heiß.",
+    "answers": [
+      "Langsam",
+      "Verspielt",
+      "Plötzlich",
+      "Leise"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3a69e894-7819-490d-8563-a6589076092b": {
+    "text": "Ordne danach, wo du den ersten Kuss des Abends am liebsten hättest – von am liebsten bis am wenigsten gern.",
+    "answers": [
+      "In der Küche",
+      "An der Tür",
+      "Im Auto",
+      "Im Aufzug"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e5e17a90-d530-4aa3-80eb-23fb649335b1": {
+    "text": "Ordne danach, wovon du gern mehr hättest – von am meisten bis am wenigsten.",
+    "answers": [
+      "Leidenschaft",
+      "Zärtlichkeit",
+      "Spannung",
+      "Verspieltheit"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "51beda2f-ffb7-40fe-b554-0e183cfd43e4": {
+    "text": "Ordne danach, wie du dich bei deinem Schatz am meisten fühlen willst – von am meisten bis am wenigsten.",
+    "answers": [
+      "Begehrt",
+      "Gebraucht",
+      "Vermisst",
+      "Auserwählt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ea0ac43f-9b82-4d51-9cf4-78a4cf7545ff": {
+    "text": "Ordne danach, was du dir zwischen euch am meisten wünschst – von am meisten bis am wenigsten.",
+    "answers": [
+      "Feuer",
+      "Sanftheit",
+      "Humor",
+      "Geheimnis"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b33d9197-1472-4004-8e92-0a9e6890460d": {
+    "text": "Ordne danach, was du dir heute Nacht am meisten von deinem Schatz wünschst – von am meisten bis am wenigsten.",
+    "answers": [
+      "Aufmerksamkeit",
+      "Freiraum",
+      "Berührung",
+      "Worte"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e10a78c4-bba9-4cda-93b1-c4906cd97f5a": {
+    "text": "Ordne danach, wann du am meisten Lust hast – von am meisten bis am wenigsten.",
+    "answers": [
+      "Wenn ihr zehn Minuten habt",
+      "Wenn ihr die ganze Nacht habt",
+      "Am Morgen",
+      "Wenn ihr längst weg sein müsstet"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "44c790a0-ccd4-4040-88ca-534378d9d65d": {
+    "text": "Ordne danach, was dich am meisten reizt, obwohl es gerade nicht passt – von am meisten bis am wenigsten.",
+    "answers": [
+      "Im Nebenzimmer ist jemand",
+      "Ihr seid spät dran",
+      "Morgen früh ruft die Arbeit",
+      "Ihr habt euch gerade angezogen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "48682e7c-5689-4ea0-9fc2-6fc22eba77a8": {
+    "text": "Welche Art Kuss magst du am liebsten? Ordne vom Favoriten bis zum Schlusslicht.",
+    "answers": [
+      "Ein langer Kuss",
+      "Viele kurze",
+      "Langsam und träge",
+      "Kurz aufhören, dann weiter"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d2b1dc0b-5c63-42eb-a4c4-b21fd01bbe67": {
+    "text": "Ordne danach, worauf du am leichtesten verzichten könntest – von am leichtesten bis am schwersten.",
+    "answers": [
+      "Küssen",
+      "Nebeneinander schlafen",
+      "Umarmen",
+      "Flirtnachrichten"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": "Used 'Nebeneinander schlafen' (literal sleeping, as in TR) instead of 'Zusammen schlafen', which in German strongly implies sex."
+  },
+  "889aa2d5-2b3b-4387-a97b-73d9cbf8fb71": {
+    "text": "Ordne danach, was du an deinem Schatz am meisten vermissen würdest – von am meisten bis am wenigsten.",
+    "answers": [
+      "Die Hände",
+      "Die Stimme",
+      "Wie dein Schatz dich ansieht",
+      "Der Duft"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c30176ee-2dbe-4f33-9364-034d99537ea3": {
+    "text": "Ordne danach, was du morgens am meisten vermissen würdest – von am meisten bis am wenigsten.",
+    "answers": [
+      "Neben deinem Schatz aufwachen",
+      "Ein Kuss vor dem Aufstehen",
+      "Dein Schatz schläft noch auf dir",
+      "Kaffee im Bett"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "08273933-f45b-493e-bfc0-447e6bde1cf1": {
+    "text": "Welcher Kuss ist dein Favorit? Ordne von am liebsten bis am wenigsten gern.",
+    "answers": [
+      "Ein Begrüßungskuss",
+      "Ein Abschiedskuss",
+      "Ein Gutenachtkuss",
+      "Ein Kuss, der dich unterbricht"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1c1f83f0-3f05-46bd-9675-126bb7738f0d": {
+    "text": "Ordne danach, was die Stimmung am meisten killen würde – von am meisten bis am wenigsten.",
+    "answers": [
+      "Eine Benachrichtigung checken",
+      "„Wie war ich?“ fragen",
+      "Auf die Uhr schauen",
+      "Dich „Kumpel“ nennen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "daef0884-7dca-444f-97a4-4aa50630566b": {
+    "text": "Ordne diese Berührungen von deinem Favoriten bis zum Schlusslicht.",
+    "answers": [
+      "Eine Massage",
+      "Mit deinen Haaren spielen",
+      "Über deinen Rücken streichen",
+      "Dein Gesicht halten"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5ac839e1-d41e-4cf9-b357-3bd1eea3730b": {
+    "text": "Ordne danach, wo du die Hände deines Schatzes am liebsten spürst – von am liebsten bis am wenigsten gern.",
+    "answers": [
+      "In deinen Haaren",
+      "An deiner Taille",
+      "An deinem Gesicht",
+      "Im Nacken"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3e9f0724-74ca-4238-9f3d-e0c45b56d001": {
+    "text": "Ordne danach, wo du am liebsten geküsst wirst – von am liebsten bis am wenigsten gern.",
+    "answers": [
+      "Am Kiefer",
+      "Am Schlüsselbein",
+      "Hinter dem Ohr",
+      "Auf der Schulter"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ed8201c6-39a1-437c-b23b-3bf03afac54b": {
+    "text": "Ordne danach, worin du deinen Schatz am liebsten siehst – von am liebsten bis am wenigsten gern.",
+    "answers": [
+      "In deinem Hoodie",
+      "In fast nichts",
+      "Im Outfit vom Ausgehen",
+      "Nur im Handtuch"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0fc286a5-79f8-4651-ae16-bb8cb61d4132": {
+    "text": "Ordne danach, was du im Dunkeln am liebsten machst – von am liebsten bis am wenigsten gern.",
+    "answers": [
+      "Küssen",
+      "Reden",
+      "Lachen",
+      "Schweigen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "da02165a-765e-4918-ab60-2f16cd2f6e28": {
+    "text": "Ordne danach, womit dein Schatz nie aufhören soll – von am meisten bis am wenigsten.",
+    "answers": [
+      "Küssen",
+      "Anschauen",
+      "Reden",
+      "Berühren"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

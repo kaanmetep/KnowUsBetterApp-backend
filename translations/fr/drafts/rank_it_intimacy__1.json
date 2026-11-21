@@ -1,0 +1,520 @@
+{
+"b4c750af-f8f0-4584-ae71-dfb8801c9aa6": {
+"text": "Classe ces bisous, de ton préféré à celui que tu aimes le moins.",
+"answers": [
+"Sur les lèvres",
+"Dans le cou",
+"Sur le front"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"67cb823d-e3f0-4ac9-8866-d796508abd1f": {
+"text": "Classe ce qui t'attire, du plus au moins.",
+"answers": [
+"La confiance en soi",
+"L'humour",
+"Sentir bon"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"a40ede2b-78ff-4724-9449-a45c57461c96": {
+"text": "Classe ces textos, du plus au moins agréable à recevoir.",
+"answers": [
+"Tu me manques",
+"Je pense à toi sans arrêt",
+"Viens chez moi ce soir"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"815a3f98-b4a5-4fd0-9f9b-d700fc77085b": {
+"text": "Classe ces ambiances au lit, de ta préférée à celle que tu aimes le moins.",
+"answers": [
+"Bougies et musique douce",
+"Spontané et sauvage",
+"Câlins et grasse mat'"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"b43bd567-b100-45e3-a20c-29efb8bae93c": {
+"text": "Classe du plus sexy au moins sexy.",
+"answers": [
+"Un slow à la maison",
+"Un compliment murmuré à l'oreille",
+"Un regard de l'autre bout de la pièce"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"87e215dc-b11a-4f67-bda3-06ade8bea882": {
+"text": "Classe ces tenues de rendez-vous sur ta moitié, de ta préférée à celle que tu aimes le moins.",
+"answers": [
+"Tout en noir",
+"Un look décontracté",
+"Une tenue chic"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"4525a249-5bf6-42b2-be08-48341df1ba75": {
+"text": "Au lit, classe du plus important au moins important.",
+"answers": [
+"L'alchimie",
+"La confiance",
+"Prendre son temps"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"c001fd14-8d0f-4dff-94b1-69e0db438326": {
+"text": "Classe ce que tu aimerais le plus entendre, du plus au moins.",
+"answers": [
+"Je t'aime",
+"Tu es magnifique",
+"Je t'admire"
+],
+"accepted": [],
+"flagged": true,
+"note": "\"I'm proud of you\" -> \"Je t'admire\": \"Je suis fier/fière de toi\" would reveal the speaker's gender."
+},
+"f4742bda-b53d-49b1-b191-4150fc278d81": {
+"text": "Classe ce qui t'émoustille, du plus au moins.",
+"answers": [
+"Un regard dans les yeux",
+"Une main sur ta taille",
+"Un texto tard le soir"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"df78beb9-c350-487c-a235-b0518a3bfbfe": {
+"text": "Classe ces plans pour le lendemain matin, du plus au moins tentant.",
+"answers": [
+"Rester au lit",
+"Aller prendre un café",
+"Préparer le petit-déj"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"41b2c062-252c-4c10-a8bf-e88d710b5ea4": {
+"text": "Classe ces façons de t'endormir, de ta préférée à celle que tu aimes le moins.",
+"answers": [
+"Contre son cœur",
+"En cuillère",
+"Main dans la main"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"8eda301d-7c3f-49af-aec2-fc0423901d80": {
+"text": "Classe ces moments où ta moitié te fait craquer, du plus au moins.",
+"answers": [
+"À la sortie de la douche",
+"Au réveil",
+"En tenue de soirée"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"70a62b93-c65f-4d98-a892-86b8a707fc3d": {
+"text": "Classe ces moments, de celui où tu as le plus envie de ta moitié au moins.",
+"answers": [
+"Dès le réveil",
+"Tard le soir",
+"Un après-midi tranquille"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"75e0cb19-fea2-4494-8adf-0e22931ec893": {
+"text": "Là, tout de suite, classe où tu voudrais être avec ta moitié, du plus au moins.",
+"answers": [
+"Au lit",
+"Sur le canapé",
+"Dans la cuisine"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"2ca4f57f-c3f5-47b4-93a7-9c2f1dc169dd": {
+"text": "Quand ta moitié fait ça, classe du plus sexy au moins sexy.",
+"answers": [
+"Cuisiner",
+"Conduire",
+"Se préparer"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"974a6f9c-093b-4c48-835e-d7b5bac59203": {
+"text": "Côté lumière, classe ce que tu préfères, du plus au moins.",
+"answers": [
+"Dans le noir",
+"Lumière tamisée",
+"Grande lumière"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"88d7fedc-4d52-4be0-98d2-a75a0d9f53e4": {
+"text": "En public, classe ce que tu aimes le plus, du plus au moins.",
+"answers": [
+"Main dans la main",
+"Un baiser",
+"Son bras autour de toi"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"2a5bfd54-ff94-420a-9fcf-512cd8271196": {
+"text": "Classe ce qui casse le plus l'ambiance, du plus au moins.",
+"answers": [
+"Son téléphone au lit",
+"Garder ses chaussettes",
+"Parler du lendemain"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"a3acaf1b-03bc-4d5d-bf4f-ef8f162d0024": {
+"text": "Chez ta moitié, classe du plus sexy au moins sexy.",
+"answers": [
+"Sa voix",
+"Son rire",
+"Ses mains"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"3940d942-8ee8-4f59-a1b9-ce5291035cb3": {
+"text": "Dans vos moments à deux, classe ce que tu préfères en fond, du plus au moins.",
+"answers": [
+"De la musique",
+"Un film qui tourne",
+"Le silence"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"349e6ac2-ca86-4787-bd63-0fa8d2a01c9c": {
+"text": "Classe ces compliments, du plus sexy au moins sexy à recevoir.",
+"answers": [
+"Tes yeux",
+"Ta démarche",
+"Ton intelligence"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"c9a2949b-c673-4d84-bb91-2957d6aac12a": {
+"text": "Classe du plus irrésistible au moins irrésistible.",
+"answers": [
+"Un regard qui s'attarde",
+"Une caresse lente",
+"Une main qui t'attire d'un coup"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"ebe6f489-3e4f-4e3b-99f3-3457442aaf0f": {
+"text": "Classe ces endroits, du plus au moins risqué pour se faire pincer.",
+"answers": [
+"Un ascenseur",
+"Un couloir",
+"Un parking",
+"Un balcon"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"7c0e85e4-e20f-4634-98c6-2261afc497b4": {
+"text": "Si vous n'aviez que dix minutes, classe comment tu les passerais, du plus au moins.",
+"answers": [
+"S'embrasser",
+"Se parler tout près",
+"Danser",
+"Ne rien faire"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"ebe249a6-680c-486b-9131-11b007a670c7": {
+"text": "Après une belle nuit ensemble, classe ce que tu veux faire, du plus au moins.",
+"answers": [
+"S'endormir",
+"Parler",
+"Grignoter un truc",
+"Traîner au lit"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"d4fd32e2-7d6a-44a8-91ef-e94c0f2c3451": {
+"text": "Classe ces rythmes, du plus chaud au moins chaud.",
+"answers": [
+"La lenteur",
+"Le jeu",
+"La surprise",
+"Le silence"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"3a69e894-7819-490d-8563-a6589076092b": {
+"text": "Classe où tu voudrais le premier baiser de la soirée, du plus au moins.",
+"answers": [
+"Dans la cuisine",
+"Près de la porte",
+"Dans la voiture",
+"Dans un ascenseur"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"e5e17a90-d530-4aa3-80eb-23fb649335b1": {
+"text": "Classe ce que tu voudrais plus souvent, du plus au moins.",
+"answers": [
+"La passion",
+"La tendresse",
+"La tension",
+"Le jeu"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"51beda2f-ffb7-40fe-b554-0e183cfd43e4": {
+"text": "Avec ta moitié, classe ce que tu veux le plus sentir, du plus au moins.",
+"answers": [
+"Qu'on te désire",
+"Qu'on ait besoin de toi",
+"Que tu lui manques",
+"Qu'on te choisisse"
+],
+"accepted": [],
+"flagged": true,
+"note": "Options rephrased as clauses (sentir qu'on te désire…): the participles désiré/choisi would agree with the player's gender."
+},
+"ea0ac43f-9b82-4d51-9cf4-78a4cf7545ff": {
+"text": "Classe ce que tu veux le plus entre vous, du plus au moins.",
+"answers": [
+"Le feu",
+"La douceur",
+"L'humour",
+"Le mystère"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"b33d9197-1472-4004-8e92-0a9e6890460d": {
+"text": "Ce soir, classe ce que tu attends le plus de ta moitié, du plus au moins.",
+"answers": [
+"De l'attention",
+"De l'espace",
+"Des caresses",
+"Des mots doux"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"e10a78c4-bba9-4cda-93b1-c4906cd97f5a": {
+"text": "Classe ces moments, de celui où tu en as le plus envie au moins.",
+"answers": [
+"Quand on a dix minutes",
+"Quand on a toute la nuit",
+"Le matin",
+"Quand on devrait déjà avoir filé"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"44c790a0-ccd4-4040-88ca-534378d9d65d": {
+"text": "Classe ces situations, de la plus tentante à la moins tentante, quand il ne faudrait pas.",
+"answers": [
+"Quelqu'un dans la pièce d'à côté",
+"Vous êtes en retard",
+"Boulot demain matin",
+"Tu viens de t'habiller"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"48682e7c-5689-4ea0-9fc2-6fc22eba77a8": {
+"text": "Classe ces baisers, de ton préféré à celui que tu aimes le moins.",
+"answers": [
+"Un seul long baiser",
+"Plein de petits bisous",
+"Tout en lenteur",
+"Une pause, puis ça reprend"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"d2b1dc0b-5c63-42eb-a4c4-b21fd01bbe67": {
+"text": "Classe ces choses, de la plus facile à la plus dure à abandonner.",
+"answers": [
+"S'embrasser",
+"Dormir ensemble",
+"Se câliner",
+"Les textos de flirt"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"889aa2d5-2b3b-4387-a97b-73d9cbf8fb71": {
+"text": "Classe ce qui te manquerait le plus chez ta moitié, du plus au moins.",
+"answers": [
+"Ses mains",
+"Sa voix",
+"Sa façon de te regarder",
+"Son odeur"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"c30176ee-2dbe-4f33-9364-034d99537ea3": {
+"text": "Le matin, classe ce qui te manquerait le plus, du plus au moins.",
+"answers": [
+"Te réveiller à ses côtés",
+"Un bisou avant de se lever",
+"Ta moitié qui dort encore sur toi",
+"Un café au lit"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"08273933-f45b-493e-bfc0-447e6bde1cf1": {
+"text": "Classe ces bisous, du plus craquant au moins craquant.",
+"answers": [
+"Le bisou en arrivant",
+"Le bisou en partant",
+"Le bisou de bonne nuit",
+"Le bisou qui te coupe la parole"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"1c1f83f0-3f05-46bd-9675-126bb7738f0d": {
+"text": "Classe ce qui tuerait le plus l'ambiance, du plus au moins.",
+"answers": [
+"Regarder une notif",
+"Demander « J'ai assuré ? »",
+"Regarder l'heure",
+"T'appeler « mon pote »"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"daef0884-7dca-444f-97a4-4aa50630566b": {
+"text": "Classe ces caresses, de ta préférée à celle que tu aimes le moins.",
+"answers": [
+"Un massage",
+"Une main dans tes cheveux",
+"Des doigts qui glissent dans ton dos",
+"Ton visage entre ses mains"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"5ac839e1-d41e-4cf9-b357-3bd1eea3730b": {
+"text": "Où préfères-tu ses mains ? Classe du plus au moins.",
+"answers": [
+"Dans tes cheveux",
+"Sur ta taille",
+"Sur ton visage",
+"Sur ta nuque"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"3e9f0724-74ca-4238-9f3d-e0c45b56d001": {
+"text": "Où préfères-tu recevoir un baiser ? Classe du plus au moins.",
+"answers": [
+"La mâchoire",
+"La clavicule",
+"Derrière l'oreille",
+"L'épaule"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"ed8201c6-39a1-437c-b23b-3bf03afac54b": {
+"text": "Classe ce que ta moitié pourrait porter, du plus au moins craquant.",
+"answers": [
+"Ton sweat à capuche",
+"Presque rien",
+"Sa tenue de la soirée",
+"Juste une serviette"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"0fc286a5-79f8-4651-ae16-bb8cb61d4132": {
+"text": "Dans le noir, classe ce que tu préfères faire, du plus au moins.",
+"answers": [
+"S'embrasser",
+"Parler",
+"Rire",
+"Ne rien dire"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+},
+"da02165a-765e-4918-ab60-2f16cd2f6e28": {
+"text": "Classe ce que ta moitié ne devrait jamais arrêter, du plus au moins.",
+"answers": [
+"T'embrasser",
+"Te regarder",
+"Te parler",
+"Te toucher"
+],
+"accepted": [],
+"flagged": false,
+"note": ""
+}
+}

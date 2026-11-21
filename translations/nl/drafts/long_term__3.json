@@ -1,0 +1,545 @@
+{
+ "9c033c13-73b4-44e7-a935-0242b4fae94f": {
+  "text": "Zou je het erg vinden als je partner je nooit aan de eigen vrienden voorstelt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "40137f6d-8f1e-45c1-a4dc-a63c87f0a92f": {
+  "text": "Vind je dat je je ex van social media moet verwijderen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "32bec47e-fda0-4934-bb7e-536d8e4cf7f2": {
+  "text": "Als je je partner na het trouwen fysiek niet meer aantrekkelijk zou vinden, zou je dan scheiden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": "Used 'je partner' instead of 'spouse' (echtgenoot/echtgenote is gendered)."
+ },
+ "0f881ec0-2f6d-4a8d-8f6f-1fe54395c59f": {
+  "text": "Wil je dat je kind meer op jou lijkt of op je partner?",
+  "answers": [
+   "Op mij",
+   "Op mijn partner"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ae4f73ff-5e35-4faa-bea5-ccb6fff9920e": {
+  "text": "Als je partner het heel graag wil, zou je jullie kind dan vernoemen naar de moeder van je partner?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b246de81-762a-451c-8b6a-a4a4cdf1c14f": {
+  "text": "Zou het je storen als je partner een nepaccount heeft om mensen te stalken?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "04fb3b07-0c4a-4470-906f-69ff3696620b": {
+  "text": "Los je problemen in een relatie beter op met even een pauze, of juist zonder pauze?",
+  "answers": [
+   "Pauze nemen",
+   "Zonder pauze oplossen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9abff03b-7b65-419f-b4d6-2d469b4dc7be": {
+  "text": "1 miljoen dollar maar je partner 2 jaar niet zien, of 10 miljoen dollar maar je partner 4 jaar niet zien?",
+  "answers": [
+   "1 miljoen dollar, 2 jaar apart",
+   "10 miljoen dollar, 4 jaar apart"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "80bd3596-b457-49a1-a292-e3a26678f409": {
+  "text": "Ben je liever samen met iemand van wie je houdt maar met wie je constant ruzie hebt, of met iemand die minder bij je past maar met wie het rustig is?",
+  "answers": [
+   "Liefde met ruzies",
+   "Minder klik, wel rust"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "550b4795-47de-43b4-9981-5522c66470f3": {
+  "text": "Wat heb je liever: een bescheiden huwelijksaanzoek van je partner of een groots aanzoek?",
+  "answers": [
+   "Bescheiden aanzoek",
+   "Groots aanzoek"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c90ae871-809e-4ada-9637-99d6ff40dce7": {
+  "text": "Wat heb je liever: dat je partner een verlovingsring koopt die het budget flink oprekt, of eentje die veel goedkoper is dan nodig?",
+  "answers": [
+   "Ring die het budget oprekt",
+   "Veel goedkopere ring"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9ae0640c-d472-4528-a93b-99746bc50ea6": {
+  "text": "Wat heb je liever: dat je partner het aanzoek helemaal alleen plant, of stiekem je vrienden om advies vraagt?",
+  "answers": [
+   "Helemaal alleen plannen",
+   "Stiekem vrienden vragen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4d5dde88-5d3a-4751-91aa-1004648687c2": {
+  "text": "Wat heb je liever: een partner die liefde toont met grote gebaren, of met kleine dingen elke dag?",
+  "answers": [
+   "Grote gebaren",
+   "Kleine dagelijkse dingen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "db9d8560-2591-456f-b350-c20096c3e897": {
+  "text": "Is het oké als je partner een vriend of vriendin van het andere geslacht knuffelt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "'Opposite sex' kept as in source (also in d1af31ed, 1fd7db14, 9cd41d79, 12cc068c, 940c094a); assumes a mixed-gender couple, which the app can't know. 'vriend of vriendin' refers to third parties, not players."
+ },
+ "d1af31ed-9299-485a-941b-b8031854ca9c": {
+  "text": "Is het oké als je partner een vriend of vriendin van het andere geslacht trakteert op een etentje?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1fd7db14-1dfd-4713-a16a-91a0bc778c60": {
+  "text": "Is het oké als je partner met een vriend of vriendin van het andere geslacht onder vier ogen afspreekt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "49fd0add-5bf4-4012-b988-e6a0c6e704c2": {
+  "text": "Is het een probleem voor je als je partner een celebrity crush heeft?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9cd41d79-298f-431e-92ae-8a1bba9c478f": {
+  "text": "Vind je het oké om de berichten van je partner met vrienden van het andere geslacht te lezen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "585ec0e7-b6f1-444c-b04c-2ef0117d83bd": {
+  "text": "Met je partner…",
+  "answers": [
+   "Een veilige maar saaie band",
+   "Een riskante maar levendige band"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "12cc068c-eb0e-44d6-b816-c39859648964": {
+  "text": "Zou je boos worden als je partner weigert om je de berichten met een vriend of vriendin van het andere geslacht te laten zien?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "940c094a-220c-40f3-9526-a5fea4f487bd": {
+  "text": "Is het oké als je partner even logeert bij een vriend of vriendin van het andere geslacht?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "db9c8d1c-063f-4c3d-8da6-84abfcb592e7": {
+  "text": "Zou het tot ruzie leiden als je partner het hele weekend helemaal alleen wil gamen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8c809c4c-7508-47c3-b12b-68ca4fae57b8": {
+  "text": "In een lange relatie wordt de liefde na verloop van tijd…",
+  "answers": [
+   "Sterker",
+   "Anders"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2e1f0de3-37db-41c9-a49f-ceb0bde8402f": {
+  "text": "Moet je partner vooral aan de eigen toekomst denken of aan die van jou?",
+  "answers": [
+   "De eigen toekomst",
+   "Jouw toekomst"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "58cc044f-d0e6-407b-b19f-4db600605254": {
+  "text": "Als je partner je probeert te veranderen, is dat…",
+  "answers": [
+   "Acceptabel",
+   "Nooit acceptabel"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "faeb28bd-22ea-4bb9-89c6-5cd68917656d": {
+  "text": "Sleur in een lange relatie is…",
+  "answers": [
+   "Onvermijdelijk",
+   "Te voorkomen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "93bfc65c-0d46-4cbc-86a5-46802820f43b": {
+  "text": "Als je partner je probeert te veranderen, ook al is het “voor je eigen bestwil”, is dat…",
+  "answers": [
+   "Acceptabel",
+   "Nooit acceptabel"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d396fe80-cd3f-43c3-842a-fcd6c54b23b4": {
+  "text": "Als je partner over eerdere relaties vertelt, is dat…",
+  "answers": [
+   "Normaal en nodig",
+   "Onnodig en schadelijk"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1145588f-eea5-4226-80b3-a98a5d0b043c": {
+  "text": "Jaloezie is…",
+  "answers": [
+   "Een teken van liefde",
+   "Een teken van onzekerheid"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "aabf084a-c712-4d5f-872c-8351c008d756": {
+  "text": "Als je partner je vrienden niet mag, is dat…",
+  "answers": [
+   "Mogelijk een probleem",
+   "Geen probleem"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "31b2a2da-9927-44e9-948c-1edd25445983": {
+  "text": "Als je partner je niet constant appt, is dat…",
+  "answers": [
+   "Normaal",
+   "Gebrek aan interesse"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "aaa13474-4c03-4f25-b201-c6c81cf34b35": {
+  "text": "Als je partner niets plant en pas op het laatste moment iets laat weten, is dat…",
+  "answers": [
+   "Spontaan",
+   "Respectloos"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c8052202-a0f7-4d5a-9e3d-4aaa2bba5caf": {
+  "text": "Constant samen zijn in een relatie…",
+  "answers": [
+   "Schept een band",
+   "Voelt verstikkend"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "48e6113e-51b4-4e1f-a138-7c7149028fa3": {
+  "text": "Stil blijven tijdens een ruzie is…",
+  "answers": [
+   "Volwassen",
+   "Ontwijkend"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c3b94f1d-30c4-4c5d-bed8-ab4965ec0b5b": {
+  "text": "Je partner ter verantwoording roepen is…",
+  "answers": [
+   "Normaal",
+   "Een teken van onzekerheid"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e2f38a08-615d-4063-9ef1-e1194aabb7a6": {
+  "text": "Vrijheid in een relatie…",
+  "answers": [
+   "Is het allerbelangrijkst",
+   "Maakt de liefde minder"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3354bd61-f081-4c81-8939-a8009d25b348": {
+  "text": "Tijd apart doorbrengen in een relatie…",
+  "answers": [
+   "Is gezond",
+   "Schept afstand"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "64a23406-a16e-4819-9dd8-da44d139f8e6": {
+  "text": "Stilte tussen jou en je partner is…",
+  "answers": [
+   "Een teken van comfort",
+   "Een teken van afstand"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "52bd1a52-d873-4451-8a68-da4c7ade05d3": {
+  "text": "Routine in een lange relatie…",
+  "answers": [
+   "Geeft vertrouwen",
+   "Zorgt voor verveling"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7a0db8b2-560c-41e6-849a-993e7e074ae8": {
+  "text": "Wat is belangrijker in een relatie: liefde of respect?",
+  "answers": [
+   "Liefde",
+   "Respect"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9d7e63d7-607b-48a9-949a-16936f965dc6": {
+  "text": "Alles delen met je partner…",
+  "answers": [
+   "Brengt je dichter bij elkaar",
+   "Neemt je eigen ruimte weg"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7ee80276-4cae-4786-8e8a-6c3732d4bad2": {
+  "text": "In een lange relatie is liefde vooral…",
+  "answers": [
+   "Een keuze",
+   "Een gevoel"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ddcf2c7d-04d2-4a0c-b0ed-119f2f636bc6": {
+  "text": "Het grootste risico in een relatie is…",
+  "answers": [
+   "Uit elkaar groeien",
+   "Te gewend aan elkaar raken"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2b676dd8-d2b2-4d4d-91f2-6cd5c4997b2b": {
+  "text": "In een lange relatie gaan mensen vaker…",
+  "answers": [
+   "Elkaar aanvullen",
+   "Op elkaar lijken"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d28a64f1-32ba-433f-82dd-72bf9c2cc578": {
+  "text": "Je partner accepteren zoals die is…",
+  "answers": [
+   "Is liefde op z’n mooist",
+   "Remt de groei"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "08a3ebbf-7806-4766-923d-2957e0c0d2c2": {
+  "text": "Met je partner…",
+  "answers": [
+   "Perfecte match, weinig passie",
+   "Veel passie, constant botsen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b97d013a-ccd8-4678-b52e-c6ba122ef54b": {
+  "text": "In een relatie…",
+  "answers": [
+   "Wordt alles routine",
+   "Is niets stabiel"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b933a4a0-fb1a-423e-8571-96ecb4dd4b7b": {
+  "text": "In een relatie…",
+  "answers": [
+   "Minder liefde, meer rust",
+   "Sterke liefde, minder rust"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "641d3889-c306-47c1-875c-525e5c928cdc": {
+  "text": "Wat is erger in een relatie: geschonden vertrouwen of totaal geen interesse meer?",
+  "answers": [
+   "Geschonden vertrouwen",
+   "Totaal geen interesse meer"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d1483a50-6ff5-4975-9b46-224f67e0036b": {
+  "text": "Wat is erger in een lange relatie: constant wantrouwen of een constant leeg gevoel?",
+  "answers": [
+   "Constant wantrouwen",
+   "Constant een leeg gevoel"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d0a3444e-8114-4511-a054-56a7198b70a0": {
+  "text": "Wat is zwaarder in een lange relatie: blijven zonder te weten of er van je gehouden wordt, of blijven terwijl je weet dat je niet meer van de ander houdt?",
+  "answers": [
+   "Niet weten of er van je gehouden wordt",
+   "Weten dat je niet meer van de ander houdt"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "86598b9e-9d8a-47a4-b230-ea71b1e47093": {
+  "text": "Wat is gezonder in een lange relatie: alles uitpraten of sommige dingen met de tijd laten oplossen?",
+  "answers": [
+   "Alles uitpraten",
+   "Sommige dingen tijd geven"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a3f28e46-c315-4260-8130-3b9f5f03147d": {
+  "text": "Vertrouwen in een relatie…",
+  "answers": [
+   "Bouw je op door open te zijn",
+   "Groeit stilletjes met de tijd"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bab53c7d-eba6-4584-a606-4af030d5d86b": {
+  "text": "Verschillen met je partner…",
+  "answers": [
+   "Praat je samen uit",
+   "Accepteer je zoals ze zijn"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0972afde-efba-45c4-84f3-1ecccab07b8b": {
+  "text": "Hoeveel kinderen zou je willen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "877a7f71-261e-441f-ae71-d19aafbce112": {
+  "text": "Als we morgen de loterij zouden winnen, wat moeten we dan als eerste kopen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7a6c7486-c2d0-4670-8265-229eb7648fa1": {
+  "text": "Welke kamer in ons toekomstige huis is voor jou het belangrijkst?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "da02be22-6278-4003-867b-4669430cca9c": {
+  "text": "Als we ons liefdesverhaal in een ander decennium konden beleven, welk zou jij kiezen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6a9340b3-6abd-422e-9d0d-2755d92b2626": {
+  "text": "Wat is volgens jou de perfecte leeftijd om te trouwen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "84f363db-cdd5-4d66-b0ee-a92b4e42ea36": {
+  "text": "In welk seizoen wil jij dat onze bruiloft plaatsvindt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

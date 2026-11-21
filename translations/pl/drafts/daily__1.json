@@ -1,0 +1,692 @@
+{
+ "ad42c59d-bd4b-4f67-963a-f1a1c512f2c9": {
+  "text": "Gdy zaczyna się kłótnia, twój pierwszy odruch to…",
+  "answers": [
+   "Od razu powiedzieć wszystko",
+   "Zamilknąć i się wycofać",
+   "Załagodzić, choć coś jeszcze mnie gryzie",
+   "Wyjść z pokoju, żeby ochłonąć"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4847cd44-98d1-4533-bb0a-e8b49438e2a6": {
+  "text": "Czego potrzebujesz, żeby kłótnia naprawdę się dla ciebie skończyła?",
+  "answers": [
+   "Szczerych przeprosin",
+   "Poczucia zrozumienia",
+   "Jasnego rozwiązania",
+   "Najpierw chwili dla siebie",
+   "Fizycznej bliskości"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0a402b2b-06aa-4c65-9534-cd5828e42c46": {
+  "text": "Pierwszy krok do zgody – jak to u ciebie wygląda?",
+  "answers": [
+   "Zwykle robię go ja i jest okej",
+   "Zwykle robię go ja i zaczyna mnie to męczyć",
+   "Raczej czekam na drugą połówkę",
+   "Przychodzi mi to z trudem, nawet gdy chcę"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d0ec371b-99c3-42e2-86fe-60295e7a3aba": {
+  "text": "Jak długo kłótnia siedzi ci w głowie, gdy już się skończy?",
+  "answers": [
+   "Znika, gdy tylko się pogodzimy",
+   "Kilka godzin",
+   "Dzień lub dwa",
+   "Wraca do mnie później"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "375bb36b-b6d9-4321-a8e4-b8fdcd60abcf": {
+  "text": "Co najszybciej nakręca cię w kłótni?",
+  "answers": [
+   "Podniesiony głos lub ostry ton",
+   "Przerywanie mi albo niesłuchanie",
+   "Wyciąganie starych spraw",
+   "Milczenie albo wyjście z pokoju",
+   "Sarkazm albo przewracanie oczami"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6ba99e54-c776-447b-ad7c-830ef561545a": {
+  "text": "Co przemilczasz dla świętego spokoju?",
+  "answers": [
+   "Nic, mówię, co mi przeszkadza",
+   "Drobne irytacje",
+   "Swoje większe potrzeby",
+   "Uwagi o rodzinie lub znajomych drugiej połówki"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0a32a02d-0e74-4f0b-836a-4a5ae6890ab7": {
+  "text": "W kilku słowach: o co ciągle się kłócicie?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "80d0cd30-bef6-4ec4-aeac-17776ab4b318": {
+  "text": "Co twoja druga połówka robi w kłótniach, a ty chcesz, żeby przestała?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7daf8ce4-e900-49bd-a99c-2bd3b2dc6623": {
+  "text": "Czy twoim zdaniem sprawiedliwie dzielicie się obowiązkami domowymi?",
+  "answers": [
+   "Całkowicie sprawiedliwie",
+   "Raczej sprawiedliwie",
+   "Robię więcej niż druga połówka",
+   "Druga połówka robi więcej niż ja"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "37e7075f-f8c0-4a6f-8bb1-15d4f63b79b8": {
+  "text": "Ile czasu tylko dla siebie potrzebujesz w zwykłym tygodniu?",
+  "answers": [
+   "Prawie wcale",
+   "Godzinę lub dwie",
+   "Wieczór albo więcej",
+   "Dużo, choć nie zawsze o tym mówię"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2ec6384d-4e70-49a8-b8b4-60fc79668a5a": {
+  "text": "Idealny wspólny wieczór w tygodniu?",
+  "answers": [
+   "Razem gotujemy i jemy",
+   "Oglądamy coś na kanapie",
+   "Wychodzimy gdzieś na miasto",
+   "Obok siebie, ale przy swoich sprawach"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c3bfa96a-4683-46d7-a472-9844feb722ce": {
+  "text": "Co myślisz o telefonach, gdy jesteście razem?",
+  "answers": [
+   "U nas to nie problem",
+   "Czasem mi to przeszkadza",
+   "Bardzo mi to przeszkadza",
+   "Chyba to ja częściej siedzę w telefonie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ec39df53-45de-401b-83c5-c71fdc6a7b5c": {
+  "text": "Weekendy powinny być…",
+  "answers": [
+   "Zaplanowane i pełne",
+   "Jeden plan, reszta na luzie",
+   "Zupełnie bez planu",
+   "Głównie do odpoczynku w domu"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "da536f27-fd8e-4b15-9bb2-fff1ab7cc79d": {
+  "text": "Jak czysto powinno być w domu?",
+  "answers": [
+   "Na błysk",
+   "W miarę",
+   "Lekki nieład jest przytulny",
+   "Nie zauważam bałaganu"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "973523ee-da46-453e-8012-d7d01eb59fab": {
+  "text": "Co najbardziej kochasz w waszej wspólnej codzienności?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "455eea81-69be-46f9-a81e-7299fb4c5f1e": {
+  "text": "Jaką drobną rzecz w waszej wspólnej codzienności chcesz zmienić?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "45b55eb0-9f7d-4819-8905-6bbf7412e967": {
+  "text": "Jak często według ciebie warto widywać się z rodzinami?",
+  "answers": [
+   "Co tydzień",
+   "Kilka razy w miesiącu",
+   "Od święta",
+   "Jak najrzadziej"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0186e34c-69ce-4b3a-a0ca-eeda47599e25": {
+  "text": "Ktoś z twojej rodziny krytykuje twoją drugą połówkę. Ty…",
+  "answers": [
+   "Od razu bronię drugiej połówki",
+   "Później rozmawiam z rodziną na osobności",
+   "Nie wtrącam się",
+   "Pytam drugą połówkę, czego oczekuje"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6df93e1d-bb18-418a-bb9e-fc88799efaf1": {
+  "text": "Ile do powiedzenia w waszych wspólnych decyzjach powinni mieć rodzice?",
+  "answers": [
+   "Nic, to nasze życie",
+   "Słuchamy, ale decydujemy sami",
+   "Ich zdanie bardzo się liczy",
+   "Zależy od decyzji"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8bb0a2e7-1a3d-437d-a3ea-c821dbb2fd90": {
+  "text": "Twoje idealne towarzystwo na weekend?",
+  "answers": [
+   "Duża paczka znajomych",
+   "Jeszcze jedna para",
+   "Tylko nasza dwójka",
+   "Osobno, ze swoimi znajomymi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b9c6e8e3-d7e3-45e4-810d-8e26270732b0": {
+  "text": "Jak odbierasz znajomych swojej drugiej połówki?",
+  "answers": [
+   "Naprawdę ich lubię",
+   "Są w porządku, ale to nie moi ludzie",
+   "Niektórzy mnie irytują",
+   "Ledwo ich znam"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2a964d04-7284-475d-bb2a-e104a8e02a1e": {
+  "text": "Ile znajomi powinni wiedzieć o waszym związku?",
+  "answers": [
+   "Wszystko, to moi ludzie",
+   "Te dobre rzeczy",
+   "Tylko ważne nowiny",
+   "Prawie nic"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "04308de1-190c-466a-816f-1fc04d957ce2": {
+  "text": "Jaką rodzinną tradycję chcesz razem kontynuować albo zapoczątkować?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8316d765-29a3-4f40-a97e-1adc20b8da80": {
+  "text": "Co myślisz o rodzinie lub znajomych swojej drugiej połówki, ale nigdy nie mówisz tego na głos?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0da22e32-fa22-493b-bc7f-f4b3a1ae901b": {
+  "text": "Gdzie według ciebie będziecie mieszkać za 5 lat?",
+  "answers": [
+   "Tam, gdzie teraz",
+   "W większym mieście",
+   "W spokojnym miejscu blisko natury",
+   "W innym kraju"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "094980c9-ac72-48cd-8fec-ded5e8c859f2": {
+  "text": "Jak podchodzisz do posiadania dzieci?",
+  "answers": [
+   "Zdecydowanie tak, i to niedługo",
+   "Tak, ale jeszcze nie teraz",
+   "Trudno powiedzieć",
+   "To nie dla mnie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9dd0cb25-5e52-4bbd-8b84-0845b7a42506": {
+  "text": "Co jest najważniejsze dla waszej wspólnej przyszłości?",
+  "answers": [
+   "Stabilizacja i bezpieczeństwo",
+   "Przygoda i nowe doświadczenia",
+   "Założenie rodziny",
+   "Rozwój każdego z nas"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0bcc27d3-1ef3-44af-a395-189f4c9bd2c7": {
+  "text": "Dostajesz wymarzoną ofertę pracy w innym mieście. Ty…",
+  "answers": [
+   "Przyjmuję tylko, jeśli przeprowadzimy się razem",
+   "Przez jakiś czas próbujemy na odległość",
+   "Odmawiam dla nas",
+   "Przyjmuję, jakoś to ogarniemy"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8ef516ca-6075-4b91-baa4-ddf344730612": {
+  "text": "Jak wolisz planować przyszłość?",
+  "answers": [
+   "Szczegółowo, na lata do przodu",
+   "Ogólny kierunek wystarczy",
+   "Krok po kroku",
+   "Niech życie nas zaskoczy"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "afb504c6-4c43-4b52-ac1f-3313b26b9e24": {
+  "text": "Na ile masz pewność, że chcecie tej samej przyszłości?",
+  "answers": [
+   "Pełna pewność",
+   "Raczej tak, choć są znaki zapytania",
+   "Nie było jeszcze poważnej rozmowy",
+   "Żadnej pewności"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "983f732f-f006-4caf-acec-f1b565922810": {
+  "text": "Jednym zdaniem: gdzie będziecie za pięć lat?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9a479602-d540-4c0d-818d-eca22f12ae13": {
+  "text": "Jaki temat dotyczący przyszłości wciąż boisz się poruszyć?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dae2d4cc-1750-4ff2-ad27-8844b09f1ea3": {
+  "text": "Kiedy czujesz największą bliskość z drugą połówką?",
+  "answers": [
+   "Podczas nocnych rozmów",
+   "Kiedy razem się śmiejemy",
+   "W chwilach fizycznej bliskości",
+   "Po wspólnie przetrwanych trudnościach"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b1333bff-a865-4cb9-9293-ec4f88e184e2": {
+  "text": "Na ile odpowiada ci ostatnio wasza fizyczna bliskość?",
+  "answers": [
+   "W pełni",
+   "Raczej tak",
+   "Przydałoby się więcej",
+   "Coś jest nie tak"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "54b1befc-8d38-4ad9-b0f7-4ecc5da68448": {
+  "text": "Jak lubisz, żeby zaczynała się bliskość?",
+  "answers": [
+   "Powoli, bez pośpiechu",
+   "Spontanicznie",
+   "Od słów",
+   "Z planem – oczekiwanie podkręca"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a23bd9c0-604e-42e9-a98a-4f1494b812c3": {
+  "text": "Co najszybciej psuje ci nastrój?",
+  "answers": [
+   "Telefony",
+   "Stres z całego dnia",
+   "Poczucie pośpiechu",
+   "Niewyjaśnione napięcie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6689e4d3-270f-4a02-9581-f286060425d0": {
+  "text": "Jak ważna jest dla ciebie czułość poza sypialnią?",
+  "answers": [
+   "Niezbędna",
+   "Bardzo miło, gdy jest",
+   "Bez większego znaczenia"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3cb8d865-6f52-410b-a73c-647cc8ed78fb": {
+  "text": "Mówienie drugiej połówce, czego chcesz w intymnych chwilach, to…",
+  "answers": [
+   "Dla mnie proste",
+   "Łatwiejsze w wiadomościach",
+   "Krępujące, ale chcę",
+   "Coś, czego unikam"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "176ce7a7-80c4-44da-b820-4488d4d1d280": {
+  "text": "Którą waszą wspólną chwilę wciąż odtwarzasz w głowie?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0d7aff47-dea9-4a0b-a71b-03f9e196e0f5": {
+  "text": "W kilku słowach: co daje ci poczucie, że druga połówka cię pragnie?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f6a2734f-3505-4f4a-9316-0bbe08fdc1f4": {
+  "text": "Po czym najmocniej czujesz, że druga połówka cię kocha?",
+  "answers": [
+   "Słowa powiedziane na głos",
+   "Czas tylko dla nas",
+   "Pomoc w codziennych sprawach",
+   "Dotyk",
+   "Przemyślana niespodzianka"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "133e06f4-dacb-4900-9789-001a5b70e6b0": {
+  "text": "Jak najnaturalniej okazujesz miłość?",
+  "answers": [
+   "Mówiąc, że kocham",
+   "Znajdując czas",
+   "Robiąc coś dla drugiej połówki",
+   "Przez dotyk",
+   "Małymi niespodziankami"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e4d36f8a-1611-4d47-8524-7fa4e276d576": {
+  "text": "Przez co najszybciej tracisz poczucie, że druga połówka cię kocha?",
+  "answers": [
+   "Dni bez jednego miłego słowa",
+   "Telefon w ręku, gdy jesteśmy razem",
+   "Wszystko na mojej głowie",
+   "Dłuższy brak czułości",
+   "Niedocenione starania"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3bab62fd-1bc7-4eca-8947-a5d212b2d5f2": {
+  "text": "Gdy się stresujesz, czego chcesz od drugiej połówki?",
+  "answers": [
+   "Pogadaj ze mną o tym",
+   "Po prostu bądź obok",
+   "Zdejmij coś z mojej głowy",
+   "Przytul mnie",
+   "Daj mi przestrzeń"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0d6c4a65-26ce-4b3d-a4a9-bc4d2ca492db": {
+  "text": "Ile czułości i dotyku potrzebujesz w zwykły dzień?",
+  "answers": [
+   "Dużo, cały czas",
+   "Kilka chwil dziennie",
+   "Trochę wystarczy",
+   "Nie przepadam za dotykiem"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f8892d3c-58cc-4820-bbdc-cd6f7d7f87e9": {
+  "text": "Jak często masz wrażenie, że twoja miłość przechodzi bez echa?",
+  "answers": [
+   "Prawie nigdy",
+   "Czasami",
+   "Często",
+   "Przez większość czasu"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "be0526e5-ba2f-4129-a55a-0238be57b8da": {
+  "text": "Opisz ostatnią chwilę, gdy druga połówka dała ci poczuć prawdziwą miłość.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "190ea05e-76db-489f-a50d-c3473f48f2e7": {
+  "text": "Co robisz z miłości, czego twoja druga połówka chyba nie zauważa?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "74e8638b-8b64-4231-9da1-49a411091b71": {
+  "text": "Na konto wpada ci niespodziewana premia. Ty…",
+  "answers": [
+   "Odkładam ją",
+   "Wydaję na coś dla nas",
+   "Robię sobie prezent",
+   "Spłacam jakiś dług"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "27d986a2-af92-4a2b-8c11-c88a505f4ffc": {
+  "text": "Jak para powinna zarządzać pieniędzmi?",
+  "answers": [
+   "Wszystko wspólne",
+   "Wspólne konto plus własne",
+   "Całkiem osobno, rachunki na pół"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "529c952f-f5ce-4a9a-811e-de16b44436ca": {
+  "text": "Co najlepiej opisuje twoje podejście do pieniędzy?",
+  "answers": [
+   "Ostrożne oszczędzanie",
+   "Radosne wydawanie",
+   "Planowanie z budżetem",
+   "Zależy od nastroju"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "69067652-637f-4025-a1a9-bf8fe43e5541": {
+  "text": "Ile możesz wydać, nie mówiąc o tym drugiej połówce?",
+  "answers": [
+   "Ile chcę, to moje pieniądze",
+   "Niewielką kwotę",
+   "Nic dużego bez rozmowy"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3801b3f8-ca7a-427a-8049-b7eb1a4a83a1": {
+  "text": "Co cię najbardziej martwi w kwestii pieniędzy?",
+  "answers": [
+   "Za małe oszczędności",
+   "Długi",
+   "To, że się w tym nie zgadzamy",
+   "Szczerze? Nic"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "782694ff-ef2a-453d-b2b0-820147b9c492": {
+  "text": "Na ile swobodnie rozmawiasz o pieniądzach z drugą połówką?",
+  "answers": [
+   "Całkiem swobodnie, mówimy otwarcie",
+   "Swobodnie, ale rzadko to robimy",
+   "Trochę niezręcznie",
+   "Unikam tego"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "383497c5-6a90-487f-acfb-ba23d85788e9": {
+  "text": "Jaką największą decyzję finansową chcesz razem podjąć w najbliższych latach?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b43559b3-b10b-49de-b3d6-d71e7cdb85b6": {
+  "text": "Czym były pieniądze w twoim rodzinnym domu?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "df0f185f-6d69-4ba4-9994-5996b2f0bf68": {
+  "text": "Zaglądanie do telefonu drugiej połówki to…",
+  "answers": [
+   "Nigdy okej, to prywatna sprawa",
+   "Okej, za zgodą",
+   "Okej, nie mamy nic do ukrycia",
+   "Coś, co zdarza mi się robić bez pytania"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dd3aaedc-07ee-412b-bb83-7c23dbb377c1": {
+  "text": "Ktoś poświęca twojej drugiej połówce mnóstwo uwagi. Ty…",
+  "answers": [
+   "Zupełnie się nie przejmuję",
+   "Czuję lekkie ukłucie, ale ufam",
+   "Chcę o tym porozmawiać",
+   "Otwarcie okazuję zazdrość"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fbf507be-cbda-4663-9a38-9a01f9393e66": {
+  "text": "Twoja druga połówka przyjaźni się z eks. To dla ciebie…",
+  "answers": [
+   "Coś zupełnie normalnego",
+   "Okej, jeśli to już przeszłość",
+   "Coś, co mnie uwiera",
+   "Coś nie do przyjęcia"
+  ],
+  "accepted": [],
+  "flagged": true,
+  "note": "Used colloquial 'eks' to avoid gendered były/była (ex's gender); options rephrased as 'Coś…' noun phrases."
+ },
+ "785701ac-e83a-456a-9d90-e85d4aca204d": {
+  "text": "Jak często czujesz zazdrość, nawet jeśli tego nie okazujesz?",
+  "answers": [
+   "Często",
+   "Czasami",
+   "Rzadko",
+   "Nigdy"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9ba59f61-1758-4d30-ba63-f6104de991cd": {
+  "text": "Co najbardziej podważyłoby twoje zaufanie?",
+  "answers": [
+   "Kłamstwo, nawet drobne",
+   "Ukrywane rozmowy z kimś",
+   "Obietnica łamana nie raz",
+   "Nasze prywatne sprawy wyniesione na zewnątrz"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "18def8e1-5fa7-44a3-85e4-81cb688a31db": {
+  "text": "Ile chcesz wiedzieć o dniu drugiej połówki?",
+  "answers": [
+   "Wszystko: gdzie i z kim",
+   "Najważniejsze rzeczy",
+   "Tylko to, czym zechce się podzielić"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b0a8928f-0b53-439c-9f66-ca1a6c92eb86": {
+  "text": "Co daje ci przy drugiej połówce pełne poczucie bezpieczeństwa?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e045d939-d801-4bea-b637-ed0df364efa8": {
+  "text": "Czy w tym związku jest coś, co choć trochę odbiera ci poczucie bezpieczeństwa? Szczerze.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

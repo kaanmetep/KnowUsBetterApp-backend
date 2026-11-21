@@ -1,0 +1,545 @@
+{
+ "9c033c13-73b4-44e7-a935-0242b4fae94f": {
+  "text": "恋人が友達に一度も紹介してくれなかったら、ムッとする？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "40137f6d-8f1e-45c1-a4dc-a63c87f0a92f": {
+  "text": "元恋人はSNSから消すべきだと思う？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "32bec47e-fda0-4934-bb7e-536d8e4cf7f2": {
+  "text": "結婚してから相手の見た目にときめかなくなったら、離婚する？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0f881ec0-2f6d-4a8d-8f6f-1fe54395c59f": {
+  "text": "子どもには、自分と恋人のどっちに似てほしい？",
+  "answers": [
+   "自分",
+   "恋人"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ae4f73ff-5e35-4faa-bea5-ccb6fff9920e": {
+  "text": "恋人がどうしてもって言ったら、子どもに恋人のお母さんの名前をつける？",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "Naming a child after a grandparent is uncommon in Japan; kept as-is (using the name), may feel odd."
+ },
+ "b246de81-762a-451c-8b6a-a4a4cdf1c14f": {
+  "text": "恋人が人のSNSをのぞくためだけの裏アカを持ってたら、イヤ？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "04fb3b07-0c4a-4470-906f-69ff3696620b": {
+  "text": "関係がこじれたとき、いったん距離を置く？距離を置かずに解決する？",
+  "answers": [
+   "距離を置く",
+   "距離を置かずに解決"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9abff03b-7b65-419f-b4d6-2d469b4dc7be": {
+  "text": "1億円もらえるけど恋人と2年会えないのと、10億円もらえるけど4年会えないの、どっち？",
+  "answers": [
+   "1億円で2年会えない",
+   "10億円で4年会えない"
+  ],
+  "accepted": [],
+  "flagged": true,
+  "note": "Converted 1M/10M dollars to round 1億円/10億円 (approx. value, kept the 10x ratio)."
+ },
+ "80bd3596-b457-49a1-a292-e3a26678f409": {
+  "text": "大好きだけどケンカばかりの相手と、相性はいまいちだけど穏やかな相手、どっちがいい？",
+  "answers": [
+   "大好きだけどケンカばかり",
+   "相性いまいちでも穏やか"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "550b4795-47de-43b4-9981-5522c66470f3": {
+  "text": "恋人からのプロポーズ、シンプルなのと豪華なの、どっちがいい？",
+  "answers": [
+   "シンプルなプロポーズ",
+   "豪華なプロポーズ"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c90ae871-809e-4ada-9637-99d6ff40dce7": {
+  "text": "婚約指輪、恋人が無理して買う高い指輪と、予算よりずっと安い指輪、どっちがいい？",
+  "answers": [
+   "無理して買う高い指輪",
+   "ずっと安い指輪"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9ae0640c-d472-4528-a93b-99746bc50ea6": {
+  "text": "プロポーズの計画、恋人がひとりで全部考えるのと、こっそり私の友達に相談するの、どっちがいい？",
+  "answers": [
+   "ひとりで全部考える",
+   "こっそり友達に相談"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4d5dde88-5d3a-4751-91aa-1004648687c2": {
+  "text": "恋人の愛情表現、どっちがうれしい？",
+  "answers": [
+   "大きなサプライズ",
+   "日々の小さな気づかい"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "db9d8560-2591-456f-b350-c20096c3e897": {
+  "text": "恋人が異性の友達とハグするのはアリ？",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "Hugging opposite-sex friends is less common in Japan; kept meaning."
+ },
+ "d1af31ed-9299-485a-941b-b8031854ca9c": {
+  "text": "恋人が異性の友達にごはんをおごるのはアリ？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1fd7db14-1dfd-4713-a16a-91a0bc778c60": {
+  "text": "恋人が異性の友達とサシで会うのはアリ？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "49fd0add-5bf4-4012-b988-e6a0c6e704c2": {
+  "text": "恋人に好きな芸能人がいるのはイヤ？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9cd41d79-298f-431e-92ae-8a1bba9c478f": {
+  "text": "恋人と異性の友達のメッセージのやりとりを見るのはアリだと思う？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "585ec0e7-b6f1-444c-b04c-2ef0117d83bd": {
+  "text": "恋人とはどんな関係がいい？",
+  "answers": [
+   "安心だけど退屈な関係",
+   "不安定だけど刺激的な関係"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "12cc068c-eb0e-44d6-b816-c39859648964": {
+  "text": "恋人が異性の友達とのメッセージを見せてくれなかったら、怒る？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "940c094a-220c-40f3-9526-a5fea4f487bd": {
+  "text": "恋人が異性の友達の家に数日泊まるのはアリ？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "db9c8d1c-063f-4c3d-8da6-84abfcb592e7": {
+  "text": "恋人が週末ずっとひとりでゲームしたいって言ったら、ケンカになる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8c809c4c-7508-47c3-b12b-68ca4fae57b8": {
+  "text": "長く付き合うと、愛情は…",
+  "answers": [
+   "深まる",
+   "形が変わる"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2e1f0de3-37db-41c9-a49f-ceb0bde8402f": {
+  "text": "恋人が優先すべきなのは、どっちの将来？",
+  "answers": [
+   "恋人自身の将来",
+   "私の将来"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "58cc044f-d0e6-407b-b19f-4db600605254": {
+  "text": "恋人が私を変えようとするのは…",
+  "answers": [
+   "アリ",
+   "絶対ナシ"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "faeb28bd-22ea-4bb9-89c6-5cd68917656d": {
+  "text": "長く付き合うと、マンネリは…",
+  "answers": [
+   "避けられない",
+   "防げる"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "93bfc65c-0d46-4cbc-86a5-46802820f43b": {
+  "text": "「よかれと思って」でも、恋人が私を変えようとするのは…",
+  "answers": [
+   "アリ",
+   "絶対ナシ"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d396fe80-cd3f-43c3-842a-fcd6c54b23b4": {
+  "text": "恋人が元恋人の話をするのは…",
+  "answers": [
+   "普通だし必要",
+   "いらないし、よくない"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1145588f-eea5-4226-80b3-a98a5d0b043c": {
+  "text": "やきもちは…",
+  "answers": [
+   "愛情のしるし",
+   "不安のしるし"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "aabf084a-c712-4d5f-872c-8351c008d756": {
+  "text": "恋人が私の友達を好きじゃなかったら…",
+  "answers": [
+   "問題になりうる",
+   "問題ない"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "31b2a2da-9927-44e9-948c-1edd25445983": {
+  "text": "恋人からマメに連絡が来ないのは…",
+  "answers": [
+   "普通のこと",
+   "気持ちがない証拠"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "aaa13474-4c03-4f25-b201-c6c81cf34b35": {
+  "text": "恋人が予定を立てずに直前に連絡してくるのは…",
+  "answers": [
+   "ノリがいい",
+   "失礼"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c8052202-a0f7-4d5a-9e3d-4aaa2bba5caf": {
+  "text": "恋人といつも一緒にいるのは…",
+  "answers": [
+   "絆が深まる",
+   "息が詰まる"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "48e6113e-51b4-4e1f-a138-7c7149028fa3": {
+  "text": "ケンカ中に黙るのは…",
+  "answers": [
+   "大人の対応",
+   "逃げ"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c3b94f1d-30c4-4c5d-bed8-ab4965ec0b5b": {
+  "text": "恋人を問い詰めるのは…",
+  "answers": [
+   "普通",
+   "不安のしるし"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e2f38a08-615d-4063-9ef1-e1194aabb7a6": {
+  "text": "恋愛での「自由」は…",
+  "answers": [
+   "一番大事",
+   "愛が冷める"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3354bd61-f081-4c81-8939-a8009d25b348": {
+  "text": "恋人と別々に過ごす時間は…",
+  "answers": [
+   "健全",
+   "距離ができる"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "64a23406-a16e-4819-9dd8-da44d139f8e6": {
+  "text": "恋人との沈黙は…",
+  "answers": [
+   "居心地がいい証拠",
+   "距離ができた証拠"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "52bd1a52-d873-4451-8a68-da4c7ade05d3": {
+  "text": "長く付き合ってからのお決まりのパターンは…",
+  "answers": [
+   "安心感になる",
+   "退屈になる"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7a0db8b2-560c-41e6-849a-993e7e074ae8": {
+  "text": "恋愛でもっと大事なのは、愛と尊重のどっち？",
+  "answers": [
+   "愛",
+   "尊重"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9d7e63d7-607b-48a9-949a-16936f965dc6": {
+  "text": "恋人と何でも共有するのは…",
+  "answers": [
+   "距離が縮まる",
+   "ひとりの時間がなくなる"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7ee80276-4cae-4786-8e8a-6c3732d4bad2": {
+  "text": "長く付き合うと、愛はどっちに近い？",
+  "answers": [
+   "選ぶもの",
+   "感じるもの"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ddcf2c7d-04d2-4a0c-b0ed-119f2f636bc6": {
+  "text": "恋愛で一番のリスクは…",
+  "answers": [
+   "心が離れること",
+   "慣れすぎること"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2b676dd8-d2b2-4d4d-91f2-6cd5c4997b2b": {
+  "text": "長く付き合うと、人はたいてい…",
+  "answers": [
+   "補い合う",
+   "似てくる"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d28a64f1-32ba-433f-82dd-72bf9c2cc578": {
+  "text": "恋人をありのまま受け入れるのは…",
+  "answers": [
+   "愛の究極の形",
+   "成長を止める"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "08a3ebbf-7806-4766-923d-2957e0c0d2c2": {
+  "text": "恋人とならどっち？",
+  "answers": [
+   "相性抜群だけど情熱は少なめ",
+   "情熱的だけどケンカばかり"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b97d013a-ccd8-4678-b52e-c6ba122ef54b": {
+  "text": "恋愛でよりイヤなのはどっち？",
+  "answers": [
+   "何もかもマンネリになる",
+   "何ひとつ安定しない"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b933a4a0-fb1a-423e-8571-96ecb4dd4b7b": {
+  "text": "恋愛するならどっち？",
+  "answers": [
+   "愛は薄れても穏やかになる",
+   "愛は続くけど穏やかさが減る"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "641d3889-c306-47c1-875c-525e5c928cdc": {
+  "text": "恋愛でよりつらいのはどっち？",
+  "answers": [
+   "信頼が壊れる",
+   "気持ちが完全に冷める"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d1483a50-6ff5-4975-9b46-224f67e0036b": {
+  "text": "長く付き合ううえで、よりつらいのはどっち？",
+  "answers": [
+   "ずっと疑ってしまう",
+   "ずっと心が空っぽ"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d0a3444e-8114-4511-a054-56a7198b70a0": {
+  "text": "長く付き合ううえで、もっとつらいのはどっち？",
+  "answers": [
+   "愛されてるかわからないまま一緒にいる",
+   "好きじゃないとわかってて一緒にいる"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "86598b9e-9d8a-47a4-b230-ea71b1e47093": {
+  "text": "長く付き合ううえで、より健全なのはどっち？",
+  "answers": [
+   "全部話し合って解決",
+   "時間に任せることもある"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a3f28e46-c315-4260-8130-3b9f5f03147d": {
+  "text": "恋愛での信頼は…",
+  "answers": [
+   "オープンな態度で築く",
+   "時間とともに自然にできる"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bab53c7d-eba6-4584-a606-4af030d5d86b": {
+  "text": "恋人との違いは…",
+  "answers": [
+   "話し合ってすり合わせる",
+   "受け入れて付き合っていく"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0972afde-efba-45c4-84f3-1ecccab07b8b": {
+  "text": "子どもは何人ほしい？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "877a7f71-261e-441f-ae71-d19aafbce112": {
+  "text": "明日ふたりで宝くじが当たったら、まず何を買う？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7a6c7486-c2d0-4670-8265-229eb7648fa1": {
+  "text": "将来のふたりの家で、一番大事な部屋は？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "da02be22-6278-4003-867b-4669430cca9c": {
+  "text": "ふたりの恋を別の時代でするなら、何年代がいい？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6a9340b3-6abd-422e-9d0d-2755d92b2626": {
+  "text": "結婚するのにベストな年齢は何歳だと思う？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "84f363db-cdd5-4d66-b0ee-a92b4e42ea36": {
+  "text": "ふたりの結婚式、どの季節がいい？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

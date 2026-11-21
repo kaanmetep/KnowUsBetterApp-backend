@@ -1,0 +1,663 @@
+{
+  "e294c59a-bb70-4d8c-9d80-6dbb06a09b36": {
+    "text": "{{playerName}}が一番イラッとする音は？",
+    "answers": [
+      "クチャクチャ食べる音",
+      "黒板をひっかく音",
+      "鼻をすする音",
+      "口笛"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "19eebdd7-760a-4ea1-ae18-5bf88eb2dafc": {
+    "text": "LINEで{{playerName}}が一番イラッとするのは？",
+    "answers": [
+      "「OK」だけの返信",
+      "ボイスメッセージ",
+      "返信が遅い",
+      "短いメッセージの連投"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": "Used LINE as the default messaging app in Japan instead of generic 'texting'."
+  },
+  "52b4cdec-cd4a-4442-998d-f07cd4081db4": {
+    "text": "お店で{{playerName}}が一番気になるのは？",
+    "answers": [
+      "提供が遅い",
+      "テーブルが汚い",
+      "音楽がうるさい",
+      "量が少ない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5be0c0e8-8892-4a92-9758-2f00fcce2015": {
+    "text": "家で{{playerName}}が一番気になる散らかりは？",
+    "answers": [
+      "シンクの洗い物",
+      "床に脱ぎっぱなしの服",
+      "ぐちゃぐちゃのベッド",
+      "テーブルの食べかす"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2dd218d8-d3ec-46ee-9285-47f6ed61d659": {
+    "text": "運転中、{{playerName}}が一番イラッとくるのは？",
+    "answers": [
+      "遅い車",
+      "クラクション",
+      "割り込み",
+      "ウインカーを出さない車"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "644b7cf5-7ae6-430a-9220-f3fb43701063": {
+    "text": "列に並んでるとき、{{playerName}}が一番イラッとするのは？",
+    "answers": [
+      "割り込みする人",
+      "距離が近すぎる人",
+      "レジが遅い",
+      "小銭で払う人"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b9f365dd-1aa6-4d48-af88-95d026d024d5": {
+    "text": "{{playerName}}が一番お金を使うのは？",
+    "answers": [
+      "食べ物・外食",
+      "服",
+      "ガジェット・家電",
+      "旅行"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "be8f4942-1a57-4943-8b5b-8bb89b022314": {
+    "text": "{{playerName}}が今までで一番高い買い物は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "50d0db45-ce2c-468e-a3d6-23f0704fc3a4": {
+    "text": "{{playerName}}は親友とどこで出会った？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "662aef93-2e41-413c-b62a-b150755f03f5": {
+    "text": "{{playerName}}の一番古い友だちとは何年の付き合い？",
+    "answers": [
+      "5年未満",
+      "5〜10年",
+      "10〜20年",
+      "20年以上"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "65d60061-9ab6-4853-9aca-4eab081a4cce": {
+    "text": "{{playerName}}がメインで使ってる友だちグループLINEの名前は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "197d53a1-83ce-4902-a334-27066158fc78": {
+    "text": "{{playerName}}が友だちと会う頻度は？",
+    "answers": [
+      "ほぼ毎日",
+      "毎週",
+      "月に数回",
+      "めったに会わない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6159136b-df0a-4257-b058-e896fc9de8df": {
+    "text": "{{playerName}}が友だちと遊ぶのはだいたいどこ？",
+    "answers": [
+      "誰かの家",
+      "カフェ",
+      "居酒屋・バー",
+      "外"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a1fcb212-3cc0-4b2d-bd2f-8bda0513e11c": {
+    "text": "{{playerName}}のいつもの友だちグループは何人？",
+    "answers": [
+      "2〜3人",
+      "4〜5人",
+      "6〜8人",
+      "9人以上"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7f03c313-0647-4db6-9922-02b1cd26700f": {
+    "text": "{{playerName}}が友だちと一番よく連絡を取る方法は？",
+    "answers": [
+      "メッセージ",
+      "ボイスメッセージ",
+      "電話",
+      "ミームやリールを送り合う"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c17d4951-9f29-4613-aebc-0dc559fa5a6d": {
+    "text": "{{playerName}}は友だちから何て呼ばれてる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "71ef9a47-46d4-4666-8665-3d3a7991768e": {
+    "text": "{{playerName}}の誕生日の過ごし方は？",
+    "answers": [
+      "盛大にパーティー",
+      "仲良しとごはん",
+      "のんびり過ごす",
+      "特に祝わない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "01b87d7a-2853-4e22-8290-2f44cb342e8a": {
+    "text": "{{playerName}}の親友が住んでる街は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1abd3aae-173d-497f-bb52-95bd395ab563": {
+    "text": "{{playerName}}が今お金を貯めてる目的は？貯めてなければ空欄で。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7bf99537-3613-478d-881c-d35960165b3e": {
+    "text": "もしお店を開けるなら、{{playerName}}は何のお店にする？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e100c90f-796f-4d06-8999-61f07e8e2040": {
+    "text": "{{playerName}}がストーリーを上げる頻度は？",
+    "answers": [
+      "毎日",
+      "週に数回",
+      "めったに上げない",
+      "上げない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2d3caa55-6c03-45e4-ae52-8f4d9aabc5a7": {
+    "text": "{{playerName}}のインスタのフォロー数は？",
+    "answers": [
+      "300未満",
+      "300〜700",
+      "700〜1,500",
+      "1,500以上"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a06282e0-ae61-4541-bf4d-24c8336d031e": {
+    "text": "{{playerName}}のインスタの最新投稿は？投稿しない人なら「なし」で。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e2c75092-cf85-48f6-96b7-e8022bda2ae4": {
+    "text": "{{playerName}}は「いいね」が少なくて投稿を消したことある？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "843b062a-8c76-44f7-99bb-72f4319b57ef": {
+    "text": "{{playerName}}がSNSで一番時間を使ってるのは？",
+    "answers": [
+      "リールを見る",
+      "ストーリーを見る",
+      "DMする",
+      "プロフィールを覗く"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e32b237d-f1dd-44b2-b30e-36fa9979cd3f": {
+    "text": "{{playerName}}のインスタのフォロワー数は？",
+    "answers": [
+      "300人未満",
+      "300〜700人",
+      "700〜1,500人",
+      "1,500人以上"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ab6fb3d1-3476-436b-af30-74e7d7f96ea6": {
+    "text": "{{playerName}}はインスタの裏アカ持ってる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c5fbea67-c014-4be3-a141-986603d7784a": {
+    "text": "{{playerName}}が一番SNSを見てるのはいつ？",
+    "answers": [
+      "寝る前にベッドで",
+      "起きてすぐ",
+      "トイレで",
+      "仕事中・授業中"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d799cefe-4533-4a40-b9fd-0b26b49dced4": {
+    "text": "{{playerName}}の今のインスタのアイコンは？",
+    "answers": [
+      "自分ひとりの写真",
+      "誰かとの写真",
+      "その他（ペット、景色など）",
+      "アイコンなし"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "99140b21-a78b-4823-8931-da81598e0099": {
+    "text": "{{playerName}}が一番使うデリバリーアプリは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "99a08b68-a66b-49c5-a1d4-c5ea876ddf1c": {
+    "text": "{{playerName}}がデリバリーを頼む頻度は？",
+    "answers": [
+      "ほぼ毎日",
+      "週に数回",
+      "月に数回",
+      "ほとんど頼まない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cfbd02eb-acdd-41f0-a82c-d633cd6ec6f4": {
+    "text": "{{playerName}}がデリバリーを一番頼むのはいつ？",
+    "answers": [
+      "お昼",
+      "夜ごはん",
+      "深夜",
+      "週末の朝"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b6c53b84-8968-4576-9582-556d78e1aa08": {
+    "text": "{{playerName}}が注文する前にアプリを眺める時間は？",
+    "answers": [
+      "1分で決める",
+      "10分くらい",
+      "30分",
+      "迷って結局いつもの"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fe6f43a3-1fd6-4b4f-8d95-7aab9b9ab8bb": {
+    "text": "{{playerName}}はデリバリーでチップを払う？",
+    "answers": [
+      "絶対払わない",
+      "たまに",
+      "いつも少し",
+      "いつも多めに"
+    ],
+    "accepted": [],
+    "flagged": true,
+    "note": "Tipping is uncommon in Japan, though some delivery apps (Uber Eats) offer it; kept as is."
+  },
+  "98443ab8-023f-4a17-b4f4-a95567bc476e": {
+    "text": "{{playerName}}がテイクアウトを食べながら見るのは？",
+    "answers": [
+      "ドラマ",
+      "YouTube",
+      "リール",
+      "何も見ずに食べる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fe4758c6-1a3f-4740-a65f-f3f9268b47dc": {
+    "text": "{{playerName}}が買ったものを返品する頻度は？",
+    "answers": [
+      "一度もない",
+      "めったにない",
+      "よくある",
+      "ほぼ全部返品"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "519747f8-ac05-4e2e-bd62-8a11dab0a5b1": {
+    "text": "{{playerName}}の新しいドラマの見方は？",
+    "answers": [
+      "週末で一気見",
+      "毎晩1話ずつ",
+      "見始めて途中でやめる",
+      "全話そろうまで待つ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "39f5d8f3-514c-4fa3-93d6-add3a148a74c": {
+    "text": "{{playerName}}の音楽の聴き方は？",
+    "answers": [
+      "自分のプレイリストをシャッフル",
+      "同じ数曲をリピート",
+      "アルバムを最初から最後まで",
+      "アプリのおすすめ任せ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3ef13a99-6e73-4c3f-ab4c-23ff736d1b22": {
+    "text": "{{playerName}}が一番音楽を聴くのはどこ？",
+    "answers": [
+      "車の中",
+      "移動中にイヤホンで",
+      "お風呂",
+      "仕事中・勉強中"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e24b651e-6331-4162-899d-df89456006b4": {
+    "text": "カラオケで{{playerName}}が入れる曲は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bbf96cda-756f-454a-b2be-3b11d36b3a67": {
+    "text": "{{playerName}}が一番使う動画配信サービスは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "07f20cd4-0210-4b95-8df9-d623a0bd0a5c": {
+    "text": "{{playerName}}が一番たくさん見た映画は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c78c11b1-99b4-4da4-a62f-f5c91f4a4f18": {
+    "text": "{{playerName}}が何度も見返しちゃうドラマは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1292f03a-b50e-440f-adcf-712349e40719": {
+    "text": "{{playerName}}の服の買い方は？",
+    "answers": [
+      "ネットだけ",
+      "お店で全部試着",
+      "ボロボロになったら買う",
+      "いつも衝動買い"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d9725e20-1b77-4925-822c-a0600200c830": {
+    "text": "{{playerName}}のスーパーでの買い物スタイルは？",
+    "answers": [
+      "リスト通りに買う",
+      "ぶらぶらして気になる物を買う",
+      "ネットスーパーで注文",
+      "肝心な物をいつも忘れる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b9664338-39be-4c85-b84c-556d4340b75b": {
+    "text": "{{playerName}}はネットのカートに商品をどれくらい入れっぱなし？",
+    "answers": [
+      "すぐ買う",
+      "数日",
+      "何週間も",
+      "結局買わない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bf330b67-2579-4879-9284-e1bb389ddd97": {
+    "text": "大型セールのとき、{{playerName}}はどうする？",
+    "answers": [
+      "いらない物まで買う",
+      "欲しかった物だけ買う",
+      "完全にスルー",
+      "カートに入れるだけで買わない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f880e846-1a46-4448-b7b8-432d8820bb89": {
+    "text": "{{playerName}}の行きつけのカフェは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e452eb3a-71ca-491f-908b-d5c948b61374": {
+    "text": "{{playerName}}が好きなファストフード店でいつも頼むのは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e6f97bcb-be04-4815-b108-322f1284b685": {
+    "text": "{{playerName}}のスマホケースは何色？ケースなしなら「なし」で。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "34493f68-a720-495a-b39a-52d484d3610e": {
+    "text": "{{playerName}}が一番使うショッピングアプリは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "835abc8b-f60f-4b56-9fa3-853e42ad5ffe": {
+    "text": "{{playerName}}は枕を何個使って寝てる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e1b8328b-6a31-46d0-bc54-46c41d2ca166": {
+    "text": "{{playerName}}のブラウザ、いつもタブは何個開いてる？",
+    "answers": [
+      "1〜5個",
+      "6〜20個",
+      "21〜50個",
+      "数えきれない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9265875a-abaf-454a-9d5d-cf7c21f409e4": {
+    "text": "{{playerName}}のカメラロールの写真は何枚？",
+    "answers": [
+      "1,000枚未満",
+      "1,000〜5,000枚",
+      "5,000〜20,000枚",
+      "20,000枚以上"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "696b6beb-bb08-43ed-86eb-eb4bd17e515c": {
+    "text": "{{playerName}}のスマホに入ってるアプリの数は？",
+    "answers": [
+      "30個未満",
+      "30〜60個",
+      "60〜100個",
+      "100個以上"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7afba473-dc61-4be7-b01c-0ca03119939b": {
+    "text": "{{playerName}}が最後に電話した相手は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5901193f-1beb-49eb-90ed-1da2b9274c76": {
+    "text": "{{playerName}}のスマホはダークモード？",
+    "answers": [
+      "いつもダーク",
+      "いつもライト",
+      "時間で自動切り替え"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "377237c2-590f-4200-a7a5-1e53377d8f42": {
+    "text": "{{playerName}}がお風呂に入るのはだいたいいつ？",
+    "answers": [
+      "朝",
+      "夜",
+      "毎日朝も夜も",
+      "決まってない"
+    ],
+    "accepted": [],
+    "flagged": true,
+    "note": "Shower adapted to お風呂 (bathing), the natural Japanese routine framing."
+  },
+  "9e3e7f73-8945-458a-a0a1-c3657b5d58f6": {
+    "text": "{{playerName}}が出かける準備にかかる時間は？",
+    "answers": [
+      "10分未満",
+      "10〜30分",
+      "30分〜1時間",
+      "1時間以上"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "57230422-8ea9-4e5f-9273-087b5d605ec8": {
+    "text": "{{playerName}}が一番時間をかけてる趣味は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "dc836b7d-8918-41b2-975b-19f9a43a801d": {
+    "text": "{{playerName}}は今年本を何冊読んだ？読んでなければ0で。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "04f5785b-6dbc-40dd-b7fa-d6850be17248": {
+    "text": "{{playerName}}が最近ハマってるスマホゲームは？やってなければ「なし」で。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1a62fc00-3404-48f5-860f-c31f4b6121b0": {
+    "text": "{{playerName}}は週に何回運動してる？",
+    "answers": [
+      "しない",
+      "1〜2回",
+      "3〜4回",
+      "5回以上"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b9c19285-78bf-4372-896c-ca131cb93459": {
+    "text": "{{playerName}}が最後に映画館で見た映画は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9d5dec86-f93f-4a8b-b522-75f77e6b759b": {
+    "text": "{{playerName}}が最後に作った料理は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9b999915-7237-47f9-a9a6-5d6d8beae33a": {
+    "text": "{{playerName}}が運動するのはだいたいどこ？",
+    "answers": [
+      "ジム",
+      "家",
+      "外",
+      "運動しない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

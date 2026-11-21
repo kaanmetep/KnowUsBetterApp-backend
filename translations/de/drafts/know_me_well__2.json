@@ -1,0 +1,615 @@
+{
+ "7e32c0fb-1531-4e16-af1c-629343ffb7e9": {
+  "text": "Was frühstückt {{playerName}} am liebsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0425f81b-0c26-4d2f-b061-adfe977513d3": {
+  "text": "Was mag {{playerName}} am liebsten auf der Pizza?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dfbde649-f017-4e8e-8d54-6ec9c9694fc5": {
+  "text": "Was bestellt {{playerName}} meistens im Café?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d99e5617-1698-4240-a0a8-c3daea39022d": {
+  "text": "Was ist der Lieblingssnack von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ee877ca1-488d-4f97-9598-fd22509ac148": {
+  "text": "Welches Obst isst {{playerName}} am liebsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9592c028-df70-4e2a-b66d-f17130e2480e": {
+  "text": "Wie mag {{playerName}} Eier am liebsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1bd92319-ff3e-43b3-81b8-f13be6fd47bf": {
+  "text": "Wann geht {{playerName}} meistens schlafen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d90798ff-2c56-4b01-a1c8-2780928f2161": {
+  "text": "Welche Zeichentrickserie hat {{playerName}} als Kind am liebsten geschaut?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "74c6652c-3f00-4012-8585-e196f91a11f9": {
+  "text": "Welche App öffnet {{playerName}} morgens als Erstes?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "44cb3c9e-6be8-4872-9542-0b08384ef41e": {
+  "text": "Was ist das Lieblingsemoji von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7dc94a81-6d5d-4d12-9d9b-f9ab59fc038a": {
+  "text": "Welche Handymarke hat {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a8cb7aac-c671-48bd-a093-3d7fd524491e": {
+  "text": "Was schaut {{playerName}} gerade?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "17ec277b-a7f7-49ce-8eec-99683adbcbb2": {
+  "text": "Was ist das Lieblingstier von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "145f2f5b-8e80-4252-a357-3ae2d5c4c1d0": {
+  "text": "Was ist die Glückszahl von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2a1297e0-6d77-4cf2-a3ff-e5f8057dcc30": {
+  "text": "Welches Sternzeichen hat {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e867a504-b007-4206-8378-19171432174d": {
+  "text": "Welche Jahreszeit mag {{playerName}} am liebsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "55cc5151-4dc7-4a67-90de-b1829ca19dc8": {
+  "text": "Welchen Spitznamen hatte {{playerName}} als Kind?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bb5df921-8ba2-4082-90b4-fb7c936731dc": {
+  "text": "Wen hört {{playerName}} am liebsten singen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ebad8d20-818e-4d82-8191-1a2c198bfa7f": {
+  "text": "Welche Schokolade mag {{playerName}} am liebsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a029377a-dcee-4c47-80ac-e652ce1363f6": {
+  "text": "Welches Fast Food isst {{playerName}} am liebsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "34591a59-c1f0-426b-a04c-c98cee22942d": {
+  "text": "Wie nennt {{playerName}} die eigene Mama?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d557c7ce-b091-4b4b-ad44-73eb4a9f1d17": {
+  "text": "Welche Superheldenfigur mag {{playerName}} am liebsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ff54dc71-bbb6-46f6-973f-7381edb1f930": {
+  "text": "Was macht {{playerName}} nach dem Heimkommen als Erstes?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "837a824d-df7a-4c64-b6ba-16f11164e978": {
+  "text": "Welche Hausarbeit hasst {{playerName}} am meisten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "792869b8-ec29-496c-b85e-f010457ea0ae": {
+  "text": "Was verliert {{playerName}} ständig?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b140bb4d-c30d-4ef6-9106-988634717a5f": {
+  "text": "Wie schnell antwortet {{playerName}} auf Nachrichten?",
+  "answers": [
+   "Sofort",
+   "Stunden später",
+   "Liest und antwortet nicht",
+   "Schickt eine Sprachnachricht"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4a6273eb-4b65-4061-a9b8-e0926c7675eb": {
+  "text": "Wo findet man {{playerName}} auf einer Party?",
+  "answers": [
+   "Auf der Tanzfläche",
+   "In der Ecke",
+   "In der Küche",
+   "Schon auf dem Heimweg"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "401000a3-ed4d-43cd-98a9-9eb83866750c": {
+  "text": "Wie packt {{playerName}} für eine Reise?",
+  "answers": [
+   "Eine Woche vorher",
+   "Am Abend davor",
+   "Vergisst die Hälfte",
+   "Packt viel zu viel ein"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "22169b2f-f26f-4151-8015-bafef065eb8f": {
+  "text": "Verlaufen! Was macht {{playerName}} jetzt?",
+  "answers": [
+   "Fragt jemanden",
+   "Schaut auf die Karte",
+   "Läuft einfach weiter",
+   "Ruft jemanden an"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "eca7e545-d5fe-43d3-b4fe-2e6aec589557": {
+  "text": "Was macht {{playerName}} mit Essensresten?",
+  "answers": [
+   "Hebt sie auf",
+   "Isst sie um Mitternacht",
+   "Wirft sie weg",
+   "Vergisst sie im Kühlschrank"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "61d8bdfa-ccc2-48c1-8c58-446ed197d69c": {
+  "text": "Wie ist {{playerName}} morgens drauf?",
+  "answers": [
+   "Grummelig",
+   "Stumm bis zum Kaffee",
+   "Quatscht schon los",
+   "Drückt ewig auf Snooze"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5dfed285-7d4f-4e71-8506-84c8415cbc26": {
+  "text": "Wie ist {{playerName}} auf dem Beifahrersitz?",
+  "answers": [
+   "Schläft die ganze Fahrt",
+   "Bestimmt die Musik",
+   "Navigiert",
+   "Fragt ständig: „Sind wir bald da?“"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a1f2d79a-ce13-4322-a5b8-f10091d8772d": {
+  "text": "Wie sucht {{playerName}} ein Restaurant aus?",
+  "answers": [
+   "Liest alle Bewertungen",
+   "Geht zum Stammlokal",
+   "Nimmt das erstbeste",
+   "Lässt andere entscheiden"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6e745806-a8fc-4404-a45c-090c14c466a1": {
+  "text": "{{playerName}} ist krank. Was nun?",
+  "answers": [
+   "Macht ein Drama draus",
+   "Tut, als wäre nichts",
+   "Schläft den ganzen Tag",
+   "Will in Ruhe gelassen werden"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "471a6e48-e963-420e-bf7d-7a708e35c2e0": {
+  "text": "Wie fotografiert {{playerName}}?",
+  "answers": [
+   "Fünfzigmal dasselbe Motiv",
+   "Gar nicht",
+   "Nur Selfies",
+   "Nur das Essen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "368f1aa0-70bc-4aa8-8117-95ecbf9ab3cf": {
+  "text": "Wie schläft {{playerName}} meistens?",
+  "answers": [
+   "Auf dem Rücken",
+   "Auf der Seite",
+   "Auf dem Bauch",
+   "Ausgebreitet wie ein Seestern"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f32d78d9-ad1f-4da1-a4eb-bb631981389d": {
+  "text": "Wie lange duscht {{playerName}}?",
+  "answers": [
+   "Unter 5 Minuten",
+   "Etwa 10 Minuten",
+   "Gute 20 Minuten",
+   "1 Stunde"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4a4c1dcb-edc8-499a-b622-51d40eb7fed0": {
+  "text": "Wie scharf isst {{playerName}} am liebsten?",
+  "answers": [
+   "Gar nicht scharf",
+   "Ein bisschen",
+   "Ziemlich scharf",
+   "Das Schärfste auf der Karte"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "64443fba-3210-45c2-91a7-e445962bb768": {
+  "text": "Wie viele Wecker stellt sich {{playerName}}?",
+  "answers": [
+   "Keinen",
+   "Einen",
+   "Zwei oder drei",
+   "Einen ganzen Haufen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7ae392a8-9407-45b1-8393-659cd8c7ff06": {
+  "text": "Wie viel Eis will {{playerName}} im Getränk?",
+  "answers": [
+   "Keins",
+   "Ein bisschen",
+   "Ein halbes Glas",
+   "Bis zum Rand"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8d2288a5-7234-4b0a-9d04-a4df4a7c8276": {
+  "text": "Wie warm mag {{playerName}} es im Zimmer?",
+  "answers": [
+   "Kalt",
+   "Kühl",
+   "Warm",
+   "Heiß"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9a333a60-a208-4fa6-b5ad-715cc8915816": {
+  "text": "Wo ist {{playerName}}, wenn ihr zu Fuß unterwegs seid?",
+  "answers": [
+   "Hängt hinterher",
+   "Direkt daneben",
+   "Läuft vorneweg",
+   "Wartet schon an der Tür"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "03e69dee-3b69-4951-8dc6-3b8264f042b0": {
+  "text": "Wie hell mag {{playerName}} das Licht?",
+  "answers": [
+   "Fast dunkel",
+   "Gedimmt",
+   "Normal",
+   "Alles an"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0aca9c68-fa93-42be-9d3c-1de5a6691b90": {
+  "text": "Wie viel isst {{playerName}} vom Teller auf?",
+  "answers": [
+   "Lässt die Hälfte übrig",
+   "Lässt etwas übrig",
+   "Isst alles auf",
+   "Holt sich Nachschlag"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5c58e0a8-e571-49fa-9dcf-8bcabbfd351d": {
+  "text": "Wie laut schaut {{playerName}} fern?",
+  "answers": [
+   "Sehr leise",
+   "Normal",
+   "Laut",
+   "Das ganze Haus hört mit"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8dcf54f4-7604-4a50-868f-a1059383d60f": {
+  "text": "Welchen Sport schaut {{playerName}} am häufigsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "518cefed-96bc-4925-a6d7-cbbbe1bafe71": {
+  "text": "Wie laut ist das Handy von {{playerName}} meistens?",
+  "answers": [
+   "Lautlos oder Vibration",
+   "Leise, wie es sich gehört",
+   "Laut genug für den ganzen Raum"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b194f4d3-f0fd-4181-9fe0-ba5a5d8df660": {
+  "text": "Was trinkt {{playerName}} am liebsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "479bda74-7ea0-4281-b895-aa99f5ec2cd2": {
+  "text": "Welchen Wochentag mag {{playerName}} am liebsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d8a84507-b8e2-4a95-843a-ee747cc48192": {
+  "text": "Welche Schuhmarke trägt {{playerName}} am häufigsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "93071ba2-48c1-40a4-9b45-223d4ea76fba": {
+  "text": "Welche Klamottenmarke mag {{playerName}} am liebsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2cfc2473-9298-4832-91ac-7d80bdb6acf8": {
+  "text": "Welches Essen tröstet {{playerName}} an traurigen Tagen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1964cbeb-89e2-449a-8c9f-a62f03c5001e": {
+  "text": "Was checkt {{playerName}} morgens als Erstes am Handy?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "72d01256-9cc6-4e00-9ee2-32149b3777c1": {
+  "text": "Was macht {{playerName}}, wenn sonst niemand zu Hause ist?",
+  "answers": [
+   "Singt aus voller Kehle",
+   "Tanzt durch die Wohnung",
+   "Führt imaginäre Gespräche",
+   "Isst im Bett"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5426502c-b09e-4e22-9d93-14cdcc37e444": {
+  "text": "Was macht {{playerName}}, wenn ein Name partout nicht einfällt?",
+  "answers": [
+   "Vermeidet den Namen",
+   "Weicht auf einen Spitznamen aus",
+   "Gibt es sofort zu",
+   "Fragt heimlich jemand anderen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b8373ab6-1ddc-4a1b-9c77-fb896eac0d39": {
+  "text": "{{playerName}} stolpert vor allen Leuten. Und dann?",
+  "answers": [
+   "Fängt einfach an zu joggen",
+   "Starrt den Boden böse an",
+   "Lacht laut los",
+   "Tut, als wäre nichts passiert"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c01488a8-0bfe-43e5-8da7-3d73f726e8a8": {
+  "text": "Was würde {{playerName}} nach einem Lottogewinn als Erstes tun?",
+  "answers": [
+   "Den Job kündigen",
+   "Ein Haus kaufen",
+   "Um die Welt reisen",
+   "Niemandem etwas sagen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9c6b53e4-f5b8-473e-b934-46874be76618": {
+  "text": "Welche Rolle hätte {{playerName}} in einer Zombie-Apokalypse?",
+  "answers": [
+   "Führt die Gruppe an",
+   "Wird als Erstes gebissen",
+   "Hortet alle Snacks",
+   "Verrät alle"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": "Options turned into verb phrases (Führt die Gruppe an...) to avoid gendered role nouns like Anführer/in, Verräter/in."
+ },
+ "23003c7d-5093-46f0-a54a-2f942131eb3c": {
+  "text": "Welche Superkraft würde {{playerName}} wählen?",
+  "answers": [
+   "Fliegen",
+   "Unsichtbar sein",
+   "Gedanken lesen",
+   "Sich teleportieren"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f29d4add-5a02-4673-af37-22538518bf1d": {
+  "text": "Was ist gerade auf dem Sperrbildschirm von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2c118d16-4d4d-47ed-a1e5-324d8ff8801c": {
+  "text": "Wie viele Stunden Bildschirmzeit hat {{playerName}} im Schnitt pro Tag?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "87169443-4ab3-4ed7-a6a9-86d699553988": {
+  "text": "In welcher App verbringt {{playerName}} laut Bildschirmzeit die meiste Zeit?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d2eb66d6-376f-48c0-a8c4-b9bd593f2533": {
+  "text": "Wie viele ungelesene Benachrichtigungen hat {{playerName}} meistens?",
+  "answers": [
+   "Null, immer alles weggeklickt",
+   "Ein paar",
+   "Dutzende",
+   "Hunderte"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b33c8cde-b296-45cf-b287-875bb5ce045e": {
+  "text": "Wie voll ist der Handyakku von {{playerName}} meistens?",
+  "answers": [
+   "Immer über 80 %",
+   "Irgendwo in der Mitte",
+   "Meist unter 20 %",
+   "Immer kurz vorm Sterben"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7a8fe703-7dff-4a13-a22a-e41eb71b652a": {
+  "text": "Wie heißt das WLAN bei {{playerName}} zu Hause?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "147fc614-cbc3-40c2-99c8-4c3153cd6e71": {
+  "text": "Was hat {{playerName}} zuletzt online bestellt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "517564ba-2931-43ca-827c-58dddf379dac": {
+  "text": "Was würde {{playerName}} um nichts in der Welt essen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

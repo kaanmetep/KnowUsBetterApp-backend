@@ -1,0 +1,1094 @@
+[
+ {
+  "id": "ad42c59d-bd4b-4f67-963a-f1a1c512f2c9",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "When a disagreement starts, your first instinct is to…",
+  "tr": "Bir anlaşmazlık başladığında ilk içgüdün…",
+  "answers_en": [
+   "Say everything right away",
+   "Go quiet and pull back",
+   "Smooth it over, even if I'm not done",
+   "Leave the room to cool off"
+  ],
+  "answers_tr": [
+   "Her şeyi hemen söylemek",
+   "Susup geri çekilmek",
+   "İçim rahat etmese de ortamı yumuşatmak",
+   "Sakinleşmek için odadan çıkmak"
+  ],
+  "category": "daily_conflict"
+ },
+ {
+  "id": "4847cd44-98d1-4533-bb0a-e8b49438e2a6",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What do you need before a fight can really end for you?",
+  "tr": "Bir kavganın senin için gerçekten bitmesi için neye ihtiyacın var?",
+  "answers_en": [
+   "A sincere apology",
+   "To feel understood",
+   "A clear solution",
+   "Time alone first",
+   "Physical closeness"
+  ],
+  "answers_tr": [
+   "Samimi bir özür",
+   "Anlaşıldığımı hissetmek",
+   "Net bir çözüm",
+   "Önce biraz yalnız kalmak",
+   "Fiziksel yakınlık"
+  ],
+  "category": "daily_conflict"
+ },
+ {
+  "id": "0a402b2b-06aa-4c65-9534-cd5828e42c46",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How do you feel about making the first move to make up?",
+  "tr": "Barışmak için ilk adımı atmak hakkında ne hissediyorsun?",
+  "answers_en": [
+   "I usually do it and I'm fine with that",
+   "I usually do it and it's starting to bother me",
+   "I tend to wait for them",
+   "It's hard for me, even when I want to"
+  ],
+  "answers_tr": [
+   "Genelde ben atarım, sorun değil",
+   "Genelde ben atarım ve bu artık canımı sıkıyor",
+   "Genelde onun gelmesini beklerim",
+   "İstesem bile bu bana zor geliyor"
+  ],
+  "category": "daily_conflict"
+ },
+ {
+  "id": "d0ec371b-99c3-42e2-86fe-60295e7a3aba",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "After a fight is over, how long does it stay with you?",
+  "tr": "Bir kavga bittikten sonra ne kadar aklında kalır?",
+  "answers_en": [
+   "It's gone once we make up",
+   "A few hours",
+   "A day or two",
+   "It comes back up later"
+  ],
+  "answers_tr": [
+   "Barıştığımız an biter",
+   "Birkaç saat",
+   "Bir iki gün",
+   "Sonra tekrar aklıma gelir"
+  ],
+  "category": "daily_conflict"
+ },
+ {
+  "id": "375bb36b-b6d9-4321-a8e4-b8fdcd60abcf",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What escalates a fight fastest for you?",
+  "tr": "Bir kavgayı senin için en hızlı ne büyütür?",
+  "answers_en": [
+   "A raised voice or harsh tone",
+   "Being interrupted or not heard",
+   "Old issues being brought up",
+   "Silence or walking away",
+   "Sarcasm or eye-rolling"
+  ],
+  "answers_tr": [
+   "Yükselen ses ya da sert ton",
+   "Sözümün kesilmesi, dinlenmemek",
+   "Eski meselelerin açılması",
+   "Susmak ya da çekip gitmek",
+   "İğneleme ya da göz devirme"
+  ],
+  "category": "daily_conflict"
+ },
+ {
+  "id": "6ba99e54-c776-447b-ad7c-830ef561545a",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What do you hold back to keep the peace?",
+  "tr": "Ortam bozulmasın diye neleri söylemezsin?",
+  "answers_en": [
+   "Nothing, I say what bothers me",
+   "Small annoyances",
+   "Bigger needs I have",
+   "Things about their family or friends"
+  ],
+  "answers_tr": [
+   "Hiçbir şey, canımı sıkanı söylerim",
+   "Küçük rahatsızlıklarımı",
+   "Daha büyük ihtiyaçlarımı",
+   "Ailesi ya da arkadaşlarıyla ilgili şeyleri"
+  ],
+  "category": "daily_conflict"
+ },
+ {
+  "id": "0a32a02d-0e74-4f0b-836a-4a5ae6890ab7",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "In a few words: what do you two keep arguing about?",
+  "tr": "Birkaç kelimeyle: ikiniz sürekli ne hakkında tartışıyorsunuz?",
+  "category": "daily_conflict"
+ },
+ {
+  "id": "80d0cd30-bef6-4ec4-aeac-17776ab4b318",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What does your partner do in arguments that you wish they'd stop?",
+  "tr": "Partnerinin tartışırken yaptığı ve bırakmasını istediğin şey ne?",
+  "category": "daily_conflict"
+ },
+ {
+  "id": "7daf8ce4-e900-49bd-a99c-2bd3b2dc6623",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How fairly do you feel chores are split between you?",
+  "tr": "Ev işlerinin aranızda ne kadar adil paylaşıldığını düşünüyorsun?",
+  "answers_en": [
+   "Completely fair",
+   "Mostly fair",
+   "I do more than my share",
+   "My partner does more than their share"
+  ],
+  "answers_tr": [
+   "Tamamen adil",
+   "Çoğunlukla adil",
+   "Ben payıma düşenden fazlasını yapıyorum",
+   "Partnerim payına düşenden fazlasını yapıyor"
+  ],
+  "category": "daily_everyday_life"
+ },
+ {
+  "id": "37e7075f-f8c0-4a6f-8bb1-15d4f63b79b8",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How much time alone do you need in a normal week?",
+  "tr": "Normal bir haftada ne kadar yalnız zamana ihtiyaç duyarsın?",
+  "answers_en": [
+   "Almost none",
+   "An hour or two",
+   "An evening or more",
+   "A lot, and I don't always say it"
+  ],
+  "answers_tr": [
+   "Neredeyse hiç",
+   "Bir iki saat",
+   "Bir akşam ya da daha fazla",
+   "Çok, ve bunu hep söylemiyorum"
+  ],
+  "category": "daily_everyday_life"
+ },
+ {
+  "id": "2ec6384d-4e70-49a8-b8b4-60fc79668a5a",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Your ideal weekday evening together?",
+  "tr": "Birlikte ideal hafta içi akşamınız?",
+  "answers_en": [
+   "Cooking and eating together",
+   "Watching something on the couch",
+   "Going out somewhere",
+   "Side by side, each doing our own thing"
+  ],
+  "answers_tr": [
+   "Birlikte yemek yapıp yemek",
+   "Kanepede bir şey izlemek",
+   "Bir yere çıkmak",
+   "Yan yana, herkes kendi işinde"
+  ],
+  "category": "daily_everyday_life"
+ },
+ {
+  "id": "c3bfa96a-4683-46d7-a472-9844feb722ce",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How do you feel about phones when you're together?",
+  "tr": "Birlikteyken telefonlar hakkında ne düşünüyorsun?",
+  "answers_en": [
+   "Not a problem for us",
+   "It bothers me sometimes",
+   "It bothers me a lot",
+   "I'm probably on mine more"
+  ],
+  "answers_tr": [
+   "Bizim için sorun değil",
+   "Bazen canımı sıkıyor",
+   "Çok canımı sıkıyor",
+   "Herhalde telefonda daha çok olan benim"
+  ],
+  "category": "daily_everyday_life"
+ },
+ {
+  "id": "ec39df53-45de-401b-83c5-c71fdc6a7b5c",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Weekends should be…",
+  "tr": "Hafta sonları…",
+  "answers_en": [
+   "Planned and full",
+   "One plan, the rest free",
+   "Totally unplanned",
+   "Mostly rest at home"
+  ],
+  "answers_tr": [
+   "Planlı ve dolu olmalı",
+   "Tek bir plan, gerisi serbest olmalı",
+   "Tamamen plansız olmalı",
+   "Çoğunlukla evde dinlenmeli"
+  ],
+  "category": "daily_everyday_life"
+ },
+ {
+  "id": "da536f27-fd8e-4b15-9bb2-fff1ab7cc79d",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How tidy should home be?",
+  "tr": "Ev ne kadar düzenli olmalı?",
+  "answers_en": [
+   "Spotless",
+   "Tidy enough",
+   "Lived-in is cozy",
+   "I don't notice the mess"
+  ],
+  "answers_tr": [
+   "Pırıl pırıl",
+   "Yeterince toplu",
+   "Biraz dağınık daha samimi",
+   "Dağınıklığı fark etmem"
+  ],
+  "category": "daily_everyday_life"
+ },
+ {
+  "id": "973523ee-da46-453e-8012-d7d01eb59fab",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What part of your everyday life together do you love most?",
+  "tr": "Birlikte gündelik hayatınızın en çok sevdiğin kısmı ne?",
+  "category": "daily_everyday_life"
+ },
+ {
+  "id": "455eea81-69be-46f9-a81e-7299fb4c5f1e",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What small daily thing would you change about how you live together?",
+  "tr": "Birlikte yaşayışınızla ilgili değiştirmek istediğin küçük, gündelik bir şey ne?",
+  "category": "daily_everyday_life"
+ },
+ {
+  "id": "45b55eb0-9f7d-4819-8905-6bbf7412e967",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How often should you see your families?",
+  "tr": "Ailelerinizi ne sıklıkla görmelisiniz?",
+  "answers_en": [
+   "Every week",
+   "A couple of times a month",
+   "On special occasions",
+   "As little as possible"
+  ],
+  "answers_tr": [
+   "Her hafta",
+   "Ayda birkaç kez",
+   "Özel günlerde",
+   "Mümkün olduğunca az"
+  ],
+  "category": "daily_family_friends"
+ },
+ {
+  "id": "0186e34c-69ce-4b3a-a0ca-eeda47599e25",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "A family member criticizes your partner. You…",
+  "tr": "Bir aile üyen partnerini eleştiriyor. Sen…",
+  "answers_en": [
+   "Defend them right there",
+   "Talk to my family privately later",
+   "Stay out of it",
+   "Ask my partner what they want me to do"
+  ],
+  "answers_tr": [
+   "Orada hemen savunurum",
+   "Sonra ailemle özelde konuşurum",
+   "Karışmam",
+   "Partnerime ne yapmamı istediğini sorarım"
+  ],
+  "category": "daily_family_friends"
+ },
+ {
+  "id": "6df93e1d-bb18-418a-bb9e-fc88799efaf1",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How much say should parents have in your decisions as a couple?",
+  "tr": "Ebeveynlerin çift olarak verdiğiniz kararlarda ne kadar söz hakkı olmalı?",
+  "answers_en": [
+   "None, it's our life",
+   "We listen, then decide ourselves",
+   "Their opinion matters a lot",
+   "Depends on the decision"
+  ],
+  "answers_tr": [
+   "Hiç, bu bizim hayatımız",
+   "Dinleriz, sonra kendimiz karar veririz",
+   "Fikirleri çok önemli",
+   "Karara göre değişir"
+  ],
+  "category": "daily_family_friends"
+ },
+ {
+  "id": "8bb0a2e7-1a3d-437d-a3ea-c821dbb2fd90",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Your ideal weekend social life?",
+  "tr": "İdeal hafta sonu sosyal hayatın?",
+  "answers_en": [
+   "A big group of friends",
+   "One other couple",
+   "Just the two of us",
+   "Each with our own friends"
+  ],
+  "answers_tr": [
+   "Kalabalık bir arkadaş grubu",
+   "Bir başka çift",
+   "Sadece ikimiz",
+   "Herkes kendi arkadaşlarıyla"
+  ],
+  "category": "daily_family_friends"
+ },
+ {
+  "id": "b9c6e8e3-d7e3-45e4-810d-8e26270732b0",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How do you feel about your partner's friends?",
+  "tr": "Partnerinin arkadaşları hakkında ne hissediyorsun?",
+  "answers_en": [
+   "I really like them",
+   "Fine, but not my people",
+   "Some of them bother me",
+   "I barely know them"
+  ],
+  "answers_tr": [
+   "Onları gerçekten seviyorum",
+   "İyiler ama benim insanlarım değil",
+   "Bazıları beni rahatsız ediyor",
+   "Onları pek tanımıyorum"
+  ],
+  "category": "daily_family_friends"
+ },
+ {
+  "id": "2a964d04-7284-475d-bb2a-e104a8e02a1e",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How much should friends know about your relationship?",
+  "tr": "Arkadaşlar ilişkiniz hakkında ne kadar bilmeli?",
+  "answers_en": [
+   "Everything, they're my people",
+   "The good parts",
+   "Only big news",
+   "Almost nothing"
+  ],
+  "answers_tr": [
+   "Her şeyi, onlar benim insanlarım",
+   "Güzel kısımları",
+   "Sadece büyük haberleri",
+   "Neredeyse hiçbir şey"
+  ],
+  "category": "daily_family_friends"
+ },
+ {
+  "id": "04308de1-190c-466a-816f-1fc04d957ce2",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "Which family tradition would you want to keep, or start, together?",
+  "tr": "Birlikte sürdürmek ya da başlatmak istediğin aile geleneği hangisi?",
+  "category": "daily_family_friends"
+ },
+ {
+  "id": "8316d765-29a3-4f40-a97e-1adc20b8da80",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What's one thing about your partner's family or friends you've never said out loud?",
+  "tr": "Partnerinin ailesi ya da arkadaşları hakkında hiç yüksek sesle söylemediğin bir şey ne?",
+  "category": "daily_family_friends"
+ },
+ {
+  "id": "0da22e32-fa22-493b-bc7f-f4b3a1ae901b",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Where do you see yourselves living in 5 years?",
+  "tr": "5 yıl sonra kendinizi nerede yaşarken görüyorsun?",
+  "answers_en": [
+   "Right where we are",
+   "A bigger city",
+   "Somewhere quiet, near nature",
+   "Another country"
+  ],
+  "answers_tr": [
+   "Tam da şimdiki yerimizde",
+   "Daha büyük bir şehirde",
+   "Doğaya yakın sakin bir yerde",
+   "Başka bir ülkede"
+  ],
+  "category": "daily_future"
+ },
+ {
+  "id": "094980c9-ac72-48cd-8fec-ded5e8c859f2",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How do you feel about having kids?",
+  "tr": "Çocuk sahibi olmak hakkında ne düşünüyorsun?",
+  "answers_en": [
+   "Definitely, and soon",
+   "Yes, but not yet",
+   "Not sure",
+   "Not for me"
+  ],
+  "answers_tr": [
+   "Kesinlikle, hem de yakında",
+   "Evet ama henüz değil",
+   "Emin değilim",
+   "Bana göre değil"
+  ],
+  "category": "daily_future"
+ },
+ {
+  "id": "9dd0cb25-5e52-4bbd-8b84-0845b7a42506",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What matters most for your future together?",
+  "tr": "Ortak geleceğiniz için en önemli şey ne?",
+  "answers_en": [
+   "Stability and security",
+   "Adventure and new experiences",
+   "Building a family",
+   "Each of us growing"
+  ],
+  "answers_tr": [
+   "İstikrar ve güven",
+   "Macera ve yeni deneyimler",
+   "Bir aile kurmak",
+   "İkimizin de kendini geliştirmesi"
+  ],
+  "category": "daily_future"
+ },
+ {
+  "id": "0bcc27d3-1ef3-44af-a395-189f4c9bd2c7",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "You get a dream job offer in another city. You…",
+  "tr": "Başka bir şehirden hayalindeki iş teklifi geldi. Sen…",
+  "answers_en": [
+   "Take it only if we move together",
+   "Try long distance for a while",
+   "Turn it down for us",
+   "Take it, we'll figure it out"
+  ],
+  "answers_tr": [
+   "Sadece birlikte taşınırsak kabul ederim",
+   "Bir süre uzak mesafe denerim",
+   "Bizim için reddederim",
+   "Kabul ederim, bir yolunu buluruz"
+  ],
+  "category": "daily_future"
+ },
+ {
+  "id": "8ef516ca-6075-4b91-baa4-ddf344730612",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How do you prefer to plan the future?",
+  "tr": "Geleceği nasıl planlamayı tercih edersin?",
+  "answers_en": [
+   "Detailed plans, years ahead",
+   "A rough direction",
+   "One step at a time",
+   "Let life surprise us"
+  ],
+  "answers_tr": [
+   "Yıllar öncesinden detaylı planlar",
+   "Kabaca bir yön",
+   "Adım adım",
+   "Hayat bizi şaşırtsın"
+  ],
+  "category": "daily_future"
+ },
+ {
+  "id": "afb504c6-4c43-4b52-ac1f-3313b26b9e24",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How sure are you that you two want the same future?",
+  "tr": "İkinizin aynı geleceği istediğinden ne kadar eminsin?",
+  "answers_en": [
+   "Completely sure",
+   "Mostly, with a few open questions",
+   "We haven't really talked about it",
+   "Not sure at all"
+  ],
+  "answers_tr": [
+   "Tamamen eminim",
+   "Çoğunlukla, birkaç açık soru var",
+   "Bunu gerçekten konuşmadık",
+   "Hiç emin değilim"
+  ],
+  "category": "daily_future"
+ },
+ {
+  "id": "983f732f-f006-4caf-acec-f1b565922810",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "In one sentence: where are the two of you in five years?",
+  "tr": "Tek cümleyle: beş yıl sonra ikiniz neredesiniz?",
+  "category": "daily_future"
+ },
+ {
+  "id": "9a479602-d540-4c0d-818d-eca22f12ae13",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What's one thing about the future you've been hesitant to bring up?",
+  "tr": "Gelecekle ilgili açmaya çekindiğin bir konu ne?",
+  "category": "daily_future"
+ },
+ {
+  "id": "dae2d4cc-1750-4ff2-ad27-8844b09f1ea3",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "When do you feel closest to your partner?",
+  "tr": "Partnerine en çok ne zaman yakın hissedersin?",
+  "answers_en": [
+   "Talking late at night",
+   "Laughing together",
+   "In moments of physical closeness",
+   "After getting through something hard"
+  ],
+  "answers_tr": [
+   "Gece geç saatte konuşurken",
+   "Birlikte gülerken",
+   "Fiziksel yakınlık anlarında",
+   "Zor bir şeyi birlikte atlattıktan sonra"
+  ],
+  "category": "daily_intimacy"
+ },
+ {
+  "id": "b1333bff-a865-4cb9-9293-ec4f88e184e2",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How satisfied are you with your physical closeness lately?",
+  "tr": "Son zamanlarda aranızdaki fiziksel yakınlıktan ne kadar memnunsun?",
+  "answers_en": [
+   "Very satisfied",
+   "Mostly satisfied",
+   "I'd like more",
+   "Something feels off"
+  ],
+  "answers_tr": [
+   "Çok memnunum",
+   "Çoğunlukla memnunum",
+   "Daha fazlasını isterdim",
+   "Bir şeyler yolunda değil gibi"
+  ],
+  "category": "daily_intimacy"
+ },
+ {
+  "id": "54b1befc-8d38-4ad9-b0f7-4ecc5da68448",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How do you like intimacy to begin?",
+  "tr": "Yakınlaşmanın nasıl başlamasını seversin?",
+  "answers_en": [
+   "Slowly, no rush",
+   "Spontaneously",
+   "With words first",
+   "Planned, the anticipation helps"
+  ],
+  "answers_tr": [
+   "Yavaş yavaş, acele etmeden",
+   "Kendiliğinden",
+   "Önce sözlerle",
+   "Planlı, beklemek heyecanı artırır"
+  ],
+  "category": "daily_intimacy"
+ },
+ {
+  "id": "a23bd9c0-604e-42e9-a98a-4f1494b812c3",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What kills the mood fastest for you?",
+  "tr": "Senin için havayı en hızlı ne bozar?",
+  "answers_en": [
+   "Phones",
+   "Stress from the day",
+   "Feeling rushed",
+   "Unresolved tension"
+  ],
+  "answers_tr": [
+   "Telefonlar",
+   "Günün stresi",
+   "Aceleye getirilmek",
+   "Çözülmemiş gerginlik"
+  ],
+  "category": "daily_intimacy"
+ },
+ {
+  "id": "6689e4d3-270f-4a02-9581-f286060425d0",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How important is affection outside the bedroom to you?",
+  "tr": "Yatak odası dışındaki sevgi gösterisi senin için ne kadar önemli?",
+  "answers_en": [
+   "Essential",
+   "Very nice to have",
+   "Not a big deal"
+  ],
+  "answers_tr": [
+   "Olmazsa olmaz",
+   "Olması çok güzel",
+   "Çok önemli değil"
+  ],
+  "category": "daily_intimacy"
+ },
+ {
+  "id": "3cb8d865-6f52-410b-a73c-647cc8ed78fb",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Telling your partner what you want in intimacy is…",
+  "tr": "Yakınlıkta ne istediğini partnerine söylemek…",
+  "answers_en": [
+   "Easy for me",
+   "Easier over text",
+   "Awkward, but I want to",
+   "Something I avoid"
+  ],
+  "answers_tr": [
+   "Benim için kolay",
+   "Mesajla daha kolay",
+   "Tuhaf ama istiyorum",
+   "Kaçındığım bir şey"
+  ],
+  "category": "daily_intimacy"
+ },
+ {
+  "id": "176ce7a7-80c4-44da-b820-4488d4d1d280",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "Which moment between you two do you keep replaying in your head?",
+  "tr": "Aranızdaki hangi anı kafanda tekrar tekrar yaşıyorsun?",
+  "category": "daily_intimacy"
+ },
+ {
+  "id": "0d7aff47-dea9-4a0b-a71b-03f9e196e0f5",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "In a few words: what makes you feel desired?",
+  "tr": "Birkaç kelimeyle: seni arzulandığını ne hissettirir?",
+  "category": "daily_intimacy"
+ },
+ {
+  "id": "f6a2734f-3505-4f4a-9316-0bbe08fdc1f4",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What makes you feel most loved?",
+  "tr": "Seni en çok ne sevildiğini hissettirir?",
+  "answers_en": [
+   "Hearing it said out loud",
+   "Undivided time together",
+   "Them making my life easier",
+   "Physical touch",
+   "A thoughtful surprise"
+  ],
+  "answers_tr": [
+   "Bunu açıkça duymak",
+   "Bölünmeden birlikte geçen zaman",
+   "Hayatımı kolaylaştırması",
+   "Fiziksel temas",
+   "Düşünülmüş bir sürpriz"
+  ],
+  "category": "daily_love_language"
+ },
+ {
+  "id": "133e06f4-dacb-4900-9789-001a5b70e6b0",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How do you most naturally show love?",
+  "tr": "Sevgini en doğal hâlinle nasıl gösterirsin?",
+  "answers_en": [
+   "By saying it",
+   "By making time",
+   "By doing things for them",
+   "Through touch",
+   "With small surprises"
+  ],
+  "answers_tr": [
+   "Söyleyerek",
+   "Vakit ayırarak",
+   "Onun için bir şeyler yaparak",
+   "Dokunarak",
+   "Küçük sürprizlerle"
+  ],
+  "category": "daily_love_language"
+ },
+ {
+  "id": "e4d36f8a-1611-4d47-8524-7fa4e276d576",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What makes you feel unloved the fastest?",
+  "tr": "Seni en hızlı ne sevilmediğini hissettirir?",
+  "answers_en": [
+   "Days without a kind word",
+   "Them on their phone when we're together",
+   "Being left to handle everything",
+   "No affection for a while",
+   "My effort going unnoticed"
+  ],
+  "answers_tr": [
+   "Günlerce tek bir güzel söz duymamak",
+   "Birlikteyken onun telefonda olması",
+   "Her şeyle tek başıma uğraşmak",
+   "Bir süre hiç sevgi gösterilmemesi",
+   "Emeğimin fark edilmemesi"
+  ],
+  "category": "daily_love_language"
+ },
+ {
+  "id": "3bab62fd-1bc7-4eca-8947-a5d212b2d5f2",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "When you're stressed, what do you want from your partner?",
+  "tr": "Stresliyken partnerinden ne istersin?",
+  "answers_en": [
+   "Talk it through with me",
+   "Just be next to me",
+   "Take something off my plate",
+   "Hold me",
+   "Give me space"
+  ],
+  "answers_tr": [
+   "Benimle konuşsun",
+   "Sadece yanımda olsun",
+   "Bir işimi üstlensin",
+   "Bana sarılsın",
+   "Bana alan tanısın"
+  ],
+  "category": "daily_love_language"
+ },
+ {
+  "id": "0d6c4a65-26ce-4b3d-a4a9-bc4d2ca492db",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How much physical affection do you want on a normal day?",
+  "tr": "Sıradan bir günde ne kadar fiziksel yakınlık istersin?",
+  "answers_en": [
+   "A lot, all the time",
+   "Several moments a day",
+   "A little is enough",
+   "I'm not very physical"
+  ],
+  "answers_tr": [
+   "Çok, sürekli",
+   "Gün içinde birkaç kez",
+   "Biraz yeterli",
+   "Pek fiziksel biri değilim"
+  ],
+  "category": "daily_love_language"
+ },
+ {
+  "id": "f8892d3c-58cc-4820-bbdc-cd6f7d7f87e9",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How often do you feel your love goes unnoticed?",
+  "tr": "Gösterdiğin sevginin ne sıklıkla fark edilmediğini hissediyorsun?",
+  "answers_en": [
+   "Almost never",
+   "Sometimes",
+   "Often",
+   "Most of the time"
+  ],
+  "answers_tr": [
+   "Neredeyse hiç",
+   "Bazen",
+   "Sık sık",
+   "Çoğu zaman"
+  ],
+  "category": "daily_love_language"
+ },
+ {
+  "id": "be0526e5-ba2f-4129-a55a-0238be57b8da",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "Describe the last moment you felt truly loved by your partner.",
+  "tr": "Partnerin tarafından gerçekten sevildiğini hissettiğin son anı anlat.",
+  "category": "daily_love_language"
+ },
+ {
+  "id": "190ea05e-76db-489f-a50d-c3473f48f2e7",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What do you do to show love that you think your partner doesn't notice?",
+  "tr": "Sevgini göstermek için yaptığın ama partnerinin fark etmediğini düşündüğün şey ne?",
+  "category": "daily_love_language"
+ },
+ {
+  "id": "74e8638b-8b64-4231-9da1-49a411091b71",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "An unexpected bonus lands in your account. You…",
+  "tr": "Hesabına beklenmedik bir ikramiye yattı. Sen…",
+  "answers_en": [
+   "Save it",
+   "Spend it on something for us",
+   "Treat myself",
+   "Pay something off"
+  ],
+  "answers_tr": [
+   "Biriktiririm",
+   "İkimiz için bir şeye harcarım",
+   "Kendimi şımartırım",
+   "Bir borcu kapatırım"
+  ],
+  "category": "daily_money"
+ },
+ {
+  "id": "27d986a2-af92-4a2b-8c11-c88a505f4ffc",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How should couples handle money?",
+  "tr": "Çiftler parayı nasıl yönetmeli?",
+  "answers_en": [
+   "Everything shared",
+   "Shared account plus our own",
+   "Fully separate, split the bills"
+  ],
+  "answers_tr": [
+   "Her şey ortak",
+   "Ortak hesap artı kendi hesaplarımız",
+   "Tamamen ayrı, faturalar bölünür"
+  ],
+  "category": "daily_money"
+ },
+ {
+  "id": "529c952f-f5ce-4a9a-811e-de16b44436ca",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Which describes you best with money?",
+  "tr": "Para konusunda seni en iyi hangisi anlatır?",
+  "answers_en": [
+   "A careful saver",
+   "A happy spender",
+   "A planner with a budget",
+   "Depends on my mood"
+  ],
+  "answers_tr": [
+   "Dikkatli bir biriktirici",
+   "Harcamayı seven biri",
+   "Bütçe yapan bir planlayıcı",
+   "Moduma göre değişir"
+  ],
+  "category": "daily_money"
+ },
+ {
+  "id": "69067652-637f-4025-a1a9-bf8fe43e5541",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How much can you spend without telling your partner?",
+  "tr": "Partnerine söylemeden ne kadar harcayabilirsin?",
+  "answers_en": [
+   "Anything, it's my money",
+   "Up to a small amount",
+   "Nothing big without talking first"
+  ],
+  "answers_tr": [
+   "Her şeyi, benim param",
+   "Küçük bir miktara kadar",
+   "Konuşmadan büyük bir şey harcamam"
+  ],
+  "category": "daily_money"
+ },
+ {
+  "id": "3801b3f8-ca7a-427a-8049-b7eb1a4a83a1",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What worries you most about money?",
+  "tr": "Para konusunda seni en çok ne endişelendiriyor?",
+  "answers_en": [
+   "Not having enough saved",
+   "Debt",
+   "Us not agreeing on it",
+   "Honestly, nothing"
+  ],
+  "answers_tr": [
+   "Yeterince birikimimizin olmaması",
+   "Borç",
+   "Bu konuda anlaşamamamız",
+   "Açıkçası hiçbir şey"
+  ],
+  "category": "daily_money"
+ },
+ {
+  "id": "782694ff-ef2a-453d-b2b0-820147b9c492",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How comfortable are you talking about money with your partner?",
+  "tr": "Partnerinle para hakkında konuşmak sana ne kadar rahat geliyor?",
+  "answers_en": [
+   "Completely, we talk openly",
+   "Fine, but we rarely do",
+   "A bit awkward",
+   "I avoid it"
+  ],
+  "answers_tr": [
+   "Çok rahat, açıkça konuşuruz",
+   "Rahat ama nadiren konuşuruz",
+   "Biraz tuhaf geliyor",
+   "Kaçınıyorum"
+  ],
+  "category": "daily_money"
+ },
+ {
+  "id": "383497c5-6a90-487f-acfb-ba23d85788e9",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What's the biggest money decision you want to make together in the next few years?",
+  "tr": "Önümüzdeki birkaç yılda birlikte vermek istediğin en büyük parasal karar ne?",
+  "category": "daily_money"
+ },
+ {
+  "id": "b43559b3-b10b-49de-b3d6-d71e7cdb85b6",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What did money mean in the home you grew up in?",
+  "tr": "Büyüdüğün evde para ne anlama geliyordu?",
+  "category": "daily_money"
+ },
+ {
+  "id": "df0f185f-6d69-4ba4-9994-5996b2f0bf68",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Looking at your partner's phone is…",
+  "tr": "Partnerinin telefonuna bakmak…",
+  "answers_en": [
+   "Never okay, it's private",
+   "Fine with permission",
+   "Fine, we have nothing to hide",
+   "Something I've done without asking"
+  ],
+  "answers_tr": [
+   "Asla olmaz, özeldir",
+   "İzinle olur",
+   "Olur, saklayacak bir şeyimiz yok",
+   "Sormadan yaptığım bir şey"
+  ],
+  "category": "daily_trust_jealousy"
+ },
+ {
+  "id": "dd3aaedc-07ee-412b-bb83-7c23dbb377c1",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Someone gives your partner a lot of attention. You…",
+  "tr": "Biri partnerine çok ilgi gösteriyor. Sen…",
+  "answers_en": [
+   "Don't mind at all",
+   "Feel a small sting but trust them",
+   "Would want to talk about it",
+   "Would get openly jealous"
+  ],
+  "answers_tr": [
+   "Hiç umursamam",
+   "Hafif bir sızı hissederim ama güvenirim",
+   "Bunu konuşmak isterim",
+   "Açıkça kıskanırım"
+  ],
+  "category": "daily_trust_jealousy"
+ },
+ {
+  "id": "fbf507be-cbda-4663-9a38-9a01f9393e66",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Your partner staying friends with an ex is…",
+  "tr": "Partnerinin eski sevgilisiyle arkadaş kalması…",
+  "answers_en": [
+   "Totally fine",
+   "Fine if there's nothing left",
+   "Uncomfortable for me",
+   "A dealbreaker"
+  ],
+  "answers_tr": [
+   "Tamamen normal",
+   "Aralarında bir şey kalmadıysa sorun değil",
+   "Beni rahatsız eder",
+   "Kabul edilemez"
+  ],
+  "category": "daily_trust_jealousy"
+ },
+ {
+  "id": "785701ac-e83a-456a-9d90-e85d4aca204d",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How often do you feel jealous, even if you don't show it?",
+  "tr": "Göstermesen bile ne sıklıkla kıskançlık hissediyorsun?",
+  "answers_en": [
+   "Often",
+   "Sometimes",
+   "Rarely",
+   "Never"
+  ],
+  "answers_tr": [
+   "Sık sık",
+   "Bazen",
+   "Nadiren",
+   "Hiç"
+  ],
+  "category": "daily_trust_jealousy"
+ },
+ {
+  "id": "9ba59f61-1758-4d30-ba63-f6104de991cd",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What would damage your trust the most?",
+  "tr": "Güvenini en çok ne zedeler?",
+  "answers_en": [
+   "A lie, even a small one",
+   "Hidden conversations with someone",
+   "A promise broken more than once",
+   "Our private things shared with others"
+  ],
+  "answers_tr": [
+   "Küçük de olsa bir yalan",
+   "Biriyle gizli konuşmalar",
+   "Birden fazla kez tutulmayan bir söz",
+   "Özelimizin başkalarıyla paylaşılması"
+  ],
+  "category": "daily_trust_jealousy"
+ },
+ {
+  "id": "18def8e1-5fa7-44a3-85e4-81cb688a31db",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How much do you want to know about each other's day?",
+  "tr": "Birbirinizin gününü ne kadar bilmek istersin?",
+  "answers_en": [
+   "Everything, where and with whom",
+   "The main things",
+   "Only what they want to share"
+  ],
+  "answers_tr": [
+   "Her şeyi, nerede ve kiminle",
+   "Önemli şeyleri",
+   "Sadece paylaşmak istediklerini"
+  ],
+  "category": "daily_trust_jealousy"
+ },
+ {
+  "id": "b0a8928f-0b53-439c-9f66-ca1a6c92eb86",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What makes you feel completely secure with your partner?",
+  "tr": "Partnerinle seni tamamen güvende hissettiren ne?",
+  "category": "daily_trust_jealousy"
+ },
+ {
+  "id": "e045d939-d801-4bea-b637-ed0df364efa8",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "Is there anything that makes you even slightly insecure in this relationship? Be honest.",
+  "tr": "Bu ilişkide seni azıcık bile olsa güvensiz hissettiren bir şey var mı? Dürüst ol.",
+  "category": "daily_trust_jealousy"
+ }
+]

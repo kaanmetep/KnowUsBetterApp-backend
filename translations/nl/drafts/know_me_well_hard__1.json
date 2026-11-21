@@ -1,0 +1,553 @@
+{
+  "02d1eea2-7558-454e-9560-9e4115e31dc5": {
+    "text": "Iemand dierbaars heeft het moeilijk. Wat doet {{playerName}}?",
+    "answers": [
+      "Probeert het op te lossen",
+      "Blijft gewoon bij diegene",
+      "Maakt diegene aan het lachen",
+      "Geeft ruimte"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8f65f3e0-e029-41cb-8233-1c0073efccc3": {
+    "text": "Je hebt geparkeerd, maar {{playerName}} stapt niet meteen uit. Wat is er aan de hand?",
+    "answers": [
+      "Zit op de telefoon",
+      "Geniet van de stilte",
+      "Zoent jou"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b6802604-bee1-44ef-b402-3d614299e874": {
+    "text": "Jullie zijn net thuis. {{playerName}} heeft de schoenen nog aan. Wat is er aan de hand?",
+    "answers": [
+      "Zit op de telefoon",
+      "Wacht tot jij eerst naar binnen gaat",
+      "Wacht op een kus"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "525b7a39-af6b-443c-8d4b-e04df6bb666d": {
+    "text": "De film is afgelopen. {{playerName}} beweegt niet. Wat is er aan de hand?",
+    "answers": [
+      "Zit er nog helemaal in",
+      "Kijkt naar jou",
+      "Zit al op de telefoon"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "87a626ec-edc2-4c73-8b8c-2316370de28c": {
+    "text": "{{playerName}} trekt de koelkast open en blijft daar staan. Wat is er aan de hand?",
+    "answers": [
+      "Zoekt echt iets",
+      "Staart in het niets",
+      "Wacht op jou"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "45ffa91d-cf8c-4de3-b9cc-35eecf07a0e8": {
+    "text": "Je vraagt {{playerName}} iets. Je krijgt een glimlach, maar geen antwoord. Wat is er aan de hand?",
+    "answers": [
+      "Denkt na",
+      "Zit je te plagen",
+      "Wil eerst een kus"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "331f8ded-e21e-4f4a-8c54-5eff81ad09d8": {
+    "text": "{{playerName}} zit al een tijdje in de badkamer. De kraan loopt. Wat is er aan de hand?",
+    "answers": [
+      "Maakt zich echt klaar",
+      "Zit op de telefoon",
+      "Wacht tot jij binnenkomt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d4a67a3f-58fb-4dfb-a9fa-7ccbd119b76a": {
+    "text": "Je neemt {{playerName}} flink op de hak bij de beste vrienden van {{playerName}}. Wat dan?",
+    "answers": [
+      "Lacht en kaatst de bal terug",
+      "Wordt stil",
+      "Lacht nu, begint er later over"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0fa9d630-8f79-407e-b467-c6619e937183": {
+    "text": "{{playerName}} stuurt je een flirterig berichtje en je laat het een paar uur op gelezen staan. Wat dan?",
+    "answers": [
+      "Stuurt er nog een",
+      "Doet alsof het niks was",
+      "Wacht en doet dan normaal"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "72f44c82-e80d-4048-8907-88aa16325526": {
+    "text": "Je verslaat {{playerName}} in iets wat {{playerName}} heel serieus neemt. Wat dan?",
+    "answers": [
+      "Eist revanche",
+      "Zit even te mokken",
+      "Feliciteert je en meent het"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0f63d809-97bc-4a06-af87-dcdf7259d217": {
+    "text": "Je verbetert {{playerName}} waar anderen bij zijn. Wat doet {{playerName}}?",
+    "answers": [
+      "Laat het erbij",
+      "Maakt een grapje, maar het steekt",
+      "Gaat er meteen tegenin"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0411fe10-be71-42ce-96e0-f0b4b8f30d01": {
+    "text": "Je eet het laatste hapje op dat {{playerName}} had bewaard. Wat dan?",
+    "answers": [
+      "Wordt echt boos",
+      "Maakt er voor de grap een drama van",
+      "Merkt het niet"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cbf55a0d-77d9-49b6-8b18-df9bfec9721b": {
+    "text": "Je valt in slaap terwijl {{playerName}} midden in een verhaal zit. Wat dan?",
+    "answers": [
+      "Maakt je wakker en vertelt verder",
+      "Wordt stil en laat je slapen",
+      "Filmt het om je later mee te plagen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9793ce24-d328-401c-9858-5e3c9e5253d7": {
+    "text": "Je komt met lege handen aan bij de familie van {{playerName}}. Wat dan?",
+    "answers": [
+      "Springt voor je in",
+      "Kijkt je veelbetekenend aan",
+      "Vindt het totaal geen punt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "db4d9102-32bd-44e6-afa1-7eae78199ee6": {
+    "text": "Je gebruikt expres steeds een woord waar {{playerName}} een hekel aan heeft. Wat dan?",
+    "answers": [
+      "Lacht er elke keer om",
+      "Vraagt je serieus te stoppen",
+      "Gaat het zelf ook gebruiken"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c00aa094-a9f0-4858-a29d-551c1cd3ca18": {
+    "text": "Je zegt op het laatste moment af bij {{playerName}}. Wat dan?",
+    "answers": [
+      "Zegt “geeft niks” en meent het",
+      "Zegt “geeft niks”, maar het geeft wel",
+      "Vraagt meteen waarom"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "008d5998-0535-4df5-a12b-0f96ad8e625f": {
+    "text": "Je leent kleren van {{playerName}} zonder het te vragen. Wat dan?",
+    "answers": [
+      "Ziet je er graag in",
+      "Wil ze nu meteen terug",
+      "Merkt het niet"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d01e1cff-bb0c-409a-a1f2-125ec6c79f76": {
+    "text": "Je bent te laat voor een afspraak met {{playerName}} en laat niks van je horen. Wat dan?",
+    "answers": [
+      "Stuurt “Waar ben je?”",
+      "Wacht en zegt niks",
+      "Gaat weg"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "30c1ecc9-a29f-474c-8fa8-3e13ffb9ef91": {
+    "text": "Je pakt de telefoon van {{playerName}} en begint te scrollen. Wat dan?",
+    "answers": [
+      "Vindt het prima",
+      "Pakt hem rustig terug",
+      "Pakt hem allesbehalve rustig terug"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0d9143dd-9554-4015-9d7c-8a689f8ac7ca": {
+    "text": "Je nodigt iemand uit die {{playerName}} niet mag. Wat dan?",
+    "answers": [
+      "Legt zich erbij neer",
+      "Zegt het hardop",
+      "Is de hele tijd stil"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fce90c77-7a35-44c0-a40a-406848fd42f4": {
+    "text": "Het begint te stortregenen en er is geen paraplu. Wat doet {{playerName}}?",
+    "answers": [
+      "Zet het op een rennen",
+      "Wacht tot het over is"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "aa68e98e-f9ba-4240-82d9-233e6d3a1ddd": {
+    "text": "De koffie van {{playerName}} is niet goed gemaakt. Wat dan?",
+    "answers": [
+      "Stuurt hem terug",
+      "Drinkt hem toch op"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c9db61c9-a1ab-40e4-8d0c-92dea5576a34": {
+    "text": "Vlak voor het weggaan morst {{playerName}} iets op het shirt. Wat dan?",
+    "answers": [
+      "Trekt iets anders aan",
+      "Gaat gewoon zo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4e97ab2e-b06b-44ce-b8db-e15db3bb987f": {
+    "text": "{{playerName}} mist net de bus. Wat dan?",
+    "answers": [
+      "Rent erachteraan",
+      "Wacht op de volgende"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d339e7bd-ebce-4481-ad0a-e8b8ed05442a": {
+    "text": "De wifi valt uit terwijl {{playerName}} iets aan het kijken is. Wat dan?",
+    "answers": [
+      "Gaat de strijd aan met de router",
+      "Geeft het op en doet iets anders"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ac0f3027-b51a-426f-b6e9-6a3b4aa38199": {
+    "text": "{{playerName}} krijgt een parkeerboete. Wat dan?",
+    "answers": [
+      "Wordt boos",
+      "Lacht het weg"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c3ec2d4b-d284-4714-8e9e-d2da5ef9c6d7": {
+    "text": "De wekker van {{playerName}} ging niet af. Al 20 minuten te laat. Wat dan?",
+    "answers": [
+      "Slaat het ontbijt over en rent",
+      "Stuurt “ik ben wat later” en doet rustig aan",
+      "Belt en geeft het eerlijk toe"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "94c90555-87e2-4c29-9117-a323c27d95c4": {
+    "text": "{{playerName}} is te laat. Wat krijgt als eerste de schuld?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fdd1c924-ee99-4f05-a5bd-dfcd6d9c8f03": {
+    "text": "Na een kleine ruzie: na hoeveel minuten stuurt {{playerName}} als eerste een bericht?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b54e1bb1-3bf8-47c3-a48a-86023b0f0add": {
+    "text": "Waar gaat {{playerName}} heen om even alleen te zijn?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3b1883ec-15de-4788-9bef-ba8f5c5bc8a7": {
+    "text": "Wat bestelt {{playerName}} bij twijfel?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "238665e7-e0da-45ce-a9d7-0eb9eef65a6c": {
+    "text": "Hoe vaak checkt {{playerName}} vóór het weggaan het slot?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "466890df-b2fd-43de-a06e-7bf3787838fa": {
+    "text": "Hoe heet de vader van {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "83463f47-91d7-4aad-9222-957f815550ec": {
+    "text": "Welke kleur ogen heeft {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "82b2f614-a300-4077-aebb-1f5fc9d783da": {
+    "text": "Wat is de favoriete sport van {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "57674f98-004a-4613-ae68-f9a5aeb47287": {
+    "text": "In welke stad is {{playerName}} opgegroeid?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "978cc42e-c57a-4a1f-ab39-e3ae2bea3021": {
+    "text": "Hoe heet de moeder van {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cfd2c28a-8bea-4257-879e-95cbc762962f": {
+    "text": "Hoe lang is {{playerName}}, in cm?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f323e901-c9d8-402a-a779-6dfc98dbb068": {
+    "text": "Wat is de favoriete game van {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "25851c79-797f-40fd-b2f6-6c0d20b9dfdd": {
+    "text": "In welke auto rijdt {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a4265570-c916-40c1-a402-d063a73be6b2": {
+    "text": "Wat is de favoriete feestdag van {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5fe73127-bbe3-48f7-8abc-2d69d6a88593": {
+    "text": "Welke schoenmaat heeft {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "75c9c2af-241b-4035-b6fc-5fdcd08973cd": {
+    "text": "Wat is het lievelingsboek van {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8deddb72-b5b8-4818-b368-0c4fbe051257": {
+    "text": "Wat is het favoriete restaurant van {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c550dc4b-c6cf-4d1b-9345-6b74e5d47623": {
+    "text": "In welk jaar is {{playerName}} geboren?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c0da2701-3741-4588-b8cf-d7b1a08492e5": {
+    "text": "Hoeveel tatoeages heeft {{playerName}}? Vul 0 in als het er geen zijn.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a7c5d198-7df7-4778-b8af-c3da4d319a6a": {
+    "text": "Wat wilde {{playerName}} als kind later worden?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a6ec160b-1139-4b18-aab2-c508fc0485f3": {
+    "text": "Wat is de lievelingsbloem van {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ef039303-b61e-4a8b-bf07-dc13a7c57752": {
+    "text": "Hoe heet het beste maatje van {{playerName}} uit de kindertijd?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "57351c4a-3e7e-4748-949e-5d4cd1e5b792": {
+    "text": "Hoeveel talen spreekt {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cd7eb1b7-52d5-4472-91a7-87fe860c68cb": {
+    "text": "Welk vak vond {{playerName}} op school het leukst?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7a48b2bc-038b-4504-867c-31349dc9471d": {
+    "text": "Wie is de favoriete YouTuber van {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "76919acd-9f2a-43b7-a1b8-4be6522808b0": {
+    "text": "Hoe heette het eerste huisdier van {{playerName}}? Vul “geen” in als er nooit een was.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e54fbf2e-38bb-43a2-98b7-d0e60e44704d": {
+    "text": "Wat is de favoriete winkel van {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "758457aa-b4a0-440c-936d-2eca36532d6f": {
+    "text": "Hoeveel uur slaapt {{playerName}} per nacht?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f5e59e0f-6ada-44bb-b1f6-ff0bfc6460d9": {
+    "text": "Wat is de favoriete app van {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c4230968-34f8-4da4-9b47-c58b40930364": {
+    "text": "Naar welke middelbare school ging {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bab594db-3246-436a-831c-a26fee4a3985": {
+    "text": "Wat is de favoriete film van {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "628a486a-362b-421c-9680-eafb40c7b515": {
+    "text": "Hoeveel neven en nichten heeft {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a67f93da-08cb-45b8-83c4-d2adc75192af": {
+    "text": "Wat is het sterrenbeeld van {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f137c9c9-7ff7-49dd-ada5-72f5ed4c03f0": {
+    "text": "In welk land zou {{playerName}} willen wonen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "021867cf-def0-4843-abe0-b40da48d2a2c": {
+    "text": "Welk land wil {{playerName}} het liefst bezoeken?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "19b93f52-01ab-4cb7-8136-c4aba531b1b3": {
+    "text": "In welke stad heeft {{playerName}} gestudeerd?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "112ed697-0ec4-43c7-b2f1-12d1ab95aae3": {
+    "text": "Hoe heet het jongere broertje of zusje van {{playerName}}? Vul “geen” in als er geen is.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

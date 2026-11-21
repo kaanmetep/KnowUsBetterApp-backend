@@ -1,0 +1,553 @@
+{
+  "02d1eea2-7558-454e-9560-9e4115e31dc5": {
+    "text": "大切な人が落ち込んでるとき、{{playerName}}はどうする？",
+    "answers": [
+      "なんとか解決しようとする",
+      "そばにいる",
+      "笑わせる",
+      "そっとしておく"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8f65f3e0-e029-41cb-8233-1c0073efccc3": {
+    "text": "車を停めたのに、{{playerName}}がすぐ降りない。何してる？",
+    "answers": [
+      "スマホを見てる",
+      "静かに座ってる",
+      "キスしようとしてる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b6802604-bee1-44ef-b402-3d614299e874": {
+    "text": "ふたりで帰ってきたのに、{{playerName}}はまだ靴をはいたまま。何してる？",
+    "answers": [
+      "スマホを見てる",
+      "先に入ってくれるのを待ってる",
+      "キス待ち"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "525b7a39-af6b-443c-8d4b-e04df6bb666d": {
+    "text": "映画が終わっても{{playerName}}が動かない。何してる？",
+    "answers": [
+      "まだ余韻にひたってる",
+      "こっちを見てる",
+      "もうスマホを見てる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "87a626ec-edc2-4c73-8b8c-2316370de28c": {
+    "text": "{{playerName}}が冷蔵庫を開けたまま立ってる。何してる？",
+    "answers": [
+      "ちゃんと探してる",
+      "ぼーっとしてる",
+      "こっちが来るのを待ってる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "45ffa91d-cf8c-4de3-b9cc-35eecf07a0e8": {
+    "text": "{{playerName}}に何か聞いたら、ニコッとしたまま答えない。何してる？",
+    "answers": [
+      "考えてる",
+      "からかってる",
+      "先にキスしてほしい"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "331f8ded-e21e-4f4a-8c54-5eff81ad09d8": {
+    "text": "{{playerName}}がしばらくお風呂場から出てこない。水の音がする。何してる？",
+    "answers": [
+      "ちゃんと準備してる",
+      "スマホを見てる",
+      "入ってくるのを待ってる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d4a67a3f-58fb-4dfb-a9fa-7ccbd119b76a": {
+    "text": "{{playerName}}を親友たちの前でいじったら、どうする？",
+    "answers": [
+      "笑っていじり返す",
+      "黙りこむ",
+      "その場は笑って、あとで言う"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0fa9d630-8f79-407e-b467-c6619e937183": {
+    "text": "{{playerName}}からの甘いLINEを数時間既読スルーしたら、どうする？",
+    "answers": [
+      "もう1通送る",
+      "気にしてないふりをする",
+      "待ってから、普段どおりにする"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "72f44c82-e80d-4048-8907-88aa16325526": {
+    "text": "{{playerName}}が本気でやってることでこっちに負けたら、どうする？",
+    "answers": [
+      "リベンジを要求する",
+      "しばらくすねる",
+      "心から「おめでとう」と言う"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0f63d809-97bc-4a06-af87-dcdf7259d217": {
+    "text": "人前で{{playerName}}の間違いを指摘したら、どうする？",
+    "answers": [
+      "軽く流す",
+      "冗談で返すけど、実は傷ついてる",
+      "その場で言い返す"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0411fe10-be71-42ce-96e0-f0b4b8f30d01": {
+    "text": "{{playerName}}がとっておいた最後の一口を食べちゃったら、どうする？",
+    "answers": [
+      "本気で怒る",
+      "わざと大げさに騒ぐ",
+      "気づかない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cbf55a0d-77d9-49b6-8b18-df9bfec9721b": {
+    "text": "{{playerName}}の話の途中で寝ちゃったら、どうする？",
+    "answers": [
+      "起こして最後まで話す",
+      "黙って寝かせてくれる",
+      "あとでいじるために録画する"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9793ce24-d328-401c-9858-5e3c9e5253d7": {
+    "text": "{{playerName}}の実家に手ぶらで行ったら、どうする？",
+    "answers": [
+      "うまくフォローしてくれる",
+      "チラッとにらむ",
+      "まったく気にしない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "db4d9102-32bd-44e6-afa1-7eae78199ee6": {
+    "text": "{{playerName}}が嫌いな言葉をわざと使い続けたら、どうする？",
+    "answers": [
+      "毎回笑う",
+      "本気でやめてと言う",
+      "同じ言葉で仕返しする"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c00aa094-a9f0-4858-a29d-551c1cd3ca18": {
+    "text": "{{playerName}}との約束をドタキャンしたら、どうする？",
+    "answers": [
+      "「いいよ」と言う、本心で",
+      "「いいよ」と言うけど、本当は嫌",
+      "すぐに理由を聞く"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "008d5998-0535-4df5-a12b-0f96ad8e625f": {
+    "text": "{{playerName}}の服を勝手に借りたら、どうする？",
+    "answers": [
+      "着てるのを見てうれしくなる",
+      "今すぐ返してと言う",
+      "気づかない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d01e1cff-bb0c-409a-a1f2-125ec6c79f76": {
+    "text": "{{playerName}}との待ち合わせに連絡なしで遅れたら、どうする？",
+    "answers": [
+      "「今どこ？」と送る",
+      "何も言わずに待つ",
+      "帰る"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "30c1ecc9-a29f-474c-8fa8-3e13ffb9ef91": {
+    "text": "{{playerName}}のスマホを手に取って見始めたら、どうする？",
+    "answers": [
+      "気にしない",
+      "落ち着いて取り返す",
+      "あわてて取り返す"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0d9143dd-9554-4015-9d7c-8a689f8ac7ca": {
+    "text": "{{playerName}}が苦手な人を誘ったら、どうする？",
+    "answers": [
+      "合わせる",
+      "はっきり言う",
+      "ずっと黙ってる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fce90c77-7a35-44c0-a40a-406848fd42f4": {
+    "text": "急にどしゃ降りになったのに傘がない。{{playerName}}はどうする？",
+    "answers": [
+      "走る",
+      "やむまで待つ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "aa68e98e-f9ba-4240-82d9-233e6d3a1ddd": {
+    "text": "{{playerName}}が頼んだコーヒーと違うのが来た。どうする？",
+    "answers": [
+      "作り直してもらう",
+      "そのまま飲む"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c9db61c9-a1ab-40e4-8d0c-92dea5576a34": {
+    "text": "出かける直前に、{{playerName}}が服に何かこぼした。どうする？",
+    "answers": [
+      "着替える",
+      "そのまま行く"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4e97ab2e-b06b-44ce-b8db-e15db3bb987f": {
+    "text": "{{playerName}}がバスに乗り遅れた。どうする？",
+    "answers": [
+      "追いかける",
+      "次のを待つ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d339e7bd-ebce-4481-ad0a-e8b8ed05442a": {
+    "text": "{{playerName}}が何か観てる途中でWi-Fiが切れた。どうする？",
+    "answers": [
+      "ルーターと格闘する",
+      "あきらめて別のことをする"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ac0f3027-b51a-426f-b6e9-6a3b4aa38199": {
+    "text": "{{playerName}}が駐禁を切られた。どうする？",
+    "answers": [
+      "イライラする",
+      "笑ってすませる"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c3ec2d4b-d284-4714-8e9e-d2da5ef9c6d7": {
+    "text": "{{playerName}}のアラームが鳴らず、もう20分遅刻。どうする？",
+    "answers": [
+      "朝ごはん抜きでダッシュ",
+      "「遅れる」と送ってマイペース",
+      "電話して正直に謝る"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "94c90555-87e2-4c29-9117-a323c27d95c4": {
+    "text": "{{playerName}}が遅刻したとき、まず何のせいにする？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fdd1c924-ee99-4f05-a5bd-dfcd6d9c8f03": {
+    "text": "ちょっとしたケンカのあと、{{playerName}}から連絡してくるまで何分？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b54e1bb1-3bf8-47c3-a48a-86023b0f0add": {
+    "text": "{{playerName}}がひとりになりたいとき、どこに行く？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3b1883ec-15de-4788-9bef-ba8f5c5bc8a7": {
+    "text": "{{playerName}}が迷ったときに頼むメニューは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "238665e7-e0da-45ce-a9d7-0eb9eef65a6c": {
+    "text": "{{playerName}}は出かける前に鍵を何回確認する？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "466890df-b2fd-43de-a06e-7bf3787838fa": {
+    "text": "{{playerName}}のお父さんの名前は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "83463f47-91d7-4aad-9222-957f815550ec": {
+    "text": "{{playerName}}の目の色は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "82b2f614-a300-4077-aebb-1f5fc9d783da": {
+    "text": "{{playerName}}の一番好きなスポーツは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "57674f98-004a-4613-ae68-f9a5aeb47287": {
+    "text": "{{playerName}}が育った街は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "978cc42e-c57a-4a1f-ab39-e3ae2bea3021": {
+    "text": "{{playerName}}のお母さんの名前は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cfd2c28a-8bea-4257-879e-95cbc762962f": {
+    "text": "{{playerName}}の身長は何cm？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f323e901-c9d8-402a-a779-6dfc98dbb068": {
+    "text": "{{playerName}}の一番好きなゲームは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "25851c79-797f-40fd-b2f6-6c0d20b9dfdd": {
+    "text": "{{playerName}}が乗ってる車は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a4265570-c916-40c1-a402-d063a73be6b2": {
+    "text": "{{playerName}}が一番好きな行事は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": true,
+    "note": "'Holiday' adapted to 行事 (yearly events like New Year, Christmas, Obon); Japan has no single holiday-season concept."
+  },
+  "5fe73127-bbe3-48f7-8abc-2d69d6a88593": {
+    "text": "{{playerName}}の靴のサイズは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "75c9c2af-241b-4035-b6fc-5fdcd08973cd": {
+    "text": "{{playerName}}の一番好きな本は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8deddb72-b5b8-4818-b368-0c4fbe051257": {
+    "text": "{{playerName}}の一番好きなお店は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c550dc4b-c6cf-4d1b-9345-6b74e5d47623": {
+    "text": "{{playerName}}は何年生まれ？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c0da2701-3741-4588-b8cf-d7b1a08492e5": {
+    "text": "{{playerName}}はタトゥーをいくつ入れてる？なければ0と書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a7c5d198-7df7-4778-b8af-c3da4d319a6a": {
+    "text": "{{playerName}}の子どもの頃の夢は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a6ec160b-1139-4b18-aab2-c508fc0485f3": {
+    "text": "{{playerName}}の一番好きな花は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ef039303-b61e-4a8b-bf07-dc13a7c57752": {
+    "text": "{{playerName}}の子どもの頃の親友の名前は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "57351c4a-3e7e-4748-949e-5d4cd1e5b792": {
+    "text": "{{playerName}}は何か国語話せる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cd7eb1b7-52d5-4472-91a7-87fe860c68cb": {
+    "text": "{{playerName}}が学校で一番好きだった教科は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7a48b2bc-038b-4504-867c-31349dc9471d": {
+    "text": "{{playerName}}の一番好きなYouTuberは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "76919acd-9f2a-43b7-a1b8-4be6522808b0": {
+    "text": "{{playerName}}が初めて飼ったペットの名前は？飼ったことがなければ「なし」と書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e54fbf2e-38bb-43a2-98b7-d0e60e44704d": {
+    "text": "{{playerName}}の一番好きなショップは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "758457aa-b4a0-440c-936d-2eca36532d6f": {
+    "text": "{{playerName}}は1日何時間寝る？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f5e59e0f-6ada-44bb-b1f6-ff0bfc6460d9": {
+    "text": "{{playerName}}の一番好きなアプリは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c4230968-34f8-4da4-9b47-c58b40930364": {
+    "text": "{{playerName}}の出身高校は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bab594db-3246-436a-831c-a26fee4a3985": {
+    "text": "{{playerName}}の一番好きな映画は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "628a486a-362b-421c-9680-eafb40c7b515": {
+    "text": "{{playerName}}はいとこが何人いる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a67f93da-08cb-45b8-83c4-d2adc75192af": {
+    "text": "{{playerName}}の星座は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f137c9c9-7ff7-49dd-ada5-72f5ed4c03f0": {
+    "text": "{{playerName}}が住んでみたい国は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "021867cf-def0-4843-abe0-b40da48d2a2c": {
+    "text": "{{playerName}}が一番行ってみたい国は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "19b93f52-01ab-4cb7-8136-c4aba531b1b3": {
+    "text": "{{playerName}}が大学に通ってた街は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "112ed697-0ec4-43c7-b2f1-12d1ab95aae3": {
+    "text": "{{playerName}}の弟か妹の名前は？いなければ「なし」と書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

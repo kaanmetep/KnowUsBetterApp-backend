@@ -1,0 +1,570 @@
+{
+ "efa81feb-3048-40c9-b743-e0413c82fa99": {
+  "text": "Tu détesterais quelqu'un juste parce que ton meilleur ami ou ta meilleure amie le déteste ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "188b4c0d-b8d9-4f31-b01e-8ba90565c27e": {
+  "text": "Tu choisirais de vivre éternellement si ça voulait dire voir mourir tous ceux que tu aimes ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e1289513-98a5-4528-a112-ee6aae47fd77": {
+  "text": "Tu te méfierais de quelqu'un qui s'entend bien avec tout le monde ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1a3fa76f-851d-4401-a4a8-789dcf598d3c": {
+  "text": "Tu as déjà eu une période où tu draguais beaucoup ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1fc8abbf-0128-4618-b81d-2b76f09bf03a": {
+  "text": "Si tes amis n'aimaient pas ta moitié, ça te refroidirait ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c2ebf044-0c54-4059-b541-f3714baf47d8": {
+  "text": "En ce moment, quelqu'un parmi tes amis t'attire au-delà de l'amitié ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f0f56623-ce68-4bea-b65e-f5622ebe270d": {
+  "text": "Tu penses que des amis de longue date peuvent finir en couple ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "460a428d-36bd-4f1a-b14b-0381b0822d60": {
+  "text": "Qu'est-ce qui guide le plus le comportement humain ?",
+  "answers": [
+   "La peur de la douleur",
+   "Le désir de plaisir"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6a4f5fd8-c46c-4f5f-ac95-578a22429850": {
+  "text": "Si quelqu'un parmi tes amis craquait pour toi, tu lui laisserais une chance ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d3fdeab4-014d-4d6f-889c-4f57f67b5f4f": {
+  "text": "Tu vivrais en coloc avec une personne du sexe opposé alors que tu es en couple ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "Source assumes 'opposite sex' friend (heteronormative); kept as 'une personne du sexe opposé'."
+ },
+ "c967305f-6cc1-4697-a3d7-e69d67c253d3": {
+  "text": "Si quelqu'un parmi tes amis t'attirait, tu le cacherais pour préserver votre amitié ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6f319932-cbc0-4efc-ac99-17a2e8db1022": {
+  "text": "Tu ressens de la jalousie envers les copains et copines de tes amis ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1539ca94-1bf7-4737-a2e7-0888edc17875": {
+  "text": "Ça te dérange si tes amis ont des amis plus proches que toi ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "af046054-1900-4f56-acc3-3ce73fae637d": {
+  "text": "Ça te ferait bizarre que quelqu'un parmi tes amis te trouve à son goût ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "560aae7c-660a-48c7-a995-16082b7a329c": {
+  "text": "Tu couperais le contact avec quelqu'un parmi tes amis qui te trouve à son goût, si ta moitié te le demandait ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "85f1d55b-0ab2-477b-bc89-8f1079b657df": {
+  "text": "Si ta moitié voyait ton meilleur ami ou ta meilleure amie en cachette, tu ressentirais de la jalousie ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d3f796b9-46b0-4ea6-af2e-79f8db92e1b4": {
+  "text": "Tu pourrais te lier d'amitié avec quelqu'un qui parle sans arrêt de son couple ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c19c811e-bdd4-431c-9ae2-fe158cd5ce51": {
+  "text": "Tu pourrais te lier d'amitié avec quelqu'un qui parle sans arrêt de ses problèmes ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d9392be9-5bf4-4290-83cc-bb71d5a0ea2f": {
+  "text": "Tu essaierais de sortir un de tes amis d'une relation toxique ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f6e1d589-f406-413a-84e1-4d10b010efa2": {
+  "text": "Tu complimenterais une tenue ratée juste pour faire plaisir à un ami ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "36a8a92f-d12b-4cde-b020-95c045851054": {
+  "text": "Ça te vexerait de ne pas être dans les « Amis proches » de ton meilleur ami ou ta meilleure amie ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "'Close Friends' rendered with Instagram's French label « Amis proches »; best friend doubled as 'ton meilleur ami ou ta meilleure amie' to stay neutral (long)."
+ },
+ "cd28855b-6bbc-4754-bf67-925fafc08e08": {
+  "text": "Tu irais quelque part à contrecœur, juste pour tenir compagnie à un ami ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "30180f6d-9944-4221-8ee1-b6a426b20c14": {
+  "text": "Tu accepterais un rendez-vous à quatre avec quelqu'un qui ne te plaît pas, juste pour un ami ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ae0d1125-a621-4872-9096-7e1c73f8195a": {
+  "text": "Tu écouterais en entier un message vocal de 30 minutes de ton meilleur ami ou ta meilleure amie ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "544d795e-cf98-43ae-8031-965c2fbb83ef": {
+  "text": "Si tu croisais dans la rue la personne qui trompe l'un de tes amis, tu lui dirais bonjour ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dbed90fb-08d1-454d-a7c8-53e94c8dfae2": {
+  "text": "Si toi et un de tes amis craquiez pour la même personne, c'est toi qui laisserais la place ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e01fa88f-9bf7-4a07-b915-156123bf6854": {
+  "text": "Tu te débrouilles bien pour déclarer ta flamme à quelqu'un qui te plaît ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "70ec9505-e1b3-41af-806f-8922805e641e": {
+  "text": "Tu partirais un mois en vacances avec une personne du sexe opposé dont tu es proche ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cb2ea32b-d004-42f0-9a51-8737c96bc6a4": {
+  "text": "Tu crois vraiment à l'amitié avec un ex ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1864a491-86d1-49a2-80a2-c32e41c6a728": {
+  "text": "Tu as déjà eu des sentiments pour l'ex de l'un de tes amis ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "665c9713-06bc-480c-95b9-dcca3d1c59fb": {
+  "text": "Le pire pour toi : que tes amis n'aiment pas ta moitié, ou que ta famille ne l'aime pas ?",
+  "answers": [
+   "Le rejet des amis",
+   "Le rejet de la famille"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "39a0d847-c6a2-420f-bc9b-2da40532d0bd": {
+  "text": "Qu'est-ce qui te ferait le plus de peine : couper les ponts avec un ami ou rompre avec ta moitié ?",
+  "answers": [
+   "Couper les ponts avec un ami",
+   "Rompre avec sa moitié"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "40150bf7-574c-4cc0-b8e4-5082f4273ff6": {
+  "text": "Si un vêtement te plaisait vraiment, tu l'achèterais même s'il coûtait très cher ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "02576a6e-45da-4195-94ad-bfa3d432229e": {
+  "text": "Tu as déjà pris tes distances avec un ami à cause de son comportement ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c791f673-121c-4f78-b6b2-138fff984d94": {
+  "text": "Tu as déjà présenté un ami à ta famille ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3768b0c2-7e45-4ea2-bb34-94459ecfdaa6": {
+  "text": "Tu as déjà fait le pacte de te marier avec un ami si vous étiez encore célibataires à 30 ans ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "333ba234-d38e-4da7-adbf-90c465fe9959": {
+  "text": "Tu as déjà coupé les ponts avec un ami pour une broutille ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d6594cf3-1942-4fe1-93eb-0a767331054d": {
+  "text": "Une amitié proche avec quelqu'un du sexe opposé…",
+  "answers": [
+   "Tout à fait normal",
+   "Il faut poser des limites"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e2bd6991-cecd-4263-bf0b-428f21242273": {
+  "text": "L'amitié avec un ex…",
+  "answers": [
+   "C'est possible",
+   "Hors de question"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f252224b-4d0b-4690-b195-2f1acc7c55cc": {
+  "text": "Créer un lien affectif en amitié…",
+  "answers": [
+   "C'est naturel",
+   "C'est risqué"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a481faea-e2d5-4288-bee9-49a6e561002c": {
+  "text": "S'écrire sans arrêt avec quelqu'un dont tu dis « on est juste potes »…",
+  "answers": [
+   "C'est normal",
+   "Ça peut porter à confusion"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c1051de3-6210-48d9-bbee-a1bd27339e24": {
+  "text": "La proximité physique en amitié (comme les câlins)…",
+  "answers": [
+   "C'est normal",
+   "Ça envoie un mauvais signal"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "54e10e6d-36d5-4c2f-90fa-90ab841a4a40": {
+  "text": "Ta moitié voit souvent quelqu'un présenté comme « juste un pote »…",
+  "answers": [
+   "Ça me va",
+   "Ça me met mal à l'aise"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cbc9d01b-ad4e-4822-ba0d-6d460dd7b24f": {
+  "text": "Garder une part de secret en amitié (cacher certaines choses à ta moitié)…",
+  "answers": [
+   "Ça peut être nécessaire",
+   "C'est mal"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b15024f0-b284-4cf6-b9da-8ee1b47f31db": {
+  "text": "Tout savoir de la vie de ton meilleur ami ou ta meilleure amie…",
+  "answers": [
+   "C'est naturel",
+   "C'est inutile"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "93d7d2aa-65e5-4158-bbdc-86bbfaab33e8": {
+  "text": "Qu'un ami s'intègre à ton autre bande de potes…",
+  "answers": [
+   "Ça peut être sympa",
+   "Ça peut poser problème"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a24ff5ae-632a-4c56-8f91-b151d975be08": {
+  "text": "Rester aussi proches après longtemps sans se voir…",
+  "answers": [
+   "C'est la vraie amitié",
+   "Ça peut être difficile"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4ad582dc-a947-4194-b0d1-981b04af1c82": {
+  "text": "Que ton meilleur ami ou ta meilleure amie ait quelqu'un de plus proche que toi…",
+  "answers": [
+   "Ça ne devrait pas arriver",
+   "C'est acceptable"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6440ff9b-487a-43cc-8af1-563d9734e2ed": {
+  "text": "Ton meilleur ami ou ta meilleure amie t'appelle moins depuis le début d'une nouvelle relation…",
+  "answers": [
+   "C'est normal, la vie change",
+   "C'est un manque d'attention"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "787f606d-df56-459b-87bf-7714b646077d": {
+  "text": "Un ami ne te présente jamais à son autre bande de potes…",
+  "answers": [
+   "Pas important",
+   "Ça fait bizarre"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "18b7fca3-3bce-4521-ae0f-ef66c3e2ffb0": {
+  "text": "Après longtemps sans vous parler, vous reprenez comme si de rien n'était…",
+  "answers": [
+   "Un lien sain",
+   "Ça fait superficiel"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fb3d0920-f21b-45b3-b8ac-0aa9f8870491": {
+  "text": "Le plus important en amitié…",
+  "answers": [
+   "La loyauté",
+   "Le partage"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cdca9b4b-dde6-41ef-b066-1a1fe07dc941": {
+  "text": "Un bon ami t'accepte avec tes défauts, ou t'aide à t'améliorer.",
+  "answers": [
+   "T'accepte comme tu es",
+   "T'aide à progresser"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "991aa3a5-200d-41b4-beae-58d6f0d655da": {
+  "text": "Un vrai ami est là dans les mauvais moments, ou dans les bons.",
+  "answers": [
+   "Les mauvais moments comptent plus",
+   "Les bons moments comptent plus"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b7db9932-142a-4d10-bfa4-b5f580458954": {
+  "text": "Qu'est-ce qui compte le plus en amitié : la qualité ou la régularité ?",
+  "answers": [
+   "La qualité",
+   "La régularité"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f0636f5f-63ef-4074-a615-3e24a6667f9e": {
+  "text": "Un bon ami…",
+  "answers": [
+   "Te critique",
+   "Te soutient"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b9784638-ea19-44da-ab12-cb649859a032": {
+  "text": "Qu'est-ce qui est le plus fort en amitié : la loyauté ou l'empathie ?",
+  "answers": [
+   "La loyauté",
+   "L'empathie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a2f297b8-10e7-4517-b7f0-a0c832d370c7": {
+  "text": "Une bonne amitié…",
+  "answers": [
+   "Demande des efforts",
+   "Vient naturellement"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5b670ad6-208b-4e58-b292-e273f3b78943": {
+  "text": "Le plus fort en amitié…",
+  "answers": [
+   "La loyauté",
+   "La compréhension"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d10fdd35-8f20-43ae-8d73-b6dfde704d1e": {
+  "text": "Un bon ami…",
+  "answers": [
+   "Te met à l'aise",
+   "Te fait grandir"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "05689bed-28ec-43c5-b237-0302642ef9b4": {
+  "text": "Si à 40 ans vous n'aviez toujours pas d'alliance au doigt, tu épouserais cette personne ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "'Not married' rephrased as 'pas d'alliance au doigt' to avoid gendered 'mariés/mariées' for the two players."
+ },
+ "8025e660-1505-4af6-80ae-abfc0310e57e": {
+  "text": "Il te faut combien d'amis proches, en vrai ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "379cc9b1-f4e7-4870-89f1-7a7618d01d47": {
+  "text": "Si un ami proche est en retard, au bout de combien de minutes ça commence à t'agacer ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6bed572f-b7ef-4dfd-9f13-d05e4450629e": {
+  "text": "Qu'est-ce qui tue une amitié le plus vite, pour toi ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "019bcbc6-27a4-454b-b3af-7434fb094414": {
+  "text": "Tu as besoin de voir un ami proche combien de fois par mois ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9904dd28-27f8-48e6-a7c9-f91b70c02a3b": {
+  "text": "Un ami proche peut rester combien de jours chez toi ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fb412a91-d561-4398-b5fc-44e7a463c33b": {
+  "text": "Qu'est-ce que tu proposes en premier à un ami qui passe chez toi ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6e09b141-b4f9-4a4b-a8d4-a1cb738c388a": {
+  "text": "Qu'est-ce qu'un ami peut prendre dans ton frigo sans demander ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3dcd0f58-587e-4181-9f97-956ea9f95e64": {
+  "text": "Sur quoi on ne plaisante pas entre amis ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d420a12c-2ed3-4461-ba85-2938b2eacbed": {
+  "text": "Quand l'addition arrive, on partage comment entre amis ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

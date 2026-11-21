@@ -1,0 +1,479 @@
+{
+  "d3176e15-3a75-42a3-b1bb-170482b855c3": {
+    "text": "Twoja druga połówka proponuje, żeby wasze roczne oszczędności trafiły na wspólne konto. Zgadzasz się?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "93d80425-5f77-4d69-ac5b-c8e4cf99ab98": {
+    "text": "Twoja druga połówka spotyka się bez twojej wiedzy z kimś z twoich najbliższych przyjaciół. Czujesz zazdrość?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bacc8f30-4a8a-4cc1-adc7-58e93a284f15": {
+    "text": "Gdy twoja druga połówka przez pomyłkę użyje twojej szczoteczki do zębów, wyrzucisz ją?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ddea60f1-05c3-4711-b23c-6a5d0c156b2c": {
+    "text": "Po ślubie twoja druga połówka często wychodzi ze znajomymi bez ciebie. To dla ciebie powód do rozstania?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "352fe804-1b1d-42dd-9635-2ffcc0aafb91": {
+    "text": "Po rozstaniu od razu szukasz kogoś nowego, żeby zapomnieć o byłym związku?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "54ca5a96-f07e-4a5c-b173-01009111b982": {
+    "text": "Weźmiesz ślub z kimś, kto nigdy nic nie planuje i żyje totalnie spontanicznie?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7db0308d-d61f-4662-9efa-66e062c44528": {
+    "text": "Gdy nasi rodzice się zestarzeją: opiekujemy się nimi u nas w domu czy nasz dom ma być tylko dla nas?",
+    "answers": [
+      "Opieka nad rodzicami",
+      "Tylko dla nas"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "28af0e4f-1f69-45d5-86a3-c74606db680e": {
+    "text": "Wiesz, że przez 3 lata czeka was związek na odległość. Rozstajesz się?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "94b588d9-5c0d-4ad8-b8c1-ae2289717727": {
+    "text": "Kłócę się z rodziną i nie mam racji. Bronisz mnie bez względu na wszystko czy mówisz mi prawdę?",
+    "answers": [
+      "Bronię cię",
+      "Mówię prawdę"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "63e81c14-3291-439d-9da1-e0ec06a397c8": {
+    "text": "Uważasz, że twoja druga połówka to najpiękniejsza osoba na świecie?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "58be97f3-33a2-4176-a067-0da976da9966": {
+    "text": "Chcesz, żeby twoja druga połówka zmieniła coś w swoim wyglądzie?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "eb998eea-b2fa-40df-833c-f2ed37fe741d": {
+    "text": "Twoja druga połówka ma cechy charakteru, których nie lubisz?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d423c831-6f0e-46fe-8706-1e20fc4d0d24": {
+    "text": "Oczekujesz, że druga połówka będzie widzieć w tobie najpiękniejszą osobę na świecie?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "64d5160e-4b72-46db-9f14-7d9f788e4205": {
+    "text": "Rozstaniesz się z drugą połówką dla gwiazdy, którą uwielbiasz od lat?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fc7faf7d-3139-4fe3-a807-22ef1e46a3fa": {
+    "text": "Umiejętności drugiej połówki w łóżku są dla ciebie ważne?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c5c2f072-cf24-4823-82c3-b9c717ffdda6": {
+    "text": "Jeśli twoja druga połówka ma kłopoty w sferze intymnej, pomożesz je rozwiązać?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d0de886c-2bc7-4537-9f02-0d2bb3d97dc4": {
+    "text": "Twoja druga połówka nie chce mieć dzieci. Czy to ostudzi twoje uczucia?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "49032d61-306c-4046-9f55-58fd7134d736": {
+    "text": "Twoja druga połówka ma za sobą wiele związków. To dla ciebie przeszkoda, żeby wziąć ślub?",
+    "answers": [],
+    "accepted": [],
+    "flagged": true,
+    "note": "Dropped 'with the opposite sex' so it works for same-sex couples; meaning otherwise unchanged."
+  },
+  "f09be90a-d3dc-49b4-abc6-0ddc661ce24e": {
+    "text": "Zmienisz coś w swoim wyglądzie tylko dlatego, że druga połówka tego chce?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2031ac8e-84a0-46e6-a9c0-779c037ad4b7": {
+    "text": "Powiesz szczerze drugiej połówce, które cechy cię drażnią?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bdc571eb-8288-4938-ae2c-5fdf49ec2e72": {
+    "text": "Gdy związek się rozpada, co zwykle jest prawdziwą przyczyną?",
+    "answers": [
+      "Niewypowiedziane oczekiwania",
+      "Gasnąca namiętność"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1acb71f6-c1d0-4ebf-822b-a4850587315c": {
+    "text": "Chcesz, żeby druga połówka szczerze mówiła ci, czego w tobie nie lubi?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3cd31962-bb6c-40b3-906b-f5887ed0880b": {
+    "text": "Żeby naprawdę kogoś poznać, co ważniej zrozumieć?",
+    "answers": [
+      "Czego najbardziej się boi",
+      "Czego najbardziej żałuje"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d6ff5aca-6d0a-40d4-abf5-220fed31a7aa": {
+    "text": "Przeszkadza ci, gdy trening personalny twojej drugiej połówki prowadzi ktoś płci przeciwnej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4b344e38-5083-4f61-92a5-b6a94bb638e3": {
+    "text": "Oczekujesz, że druga połówka będzie dla ciebie gotować?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2639b278-9a40-4776-ae20-5aa3c3091d4e": {
+    "text": "Ciągłe wożenie drugiej połówki autem to dla ciebie problem?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3b05a5a1-69a6-437d-94db-41b16a10f2a7": {
+    "text": "Przeszkadza ci, gdy twoja druga połówka pracuje w miejscu pełnym osób płci przeciwnej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c00f571f-50b6-4a6f-9183-a9149f1a1bb6": {
+    "text": "Ważne jest dla ciebie, żeby druga połówka miała doświadczenie w łóżku?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "15a86cd9-0b20-4b0e-92db-06fddb8dddfe": {
+    "text": "Zdarzyło ci się porównywać drugą połówkę w łóżku z byłymi?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1c43db4b-3928-4644-9c02-9a5b28d512bf": {
+    "text": "Bardzo wysokie libido drugiej połówki to dla ciebie problem?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "279696b0-907a-4c1a-ba87-1c4e21dce4cf": {
+    "text": "Lubisz próbować z drugą połówką nowych rzeczy w łóżku?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cd7e09ce-8dd9-4652-9e3f-6c8f2aafcd3b": {
+    "text": "Przepiszesz swój dom na drugą połówkę?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ddacf6e7-aba3-40cf-9a91-8568306ad5ba": {
+    "text": "Oczekujesz drogiego pierścionka zaręczynowego?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a9e4e29b-976f-411e-873e-eba5322ddbf6": {
+    "text": "Sprzeciwisz się, jeśli twoja druga połówka zechce przeprowadzić się do innego kraju za pracą?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "11ba62e8-bc60-4dcb-a6bc-35b20877e4dc": {
+    "text": "Jesteś w długim związku, a praca wymaga przeprowadzki do innego kraju. Wyjeżdżasz?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d9dd14c7-2b1c-46a3-ab6a-ebf6a50b9f61": {
+    "text": "Co gorsze: emocjonalna czy fizyczna zdrada drugiej połówki?",
+    "answers": [
+      "Emocjonalna",
+      "Fizyczna"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "28e3a893-ed3a-4166-a6e7-1de6e00f025b": {
+    "text": "Co gorsze: gdy nie pociągasz drugiej połówki emocjonalnie czy fizycznie?",
+    "answers": [
+      "Emocjonalnie",
+      "Fizycznie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "33d32a27-9799-48eb-b766-128974c97a34": {
+    "text": "Co gorsze: przyłapać drugą połówkę na zdradzie czy dać się przyłapać na zdradzie?",
+    "answers": [
+      "Przyłapać połówkę",
+      "Dać się przyłapać"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8ebb4a7c-e04e-4b14-b109-40d9945a88b7": {
+    "text": "Co gorsze: druga połówka wyjeżdża do dalekiego kraju czy ty?",
+    "answers": [
+      "Wyjeżdża druga połówka",
+      "Wyjeżdżam ja"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "79bf77ef-9fdb-4dac-b926-f855bba42d66": {
+    "text": "Co gorsze: gdy z drugą połówką macie inny gust muzyczny czy filmowy?",
+    "answers": [
+      "Gust muzyczny",
+      "Gust filmowy"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "653143d2-1916-431c-ab37-fe2b5a235e66": {
+    "text": "Co cię bardziej niepokoi: gdy druga połówka zapomina o drobnych obietnicach czy gdy często się spóźnia?",
+    "answers": [
+      "Zapomniane obietnice",
+      "Spóźnienia"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fc667698-5698-4d39-b70d-cae593b8c11e": {
+    "text": "Co cię bardziej złości: druga połówka spędza za dużo czasu w pracy czy ze znajomymi?",
+    "answers": [
+      "Ciągle w pracy",
+      "Ciągle ze znajomymi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "455fb3ee-8dfa-4f2b-85ef-139849e81bab": {
+    "text": "Co cię bardziej drażni: gdy druga połówka jest aż za szczera czy gdy czasem ukrywa uczucia?",
+    "answers": [
+      "Nadmierna szczerość",
+      "Ukrywanie uczuć"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2e2df402-f220-462b-9c80-b2298a3cafac": {
+    "text": "Co gorsze: druga połówka za bardzo lgnie do ludzi czy za bardzo ich unika?",
+    "answers": [
+      "Lgnie do ludzi",
+      "Unika ludzi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c52d148b-89e8-4238-9d94-800d4f11bdac": {
+    "text": "Co gorsze: pociągasz drugą połówkę fizycznie, ale nie emocjonalnie, czy odwrotnie?",
+    "answers": [
+      "Fizycznie tak, emocjonalnie nie",
+      "Emocjonalnie tak, fizycznie nie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "162d6a19-fd73-4534-b490-5e7e1e0b3eef": {
+    "text": "Co dla ciebie gorsze: twoi znajomi nie lubią drugiej połówki czy twoja rodzina?",
+    "answers": [
+      "Znajomi nie lubią",
+      "Rodzina nie lubi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ea5ad620-dc64-4152-b184-47622520ec52": {
+    "text": "Co bardziej szkodzi związkowi: zazdrość czy obojętność?",
+    "answers": [
+      "Zazdrość",
+      "Obojętność"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fe45606a-4dc4-42e6-9abf-5e2a509edb00": {
+    "text": "Co utrzymuje związek przy życiu: zaufanie czy ekscytacja?",
+    "answers": [
+      "Zaufanie",
+      "Ekscytacja"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fd0179df-13cb-4157-ba8a-12619419e6a8": {
+    "text": "Co ważniejsze w związku: przeszłość czy przyszłość?",
+    "answers": [
+      "Przeszłość",
+      "Przyszłość"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "59eb70eb-3614-482e-b3e7-13d374d022a7": {
+    "text": "Co wybierasz: skłamać, żeby uszczęśliwić drugą połówkę, czy powiedzieć prawdę?",
+    "answers": [
+      "Kłamstwo",
+      "Prawda"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5bb196d2-5aa1-4f79-9c71-b1baedb47576": {
+    "text": "Myślisz, że miłość może całkowicie zmienić czyjś charakter?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f96063bc-177c-4046-940f-d72c36e52893": {
+    "text": "Czy druga połówka ma prawo w niektórych sprawach cię ograniczać?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "638b1776-92ae-472c-9af1-2b150d8b928c": {
+    "text": "Przeszkadza ci nadmiar uwagi?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6fbf8d8f-5684-4aa4-8861-71fa531bd810": {
+    "text": "Przeszkadza ci, gdy druga połówka wysyła swojej rodzinie pieniądze ze wspólnego konta?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b8dcafd7-f3f6-4302-8649-056b806471d9": {
+    "text": "Przeszkadza ci, gdy druga połówka ciągle chwali osobę płci przeciwnej z pracy?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3e13ae9a-0342-4fe9-a61a-bcd0b1c49265": {
+    "text": "Druga połówka musi wrzucać wasze wspólne zdjęcia na swoje social media?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b9bfb570-2a7e-4bbc-b8ad-738814907e46": {
+    "text": "Gdy druga połówka nigdy nie wrzuca waszych wspólnych zdjęć na social media, to powód do kłótni?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9ab9fcdd-a94c-4a41-b1cb-b457f9a29fd3": {
+    "text": "Przeszkadza ci, gdy druga połówka pracuje w tej samej firmie co osoba, z którą kiedyś była w związku?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "05c6379b-7172-485c-9a3a-957dc4b871d6": {
+    "text": "Kłótnia z drugą połówką ciągnie się w nieskończoność. To ty odpuszczasz, żeby ją zakończyć?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "613bd85c-575c-4aed-b9ce-5f3af88e5906": {
+    "text": "Druga połówka pożycza od ciebie pieniądze i zapomina je oddać. Przypominasz o tym?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

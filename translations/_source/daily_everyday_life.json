@@ -1,0 +1,130 @@
+[
+ {
+  "id": "7daf8ce4-e900-49bd-a99c-2bd3b2dc6623",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How fairly do you feel chores are split between you?",
+  "tr": "Ev işlerinin aranızda ne kadar adil paylaşıldığını düşünüyorsun?",
+  "answers_en": [
+   "Completely fair",
+   "Mostly fair",
+   "I do more than my share",
+   "My partner does more than their share"
+  ],
+  "answers_tr": [
+   "Tamamen adil",
+   "Çoğunlukla adil",
+   "Ben payıma düşenden fazlasını yapıyorum",
+   "Partnerim payına düşenden fazlasını yapıyor"
+  ]
+ },
+ {
+  "id": "37e7075f-f8c0-4a6f-8bb1-15d4f63b79b8",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How much time alone do you need in a normal week?",
+  "tr": "Normal bir haftada ne kadar yalnız zamana ihtiyaç duyarsın?",
+  "answers_en": [
+   "Almost none",
+   "An hour or two",
+   "An evening or more",
+   "A lot, and I don't always say it"
+  ],
+  "answers_tr": [
+   "Neredeyse hiç",
+   "Bir iki saat",
+   "Bir akşam ya da daha fazla",
+   "Çok, ve bunu hep söylemiyorum"
+  ]
+ },
+ {
+  "id": "2ec6384d-4e70-49a8-b8b4-60fc79668a5a",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Your ideal weekday evening together?",
+  "tr": "Birlikte ideal hafta içi akşamınız?",
+  "answers_en": [
+   "Cooking and eating together",
+   "Watching something on the couch",
+   "Going out somewhere",
+   "Side by side, each doing our own thing"
+  ],
+  "answers_tr": [
+   "Birlikte yemek yapıp yemek",
+   "Kanepede bir şey izlemek",
+   "Bir yere çıkmak",
+   "Yan yana, herkes kendi işinde"
+  ]
+ },
+ {
+  "id": "c3bfa96a-4683-46d7-a472-9844feb722ce",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How do you feel about phones when you're together?",
+  "tr": "Birlikteyken telefonlar hakkında ne düşünüyorsun?",
+  "answers_en": [
+   "Not a problem for us",
+   "It bothers me sometimes",
+   "It bothers me a lot",
+   "I'm probably on mine more"
+  ],
+  "answers_tr": [
+   "Bizim için sorun değil",
+   "Bazen canımı sıkıyor",
+   "Çok canımı sıkıyor",
+   "Herhalde telefonda daha çok olan benim"
+  ]
+ },
+ {
+  "id": "ec39df53-45de-401b-83c5-c71fdc6a7b5c",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Weekends should be…",
+  "tr": "Hafta sonları…",
+  "answers_en": [
+   "Planned and full",
+   "One plan, the rest free",
+   "Totally unplanned",
+   "Mostly rest at home"
+  ],
+  "answers_tr": [
+   "Planlı ve dolu olmalı",
+   "Tek bir plan, gerisi serbest olmalı",
+   "Tamamen plansız olmalı",
+   "Çoğunlukla evde dinlenmeli"
+  ]
+ },
+ {
+  "id": "da536f27-fd8e-4b15-9bb2-fff1ab7cc79d",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How tidy should home be?",
+  "tr": "Ev ne kadar düzenli olmalı?",
+  "answers_en": [
+   "Spotless",
+   "Tidy enough",
+   "Lived-in is cozy",
+   "I don't notice the mess"
+  ],
+  "answers_tr": [
+   "Pırıl pırıl",
+   "Yeterince toplu",
+   "Biraz dağınık daha samimi",
+   "Dağınıklığı fark etmem"
+  ]
+ },
+ {
+  "id": "973523ee-da46-453e-8012-d7d01eb59fab",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What part of your everyday life together do you love most?",
+  "tr": "Birlikte gündelik hayatınızın en çok sevdiğin kısmı ne?"
+ },
+ {
+  "id": "455eea81-69be-46f9-a81e-7299fb4c5f1e",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What small daily thing would you change about how you live together?",
+  "tr": "Birlikte yaşayışınızla ilgili değiştirmek istediğin küçük, gündelik bir şey ne?"
+ }
+]

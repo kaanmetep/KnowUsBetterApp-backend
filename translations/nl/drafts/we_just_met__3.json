@@ -1,0 +1,580 @@
+{
+  "779c01e5-9ba2-48ed-84f5-747084bda093": {
+    "text": "Moet je partner een foto met jou op social media zetten?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7dfca2ae-4653-499b-8b35-8409ac9cb8e5": {
+    "text": "Zou je iets beginnen met iemand die al eens getrouwd is geweest?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ecb7bf85-0455-46c5-9045-8c485aa6c8d6": {
+    "text": "Zou je iets beginnen met iemand van wie de vorige relatie net voorbij is?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7713469e-5c7c-4081-885e-784fcefc308b": {
+    "text": "Als je een kledingstuk echt mooi vindt, koop je het dan ook als het heel duur is?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a25b6694-0388-469a-80c3-1a065d4641da": {
+    "text": "Zou je iets beginnen met iemand die een hekel heeft aan koken en altijd buiten de deur eet?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9106e2f1-c28e-4b6d-a27f-3ac47f185e39": {
+    "text": "Vind je dat je een ex van je social media moet verwijderen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1d7b03f4-df47-452a-8a54-1b98528dd75a": {
+    "text": "Zou je willen dat je sinds de middelbare school maar één partner had gehad en met die persoon getrouwd was?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e371edc7-ba67-4d14-8fa7-dad00b7d6b31": {
+    "text": "Zou je een relatie beginnen met iemand van wie je houdt, terwijl je twijfelt of die wel trouw is?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "36c6f327-8de2-42ed-8165-752c783ae56d": {
+    "text": "Vind je het normaal als iemand met wie je aan het daten bent, ook met anderen flirt?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c7aec6af-0246-41d9-bcc6-ce59c3b9403e": {
+    "text": "Zou je iemand wantrouwen die bij elk toiletbezoek de telefoon omgekeerd op tafel legt?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b0f272c0-ca82-4663-bc78-6c406bb5b831": {
+    "text": "Heb je ooit een relatie volledig verbroken om iets onbenulligs?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c70818b5-97c6-4134-8b6e-94b01052f279": {
+    "text": "Zou je afknappen als je partner weigert uit dezelfde fles te drinken als jij?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4c354718-87c5-46d1-b2d7-733646f06068": {
+    "text": "Mag je partner een vriend of vriendin van het andere geslacht trakteren op een etentje?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "29870733-c386-448b-82a7-a2f059a50ba4": {
+    "text": "Mag je partner één-op-één afspreken met een vriend of vriendin van het andere geslacht?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e392db65-9315-4f83-8930-34c5a450b24a": {
+    "text": "Zou je boos worden als je partner de berichten met een vriend of vriendin van het andere geslacht niet wil laten zien?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1b878572-51f3-4ef5-b869-57695d5b4bba": {
+    "text": "Mag je partner een vriend of vriendin van het andere geslacht op koffie trakteren?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1338669a-0f18-42d9-b936-97fa0009639f": {
+    "text": "Wil je alles weten over het verleden van je partner, of alleen het nodige?",
+    "answers": [
+      "Alles",
+      "Alleen het nodige"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "35f1ccbf-5cf0-4b91-b844-cdc93470350c": {
+    "text": "Jaloezie tussen jou en je partner is…",
+    "answers": [
+      "Eigenlijk wel schattig",
+      "Slecht voor de relatie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b60dd292-09bb-4403-8129-eceb964a89bb": {
+    "text": "Wie in een relatie als eerste appt…",
+    "answers": [
+      "Moet in balans zijn",
+      "Zou niet uit moeten maken"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8a5c8ef1-6310-4d06-8af8-e41508b1d9af": {
+    "text": "Hoeveel uur duurt een ideale eerste date?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3038d09c-8a48-432e-8f6a-3173cdf1b0f3": {
+    "text": "Na hoeveel dates is een eerste kus oké?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3a7b78ae-2cd0-461c-a69f-f2f5e35d2593": {
+    "text": "Wat is het beste moment van de dag voor een eerste date?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8488f194-3774-470b-ac98-dfab1027a149": {
+    "text": "Hoeveel dagen moet je wachten voordat je om een tweede date vraagt?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "00d225ad-05d7-4044-9a9a-f002791aa06b": {
+    "text": "Hoeveel jaar is een goed leeftijdsverschil in een relatie?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "52369eca-4691-4ff4-ba5c-db44489ab01d": {
+    "text": "Hoe vaak per dag moeten nieuwe stelletjes elkaar appen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0e7b5127-24d4-48bc-b454-f43ae9fade2d": {
+    "text": "Na hoeveel dates is blijven slapen oké?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "831590be-5c22-4b45-b378-5794e75e0f56": {
+    "text": "Hoeveel minuten te laat komen is oké bij een eerste date?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7192abf5-e884-4f12-80e1-1d0b1a96e8c0": {
+    "text": "Hoeveel exen zijn te veel?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f8ed25d1-90b1-4de2-a09b-6adbf13a1e81": {
+    "text": "Hoeveel dagen moet je chatten voordat je elkaar in het echt ziet?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "38f9ad51-d981-4adf-94a0-90ebe2900c76": {
+    "text": "Wat moet je nooit bestellen op een eerste date?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ebed3fec-e1ae-4368-8a0e-4e4dd4e78af9": {
+    "text": "Welk koosnaampje gebruik je het vaakst voor je partner?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d14e2f10-7c81-43cd-be66-3e778564a465": {
+    "text": "Hoeveel eerdere flirts mag je partner maximaal hebben gehad voordat je afknapt?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "010dfc92-9c21-441a-a0f5-b159412b70a2": {
+    "text": "Bij hoeveel jaar in een vorige relatie van je partner knap je af? Vul 0 in als dat niet uitmaakt.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9cd5fd8b-3a6e-4b0f-a091-7d8612fb213f": {
+    "text": "Hoe mag je partner je nooit noemen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "87658e97-ac2e-44a5-b542-433a08e7aabd": {
+    "text": "Hoe wil je het liefst dat je partner je noemt?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "763e922e-ab9e-4f6f-827e-693af2a26f4d": {
+    "text": "Na hoeveel jaar samen zou je willen samenwonen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "77c7dd5e-0ffd-4698-b393-0ff78d1e213b": {
+    "text": "Na hoeveel maanden zou je de familie van je partner willen ontmoeten?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "595fa92e-a25b-4dc9-8f78-4550f1d8608f": {
+    "text": "Na hoeveel jaar huwelijk zou je kinderen willen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3a380d3f-8123-4e99-b4f3-e7d2ec4ff655": {
+    "text": "Wat is je ideale eerste date?",
+    "answers": [
+      "Koffie",
+      "Een wandeling",
+      "Uit eten",
+      "Iets drinken"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "804c67c5-9dd5-4bf0-9448-3e0ab96b2928": {
+    "text": "Iemand met wie je contact hebt, doet twee dagen over een antwoord. Wat doe je?",
+    "answers": [
+      "Gewoon afwachten",
+      "Een luchtig berichtje sturen",
+      "Net zo traag terugappen",
+      "Je interesse verliezen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6edf2d1a-551c-4860-991c-3fb9641f6085": {
+    "text": "Hoe hoort een goede eerste date te eindigen?",
+    "answers": [
+      "Met een knuffel",
+      "Met een kus",
+      "Met een concreet plan voor date twee",
+      "Gewoon gedag, voor nu"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4f7b735e-59a7-4eeb-bcaa-43853cdf224a": {
+    "text": "Waar is je telefoon tijdens een eerste date?",
+    "answers": [
+      "In je tas of broekzak",
+      "Omgekeerd op tafel",
+      "Op stil, binnen handbereik",
+      "Je merkt hem amper op"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "10ca97e0-e294-417e-84be-a586b2a6e65c": {
+    "text": "Wie hoort de tweede date te plannen?",
+    "answers": [
+      "Wie om de eerste date vroeg",
+      "Deze keer de ander",
+      "Wie de meeste tijd heeft",
+      "Samen plannen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "15087f4a-b129-4ded-bda9-9b8e9f2ce9c9": {
+    "text": "De eerste date was oké, niet geweldig. Wat doe je?",
+    "answers": [
+      "Nog een date proberen",
+      "Netjes ghosten",
+      "Zeggen dat het niet klikt",
+      "Blijven appen en kijken"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9d5474ab-62cf-433d-8a62-9cfe83a90018": {
+    "text": "Hoe word je het liefst mee uit gevraagd?",
+    "answers": [
+      "Persoonlijk",
+      "Via een berichtje",
+      "Met een concreet plan",
+      "Losjes, zonder druk"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "46002351-0295-45f1-a0f9-322e2d7f98b9": {
+    "text": "Op de eerste date begint je date al over de ex. Wat doe je?",
+    "answers": [
+      "Van onderwerp veranderen",
+      "Even luisteren",
+      "Eén vraag erover stellen",
+      "Je interesse verliezen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a90fff4b-18ba-402c-920d-e141465c46fb": {
+    "text": "Wanneer vertel je vrienden dat je met iemand nieuw aan het daten bent?",
+    "answers": [
+      "Na de eerste date",
+      "Na een paar dates",
+      "Pas als het serieus voelt",
+      "Je houdt het een tijdje voor jezelf"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2afd06cc-aad0-4cd2-b85a-be260fc537a9": {
+    "text": "Midden op jullie date licht de telefoon van je date op met een melding van een datingapp. Wat doe je?",
+    "answers": [
+      "Negeren",
+      "Er een grapje over maken",
+      "Er direct naar vragen",
+      "Je interesse verliezen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "80a133aa-e818-4387-ba13-6d18f3eca48c": {
+    "text": "Er valt een ongemakkelijke stilte van 20 seconden. Wat doe je?",
+    "answers": [
+      "Een willekeurige vraag stellen",
+      "Een grap maken over de stilte",
+      "Er rustig in meegaan",
+      "Vanbinnen een beetje in paniek raken"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "54ae559d-c747-4baa-b836-c2ac0f6d5914": {
+    "text": "Je komt tijdens de date je ex tegen. Wat doe je?",
+    "answers": [
+      "Snel hoi zeggen en doorlopen",
+      "Ze kort aan elkaar voorstellen",
+      "Doen alsof je je ex niet ziet"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1862d1eb-0f5f-4433-b278-f78ae8e65a56": {
+    "text": "Je date bestelt voor je zonder het te vragen. Wat doe je?",
+    "answers": [
+      "Gewoon meegaan",
+      "Het beleefd aanpassen",
+      "Zeggen dat het wat ver gaat"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b5794a9f-d967-4b5d-924b-08fde07181dd": {
+    "text": "Iemand met wie je contact hebt, stuurt je een spraakbericht van 4 minuten. Wat doe je?",
+    "answers": [
+      "Helemaal afluisteren",
+      "Op 1,5x afspelen",
+      "Terug inspreken",
+      "Vragen of het gewoon getypt kan"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "11057121-36b1-4bec-8fe0-a951f48a59cb": {
+    "text": "Voor jullie tweede date liket je date een foto van jou uit 2019. Wat doe je?",
+    "answers": [
+      "Erom lachen",
+      "Een oude foto van je date terugliken",
+      "Er op de date mee plagen",
+      "Het een beetje creepy vinden"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2018faf7-7f62-4184-ab8d-f8daddf0c55b": {
+    "text": "Jullie komen elkaar tegen op een feestje van vrienden. Niemand weet dat jullie iets hebben. Wat doe je?",
+    "answers": [
+      "Doen alsof jullie elkaar niet kennen",
+      "Gewoon hoi zeggen, niets laten merken",
+      "Meteen naar elkaar toe en samen blijven"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4186af00-6693-48c4-b037-597f68eca363": {
+    "text": "De dag na jullie date hoor je via een gemeenschappelijke vriend dat je date alles heeft verteld. Hoe voel je je?",
+    "answers": [
+      "Gevleid",
+      "Benieuwd wat er gezegd is",
+      "Een beetje geïrriteerd",
+      "Geen punt, jij hebt het ook verteld"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "90996073-0d83-444d-b35a-979f896c0b5a": {
+    "text": "Je komt thuis na een geweldige eerste date. Jullie hebben elkaar nog niet geappt. Wat doe je?",
+    "answers": [
+      "Meteen een berichtje sturen",
+      "Wachten tot de ander eerst appt",
+      "Het tot morgen laten",
+      "Een story posten en kijken of je date kijkt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "585b6edd-f0f5-45dc-9b1a-70fadafc76c5": {
+    "text": "Waar knap je meer op af bij een eerste date: onbeleefd zijn tegen de bediening of continu op de telefoon zitten?",
+    "answers": [
+      "Onbeleefd tegen de bediening",
+      "Continu op de telefoon"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6fbf29f6-9fdd-469b-a49f-dceeae0f2960": {
+    "text": "Waar knap je meer op af: alleen over zichzelf praten of nooit iets over zichzelf vertellen?",
+    "answers": [
+      "Praat alleen over zichzelf",
+      "Laat nooit iets los"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7d216358-afbd-4df9-bcbf-5dd6d671e303": {
+    "text": "Waar knap je meer op af: een slechte kus of een saai gesprek?",
+    "answers": [
+      "Een slechte kus",
+      "Een saai gesprek"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "720a9cbc-8710-4872-80f2-53300dbadf6f": {
+    "text": "Waar knap je in het begin meer op af: nonstop appen of bijna niet appen?",
+    "answers": [
+      "Nonstop appen",
+      "Bijna niet appen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3cf1a84d-e223-4e63-93d8-777459021597": {
+    "text": "Waar knap je meer op af: overal een grap van maken of nooit een grap snappen?",
+    "answers": [
+      "Maakt overal een grap van",
+      "Snapt nooit een grap"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fc011c5b-4593-4cc1-b280-0684ad82df8d": {
+    "text": "Waar knap je meer op af: er anders uitzien dan op de foto's of liegen over de leeftijd op het profiel?",
+    "answers": [
+      "Ziet er anders uit dan op de foto's",
+      "Loog over de leeftijd"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ad06a964-fa58-4061-8344-79edf5b520d8": {
+    "text": "Waar knap je meer op af: overal “maakt niet uit” op zeggen of overal een mening over hebben?",
+    "answers": [
+      "Overal “maakt niet uit”",
+      "Overal een mening over"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4f531856-318c-487f-a619-fa0a59a99d7f": {
+    "text": "Waar knap je meer op af: slecht ruiken of slecht gekleed gaan?",
+    "answers": [
+      "Slecht ruiken",
+      "Slecht gekleed gaan"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ef9f4128-7b1c-403e-ad46-17990ee3ceef": {
+    "text": "Waar knap je meer op af: thuis alles vertellen of thuis niks vertellen?",
+    "answers": [
+      "Vertelt thuis alles",
+      "Vertelt thuis niks"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

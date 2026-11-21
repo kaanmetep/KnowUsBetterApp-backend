@@ -1,0 +1,452 @@
+{
+  "bca4278f-e856-4d9c-8eb1-0864e3095789": {
+    "text": "恋人の借金、代わりに払える？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f1daeb64-3d71-4516-bd63-e51be5db16cc": {
+    "text": "結婚相手がお金持ちかどうかって大事？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "289fb98c-ca67-4dd0-96c8-0f30a88b9cb7": {
+    "text": "結婚式を挙げるのって大事？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f26f180e-48f4-4594-a56f-9e54fb49987d": {
+    "text": "恋人には、自分のために体を張ってほしい？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "28552fbf-c9fb-49a2-ac5b-e1f13761050a": {
+    "text": "恋人とインスタのアカウントを共有する？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "20f710ca-ec12-40a8-97e0-1ac2303e1b54": {
+    "text": "仕事の目標は全部かなうけど、恋人とは結婚できない（付き合いはずっと続く）。それでもいい？",
+    "answers": [],
+    "accepted": [],
+    "flagged": true,
+    "note": "Source is a statement with no question; added 'それでもいい？' (is that OK?) so it works as yes/no."
+  },
+  "b6073db9-251b-4e25-ae28-8220b266b1e6": {
+    "text": "海外移住したい人と付き合い続けられる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "49b9f11e-0e9d-4494-beca-12f31042f074": {
+    "text": "恋人の家族って大事？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "111d83eb-0a34-4703-9358-30ca36ac9c4e": {
+    "text": "恋人が将来ひとりで世界一周したいって言ったら、行かせてあげる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "988c11e4-4e49-4708-a85a-76a84c979d79": {
+    "text": "恋人のためなら、ペットを手放せる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5a88c4fd-00ed-4ed1-9582-9d7fbb9270f4": {
+    "text": "3年以内に結婚するつもりある？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a89a3b24-529c-4182-b6f5-9353c8082674": {
+    "text": "自分が正しいなら、人前でも恋人と言い合いする？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "82d8c091-b318-4385-aa11-b1e7c7df8a08": {
+    "text": "恋人が行きたがったら、ローンを組んででも旅行に行く？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8300d5a7-b4b6-4ac5-a8da-4fd3208cc734": {
+    "text": "仕事のためなら、子どもをあきらめられる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9f286a70-cf87-4f12-a7ab-4b70cfffead0": {
+    "text": "3年以内に子どもがほしい？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0a6af22d-dfdf-4bf9-8a3c-35fc8ae14936": {
+    "text": "結婚式にはお金をたくさんかけたい？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "30b40547-41aa-4735-912a-17f8a6a4d231": {
+    "text": "恋人が結婚式をしたくないって言ったら、引っかかる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e2ea8d47-b6c2-4ba8-a476-51fc25ab7129": {
+    "text": "恋人にインスタのDMを見せられる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4448fc04-15c4-4840-8920-45d1f89f731f": {
+    "text": "恋人のインスタの投稿、チェックしちゃう？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c0fa5897-8a9f-4a74-a0cf-7ab5814da5d3": {
+    "text": "恋人に友達と遊びに行くのを止められても、こっそり行く？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c0480dde-ff57-4d29-97ca-33a5ff4f232f": {
+    "text": "恋人の体重が100kgになったら、別れる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "16431dd5-87cd-4985-86be-991019b52651": {
+    "text": "恋人がキャリアの足かせになってると思ったら、別れる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "31696cb7-5827-4ce2-a19b-9f6fa3853c9b": {
+    "text": "恋愛で受け入れにくいのはどっち？",
+    "answers": [
+      "気持ちのすれ違い",
+      "体の相性の悪さ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1745ac8d-b67d-4e9d-b324-c416960ae148": {
+    "text": "将来のパートナーにするならどっち？",
+    "answers": [
+      "お金に困らないシンプルな人生を望む人",
+      "大成功を狙って冒険したい人"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b13c21a7-90e1-43da-8cf4-293648328e04": {
+    "text": "結婚前に恋人と同棲する？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "96df59e9-4ef7-411c-988b-7da87dc67d7c": {
+    "text": "関係を壊しやすいのはどっち？",
+    "answers": [
+      "信頼の問題",
+      "コミュニケーションの問題"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0b54c41a-71f3-463e-815e-6154a48609b8": {
+    "text": "結婚後、恋人の家族と同居してもいい？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "686299c5-d8ba-4578-8cc5-d1ca88ec4c25": {
+    "text": "恋愛でより大事なのはどっち？",
+    "answers": [
+      "安心感",
+      "ドキドキ感"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "64553088-4b91-42e3-9dd4-ae5f4f37de28": {
+    "text": "好きな人にSNSのアカウントを消してって言われたら、消す？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0b9dda2c-d006-4898-b5e8-af4332e97cff": {
+    "text": "将来のパートナーにするならどっち？",
+    "answers": [
+      "海外には絶対住みたくない人",
+      "旅して国を転々としたい人"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8e8d4a47-c5f1-47a4-a099-e40067b24d93": {
+    "text": "恋人の親友に好意を持たれたら、恋人に話す？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d7f54c11-65f3-4a3b-a006-3828d94e9e5b": {
+    "text": "恋愛でつらいのはどっち？",
+    "answers": [
+      "その人を失うこと",
+      "最初から自分のものじゃなかったと気づくこと"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "80a41d9e-4557-4c0f-ad43-964f6992ddd6": {
+    "text": "恋人が夜に友達と出かけたら、やきもち焼く？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ce2bfb9c-c71b-4484-af3f-60b2a0d64037": {
+    "text": "子どもを望まない人と結婚できる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1c7d7202-1982-4200-85ce-5430554c6774": {
+    "text": "恋愛で耐えられないのはどっち？",
+    "answers": [
+      "愛されてないと感じること",
+      "大切にされてないと感じること"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6fe6fdf5-1b21-4395-a422-a668befc589b": {
+    "text": "恋人と一緒に住んだら、ドキドキって薄れると思う？",
+    "answers": [],
+    "accepted": [],
+    "flagged": true,
+    "note": "'Sexual attraction' softened to ドキドキ (spark) to stay non-explicit; meaning slightly broader."
+  },
+  "ed60a442-e3d3-4295-847a-b2c280d9575e": {
+    "text": "関係にとってダメージが大きいのはどっち？",
+    "answers": [
+      "一気に信頼を失うこと",
+      "少しずつ信頼を失うこと"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e838307a-5659-4045-a4eb-47b441d35812": {
+    "text": "恋人が友達と旅行に行ったら、モヤモヤする？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "56f4ccea-070f-415b-9f4c-a51c62a46331": {
+    "text": "冷めた気持ちも、努力でまた取り戻せると思う？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f12cb362-0dc9-4d15-9ecd-c965ea436887": {
+    "text": "恋愛に年齢って関係ある？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "46d0a0ad-3871-4e6a-8269-234e157bbf9e": {
+    "text": "過去の恋愛に後悔してることある？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5e523a85-9eab-465f-948e-70dfe87139c8": {
+    "text": "恋人を喜ばせるために、ゲームでわざと負けたりする？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "248cce39-2e0a-4ecf-8bdc-a9c1da7669e2": {
+    "text": "恋人がインスタで有名になって注目されまくったら、イヤ？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9f5b2220-1d85-4476-be4b-aede57b91272": {
+    "text": "本気で叶えたい夢のためなら、家族に反対されても貫く？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "604782d5-021e-477b-b3e5-c6a585fd2c2b": {
+    "text": "恋人を喜ばせるためだけに、ウソをつける？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b13dd5c4-c9bc-49f6-94fe-db99095dcbaf": {
+    "text": "浮気されたら、恋人に仕返しする？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c1531a57-602a-4c85-b580-f29dd037d80a": {
+    "text": "自分より稼いでる人とでも付き合い続けられる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "91124f3e-050c-4a45-b19e-1099ad9ea3bf": {
+    "text": "高いプレゼントをもらうとグッとくる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "abfd3894-3839-422a-b90f-c7d4f148eca2": {
+    "text": "恋人のきょうだいに大金を貸せる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8a6b14a5-837d-423c-bd6d-96f3275c1d69": {
+    "text": "友達が恋人のことを気に入らなかったら、恋人への気持ちが冷める？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "95265173-55f2-4655-970e-a321e4fee997": {
+    "text": "世界のどこかに運命の人がひとりだけいるって信じてる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f07da6dd-5097-43b8-8b05-31f5c2a82073": {
+    "text": "恋人に頼まれたら、インスタを鍵アカにする？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0e237d80-73bb-43e5-ac91-3c2ae17a06d1": {
+    "text": "将来のパートナーにするならどっち？",
+    "answers": [
+      "子どもは早めにほしい人",
+      "子どもはずっと後でいい人"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cb71ff6a-3fca-408a-8995-2378e6f2df75": {
+    "text": "恋人に友達とのグループLINEを見たいって言われたら、見せる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6501aea1-b672-4b69-9b47-ef34337f0731": {
+    "text": "恋人がいるのに、異性の友達と同居できる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": true,
+    "note": "Kept 'opposite sex' (異性) as in source; reveals nothing about the player's gender but assumes a straight frame, as the original does."
+  },
+  "691c9f52-2fc8-44dd-92e3-b33eb68025ef": {
+    "text": "将来、恋人が実子より養子を望んだら、受け入れられる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "016974f8-7cc2-43d8-8e16-60cc714dc90c": {
+    "text": "恋人に全部捨てて海外に移住しようって言われたら、OKする？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fc6b721a-f7d1-4ee5-b4a4-321d5ae14865": {
+    "text": "恋人が整形したいって言ったら、応援する？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "df31e532-7534-4a7e-b947-32f62c398807": {
+    "text": "ゆとりある老後を優先する？それとも若いうちに思い出にお金を使う？",
+    "answers": [
+      "老後のために貯める",
+      "思い出に使う"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b998c2fd-b632-4b5f-b225-7f874cceb713": {
+    "text": "恋人に頼まれたら、自分に気がある友達と連絡を断てる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

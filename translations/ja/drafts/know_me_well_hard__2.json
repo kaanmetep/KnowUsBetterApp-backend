@@ -1,0 +1,502 @@
+{
+  "26767042-b7af-43d8-ad6f-ea87f4304f2f": {
+    "text": "{{playerName}}の母方のおばあちゃんの名前は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a3279d43-a655-4bbb-8718-b6d15227c517": {
+    "text": "{{playerName}}のおじいちゃんの名前は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5b5320ad-a6ce-44c4-8e2b-fb2bae61cbf1": {
+    "text": "{{playerName}}が一番好きな車のメーカーは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ff9d0b85-deed-41dd-807c-1f3d0a3bb83c": {
+    "text": "{{playerName}}が一番好きな車の色は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "98059ab8-7dbf-4b1c-8c78-78ebc984c60e": {
+    "text": "{{playerName}}の体重は何kg？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b48fa9ed-dd37-473f-b435-ce10eb15ae06": {
+    "text": "{{playerName}}は耳にピアスの穴がいくつある？なければ0って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2a444c7a-9b06-42ba-929c-3818403efe75": {
+    "text": "今、{{playerName}}が一番仲いい友だちの名前は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0216b04b-1ca1-4963-a1e6-ff951b52d0a3": {
+    "text": "{{playerName}}は今までに何か国行ったことある？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "42a0d55b-eca3-40f2-bc31-14b9428ad7e6": {
+    "text": "{{playerName}}がウソをついてるとき、どこでバレる？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "29cd2b71-30b4-431f-8ec3-1c32bd8e39aa": {
+    "text": "{{playerName}}の血液型は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "042f678e-2937-4acb-8425-a35fe0e7b9c5": {
+    "text": "{{playerName}}の上のきょうだいの名前は？いなければ「なし」って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c511a069-e3da-4591-b416-bd506028c5ad": {
+    "text": "{{playerName}}の最初の車は？持ったことなければ「なし」って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "57c09d65-f7f9-4b4f-9a7a-bb66f4b6a62d": {
+    "text": "{{playerName}}が一番怖いものは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b9710f34-86f6-4db8-96d3-752d4559d726": {
+    "text": "{{playerName}}が人生で一番誇りに思ってることは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ace03250-f070-4ff0-ae9c-703406313716": {
+    "text": "{{playerName}}は本気で怒ったらどうなる？",
+    "answers": [
+      "黙って溜め込む",
+      "怒鳴って、そのあと落ち着く",
+      "その場を離れる",
+      "すぐ話し合おうとする"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b90eefb2-04d9-470b-bde1-ed9df3dacdd8": {
+    "text": "悪い知らせを聞いたとき、{{playerName}}が最初に頼るのは？",
+    "answers": [
+      "恋人",
+      "親",
+      "親友",
+      "誰にも言わず、まずひとりで整理する"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7bddbacb-8e74-4c5e-b299-5305af0053f5": {
+    "text": "{{playerName}}が一番後悔してることは？",
+    "answers": [
+      "言えなかったひと言",
+      "逃したチャンス",
+      "誰かを傷つけたこと",
+      "特になし、後悔しないタイプ"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4bcbeb5e-2463-48a0-8cd0-babea7e0a72f": {
+    "text": "{{playerName}}の初めての仕事・バイトは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "61e3c86d-76bd-4582-88c5-71bfe7622ee0": {
+    "text": "{{playerName}}が運転免許を取ったのは何歳？持ってなければ「なし」って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "10084e8c-9292-4aa3-9dbd-75531bb7486a": {
+    "text": "{{playerName}}は今までに何回骨折したことある？なければ0って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c1def649-d319-4211-aeb5-0858840e7bdc": {
+    "text": "{{playerName}}が初めて行ったライブは誰の？行ったことなければ「なし」って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1046beaa-623b-4faf-8f88-38b87419d2e6": {
+    "text": "{{playerName}}のアレルギーは？なければ「なし」って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ba2de278-23d7-45a4-8448-cb563db767d5": {
+    "text": "{{playerName}}が初めて海外に行ったのは何歳？まだなら「なし」って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6a7ace14-0321-4e93-9cc7-2baa1d9bee41": {
+    "text": "{{playerName}}は今までに何回引っ越したことある？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ba6c616e-1d98-469a-b2e3-92b66c0981d1": {
+    "text": "{{playerName}}の父方のおばあちゃんの名前は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2f57ffab-1be4-44cc-a0f8-a393c9fad863": {
+    "text": "{{playerName}}が初めて持ったケータイは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "00bb499d-b0c3-4f78-9b18-cffb65b03524": {
+    "text": "{{playerName}}のファーストキスは何歳のとき？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1c34b99b-0d35-4532-8459-984d6017ea4a": {
+    "text": "学生時代、{{playerName}}が一番苦手だった科目は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c701e374-0098-4d9a-9a64-f02e08d52b16": {
+    "text": "{{playerName}}の一番大きい傷あとはどこにある？なければ「なし」って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "170581cc-7ae8-4bc3-9ca8-8fa5e87b5fc2": {
+    "text": "{{playerName}}が着るTシャツのサイズは？",
+    "answers": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL以上"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "01e70d49-b6d6-4142-971d-22b27d35b17f": {
+    "text": "{{playerName}}が一番好きだった先生の名前は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "43294aea-9009-4d5a-aad8-f7694a3b51a5": {
+    "text": "{{playerName}}が生まれたのは何時ごろ？",
+    "answers": [
+      "深夜（0〜6時）",
+      "朝（6〜12時）",
+      "午後（12〜18時）",
+      "夜（18〜24時）"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "749b9061-a5d0-4ff6-900b-e3ba010281ed": {
+    "text": "{{playerName}}が直接会ったことある有名人は？いなければ「なし」って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9f26e1c3-409c-4553-98aa-52ecb367ba15": {
+    "text": "{{playerName}}がやってた、または習おうとした楽器は？なければ「なし」って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bf1c6470-4a2a-48c7-8d98-2f82482ce877": {
+    "text": "{{playerName}}は運転免許の試験に何回落ちた？一度もなければ0って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f881bedc-d173-4bdb-ae2d-694246d7f4d8": {
+    "text": "{{playerName}}が実家を出たのは何歳？まだなら「なし」って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7600e024-4a37-494e-96f6-cc1c03f58f89": {
+    "text": "{{playerName}}が一番くすぐったいところは？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "deb2b852-ecc2-4a4b-939e-cbcf025845f4": {
+    "text": "{{playerName}}の地毛の色は？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f5418f78-b11d-4776-825c-c5ac189d7b37": {
+    "text": "{{playerName}}の生まれつきのあざはどこにある？なければ「なし」って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "096b7ab0-dfe3-49bc-956e-cafc81272088": {
+    "text": "{{playerName}}はいびきをかく？",
+    "answers": [
+      "全然かかない",
+      "すごく疲れたときだけ",
+      "ときどき",
+      "毎晩"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f620465f-147d-4168-af5a-2bb985faf47d": {
+    "text": "{{playerName}}は何を着て寝る？",
+    "answers": [
+      "パジャマ",
+      "Tシャツと短パン",
+      "下着だけ",
+      "何も着ない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5f58a2de-2ed0-446f-9727-0329eb1902d6": {
+    "text": "{{playerName}}は歯の矯正をしたことある？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a655c4c5-4928-4826-bbb2-746b6c2282e8": {
+    "text": "{{playerName}}の髪質は、もともとどんな感じ？",
+    "answers": [
+      "ストレート",
+      "ゆるいウェーブ",
+      "くせ毛",
+      "かなりのくせ毛"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0d808bea-8434-4452-aedb-e5bd28afc9f3": {
+    "text": "{{playerName}}が一番よく使う香水は？使ってなければ「なし」って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e9d46c08-1bf4-4c6e-bed3-5617405af0ec": {
+    "text": "{{playerName}}は靴下をはいたまま寝る？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d616c1f7-4c37-47a7-8a0e-4b9963af2764": {
+    "text": "{{playerName}}は親知らずを何本抜いた？",
+    "answers": [
+      "抜いてない",
+      "1本",
+      "2本",
+      "3本",
+      "4本全部"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ff103caa-415a-4e58-8c01-e153cd9bae9b": {
+    "text": "{{playerName}}は今までに何回ケガで縫ったことある？なければ0って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5a101639-bde0-469e-b2f2-60b2ef0a85fd": {
+    "text": "{{playerName}}が泳げるようになったのは何歳？泳げなければ「なし」って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "424b64a3-27da-4ae4-be6d-0e4fb5e26709": {
+    "text": "{{playerName}}の歯の詰め物はいくつ？なければ0って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5554d5d2-4a3f-442a-b4c8-38e8511d257a": {
+    "text": "{{playerName}}は今までに何回入院したことある？なければ0って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c318ef52-cf6a-49e9-84a8-45961906b50b": {
+    "text": "{{playerName}}はマニュアル車を運転できる？",
+    "answers": [
+      "余裕でできる",
+      "できるけど下手",
+      "オートマだけ",
+      "そもそも運転できない"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6074363d-0509-4dea-9335-e5320a8e427a": {
+    "text": "{{playerName}}は今までに何回気を失ったことある？なければ0って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "48b3c23a-3cd0-4c20-9384-01aa898ae50c": {
+    "text": "{{playerName}}が初めて飛行機に乗ったのは何歳？乗ったことなければ「なし」って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "39a4a20b-eb71-4852-86d1-c1f6ef17b787": {
+    "text": "{{playerName}}は今までにいくつの仕事を経験した？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5c90da6e-06f8-4571-af38-0ac84e0c7278": {
+    "text": "{{playerName}}は今までに何回髪を染めた？なければ0って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "58871fe6-0f6c-4951-bf1b-4e65c2cb2fbb": {
+    "text": "{{playerName}}が耳にピアスを開けたのは何歳？開けてなければ「なし」って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7fec5c7e-5fd4-4d15-b827-9764d0017c5a": {
+    "text": "{{playerName}}はスピード違反で何回捕まった？なければ0って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1c483831-40c8-4c84-b3e4-1e6b2febd48f": {
+    "text": "{{playerName}}は今までに何回スマホの画面を割った？なければ0って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "84f3b4d3-8ce2-4dd7-a7a0-3ceb564ace5b": {
+    "text": "{{playerName}}が乗った一番長いフライトは何時間？乗ったことなければ0って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a3fbf3a7-ae6b-452d-b250-d1345f8c330f": {
+    "text": "{{playerName}}が今もよく連絡を取ってる高校の友だちは何人？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2f52c237-0f33-496b-98b3-d8052637d261": {
+    "text": "{{playerName}}が生まれたとき、お母さんは何歳だった？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "84e04131-a72c-4735-abf3-e7da9b624e05": {
+    "text": "{{playerName}}と一番年の近いきょうだいは何歳差？ひとりっ子なら0って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e5b9acdd-03b4-4cdb-869d-19a7eb400217": {
+    "text": "{{playerName}}が今までで一番長く寝続けたのは何時間？",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b8b3c241-4570-48ed-8a1f-2f7048d5fc4f": {
+    "text": "{{playerName}}が自分の部屋をもらったのは何歳？ずっとあったなら0って書いて。",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

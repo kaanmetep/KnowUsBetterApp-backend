@@ -1,0 +1,1366 @@
+[
+ {
+  "id": "e0376cd2-b821-4778-a104-f2f21460e4f9",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many holes are played in a standard round of golf?",
+  "tr": "Standart bir golf turunda kaç delik oynanır?",
+  "answers_en": [
+   "9",
+   "12",
+   "18",
+   "24"
+  ],
+  "answers_tr": [
+   "9",
+   "12",
+   "18",
+   "24"
+  ],
+  "correct_answer": "18",
+  "category": "trivia_master"
+ },
+ {
+  "id": "470f370a-f1ff-46dc-ad04-0921db1801da",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Usain Bolt became a world record holder in which event?",
+  "tr": "Usain Bolt hangi branşta dünya rekortmeni oldu?",
+  "answers_en": [
+   "Swimming",
+   "Sprinting",
+   "Long jump",
+   "Cycling"
+  ],
+  "answers_tr": [
+   "Yüzme",
+   "Kısa mesafe koşu",
+   "Uzun atlama",
+   "Bisiklet"
+  ],
+  "correct_answer": "Sprinting",
+  "category": "trivia_master"
+ },
+ {
+  "id": "448ec511-95bf-40f4-9e1b-c12c083b0267",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many players from each team are on a volleyball court at once?",
+  "tr": "Voleybolda her takımdan sahada aynı anda kaç oyuncu bulunur?",
+  "answers_en": [
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "answers_tr": [
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "correct_answer": "6",
+  "category": "trivia_master"
+ },
+ {
+  "id": "31b3a033-8fdd-40dd-8c2e-d5087aedbfbf",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Muhammad Ali is considered one of the greatest athletes ever in which sport?",
+  "tr": "Muhammed Ali hangi sporda tüm zamanların en büyüklerinden biri sayılır?",
+  "answers_en": [
+   "Wrestling",
+   "Boxing",
+   "Judo",
+   "Kickboxing"
+  ],
+  "answers_tr": [
+   "Güreş",
+   "Boks",
+   "Judo",
+   "Kickboks"
+  ],
+  "correct_answer": "Boxing",
+  "category": "trivia_master"
+ },
+ {
+  "id": "ad108c04-5948-421c-92cf-87d856111268",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many Grand Slam tournaments are there in tennis each year?",
+  "tr": "Teniste her yıl kaç Grand Slam turnuvası düzenlenir?",
+  "answers_en": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "answers_tr": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "correct_answer": "4",
+  "category": "trivia_master"
+ },
+ {
+  "id": "66d937da-ec80-4572-84ed-902aed03fdbf",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many bones does an adult human body have?",
+  "tr": "Yetişkin bir insanın vücudunda kaç kemik vardır?",
+  "answers_en": [
+   "106",
+   "206",
+   "306",
+   "406"
+  ],
+  "answers_tr": [
+   "106",
+   "206",
+   "306",
+   "406"
+  ],
+  "correct_answer": "206",
+  "category": "trivia_master"
+ },
+ {
+  "id": "b881df18-afa4-4f6d-b8d4-2f69928d90eb",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the largest organ of the human body?",
+  "tr": "İnsan vücudunun en büyük organı hangisidir?",
+  "answers_en": [
+   "Liver",
+   "Lungs",
+   "Skin",
+   "Brain"
+  ],
+  "answers_tr": [
+   "Karaciğer",
+   "Akciğerler",
+   "Deri",
+   "Beyin"
+  ],
+  "correct_answer": "Skin",
+  "category": "trivia_master"
+ },
+ {
+  "id": "79a5250b-5c10-48e6-9226-2beb082fe4d3",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which gas makes up most of the air we breathe?",
+  "tr": "Soluduğumuz havanın büyük kısmını hangi gaz oluşturur?",
+  "answers_en": [
+   "Oxygen",
+   "Nitrogen",
+   "Carbon dioxide",
+   "Hydrogen"
+  ],
+  "answers_tr": [
+   "Oksijen",
+   "Azot",
+   "Karbondioksit",
+   "Hidrojen"
+  ],
+  "correct_answer": "Nitrogen",
+  "category": "trivia_master"
+ },
+ {
+  "id": "04109646-2470-4e9a-b82d-aaf64ee50fb8",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "At sea level, water boils at what temperature?",
+  "tr": "Deniz seviyesinde su kaç derecede kaynar?",
+  "answers_en": [
+   "80 °C",
+   "90 °C",
+   "100 °C",
+   "120 °C"
+  ],
+  "answers_tr": [
+   "80 °C",
+   "90 °C",
+   "100 °C",
+   "120 °C"
+  ],
+  "correct_answer": "100 °C",
+  "category": "trivia_master"
+ },
+ {
+  "id": "53d74eaf-20e2-4dde-b2c0-667e94047ee8",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the largest planet in our solar system?",
+  "tr": "Güneş Sistemi'nin en büyük gezegeni hangisi?",
+  "answers_en": [
+   "Saturn",
+   "Jupiter",
+   "Neptune",
+   "Earth"
+  ],
+  "answers_tr": [
+   "Satürn",
+   "Jüpiter",
+   "Neptün",
+   "Dünya"
+  ],
+  "correct_answer": "Jupiter",
+  "category": "trivia_master"
+ },
+ {
+  "id": "adef6293-e6aa-4850-be6c-f7739e07b347",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many teeth does an adult usually have, including wisdom teeth?",
+  "tr": "Yirmi yaş dişleri dahil, bir yetişkinin genelde kaç dişi vardır?",
+  "answers_en": [
+   "24",
+   "28",
+   "32",
+   "36"
+  ],
+  "answers_tr": [
+   "24",
+   "28",
+   "32",
+   "36"
+  ],
+  "correct_answer": "32",
+  "category": "trivia_master"
+ },
+ {
+  "id": "2e7bb5bd-dbe2-4b29-b666-9fcbe35f814f",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which planet is closest to the Sun?",
+  "tr": "Güneş'e en yakın gezegen hangisi?",
+  "answers_en": [
+   "Venus",
+   "Mercury",
+   "Mars",
+   "Earth"
+  ],
+  "answers_tr": [
+   "Venüs",
+   "Merkür",
+   "Mars",
+   "Dünya"
+  ],
+  "correct_answer": "Mercury",
+  "category": "trivia_master"
+ },
+ {
+  "id": "5f4a008d-499e-4bc0-97a6-616d03dfb26d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the chemical formula for water?",
+  "tr": "Suyun kimyasal formülü nedir?",
+  "answers_en": [
+   "CO2",
+   "H2O",
+   "O2",
+   "NaCl"
+  ],
+  "answers_tr": [
+   "CO2",
+   "H2O",
+   "O2",
+   "NaCl"
+  ],
+  "correct_answer": "H2O",
+  "category": "trivia_master"
+ },
+ {
+  "id": "30ec3ae6-6d94-49df-a591-f425c03aea90",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which blood type is known as the \"universal donor\"?",
+  "tr": "Hangi kan grubu \"genel verici\" olarak bilinir?",
+  "answers_en": [
+   "A positive",
+   "B negative",
+   "AB positive",
+   "O negative"
+  ],
+  "answers_tr": [
+   "A Rh+",
+   "B Rh-",
+   "AB Rh+",
+   "0 Rh-"
+  ],
+  "correct_answer": "O negative",
+  "category": "trivia_master"
+ },
+ {
+  "id": "1ba39886-208f-42cc-b5e8-b669b49fa583",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How long does it take the Earth to travel once around the Sun?",
+  "tr": "Dünya, Güneş'in etrafındaki bir turunu ne kadar sürede tamamlar?",
+  "answers_en": [
+   "1 day",
+   "1 week",
+   "1 month",
+   "1 year"
+  ],
+  "answers_tr": [
+   "1 gün",
+   "1 hafta",
+   "1 ay",
+   "1 yıl"
+  ],
+  "correct_answer": "1 year",
+  "category": "trivia_master"
+ },
+ {
+  "id": "9c4656bf-e418-43a7-853c-5807919a8b22",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "The smallest bone in the human body is found in which part of the body?",
+  "tr": "İnsan vücudundaki en küçük kemik nerededir?",
+  "answers_en": [
+   "Finger",
+   "Ear",
+   "Nose",
+   "Toe"
+  ],
+  "answers_tr": [
+   "Parmak",
+   "Kulak",
+   "Burun",
+   "Ayak parmağı"
+  ],
+  "correct_answer": "Ear",
+  "category": "trivia_master"
+ },
+ {
+  "id": "9ccb760a-3543-48a3-bca4-7b133a9a147c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which vitamin does your body make when your skin gets sunlight?",
+  "tr": "Cildimiz güneş ışığı aldığında vücudumuz hangi vitamini üretir?",
+  "answers_en": [
+   "Vitamin A",
+   "Vitamin B12",
+   "Vitamin C",
+   "Vitamin D"
+  ],
+  "answers_tr": [
+   "A vitamini",
+   "B12 vitamini",
+   "C vitamini",
+   "D vitamini"
+  ],
+  "correct_answer": "Vitamin D",
+  "category": "trivia_master"
+ },
+ {
+  "id": "18255e04-f4d6-44cf-9d19-201792d1a91f",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many planets are in our solar system?",
+  "tr": "Güneş Sistemi'nde kaç gezegen vardır?",
+  "answers_en": [
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "answers_tr": [
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "correct_answer": "8",
+  "category": "trivia_master"
+ },
+ {
+  "id": "94e3ba92-0a32-47a3-8762-d141d5e3a183",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which force pulls objects toward the ground when you drop them?",
+  "tr": "Elimizden düşen bir cismi yere doğru çeken kuvvet hangisidir?",
+  "answers_en": [
+   "Magnetism",
+   "Friction",
+   "Gravity",
+   "Electricity"
+  ],
+  "answers_tr": [
+   "Manyetizma",
+   "Sürtünme",
+   "Yer çekimi",
+   "Elektrik"
+  ],
+  "correct_answer": "Gravity",
+  "category": "trivia_master"
+ },
+ {
+  "id": "406d0c4d-062e-4fc9-8ac0-16e35645a12e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which scientist is famous for the theory of relativity?",
+  "tr": "Görelilik kuramıyla ünlü bilim insanı kimdir?",
+  "answers_en": [
+   "Isaac Newton",
+   "Nikola Tesla",
+   "Albert Einstein",
+   "Charles Darwin"
+  ],
+  "answers_tr": [
+   "Isaac Newton",
+   "Nikola Tesla",
+   "Albert Einstein",
+   "Charles Darwin"
+  ],
+  "correct_answer": "Albert Einstein",
+  "category": "trivia_master"
+ },
+ {
+  "id": "4f0e8e7a-a404-4e28-ba7d-184e88177cac",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which animated film does a young lion named Simba become king?",
+  "tr": "Genç aslan Simba'nın kral olduğu animasyon filmi hangisi?",
+  "answers_en": [
+   "The Jungle Book",
+   "Madagascar",
+   "The Lion King",
+   "Tarzan"
+  ],
+  "answers_tr": [
+   "Orman Çocuğu",
+   "Madagaskar",
+   "Aslan Kral",
+   "Tarzan"
+  ],
+  "correct_answer": "The Lion King",
+  "category": "trivia_master"
+ },
+ {
+  "id": "5f150e47-227f-4d1d-991e-f0624b6da732",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the name of the wizarding school Harry Potter attends?",
+  "tr": "Harry Potter'ın okuduğu büyücülük okulunun adı ne?",
+  "answers_en": [
+   "Narnia",
+   "Hogwarts",
+   "Gotham",
+   "Rivendell"
+  ],
+  "answers_tr": [
+   "Narnia",
+   "Hogwarts",
+   "Gotham",
+   "Ayrıkvadi"
+  ],
+  "correct_answer": "Hogwarts",
+  "category": "trivia_master"
+ },
+ {
+  "id": "42580561-ded8-4a9f-bee4-4a9dac914ceb",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "John, Paul, George and Ringo were the members of which legendary band?",
+  "tr": "John, Paul, George ve Ringo hangi efsanevi grubun üyeleriydi?",
+  "answers_en": [
+   "The Rolling Stones",
+   "Queen",
+   "The Beatles",
+   "ABBA"
+  ],
+  "answers_tr": [
+   "The Rolling Stones",
+   "Queen",
+   "The Beatles",
+   "ABBA"
+  ],
+  "correct_answer": "The Beatles",
+  "category": "trivia_master"
+ },
+ {
+  "id": "e757c23e-fdde-4bbe-aa9c-4d068f5b4787",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which superhero is known as the \"Man of Steel\"?",
+  "tr": "\"Çelik Adam\" lakaplı süper kahraman hangisi?",
+  "answers_en": [
+   "Batman",
+   "Iron Man",
+   "Superman",
+   "Spider-Man"
+  ],
+  "answers_tr": [
+   "Batman",
+   "Iron Man",
+   "Süpermen",
+   "Örümcek Adam"
+  ],
+  "correct_answer": "Superman",
+  "category": "trivia_master"
+ },
+ {
+  "id": "ee441246-10de-4b35-9265-842c9d2d761d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which famous fictional detective lives at 221B Baker Street?",
+  "tr": "221B Baker Street'te yaşayan ünlü kurgusal dedektif kim?",
+  "answers_en": [
+   "Hercule Poirot",
+   "Sherlock Holmes",
+   "James Bond",
+   "Indiana Jones"
+  ],
+  "answers_tr": [
+   "Hercule Poirot",
+   "Sherlock Holmes",
+   "James Bond",
+   "Indiana Jones"
+  ],
+  "correct_answer": "Sherlock Holmes",
+  "category": "trivia_master"
+ },
+ {
+  "id": "6d5f5c00-4706-4eb4-a7e3-4124932add70",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which ship sinks in the 1997 film starring Leonardo DiCaprio and Kate Winslet?",
+  "tr": "Leonardo DiCaprio ve Kate Winslet'in oynadığı 1997 filminde hangi gemi batar?",
+  "answers_en": [
+   "Poseidon",
+   "Titanic",
+   "Black Pearl",
+   "Queen Mary"
+  ],
+  "answers_tr": [
+   "Poseidon",
+   "Titanik",
+   "Kara İnci",
+   "Queen Mary"
+  ],
+  "correct_answer": "Titanic",
+  "category": "trivia_master"
+ },
+ {
+  "id": "07691c96-35a5-4bd4-8b5a-562834877635",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who is Mickey Mouse's girlfriend?",
+  "tr": "Mickey Mouse'un kız arkadaşı kim?",
+  "answers_en": [
+   "Daisy Duck",
+   "Minnie Mouse",
+   "Betty Boop",
+   "Jessica Rabbit"
+  ],
+  "answers_tr": [
+   "Daisy Duck",
+   "Minnie Mouse",
+   "Betty Boop",
+   "Jessica Rabbit"
+  ],
+  "correct_answer": "Minnie Mouse",
+  "category": "trivia_master"
+ },
+ {
+  "id": "b5b94a65-fed5-48cc-9e59-2fa7da99e027",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What color does the Hulk turn when he gets angry?",
+  "tr": "Hulk sinirlendiğinde ne renk olur?",
+  "answers_en": [
+   "Red",
+   "Blue",
+   "Green",
+   "Purple"
+  ],
+  "answers_tr": [
+   "Kırmızı",
+   "Mavi",
+   "Yeşil",
+   "Mor"
+  ],
+  "correct_answer": "Green",
+  "category": "trivia_master"
+ },
+ {
+  "id": "1fcb25d2-57d4-4a43-bc7d-6503751ac0bd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which musical instrument usually has 88 keys?",
+  "tr": "Hangi müzik aletinde genellikle 88 tuş bulunur?",
+  "answers_en": [
+   "Accordion",
+   "Piano",
+   "Harp",
+   "Organ"
+  ],
+  "answers_tr": [
+   "Akordeon",
+   "Piyano",
+   "Arp",
+   "Org"
+  ],
+  "correct_answer": "Piano",
+  "category": "trivia_master"
+ },
+ {
+  "id": "70c1e912-e703-4c28-8b68-fc55363fc96f",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which yellow cartoon family lives in the town of Springfield?",
+  "tr": "Springfield kasabasında yaşayan sarı tenli çizgi film ailesi hangisi?",
+  "answers_en": [
+   "The Flintstones",
+   "The Simpsons",
+   "The Addams Family",
+   "The Incredibles"
+  ],
+  "answers_tr": [
+   "Çakmaktaşlar",
+   "Simpsonlar",
+   "Addams Ailesi",
+   "İnanılmaz Aile"
+  ],
+  "correct_answer": "The Simpsons",
+  "category": "trivia_master"
+ },
+ {
+  "id": "e6af68c7-cfd6-4fee-8949-ad182b20c596",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which famous video game character is an Italian plumber?",
+  "tr": "Hangi ünlü video oyunu karakteri İtalyan bir tesisatçıdır?",
+  "answers_en": [
+   "Sonic",
+   "Mario",
+   "Pac-Man",
+   "Link"
+  ],
+  "answers_tr": [
+   "Sonic",
+   "Mario",
+   "Pac-Man",
+   "Link"
+  ],
+  "correct_answer": "Mario",
+  "category": "trivia_master"
+ },
+ {
+  "id": "e597ee36-f357-4ca7-91c3-430633c04158",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which fairy-tale character leaves a glass slipper behind at the ball?",
+  "tr": "Hangi masal kahramanı baloda cam ayakkabısını düşürür?",
+  "answers_en": [
+   "Snow White",
+   "Cinderella",
+   "Rapunzel",
+   "Sleeping Beauty"
+  ],
+  "answers_tr": [
+   "Pamuk Prenses",
+   "Külkedisi",
+   "Rapunzel",
+   "Uyuyan Güzel"
+  ],
+  "correct_answer": "Cinderella",
+  "category": "trivia_master"
+ },
+ {
+  "id": "c98b5d34-10f7-4aa0-b7bd-ab549781cc63",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Finding Nemo\", what kind of fish is Nemo?",
+  "tr": "\"Kayıp Balık Nemo\" filminde Nemo ne tür bir balıktır?",
+  "answers_en": [
+   "Goldfish",
+   "Pufferfish",
+   "Clownfish",
+   "Angelfish"
+  ],
+  "answers_tr": [
+   "Japon balığı",
+   "Balon balığı",
+   "Palyaço balığı",
+   "Melek balığı"
+  ],
+  "correct_answer": "Clownfish",
+  "category": "trivia_master"
+ },
+ {
+  "id": "4e4bfb42-2755-4d4c-8c5a-ab447668af3a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which toy brand is famous for its colorful plastic building bricks?",
+  "tr": "Renkli plastik yapı parçalarıyla ünlü oyuncak markası hangisi?",
+  "answers_en": [
+   "Barbie",
+   "Hot Wheels",
+   "LEGO",
+   "Playmobil"
+  ],
+  "answers_tr": [
+   "Barbie",
+   "Hot Wheels",
+   "LEGO",
+   "Playmobil"
+  ],
+  "correct_answer": "LEGO",
+  "category": "trivia_master"
+ },
+ {
+  "id": "e31805cd-d8c7-4d1e-8c2b-28df2ce2a412",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which famous Leonardo da Vinci painting shows a woman with a mysterious smile?",
+  "tr": "Leonardo da Vinci'nin gizemli gülümseyen bir kadını gösteren ünlü tablosu hangisi?",
+  "answers_en": [
+   "The Starry Night",
+   "Mona Lisa",
+   "The Scream",
+   "Girl with a Pearl Earring"
+  ],
+  "answers_tr": [
+   "Yıldızlı Gece",
+   "Mona Lisa",
+   "Çığlık",
+   "İnci Küpeli Kız"
+  ],
+  "correct_answer": "Mona Lisa",
+  "category": "trivia_master"
+ },
+ {
+  "id": "3104ed09-5f7c-4629-b071-53d9dee2d10a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who is credited with inventing the telephone?",
+  "tr": "Telefonun mucidi olarak kim bilinir?",
+  "answers_en": [
+   "Thomas Edison",
+   "Alexander Graham Bell",
+   "Nikola Tesla",
+   "Guglielmo Marconi"
+  ],
+  "answers_tr": [
+   "Thomas Edison",
+   "Alexander Graham Bell",
+   "Nikola Tesla",
+   "Guglielmo Marconi"
+  ],
+  "correct_answer": "Alexander Graham Bell",
+  "category": "trivia_master"
+ },
+ {
+  "id": "8b5365af-e8cc-4486-9637-7782e4301b3b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which of the Seven Wonders of the Ancient World is still standing today?",
+  "tr": "Antik Dünyanın Yedi Harikası'ndan hangisi bugün hâlâ ayakta?",
+  "answers_en": [
+   "Colossus of Rhodes",
+   "Great Pyramid of Giza",
+   "Hanging Gardens of Babylon",
+   "Lighthouse of Alexandria"
+  ],
+  "answers_tr": [
+   "Rodos Heykeli",
+   "Giza Büyük Piramidi",
+   "Babil'in Asma Bahçeleri",
+   "İskenderiye Feneri"
+  ],
+  "correct_answer": "Great Pyramid of Giza",
+  "category": "trivia_master"
+ },
+ {
+  "id": "4ca1bd44-e128-4f6a-b188-b56e814b331e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who was the first person to walk on the Moon?",
+  "tr": "Ay'da yürüyen ilk insan kimdir?",
+  "answers_en": [
+   "Yuri Gagarin",
+   "Buzz Aldrin",
+   "Neil Armstrong",
+   "Michael Collins"
+  ],
+  "answers_tr": [
+   "Yuri Gagarin",
+   "Buzz Aldrin",
+   "Neil Armstrong",
+   "Michael Collins"
+  ],
+  "correct_answer": "Neil Armstrong",
+  "category": "trivia_master"
+ },
+ {
+  "id": "9e9b93d0-7f5e-46d6-9578-bd3f41347a07",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which year did World War II end?",
+  "tr": "İkinci Dünya Savaşı hangi yıl sona erdi?",
+  "answers_en": [
+   "1918",
+   "1939",
+   "1945",
+   "1950"
+  ],
+  "answers_tr": [
+   "1918",
+   "1939",
+   "1945",
+   "1950"
+  ],
+  "correct_answer": "1945",
+  "category": "trivia_master"
+ },
+ {
+  "id": "1fe111a8-2b47-47f0-aa0c-a866284920b9",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "The Great Wall was built to protect which country?",
+  "tr": "Büyük Set hangi ülkeyi korumak için inşa edildi?",
+  "answers_en": [
+   "Japan",
+   "Mongolia",
+   "China",
+   "India"
+  ],
+  "answers_tr": [
+   "Japonya",
+   "Moğolistan",
+   "Çin",
+   "Hindistan"
+  ],
+  "correct_answer": "China",
+  "category": "trivia_master"
+ },
+ {
+  "id": "6e7737ef-a295-4fb1-a481-56af330d1a0c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In Star Wars, who says \"I am your father\"?",
+  "tr": "Star Wars'ta \"Ben senin babanım\" diyen karakter kim?",
+  "answers_en": [
+   "Darth Vader",
+   "Yoda",
+   "Han Solo",
+   "Obi-Wan Kenobi"
+  ],
+  "answers_tr": [
+   "Darth Vader",
+   "Yoda",
+   "Han Solo",
+   "Obi-Wan Kenobi"
+  ],
+  "correct_answer": "Darth Vader",
+  "category": "trivia_master"
+ },
+ {
+  "id": "5490c031-4ae8-41db-ad1e-1c0f19e1d670",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is Spider-Man's real name?",
+  "tr": "Örümcek Adam'ın gerçek adı ne?",
+  "accepted_en": [
+   "Peter Parker",
+   "Parker"
+  ],
+  "accepted_tr": [
+   "Peter Parker",
+   "Parker"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "6ea2b330-632e-4ef4-9cd7-90fa3fd103c1",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Friends\", what is the name of the coffee shop where the group hangs out?",
+  "tr": "Friends dizisinde arkadaşların takıldığı kafenin adı ne?",
+  "answers_en": [
+   "Central Perk",
+   "Monk's Café",
+   "MacLaren's",
+   "Luke's Diner"
+  ],
+  "answers_tr": [
+   "Central Perk",
+   "Monk's Café",
+   "MacLaren's",
+   "Luke's Diner"
+  ],
+  "correct_answer": "Central Perk",
+  "category": "trivia_master"
+ },
+ {
+  "id": "64d0f7ef-3667-4c57-b401-c38494f12c44",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Frozen\", which character has ice powers?",
+  "tr": "Karlar Ülkesi'nde buz güçleri olan karakter kim?",
+  "answers_en": [
+   "Elsa",
+   "Anna",
+   "Olaf",
+   "Kristoff"
+  ],
+  "answers_tr": [
+   "Elsa",
+   "Anna",
+   "Olaf",
+   "Kristoff"
+  ],
+  "correct_answer": "Elsa",
+  "category": "trivia_master"
+ },
+ {
+  "id": "fc6c254d-6de9-4709-ba51-783d75afab03",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which green ogre lives in a swamp and marries Princess Fiona?",
+  "tr": "Bataklıkta yaşayan ve Prenses Fiona ile evlenen yeşil dev kim?",
+  "accepted_en": [
+   "Shrek"
+  ],
+  "accepted_tr": [
+   "Shrek",
+   "Şrek"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "1a3ded96-3fb4-45e1-8b80-9439a1685b82",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Toy Story\", what is the cowboy's name?",
+  "tr": "Oyuncak Hikayesi'ndeki kovboyun adı ne?",
+  "answers_en": [
+   "Woody",
+   "Buzz Lightyear",
+   "Jessie",
+   "Rex"
+  ],
+  "answers_tr": [
+   "Woody",
+   "Buzz Lightyear",
+   "Jessie",
+   "Rex"
+  ],
+  "correct_answer": "Woody",
+  "category": "trivia_master"
+ },
+ {
+  "id": "f93285f1-ec42-4086-a538-3f91311a45c0",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which fictional British spy is known as 007?",
+  "tr": "007 olarak bilinen kurgusal İngiliz ajan kim?",
+  "accepted_en": [
+   "James Bond",
+   "Bond"
+  ],
+  "accepted_tr": [
+   "James Bond",
+   "Bond"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "79b804b0-d450-49ac-afbc-178a25ccd947",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In Greek mythology, who is the king of the gods?",
+  "tr": "Yunan mitolojisinde tanrıların kralı kimdir?",
+  "answers_en": [
+   "Zeus",
+   "Poseidon",
+   "Hades",
+   "Apollo"
+  ],
+  "answers_tr": [
+   "Zeus",
+   "Poseidon",
+   "Hades",
+   "Apollon"
+  ],
+  "correct_answer": "Zeus",
+  "category": "trivia_master"
+ },
+ {
+  "id": "32820bda-0ce0-453c-a562-eb1d5f3a3077",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which woman in Greek mythology had snakes for hair?",
+  "tr": "Yunan mitolojisinde saçları yılanlardan oluşan kadın kim?",
+  "accepted_en": [
+   "Medusa"
+  ],
+  "accepted_tr": [
+   "Medusa"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "65246fe5-4f6f-4580-96d8-e333c4d4b682",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What did the Greeks hide their soldiers in to get inside Troy?",
+  "tr": "Yunanlar Truva'ya girmek için askerlerini neyin içine sakladı?",
+  "accepted_en": [
+   "Trojan Horse",
+   "Wooden horse",
+   "Horse"
+  ],
+  "accepted_tr": [
+   "Truva Atı",
+   "Tahta at",
+   "At"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "7d8bc519-edf5-489d-9664-20e491062274",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which Norse god carries a hammer called Mjölnir?",
+  "tr": "Mjölnir adlı çekici taşıyan İskandinav tanrısı kim?",
+  "answers_en": [
+   "Thor",
+   "Odin",
+   "Loki",
+   "Freyja"
+  ],
+  "answers_tr": [
+   "Thor",
+   "Odin",
+   "Loki",
+   "Freyja"
+  ],
+  "correct_answer": "Thor",
+  "category": "trivia_master"
+ },
+ {
+  "id": "13639837-1420-4b70-a5f2-85cd1936839d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who is the Greek god of the sea?",
+  "tr": "Yunan mitolojisinde denizlerin tanrısı kimdir?",
+  "answers_en": [
+   "Poseidon",
+   "Zeus",
+   "Ares",
+   "Hermes"
+  ],
+  "answers_tr": [
+   "Poseidon",
+   "Zeus",
+   "Ares",
+   "Hermes"
+  ],
+  "correct_answer": "Poseidon",
+  "category": "trivia_master"
+ },
+ {
+  "id": "2f98dc52-9124-4edc-9676-f90d8ee22eb4",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the name of the winged horse in Greek mythology?",
+  "tr": "Yunan mitolojisindeki kanatlı atın adı ne?",
+  "accepted_en": [
+   "Pegasus",
+   "Pegasos"
+  ],
+  "accepted_tr": [
+   "Pegasus",
+   "Pegasos"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "70030863-62b4-4574-abac-555c03cbe7da",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which mythical bird is reborn from its own ashes?",
+  "tr": "Kendi küllerinden yeniden doğan efsanevi kuş hangisi?",
+  "answers_en": [
+   "Phoenix",
+   "Griffin",
+   "Harpy",
+   "Roc"
+  ],
+  "answers_tr": [
+   "Anka kuşu",
+   "Grifon",
+   "Harpi",
+   "Rok kuşu"
+  ],
+  "correct_answer": "Phoenix",
+  "category": "trivia_master"
+ },
+ {
+  "id": "5d05ef74-11b4-418b-8208-0038040e4b8c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In the Chinese zodiac, each year is represented by what?",
+  "tr": "Çin burçlarında her yılı ne temsil eder?",
+  "answers_en": [
+   "An animal",
+   "A color",
+   "A flower",
+   "A planet"
+  ],
+  "answers_tr": [
+   "Bir hayvan",
+   "Bir renk",
+   "Bir çiçek",
+   "Bir gezegen"
+  ],
+  "correct_answer": "An animal",
+  "category": "trivia_master"
+ },
+ {
+  "id": "5f91f2c0-2e80-4762-852a-e38903ffdf4d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which app has a white ghost on a yellow background as its logo?",
+  "tr": "Logosu sarı zemin üzerinde beyaz bir hayalet olan uygulama hangisi?",
+  "answers_en": [
+   "Snapchat",
+   "Instagram",
+   "TikTok",
+   "WhatsApp"
+  ],
+  "answers_tr": [
+   "Snapchat",
+   "Instagram",
+   "TikTok",
+   "WhatsApp"
+  ],
+  "correct_answer": "Snapchat",
+  "category": "trivia_master"
+ },
+ {
+  "id": "6fe4f7ea-f19c-4d71-adf1-1c1615bcb44b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which Pokémon does Pikachu evolve into?",
+  "tr": "Pikachu hangi Pokémon'a evrimleşir?",
+  "answers_en": [
+   "Raichu",
+   "Pichu",
+   "Jolteon",
+   "Electabuzz"
+  ],
+  "answers_tr": [
+   "Raichu",
+   "Pichu",
+   "Jolteon",
+   "Electabuzz"
+  ],
+  "correct_answer": "Raichu",
+  "category": "trivia_master"
+ },
+ {
+  "id": "a8c5a088-b9e1-4ff0-9b49-79956d86728a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"The Lord of the Rings\", what does Frodo have to destroy?",
+  "tr": "Yüzüklerin Efendisi'nde Frodo neyi yok etmek zorundadır?",
+  "answers_en": [
+   "The One Ring",
+   "A magic sword",
+   "A golden crown",
+   "A dragon egg"
+  ],
+  "answers_tr": [
+   "Tek Yüzük",
+   "Büyülü bir kılıç",
+   "Altın bir taç",
+   "Bir ejderha yumurtası"
+  ],
+  "correct_answer": "The One Ring",
+  "category": "trivia_master"
+ },
+ {
+  "id": "9866a681-5192-4844-8f0a-767c92c836ad",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which series is famous for dragons, the Iron Throne and \"Winter is coming\"?",
+  "tr": "Ejderhalar, Demir Taht ve \"Kış geliyor\" sözüyle ünlü dizi hangisi?",
+  "answers_en": [
+   "Game of Thrones",
+   "The Witcher",
+   "Vikings",
+   "The Last Kingdom"
+  ],
+  "answers_tr": [
+   "Game of Thrones",
+   "The Witcher",
+   "Vikings",
+   "The Last Kingdom"
+  ],
+  "correct_answer": "Game of Thrones",
+  "category": "trivia_master"
+ },
+ {
+  "id": "19701645-7659-4b6f-b90c-54c31e3cf003",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Pinocchio\", what happens when Pinocchio tells a lie?",
+  "tr": "Pinokyo yalan söyleyince ne olur?",
+  "answers_en": [
+   "His nose grows",
+   "His ears grow",
+   "He turns into a donkey",
+   "He shrinks"
+  ],
+  "answers_tr": [
+   "Burnu uzar",
+   "Kulakları büyür",
+   "Eşeğe dönüşür",
+   "Küçülür"
+  ],
+  "correct_answer": "His nose grows",
+  "category": "trivia_master"
+ },
+ {
+  "id": "b844d102-54ad-49a2-ac2f-23a887b2c59d",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Ken is the boyfriend of which famous doll?",
+  "tr": "Ken hangi ünlü oyuncak bebeğin sevgilisi?",
+  "accepted_en": [
+   "Barbie"
+  ],
+  "accepted_tr": [
+   "Barbie"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "c0c78278-5634-4c86-afb6-611012b803c7",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Snow White\", how many dwarfs are there?",
+  "tr": "Pamuk Prenses'te kaç cüce vardır?",
+  "answers_en": [
+   "7",
+   "5",
+   "6",
+   "9"
+  ],
+  "answers_tr": [
+   "7",
+   "5",
+   "6",
+   "9"
+  ],
+  "correct_answer": "7",
+  "category": "trivia_master"
+ },
+ {
+  "id": "49e03a41-4eff-4efc-9c86-072bd6cd80c0",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which explorer reached the Americas in 1492?",
+  "tr": "1492'de Amerika kıtasına ulaşan kaşif kimdir?",
+  "accepted_en": [
+   "Christopher Columbus",
+   "Columbus"
+  ],
+  "accepted_tr": [
+   "Kristof Kolomb",
+   "Kolomb"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "5f8c1ea9-e0c6-4c3a-8990-78fc55538881",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which Scandinavian warriors sailed longships and raided Europe?",
+  "tr": "Uzun gemilerle denize açılıp Avrupa'ya akınlar düzenleyen İskandinav savaşçılar kimdir?",
+  "answers_en": [
+   "Vikings",
+   "Gladiators",
+   "Spartans",
+   "Mongols"
+  ],
+  "answers_tr": [
+   "Vikingler",
+   "Gladyatörler",
+   "Spartalılar",
+   "Moğollar"
+  ],
+  "correct_answer": "Vikings",
+  "category": "trivia_master"
+ },
+ {
+  "id": "e27f003c-9cdd-4965-8cfc-eafee22ae3a8",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What were Japan's warriors who followed a strict code of honor called?",
+  "tr": "Katı bir onur kuralına bağlı Japon savaşçılara ne denir?",
+  "answers_en": [
+   "Samurai",
+   "Ninja",
+   "Shogun",
+   "Sumo wrestlers"
+  ],
+  "answers_tr": [
+   "Samuray",
+   "Ninja",
+   "Şogun",
+   "Sumo güreşçileri"
+  ],
+  "correct_answer": "Samurai",
+  "category": "trivia_master"
+ },
+ {
+  "id": "f3f0b78d-5df4-4715-9c88-7c29a049c6d5",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Napoleon Bonaparte was the emperor of which country?",
+  "tr": "Napolyon Bonapart hangi ülkenin imparatoruydu?",
+  "answers_en": [
+   "France",
+   "Spain",
+   "Italy",
+   "Austria"
+  ],
+  "answers_tr": [
+   "Fransa",
+   "İspanya",
+   "İtalya",
+   "Avusturya"
+  ],
+  "correct_answer": "France",
+  "category": "trivia_master"
+ },
+ {
+  "id": "f61d23d9-8b7c-4b17-871e-60492ce71426",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Constantinople was the capital of which empire until 1453?",
+  "tr": "Konstantinopolis 1453'e kadar hangi imparatorluğun başkentiydi?",
+  "answers_en": [
+   "Byzantine Empire",
+   "Ottoman Empire",
+   "Persian Empire",
+   "Mongol Empire"
+  ],
+  "answers_tr": [
+   "Bizans İmparatorluğu",
+   "Osmanlı İmparatorluğu",
+   "Pers İmparatorluğu",
+   "Moğol İmparatorluğu"
+  ],
+  "correct_answer": "Byzantine Empire",
+  "category": "trivia_master"
+ }
+]

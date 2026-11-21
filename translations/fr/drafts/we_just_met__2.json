@@ -1,0 +1,484 @@
+{
+ "93527a98-af04-46b4-ac9c-fa8ef3187751": {
+  "text": "Plus tard, ça te poserait problème si la personne que tu veux épouser avait déjà un enfant avec quelqu'un d'autre ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "edf7a999-9c89-4253-9fd5-b1ef5ab799ed": {
+  "text": "L'amour a-t-il un âge ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e635d076-0016-4987-9d87-f888b2e841ad": {
+  "text": "Ça te pose problème si ta moitié n'aime pas lire ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "79e8a155-3eb1-4fd5-89a7-b2848c75044b": {
+  "text": "Ça t'est déjà arrivé de craquer pour quelqu'un qu'il ne fallait pas ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c141b0f8-c822-4fda-b966-2d0bfccab391": {
+  "text": "Tu voudrais tout savoir du passé de ta moitié, ou seulement l'essentiel ?",
+  "answers": [
+   "Tout",
+   "Seulement l'essentiel"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "60fa63d8-776a-4cf9-91fa-806954a2c37c": {
+  "text": "Une carrière ambitieuse et un agenda chargé, ou une vie plus lente et équilibrée avec plus de temps à deux ?",
+  "answers": [
+   "Carrière ambitieuse",
+   "Vie équilibrée"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4aec1675-cf2f-4623-9c75-47bc416fb320": {
+  "text": "Tu jouerais la froideur exprès pour séduire quelqu'un qui te plaît ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1613d859-b83f-4783-aa2d-695aadcc9bc2": {
+  "text": "Tu as déjà fait une bêtise pour te remettre d'une rupture ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7183b9a1-aaff-4c67-a4a6-e86933246045": {
+  "text": "Avoir les mêmes goûts culinaires que ta moitié, c'est important pour toi ?",
+  "answers": [
+   "Important",
+   "Pas important"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "17ab270c-0960-4272-bef3-497c0338069f": {
+  "text": "Tout partager (mots de passe, localisation) pour une confiance totale, ou garder un peu de vie privée numérique pour ton indépendance ?",
+  "answers": [
+   "Transparence totale",
+   "Vie privée numérique"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ebc6c164-d692-4a9a-b39e-76ed5c8b4435": {
+  "text": "Tu mentirais à ta moitié juste pour lui faire plaisir ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "54c4d6cd-73cc-47f0-b70b-da72232dad98": {
+  "text": "Tu te vengerais si ta moitié te trompait ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "39450fcf-8356-4078-b219-8cb06da5af79": {
+  "text": "Après un long célibat, tu baisserais tes exigences pour être avec quelqu'un ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a041fab5-92d4-4a5f-be2f-b957f329b5bd": {
+  "text": "Que ta moitié parle de ses anciennes relations, c'est…",
+  "answers": [
+   "Normal et nécessaire",
+   "Inutile et blessant"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "65a85275-79ea-4d17-8c24-c1eb58cbcd86": {
+  "text": "Échanger des messages tous les jours avec ta moitié, c'est indispensable pour toi ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c5d257bf-030a-472a-bd4c-a2d48ae36e84": {
+  "text": "Tu sortirais avec quelqu'un qui, selon tes amis, ne va pas avec toi physiquement ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "289535a4-8bd1-40f3-b08b-3a922499bbb7": {
+  "text": "Tu sortirais avec quelqu'un de connu sur Internet ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b1acfbe5-f3af-4497-a227-9d505804fc19": {
+  "text": "Tu sortirais avec quelqu'un de très dragueur ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c5360398-4fae-4217-b9a9-688f74fe7070": {
+  "text": "Tu crois au coup de foudre ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2ee5b9b7-f944-4184-95fa-6126fc6e3728": {
+  "text": "Le physique compte plus que l'intelligence pour toi ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e6bbcb00-c081-42da-8fa3-49ddc918d36d": {
+  "text": "Tu as déjà eu une période où tu draguais beaucoup ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a0104269-bc85-49c8-ab80-c42c0378b7a1": {
+  "text": "Si tes amis n'aimaient pas ta moitié, ça te refroidirait ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2f245f8d-f7f9-44a4-a1ef-70380caf5c51": {
+  "text": "Tu penses que des amis de longue date peuvent finir en couple ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "40004a65-7deb-4d2e-894f-c10ac0c02ede": {
+  "text": "Si un de tes amis avait des sentiments pour toi, tu lui laisserais une chance ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7ee41bf9-fa8d-42ab-a4a5-25bd110543e0": {
+  "text": "Si tu arrêtais de faire des efforts dans ta relation, ta moitié resterait quand même ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b1eea995-fbe7-4313-be08-f61522b35b5a": {
+  "text": "Si ta moitié voulait tourner une vidéo TikTok avec toi pour suivre une tendance, tu accepterais ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2a9a3787-2ade-4db3-a8ca-ac97c25f2a80": {
+  "text": "Si l'amour s'éteignait, tu resterais pour tout ce que vous avez vécu ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c76d7425-b712-41a8-8a78-e20b3844a382": {
+  "text": "C'est à l'homme de faire le premier pas ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "Source assumes a man in the couple; kept as a general-opinion question."
+ },
+ "e8dd11c5-218b-4d77-a137-0444c87fff31": {
+  "text": "Si ta moitié ressemblait beaucoup à son ex, ça te dérangerait ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "69535b7c-b94c-4ebc-95b0-5fa46b811906": {
+  "text": "Si ta moitié voulait lire tes messages avec ton groupe d'amis, tu accepterais ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "308773bf-cdf6-4b94-ad4b-f180e08e5163": {
+  "text": "Si ta moitié est très fan d'une star du sexe opposé, ça te pose problème ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "22a15b58-da54-4651-8f7e-1fe19d7759bb": {
+  "text": "Qu'est-ce qui est le plus dur à reconstruire une fois brisé ?",
+  "answers": [
+   "La confiance",
+   "Le respect"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3576a2e2-2091-4b80-be80-5ab444b547cd": {
+  "text": "Tu es en couple : tu vivrais en coloc avec quelqu'un du sexe opposé, en toute amitié ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "'a friend of the opposite sex' -> 'quelqu'un du sexe opposé, en toute amitié' to avoid ami/amie revealing the player's gender."
+ },
+ "a174d015-ea8e-438b-b656-4f2fd4c4d34a": {
+  "text": "Tu vérifies sans arrêt les abonnés et les abonnements de ta moitié sur les réseaux ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9dbad2cb-e77a-4d79-ab55-a910ff298ae6": {
+  "text": "Tu as déjà ghosté quelqu'un avec qui tu flirtais ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "40f38dbd-3632-412b-8639-66caf198eccb": {
+  "text": "Tu préférerais une relation passionnée mais orageuse à une relation calme et romantique ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e79b86a4-0b67-4524-863e-99c6afe7244b": {
+  "text": "Tu stalkes sans arrêt quelqu'un qui te plaît ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f60eb06e-d599-4397-9b8e-d998cf3aa387": {
+  "text": "Si ta moitié te le demandait, tu arrêterais de parler à un ami qui craque pour toi ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "88d9192e-4744-437f-a872-d8506811e724": {
+  "text": "Tu aimerais que ta moitié te prévienne chaque fois qu'on lui fait du rentre-dedans ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ac9241fd-9c2f-4660-b29f-54b5f376e587": {
+  "text": "Si ta moitié et ton meilleur ami se voyaient sans te le dire, tu ressentirais de la jalousie ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2f3ce1da-32a3-4290-bfed-f7010eceef7f": {
+  "text": "Tu accepterais un double rencard avec quelqu'un qui ne te plaît pas, juste pour rendre service à un pote ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "70d85605-9926-497a-bc33-8f1f160a767b": {
+  "text": "Si un de tes potes et toi craquiez pour la même personne, ce serait toi qui laisserais la place ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c721139f-fab6-47e1-a92a-ac02286c6f63": {
+  "text": "Une belle amitié vaut-elle mieux qu'une belle histoire d'amour ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8859ae1e-8d5b-42ae-b6c0-58f9db24d4e6": {
+  "text": "Après une rupture, tu chercherais tout de suite quelqu'un d'autre pour oublier ton ex ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "eb40b9fd-6df9-4f75-973c-88fd188c976a": {
+  "text": "Tu as déjà été avec quelqu'un de pas très malin, mais de très attirant ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "225fc433-ee24-4a08-a284-549ba829e019": {
+  "text": "Tu as déjà tenté une relation juste parce que tu plaisais à quelqu'un, sans que ça t'attire vraiment ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6b4a33bb-950c-4e92-b374-36b9671321b2": {
+  "text": "Tu sortirais avec quelqu'un qui croit dur comme fer à l'astrologie ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c50d0e1f-0a2d-43a9-8770-bcf5d941ef75": {
+  "text": "Les talents au lit de ta moitié, c'est un critère important pour toi ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f1a8d83b-d35c-43e5-b186-0b32e3f7b451": {
+  "text": "Tu resterais avec quelqu'un qui n'est pas très doué au lit ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d53cac0d-e7f5-4db7-ac2d-b7e17ffa702c": {
+  "text": "Ça te dérangerait que ta moitié soit très proche d'une personne du sexe opposé très séduisante ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a1f43837-d310-4c12-8369-557c27f561fc": {
+  "text": "Ça te pose problème si ta moitié a une libido très élevée ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6c5538e2-5508-4b67-a9ea-a489348c4c37": {
+  "text": "Ça te pose problème si ta moitié a une libido faible ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a10af84c-2ef5-49d4-8905-9088ce451ce5": {
+  "text": "La façon dont ta moitié gagne sa vie, c'est important pour toi ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6aaee788-917c-4ee2-8a9a-9cca6a9c69f7": {
+  "text": "Tu as déjà eu des sentiments pour l'ex d'un de tes amis ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "eea3c3ff-7e4d-47bd-afff-b4e7461f0ec2": {
+  "text": "Tu as déjà fait semblant d'être malade pour éviter un rencard ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "712df3cd-471a-4405-9e76-d54832abbcc4": {
+  "text": "Tu as déjà changé quelque chose chez toi juste parce que quelqu'un le voulait ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9314d50f-94c5-418b-815c-f36bede1a87f": {
+  "text": "Pour toi, c'est normal en couple de connaître les mots de passe des réseaux de ta moitié ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7f9d30fa-6891-460d-a0b5-34d836cff571": {
+  "text": "Quand ta moitié se tait pendant une dispute, ça t'énerve encore plus ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8ae7a335-ee23-4949-91da-d79b1a50e8f5": {
+  "text": "Ça te dérange si ta moitié supprime sans arrêt des messages sur son téléphone ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a6b504e5-84cd-460b-b095-9cb3103dbdb0": {
+  "text": "Selon toi, l'amitié la plus forte, ça devrait être avec sa moitié ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0fbdca85-41a4-499a-931d-8491a38e651b": {
+  "text": "Tu penses que des différences de religion et d'origine compliquent une relation ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2084f3b0-b540-4c5f-a400-f9f0d46a7310": {
+  "text": "Qu'est-ce qui t'attire le plus : l'intelligence ou le physique ?",
+  "answers": [
+   "L'intelligence",
+   "Le physique"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ebcc2753-cafa-4764-8de8-00c9e8c64d81": {
+  "text": "Qu'est-ce qui serait pire : que ta moitié te trompe émotionnellement ou physiquement ?",
+  "answers": [
+   "Émotionnellement",
+   "Physiquement"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "63b32ee8-1fa7-4e8a-8e78-a4e97cac10d7": {
+  "text": "Qu'est-ce qui te gênerait le plus chez ta moitié : trop de franchise ou des sentiments parfois cachés ?",
+  "answers": [
+   "Trop de franchise",
+   "Sentiments cachés"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "df254cfe-4e09-4956-92ce-5d706c4c7d50": {
+  "text": "Tu accepterais que ta moitié te fixe des limites dans certaines situations ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

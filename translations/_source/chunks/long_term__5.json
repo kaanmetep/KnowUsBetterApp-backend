@@ -1,0 +1,1060 @@
+[
+ {
+  "id": "61e8d220-0d50-4983-9d45-58c7f73ab1bb",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They've started hanging up without saying \"I love you\". Out of 10, what score do they drop to?",
+  "tr": "Artık telefonu \"seni seviyorum\" demeden kapatıyor. 10 puandan kaç puana düşer?",
+  "category": "long_term"
+ },
+ {
+  "id": "a5eb351e-ac14-4d92-936d-cb8b6638100e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner got fired and hasn't left the house in days. What do you do?",
+  "tr": "Partnerin işten kovuldu ve günlerdir evden çıkmıyor. Ne yaparsın?",
+  "answers_en": [
+   "Help them start job hunting right away",
+   "Give them time to recover",
+   "Push them to get out of the house",
+   "Lift their mood with small surprises"
+  ],
+  "answers_tr": [
+   "Hemen iş aramasına yardım edersin",
+   "Kendine gelmesi için zaman tanırsın",
+   "Dışarı çıkması için zorlarsın",
+   "Küçük sürprizlerle moral verirsin"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "a3fd2913-9478-4548-8a89-01aa2af2444a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner is sick in bed, and it's your best friend's birthday party tonight. What do you do?",
+  "tr": "Partnerin hasta yatıyor ve bu akşam en yakın arkadaşının doğum günü partisi var. Ne yaparsın?",
+  "answers_en": [
+   "Skip the party and stay with them",
+   "Drop by briefly and come back",
+   "Go, but keep texting them"
+  ],
+  "answers_tr": [
+   "Partiye gitmez, yanında kalırsın",
+   "Kısa bir uğrayıp dönersin",
+   "Gidersin ama sürekli mesajlaşırsın"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "7094abfc-9802-4319-99be-454ec741410c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner has been unhappy for months and won't say why. What do you do?",
+  "tr": "Partnerin aylardır mutsuz ve sebebini söylemiyor. Ne yaparsın?",
+  "answers_en": [
+   "Keep pushing until they talk",
+   "Wait for them to open up",
+   "Suggest seeing a therapist",
+   "Ask a close friend of theirs for help"
+  ],
+  "answers_tr": [
+   "Konuşana kadar üstüne gidersin",
+   "Açılmasını beklersin",
+   "Terapiye gitmesini önerirsin",
+   "Yakın bir arkadaşından yardım istersin"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "8aaf405f-56bb-4c98-9939-137ab11e1be8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner has to move to another city for work for 6 months. What do you do?",
+  "tr": "Partnerin iş için 6 aylığına başka bir şehre gitmek zorunda. Ne yaparsın?",
+  "answers_en": [
+   "Visit every weekend",
+   "Move there with them",
+   "Make it work long-distance",
+   "Ask them not to go"
+  ],
+  "answers_tr": [
+   "Her hafta sonu gidip gelirsiniz",
+   "Sen de oraya taşınırsın",
+   "Uzaktan idare edersiniz",
+   "Gitmemesini istersin"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "de905a3e-0edc-44e7-9e86-c7dc5564a1d3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner is going through a stressful time and keeps snapping at you. What do you do?",
+  "tr": "Partnerin çok stresli bir dönemden geçiyor ve sana sürekli tersliyor. Ne yaparsın?",
+  "answers_en": [
+   "Let it slide",
+   "Set a clear boundary",
+   "Keep your distance until it passes",
+   "Talk about it at a calm moment"
+  ],
+  "answers_tr": [
+   "Alttan alırsın",
+   "Net bir sınır çizersin",
+   "Geçene kadar uzak durursun",
+   "Sakin bir anda konuşursun"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "3c595094-97f5-4d24-b08f-83322c9cde8b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner had a big fight with one of your friends and wants you to stop seeing them. What do you do?",
+  "tr": "Partnerin arkadaşlarından biriyle büyük bir kavga etti ve senin de onunla görüşmemeni istiyor. Ne yaparsın?",
+  "answers_en": [
+   "Stop seeing them",
+   "Keep seeing them secretly",
+   "Say openly you'll keep seeing them"
+  ],
+  "answers_tr": [
+   "Görüşmeyi kesersin",
+   "Gizlice görüşmeye devam edersin",
+   "Görüşmeye devam edeceğini açıkça söylersin"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "5cf16284-d233-4d68-b5cd-03e5bfe57372",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Because of your partner, you both missed your flight for vacation. What do you do?",
+  "tr": "Partnerin yüzünden tatile gideceğiniz uçağı kaçırdınız. Ne yaparsın?",
+  "answers_en": [
+   "Get mad, but get over it fast",
+   "Don't show it at all",
+   "Bring it up for a long time",
+   "Laugh it off"
+  ],
+  "answers_tr": [
+   "Kızarsın ama hemen geçer",
+   "Hiç belli etmezsin",
+   "Uzun süre lafını edersin",
+   "Şakaya vurursun"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "00ffdc81-1788-48f6-a0d2-bbb694227990",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner wants to quit their stable job to start their own business. What do you do?",
+  "tr": "Partnerin düzenli işini bırakıp kendi işini kurmak istiyor. Ne yaparsın?",
+  "answers_en": [
+   "Support them all the way",
+   "Ask for a plan first, then support",
+   "Try to talk them out of it"
+  ],
+  "answers_tr": [
+   "Sonuna kadar desteklersin",
+   "Önce plan istersin, sonra desteklersin",
+   "Vazgeçirmeye çalışırsın"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "b8801cb9-755d-4cf9-9c75-1e31d7882f66",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner's mom criticizes your cooking at the dinner table. What do you do?",
+  "tr": "Partnerinin annesi yemek masasında yemeğini eleştiriyor. Ne yaparsın?",
+  "answers_en": [
+   "Smile and let it go",
+   "Reply politely",
+   "Wait for your partner to defend you"
+  ],
+  "answers_tr": [
+   "Gülümseyip geçersin",
+   "Nazikçe cevap verirsin",
+   "Partnerinin seni savunmasını beklersin"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "9144ca3b-9ba6-432d-8fde-06ba516c50c0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner talks to their mom on the phone for an hour every day. What do you think?",
+  "tr": "Partnerin her gün annesiyle bir saat telefonda konuşuyor. Ne düşünürsün?",
+  "answers_en": [
+   "Totally normal",
+   "A bit much, but not your business",
+   "Something to talk about"
+  ],
+  "answers_tr": [
+   "Gayet normal",
+   "Biraz fazla ama karışmazsın",
+   "Bunu konuşmak gerekir"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "ef6eab32-1878-439c-867c-5aa2d8656d56",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your mom is really cold toward your partner. What do you do?",
+  "tr": "Annen partnerine çok soğuk davranıyor. Ne yaparsın?",
+  "answers_en": [
+   "Talk to your mom",
+   "Ask your partner to be patient",
+   "Wait for it to get better with time",
+   "Visit your family less"
+  ],
+  "answers_tr": [
+   "Annenle konuşursun",
+   "Partnerinden sabretmesini istersin",
+   "Zamanla düzelmesini beklersin",
+   "Ailene daha az gidersiniz"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "aab9a69b-21c6-4f1a-91c7-83f56cc39eec",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You agreed on \"no gifts this year,\" but they got you something expensive. What do you do?",
+  "tr": "\"Bu yıl hediye yok\" diye anlaştınız ama o sana pahalı bir hediye aldı. Ne yaparsın?",
+  "answers_en": [
+   "Feel really happy",
+   "Feel embarrassed",
+   "Get them something the next day",
+   "Get annoyed they broke the deal"
+  ],
+  "answers_tr": [
+   "Çok mutlu olursun",
+   "Mahcup olursun",
+   "Ertesi gün sen de bir şey alırsın",
+   "Anlaşmayı bozdu diye bozulursun"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "37e84834-ba8c-49a2-97b6-1191c6552042",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You really don't like the gift they got you. What do you do?",
+  "tr": "Sana aldığı hediyeyi hiç beğenmedin. Ne yaparsın?",
+  "answers_en": [
+   "Pretend you love it",
+   "Gently suggest exchanging it",
+   "Tell them honestly"
+  ],
+  "answers_tr": [
+   "Beğenmiş gibi yaparsın",
+   "Nazikçe değiştirmeyi önerirsin",
+   "Dürüstçe söylersin"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "cd352866-de22-4f72-9b83-6ccdd5825cd9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your anniversary is coming up and nobody has planned anything. What do you do?",
+  "tr": "Yıldönümünüz yaklaşıyor ve kimse bir şey planlamadı. Ne yaparsın?",
+  "answers_en": [
+   "Set something up last minute",
+   "Wait for them to plan it",
+   "Celebrate at home, just the two of you",
+   "Skipping it is fine too"
+  ],
+  "answers_tr": [
+   "Son dakika sen bir şey ayarlarsın",
+   "Onun planlamasını beklersin",
+   "Evde baş başa kutlarsınız",
+   "Kutlamasanız da olur"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "dd4e91c7-b24c-4483-8ca5-0bf334aed491",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They throw you a surprise party, but you hate surprises. What do you do?",
+  "tr": "Sana sürpriz doğum günü partisi yapıyor ama sen sürprizlerden nefret ediyorsun. Ne yaparsın?",
+  "answers_en": [
+   "Enjoy it without showing it bothers you",
+   "Act happy, tell them later",
+   "Let it show right there"
+  ],
+  "answers_tr": [
+   "Belli etmeden keyfini çıkarırsın",
+   "Mutlu gibi yapar, sonra söylersin",
+   "Orada belli edersin"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "280552dc-e7e8-4c5b-8682-028899d5fd0e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "On Valentine's Day, restaurants are packed and overpriced. What do you do?",
+  "tr": "Sevgililer Günü'nde restoranlar hem dolu hem pahalı. Ne yaparsın?",
+  "answers_en": [
+   "Go out anyway",
+   "Cook at home",
+   "Celebrate a day before or after",
+   "Don't celebrate Valentine's"
+  ],
+  "answers_tr": [
+   "Yine de dışarı çıkarsınız",
+   "Evde yemek yaparsınız",
+   "Bir gün önce ya da sonra kutlarsınız",
+   "Sevgililer Günü'nü kutlamazsınız"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "c2165bb4-4fa4-45c4-9b37-069d18ee412f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your friend's partner threw them a huge anniversary surprise, and it's all over their stories. What do you do?",
+  "tr": "Arkadaşının sevgilisi ona gösterişli bir yıldönümü sürprizi yapmış, story'ler dolu. Ne yaparsın?",
+  "answers_en": [
+   "Not impressed at all",
+   "Feel a little jealous",
+   "Drop a hint to your partner",
+   "Show your partner and say \"us next\""
+  ],
+  "answers_tr": [
+   "Hiç etkilenmezsin",
+   "Biraz imrenirsin",
+   "Partnerine üstü kapalı laf atarsın",
+   "Partnerine gösterip \"sıra bizde\" dersin"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "1201ae23-1c71-4203-a62c-03651040e822",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What kind of birthday gift do you get your partner?",
+  "tr": "Partnerine nasıl bir doğum günü hediyesi alırsın?",
+  "answers_en": [
+   "Something that stretches my budget",
+   "Something reasonable they need",
+   "Something cheap but meaningful",
+   "Something handmade"
+  ],
+  "answers_tr": [
+   "Bütçemi zorlayan bir şey",
+   "İhtiyacı olan makul bir şey",
+   "Ucuz ama anlamlı bir şey",
+   "El yapımı bir şey"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "daa60757-b2eb-4fde-add6-bab68b63940d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "It's your partner's birthday. They want to celebrate with friends, you want it to be just the two of you. What do you do?",
+  "tr": "Partnerinin doğum günü. O arkadaşlarıyla kutlamak istiyor, sen baş başa. Ne yaparsın?",
+  "answers_en": [
+   "Celebrate with friends",
+   "Insist on just the two of you",
+   "Just the two of you first, then friends"
+  ],
+  "answers_tr": [
+   "Arkadaşlarla kutlarsınız",
+   "Baş başa olması için ısrar edersin",
+   "Önce baş başa, sonra arkadaşlarla"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "012d5335-8992-4122-81a7-8f20f6e61f1c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "On vacation, you want to lie by the pool, they want to explore the city. What do you do?",
+  "tr": "Tatildesiniz. Sen havuz başında yatmak istiyorsun, o şehri gezmek istiyor. Ne yaparsın?",
+  "answers_en": [
+   "Go exploring with them",
+   "They explore, you stay",
+   "Take turns day by day",
+   "Talk them into lying by the pool"
+  ],
+  "answers_tr": [
+   "Onunla gezmeye çıkarsın",
+   "O gezer, sen kalırsın",
+   "Gün gün sırayla yaparsınız",
+   "Onu da havuz başına ikna edersin"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "0409d66b-4953-4ec5-965a-618f85f375ae",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your vacation is a week away and there's no plan at all. What do you do?",
+  "tr": "Tatile bir hafta kaldı ve hiç plan yok. Ne yaparsın?",
+  "answers_en": [
+   "Plan everything yourself",
+   "Leave it to them",
+   "\"We'll figure it out there\"",
+   "Sit down and plan it together"
+  ],
+  "answers_tr": [
+   "Her şeyi sen planlarsın",
+   "Ona bırakırsın",
+   "\"Gidince bakarız\" dersin",
+   "Oturup birlikte planlarsınız"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "0556bf3a-66c5-4f8a-bef7-7afeed863703",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "On vacation, they keep asking you to take photos of them. What do you do?",
+  "tr": "Tatilde sürekli ona fotoğraf çekmeni istiyor. Ne yaparsın?",
+  "answers_en": [
+   "Happily take them",
+   "Take a few, then stop",
+   "Take them while grumbling",
+   "Buy them a selfie stick"
+  ],
+  "answers_tr": [
+   "Keyifle çekersin",
+   "Birkaç tane çeker, sonra bırakırsın",
+   "Söylenerek çekersin",
+   "Ona selfie çubuğu alırsın"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "a5084572-7caa-4df2-b89e-86b53e301f4b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When picking a hotel for your vacation, what do you go for?",
+  "tr": "Tatil için otel seçerken neyi tercih edersin?",
+  "answers_en": [
+   "Cheap hotel, more money for exploring",
+   "Something in the middle",
+   "Expensive hotel, it's a vacation"
+  ],
+  "answers_tr": [
+   "Ucuz otel, para gezmeye kalsın",
+   "Orta karar bir yer",
+   "Pahalı otel, tatil bu"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "a18c029b-1fb7-4e38-b075-942bba970ac5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "On vacation, your partner keeps answering work emails. What do you do?",
+  "tr": "Tatildesiniz ve partnerin sürekli iş maillerine cevap veriyor. Ne yaparsın?",
+  "answers_en": [
+   "Understand, work is work",
+   "Ask them to put the phone away",
+   "Get lost in your own phone too",
+   "Agree on one hour a day for work"
+  ],
+  "answers_tr": [
+   "Anlayışla karşılarsın",
+   "Telefonu bırakmasını istersin",
+   "Sen de telefonuna dalarsın",
+   "Günde bir saatle sınırlarsınız"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "f1bd216a-1365-46b4-99c9-31e6443032d6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You say \"I really want an orange.\" What do you expect from your partner?",
+  "tr": "\"Canım portakal çekti\" dedin. Partnerinden ne beklersin?",
+  "answers_en": [
+   "Peel and slice it for me",
+   "Bring it, I'll peel it myself",
+   "Nothing, I'll get it myself"
+  ],
+  "answers_tr": [
+   "Soyup dilimleyip getirmesini",
+   "Getirmesini, soymak bana kalsın",
+   "Hiçbir şey, kendim alırım"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "71e00290-5959-49df-b598-98d5f6a4ec3e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You ask your partner to \"name a woman/man\" and they don't say your name. What do you do?",
+  "tr": "Partnerine \"bir kadın/erkek ismi söyle\" dedin ve senin ismini söylemedi. Ne yaparsın?",
+  "answers_en": [
+   "Laugh it off",
+   "Pretend to be mad as a joke",
+   "Actually get upset"
+  ],
+  "answers_tr": [
+   "Gülüp geçersin",
+   "Şakadan küsersin",
+   "Gerçekten bozulursun"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "ff0a9654-ef6b-4984-a3ea-8df891dae9b9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "\"If they wanted to, they would.\" Do you agree?",
+  "tr": "\"İsteseydi yapardı.\" Katılıyor musun?",
+  "answers_en": [
+   "Yes, if they want to, they'll find a way",
+   "No, sometimes they really can't"
+  ],
+  "answers_tr": [
+   "Evet, isteyen yolunu bulur",
+   "Hayır, bazen gerçekten yapamaz"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "f97521f5-e091-42dc-ba9e-dde538e4608d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner calls a food you love \"disgusting.\" How do you feel?",
+  "tr": "Partnerin senin çok sevdiğin bir yemeğe \"iğrenç\" diyor. Ne hissedersin?",
+  "answers_en": [
+   "Don't care at all",
+   "Want them to give it a real try",
+   "A little hurt"
+  ],
+  "answers_tr": [
+   "Hiç umurumda olmaz",
+   "Bir şans vermesini isterim",
+   "Biraz kırılırım"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "d9f822a7-b480-41cb-b9e0-c606b68bfd16",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner wakes up as a worm one morning. What do you do?",
+  "tr": "Partnerin bir sabah solucana dönüştü. Ne yaparsın?",
+  "answers_en": [
+   "Keep them in a jar and love them forever",
+   "Still love them, but we break up",
+   "Set them free in the garden"
+  ],
+  "answers_tr": [
+   "Kavanoza koyup ömür boyu bakarım",
+   "Severim ama yollarımız ayrılır",
+   "Bahçeye salıp özgür bırakırım"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "48f856be-c25a-4766-981c-e33f6a605766",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "As a couple, which duo are you?",
+  "tr": "Çift olarak siz hangi ikilisiniz?",
+  "answers_en": [
+   "A golden retriever and a black cat",
+   "Two golden retrievers",
+   "Two black cats"
+  ],
+  "answers_tr": [
+   "Bir golden retriever, bir kara kedi",
+   "İki golden retriever",
+   "İki kara kedi"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "400b8c47-8966-42dc-ad12-a1b55903828a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Seeing each other's location 24/7...",
+  "tr": "Birbirinizin konumunu 7/24 görmek...",
+  "answers_en": [
+   "Feels reassuring",
+   "Unnecessary, but I don't mind",
+   "Feels suffocating"
+  ],
+  "answers_tr": [
+   "İçimi rahatlatır",
+   "Gereksiz ama sorun etmem",
+   "Beni boğar"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "5adfe009-507d-4cc1-8e49-8c5215ce100d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Spending an entire Sunday in bed together...",
+  "tr": "Bütün bir pazarı birlikte yataktan hiç çıkmadan geçirmek...",
+  "answers_en": [
+   "The perfect Sunday",
+   "Nice until noon",
+   "A wasted day"
+  ],
+  "answers_tr": [
+   "Mükemmel bir pazar",
+   "Öğlene kadar güzel",
+   "Boşa giden bir gün"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "b4e988e6-ef45-427d-a487-aa1b343e1253",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Sleeping in separate rooms to get better sleep...",
+  "tr": "Daha iyi uyumak için ayrı odalarda yatmak...",
+  "answers_en": [
+   "A smart solution",
+   "The beginning of the end"
+  ],
+  "answers_tr": [
+   "Akıllıca bir çözüm",
+   "Sonun başlangıcı"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "08b4096a-d212-4509-889e-c4423a0554af",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you died, would you want your partner to remarry?",
+  "tr": "Sen ölsen partnerinin yeniden evlenmesini ister misin?",
+  "answers_en": [
+   "Yes, I want them to be happy",
+   "Yes, but wait a few years",
+   "No"
+  ],
+  "answers_tr": [
+   "İsterim, mutlu olsun",
+   "İsterim ama birkaç yıl beklesin",
+   "İstemem"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "0a9315a5-d764-46ce-89f9-a9f98e9836a4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Cuddling while you sleep...",
+  "tr": "Uyurken sarılmak...",
+  "answers_en": [
+   "All night long",
+   "Until we fall asleep",
+   "Never, everyone on their own side"
+  ],
+  "answers_tr": [
+   "Sabaha kadar",
+   "Uykuya dalana kadar",
+   "Hiç, herkes kendi tarafında"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "124b29b3-d2d3-4c27-ae44-007195469854",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "There's one charger. Your phone is at 10%, theirs is at 3%. What do you do?",
+  "tr": "Tek şarj aleti var. Senin şarjın %10, onunki %3. Ne yaparsın?",
+  "answers_en": [
+   "Let them charge first",
+   "I charge first",
+   "Take turns every 15 minutes"
+  ],
+  "answers_tr": [
+   "Önce o şarj etsin",
+   "Önce ben şarj ederim",
+   "15 dakikada bir sırayla"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "1ab4c8a3-015a-4fa9-a591-cb6c81ce2297",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Sharing one Spotify account as a couple...",
+  "tr": "Çift olarak tek bir Spotify hesabı kullanmak...",
+  "answers_en": [
+   "Romantic",
+   "Ruins my algorithm"
+  ],
+  "answers_tr": [
+   "Romantik",
+   "Algoritmamı mahveder"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "9ed20021-d80f-4f8f-8cc6-71087328b9d9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner calling you \"baby\" in front of your friends...",
+  "tr": "Partnerinin arkadaşlarının yanında sana \"bebeğim\" demesi...",
+  "answers_en": [
+   "So cute",
+   "Fine, but better at home",
+   "Cringe"
+  ],
+  "answers_tr": [
+   "Çok tatlı",
+   "Olur ama evde daha iyi",
+   "Utanç verici"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "d4cf5241-eaf9-43d6-a263-9442c1a5b857",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Working out together as a couple...",
+  "tr": "Çift olarak birlikte spor yapmak...",
+  "answers_en": [
+   "Brings us closer",
+   "Fun once in a while",
+   "Better on our own"
+  ],
+  "answers_tr": [
+   "Bizi yakınlaştırır",
+   "Arada bir eğlenceli",
+   "Herkes kendi sporunu yapsın"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "1599daab-37c5-4052-bebd-b0921c2b10b1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner wants to ban all junk food from the house \"for our health\". What do you do?",
+  "tr": "Partnerin \"sağlığımız için\" evdeki bütün abur cuburu yasaklamak istiyor. Ne yaparsın?",
+  "answers_en": [
+   "Join in right away",
+   "Hide your own stash",
+   "Say no way"
+  ],
+  "answers_tr": [
+   "Hemen katılırsın",
+   "Kendi zulanı saklarsın",
+   "Kesinlikle karşı çıkarsın"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "a57a03b6-72f4-4628-9c11-9d68ed1b2a10",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner has been putting off a doctor's visit for months. What do you do?",
+  "tr": "Partnerin aylardır doktora gitmeyi erteliyor. Ne yaparsın?",
+  "answers_en": [
+   "Book the appointment yourself",
+   "Push, but it's their call",
+   "That's on them"
+  ],
+  "answers_tr": [
+   "Randevuyu sen alırsın",
+   "Israr edersin ama karar onun",
+   "Kendi bileceği iş"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "d4645f3c-69a7-40fb-bd6a-62479129ae69",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your pet sleeping in bed with us...",
+  "tr": "Evcil hayvanımızın yatakta bizimle uyuması...",
+  "answers_en": [
+   "Non-negotiable",
+   "Fine, at our feet",
+   "Not in the bedroom"
+  ],
+  "answers_tr": [
+   "Olmazsa olmaz",
+   "Olur ama ayak ucunda",
+   "Yatak odasına giremez"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "6457f609-4c80-4b62-8708-eaa0dd15685b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner brings home a stray kitten without asking you. What do you do?",
+  "tr": "Partnerin sana sormadan sokaktan bir yavru kedi getirdi. Ne yaparsın?",
+  "answers_en": [
+   "Name it on the spot",
+   "It stays tonight, then we talk",
+   "Ask them to take it back"
+  ],
+  "answers_tr": [
+   "Hemen isim koyarsın",
+   "Bu gece kalsın, sonra konuşuruz",
+   "Geri götürmesini istersin"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "84dcc837-d437-43f8-a32c-2c908a01280d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your pet needs surgery that costs a full month's salary. What do you do?",
+  "tr": "Evcil hayvanınızın ameliyatı bir aylık maaş tutuyor. Ne yaparsın?",
+  "answers_en": [
+   "Pay without thinking twice",
+   "Pay in installments, it's tough",
+   "That's too much to spend"
+  ],
+  "answers_tr": [
+   "Düşünmeden ödersin",
+   "Taksit yapıp zar zor ödersin",
+   "O kadar para harcamazsın"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "2055e918-d825-4db5-bf33-f8d2b212406b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "At what age would you like to retire?",
+  "tr": "Kaç yaşında emekli olmak isterdin?",
+  "category": "long_term"
+ },
+ {
+  "id": "89abda44-6324-4d47-a68f-35b99f178055",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Where should we grow old together?",
+  "tr": "Yaşlılığımızı nerede geçirelim?",
+  "answers_en": [
+   "In the heart of the city",
+   "In a seaside town",
+   "In a country house with a garden"
+  ],
+  "answers_tr": [
+   "Şehrin göbeğinde",
+   "Bir sahil kasabasında",
+   "Köyde bahçeli bir evde"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "0b97884a-8325-43ab-bbf0-12659b04b160",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "As a 70-year-old couple, our weekends would be spent...",
+  "tr": "70 yaşında bir çift olarak hafta sonlarımız...",
+  "answers_en": [
+   "Babysitting the grandkids",
+   "Traveling the world",
+   "Quietly at home"
+  ],
+  "answers_tr": [
+   "Torunlara bakarak geçer",
+   "Dünyayı gezerek geçer",
+   "Evde sakin sakin geçer"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "e0a3fc7a-1fcc-4328-9216-a50f1a9c5c4f",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "At what age should a kid get their first phone?",
+  "tr": "Bir çocuğa ilk telefonu kaç yaşında alınmalı?",
+  "category": "long_term"
+ },
+ {
+  "id": "38575eee-4902-4368-9db9-64498f572cfd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your kid throws a screaming tantrum in the supermarket. What do you do?",
+  "tr": "Çocuğunuz markette bağıra bağıra ağlama krizine girdi. Ne yaparsın?",
+  "answers_en": [
+   "Calmly wait it out",
+   "Buy what they want",
+   "Let them cry, they have to learn"
+  ],
+  "answers_tr": [
+   "Sakince geçmesini beklersin",
+   "İstediğini alırsın",
+   "Ağlasın, susmayı öğrenmeli"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "afdb8824-8f0d-4e00-aaf8-39f4d18dcbaf",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which school should our kids go to?",
+  "tr": "Çocuklarımız hangi okula gitmeli?",
+  "answers_en": [
+   "Public school",
+   "Private school",
+   "Bilingual school"
+  ],
+  "answers_tr": [
+   "Devlet okulu",
+   "Özel okul",
+   "Yabancı dilde eğitim veren okul"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "01682675-5b57-4c45-b1a7-0672c6e18e01",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many times a month should we have people over?",
+  "tr": "Ayda kaç kez eve misafir çağırmalıyız?",
+  "category": "long_term"
+ },
+ {
+  "id": "d60adf90-40bf-4cd2-8730-519bb5ee1d1e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner invited friends over for dinner tonight without telling you. What do you do?",
+  "tr": "Partnerin sana haber vermeden bu akşam yemeğe arkadaşlarını çağırmış. Ne yaparsın?",
+  "answers_en": [
+   "Happily jump in and cook",
+   "Go along, talk about it later",
+   "Get annoyed right then",
+   "Make other plans and head out"
+  ],
+  "answers_tr": [
+   "Keyifle mutfağa girersin",
+   "Bozuntuya vermez, sonra konuşursun",
+   "O an bozulursun",
+   "Kendine başka plan yapıp çıkarsın"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "863c27e9-810a-4c3b-84bb-dccb057a351a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Spending weekends with other couples...",
+  "tr": "Hafta sonlarını başka çiftlerle geçirmek...",
+  "answers_en": [
+   "The most fun there is",
+   "Nice once in a while",
+   "Weekends are just for us"
+  ],
+  "answers_tr": [
+   "En keyiflisi",
+   "Arada bir güzel",
+   "Hafta sonu ikimize ait"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "c07892b4-7740-4d98-82aa-2c86690a8807",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Where should we spend New Year's Eve?",
+  "tr": "Yılbaşı gecesini nerede geçirmeliyiz?",
+  "answers_en": [
+   "Just the two of us",
+   "With family",
+   "Partying with friends"
+  ],
+  "answers_tr": [
+   "Baş başa",
+   "Aileyle",
+   "Arkadaşlarla partide"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "c51d83be-122c-47f6-acb6-da205865c718",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many times a week is it normal to order takeout?",
+  "tr": "Haftada kaç kez dışarıdan yemek söylemek normal?",
+  "category": "long_term"
+ },
+ {
+  "id": "baacc08b-68b4-46f9-94df-14525d77c9ef",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Our home's style should be...",
+  "tr": "Evimizin tarzı...",
+  "answers_en": [
+   "Clean and minimal",
+   "Cozy and full of stuff",
+   "Bold and colorful"
+  ],
+  "answers_tr": [
+   "Sade ve minimalist",
+   "Sıcak ve eşyalı",
+   "Renkli ve cesur"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "3055e469-8d10-45cb-9328-a630c3531e8f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When you're sick, how do you want your partner to take care of you?",
+  "tr": "Hastayken partnerinin sana nasıl bakmasını istersin?",
+  "answers_en": [
+   "Stay by my side",
+   "Bring soup, then let me rest",
+   "Just leave me alone"
+  ],
+  "answers_tr": [
+   "Başımdan ayrılmasın",
+   "Çorbamı getirip dinlenmeme izin versin",
+   "Hiç karışmasın, yalnız kalayım"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "41d947ea-20c7-4c34-91f5-c210259d6bcb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner has stopped flirting with you. What do you do?",
+  "tr": "Partnerin seninle artık hiç flört etmiyor. Ne yaparsın?",
+  "answers_en": [
+   "Make the first move",
+   "Talk about it openly",
+   "Drop subtle hints",
+   "Accept it, that's long-term love"
+  ],
+  "answers_tr": [
+   "İlk adımı sen atarsın",
+   "Açık açık konuşursun",
+   "Üstü kapalı ima edersin",
+   "Normal karşılarsın, uzun ilişki bu"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "73bdd793-c8b6-4007-9ef5-167e6999c39f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Phones at the dinner table...",
+  "tr": "Akşam yemeğinde telefonlar...",
+  "answers_en": [
+   "Banned from the table",
+   "On the table, face down",
+   "No rules, it's fine"
+  ],
+  "answers_tr": [
+   "Masaya hiç gelmez",
+   "Masada durur ama bakılmaz",
+   "Kural yok, rahat olalım"
+  ],
+  "category": "long_term"
+ }
+]

@@ -1,0 +1,740 @@
+{
+  "5738b45b-1858-43f3-826e-11ef8d263b66": {
+    "text": "Quand un ami proche dort chez toi, tu l'installes où ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "240d4c3b-09f9-424b-8508-8f2413892f20": {
+    "text": "Quand tu dois dire non à un ami, tu t'y prends comment ?",
+    "answers": [
+      "Je le dis franchement",
+      "Je trouve une excuse",
+      "Je fais traîner",
+      "Je ne dis jamais non"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ed007dff-5f12-45f1-913a-814207c21337": {
+    "text": "Quand tu es entre amis, ton téléphone est où ?",
+    "answers": [
+      "Sur la table",
+      "Écran retourné",
+      "Dans mon sac",
+      "Dans ma main"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "472843d1-c68f-4443-8e98-1c7ebfff08f1": {
+    "text": "Quand un ami vide son sac, tu fais quoi ?",
+    "answers": [
+      "J'essaie de régler le problème",
+      "J'écoute, c'est tout",
+      "Je le fais rire",
+      "Je raconte ma propre histoire"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9626e6ef-559e-4903-a872-8098df7019aa": {
+    "text": "Un ami annule à la dernière minute. Tu fais quoi ?",
+    "answers": [
+      "Je dis que ce n'est pas grave",
+      "Je lui dis que ce n'est pas cool",
+      "Je propose vite une autre date",
+      "Je ne l'invite plus pendant un moment"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d7063b2a-a2b9-4e31-b9d5-ea73d3fc1b48": {
+    "text": "Tu préfères voir tes amis comment ?",
+    "answers": [
+      "En tête-à-tête",
+      "En petit groupe",
+      "Avec toute la bande",
+      "Avec qui est dispo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b3285428-6a7b-494a-a8ce-607db3eff19a": {
+    "text": "Un ami a 20 minutes de retard et tu es déjà sur place. Tu fais quoi ?",
+    "answers": [
+      "J'attends",
+      "Je lui envoie un message",
+      "Je commande sans attendre",
+      "Je m'en vais"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6e92199a-a131-4c52-8fcb-db5cdd54cb8b": {
+    "text": "Un ami t'appelle à 1 h du matin. Tu fais quoi ?",
+    "answers": [
+      "Je décroche",
+      "J'écris « demain »",
+      "Je laisse sonner",
+      "Je rappelle plus tard"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ca4a3d3a-b6cd-42c6-acea-f2ddaffcee41": {
+    "text": "Quand un ami commence à te chambrer, tu fais quoi ?",
+    "answers": [
+      "Je le chambre en retour",
+      "J'en rigole",
+      "Je ne dis plus rien",
+      "Je lui dis d'arrêter"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0b00eec2-7db8-49f6-9a33-2e91bfdafed9": {
+    "text": "Un ami t'a emprunté quelque chose et ne te l'a toujours pas rendu. Tu fais quoi ?",
+    "answers": [
+      "Je le lui rappelle",
+      "Je laisse tomber",
+      "Je ne lui prête plus rien",
+      "J'en plaisante jusqu'à ce que ça lui revienne"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3866d609-64de-4f95-9a99-d3b5aca59d4d": {
+    "text": "En général, tu pars comment d'une soirée entre amis ?",
+    "answers": [
+      "Je dis au revoir et je pars",
+      "Je m'éclipse discrètement",
+      "Je reste jusqu'au bout",
+      "J'attends que quelqu'un parte avec moi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fc886a8f-d247-4df7-9911-70df16293d14": {
+    "text": "Un ami poste une photo ratée de toi sans demander. Tu fais quoi ?",
+    "answers": [
+      "Je lui demande de la retirer",
+      "J'en rigole",
+      "Je poste une photo encore pire de lui",
+      "Je masque ses posts un moment"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cf30ac84-0e23-499b-84f0-194255049b2e": {
+    "text": "Deux amis de ta bande se disputent. Tu fais quoi ?",
+    "answers": [
+      "Je ne m'en mêle pas",
+      "J'essaie de faire la médiation",
+      "Je prends parti pour celui qui a raison selon moi",
+      "Je parle à chacun en privé"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a6aca301-d610-4229-8289-b89bedc32e1e": {
+    "text": "En général, comment tu t'y prends pour caler un plan avec tes amis ?",
+    "answers": [
+      "J'envoie le premier message",
+      "J'attends que quelqu'un se lance",
+      "Je propose jusqu'à ce que ça prenne",
+      "Je suis le mouvement, où qu'ils aillent"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "79b31e12-db1a-4595-a37d-d8bf3a5d4ab1": {
+    "text": "Un ami a clairement tort dans un débat. Tu fais quoi ?",
+    "answers": [
+      "Je le corrige tout de suite",
+      "Je laisse couler",
+      "Je lui en parle plus tard en privé",
+      "J'approuve tout haut, mais je n'en pense pas moins"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "43b8538b-f20e-4106-86db-2fb4ae991e8d": {
+    "text": "Un ami proche ne donne plus de nouvelles depuis quelques semaines. Tu fais quoi ?",
+    "answers": [
+      "J'envoie un message, une fois",
+      "Je continue à le relancer",
+      "Je lui laisse de l'espace",
+      "Je demande aux amis communs ce qui se passe"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cf10e8ca-f5f7-4fd3-ade3-8d3dd80864a1": {
+    "text": "Un ami te demande ton avis sincère sur sa coupe de cheveux ratée. Tu fais quoi ?",
+    "answers": [
+      "Je dis la vérité",
+      "Je trouve un point positif",
+      "Je change de sujet"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5f50e363-7d88-40da-9fc3-20a70c1c98bc": {
+    "text": "Un ami proche te demande de l'héberger une semaine. Tu réponds quoi ?",
+    "answers": [
+      "Reste aussi longtemps qu'il faut",
+      "Quelques jours, puis on en reparle",
+      "Pas cette semaine, mais je t'aide autrement"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "96a10636-c640-4c8e-b29c-8d5ea35a2325": {
+    "text": "Un ami à qui tu ne parles presque plus te demande un gros service. Tu fais quoi ?",
+    "answers": [
+      "J'aide comme au bon vieux temps",
+      "J'aide, mais un minimum",
+      "Je dis franchement qu'on n'est plus si proches"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8fbe5c15-1c5f-4d62-bb1c-8c87bd5e68e9": {
+    "text": "Deux groupes d'amis t'invitent le même soir. Tu fais quoi ?",
+    "answers": [
+      "Je rejoins ceux qui ont demandé en premier",
+      "Je vais là où ils me manqueraient le plus",
+      "J'essaie de passer aux deux"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "da359ad8-f794-47c9-a71f-de550fd3df0c": {
+    "text": "Un ami proche te demande de lui prêter une belle somme. Tu fais quoi ?",
+    "answers": [
+      "Je prête si je peux",
+      "Seulement avec un plan de remboursement clair",
+      "Je ne prête pas d'argent à mes amis"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d6c8e97e-b3ba-44d7-b105-c1b6b2a57587": {
+    "text": "Un ami sort avec quelqu'un que tu ne supportes vraiment pas. Tu fais quoi ?",
+    "answers": [
+      "Je lui dis dès le début",
+      "J'attends qu'on me demande",
+      "Je me tais et je soutiens"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0d743c77-1a58-418b-8117-3263ce8f4009": {
+    "text": "Un ami t'invite dans un endroit cher, au-dessus de tes moyens. Tu fais quoi ?",
+    "answers": [
+      "Je dis que je n'ai pas le budget",
+      "Je propose un truc moins cher",
+      "J'y vais, quitte à dépasser mon budget"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "02bb14d7-0d08-400e-9917-9aec53c8b7c8": {
+    "text": "Tu surprends un ami en train de dire un peu de mal de toi. Tu fais quoi ?",
+    "answers": [
+      "Je lui en parle en face",
+      "Je prends un peu de distance",
+      "Je laisse passer, pour cette fois"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "660a531c-8d5e-44d7-b117-483aafb66d83": {
+    "text": "En soirée, un ami un peu éméché s'apprête à écrire à son ex. Tu fais quoi ?",
+    "answers": [
+      "Je lui prends son téléphone",
+      "Je le laisse faire"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6ae65593-620a-47a3-bd16-3cfdba20307b": {
+    "text": "Au resto, l'addition arrive et un ami a encore « oublié » son portefeuille. Tu fais quoi ?",
+    "answers": [
+      "Je paie et je laisse couler",
+      "Je paie, mais j'en reparle plus tard"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b2f40f63-d542-449f-b8d9-7251868fe21c": {
+    "text": "Dans un Uber, un ami commence à se disputer avec le chauffeur. Tu fais quoi ?",
+    "answers": [
+      "J'interviens pour calmer le jeu",
+      "Je me tais en attendant que ça passe"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2fca8524-3f16-4523-b057-17699983cc36": {
+    "text": "Un ami se met à raconter une histoire gênante sur toi à des gens que vous venez de rencontrer. Tu fais quoi ?",
+    "answers": [
+      "Je le coupe",
+      "Je le laisse finir"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1dc43db7-154f-4a47-9397-f3ec7f508978": {
+    "text": "Un ami te confie un secret et te dit : « Ne le dis même pas à ta moitié. » Tu fais quoi ?",
+    "answers": [
+      "Je le garde pour moi, point",
+      "Je le dis quand même à ma moitié",
+      "Je le garde, sauf si c'est grave"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f1a66bde-c82e-4903-9965-90c3fa82d1b0": {
+    "text": "Un ami proche et toi avez postulé au même poste, et c'est lui qui l'a eu. Tu fais quoi ?",
+    "answers": [
+      "Je fête ça avec lui, sincèrement",
+      "Je dis bravo, mais ça pique un peu",
+      "J'ai besoin d'un peu de distance"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e4d8aa34-b71c-4d2c-babe-8ef1e1d37350": {
+    "text": "Un ami débarque chez toi sans prévenir. Tu fais quoi ?",
+    "answers": [
+      "J'ouvre avec plaisir",
+      "J'ouvre, mais ça m'agace un peu",
+      "Je fais comme si je n'étais pas là",
+      "J'ouvre, mais je lui demande de prévenir la prochaine fois"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5587411e-e5d6-4c3b-b709-925a48828ccd": {
+    "text": "Un ami te demande de le couvrir auprès de sa moitié. Tu fais quoi ?",
+    "answers": [
+      "Je le couvre, sans poser de questions",
+      "Seulement si je sais ce qui se passe",
+      "Je refuse, je ne veux pas m'en mêler",
+      "J'accepte, mais je préviens que c'est la dernière fois"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2ceb502c-1cb0-4d19-b751-39c067c789a3": {
+    "text": "Un ami proche a oublié ton anniversaire. Tu fais quoi ?",
+    "answers": [
+      "Ça m'est complètement égal",
+      "Ça me blesse, mais je ne dis rien",
+      "J'en parle sur le ton de la blague",
+      "Je dis que ça m'a vraiment fait mal"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "90a8ef25-80da-4dce-a879-4c4de8f1272a": {
+    "text": "En général, tu montres comment à un ami qu'il compte pour toi ?",
+    "answers": [
+      "En passant du temps ensemble",
+      "Avec des petits cadeaux et des surprises",
+      "En faisant des compliments et en encourageant",
+      "En aidant quand il le faut",
+      "En envoyant des messages juste pour prendre des nouvelles"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5ea9ba87-e9a5-45bd-b147-03e94f0d2eee": {
+    "text": "Comparé à une rupture amoureuse, perdre un ami proche fait…",
+    "answers": [
+      "Plus mal",
+      "Moins mal",
+      "À peu près aussi mal"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "81c3e73b-6f4a-401f-be7c-7322f3c88d97": {
+    "text": "Des amis proches devraient se parler à quelle fréquence ?",
+    "answers": [
+      "Tous les jours",
+      "Plusieurs fois par semaine",
+      "Environ une fois par semaine",
+      "Quand ça vient, il n'y a pas de règle"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bf330507-367e-4d2b-a74c-51bbacecc0de": {
+    "text": "Quelqu'un rencontré uniquement en ligne peut-il devenir un vrai ami proche ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ad99c683-1579-4b76-ac84-bbe48ccc1529": {
+    "text": "Tu dépenserais au maximum combien pour le cadeau d'anniversaire d'un ami proche ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fe5a5b25-7f16-4855-b749-d4e8e9cc1d5f": {
+    "text": "Se faire de nouveaux amis proches à l'âge adulte, c'est…",
+    "answers": [
+      "Facile si on va vers les autres",
+      "Difficile, mais possible",
+      "Presque impossible"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8c65c713-6463-475a-bf56-9ec5381e9302": {
+    "text": "Un collègue peut-il devenir l'un de tes meilleurs amis ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "beb7f795-5c55-41bd-98fc-a459db151882": {
+    "text": "Il te faut connaître quelqu'un depuis combien de temps pour dire que c'est un ami proche ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fb50cd2d-2221-4e5f-b6eb-1a37644fda56": {
+    "text": "Un ami proche se met en couple avec ton frère ou ta sœur. Tu le vis comment ?",
+    "answers": [
+      "Ça me fait plaisir pour eux",
+      "C'est bizarre, mais je m'y ferais",
+      "Ça ne me plaît pas du tout"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "68663bf0-f74e-4eb2-9375-794c0160fd51": {
+    "text": "Passer du temps avec un ami sans parler, chacun dans son truc…",
+    "answers": [
+      "C'est ça, la vraie complicité",
+      "Ça va, de temps en temps",
+      "C'est gênant"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fb1756d1-62b7-4393-9307-53cd0f287376": {
+    "text": "Quand tu as une grande nouvelle, qui l'apprend en premier ?",
+    "answers": [
+      "Ma moitié",
+      "Mon meilleur ami ou ma meilleure amie",
+      "Ma famille",
+      "Tout le monde en même temps sur le groupe"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c1fa53a1-cf09-4356-a17d-4b3af5c3a9f7": {
+    "text": "Quelle habitude chez un ami te rend dingue ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "570b53e3-9da8-412a-88f9-c3df5793d601": {
+    "text": "Tu lancerais une entreprise avec un ami proche ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c72dd7bf-86a8-4621-b2f2-ed918e7319c3": {
+    "text": "Un ami se met à amener sa nouvelle moitié à chaque sortie. Tu fais quoi ?",
+    "answers": [
+      "J'adore, plus on est de fous, plus on rit",
+      "Ça va, mais nos moments à deux me manquent",
+      "Je propose des moments entre amis seulement",
+      "Je commence à moins le voir"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "637c640b-fdb6-4280-9bb5-d10092e0490f": {
+    "text": "Partager ses codes Netflix et compagnie entre amis…",
+    "answers": [
+      "Totalement normal",
+      "Seulement avec mes plus proches",
+      "Jamais"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "11e1d92e-1142-4d19-b8eb-9e85b241a9c9": {
+    "text": "La compétition entre amis proches…",
+    "answers": [
+      "Ça motive",
+      "Ça abîme l'amitié petit à petit"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "04beefdc-5d0a-47a0-8476-209397119731": {
+    "text": "Un ami te demande de lui présenter quelqu'un. Tu fais quoi ?",
+    "answers": [
+      "J'adore arranger des rencontres",
+      "Seulement si je connais vraiment quelqu'un qui colle",
+      "Je ne m'en mêle pas, trop risqué"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d97011a0-577f-437e-b2f7-34d6e3f16ec7": {
+    "text": "Un ami est malade, tout seul chez lui. Tu fais quoi ?",
+    "answers": [
+      "Je débarque avec soupe et médocs",
+      "Je fais livrer à manger",
+      "J'envoie un message pour prendre des nouvelles",
+      "J'attends qu'il demande de l'aide"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "49f2c5bd-906c-4677-938d-2634f11f2c0e": {
+    "text": "Tu inviterais combien d'amis à ton anniversaire ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "80b1847b-4029-4376-b594-cf2439e45e3c": {
+    "text": "Un ami se met à copier ton style et tes passions. Tu le vis comment ?",
+    "answers": [
+      "Ça me flatte",
+      "Ça m'est un peu égal",
+      "Ça m'agace un peu",
+      "Je lui en parlerais"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9d61613c-1992-45d8-bef1-37f07f995e66": {
+    "text": "Un ami t'a offert un cadeau bien plus cher que le tien. Tu fais quoi ?",
+    "answers": [
+      "Rien, ce n'est pas une compétition",
+      "Ça me met mal à l'aise",
+      "Je me rattrape la prochaine fois"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "826c30c4-7dae-497a-be3b-a89531829cef": {
+    "text": "Tu prêterais ton vêtement préféré à un ami ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c17f6d8c-88be-4516-b333-5e7b45e4997f": {
+    "text": "Ton meilleur ami ou ta meilleure amie te demande de l'aide pour organiser son mariage. Tu fais quoi ?",
+    "answers": [
+      "Je m'y mets à fond",
+      "J'aide, mais avec des limites",
+      "Je viens juste le jour J"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bea820e2-cce1-49fc-aa07-4ab99ead86c4": {
+    "text": "Tu ferais combien d'heures de trajet pour l'anniversaire d'un ami proche ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "45cf28ad-01d6-458f-b371-d10cb5d628b3": {
+    "text": "Un ami doit aller à l'aéroport à 5 h du matin. Tu fais quoi ?",
+    "answers": [
+      "Je l'emmène, aucun souci",
+      "Je l'emmène, mais en râlant tout le trajet",
+      "Je lui paie un taxi à la place",
+      "Je dis que je ne peux pas"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cee7b4d0-8a85-42ae-9d36-e805461c3601": {
+    "text": "Tu partages ta position en direct avec tes amis proches ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1261e2f8-c857-4478-8e71-e0a25b6dac19": {
+    "text": "Un ami qui te dit toujours les vérités qui fâchent…",
+    "answers": [
+      "C'est le meilleur genre d'ami",
+      "Ça finit par fatiguer"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6cb7ef7c-1478-4456-b1cf-d26358f74de0": {
+    "text": "Les amitiés avec un grand écart d'âge (plus de 10 ans)…",
+    "answers": [
+      "Ça marche très bien",
+      "Ça marche, mais c'est différent",
+      "Difficile de vraiment accrocher"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9fea2ef2-07b0-4d41-b852-f5bf24dd2b6f": {
+    "text": "En voyage entre amis, quelqu'un veut dépenser bien plus que tout le monde. Tu fais quoi ?",
+    "answers": [
+      "Je suis le mouvement",
+      "On se sépare pour les plans chers",
+      "Je fixe un budget commun dès le départ",
+      "Je dis franchement que c'est trop"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e442ad82-0026-4be1-a02d-5cf52c6db6b3": {
+    "text": "Quand un ami te blesse, tu le lui dis au lieu de prendre tes distances en silence ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a568c592-7960-40ea-b5e7-f8fcff9f1109": {
+    "text": "Un ami te demande de garder son animal pendant une semaine. Tu fais quoi ?",
+    "answers": [
+      "Avec plaisir, j'adore les animaux",
+      "Ça dépend de l'animal",
+      "Oui, mais seulement chez lui",
+      "Je dis non"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f7975688-29c1-4bff-9678-56257d052a89": {
+    "text": "Un ami proche devient célèbre du jour au lendemain. Qu'est-ce qui change pour toi ?",
+    "answers": [
+      "Rien, c'est toujours la même personne pour moi",
+      "Je m'en vanterais auprès de tout le monde",
+      "Je prendrais naturellement un peu de distance",
+      "J'aurais peur que ça le change"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "53f44073-13ad-4340-b3dc-428d01768d73": {
+    "text": "Un ami se lance dans la vente et n'arrête pas de te proposer ses produits. Tu fais quoi ?",
+    "answers": [
+      "J'achète une fois pour soutenir",
+      "Je refuse poliment à chaque fois",
+      "Je dis que ça commence à saouler",
+      "Je le mets en sourdine"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "392563c7-8455-4b18-a840-2569bad40fb3": {
+    "text": "Après une dispute avec un ami proche, qui fait le premier pas ?",
+    "answers": [
+      "Toujours moi",
+      "La personne qui avait tort",
+      "Personne, on fait comme si de rien n'était",
+      "Personne, en général ça s'arrête là"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "580d620b-1ff6-4662-b9e7-783a83b482ab": {
+    "text": "Poster ses amis sur ses réseaux sociaux…",
+    "answers": [
+      "Ça montre qu'ils comptent",
+      "Ce n'est pas du tout nécessaire"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c01dd781-f740-41b0-a72c-d6706d48e8ff": {
+    "text": "Une amitié avec l'ex de ta moitié, ce serait possible pour toi ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0dca06e6-2ca7-47d9-baad-475f804027d3": {
+    "text": "Pour un voyage entre amis, le nombre idéal de personnes, c'est combien ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

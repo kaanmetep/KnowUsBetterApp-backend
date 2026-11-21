@@ -1,0 +1,2630 @@
+[
+ {
+  "id": "f8b8e4f3-28d9-4886-af07-a40660eecc99",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone with a very different music taste?",
+  "tr": "Çok farklı bir müzik zevkine sahip biriyle çıkar mıydın?"
+ },
+ {
+  "id": "f304ce02-dda7-4317-8fdb-ea25aee9c4a4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is your partner’s education level important to you?",
+  "tr": "Partnerinin eğitim seviyesi senin için önemli mi?"
+ },
+ {
+  "id": "53cff209-fbc0-4246-b117-18b3555971df",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone shorter than you?",
+  "tr": "Senden daha kısa biriyle çıkar mıydın?"
+ },
+ {
+  "id": "bc57ff15-11b9-4073-ae40-e1d0f01c0fad",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Are you afraid of ending up alone in life?",
+  "tr": "Hayatta yalnız kalmaktan korkuyor musun?"
+ },
+ {
+  "id": "f43d3e26-8697-42a0-8804-7145be8be518",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would it bother you if your partner has had more exes than you?",
+  "tr": "Sevgilinin senden daha fazla eski sevgilisi olmasına bozulur musun?"
+ },
+ {
+  "id": "a341a8ea-7831-4c4c-993b-95651f9220ee",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone you're not physically attracted to?",
+  "tr": "Fiziksel olarak yakıştırmadığın biriyle beraber olur musun?"
+ },
+ {
+  "id": "83898e96-79ac-41d0-a2cd-f95d16e018bd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would it bother you if your partner talks about marriage at the start of a relationship?",
+  "tr": "Sevgilinin ilişki başlarında evlilikten bahsetmesi seni gerer mi?"
+ },
+ {
+  "id": "1bc54b46-bd63-495c-979d-0d1e4203d959",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you consider marrying someone from a foreign country?",
+  "tr": "Yabancı bir ülkeden gelmiş biriyle evlenmeyi düşünür müsün?"
+ },
+ {
+  "id": "fc039185-c94b-4708-bb45-c273aa7abbc5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Should the man pay the bill on the first date?",
+  "tr": "İlk buluşmada hesabı erkek mi ödemeli?"
+ },
+ {
+  "id": "32406677-bba7-491a-aff9-d64567ca82c0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you pay your partner's debt?",
+  "tr": "Sevgilinin borcunu öder misin?"
+ },
+ {
+  "id": "16ab0dae-f337-4214-84b3-f4fd1d237451",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever been physically with someone you didn't have feelings for?",
+  "tr": "Daha önce duygusal bir şey hissetmediğin biriyle fiziksel olarak beraber oldun mu?"
+ },
+ {
+  "id": "24afb9f9-09fe-479b-b7fe-222f914f546d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever used someone who was deeply in love with you just to avoid being alone?",
+  "tr": "Hiç sana çok aşık birini yalnız kalmamak için kullandın mı?"
+ },
+ {
+  "id": "2e854593-1245-4f29-8c9d-dc97306eaeb0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the future, would you prefer living in a big city or a quiet town with your partner?",
+  "tr": "Gelecekte partnerinle büyük bir şehirde mi yoksa sakin bir kasabada mı yaşamak istersin?",
+  "answers_en": [
+   "Big city",
+   "Quiet town"
+  ],
+  "answers_tr": [
+   "Büyük şehir",
+   "Sakin kasaba"
+  ]
+ },
+ {
+  "id": "9fcb5dab-3f2e-4a0d-b23a-61900bc49522",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone who becomes unpleasant when they drink alcohol?",
+  "tr": "Alkol alınca kendini bozan biriyle sevgili olur musun?"
+ },
+ {
+  "id": "97b6d4e0-ab32-423e-bc3f-53883b958a5d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you stay in a relationship if you felt emotionally unfulfilled but not unhappy?",
+  "tr": "Duygusal olarak tatmin olmadığını ama mutsuz da olmadığını hissetsen bir ilişkide kalır mıydın?"
+ },
+ {
+  "id": "32b5d1f7-97f4-466b-ad7f-395b505c73a7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Can a relationship work without physical chemistry?",
+  "tr": "Ten uyumu olmadan ilişki yürür mü?"
+ },
+ {
+  "id": "2d748ea6-89f2-4ad3-bb23-ea30c2c73842",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If offered 1 million dollars to seduce your best friend's partner, would you accept?",
+  "tr": "En yakın arkadaşının sevgilisini tavlaman için 1 milyon dolar verseler, kabul eder misin?"
+ },
+ {
+  "id": "e55ea49c-c670-4fe9-bf1c-267153fc88e0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think you have ever hurt someone in the same way you fear being hurt?",
+  "tr": "Hiç birini, kendine yapılmasından korktuğun şekilde incittiğini düşünüyor musun?"
+ },
+ {
+  "id": "5264f2b0-12db-44aa-81d2-395cee494d0c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you had a lot of money, would you live without working?",
+  "tr": "Çok paran olsa, çalışmadan yaşar mıydın?"
+ },
+ {
+  "id": "92350381-e030-4eb9-adea-eba4539776db",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the future, would you choose to stay in your hometown with your partner or move to a completely new place together?",
+  "tr": "Gelecekte partnerinle birlikte memleketinde kalmayı mı yoksa tamamen yeni bir yere taşınmayı mı seçerdin?",
+  "answers_en": [
+   "Stay in hometown",
+   "Move to a new place"
+  ],
+  "answers_tr": [
+   "Memlekette kalmak",
+   "Yeni bir yere taşınmak"
+  ]
+ },
+ {
+  "id": "3e001ead-34f3-49cd-841b-0adf7ed83ee2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you go through your partner's phone?",
+  "tr": "Birlikte olduğun insanın telefonunu karıştırır mısın?"
+ },
+ {
+  "id": "cb65844c-0923-4018-827e-7e5e742a2c88",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you be okay if your partner needed space from you for an extended period of time?",
+  "tr": "Partnerinin uzun bir süre senden uzak kalmaya ihtiyaç duyması senin için kabul edilebilir olur muydu?"
+ },
+ {
+  "id": "13769262-3c15-4137-99c0-eee392521846",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "For you, is it more important who your partner was in the past or who they want to become in the future?",
+  "tr": "Senin için partnerinin geçmişte nasıl bir insan olduğu mu yoksa gelecekte nasıl bir insana dönüşmek istediği mi daha önemlidir?",
+  "answers_en": [
+   "Past character",
+   "Future potential"
+  ],
+  "answers_tr": [
+   "Geçmiş karakteri",
+   "Gelecek potansiyeli"
+  ]
+ },
+ {
+  "id": "6b732428-5ccc-4b9e-a751-ea915f51024f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you expect a good morning message from your partner every day?",
+  "tr": "Birlikte olduğun insandan her sabah Günaydın mesajı bekler misin?"
+ },
+ {
+  "id": "d2cb8fd1-c4ee-43e7-9bec-026c60baf9ad",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you interfere with your partner's clothing style?",
+  "tr": "Birlikte olduğun insanın giyim tarzına karışır mısın?"
+ },
+ {
+  "id": "04b359db-733e-4009-8f92-b0814aa0b03a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever ignored a message from your partner to seem cooler?",
+  "tr": "Birlikte olduğun kişiden mesaj aldığında daha cool görünmek için bakmadığın oldu mu?"
+ },
+ {
+  "id": "a0098eef-632a-4297-94cf-514d6abb3a58",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it harder to be the one who leaves or the one who stays?",
+  "tr": "Giden olmak mı daha zor yoksa kalan olmak mı?",
+  "answers_en": [
+   "The one who leaves",
+   "The one who stays"
+  ],
+  "answers_tr": [
+   "Giden",
+   "Kalan"
+  ]
+ },
+ {
+  "id": "44bf894e-1b91-4709-9c94-74b54c849ec9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the future, would it be a problem for you if your partner only wanted a son and did not want a daughter at all?",
+  "tr": "Gelecekte partnerinin sadece erkek çocuk istemesi ve kız çocuk istememesi senin için bir problem olur muydu?"
+ },
+ {
+  "id": "8e44a610-70a6-443a-a5f4-6695dd7f2acb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever cheated on your partner?",
+  "tr": "Sevgilini daha önce hiç aldattın mı?"
+ },
+ {
+  "id": "f7cd4adc-4c3a-462d-80b8-a9cb5e0d59a7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever been cheated on by your partner?",
+  "tr": "Daha önce sevgilin tarafından aldatıldın mı?"
+ },
+ {
+  "id": "b06e47ff-0765-4387-a852-0e0f8d671331",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Can someone who truly loves you forgive anything?",
+  "tr": "Seven bir insan her şeyi affedebilir mi?"
+ },
+ {
+  "id": "6e964579-93e2-4ea7-a602-f2da4dc10c40",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone who doesn't like animals?",
+  "tr": "Hayvanları sevmeyen biriyle beraber olur musun?"
+ },
+ {
+  "id": "9da6aa5a-72e2-4cfc-967b-a1333bc77fde",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would it bother you if your partner stayed in touch with their ex?",
+  "tr": "Sevgilinin eski sevgilisiyle iletişim halinde olması seni rahatsız eder mi?"
+ },
+ {
+  "id": "5a13add7-782e-4168-a409-a8dd27a630b6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you continue a relationship with someone who doesn't enjoy exercising?",
+  "tr": "Spor yapmaktan hoşlanmayan biriyle ilişkinizi devam ettirir misin?"
+ },
+ {
+  "id": "97b0ab35-8d44-44b9-9ab1-814f1f7f85a8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone older than you?",
+  "tr": "Kendinden yaşça büyük biriyle beraber olur musun?"
+ },
+ {
+  "id": "fdcd6d7e-01fa-494d-a8de-7b442ca67c54",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What hurts more in a relationship: being lied to or being ignored?",
+  "tr": "Bir ilişkide daha çok ne incitir: yalan söylenmesi mi yok sayılmak mı?",
+  "answers_en": [
+   "Being lied to",
+   "Being ignored"
+  ],
+  "answers_tr": [
+   "Yalan söylenmesi",
+   "Yok sayılmak"
+  ]
+ },
+ {
+  "id": "20510bb3-bf38-4b99-bb6d-4afcab715e9e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever acted like you had money during flirting when you actually didn't?",
+  "tr": "Daha önce hiç paran olmadığı halde flört sırasında varmış gibi davrandın mı?"
+ },
+ {
+  "id": "cb8b64a7-939c-4ae3-8a90-74b432a1443c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you were in love but your future goals were very different, would you continue the relationship?",
+  "tr": "Aşık olsanız bile gelecek hedefleriniz çok farklıysa ilişkinize devam eder miydiniz?"
+ },
+ {
+  "id": "008255f4-ad49-4afa-b3ff-75cdf23edc79",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you didn't talk to your partner for a whole day, would it cause an argument?",
+  "tr": "Sevgilinle bir gün boyunca hiç konuşmadın, bu bir kavga sebebi midir?"
+ },
+ {
+  "id": "fa0c44cc-ec0b-436b-9ccd-7bbc0543e25b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your mother wanted you to break up with your partner, would you do it? (No compromise allowed)",
+  "tr": "Annen sevgilinle ayrılmanı istese, bunu yapar mısın? (Orta yolu bulma şansın yok)"
+ },
+ {
+  "id": "1317fcea-d7cc-4eec-8f68-f27242b04416",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you let your partner read your Instagram DMs?",
+  "tr": "Sevgiline Instagram DM'lerini okutur musun?"
+ },
+ {
+  "id": "dbc65ae7-6de1-4c22-a234-30dfe8df9e83",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you start a serious relationship with someone you met on social media?",
+  "tr": "Sosyal medyadan tanıştığın biriyle ciddi bir ilişkiye başlar mısın?"
+ },
+ {
+  "id": "1049e2d0-ff17-4ee1-ab4f-f85fe3f9b87c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you control your partner's Instagram posts?",
+  "tr": "Sevgilinin Instagram paylaşımlarını kontrol eder misin?"
+ },
+ {
+  "id": "a62df855-633d-493b-8ab3-2550e3b3365e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner is online but doesn't reply, would it cause a fight?",
+  "tr": "Sevgilin çevrimiçi ama cevap vermiyorsa, bu kavga sebebi olur mu?"
+ },
+ {
+  "id": "ae38b2a8-6c8a-4e8c-a318-b1e20f4aa648",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the future, would you consider marrying someone who has been with more people than you?",
+  "tr": "Gelecekte senden daha fazla insanla birlikte olmuş biriyle evlenmeyi düşünür müsün?"
+ },
+ {
+  "id": "3854250e-4b69-4774-8b6a-a2e7d388e9cf",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever forgiven someone who cheated on you?",
+  "tr": "Hiç daha önce aldatılıp affettin mi?"
+ },
+ {
+  "id": "fbdb80de-c188-405f-82b0-4e79741032fb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you believe that everyone deserves a second chance, regardless of what they did?",
+  "tr": "Ne yapmış olursa olsun, herkesin ikinci bir şansı hak ettiğine inanıyor musun?"
+ },
+ {
+  "id": "f3b3010c-c0bd-47ed-a4bf-e62dd8e2006f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you give up your biggest passion in life for someone you love?",
+  "tr": "Aşık olduğun insan için hayattaki en büyük tutkudan vazgeçer misin?"
+ },
+ {
+  "id": "fdb7ee23-84ac-47e3-82cc-e99cfdc6faef",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you believe that people can truly change their core personality over time?",
+  "tr": "İnsanların zamanla temel kişilik özelliklerini gerçekten değiştirebileceğine inanıyor musun?"
+ },
+ {
+  "id": "c29fa0f5-b83a-4d47-b83a-23415dbccd57",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would it bother you if your partner was the only woman/man in a large group of friends?",
+  "tr": "Sevgilinin kalabalık arkadaş grubunda tek kadın/erkek olması seni rahatsız eder mi?"
+ },
+ {
+  "id": "8a608656-6f0c-4340-a4ea-9946910b72b5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the future, would you choose a partner who wants to save money for the future or a partner who prefers to enjoy spending in the present?",
+  "tr": "Gelecekte geleceğe para biriktirmek isteyen bir partneri mi yoksa anı yaşamayı ve harcamayı tercih eden bir partneri mi seçerdin?",
+  "answers_en": [
+   "Save for the future",
+   "Enjoy spending in the present"
+  ],
+  "answers_tr": [
+   "Gelecek için biriktirmek",
+   "Anı yaşayıp harcamak"
+  ]
+ },
+ {
+  "id": "23c84c87-92c4-43a2-8803-f5f70ee8691a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone who loves nightlife?",
+  "tr": "Gece hayatını çok seven biriyle beraber olur musun?"
+ },
+ {
+  "id": "ce87d138-4cfa-4aee-9758-29ca3d1b954b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you believe that everything that will happen to you is already written?",
+  "tr": "Başına gelecek her şeyin çoktan yazıldığına inanır mısın?"
+ },
+ {
+  "id": "3decdc82-9ae0-4505-91f6-6302b5c53c41",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone who constantly needs your attention?",
+  "tr": "Her an senden ilgi bekleyen biriyle beraber olmak ister misin?"
+ },
+ {
+  "id": "706d8700-739b-47ae-9dd1-dce16f162a07",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone who is stingy?",
+  "tr": "Cimri biriyle beraber olur musun?"
+ },
+ {
+  "id": "0b4812d9-d4b8-4f65-8890-54552b41ef89",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone whose voice you don't like?",
+  "tr": "Ses tonunu sevmediğin biriyle sevgili olur musun?"
+ },
+ {
+  "id": "001a4314-020a-4324-a750-caa1ad0bc9e4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you want your partner to delete their old social media posts?",
+  "tr": "Sevgilinin eski sosyal medya paylaşımlarını silmesini ister misin?"
+ },
+ {
+  "id": "0d6447bb-6e82-460a-b04d-5d2f003696e4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the future, would you include your partner in all of your life plans?",
+  "tr": "Gelecekte yaptığın tüm planlara partnerini dahil eder misin?"
+ },
+ {
+  "id": "6d5ea62e-65a1-4df6-945b-5f285684a863",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone who doesn't like reading books?",
+  "tr": "Kitap okumayı sevmeyen biriyle beraber olur musun?"
+ },
+ {
+  "id": "ac395c4f-0f1f-409a-b052-949dc725b2d7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone who is unemployed?",
+  "tr": "İşsiz biriyle sevgili olur musun?"
+ },
+ {
+  "id": "5bad6b2a-f446-40b8-80eb-1eb297558aaf",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever kept talking to someone you didn't like just for attention?",
+  "tr": "Sırf ilgi görmeyi sevdiğin için sevmediğin biriyle konuşmaya devam ettin mi?"
+ },
+ {
+  "id": "2ea3cafa-eafd-4846-ae37-6b1bd3b0afe0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you expect your partner to remember all the special dates in your relationship?",
+  "tr": "Sevgilinden ilişkinizdeki tüm özel günleri aklında tutmasını bekler misin?"
+ },
+ {
+  "id": "69756540-7f71-4731-b79c-4eb07fe1da71",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever imagined what kind of wedding you would have?",
+  "tr": "Daha önce nasıl bir düğünün olacağını hayal ettin mi?"
+ },
+ {
+  "id": "fe1b8a27-eb1b-4098-a0a4-914e39ab95eb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it a problem for you if your partner is not at the same intellectual level as you?",
+  "tr": "Sevgilinin seninle aynı entelektüel düzeyde olmaması senin için bir problem midir?"
+ },
+ {
+  "id": "86fdbda3-1523-4d06-9d8c-07124f41ef2f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever used a dating app?",
+  "tr": "Hiç dating app kullandın mı?"
+ },
+ {
+  "id": "93527a98-af04-46b4-ac9c-fa8ef3187751",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the future, would it be a problem for you if the person you want to marry already had a child with someone else?",
+  "tr": "Gelecekte evlenmek istediğin kişinin başka birinden bir çocuğu olması senin için bir problem olur muydu?"
+ },
+ {
+  "id": "edf7a999-9c89-4253-9fd5-b1ef5ab799ed",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Does love have an age limit?",
+  "tr": "Aşkın yaşı olur mu?"
+ },
+ {
+  "id": "e635d076-0016-4987-9d87-f888b2e841ad",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it a problem for you if your partner does not like reading books?",
+  "tr": "Sevgilinin kitap okumayı sevmemesi senin için bir problem mi?"
+ },
+ {
+  "id": "79e8a155-3eb1-4fd5-89a7-b2848c75044b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever fallen in love with someone you shouldn’t have?",
+  "tr": "Daha önce hiç aşık olmaman gereken birine aşık oldun mu?"
+ },
+ {
+  "id": "c141b0f8-c822-4fda-b966-2d0bfccab391",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you want to know everything about your partner’s past or only the necessary parts?",
+  "tr": "Partnerinin geçmişine dair her şeyi mi bilmek istersin yoksa sadece gerekli kısımları mı?",
+  "answers_en": [
+   "Everything",
+   "Only necessary parts"
+  ],
+  "answers_tr": [
+   "Her şey",
+   "Sadece gerekli kısımlar"
+  ]
+ },
+ {
+  "id": "60fa63d8-776a-4cf9-91fa-806954a2c37c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Ambitious career growth where we’re busy, or a slower, balanced life with more time together?",
+  "tr": "Kariyer odaklı yoğun bir tempo mu, yoksa daha yavaş ama birbirimize bol vakit ayıran bir hayat mı?",
+  "answers_en": [
+   "Ambitious Career",
+   "Balanced Life"
+  ],
+  "answers_tr": [
+   "Hırslı Kariyer",
+   "Dengeli Hayat"
+  ]
+ },
+ {
+  "id": "4aec1675-cf2f-4623-9c75-47bc416fb320",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you act cold on purpose to impress someone you like?",
+  "tr": "Hoşlandığın kişiyi etkilemek için bilerek soğuk davranır mısın?"
+ },
+ {
+  "id": "1613d859-b83f-4783-aa2d-695aadcc9bc2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever done something silly to get over a breakup?",
+  "tr": "Hiç ayrılık acısını atlatmak için saçmaladığın oldu mu?"
+ },
+ {
+  "id": "7183b9a1-aaff-4c67-a4a6-e86933246045",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it important for you to have the same taste in food as your partner?",
+  "tr": "Partnerinle aynı damak zevkine sahip olmak senin için önemli mi?",
+  "answers_en": [
+   "Important",
+   "Not important"
+  ],
+  "answers_tr": [
+   "Önemli",
+   "Önemli değil"
+  ]
+ },
+ {
+  "id": "17ab270c-0960-4272-bef3-497c0338069f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you rather share all passwords and locations for total trust, or keep some digital privacy for independence?",
+  "tr": "Tam güven için tüm şifreleri ve konumları paylaşmak mı, yoksa bağımsız kalmak adına biraz dijital gizlilik mi?",
+  "answers_en": [
+   "Total Transparency",
+   "Digital Privacy"
+  ],
+  "answers_tr": [
+   "Tam Şeffaflık",
+   "Dijital Gizlilik"
+  ]
+ },
+ {
+  "id": "ebc6c164-d692-4a9a-b39e-76ed5c8b4435",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you lie to your partner just to make them happy?",
+  "tr": "Sırf mutlu olsun diye sevgiline yalan söyler misin?"
+ },
+ {
+  "id": "54c4d6cd-73cc-47f0-b70b-da72232dad98",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you seek revenge on a partner who cheated on you?",
+  "tr": "Seni aldatan sevgilinden intikam alır mısın?"
+ },
+ {
+  "id": "39450fcf-8356-4078-b219-8cb06da5af79",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you stayed single for a long time, would you lower your standards to be with someone?",
+  "tr": "Çok uzun süre yalnız kalsan, çok seçici olmadan biriyle birlikte olur musun?"
+ },
+ {
+  "id": "a041fab5-92d4-4a5f-be2f-b957f329b5bd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner talking about their past relationships...",
+  "tr": "Partnerinin eski ilişkilerini anlatması…",
+  "answers_en": [
+   "Normal and necessary",
+   "Unnecessary and harmful"
+  ],
+  "answers_tr": [
+   "Normal ve gerekli",
+   "Gereksiz ve zarar verir"
+  ]
+ },
+ {
+  "id": "65a85275-79ea-4d17-8c24-c1eb58cbcd86",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is texting every day with your partner necessary for you?",
+  "tr": "Sevgilinle her gün mesajlaşmak senin için gerekli bir şart mıdır?"
+ },
+ {
+  "id": "c5d257bf-030a-472a-bd4c-a2d48ae36e84",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone your friends don't consider a good physical match for you?",
+  "tr": "Arkadaş çevrenin sana fiziksel olarak yakıştırmadığı biriyle beraber olur musun?"
+ },
+ {
+  "id": "289535a4-8bd1-40f3-b08b-3a922499bbb7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone who is famous online?",
+  "tr": "İnternette ünlü olan biriyle beraber olur musun?"
+ },
+ {
+  "id": "b1acfbe5-f3af-4497-a227-9d505804fc19",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone who is very flirtatious?",
+  "tr": "Flörtöz biriyle birlikte olur musun?"
+ },
+ {
+  "id": "c5360398-4fae-4217-b9a9-688f74fe7070",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you believe in love at first sight?",
+  "tr": "İlk bakışta aşka inanır mısın?"
+ },
+ {
+  "id": "2ee5b9b7-f944-4184-95fa-6126fc6e3728",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is physical attractiveness more important to you than intelligence?",
+  "tr": "Yakışıklılık ya da güzellik senin için zekadan önce mi gelir?"
+ },
+ {
+  "id": "e6bbcb00-c081-42da-8fa3-49ddc918d36d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever had a period when you were very flirty?",
+  "tr": "Çok fazla çapkın olduğun bir dönem oldu mu?"
+ },
+ {
+  "id": "a0104269-bc85-49c8-ab80-c42c0378b7a1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your friends don't like your partner, would it make you lose interest in them?",
+  "tr": "Arkadaşların sevgilinden hoşlanmasa, bu sevgilinden soğumana sebep olur mu?"
+ },
+ {
+  "id": "2f245f8d-f7f9-44a4-a1ef-70380caf5c51",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think long-term friends can become romantic partners later?",
+  "tr": "Sence uzun süreli arkadaşlar sonradan sevgili olabilir mi?"
+ },
+ {
+  "id": "40004a65-7deb-4d2e-894f-c10ac0c02ede",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your friend were romantically attracted to you, would you give them a chance?",
+  "tr": "Arkadaşın senden hoşlanıyor olsa romantik anlamda, ona bir şans verir miydin?"
+ },
+ {
+  "id": "7ee41bf9-fa8d-42ab-a4a5-25bd110543e0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you stopped trying in your relationship, would your partner still stay?",
+  "tr": "İlişkinde çabalamayı bıraksan, partnerin yine de kalır mıydı?"
+ },
+ {
+  "id": "b1eea995-fbe7-4313-be08-f61522b35b5a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner wanted to make a TikTok video with you for a trend, would you agree?",
+  "tr": "Sevgilin bir TikTok akımı için seninle video çekmek isterse, bunu kabul eder misin?"
+ },
+ {
+  "id": "2a9a3787-2ade-4db3-a8ca-ac97c25f2a80",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you fell out of love, would you stay for the sake of history?",
+  "tr": "Aşkın bitse bile sadece yaşanmışlıkların hatırına kalmaya devam eder miydin?"
+ },
+ {
+  "id": "c76d7425-b712-41a8-8a78-e20b3844a382",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Should the man make the first move?",
+  "tr": "İlk adımı erkek mi atmalı?"
+ },
+ {
+  "id": "e8dd11c5-218b-4d77-a137-0444c87fff31",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner looked a lot like their previous partner, would it bother you?",
+  "tr": "Sevgilinin bir önceki sevgilisine çok benziyor olsan, sorun çıkarır mıydın?"
+ },
+ {
+  "id": "69535b7c-b94c-4ebc-95b0-5fa46b811906",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner wanted to read your messages with your friend group, would you let them?",
+  "tr": "Sevgilin, senin arkadaş grubunla olan mesajlarını okumak isterse okutur musun?"
+ },
+ {
+  "id": "308773bf-cdf6-4b94-ad4b-f180e08e5163",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner is a big fan of a celebrity of the opposite sex, would it be a problem?",
+  "tr": "Sevgilin eğer ki karşı cins bir ünlüye çok fan ise, bu bir sorun yaratır mı?"
+ },
+ {
+  "id": "22a15b58-da54-4651-8f7e-1fe19d7759bb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is harder to rebuild after it is broken?",
+  "tr": "Kırıldıktan sonra hangisini yeniden inşa etmek daha zordur?",
+  "answers_en": [
+   "Trust",
+   "Respect"
+  ],
+  "answers_tr": [
+   "Güven",
+   "Saygı"
+  ]
+ },
+ {
+  "id": "3576a2e2-2091-4b80-be80-5ab444b547cd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you live in the same house with a friend of the opposite sex while having a partner?",
+  "tr": "Sevgilin varken karşı cins arkadaşınla aynı evde yaşar mısın?"
+ },
+ {
+  "id": "a174d015-ea8e-438b-b656-4f2fd4c4d34a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you constantly check your partner's social media followers and who they follow?",
+  "tr": "Sevgilinin sosyal medyadaki takipçilerini ve takip ettiklerini sürekli kontrol eder misin?"
+ },
+ {
+  "id": "9dbad2cb-e77a-4d79-ab55-a910ff298ae6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever ghosted any of your flirts before?",
+  "tr": "Daha önce hiçbir flörtünü ghostladın mı?"
+ },
+ {
+  "id": "40f38dbd-3632-412b-8639-66caf198eccb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you prefer a passionate but argumentative relationship over a calm and romantic one?",
+  "tr": "Merhametli ve romantik bir ilişki yerine, tutkulu ama tartışmalı bir ilişki tercih eder misin?"
+ },
+ {
+  "id": "e79b86a4-0b67-4524-863e-99c6afe7244b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you constantly stalk someone you're attracted to?",
+  "tr": "Hoşlandığın birini sürekli olarak stalklar mısın?"
+ },
+ {
+  "id": "f60eb06e-d599-4397-9b8e-d998cf3aa387",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you stop talking to a friend who finds you attractive if your partner asked you to?",
+  "tr": "Seni çekici bulan arkadaşınla, partnerin istediği için konuşmayı bırakır mısın?"
+ },
+ {
+  "id": "88d9192e-4744-437f-a872-d8506811e724",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you like it if your partner told you every time someone hit on them?",
+  "tr": "Sevgilinin sana her yürüyeni söylemesi hoşuna gider mi?"
+ },
+ {
+  "id": "ac9241fd-9c2f-4660-b29f-54b5f376e587",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your best friend and partner met without telling you, would you get jealous?",
+  "tr": "En yakın arkadaşın ve sevgilin senden habersiz buluşmuşlar. Kıskanır mıydın?"
+ },
+ {
+  "id": "2f3ce1da-32a3-4290-bfed-f7010eceef7f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you go on a double date with someone you don't like just for your friend?",
+  "tr": "Arkadaşın için beğenmediğin biri olsa bile 4'lü date'e çıkar mısın?"
+ },
+ {
+  "id": "70d85605-9926-497a-bc33-8f1f160a767b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If both you and your friend liked the same person, would you be the one to step back?",
+  "tr": "Arkadaşınla ikiniz de aynı kişiden hoşlansanız, geri çekilen taraf sen mi olursun?"
+ },
+ {
+  "id": "c721139f-fab6-47e1-a92a-ac02286c6f63",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is a good friendship better than a good romantic relationship?",
+  "tr": "İyi bir dostluk ilişkisi, iyi bir sevgiliden daha mı iyidir?"
+ },
+ {
+  "id": "8859ae1e-8d5b-42ae-b6c0-58f9db24d4e6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you try to find someone else immediately after breaking up to forget your partner?",
+  "tr": "Sevgilinle ayrıldıktan hemen sonra onu unutmak için başkasını bulmaya çalışır mısın?"
+ },
+ {
+  "id": "eb40b9fd-6df9-4f75-973c-88fd188c976a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever been with someone who wasn't very smart but was very attractive?",
+  "tr": "Çok zeki olmasa da çok çekici olduğu için birisiyle beraber olduğun oldu mu?"
+ },
+ {
+  "id": "225fc433-ee24-4a08-a284-549ba829e019",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever tried a relationship with someone just because they liked you, even if you weren’t very into them?",
+  "tr": "Sırf arkadaşın olduğu için çok hoşlanmasan bile senden hoşlandığı için bir ilişki denedin mi?"
+ },
+ {
+  "id": "6b4a33bb-950c-4e92-b374-36b9671321b2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you date someone who strongly believes in zodiac signs?",
+  "tr": "Burçlara çok fazla inanan biriyle sevgili olur musun?"
+ },
+ {
+  "id": "c50d0e1f-0a2d-43a9-8770-bcf5d941ef75",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is your partner's sexual ability an important factor for you?",
+  "tr": "Partnerinin cinsel becerisi senin için önemli bir etken mi?"
+ },
+ {
+  "id": "f1a8d83b-d35c-43e5-b186-0b32e3f7b451",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you continue a relationship with someone who isn't very skilled sexually?",
+  "tr": "Cinsellikte çok iyi olmayan biriyle ilişkinizi devam ettirir misin?"
+ },
+ {
+  "id": "d53cac0d-e7f5-4db7-ac2d-b7e17ffa702c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would it bother you if your partner's close friend of the opposite sex is very attractive?",
+  "tr": "Sevgilinin yakın karşı cins arkadaşı çok güzel/yakışıklı olmasi seni rahatsız eder mi?"
+ },
+ {
+  "id": "a1f43837-d310-4c12-8369-557c27f561fc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it a problem for you if your partner has a very high libido?",
+  "tr": "Partnerinin libidosunun çok yüksek olması senin için bir sorun mu?"
+ },
+ {
+  "id": "6c5538e2-5508-4b67-a9ea-a489348c4c37",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it a problem for you if your partner has a low libido?",
+  "tr": "Sevgilinin libidosunun düşük olması senin için bir problem mi?"
+ },
+ {
+  "id": "a10af84c-2ef5-49d4-8905-9088ce451ce5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it important to you how your partner earns a living?",
+  "tr": "Partnerinin geçimini nasıl sağladığı senin için önemli mi?"
+ },
+ {
+  "id": "6aaee788-917c-4ee2-8a9a-9cca6a9c69f7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever had feelings for a friend’s ex?",
+  "tr": "Hiç bir arkadaşının eski sevgilisine karşı bir şeyler hissettin mi?"
+ },
+ {
+  "id": "eea3c3ff-7e4d-47bd-afff-b4e7461f0ec2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever pretended to be sick to avoid a date?",
+  "tr": "Hiç bir buluşmadan kaçmak için hasta numarası yaptın mı?"
+ },
+ {
+  "id": "712df3cd-471a-4405-9e76-d54832abbcc4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever changed a feature just because someone wanted it?",
+  "tr": "Daha önce hiç bir insan istediği için bir özelliği değiştirdin mi?"
+ },
+ {
+  "id": "9314d50f-94c5-418b-815c-f36bede1a87f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think it's normal in a relationship to know your partner's social media passwords?",
+  "tr": "İlişkide sevgilinin sosyal medya hesabı şifrelerini bilmek sence normal mi?"
+ },
+ {
+  "id": "7f9d30fa-6891-460d-a0b5-34d836cff571",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Does your partner staying silent during an argument make you more angry?",
+  "tr": "Partnerinin tartışma esnasında sessiz kalması seni daha çok sinirlendirir mi?"
+ },
+ {
+  "id": "8ae7a335-ee23-4949-91da-d79b1a50e8f5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Does it bother you if your partner constantly deletes messages on their phone?",
+  "tr": "Partnerin sürekli telefonundaki mesajları siliyorsa, bu seni rahatsız eder mi?"
+ },
+ {
+  "id": "a6b504e5-84cd-460b-b095-9cb3103dbdb0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think a person's closest friend should be their partner?",
+  "tr": "Bir insanın en yakın arkadaşı sence partneri mi olmalıdır?"
+ },
+ {
+  "id": "0fbdca85-41a4-499a-931d-8491a38e651b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think differences in religion and race make a relationship more difficult?",
+  "tr": "Sence bir ilişkide din ve ırk farklılığı, ilişkiyi zorlaştırır mı?"
+ },
+ {
+  "id": "2084f3b0-b540-4c5f-a400-f9f0d46a7310",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which one do you find more attractive: intelligence or body?",
+  "tr": "Hangisini daha çekici buluyorsun: zeka mı yoksa vücut mu?",
+  "answers_en": [
+   "Intelligence",
+   "Body"
+  ],
+  "answers_tr": [
+   "Zeka",
+   "Vücut"
+  ]
+ },
+ {
+  "id": "ebcc2753-cafa-4764-8de8-00c9e8c64d81",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which is worse: your partner cheating on you emotionally or physically?",
+  "tr": "Hangisi daha kötü: partnerinin seni duygusal olarak aldatması mı, fiziksel olarak aldatması mı?",
+  "answers_en": [
+   "Emotionally",
+   "Physically"
+  ],
+  "answers_tr": [
+   "Duygusal olarak",
+   "Fiziksel olarak"
+  ]
+ },
+ {
+  "id": "63b32ee8-1fa7-4e8a-8e78-a4e97cac10d7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which would bother you more: your partner being overly honest or sometimes hiding their feelings?",
+  "tr": "Hangisi seni daha çok rahatsız eder: sevgilin aşırı açık sözlü olursa mı, yoksa duygularını bazen saklarsa mı?",
+  "answers_en": [
+   "Being honest",
+   "Hiding feelings"
+  ],
+  "answers_tr": [
+   "Açık sözlü olması",
+   "Duygularını saklaması"
+  ]
+ },
+ {
+  "id": "df254cfe-4e09-4956-92ce-5d706c4c7d50",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Can your partner restrict you in certain situations?",
+  "tr": "Sevgilin seni bazı konularda kısıtlayabilir mi?"
+ },
+ {
+  "id": "779c01e5-9ba2-48ed-84f5-747084bda093",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Does your partner have to share a photo with you on their social media accounts?",
+  "tr": "Sevgilin sosyal medya hesaplarında seninle bir fotoğraf paylaşmak zorunda mıdır?"
+ },
+ {
+  "id": "7dfca2ae-4653-499b-8b35-8409ac9cb8e5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you be with someone who has been married before?",
+  "tr": "Daha önce evlilik yapmış biriyle beraber olur musun?"
+ },
+ {
+  "id": "ecb7bf85-0455-46c5-9045-8c485aa6c8d6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you be with someone whose previous relationship ended very recently?",
+  "tr": "İlişkisi çok yakın zamanda bitmiş biriyle beraber olur musun?"
+ },
+ {
+  "id": "7713469e-5c7c-4081-885e-784fcefc308b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you really liked a piece of clothing, would you buy it even if it was very expensive?",
+  "tr": "Bir kıyafeti çok beğensen, parası çok pahalı da olsa satın alır mısın?"
+ },
+ {
+  "id": "a25b6694-0388-469a-80c3-1a065d4641da",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you be with someone who never likes cooking and always eats out?",
+  "tr": "Yemek yapmayı asla sevmeyen, hep dışarıdan yemek yiyen biriyle beraber olur musun?"
+ },
+ {
+  "id": "9106e2f1-c28e-4b6d-a27f-3ac47f185e39",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think your ex-partner should be removed from social media accounts?",
+  "tr": "Sence ayrıldığın sevgilin sosyal medya hesaplarından silinmeli mi?"
+ },
+ {
+  "id": "1d7b03f4-df47-452a-8a54-1b98528dd75a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you want to have had only one partner since high school and married them?",
+  "tr": "Lise yıllarından beri sadece 1 sevgilinin olmasını ve onunla evlenmiş olmayı ister miydin?"
+ },
+ {
+  "id": "e371edc7-ba67-4d14-8fa7-dad00b7d6b31",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you start a relationship with someone you love but doubt their loyalty?",
+  "tr": "Sadakati hakkında şüphe duyduğun ama aşık olduğun biriyle bir ilişkiye başlar mısın?"
+ },
+ {
+  "id": "36c6f327-8de2-42ed-8165-752c783ae56d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think it's normal for someone to have other flirts while in a flirtation period with you?",
+  "tr": "Birisiyle flört dönemindeyken, başka flörtlerinin de olması sence normal mi?"
+ },
+ {
+  "id": "c7aec6af-0246-41d9-bcc6-ce59c3b9403e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you be suspicious of someone who always places their phone face down on the table when going to the bathroom?",
+  "tr": "Tuvalete giderken telefonunu her zaman masaya ters koyan birinden şüphelenir misin?"
+ },
+ {
+  "id": "b0f272c0-ca82-4663-bc78-6c406bb5b831",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Have you ever completely cut off a relationship over something trivial?",
+  "tr": "Daha önce hiç bir sevgilinle aran çok saçma bir şey yüzünden tamamen kesildi mi?"
+ },
+ {
+  "id": "c70818b5-97c6-4134-8b6e-94b01052f279",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you feel turned off if your partner refused to drink from the same bottle as you?",
+  "tr": "Sevgilin senin içtiğin su şişesinden su içmezse ondan soğur musun?"
+ },
+ {
+  "id": "4c354718-87c5-46d1-b2d7-733646f06068",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it okay for your partner to treat a friend of the opposite sex to a meal?",
+  "tr": "Partnerin karşı cinsten bir arkadaşına yemek ısmarlayabilir mi?"
+ },
+ {
+  "id": "29870733-c386-448b-82a7-a2f059a50ba4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it okay for your partner to meet one-on-one with a friend of the opposite sex?",
+  "tr": "Sevgilin karşı cinsten bir arkadaşıyla baş başa buluşabilir mi?"
+ },
+ {
+  "id": "e392db65-9315-4f83-8930-34c5a450b24a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you get upset if your partner refused to show you their messages with a friend of the opposite sex?",
+  "tr": "Sevgilin karşı cinsten bir arkadaşıyla olan mesajlarını sana okutmazsa ona sinirlenir misin?"
+ },
+ {
+  "id": "1b878572-51f3-4ef5-b869-57695d5b4bba",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it okay for your partner to buy coffee for a friend of the opposite sex?",
+  "tr": "Partnerin karşı cinsiyetten olan bir arkadaşına kahve ısmarlayabilir mi?"
+ },
+ {
+  "id": "1338669a-0f18-42d9-b936-97fa0009639f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you want to know everything about your partner’s past or only the necessary parts?",
+  "tr": "Partnerinin geçmişine dair her şeyi mi bilmek istersin yoksa sadece gerekli kısımları mı?",
+  "answers_en": [
+   "Everything",
+   "Only necessary parts"
+  ],
+  "answers_tr": [
+   "Her şey",
+   "Sadece gerekli kısımlar"
+  ]
+ },
+ {
+  "id": "35f1ccbf-5cf0-4b91-b844-cdc93470350c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Jealousy between you and your partner...",
+  "tr": "Partnerinle arandaki kıskançlık…",
+  "answers_en": [
+   "A sweet thing",
+   "Harmful to the relationship"
+  ],
+  "answers_tr": [
+   "Tatlı bir şeydir",
+   "İlişkiye zarar verir"
+  ]
+ },
+ {
+  "id": "b60dd292-09bb-4403-8129-eceb964a89bb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Who texts first in a relationship...",
+  "tr": "İlişkide “ilk yazan kim” konusu…",
+  "answers_en": [
+   "An important balance",
+   "Should not be cared about"
+  ],
+  "answers_tr": [
+   "Önemli bir dengedir",
+   "Umursanmamalı"
+  ]
+ },
+ {
+  "id": "8a5c8ef1-6310-4d06-8af8-e41508b1d9af",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What's the ideal length of a first date, in hours?",
+  "tr": "İlk buluşma ideal kaç saat sürer?"
+ },
+ {
+  "id": "3038d09c-8a48-432e-8f6a-3173cdf1b0f3",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "After how many dates is a first kiss okay?",
+  "tr": "İlk öpücük kaçıncı buluşmada olur?"
+ },
+ {
+  "id": "3a7b78ae-2cd0-461c-a69f-f2f5e35d2593",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What's the best time of day for a first date?",
+  "tr": "İlk buluşma için günün en iyi saati ne?"
+ },
+ {
+  "id": "8488f194-3774-470b-ac98-dfab1027a149",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many days should you wait before asking for a second date?",
+  "tr": "İkinci buluşmayı istemeden önce kaç gün beklenmeli?"
+ },
+ {
+  "id": "00d225ad-05d7-4044-9a9a-f002791aa06b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What's a good age gap in a relationship, in years?",
+  "tr": "İlişkide iyi bir yaş farkı kaç yıl?"
+ },
+ {
+  "id": "52369eca-4691-4ff4-ba5c-db44489ab01d",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How often should new couples text each day?",
+  "tr": "Yeni çiftler günde kaç kere yazışmalı?"
+ },
+ {
+  "id": "0e7b5127-24d4-48bc-b454-f43ae9fade2d",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "After how many dates is staying over okay?",
+  "tr": "Evde kalmak kaçıncı buluşmada olur?"
+ },
+ {
+  "id": "831590be-5c22-4b45-b378-5794e75e0f56",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many minutes late is acceptable on a first date?",
+  "tr": "İlk buluşmada kaç dakika geç kalmak kabul edilir?"
+ },
+ {
+  "id": "7192abf5-e884-4f12-80e1-1d0b1a96e8c0",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many exes is too many?",
+  "tr": "Kaç eski sevgili fazla kaçmış olur?"
+ },
+ {
+  "id": "f8ed25d1-90b1-4de2-a09b-6adbf13a1e81",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How long should you talk before meeting in person, in days?",
+  "tr": "Yüz yüze buluşmadan önce kaç gün yazışılmalı?"
+ },
+ {
+  "id": "38f9ad51-d981-4adf-94a0-90ebe2900c76",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What should you never order on a first date?",
+  "tr": "İlk buluşmada asla ne sipariş edilmez?"
+ },
+ {
+  "id": "ebed3fec-e1ae-4368-8a0e-4e4dd4e78af9",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What pet name do you use most for your partner?",
+  "tr": "Sevgiline en çok hangi lakapla hitap edersin?"
+ },
+ {
+  "id": "d14e2f10-7c81-43cd-be66-3e778564a465",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What's the max number of past flirts your partner could have before it turns you off?",
+  "tr": "Sevgilinin geçmişte en fazla kaç flörtü olursa ondan soğursun?"
+ },
+ {
+  "id": "010dfc92-9c21-441a-a0f5-b159412b70a2",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many years in a past relationship would turn you off? Write 0 if none would.",
+  "tr": "Sevgilinin eski bir ilişkisi kaç yıllık olsa seni soğutur? Hiçbiri soğutmazsa 0 yaz."
+ },
+ {
+  "id": "9cd5fd8b-3a6e-4b0f-a091-7d8612fb213f",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What should your partner never call you?",
+  "tr": "Sevgilinin sana asla ne diye hitap etmesini istemezsin?"
+ },
+ {
+  "id": "87658e97-ac2e-44a5-b542-433a08e7aabd",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What do you most want your partner to call you?",
+  "tr": "Sevgilinin sana en çok ne diye hitap etmesini istersin?"
+ },
+ {
+  "id": "763e922e-ab9e-4f6f-827e-693af2a26f4d",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "After how many years together would you want to move in?",
+  "tr": "Sevgilinle kaç yıldan sonra aynı eve taşınmayı istersin?"
+ },
+ {
+  "id": "77c7dd5e-0ffd-4698-b393-0ff78d1e213b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "After how many months would you want to meet their family?",
+  "tr": "Sevgilinle kaç aydan sonra ailesiyle buluşmayı istersin?"
+ },
+ {
+  "id": "595fa92e-a25b-4dc9-8f78-4550f1d8608f",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "After how many years of marriage would you want kids?",
+  "tr": "Sevgilinle kaç yıl evli kaldıktan sonra çocuk yapmak istersin?"
+ },
+ {
+  "id": "3a380d3f-8123-4e99-b4f3-e7d2ec4ff655",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What's your ideal first date?",
+  "tr": "İdeal ilk buluşman ne olur?",
+  "answers_en": [
+   "Coffee",
+   "A walk",
+   "Dinner",
+   "Drinks"
+  ],
+  "answers_tr": [
+   "Kahve",
+   "Yürüyüş",
+   "Akşam yemeği",
+   "Bir şeyler içmek"
+  ]
+ },
+ {
+  "id": "804c67c5-9dd5-4bf0-9448-3e0ab96b2928",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Someone you're talking to takes two days to reply. What do you do?",
+  "tr": "Konuştuğun biri iki gündür cevap vermiyor. Ne yaparsın?",
+  "answers_en": [
+   "Wait it out",
+   "Send a light follow-up",
+   "Match their energy",
+   "Lose interest"
+  ],
+  "answers_tr": [
+   "Beklersin",
+   "Hafif bir follow-up atarsın",
+   "Onların temposuna uyarsın",
+   "İlgini kaybedersin"
+  ]
+ },
+ {
+  "id": "6edf2d1a-551c-4860-991c-3fb9641f6085",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How should a good first date end?",
+  "tr": "İyi bir ilk buluşma nasıl bitmeli?",
+  "answers_en": [
+   "A hug",
+   "A kiss",
+   "A clear plan for date two",
+   "Just goodbye for now"
+  ],
+  "answers_tr": [
+   "Sarılmak",
+   "Öpücük",
+   "Net bir ikinci buluşma planı",
+   "Şimdilik sadece bay bay"
+  ]
+ },
+ {
+  "id": "4f7b735e-59a7-4eeb-bcaa-43853cdf224a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Where's your phone on a first date?",
+  "tr": "İlk buluşmada telefonun nerede?",
+  "answers_en": [
+   "In your bag or pocket",
+   "Face down on the table",
+   "On silent, nearby",
+   "You barely notice it"
+  ],
+  "answers_tr": [
+   "Çantanda veya cebinde",
+   "Masada ters",
+   "Sessizde, yakında",
+   "Neredeyse fark etmezsin"
+  ]
+ },
+ {
+  "id": "10ca97e0-e294-417e-84be-a586b2a6e65c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Who should plan the second date?",
+  "tr": "İkinci buluşmayı kim planlamalı?",
+  "answers_en": [
+   "Whoever asked for date one",
+   "The other person this time",
+   "Whoever's more free",
+   "Plan it together"
+  ],
+  "answers_tr": [
+   "İlk buluşmayı kim istediyse",
+   "Bu sefer diğeri",
+   "Kim daha müsaitse",
+   "Birlikte planlayın"
+  ]
+ },
+ {
+  "id": "15087f4a-b129-4ded-bda9-9b8e9f2ce9c9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "The first date was fine, not amazing. What do you do?",
+  "tr": "İlk buluşma fena değildi ama muhteşem de değildi. Ne yaparsın?",
+  "answers_en": [
+   "Give it a second date",
+   "Ghost politely",
+   "Say you're not feeling it",
+   "Keep texting and see"
+  ],
+  "answers_tr": [
+   "İkinci şans verirsin",
+   "Sessizce uzaklaşırsın",
+   "Hissetmediğini söylersin",
+   "Yazışmaya devam edip bakarsın"
+  ]
+ },
+ {
+  "id": "9d5474ab-62cf-433d-8a62-9cfe83a90018",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How do you prefer to be asked out?",
+  "tr": "Senden nasıl çıkma teklifi edilmesini seversin?",
+  "answers_en": [
+   "In person",
+   "Over text",
+   "With a specific plan",
+   "Casually, no pressure"
+  ],
+  "answers_tr": [
+   "Yüz yüze",
+   "Mesajla",
+   "Net bir planla",
+   "Rahat, baskısız"
+  ]
+ },
+ {
+  "id": "46002351-0295-45f1-a0f9-322e2d7f98b9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They bring up their ex on the first date. What do you do?",
+  "tr": "İlk buluşmada eski sevgilisini açıyor. Ne yaparsın?",
+  "answers_en": [
+   "Change the subject",
+   "Listen briefly",
+   "Ask one follow-up",
+   "Lose interest"
+  ],
+  "answers_tr": [
+   "Konuyu değiştirirsin",
+   "Kısaca dinlersin",
+   "Bir soru daha sorarsın",
+   "İlgini kaybedersin"
+  ]
+ },
+ {
+  "id": "a90fff4b-18ba-402c-920d-e141465c46fb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When do you tell friends you're seeing someone new?",
+  "tr": "Yeni biriyle çıktığını arkadaşlarına ne zaman söylersin?",
+  "answers_en": [
+   "After the first date",
+   "After a few dates",
+   "Only when it feels serious",
+   "You keep it private for a while"
+  ],
+  "answers_tr": [
+   "İlk buluşmadan sonra",
+   "Birkaç buluşmadan sonra",
+   "Ciddi hissedince",
+   "Bir süre gizli tutarsın"
+  ]
+ },
+ {
+  "id": "2afd06cc-aad0-4cd2-b85a-be260fc537a9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Their dating app lights up on the table during your date. What do you do?",
+  "tr": "Buluşurken masadaki telefonda dating app yanıyor. Ne yaparsın?",
+  "answers_en": [
+   "Ignore it",
+   "Joke about it",
+   "Ask about it directly",
+   "Lose interest"
+  ],
+  "answers_tr": [
+   "Görmezden gelirsin",
+   "Şakaya vurursun",
+   "Direkt sorarsın",
+   "İlgini kaybedersin"
+  ]
+ },
+ {
+  "id": "80a133aa-e818-4387-ba13-6d18f3eca48c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "An awkward silence hits for 20 seconds. What do you do?",
+  "tr": "20 saniyelik garip bir sessizlik oluyor. Ne yaparsın?",
+  "answers_en": [
+   "Ask a random question",
+   "Make a joke about the silence",
+   "Sit in it comfortably",
+   "Panic a little inside"
+  ],
+  "answers_tr": [
+   "Rastgele bir soru atarsın",
+   "Sessizlikle dalga geçersin",
+   "Rahatça oturursun",
+   "İçinden biraz paniklersin"
+  ]
+ },
+ {
+  "id": "54ae559d-c747-4baa-b836-c2ac0f6d5914",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You run into your ex during the date. What do you do?",
+  "tr": "Buluşurken eski sevgiline rastlıyorsun. Ne yaparsın?",
+  "answers_en": [
+   "Quick hello, keep moving",
+   "Introduce them briefly",
+   "Pretend you didn't see them"
+  ],
+  "answers_tr": [
+   "Hızlı selam, yola devam",
+   "Kısaca tanıştırırsın",
+   "Görmemiş gibi yaparsın"
+  ]
+ },
+ {
+  "id": "1862d1eb-0f5f-4433-b278-f78ae8e65a56",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They order for you without asking. What do you do?",
+  "tr": "Sormadan senin adına sipariş veriyorlar. Ne yaparsın?",
+  "answers_en": [
+   "Go with it",
+   "Change it politely",
+   "Call it out as a bit much"
+  ],
+  "answers_tr": [
+   "Uyarsın",
+   "Nazikçe değiştirirsin",
+   "Biraz fazla bulduğunu söylersin"
+  ]
+ },
+ {
+  "id": "b5794a9f-d967-4b5d-924b-08fde07181dd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Someone you're talking to sends you a 4-minute voice note. What do you do?",
+  "tr": "Konuştuğun kişi sana 4 dakikalık bir sesli mesaj atıyor. Ne yaparsın?",
+  "answers_en": [
+   "Listen to the whole thing",
+   "Play it at 1.5x",
+   "Reply with a voice note",
+   "Ask them to just text"
+  ],
+  "answers_tr": [
+   "Sonuna kadar dinlersin",
+   "1,5x hızda dinlersin",
+   "Sen de sesli atarsın",
+   "\"Yazsana\" dersin"
+  ]
+ },
+ {
+  "id": "11057121-36b1-4bec-8fe0-a951f48a59cb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Before your second date, they like a photo of yours from 2019. What do you do?",
+  "tr": "İkinci buluşmadan önce Instagram'da 2019'dan bir fotoğrafını beğeniyor. Ne yaparsın?",
+  "answers_en": [
+   "Laugh it off",
+   "Like an old one of theirs back",
+   "Tease them about it on the date",
+   "Get a little creeped out"
+  ],
+  "answers_tr": [
+   "Gülüp geçersin",
+   "Sen de onun eski bir fotoğrafını beğenirsin",
+   "Buluşmada şakasını yaparsın",
+   "Biraz ürkersin"
+  ]
+ },
+ {
+  "id": "2018faf7-7f62-4184-ab8d-f8daddf0c55b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You bump into each other at a friend's party. Nobody knows you've been seeing each other. What do you do?",
+  "tr": "Bir arkadaşının partisinde karşılaşıyorsunuz. Görüştüğünüzü kimse bilmiyor. Ne yaparsın?",
+  "answers_en": [
+   "Act like strangers",
+   "Say hi casually, give nothing away",
+   "Go straight over and stick together"
+  ],
+  "answers_tr": [
+   "Tanımıyormuş gibi yaparsın",
+   "Normal selam verir, belli etmezsin",
+   "Direkt yanına gidip takılırsın"
+  ]
+ },
+ {
+  "id": "4186af00-6693-48c4-b037-597f68eca363",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "The day after your date, a mutual friend tells you they described the whole thing. How do you feel?",
+  "tr": "Buluşmanın ertesi günü, ortak bir arkadaşınızdan her şeyi anlattığını öğreniyorsun. Ne hissedersin?",
+  "answers_en": [
+   "Flattered",
+   "Curious what they said",
+   "A little annoyed",
+   "No big deal, you told yours too"
+  ],
+  "answers_tr": [
+   "Hoşuna gider",
+   "Ne anlattığını merak edersin",
+   "Biraz bozulursun",
+   "Sorun etmezsin, sen de anlattın"
+  ]
+ },
+ {
+  "id": "90996073-0d83-444d-b35a-979f896c0b5a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You get home after a great first date. Neither of you has texted yet. What do you do?",
+  "tr": "Çok iyi geçen ilk buluşmadan sonra eve vardın. İkiniz de henüz yazmadınız. Ne yaparsın?",
+  "answers_en": [
+   "Text them right away",
+   "Wait for them to text first",
+   "Leave it till tomorrow",
+   "Post a story and see if they watch"
+  ],
+  "answers_tr": [
+   "Hemen yazarsın",
+   "Onun yazmasını beklersin",
+   "Yarına bırakırsın",
+   "Story atıp bakıp bakmadığını izlersin"
+  ]
+ },
+ {
+  "id": "585b6edd-f0f5-45dc-9b1a-70fadafc76c5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more on a first date: being rude to the waiter or never looking up from their phone?",
+  "tr": "İlk buluşmada hangisi seni daha çok soğutur: garsona kaba davranması mı, telefondan hiç başını kaldırmaması mı?",
+  "answers_en": [
+   "Rude to the waiter",
+   "Glued to their phone"
+  ],
+  "answers_tr": [
+   "Garsona kaba davranması",
+   "Telefondan başını kaldırmaması"
+  ]
+ },
+ {
+  "id": "6fbf29f6-9fdd-469b-a49f-dceeae0f2960",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: talking only about themselves or never sharing anything about themselves?",
+  "tr": "Hangisi seni daha çok soğutur: sürekli kendinden bahsetmesi mi, kendinden hiç bahsetmemesi mi?",
+  "answers_en": [
+   "Only talks about themselves",
+   "Never opens up"
+  ],
+  "answers_tr": [
+   "Sürekli kendinden bahsetmesi",
+   "Kendinden hiç bahsetmemesi"
+  ]
+ },
+ {
+  "id": "7d216358-afbd-4df9-bcbf-5dd6d671e303",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: a bad kiss or a boring conversation?",
+  "tr": "Hangisi seni daha çok soğutur: kötü öpüşmesi mi, sohbetinin sıkıcı olması mı?",
+  "answers_en": [
+   "A bad kiss",
+   "A boring conversation"
+  ],
+  "answers_tr": [
+   "Kötü öpüşmesi",
+   "Sıkıcı sohbet"
+  ]
+ },
+ {
+  "id": "720a9cbc-8710-4872-80f2-53300dbadf6f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the early days, which turns you off more: texting nonstop or barely texting at all?",
+  "tr": "İlk dönemde hangisi seni daha çok soğutur: durmadan yazması mı, neredeyse hiç yazmaması mı?",
+  "answers_en": [
+   "Texting nonstop",
+   "Barely texting"
+  ],
+  "answers_tr": [
+   "Durmadan yazması",
+   "Neredeyse hiç yazmaması"
+  ]
+ },
+ {
+  "id": "3cf1a84d-e223-4e63-93d8-777459021597",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: turning everything into a joke or never getting a joke?",
+  "tr": "Hangisi seni daha çok soğutur: her şeyi şakaya vurması mı, hiç şakadan anlamaması mı?",
+  "answers_en": [
+   "Jokes about everything",
+   "Never gets a joke"
+  ],
+  "answers_tr": [
+   "Her şeyi şakaya vurması",
+   "Şakadan anlamaması"
+  ]
+ },
+ {
+  "id": "fc011c5b-4593-4cc1-b280-0684ad82df8d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: looking different from their photos or lying about their age on their profile?",
+  "tr": "Hangisi seni daha çok soğutur: fotoğraflarından farklı çıkması mı, profilinde yaşını yalan yazması mı?",
+  "answers_en": [
+   "Looks different from their photos",
+   "Lied about their age"
+  ],
+  "answers_tr": [
+   "Fotoğraflarından farklı çıkması",
+   "Yaşını yalan yazması"
+  ]
+ },
+ {
+  "id": "ad06a964-fa58-4061-8344-79edf5b520d8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: saying \"I don't mind\" to everything or having an opinion on everything?",
+  "tr": "Hangisi seni daha çok soğutur: her şeye \"fark etmez\" demesi mi, her şeye karışması mı?",
+  "answers_en": [
+   "\"I don't mind\" to everything",
+   "An opinion on everything"
+  ],
+  "answers_tr": [
+   "Her şeye \"fark etmez\" demesi",
+   "Her şeye karışması"
+  ]
+ },
+ {
+  "id": "4f531856-318c-487f-a619-fa0a59a99d7f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: smelling bad or dressing badly?",
+  "tr": "Hangisi seni daha çok soğutur: kötü kokması mı, kötü giyinmesi mi?",
+  "answers_en": [
+   "Smelling bad",
+   "Dressing badly"
+  ],
+  "answers_tr": [
+   "Kötü kokması",
+   "Kötü giyinmesi"
+  ]
+ },
+ {
+  "id": "ef9f4128-7b1c-403e-ad46-17990ee3ceef",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: telling their family everything or telling their family nothing?",
+  "tr": "Hangisi seni daha çok soğutur: ailesine her şeyi anlatması mı, ailesine hiçbir şey anlatmaması mı?",
+  "answers_en": [
+   "Tells their family everything",
+   "Tells their family nothing"
+  ],
+  "answers_tr": [
+   "Ailesine her şeyi anlatması",
+   "Ailesine hiçbir şey anlatmaması"
+  ]
+ },
+ {
+  "id": "b2e21ef2-40ff-43ce-8665-31fc326735d8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: posting every moment on social media or having no social media at all?",
+  "tr": "Hangisi seni daha çok soğutur: sosyal medyada her anını paylaşması mı, hiç sosyal medyası olmaması mı?",
+  "answers_en": [
+   "Posts every moment",
+   "No social media at all"
+  ],
+  "answers_tr": [
+   "Her anını paylaşması",
+   "Hiç sosyal medyası olmaması"
+  ]
+ },
+ {
+  "id": "125f2188-cb75-4827-bba0-a5721c1d2e63",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "On the first date, they keep showing you photos of themselves. Out of 10, what score do they drop to?",
+  "tr": "İlk buluşmada sürekli sana kendi fotoğraflarını gösteriyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "abb96582-9c4f-4d8e-87c3-439282f14837",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They bring a friend along to your first date. Out of 10, what score do they drop to?",
+  "tr": "İlk buluşmanıza bir arkadaşını da getiriyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "b94e3ab0-6f33-4e74-8909-a86affc709f8",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "Their texts are full of spelling mistakes. Out of 10, what score do they drop to?",
+  "tr": "Mesajları yazım hatalarıyla dolu. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "9dd33cdd-203d-49b4-ac8e-90c529ee3982",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They chew with their mouth open on your date. Out of 10, what score do they drop to?",
+  "tr": "Buluşmada ağzını şapırdatarak yemek yiyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "f17f2378-b71d-448f-a910-91514691cbee",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They call you \"babe\" on the first date. Out of 10, what score do they drop to?",
+  "tr": "İlk buluşmada sana \"aşkım\" diyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "44d96acd-17b5-4b5f-a320-c1803fc73ed3",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "When the bill comes, they split it down to the last cent: \"I didn't have that drink.\" Out of 10, what score do they drop to?",
+  "tr": "Hesap gelince \"ben onu içmedim\" deyip kuruşu kuruşuna bölüyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "ddf5199c-bd3b-4909-8d04-6f6e2951ffc6",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "Nobody can touch the food until they've taken a photo of it. Out of 10, what score do they drop to?",
+  "tr": "Fotoğrafını çekmeden kimsenin yemeğe dokunmasına izin vermiyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "7511a7b3-1b46-4b57-add4-b6dced443721",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "Mid-date, they video-call their mom and introduce you. Out of 10, what score do they drop to?",
+  "tr": "Buluşmanın ortasında annesini görüntülü arayıp seni tanıştırıyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "6273d5bb-2aa4-4236-9e4d-ad2b58f1d214",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They let you pick the place, then complain about it all night. Out of 10, what score do they drop to?",
+  "tr": "Mekanı seçmeyi sana bırakıyor, sonra bütün gece mekanı beğenmiyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "4368d704-52f8-4d12-b05a-6ffe29f0c12c",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They show up to your first date in sweatpants. Out of 10, what score do they drop to?",
+  "tr": "İlk buluşmaya eşofmanla geliyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "0a291386-f57e-4cd1-8c4a-b585cbd08dfd",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They reply to every text with a voice note. Out of 10, what score do they drop to?",
+  "tr": "Her mesajına sesli mesajla cevap veriyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "96a32a32-c92c-4e00-b24f-51b848ebecca",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They talk about themselves in the third person. Out of 10, what score do they drop to?",
+  "tr": "Kendinden üçüncü şahıs olarak bahsediyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "0b6fd4c0-2fdb-4c43-812f-077f6dc0615b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They laugh so loud that the whole place turns to look. Out of 10, what score do they drop to?",
+  "tr": "O kadar yüksek sesle gülüyor ki bütün mekan dönüp bakıyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "91a24e9e-a8a6-497f-b828-394c850e07b2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "With someone new, which of these would you do first?",
+  "tr": "Yeni tanıştığın biriyle bunlardan hangisini ilk yaparsın?",
+  "answers_en": [
+   "Post them on your story",
+   "Introduce them to your friends",
+   "Go on a weekend getaway",
+   "Make a shared playlist"
+  ],
+  "answers_tr": [
+   "Story'de paylaşmak",
+   "Arkadaşlarınla tanıştırmak",
+   "Birlikte hafta sonu kaçamağı yapmak",
+   "Ortak playlist açmak"
+  ]
+ },
+ {
+  "id": "76536319-97cd-490d-9836-5f8187f0d46f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When you start seeing someone, which comes first for you?",
+  "tr": "Biriyle görüşmeye başlayınca senin için ilk hangisi olur?",
+  "answers_en": [
+   "Delete the dating apps",
+   "Share your location",
+   "Save their name with a heart",
+   "Post a photo together"
+  ],
+  "answers_tr": [
+   "Dating app'leri silmek",
+   "Konum paylaşmak",
+   "Telefona kalpli kaydetmek",
+   "Birlikte fotoğraf paylaşmak"
+  ]
+ },
+ {
+  "id": "f1ae02e8-b052-4b76-a32e-d4ce62d46246",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "With someone new, which would you be okay with first?",
+  "tr": "Yeni biriyle bunlardan hangisi sana ilk olarak normal gelir?",
+  "answers_en": [
+   "Leaving a toothbrush at your place",
+   "Coming over when you're sick",
+   "Having a spare key",
+   "Staying at your place while you're away"
+  ],
+  "answers_tr": [
+   "Evinde diş fırçası bırakması",
+   "Hastayken sana bakmaya gelmesi",
+   "Yedek anahtarının olması",
+   "Sen yokken evinde kalması"
+  ]
+ },
+ {
+  "id": "cd2b5109-18c4-46b4-8c38-1380eb70b2a2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "With someone new, which would you do first?",
+  "tr": "Yeni biriyle bunlardan hangisini ilk yaparsın?",
+  "answers_en": [
+   "Cry in front of them",
+   "Talk about money problems",
+   "Let them see you at your worst look",
+   "Tell them something you've never told anyone"
+  ],
+  "answers_tr": [
+   "Önünde ağlamak",
+   "Para sıkıntını anlatmak",
+   "En dağınık halinle görünmek",
+   "Kimseye anlatmadığın bir şeyi anlatmak"
+  ]
+ },
+ {
+  "id": "1bc66b63-cc8e-424a-80f4-c6b7b3bbba3c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When you start seeing someone, which would you do first?",
+  "tr": "Biriyle görüşmeye başlayınca bunlardan hangisini ilk yaparsın?",
+  "answers_en": [
+   "Invite them to your birthday",
+   "Bring them as your +1 to a wedding",
+   "Spend New Year's Eve together",
+   "Plan a vacation together"
+  ],
+  "answers_tr": [
+   "Doğum gününe çağırmak",
+   "Bir düğüne +1 olarak götürmek",
+   "Yılbaşını birlikte geçirmek",
+   "Birlikte tatil planlamak"
+  ]
+ },
+ {
+  "id": "aed88a42-6f84-4456-8aa7-669766f78264",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which wins you over more: someone who makes you laugh or someone who really listens?",
+  "tr": "Hangisi seni daha çok etkiler: seni güldürmesi mi, seni gerçekten dinlemesi mi?",
+  "answers_en": [
+   "Makes you laugh",
+   "Really listens"
+  ],
+  "answers_tr": [
+   "Seni güldürmesi",
+   "Seni gerçekten dinlemesi"
+  ]
+ },
+ {
+  "id": "a95cb18b-bd0a-42b1-b2d3-ad598f132ba6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which wins you over more: a date planned down to the details or a spontaneous last-minute idea?",
+  "tr": "Hangisi seni daha çok etkiler: buluşmayı en ince ayrıntısına kadar planlaması mı, anlık spontane bir şey önermesi mi?",
+  "answers_en": [
+   "Planned to the details",
+   "A spontaneous idea"
+  ],
+  "answers_tr": [
+   "En ince ayrıntısına kadar planlaması",
+   "Spontane bir şey önermesi"
+  ]
+ },
+ {
+  "id": "3d173579-d941-4634-b884-665b6e4fe6eb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which wins you over more: remembering a small detail you mentioned or surprising you?",
+  "tr": "Hangisi seni daha çok etkiler: bahsettiğin küçük bir detayı hatırlaması mı, sana sürpriz yapması mı?",
+  "answers_en": [
+   "Remembering a small detail",
+   "Surprising you"
+  ],
+  "answers_tr": [
+   "Küçük bir detayı hatırlaması",
+   "Sürpriz yapması"
+  ]
+ },
+ {
+  "id": "0b5becd8-64bd-4166-a997-e0a4e90d99f5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which attracts you more: someone confident or someone a little shy?",
+  "tr": "Hangisi seni daha çok çeker: kendinden emin olması mı, biraz utangaç olması mı?",
+  "answers_en": [
+   "Confident",
+   "A little shy"
+  ],
+  "answers_tr": [
+   "Kendinden emin",
+   "Biraz utangaç"
+  ]
+ },
+ {
+  "id": "e1bf3858-7a28-4bb5-b306-cbb230ca1d89",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which attracts you more: a nice voice or a nice smile?",
+  "tr": "Hangisi seni daha çok çeker: sesinin güzel olması mı, gülüşünün güzel olması mı?",
+  "answers_en": [
+   "A nice voice",
+   "A nice smile"
+  ],
+  "answers_tr": [
+   "Güzel ses",
+   "Güzel gülüş"
+  ]
+ },
+ {
+  "id": "58cb7a84-520d-4e1e-a840-a01661805b2a",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "After how many weeks of talking should you have the \"what are we?\" talk?",
+  "tr": "Kaç haftalık konuşmadan sonra \"biz neyiz?\" konuşması yapılmalı?"
+ },
+ {
+  "id": "e3bfce26-3369-44e3-8e06-8841c696cdcd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Where would you most like to meet someone new?",
+  "tr": "Yeni biriyle en çok nerede tanışmak isterdin?",
+  "answers_en": [
+   "On a dating app",
+   "Through friends",
+   "At a party or a bar",
+   "By chance in daily life",
+   "On social media"
+  ],
+  "answers_tr": [
+   "Bir tanışma uygulamasında",
+   "Arkadaşlar aracılığıyla",
+   "Bir partide ya da barda",
+   "Gündelik hayatta tesadüfen",
+   "Sosyal medyada"
+  ]
+ },
+ {
+  "id": "a4750d8e-f80d-409d-884b-a642b1b6dcd6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "On the second date, they say \"I've never felt this way about anyone.\" What do you do?",
+  "tr": "İkinci buluşmada \"Hiç kimseye böyle hissetmemiştim\" diyor. Ne yaparsın?",
+  "answers_en": [
+   "Melt, I love it",
+   "Feel flattered, but stay cautious",
+   "Red flag, way too fast",
+   "Say it back"
+  ],
+  "answers_tr": [
+   "Eririm, bayılırım",
+   "Hoşuma gider ama temkinli olurum",
+   "Kırmızı bayrak, çok hızlı",
+   "Ben de aynısını söylerim"
+  ]
+ },
+ {
+  "id": "9ac2b9fd-533c-407e-b82b-6935fec25be7",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "On the first date, they ask how much you earn. Out of 10, what score do they drop to?",
+  "tr": "İlk buluşmada ne kadar kazandığını soruyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "c0bef968-f505-44bc-87ab-8cbde316e110",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "On the first date, they pull out a discount coupon. Out of 10, what score do they drop to?",
+  "tr": "İlk buluşmada indirim kuponu çıkarıyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "24b88807-660c-4370-a23b-c312eb1fa5d4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "It's your third date and they still haven't tried to kiss you. What do you do?",
+  "tr": "Üçüncü buluşmanız ve hâlâ seni öpmeye çalışmadı. Ne yaparsın?",
+  "answers_en": [
+   "Make the first move myself",
+   "Wait, there's no rush",
+   "Start wondering if they're into me",
+   "Ask them directly"
+  ],
+  "answers_tr": [
+   "İlk adımı ben atarım",
+   "Beklerim, acelesi yok",
+   "Benden hoşlanıyor mu diye düşünmeye başlarım",
+   "Direkt sorarım"
+  ]
+ },
+ {
+  "id": "0f374e99-c247-4f9c-bbc6-59e5974d0741",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They forget something you told them on your first date. How do you feel?",
+  "tr": "İlk buluşmada anlattığın bir şeyi unutmuş. Ne hissedersin?",
+  "answers_en": [
+   "Not a big deal",
+   "A little disappointed",
+   "It means they weren't really listening"
+  ],
+  "answers_tr": [
+   "Önemli değil",
+   "Biraz hayal kırıklığı",
+   "Demek ki beni gerçekten dinlememiş"
+  ]
+ },
+ {
+  "id": "a969d002-3891-4a18-a767-6c5373b1d28a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which wins you over more: a handwritten note or a playlist made just for you?",
+  "tr": "Hangisi seni daha çok etkiler: elle yazılmış bir not mu, sadece senin için hazırlanmış bir çalma listesi mi?",
+  "answers_en": [
+   "A handwritten note",
+   "A playlist made for me"
+  ],
+  "answers_tr": [
+   "Elle yazılmış not",
+   "Benim için hazırlanmış çalma listesi"
+  ]
+ },
+ {
+  "id": "56c6743f-a1c8-4be0-8dc7-bbeb9b977d38",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They tell the waiter \"We're on a first date!\" Out of 10, what score do they drop to?",
+  "tr": "Garsona \"İlk buluşmamız!\" diyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "f9cf2832-da5d-4f1f-ad46-f011c7282e4d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You've been dating for a month. What's the right first gift?",
+  "tr": "Bir aydır görüşüyorsunuz. İlk hediye ne olmalı?",
+  "answers_en": [
+   "Something small but thoughtful",
+   "Flowers",
+   "Nothing yet, it's too early",
+   "Something expensive to impress"
+  ],
+  "answers_tr": [
+   "Küçük ama düşünülmüş bir şey",
+   "Çiçek",
+   "Henüz hiçbir şey, çok erken",
+   "Etkilemek için pahalı bir şey"
+  ]
+ },
+ {
+  "id": "d576e86d-b1d4-4c38-a056-f1141160b590",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which attracts you more: someone with a clear plan for their life or someone who goes with the flow?",
+  "tr": "Hangisi seni daha çok çeker: hayatı için net bir planı olan biri mi, akışına bırakan biri mi?",
+  "answers_en": [
+   "A clear plan for their life",
+   "Goes with the flow"
+  ],
+  "answers_tr": [
+   "Hayatı için net bir planı olan",
+   "Akışına bırakan"
+  ]
+ },
+ {
+  "id": "0186074f-f074-4446-b042-ca7e9247e1cc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They cook for you and it's honestly terrible. What do you do?",
+  "tr": "Sana yemek yapıyor ve yemek gerçekten berbat. Ne yaparsın?",
+  "answers_en": [
+   "Eat it all with a smile",
+   "Eat a little and gently tell the truth",
+   "Make a joke about it",
+   "Suggest we order something"
+  ],
+  "answers_tr": [
+   "Gülümseyerek hepsini yerim",
+   "Biraz yer, kibarca doğruyu söylerim",
+   "Şakaya vururum",
+   "Sipariş verelim mi derim"
+  ]
+ },
+ {
+  "id": "2509137a-251a-41b6-b10e-b4e1f7ca4da9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you start seeing someone who lives in another city?",
+  "tr": "Başka bir şehirde yaşayan biriyle görüşmeye başlar mısın?"
+ },
+ {
+  "id": "4bbac10f-fb66-4378-be37-a399f606ae2f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "For the second date, they suggest their hobby that you've never tried. What do you do?",
+  "tr": "İkinci buluşma için hiç denemediğin bir hobisini öneriyor. Ne yaparsın?",
+  "answers_en": [
+   "Jump in, sounds fun",
+   "Go, but a bit nervous",
+   "Suggest something else",
+   "Say it's not for me"
+  ],
+  "answers_tr": [
+   "Hemen varım, eğlenceli olur",
+   "Giderim ama biraz gerilirim",
+   "Başka bir şey öneririm",
+   "Bana göre olmadığını söylerim"
+  ]
+ },
+ {
+  "id": "96dd7fb8-e845-4e6b-a7de-0fada99a35ab",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: bragging about money or always complaining about money?",
+  "tr": "Hangisi seni daha çok soğutur: parayla hava atması mı, sürekli paradan şikayet etmesi mi?",
+  "answers_en": [
+   "Bragging about money",
+   "Always complaining about money"
+  ],
+  "answers_tr": [
+   "Parayla hava atması",
+   "Sürekli paradan şikayet etmesi"
+  ]
+ },
+ {
+  "id": "1d5c05ff-2738-4558-9f0a-efd6cb6e2bf8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What tells you most that someone is into you?",
+  "tr": "Birinin senden hoşlandığını en çok ne gösterir?",
+  "answers_en": [
+   "How fast they reply",
+   "They plan the next date",
+   "They ask a lot about me",
+   "Their body language"
+  ],
+  "answers_tr": [
+   "Ne kadar hızlı cevap verdiği",
+   "Bir sonraki buluşmayı planlaması",
+   "Benimle ilgili çok soru sorması",
+   "Beden dili"
+  ]
+ },
+ {
+  "id": "37a4b498-8f1d-4740-923e-2165e8b08457",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "After your first date, they send a long message about how much they enjoyed it. How do you feel?",
+  "tr": "İlk buluşmadan sonra ne kadar keyif aldığını anlatan uzun bir mesaj atıyor. Ne hissedersin?",
+  "answers_en": [
+   "Love it",
+   "Cute, but a bit much",
+   "Too intense, it scares me off"
+  ],
+  "answers_tr": [
+   "Bayılırım",
+   "Tatlı ama biraz fazla",
+   "Çok yoğun, beni soğutur"
+  ]
+ },
+ {
+  "id": "3a3a17ca-df5d-4a0c-9477-da964cfb471b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They show up to your first date with flowers. How do you feel?",
+  "tr": "İlk buluşmaya çiçekle geliyor. Ne hissedersin?",
+  "answers_en": [
+   "Love it, so sweet",
+   "Sweet, but awkward to carry around all night",
+   "Too much for a first date"
+  ],
+  "answers_tr": [
+   "Bayılırım, çok tatlı",
+   "Tatlı ama bütün gece elimde taşımak garip",
+   "İlk buluşma için fazla"
+  ]
+ },
+ {
+  "id": "509690bc-b54a-4e17-9080-4c04c87541c3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Halfway through the date, you realize you're not into them. What do you do?",
+  "tr": "Buluşmanın ortasında ondan hoşlanmadığını fark ediyorsun. Ne yaparsın?",
+  "answers_en": [
+   "Finish the date politely",
+   "Cut it short with an excuse",
+   "Tell them honestly",
+   "Get a friend to call with a fake emergency"
+  ],
+  "answers_tr": [
+   "Buluşmayı kibarca bitiririm",
+   "Bir bahaneyle kısa keserim",
+   "Dürüstçe söylerim",
+   "Bir arkadaşıma sahte acil durum araması yaptırırım"
+  ]
+ },
+ {
+  "id": "5f774143-d352-4756-b32a-a6c502a594e9",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They correct your grammar during the date. Out of 10, what score do they drop to?",
+  "tr": "Buluşma sırasında dil bilgisi hatalarını düzeltiyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "d9c822f9-0c0c-4348-8e9e-3d2873d20d44",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How long should a first hug last, in seconds?",
+  "tr": "İlk sarılma kaç saniye sürmeli?"
+ },
+ {
+  "id": "3a846774-458e-48e7-94ac-35ac1ed66723",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They check their reflection in every window you walk past. Out of 10, what score do they drop to?",
+  "tr": "Önünden geçtiğiniz her vitrinde kendine bakıyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "77574632-f237-4a7a-af8a-16f63041d6fe",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "On the first date, they ask \"So why are you single?\" What do you do?",
+  "tr": "İlk buluşmada \"Peki sen neden bekarsın?\" diye soruyor. Ne yaparsın?",
+  "answers_en": [
+   "Answer honestly",
+   "Laugh it off with a joke",
+   "Ask them the same thing back",
+   "Find it a weird question"
+  ],
+  "answers_tr": [
+   "Dürüstçe cevap veririm",
+   "Şakayla geçiştiririm",
+   "Aynı soruyu ona sorarım",
+   "Garip bir soru olarak bulurum"
+  ]
+ },
+ {
+  "id": "5e952fa0-bed1-4717-8caa-4119278e8391",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which wins you over more: someone who's amazing over text or someone who's amazing in person?",
+  "tr": "Hangisi seni daha çok etkiler: mesajlaşırken harika olan biri mi, yüz yüzeyken harika olan biri mi?",
+  "answers_en": [
+   "Amazing over text",
+   "Amazing in person"
+  ],
+  "answers_tr": [
+   "Mesajlaşırken harika",
+   "Yüz yüzeyken harika"
+  ]
+ },
+ {
+  "id": "f0726201-11ea-476c-88d9-a86ca0ab1c0b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you go on a blind date a friend set up, without seeing a photo first?",
+  "tr": "Bir arkadaşının ayarladığı biriyle, fotoğrafını görmeden buluşmaya gider misin?"
+ },
+ {
+  "id": "426fe6d2-47b9-4935-a993-c3742dae971f",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They pay for the date with their parents' credit card. Out of 10, what score do they drop to?",
+  "tr": "Buluşmanın hesabını ailesinin kredi kartıyla ödüyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "e70a355f-92db-47ef-8640-7cf10d74d366",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They suggest sharing a dessert, then eat almost all of it. What do you do?",
+  "tr": "Tatlıyı paylaşalım diyor, sonra neredeyse hepsini kendisi yiyor. Ne yaparsın?",
+  "answers_en": [
+   "Laugh, it's cute",
+   "Tease them about it",
+   "Order another one for myself",
+   "Quietly make a mental note"
+  ],
+  "answers_tr": [
+   "Gülerim, tatlı bir şey",
+   "Bununla dalga geçerim",
+   "Kendime bir tane daha söylerim",
+   "Sessizce aklımın bir köşesine yazarım"
+  ]
+ },
+ {
+  "id": "cc7cdfce-f102-4924-a15a-428fe1f01c5c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: no sense of style or trying way too hard?",
+  "tr": "Hangisi seni daha çok soğutur: hiç tarzı olmaması mı, çok fazla çabalaması mı?",
+  "answers_en": [
+   "No sense of style",
+   "Trying way too hard"
+  ],
+  "answers_tr": [
+   "Hiç tarzı olmaması",
+   "Çok fazla çabalaması"
+  ]
+ },
+ {
+  "id": "27981878-ef1d-4561-9d9f-58ca583788cf",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "After just two dates, they want to video call every night. How do you feel?",
+  "tr": "Sadece iki buluşmadan sonra her gece görüntülü konuşmak istiyor. Ne hissedersin?",
+  "answers_en": [
+   "Love it",
+   "Fine sometimes, not every night",
+   "Too much, too soon"
+  ],
+  "answers_tr": [
+   "Bayılırım",
+   "Arada bir olur, her gece değil",
+   "Çok erken, çok fazla"
+  ]
+ },
+ {
+  "id": "b230407f-3278-456c-b2bf-1fa8b314b92c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They get a little tipsy on your first date. How do you feel?",
+  "tr": "İlk buluşmanızda biraz çakırkeyif oluyor. Ne hissedersin?",
+  "answers_en": [
+   "Fun, it loosens things up",
+   "Fine, as long as it stays light",
+   "A turn-off",
+   "Make sure they get home safe"
+  ],
+  "answers_tr": [
+   "Eğlenceli, ortam rahatlar",
+   "Sorun değil, ölçüyü kaçırmadıkça",
+   "Soğutur",
+   "Eve sağ salim gittiğinden emin olurum"
+  ]
+ },
+ {
+  "id": "9effa5fe-d2d6-4990-94f9-68ba44015a64",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which wins you over more: a smooth pickup line or an awkward, honest \"I think you're cute\"?",
+  "tr": "Hangisi seni daha çok etkiler: havalı bir tavlama cümlesi mi, sakar ama dürüst bir \"bence çok tatlısın\" mı?",
+  "answers_en": [
+   "A smooth pickup line",
+   "An awkward, honest compliment"
+  ],
+  "answers_tr": [
+   "Havalı bir tavlama cümlesi",
+   "Sakar ama dürüst bir iltifat"
+  ]
+ },
+ {
+  "id": "081089e4-8c91-4803-a20f-fc33ee46f1bb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A song you both love comes on, and they start singing out loud in public. What do you do?",
+  "tr": "İkinizin de sevdiği bir şarkı çalıyor ve herkesin içinde yüksek sesle söylemeye başlıyor. Ne yaparsın?",
+  "answers_en": [
+   "Join in",
+   "Laugh and film it",
+   "Feel embarrassed",
+   "Love the energy, but stay quiet"
+  ],
+  "answers_tr": [
+   "Ben de katılırım",
+   "Gülüp videoya çekerim",
+   "Utanırım",
+   "Enerjisine bayılırım ama ben susarım"
+  ]
+ },
+ {
+  "id": "ae914c7b-0a58-44ae-ae10-b58a248728fb",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "After how many dates would you go on a weekend trip together?",
+  "tr": "Kaç buluşmadan sonra birlikte bir hafta sonu tatiline gidersin?"
+ },
+ {
+  "id": "edb7e967-3a36-4adb-b55f-e4660c847d6a",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They spend the whole date complaining about their job. Out of 10, what score do they drop to?",
+  "tr": "Bütün buluşma boyunca işinden şikayet ediyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "7a5ec267-e342-468f-bbba-7370d91f8ecc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "It starts pouring rain on your walk and nobody has an umbrella. What do you do?",
+  "tr": "Yürürken sağanak yağmur başlıyor ve kimsede şemsiye yok. Ne yaparsın?",
+  "answers_en": [
+   "Run for cover laughing",
+   "Dance in the rain",
+   "Call a taxi right away",
+   "Share a jacket and keep walking"
+  ],
+  "answers_tr": [
+   "Gülerek bir yere sığınırız",
+   "Yağmurda dans ederim",
+   "Hemen taksi çağırırım",
+   "Bir ceketi paylaşıp yürümeye devam ederiz"
+  ]
+ },
+ {
+  "id": "7378fa18-c11d-4566-83e6-9ee68d7c53a9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which attracts you more: a morning person or a night owl?",
+  "tr": "Hangisi seni daha çok çeker: sabahçı biri mi, gece kuşu biri mi?",
+  "answers_en": [
+   "A morning person",
+   "A night owl"
+  ],
+  "answers_tr": [
+   "Sabahçı",
+   "Gece kuşu"
+  ]
+ },
+ {
+  "id": "0b4e55e8-2a68-40f6-a431-c6455f6e7bd8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "After three dates, they still haven't followed you on social media. What do you do?",
+  "tr": "Üç buluşmadan sonra hâlâ seni sosyal medyada takip etmedi. Ne yaparsın?",
+  "answers_en": [
+   "Doesn't matter to me",
+   "Follow them first",
+   "Start wondering why",
+   "Ask them about it"
+  ],
+  "answers_tr": [
+   "Benim için önemli değil",
+   "İlk ben takip ederim",
+   "Neden diye düşünmeye başlarım",
+   "Ona sorarım"
+  ]
+ },
+ {
+  "id": "b92ab70e-57ad-46d9-bbfc-957ae51e4d9d",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They talk about their crypto investments all night. Out of 10, what score do they drop to?",
+  "tr": "Bütün gece kripto yatırımlarını anlatıyor. 10 puandan kaç puana düşer?"
+ },
+ {
+  "id": "b5861af8-2dea-46b5-bcc9-1a6e26e6be5a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which wins you over more: someone who cooks you dinner or someone who takes you to their favorite spot?",
+  "tr": "Hangisi seni daha çok etkiler: sana akşam yemeği hazırlayan biri mi, seni en sevdiği mekana götüren biri mi?",
+  "answers_en": [
+   "Cooks me dinner",
+   "Takes me to their favorite spot"
+  ],
+  "answers_tr": [
+   "Bana yemek hazırlaması",
+   "Beni en sevdiği mekana götürmesi"
+  ]
+ },
+ {
+  "id": "86ab68e2-ba49-4ba4-abd7-529512d370ce",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many minutes into a first date do you know if you like someone?",
+  "tr": "İlk buluşmanın kaçıncı dakikasında birinden hoşlanıp hoşlanmadığını anlarsın?"
+ },
+ {
+  "id": "2a28efa4-4ab1-4d2e-8173-d3d510ca3fde",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many hours after a great first date should you text?",
+  "tr": "Harika bir ilk buluşmadan kaç saat sonra mesaj atılmalı?"
+ }
+]

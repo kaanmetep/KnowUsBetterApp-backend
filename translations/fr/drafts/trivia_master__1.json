@@ -1,0 +1,825 @@
+{
+  "980115c5-d5c7-49e5-a782-cc1175a6518b": {
+    "text": "Quel organe consomme la plus grande part de l'énergie du corps humain ?",
+    "answers": [
+      "Le cerveau",
+      "Le cœur",
+      "Le foie",
+      "Les reins"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a1a237a1-628a-4008-9ba2-36d59a0e6171": {
+    "text": "Quel mélange de couleurs primaires donne du vert en peinture ?",
+    "answers": [
+      "Bleu et jaune",
+      "Rouge et bleu",
+      "Jaune et rouge"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c1cb1e49-a9cc-43e1-b6da-34f4da305a37": {
+    "text": "Quel élément d'architecture les Romains ont-ils développé pour soutenir d'immenses coupoles ?",
+    "answers": [
+      "L'arc",
+      "La colonne",
+      "La pyramide"
+    ],
+    "accepted": [],
+    "flagged": true,
+    "note": "Source says Romans 'invented' the arch; historically they perfected it (arches predate Rome). Softened to 'développé'."
+  },
+  "e9339914-1d7d-423a-9a28-2519995eb9e6": {
+    "text": "Quelle planète du Système solaire tourne dans le sens inverse de la plupart des autres ?",
+    "answers": [
+      "Vénus",
+      "Mars",
+      "Jupiter",
+      "Saturne"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "52c90157-fc1f-4878-9f00-91c318581ade": {
+    "text": "Quel animal détient le record de longévité chez les vertébrés ?",
+    "answers": [
+      "Le requin du Groenland",
+      "La tortue des Galápagos",
+      "La baleine boréale"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c3b7010c-35ea-402f-a186-4035fa9be837": {
+    "text": "Contre toute attente, quel fruit est une baie au sens botanique ?",
+    "answers": [
+      "La banane",
+      "La fraise",
+      "La framboise"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0e882595-4846-4d01-a879-ccb1be0cdc0a": {
+    "text": "Dans quel pays se trouve la célèbre tour Eiffel ?",
+    "answers": [
+      "France",
+      "Italie",
+      "Espagne",
+      "Allemagne"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5f20efa2-53ef-4bc7-b7de-966c2a271457": {
+    "text": "Quelle planète du Système solaire est surnommée « la planète rouge » ?",
+    "answers": [
+      "Mars",
+      "Jupiter",
+      "Vénus"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4d359908-e7a2-4ef5-bde1-d9fc49ee3218": {
+    "text": "Quel mammifère terrestre est connu pour être incapable de sauter ?",
+    "answers": [
+      "L'éléphant",
+      "La girafe",
+      "L'hippopotame",
+      "Le rhinocéros"
+    ],
+    "accepted": [],
+    "flagged": true,
+    "note": "Adult hippos and rhinos also cannot really jump; the elephant is the classic answer but distractors are debatable (same in source)."
+  },
+  "a98b74cf-707a-4d84-a017-ea98f2d69e68": {
+    "text": "Combien de côtés compte un panneau stop standard ?",
+    "answers": [
+      "8",
+      "6",
+      "10"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1002c05b-034b-4dd1-a1fb-adf942e36c58": {
+    "text": "Quelle couleur obtient-on en mélangeant du bleu et du jaune ?",
+    "answers": [
+      "Vert",
+      "Violet",
+      "Orange"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4563d6d4-5301-4f89-811a-045b66157aa2": {
+    "text": "Quel soda a été inventé à l'origine comme sirop contre la toux et les maux de tête ?",
+    "answers": [
+      "Coca-Cola",
+      "Sprite",
+      "Fanta",
+      "Pepsi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "83fbd060-6ae4-4fc1-9ebe-4b0e7a2e0c15": {
+    "text": "Quel organe pompe le sang dans le système circulatoire ?",
+    "answers": [
+      "Le cœur",
+      "Les poumons",
+      "Les reins"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a79f90ff-8ce5-493b-8b50-2ef10c1f9c26": {
+    "text": "Combien y a-t-il de continents sur Terre ?",
+    "answers": [
+      "7",
+      "5",
+      "6",
+      "8"
+    ],
+    "accepted": [],
+    "flagged": true,
+    "note": "Country-dependent: French schools usually teach 5 or 6 continents (Olympic rings = 5); answer key says 7."
+  },
+  "b6c425a9-162f-4107-919c-20eea21afc7a": {
+    "text": "Comment s'appelle la ligne imaginaire qui sépare les hémisphères Nord et Sud ?",
+    "answers": [
+      "L'équateur",
+      "Le méridien de Greenwich",
+      "Le tropique du Cancer"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6d38ce25-2cda-440e-b549-81e7ac23cec6": {
+    "text": "Quel pays a offert la statue de la Liberté aux États-Unis ?",
+    "answers": [
+      "France",
+      "Royaume-Uni",
+      "Espagne"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "71f547f0-2910-4a59-b084-5a1da579b6fd": {
+    "text": "Quel est le plus grand mammifère vivant sur Terre ?",
+    "answers": [
+      "La baleine bleue",
+      "L'éléphant d'Afrique",
+      "La girafe"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "eb10929a-ee75-431c-8b54-1c62a3954c40": {
+    "text": "Aux échecs, quelle pièce peut se déplacer dans toutes les directions et d'autant de cases qu'elle veut ?",
+    "answers": [
+      "La dame",
+      "La tour",
+      "Le cavalier"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d322c35e-b645-48fb-a14c-cb92c5fd3a2d": {
+    "text": "Quel métal est liquide à température ambiante ?",
+    "answers": [
+      "Le mercure",
+      "L'or",
+      "L'argent"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cb7fac86-596c-459d-a42f-b6ba0d8fc977": {
+    "text": "Quel pays est célèbre pour avoir fait découvrir la pizza et les pâtes au monde entier ?",
+    "answers": [
+      "Italie",
+      "Grèce",
+      "Espagne"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5aabe2cc-9cc4-458a-835e-7b996e00fc3f": {
+    "text": "Quel animal marin a huit bras et trois cœurs ?",
+    "answers": [
+      "La pieuvre",
+      "La méduse",
+      "Le dauphin"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6a8c5efa-0b23-4be2-9388-f2160e79d450": {
+    "text": "Quel est le symbole chimique de l'or dans le tableau périodique ?",
+    "answers": [],
+    "accepted": [
+      "Au",
+      "au",
+      "AU"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "b96c042c-87f1-4b1d-9bf1-420704c1751d": {
+    "text": "Quel pigment donne leur couleur à la peau, aux cheveux et aux yeux ?",
+    "answers": [],
+    "accepted": [
+      "Mélanine",
+      "Melanine",
+      "La mélanine",
+      "mélanine",
+      "Melanin"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "1508ac33-05f6-4377-b707-44fedf4e71dd": {
+    "text": "Comment s'appelle la couche protectrice externe des dents ?",
+    "answers": [],
+    "accepted": [
+      "Émail",
+      "Email",
+      "L'émail",
+      "Émail dentaire",
+      "Email dentaire",
+      "Enamel"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "b67421f6-8ac4-4d1a-80be-6e67cd22a44a": {
+    "text": "Quel processus permet aux plantes vertes de transformer la lumière du soleil en nourriture ?",
+    "answers": [],
+    "accepted": [
+      "Photosynthèse",
+      "Photosynthese",
+      "La photosynthèse",
+      "Photosynthesis"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "ff20387b-ecc5-4100-8a3e-4a10c409f056": {
+    "text": "Quel est le satellite naturel de la Terre ?",
+    "answers": [],
+    "accepted": [
+      "La Lune",
+      "Lune",
+      "lune",
+      "la lune",
+      "Moon"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "6aaa16e5-4afb-4d6a-ae8c-cd19dbcc710e": {
+    "text": "Quel minéral naturel est le plus dur sur l'échelle de Mohs ?",
+    "answers": [],
+    "accepted": [
+      "Diamant",
+      "Le diamant",
+      "diamant",
+      "Diamants",
+      "Diamond"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "084018a1-dd49-4965-aebd-934b0318c6a6": {
+    "text": "Quel est l'animal terrestre le plus rapide du monde sur une courte distance ?",
+    "answers": [],
+    "accepted": [
+      "Guépard",
+      "Guepard",
+      "Le guépard",
+      "guépard",
+      "Cheetah"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "2dce8722-4a23-4666-86b4-656be891094b": {
+    "text": "Quel scientifique a formulé les trois lois du mouvement, base de la mécanique classique ?",
+    "answers": [
+      "Isaac Newton",
+      "Galilée",
+      "Albert Einstein",
+      "Nikola Tesla"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8a9f4fe4-c5b9-409a-be56-e499c4c63f03": {
+    "text": "Quelle civilisation antique a inventé l'écriture cunéiforme, l'une des toutes premières écritures ?",
+    "answers": [
+      "Les Sumériens",
+      "Les Égyptiens",
+      "Les Mayas",
+      "La civilisation de l'Indus"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6b0624f0-17cf-4745-9229-15a908f2a283": {
+    "text": "Quelle ville est surnommée « la Grosse Pomme » ?",
+    "answers": [],
+    "accepted": [
+      "New York",
+      "Newyork",
+      "New York City",
+      "NYC",
+      "NY",
+      "Manhattan",
+      "New-York"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "b5a1d6a7-2975-45c3-9da2-527a6839b14b": {
+    "text": "Quelle ville célèbre s'étend sur deux continents, l'Europe et l'Asie ?",
+    "answers": [],
+    "accepted": [
+      "Istanbul",
+      "İstanbul",
+      "Constantinople",
+      "Byzance",
+      "Stamboul"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "3b45c9ca-6907-4477-b5ea-8bfc62790c60": {
+    "text": "Quelle ville est célèbre pour ses canaux et ses gondoles ?",
+    "answers": [],
+    "accepted": [
+      "Venise",
+      "Venezia",
+      "Venice",
+      "Venis"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "23c98892-b152-43da-b6a0-82128ebef70a": {
+    "text": "Hollywood est un quartier de quelle ville ?",
+    "answers": [],
+    "accepted": [
+      "Los Angeles",
+      "LA",
+      "L.A.",
+      "Losangeles",
+      "Los Ángeles"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "1d666e97-1005-4ff3-81d3-e770e64be6ec": {
+    "text": "Dans quelle ville se trouve la tour Eiffel ?",
+    "answers": [],
+    "accepted": [
+      "Paris",
+      "paris",
+      "Ville Lumière",
+      "Ville lumiere",
+      "París"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "1b8bf486-da98-42aa-a150-48e2a7258023": {
+    "text": "Dans quelle ville italienne se trouve la célèbre tour penchée ?",
+    "answers": [],
+    "accepted": [
+      "Pise",
+      "Pisa",
+      "pise"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "f6b38b97-7a9e-42e4-9197-e65bb05144fe": {
+    "text": "La porte de Brandebourg est le symbole de quelle ville ?",
+    "answers": [],
+    "accepted": [
+      "Berlin",
+      "berlin",
+      "Berlin, Allemagne",
+      "Berlín"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "d58f0d3d-5ae0-4d57-9c67-31b512ad9ec9": {
+    "text": "Quel est le plus grand animal ayant jamais vécu sur Terre ?",
+    "answers": [],
+    "accepted": [
+      "Baleine bleue",
+      "La baleine bleue",
+      "Rorqual bleu",
+      "Baleines bleues",
+      "Blue whale"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "bac52e71-1145-40f6-995a-c19cdb34796f": {
+    "text": "Quelle plante constitue presque tout le régime du panda géant ?",
+    "answers": [],
+    "accepted": [
+      "Bambou",
+      "Le bambou",
+      "Bambous",
+      "Pousses de bambou",
+      "Bamboo"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "0ab4f29e-ab23-48bd-9b43-ac381b2402b6": {
+    "text": "Combien de pattes a une araignée ?",
+    "answers": [],
+    "accepted": [
+      "8",
+      "Huit",
+      "8 pattes",
+      "Huit pattes",
+      "4 paires",
+      "Quatre paires"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "a10b4878-ff6f-48e9-9efa-b5ca90f7787e": {
+    "text": "Quel animal d'Afrique, cousin du cheval, est célèbre pour ses rayures noires et blanches ?",
+    "answers": [],
+    "accepted": [
+      "Zèbre",
+      "Zebre",
+      "Le zèbre",
+      "Zèbres",
+      "Zebra"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "b6e68e10-746b-4a94-9206-99458a27c2f8": {
+    "text": "Quel oiseau pond les plus gros œufs du monde ?",
+    "answers": [],
+    "accepted": [
+      "Autruche",
+      "L'autruche",
+      "Autruches",
+      "autruche",
+      "Ostrich"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "70cd3353-de0e-4861-a3a2-4d30de21df32": {
+    "text": "Quel oiseau blanc est le symbole universel de la paix ?",
+    "answers": [],
+    "accepted": [
+      "Colombe",
+      "La colombe",
+      "Colombe blanche",
+      "Pigeon",
+      "Pigeon blanc",
+      "Colombes"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "1ce201ba-eaae-4e68-9728-8b1eda0a8ca5": {
+    "text": "Quel animal marin a huit bras et peut projeter de l'encre ?",
+    "answers": [],
+    "accepted": [
+      "Pieuvre",
+      "Poulpe",
+      "La pieuvre",
+      "Le poulpe",
+      "Pieuvres",
+      "Calmar"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "78899d32-d997-4e60-b9a5-c635406a0d3a": {
+    "text": "De quel pays viennent les sushis à l'origine ?",
+    "answers": [],
+    "accepted": [
+      "Japon",
+      "Le Japon",
+      "japon",
+      "Nippon",
+      "Japan"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "e3224e00-4e9d-4756-b4b7-34c7b3a1d378": {
+    "text": "Quel est l'ingrédient principal du guacamole ?",
+    "answers": [],
+    "accepted": [
+      "Avocat",
+      "L'avocat",
+      "Avocats",
+      "avocat",
+      "Avocado"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "b8c37ace-a5e4-48f1-8f35-dfe55af4f856": {
+    "text": "Tomate, mozzarella et basilic : la pizza Margherita reprend les couleurs du drapeau de quel pays ?",
+    "answers": [],
+    "accepted": [
+      "Italie",
+      "L'Italie",
+      "Italia",
+      "italie",
+      "Italy"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "64af17d4-a459-43d3-8605-b2bb6c19f828": {
+    "text": "De quel pays vient la paella, le célèbre plat de riz ?",
+    "answers": [],
+    "accepted": [
+      "Espagne",
+      "L'Espagne",
+      "España",
+      "Espana",
+      "Valence",
+      "Spain"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "b7003871-d60e-401b-9b08-41e7e2e5526e": {
+    "text": "La baguette, ce long pain croustillant, est le symbole de quel pays ?",
+    "answers": [],
+    "accepted": [
+      "France",
+      "La France",
+      "france",
+      "Paris",
+      "Française",
+      "French"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "f621bf3d-8230-483c-9cb0-c0a50a2d71c2": {
+    "text": "Le ketchup est surtout fait à partir de quel fruit ?",
+    "answers": [],
+    "accepted": [
+      "Tomate",
+      "La tomate",
+      "Tomates",
+      "tomate",
+      "Concentré de tomate",
+      "Tomato"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "e0117c78-8511-4559-a40c-807bf3b44bef": {
+    "text": "De quelle couleur est le wasabi, la pâte piquante servie avec les sushis ?",
+    "answers": [],
+    "accepted": [
+      "Vert",
+      "Vert clair",
+      "Vert pâle",
+      "Vert vif",
+      "vert",
+      "Green"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "f5489aa3-87f1-4b69-92dc-5cf074b1632c": {
+    "text": "Les tacos et les burritos viennent de la cuisine de quel pays ?",
+    "answers": [],
+    "accepted": [
+      "Mexique",
+      "Le Mexique",
+      "mexique",
+      "México",
+      "Mexico"
+    ],
+    "flagged": false,
+    "note": "French 'tacos' also names a different fast-food dish in France; context (with burritos) keeps the Mexican meaning clear."
+  },
+  "a65dcf3d-b93a-4b2c-92db-b4d5f1fd4e1e": {
+    "text": "Quelle boisson alcoolisée est faite à partir de raisin fermenté ?",
+    "answers": [],
+    "accepted": [
+      "Vin",
+      "Le vin",
+      "Vin rouge",
+      "Vin blanc",
+      "Rosé",
+      "Wine"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "8777cf9c-ad05-4381-831d-fdbe8e97e782": {
+    "text": "Au foot, combien de joueurs compte chaque équipe sur le terrain ?",
+    "answers": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8bc06cc3-41d5-48fb-b558-a0e7211cd256": {
+    "text": "Combien d'anneaux y a-t-il sur le drapeau olympique ?",
+    "answers": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bc53010b-e468-4440-b51f-1e8e88af45a9": {
+    "text": "Au basket, combien de points vaut un panier marqué derrière l'arc ?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d861a43a-aa1f-4890-8756-19fc302921f3": {
+    "text": "Quel sport se joue avec un volant ?",
+    "answers": [
+      "Squash",
+      "Tennis de table",
+      "Badminton",
+      "Volley-ball"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b74a73e3-86ad-4c53-9ad8-d9959e914da9": {
+    "text": "Combien de temps dure un match de foot, sans compter le temps additionnel ?",
+    "answers": [
+      "60 minutes",
+      "80 minutes",
+      "90 minutes",
+      "120 minutes"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e5177139-279d-43ba-9958-7a7f8ff4d66a": {
+    "text": "Dans quel sport peut-on réussir un « trou en un » ?",
+    "answers": [
+      "Golf",
+      "Bowling",
+      "Billard",
+      "Cricket"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2efd87ad-07be-4fbd-9049-16b0c884f7fa": {
+    "text": "Quel pays a accueilli les premiers Jeux olympiques modernes en 1896 ?",
+    "answers": [
+      "France",
+      "Grèce",
+      "Angleterre",
+      "Italie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6f4517f0-b61a-4482-8c7c-4f9e7a09247d": {
+    "text": "Au basket, combien de joueurs de chaque équipe sont sur le terrain en même temps ?",
+    "answers": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b0b4d45e-7c09-442b-bba9-0fcffb41bc6e": {
+    "text": "Le Tour de France est l'une des courses les plus célèbres au monde. Dans quel sport ?",
+    "answers": [
+      "Course à pied",
+      "Cyclisme",
+      "Sport automobile",
+      "Voile"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5d12f0e6-811f-489a-9320-5d65f5c62454": {
+    "text": "Dans quel sport Michael Jordan est-il devenu une légende mondiale ?",
+    "answers": [
+      "Baseball",
+      "Basket",
+      "Football américain",
+      "Golf"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7f301f40-bb88-4cd7-9822-4d51d3e99b3d": {
+    "text": "Dans quel sport frappe-t-on un « palet » au lieu d'une balle ?",
+    "answers": [
+      "Hockey sur glace",
+      "Curling",
+      "Water-polo",
+      "Crosse"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": "Québec says 'rondelle' for puck; 'palet' is standard France/Belgium/Switzerland."
+  },
+  "03918dea-d42e-41dc-b17e-8877d98ca587": {
+    "text": "Quelle est la distance approximative d'un marathon ?",
+    "answers": [
+      "21 km",
+      "30 km",
+      "42 km",
+      "50 km"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ff362948-8ff9-4b08-97b1-e6782a964795": {
+    "text": "Le sumo est le sport national de quel pays ?",
+    "answers": [
+      "Chine",
+      "Corée du Sud",
+      "Japon",
+      "Mongolie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ce92e413-1961-4e02-9cc6-1d7f7e665b44": {
+    "text": "Au foot, quel carton l'arbitre montre-t-il pour expulser un joueur ?",
+    "answers": [
+      "Carton jaune",
+      "Carton rouge",
+      "Carton bleu",
+      "Carton vert"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,890 @@
+[
+ {
+  "id": "c74d1995-343a-43a9-adcf-31e2f8b56073",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What do you need most right after intimacy?",
+  "tr": "Yakınlıktan hemen sonra en çok neye ihtiyaç duyarsın?",
+  "category": "spicy"
+ },
+ {
+  "id": "c82bd3fe-b845-484d-a34c-c3df3f2c6404",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is the fastest way to feel close again after a fight?",
+  "tr": "Kavgadan sonra tekrar yakın hissetmenin en hızlı yolu ne?",
+  "answers_en": [
+   "A hug",
+   "A talk",
+   "Some space"
+  ],
+  "answers_tr": [
+   "Sarılmak",
+   "Konuşmak",
+   "Biraz alan"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "522acc6b-c549-4821-a672-968ad51faffd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What do you need most right after intimacy?",
+  "tr": "Yakınlıktan hemen sonra en çok neye ihtiyaç duyarsın?",
+  "answers_en": [
+   "Cuddle",
+   "Talk",
+   "Sleep"
+  ],
+  "answers_tr": [
+   "Sarılmak",
+   "Konuşmak",
+   "Uyumak"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "d032b906-702c-4c1d-a60e-14225c8a08a1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How often should intimacy happen?",
+  "tr": "Yakınlık ne sıklıkla yaşanmalı?",
+  "answers_en": [
+   "Every day",
+   "A few times a week",
+   "Once a week"
+  ],
+  "answers_tr": [
+   "Her gün",
+   "Haftada birkaç kez",
+   "Haftada bir"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "ab4d48ab-4861-45d3-a0c1-548feb01af72",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What makes you feel safest getting close?",
+  "tr": "Yakınlaşırken seni en çok ne güvende hissettirir?",
+  "answers_en": [
+   "Going slow",
+   "A locked door",
+   "Lights off"
+  ],
+  "answers_tr": [
+   "Yavaş gitmek",
+   "Kilitli kapı",
+   "Işıklar kapalı"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "c415ca2b-8b70-42d5-afe1-b55e6ca0cd96",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What should we steal time from just to get closer?",
+  "tr": "Sadece yakınlaşmak için zamanı nereden çalmalıyız?",
+  "answers_en": [
+   "Sleep",
+   "Work",
+   "Plans"
+  ],
+  "answers_tr": [
+   "Uyku",
+   "İş",
+   "Planlar"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "a5b0e887-d4ed-49c4-8541-1503d3766f95",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How long should intimacy last?",
+  "tr": "Yakınlık ne kadar sürmeli?",
+  "answers_en": [
+   "5-15 minutes",
+   "30-60 minutes",
+   "2-6 hours"
+  ],
+  "answers_tr": [
+   "5-15 dk",
+   "30-60 dk",
+   "2-6 saat"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "5001079e-e1d6-4dfe-8d09-471b46077412",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How long can you go without intimacy?",
+  "tr": "Yakınlık olmadan en fazla ne kadar durabilirsin?",
+  "answers_en": [
+   "1-2 days",
+   "About a week",
+   "A few weeks"
+  ],
+  "answers_tr": [
+   "1-2 gün",
+   "Yaklaşık bir hafta",
+   "Birkaç hafta"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "fc2de0d5-e319-4965-b658-0aadfdc156da",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How long should a morning in bed last?",
+  "tr": "Yatakta bir sabah ne kadar sürmeli?",
+  "answers_en": [
+   "15-30 minutes",
+   "1-2 hours",
+   "Until noon"
+  ],
+  "answers_tr": [
+   "15-30 dk",
+   "1-2 saat",
+   "Öğlene kadar"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "36466dd9-33fc-430a-8c5b-6cd74f5649f6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the middle of a meeting, your partner sends you a very suggestive text. What do you do?",
+  "tr": "Toplantının ortasında partnerinden çok imalı bir mesaj geldi. Ne yaparsın?",
+  "answers_en": [
+   "Match their energy",
+   "Reply with just an emoji",
+   "Text \"see you tonight\" and leave it there"
+  ],
+  "answers_tr": [
+   "Aynı dozda cevap veririm",
+   "Bir emojiyle geçiştiririm",
+   "\"Akşam görüşürüz\" yazıp bırakırım"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "0b0a004c-7110-41c1-9efb-a1250d65cc5e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "At noon, your partner texts \"come home early tonight\" and nothing else. How does your day go?",
+  "tr": "Öğlen partnerin \"bu akşam erken gel\" yazdı, başka hiçbir şey demedi. Günün nasıl geçer?",
+  "answers_en": [
+   "It's all I can think about",
+   "I forget about it until evening",
+   "I call right away to ask what it means"
+  ],
+  "answers_tr": [
+   "Bütün gün aklımdan çıkmaz",
+   "Akşama kadar unuturum",
+   "Hemen arayıp ne demek istediğini sorarım"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "478d596f-0925-454b-a6c7-07e62476a0f4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Sending your partner a slightly daring photo during the day...",
+  "tr": "Gün içinde partnerine biraz cesur bir fotoğraf atmak...",
+  "answers_en": [
+   "I'd happily do it",
+   "Only if they send one first",
+   "Never, I don't trust phones"
+  ],
+  "answers_tr": [
+   "Seve seve atarım",
+   "Ancak o atarsa atarım",
+   "Asla, telefonlara güvenmem"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "1947e301-1523-4dd2-8b02-eebcd5a27569",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You accidentally sent your suggestive text to the family group chat. What's your first move?",
+  "tr": "İmalı mesajını yanlışlıkla aile grubuna attın. İlk ne yaparsın?",
+  "answers_en": [
+   "Delete it fast and pray no one saw",
+   "Write \"wrong chat\" and laugh it off",
+   "Turn off my phone and leave the country"
+  ],
+  "answers_tr": [
+   "Hemen silip kimse görmemiştir diye dua ederim",
+   "\"Yanlış gruba\" yazıp gülüp geçerim",
+   "Telefonu kapatıp ülkeyi terk ederim"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "be4f6aae-d73e-47ac-87fd-599d2d29b15a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Flirting with each other over text during the day...",
+  "tr": "Gün içinde mesajla birbirinizle flörtleşmek...",
+  "answers_en": [
+   "Should happen every day",
+   "Now and then, as a surprise",
+   "Not needed, face to face is better"
+  ],
+  "answers_tr": [
+   "Her gün olmalı",
+   "Arada bir, sürpriz olarak",
+   "Gerek yok, yüz yüze daha iyi"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "88f7728c-67b0-480a-9632-74158a756911",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Just as things heat up, your partner's phone rings. It's their mom. What should happen?",
+  "tr": "Tam işler ısınırken partnerinin telefonu çalıyor, arayan annesi. Ne olmalı?",
+  "answers_en": [
+   "Ignore it, call back later",
+   "Answer and keep it short",
+   "Answer, the mood's gone anyway"
+  ],
+  "answers_tr": [
+   "Açmasın, sonra arasın",
+   "Açsın, kısa kessin",
+   "Açsın, büyü zaten bozuldu"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "451823de-7a5e-47f1-887c-a876847a8a39",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You're staying at your partner's parents' place, and the rooms share a wall. Getting close...",
+  "tr": "Partnerinin ailesinin evinde kalıyorsunuz ve odalar duvar duvara. Yakınlaşmak...",
+  "answers_en": [
+   "No way, it can wait until we're home",
+   "Fine, if we're really quiet",
+   "Forbidden makes it more exciting"
+  ],
+  "answers_tr": [
+   "Asla, eve dönene kadar bekler",
+   "Çok sessiz olursak olur",
+   "Yasak olan daha heyecanlı"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "c5f56ed9-13b2-4806-9ec5-6991e9e95554",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Just as things heat up, the doorbell rings. It's the package you've been waiting for. What do you do?",
+  "tr": "Tam işler ısınırken kapı çalıyor, günlerdir beklediğin kargo gelmiş. Ne yaparsın?",
+  "answers_en": [
+   "The package can wait",
+   "Grab it fast and come right back",
+   "Open it, we'll pick things up later"
+  ],
+  "answers_tr": [
+   "Kargo bekleyebilir",
+   "Hızlıca alıp hemen dönerim",
+   "Alıp açarım, gerisine sonra bakarız"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "451cd58d-bd27-47da-ac84-aa316a133bd6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Just as you get close, your cat jumps on the bed and stares at you both. What happens?",
+  "tr": "Tam yakınlaşırken kediniz yatağa atlayıp ikinize bakmaya başlıyor. Ne olur?",
+  "answers_en": [
+   "Out of the room it goes",
+   "We ignore it and carry on",
+   "We burst out laughing, and that's the end of that"
+  ],
+  "answers_tr": [
+   "Odadan çıkarırız",
+   "Umursamadan devam ederiz",
+   "Gülme krizine gireriz, iş orada biter"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "4092ab00-13ca-4261-a43a-7279301878a4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Just as you get close, your partner says \"wait, let's finish this episode first.\" What do you do?",
+  "tr": "Tam yakınlaşırken partnerin \"dur, şu bölümün sonunu görelim\" diyor. Ne yaparsın?",
+  "answers_en": [
+   "Laugh and wait",
+   "Get offended, the mood is gone",
+   "Hide the remote"
+  ],
+  "answers_tr": [
+   "Gülüp beklerim",
+   "Bozulurum, havam söner",
+   "Kumandayı saklarım"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "02764dd4-39e2-40b9-a6d4-886bea53759e",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "Right after getting close, they roll over and start snoring. Out of 10, what score do they drop to?",
+  "tr": "Yakınlaşmanızdan hemen sonra arkasını dönüp horlamaya başlıyor. 10 puandan kaç puana düşer?",
+  "category": "spicy"
+ },
+ {
+  "id": "9ba84b4f-ec82-47aa-a4a3-9f280b56470b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "You catch them kissing you with their eyes wide open. Out of 10, what score do they drop to?",
+  "tr": "Öpüşürken gözlerinin kocaman açık olduğunu fark ediyorsun. 10 puandan kaç puana düşer?",
+  "category": "spicy"
+ },
+ {
+  "id": "f70cfa93-cddd-4ad1-8344-03c22063c588",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They get into bed with their socks on and keep them on. Out of 10, what score do they drop to?",
+  "tr": "Yatağa çorapla giriyor ve çıkarmıyor. 10 puandan kaç puana düşer?",
+  "category": "spicy"
+ },
+ {
+  "id": "5466613d-c6c7-4f92-a9a4-12695fecef33",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "While you're getting close, they check a notification on their phone. Out of 10, what score do they drop to?",
+  "tr": "Yakınlaşırken telefonuna gelen bildirime bakıyor. 10 puandan kaç puana düşer?",
+  "category": "spicy"
+ },
+ {
+  "id": "3e7e65b3-90c9-4fd7-9917-1d0c56328de1",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They go in for the kiss with gum still in their mouth. Out of 10, what score do they drop to?",
+  "tr": "Ağzında sakızla öpmeye geliyor. 10 puandan kaç puana düşer?",
+  "category": "spicy"
+ },
+ {
+  "id": "54ed2a29-dec5-4e11-bc08-d8f35f77cebe",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which gets you more: being woken up with kisses, or being held until you fall asleep?",
+  "tr": "Hangisi seni daha çok etkiler: sabah seni öpücüklerle uyandırması mı, gece sarılarak uyutması mı?",
+  "answers_en": [
+   "Woken up with kisses",
+   "Held until I fall asleep"
+  ],
+  "answers_tr": [
+   "Öpücüklerle uyandırması",
+   "Sarılarak uyutması"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "a5baa1ce-254a-43b4-8cee-8d2e650e86bc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which gets you more: them walking around in your shirt, or them getting all dressed up just for you?",
+  "tr": "Hangisi seni daha çok etkiler: senin tişörtünü giyip evde dolaşması mı, sadece senin için özenle hazırlanması mı?",
+  "answers_en": [
+   "Wearing my shirt",
+   "Dressing up just for me"
+  ],
+  "answers_tr": [
+   "Benim tişörtümü giymesi",
+   "Sadece benim için hazırlanması"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "5e4fef58-1a72-4651-85bf-131aa64dca2f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: never making the first move, or asking \"tonight?\" every single day?",
+  "tr": "Hangisi seni daha çok soğutur: hiç ilk adımı atmaması mı, her gün \"bu akşam?\" diye sorup durması mı?",
+  "answers_en": [
+   "Never making the first move",
+   "Asking every single day"
+  ],
+  "answers_tr": [
+   "Hiç ilk adımı atmaması",
+   "Her gün sorup durması"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "862fba19-fdc5-41f2-bbd5-333e6b947e4e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: too much perfume, or never smelling good?",
+  "tr": "Hangisi seni daha çok soğutur: parfümü fazla sıkması mı, hiç güzel kokmaması mı?",
+  "answers_en": [
+   "Too much perfume",
+   "Never smelling good"
+  ],
+  "answers_tr": [
+   "Parfümü fazla sıkması",
+   "Hiç güzel kokmaması"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "e6853947-be83-4878-81aa-c596fafa2c28",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You want to try something new with your partner. What's the easiest way for you?",
+  "tr": "Partnerinden yeni bir şey denemek istiyorsun. Senin için en rahat yol hangisi?",
+  "answers_en": [
+   "Say it out loud, face to face",
+   "Write it in a text",
+   "Hint and hope they get it",
+   "I can't say it, it stays inside"
+  ],
+  "answers_tr": [
+   "Yüz yüze, açık açık söylerim",
+   "Mesajla yazarım",
+   "İma ederim, anlamasını beklerim",
+   "Söyleyemem, içimde kalır"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "735638ce-f7b1-4795-8c58-77fe461637aa",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner wants something you really don't. How do you say no?",
+  "tr": "Partnerin senin hiç istemediğin bir şey istiyor. Hayır'ı nasıl dersin?",
+  "answers_en": [
+   "Straight out, no sugar",
+   "Softly, so they don't feel rejected",
+   "I go along with it anyway"
+  ],
+  "answers_tr": [
+   "Direkt, süslemeden",
+   "Kırılmasın diye yumuşakça",
+   "Yine de uyarım"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "e9b5ff0c-f5e3-4792-83b9-6589ac229c71",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner says \"not tonight.\" How do you take it?",
+  "tr": "Partnerin \"bu akşam olmaz\" diyor. Bunu nasıl karşılarsın?",
+  "answers_en": [
+   "Fine, no questions",
+   "I ask if something's wrong",
+   "I get a little hurt"
+  ],
+  "answers_tr": [
+   "Tamam, sormam",
+   "Bir şey mi var diye sorarım",
+   "Biraz kırılırım"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "368c67a7-73bd-4702-989a-91e47493e9f7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "After getting close, talking about what you liked...",
+  "tr": "Yakınlaştıktan sonra neyin hoşuna gittiğini konuşmak...",
+  "answers_en": [
+   "Makes the next time better",
+   "Kills the mood",
+   "Only if they start it"
+  ],
+  "answers_tr": [
+   "Bir sonrakini daha iyi yapar",
+   "Havayı bozar",
+   "Ancak o başlarsa"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "bfedd7c5-ce55-4024-8018-b7ce739cce29",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "While you're getting close, your partner asks \"is this okay?\" What do you feel?",
+  "tr": "Yakınlaşırken partnerin \"bu iyi mi?\" diye soruyor. Ne hissedersin?",
+  "answers_en": [
+   "Cared for",
+   "A little pulled out of the moment",
+   "I wish they'd just keep going"
+  ],
+  "answers_tr": [
+   "Önemsendiğimi hissederim",
+   "Biraz andan koparım",
+   "Keşke sormadan devam etse"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "17a06cb8-e7fa-495c-a692-290c1460e181",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Something they did didn't feel good. When do you tell them?",
+  "tr": "Yaptığı bir şey hoşuna gitmedi. Ne zaman söylersin?",
+  "answers_en": [
+   "Right then",
+   "The next day, calmly",
+   "I never say it"
+  ],
+  "answers_tr": [
+   "O anda",
+   "Ertesi gün, sakin sakin",
+   "Hiç söylemem"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "f84a9f94-e846-4ec5-8236-8ad07652afb0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner starts talking in a way that catches you off guard. What do you do?",
+  "tr": "Partnerin hiç beklemediğin şekilde konuşmaya başlıyor. Ne yaparsın?",
+  "answers_en": [
+   "Match their energy",
+   "Laugh and keep going",
+   "Ask them to tone it down"
+  ],
+  "answers_tr": [
+   "Aynı tona girerim",
+   "Gülüp devam ederim",
+   "Biraz kısmasını isterim"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "3c458b59-191a-4dce-b2a2-b65356bcae20",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner shares a fantasy you've never heard from them. What's your first reaction?",
+  "tr": "Partnerin senden hiç duymadığın bir fantezi anlatıyor. İlk tepkin ne?",
+  "answers_en": [
+   "Curious, I want to hear more",
+   "Open, but I need time to think",
+   "Uncomfortable, I'd rather not"
+  ],
+  "answers_tr": [
+   "Merak ederim, devamını isterim",
+   "Açığım ama düşünmem lazım",
+   "Rahatsız olurum, duymak istemem"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "fef555de-c1d3-43e9-9605-37eec8fbde2d",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "The second you finish getting close, they ask \"so... how was I?\" Out of 10, what score do they drop to?",
+  "tr": "Yakınlaşmanız biter bitmez \"ee, nasıldım?\" diye soruyor. 10 puandan kaç puana düşer?",
+  "category": "spicy"
+ },
+ {
+  "id": "c5033475-5d32-4b8f-947e-cf7dcc230829",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "Right in the moment, they start listing tomorrow's to-do list. Out of 10, what score do they drop to?",
+  "tr": "Tam o anda yarının yapılacaklar listesini saymaya başlıyor. 10 puandan kaç puana düşer?",
+  "category": "spicy"
+ },
+ {
+  "id": "033a99fb-d6ea-4dfc-babb-146b6b014079",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "While you're getting close, they call you \"buddy.\" Out of 10, what score do they drop to?",
+  "tr": "Yakınlaşırken sana \"kanka\" diyor. 10 puandan kaç puana düşer?",
+  "category": "spicy"
+ },
+ {
+  "id": "cba3d458-f072-477c-991c-734f8ed03ece",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "When it's over, they go for a high five. Out of 10, what score do they drop to?",
+  "tr": "Bitince high five çekmeye geliyor. 10 puandan kaç puana düşer?",
+  "category": "spicy"
+ },
+ {
+  "id": "b9b04a31-a234-45ae-aaad-de08af7471b5",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "When it's over, they check the time and say \"nice, under 10 minutes.\" Out of 10, what score do they drop to?",
+  "tr": "Bitince saate bakıp \"güzel, 10 dakikanın altında\" diyor. 10 puandan kaç puana düşer?",
+  "category": "spicy"
+ },
+ {
+  "id": "d159131e-c8f0-4d44-af47-1514971573bf",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Crying in front of your partner...",
+  "tr": "Partnerinin önünde ağlamak...",
+  "answers_en": [
+   "I cry freely",
+   "Only when it's really hard",
+   "Never, I cry alone"
+  ],
+  "answers_tr": [
+   "Rahatlıkla ağlarım",
+   "Sadece çok zor anlarda",
+   "Asla, yalnızken ağlarım"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "da0a868e-280d-4541-ac22-5e355899f285",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner hasn't been in the mood for months because of work stress. What do you do?",
+  "tr": "Partnerin aylardır iş stresi yüzünden yakınlaşmak istemiyor. Ne yaparsın?",
+  "answers_en": [
+   "Wait patiently, no pressure",
+   "Talk about it openly",
+   "Plan a stress-free getaway",
+   "Suggest seeing a professional"
+  ],
+  "answers_tr": [
+   "Baskı yapmadan sabırla beklersin",
+   "Açık açık konuşursun",
+   "Stressiz bir kaçamak planlarsın",
+   "Bir uzmana gitmeyi önerirsin"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "62965379-6dbf-441e-aa0f-6d5bfce5967f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner gained some weight and now wants the lights off. What do you do?",
+  "tr": "Partnerin kilo aldı ve artık ışıklar kapalı olsun istiyor. Ne yaparsın?",
+  "answers_en": [
+   "Remind them how attractive they are to you",
+   "Respect it and turn the lights off",
+   "Gently talk about why"
+  ],
+  "answers_tr": [
+   "Sana ne kadar çekici geldiğini söylersin",
+   "Saygı duyar, ışığı kapatırsın",
+   "Nedenini nazikçe konuşursun"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "27725fd4-9ec3-4ea7-ab17-eca3de08bb2d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In a packed restaurant, your partner gives you a long kiss on the lips. What do you do?",
+  "tr": "Kalabalık bir restoranda partnerin seni dudaktan uzun uzun öpüyor. Ne yaparsın?",
+  "answers_en": [
+   "Kiss back, who cares",
+   "Give a quick kiss and pull back",
+   "Laugh it off awkwardly",
+   "Tell them \"not here\""
+  ],
+  "answers_tr": [
+   "Karşılık verirsin, kime ne",
+   "Kısa öpüp geri çekilirsin",
+   "Utanıp gülersin",
+   "\"Burada olmaz\" dersin"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "ace18a34-2c0b-4aef-9fab-bf1b2a2d3e02",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Lately your intimacy has fallen into the same old routine. What do you do?",
+  "tr": "Son aylarda yakınlığınız hep aynı rutine döndü. Ne yaparsın?",
+  "answers_en": [
+   "Surprise them with something new",
+   "Bring it up and plan together",
+   "Book a night away from home",
+   "It's fine, routine is comfy"
+  ],
+  "answers_tr": [
+   "Yeni bir şeyle sürpriz yaparsın",
+   "Konuyu açıp birlikte planlarsınız",
+   "Evden uzakta bir gece ayarlarsın",
+   "Sorun değil, rutin rahattır"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "5dc6ac28-16ab-425f-aec7-b5c6dca08089",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You're in the mood, but your partner is exhausted. What happens?",
+  "tr": "Sen istiyorsun ama partnerin çok yorgun. Ne olur?",
+  "answers_en": [
+   "Cuddle and fall asleep",
+   "Try to change their mind",
+   "Save it for the morning",
+   "Feel a little rejected"
+  ],
+  "answers_tr": [
+   "Sarılıp uyursunuz",
+   "Fikrini değiştirmeye çalışırsın",
+   "Sabaha saklarsınız",
+   "Biraz reddedilmiş hissedersin"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "6d467b67-0680-4c5a-a01e-55031b0bc0ab",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A kiss before leaving the house...",
+  "tr": "Evden çıkarken öpücük...",
+  "answers_en": [
+   "A must, every single day",
+   "When we remember",
+   "Not needed"
+  ],
+  "answers_tr": [
+   "Her gün şart",
+   "Aklımıza gelirse",
+   "Gerek yok"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "1e704567-0f18-43f7-9230-7c7cc9d9a005",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner opens up about their biggest insecurity for the first time. What do you do?",
+  "tr": "Partnerin kimseye anlatmadığı en büyük güvensizliğini ilk kez sana anlattı. Ne yaparsın?",
+  "answers_en": [
+   "Just listen and hug them",
+   "Tell them it's not true",
+   "Share one of yours too",
+   "Look for ways to help"
+  ],
+  "answers_tr": [
+   "Sadece dinleyip sarılırsın",
+   "\"Hiç de öyle değil\" dersin",
+   "Sen de kendi güvensizliğini anlatırsın",
+   "Çözüm yolu ararsın"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "251fa297-28a5-470f-a5b4-2d89eff44148",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Scheduling intimacy on the calendar...",
+  "tr": "Yakınlaşmak için takvime gün yazmak...",
+  "answers_en": [
+   "Smart, it keeps us close",
+   "Fine if life gets busy",
+   "Kills the passion"
+  ],
+  "answers_tr": [
+   "Akıllıca, bizi yakın tutar",
+   "Hayat yoğunsa olur",
+   "Tutkuyu öldürür"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "f398ab1a-ea92-42d9-bc5e-bfc0380abe1b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "One person always making the first move...",
+  "tr": "İlk adımı hep aynı kişinin atması...",
+  "answers_en": [
+   "Totally fine",
+   "Gets tiring after a while",
+   "A real problem"
+  ],
+  "answers_tr": [
+   "Hiç sorun değil",
+   "Bir süre sonra yorar",
+   "Ciddi bir sorun"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "e34ac078-acf4-4646-b713-abb4535b76ca",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Our last 10 minutes before falling asleep should be spent...",
+  "tr": "Uyumadan önceki son 10 dakikamız...",
+  "answers_en": [
+   "Cuddling in silence",
+   "Talking about our day",
+   "Each on our own phone",
+   "Watching or reading something together"
+  ],
+  "answers_tr": [
+   "Sessizce sarılarak",
+   "Günümüzü konuşarak",
+   "Herkes kendi telefonunda",
+   "Birlikte bir şey izleyerek ya da okuyarak"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "efaad9e9-a415-497b-abca-91ce1e04b8dd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Holding hands and cuddling in front of friends...",
+  "tr": "Arkadaşların yanında el ele tutuşmak, sarılmak...",
+  "answers_en": [
+   "Love it, no need to hide",
+   "A little is cute",
+   "Save it for when we're alone"
+  ],
+  "answers_tr": [
+   "Bayılırım, saklamaya gerek yok",
+   "Biraz tatlı olur",
+   "Baş başayken yapalım"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "b0a69874-b41c-487d-8c74-f8b71a692cf7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You'll be in different cities for two months for work. How do you keep the closeness alive?",
+  "tr": "İş yüzünden iki ay ayrı şehirlerde olacaksınız. Yakınlığı nasıl canlı tutarsınız?",
+  "answers_en": [
+   "Video calls every night",
+   "Flirty texts all day",
+   "Surprise visits",
+   "We just wait it out"
+  ],
+  "answers_tr": [
+   "Her gece görüntülü konuşarak",
+   "Gün boyu flörtöz mesajlarla",
+   "Sürpriz ziyaretlerle",
+   "Bekleriz, geçer"
+  ],
+  "category": "spicy"
+ },
+ {
+  "id": "55b7de30-6949-47e2-8b1c-ff1d2e6c04a9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You can't remember the last time your partner complimented you. What do you do?",
+  "tr": "Partnerinden en son ne zaman iltifat duyduğunu hatırlamıyorsun. Ne yaparsın?",
+  "answers_en": [
+   "Tell them you miss it",
+   "Compliment them first",
+   "Let it go, I know I'm loved"
+  ],
+  "answers_tr": [
+   "Bunu özlediğini söylersin",
+   "İlk iltifatı sen edersin",
+   "Takılmazsın, sevildiğini biliyorsun"
+  ],
+  "category": "spicy"
+ }
+]

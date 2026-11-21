@@ -1,0 +1,618 @@
+{
+ "9d9765b1-cb21-4b66-a6ca-cca64bb8ea46": {
+  "text": "Was davon ist eine Hülsenfrucht, die Erdnuss oder die Mandel?",
+  "answers": [
+   "Erdnuss",
+   "Mandel"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a5c6fa97-91c7-43b3-97b9-37b7498e06d6": {
+  "text": "Was hat meist mehr Vitamin C, Kiwi oder Orange?",
+  "answers": [
+   "Kiwi",
+   "Orange"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "911db8b1-a5fb-4bc6-8f22-39c829ee4bf0": {
+  "text": "Was hat meist mehr Koffein, eine Tasse Filterkaffee oder ein Espresso?",
+  "answers": [
+   "Filterkaffee",
+   "Espresso"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b9fed908-5c2b-4e3c-9f81-e2bbb76fa222": {
+  "text": "Was hat pro 100 Gramm meist mehr Zucker, Ketchup oder Mayonnaise?",
+  "answers": [
+   "Ketchup",
+   "Mayonnaise"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7d0a4ab1-2bd1-4107-8bc0-533ca5e9231a": {
+  "text": "Welcher Lungenflügel ist beim Menschen größer, der linke oder der rechte?",
+  "answers": [
+   "Der rechte",
+   "Der linke"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "01bfe40c-64f0-4f45-9c33-7c07641eeda8": {
+  "text": "Was ist länger, der Dünndarm oder der Dickdarm?",
+  "answers": [
+   "Dünndarm",
+   "Dickdarm"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9c933e05-76a7-4482-94f0-be96468d643b": {
+  "text": "Was hat mehr Knochen, eine Hand oder ein Fuß?",
+  "answers": [
+   "Eine Hand",
+   "Ein Fuß"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "55fc8963-d395-469d-b4be-f913970cc16b": {
+  "text": "Wer hat meist mehr Geschmacksknospen, Kinder oder Erwachsene?",
+  "answers": [
+   "Kinder",
+   "Erwachsene"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f6fd11c9-bc21-4a2d-bff8-e62ca18740aa": {
+  "text": "Was ist meist schwerer, die Leber oder das Gehirn?",
+  "answers": [
+   "Leber",
+   "Gehirn"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "209614d8-bca7-4d9f-8b4b-b29ad0b18830": {
+  "text": "Wer war der erste römische Kaiser?",
+  "answers": [
+   "Julius Caesar",
+   "Augustus",
+   "Nero",
+   "Caligula"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e6cf06c1-9514-4042-997c-c659b797f601": {
+  "text": "Wer malte „Die Beständigkeit der Erinnerung“, das Bild mit den zerfließenden Uhren?",
+  "answers": [
+   "Salvador Dalí",
+   "René Magritte",
+   "Pablo Picasso",
+   "Joan Miró"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "60dfd00d-8067-4c8d-b52c-0b3e1f9bf0f0": {
+  "text": "Kann man die Chinesische Mauer mit bloßem Auge aus dem All sehen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2c709cf4-0a0f-4ef3-bd4f-de83fc51e4cf": {
+  "text": "In welchem Ozean ist die Titanic gesunken?",
+  "answers": [
+   "Atlantischer Ozean",
+   "Pazifischer Ozean",
+   "Indischer Ozean",
+   "Arktischer Ozean"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fa657f5a-654d-4391-afb9-0ea101840f39": {
+  "text": "Was ist die Hauptstadt von Japan?",
+  "answers": [],
+  "accepted": [
+   "Tokio",
+   "Tokyo",
+   "Tōkyō"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "1e0f26a6-8a22-4320-9d1d-d5d8a480ebab": {
+  "text": "Haben Goldfische nur ein Gedächtnis von etwa 3 Sekunden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fb406859-589a-403d-ab11-e30998090d0e": {
+  "text": "Wer schrieb „Romeo und Julia“?",
+  "answers": [
+   "William Shakespeare",
+   "Charles Dickens",
+   "Jane Austen",
+   "Mark Twain"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3edf5bc0-268b-4eb6-823b-d4fa8ad14cea": {
+  "text": "In welchem Museum hängt die Mona Lisa?",
+  "answers": [],
+  "accepted": [
+   "Louvre",
+   "der Louvre",
+   "Musée du Louvre",
+   "Louvre-Museum",
+   "Louvre Museum"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "115767b5-2e17-4e51-a1fc-e14006de9a50": {
+  "text": "Welcher Planet ist für seine Ringe berühmt?",
+  "answers": [
+   "Jupiter",
+   "Saturn",
+   "Uranus",
+   "Neptun"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "81840a32-f4f6-4e8e-bc44-8f33b631c57e": {
+  "text": "Was ist die Hauptstadt von Spanien?",
+  "answers": [],
+  "accepted": [
+   "Madrid"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "95ee923b-56f9-4b3a-97a4-88fbd7c33633": {
+  "text": "Haben Dinosaurier und Menschen zur gleichen Zeit gelebt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4fe95b65-a522-486a-9765-2125d2041fed": {
+  "text": "Wer schrieb die Harry-Potter-Bücher?",
+  "answers": [
+   "J.K. Rowling",
+   "Stephen King",
+   "J.R.R. Tolkien",
+   "George R.R. Martin"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "56734855-e0f8-4feb-b09e-8cda4b5bccb2": {
+  "text": "In welcher Stadt steht das Kolosseum?",
+  "answers": [],
+  "accepted": [
+   "Rom",
+   "Roma",
+   "Rome"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "97e56b29-8c4e-4811-9a96-d4780db72a6f": {
+  "text": "Was ist der höchste Berg der Erde?",
+  "answers": [
+   "K2",
+   "Mount Everest",
+   "Mont Blanc",
+   "Kilimandscharo"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "df443533-1f18-4cd4-8be3-7266e19e502b": {
+  "text": "Was ist die Hauptstadt von Ägypten?",
+  "answers": [],
+  "accepted": [
+   "Kairo",
+   "Cairo",
+   "Al-Qahira"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "0cae65d9-df38-40fb-8816-29d3c48f6bde": {
+  "text": "Wer hat das Penicillin entdeckt?",
+  "answers": [
+   "Louis Pasteur",
+   "Marie Curie",
+   "Alexander Fleming",
+   "Isaac Newton"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8384d067-1ad2-496f-a48c-807812a3c2b9": {
+  "text": "Was ist der längste Fluss der Welt?",
+  "answers": [],
+  "accepted": [
+   "Nil",
+   "der Nil",
+   "Nile"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "6a592f5c-8b25-475c-9d71-2ff6077b9fac": {
+  "text": "Wie lautet Pi auf zwei Nachkommastellen gerundet?",
+  "answers": [],
+  "accepted": [
+   "3,14",
+   "3.14"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "db75cabc-fd6e-4e8a-abce-64acc6fff9ca": {
+  "text": "Wie viele Seiten hat ein Sechseck?",
+  "answers": [
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ee189263-18ae-49be-91d0-bb89a04fb19c": {
+  "text": "Ist die 1 eine Primzahl?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d7c78439-2540-42e6-a32a-dfaaf448ca91": {
+  "text": "Wie viel Grad hat ein voller Kreis?",
+  "answers": [],
+  "accepted": [
+   "360",
+   "360 Grad",
+   "360°"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "d50e1086-861b-4696-acd0-61fdcffefd7d": {
+  "text": "Wofür steht der Buchstabe C bei römischen Zahlen?",
+  "answers": [
+   "50",
+   "100",
+   "500",
+   "1000"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "00daed8e-7efd-41f2-9dec-1fc232d9b404": {
+  "text": "Wie viele Seiten hat ein Quadrat?",
+  "answers": [],
+  "accepted": [
+   "4",
+   "vier"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "6083bedd-91e1-4dae-b88b-b3c1ea414c86": {
+  "text": "Wofür steht der Buchstabe L bei römischen Zahlen?",
+  "answers": [
+   "10",
+   "50",
+   "100",
+   "500"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6544f943-74a8-4af1-ada0-7918afd2ba48": {
+  "text": "Ist eine gerade Zahl immer durch 2 teilbar?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "684014cd-2a78-4875-b42a-11e52aab9973": {
+  "text": "Was ist die Quadratwurzel aus 81?",
+  "answers": [],
+  "accepted": [
+   "9",
+   "neun"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "2ecb74e8-9d5f-45fe-845c-a72ae870708f": {
+  "text": "Wie viele Flächen hat ein Würfel?",
+  "answers": [
+   "4",
+   "6",
+   "8",
+   "12"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b4dcad8a-8d18-4225-8400-c98a2189ebea": {
+  "text": "Was stellte Nintendo bei der Gründung 1889 her?",
+  "answers": [
+   "Spielkarten",
+   "Holzspielzeug",
+   "Radios",
+   "Fahrräder"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "78aab024-3668-491d-bb40-e86b89b38a5d": {
+  "text": "Was baute Lamborghini vor seinen Sportwagen?",
+  "answers": [
+   "Traktoren",
+   "Motorräder",
+   "Flugzeuge",
+   "Boote"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f74e6644-27e8-4c97-a7c9-54c3cab21631": {
+  "text": "Was hat Amazon am Anfang als Einziges verkauft?",
+  "answers": [],
+  "accepted": [
+   "Bücher",
+   "Buch",
+   "Buecher",
+   "Books"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "2c638edc-94ba-4eb2-bcfc-94779768b590": {
+  "text": "Was stellte Nokia bei der Gründung 1865 her?",
+  "answers": [
+   "Papier",
+   "Gummistiefel",
+   "Telegrafenkabel",
+   "Streichhölzer"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1871c4e9-5c22-4c35-a1bc-dd4474c34c49": {
+  "text": "Als was wurde Play-Doh ursprünglich verkauft?",
+  "answers": [
+   "Tapetenreiniger",
+   "Brotteig",
+   "Zahnpasta",
+   "Kleber"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "be971a7f-47fd-4d42-b10a-daebbb510af3": {
+  "text": "Wie hieß Pepsi ursprünglich?",
+  "answers": [
+   "Brad's Drink",
+   "Pep Cola",
+   "Kola Fizz",
+   "Bob's Soda"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "69f23dbc-2583-479b-9359-07a59e7f59f6": {
+  "text": "Wie hieß Instagram, bevor es umbenannt wurde?",
+  "answers": [
+   "Burbn",
+   "Snapshot",
+   "InstaPic",
+   "Photogram"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ead10aaa-9567-4ab3-a87a-cdec913928be": {
+  "text": "Welche Firma hat mit DVD-Verleih per Post angefangen?",
+  "answers": [
+   "Netflix",
+   "YouTube",
+   "Spotify",
+   "Hulu"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "521b3e39-b5c1-43b2-8cde-ab8d9def7961": {
+  "text": "Was stellte Toyota her, bevor es Autos baute?",
+  "answers": [
+   "Webstühle",
+   "Nähmaschinen",
+   "Fahrräder",
+   "Reiskocher"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "71fc7269-4aed-472e-bd79-e0d84c749902": {
+  "text": "Welche Farbe hatten angebaute Karotten vor dem 17. Jahrhundert meistens?",
+  "answers": [
+   "Lila",
+   "Orange",
+   "Grün",
+   "Rot"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d3b894cc-8844-4ffe-a1d0-e1e2eaf581f7": {
+  "text": "In welchem Land wurde der Caesar Salad erfunden?",
+  "answers": [
+   "Mexiko",
+   "Italien",
+   "USA",
+   "Frankreich"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "59002bd4-f891-4b1f-aa72-db3cc3ed0898": {
+  "text": "In welchem Land wurde die Pizza Hawaii mit Ananas erfunden?",
+  "answers": [
+   "Kanada",
+   "USA",
+   "Italien",
+   "Australien"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d806f810-b198-47b8-a3d0-7d981c8e7472": {
+  "text": "Woher haben Flamingos ihre rosa Farbe?",
+  "answers": [
+   "Von ihrem Futter",
+   "Vom Sonnenlicht",
+   "Von ihren Genen",
+   "Von Schlammbädern"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "44510aab-e8ee-4cce-a85b-024ce43e245c": {
+  "text": "Koalas haben fast die gleichen Fingerabdrücke wie …?",
+  "answers": [
+   "Menschen",
+   "Schimpansen",
+   "Bären",
+   "Hunde"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c1baf44d-dffd-4222-b3d4-d0146ad53d91": {
+  "text": "Welches ist das einzige Säugetier, das wirklich fliegen kann?",
+  "answers": [
+   "Fledermaus",
+   "Gleithörnchen",
+   "Kurzkopfgleitbeutler",
+   "Fliegender Fisch"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ede0c210-18c9-4486-9424-f3e08df6da06": {
+  "text": "Welcher Vogel kann rückwärts fliegen?",
+  "answers": [
+   "Kolibri",
+   "Adler",
+   "Eule",
+   "Schwalbe"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7079992a-57a9-43fe-8131-82bbabc9398a": {
+  "text": "Wo sitzt das Herz einer Garnele?",
+  "answers": [
+   "Im Kopf",
+   "Im Schwanz",
+   "In den Beinen",
+   "Im Bauch"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0e4b81de-abde-46a1-869f-09703692357c": {
+  "text": "Wie viele Kammern hat der Magen einer Kuh?",
+  "answers": [
+   "4",
+   "1",
+   "2",
+   "6"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "db5641b6-8b6f-44ea-8949-08a4ccbedf59": {
+  "text": "Welches Landtier hat mit fast zwei Jahren die längste Tragzeit?",
+  "answers": [
+   "Elefant",
+   "Giraffe",
+   "Nashorn",
+   "Kamel"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d7896c20-fc9f-41c3-a5a7-f8d5ba468f8d": {
+  "text": "Wie viele Augen hat eine Honigbiene?",
+  "answers": [
+   "5",
+   "2",
+   "4",
+   "8"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}
