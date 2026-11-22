@@ -24,10 +24,13 @@ const PURCHASE_EVENTS = new Set([
 type EventClaim = "claimed" | "duplicate" | "untracked" | "error";
 
 /**
- * RevenueCat may deliver an event more than once (same `event.id`); the row
- * in revenuecat_events makes sure its coins are credited only once.
+ * RevenueCat may deliver an event more than once (same `event.id`), and has
+ * once sent the same store purchase as two events with different ids. The row
+ * in revenuecat_events (unique on event_id, and on transaction_id once
+ * migrations/20261123_revenuecat_transaction_id.sql is applied) makes sure the
+ * coins are credited only once either way.
  */
-async function claimEvent(
+export async function claimEvent(
   supabaseAdmin: SupabaseClient,
   event: any,
   coins: number,
@@ -36,15 +39,35 @@ async function claimEvent(
     console.warn("⚠️ RevenueCat event without id; can't guard against duplicates");
     return "untracked";
   }
-  const { error } = await supabaseAdmin.from("revenuecat_events").insert({
+  const row = {
     event_id: event.id,
     event_type: event.type,
     app_user_id: event.app_user_id,
     product_id: event.product_id ?? null,
     coins,
-  });
+  };
+  const transactionId =
+    typeof event.transaction_id === "string" && event.transaction_id
+      ? event.transaction_id
+      : null;
+  let { error } = await supabaseAdmin
+    .from("revenuecat_events")
+    .insert(transactionId ? { ...row, transaction_id: transactionId } : row);
+  // PGRST204 / 42703: the transaction_id column isn't there yet (migration not
+  // applied); claim on event_id alone, exactly as before.
+  if (transactionId && (error?.code === "PGRST204" || error?.code === "42703")) {
+    console.warn("⚠️ revenuecat_events.transaction_id missing; deduping on event id only");
+    ({ error } = await supabaseAdmin.from("revenuecat_events").insert(row));
+  }
   if (!error) return "claimed";
-  if (error.code === "23505") return "duplicate";
+  if (error.code === "23505") {
+    if (String(error.message ?? "").includes("transaction_id")) {
+      console.warn(
+        `⚠️ RevenueCat event ${event.id} repeats transaction ${transactionId}; not crediting again`,
+      );
+    }
+    return "duplicate";
+  }
   // 42P01: migrations/20261008_revenuecat_events.sql hasn't been applied yet.
   if (error.code === "42P01" || error.code === "PGRST205") {
     console.warn("⚠️ revenuecat_events table missing; duplicates aren't detected");
@@ -290,7 +313,9 @@ export function createRevenueCatWebhookRouter({
 
         const claim = await claimEvent(supabaseAdmin, event, coins);
         if (claim === "duplicate") {
-          console.log(`ℹ️ RevenueCat event ${event.id} already processed`);
+          console.log(
+            `ℹ️ RevenueCat event ${event.id} (transaction ${event.transaction_id}) already processed`,
+          );
           return res.status(200).json({ success: true, duplicate: true });
         }
         if (claim === "error") {
