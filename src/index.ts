@@ -158,7 +158,6 @@ import {
 } from "./utils/rankIt.js";
 import {
   buildTwoTruthsRounds,
-  decodeStatements,
   encodeStatements,
   isGuessRound,
   isWriteRound,
@@ -169,6 +168,7 @@ import {
   TWO_TRUTHS_TURNS,
 } from "./utils/twoTruths.js";
 import { loadLies, renameLieAuthors, saveLie } from "./services/twoTruthsSecrets.js";
+import { pickNextQuestion } from "./nextQuestion.js";
 import { anyActivePass, getPassStatus } from "./services/unlimitedPass.js";
 
 warmUpProfanityFilter();
@@ -1235,6 +1235,10 @@ async function completeRound(
   // done talking about it. A result that isn't shown (0 s) still moves on.
   const manualAdvance = displayDuration > 0 && advancesManually(room);
   const percentage = getGamePercentage(room);
+  // With the button, the app shows the next question the moment it's tapped
+  // instead of waiting for "next-question" (which then only confirms it).
+  // Same question advanceRound will start: both come from pickNextQuestion.
+  const upcoming = manualAdvance && !isLast ? pickNextQuestion(room, completed) : null;
 
   io.to(roomCode).emit("round-completed", {
     allPlayersAnswered: true,
@@ -1245,6 +1249,14 @@ async function completeRound(
     ...(completed.lies && { lies: completed.lies }),
     displayDuration,
     ...(manualAdvance && { manualAdvance: true }),
+    ...(upcoming && {
+      nextQuestion: {
+        question: upcoming.question,
+        currentQuestionIndex: upcoming.index,
+        totalQuestions: room.questions.length,
+        duration: getQuestionDuration(room.settings, upcoming.question),
+      },
+    }),
     playerAnswers: room.players.map((player) => ({
       playerId: player.id,
       playerName: player.name,
@@ -1297,34 +1309,16 @@ async function advanceRound(
       if (room.players.length < 2) {
         return { kind: "cancelled", room: await roomManager.resetRoom(roomCode) };
       }
-      let nextIndex = room.currentQuestionIndex + 1;
-      let nextQuestion = room.questions[nextIndex];
-      let statements: Record<string, string[] | null> | null = null;
-      if (nextQuestion?.twoTruths?.phase === "guess") {
-        statements = Object.fromEntries(
-          Object.entries(round.answers).map(([id, value]) => [id, decodeStatements(value)]),
-        );
-        // Nobody wrote anything, so there's nothing to guess this turn.
-        if (!Object.values(statements).some(Boolean)) {
-          statements = null;
-          nextIndex++;
-          nextQuestion = room.questions[nextIndex];
-        }
-      }
-      if (!nextQuestion) {
+      const next = pickNextQuestion(room, round);
+      if (!next) {
         room.status = "finished";
         room.currentRound = null;
         await roomManager.updateRoom(room);
         return { kind: "finish" };
       }
-      if (statements && nextQuestion.twoTruths?.phase === "guess") {
-        nextQuestion = {
-          ...nextQuestion,
-          twoTruths: { ...nextQuestion.twoTruths, statements },
-        };
-      }
-      room.currentQuestionIndex = nextIndex;
-      room.currentRound = newRound(room, nextQuestion);
+      const { statements } = next;
+      room.currentQuestionIndex = next.index;
+      room.currentRound = newRound(room, next.question);
       // A player whose partner wrote nothing has nothing to guess.
       const skipped: string[] = [];
       if (statements) {
