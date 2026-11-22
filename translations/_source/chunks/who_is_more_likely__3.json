@@ -1,0 +1,386 @@
+[
+ {
+  "id": "9a2f1444-dd4b-409f-8442-4bf13cb6535b",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to hold a grudge against a fictional character?",
+  "tr": "Kurgu bir karaktere kin tutmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "156eade8-400a-4673-82be-423e5f58252d",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to check the fridge three times hoping new food appeared?",
+  "tr": "Yeni yemek çıkmış umuduyla buzdolabını üç kez açmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "90949a64-da3b-4f4f-912d-2aedddbe08e2",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more socially awkward?",
+  "tr": "Kim daha sosyal olarak garip?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "f3b96e52-1cc1-456d-93c3-00e897de9ab4",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to fall asleep mid-conversation?",
+  "tr": "Konuşmanın ortasında uyuyakalmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "39db58d0-afd0-4ed5-b281-206497633046",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to send a paragraph-long text when a short one would do?",
+  "tr": "Kısa mesaj yetecekken paragraf yazmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "247467d9-fb35-4a9c-b528-96c9d9a7baa1",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more forgetful?",
+  "tr": "Kim daha unutkan?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "05be5d5c-9f83-46d1-82be-9abd3afdc926",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to turn a simple errand into a three-hour adventure?",
+  "tr": "Basit bir işi üç saatlik maceraya çevirmeye kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "b65ea2dc-a944-46ed-997e-646dd2415538",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to buy concert tickets and then regret the price?",
+  "tr": "Konser bileti alıp sonra fiyatına pişman olmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "aa333593-b1fd-432e-85eb-903139ce8f82",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to talk through an entire movie?",
+  "tr": "Film boyunca konuşmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "4332637b-c390-40bb-9fb6-ea03fe1a3e0e",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get lost in a parking garage?",
+  "tr": "Otoparkta kaybolmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "6dd82e26-c42d-41e2-a068-009cb51942d7",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to start a fight with customer service?",
+  "tr": "Müşteri hizmetleriyle tartışmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "6a7c728f-1ebc-4c0d-8a83-a1caa509d3b0",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to forget where they parked the car?",
+  "tr": "Arabasını park ettiği yeri unutmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "cda710ec-f385-4b4e-a762-f7c0dccd32df",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to never find what they're looking for?",
+  "tr": "Aradığı hiçbir şeyi bulamamaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "399738f6-59da-4647-9096-5be53561b51d",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to lose the car keys?",
+  "tr": "Araba anahtarını kaybetmeye kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "5a908d0b-5678-4228-8a13-33b8aff90f13",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to leave the house messy for two weeks straight?",
+  "tr": "Evi iki hafta boyunca dağıtıp hiç toplamamaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "348a9869-f1c1-44f3-986f-692088ef16fc",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to actually manage waking up early every morning?",
+  "tr": "Her sabah erken kalkmayı becerebilmeye kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "321b6fd0-a62e-4378-a3d7-3a13a39d86ee",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get emotional over a childhood memory out of nowhere?",
+  "tr": "Hiçbir sebep yokken çocukluk anısına duygulanmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "02930f44-8dd1-494d-b2d6-56ef58f50e7b",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to start a new series at midnight and finish three episodes?",
+  "tr": "Gece yarısı yeni dizi başlatıp üç bölüm bitirmeye kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "dbe30509-5c4f-43e2-bebc-c99f512ba1ee",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get paranoid about a weird noise in the house?",
+  "tr": "Evdeki garip bir sesten paranoyaya girmeye kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "112d8dbd-b53c-4703-9691-2efcc2f374f4",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to become the DJ of every car ride?",
+  "tr": "Her araba yolculuğunun DJ'i olmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "b283991b-2ac1-4c1f-9934-c038282962de",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to say \"one more episode\" and mean five?",
+  "tr": "\"Bir bölüm daha\" deyip beşini kastedmeye kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "cfd55717-f395-45fe-b79a-8904a9dd3c9e",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to take a million photos and never look at them again?",
+  "tr": "Milyonlarca foto çekip bir daha hiç bakmamaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "37510763-3446-4f2e-b228-578c9433dc22",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get nervous before a simple doctor's appointment?",
+  "tr": "Basit bir doktor randevusundan önce gerilmeye kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "9767719d-e57e-4630-ade0-c800a701b44a",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to become obsessed with a new restaurant for a month?",
+  "tr": "Yeni bir restorana bir ay boyunca takıntılı olmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "2d169a85-7ac9-4ee0-a148-9ed89cd261df",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to start packing for a trip way too early?",
+  "tr": "Tatile çok fazla erken hazırlanmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "ffc983ff-c82a-4d2b-aaf9-b2534b0e7779",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get weirdly specific about how they like their coffee?",
+  "tr": "Kahvesini nasıl istediği konusunda garip şekilde detaycı olmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "306342a6-3c4b-4af3-88cf-fa6b188cfa57",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to fall asleep with the lights on?",
+  "tr": "Işıklar açık uyuyakalmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "1a6d5f5f-89a4-44ba-9152-21b5c7c7acaa",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to wear the same hoodie for a week straight?",
+  "tr": "Aynı hoodiei bir hafta boyunca giymeye kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "23ba263d-ac55-4f6b-812f-83f239cb9572",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get into a bad mood because of the weather?",
+  "tr": "Hava yüzünden keyfi kaçmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "73d56b41-036e-4663-b690-4b573a66d373",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to leave wet towels on the bed?",
+  "tr": "Islak havluları yatağın üstüne bırakmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "7d29e116-823d-4ad8-9681-36d32bd6a288",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to get scared watching a mildly scary movie?",
+  "tr": "Hafif korku filminde bile korkmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "b9038aad-86fb-4dcc-904a-223703f4da1b",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to memorize new songs right away?",
+  "tr": "Yeni duyduğu şarkıları hemen ezberleyebilmeye kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "56a26139-045b-4228-9588-c10819ef527d",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to eat almost any kind of food?",
+  "tr": "Her çeşit yemeği yiyebilmeye kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "e4395d05-f9c5-4db8-ad2b-fd858da62922",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to want to buy everything they see?",
+  "tr": "Gördüğü her şeyi almak istemeye kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "c4704693-dd64-434d-997f-21b4f43459f7",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to send a 3-minute voice message instead of a quick text?",
+  "tr": "Kısa bir mesaj yerine 3 dakikalık sesli mesaj atmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "080a9ae4-6962-4dc4-9e89-d06ee9766db3",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to read reviews for half an hour before buying something cheap?",
+  "tr": "Ucuz bir şey almadan önce yarım saat yorum okumaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "3429bb59-5d37-4dc8-8f9e-8bc47d42073b",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to pretend to be on the phone to avoid talking to someone?",
+  "tr": "Biriyle konuşmamak için telefonda konuşuyormuş gibi yapmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "7dc01a0e-3941-464f-9707-fdd7473c6226",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to leave a party without saying goodbye to anyone?",
+  "tr": "Bir partiden kimseye görünmeden sıvışmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "eec86832-875d-434b-84ca-35c31801cef8",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to take a selfie in every elevator mirror?",
+  "tr": "Her asansör aynasında selfie çekmeye kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "4bcdf786-9e92-43a1-9eb3-270b1b687272",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to rehearse an argument in the shower that will never happen?",
+  "tr": "Hiç yaşanmayacak bir tartışmanın provasını duşta yapmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "f3166e62-68dd-4386-aa86-ae9cdd084b3f",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to finish the movie snacks before the movie even starts?",
+  "tr": "Film başlamadan atıştırmalıkları bitirmeye kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "b32aeb5a-2efe-4fe6-bcfb-2e7646777582",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to text \"5 minutes away\" while still at home?",
+  "tr": "Daha evden çıkmamışken \"5 dakikaya oradayım\" yazmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "27532cbc-7140-462e-a62e-04f4b0d10bb4",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to stop to pet every dog on the street?",
+  "tr": "Sokaktaki her köpeği sevmek için durmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "8cbd6c4d-b711-41e4-8f71-39024e902e35",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to laugh at their own joke before finishing it?",
+  "tr": "Kendi esprisini bitirmeden gülmeye kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "9e761155-d830-42a8-8f97-7669dccecc01",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to plan the whole vacation down to the hour?",
+  "tr": "Tatilin her saatini önceden planlamaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "a3eb24e9-a764-4480-995c-30ee44c563c7",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to fall asleep in the car ten minutes into a road trip?",
+  "tr": "Uzun yolun ilk on dakikasında arabada uyuyakalmaya kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "9fcc2208-af9e-4eb4-9c53-794ce71de112",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to come home from a trip with a suitcase full of souvenirs?",
+  "tr": "Tatilden bavul dolusu hediyelikle dönmeye kim daha yatkın?",
+  "category": "who_is_more_likely"
+ },
+ {
+  "id": "3827fe8e-9ce1-4ff3-88c9-c49da7c2ea48",
+  "mode": "who_is_more_likely",
+  "type": "choice",
+  "en": "Who is more likely to keep posting vacation photos weeks after getting home?",
+  "tr": "Döndükten haftalar sonra bile tatil fotoğrafı paylaşmaya devam etmeye kim daha yatkın?",
+  "category": "who_is_more_likely"
+ }
+]

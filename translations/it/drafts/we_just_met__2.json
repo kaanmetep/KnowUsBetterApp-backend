@@ -1,0 +1,484 @@
+{
+  "93527a98-af04-46b4-ac9c-fa8ef3187751": {
+    "text": "In futuro, sarebbe un problema per te se la persona che vorrai sposare avesse già un figlio da un'altra relazione?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "edf7a999-9c89-4253-9fd5-b1ef5ab799ed": {
+    "text": "L'amore ha un limite d'età?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e635d076-0016-4987-9d87-f888b2e841ad": {
+    "text": "Per te è un problema se il tuo amore non ama leggere?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "79e8a155-3eb1-4fd5-89a7-b2848c75044b": {
+    "text": "Ti è mai capitato di perdere la testa per la persona sbagliata?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c141b0f8-c822-4fda-b966-2d0bfccab391": {
+    "text": "Vorresti sapere tutto del passato del tuo amore o solo l'essenziale?",
+    "answers": [
+      "Tutto",
+      "Solo l'essenziale"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "60fa63d8-776a-4cf9-91fa-806954a2c37c": {
+    "text": "Una carriera ambiziosa a ritmi serrati o una vita più lenta ed equilibrata, con più tempo insieme?",
+    "answers": [
+      "Carriera ambiziosa",
+      "Vita equilibrata"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4aec1675-cf2f-4623-9c75-47bc416fb320": {
+    "text": "Ti comporteresti con freddezza di proposito per far colpo su chi ti piace?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1613d859-b83f-4783-aa2d-695aadcc9bc2": {
+    "text": "Hai mai fatto qualche follia per superare una rottura?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7183b9a1-aaff-4c67-a4a6-e86933246045": {
+    "text": "Per te è importante che tu e il tuo amore abbiate gli stessi gusti a tavola?",
+    "answers": [
+      "Importante",
+      "Non importante"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "17ab270c-0960-4272-bef3-497c0338069f": {
+    "text": "Preferiresti condividere tutte le password e la posizione per una fiducia totale, o tenerti un po' di privacy digitale per restare indipendente?",
+    "answers": [
+      "Trasparenza totale",
+      "Privacy digitale"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ebc6c164-d692-4a9a-b39e-76ed5c8b4435": {
+    "text": "Diresti una bugia al tuo amore solo per vederne il sorriso?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": "Rephrased (vederne il sorriso) to avoid the gendered object pronoun in renderlo/a felice."
+  },
+  "54c4d6cd-73cc-47f0-b70b-da72232dad98": {
+    "text": "Ti vendicheresti se il tuo amore ti tradisse?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "39450fcf-8356-4078-b219-8cb06da5af79": {
+    "text": "Se restassi single a lungo, abbasseresti le tue pretese pur di stare con qualcuno?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a041fab5-92d4-4a5f-be2f-b957f329b5bd": {
+    "text": "Il tuo amore che parla delle sue storie passate…",
+    "answers": [
+      "Normale e necessario",
+      "Inutile e dannoso"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "65a85275-79ea-4d17-8c24-c1eb58cbcd86": {
+    "text": "Per te è indispensabile che tu e il tuo amore vi scriviate ogni giorno?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c5d257bf-030a-472a-bd4c-a2d48ae36e84": {
+    "text": "Usciresti con qualcuno che, secondo i tuoi amici, fisicamente non fa per te?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "289535a4-8bd1-40f3-b08b-3a922499bbb7": {
+    "text": "Usciresti con una persona famosa sui social?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b1acfbe5-f3af-4497-a227-9d505804fc19": {
+    "text": "Usciresti con qualcuno che flirta tantissimo?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c5360398-4fae-4217-b9a9-688f74fe7070": {
+    "text": "Credi nel colpo di fulmine?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2ee5b9b7-f944-4184-95fa-6126fc6e3728": {
+    "text": "Per te l'aspetto fisico conta più dell'intelligenza?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e6bbcb00-c081-42da-8fa3-49ddc918d36d": {
+    "text": "Hai mai avuto un periodo in cui flirtavi con chiunque?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a0104269-bc85-49c8-ab80-c42c0378b7a1": {
+    "text": "Se il tuo amore non piacesse ai tuoi amici, perderesti interesse nei suoi confronti?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2f245f8d-f7f9-44a4-a1ef-70380caf5c51": {
+    "text": "Secondo te, due amici di lunga data possono diventare una coppia?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "40004a65-7deb-4d2e-894f-c10ac0c02ede": {
+    "text": "Se una persona amica si prendesse una cotta per te, le daresti una possibilità?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7ee41bf9-fa8d-42ab-a4a5-25bd110543e0": {
+    "text": "Se smettessi di impegnarti nella relazione, il tuo amore resterebbe comunque?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b1eea995-fbe7-4313-be08-f61522b35b5a": {
+    "text": "Se il tuo amore volesse fare con te un video per un trend di TikTok, accetteresti?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2a9a3787-2ade-4db3-a8ca-ac97c25f2a80": {
+    "text": "Se l'amore finisse, resteresti per tutto quello che avete vissuto insieme?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c76d7425-b712-41a8-8a78-e20b3844a382": {
+    "text": "Il primo passo dovrebbe farlo l'uomo?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e8dd11c5-218b-4d77-a137-0444c87fff31": {
+    "text": "Ti darebbe fastidio somigliare tantissimo all'ex del tuo amore?",
+    "answers": [],
+    "accepted": [],
+    "flagged": true,
+    "note": "EN says the partner resembles their own ex; TR says YOU resemble your partner's ex. Followed TR. Please confirm which meaning is intended."
+  },
+  "69535b7c-b94c-4ebc-95b0-5fa46b811906": {
+    "text": "Lasceresti leggere al tuo amore le chat con il tuo gruppo di amici?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "308773bf-cdf6-4b94-ad4b-f180e08e5163": {
+    "text": "Se il tuo amore andasse pazzo per una celebrità dell'altro sesso, sarebbe un problema per te?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "22a15b58-da54-4651-8f7e-1fe19d7759bb": {
+    "text": "Quando si incrina, cos'è più difficile da ricostruire?",
+    "answers": [
+      "Fiducia",
+      "Rispetto"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3576a2e2-2091-4b80-be80-5ab444b547cd": {
+    "text": "Se avessi una relazione, divideresti casa con una persona amica dell'altro sesso?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a174d015-ea8e-438b-b656-4f2fd4c4d34a": {
+    "text": "Controlli di continuo follower e seguiti del tuo amore sui social?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9dbad2cb-e77a-4d79-ab55-a910ff298ae6": {
+    "text": "Hai mai ghostato qualcuno con cui ti sentivi?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "40f38dbd-3632-412b-8639-66caf198eccb": {
+    "text": "Preferiresti una relazione passionale ma piena di litigi a una tranquilla e romantica?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e79b86a4-0b67-4524-863e-99c6afe7244b": {
+    "text": "Stalkeri di continuo la persona che ti piace?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f60eb06e-d599-4397-9b8e-d998cf3aa387": {
+    "text": "Se il tuo amore te lo chiedesse, smetteresti di sentire qualcuno della tua compagnia che ti trova attraente?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "88d9192e-4744-437f-a872-d8506811e724": {
+    "text": "Ti piacerebbe che il tuo amore ti raccontasse ogni volta che qualcuno ci prova?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ac9241fd-9c2f-4660-b29f-54b5f376e587": {
+    "text": "Se il tuo amore si vedesse con il tuo migliore amico senza dirtelo, ti ingelosiresti?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2f3ce1da-32a3-4290-bfed-f7010eceef7f": {
+    "text": "Faresti un'uscita a quattro con qualcuno che non ti piace, solo per fare un favore a un amico?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "70d85605-9926-497a-bc33-8f1f160a767b": {
+    "text": "Se a te e a un tuo amico piacesse la stessa persona, saresti tu a farti da parte?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c721139f-fab6-47e1-a92a-ac02286c6f63": {
+    "text": "Una bella amicizia vale più di una bella storia d'amore?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8859ae1e-8d5b-42ae-b6c0-58f9db24d4e6": {
+    "text": "Dopo una rottura, cercheresti subito qualcun altro per dimenticare il tuo ex?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "eb40b9fd-6df9-4f75-973c-88fd188c976a": {
+    "text": "Ti è mai capitato di stare con qualcuno non proprio sveglio, ma molto attraente?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "225fc433-ee24-4a08-a284-549ba829e019": {
+    "text": "Hai mai provato a stare con qualcuno solo perché ti corteggiava, anche se non ti faceva impazzire?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6b4a33bb-950c-4e92-b374-36b9671321b2": {
+    "text": "Usciresti con qualcuno che crede tantissimo all'oroscopo?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c50d0e1f-0a2d-43a9-8770-bcf5d941ef75": {
+    "text": "Per te conta molto come se la cava a letto il tuo amore?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f1a8d83b-d35c-43e5-b186-0b32e3f7b451": {
+    "text": "Continueresti una relazione con qualcuno che a letto non è granché?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d53cac0d-e7f5-4db7-ac2d-b7e17ffa702c": {
+    "text": "Ti darebbe fastidio se il tuo amore fosse molto in confidenza con una persona dell'altro sesso davvero attraente?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a1f43837-d310-4c12-8369-557c27f561fc": {
+    "text": "Per te è un problema se il tuo amore ha una libido molto alta?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6c5538e2-5508-4b67-a9ea-a489348c4c37": {
+    "text": "Per te è un problema se il tuo amore ha una libido bassa?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a10af84c-2ef5-49d4-8905-9088ce451ce5": {
+    "text": "Per te è importante come il tuo amore si guadagna da vivere?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6aaee788-917c-4ee2-8a9a-9cca6a9c69f7": {
+    "text": "Hai mai provato qualcosa per l'ex di un tuo amico?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "eea3c3ff-7e4d-47bd-afff-b4e7461f0ec2": {
+    "text": "Hai mai finto di stare male per saltare un appuntamento?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "712df3cd-471a-4405-9e76-d54832abbcc4": {
+    "text": "Hai mai cambiato qualcosa di te solo perché lo voleva qualcun altro?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9314d50f-94c5-418b-815c-f36bede1a87f": {
+    "text": "Secondo te è normale, in una relazione, conoscere le password dei social del tuo amore?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7f9d30fa-6891-460d-a0b5-34d836cff571": {
+    "text": "Se il tuo amore resta in silenzio durante una discussione, ti arrabbi ancora di più?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8ae7a335-ee23-4949-91da-d79b1a50e8f5": {
+    "text": "Ti dà fastidio se il tuo amore cancella di continuo i messaggi dal telefono?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a6b504e5-84cd-460b-b095-9cb3103dbdb0": {
+    "text": "Secondo te, in una coppia, l'amicizia più stretta dovrebbe essere quella con il proprio amore?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0fbdca85-41a4-499a-931d-8491a38e651b": {
+    "text": "Secondo te, differenze di religione e di etnia rendono una relazione più difficile?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2084f3b0-b540-4c5f-a400-f9f0d46a7310": {
+    "text": "Cosa trovi più attraente: l'intelligenza o il fisico?",
+    "answers": [
+      "Intelligenza",
+      "Fisico"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ebcc2753-cafa-4764-8de8-00c9e8c64d81": {
+    "text": "Cosa sarebbe peggio: che il tuo amore ti tradisse emotivamente o fisicamente?",
+    "answers": [
+      "Emotivamente",
+      "Fisicamente"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "63b32ee8-1fa7-4e8a-8e78-a4e97cac10d7": {
+    "text": "Cosa ti darebbe più fastidio nel tuo amore: troppa sincerità o sentimenti a volte nascosti?",
+    "answers": [
+      "Troppa sincerità",
+      "Sentimenti nascosti"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "df254cfe-4e09-4956-92ce-5d706c4c7d50": {
+    "text": "Il tuo amore può metterti dei paletti in certe situazioni?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

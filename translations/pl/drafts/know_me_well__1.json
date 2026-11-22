@@ -1,0 +1,651 @@
+{
+  "33e860c5-d68a-4622-8bff-5c2395b7b4fa": {
+    "text": "Co {{playerName}} woli w weekendy: zostać w domu czy wyjść na miasto?",
+    "answers": [
+      "Zostać w domu",
+      "Wyjść na miasto"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b54e736a-1ca6-4282-8d2f-f8395b87aea1": {
+    "text": "Co {{playerName}} woli: napisać czy zadzwonić?",
+    "answers": [
+      "Napisać",
+      "Zadzwonić"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4bc843bb-07c2-4f26-b817-0f3d3b9614b9": {
+    "text": "Co {{playerName}} woli: wszystko planować czy działać spontanicznie?",
+    "answers": [
+      "Wszystko planować",
+      "Działać spontanicznie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "82c0e606-aae6-4ff9-b103-b95342fd82dd": {
+    "text": "Co {{playerName}} woli: obejrzeć ulubiony film jeszcze raz czy coś nowego?",
+    "answers": [
+      "Powtórka ulubionego",
+      "Coś nowego"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "91ca43c8-5750-446e-a192-ac3bbc581934": {
+    "text": "Gdzie {{playerName}} woli mieszkać: nad oceanem czy w górach?",
+    "answers": [
+      "Nad oceanem",
+      "W górach"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f35c8f81-62c1-4a7f-a513-8d4236bd98a5": {
+    "text": "Co {{playerName}} woli: przyjść za wcześnie czy trochę się spóźnić?",
+    "answers": [
+      "Za wcześnie",
+      "Z lekkim spóźnieniem"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7d54b670-a981-422f-aced-7e9fa4bae1ec": {
+    "text": "Przy decyzjach {{playerName}} kieruje się głową czy sercem?",
+    "answers": [
+      "Głową",
+      "Sercem"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b4de40ca-d4cd-4e56-ae5d-4dea9004dd81": {
+    "text": "Co {{playerName}} woli: dochować tajemnicy czy powiedzieć prawdę, nawet jeśli zaboli?",
+    "answers": [
+      "Dochować tajemnicy",
+      "Powiedzieć prawdę"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f6926734-79ef-490a-a4e4-630f9273a4f5": {
+    "text": "Co {{playerName}} woli: ciężko zapracować na sukces czy mieć szczęście i osiągnąć go bez wysiłku?",
+    "answers": [
+      "Sukces dzięki ciężkiej pracy",
+      "Łatwy sukces dzięki szczęściu"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5447a180-538c-4a12-9efb-cc3a5b935f41": {
+    "text": "{{playerName}} łatwo wybacza czy długo chowa urazę?",
+    "answers": [
+      "Łatwo wybacza",
+      "Chowa urazę"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2be6067f-ee2d-45a3-83be-4fc9c72df2ef": {
+    "text": "Co {{playerName}} woli: milion dolarów czy ślub z miłością życia?",
+    "answers": [
+      "Milion dolarów",
+      "Ślub z miłością życia"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "12f83f4b-5b4b-4a12-a517-c315e06f329e": {
+    "text": "Gdzie {{playerName}} woli żyć: w rodzinnym mieście czy w różnych krajach?",
+    "answers": [
+      "W rodzinnym mieście",
+      "W różnych krajach"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e17c9f6b-cf1a-45b3-87f4-27c8bdc82bae": {
+    "text": "Co {{playerName}} woli: gotować w domu czy jeść na mieście?",
+    "answers": [
+      "Gotować w domu",
+      "Jeść na mieście"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "382bc563-9823-4ab1-8071-cc2d74faf52a": {
+    "text": "Jak {{playerName}} woli spędzić wolny dzień: w samotności czy ze znajomymi?",
+    "answers": [
+      "W samotności",
+      "Ze znajomymi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "90825695-99aa-4d92-896a-29c6c59a277b": {
+    "text": "Co {{playerName}} wybiera: wysoką pensję i stresującą pracę czy niższą pensję i spokojną pracę?",
+    "answers": [
+      "Wysoka pensja, stresująca praca",
+      "Niższa pensja, spokojna praca"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f2281a28-c027-428c-99bd-5a083fee5ca4": {
+    "text": "Co {{playerName}} woli: wyjść z inicjatywą i wyznać miłość czy poczekać, aż zrobi to druga strona?",
+    "answers": [
+      "Wyjść z inicjatywą",
+      "Poczekać"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "475783c3-4b71-401d-87db-c959f01b2d7e": {
+    "text": "{{playerName}} zakochuje się szybko czy z czasem?",
+    "answers": [
+      "Szybko",
+      "Z czasem"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1ab0317c-029e-4bb2-9de6-372e922d68aa": {
+    "text": "{{playerName}} otwarcie okazuje uczucia czy trzyma je w sobie?",
+    "answers": [
+      "Okazuje otwarcie",
+      "Trzyma w sobie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "786f9f17-3200-414f-9269-969c05476a85": {
+    "text": "W związku {{playerName}} woli więcej miłości dawać czy dostawać?",
+    "answers": [
+      "Więcej dawać",
+      "Więcej dostawać"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0739e76d-bd4b-4bcc-a375-4048e59d974a": {
+    "text": "Kogo {{playerName}} woli u boku: osobę pełną intensywnych emocji czy spokojną emocjonalnie?",
+    "answers": [
+      "Burza emocji",
+      "Emocjonalny spokój"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "76484c65-35c7-4c3c-9a1e-42230c7921f2": {
+    "text": "Jakie życie {{playerName}} woli: przewidywalne czy pełne niespodzianek?",
+    "answers": [
+      "Przewidywalne życie",
+      "Nieprzewidywalne i ekscytujące"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "239177fa-9d95-4c4e-bf05-9ca0e0153f5c": {
+    "text": "Co {{playerName}} woli: dużą rodzinę czy małą?",
+    "answers": [
+      "Duża rodzina",
+      "Mała rodzina"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1918743a-fff6-42ba-bacb-9f6930488c49": {
+    "text": "Jak {{playerName}} woli spędzać wolne: z rodziną czy w podróży w nowe miejsce?",
+    "answers": [
+      "Z rodziną",
+      "W podróży"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "77ba1277-946e-480b-b878-ed1aa3b631ad": {
+    "text": "Kiedy {{playerName}} chce mieć dzieci: wcześnie czy później?",
+    "answers": [
+      "Wcześnie",
+      "Później"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "598ab765-c9fe-4082-bc14-d4b8d064861f": {
+    "text": "{{playerName}} woli mieć jedno dziecko czy dwoje?",
+    "answers": [
+      "Jedno dziecko",
+      "Dwoje dzieci"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d704896b-0ef4-4c00-9fd7-3a47551b146a": {
+    "text": "Co {{playerName}} woli: stały etat na całe życie czy ryzyko i własny biznes?",
+    "answers": [
+      "Stały etat na całe życie",
+      "Własny biznes"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6fb61eae-df85-4a81-bbd6-5ead952fdd6f": {
+    "text": "Co {{playerName}} woli: pracę zdalną z dowolnego miejsca czy stałe biuro?",
+    "answers": [
+      "Praca zdalna",
+      "Praca w biurze"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "47219491-e82d-4220-afd0-f8f976dbacbc": {
+    "text": "Co {{playerName}} woli: szybko zamieszkać z drugą połówką czy długo z tym poczekać?",
+    "answers": [
+      "Szybko zamieszkać",
+      "Długo poczekać"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "245377c3-2b87-4c1e-a318-e374030cc54a": {
+    "text": "Jeśli trzeba wybrać, {{playerName}} woli osobę bardzo zazdrosną czy bardzo skąpą?",
+    "answers": [
+      "Bardzo zazdrosna osoba",
+      "Bardzo skąpa osoba"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "11fcbe7e-56a2-4147-b883-7adfe6ae91bf": {
+    "text": "Jeśli trzeba wybrać, {{playerName}} woli osobę, która wszystko kontroluje, czy bardzo zdystansowaną emocjonalnie?",
+    "answers": [
+      "Kontrola na każdym kroku",
+      "Emocjonalny dystans"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8ffb0025-b2a9-4460-a1ed-cb5a661a2088": {
+    "text": "Kogo {{playerName}} woli u boku: osobę bardzo ambitną czy zadowoloną z życia?",
+    "answers": [
+      "Bardzo ambitna osoba",
+      "Osoba zadowolona z życia"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3408836d-1ecf-441a-960f-2fea5ad49e27": {
+    "text": "Kogo {{playerName}} chce mieć w domu: kota czy psa?",
+    "answers": [
+      "Kot",
+      "Pies"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1f6efff9-3add-4515-85f1-c6d272731369": {
+    "text": "Co {{playerName}} woli: sławę czy całkiem prywatne życie?",
+    "answers": [
+      "Sława",
+      "Prywatne życie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "89b861b5-b18b-4c8f-a6db-d3267f82af3f": {
+    "text": "Co {{playerName}} woli: zawsze mówić prawdę czy zawsze unikać konfliktów?",
+    "answers": [
+      "Zawsze mówić prawdę",
+      "Unikać konfliktów"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "390d3b45-4e67-40bf-a304-e54b49a54d93": {
+    "text": "{{playerName}} wybacza od razu czy potrzebuje czasu, żeby komuś wybaczyć?",
+    "answers": [
+      "Wybacza od razu",
+      "Potrzebuje czasu"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "778652b2-f2c7-4a02-8dbf-bf8fbb62d089": {
+    "text": "W związku {{playerName}} woli powolne tempo czy chemię od pierwszej chwili?",
+    "answers": [
+      "Powolne tempo",
+      "Chemia od razu"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6b1a102c-c5a3-4261-97eb-1379c2d19a64": {
+    "text": "Gdzie {{playerName}} woli okazywać czułość: publicznie czy w cztery oczy?",
+    "answers": [
+      "Publicznie",
+      "W cztery oczy"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1a19c968-2cfd-4823-80a6-b871d121e44a": {
+    "text": "Co {{playerName}} woli w związku: intensywną chemię czy emocjonalny komfort?",
+    "answers": [
+      "Intensywna chemia",
+      "Emocjonalny komfort"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8ca453c1-959a-4c76-9ea7-54987d756b27": {
+    "text": "Co {{playerName}} woli: bardzo zazdrosną drugą połówkę czy taką, która daje pełną swobodę?",
+    "answers": [
+      "Dużo zazdrości",
+      "Pełna swoboda"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d5fadf41-1231-4b0c-8efa-9d625b1ca6fb": {
+    "text": "Kogo {{playerName}} woli u boku: osobę bardzo wylewną w dotyku czy raczej opanowaną i spokojną?",
+    "answers": [
+      "Dużo czułości",
+      "Opanowanie i spokój"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f1ed238f-43db-4120-a454-f66430ed55c7": {
+    "text": "{{playerName}} woli związek z silną chemią fizyczną czy z głęboką więzią emocjonalną?",
+    "answers": [
+      "Chemia fizyczna",
+      "Więź emocjonalna"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "aefd3291-56f1-4c7b-ae95-6cace501472d": {
+    "text": "Jaką pogodę {{playerName}} woli: słoneczną czy deszczową?",
+    "answers": [
+      "Słońce",
+      "Deszcz"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9cb91fa0-017a-492d-adbe-adb31919cbdd": {
+    "text": "Kiedy {{playerName}} ma największą ochotę na bliskość: rano czy w nocy?",
+    "answers": [
+      "Rano",
+      "W nocy"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a003660c-bffd-47f5-952c-0a40d2a45686": {
+    "text": "{{playerName}} woli bliskość spontaniczną czy zaplanowaną?",
+    "answers": [
+      "Spontanicznie",
+      "Z planem"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8a17d77f-14ed-4528-b669-78594d0da8ac": {
+    "text": "Co {{playerName}} woli: szaloną noc na mieście czy przytulny wieczór w domu?",
+    "answers": [
+      "Noc na mieście",
+      "Wieczór w domu"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a0fac6c6-6686-45b8-8cf4-408edc5d032c": {
+    "text": "Co {{playerName}} woli: wakacje na plaży czy w górach?",
+    "answers": [
+      "Plaża",
+      "Góry"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cffb0f75-9040-45b1-8d12-300ef3ca08be": {
+    "text": "Co {{playerName}} woli: słodkiego SMS-a czy długą rozmowę przez telefon?",
+    "answers": [
+      "Słodki SMS",
+      "Długa rozmowa przez telefon"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "59e97775-72fe-4bf0-9f4c-5b0cd575a4ce": {
+    "text": "Co {{playerName}} woli: randkę-niespodziankę czy starannie zaplanowaną?",
+    "answers": [
+      "Randka-niespodzianka",
+      "Zaplanowana randka"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d164f584-fdb2-4f62-b924-781f1bd75ac9": {
+    "text": "Jakie komplementy {{playerName}} woli: o wyglądzie czy o charakterze?",
+    "answers": [
+      "Wygląd",
+      "Charakter"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0492fd1f-f383-4660-8df4-d63bc67d178a": {
+    "text": "{{playerName}} woli podejmować ważne życiowe decyzje samodzielnie czy razem z drugą połówką?",
+    "answers": [
+      "Samodzielnie",
+      "Razem"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "94f9ac5e-0878-4a02-ae8c-7b4008f74ad4": {
+    "text": "Podróż w czasie: {{playerName}} naprawi błąd z przeszłości czy odwiedzi przyszłość?",
+    "answers": [
+      "Naprawić przeszłość",
+      "Odwiedzić przyszłość"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bd441de0-5c15-4416-99b1-89df1671c114": {
+    "text": "{{playerName}} w dzieciństwie: rozrabiaka czy ciche, grzeczne dziecko?",
+    "answers": [
+      "Rozrabiaka",
+      "Ciche dziecko"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "347689ab-707b-4407-a09f-69f9f19343de": {
+    "text": "{{playerName}} w dzieciństwie: zabawa na dworze w błocie czy w domu z zabawkami?",
+    "answers": [
+      "Zabawy na dworze",
+      "Zabawy w domu"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c022d8ce-34b3-4ab0-a227-06d30b81bd48": {
+    "text": "{{playerName}} trzyma jedzenie na talerzu osobno czy miesza wszystko razem?",
+    "answers": [
+      "Trzyma osobno",
+      "Miesza wszystko"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "060551e0-79ca-4006-9c48-f247b618ce82": {
+    "text": "{{playerName}} woli spać w kompletnej ciszy czy z czymś w tle (np. muzyką albo wiatrakiem)?",
+    "answers": [
+      "Kompletna cisza",
+      "Dźwięki w tle"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "df4aa404-cddd-4a94-b2bb-04fa25a26220": {
+    "text": "Czym {{playerName}} chce zapisać się w pamięci innych: inteligencją czy dobrocią?",
+    "answers": [
+      "Inteligencją",
+      "Dobrocią"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d3b1c0c7-84b5-46cf-9492-69d50264f744": {
+    "text": "W stresie {{playerName}} zamyka się w sobie czy szuka wsparcia u bliskich?",
+    "answers": [
+      "Zamyka się w sobie",
+      "Szuka wsparcia"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "85b2e103-ec68-46a7-969f-9a2a9845765f": {
+    "text": "Przy ważnej decyzji {{playerName}} idzie za intuicją czy musi przeanalizować wszystkie fakty?",
+    "answers": [
+      "Intuicja",
+      "Fakty i analiza"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1291050c-1544-4303-aec4-8dfb5336fede": {
+    "text": "Jak dużą wagę {{playerName}} przykłada do klimatu (światło, muzyka, nastrój) w intymnych chwilach?",
+    "answers": [
+      "Liczy się każdy szczegół",
+      "Nie ma żadnego znaczenia"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "936fc0ce-528b-4397-9401-6e314e091ea9": {
+    "text": "W intymnych chwilach {{playerName}} woli czułe słowa czy skupienie wyłącznie na doznaniach?",
+    "answers": [
+      "Czułe słowa",
+      "Same doznania"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e9b217eb-eb8e-4bf3-96e3-0529186355f9": {
+    "text": "O której {{playerName}} zwykle wstaje?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0c937cba-97a4-4782-a859-d321a0e52b16": {
+    "text": "Ile rodzeństwa ma {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8e7430ec-4498-4aff-a4dc-10933a46c12d": {
+    "text": "W jakim miesiącu {{playerName}} ma urodziny?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b5c36562-c5d4-42ae-9205-85f0b0262bad": {
+    "text": "Jaki smak lodów {{playerName}} lubi najbardziej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "67bea7b0-936b-4108-b413-8eea681221e0": {
+    "text": "Bez czego {{playerName}} nigdy nie wychodzi z domu?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "10c8697c-0893-43cd-891b-3f8043ea9661": {
+    "text": "{{playerName}} – miasto urodzenia?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "67bddf7d-4d5a-49ff-b2bd-544f70c541e0": {
+    "text": "Jaki kolor {{playerName}} lubi najbardziej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

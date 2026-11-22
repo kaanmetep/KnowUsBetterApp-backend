@@ -1,0 +1,724 @@
+[
+ {
+  "id": "3fd45b5e-5fae-4e63-9fde-b5a4ea3aa230",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "If we opened a small business together, what would it be?",
+  "tr": "Birlikte küçük bir iş kursak bu ne olurdu?",
+  "category": "long_term"
+ },
+ {
+  "id": "af17ae3b-0689-4f53-a43a-307b41c92377",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many days can we stay with family on a holiday before it gets too much?",
+  "tr": "Bayramda ailelerin yanında kaç gün kalınca artık fazla gelmeye başlar?",
+  "category": "long_term"
+ },
+ {
+  "id": "c6fd0991-5ac8-426b-8213-2ddd89e51c80",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "Stranded on a desert island, what's the one item we should have with us?",
+  "tr": "Issız bir adada mahsur kalsak yanımızda olması gereken tek eşya ne?",
+  "category": "long_term"
+ },
+ {
+  "id": "c5aac9b9-0d32-4a5f-a25b-2589471f9d85",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "If we were an animal couple, which animal would we be?",
+  "tr": "Bir hayvan çifti olsaydık hangi hayvan olurduk?",
+  "category": "long_term"
+ },
+ {
+  "id": "4138fe94-94d5-470a-a625-b81315a3afbc",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "When we're apart, how many times a day should we text each other?",
+  "tr": "Ayrıyken günde kaç kere mesajlaşmalıyız?",
+  "category": "long_term"
+ },
+ {
+  "id": "648c9e51-2464-4424-b6bd-b301773563ef",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many vacations a year would make you happy?",
+  "tr": "Yılda kaç tatil seni mutlu eder?",
+  "category": "long_term"
+ },
+ {
+  "id": "3b3109ea-bdaa-41d7-9b36-39663b735baa",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the one thing a couple should never hide from each other?",
+  "tr": "Bir çiftin birbirinden asla saklamaması gereken tek şey ne?",
+  "category": "long_term"
+ },
+ {
+  "id": "13fa6cd6-40a7-47ce-b81e-d9f4011e6d14",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What would be an unforgivable mistake in our relationship?",
+  "tr": "İlişkimizde affedilemeyecek hata ne olurdu?",
+  "category": "long_term"
+ },
+ {
+  "id": "3fc7169d-4ad5-4326-9eb6-a04e379c39b3",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "In one word, how would you describe the marriage you dream of?",
+  "tr": "Hayalindeki evliliği tek kelimeyle nasıl tarif edersin?",
+  "category": "long_term"
+ },
+ {
+  "id": "e7542a81-d0f8-4150-855d-5a0e6ce1c40b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the best way to apologize after a fight?",
+  "tr": "Kavgadan sonra özür dilemenin en iyi yolu ne?",
+  "category": "long_term"
+ },
+ {
+  "id": "7efa86a1-a5d0-451e-b610-d23e258675dd",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What should we be saving money for the most?",
+  "tr": "En çok ne için para biriktiriyor olmalıyız?",
+  "category": "long_term"
+ },
+ {
+  "id": "025eeea5-214f-4e8c-bb93-76d38611b8d1",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What should we do more often as a couple?",
+  "tr": "Çift olarak neyi daha sık yapmalıyız?",
+  "category": "long_term"
+ },
+ {
+  "id": "c89df148-f5b0-4bfe-8ffb-4a462a90f3a1",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "In one word, what does home mean to you?",
+  "tr": "Tek kelimeyle, ev senin için ne demek?",
+  "category": "long_term"
+ },
+ {
+  "id": "addfef11-2838-4b60-aaf0-96a9116ce7f5",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What keeps a partner attractive even after many years?",
+  "tr": "Bir partneri yıllar geçse de çekici kılan şey ne?",
+  "category": "long_term"
+ },
+ {
+  "id": "ef51cd29-05ca-46e0-975f-63da6f5d121f",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the hardest part of living together?",
+  "tr": "Birlikte yaşamanın en zor tarafı ne?",
+  "category": "long_term"
+ },
+ {
+  "id": "f8f014c0-ed8d-4bc4-8916-6789b0b9c495",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the most romantic thing a partner can do?",
+  "tr": "Bir partnerin yapabileceği en romantik şey ne?",
+  "category": "long_term"
+ },
+ {
+  "id": "0fdfa9eb-8601-461e-a3c3-7ce885360eb5",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the best way to cheer up a partner on a bad day?",
+  "tr": "Kötü bir günde partneri neşelendirmenin en iyi yolu ne?",
+  "category": "long_term"
+ },
+ {
+  "id": "fd6c53e2-85dd-4f63-b5eb-2f11d3d33678",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What would you never compromise on in a relationship?",
+  "tr": "Bir ilişkide asla taviz vermeyeceğin şey ne?",
+  "category": "long_term"
+ },
+ {
+  "id": "250f4154-d737-41a6-a65b-9c301d59933d",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What should we spend more money on?",
+  "tr": "Neye daha çok para harcamalıyız?",
+  "category": "long_term"
+ },
+ {
+  "id": "2c318cd3-2371-46d0-a198-e53b538dc364",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "Which household task should we always do together?",
+  "tr": "Hangi ev işini her zaman birlikte yapmalıyız?",
+  "category": "long_term"
+ },
+ {
+  "id": "05754409-e530-427d-b179-8c776b172eea",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What hobby should we start together?",
+  "tr": "Birlikte hangi hobiye başlamalıyız?",
+  "category": "long_term"
+ },
+ {
+  "id": "774352ec-e684-4204-87a7-4d8ac5166fdb",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the biggest lesson a long relationship teaches you?",
+  "tr": "Uzun bir ilişki insana en çok ne öğretir?",
+  "category": "long_term"
+ },
+ {
+  "id": "ba2a7c9f-0921-4e21-931f-cdba4e58cfd5",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What should we protect the most in our relationship?",
+  "tr": "İlişkimizde en çok neyi korumalıyız?",
+  "category": "long_term"
+ },
+ {
+  "id": "cd079152-ea66-4f88-aed9-d7b54c040054",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How should big purchases be approved?",
+  "tr": "Büyük harcamalar nasıl onaylanmalı?",
+  "answers_en": [
+   "Mutual agreement",
+   "Individual freedom",
+   "Strict budget rule",
+   "Higher earner decides"
+  ],
+  "answers_tr": [
+   "Ortak kararla",
+   "Bireysel özgürlükle",
+   "Bütçe kuralıyla",
+   "Çok kazananla"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "2291a27a-e64b-454a-b36e-20fdbde9975e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is the ideal frequency for date nights?",
+  "tr": "İdeal baş başa randevu sıklığı nedir?",
+  "answers_en": [
+   "Every week",
+   "Twice a month",
+   "Once a month",
+   "Spontaneously"
+  ],
+  "answers_tr": [
+   "Her hafta",
+   "Ayda iki kez",
+   "Ayda bir",
+   "Rastgele/Spontan"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "859adb95-56e7-42ca-820f-5ed8cf0fb2f9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How should house chores be divided?",
+  "tr": "Ev işleri nasıl paylaşılmalı?",
+  "answers_en": [
+   "Strictly 50/50",
+   "Based on free time",
+   "By preference",
+   "Hire outside help"
+  ],
+  "answers_tr": [
+   "Tam yarı yarıya",
+   "Boş vakte göre",
+   "Sevilene göre",
+   "Dışarıdan destekle"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "d3945b46-2530-4bc5-b38b-826dcd9292b4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is the most critical factor for raising children?",
+  "tr": "Çocuk yetiştirirken en kritik unsur nedir?",
+  "answers_en": [
+   "Strict discipline",
+   "Emotional support",
+   "Financial security",
+   "Total freedom"
+  ],
+  "answers_tr": [
+   "Disiplin ve kurallar",
+   "Duygusal destek",
+   "Maddi güvence",
+   "Tam özgürlük"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "f57ec14a-f2c5-4c36-b6a1-0b53d72adf04",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How should long-term financial savings be managed?",
+  "tr": "Uzun vadeli birikimler nasıl yönetilmeli?",
+  "answers_en": [
+   "Joint bank account",
+   "Separate bank accounts",
+   "Shared pool + personal",
+   "One person manages"
+  ],
+  "answers_tr": [
+   "Ortak banka hesabı",
+   "Ayrı banka hesapları",
+   "Ortak havuz + kişisel",
+   "Tek bir kişi yönetsin"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "15d3e91e-2923-44d0-8b51-00e99f26a09b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How do you react when plans change last minute?",
+  "tr": "Planlar son dakika değiştiğinde tepkin ne olur?",
+  "answers_en": [
+   "Adapt easily",
+   "Get visibly stressed",
+   "Propose alternative",
+   "Need alone time"
+  ],
+  "answers_tr": [
+   "Hızlıca uyum sağlarım",
+   "Gözle görülür stres olurum",
+   "Hemen alternatif sunarım",
+   "Yalnız kalmak isterim"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "369fa1e1-0ab3-4f2c-a265-15c284122bdd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is the most unforgivable behavior in a relationship?",
+  "tr": "İlişkide affedilmesi en zor davranış nedir?",
+  "answers_en": [
+   "Emotional dishonesty",
+   "Financial secrets",
+   "Disrespect in public",
+   "Lack of support"
+  ],
+  "answers_tr": [
+   "Duygusal dürüst olmamak",
+   "Gizli maddi işler",
+   "Toplum içinde saygısızlık",
+   "Zor zamanda yalnız bırakmak"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "b5506938-a426-43e2-8b9f-7c3abd1351f6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How should social media usage about the relationship be?",
+  "tr": "İlişkiyle ilgili sosyal medya kullanımı nasıl olmalı?",
+  "answers_en": [
+   "Very private",
+   "Frequent posts",
+   "Occasional highlights",
+   "No rules needed"
+  ],
+  "answers_tr": [
+   "Tamamen gizli",
+   "Sık paylaşımlı",
+   "Sadece özel günlerde",
+   "Kurala gerek yok"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "9bb2e738-2076-437c-aba1-a9520ec78c4e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How do you prefer to receive love and affection?",
+  "tr": "Sevgi ve ilgiyi nasıl almayı tercih edersin?",
+  "answers_en": [
+   "Quality time",
+   "Words of affirmation",
+   "Physical touch",
+   "Acts of service"
+  ],
+  "answers_tr": [
+   "Kaliteli zamanla",
+   "Güzel sözlerle",
+   "Fiziksel temasla",
+   "Yardım ve jestlerle"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "970bb568-1809-4cdf-993f-a264b16d0984",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How do you react when your partner forgets an important date?",
+  "tr": "Partnerin önemli bir günü unuttuğunda tepkin ne olur?",
+  "answers_en": [
+   "Very hurt / upset",
+   "Remind gently, no drama",
+   "Don't care much",
+   "Expect make-up gift"
+  ],
+  "answers_tr": [
+   "Çok kırılırım / küserim",
+   "Nazikçe hatırlatırım, uzatmam",
+   "Pek önemsemem",
+   "Telafi hediyesi beklerim"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "cc1d8977-1ebc-45ff-969c-4c83a770c236",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How much influence should families have on major life choices?",
+  "tr": "Büyük hayat kararlarında ailelerin ne kadar etkisi olmalı?",
+  "answers_en": [
+   "Zero influence",
+   "Consulted for advice",
+   "Strong decision power"
+  ],
+  "answers_tr": [
+   "Sıfır etki",
+   "Sadece tavsiyeleri alınmalı",
+   "Güçlü karar yetkisi"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "f7030f9c-1144-4a1b-bae0-99bd8865acc8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is the ideal balance between spending and saving income?",
+  "tr": "Gelirin harcama ve birikim dengesi nasıl olmalı?",
+  "answers_en": [
+   "Save most of it",
+   "Balanced 50/50",
+   "Enjoy and spend"
+  ],
+  "answers_tr": [
+   "Çoğunu biriktirmek",
+   "Dengeli 50/50",
+   "Anı yaşayıp harcamak"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "82f50091-7685-468d-af2e-29158c7b6d5c",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the single most important quality in a long-term partner?",
+  "tr": "Uzun süreli bir partnerde aradığın en önemli tek özellik nedir?",
+  "category": "long_term"
+ },
+ {
+  "id": "334370d5-ab10-42b8-9fea-7c51cbb638be",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many times a month should a couple go on a romantic date?",
+  "tr": "Bir çift ayda kaç kez baş başa romantik randevuya çıkmalı?",
+  "category": "long_term"
+ },
+ {
+  "id": "1fd10a4a-6be3-4f29-abe6-d51af32192f0",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the biggest dealbreaker for you in a relationship?",
+  "tr": "Bir ilişkide senin için en büyük kırmızı çizgi / ilişki bitirme sebebi nedir?",
+  "category": "long_term"
+ },
+ {
+  "id": "991e7451-814e-4596-afd5-5b46f856b6b7",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many hours of sleep do you need to feel fully rested?",
+  "tr": "Tam olarak dinlenmiş hissetmek için günde kaç saat uykuya ihtiyacın var?",
+  "category": "long_term"
+ },
+ {
+  "id": "146cb144-98ea-4c21-b324-25c17421a56f",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What percentage of monthly income should ideally be saved?",
+  "tr": "Aylık gelirin ideal olarak yüzde kaçı biriktirilmeli?",
+  "category": "long_term"
+ },
+ {
+  "id": "940141d6-6768-492b-bbc2-eff88c7d6a7a",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many times a year should a couple go on vacation together?",
+  "tr": "Bir çift yılda kaç kez birlikte tatile çıkmalı?",
+  "category": "long_term"
+ },
+ {
+  "id": "81d126e6-67b0-4734-a299-f4c6a0c7e2a8",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many hours after an argument should a couple sit down and talk?",
+  "tr": "Kavgadan kaç saat sonra oturup sakince konuşulmalı?",
+  "category": "long_term"
+ },
+ {
+  "id": "0f5f0261-317a-4e29-8322-8a5af550f652",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What is the best household chore to do together as a couple?",
+  "tr": "Çift olarak birlikte yapması en keyifli ev işi nedir?",
+  "category": "long_term"
+ },
+ {
+  "id": "b50d4c4a-0ca0-4b1c-b6e0-36e56b8709ed",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You find out they watched the next episode of your show while you were asleep. What do you do?",
+  "tr": "Birlikte izlediğiniz dizinin yeni bölümünü sen uyurken izlemiş. Ne yaparsın?",
+  "answers_en": [
+   "Get upset but say nothing",
+   "Secretly watch the next one yourself",
+   "Make them rewatch it with you",
+   "Don't care at all"
+  ],
+  "answers_tr": [
+   "Bozulursun ama bir şey demezsin",
+   "Sen de sonrakini gizlice izlersin",
+   "Seninle tekrar izlemesini istersin",
+   "Hiç umursamazsın"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "8ba7193f-e49b-4a80-9601-277334517bf2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You're freezing, they're sweating, and the AC is on. What do you do?",
+  "tr": "Sen üşüyorsun, o terliyor ve klima açık. Ne yaparsın?",
+  "answers_en": [
+   "Wrap yourself in a blanket",
+   "Agree on a middle temperature",
+   "Secretly change the setting"
+  ],
+  "answers_tr": [
+   "Battaniyeye sarılırsın",
+   "Ortada bir derecede anlaşırsınız",
+   "Gizlice ayarı değiştirirsin"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "6f42dfda-dae8-4245-965c-5544f6601234",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Their dishes have been sitting in the sink for two days. What do you do?",
+  "tr": "Onun bıraktığı bulaşıklar iki gündür lavaboda bekliyor. Ne yaparsın?",
+  "answers_en": [
+   "Wash them and say nothing",
+   "Wash them, but make a comment",
+   "Leave them for them to do",
+   "Talk to them about it directly"
+  ],
+  "answers_tr": [
+   "Yıkarsın, bir şey demezsin",
+   "Yıkarsın ama laf sokarsın",
+   "Dokunmazsın, onun yıkamasını beklersin",
+   "Direkt konuşursun"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "893d41ee-eb00-4ff3-b9dd-0508ac343e5d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You wake up at night and they've stolen the whole duvet. What do you do?",
+  "tr": "Gece uyandın, yorganın tamamı onda. Ne yaparsın?",
+  "answers_en": [
+   "Pull it back",
+   "Wake them up",
+   "Grab another blanket",
+   "Stay cold and go back to sleep"
+  ],
+  "answers_tr": [
+   "Geri çekersin",
+   "Onu uyandırırsın",
+   "Başka bir battaniye alırsın",
+   "Üşüyerek uyumaya devam edersin"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "6d0eeebe-e6f2-466d-9e39-631de4cc843b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They snooze their alarm five times every morning and wake you up too. What do you do?",
+  "tr": "Her sabah alarmını 5 kere erteliyor, sen de uyanıyorsun. Ne yaparsın?",
+  "answers_en": [
+   "Turn it off yourself",
+   "Nudge them until they get up",
+   "Put a pillow over your head and deal with it",
+   "Ask them to keep the phone out of the bedroom"
+  ],
+  "answers_tr": [
+   "Alarmı sen kapatırsın",
+   "Dürtüp kaldırırsın",
+   "Yastığı kafana basıp katlanırsın",
+   "Telefonu yatak odasının dışında bırakmasını istersin"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "986eabcf-8a9e-44aa-a674-fab08fc0b1d5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You're reading, and they start blasting music on the speaker. What do you do?",
+  "tr": "Sen kitap okurken o hoparlörden yüksek sesle müzik açıyor. Ne yaparsın?",
+  "answers_en": [
+   "Ask them to turn it down",
+   "Put on headphones",
+   "Move to another room",
+   "Join in and sing along"
+  ],
+  "answers_tr": [
+   "Kısmasını istersin",
+   "Kulaklık takarsın",
+   "Başka odaya geçersin",
+   "Sen de eşlik edersin"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "6ce276a0-cb42-41c8-8ad5-7f1f30c3fb30",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You cooked dinner, and they add salt before even tasting it. What do you do?",
+  "tr": "Akşam yemeğini sen yaptın, o daha tadına bakmadan tuz ekliyor. Ne yaparsın?",
+  "answers_en": [
+   "Get a little offended",
+   "Make a joke about it",
+   "Don't mind at all"
+  ],
+  "answers_tr": [
+   "Bozulursun",
+   "Şakaya vurursun",
+   "Hiç umursamazsın"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "41570696-2ab6-44ff-93cd-4e524c0f9cf4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "It's cleaning day. You want to start now, they say \"let's do it tonight.\" What do you do?",
+  "tr": "Temizlik günü. Sen hemen başlamak istiyorsun, o \"akşam yaparız\" diyor. Ne yaparsın?",
+  "answers_en": [
+   "Start on your own",
+   "Wait until tonight",
+   "Push until you start together",
+   "Suggest hiring a cleaner"
+  ],
+  "answers_tr": [
+   "Tek başına başlarsın",
+   "Akşamı beklersin",
+   "Israr edip birlikte başlatırsın",
+   "Temizlikçi çağırmayı önerirsin"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "44ed55b4-e760-453e-ba16-cfc2ba1f55c7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They take 40 minutes in the bathroom every morning, and you're running late. What do you do?",
+  "tr": "Her sabah banyoda 40 dakika kalıyor ve sen geç kalıyorsun. Ne yaparsın?",
+  "answers_en": [
+   "Knock and hurry them up",
+   "Wait and grumble",
+   "Start getting up earlier"
+  ],
+  "answers_tr": [
+   "Kapıyı çalıp acele ettirirsin",
+   "Bekleyip söylenirsin",
+   "Daha erken kalkmaya başlarsın"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "fe095dc1-749f-45bc-9e49-66ce37502e2a",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They now burp in front of you without a second thought. Out of 10, what score do they drop to?",
+  "tr": "Artık yanında hiç çekinmeden geğiriyor. 10 puandan kaç puana düşer?",
+  "category": "long_term"
+ },
+ {
+  "id": "33a52a1a-90d6-4fd3-ac1a-ff3fe639b28a",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They leave the bathroom door open while using the toilet. Out of 10, what score do they drop to?",
+  "tr": "Tuvaletteyken kapıyı açık bırakıyor. 10 puandan kaç puana düşer?",
+  "category": "long_term"
+ },
+ {
+  "id": "aca627ea-b06e-41f6-985c-25a6da2d91d4",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They clip their nails on the couch. Out of 10, what score do they drop to?",
+  "tr": "Tırnaklarını koltukta kesiyor. 10 puandan kaç puana düşer?",
+  "category": "long_term"
+ },
+ {
+  "id": "69727950-a39d-4071-a35a-30125b09c4f1",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They only remember your anniversary because of a phone reminder. Out of 10, what score do they drop to?",
+  "tr": "Yıldönümünüzü ancak telefonunun hatırlatmasıyla hatırlıyor. 10 puandan kaç puana düşer?",
+  "category": "long_term"
+ },
+ {
+  "id": "2e2007bc-30a1-4468-9a75-f90c5d3186d1",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They eat from your plate without asking. Out of 10, what score do they drop to?",
+  "tr": "Sormadan senin tabağından yiyor. 10 puandan kaç puana düşer?",
+  "category": "long_term"
+ },
+ {
+  "id": "11200110-48f5-4598-b94f-35fd0e2dc090",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "While you're talking, they stare at their phone and just say \"mhm\". Out of 10, what score do they drop to?",
+  "tr": "Sen konuşurken telefona bakıp sadece \"hı hı\" diyor. 10 puandan kaç puana düşer?",
+  "category": "long_term"
+ },
+ {
+  "id": "d32c6357-fdb8-4b3c-8e6b-4f53cb753413",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They leave their wet towel on the bed. Out of 10, what score do they drop to?",
+  "tr": "Islak havluyu yatağın üstüne bırakıyor. 10 puandan kaç puana düşer?",
+  "category": "long_term"
+ },
+ {
+  "id": "1f383d25-0eec-4656-b3ac-470c16d0a4f3",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They tell their friends about your fights. Out of 10, what score do they drop to?",
+  "tr": "Kavgalarınızı arkadaşlarına anlatıyor. 10 puandan kaç puana düşer?",
+  "category": "long_term"
+ }
+]

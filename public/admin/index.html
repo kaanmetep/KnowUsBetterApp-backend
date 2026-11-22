@@ -51,6 +51,11 @@
         background: var(--panel); color: var(--muted); font-weight: 600; font-size: 15px;
       }
       .tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+      .tab-badge { display: inline-block; min-width: 18px; margin-left: 5px; padding: 0 5px; border-radius: 9px; background: var(--danger); color: #fff; font-size: 12px; line-height: 18px; }
+      .support-msg { white-space: pre-wrap; word-break: break-word; margin: 10px 0; font-size: 15px; line-height: 1.45; }
+      .support-meta { font-size: 12px; color: var(--muted); word-break: break-all; }
+      .kind-pill { display: inline-block; padding: 2px 8px; border-radius: 8px; font-size: 12px; font-weight: 700; background: var(--panel-2); border: 1px solid var(--border); }
+      .kind-pill.data_deletion { color: var(--danger); border-color: var(--danger); }
 
       button { font: inherit; cursor: pointer; }
       .btn {
@@ -251,6 +256,7 @@
             <button class="tab" data-tab="sql">SQL</button>
             <button class="tab" data-tab="announcements">Duyuru</button>
             <button class="tab" data-tab="push">Bildirim</button>
+            <button class="tab" data-tab="support">Mesaj<span id="support-badge" class="tab-badge hidden"></span></button>
           </nav>
         </div>
       </header>
@@ -287,7 +293,7 @@
             <label for="f-category">Kategori</label>
             <select id="f-category" required></select>
 
-            <label id="f-texts-label" for="f-texts">Soru · her satır bir dil: 🇬🇧 EN → 🇹🇷 TR → 🇪🇸 ES → 🇧🇷 PT</label>
+            <label id="f-texts-label" for="f-texts">Soru · her satır bir dil: 🇬🇧 EN → 🇹🇷 TR → 🇪🇸 ES → 🇧🇷 PT → 🇩🇪 DE → 🇮🇹 IT → 🇵🇱 PL → 🇫🇷 FR → 🇯🇵 JA → 🇳🇱 NL</label>
             <textarea
               id="f-texts"
               rows="5"
@@ -338,7 +344,7 @@
             </div>
 
             <div id="answers-box" class="hidden">
-              <label id="f-answers-label" for="f-answers">Cevaplar · her cevap için 4 satır: 🇬🇧 EN → 🇹🇷 TR → 🇪🇸 ES → 🇧🇷 PT</label>
+              <label id="f-answers-label" for="f-answers">Cevaplar · her cevap için 10 satır: 🇬🇧 EN → 🇹🇷 TR → 🇪🇸 ES → 🇧🇷 PT → 🇩🇪 DE → 🇮🇹 IT → 🇵🇱 PL → 🇫🇷 FR → 🇯🇵 JA → 🇳🇱 NL</label>
               <textarea
                 id="f-answers"
                 rows="8"
@@ -459,6 +465,26 @@
             </div>
           </div>
           <div id="announcement-list"></div>
+        </section>
+
+        <section id="tab-support" class="hidden">
+          <div class="card">
+            <div class="stats-top">
+              <strong style="flex:1">Uygulamadan gelen mesajlar</strong>
+              <button id="btn-s-refresh" type="button" class="btn small ghost" style="flex:0 0 auto">Yenile</button>
+            </div>
+            <p class="muted" style="margin:6px 0 0">
+              Geri bildirim, iletişim ve veri silme istekleri. Veri silme otomatik değil:
+              "Verileri sil" butonu (Face ID) o kullanıcının coin, Sınırsız, görülen soru, bildirim,
+              günlük analiz ve kimlik kayıtlarını siler. Ban ve satın alma kayıtları kalır. PostHog'daki kişiyi ayrıca elle silmen gerekir (gizlilik politikası 30 gün diyor).
+            </p>
+            <div class="chips" id="support-filter" style="margin-top:12px">
+              <button class="chip active" data-status="open">Açık</button>
+              <button class="chip" data-status="done">Bitti</button>
+              <button class="chip" data-status="all">Hepsi</button>
+            </div>
+          </div>
+          <div id="support-list"></div>
         </section>
 
         <section id="tab-push" class="hidden">

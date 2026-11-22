@@ -1,0 +1,553 @@
+{
+  "02d1eea2-7558-454e-9560-9e4115e31dc5": {
+    "text": "Gdy ktoś bliski cierpi, co robi {{playerName}}?",
+    "answers": [
+      "Próbuje to naprawić",
+      "Po prostu jest obok",
+      "Rozśmiesza",
+      "Daje trochę przestrzeni"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8f65f3e0-e029-41cb-8233-1c0073efccc3": {
+    "text": "Parkujesz, a {{playerName}} nie wysiada od razu. Co robi?",
+    "answers": [
+      "Siedzi w telefonie",
+      "Siedzi w ciszy",
+      "Całuje cię"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b6802604-bee1-44ef-b402-3d614299e874": {
+    "text": "Jesteście już w domu, a {{playerName}} wciąż ma buty na nogach. Co robi?",
+    "answers": [
+      "Siedzi w telefonie",
+      "Czeka, aż wejdziesz przodem",
+      "Czeka na całusa"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "525b7a39-af6b-443c-8d4b-e04df6bb666d": {
+    "text": "Film się skończył, a {{playerName}} ani drgnie. Co robi?",
+    "answers": [
+      "Wciąż przeżywa film",
+      "Patrzy na ciebie",
+      "Już siedzi w telefonie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "87a626ec-edc2-4c73-8b8c-2316370de28c": {
+    "text": "{{playerName}} stoi przed otwartą lodówką i nic. Co robi?",
+    "answers": [
+      "Naprawdę czegoś szuka",
+      "Odpływa myślami",
+      "Czeka na ciebie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "45ffa91d-cf8c-4de3-b9cc-35eecf07a0e8": {
+    "text": "Pytasz o coś, a {{playerName}} tylko się uśmiecha i nie odpowiada. O co chodzi?",
+    "answers": [
+      "Myśli",
+      "Droczy się z tobą",
+      "Najpierw chce całusa"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "331f8ded-e21e-4f4a-8c54-5eff81ad09d8": {
+    "text": "{{playerName}} siedzi w łazience już dłuższą chwilę. Leci woda. Co robi?",
+    "answers": [
+      "Naprawdę się szykuje",
+      "Siedzi w telefonie",
+      "Czeka, aż wejdziesz"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d4a67a3f-58fb-4dfb-a9fa-7ccbd119b76a": {
+    "text": "Wbijasz szpilę, a {{playerName}} słyszy to przy najbliższych znajomych. Co robi?",
+    "answers": [
+      "Śmieje się i odgryza ci się",
+      "Milknie",
+      "Śmieje się, ale potem do tego wraca"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0fa9d630-8f79-407e-b467-c6619e937183": {
+    "text": "{{playerName}} pisze do ciebie zalotnie, a ty na kilka godzin zostawiasz to na „wyświetlonym”. Co robi?",
+    "answers": [
+      "Wysyła kolejną wiadomość",
+      "Udaje, że to nic takiego",
+      "Czeka, a potem zachowuje się normalnie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "72f44c82-e80d-4048-8907-88aa16325526": {
+    "text": "{{playerName}} przegrywa z tobą w czymś, co traktuje serio. Co robi?",
+    "answers": [
+      "Żąda rewanżu",
+      "Chwilę się dąsa",
+      "Szczerze ci gratuluje"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0f63d809-97bc-4a06-af87-dcdf7259d217": {
+    "text": "{{playerName}} mówi coś przy ludziach, a ty to poprawiasz. Co robi?",
+    "answers": [
+      "Odpuszcza",
+      "Żartuje, ale czuje ukłucie",
+      "Wykłóca się na miejscu"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0411fe10-be71-42ce-96e0-f0b4b8f30d01": {
+    "text": "Zjadasz ostatni kęs, który {{playerName}} zostawia sobie na koniec. Co robi?",
+    "answers": [
+      "Naprawdę się złości",
+      "Robi wielką scenę, na żarty",
+      "Nawet nie zauważa"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cbf55a0d-77d9-49b6-8b18-df9bfec9721b": {
+    "text": "{{playerName}} coś ci opowiada, a ty zasypiasz w połowie. Co robi?",
+    "answers": [
+      "Budzi cię i kończy",
+      "Milknie i daje ci spać",
+      "Nagrywa cię, żeby potem ci dogryzać"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9793ce24-d328-401c-9858-5e3c9e5253d7": {
+    "text": "{{playerName}} zabiera cię do swojej rodziny, a ty przychodzisz z pustymi rękami. Co robi?",
+    "answers": [
+      "Kryje cię",
+      "Rzuca ci wymowne spojrzenie",
+      "Zupełnie się tym nie przejmuje"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "db4d9102-32bd-44e6-afa1-7eae78199ee6": {
+    "text": "Celowo powtarzasz słowo, którego {{playerName}} nie znosi. Co robi?",
+    "answers": [
+      "Za każdym razem się śmieje",
+      "Prosi na serio: przestań",
+      "Odpłaca się tym samym słowem"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c00aa094-a9f0-4858-a29d-551c1cd3ca18": {
+    "text": "Macie wspólne plany, a ty odwołujesz je w ostatniej chwili. Co robi {{playerName}}?",
+    "answers": [
+      "Mówi „spoko” i tak myśli",
+      "Mówi „spoko”, ale nie jest spoko",
+      "Od razu pyta dlaczego"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "008d5998-0535-4df5-a12b-0f96ad8e625f": {
+    "text": "Bez pytania pożyczasz ciuchy, które {{playerName}} ma w szafie. Co robi?",
+    "answers": [
+      "Lubi cię w nich widzieć",
+      "Chce je z powrotem, natychmiast",
+      "Nawet nie zauważa"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d01e1cff-bb0c-409a-a1f2-125ec6c79f76": {
+    "text": "{{playerName}} czeka na ciebie, a ty się spóźniasz i nie dajesz znać. Co robi?",
+    "answers": [
+      "Pisze „gdzie jesteś?”",
+      "Czeka i nic nie mówi",
+      "Idzie sobie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "30c1ecc9-a29f-474c-8fa8-3e13ffb9ef91": {
+    "text": "{{playerName}} zostawia telefon na stole, a ty go bierzesz i zaczynasz przewijać. Co robi?",
+    "answers": [
+      "Ma to gdzieś",
+      "Spokojnie zabiera telefon",
+      "Zabiera telefon, wcale nie spokojnie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0d9143dd-9554-4015-9d7c-8a689f8ac7ca": {
+    "text": "Zapraszasz kogoś, kogo {{playerName}} nie lubi. Co robi?",
+    "answers": [
+      "Godzi się z tym",
+      "Mówi to wprost",
+      "Cały czas milczy"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fce90c77-7a35-44c0-a40a-406848fd42f4": {
+    "text": "Leje jak z cebra, a parasola brak. Co robi {{playerName}}?",
+    "answers": [
+      "Biegnie",
+      "Czeka, aż przestanie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "aa68e98e-f9ba-4240-82d9-233e6d3a1ddd": {
+    "text": "{{playerName}} dostaje źle zrobioną kawę. Co robi?",
+    "answers": [
+      "Odsyła kawę",
+      "Pije mimo wszystko"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c9db61c9-a1ab-40e4-8d0c-92dea5576a34": {
+    "text": "{{playerName}} tuż przed wyjściem plami sobie koszulę. Co robi?",
+    "answers": [
+      "Przebiera się",
+      "I tak wychodzi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4e97ab2e-b06b-44ce-b8db-e15db3bb987f": {
+    "text": "{{playerName}} nie zdąża na autobus. Co robi?",
+    "answers": [
+      "Biegnie za nim",
+      "Czeka na następny"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d339e7bd-ebce-4481-ad0a-e8b8ed05442a": {
+    "text": "{{playerName}} coś ogląda, a tu nagle pada Wi-Fi. Co robi?",
+    "answers": [
+      "Walczy z routerem",
+      "Odpuszcza i robi coś innego"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ac0f3027-b51a-426f-b6e9-6a3b4aa38199": {
+    "text": "{{playerName}} dostaje mandat za parkowanie. Co robi?",
+    "answers": [
+      "Wkurza się",
+      "Śmieje się i olewa"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c3ec2d4b-d284-4714-8e9e-d2da5ef9c6d7": {
+    "text": "Budzik nie zadzwonił i {{playerName}} ma już 20 minut spóźnienia. Co robi?",
+    "answers": [
+      "Rezygnuje ze śniadania i biegnie",
+      "Pisze „spóźnię się” i się nie spieszy",
+      "Dzwoni i mówi, jak jest"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "94c90555-87e2-4c29-9117-a323c27d95c4": {
+    "text": "Na co {{playerName}} najpierw zrzuca winę, gdy się spóźnia?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fdd1c924-ee99-4f05-a5bd-dfcd6d9c8f03": {
+    "text": "Po małej kłótni: ile minut mija, zanim {{playerName}} napisze pierwszą wiadomość?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b54e1bb1-3bf8-47c3-a48a-86023b0f0add": {
+    "text": "Dokąd idzie {{playerName}}, gdy potrzebuje pobyć w samotności?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3b1883ec-15de-4788-9bef-ba8f5c5bc8a7": {
+    "text": "Co {{playerName}} zamawia, gdy nie może się zdecydować?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "238665e7-e0da-45ce-a9d7-0eb9eef65a6c": {
+    "text": "Ile razy {{playerName}} sprawdza zamek przed wyjściem z domu?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "466890df-b2fd-43de-a06e-7bf3787838fa": {
+    "text": "{{playerName}}: jak ma na imię tata?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "83463f47-91d7-4aad-9222-957f815550ec": {
+    "text": "Jakiego koloru oczy ma {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "82b2f614-a300-4077-aebb-1f5fc9d783da": {
+    "text": "Jaki sport {{playerName}} lubi najbardziej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "57674f98-004a-4613-ae68-f9a5aeb47287": {
+    "text": "{{playerName}} – miasto dzieciństwa: jakie?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "978cc42e-c57a-4a1f-ab39-e3ae2bea3021": {
+    "text": "{{playerName}}: jak ma na imię mama?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cfd2c28a-8bea-4257-879e-95cbc762962f": {
+    "text": "Ile {{playerName}} ma wzrostu (w cm)?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f323e901-c9d8-402a-a779-6dfc98dbb068": {
+    "text": "W jaką grę wideo {{playerName}} gra najchętniej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "25851c79-797f-40fd-b2f6-6c0d20b9dfdd": {
+    "text": "Jakim autem jeździ {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a4265570-c916-40c1-a402-d063a73be6b2": {
+    "text": "Jakie święto {{playerName}} lubi najbardziej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5fe73127-bbe3-48f7-8abc-2d69d6a88593": {
+    "text": "Jaki rozmiar butów nosi {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "75c9c2af-241b-4035-b6fc-5fdcd08973cd": {
+    "text": "Jaką książkę {{playerName}} lubi najbardziej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8deddb72-b5b8-4818-b368-0c4fbe051257": {
+    "text": "Jaką restaurację {{playerName}} lubi najbardziej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c550dc4b-c6cf-4d1b-9345-6b74e5d47623": {
+    "text": "{{playerName}}: rok urodzenia?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c0da2701-3741-4588-b8cf-d7b1a08492e5": {
+    "text": "Ile tatuaży ma {{playerName}}? Jeśli żadnego, wpisz 0.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a7c5d198-7df7-4778-b8af-c3da4d319a6a": {
+    "text": "{{playerName}} – wymarzony zawód z dzieciństwa?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a6ec160b-1139-4b18-aab2-c508fc0485f3": {
+    "text": "Jaki kwiat {{playerName}} lubi najbardziej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ef039303-b61e-4a8b-bf07-dc13a7c57752": {
+    "text": "{{playerName}} – najlepsza przyjaźń z dzieciństwa: jak ta osoba ma na imię?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "57351c4a-3e7e-4748-949e-5d4cd1e5b792": {
+    "text": "Iloma językami mówi {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cd7eb1b7-52d5-4472-91a7-87fe860c68cb": {
+    "text": "{{playerName}}: ulubiony przedmiot w szkole?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7a48b2bc-038b-4504-867c-31349dc9471d": {
+    "text": "Jaki kanał na YouTubie {{playerName}} ogląda najchętniej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "76919acd-9f2a-43b7-a1b8-4be6522808b0": {
+    "text": "{{playerName}}: jak miał na imię pierwszy zwierzak? Jeśli żadnego nie było, wpisz „brak”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e54fbf2e-38bb-43a2-98b7-d0e60e44704d": {
+    "text": "Jaki sklep {{playerName}} lubi najbardziej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "758457aa-b4a0-440c-936d-2eca36532d6f": {
+    "text": "Ile godzin śpi {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f5e59e0f-6ada-44bb-b1f6-ff0bfc6460d9": {
+    "text": "Z jakiej aplikacji {{playerName}} korzysta najczęściej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c4230968-34f8-4da4-9b47-c58b40930364": {
+    "text": "{{playerName}}: jaka szkoła średnia?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bab594db-3246-436a-831c-a26fee4a3985": {
+    "text": "Jaki film {{playerName}} lubi najbardziej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "628a486a-362b-421c-9680-eafb40c7b515": {
+    "text": "Ilu kuzynów i kuzynek ma {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a67f93da-08cb-45b8-83c4-d2adc75192af": {
+    "text": "Jaki znak zodiaku ma {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f137c9c9-7ff7-49dd-ada5-72f5ed4c03f0": {
+    "text": "W jakim kraju {{playerName}} chce kiedyś zamieszkać?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "021867cf-def0-4843-abe0-b40da48d2a2c": {
+    "text": "Jaki kraj {{playerName}} najbardziej chce odwiedzić?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "19b93f52-01ab-4cb7-8136-c4aba531b1b3": {
+    "text": "{{playerName}} – studia: w jakim mieście?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "112ed697-0ec4-43c7-b2f1-12d1ab95aae3": {
+    "text": "{{playerName}}: jak ma na imię młodsze rodzeństwo? Jeśli nie ma, wpisz „brak”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

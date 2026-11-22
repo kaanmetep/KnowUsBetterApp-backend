@@ -1,0 +1,615 @@
+{
+ "7e32c0fb-1531-4e16-af1c-629343ffb7e9": {
+  "text": "{{playerName}}が朝ごはんで一番好きなものは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0425f81b-0c26-4d2f-b061-adfe977513d3": {
+  "text": "{{playerName}}が好きなピザのトッピングは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dfbde649-f017-4e8e-8d54-6ec9c9694fc5": {
+  "text": "{{playerName}}がカフェでいつも頼むコーヒーは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d99e5617-1698-4240-a0a8-c3daea39022d": {
+  "text": "{{playerName}}の好きなおやつは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ee877ca1-488d-4f97-9598-fd22509ac148": {
+  "text": "{{playerName}}の好きなフルーツは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9592c028-df70-4e2a-b66d-f17130e2480e": {
+  "text": "{{playerName}}が好きな卵の食べ方は？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1bd92319-ff3e-43b3-81b8-f13be6fd47bf": {
+  "text": "{{playerName}}はだいたい何時に寝る？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d90798ff-2c56-4b01-a1c8-2780928f2161": {
+  "text": "{{playerName}}が子どもの頃好きだったアニメは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "74c6652c-3f00-4012-8585-e196f91a11f9": {
+  "text": "{{playerName}}が朝いちばんに開くアプリは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "44cb3c9e-6be8-4872-9542-0b08384ef41e": {
+  "text": "{{playerName}}のお気に入りの絵文字は？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7dc94a81-6d5d-4d12-9d9b-f9ab59fc038a": {
+  "text": "{{playerName}}のスマホはどこのメーカー？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a8cb7aac-c671-48bd-a093-3d7fd524491e": {
+  "text": "{{playerName}}が今見てるドラマは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "17ec277b-a7f7-49ce-8eec-99683adbcbb2": {
+  "text": "{{playerName}}の好きな動物は？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "145f2f5b-8e80-4252-a357-3ae2d5c4c1d0": {
+  "text": "{{playerName}}のラッキーナンバーは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2a1297e0-6d77-4cf2-a3ff-e5f8057dcc30": {
+  "text": "{{playerName}}の星座は？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e867a504-b007-4206-8378-19171432174d": {
+  "text": "{{playerName}}が好きな季節は？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "55cc5151-4dc7-4a67-90de-b1829ca19dc8": {
+  "text": "{{playerName}}の子どもの頃のあだ名は？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bb5df921-8ba2-4082-90b4-fb7c936731dc": {
+  "text": "{{playerName}}が一番好きなアーティストは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ebad8d20-818e-4d82-8191-1a2c198bfa7f": {
+  "text": "{{playerName}}の好きなチョコは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a029377a-dcee-4c47-80ac-e652ce1363f6": {
+  "text": "{{playerName}}の好きなファストフードは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "34591a59-c1f0-426b-a04c-c98cee22942d": {
+  "text": "{{playerName}}はお母さんのことを何て呼んでる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d557c7ce-b091-4b4b-ad44-73eb4a9f1d17": {
+  "text": "{{playerName}}の好きなスーパーヒーローは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ff54dc71-bbb6-46f6-973f-7381edb1f930": {
+  "text": "{{playerName}}が家に帰ってまずすることは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "837a824d-df7a-4c64-b6ba-16f11164e978": {
+  "text": "{{playerName}}が一番嫌いな家事は？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "792869b8-ec29-496c-b85e-f010457ea0ae": {
+  "text": "{{playerName}}がいつもなくすものは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b140bb4d-c30d-4ef6-9106-988634717a5f": {
+  "text": "{{playerName}}のメッセージの返信の早さは？",
+  "answers": [
+   "即レス",
+   "何時間も後",
+   "既読スルー",
+   "ボイスメッセージで返す"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4a6273eb-4b65-4061-a9b8-e0926c7675eb": {
+  "text": "パーティーでの{{playerName}}はどんな感じ？",
+  "answers": [
+   "ずっと踊ってる",
+   "すみっこにいる",
+   "キッチンにいる",
+   "早めに帰る"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "401000a3-ed4d-43cd-98a9-9eb83866750c": {
+  "text": "{{playerName}}の旅行の荷造りは？",
+  "answers": [
+   "1週間前から",
+   "前の晩",
+   "半分忘れる",
+   "詰め込みすぎ"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "22169b2f-f26f-4151-8015-bafef065eb8f": {
+  "text": "{{playerName}}は道に迷ったらどうする？",
+  "answers": [
+   "人に聞く",
+   "地図を見る",
+   "とりあえず歩き続ける",
+   "誰かに電話する"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "eca7e545-d5fe-43d3-b4fe-2e6aec589557": {
+  "text": "{{playerName}}は残りものをどうする？",
+  "answers": [
+   "取っておく",
+   "夜中に食べる",
+   "捨てる",
+   "冷蔵庫に入れたまま忘れる"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "61d8bdfa-ccc2-48c1-8c58-446ed197d69c": {
+  "text": "朝の{{playerName}}はどんな感じ？",
+  "answers": [
+   "不機嫌",
+   "コーヒーまで無言",
+   "朝からおしゃべり",
+   "スヌーズ無限ループ"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5dfed285-7d4f-4e71-8506-84c8415cbc26": {
+  "text": "助手席の{{playerName}}はどんな感じ？",
+  "answers": [
+   "ずっと寝てる",
+   "音楽担当",
+   "ナビ担当",
+   "「まだ着かない？」連発"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a1f2d79a-ce13-4322-a5b8-f10091d8772d": {
+  "text": "{{playerName}}のお店選びは？",
+  "answers": [
+   "口コミを全部読む",
+   "いつもの店に行く",
+   "最初に見つけた店に入る",
+   "相手に任せる"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6e745806-a8fc-4404-a45c-090c14c466a1": {
+  "text": "体調が悪い時の{{playerName}}は？",
+  "answers": [
+   "大げさに騒ぐ",
+   "平気なふりをする",
+   "一日中寝てる",
+   "ほっといてほしい"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "471a6e48-e963-420e-bf7d-7a708e35c2e0": {
+  "text": "{{playerName}}の写真の撮り方は？",
+  "answers": [
+   "同じ写真を50枚",
+   "まったく撮らない",
+   "自撮りだけ",
+   "ごはんだけ"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "368f1aa0-70bc-4aa8-8117-95ecbf9ab3cf": {
+  "text": "{{playerName}}はどんな体勢で寝る？",
+  "answers": [
+   "仰向け",
+   "横向き",
+   "うつ伏せ",
+   "大の字"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f32d78d9-ad1f-4da1-a4eb-bb631981389d": {
+  "text": "{{playerName}}のお風呂の時間は？",
+  "answers": [
+   "5分以内",
+   "10分くらい",
+   "しっかり20分",
+   "1時間"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": "Shower adapted to お風呂 (bath time) since Japanese usually bathe; options still fit."
+ },
+ "4a4c1dcb-edc8-499a-b622-51d40eb7fed0": {
+  "text": "{{playerName}}が好きな辛さは？",
+  "answers": [
+   "辛くないのがいい",
+   "ちょっと辛め",
+   "かなり辛め",
+   "メニューで一番辛いの"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "64443fba-3210-45c2-91a7-e445962bb768": {
+  "text": "{{playerName}}はアラームをいくつかける？",
+  "answers": [
+   "0個",
+   "1個",
+   "2〜3個",
+   "数えきれない"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7ae392a8-9407-45b1-8393-659cd8c7ff06": {
+  "text": "{{playerName}}が飲み物に入れたい氷の量は？",
+  "answers": [
+   "なし",
+   "少なめ",
+   "コップ半分",
+   "たっぷり"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8d2288a5-7234-4b0a-9d04-a4df4a7c8276": {
+  "text": "{{playerName}}が好きな部屋の温度は？",
+  "answers": [
+   "寒いくらい",
+   "涼しめ",
+   "あったかめ",
+   "暑いくらい"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9a333a60-a208-4fa6-b5ad-715cc8915816": {
+  "text": "誰かと歩く時の{{playerName}}は？",
+  "answers": [
+   "遅れがち",
+   "隣を歩く",
+   "先を歩く",
+   "先に着いて待ってる"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "03e69dee-3b69-4951-8dc6-3b8264f042b0": {
+  "text": "{{playerName}}が好きな部屋の明るさは？",
+  "answers": [
+   "ほぼ真っ暗",
+   "薄暗め",
+   "ふつう",
+   "全開"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0aca9c68-fa93-42be-9d3c-1de5a6691b90": {
+  "text": "{{playerName}}はごはんをどれくらい食べる？",
+  "answers": [
+   "半分残す",
+   "少し残す",
+   "完食",
+   "おかわりする"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5c58e0a8-e571-49fa-9dcf-8bcabbfd351d": {
+  "text": "{{playerName}}がテレビを見る時の音量は？",
+  "answers": [
+   "かなり小さめ",
+   "ふつう",
+   "大きめ",
+   "マンション中に響く"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": "'Whole building' rendered as マンション中 (apartment building), the natural Japanese image."
+ },
+ "8dcf54f4-7604-4a50-868f-a1059383d60f": {
+  "text": "{{playerName}}が一番よく見るスポーツは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "518cefed-96bc-4925-a6d7-cbbbe1bafe71": {
+  "text": "{{playerName}}のスマホの音はだいたい…",
+  "answers": [
+   "マナーモード",
+   "小さめで控えめ",
+   "部屋中に響く"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b194f4d3-f0fd-4181-9fe0-ba5a5d8df660": {
+  "text": "{{playerName}}の好きな飲み物は？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "479bda74-7ea0-4281-b895-aa99f5ec2cd2": {
+  "text": "{{playerName}}が一番好きな曜日は？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d8a84507-b8e2-4a95-843a-ee747cc48192": {
+  "text": "{{playerName}}が一番よく履く靴のブランドは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "93071ba2-48c1-40a4-9b45-223d4ea76fba": {
+  "text": "{{playerName}}の好きな服のブランドは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2cfc2473-9298-4832-91ac-7d80bdb6acf8": {
+  "text": "{{playerName}}が落ち込んだ時に食べたくなるものは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1964cbeb-89e2-449a-8c9f-a62f03c5001e": {
+  "text": "{{playerName}}が朝スマホで最初にチェックするのは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "72d01256-9cc6-4e00-9ee2-32149b3777c1": {
+  "text": "家にひとりの時、{{playerName}}は何してる？",
+  "answers": [
+   "全力で歌う",
+   "家の中で踊る",
+   "脳内で誰かと会話",
+   "ベッドでごはん"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5426502c-b09e-4e22-9d93-14cdcc37e444": {
+  "text": "{{playerName}}は人の名前を忘れたらどうする？",
+  "answers": [
+   "名前を呼ばずにごまかす",
+   "適当なあだ名で呼ぶ",
+   "すぐ正直に言う",
+   "こっそり他の人に聞く"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b8373ab6-1ddc-4a1b-9c77-fb896eac0d39": {
+  "text": "人前でつまずいた時、{{playerName}}はどうする？",
+  "answers": [
+   "そのまま走り出す",
+   "地面をにらむ",
+   "爆笑する",
+   "何もなかったふり"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c01488a8-0bfe-43e5-8da7-3d73f726e8a8": {
+  "text": "{{playerName}}が宝くじに当たったら、まず何する？",
+  "answers": [
+   "仕事を辞める",
+   "家を買う",
+   "世界一周",
+   "誰にも言わない"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9c6b53e4-f5b8-473e-b934-46874be76618": {
+  "text": "ゾンビだらけの世界で、{{playerName}}はどんな役？",
+  "answers": [
+   "リーダー",
+   "最初にかまれる人",
+   "お菓子を買いだめする人",
+   "裏切り者"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "23003c7d-5093-46f0-a54a-2f942131eb3c": {
+  "text": "{{playerName}}が超能力をひとつ選ぶなら？",
+  "answers": [
+   "空を飛ぶ",
+   "透明になる",
+   "心を読む",
+   "瞬間移動"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f29d4add-5a02-4673-af37-22538518bf1d": {
+  "text": "{{playerName}}のロック画面、今は何？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2c118d16-4d4d-47ed-a1e5-324d8ff8801c": {
+  "text": "{{playerName}}の1日の平均スクリーンタイムは何時間？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "87169443-4ab3-4ed7-a6a9-86d699553988": {
+  "text": "スクリーンタイムで、{{playerName}}が一番長く使ってるアプリは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d2eb66d6-376f-48c0-a8c4-b9bd593f2533": {
+  "text": "{{playerName}}のスマホの未読通知はだいたい何件？",
+  "answers": [
+   "0件、いつも消す",
+   "数件",
+   "数十件",
+   "数百件"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b33c8cde-b296-45cf-b287-875bb5ce045e": {
+  "text": "{{playerName}}のスマホの充電、だいたいどれくらい？",
+  "answers": [
+   "いつも80%以上",
+   "半分くらい",
+   "だいたい20%以下",
+   "いつも電池切れ寸前"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7a8fe703-7dff-4a13-a22a-e41eb71b652a": {
+  "text": "{{playerName}}の家のWi-Fiの名前は？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "147fc614-cbc3-40c2-99c8-4c3153cd6e71": {
+  "text": "{{playerName}}がネットで最後に買ったものは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "517564ba-2931-43ca-827c-58dddf379dac": {
+  "text": "{{playerName}}が何があっても絶対に食べないものは？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

@@ -1,0 +1,126 @@
+[
+ {
+  "id": "74e8638b-8b64-4231-9da1-49a411091b71",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "An unexpected bonus lands in your account. You…",
+  "tr": "Hesabına beklenmedik bir ikramiye yattı. Sen…",
+  "answers_en": [
+   "Save it",
+   "Spend it on something for us",
+   "Treat myself",
+   "Pay something off"
+  ],
+  "answers_tr": [
+   "Biriktiririm",
+   "İkimiz için bir şeye harcarım",
+   "Kendimi şımartırım",
+   "Bir borcu kapatırım"
+  ]
+ },
+ {
+  "id": "27d986a2-af92-4a2b-8c11-c88a505f4ffc",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How should couples handle money?",
+  "tr": "Çiftler parayı nasıl yönetmeli?",
+  "answers_en": [
+   "Everything shared",
+   "Shared account plus our own",
+   "Fully separate, split the bills"
+  ],
+  "answers_tr": [
+   "Her şey ortak",
+   "Ortak hesap artı kendi hesaplarımız",
+   "Tamamen ayrı, faturalar bölünür"
+  ]
+ },
+ {
+  "id": "529c952f-f5ce-4a9a-811e-de16b44436ca",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Which describes you best with money?",
+  "tr": "Para konusunda seni en iyi hangisi anlatır?",
+  "answers_en": [
+   "A careful saver",
+   "A happy spender",
+   "A planner with a budget",
+   "Depends on my mood"
+  ],
+  "answers_tr": [
+   "Dikkatli bir biriktirici",
+   "Harcamayı seven biri",
+   "Bütçe yapan bir planlayıcı",
+   "Moduma göre değişir"
+  ]
+ },
+ {
+  "id": "69067652-637f-4025-a1a9-bf8fe43e5541",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How much can you spend without telling your partner?",
+  "tr": "Partnerine söylemeden ne kadar harcayabilirsin?",
+  "answers_en": [
+   "Anything, it's my money",
+   "Up to a small amount",
+   "Nothing big without talking first"
+  ],
+  "answers_tr": [
+   "Her şeyi, benim param",
+   "Küçük bir miktara kadar",
+   "Konuşmadan büyük bir şey harcamam"
+  ]
+ },
+ {
+  "id": "3801b3f8-ca7a-427a-8049-b7eb1a4a83a1",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What worries you most about money?",
+  "tr": "Para konusunda seni en çok ne endişelendiriyor?",
+  "answers_en": [
+   "Not having enough saved",
+   "Debt",
+   "Us not agreeing on it",
+   "Honestly, nothing"
+  ],
+  "answers_tr": [
+   "Yeterince birikimimizin olmaması",
+   "Borç",
+   "Bu konuda anlaşamamamız",
+   "Açıkçası hiçbir şey"
+  ]
+ },
+ {
+  "id": "782694ff-ef2a-453d-b2b0-820147b9c492",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How comfortable are you talking about money with your partner?",
+  "tr": "Partnerinle para hakkında konuşmak sana ne kadar rahat geliyor?",
+  "answers_en": [
+   "Completely, we talk openly",
+   "Fine, but we rarely do",
+   "A bit awkward",
+   "I avoid it"
+  ],
+  "answers_tr": [
+   "Çok rahat, açıkça konuşuruz",
+   "Rahat ama nadiren konuşuruz",
+   "Biraz tuhaf geliyor",
+   "Kaçınıyorum"
+  ]
+ },
+ {
+  "id": "383497c5-6a90-487f-acfb-ba23d85788e9",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What's the biggest money decision you want to make together in the next few years?",
+  "tr": "Önümüzdeki birkaç yılda birlikte vermek istediğin en büyük parasal karar ne?"
+ },
+ {
+  "id": "b43559b3-b10b-49de-b3d6-d71e7cdb85b6",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What did money mean in the home you grew up in?",
+  "tr": "Büyüdüğün evde para ne anlama geliyordu?"
+ }
+]

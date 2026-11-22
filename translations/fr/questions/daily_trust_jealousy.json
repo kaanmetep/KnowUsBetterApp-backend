@@ -1,0 +1,69 @@
+{
+  "df0f185f-6d69-4ba4-9994-5996b2f0bf68": {
+    "en": "Looking at your partner's phone is…",
+    "text": "Regarder le téléphone de ta moitié, c'est…",
+    "answers": [
+      "Hors de question, c'est privé",
+      "Ça va, avec sa permission",
+      "Ça va, on n'a rien à cacher",
+      "Déjà fait sans demander"
+    ]
+  },
+  "dd3aaedc-07ee-412b-bb83-7c23dbb377c1": {
+    "en": "Someone gives your partner a lot of attention. You…",
+    "text": "Quelqu'un accorde beaucoup d'attention à ta moitié. Ta réaction ?",
+    "answers": [
+      "Ça ne me dérange pas du tout",
+      "Un petit pincement, mais j'ai confiance",
+      "J'aurais envie d'en parler",
+      "Ma jalousie se verrait clairement"
+    ]
+  },
+  "fbf507be-cbda-4663-9a38-9a01f9393e66": {
+    "en": "Your partner staying friends with an ex is…",
+    "text": "Que ta moitié garde contact avec un ex, c'est…",
+    "answers": [
+      "Tout à fait normal",
+      "OK s'il n'y a plus rien",
+      "Ça me met mal à l'aise",
+      "Rédhibitoire"
+    ]
+  },
+  "785701ac-e83a-456a-9d90-e85d4aca204d": {
+    "en": "How often do you feel jealous, even if you don't show it?",
+    "text": "À quelle fréquence ressens-tu de la jalousie, même sans la montrer ?",
+    "answers": [
+      "Souvent",
+      "Parfois",
+      "Rarement",
+      "Jamais"
+    ]
+  },
+  "9ba59f61-1758-4d30-ba63-f6104de991cd": {
+    "en": "What would damage your trust the most?",
+    "text": "Qu'est-ce qui abîmerait le plus ta confiance ?",
+    "answers": [
+      "Un mensonge, même petit",
+      "Des conversations cachées avec quelqu'un",
+      "Des promesses non tenues à répétition",
+      "Notre vie privée racontée à d'autres"
+    ]
+  },
+  "18def8e1-5fa7-44a3-85e4-81cb688a31db": {
+    "en": "How much do you want to know about each other's day?",
+    "text": "Que veux-tu savoir de la journée de l'autre ?",
+    "answers": [
+      "Tout : où et avec qui",
+      "L'essentiel",
+      "Seulement ce que l'autre veut partager"
+    ]
+  },
+  "b0a8928f-0b53-439c-9f66-ca1a6c92eb86": {
+    "en": "What makes you feel completely secure with your partner?",
+    "text": "Qu'est-ce qui te donne un sentiment de sécurité totale avec ta moitié ?"
+  },
+  "e045d939-d801-4bea-b637-ed0df364efa8": {
+    "en": "Is there anything that makes you even slightly insecure in this relationship? Be honest.",
+    "text": "Y a-t-il quelque chose dans cette relation qui te fait douter, même un tout petit peu ? Sois honnête."
+  }
+}

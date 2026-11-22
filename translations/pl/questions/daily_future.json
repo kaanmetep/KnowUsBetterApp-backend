@@ -1,0 +1,70 @@
+{
+  "0da22e32-fa22-493b-bc7f-f4b3a1ae901b": {
+    "en": "Where do you see yourselves living in 5 years?",
+    "text": "Gdzie według ciebie będziecie mieszkać za 5 lat?",
+    "answers": [
+      "Tam, gdzie teraz",
+      "W większym mieście",
+      "W spokojnym miejscu blisko natury",
+      "W innym kraju"
+    ]
+  },
+  "094980c9-ac72-48cd-8fec-ded5e8c859f2": {
+    "en": "How do you feel about having kids?",
+    "text": "Jak podchodzisz do posiadania dzieci?",
+    "answers": [
+      "Zdecydowanie tak, i to niedługo",
+      "Tak, ale jeszcze nie teraz",
+      "Trudno powiedzieć",
+      "To nie dla mnie"
+    ]
+  },
+  "9dd0cb25-5e52-4bbd-8b84-0845b7a42506": {
+    "en": "What matters most for your future together?",
+    "text": "Co jest najważniejsze dla waszej wspólnej przyszłości?",
+    "answers": [
+      "Stabilizacja i bezpieczeństwo",
+      "Przygoda i nowe doświadczenia",
+      "Założenie rodziny",
+      "Rozwój każdego z nas"
+    ]
+  },
+  "0bcc27d3-1ef3-44af-a395-189f4c9bd2c7": {
+    "en": "You get a dream job offer in another city. You…",
+    "text": "Dostajesz wymarzoną ofertę pracy w innym mieście. Ty…",
+    "answers": [
+      "Przyjmuję tylko, jeśli przeprowadzimy się razem",
+      "Przez jakiś czas próbujemy na odległość",
+      "Odmawiam dla nas",
+      "Przyjmuję, jakoś to ogarniemy"
+    ]
+  },
+  "8ef516ca-6075-4b91-baa4-ddf344730612": {
+    "en": "How do you prefer to plan the future?",
+    "text": "Jak wolisz planować przyszłość?",
+    "answers": [
+      "Szczegółowo, na lata do przodu",
+      "Ogólny kierunek wystarczy",
+      "Krok po kroku",
+      "Niech życie nas zaskoczy"
+    ]
+  },
+  "afb504c6-4c43-4b52-ac1f-3313b26b9e24": {
+    "en": "How sure are you that you two want the same future?",
+    "text": "Na ile masz pewność, że chcecie tej samej przyszłości?",
+    "answers": [
+      "Pełna pewność",
+      "Raczej tak, choć są znaki zapytania",
+      "Nie było jeszcze poważnej rozmowy",
+      "Żadnej pewności"
+    ]
+  },
+  "983f732f-f006-4caf-acec-f1b565922810": {
+    "en": "In one sentence: where are the two of you in five years?",
+    "text": "Jednym zdaniem: gdzie będziecie za pięć lat?"
+  },
+  "9a479602-d540-4c0d-818d-eca22f12ae13": {
+    "en": "What's one thing about the future you've been hesitant to bring up?",
+    "text": "Jaki temat dotyczący przyszłości wciąż boisz się poruszyć?"
+  }
+}

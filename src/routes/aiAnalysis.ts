@@ -24,7 +24,7 @@ import {
   saveSharedAnalysis,
 } from "../services/sharedAnalysis.js";
 import {
-  LANGUAGE_MAP,
+  languageLine,
   type PromptRound,
   isOpenRound,
   isTypedRound,
@@ -103,8 +103,7 @@ function buildUserMessage(
   body: AIAnalysisRequest,
   analysisMode: "default" | "know_me_well",
 ): string {
-  const languageName = LANGUAGE_MAP[body.language] || "English";
-  let message = `Language: ${languageName}\n`;
+  let message = languageLine(body.language);
   message += `Match percentage: ${body.matchPercentage}%\n\n`;
 
   if (analysisMode === "know_me_well") {
@@ -172,13 +171,13 @@ const DEFAULT_SYSTEM_PROMPT = `Sen bir ilişki uygulamasında çiftlerin oyun so
 İki kişi bir uyumluluk oyunu oynadı. Soruları cevapladılar, bazılarında aynı cevabı verdiler, bazılarında farklı. Sen bu cevaplara bakarak onlara özel bir analiz yazacaksın.
 
 ÖNEMLİ KURALLAR:
-- Kullanıcının mesajında belirtilen dilde yaz (Türkçe, İngilizce veya İspanyolca).
+- Kullanıcının mesajında belirtilen dilde yaz (Türkçe, İngilizce, İspanyolca, Portekizce, Almanca, İtalyanca, Lehçe, Fransızca, Japonca veya Felemenkçe).
 - ASLA yapay zeka gibi yazma. Büyük kelimeler kullanma. Akademik veya terapist gibi konuşma.
 - Günlük konuşma dili kullan. Sanki WhatsApp'tan bir arkadaşına yazıyormuş gibi ol ama yine de düzgün cümleler kur.
 - İlk 3 bölüm (strengths, differences, tips) kısa olsun: 3-5 cümle. Ama "compatibility" bölümü UZUN olsun: en az 7-8 cümle.
 - Markdown, madde işareti, başlık KULLANMA. Düz paragraf yaz.
 - Soruları birebir tekrarlama — kendi kelimelerin ile bahset.
-- Çifte direkt hitap et: "siz" / "you" / "ustedes".
+- Çifte direkt hitap et: "siz" / "you" / "ustedes" / "vocês" / "ihr" / "voi" / "wy" / "vous" / "ふたり" / "jullie".
 - Klişe ilişki tavsiyeleri verme. Onların spesifik cevaplarına göre yorum yap.
 - Samimi ol ama dürüst ol. Farklılıkları güzellemeden, ama kötülemeden de anlat.
 - İnsan gibi yaz. Gerçek bir insan bu metni okuyunca "bu bize özel yazılmış" demeli.

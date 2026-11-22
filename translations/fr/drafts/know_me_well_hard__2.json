@@ -1,0 +1,502 @@
+{
+  "26767042-b7af-43d8-ad6f-ea87f4304f2f": {
+    "text": "Comment s'appelle la grand-mère maternelle de {{playerName}} ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a3279d43-a655-4bbb-8718-b6d15227c517": {
+    "text": "Comment s'appelle le grand-père de {{playerName}} ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5b5320ad-a6ce-44c4-8e2b-fb2bae61cbf1": {
+    "text": "Quelle est la marque de voiture préférée de {{playerName}} ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ff9d0b85-deed-41dd-807c-1f3d0a3bb83c": {
+    "text": "Quelle est la couleur de voiture préférée de {{playerName}} ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "98059ab8-7dbf-4b1c-8c78-78ebc984c60e": {
+    "text": "Combien pèse {{playerName}}, en kg ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b48fa9ed-dd37-473f-b435-ce10eb15ae06": {
+    "text": "{{playerName}} a combien de piercings aux oreilles ? Écris 0 si aucun.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2a444c7a-9b06-42ba-929c-3818403efe75": {
+    "text": "En ce moment, qui est la personne la plus proche de {{playerName}} parmi ses amis ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0216b04b-1ca1-4963-a1e6-ff951b52d0a3": {
+    "text": "{{playerName}} a visité combien de pays ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "42a0d55b-eca3-40f2-bc31-14b9428ad7e6": {
+    "text": "Quand {{playerName}} ment, comment ça se voit ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "29cd2b71-30b4-431f-8ec3-1c32bd8e39aa": {
+    "text": "Quel est le groupe sanguin de {{playerName}} ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "042f678e-2937-4acb-8425-a35fe0e7b9c5": {
+    "text": "Comment s'appelle le grand frère ou la grande sœur de {{playerName}} ? Sinon, écris « personne ».",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c511a069-e3da-4591-b416-bd506028c5ad": {
+    "text": "Quelle a été la première voiture de {{playerName}} ? Sinon, écris « aucune ».",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "57c09d65-f7f9-4b4f-9a7a-bb66f4b6a62d": {
+    "text": "De quoi {{playerName}} a le plus peur ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b9710f34-86f6-4db8-96d3-752d4559d726": {
+    "text": "Quelle est la plus grande fierté de {{playerName}} dans la vie ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ace03250-f070-4ff0-ae9c-703406313716": {
+    "text": "Que fait {{playerName}} quand la colère monte vraiment ?",
+    "answers": [
+      "Se tait et garde tout pour soi",
+      "Crie, puis se calme",
+      "Quitte la pièce",
+      "Veut en parler tout de suite"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b90eefb2-04d9-470b-bde1-ed9df3dacdd8": {
+    "text": "Après une mauvaise nouvelle, vers qui {{playerName}} se tourne en premier ?",
+    "answers": [
+      "Sa moitié",
+      "Un de ses parents",
+      "Ses amis les plus proches",
+      "Personne, digère d'abord en solo"
+    ],
+    "accepted": [],
+    "flagged": true,
+    "note": "'Their best friend' rendered as 'closest friends' (plural) because 'son meilleur ami / sa meilleure amie' forces a gender on the friend."
+  },
+  "7bddbacb-8e74-4c5e-b299-5305af0053f5": {
+    "text": "Qu'est-ce que {{playerName}} regrette le plus ?",
+    "answers": [
+      "Une chose jamais dite",
+      "Une occasion ratée",
+      "Avoir blessé quelqu'un",
+      "Rien, pas du genre à regretter"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4bcbeb5e-2463-48a0-8cd0-babea7e0a72f": {
+    "text": "Quel a été le premier boulot de {{playerName}} ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "61e3c86d-76bd-4582-88c5-71bfe7622ee0": {
+    "text": "À quel âge {{playerName}} a eu son permis de conduire ? Sinon, écris « aucun ».",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "10084e8c-9292-4aa3-9dbd-75531bb7486a": {
+    "text": "{{playerName}} a eu combien de fractures ? Écris 0 si aucune.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c1def649-d319-4211-aeb5-0858840e7bdc": {
+    "text": "Quel artiste {{playerName}} a vu à son tout premier concert ? Sinon, écris « aucun ».",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1046beaa-623b-4faf-8f88-38b87419d2e6": {
+    "text": "{{playerName}} est allergique à quoi ? Sinon, écris « rien ».",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ba2de278-23d7-45a4-8448-cb563db767d5": {
+    "text": "À quel âge {{playerName}} a voyagé à l'étranger pour la première fois ? Sinon, écris « jamais ».",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6a7ace14-0321-4e93-9cc7-2baa1d9bee41": {
+    "text": "Combien de fois {{playerName}} a déménagé ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ba6c616e-1d98-469a-b2e3-92b66c0981d1": {
+    "text": "Comment s'appelle la grand-mère paternelle de {{playerName}} ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2f57ffab-1be4-44cc-a0f8-a393c9fad863": {
+    "text": "Quel a été le premier téléphone de {{playerName}} ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "00bb499d-b0c3-4f78-9b18-cffb65b03524": {
+    "text": "À quel âge {{playerName}} a eu son premier baiser ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1c34b99b-0d35-4532-8459-984d6017ea4a": {
+    "text": "Quelle était la pire matière de {{playerName}} à l'école ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c701e374-0098-4d9a-9a64-f02e08d52b16": {
+    "text": "Où se trouve la plus grande cicatrice de {{playerName}} ? Sinon, écris « aucune ».",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "170581cc-7ae8-4bc3-9ca8-8fa5e87b5fc2": {
+    "text": "Quelle taille de t-shirt porte {{playerName}} ?",
+    "answers": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL ou plus"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "01e70d49-b6d6-4142-971d-22b27d35b17f": {
+    "text": "Comment s'appelait le prof préféré de {{playerName}} ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "43294aea-9009-4d5a-aad8-f7694a3b51a5": {
+    "text": "La naissance de {{playerName}}, c'était à quel moment de la journée ?",
+    "answers": [
+      "La nuit (0 h-6 h)",
+      "Le matin (6 h-12 h)",
+      "L'après-midi (12 h-18 h)",
+      "Le soir (18 h-24 h)"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "749b9061-a5d0-4ff6-900b-e3ba010281ed": {
+    "text": "Quelle célébrité {{playerName}} a déjà rencontrée en vrai ? Sinon, écris « aucune ».",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9f26e1c3-409c-4553-98aa-52ecb367ba15": {
+    "text": "Quel instrument {{playerName}} a déjà pratiqué ou essayé d'apprendre ? Sinon, écris « aucun ».",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bf1c6470-4a2a-48c7-8d98-2f82482ce877": {
+    "text": "Combien de fois {{playerName}} a raté l'examen du permis ? Écris 0 si jamais.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f881bedc-d173-4bdb-ae2d-694246d7f4d8": {
+    "text": "À quel âge {{playerName}} a quitté le domicile familial ? Sinon, écris « jamais ».",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7600e024-4a37-494e-96f6-cc1c03f58f89": {
+    "text": "Où {{playerName}} craint le plus les chatouilles ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "deb2b852-ecc2-4a4b-939e-cbcf025845f4": {
+    "text": "Quelle est la couleur naturelle des cheveux de {{playerName}} ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f5418f78-b11d-4776-825c-c5ac189d7b37": {
+    "text": "Où se trouve la tache de naissance de {{playerName}} ? Sinon, écris « aucune ».",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "096b7ab0-dfe3-49bc-956e-cafc81272088": {
+    "text": "{{playerName}} ronfle ?",
+    "answers": [
+      "Jamais",
+      "Seulement en cas de grosse fatigue",
+      "Parfois",
+      "Toutes les nuits"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f620465f-147d-4168-af5a-2bb985faf47d": {
+    "text": "Pour dormir, {{playerName}} porte quoi ?",
+    "answers": [
+      "Un pyjama",
+      "T-shirt et short",
+      "Juste des sous-vêtements",
+      "Rien du tout"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5f58a2de-2ed0-446f-9727-0329eb1902d6": {
+    "text": "{{playerName}} a déjà porté un appareil dentaire ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a655c4c5-4928-4826-bbb2-746b6c2282e8": {
+    "text": "Au naturel, les cheveux de {{playerName}} sont comment ?",
+    "answers": [
+      "Raides",
+      "Ondulés",
+      "Bouclés",
+      "Très frisés"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0d808bea-8434-4452-aedb-e5bd28afc9f3": {
+    "text": "Quel parfum {{playerName}} porte le plus souvent ? Sinon, écris « aucun ».",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e9d46c08-1bf4-4c6e-bed3-5617405af0ec": {
+    "text": "{{playerName}} dort avec des chaussettes ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d616c1f7-4c37-47a7-8a0e-4b9963af2764": {
+    "text": "{{playerName}} s'est fait retirer combien de dents de sagesse ?",
+    "answers": [
+      "Aucune",
+      "1",
+      "2",
+      "3",
+      "Les 4"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ff103caa-415a-4e58-8c01-e153cd9bae9b": {
+    "text": "Combien de fois {{playerName}} a eu des points de suture ? Écris 0 si jamais.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5a101639-bde0-469e-b2f2-60b2ef0a85fd": {
+    "text": "À quel âge {{playerName}} a appris à nager ? Sinon, écris « jamais ».",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "424b64a3-27da-4ae4-be6d-0e4fb5e26709": {
+    "text": "{{playerName}} a combien de plombages ? Écris 0 si aucun.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5554d5d2-4a3f-442a-b4c8-38e8511d257a": {
+    "text": "Combien de fois {{playerName}} a passé la nuit à l'hôpital pour se faire soigner ? Écris 0 si jamais.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c318ef52-cf6a-49e9-84a8-45961906b50b": {
+    "text": "{{playerName}} sait conduire en boîte manuelle ?",
+    "answers": [
+      "Oui, sans problème",
+      "Oui, mais pas très bien",
+      "Seulement en automatique",
+      "Ne conduit pas du tout"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6074363d-0509-4dea-9335-e5320a8e427a": {
+    "text": "Combien de fois {{playerName}} a perdu connaissance ? Écris 0 si jamais.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "48b3c23a-3cd0-4c20-9384-01aa898ae50c": {
+    "text": "À quel âge {{playerName}} a pris l'avion pour la première fois ? Sinon, écris « jamais ».",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "39a4a20b-eb71-4852-86d1-c1f6ef17b787": {
+    "text": "{{playerName}} a eu combien de boulots différents jusqu'ici ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5c90da6e-06f8-4571-af38-0ac84e0c7278": {
+    "text": "Combien de fois {{playerName}} s'est teint les cheveux ? Écris 0 si jamais.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "58871fe6-0f6c-4951-bf1b-4e65c2cb2fbb": {
+    "text": "À quel âge {{playerName}} s'est fait percer les oreilles ? Sinon, écris « jamais ».",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7fec5c7e-5fd4-4d15-b827-9764d0017c5a": {
+    "text": "{{playerName}} a eu combien d'amendes pour excès de vitesse ? Écris 0 si aucune.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1c483831-40c8-4c84-b3e4-1e6b2febd48f": {
+    "text": "Combien de fois {{playerName}} a cassé un écran de téléphone ? Écris 0 si jamais.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "84f3b4d3-8ce2-4dd7-a7a0-3ceb564ace5b": {
+    "text": "Combien d'heures a duré le plus long vol de {{playerName}} ? Écris 0 si jamais pris l'avion.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a3fbf3a7-ae6b-452d-b250-d1345f8c330f": {
+    "text": "{{playerName}} parle encore régulièrement avec combien d'amis du lycée ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2f52c237-0f33-496b-98b3-d8052637d261": {
+    "text": "Quel âge avait la mère de {{playerName}} à la naissance de {{playerName}} ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "84e04131-a72c-4735-abf3-e7da9b624e05": {
+    "text": "Il y a combien d'années d'écart entre {{playerName}} et son frère ou sa sœur le plus proche en âge ? Écris 0 si enfant unique.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e5b9acdd-03b4-4cdb-869d-19a7eb400217": {
+    "text": "Au maximum, {{playerName}} a dormi combien d'heures d'affilée ?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b8b3c241-4570-48ed-8a1f-2f7048d5fc4f": {
+    "text": "À quel âge {{playerName}} a eu sa propre chambre ? Écris 0 si ça a toujours été le cas.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

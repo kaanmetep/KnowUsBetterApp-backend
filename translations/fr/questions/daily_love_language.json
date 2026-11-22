@@ -1,0 +1,74 @@
+{
+  "f6a2734f-3505-4f4a-9316-0bbe08fdc1f4": {
+    "en": "What makes you feel most loved?",
+    "text": "Qu'est-ce qui te fait le plus sentir qu'on t'aime ?",
+    "answers": [
+      "L'entendre dire à voix haute",
+      "Du temps rien qu'à nous",
+      "Qu'on me facilite la vie",
+      "Le toucher",
+      "Une surprise attentionnée"
+    ]
+  },
+  "133e06f4-dacb-4900-9789-001a5b70e6b0": {
+    "en": "How do you most naturally show love?",
+    "text": "Quelle est ta façon la plus naturelle de montrer ton amour ?",
+    "answers": [
+      "En le disant",
+      "En trouvant du temps pour l'autre",
+      "En faisant des choses pour l'autre",
+      "Par le toucher",
+      "Avec de petites surprises"
+    ]
+  },
+  "e4d36f8a-1611-4d47-8524-7fa4e276d576": {
+    "en": "What makes you feel unloved the fastest?",
+    "text": "Qu'est-ce qui te donne le plus vite l'impression de manquer d'amour ?",
+    "answers": [
+      "Des jours sans un mot gentil",
+      "L'autre sur son téléphone quand on est ensemble",
+      "Devoir tout gérer sans aide",
+      "Pas de tendresse pendant un moment",
+      "Mes efforts qui passent inaperçus"
+    ]
+  },
+  "3bab62fd-1bc7-4eca-8947-a5d212b2d5f2": {
+    "en": "When you're stressed, what do you want from your partner?",
+    "text": "En période de stress, qu'attends-tu de ta moitié ?",
+    "answers": [
+      "En parler avec moi",
+      "Juste être là, à côté",
+      "Me décharger d'une tâche",
+      "Me prendre dans ses bras",
+      "Me laisser de l'espace"
+    ]
+  },
+  "0d6c4a65-26ce-4b3d-a4a9-bc4d2ca492db": {
+    "en": "How much physical affection do you want on a normal day?",
+    "text": "De combien de tendresse physique as-tu besoin dans une journée normale ?",
+    "answers": [
+      "Beaucoup, tout le temps",
+      "Plusieurs moments par jour",
+      "Un peu, ça suffit",
+      "Je ne suis pas très tactile"
+    ]
+  },
+  "f8892d3c-58cc-4820-bbdc-cd6f7d7f87e9": {
+    "en": "How often do you feel your love goes unnoticed?",
+    "text": "À quelle fréquence as-tu l'impression que ton amour passe inaperçu ?",
+    "answers": [
+      "Presque jamais",
+      "Parfois",
+      "Souvent",
+      "La plupart du temps"
+    ]
+  },
+  "be0526e5-ba2f-4129-a55a-0238be57b8da": {
+    "en": "Describe the last moment you felt truly loved by your partner.",
+    "text": "Raconte le dernier moment où tu as vraiment senti l'amour de ta moitié."
+  },
+  "190ea05e-76db-489f-a50d-c3473f48f2e7": {
+    "en": "What do you do to show love that you think your partner doesn't notice?",
+    "text": "Que fais-tu par amour qui, selon toi, échappe à ta moitié ?"
+  }
+}

@@ -1,0 +1,1270 @@
+[
+ {
+  "id": "1c394649-6625-4f03-84f0-3e53b920c956",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "When their partner compliments them, what does {{playerName}} do?",
+  "tr": "Partneri iltifat edince {{playerName}} ne yapar?",
+  "answers_en": [
+   "Shrugs it off",
+   "Gets shy",
+   "Says one back",
+   "Lets it land"
+  ],
+  "answers_tr": [
+   "Geçiştirir",
+   "Utanır",
+   "Hemen iade eder",
+   "Gerçekten alır"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "a1b6a93f-4d10-43a7-8164-0163bd3853f2",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which of these is hardest for {{playerName}} to hear from their partner?",
+  "tr": "Partnerinden hangisini duymak {{playerName}} için en zoru?",
+  "answers_en": [
+   "We need to talk",
+   "I need space",
+   "I'm disappointed",
+   "You were right"
+  ],
+  "answers_tr": [
+   "Konuşmamız lazım",
+   "Alanıma ihtiyacım var",
+   "Hayal kırıklığına uğradım",
+   "Haklıydın"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "c47a1f38-5b04-46da-9c44-7a474ed6d259",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If {{playerName}} catches you watching them after a shower, what do they do?",
+  "tr": "{{playerName}} duştan çıkınca bakıldığını fark ederse ne yapar?",
+  "answers_en": [
+   "Looks back",
+   "Looks away",
+   "Makes a joke",
+   "Walks over"
+  ],
+  "answers_tr": [
+   "Bakış atar",
+   "Gözünü kaçırır",
+   "Şakaya vurur",
+   "Yanına gelir"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "e89d0de4-7a91-4f6e-b779-b94e48e546d2",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "It's 2am and you're both still awake. What does {{playerName}} want?",
+  "tr": "Saat 02:00, ikiniz de uyanıksınız. {{playerName}} ne ister?",
+  "answers_en": [
+   "To talk in the dark",
+   "To kiss, then sleep",
+   "To scroll together",
+   "To actually sleep"
+  ],
+  "answers_tr": [
+   "Karanlıkta konuşmak",
+   "Öpüşüp uyumak",
+   "Birlikte kaydırmak",
+   "Gerçekten uyumak"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "8ce87b4f-b8db-4f01-98ba-f29870c3aed1",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you whispered one thing, what would get to {{playerName}} more?",
+  "tr": "Kulağına bir şey fısıldasan, {{playerName}}'i hangisi daha çok yakalar?",
+  "answers_en": [
+   "Come here",
+   "Close the door",
+   "Look at me",
+   "Not yet"
+  ],
+  "answers_tr": [
+   "Gel",
+   "Kapıyı kapat",
+   "Bana bak",
+   "Henüz değil"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "0e4ed2f2-bc25-4e09-a90f-302effdc8620",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "On the couch at night, how close does {{playerName}} sit?",
+  "tr": "Gece koltukta {{playerName}} ne kadar yakın oturur?",
+  "answers_en": [
+   "With some space",
+   "Right against you",
+   "Legs over yours",
+   "Half on your lap"
+  ],
+  "answers_tr": [
+   "Biraz boşluk",
+   "Yapışık",
+   "Bacakları senin üzerinde",
+   "Neredeyse kucağında"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "5cb070ee-8f2e-40d2-b2a4-eeb5e9aed5a6",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which of these is harder for {{playerName}} to ignore?",
+  "tr": "{{playerName}} hangisine daha zor kayıtsız kalır?",
+  "answers_en": [
+   "You in their t-shirt",
+   "You with wet hair",
+   "You getting ready to go out",
+   "You first thing in the morning"
+  ],
+  "answers_tr": [
+   "Sen, onun tişörtüyle",
+   "Islak saçların",
+   "Dışarı çıkmak için hazırlanman",
+   "Sabah henüz bir şey yapmamışken"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "35eb5bdd-4604-405f-bbd9-ec6d407788ce",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you walk in while {{playerName}} is changing, what do they do?",
+  "tr": "{{playerName}} üstünü değiştirirken içeri girsen ne yapar?",
+  "answers_en": [
+   "Covers up",
+   "Doesn't care",
+   "Sends you out",
+   "Pulls you in"
+  ],
+  "answers_tr": [
+   "Üstünü kapatır",
+   "Aldırmaz",
+   "Dışarı yollar",
+   "Yanına çeker"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "63883f17-6122-4b32-bd02-7c77127de516",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "At dinner, where is {{playerName}}'s hand?",
+  "tr": "Yemekte {{playerName}}'in eli nerede?",
+  "answers_en": [
+   "On the table",
+   "Holding yours",
+   "On your knee",
+   "Under the table"
+  ],
+  "answers_tr": [
+   "Masada",
+   "Senin elinde",
+   "Dizinde",
+   "Masanın altında"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "d4a5ae02-a778-4a8a-a976-915ab86b182c",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "At the door at the end of the night, what does {{playerName}} do?",
+  "tr": "Gecenin sonunda kapıda {{playerName}} ne yapar?",
+  "answers_en": [
+   "A quick kiss",
+   "A long kiss",
+   "Pulls you inside",
+   "Says see you tomorrow"
+  ],
+  "answers_tr": [
+   "Hızlı bir öpücük",
+   "Uzun bir öpücük",
+   "İçeri çeker",
+   "Yarın görüşürüz der"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "290d4e23-9ee9-41a5-86b2-90f954e2e486",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you hug {{playerName}} from behind, what do they do?",
+  "tr": "{{playerName}}'i arkadan sarsan ne yapar?",
+  "answers_en": [
+   "Leans back",
+   "Keeps going",
+   "Takes your hands",
+   "Turns around"
+  ],
+  "answers_tr": [
+   "Arkasına yaslanır",
+   "Devam eder",
+   "Ellerini tutar",
+   "Arkasını döner"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "3aaf73d2-fba7-45d3-b142-eaf8b4b1f2c2",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you kiss {{playerName}} while they're in the middle of something, what do they do?",
+  "tr": "{{playerName}} bir işle uğraşırken öpsen ne yapar?",
+  "answers_en": [
+   "Kisses back and keeps going",
+   "Tells you to wait",
+   "Puts it down",
+   "Laughs and shakes their head"
+  ],
+  "answers_tr": [
+   "Öpüp devam eder",
+   "Bekle der",
+   "Elindekini bırakır",
+   "Gülüp kafasını sallar"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "20568aba-1de1-4c32-9c4b-84046e0a89a3",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you say \"come to bed\", what does {{playerName}} do?",
+  "tr": "\"Yatağa gel\" desen {{playerName}} ne yapar?",
+  "answers_en": [
+   "Comes now",
+   "Needs five more minutes",
+   "Makes you come get them"
+  ],
+  "answers_tr": [
+   "Hemen gelir",
+   "Beş dakika daha",
+   "Senin gidip almanı bekler"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "730dfdba-4777-40c1-ac4f-849cf3a8dab0",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you whisper in {{playerName}}'s ear at a party, what do they do?",
+  "tr": "Partide {{playerName}}'in kulağına fısıldasan ne yapar?",
+  "answers_en": [
+   "Smiles",
+   "Goes red",
+   "Pulls you aside"
+  ],
+  "answers_tr": [
+   "Güler",
+   "Kızarır",
+   "Seni kenara çeker"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "793c87e8-9ced-435c-af13-49aef0550f10",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "In the back of a taxi, what does {{playerName}} do?",
+  "tr": "Taksinin arkasında {{playerName}} ne yapar?",
+  "answers_en": [
+   "Looks out the window",
+   "Puts their head on your shoulder",
+   "Holds your hand"
+  ],
+  "answers_tr": [
+   "Camdan bakar",
+   "Başı senin omzunda",
+   "Elini tutar"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "9a5a21f6-c21f-44ee-986d-7b807154604f",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you fall asleep on {{playerName}} on the couch, what do they do?",
+  "tr": "Koltukta {{playerName}}'in üstüne uyuyakalsan ne yapar?",
+  "answers_en": [
+   "Lets you sleep",
+   "Wakes you to go to bed",
+   "Stays there even if their arm goes numb"
+  ],
+  "answers_tr": [
+   "Uyutsun diye bırakır",
+   "Yatağa götürmek için uyandırır",
+   "Kolu uyuşsa bile kımıldamaz"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "d6cefc04-d2ec-40ca-b919-90873cd692a4",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you put your cold hands on {{playerName}}, what do they do?",
+  "tr": "Soğuk ellerini {{playerName}}'in üzerine koysan ne yapar?",
+  "answers_en": [
+   "Jumps",
+   "Holds them anyway",
+   "Warms them on their neck"
+  ],
+  "answers_tr": [
+   "İrkilir",
+   "Yine de tutar",
+   "Boynuna yapıştırır"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "d84a8b9f-1082-4a61-a4fb-3a0ce7561ce4",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you say \"let's go home\" while you're out, what does {{playerName}} do?",
+  "tr": "Dışarıdayken \"hadi eve gidelim\" desen {{playerName}} ne yapar?",
+  "answers_en": [
+   "Already wanted to",
+   "Wants one more hour",
+   "Was just getting started"
+  ],
+  "answers_tr": [
+   "Zaten istiyordur",
+   "Bir saat daha kalmak ister",
+   "Daha yeni ısınıyordur"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "51f4a26a-da00-4845-a418-a9ee3398e5bf",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If someone is clearly checking you out, what does {{playerName}} do?",
+  "tr": "Biri sana açık açık bakıyorsa {{playerName}} ne yapar?",
+  "answers_en": [
+   "Doesn't notice",
+   "Pulls you closer",
+   "Looks right back at them"
+  ],
+  "answers_tr": [
+   "Fark etmez",
+   "Seni yakına çeker",
+   "Adamın gözünün içine bakar"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "acceaaf6-dbea-46b8-b01d-8c157c320363",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you start dancing in the kitchen for no reason, what does {{playerName}} do?",
+  "tr": "Mutfakta sebepsiz dans etmeye başlasan {{playerName}} ne yapar?",
+  "answers_en": [
+   "Joins in",
+   "Watches",
+   "Calls you ridiculous, then joins"
+  ],
+  "answers_tr": [
+   "Katılır",
+   "İzler",
+   "Dalga geçer, sonra katılır"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "0ba7b11f-84f2-4fd6-a508-37ec2a630f94",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you almost kiss {{playerName}} and pull away, what do they do?",
+  "tr": "{{playerName}}'i öpecek gibi olup vazgeçsen ne yapar?",
+  "answers_en": [
+   "Finishes it",
+   "Waits",
+   "Laughs it off"
+  ],
+  "answers_tr": [
+   "O bitirir",
+   "Bekler",
+   "Gülüp geçirir"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "16f3d2e8-43b7-412a-aaf6-99b56d3ea05f",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you sit on {{playerName}}'s lap, what do they do?",
+  "tr": "{{playerName}}'in kucağına otursan ne yapar?",
+  "answers_en": [
+   "Pulls you in",
+   "Looks around first",
+   "Laughs and dumps you off"
+  ],
+  "answers_tr": [
+   "Seni çeker",
+   "Önce etrafa bakınır",
+   "Gülüp indirir"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "bbf222fb-e5a6-45b2-be01-18d719ee84f2",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you start taking {{playerName}}'s sweater off because it's warm inside, what do they do?",
+  "tr": "İçerisi sıcak diye {{playerName}}'in kazağını çıkarmaya başlasan ne yapar?",
+  "answers_en": [
+   "Lets you",
+   "Does it themselves",
+   "Stops your hand"
+  ],
+  "answers_tr": [
+   "Bırakır",
+   "Kendisi çıkarır",
+   "Elini tutar"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "f8558854-9108-4479-b20e-7a0c5c31c0ac",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you kiss {{playerName}}'s cheek in the middle of their story, what do they do?",
+  "tr": "{{playerName}} bir şey anlatırken yanağından öpsen ne yapar?",
+  "answers_en": [
+   "Keeps talking",
+   "Loses the sentence",
+   "Kisses you back, then continues"
+  ],
+  "answers_tr": [
+   "Anlatmaya devam eder",
+   "Cümleyi kaybeder",
+   "Seni öpüp devam eder"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "c335f3ae-66fd-42b6-b5d1-3150b68b6b04",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Where does {{playerName}} love a massage the most?",
+  "tr": "{{playerName}} en çok nereye masaj yapılmasını sever?",
+  "answers_en": [
+   "Shoulders",
+   "Back",
+   "Feet",
+   "Head"
+  ],
+  "answers_tr": [
+   "Omuzlarına",
+   "Sırtına",
+   "Ayaklarına",
+   "Başına"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "7c740bf2-6c29-4351-b1ea-1ac8b48d7e14",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What turns {{playerName}} on the most?",
+  "tr": "{{playerName}}'i en çok ne baştan çıkarır?",
+  "answers_en": [
+   "Confidence",
+   "Eye contact",
+   "A good smell",
+   "Being teased"
+  ],
+  "answers_tr": [
+   "Özgüven",
+   "Göz teması",
+   "Güzel bir koku",
+   "Tatlı tatlı kışkırtılmak"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "c510bd61-7901-4014-bccc-3bf4072ab104",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "In intimate moments, which sense matters most to {{playerName}}?",
+  "tr": "Yakınlık anlarında {{playerName}} için en önemli duyu hangisi?",
+  "answers_en": [
+   "Touch",
+   "Sight",
+   "Smell",
+   "Sound"
+  ],
+  "answers_tr": [
+   "Dokunma",
+   "Görme",
+   "Koku",
+   "İşitme"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "10524676-70b8-4a0c-9c65-8021824e5bc1",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} most like to be seduced?",
+  "tr": "{{playerName}} en çok nasıl baştan çıkarılmayı sever?",
+  "answers_en": [
+   "With words",
+   "With looks",
+   "With touch",
+   "With a surprise"
+  ],
+  "answers_tr": [
+   "Sözlerle",
+   "Bakışlarla",
+   "Dokunuşlarla",
+   "Bir sürprizle"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "47197335-c957-4d42-90c1-bd55aec65195",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What's the first thing {{playerName}} looks at on someone they find attractive?",
+  "tr": "{{playerName}} çekici bulduğu birinde ilk nereye bakar?",
+  "answers_en": [
+   "Eyes",
+   "Lips",
+   "Hands",
+   "Body"
+  ],
+  "answers_tr": [
+   "Gözlerine",
+   "Dudaklarına",
+   "Ellerine",
+   "Vücuduna"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "7fcfdb68-3ae8-4607-9be5-32b49375a3ac",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you send {{playerName}} a flirty photo in the middle of the day, what do they do?",
+  "tr": "Gün ortasında flörtöz bir fotoğraf atsan {{playerName}} ne yapar?",
+  "answers_en": [
+   "Sends one back",
+   "Calls you right away",
+   "\"Not now, I'm busy\"",
+   "Comes home early"
+  ],
+  "answers_tr": [
+   "Karşılık olarak o da atar",
+   "Hemen arar",
+   "\"Şu an olmaz\"",
+   "Eve erken gelir"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "720d3880-91f8-4dde-a17f-7da5e821ab00",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which accessory on someone does {{playerName}} find hottest?",
+  "tr": "{{playerName}} birinin üzerinde en çok hangi aksesuarı çekici bulur?",
+  "answers_en": [
+   "A watch",
+   "Glasses",
+   "A chain necklace",
+   "Rings"
+  ],
+  "answers_tr": [
+   "Saat",
+   "Gözlük",
+   "Zincir kolye",
+   "Yüzükler"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "4daea0de-71a4-40bc-82b1-c1a830c1e33f",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which style on someone does {{playerName}} find hottest?",
+  "tr": "{{playerName}} birinde en çok hangi tarzı çekici bulur?",
+  "answers_en": [
+   "Classy",
+   "Sporty",
+   "Streetwear",
+   "All black"
+  ],
+  "answers_tr": [
+   "Şık",
+   "Sportif",
+   "Sokak tarzı",
+   "Baştan aşağı siyah"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "9132974e-4bff-42a3-a774-e9046d4aa9f2",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What height does {{playerName}} find most attractive in a partner?",
+  "tr": "{{playerName}} partnerinde en çok hangi boyu çekici bulur?",
+  "answers_en": [
+   "Much taller than them",
+   "A bit taller",
+   "Same height",
+   "Shorter than them"
+  ],
+  "answers_tr": [
+   "Kendisinden çok uzun",
+   "Biraz uzun",
+   "Aynı boyda",
+   "Kendisinden kısa"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "8b3a4769-3529-4dd3-bf94-060c729a8477",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which eye color does {{playerName}} find most attractive?",
+  "tr": "{{playerName}} en çok hangi göz rengini çekici bulur?",
+  "answers_en": [
+   "Brown",
+   "Green",
+   "Blue",
+   "Hazel"
+  ],
+  "answers_tr": [
+   "Kahverengi",
+   "Yeşil",
+   "Mavi",
+   "Ela"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "6e6db5c0-711a-4280-9da7-49e01a6e940c",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which hair color does {{playerName}} find hottest?",
+  "tr": "{{playerName}} en çok hangi saç rengini çekici bulur?",
+  "answers_en": [
+   "Black",
+   "Brown",
+   "Blonde",
+   "Red"
+  ],
+  "answers_tr": [
+   "Siyah",
+   "Kahverengi",
+   "Sarı",
+   "Kızıl"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "401817cf-f61c-4724-9158-25592761bb11",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which kind of fragrance does {{playerName}} find sexiest on someone?",
+  "tr": "{{playerName}} birinde en çok hangi tür kokuyu çekici bulur?",
+  "answers_en": [
+   "Sweet",
+   "Fresh",
+   "Woody",
+   "Spicy"
+  ],
+  "answers_tr": [
+   "Tatlı",
+   "Ferah",
+   "Odunsu",
+   "Baharatlı"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "4dacabdc-99dd-4c78-9b92-52680146831d",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} feel about tattoos on a partner?",
+  "tr": "{{playerName}} partnerinde dövmeye nasıl bakar?",
+  "answers_en": [
+   "Loves them",
+   "One or two is nice",
+   "Not a fan",
+   "Doesn't care"
+  ],
+  "answers_tr": [
+   "Bayılır",
+   "Bir iki tane güzel",
+   "Pek sevmez",
+   "Fark etmez"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "f5dadc53-d883-4924-8ba8-2f509d410ebb",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What age gap does {{playerName}} find most attractive?",
+  "tr": "{{playerName}} en çok hangi yaş farkını çekici bulur?",
+  "answers_en": [
+   "Same age",
+   "A few years older",
+   "A few years younger",
+   "Much older"
+  ],
+  "answers_tr": [
+   "Yaşıt",
+   "Birkaç yaş büyük",
+   "Birkaç yaş küçük",
+   "Çok daha büyük"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "f1dc9061-fa47-478b-b1ec-eba6a3b6f5fa",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which job on someone does {{playerName}} find most attractive?",
+  "tr": "{{playerName}} en çok hangi meslekten birini çekici bulur?",
+  "answers_en": [
+   "Doctor",
+   "Pilot",
+   "Firefighter",
+   "Chef"
+  ],
+  "answers_tr": [
+   "Doktor",
+   "Pilot",
+   "İtfaiyeci",
+   "Aşçı"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "dd7a8cb2-3e0a-4167-b573-0feea5f6b4ee",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which piercing on someone does {{playerName}} find hottest?",
+  "tr": "{{playerName}} birinde en çok hangi piercingi çekici bulur?",
+  "answers_en": [
+   "Ear",
+   "Nose",
+   "Lip",
+   "None at all"
+  ],
+  "answers_tr": [
+   "Kulak",
+   "Burun",
+   "Dudak",
+   "Hiçbiri"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "2fd6a59e-72ba-4ff9-8feb-361bc39f3cb4",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which skill on someone does {{playerName}} find hottest?",
+  "tr": "{{playerName}} birinde en çok hangi yeteneği çekici bulur?",
+  "answers_en": [
+   "Playing guitar",
+   "Cooking well",
+   "Dancing well",
+   "Speaking another language"
+  ],
+  "answers_tr": [
+   "Gitar çalmak",
+   "İyi yemek yapmak",
+   "İyi dans etmek",
+   "Yabancı dil konuşmak"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "e5f4e852-e15d-471e-abc5-4c38cc69e9ec",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which little feature on someone does {{playerName}} find cutest?",
+  "tr": "{{playerName}} birinde en çok hangi küçük detayı tatlı bulur?",
+  "answers_en": [
+   "Freckles",
+   "Dimples",
+   "Long eyelashes",
+   "A gap in the teeth"
+  ],
+  "answers_tr": [
+   "Çiller",
+   "Gamzeler",
+   "Uzun kirpikler",
+   "Diş arası boşluk"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "1fcbc4d3-9d36-4780-8e17-806a5eff3369",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which body type does {{playerName}} find most attractive?",
+  "tr": "{{playerName}} en çok hangi vücut tipini çekici bulur?",
+  "answers_en": [
+   "Athletic",
+   "Slim",
+   "Muscular",
+   "Soft and cuddly"
+  ],
+  "answers_tr": [
+   "Atletik",
+   "İnce",
+   "Kaslı",
+   "Yumuşak ve sarılmalık"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "3d2b3db6-0219-4cf1-9d6d-4f31684ea5e8",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which ride would make someone more attractive to {{playerName}}?",
+  "tr": "Birinin hangi aracı {{playerName}}'in gözünde onu daha çekici yapar?",
+  "answers_en": [
+   "A classic car",
+   "A sports car",
+   "A motorcycle",
+   "Doesn't matter at all"
+  ],
+  "answers_tr": [
+   "Klasik bir araba",
+   "Spor bir araba",
+   "Motosiklet",
+   "Hiç fark etmez"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "7d10c4cc-934e-4c78-83dc-e7675b0c1ec0",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Which zodiac element does {{playerName}} find most attractive?",
+  "tr": "{{playerName}} en çok hangi burç grubundan birini çekici bulur?",
+  "answers_en": [
+   "Fire signs",
+   "Earth signs",
+   "Air signs",
+   "Water signs",
+   "Doesn't matter at all"
+  ],
+  "answers_tr": [
+   "Ateş burçları",
+   "Toprak burçları",
+   "Hava burçları",
+   "Su burçları",
+   "Hiç fark etmez"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "f454ad94-c43b-4a6b-9340-e41b1ded7a80",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What kind of social media presence does {{playerName}} find most attractive?",
+  "tr": "{{playerName}} birinde en çok nasıl bir sosyal medya varlığını çekici bulur?",
+  "answers_en": [
+   "Posts a lot",
+   "Private account",
+   "Barely posts",
+   "No social media at all"
+  ],
+  "answers_tr": [
+   "Sık paylaşım yapan",
+   "Gizli hesap",
+   "Neredeyse hiç paylaşmayan",
+   "Hiç sosyal medyası olmayan"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "dcd3d4f4-f480-4ff0-b69b-af1f8b10c105",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What kind of hands does {{playerName}} find most attractive?",
+  "tr": "{{playerName}} en çok nasıl elleri çekici bulur?",
+  "answers_en": [
+   "Big hands",
+   "Soft hands",
+   "Veiny hands",
+   "Long fingers",
+   "Never notices hands"
+  ],
+  "answers_tr": [
+   "Büyük eller",
+   "Yumuşak eller",
+   "Damarlı eller",
+   "Uzun parmaklar",
+   "Ellere hiç bakmaz"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "44fffff9-e2b0-4e15-b91b-0eb866a37114",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "What kind of humor on someone does {{playerName}} find most attractive?",
+  "tr": "{{playerName}} birinde en çok hangi mizah tarzını çekici bulur?",
+  "answers_en": [
+   "Sarcastic",
+   "Silly",
+   "Dry",
+   "Dark",
+   "Sweet and wholesome"
+  ],
+  "answers_tr": [
+   "İğneleyici",
+   "Saçma sapan",
+   "Kuru",
+   "Kara mizah",
+   "Tatlı ve masum"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "3f4de5c5-8d26-4746-af84-d4886575c2c3",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} feel about someone who's really into fitness?",
+  "tr": "{{playerName}} spora çok düşkün birine nasıl bakar?",
+  "answers_en": [
+   "Big turn-on",
+   "Nice, but not needed",
+   "A turn-off"
+  ],
+  "answers_tr": [
+   "Çok çekici bulur",
+   "Güzel ama şart değil",
+   "Hiç hoşlanmaz"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "97a9c1dd-266d-442a-b459-db1ac587aed5",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How tidy does someone need to be for {{playerName}} to find them attractive?",
+  "tr": "{{playerName}}'in birini çekici bulması için o kişi ne kadar düzenli olmalı?",
+  "answers_en": [
+   "Spotless",
+   "Reasonably tidy",
+   "Messy is fine"
+  ],
+  "answers_tr": [
+   "Tertemiz",
+   "Makul düzeyde düzenli",
+   "Dağınık da olur"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "c90f6f30-b874-47d1-b68b-7e77d055b747",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} feel about someone with a huge friend group?",
+  "tr": "{{playerName}} çok geniş bir arkadaş çevresi olan birine nasıl bakar?",
+  "answers_en": [
+   "Finds it attractive",
+   "Doesn't matter",
+   "Prefers a small circle"
+  ],
+  "answers_tr": [
+   "Çekici bulur",
+   "Fark etmez",
+   "Küçük bir çevreyi tercih eder"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "549ec369-ee49-4656-adf4-6465987bcc3d",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} feel about someone who's still friends with their ex?",
+  "tr": "{{playerName}} eski sevgilisiyle hâlâ arkadaş olan birine nasıl bakar?",
+  "answers_en": [
+   "Totally fine",
+   "Depends on the ex",
+   "Deal-breaker"
+  ],
+  "answers_tr": [
+   "Hiç sorun değil",
+   "Eski sevgiliye bağlı",
+   "Asla olmaz"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "cbd96d73-a197-449c-9bfa-e6646c6151f6",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} feel about someone who makes the first move?",
+  "tr": "{{playerName}} ilk adımı atan birine nasıl bakar?",
+  "answers_en": [
+   "Huge turn-on",
+   "Nice",
+   "Prefers to make it themselves"
+  ],
+  "answers_tr": [
+   "Çok çekici bulur",
+   "Hoşuna gider",
+   "İlk adımı kendisi atmayı sever"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "f55c2d09-b0cc-4a36-af77-1fa6cace237a",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} feel about sharing phone passwords with a partner?",
+  "tr": "{{playerName}} partneriyle telefon şifrelerini paylaşmaya nasıl bakar?",
+  "answers_en": [
+   "Loves the trust",
+   "Fine either way",
+   "Needs their privacy"
+  ],
+  "answers_tr": [
+   "Güven göstergesi olarak sever",
+   "İkisi de olur",
+   "Mahremiyetine düşkündür"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "f11bae34-c304-42a5-825d-b0680937d30a",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} feel about someone who texts all day long?",
+  "tr": "{{playerName}} gün boyu mesaj atan birine nasıl bakar?",
+  "answers_en": [
+   "Loves it",
+   "A few times a day is enough",
+   "Too clingy"
+  ],
+  "answers_tr": [
+   "Bayılır",
+   "Günde birkaç kez yeter",
+   "Fazla yapışkan bulur"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "30b5a4b1-c0ac-4d99-9f38-c00d848f5f4b",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} feel about a partner who wants to spend every free moment together?",
+  "tr": "{{playerName}} her boş anını birlikte geçirmek isteyen bir partnere nasıl bakar?",
+  "answers_en": [
+   "Loves it",
+   "Needs some alone time too",
+   "Too much"
+  ],
+  "answers_tr": [
+   "Bayılır",
+   "Biraz yalnız zaman da ister",
+   "Fazla bulur"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "3f92749d-64b0-4c89-9f3e-bf2cd0c77507",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} feel about someone who says \"I love you\" very early?",
+  "tr": "{{playerName}} çok erken \"seni seviyorum\" diyen birine nasıl bakar?",
+  "answers_en": [
+   "Finds it sweet",
+   "Too fast",
+   "A red flag"
+  ],
+  "answers_tr": [
+   "Tatlı bulur",
+   "Fazla hızlı bulur",
+   "Tehlike işareti görür"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "e730a2da-4ace-47c7-b3c3-4f59f76edfd0",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} feel about someone who goes out partying every weekend?",
+  "tr": "{{playerName}} her hafta sonu partiye giden birine nasıl bakar?",
+  "answers_en": [
+   "Fun, wants to join",
+   "Fine once in a while",
+   "Not their type",
+   "Deal-breaker"
+  ],
+  "answers_tr": [
+   "Eğlenceli, o da katılır",
+   "Arada bir olur",
+   "Ona göre değil",
+   "Asla olmaz"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "8e724ce7-d131-4821-903b-70bc0cf1b935",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} feel about a long-distance relationship?",
+  "tr": "{{playerName}} uzak mesafe ilişkisine nasıl bakar?",
+  "answers_en": [
+   "Could totally do it",
+   "Only for a short while",
+   "Never"
+  ],
+  "answers_tr": [
+   "Rahatlıkla yürütür",
+   "Sadece kısa bir süre",
+   "Asla"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "b7b57f9f-d72e-4537-9146-ca94491221c1",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} feel about long hugs?",
+  "tr": "{{playerName}} uzun sarılmalara nasıl bakar?",
+  "answers_en": [
+   "The longer the better",
+   "A few seconds is enough",
+   "Not much of a hugger"
+  ],
+  "answers_tr": [
+   "Ne kadar uzun o kadar iyi",
+   "Birkaç saniye yeter",
+   "Pek sarılmayı sevmez"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "75e4151b-0b3a-442d-870f-36fce120c053",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} feel about falling asleep on a video call?",
+  "tr": "{{playerName}} görüntülü konuşmada uyuyakalmaya nasıl bakar?",
+  "answers_en": [
+   "Loves it",
+   "Only when you're apart",
+   "Finds it weird"
+  ],
+  "answers_tr": [
+   "Bayılır",
+   "Sadece ayrıyken",
+   "Garip bulur"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "ad6c46b6-c615-4dca-a1d2-b9a95e92638c",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} feel about celebrating monthly anniversaries?",
+  "tr": "{{playerName}} aylık yıldönümü kutlamaya nasıl bakar?",
+  "answers_en": [
+   "Celebrates every month",
+   "Only once a year",
+   "Doesn't keep track of dates"
+  ],
+  "answers_tr": [
+   "Her ay kutlar",
+   "Sadece yılda bir",
+   "Tarihleri takip etmez"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "7d3785ce-afa5-43e8-b150-57d16a20c299",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "Which song does {{playerName}} think of as \"your song\"?",
+  "tr": "{{playerName}} hangi şarkıyı \"sizin şarkınız\" olarak görür?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "efd278ae-b799-4742-915c-89349777f4bf",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} like to hold hands?",
+  "tr": "{{playerName}} el ele tutuşurken nasıl tutmayı sever?",
+  "answers_en": [
+   "Fingers interlaced",
+   "Palm to palm",
+   "Just the pinkies",
+   "Hand in your back pocket"
+  ],
+  "answers_tr": [
+   "Parmaklar iç içe",
+   "Avuç avuca",
+   "Sadece serçe parmaklar",
+   "Arka cebine el atarak"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "7d25b7f5-1dc6-43d6-af4b-e31f6e0a738c",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} feel about sharing food from the same plate?",
+  "tr": "{{playerName}} aynı tabaktan yemek paylaşmaya nasıl bakar?",
+  "answers_en": [
+   "Loves it",
+   "Only dessert",
+   "Their plate is theirs"
+  ],
+  "answers_tr": [
+   "Bayılır",
+   "Sadece tatlıda",
+   "Herkesin tabağı kendine"
+  ],
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "ee007826-9eef-4d45-8c67-98923cf0b413",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite date spot in your city?",
+  "tr": "{{playerName}}'in şehrinizdeki en sevdiği buluşma yeri neresi?",
+  "category": "know_me_well_intimacy"
+ },
+ {
+  "id": "9587900b-e8e3-414d-9ef0-199ab00dac18",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How does {{playerName}} feel about saying goodnight before bed, even when you're apart?",
+  "tr": "{{playerName}} ayrıyken bile yatmadan önce iyi geceler demeye nasıl bakar?",
+  "answers_en": [
+   "Never skips it",
+   "Most nights",
+   "Not a big deal"
+  ],
+  "answers_tr": [
+   "Asla atlamaz",
+   "Çoğu gece",
+   "Çok önemsemez"
+  ],
+  "category": "know_me_well_intimacy"
+ }
+]

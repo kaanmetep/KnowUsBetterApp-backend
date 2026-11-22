@@ -1,0 +1,70 @@
+{
+  "0da22e32-fa22-493b-bc7f-f4b3a1ae901b": {
+    "en": "Where do you see yourselves living in 5 years?",
+    "text": "Waar zie je jullie over 5 jaar wonen?",
+    "answers": [
+      "Precies waar we nu wonen",
+      "In een grotere stad",
+      "Ergens rustig, dicht bij de natuur",
+      "In een ander land"
+    ]
+  },
+  "094980c9-ac72-48cd-8fec-ded5e8c859f2": {
+    "en": "How do you feel about having kids?",
+    "text": "Hoe denk je over kinderen krijgen?",
+    "answers": [
+      "Zeker, en liefst snel",
+      "Ja, maar nog niet",
+      "Weet ik nog niet",
+      "Niks voor mij"
+    ]
+  },
+  "9dd0cb25-5e52-4bbd-8b84-0845b7a42506": {
+    "en": "What matters most for your future together?",
+    "text": "Wat is het belangrijkst voor jullie toekomst samen?",
+    "answers": [
+      "Stabiliteit en zekerheid",
+      "Avontuur en nieuwe ervaringen",
+      "Een gezin stichten",
+      "Dat we allebei groeien"
+    ]
+  },
+  "0bcc27d3-1ef3-44af-a395-189f4c9bd2c7": {
+    "en": "You get a dream job offer in another city. You…",
+    "text": "Je krijgt je droombaan aangeboden in een andere stad. Wat doe je?",
+    "answers": [
+      "Alleen aannemen als we samen verhuizen",
+      "Een tijdje een relatie op afstand proberen",
+      "Afslaan, voor onze relatie",
+      "Aannemen, we komen er wel uit"
+    ]
+  },
+  "8ef516ca-6075-4b91-baa4-ddf344730612": {
+    "en": "How do you prefer to plan the future?",
+    "text": "Hoe plan je de toekomst het liefst?",
+    "answers": [
+      "Gedetailleerd, jaren vooruit",
+      "Een globale richting",
+      "Stap voor stap",
+      "Laat het leven ons verrassen"
+    ]
+  },
+  "afb504c6-4c43-4b52-ac1f-3313b26b9e24": {
+    "en": "How sure are you that you two want the same future?",
+    "text": "Hoe zeker ben je dat jullie dezelfde toekomst willen?",
+    "answers": [
+      "Helemaal zeker",
+      "Grotendeels, met een paar open vragen",
+      "We hebben het er nooit echt over gehad",
+      "Helemaal niet zeker"
+    ]
+  },
+  "983f732f-f006-4caf-acec-f1b565922810": {
+    "en": "In one sentence: where are the two of you in five years?",
+    "text": "In één zin: waar staan jullie over vijf jaar?"
+  },
+  "9a479602-d540-4c0d-818d-eca22f12ae13": {
+    "en": "What's one thing about the future you've been hesitant to bring up?",
+    "text": "Welk onderwerp over de toekomst durf je nog niet goed aan te snijden?"
+  }
+}

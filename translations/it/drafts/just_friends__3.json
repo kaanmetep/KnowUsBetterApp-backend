@@ -1,0 +1,740 @@
+{
+ "5738b45b-1858-43f3-826e-11ef8d263b66": {
+  "text": "Se un caro amico si ferma a dormire da te, dove dorme?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "240d4c3b-09f9-424b-8508-8f2413892f20": {
+  "text": "Quando devi dire di no a un amico, come fai?",
+  "answers": [
+   "Lo dico chiaro",
+   "Invento una scusa",
+   "Prendo tempo",
+   "Non dico mai di no"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ed007dff-5f12-45f1-913a-814207c21337": {
+  "text": "Dov'è il tuo telefono quando esci con gli amici?",
+  "answers": [
+   "Sul tavolo",
+   "Con lo schermo in giù",
+   "In borsa",
+   "In mano"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "472843d1-c68f-4443-8e98-1c7ebfff08f1": {
+  "text": "Quando un amico si sfoga, tu cosa fai?",
+  "answers": [
+   "Cerco di risolvere",
+   "Ascolto e basta",
+   "Lo faccio ridere",
+   "Racconto la mia esperienza"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9626e6ef-559e-4903-a872-8098df7019aa": {
+  "text": "Un amico disdice all'ultimo. Cosa fai?",
+  "answers": [
+   "Dico che non fa niente",
+   "Gli dico che mi ha dato fastidio",
+   "Fisso subito un'altra data",
+   "Per un po' non lo invito più"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d7063b2a-a2b9-4e31-b9d5-ea73d3fc1b48": {
+  "text": "Come ti piace uscire con gli amici?",
+  "answers": [
+   "A tu per tu",
+   "In un piccolo gruppo",
+   "Con tutta la compagnia",
+   "Con chi è libero"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b3285428-6a7b-494a-a8ce-607db3eff19a": {
+  "text": "Un amico è in ritardo di 20 minuti e tu sei già lì. Cosa fai?",
+  "answers": [
+   "Aspetto",
+   "Gli scrivo",
+   "Ordino senza aspettarlo",
+   "Me ne vado"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6e92199a-a131-4c52-8fcb-db5cdd54cb8b": {
+  "text": "Un amico ti chiama all'una di notte. Cosa fai?",
+  "answers": [
+   "Rispondo",
+   "Scrivo «domani»",
+   "Lo lascio squillare",
+   "Richiamo più tardi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ca4a3d3a-b6cd-42c6-acea-f2ddaffcee41": {
+  "text": "Quando un amico inizia a prenderti in giro, cosa fai?",
+  "answers": [
+   "Rispondo a tono",
+   "Ci rido su",
+   "Non dico più niente",
+   "Gli dico di smetterla"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0b00eec2-7db8-49f6-9a33-2e91bfdafed9": {
+  "text": "Un amico ti ha preso in prestito qualcosa e non te l'ha ancora ridato. Cosa fai?",
+  "answers": [
+   "Glielo ricordo",
+   "Lascio perdere",
+   "Non gli presto più niente",
+   "Ci scherzo su finché non se ne ricorda"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3866d609-64de-4f95-9a99-d3b5aca59d4d": {
+  "text": "Di solito come te ne vai quando esci con gli amici?",
+  "answers": [
+   "Saluto e vado",
+   "Sparisco senza farmi notare",
+   "Chiudo sempre io la serata",
+   "Aspetto qualcuno con cui andare via"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fc886a8f-d247-4df7-9911-70df16293d14": {
+  "text": "Un amico pubblica una tua foto orribile senza chiedertelo. Cosa fai?",
+  "answers": [
+   "Gli chiedo di toglierla",
+   "Ci rido su",
+   "Ne pubblico una sua ancora peggio",
+   "Metto in muto i suoi post per un po'"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cf30ac84-0e23-499b-84f0-194255049b2e": {
+  "text": "Due amici del tuo gruppo litigano. Cosa fai?",
+  "answers": [
+   "Non mi immischio",
+   "Provo a mediare",
+   "Sto con chi secondo me ha ragione",
+   "Parlo con ciascuno a parte"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a6aca301-d610-4229-8289-b89bedc32e1e": {
+  "text": "Di solito come organizzi un'uscita con gli amici?",
+  "answers": [
+   "Il primo messaggio lo mando io",
+   "Aspetto che inizi qualcun altro",
+   "Propongo finché qualcosa va in porto",
+   "Mi aggrego dove vanno loro"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "79b31e12-db1a-4595-a37d-d8bf3a5d4ab1": {
+  "text": "Un amico ha palesemente torto in una discussione. Cosa fai?",
+  "answers": [
+   "Lo correggo subito",
+   "Lascio perdere",
+   "Gliene parlo dopo, in disparte",
+   "Annuisco, ma dentro non sono d'accordo"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "43b8538b-f20e-4106-86db-2fb4ae991e8d": {
+  "text": "Un caro amico non si fa sentire per qualche settimana. Cosa fai?",
+  "answers": [
+   "Gli scrivo una volta",
+   "Continuo a cercarlo",
+   "Gli lascio i suoi spazi",
+   "Chiedo agli amici in comune cosa succede"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cf10e8ca-f5f7-4fd3-ade3-8d3dd80864a1": {
+  "text": "Un amico ti chiede un parere sincero su un taglio di capelli disastroso. Cosa fai?",
+  "answers": [
+   "Dico la verità",
+   "Trovo un lato positivo",
+   "Cambio argomento"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5f50e363-7d88-40da-9fc3-20a70c1c98bc": {
+  "text": "Un caro amico ti chiede di stare da te per una settimana. Cosa rispondi?",
+  "answers": [
+   "Resta quanto ti serve",
+   "Qualche giorno, poi ne parliamo",
+   "Questa settimana no, ma ti aiuto in un altro modo"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "96a10636-c640-4c8e-b29c-8d5ea35a2325": {
+  "text": "Un amico che ormai senti poco ti chiede un grosso favore. Cosa fai?",
+  "answers": [
+   "Aiuto come ai vecchi tempi",
+   "Aiuto, ma senza esagerare",
+   "Ammetto che tra noi non c'è più quel legame"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8fbe5c15-1c5f-4d62-bb1c-8c87bd5e68e9": {
+  "text": "Due gruppi di amici ti invitano la stessa sera. Cosa fai?",
+  "answers": [
+   "Vado da chi me l'ha chiesto prima",
+   "Vado da chi mi mancherebbe di più",
+   "Provo a passare da entrambi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "da359ad8-f794-47c9-a71f-de550fd3df0c": {
+  "text": "Un caro amico ti chiede in prestito un bel po' di soldi. Cosa fai?",
+  "answers": [
+   "Glieli presto, se posso",
+   "Solo con un piano chiaro per restituirli",
+   "Non presto soldi agli amici"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d6c8e97e-b3ba-44d7-b105-c1b6b2a57587": {
+  "text": "Un tuo amico esce con una persona che proprio non sopporti. Cosa fai?",
+  "answers": [
+   "Glielo dico subito",
+   "Aspetto che me lo chieda",
+   "Taccio e gli sto vicino"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0d743c77-1a58-418b-8117-3263ce8f4009": {
+  "text": "Un amico ti invita in un posto caro che non puoi permetterti. Cosa fai?",
+  "answers": [
+   "Dico che non me lo posso permettere",
+   "Propongo qualcosa di più economico",
+   "Ci vado e sforo il budget"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "02bb14d7-0d08-400e-9917-9aec53c8b7c8": {
+  "text": "Senti per caso un amico che sparla un po' di te. Cosa fai?",
+  "answers": [
+   "Lo affronto",
+   "Prendo un po' le distanze",
+   "Per stavolta lascio correre"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "660a531c-8d5e-44d7-b117-483aafb66d83": {
+  "text": "A una festa, un amico con un bicchiere di troppo sta per scrivere all'ex. Cosa fai?",
+  "answers": [
+   "Gli prendo il telefono",
+   "Lo lascio fare"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6ae65593-620a-47a3-bd16-3cfdba20307b": {
+  "text": "A cena arriva il conto e il tuo amico ha di nuovo «dimenticato» il portafoglio. Cosa fai?",
+  "answers": [
+   "Pago io e lascio perdere",
+   "Pago io, ma poi gliene parlo"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b2f40f63-d542-449f-b8d9-7251868fe21c": {
+  "text": "In taxi, il tuo amico inizia a litigare con l'autista. Cosa fai?",
+  "answers": [
+   "Intervengo e calmo le acque",
+   "Taccio e spero che finisca presto"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": "Uber localized to 'taxi' (Uber is rarely used in Italy)."
+ },
+ "2fca8524-3f16-4523-b057-17699983cc36": {
+  "text": "Il tuo amico inizia a raccontare una storia imbarazzante su di te a gente appena conosciuta. Cosa fai?",
+  "answers": [
+   "Lo interrompo",
+   "Lo lascio finire"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1dc43db7-154f-4a47-9397-f3ec7f508978": {
+  "text": "Un amico ti confida un segreto e ti dice: «Non dirlo nemmeno al tuo amore». Cosa fai?",
+  "answers": [
+   "Lo tengo per me e basta",
+   "Lo dico comunque al mio amore",
+   "Lo tengo per me, a meno che non sia grave"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f1a66bde-c82e-4903-9965-90c3fa82d1b0": {
+  "text": "Tu e un caro amico avete fatto domanda per lo stesso lavoro, e il posto va a lui. Cosa fai?",
+  "answers": [
+   "Festeggio con lui, di cuore",
+   "Mi congratulo, ma dentro brucia",
+   "Mi serve un po' di distanza"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e4d8aa34-b71c-4d2c-babe-8ef1e1d37350": {
+  "text": "Un amico si presenta alla tua porta senza avvisare. Cosa fai?",
+  "answers": [
+   "Lo faccio entrare volentieri",
+   "Lo faccio entrare, ma un po' mi scoccia",
+   "Fingo di non essere in casa",
+   "Lo faccio entrare, ma gli dico di avvisare la prossima volta"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5587411e-e5d6-4c3b-b709-925a48828ccd": {
+  "text": "Un amico ti chiede di reggergli il gioco con la persona con cui sta. Cosa fai?",
+  "answers": [
+   "Lo copro, senza fare domande",
+   "Solo se so cosa sta succedendo",
+   "Dico di no, non voglio entrarci",
+   "Accetto, ma gli dico che è l'ultima volta"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2ceb502c-1cb0-4d19-b751-39c067c789a3": {
+  "text": "Un caro amico si è dimenticato del tuo compleanno. Cosa fai?",
+  "answers": [
+   "Non me ne importa niente",
+   "Ci resto male, ma non dico niente",
+   "Glielo faccio notare scherzando",
+   "Gli dico che mi ha fatto davvero male"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "90a8ef25-80da-4dce-a879-4c4de8f1272a": {
+  "text": "Di solito come dimostri a un amico che ci tieni?",
+  "answers": [
+   "Passando del tempo insieme",
+   "Con piccoli regali e sorprese",
+   "Gasandolo e riempiendolo di complimenti",
+   "Aiutandolo quando serve",
+   "Scrivendogli all'improvviso per sapere come sta"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5ea9ba87-e9a5-45bd-b147-03e94f0d2eee": {
+  "text": "Rispetto a una rottura sentimentale, perdere un caro amico fa male...",
+  "answers": [
+   "Di più",
+   "Di meno",
+   "Più o meno uguale"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "81c3e73b-6f4a-401f-be7c-7322f3c88d97": {
+  "text": "Quanto spesso dovrebbero sentirsi due amici stretti?",
+  "answers": [
+   "Ogni giorno",
+   "Qualche volta a settimana",
+   "Una volta a settimana, più o meno",
+   "Quando capita, non ci sono regole"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bf330507-367e-4d2b-a74c-51bbacecc0de": {
+  "text": "Un'amicizia nata solo online può essere davvero profonda?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ad99c683-1579-4b76-ac84-bbe48ccc1529": {
+  "text": "Quanto spenderesti al massimo per il regalo di compleanno di un caro amico?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fe5a5b25-7f16-4855-b749-d4e8e9cc1d5f": {
+  "text": "Stringere nuove amicizie profonde in età adulta è...",
+  "answers": [
+   "Facile, se ti metti in gioco",
+   "Difficile, ma possibile",
+   "Quasi impossibile"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8c65c713-6463-475a-bf56-9ec5381e9302": {
+  "text": "Con un collega può nascere una delle tue amicizie più strette?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "beb7f795-5c55-41bd-98fc-a459db151882": {
+  "text": "Da quanto tempo devi conoscere qualcuno per chiamarlo «amico stretto»?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fb50cd2d-2221-4e5f-b6eb-1a37644fda56": {
+  "text": "Un tuo caro amico si mette con tuo fratello o tua sorella. Come ti senti?",
+  "answers": [
+   "Sono felice per loro",
+   "Strano, ma mi ci abituerei",
+   "Non mi va bene per niente"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "68663bf0-f74e-4eb2-9375-794c0160fd51": {
+  "text": "Stare con un amico in totale silenzio, ognuno per conto suo...",
+  "answers": [
+   "È vera complicità",
+   "Ogni tanto ci sta",
+   "Mi mette a disagio"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fb1756d1-62b7-4393-9307-53cd0f287376": {
+  "text": "Quando hai una grande notizia, chi la sa per primo?",
+  "answers": [
+   "Il mio amore",
+   "Il mio migliore amico",
+   "La mia famiglia",
+   "Tutti insieme, nella chat di gruppo"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c1fa53a1-cf09-4356-a17d-4b3af5c3a9f7": {
+  "text": "Quale abitudine di un amico ti fa impazzire?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "570b53e3-9da8-412a-88f9-c3df5793d601": {
+  "text": "Apriresti un'attività con un caro amico?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c72dd7bf-86a8-4621-b2f2-ed918e7319c3": {
+  "text": "Un amico inizia a portare la sua nuova fiamma a ogni uscita. Cosa fai?",
+  "answers": [
+   "Mi piace, più siamo meglio è",
+   "Va bene, ma mi mancano i nostri momenti a tu per tu",
+   "Chiedo un po' di tempo solo tra amici",
+   "Comincio a farmi vedere meno"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "637c640b-fdb6-4280-9bb5-d10092e0490f": {
+  "text": "Condividere gli account di streaming con gli amici...",
+  "answers": [
+   "È normalissimo",
+   "Solo con i più stretti",
+   "Mai"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "11e1d92e-1142-4d19-b8eb-9e85b241a9c9": {
+  "text": "La competizione tra amici stretti...",
+  "answers": [
+   "È uno stimolo",
+   "Rovina piano piano l'amicizia"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "04beefdc-5d0a-47a0-8476-209397119731": {
+  "text": "Un amico ti chiede di presentargli qualcuno. Cosa fai?",
+  "answers": [
+   "Adoro fare da Cupido",
+   "Solo se conosco la persona giusta",
+   "Non mi immischio, è troppo rischioso"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d97011a0-577f-437e-b2f7-34d6e3f16ec7": {
+  "text": "Un amico è a casa malato e da solo. Cosa fai?",
+  "answers": [
+   "Mi presento con brodo e medicine",
+   "Gli faccio arrivare del cibo a domicilio",
+   "Gli scrivo per sapere come sta",
+   "Aspetto che mi chieda aiuto"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "49f2c5bd-906c-4677-938d-2634f11f2c0e": {
+  "text": "Quanti amici inviteresti al tuo compleanno?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "80b1847b-4029-4376-b594-cf2439e45e3c": {
+  "text": "Un amico inizia a copiare il tuo stile e i tuoi hobby. Come ti senti?",
+  "answers": [
+   "Mi fa piacere",
+   "Non mi importa più di tanto",
+   "Mi dà un po' fastidio",
+   "Glielo farei notare"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9d61613c-1992-45d8-bef1-37f07f995e66": {
+  "text": "Un amico ti ha fatto un regalo molto più costoso del tuo. Cosa fai?",
+  "answers": [
+   "Niente, non è una gara",
+   "Mi sento in imbarazzo",
+   "Rimedio la prossima volta"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "826c30c4-7dae-497a-be3b-a89531829cef": {
+  "text": "Presteresti a un amico il tuo capo d'abbigliamento preferito?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c17f6d8c-88be-4516-b333-5e7b45e4997f": {
+  "text": "Il tuo migliore amico ti chiede aiuto per organizzare il matrimonio. Cosa fai?",
+  "answers": [
+   "Mi butto a capofitto",
+   "Aiuto, ma entro certi limiti",
+   "Mi presento solo il grande giorno"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bea820e2-cce1-49fc-aa07-4ab99ead86c4": {
+  "text": "Quante ore di viaggio faresti per il compleanno di un caro amico?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "45cf28ad-01d6-458f-b371-d10cb5d628b3": {
+  "text": "Un amico deve andare in aeroporto alle 5 del mattino. Cosa fai?",
+  "answers": [
+   "Lo accompagno, nessun problema",
+   "Lo accompagno, ma brontolo tutto il tempo",
+   "Gli pago il taxi",
+   "Gli dico che non posso"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cee7b4d0-8a85-42ae-9d36-e805461c3601": {
+  "text": "Condividi la posizione in tempo reale con gli amici più stretti?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1261e2f8-c857-4478-8e71-e0a25b6dac19": {
+  "text": "Un amico che ti dice sempre la verità, anche quando fa male...",
+  "answers": [
+   "È il miglior tipo di amico",
+   "Dopo un po' stanca"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6cb7ef7c-1478-4456-b1cf-d26358f74de0": {
+  "text": "Le amicizie con una grande differenza d'età (più di 10 anni)...",
+  "answers": [
+   "Funzionano benissimo",
+   "Funzionano, ma sono diverse",
+   "È difficile trovare davvero sintonia"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9fea2ef2-07b0-4d41-b852-f5bf24dd2b6f": {
+  "text": "In una vacanza di gruppo, un amico vuole spendere molto più di tutti. Cosa fai?",
+  "answers": [
+   "Mi adeguo",
+   "Per i piani costosi ci dividiamo",
+   "Fisso un budget di gruppo fin dall'inizio",
+   "Gli dico chiaro che è troppo"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e442ad82-0026-4be1-a02d-5cf52c6db6b3": {
+  "text": "Quando un amico ti ferisce, glielo dici invece di allontanarti in silenzio?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a568c592-7960-40ea-b5e7-f8fcff9f1109": {
+  "text": "Un amico ti chiede di badare al suo animale per una settimana. Cosa fai?",
+  "answers": [
+   "Volentieri, adoro gli animali",
+   "Dipende dall'animale",
+   "Sì, ma solo a casa sua",
+   "Dico di no"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f7975688-29c1-4bff-9678-56257d052a89": {
+  "text": "Un caro amico diventa famoso all'improvviso. Cosa cambia per te?",
+  "answers": [
+   "Niente, per me resta lo stesso",
+   "Me ne vanterei con tutti",
+   "D'istinto prenderei un po' le distanze",
+   "Avrei paura che cambi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "53f44073-13ad-4340-b3dc-428d01768d73": {
+  "text": "Un amico inizia a vendere roba e continua a proporla anche a te. Cosa fai?",
+  "answers": [
+   "Compro una volta per sostenerlo",
+   "Dico gentilmente di no ogni volta",
+   "Gli dico che sta diventando pesante",
+   "Lo metto in muto"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "392563c7-8455-4b18-a840-2569bad40fb3": {
+  "text": "Dopo un litigio con un caro amico, chi si fa sentire per primo?",
+  "answers": [
+   "Sempre io",
+   "Chi aveva torto",
+   "Nessuno, facciamo finta di niente",
+   "Nessuno, di solito finisce lì"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "580d620b-1ff6-4662-b9e7-783a83b482ab": {
+  "text": "Postare foto con i tuoi amici sui social...",
+  "answers": [
+   "Dimostra che ci tieni",
+   "Non serve per niente"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c01dd781-f740-41b0-a72c-d6706d48e8ff": {
+  "text": "Potresti stringere amicizia con l'ex del tuo amore?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0dca06e6-2ca7-47d9-baad-475f804027d3": {
+  "text": "Qual è il numero ideale di persone per una vacanza tra amici?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

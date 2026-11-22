@@ -1,0 +1,138 @@
+[
+ {
+  "id": "f6a2734f-3505-4f4a-9316-0bbe08fdc1f4",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What makes you feel most loved?",
+  "tr": "Seni en çok ne sevildiğini hissettirir?",
+  "answers_en": [
+   "Hearing it said out loud",
+   "Undivided time together",
+   "Them making my life easier",
+   "Physical touch",
+   "A thoughtful surprise"
+  ],
+  "answers_tr": [
+   "Bunu açıkça duymak",
+   "Bölünmeden birlikte geçen zaman",
+   "Hayatımı kolaylaştırması",
+   "Fiziksel temas",
+   "Düşünülmüş bir sürpriz"
+  ]
+ },
+ {
+  "id": "133e06f4-dacb-4900-9789-001a5b70e6b0",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How do you most naturally show love?",
+  "tr": "Sevgini en doğal hâlinle nasıl gösterirsin?",
+  "answers_en": [
+   "By saying it",
+   "By making time",
+   "By doing things for them",
+   "Through touch",
+   "With small surprises"
+  ],
+  "answers_tr": [
+   "Söyleyerek",
+   "Vakit ayırarak",
+   "Onun için bir şeyler yaparak",
+   "Dokunarak",
+   "Küçük sürprizlerle"
+  ]
+ },
+ {
+  "id": "e4d36f8a-1611-4d47-8524-7fa4e276d576",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What makes you feel unloved the fastest?",
+  "tr": "Seni en hızlı ne sevilmediğini hissettirir?",
+  "answers_en": [
+   "Days without a kind word",
+   "Them on their phone when we're together",
+   "Being left to handle everything",
+   "No affection for a while",
+   "My effort going unnoticed"
+  ],
+  "answers_tr": [
+   "Günlerce tek bir güzel söz duymamak",
+   "Birlikteyken onun telefonda olması",
+   "Her şeyle tek başıma uğraşmak",
+   "Bir süre hiç sevgi gösterilmemesi",
+   "Emeğimin fark edilmemesi"
+  ]
+ },
+ {
+  "id": "3bab62fd-1bc7-4eca-8947-a5d212b2d5f2",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "When you're stressed, what do you want from your partner?",
+  "tr": "Stresliyken partnerinden ne istersin?",
+  "answers_en": [
+   "Talk it through with me",
+   "Just be next to me",
+   "Take something off my plate",
+   "Hold me",
+   "Give me space"
+  ],
+  "answers_tr": [
+   "Benimle konuşsun",
+   "Sadece yanımda olsun",
+   "Bir işimi üstlensin",
+   "Bana sarılsın",
+   "Bana alan tanısın"
+  ]
+ },
+ {
+  "id": "0d6c4a65-26ce-4b3d-a4a9-bc4d2ca492db",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How much physical affection do you want on a normal day?",
+  "tr": "Sıradan bir günde ne kadar fiziksel yakınlık istersin?",
+  "answers_en": [
+   "A lot, all the time",
+   "Several moments a day",
+   "A little is enough",
+   "I'm not very physical"
+  ],
+  "answers_tr": [
+   "Çok, sürekli",
+   "Gün içinde birkaç kez",
+   "Biraz yeterli",
+   "Pek fiziksel biri değilim"
+  ]
+ },
+ {
+  "id": "f8892d3c-58cc-4820-bbdc-cd6f7d7f87e9",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How often do you feel your love goes unnoticed?",
+  "tr": "Gösterdiğin sevginin ne sıklıkla fark edilmediğini hissediyorsun?",
+  "answers_en": [
+   "Almost never",
+   "Sometimes",
+   "Often",
+   "Most of the time"
+  ],
+  "answers_tr": [
+   "Neredeyse hiç",
+   "Bazen",
+   "Sık sık",
+   "Çoğu zaman"
+  ]
+ },
+ {
+  "id": "be0526e5-ba2f-4129-a55a-0238be57b8da",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "Describe the last moment you felt truly loved by your partner.",
+  "tr": "Partnerin tarafından gerçekten sevildiğini hissettiğin son anı anlat."
+ },
+ {
+  "id": "190ea05e-76db-489f-a50d-c3473f48f2e7",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What do you do to show love that you think your partner doesn't notice?",
+  "tr": "Sevgini göstermek için yaptığın ama partnerinin fark etmediğini düşündüğün şey ne?"
+ }
+]

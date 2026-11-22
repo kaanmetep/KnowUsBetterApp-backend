@@ -1,0 +1,70 @@
+{
+  "7daf8ce4-e900-49bd-a99c-2bd3b2dc6623": {
+    "en": "How fairly do you feel chores are split between you?",
+    "text": "Czy twoim zdaniem sprawiedliwie dzielicie się obowiązkami domowymi?",
+    "answers": [
+      "Całkowicie sprawiedliwie",
+      "Raczej sprawiedliwie",
+      "Robię więcej niż druga połówka",
+      "Druga połówka robi więcej niż ja"
+    ]
+  },
+  "37e7075f-f8c0-4a6f-8bb1-15d4f63b79b8": {
+    "en": "How much time alone do you need in a normal week?",
+    "text": "Ile czasu tylko dla siebie potrzebujesz w zwykłym tygodniu?",
+    "answers": [
+      "Prawie wcale",
+      "Godzinę lub dwie",
+      "Wieczór albo więcej",
+      "Dużo, choć nie zawsze o tym mówię"
+    ]
+  },
+  "2ec6384d-4e70-49a8-b8b4-60fc79668a5a": {
+    "en": "Your ideal weekday evening together?",
+    "text": "Idealny wspólny wieczór w tygodniu?",
+    "answers": [
+      "Razem gotujemy i jemy",
+      "Oglądamy coś na kanapie",
+      "Wychodzimy gdzieś na miasto",
+      "Obok siebie, ale przy swoich sprawach"
+    ]
+  },
+  "c3bfa96a-4683-46d7-a472-9844feb722ce": {
+    "en": "How do you feel about phones when you're together?",
+    "text": "Co myślisz o telefonach, gdy jesteście razem?",
+    "answers": [
+      "U nas to nie problem",
+      "Czasem mi to przeszkadza",
+      "Bardzo mi to przeszkadza",
+      "Chyba to ja częściej siedzę w telefonie"
+    ]
+  },
+  "ec39df53-45de-401b-83c5-c71fdc6a7b5c": {
+    "en": "Weekends should be…",
+    "text": "Weekendy powinny być…",
+    "answers": [
+      "Zaplanowane i pełne",
+      "Jeden plan, reszta na luzie",
+      "Zupełnie bez planu",
+      "Głównie do odpoczynku w domu"
+    ]
+  },
+  "da536f27-fd8e-4b15-9bb2-fff1ab7cc79d": {
+    "en": "How tidy should home be?",
+    "text": "Jak czysto powinno być w domu?",
+    "answers": [
+      "Na błysk",
+      "W miarę",
+      "Lekki nieład jest przytulny",
+      "Nie zauważam bałaganu"
+    ]
+  },
+  "973523ee-da46-453e-8012-d7d01eb59fab": {
+    "en": "What part of your everyday life together do you love most?",
+    "text": "Co najbardziej kochasz w waszej wspólnej codzienności?"
+  },
+  "455eea81-69be-46f9-a81e-7299fb4c5f1e": {
+    "en": "What small daily thing would you change about how you live together?",
+    "text": "Jaką drobną rzecz w waszej wspólnej codzienności chcesz zmienić?"
+  }
+}

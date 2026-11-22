@@ -1,0 +1,128 @@
+[
+ {
+  "id": "df0f185f-6d69-4ba4-9994-5996b2f0bf68",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Looking at your partner's phone is…",
+  "tr": "Partnerinin telefonuna bakmak…",
+  "answers_en": [
+   "Never okay, it's private",
+   "Fine with permission",
+   "Fine, we have nothing to hide",
+   "Something I've done without asking"
+  ],
+  "answers_tr": [
+   "Asla olmaz, özeldir",
+   "İzinle olur",
+   "Olur, saklayacak bir şeyimiz yok",
+   "Sormadan yaptığım bir şey"
+  ]
+ },
+ {
+  "id": "dd3aaedc-07ee-412b-bb83-7c23dbb377c1",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Someone gives your partner a lot of attention. You…",
+  "tr": "Biri partnerine çok ilgi gösteriyor. Sen…",
+  "answers_en": [
+   "Don't mind at all",
+   "Feel a small sting but trust them",
+   "Would want to talk about it",
+   "Would get openly jealous"
+  ],
+  "answers_tr": [
+   "Hiç umursamam",
+   "Hafif bir sızı hissederim ama güvenirim",
+   "Bunu konuşmak isterim",
+   "Açıkça kıskanırım"
+  ]
+ },
+ {
+  "id": "fbf507be-cbda-4663-9a38-9a01f9393e66",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Your partner staying friends with an ex is…",
+  "tr": "Partnerinin eski sevgilisiyle arkadaş kalması…",
+  "answers_en": [
+   "Totally fine",
+   "Fine if there's nothing left",
+   "Uncomfortable for me",
+   "A dealbreaker"
+  ],
+  "answers_tr": [
+   "Tamamen normal",
+   "Aralarında bir şey kalmadıysa sorun değil",
+   "Beni rahatsız eder",
+   "Kabul edilemez"
+  ]
+ },
+ {
+  "id": "785701ac-e83a-456a-9d90-e85d4aca204d",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How often do you feel jealous, even if you don't show it?",
+  "tr": "Göstermesen bile ne sıklıkla kıskançlık hissediyorsun?",
+  "answers_en": [
+   "Often",
+   "Sometimes",
+   "Rarely",
+   "Never"
+  ],
+  "answers_tr": [
+   "Sık sık",
+   "Bazen",
+   "Nadiren",
+   "Hiç"
+  ]
+ },
+ {
+  "id": "9ba59f61-1758-4d30-ba63-f6104de991cd",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What would damage your trust the most?",
+  "tr": "Güvenini en çok ne zedeler?",
+  "answers_en": [
+   "A lie, even a small one",
+   "Hidden conversations with someone",
+   "A promise broken more than once",
+   "Our private things shared with others"
+  ],
+  "answers_tr": [
+   "Küçük de olsa bir yalan",
+   "Biriyle gizli konuşmalar",
+   "Birden fazla kez tutulmayan bir söz",
+   "Özelimizin başkalarıyla paylaşılması"
+  ]
+ },
+ {
+  "id": "18def8e1-5fa7-44a3-85e4-81cb688a31db",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How much do you want to know about each other's day?",
+  "tr": "Birbirinizin gününü ne kadar bilmek istersin?",
+  "answers_en": [
+   "Everything, where and with whom",
+   "The main things",
+   "Only what they want to share"
+  ],
+  "answers_tr": [
+   "Her şeyi, nerede ve kiminle",
+   "Önemli şeyleri",
+   "Sadece paylaşmak istediklerini"
+  ]
+ },
+ {
+  "id": "b0a8928f-0b53-439c-9f66-ca1a6c92eb86",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What makes you feel completely secure with your partner?",
+  "tr": "Partnerinle seni tamamen güvende hissettiren ne?"
+ },
+ {
+  "id": "e045d939-d801-4bea-b637-ed0df364efa8",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "Is there anything that makes you even slightly insecure in this relationship? Be honest.",
+  "tr": "Bu ilişkide seni azıcık bile olsa güvensiz hissettiren bir şey var mı? Dürüst ol."
+ }
+]

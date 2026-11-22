@@ -1,0 +1,772 @@
+{
+ "1c394649-6625-4f03-84f0-3e53b920c956": {
+  "text": "Co robi {{playerName}}, gdy słyszy komplement od drugiej połówki?",
+  "answers": [
+   "Zbywa to",
+   "Peszy się",
+   "Odwzajemnia komplement",
+   "Po prostu go przyjmuje"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a1b6a93f-4d10-43a7-8164-0163bd3853f2": {
+  "text": "Co {{playerName}} najtrudniej znosi z ust drugiej połówki?",
+  "answers": [
+   "Musimy porozmawiać",
+   "Potrzebuję przestrzeni",
+   "To mnie rozczarowało",
+   "Masz rację"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c47a1f38-5b04-46da-9c44-7a474ed6d259": {
+  "text": "Co robi {{playerName}}, gdy po prysznicu przyłapuje cię na gapieniu się?",
+  "answers": [
+   "Odwzajemnia spojrzenie",
+   "Odwraca wzrok",
+   "Żartuje",
+   "Podchodzi bliżej"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e89d0de4-7a91-4f6e-b779-b94e48e546d2": {
+  "text": "Jest 2 w nocy, a wy wciąż nie śpicie. Na co {{playerName}} ma ochotę?",
+  "answers": [
+   "Na rozmowę po ciemku",
+   "Na buziaka i sen",
+   "Na wspólne scrollowanie",
+   "Po prostu na sen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8ce87b4f-b8db-4f01-98ba-f29870c3aed1": {
+  "text": "Na które słowa szeptane do ucha {{playerName}} reaguje najmocniej?",
+  "answers": [
+   "Chodź tu",
+   "Zamknij drzwi",
+   "Spójrz na mnie",
+   "Jeszcze nie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0e4ed2f2-bc25-4e09-a90f-302effdc8620": {
+  "text": "Jak blisko {{playerName}} siada wieczorem na kanapie?",
+  "answers": [
+   "Z odstępem",
+   "Tuż przy tobie",
+   "Z nogami na twoich",
+   "Prawie na twoich kolanach"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5cb070ee-8f2e-40d2-b2a4-eeb5e9aed5a6": {
+  "text": "Obok czego {{playerName}} najtrudniej przechodzi obojętnie?",
+  "answers": [
+   "Ty w podkradzionej koszulce",
+   "Ty z mokrymi włosami",
+   "Ty, gdy szykujesz się do wyjścia",
+   "Ty z samego rana"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "35eb5bdd-4604-405f-bbd9-ec6d407788ce": {
+  "text": "Wchodzisz, a {{playerName}} akurat się przebiera. Co robi?",
+  "answers": [
+   "Zasłania się",
+   "Nie przejmuje się",
+   "Wyprasza cię",
+   "Przyciąga cię do siebie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "63883f17-6122-4b32-bd02-7c77127de516": {
+  "text": "Gdzie {{playerName}} trzyma rękę przy kolacji?",
+  "answers": [
+   "Na stole",
+   "W twojej dłoni",
+   "Na twoim kolanie",
+   "Pod stołem"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d4a5ae02-a778-4a8a-a976-915ab86b182c": {
+  "text": "Co robi {{playerName}} pod drzwiami na koniec wieczoru?",
+  "answers": [
+   "Szybki buziak",
+   "Długi pocałunek",
+   "Wciąga cię do środka",
+   "Mówi „do jutra”"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "290d4e23-9ee9-41a5-86b2-90f954e2e486": {
+  "text": "{{playerName}}: przytulasz od tyłu. Jaka reakcja?",
+  "answers": [
+   "Opiera się o ciebie",
+   "Robi dalej swoje",
+   "Łapie cię za ręce",
+   "Odwraca się"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3aaf73d2-fba7-45d3-b142-eaf8b4b1f2c2": {
+  "text": "Co robi {{playerName}}, gdy w trakcie jakiegoś zajęcia dostaje od ciebie całusa?",
+  "answers": [
+   "Oddaje całusa i robi dalej swoje",
+   "Mówi „chwila”",
+   "Odkłada wszystko",
+   "Śmieje się i kręci głową"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "20568aba-1de1-4c32-9c4b-84046e0a89a3": {
+  "text": "Co robi {{playerName}}, gdy słyszy od ciebie „chodź do łóżka”?",
+  "answers": [
+   "Przychodzi od razu",
+   "Prosi o jeszcze pięć minut",
+   "Każe ci po siebie przyjść"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "730dfdba-4777-40c1-ac4f-849cf3a8dab0": {
+  "text": "Co robi {{playerName}}, gdy na imprezie słyszy twój szept tuż przy uchu?",
+  "answers": [
+   "Uśmiecha się",
+   "Rumieni się",
+   "Odciąga cię na bok"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "793c87e8-9ced-435c-af13-49aef0550f10": {
+  "text": "Co robi {{playerName}} na tylnym siedzeniu taksówki?",
+  "answers": [
+   "Patrzy przez okno",
+   "Kładzie głowę na twoim ramieniu",
+   "Trzyma cię za rękę"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9a5a21f6-c21f-44ee-986d-7b807154604f": {
+  "text": "Zasypiasz na kanapie, a {{playerName}} służy ci za poduszkę. Co robi?",
+  "answers": [
+   "Pozwala ci spać",
+   "Budzi cię i wysyła do łóżka",
+   "Ani drgnie, nawet gdy cierpnie ręka"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d6cefc04-d2ec-40ca-b919-90873cd692a4": {
+  "text": "Co robi {{playerName}}, gdy czuje na sobie twoje zimne dłonie?",
+  "answers": [
+   "Podskakuje",
+   "I tak je łapie",
+   "Ogrzewa je na swojej szyi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d84a8b9f-1082-4a61-a4fb-3a0ce7561ce4": {
+  "text": "Na mieście mówisz: „chodźmy do domu”. Jak reaguje {{playerName}}?",
+  "answers": [
+   "Czeka na to od dawna",
+   "Chce zostać jeszcze godzinę",
+   "Dopiero się rozkręca"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "51f4a26a-da00-4845-a418-a9ee3398e5bf": {
+  "text": "Co robi {{playerName}}, gdy ktoś wyraźnie cię obczaja?",
+  "answers": [
+   "Nic nie zauważa",
+   "Przyciąga cię bliżej",
+   "Mierzy tę osobę wzrokiem"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "acceaaf6-dbea-46b8-b01d-8c157c320363": {
+  "text": "Co robi {{playerName}}, gdy bez powodu zaczynasz tańczyć w kuchni?",
+  "answers": [
+   "Dołącza",
+   "Przygląda się",
+   "Nabija się, a potem dołącza"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0ba7b11f-84f2-4fd6-a508-37ec2a630f94": {
+  "text": "Co robi {{playerName}}, gdy już prawie się całujecie, a ty się wycofujesz?",
+  "answers": [
+   "Dokańcza pocałunek",
+   "Czeka",
+   "Obraca to w żart"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "16f3d2e8-43b7-412a-aaf6-99b56d3ea05f": {
+  "text": "{{playerName}}: siadasz na kolanach. Jaka reakcja?",
+  "answers": [
+   "Przyciąga cię do siebie",
+   "Najpierw rozgląda się dookoła",
+   "Śmieje się i zrzuca cię"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bbf222fb-e5a6-45b2-be01-18d719ee84f2": {
+  "text": "W środku gorąco, a {{playerName}} ma na sobie sweter. Co robi, gdy zaczynasz ten sweter zdejmować?",
+  "answers": [
+   "Pozwala ci",
+   "Zdejmuje go samodzielnie",
+   "Zatrzymuje twoją rękę"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f8558854-9108-4479-b20e-7a0c5c31c0ac": {
+  "text": "Co robi {{playerName}}, gdy w środku opowieści dostaje od ciebie całusa w policzek?",
+  "answers": [
+   "Mówi dalej",
+   "Gubi wątek",
+   "Oddaje całusa i opowiada dalej"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c335f3ae-66fd-42b6-b5d1-3150b68b6b04": {
+  "text": "Jaki masaż {{playerName}} lubi najbardziej?",
+  "answers": [
+   "Ramion",
+   "Pleców",
+   "Stóp",
+   "Głowy"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7c740bf2-6c29-4351-b1ea-1ac8b48d7e14": {
+  "text": "Co sprawia, że {{playerName}} najszybciej się rozpala?",
+  "answers": [
+   "Pewność siebie",
+   "Kontakt wzrokowy",
+   "Ładny zapach",
+   "Droczenie się"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c510bd61-7901-4014-bccc-3bf4072ab104": {
+  "text": "Na który zmysł {{playerName}} najbardziej stawia w intymnych chwilach?",
+  "answers": [
+   "Dotyk",
+   "Wzrok",
+   "Węch",
+   "Słuch"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "10524676-70b8-4a0c-9c65-8021824e5bc1": {
+  "text": "Czym {{playerName}} najchętniej daje się uwodzić?",
+  "answers": [
+   "Słowami",
+   "Spojrzeniami",
+   "Dotykiem",
+   "Niespodzianką"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "47197335-c957-4d42-90c1-bd55aec65195": {
+  "text": "Na co {{playerName}} patrzy najpierw u kogoś atrakcyjnego?",
+  "answers": [
+   "Oczy",
+   "Usta",
+   "Dłonie",
+   "Ciało"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7fcfdb68-3ae8-4607-9be5-32b49375a3ac": {
+  "text": "Co robi {{playerName}}, gdy w środku dnia dostaje od ciebie zalotne zdjęcie?",
+  "answers": [
+   "Odsyła swoje",
+   "Od razu dzwoni",
+   "„Nie teraz, mam robotę”",
+   "Wcześniej wraca do domu"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "720d3880-91f8-4dde-a17f-7da5e821ab00": {
+  "text": "Jaki dodatek u kogoś {{playerName}} uważa za najseksowniejszy?",
+  "answers": [
+   "Zegarek",
+   "Okulary",
+   "Łańcuszek",
+   "Pierścionki"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4daea0de-71a4-40bc-82b1-c1a830c1e33f": {
+  "text": "Jaki styl u kogoś {{playerName}} uważa za najseksowniejszy?",
+  "answers": [
+   "Elegancki",
+   "Sportowy",
+   "Streetwear",
+   "Total black"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9132974e-4bff-42a3-a774-e9046d4aa9f2": {
+  "text": "Jaką różnicę wzrostu w parze {{playerName}} lubi najbardziej?",
+  "answers": [
+   "Dużo wyższa połówka",
+   "Trochę wyższa połówka",
+   "Ten sam wzrost",
+   "Niższa połówka"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": "Height options use 'połówka' (fem. noun, neutral for anyone) to avoid gendered 'wyższy/wyższa'."
+ },
+ "8b3a4769-3529-4dd3-bf94-060c729a8477": {
+  "text": "Jaki kolor oczu {{playerName}} uważa za najbardziej pociągający?",
+  "answers": [
+   "Brązowe",
+   "Zielone",
+   "Niebieskie",
+   "Piwne"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6e6db5c0-711a-4280-9da7-49e01a6e940c": {
+  "text": "Jaki kolor włosów {{playerName}} uważa za najseksowniejszy?",
+  "answers": [
+   "Czarne",
+   "Brązowe",
+   "Blond",
+   "Rude"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "401817cf-f61c-4724-9158-25592761bb11": {
+  "text": "Jaki rodzaj zapachu u kogoś {{playerName}} uważa za najseksowniejszy?",
+  "answers": [
+   "Słodki",
+   "Świeży",
+   "Drzewny",
+   "Korzenny"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4dacabdc-99dd-4c78-9b92-52680146831d": {
+  "text": "Co {{playerName}} sądzi o tatuażach u drugiej połówki?",
+  "answers": [
+   "Uwielbia je",
+   "Jeden, dwa – w sam raz",
+   "Nie przepada",
+   "Bez różnicy"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f5dadc53-d883-4924-8ba8-2f509d410ebb": {
+  "text": "Jaką różnicę wieku {{playerName}} uważa za najbardziej pociągającą?",
+  "answers": [
+   "Ten sam wiek",
+   "Kilka lat starsza osoba",
+   "Kilka lat młodsza osoba",
+   "Dużo starsza osoba"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f1dc9061-fa47-478b-b1ec-eba6a3b6f5fa": {
+  "text": "Jaki zawód u kogoś {{playerName}} uważa za najbardziej pociągający?",
+  "answers": [
+   "Medycyna",
+   "Lotnictwo",
+   "Straż pożarna",
+   "Gastronomia"
+  ],
+  "accepted": [],
+  "flagged": true,
+  "note": "Professions as fields (medicine, aviation, fire service, gastronomy) because Polish job nouns are gendered (lekarz/lekarka). Please check it still reads naturally."
+ },
+ "dd7a8cb2-3e0a-4167-b573-0feea5f6b4ee": {
+  "text": "Jaki piercing u kogoś {{playerName}} uważa za najseksowniejszy?",
+  "answers": [
+   "W uchu",
+   "W nosie",
+   "W wardze",
+   "Żaden"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2fd6a59e-72ba-4ff9-8feb-361bc39f3cb4": {
+  "text": "Jaką umiejętność u kogoś {{playerName}} uważa za najseksowniejszą?",
+  "answers": [
+   "Gra na gitarze",
+   "Talent do gotowania",
+   "Talent do tańca",
+   "Znajomość obcego języka"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e5f4e852-e15d-471e-abc5-4c38cc69e9ec": {
+  "text": "Jaki drobny szczegół u kogoś {{playerName}} uważa za najsłodszy?",
+  "answers": [
+   "Piegi",
+   "Dołeczki",
+   "Długie rzęsy",
+   "Przerwa między zębami"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1fcbc4d3-9d36-4780-8e17-806a5eff3369": {
+  "text": "Jaką sylwetkę {{playerName}} uważa za najbardziej pociągającą?",
+  "answers": [
+   "Wysportowana",
+   "Szczupła",
+   "Umięśniona",
+   "Miękka, do przytulania"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3d2b3db6-0219-4cf1-9d6d-4f31684ea5e8": {
+  "text": "Jaki pojazd u kogoś {{playerName}} uważa za największy atut?",
+  "answers": [
+   "Klasyczne auto",
+   "Sportowe auto",
+   "Motocykl",
+   "Kompletnie bez znaczenia"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7d10c4cc-934e-4c78-83dc-e7675b0c1ec0": {
+  "text": "Które znaki zodiaku {{playerName}} uważa za najbardziej pociągające?",
+  "answers": [
+   "Znaki ognia",
+   "Znaki ziemi",
+   "Znaki powietrza",
+   "Znaki wody",
+   "Kompletnie bez znaczenia"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f454ad94-c43b-4a6b-9340-e41b1ded7a80": {
+  "text": "Jaką aktywność w social mediach u kogoś {{playerName}} uważa za najbardziej pociągającą?",
+  "answers": [
+   "Dużo postów",
+   "Prywatne konto",
+   "Rzadkie posty",
+   "Zero social mediów"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dcd3d4f4-f480-4ff0-b69b-af1f8b10c105": {
+  "text": "Jakie dłonie {{playerName}} uważa za najbardziej pociągające?",
+  "answers": [
+   "Duże dłonie",
+   "Miękkie dłonie",
+   "Dłonie z widocznymi żyłkami",
+   "Długie palce",
+   "Nie zwraca uwagi na dłonie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "44fffff9-e2b0-4e15-b91b-0eb866a37114": {
+  "text": "Jakie poczucie humoru u kogoś {{playerName}} uważa za najbardziej pociągające?",
+  "answers": [
+   "Sarkastyczne",
+   "Głupkowate",
+   "Z kamienną twarzą",
+   "Czarne",
+   "Ciepłe i niewinne"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3f4de5c5-8d26-4746-af84-d4886575c2c3": {
+  "text": "Co {{playerName}} sądzi o kimś, kto żyje siłownią?",
+  "answers": [
+   "Ogromny plus",
+   "Fajnie, ale niekonieczne",
+   "Raczej odstrasza"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "97a9c1dd-266d-442a-b459-db1ac587aed5": {
+  "text": "Jakiego porządku {{playerName}} oczekuje od kogoś, kto ma się podobać?",
+  "answers": [
+   "Wszystko ma lśnić",
+   "Rozsądny porządek",
+   "Bałagan nie przeszkadza"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c90f6f30-b874-47d1-b68b-7e77d055b747": {
+  "text": "Co {{playerName}} sądzi o kimś z ogromną paczką znajomych?",
+  "answers": [
+   "Uważa to za plus",
+   "Bez różnicy",
+   "Woli wąskie grono"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "549ec369-ee49-4656-adf4-6465987bcc3d": {
+  "text": "Co {{playerName}} sądzi o kimś, kto wciąż przyjaźni się z ex?",
+  "answers": [
+   "Żaden problem",
+   "Zależy od osoby",
+   "Wykluczone"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cbd96d73-a197-449c-9bfa-e6646c6151f6": {
+  "text": "Co {{playerName}} sądzi o kimś, kto robi pierwszy krok?",
+  "answers": [
+   "Ogromny plus",
+   "Miło",
+   "Woli przejąć inicjatywę"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f55c2d09-b0cc-4a36-af77-1fa6cace237a": {
+  "text": "Co {{playerName}} sądzi o dzieleniu się hasłami do telefonu z drugą połówką?",
+  "answers": [
+   "Ceni takie zaufanie",
+   "Tak czy siak OK",
+   "Potrzebuje prywatności"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f11bae34-c304-42a5-825d-b0680937d30a": {
+  "text": "Co {{playerName}} sądzi o kimś, kto pisze cały dzień?",
+  "answers": [
+   "Uwielbia to",
+   "Kilka razy dziennie wystarczy",
+   "Zbyt nachalne"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "30b5a4b1-c0ac-4d99-9f38-c00d848f5f4b": {
+  "text": "Co {{playerName}} sądzi o połówce, która chce spędzać razem każdą wolną chwilę?",
+  "answers": [
+   "Uwielbia to",
+   "Potrzebuje też czasu dla siebie",
+   "To już za dużo"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3f92749d-64b0-4c89-9f3e-bf2cd0c77507": {
+  "text": "Co {{playerName}} sądzi o kimś, kto już na początku mówi „kocham cię”?",
+  "answers": [
+   "To urocze",
+   "Za szybko",
+   "Czerwona flaga"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e730a2da-4ace-47c7-b3c3-4f59f76edfd0": {
+  "text": "Co {{playerName}} sądzi o kimś, kto imprezuje co weekend?",
+  "answers": [
+   "Super, chętnie dołącza",
+   "Od czasu do czasu OK",
+   "Nie ten typ",
+   "Wykluczone"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8e724ce7-d131-4821-903b-70bc0cf1b935": {
+  "text": "Co {{playerName}} sądzi o związku na odległość?",
+  "answers": [
+   "Spokojnie da radę",
+   "Tylko na krótko",
+   "Nigdy"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b7b57f9f-d72e-4537-9146-ca94491221c1": {
+  "text": "Co {{playerName}} sądzi o długich przytulasach?",
+  "answers": [
+   "Im dłużej, tym lepiej",
+   "Kilka sekund wystarczy",
+   "Nie przepada za przytulaniem"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "75e4151b-0b3a-442d-870f-36fce120c053": {
+  "text": "Co {{playerName}} sądzi o zasypianiu podczas wideorozmowy?",
+  "answers": [
+   "Uwielbia to",
+   "Tylko gdy jesteście osobno",
+   "Uważa to za dziwne"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ad6c46b6-c615-4dca-a1d2-b9a95e92638c": {
+  "text": "Co {{playerName}} sądzi o świętowaniu miesięcznic?",
+  "answers": [
+   "Świętuje co miesiąc",
+   "Tylko raz w roku",
+   "Nie pilnuje dat"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7d3785ce-afa5-43e8-b150-57d16a20c299": {
+  "text": "Którą piosenkę {{playerName}} uważa za „waszą”?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "efd278ae-b799-4742-915c-89349777f4bf": {
+  "text": "Jak {{playerName}} lubi trzymać się za ręce?",
+  "answers": [
+   "Palce splecione",
+   "Dłoń w dłoń",
+   "Tylko małymi palcami",
+   "Ręka w twojej tylnej kieszeni"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7d25b7f5-1dc6-43d6-af4b-e31f6e0a738c": {
+  "text": "Co {{playerName}} sądzi o jedzeniu z jednego talerza?",
+  "answers": [
+   "Uwielbia to",
+   "Tylko deser",
+   "Swój talerz to świętość"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ee007826-9eef-4d45-8c67-98923cf0b413": {
+  "text": "Gdzie w waszym mieście {{playerName}} najchętniej chodzi na randki?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9587900b-e8e3-414d-9ef0-199ab00dac18": {
+  "text": "Co {{playerName}} sądzi o mówieniu „dobranoc” przed snem, nawet na odległość?",
+  "answers": [
+   "Nigdy nie odpuszcza",
+   "Prawie zawsze",
+   "Nie przywiązuje do tego wagi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

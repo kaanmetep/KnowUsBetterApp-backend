@@ -51,6 +51,11 @@ import {
   PushRewardSummary,
 } from "../services/pushRewardService.js";
 import { getAdminPool } from "../utils/adminDb.js";
+import {
+  deleteUserDataForRequest,
+  listSupportRequests,
+  setSupportStatus,
+} from "../services/adminSupportService.js";
 
 const COOKIE_NAME = "kub_admin";
 const STATIC_DIR = path.resolve(process.cwd(), "public/admin");
@@ -527,6 +532,42 @@ export function createAdminPanelRouter(): Router {
         coinsCreditedUsers: coinReward?.creditedUsers ?? 0,
       });
       res.json({ summary, coinReward });
+    }),
+  );
+
+  api.get(
+    "/support",
+    handle(async (req, res) => {
+      const raw = req.query.status;
+      const status = raw === "done" || raw === "all" ? raw : "open";
+      res.json(await listSupportRequests(status));
+    }),
+  );
+
+  api.patch(
+    "/support/:id/status",
+    handle(async (req, res) => {
+      assertUuid(req.params.id);
+      const status = req.body?.status;
+      if (status !== "open" && status !== "done") {
+        throw new AppError("status must be open or done", 400, "VALIDATION_ERROR");
+      }
+      await setSupportStatus(req.params.id, status);
+      res.json({ success: true });
+    }),
+  );
+
+  // Irreversible, so it needs a fresh Face ID like an SQL apply.
+  api.post(
+    "/support/:id/delete-user-data",
+    handle(async (req, res) => {
+      assertUuid(req.params.id);
+      if (!res.locals.localBypass && !(await consumeStepUp(res.locals.sessionToken))) {
+        throw new AppError("Face ID confirmation required", 403, "STEP_UP_REQUIRED");
+      }
+      const summary = await deleteUserDataForRequest(req.params.id);
+      logger.info("Admin deleted user data", { ...summary });
+      res.json(summary);
     }),
   );
 

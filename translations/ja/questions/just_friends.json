@@ -1,0 +1,1260 @@
+{
+  "a76a2d11-aeaa-4ea4-91fe-2bfc67c9b4ee": {
+    "en": "Have you ever kept a secret from a close friend?",
+    "text": "仲のいい友達に隠しごとをしたことある？"
+  },
+  "a2574b99-8b8b-4f57-a394-6af757de58fc": {
+    "en": "Have you ever ended a friendship without explaining why?",
+    "text": "理由を言わずに友達と縁を切ったことある？"
+  },
+  "4c272380-343e-41d5-a398-4c4fcc2393a4": {
+    "en": "Have you ever regretted trusting someone too quickly?",
+    "text": "すぐに人を信じて後悔したことある？"
+  },
+  "3fce436d-bf31-4be9-8add-95f13c0fcdac": {
+    "en": "Have you ever felt jealous of a friend's success?",
+    "text": "友達の成功をうらやましく思ったことある？"
+  },
+  "9c806b2a-139b-4619-a67e-4409da20bcc9": {
+    "en": "Have you ever apologized even though you didn’t think you were wrong?",
+    "text": "自分は悪くないと思いながら謝ったことある？"
+  },
+  "0dbafd24-b1dd-4ecd-b1e2-88f673a60613": {
+    "en": "Have you ever trusted someone who didn’t deserve it?",
+    "text": "信じる価値のない人を信じちゃったことある？"
+  },
+  "2924f8e7-4561-47d2-8135-81cf04ebe967": {
+    "en": "Have you ever ignored a message from a friend on purpose?",
+    "text": "友達のメッセージをわざと無視したことある？"
+  },
+  "9741b4d7-889c-4894-b559-c3f66ce2d8c0": {
+    "en": "Have you ever shared something private with the wrong person?",
+    "text": "内緒の話を、話す相手を間違えたことある？"
+  },
+  "4486c9a6-d2b2-4540-8644-03cd4ef2e13a": {
+    "en": "Have you ever chosen your friend over your partner?",
+    "text": "恋人より友達を優先したことある？"
+  },
+  "479b8431-53a3-462f-9785-3d70008bbd20": {
+    "en": "Would you stay friends with an ex-partner?",
+    "text": "元恋人と友達でいられる？"
+  },
+  "f1152066-83ba-4c0c-a1f0-093b14c8b069": {
+    "en": "Do you believe you know yourself completely?",
+    "text": "自分のことを完全にわかってると思う？"
+  },
+  "9ef4e846-52f9-4144-a18f-cedffa321545": {
+    "en": "Have you ever ended a friendship because your lifestyles were too different?",
+    "text": "生活スタイルが違いすぎて友達と縁を切ったことある？"
+  },
+  "48f95dce-4d8a-4fbb-9150-baba0bf7376a": {
+    "en": "Do you believe that friendships can last forever?",
+    "text": "友情は一生続くと思う？"
+  },
+  "b9a730b9-929e-45c8-9108-f0836b286438": {
+    "en": "Have you ever felt like you were giving more effort than your friend?",
+    "text": "友達付き合いで、自分ばっかり頑張ってるなって感じたことある？"
+  },
+  "94981afe-79fa-4085-b6a2-cd42c7ac5800": {
+    "en": "Have you ever reconnected with a friend after a long time apart?",
+    "text": "しばらく疎遠だった友達とまた連絡を取るようになったことある？"
+  },
+  "3b2f524c-98cf-4ac0-9dfe-f822ee4c1fcc": {
+    "en": "Would you message an old friend to make peace?",
+    "text": "昔の友達に仲直りのメッセージを送れる？"
+  },
+  "dc5dc001-691c-47f8-9cc2-0518e6e920d8": {
+    "en": "Do you think the person you are today is who you truly wanted to become?",
+    "text": "今の自分は、本当になりたかった自分だと思う？"
+  },
+  "604a53b7-0d5d-4881-acb1-ef4c66be7893": {
+    "en": "Would you marry a friend if you reach 30 and find no one?",
+    "text": "30歳になっても相手がいなかったら、友達と結婚する？"
+  },
+  "a32f5825-7334-4307-831f-c4bb0c024527": {
+    "en": "Would you get involved in your friend's relationship decisions?",
+    "text": "友達の恋愛の決断に口を出す？"
+  },
+  "fb251482-1fac-46cf-bf85-b3d27110335f": {
+    "en": "Would you want your friend to interfere in your relationship?",
+    "text": "自分の恋愛に友達が口を出してきてもいい？"
+  },
+  "6036b346-3ea2-4404-a7e1-7c30a0ec22c0": {
+    "en": "Do you believe that men and women can be just friends?",
+    "text": "男女の友情って成立すると思う？",
+    "note": "Used the set phrase 男女の友情 (refers to people in general, not the players)."
+  },
+  "bd04cdb5-6343-4875-980f-c340449f6b57": {
+    "en": "Have you ever had an opposite-sex friend you stayed close with for a long time?",
+    "text": "異性の友達とずっと仲良くしてたことある？",
+    "note": "異性の友達 kept from source; does not reveal the player's gender."
+  },
+  "db880921-8caf-4a1d-8391-e7aeb26d5dc7": {
+    "en": "If you do not like your friend's partner, would you tell them?",
+    "text": "友達の恋人が苦手だったら、それを友達に言う？"
+  },
+  "e5ef89d4-f7f5-4c0e-9bf5-ea3e13031a8c": {
+    "en": "If your friend dates someone you dislike, would you end the friendship?",
+    "text": "苦手な人と友達が付き合ったら、その友達と縁を切る？"
+  },
+  "e0d04d04-aa00-4c84-bcfb-881361a82be5": {
+    "en": "Do you believe long-term friendships are possible?",
+    "text": "何十年も続く友情ってあると思う？"
+  },
+  "d0639d2c-258d-4d36-832b-842e6b52ee4c": {
+    "en": "Do you have friends you stay close to even without regular contact?",
+    "text": "あまり連絡を取らなくても仲のいい友達っている？"
+  },
+  "a3ddb95a-24aa-4a29-949f-79889f10ddcc": {
+    "en": "Would you get annoyed if your friend keeps you waiting?",
+    "text": "友達に待たされるとイラッとする？"
+  },
+  "5d796767-8cc5-431b-b5ad-b3a6f33f64cf": {
+    "en": "If your partner asked you to stop talking to a friend, would you do it?",
+    "text": "恋人に「あの友達と話さないで」って言われたら、そうする？"
+  },
+  "e6e52f89-0870-4970-9f5a-b5b4741216b0": {
+    "en": "Do you maintain good relationships with friends from different countries?",
+    "text": "海外の友達ともいい関係を続けてる？"
+  },
+  "3102138c-c867-425a-98fd-d9c35cac8a9b": {
+    "en": "Would you continue a friendship with people whose views you disagree with?",
+    "text": "考え方が合わない人とも友達でいられる？"
+  },
+  "3403d85a-a7ae-4759-b627-46cb7e2287d4": {
+    "en": "Have you ever been betrayed by a friend?",
+    "text": "友達に裏切られたことある？"
+  },
+  "0588bdf0-7b25-4c73-92a6-00fe19080183": {
+    "en": "Have you ever betrayed a friend?",
+    "text": "友達を裏切ったことある？"
+  },
+  "9f61963e-ef73-4d2a-a108-8788c781c036": {
+    "en": "Would you ask your friends to return money you lent them?",
+    "text": "友達に貸したお金、返してって言える？"
+  },
+  "a3d59d54-8850-46e2-9bb2-1125148aebcf": {
+    "en": "Would it bother you if a friend asked you to return money they lent you?",
+    "text": "友達に「貸したお金返して」って言われたらモヤッとする？"
+  },
+  "6746bd67-c0ef-46aa-a2c3-dfab5234341f": {
+    "en": "Do you pay back your friends on time?",
+    "text": "友達に借りたお金はちゃんと期限までに返す？"
+  },
+  "a5404a83-2a72-4b9c-aca7-0c5e6cc77fc2": {
+    "en": "Do you get along well with your friend's families?",
+    "text": "友達の家族とも仲良くできる？"
+  },
+  "0667992f-49f5-42f3-bcd4-cc5626feea01": {
+    "en": "Would you introduce your friends to your family?",
+    "text": "友達を家族に紹介する？"
+  },
+  "aae21c2f-9de5-4456-adc1-eba72108ef9b": {
+    "en": "Would you introduce your friend to your partner?",
+    "text": "友達を恋人に紹介する？"
+  },
+  "5341cb61-0a8e-4848-b2a5-32f8b43656f4": {
+    "en": "Do you like your friend's Instagram stories?",
+    "text": "友達のインスタのストーリーにいいねする？"
+  },
+  "a8afd3b9-7b97-4874-83ee-06aa92b6cf35": {
+    "en": "Do you believe that a person can change their destiny with the choices they make?",
+    "text": "人は自分の選択で運命を変えられると思う？"
+  },
+  "6e0ab277-84ad-4dad-9719-677b7e583d65": {
+    "en": "Do you have a close friends list or a private account on social media?",
+    "text": "SNSで親しい友達リストや鍵アカ使ってる？"
+  },
+  "866cc351-c73d-44e8-a94e-26f20ca6375e": {
+    "en": "Do you believe that even your closest friends might secretly envy your success?",
+    "text": "一番仲のいい友達でさえ、実は自分の成功に嫉妬してるかもって思う？"
+  },
+  "ff350837-4cca-4972-9f75-3a7d85e1d892": {
+    "en": "Would you let a friend use your car?",
+    "text": "友達に車を貸せる？"
+  },
+  "490bbcc4-3454-4d35-879e-13652017c4bc": {
+    "en": "Do you constantly question your purpose in this world?",
+    "text": "この世界での自分の存在意義をいつも考えちゃう？"
+  },
+  "36cd5f8d-45cf-451d-bd2f-bd912e1e1f87": {
+    "en": "Would you share your room with a friend?",
+    "text": "友達と部屋をシェアできる？"
+  },
+  "e65ed24a-9d70-4bb5-a43d-e2a6b09ca93c": {
+    "en": "Would you eat from the same plate as your friend?",
+    "text": "友達と同じお皿から食べられる？"
+  },
+  "fb0c893c-1702-43a5-919e-990fe5850e4b": {
+    "en": "Do you like giving relationship advice to your friends?",
+    "text": "友達に恋愛アドバイスするのは好き？"
+  },
+  "a85cccb3-3565-47d8-b01e-c4994dbc738b": {
+    "en": "Do you like gossiping with your friends?",
+    "text": "友達とうわさ話するのは好き？"
+  },
+  "60a273fa-a707-4ff2-af68-3eaa00bcb00a": {
+    "en": "If your sweatshirt stayed with a friend, would you want it back?",
+    "text": "友達に貸したパーカーが戻ってこなかったら、返してって言う？"
+  },
+  "2a7b5e54-a35c-4222-94db-5604ef6ff521": {
+    "en": "Do you think friends should lend money to each other when asked?",
+    "text": "友達に頼まれたらお金を貸すべきだと思う？"
+  },
+  "d14dc487-ef43-4f80-934d-3da11c4645bd": {
+    "en": "If two people in your group of three stopped talking, would you take sides?",
+    "text": "3人グループのうち2人がケンカして口をきかなくなったら、どっちかの味方につく？"
+  },
+  "358ce8a0-4d0f-4e4a-a9ab-4d17bce190dc": {
+    "en": "If your friend became homeless, would you let them stay in your house for a year?",
+    "text": "友達が住む家をなくしたら、1年間うちに住まわせてあげる？"
+  },
+  "f5016fd4-e85a-4f44-a6e7-3480dfc318e2": {
+    "en": "If your friend had bad habits, would you continue your friendship?",
+    "text": "友達に悪いクセがあっても、仲良くし続ける？"
+  },
+  "d09f45b0-b833-4273-9dc6-837da0408b6b": {
+    "en": "Is your friend's religious belief important to you?",
+    "text": "友達の宗教観って気になる？"
+  },
+  "70eabbeb-a65f-4616-afbc-84cf134c985a": {
+    "en": "Would you date your friend's ex if they had feelings for you?",
+    "text": "友達の元恋人に好かれたら、付き合っちゃう？"
+  },
+  "f06c0817-7f8d-48c4-9214-b515e112a31d": {
+    "en": "Would you date someone with a very different music taste?",
+    "text": "音楽の好みが全然違う人と付き合える？"
+  },
+  "bd3487cc-2911-4c0d-b46f-5fd2bc55332d": {
+    "en": "Do you swear often?",
+    "text": "よく汚い言葉を使う？"
+  },
+  "f7b39a40-cab5-4bac-8dc1-e50a12e37459": {
+    "en": "If someone offered you 1 million dollars to date your friend, would you accept?",
+    "text": "友達と付き合ったら1億円もらえるとしたら、OKする？",
+    "flagged": true,
+    "note": "1 million dollars localized to 1億円 (round, natural sum in Japan)."
+  },
+  "b8699a10-76fe-421a-898d-0d6c91a4392f": {
+    "en": "Do you have a friendship that has lasted more than 10 years?",
+    "text": "10年以上続いてる友情ってある？"
+  },
+  "e6297b54-f961-4c0b-892f-bc95baceb49e": {
+    "en": "Do you often hide your true feelings to keep the peace?",
+    "text": "波風を立てないように本音を隠すことが多い？"
+  },
+  "44e89723-382d-4e81-a4ce-a775b0f88494": {
+    "en": "Has a close friend ever had a crush on you?",
+    "text": "仲のいい友達に恋愛感情を持たれたことある？"
+  },
+  "4af94076-243b-4c2d-a36d-0438a980fdf1": {
+    "en": "Have you ever friendzoned someone?",
+    "text": "誰かを「友達としか見れない」ってフッたことある？"
+  },
+  "f1c49c55-a070-4de9-88b0-8f36313a97a1": {
+    "en": "Have you ever been friendzoned?",
+    "text": "「友達としか見れない」って言われたことある？"
+  },
+  "34efefdf-7c84-442c-a5a3-38133fa0948e": {
+    "en": "If a lie makes everyone happy and hurts nobody, does it become moral?",
+    "text": "みんなが幸せになって誰も傷つかない嘘なら、ついてもいいと思う？"
+  },
+  "f35c52a4-f28b-4d39-94a9-291aba678b56": {
+    "en": "Do you hide how much money you have from your friends?",
+    "text": "自分がどれくらいお金を持ってるか、友達に隠してる？"
+  },
+  "29f055a2-8038-41d1-b238-e05e99378afb": {
+    "en": "Do you think suffering is necessary for profound personal growth?",
+    "text": "人として大きく成長するには、つらい経験が必要だと思う？"
+  },
+  "d3cdfbea-f97c-4e33-9968-8034077edcca": {
+    "en": "Do you enjoy talking politics with friends?",
+    "text": "友達と政治の話をするのは好き？"
+  },
+  "159acfa6-597d-472d-bcb3-d987da64dea8": {
+    "en": "Would you cut ties with a friend who committed a non-violent crime?",
+    "text": "暴力を伴わない犯罪をした友達とは縁を切る？"
+  },
+  "f0172f90-003d-4c7f-8771-04ec7e4f490d": {
+    "en": "Would it bother you if your partner were more successful than you at work?",
+    "text": "恋人が自分より仕事で成功してたら、モヤッとする？"
+  },
+  "7956d371-c089-4a04-a387-6ff8f68b5866": {
+    "en": "If you could know the exact day you will die, would you choose to know?",
+    "text": "自分が死ぬ日を正確に知れるとしたら、知りたい？"
+  },
+  "efa81feb-3048-40c9-b743-e0413c82fa99": {
+    "en": "Would you hate someone just because your best friend hates them?",
+    "text": "親友が嫌ってる人のこと、自分も嫌いになる？"
+  },
+  "188b4c0d-b8d9-4f31-b01e-8ba90565c27e": {
+    "en": "Would you choose to live forever if it meant watching everyone you love die?",
+    "text": "大切な人がみんな先に死んでいくとしても、永遠に生きたい？"
+  },
+  "e1289513-98a5-4528-a112-ee6aae47fd77": {
+    "en": "Would you be suspicious of someone who gets along well with everyone?",
+    "text": "誰とでも仲良くできる人って、ちょっと怪しいと思う？"
+  },
+  "1a3fa76f-851d-4401-a4a8-789dcf598d3c": {
+    "en": "Have you ever had a period when you were very flirty?",
+    "text": "めちゃくちゃチャラかった時期ってある？"
+  },
+  "1fc8abbf-0128-4618-b81d-2b76f09bf03a": {
+    "en": "If your friends don't like your partner, would it make you lose interest in them?",
+    "text": "友達が恋人のことを気に入らなかったら、恋人への気持ちが冷める？"
+  },
+  "c2ebf044-0c54-4059-b541-f3714baf47d8": {
+    "en": "Are you currently attracted to a friend in a way that's more than just friendship?",
+    "text": "今、友達以上の気持ちで気になってる友達いる？"
+  },
+  "f0f56623-ce68-4bea-b65e-f5622ebe270d": {
+    "en": "Do you think long-term friends can become romantic partners later?",
+    "text": "長い付き合いの友達が、あとから恋人になることってあると思う？"
+  },
+  "460a428d-36bd-4f1a-b14b-0381b0822d60": {
+    "en": "What drives human behavior more?",
+    "text": "人を動かすのは、どっちだと思う？",
+    "answers": [
+      "痛みへの恐れ",
+      "快楽への欲求"
+    ]
+  },
+  "6a4f5fd8-c46c-4f5f-ac95-578a22429850": {
+    "en": "If your friend were romantically attracted to you, would you give them a chance?",
+    "text": "友達に恋愛対象として好かれてたら、チャンスあげる？"
+  },
+  "d3fdeab4-014d-4d6f-889c-4f57f67b5f4f": {
+    "en": "Would you live in the same house with a friend of the opposite sex while having a partner?",
+    "text": "恋人がいるのに、異性の友達とルームシェアできる？"
+  },
+  "c967305f-6cc1-4697-a3d7-e69d67c253d3": {
+    "en": "If you were attracted to a friend, would you hide it to avoid damaging your friendship?",
+    "text": "友達を好きになったら、関係を壊さないように隠す？"
+  },
+  "6f319932-cbc0-4efc-ac99-17a2e8db1022": {
+    "en": "Do you get jealous of your friend's partners?",
+    "text": "友達の恋人にヤキモチ焼いちゃう？"
+  },
+  "1539ca94-1bf7-4737-a2e7-0888edc17875": {
+    "en": "Does it bother you if your friend has closer friends than you?",
+    "text": "友達に自分より仲いい友達がいたら、モヤモヤする？"
+  },
+  "af046054-1900-4f56-acc3-3ce73fae637d": {
+    "en": "Would it feel strange if your friend found you attractive?",
+    "text": "友達に恋愛対象として見られてたら、なんか変な感じする？"
+  },
+  "560aae7c-660a-48c7-a995-16082b7a329c": {
+    "en": "Would you stop talking to a friend who finds you attractive if your partner asked you to?",
+    "text": "恋人に頼まれたら、自分に気がある友達と連絡とるのやめる？"
+  },
+  "85f1d55b-0ab2-477b-bc89-8f1079b657df": {
+    "en": "If your best friend and partner met without telling you, would you get jealous?",
+    "text": "親友と恋人が自分に内緒で会ってたら、ヤキモチ焼く？"
+  },
+  "d3f796b9-46b0-4ea6-af2e-79f8db92e1b4": {
+    "en": "Would you be friends with someone who constantly talks about their partner?",
+    "text": "いつも恋人の話ばっかりする人と友達になれる？"
+  },
+  "c19c811e-bdd4-431c-9ae2-fe158cd5ce51": {
+    "en": "Would you be friends with someone who constantly talks about their problems?",
+    "text": "いつも悩みの話ばっかりする人と友達になれる？"
+  },
+  "d9392be9-5bf4-4290-83cc-bb71d5a0ea2f": {
+    "en": "Would you try to separate your friend from a toxic relationship?",
+    "text": "友達がよくない相手と付き合ってたら、別れさせようとする？"
+  },
+  "f6e1d589-f406-413a-84e1-4d10b010efa2": {
+    "en": "Would you compliment a bad outfit just to make your friend happy?",
+    "text": "友達を喜ばせるためなら、イマイチな服でも褒める？"
+  },
+  "36a8a92f-d12b-4cde-b020-95c045851054": {
+    "en": "Would you be upset if not added to your best friend's Close Friends list?",
+    "text": "親友のインスタの「親しい友達」に入ってなかったら、ショック？"
+  },
+  "cd28855b-6bbc-4754-bf67-925fafc08e08": {
+    "en": "Would you go somewhere you don't want to, just so your friend isn't alone?",
+    "text": "友達をひとりにしないために、行きたくない場所でも行く？"
+  },
+  "30180f6d-9944-4221-8ee1-b6a426b20c14": {
+    "en": "Would you go on a double date with someone you don't like just for your friend?",
+    "text": "友達のためなら、苦手な相手とでもダブルデートする？"
+  },
+  "ae0d1125-a621-4872-9096-7e1c73f8195a": {
+    "en": "Would you listen to your best friend's 30-minute voice message?",
+    "text": "親友から30分のボイスメッセージが来たら、全部聞く？"
+  },
+  "544d795e-cf98-43ae-8031-965c2fbb83ef": {
+    "en": "If you saw your friend's cheating partner on the street, would you greet them?",
+    "text": "友達を浮気で裏切った相手に道でばったり会ったら、あいさつする？"
+  },
+  "dbed90fb-08d1-454d-a7c8-53e94c8dfae2": {
+    "en": "If both you and your friend liked the same person, would you be the one to step back?",
+    "text": "友達と同じ人を好きになったら、自分から身を引く？"
+  },
+  "e01fa88f-9bf7-4a07-b915-156123bf6854": {
+    "en": "Do you consider yourself successful and skilled at confessing to someone you like?",
+    "text": "好きな人への告白、自分は得意なほうだと思う？"
+  },
+  "70ec9505-e1b3-41af-806f-8922805e641e": {
+    "en": "Would you go on a one-month vacation with a close friend of the opposite sex?",
+    "text": "仲のいい異性の友達と、1か月旅行に行ける？"
+  },
+  "cb2ea32b-d004-42f0-9a51-8737c96bc6a4": {
+    "en": "Do you think you can really stay friends with an ex?",
+    "text": "元恋人と本当に友達でいられると思う？"
+  },
+  "1864a491-86d1-49a2-80a2-c32e41c6a728": {
+    "en": "Have you ever had feelings for a friend’s ex?",
+    "text": "友達の元恋人を好きになったことある？"
+  },
+  "665c9713-06bc-480c-95b9-dcca3d1c59fb": {
+    "en": "Which is a bigger problem for you: your friends not liking your partner or your family not liking your partner?",
+    "text": "恋人のことを、友達に反対されるのと家族に反対されるの、どっちがつらい？",
+    "answers": [
+      "友達に反対される",
+      "家族に反対される"
+    ]
+  },
+  "39a0d847-c6a2-420f-bc9b-2da40532d0bd": {
+    "en": "Which would upset you more: cutting off a friend or breaking up with your partner?",
+    "text": "友達と縁を切るのと恋人と別れるの、どっちがつらい？",
+    "answers": [
+      "友達と縁を切る",
+      "恋人と別れる"
+    ]
+  },
+  "40150bf7-574c-4cc0-b8e4-5082f4273ff6": {
+    "en": "If you really liked a piece of clothing, would you buy it even if it was very expensive?",
+    "text": "すごく気に入った服なら、めちゃくちゃ高くても買う？"
+  },
+  "02576a6e-45da-4195-94ad-bfa3d432229e": {
+    "en": "Have you ever distanced yourself from a friend because of their behavior?",
+    "text": "友達の言動が原因で、距離を置いたことある？"
+  },
+  "c791f673-121c-4f78-b6b2-138fff984d94": {
+    "en": "Have you ever introduced a friend to your family?",
+    "text": "友達を家族に紹介したことある？"
+  },
+  "3768b0c2-7e45-4ea2-bb34-94459ecfdaa6": {
+    "en": "Have you ever made a promise with a friend to marry them if you are both still single at 30?",
+    "text": "「30歳までお互い独身だったら結婚しよう」って友達と約束したことある？"
+  },
+  "333ba234-d38e-4da7-adbf-90c465fe9959": {
+    "en": "Have you ever completely cut off a friendship over something trivial?",
+    "text": "くだらないことで友達と完全に縁を切ったことある？"
+  },
+  "d6594cf3-1942-4fe1-93eb-0a767331054d": {
+    "en": "Being close friends with the opposite gender...",
+    "text": "異性の親友がいるのは…",
+    "answers": [
+      "全然ふつう",
+      "線引きが必要"
+    ]
+  },
+  "e2bd6991-cecd-4263-bf0b-428f21242273": {
+    "en": "Staying friends with an ex...",
+    "text": "元恋人と友達でいるのは…",
+    "answers": [
+      "アリかも",
+      "絶対ナシ"
+    ]
+  },
+  "f252224b-4d0b-4690-b195-2f1acc7c55cc": {
+    "en": "Forming emotional bonds in friendship...",
+    "text": "友達と心で深くつながるのは…",
+    "answers": [
+      "自然なこと",
+      "危うい"
+    ]
+  },
+  "a481faea-e2d5-4288-bee9-49a6e561002c": {
+    "en": "Constantly messaging someone you say \"we are just friends\" with...",
+    "text": "「ただの友達」って言ってる相手と、ずっとLINEしてるのは…",
+    "answers": [
+      "ふつう",
+      "誤解されそう"
+    ]
+  },
+  "c1051de3-6210-48d9-bbee-a1bd27339e24": {
+    "en": "Physical closeness in friendship (like hugging)...",
+    "text": "友達同士のハグみたいなスキンシップは…",
+    "answers": [
+      "ふつう",
+      "勘違いされる"
+    ]
+  },
+  "54e10e6d-36d5-4c2f-90fa-90ab841a4a40": {
+    "en": "Your partner often seeing someone they call just a friend...",
+    "text": "恋人が「ただの友達」って言う人としょっちゅう会ってるのは…",
+    "answers": [
+      "気にしない",
+      "モヤモヤする"
+    ]
+  },
+  "cbc9d01b-ad4e-4822-ba0d-6d460dd7b24f": {
+    "en": "Keeping some privacy in friendship (hiding certain things from your partner)...",
+    "text": "友達との間のことを、恋人に一部ナイショにするのは…",
+    "answers": [
+      "必要なときもある",
+      "よくない"
+    ]
+  },
+  "b15024f0-b284-4cf6-b9da-8ee1b47f31db": {
+    "en": "Knowing every detail of your closest friend’s life...",
+    "text": "親友のことを何から何まで知ってるのは…",
+    "answers": [
+      "自然なこと",
+      "必要ない"
+    ]
+  },
+  "93d7d2aa-65e5-4158-bbdc-86bbfaab33e8": {
+    "en": "Your friend becoming part of your other friend group...",
+    "text": "友達が自分の別の友達グループに入ってくるのは…",
+    "answers": [
+      "楽しそう",
+      "トラブルのもと"
+    ]
+  },
+  "a24ff5ae-632a-4c56-8f91-b151d975be08": {
+    "en": "Staying just as close even after not seeing each other for a long time...",
+    "text": "長く会ってなくても、ずっと変わらず仲いいのは…",
+    "answers": [
+      "本物の友情",
+      "難しいかも"
+    ]
+  },
+  "4ad582dc-a947-4194-b0d1-981b04af1c82": {
+    "en": "Not being your closest friend’s closest friend...",
+    "text": "自分の親友にとって、自分が一番の親友じゃないのは…",
+    "answers": [
+      "ありえない",
+      "全然アリ"
+    ]
+  },
+  "6440ff9b-487a-43cc-8af1-563d9734e2ed": {
+    "en": "Your closest friend starts calling you less after getting a new partner...",
+    "text": "親友に新しい恋人ができて、連絡が減ってきたら…",
+    "answers": [
+      "生活が変わったんだから当然",
+      "ほったらかされてる気がする"
+    ]
+  },
+  "787f606d-df56-459b-87bf-7714b646077d": {
+    "en": "Your friend never introduces you to their other friend group...",
+    "text": "友達が、別の友達グループに一度も紹介してくれないのは…",
+    "answers": [
+      "別に気にしない",
+      "なんか変な感じ"
+    ]
+  },
+  "18b7fca3-3bce-4521-ae0f-ef66c3e2ffb0": {
+    "en": "When you don’t talk for a long time with your friend, you continue as if nothing happened...",
+    "text": "友達としばらく話してなくても、何事もなかったように元通りなのは…",
+    "answers": [
+      "いい関係",
+      "浅い気がする"
+    ]
+  },
+  "fb3d0920-f21b-45b3-b8ac-0aa9f8870491": {
+    "en": "The most important thing in friendship...",
+    "text": "友情で一番大事なのは…",
+    "answers": [
+      "裏切らないこと",
+      "分かち合うこと"
+    ]
+  },
+  "cdca9b4b-dde6-41ef-b066-1a1fe07dc941": {
+    "en": "A good friend accepts you with your flaws or tries to help you improve in a positive way.",
+    "text": "いい友達って、欠点ごと受け入れてくれる人？それともいい方向に変えてくれる人？",
+    "answers": [
+      "ありのまま受け入れる",
+      "成長させてくれる"
+    ]
+  },
+  "991aa3a5-200d-41b4-beae-58d6f0d655da": {
+    "en": "A true friend is someone who is there in your bad times or in your good times.",
+    "text": "本当の友達って、つらいときにそばにいる人？それとも楽しいときに一緒にいる人？",
+    "answers": [
+      "つらいときのほうが大事",
+      "楽しいときのほうが大事"
+    ]
+  },
+  "b7db9932-142a-4d10-bfa4-b5f580458954": {
+    "en": "What matters more in friendship: quality or consistency?",
+    "text": "友情で大事なのは、関係の深さ？それとも続けること？",
+    "answers": [
+      "深さ",
+      "続けること"
+    ]
+  },
+  "f0636f5f-63ef-4074-a615-3e24a6667f9e": {
+    "en": "A good friend...",
+    "text": "いい友達は…",
+    "answers": [
+      "ダメ出ししてくれる",
+      "応援してくれる"
+    ]
+  },
+  "b9784638-ea19-44da-ab12-cb649859a032": {
+    "en": "What is stronger in friendship: loyalty or empathy?",
+    "text": "友情を強くするのは、義理堅さ？それとも共感？",
+    "answers": [
+      "義理堅さ",
+      "共感"
+    ]
+  },
+  "a2f297b8-10e7-4517-b7f0-a0c832d370c7": {
+    "en": "Good friendship...",
+    "text": "いい友情は…",
+    "answers": [
+      "努力が必要",
+      "自然に続く"
+    ]
+  },
+  "5b670ad6-208b-4e58-b292-e273f3b78943": {
+    "en": "What is the strongest thing in friendship...",
+    "text": "友情を一番強くするのは…",
+    "answers": [
+      "義理堅さ",
+      "理解"
+    ]
+  },
+  "d10fdd35-8f20-43ae-8d73-b6dfde704d1e": {
+    "en": "A good friend...",
+    "text": "いい友達って…",
+    "answers": [
+      "一緒にいてラクな人",
+      "成長させてくれる人"
+    ]
+  },
+  "05689bed-28ec-43c5-b237-0302642ef9b4": {
+    "en": "Would you marry this person if you were both not married by the age of 40?",
+    "text": "40歳までふたりとも独身だったら、相手と結婚する？"
+  },
+  "8025e660-1505-4af6-80ae-abfc0310e57e": {
+    "en": "How many close friends do you actually need?",
+    "text": "本当に仲のいい友達って、何人いれば十分？"
+  },
+  "379cc9b1-f4e7-4870-89f1-7a7618d01d47": {
+    "en": "If a close friend is late, after how many minutes does it start bothering you?",
+    "text": "仲のいい友達が遅刻したら、何分からイラッとする？"
+  },
+  "6bed572f-b7ef-4dfd-9f13-d05e4450629e": {
+    "en": "What kills a friendship the fastest for you?",
+    "text": "友情が一番早く終わる原因って何？"
+  },
+  "019bcbc6-27a4-454b-b3af-7434fb094414": {
+    "en": "How many times a month do you need to see a close friend?",
+    "text": "仲のいい友達とは、月に何回会いたい？"
+  },
+  "9904dd28-27f8-48e6-a7c9-f91b70c02a3b": {
+    "en": "How many days can a close friend stay at your place?",
+    "text": "仲のいい友達なら、家に何日まで泊まってOK？"
+  },
+  "fb412a91-d561-4398-b5fc-44e7a463c33b": {
+    "en": "What's the first thing you offer a friend who comes over?",
+    "text": "友達が家に来たら、まず何を出す？"
+  },
+  "6e09b141-b4f9-4a4b-a8d4-a1cb738c388a": {
+    "en": "What can a friend take from your fridge without asking?",
+    "text": "友達が冷蔵庫から勝手に取っていいものは？"
+  },
+  "3dcd0f58-587e-4181-9f97-956ea9f95e64": {
+    "en": "What's off-limits to joke about with friends?",
+    "text": "友達同士でも、ネタにしちゃダメなことって何？"
+  },
+  "d420a12c-2ed3-4461-ba85-2938b2eacbed": {
+    "en": "When the bill comes, how should friends split it?",
+    "text": "友達とのお会計、どうやって分けるべき？"
+  },
+  "5738b45b-1858-43f3-826e-11ef8d263b66": {
+    "en": "If a close friend stays over, where do they sleep?",
+    "text": "仲いい友達が泊まりに来たら、どこで寝てもらう？"
+  },
+  "240d4c3b-09f9-424b-8508-8f2413892f20": {
+    "en": "When you need to say no to a friend, how do you do it?",
+    "text": "友達に断らなきゃいけないとき、どうする？",
+    "answers": [
+      "はっきり言う",
+      "言い訳する",
+      "先延ばしにする",
+      "そもそも断らない"
+    ]
+  },
+  "ed007dff-5f12-45f1-913a-814207c21337": {
+    "en": "Where's your phone when you're hanging out with friends?",
+    "text": "友達と遊んでるとき、スマホはどこにある？",
+    "answers": [
+      "テーブルの上",
+      "画面を伏せて置く",
+      "カバンの中",
+      "ずっと手の中"
+    ]
+  },
+  "472843d1-c68f-4443-8e98-1c7ebfff08f1": {
+    "en": "When a friend is venting, what do you do?",
+    "text": "友達が愚痴をこぼしてきたら、どうする？",
+    "answers": [
+      "解決しようとする",
+      "ただ聞く",
+      "笑わせる",
+      "自分の話をする"
+    ]
+  },
+  "9626e6ef-559e-4903-a872-8098df7019aa": {
+    "en": "A friend cancels last minute. What do you do?",
+    "text": "友達がドタキャンしてきた。どうする？",
+    "answers": [
+      "「大丈夫だよ」と言う",
+      "正直がっかりしたと言う",
+      "すぐ別の日を決める",
+      "しばらく誘わない"
+    ]
+  },
+  "d7063b2a-a2b9-4e31-b9d5-ea73d3fc1b48": {
+    "en": "How do you like hanging out with friends?",
+    "text": "友達とはどう遊ぶのが好き？",
+    "answers": [
+      "サシで",
+      "少人数で",
+      "グループ全員で",
+      "空いてる人と"
+    ]
+  },
+  "b3285428-6a7b-494a-a8ce-607db3eff19a": {
+    "en": "A friend is 20 minutes late and you're already there. What do you do?",
+    "text": "もう着いてるのに、友達が20分遅れてる。どうする？",
+    "answers": [
+      "待つ",
+      "連絡する",
+      "先に注文する",
+      "帰る"
+    ]
+  },
+  "6e92199a-a131-4c52-8fcb-db5cdd54cb8b": {
+    "en": "A friend calls at 1am. What do you do?",
+    "text": "夜中の1時に友達から電話。どうする？",
+    "answers": [
+      "出る",
+      "「明日ね」とLINEする",
+      "鳴らしっぱなし",
+      "あとでかけ直す"
+    ],
+    "note": "Used LINE as the everyday texting app in Japan."
+  },
+  "ca4a3d3a-b6cd-42c6-acea-f2ddaffcee41": {
+    "en": "When a friend starts roasting you, what do you do?",
+    "text": "友達にいじられ始めたら、どうする？",
+    "answers": [
+      "いじり返す",
+      "笑って流す",
+      "黙る",
+      "やめてと言う"
+    ]
+  },
+  "0b00eec2-7db8-49f6-9a33-2e91bfdafed9": {
+    "en": "A friend borrowed something and hasn't given it back. What do you do?",
+    "text": "友達に貸したものが返ってこない。どうする？",
+    "answers": [
+      "返してと催促する",
+      "あきらめる",
+      "もう貸さない",
+      "思い出すまで冗談っぽく言う"
+    ]
+  },
+  "3866d609-64de-4f95-9a99-d3b5aca59d4d": {
+    "en": "How do you usually leave a hangout?",
+    "text": "みんなで遊んだ帰り、いつもどうする？",
+    "answers": [
+      "あいさつしてサッと帰る",
+      "こっそり抜ける",
+      "最後まで残る",
+      "一緒に帰る人を待つ"
+    ]
+  },
+  "fc886a8f-d247-4df7-9911-70df16293d14": {
+    "en": "A friend posts a bad photo of you without asking. What do you do?",
+    "text": "友達が勝手に自分の変な写真を投稿した。どうする？",
+    "answers": [
+      "消してと頼む",
+      "笑って流す",
+      "もっとひどい写真を投稿し返す",
+      "しばらくミュートする"
+    ]
+  },
+  "cf30ac84-0e23-499b-84f0-194255049b2e": {
+    "en": "Two friends in your group are fighting. What do you do?",
+    "text": "グループの友達2人がケンカしてる。どうする？",
+    "answers": [
+      "関わらない",
+      "仲裁する",
+      "正しいと思うほうにつく",
+      "それぞれと個別に話す"
+    ]
+  },
+  "a6aca301-d610-4229-8289-b89bedc32e1e": {
+    "en": "How do you usually make plans with friends?",
+    "text": "友達との予定、いつもどう決まる？",
+    "answers": [
+      "自分から声をかける",
+      "誰かが言い出すのを待つ",
+      "決まるまで案を出し続ける",
+      "みんなの行き先に合流する"
+    ]
+  },
+  "79b31e12-db1a-4595-a37d-d8bf3a5d4ab1": {
+    "en": "A friend is clearly wrong in an argument. What do you do?",
+    "text": "言い合いで友達が明らかに間違ってる。どうする？",
+    "answers": [
+      "すぐ訂正する",
+      "スルーする",
+      "あとでこっそり言う",
+      "口では同意、心の中では反対"
+    ]
+  },
+  "43b8538b-f20e-4106-86db-2fb4ae991e8d": {
+    "en": "A close friend goes quiet for a few weeks. What do you do?",
+    "text": "仲いい友達から何週間も連絡がない。どうする？",
+    "answers": [
+      "一回だけ連絡する",
+      "連絡し続ける",
+      "そっとしておく",
+      "共通の友達に様子を聞く"
+    ]
+  },
+  "cf10e8ca-f5f7-4fd3-ade3-8d3dd80864a1": {
+    "en": "Your friend asks for honest feedback on a bad haircut. What do you do?",
+    "text": "髪型を失敗した友達に、正直な感想を聞かれた。どうする？",
+    "answers": [
+      "正直に言う",
+      "いいところを1つ探す",
+      "話をそらす"
+    ]
+  },
+  "5f50e363-7d88-40da-9fc3-20a70c1c98bc": {
+    "en": "A close friend asks to stay at your place for a week. What do you say?",
+    "text": "仲いい友達に「1週間泊めて」と言われた。なんて返す？",
+    "answers": [
+      "必要なだけいていいよ",
+      "数日なら。そのあと相談しよ",
+      "今週は無理。でも別の形で力になる"
+    ]
+  },
+  "96a10636-c640-4c8e-b29c-8d5ea35a2325": {
+    "en": "A friend you barely talk to anymore asks for a big favor. What do you do?",
+    "text": "最近ほぼ話してない友達から、大きな頼みごと。どうする？",
+    "answers": [
+      "昔みたいに助ける",
+      "助けるけど、できる範囲で",
+      "もうそこまで親しくないと正直に言う"
+    ]
+  },
+  "8fbe5c15-1c5f-4d62-bb1c-8c87bd5e68e9": {
+    "en": "Two friend groups invite you out on the same night. What do you do?",
+    "text": "同じ夜に、2つの友達グループから誘われた。どうする？",
+    "answers": [
+      "先に誘ってくれたほうに行く",
+      "会えないと寂しいほうに行く",
+      "両方に顔を出す"
+    ]
+  },
+  "da359ad8-f794-47c9-a71f-de550fd3df0c": {
+    "en": "A close friend asks to borrow a good amount of money. What do you do?",
+    "text": "仲いい友達に、けっこうな額のお金を貸してと言われた。どうする？",
+    "answers": [
+      "貸せるなら貸す",
+      "返済計画がはっきりしてれば",
+      "友達にお金は貸さない"
+    ]
+  },
+  "d6c8e97e-b3ba-44d7-b105-c1b6b2a57587": {
+    "en": "Your friend is dating someone you really can't stand. What do you do?",
+    "text": "友達の恋人が、どうしても好きになれない人。どうする？",
+    "answers": [
+      "早めに伝える",
+      "聞かれるまで待つ",
+      "黙って応援する"
+    ]
+  },
+  "0d743c77-1a58-418b-8117-3263ce8f4009": {
+    "en": "A friend invites you somewhere expensive you can't really afford. What do you do?",
+    "text": "友達に、正直予算オーバーな高いお店に誘われた。どうする？",
+    "answers": [
+      "お金が厳しいと言う",
+      "安いところを提案する",
+      "無理して行く"
+    ]
+  },
+  "02bb14d7-0d08-400e-9917-9aec53c8b7c8": {
+    "en": "You overhear a friend lightly trash-talking you. What do you do?",
+    "text": "友達が自分のことを軽く悪く言ってるのを聞いちゃった。どうする？",
+    "answers": [
+      "本人に直接言う",
+      "少し距離を置く",
+      "今回だけは聞き流す"
+    ]
+  },
+  "660a531c-8d5e-44d7-b117-483aafb66d83": {
+    "en": "At a party, your friend is about to drunk-text their ex. What do you do?",
+    "text": "飲み会で、酔った友達が元恋人に連絡しようとしてる。どうする？",
+    "answers": [
+      "スマホを取り上げる",
+      "好きにさせる"
+    ],
+    "note": "Party adapted to 飲み会 (drinking get-together), the natural Japanese setting."
+  },
+  "6ae65593-620a-47a3-bd16-3cfdba20307b": {
+    "en": "At dinner, the bill comes and your friend \"forgot\" their wallet again. What do you do?",
+    "text": "ごはんの会計で、友達がまた「財布忘れた」。どうする？",
+    "answers": [
+      "払ってあげて、何も言わない",
+      "払うけど、あとで言う"
+    ]
+  },
+  "b2f40f63-d542-449f-b8d9-7251868fe21c": {
+    "en": "In an Uber, your friend starts arguing with the driver. What do you do?",
+    "text": "タクシーで、友達が運転手と言い合いを始めた。どうする？",
+    "answers": [
+      "間に入ってなだめる",
+      "黙って終わるのを待つ"
+    ],
+    "flagged": true,
+    "note": "Uber changed to タクシー; Uber is far less common in Japan."
+  },
+  "2fca8524-3f16-4523-b057-17699983cc36": {
+    "en": "Your friend starts telling an embarrassing story about you to people you just met. What do you do?",
+    "text": "初対面の人たちの前で、友達が自分の恥ずかしい話をし始めた。どうする？",
+    "answers": [
+      "話をさえぎる",
+      "最後まで話させる"
+    ]
+  },
+  "1dc43db7-154f-4a47-9397-f3ec7f508978": {
+    "en": "A friend tells you a secret and says \"don't even tell your partner.\" What do you do?",
+    "text": "友達に秘密を打ち明けられて「恋人にも言わないで」と言われた。どうする？",
+    "answers": [
+      "絶対に守る",
+      "それでも恋人には言う",
+      "深刻なことじゃなければ守る"
+    ]
+  },
+  "f1a66bde-c82e-4903-9965-90c3fa82d1b0": {
+    "en": "You and a close friend applied for the same job, and they got it. What do you do?",
+    "text": "仲いい友達と同じ仕事に応募して、相手が受かった。どうする？",
+    "answers": [
+      "心からお祝いする",
+      "おめでとうと言うけど、内心くやしい",
+      "しばらく少し距離を置く"
+    ]
+  },
+  "e4d8aa34-b71c-4d2c-babe-8ef1e1d37350": {
+    "en": "A friend shows up at your door without texting first. What do you do?",
+    "text": "友達が連絡なしで家に来た。どうする？",
+    "answers": [
+      "喜んで入れる",
+      "入れるけど、ちょっとモヤッとする",
+      "居留守を使う",
+      "入れるけど、次は連絡してと言う"
+    ]
+  },
+  "5587411e-e5d6-4c3b-b709-925a48828ccd": {
+    "en": "A friend asks you to cover for them with their partner. What do you do?",
+    "text": "友達に、恋人へのアリバイ作りを頼まれた。どうする？",
+    "answers": [
+      "何も聞かずに協力する",
+      "事情がわかれば協力する",
+      "巻き込まれたくないから断る",
+      "引き受けるけど、これが最後と言う"
+    ]
+  },
+  "2ceb502c-1cb0-4d19-b751-39c067c789a3": {
+    "en": "A close friend forgot your birthday. What do you do?",
+    "text": "仲いい友達に誕生日を忘れられた。どうする？",
+    "answers": [
+      "全然気にしない",
+      "傷つくけど何も言わない",
+      "冗談っぽく言う",
+      "本当に悲しかったと伝える"
+    ]
+  },
+  "90a8ef25-80da-4dce-a879-4c4de8f1272a": {
+    "en": "How do you usually show a friend you care?",
+    "text": "友達を大切に思ってること、いつもどう伝える？",
+    "answers": [
+      "一緒に過ごす",
+      "ちょっとしたプレゼントやサプライズ",
+      "盛り上げて褒めまくる",
+      "困ったときに助ける",
+      "なんとなく連絡して様子を聞く"
+    ]
+  },
+  "5ea9ba87-e9a5-45bd-b147-03e94f0d2eee": {
+    "en": "Compared to a romantic breakup, losing a close friend hurts...",
+    "text": "恋人との別れと比べて、親友を失うのは…",
+    "answers": [
+      "もっとつらい",
+      "それほどつらくない",
+      "同じくらいつらい"
+    ]
+  },
+  "81c3e73b-6f4a-401f-be7c-7322f3c88d97": {
+    "en": "How often should close friends talk?",
+    "text": "仲いい友達とは、どれくらい連絡を取るべき？",
+    "answers": [
+      "毎日",
+      "週に数回",
+      "週1くらい",
+      "いつでも。決まりはない"
+    ]
+  },
+  "bf330507-367e-4d2b-a74c-51bbacecc0de": {
+    "en": "Can a friend you've only met online be a real close friend?",
+    "text": "ネットでしか知らない人と、本当の親友になれると思う？"
+  },
+  "ad99c683-1579-4b76-ac84-bbe48ccc1529": {
+    "en": "What's the most you'd spend on a close friend's birthday gift?",
+    "text": "仲いい友達の誕生日プレゼント、最大いくらまで出せる？"
+  },
+  "fe5a5b25-7f16-4855-b749-d4e8e9cc1d5f": {
+    "en": "Making new close friends as an adult is...",
+    "text": "大人になってから親しい友達を作るのは…",
+    "answers": [
+      "自分から動けば簡単",
+      "難しいけど、できる",
+      "ほぼ無理"
+    ]
+  },
+  "8c65c713-6463-475a-bf56-9ec5381e9302": {
+    "en": "Can a coworker become one of your closest friends?",
+    "text": "職場の人と親友になれると思う？"
+  },
+  "beb7f795-5c55-41bd-98fc-a459db151882": {
+    "en": "How long do you need to know someone before calling them a close friend?",
+    "text": "「親友」って呼べるまで、どれくらいの付き合いが必要？"
+  },
+  "fb50cd2d-2221-4e5f-b6eb-1a37644fda56": {
+    "en": "Your close friend starts dating your sibling. How do you feel?",
+    "text": "親友が自分のきょうだいと付き合い始めた。どう思う？",
+    "answers": [
+      "素直にうれしい",
+      "変な感じだけど、慣れる",
+      "絶対イヤ"
+    ]
+  },
+  "68663bf0-f74e-4eb2-9375-794c0160fd51": {
+    "en": "Hanging out with a friend in total silence, each doing your own thing...",
+    "text": "友達と一緒にいて、会話なしでそれぞれ好きなことをする時間は…",
+    "answers": [
+      "本当に仲いい証拠",
+      "たまにならいい",
+      "気まずい"
+    ]
+  },
+  "fb1756d1-62b7-4393-9307-53cd0f287376": {
+    "en": "When you get big news, who hears it first?",
+    "text": "大きなニュースがあったら、最初に誰に話す？",
+    "answers": [
+      "恋人",
+      "親友",
+      "家族",
+      "グループLINEで全員に一斉に"
+    ]
+  },
+  "c1fa53a1-cf09-4356-a17d-4b3af5c3a9f7": {
+    "en": "What's one habit in a friend that drives you crazy?",
+    "text": "友達のクセで、一番イラッとするのは？"
+  },
+  "570b53e3-9da8-412a-88f9-c3df5793d601": {
+    "en": "Would you start a business with a close friend?",
+    "text": "仲いい友達と一緒に起業できる？"
+  },
+  "c72dd7bf-86a8-4621-b2f2-ed918e7319c3": {
+    "en": "Your friend starts bringing their new partner to every hangout. What do you do?",
+    "text": "友達が毎回、新しい恋人を連れてくるようになった。どうする？",
+    "answers": [
+      "大歓迎、にぎやかなほうがいい",
+      "いいけど、ふたりの時間が恋しい",
+      "友達だけの時間もほしいと言う",
+      "会う回数を減らす"
+    ]
+  },
+  "637c640b-fdb6-4280-9bb5-d10092e0490f": {
+    "en": "Sharing streaming passwords with friends...",
+    "text": "動画サブスクのアカウントを友達と共有するのは…",
+    "answers": [
+      "全然アリ",
+      "本当に仲いい人とだけ",
+      "絶対ナシ"
+    ]
+  },
+  "11e1d92e-1142-4d19-b8eb-9e85b241a9c9": {
+    "en": "Competition between close friends...",
+    "text": "仲いい友達同士のライバル意識は…",
+    "answers": [
+      "やる気につながる",
+      "少しずつ関係を壊す"
+    ]
+  },
+  "04beefdc-5d0a-47a0-8476-209397119731": {
+    "en": "A friend asks you to set them up with someone. What do you do?",
+    "text": "友達に「誰か紹介して」と頼まれた。どうする？",
+    "answers": [
+      "キューピッド役は大好き",
+      "本当に合う人がいれば",
+      "リスクが高いから関わらない"
+    ]
+  },
+  "d97011a0-577f-437e-b2f7-34d6e3f16ec7": {
+    "en": "Your friend is sick at home alone. What do you do?",
+    "text": "友達が家でひとりで寝込んでる。どうする？",
+    "answers": [
+      "おかゆと薬を持って行く",
+      "デリバリーでごはんを送る",
+      "連絡して様子を聞く",
+      "助けを求められるまで待つ"
+    ],
+    "flagged": true,
+    "note": "Soup adapted to おかゆ, the typical sick-day food in Japan."
+  },
+  "49f2c5bd-906c-4677-938d-2634f11f2c0e": {
+    "en": "How many friends would you invite to your birthday?",
+    "text": "自分の誕生日に、友達を何人呼ぶ？"
+  },
+  "80b1847b-4029-4376-b594-cf2439e45e3c": {
+    "en": "A friend starts copying your style and hobbies. How do you feel?",
+    "text": "友達が自分のファッションや趣味をマネし始めた。どう思う？",
+    "answers": [
+      "ちょっとうれしい",
+      "特に気にしない",
+      "少しイラッとする",
+      "ひとこと言う"
+    ]
+  },
+  "9d61613c-1992-45d8-bef1-37f07f995e66": {
+    "en": "A friend got you a much more expensive gift than you got them. What do you do?",
+    "text": "自分があげたものよりずっと高いプレゼントを友達からもらった。どうする？",
+    "answers": [
+      "何もしない、競争じゃないし",
+      "申し訳なくなる",
+      "次でお返しする"
+    ]
+  },
+  "826c30c4-7dae-497a-be3b-a89531829cef": {
+    "en": "Would you lend your favorite piece of clothing to a friend?",
+    "text": "一番お気に入りの服、友達に貸せる？"
+  },
+  "c17f6d8c-88be-4516-b333-5e7b45e4997f": {
+    "en": "Your best friend asks you to help plan their wedding. What do you do?",
+    "text": "親友に結婚式の準備を手伝ってと頼まれた。どうする？",
+    "answers": [
+      "全力で関わる",
+      "手伝うけど、できる範囲で",
+      "当日に参加するだけ"
+    ]
+  },
+  "bea820e2-cce1-49fc-aa07-4ab99ead86c4": {
+    "en": "How many hours would you travel for a close friend's birthday?",
+    "text": "仲いい友達の誕生日のためなら、何時間かけて行ける？"
+  },
+  "45cf28ad-01d6-458f-b371-d10cb5d628b3": {
+    "en": "A friend needs a ride to the airport at 5am. What do you do?",
+    "text": "友達に朝5時に空港まで送ってと頼まれた。どうする？",
+    "answers": [
+      "喜んで送る",
+      "送るけど、ずっと文句を言う",
+      "代わりにタクシー代を出す",
+      "無理と言う"
+    ]
+  },
+  "cee7b4d0-8a85-42ae-9d36-e805461c3601": {
+    "en": "Do you share your live location with your close friends?",
+    "text": "仲いい友達と位置情報を共有してる？"
+  },
+  "1261e2f8-c857-4478-8e71-e0a25b6dac19": {
+    "en": "A friend who always tells you the harsh truth...",
+    "text": "いつも耳の痛い本音を言ってくれる友達は…",
+    "answers": [
+      "最高の友達",
+      "だんだん疲れる"
+    ]
+  },
+  "6cb7ef7c-1478-4456-b1cf-d26358f74de0": {
+    "en": "Friendships with a big age gap (10+ years)...",
+    "text": "10歳以上年の離れた友達関係は…",
+    "answers": [
+      "全然アリ",
+      "アリだけど、ちょっと違う感じ",
+      "本当に気が合うのは難しい"
+    ]
+  },
+  "9fea2ef2-07b0-4d41-b852-f5bf24dd2b6f": {
+    "en": "On a group trip, one friend wants to spend way more than everyone else. What do you do?",
+    "text": "グループ旅行で、ひとりだけお金を使いたがる友達がいる。どうする？",
+    "answers": [
+      "合わせる",
+      "高いプランのときは別行動",
+      "最初にみんなの予算を決める",
+      "使いすぎだとはっきり言う"
+    ]
+  },
+  "e442ad82-0026-4be1-a02d-5cf52c6db6b3": {
+    "en": "When a friend upsets you, do you tell them instead of quietly pulling away?",
+    "text": "友達に嫌なことをされたら、黙って離れずに本人に伝える？"
+  },
+  "a568c592-7960-40ea-b5e7-f8fcff9f1109": {
+    "en": "A friend asks you to watch their pet for a week. What do you do?",
+    "text": "友達に1週間ペットを預かってと頼まれた。どうする？",
+    "answers": [
+      "喜んで、動物大好き",
+      "どんな動物かによる",
+      "いいけど、友達の家でなら",
+      "断る"
+    ]
+  },
+  "f7975688-29c1-4bff-9678-56257d052a89": {
+    "en": "A close friend suddenly becomes famous. What changes for you?",
+    "text": "仲いい友達が急に有名になった。何が変わる？",
+    "answers": [
+      "何も。今までどおり",
+      "みんなに自慢する",
+      "自然と少し距離を置く",
+      "変わっちゃわないか心配になる"
+    ]
+  },
+  "53f44073-13ad-4340-b3dc-428d01768d73": {
+    "en": "A friend starts selling stuff and keeps pitching it to you. What do you do?",
+    "text": "友達が何かを売り始めて、しつこく勧めてくる。どうする？",
+    "answers": [
+      "応援で一回だけ買う",
+      "毎回やんわり断る",
+      "ちょっとしつこいと言う",
+      "ミュートする"
+    ]
+  },
+  "392563c7-8455-4b18-a840-2569bad40fb3": {
+    "en": "After a fight with a close friend, who reaches out first?",
+    "text": "仲いい友達とケンカしたあと、先に連絡するのは？",
+    "answers": [
+      "いつも自分",
+      "悪かったほう",
+      "誰も。何もなかったことにする",
+      "誰も。たいていそれで終わり"
+    ]
+  },
+  "580d620b-1ff6-4662-b9e7-783a83b482ab": {
+    "en": "Posting your friends on your social media...",
+    "text": "SNSに友達との写真を載せるのは…",
+    "answers": [
+      "大切に思ってる証拠",
+      "別に必要ない"
+    ]
+  },
+  "c01dd781-f740-41b0-a72c-d6706d48e8ff": {
+    "en": "Could you be friends with your partner's ex?",
+    "text": "恋人の元恋人と友達になれる？"
+  },
+  "0dca06e6-2ca7-47d9-baad-475f804027d3": {
+    "en": "What's the ideal number of people for a friends' trip?",
+    "text": "友達旅行、理想の人数は何人？"
+  }
+}

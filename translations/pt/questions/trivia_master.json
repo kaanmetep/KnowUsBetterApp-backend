@@ -5,11 +5,9 @@
     "answers": [
       "Cérebro",
       "Coração",
-      "Fígado",
+      "Pulmões",
       "Rins"
-    ],
-    "flagged": true,
-    "note": "Ambiguous: the brain and liver are both often cited depending on how energy use is measured."
+    ]
   },
   "a1a237a1-628a-4008-9ba2-36d59a0e6171": {
     "en": "Which primary color mixture produces the color green in standard visual pigments?",
@@ -23,15 +21,13 @@
     "note": "Depends on the color model; in CMYK pigment mixing, green is closer to cyan and yellow."
   },
   "c1cb1e49-a9cc-43e1-b6da-34f4da305a37": {
-    "en": "Which architectural feature was specifically invented by ancient Romans to support massive dome structures?",
-    "text": "Qual elemento arquitetônico foi inventado pelos antigos romanos para sustentar grandes cúpulas?",
+    "en": "Which architectural feature did the ancient Romans rely on to support massive domes?",
+    "text": "Em qual elemento arquitetônico os antigos romanos se apoiaram para sustentar enormes cúpulas?",
     "answers": [
       "O arco",
       "A coluna",
       "A pirâmide"
-    ],
-    "flagged": true,
-    "note": "Fact is questionable: arches predate the Romans, and dome support is more specific than just arches."
+    ]
   },
   "e9339914-1d7d-423a-9a28-2519995eb9e6": {
     "en": "Which planet in our solar system spins in the opposite direction to most other planets?",
@@ -86,11 +82,9 @@
     "answers": [
       "Elefante",
       "Girafa",
-      "Hipopótamo",
-      "Rinoceronte"
-    ],
-    "flagged": true,
-    "note": "Common trivia claim, but it can be disputed because other large land mammals may also be unable or unlikely to jump."
+      "Cavalo",
+      "Cervo"
+    ]
   },
   "a98b74cf-707a-4d84-a017-ea98f2d69e68": {
     "en": "How many sides does a standard stop sign on the road have?",
@@ -111,16 +105,14 @@
     ]
   },
   "4563d6d4-5301-4f89-811a-045b66157aa2": {
-    "en": "Which soft drink was originally invented as a cough syrup and headache remedy?",
-    "text": "Qual refrigerante foi inventado originalmente como xarope para tosse e remédio para dor de cabeça?",
+    "en": "Which soft drink was first sold as a medicine for headaches and fatigue?",
+    "text": "Qual refrigerante foi vendido no início como remédio para dor de cabeça e cansaço?",
     "answers": [
       "Coca-Cola",
       "Sprite",
       "Fanta",
       "Pepsi"
-    ],
-    "flagged": true,
-    "note": "Coca-Cola was marketed as a patent medicine and headache remedy, but the cough syrup claim is dubious."
+    ]
   },
   "83fbd060-6ae4-4fc1-9ebe-4b0e7a2e0c15": {
     "en": "Which organ in the human body pumps blood through the circulatory system?",
@@ -132,16 +124,14 @@
     ]
   },
   "a79f90ff-8ce5-493b-8b50-2ef10c1f9c26": {
-    "en": "How many continents are there on planet Earth?",
-    "text": "Quantos continentes existem no planeta Terra?",
+    "en": "Which is the largest continent?",
+    "text": "Qual é o maior continente?",
     "answers": [
-      "7",
-      "5",
-      "6",
-      "8"
-    ],
-    "flagged": true,
-    "note": "Answer depends on the continent model; Brazil often teaches 6 continents, while the answer key uses 7."
+      "Ásia",
+      "África",
+      "América do Norte",
+      "Antártida"
+    ]
   },
   "b6c425a9-162f-4107-919c-20eea21afc7a": {
     "en": "What is the name of the imaginary line that divides Earth into the Northern and Southern Hemispheres?",
@@ -482,8 +472,8 @@
     "note": "Answer key accepts squid, but the clue mainly points to octopus."
   },
   "78899d32-d997-4e60-b9a5-c635406a0d3a": {
-    "en": "Sushi originally comes from which country?",
-    "text": "O sushi é originalmente de qual país?",
+    "en": "Sushi is a traditional dish of which country?",
+    "text": "O sushi é um prato tradicional de qual país?",
     "accepted": [
       "Japão",
       "Japao",

@@ -1,0 +1,615 @@
+{
+ "7e32c0fb-1531-4e16-af1c-629343ffb7e9": {
+  "text": "Wat eet {{playerName}} het liefst als ontbijt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0425f81b-0c26-4d2f-b061-adfe977513d3": {
+  "text": "Wat wil {{playerName}} het liefst op een pizza?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dfbde649-f017-4e8e-8d54-6ec9c9694fc5": {
+  "text": "Welke koffie bestelt {{playerName}} meestal?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d99e5617-1698-4240-a0a8-c3daea39022d": {
+  "text": "Wat is de favoriete snack van {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ee877ca1-488d-4f97-9598-fd22509ac148": {
+  "text": "Welk fruit eet {{playerName}} het liefst?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9592c028-df70-4e2a-b66d-f17130e2480e": {
+  "text": "Hoe eet {{playerName}} eieren het liefst?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1bd92319-ff3e-43b3-81b8-f13be6fd47bf": {
+  "text": "Hoe laat gaat {{playerName}} meestal slapen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d90798ff-2c56-4b01-a1c8-2780928f2161": {
+  "text": "Naar welke tekenfilm keek {{playerName}} als kind het liefst?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "74c6652c-3f00-4012-8585-e196f91a11f9": {
+  "text": "Welke app opent {{playerName}} ’s ochtends als eerste?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "44cb3c9e-6be8-4872-9542-0b08384ef41e": {
+  "text": "Wat is de favoriete emoji van {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7dc94a81-6d5d-4d12-9d9b-f9ab59fc038a": {
+  "text": "Welk merk telefoon heeft {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a8cb7aac-c671-48bd-a093-3d7fd524491e": {
+  "text": "Wat kijkt {{playerName}} op dit moment?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "17ec277b-a7f7-49ce-8eec-99683adbcbb2": {
+  "text": "Wat is het lievelingsdier van {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "145f2f5b-8e80-4252-a357-3ae2d5c4c1d0": {
+  "text": "Wat is het geluksgetal van {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2a1297e0-6d77-4cf2-a3ff-e5f8057dcc30": {
+  "text": "Wat is het sterrenbeeld van {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e867a504-b007-4206-8378-19171432174d": {
+  "text": "Welk seizoen vindt {{playerName}} het fijnst?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "55cc5151-4dc7-4a67-90de-b1829ca19dc8": {
+  "text": "Wat was de bijnaam van {{playerName}} als kind?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bb5df921-8ba2-4082-90b4-fb7c936731dc": {
+  "text": "Naar welke artiest luistert {{playerName}} het liefst?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ebad8d20-818e-4d82-8191-1a2c198bfa7f": {
+  "text": "Welke chocolade eet {{playerName}} het liefst?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a029377a-dcee-4c47-80ac-e652ce1363f6": {
+  "text": "Wat is het favoriete fastfood van {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "34591a59-c1f0-426b-a04c-c98cee22942d": {
+  "text": "Hoe noemt {{playerName}} de eigen moeder?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d557c7ce-b091-4b4b-ad44-73eb4a9f1d17": {
+  "text": "Wie is de favoriete superheld van {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ff54dc71-bbb6-46f6-973f-7381edb1f930": {
+  "text": "Wat doet {{playerName}} als eerste zodra die thuiskomt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "837a824d-df7a-4c64-b6ba-16f11164e978": {
+  "text": "Welk klusje in huis haat {{playerName}} het meest?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "792869b8-ec29-496c-b85e-f010457ea0ae": {
+  "text": "Wat raakt {{playerName}} altijd kwijt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b140bb4d-c30d-4ef6-9106-988634717a5f": {
+  "text": "Hoe snel reageert {{playerName}} op berichten?",
+  "answers": [
+   "Meteen",
+   "Uren later",
+   "Laat je op gelezen staan",
+   "Stuurt een spraakbericht"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4a6273eb-4b65-4061-a9b8-e0926c7675eb": {
+  "text": "Hoe is {{playerName}} op een feestje?",
+  "answers": [
+   "Op de dansvloer",
+   "In een hoekje",
+   "In de keuken",
+   "Gaat vroeg naar huis"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "401000a3-ed4d-43cd-98a9-9eb83866750c": {
+  "text": "Hoe pakt {{playerName}} in voor een reis?",
+  "answers": [
+   "Een week van tevoren",
+   "De avond ervoor",
+   "Vergeet de helft",
+   "Neemt veel te veel mee"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "22169b2f-f26f-4151-8015-bafef065eb8f": {
+  "text": "Wat doet {{playerName}} als die verdwaald is?",
+  "answers": [
+   "Vraagt het iemand",
+   "Kijkt op de kaart",
+   "Loopt gewoon door",
+   "Belt iemand"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "eca7e545-d5fe-43d3-b4fe-2e6aec589557": {
+  "text": "Wat doet {{playerName}} met restjes?",
+  "answers": [
+   "Bewaart ze",
+   "Eet ze om middernacht op",
+   "Gooit ze weg",
+   "Vergeet ze in de koelkast"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "61d8bdfa-ccc2-48c1-8c58-446ed197d69c": {
+  "text": "Hoe is {{playerName}} ’s ochtends?",
+  "answers": [
+   "Chagrijnig",
+   "Zwijgt tot na de koffie",
+   "Kletst al volop",
+   "Blijft eindeloos snoozen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5dfed285-7d4f-4e71-8506-84c8415cbc26": {
+  "text": "Hoe is {{playerName}} als bijrijder?",
+  "answers": [
+   "Slaapt de hele rit",
+   "Bepaalt de muziek",
+   "Navigeert",
+   "Vraagt steeds: “Zijn we er al?”"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a1f2d79a-ce13-4322-a5b8-f10091d8772d": {
+  "text": "Hoe kiest {{playerName}} een restaurant?",
+  "answers": [
+   "Leest alle reviews",
+   "Gaat naar het vaste adresje",
+   "Loopt de eerste de beste binnen",
+   "Laat de ander kiezen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6e745806-a8fc-4404-a45c-090c14c466a1": {
+  "text": "Hoe is {{playerName}} als die ziek is?",
+  "answers": [
+   "Maakt er een drama van",
+   "Doet alsof er niks is",
+   "Slaapt de hele dag",
+   "Wil met rust gelaten worden"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "471a6e48-e963-420e-bf7d-7a708e35c2e0": {
+  "text": "Hoe maakt {{playerName}} foto’s?",
+  "answers": [
+   "Vijftig keer dezelfde foto",
+   "Maakt er nooit",
+   "Alleen selfies",
+   "Alleen van het eten"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "368f1aa0-70bc-4aa8-8117-95ecbf9ab3cf": {
+  "text": "Hoe slaapt {{playerName}} meestal?",
+  "answers": [
+   "Op de rug",
+   "Op de zij",
+   "Op de buik",
+   "Uitgestrekt als een zeester"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f32d78d9-ad1f-4da1-a4eb-bb631981389d": {
+  "text": "Hoe lang staat {{playerName}} onder de douche?",
+  "answers": [
+   "Minder dan 5 minuten",
+   "Zo’n 10 minuten",
+   "Ruim 20 minuten",
+   "Een uur"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4a4c1dcb-edc8-499a-b622-51d40eb7fed0": {
+  "text": "Hoe pittig eet {{playerName}} het liefst?",
+  "answers": [
+   "Niet pittig",
+   "Een beetje",
+   "Best pittig",
+   "Het pittigste van de kaart"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "64443fba-3210-45c2-91a7-e445962bb768": {
+  "text": "Hoeveel wekkers zet {{playerName}}?",
+  "answers": [
+   "Geen",
+   "Eén",
+   "Twee of drie",
+   "Een hele rits"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7ae392a8-9407-45b1-8393-659cd8c7ff06": {
+  "text": "Hoeveel ijs wil {{playerName}} in een drankje?",
+  "answers": [
+   "Geen",
+   "Een beetje",
+   "Een half glas",
+   "Tot de rand vol"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8d2288a5-7234-4b0a-9d04-a4df4a7c8276": {
+  "text": "Hoe warm wil {{playerName}} de kamer hebben?",
+  "answers": [
+   "Koud",
+   "Fris",
+   "Warm",
+   "Bloedheet"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9a333a60-a208-4fa6-b5ad-715cc8915816": {
+  "text": "Hoe loopt {{playerName}} samen met iemand?",
+  "answers": [
+   "Blijft achter",
+   "Loopt er precies naast",
+   "Loopt voorop",
+   "Staat al bij de deur te wachten"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "03e69dee-3b69-4951-8dc6-3b8264f042b0": {
+  "text": "Hoe fel wil {{playerName}} het licht?",
+  "answers": [
+   "Bijna donker",
+   "Gedimd",
+   "Normaal",
+   "Alles vol aan"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0aca9c68-fa93-42be-9d3c-1de5a6691b90": {
+  "text": "Hoeveel van het bord eet {{playerName}} op?",
+  "answers": [
+   "Laat de helft liggen",
+   "Laat een beetje liggen",
+   "Eet alles op",
+   "Schept nog een keer op"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5c58e0a8-e571-49fa-9dcf-8bcabbfd351d": {
+  "text": "Hoe hard zet {{playerName}} de tv?",
+  "answers": [
+   "Heel zacht",
+   "Normaal",
+   "Hard",
+   "Het hele gebouw hoort mee"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8dcf54f4-7604-4a50-868f-a1059383d60f": {
+  "text": "Naar welke sport kijkt {{playerName}} het meest?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "518cefed-96bc-4925-a6d7-cbbbe1bafe71": {
+  "text": "De telefoon van {{playerName}} staat meestal…",
+  "answers": [
+   "Op stil of trillen",
+   "Zachtjes, netjes",
+   "Zo hard dat iedereen meeluistert"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b194f4d3-f0fd-4181-9fe0-ba5a5d8df660": {
+  "text": "Wat is het favoriete drankje van {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "479bda74-7ea0-4281-b895-aa99f5ec2cd2": {
+  "text": "Welke dag van de week vindt {{playerName}} het leukst?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d8a84507-b8e2-4a95-843a-ee747cc48192": {
+  "text": "Welk schoenenmerk draagt {{playerName}} het vaakst?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "93071ba2-48c1-40a4-9b45-223d4ea76fba": {
+  "text": "Wat is het favoriete kledingmerk van {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2cfc2473-9298-4832-91ac-7d80bdb6acf8": {
+  "text": "Naar welk troosteten grijpt {{playerName}} bij verdriet?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1964cbeb-89e2-449a-8c9f-a62f03c5001e": {
+  "text": "Waar kijkt {{playerName}} ’s ochtends als eerste naar op de telefoon?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "72d01256-9cc6-4e00-9ee2-32149b3777c1": {
+  "text": "Wat doet {{playerName}} als er niemand thuis is?",
+  "answers": [
+   "Zingt keihard",
+   "Danst door het huis",
+   "Voert denkbeeldige gesprekken",
+   "Eet in bed"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5426502c-b09e-4e22-9d93-14cdcc37e444": {
+  "text": "Wat doet {{playerName}} als die iemands naam vergeten is?",
+  "answers": [
+   "Zegt de naam gewoon niet",
+   "Verzint een bijnaampje",
+   "Geeft het meteen toe",
+   "Vraagt het stiekem aan een ander"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b8373ab6-1ddc-4a1b-9c77-fb896eac0d39": {
+  "text": "Wat doet {{playerName}} na een struikelpartij op straat?",
+  "answers": [
+   "Doet alsof het een sprintje was",
+   "Kijkt boos naar de grond",
+   "Schiet in de lach",
+   "Doet alsof er niks gebeurd is"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c01488a8-0bfe-43e5-8da7-3d73f726e8a8": {
+  "text": "Wat zou {{playerName}} als eerste doen na het winnen van de loterij?",
+  "answers": [
+   "Ontslag nemen",
+   "Een huis kopen",
+   "De wereld rondreizen",
+   "Niemand iets vertellen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9c6b53e4-f5b8-473e-b934-46874be76618": {
+  "text": "Wat doet {{playerName}} in een zombieapocalyps?",
+  "answers": [
+   "Neemt de leiding",
+   "Wordt als eerste gebeten",
+   "Hamstert alle snacks",
+   "Verraadt iedereen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "23003c7d-5093-46f0-a54a-2f942131eb3c": {
+  "text": "Welke superkracht zou {{playerName}} kiezen?",
+  "answers": [
+   "Vliegen",
+   "Onzichtbaar zijn",
+   "Gedachten lezen",
+   "Teleporteren"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f29d4add-5a02-4673-af37-22538518bf1d": {
+  "text": "Wat staat er nu op het vergrendelscherm van {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2c118d16-4d4d-47ed-a1e5-324d8ff8801c": {
+  "text": "Hoeveel uur schermtijd heeft {{playerName}} gemiddeld per dag?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "87169443-4ab3-4ed7-a6a9-86d699553988": {
+  "text": "In welke app zit {{playerName}} volgens de schermtijd het meest?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d2eb66d6-376f-48c0-a8c4-b9bd593f2533": {
+  "text": "Hoeveel ongelezen meldingen heeft {{playerName}} meestal?",
+  "answers": [
+   "Nul, altijd weggeklikt",
+   "Een paar",
+   "Tientallen",
+   "Honderden"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b33c8cde-b296-45cf-b287-875bb5ce045e": {
+  "text": "Hoe vol is de telefoonbatterij van {{playerName}} meestal?",
+  "answers": [
+   "Altijd boven de 80%",
+   "Ergens in het midden",
+   "Meestal onder de 20%",
+   "Altijd bijna leeg"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7a8fe703-7dff-4a13-a22a-e41eb71b652a": {
+  "text": "Hoe heet de wifi bij {{playerName}} thuis?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "147fc614-cbc3-40c2-99c8-4c3153cd6e71": {
+  "text": "Wat heeft {{playerName}} als laatste online gekocht?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "517564ba-2931-43ca-827c-58dddf379dac": {
+  "text": "Wat eet {{playerName}} nooit, wat er ook gebeurt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

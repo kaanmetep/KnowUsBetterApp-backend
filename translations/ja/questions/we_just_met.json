@@ -1,0 +1,1471 @@
+{
+  "f8b8e4f3-28d9-4886-af07-a40660eecc99": {
+    "en": "Would you date someone with a very different music taste?",
+    "text": "音楽の好みが全然違う人と付き合える？"
+  },
+  "f304ce02-dda7-4317-8fdb-ea25aee9c4a4": {
+    "en": "Is your partner’s education level important to you?",
+    "text": "恋人の学歴って気になる？"
+  },
+  "53cff209-fbc0-4246-b117-18b3555971df": {
+    "en": "Would you date someone shorter than you?",
+    "text": "自分より背が低い人と付き合える？"
+  },
+  "bc57ff15-11b9-4073-ae40-e1d0f01c0fad": {
+    "en": "Are you afraid of ending up alone in life?",
+    "text": "この先ずっとひとりになるのが怖い？"
+  },
+  "f43d3e26-8697-42a0-8804-7145be8be518": {
+    "en": "Would it bother you if your partner has had more exes than you?",
+    "text": "恋人の元恋人の数が自分より多かったら気になる？"
+  },
+  "a341a8ea-7831-4c4c-993b-95651f9220ee": {
+    "en": "Would you date someone you're not physically attracted to?",
+    "text": "見た目がタイプじゃない人と付き合える？"
+  },
+  "83898e96-79ac-41d0-a2cd-f95d16e018bd": {
+    "en": "Would it bother you if your partner talks about marriage at the start of a relationship?",
+    "text": "付き合いたてで恋人が結婚の話をしてきたら重い？"
+  },
+  "1bc54b46-bd63-495c-979d-0d1e4203d959": {
+    "en": "Would you consider marrying someone from a foreign country?",
+    "text": "外国の人との結婚も考えられる？"
+  },
+  "fc039185-c94b-4708-bb45-c273aa7abbc5": {
+    "en": "Should the man pay the bill on the first date?",
+    "text": "初デートは男性がおごるべき？",
+    "flagged": true,
+    "note": "Source itself is about gender roles (generic 'the man'), not the players' gender; kept as 男性. Review if this question fits same-sex couples."
+  },
+  "32406677-bba7-491a-aff9-d64567ca82c0": {
+    "en": "Would you pay your partner's debt?",
+    "text": "恋人の借金、代わりに返せる？"
+  },
+  "16ab0dae-f337-4214-84b3-f4fd1d237451": {
+    "en": "Have you ever been physically with someone you didn't have feelings for?",
+    "text": "気持ちのない相手と体の関係を持ったことある？"
+  },
+  "24afb9f9-09fe-479b-b7fe-222f914f546d": {
+    "en": "Have you ever used someone who was deeply in love with you just to avoid being alone?",
+    "text": "さみしさを埋めるためだけに、本気で好きになってくれた人を利用したことある？"
+  },
+  "2e854593-1245-4f29-8c9d-dc97306eaeb0": {
+    "en": "In the future, would you prefer living in a big city or a quiet town with your partner?",
+    "text": "将来、恋人と住むなら都会と静かな町どっち？",
+    "answers": [
+      "都会",
+      "静かな町"
+    ]
+  },
+  "9fcb5dab-3f2e-4a0d-b23a-61900bc49522": {
+    "en": "Would you date someone who becomes unpleasant when they drink alcohol?",
+    "text": "お酒を飲むと人が変わる人と付き合える？"
+  },
+  "97b6d4e0-ab32-423e-bc3f-53883b958a5d": {
+    "en": "Would you stay in a relationship if you felt emotionally unfulfilled but not unhappy?",
+    "text": "不幸じゃないけど心が満たされない関係、続ける？"
+  },
+  "32b5d1f7-97f4-466b-ad7f-395b505c73a7": {
+    "en": "Can a relationship work without physical chemistry?",
+    "text": "体の相性が合わなくても恋愛ってうまくいく？"
+  },
+  "2d748ea6-89f2-4ad3-bb23-ea30c2c73842": {
+    "en": "If offered 1 million dollars to seduce your best friend's partner, would you accept?",
+    "text": "1億円もらえるなら、親友の恋人を口説く？",
+    "flagged": true,
+    "note": "1 million dollars localized to 1億円 (round, natural sum in Japan)."
+  },
+  "e55ea49c-c670-4fe9-bf1c-267153fc88e0": {
+    "en": "Do you think you have ever hurt someone in the same way you fear being hurt?",
+    "text": "自分がされるのが怖い傷つけ方で、誰かを傷つけたことあると思う？"
+  },
+  "5264f2b0-12db-44aa-81d2-395cee494d0c": {
+    "en": "If you had a lot of money, would you live without working?",
+    "text": "お金がたくさんあったら、働かずに暮らす？"
+  },
+  "92350381-e030-4eb9-adea-eba4539776db": {
+    "en": "In the future, would you choose to stay in your hometown with your partner or move to a completely new place together?",
+    "text": "将来、恋人と地元に残る？それとも新しい場所に引っ越す？",
+    "answers": [
+      "地元に残る",
+      "新しい場所に引っ越す"
+    ]
+  },
+  "3e001ead-34f3-49cd-841b-0adf7ed83ee2": {
+    "en": "Would you go through your partner's phone?",
+    "text": "恋人のスマホ、こっそり見る？"
+  },
+  "cb65844c-0923-4018-827e-7e5e742a2c88": {
+    "en": "Would you be okay if your partner needed space from you for an extended period of time?",
+    "text": "恋人がしばらく距離を置きたいって言ったら受け入れられる？"
+  },
+  "13769262-3c15-4137-99c0-eee392521846": {
+    "en": "For you, is it more important who your partner was in the past or who they want to become in the future?",
+    "text": "恋人について大事なのは、過去どんな人だったかとこれからどうなりたいか、どっち？",
+    "answers": [
+      "過去の人柄",
+      "これからの可能性"
+    ]
+  },
+  "6b732428-5ccc-4b9e-a751-ea915f51024f": {
+    "en": "Do you expect a good morning message from your partner every day?",
+    "text": "恋人から毎朝「おはよう」LINEが来てほしい？",
+    "note": "Message localized to LINE, the default messenger in Japan."
+  },
+  "d2cb8fd1-c4ee-43e7-9bec-026c60baf9ad": {
+    "en": "Would you interfere with your partner's clothing style?",
+    "text": "恋人の服のセンスに口出しする？"
+  },
+  "04b359db-733e-4009-8f92-b0814aa0b03a": {
+    "en": "Have you ever ignored a message from your partner to seem cooler?",
+    "text": "余裕ぶりたくて、恋人からのメッセージをわざと既読にしなかったことある？"
+  },
+  "a0098eef-632a-4297-94cf-514d6abb3a58": {
+    "en": "Is it harder to be the one who leaves or the one who stays?",
+    "text": "つらいのは、去る側と残される側どっち？",
+    "answers": [
+      "去る側",
+      "残される側"
+    ]
+  },
+  "44bf894e-1b91-4709-9c94-74b54c849ec9": {
+    "en": "In the future, would it be a problem for you if your partner only wanted a son and did not want a daughter at all?",
+    "text": "将来、恋人が「男の子しかいらない、女の子は絶対イヤ」って言ったら問題？"
+  },
+  "8e44a610-70a6-443a-a5f4-6695dd7f2acb": {
+    "en": "Have you ever cheated on your partner?",
+    "text": "恋人がいるのに浮気したことある？"
+  },
+  "f7cd4adc-4c3a-462d-80b8-a9cb5e0d59a7": {
+    "en": "Have you ever been cheated on by your partner?",
+    "text": "恋人に浮気されたことある？"
+  },
+  "b06e47ff-0765-4387-a852-0e0f8d671331": {
+    "en": "Can someone who truly loves you forgive anything?",
+    "text": "本気で愛してたら、何でも許せる？"
+  },
+  "6e964579-93e2-4ea7-a602-f2da4dc10c40": {
+    "en": "Would you date someone who doesn't like animals?",
+    "text": "動物が好きじゃない人と付き合える？"
+  },
+  "9da6aa5a-72e2-4cfc-967b-a1333bc77fde": {
+    "en": "Would it bother you if your partner stayed in touch with their ex?",
+    "text": "恋人が元恋人と連絡を取ってたら気になる？"
+  },
+  "5a13add7-782e-4168-a409-a8dd27a630b6": {
+    "en": "Would you continue a relationship with someone who doesn't enjoy exercising?",
+    "text": "運動が嫌いな人とでも付き合い続けられる？"
+  },
+  "97b0ab35-8d44-44b9-9ab1-814f1f7f85a8": {
+    "en": "Would you date someone older than you?",
+    "text": "年上の人と付き合える？"
+  },
+  "fdcd6d7e-01fa-494d-a8de-7b442ca67c54": {
+    "en": "What hurts more in a relationship: being lied to or being ignored?",
+    "text": "恋愛でもっと傷つくのはどっち？",
+    "answers": [
+      "ウソをつかれる",
+      "無視される"
+    ]
+  },
+  "20510bb3-bf38-4b99-bb6d-4afcab715e9e": {
+    "en": "Have you ever acted like you had money during flirting when you actually didn't?",
+    "text": "お金がないのに、デート中にお金あるフリしたことある？"
+  },
+  "cb8b64a7-939c-4ae3-8a90-74b432a1443c": {
+    "en": "If you were in love but your future goals were very different, would you continue the relationship?",
+    "text": "好きでも、将来の目標が全然違ったら付き合い続ける？"
+  },
+  "008255f4-ad49-4afa-b3ff-75cdf23edc79": {
+    "en": "If you didn't talk to your partner for a whole day, would it cause an argument?",
+    "text": "恋人と丸1日まったく話さなかったら、ケンカになる？"
+  },
+  "fa0c44cc-ec0b-436b-9ccd-7bbc0543e25b": {
+    "en": "If your mother wanted you to break up with your partner, would you do it? (No compromise allowed)",
+    "text": "お母さんに「恋人と別れて」って言われたら、別れる？（妥協はナシ）"
+  },
+  "1317fcea-d7cc-4eec-8f68-f27242b04416": {
+    "en": "Would you let your partner read your Instagram DMs?",
+    "text": "恋人にインスタのDMを見せられる？"
+  },
+  "dbc65ae7-6de1-4c22-a234-30dfe8df9e83": {
+    "en": "Would you start a serious relationship with someone you met on social media?",
+    "text": "SNSで知り合った人と真剣に付き合える？"
+  },
+  "1049e2d0-ff17-4ee1-ab4f-f85fe3f9b87c": {
+    "en": "Would you control your partner's Instagram posts?",
+    "text": "恋人のインスタの投稿をチェックする？"
+  },
+  "a62df855-633d-493b-8ab3-2550e3b3365e": {
+    "en": "If your partner is online but doesn't reply, would it cause a fight?",
+    "text": "恋人がオンラインなのに返信がなかったら、ケンカになる？"
+  },
+  "ae38b2a8-6c8a-4e8c-a318-b1e20f4aa648": {
+    "en": "In the future, would you consider marrying someone who has been with more people than you?",
+    "text": "将来、自分より経験人数が多い人との結婚も考えられる？"
+  },
+  "3854250e-4b69-4774-8b6a-a2e7d388e9cf": {
+    "en": "Have you ever forgiven someone who cheated on you?",
+    "text": "浮気されて、許したことある？"
+  },
+  "fbdb80de-c188-405f-82b0-4e79741032fb": {
+    "en": "Do you believe that everyone deserves a second chance, regardless of what they did?",
+    "text": "何をした人でも、セカンドチャンスはあるべきだと思う？"
+  },
+  "f3b3010c-c0bd-47ed-a4bf-e62dd8e2006f": {
+    "en": "Would you give up your biggest passion in life for someone you love?",
+    "text": "好きな人のために、人生で一番夢中になってることをあきらめられる？"
+  },
+  "fdb7ee23-84ac-47e3-82cc-e99cfdc6faef": {
+    "en": "Do you believe that people can truly change their core personality over time?",
+    "text": "人の根っこの性格って、時間がたてば本当に変わると思う？"
+  },
+  "c29fa0f5-b83a-4d47-b83a-23415dbccd57": {
+    "en": "Would it bother you if your partner was the only woman/man in a large group of friends?",
+    "text": "恋人が大人数の友達グループで、ひとりだけ性別が違ったら気になる？",
+    "flagged": true,
+    "note": "Source 'only woman/man' slash form rephrased as 'the only one of a different gender in the group' to stay neutral."
+  },
+  "8a608656-6f0c-4340-a4ea-9946910b72b5": {
+    "en": "In the future, would you choose a partner who wants to save money for the future or a partner who prefers to enjoy spending in the present?",
+    "text": "パートナーにするなら、将来のために貯める人と今を楽しんで使う人、どっち？",
+    "answers": [
+      "将来のために貯める",
+      "今を楽しんで使う"
+    ]
+  },
+  "23c84c87-92c4-43a2-8803-f5f70ee8691a": {
+    "en": "Would you date someone who loves nightlife?",
+    "text": "夜遊びが大好きな人と付き合える？"
+  },
+  "ce87d138-4cfa-4aee-9758-29ca3d1b954b": {
+    "en": "Do you believe that everything that will happen to you is already written?",
+    "text": "これから起きることは全部、運命で決まってると思う？"
+  },
+  "3decdc82-9ae0-4505-91f6-6302b5c53c41": {
+    "en": "Would you date someone who constantly needs your attention?",
+    "text": "いつもかまってほしい人と付き合える？"
+  },
+  "706d8700-739b-47ae-9dd1-dce16f162a07": {
+    "en": "Would you date someone who is stingy?",
+    "text": "ケチな人と付き合える？"
+  },
+  "0b4812d9-d4b8-4f65-8890-54552b41ef89": {
+    "en": "Would you date someone whose voice you don't like?",
+    "text": "声が好きになれない人と付き合える？"
+  },
+  "001a4314-020a-4324-a750-caa1ad0bc9e4": {
+    "en": "Would you want your partner to delete their old social media posts?",
+    "text": "恋人にSNSの昔の投稿を消してほしい？"
+  },
+  "0d6447bb-6e82-460a-b04d-5d2f003696e4": {
+    "en": "In the future, would you include your partner in all of your life plans?",
+    "text": "将来の計画は全部、恋人と一緒に考える？"
+  },
+  "6d5ea62e-65a1-4df6-945b-5f285684a863": {
+    "en": "Would you date someone who doesn't like reading books?",
+    "text": "本を読むのが好きじゃない人と付き合える？"
+  },
+  "ac395c4f-0f1f-409a-b052-949dc725b2d7": {
+    "en": "Would you date someone who is unemployed?",
+    "text": "無職の人と付き合える？"
+  },
+  "5bad6b2a-f446-40b8-80eb-1eb297558aaf": {
+    "en": "Have you ever kept talking to someone you didn't like just for attention?",
+    "text": "かまってほしくて、好きでもない人とやりとりを続けたことある？"
+  },
+  "2ea3cafa-eafd-4846-ae37-6b1bd3b0afe0": {
+    "en": "Do you expect your partner to remember all the special dates in your relationship?",
+    "text": "ふたりの記念日を、恋人には全部覚えててほしい？"
+  },
+  "69756540-7f71-4731-b79c-4eb07fe1da71": {
+    "en": "Have you ever imagined what kind of wedding you would have?",
+    "text": "自分の結婚式、どんな感じがいいか想像したことある？"
+  },
+  "fe1b8a27-eb1b-4098-a0a4-914e39ab95eb": {
+    "en": "Is it a problem for you if your partner is not at the same intellectual level as you?",
+    "text": "恋人と知的レベルが合わないのは問題？"
+  },
+  "86fdbda3-1523-4d06-9d8c-07124f41ef2f": {
+    "en": "Have you ever used a dating app?",
+    "text": "マッチングアプリ、使ったことある？"
+  },
+  "93527a98-af04-46b4-ac9c-fa8ef3187751": {
+    "en": "In the future, would it be a problem for you if the person you want to marry already had a child with someone else?",
+    "text": "将来結婚したい人に、前の相手との子どもがいたら抵抗ある？"
+  },
+  "edf7a999-9c89-4253-9fd5-b1ef5ab799ed": {
+    "en": "Does love have an age limit?",
+    "text": "恋に年齢制限ってある？"
+  },
+  "e635d076-0016-4987-9d87-f888b2e841ad": {
+    "en": "Is it a problem for you if your partner does not like reading books?",
+    "text": "恋人が本を読むのが好きじゃなかったら気になる？"
+  },
+  "79e8a155-3eb1-4fd5-89a7-b2848c75044b": {
+    "en": "Have you ever fallen in love with someone you shouldn’t have?",
+    "text": "好きになっちゃいけない人を好きになったことある？"
+  },
+  "c141b0f8-c822-4fda-b966-2d0bfccab391": {
+    "en": "Would you rather your partner discover your flaws early on or bit by bit?",
+    "text": "自分の欠点、恋人には最初から知ってほしい？それとも少しずつ？",
+    "answers": [
+      "最初から",
+      "少しずつ"
+    ]
+  },
+  "60fa63d8-776a-4cf9-91fa-806954a2c37c": {
+    "en": "Ambitious career growth where we’re busy, or a slower, balanced life with more time together?",
+    "text": "仕事をがんばる忙しい毎日と、ふたりの時間が多いゆったりした毎日、どっちがいい？",
+    "answers": [
+      "キャリア重視",
+      "バランス重視"
+    ]
+  },
+  "4aec1675-cf2f-4623-9c75-47bc416fb320": {
+    "en": "Would you act cold on purpose to impress someone you like?",
+    "text": "好きな人の気を引くために、わざとそっけなくする？"
+  },
+  "1613d859-b83f-4783-aa2d-695aadcc9bc2": {
+    "en": "Have you ever done something silly to get over a breakup?",
+    "text": "失恋から立ち直るために、バカなことしたことある？"
+  },
+  "7183b9a1-aaff-4c67-a4a6-e86933246045": {
+    "en": "Is it important for you to have the same taste in food as your partner?",
+    "text": "恋人と食の好みが合うのって大事？",
+    "answers": [
+      "大事",
+      "大事じゃない"
+    ]
+  },
+  "17ab270c-0960-4272-bef3-497c0338069f": {
+    "en": "Would you rather share all passwords and locations for total trust, or keep some digital privacy for independence?",
+    "text": "信頼のためにパスワードも位置情報も全部共有する？それとも少しはプライバシーを残す？",
+    "answers": [
+      "全部オープン",
+      "プライバシーも大事"
+    ]
+  },
+  "ebc6c164-d692-4a9a-b39e-76ed5c8b4435": {
+    "en": "Would you lie to your partner just to make them happy?",
+    "text": "恋人を喜ばせるためだけに、ウソをつく？"
+  },
+  "54c4d6cd-73cc-47f0-b70b-da72232dad98": {
+    "en": "Would you seek revenge on a partner who cheated on you?",
+    "text": "浮気した恋人に仕返しする？"
+  },
+  "39450fcf-8356-4078-b219-8cb06da5af79": {
+    "en": "If you stayed single for a long time, would you lower your standards to be with someone?",
+    "text": "恋人がいない期間がずっと続いたら、理想を下げてでも誰かと付き合う？"
+  },
+  "a041fab5-92d4-4a5f-be2f-b957f329b5bd": {
+    "en": "Your partner talking about their past relationships...",
+    "text": "恋人が昔の恋愛の話をするのは…",
+    "answers": [
+      "普通だし必要",
+      "いらないし傷つく"
+    ]
+  },
+  "65a85275-79ea-4d17-8c24-c1eb58cbcd86": {
+    "en": "Is texting every day with your partner necessary for you?",
+    "text": "恋人と毎日連絡を取り合うのは必須？"
+  },
+  "c5d257bf-030a-472a-bd4c-a2d48ae36e84": {
+    "en": "Would you date someone your friends don't consider a good physical match for you?",
+    "text": "友達に「見た目が釣り合わない」って言われる人とも付き合える？"
+  },
+  "289535a4-8bd1-40f3-b08b-3a922499bbb7": {
+    "en": "Would you date someone who is famous online?",
+    "text": "ネットで有名な人と付き合える？"
+  },
+  "b1acfbe5-f3af-4497-a227-9d505804fc19": {
+    "en": "Would you date someone who is very flirtatious?",
+    "text": "すごくチャラい人と付き合える？"
+  },
+  "c5360398-4fae-4217-b9a9-688f74fe7070": {
+    "en": "Do you believe in love at first sight?",
+    "text": "一目ぼれって信じる？"
+  },
+  "2ee5b9b7-f944-4184-95fa-6126fc6e3728": {
+    "en": "Is physical attractiveness more important to you than intelligence?",
+    "text": "頭の良さより見た目のほうが大事？"
+  },
+  "e6bbcb00-c081-42da-8fa3-49ddc918d36d": {
+    "en": "Have you ever had a period when you were very flirty?",
+    "text": "すごくチャラかった時期ってある？"
+  },
+  "a0104269-bc85-49c8-ab80-c42c0378b7a1": {
+    "en": "If your friends don't like your partner, would it make you lose interest in them?",
+    "text": "友達が恋人のことを気に入らなかったら、気持ちが冷める？"
+  },
+  "2f245f8d-f7f9-44a4-a1ef-70380caf5c51": {
+    "en": "Do you think long-term friends can become romantic partners later?",
+    "text": "長い付き合いの友達が、あとから恋人になることってあると思う？"
+  },
+  "40004a65-7deb-4d2e-894f-c10ac0c02ede": {
+    "en": "If your friend were romantically attracted to you, would you give them a chance?",
+    "text": "友達に好意を持たれてたら、恋愛対象として考えてみる？"
+  },
+  "7ee41bf9-fa8d-42ab-a4a5-25bd110543e0": {
+    "en": "If you stopped trying in your relationship, would your partner still stay?",
+    "text": "ふたりの関係のために努力しなくなっても、恋人はそばにいてくれると思う？"
+  },
+  "b1eea995-fbe7-4313-be08-f61522b35b5a": {
+    "en": "If your partner wanted to make a TikTok video with you for a trend, would you agree?",
+    "text": "恋人にTikTokの流行りの動画を一緒に撮りたいって言われたら、OKする？"
+  },
+  "2a9a3787-2ade-4db3-a8ca-ac97c25f2a80": {
+    "en": "If you fell out of love, would you stay for the sake of history?",
+    "text": "気持ちが冷めても、これまでの思い出のために一緒にいる？"
+  },
+  "c76d7425-b712-41a8-8a78-e20b3844a382": {
+    "en": "Should the man make the first move?",
+    "text": "最初のアプローチは男性からするべき？",
+    "flagged": true,
+    "note": "Source asks about a gender norm (men making the first move); kept as an opinion question, it does not reveal the players' genders."
+  },
+  "e8dd11c5-218b-4d77-a137-0444c87fff31": {
+    "en": "If you looked a lot like your partner's ex, would it bother you?",
+    "text": "自分が恋人の元恋人にそっくりだったら、気になる？"
+  },
+  "69535b7c-b94c-4ebc-95b0-5fa46b811906": {
+    "en": "If your partner wanted to read your messages with your friend group, would you let them?",
+    "text": "恋人に友達とのグループLINEを見たいって言われたら、見せる？"
+  },
+  "308773bf-cdf6-4b94-ad4b-f180e08e5163": {
+    "en": "If your partner is a big fan of a celebrity of the opposite sex, would it be a problem?",
+    "text": "恋人が異性の芸能人の大ファンだったら、気になる？",
+    "flagged": true,
+    "note": "Kept 'opposite sex' (異性) as in source; assumes a heterosexual couple."
+  },
+  "22a15b58-da54-4651-8f7e-1fe19d7759bb": {
+    "en": "What is harder to rebuild after it is broken?",
+    "text": "一度壊れたら、取り戻すのが難しいのはどっち？",
+    "answers": [
+      "信頼",
+      "尊敬"
+    ]
+  },
+  "3576a2e2-2091-4b80-be80-5ab444b547cd": {
+    "en": "Would you live in the same house with a friend of the opposite sex while having a partner?",
+    "text": "恋人がいるのに、異性の友達と一緒に住める？",
+    "flagged": true,
+    "note": "Kept 'opposite sex' (異性) as in source; assumes a heterosexual couple."
+  },
+  "a174d015-ea8e-438b-b656-4f2fd4c4d34a": {
+    "en": "Do you constantly check your partner's social media followers and who they follow?",
+    "text": "恋人のSNSのフォロワーやフォローしてる人を、しょっちゅうチェックする？"
+  },
+  "9dbad2cb-e77a-4d79-ab55-a910ff298ae6": {
+    "en": "Have you ever ghosted any of your flirts before?",
+    "text": "いい感じだった人と、急に連絡を絶ったことある？"
+  },
+  "40f38dbd-3632-412b-8639-66caf198eccb": {
+    "en": "Would you prefer a passionate but argumentative relationship over a calm and romantic one?",
+    "text": "穏やかでロマンチックな恋より、情熱的だけどケンカの多い恋がいい？"
+  },
+  "e79b86a4-0b67-4524-863e-99c6afe7244b": {
+    "en": "Do you constantly stalk someone you're attracted to?",
+    "text": "気になる人のSNS、ついずっとチェックしちゃう？"
+  },
+  "f60eb06e-d599-4397-9b8e-d998cf3aa387": {
+    "en": "Would you stop talking to a friend who finds you attractive if your partner asked you to?",
+    "text": "恋人に頼まれたら、自分に気がある友達と話すのをやめる？"
+  },
+  "88d9192e-4744-437f-a872-d8506811e724": {
+    "en": "Would you like it if your partner told you every time someone hit on them?",
+    "text": "誰かに口説かれるたびに恋人が報告してくれたら、うれしい？"
+  },
+  "ac9241fd-9c2f-4660-b29f-54b5f376e587": {
+    "en": "If your best friend and partner met without telling you, would you get jealous?",
+    "text": "親友と恋人が自分に内緒で会ってたら、嫉妬する？"
+  },
+  "2f3ce1da-32a3-4290-bfed-f7010eceef7f": {
+    "en": "Would you go on a double date with someone you don't like just for your friend?",
+    "text": "友達のためなら、タイプじゃない人とでもダブルデートする？"
+  },
+  "70d85605-9926-497a-bc33-8f1f160a767b": {
+    "en": "If both you and your friend liked the same person, would you be the one to step back?",
+    "text": "友達と同じ人を好きになったら、自分が身を引く？"
+  },
+  "c721139f-fab6-47e1-a92a-ac02286c6f63": {
+    "en": "Is a good friendship better than a good romantic relationship?",
+    "text": "いい友情は、いい恋愛より大切？"
+  },
+  "8859ae1e-8d5b-42ae-b6c0-58f9db24d4e6": {
+    "en": "Would you try to find someone else immediately after breaking up to forget your partner?",
+    "text": "別れたあと、元恋人を忘れるためにすぐ次の相手を探す？"
+  },
+  "eb40b9fd-6df9-4f75-973c-88fd188c976a": {
+    "en": "Have you ever been with someone who wasn't very smart but was very attractive?",
+    "text": "あまり頭は良くないけど、すごく魅力的な人と付き合ったことある？"
+  },
+  "225fc433-ee24-4a08-a284-549ba829e019": {
+    "en": "Have you ever tried a relationship with someone just because they liked you, even if you weren’t very into them?",
+    "text": "あまり好きじゃないのに、好かれたからって付き合ってみたことある？"
+  },
+  "6b4a33bb-950c-4e92-b374-36b9671321b2": {
+    "en": "Would you date someone who strongly believes in zodiac signs?",
+    "text": "星座占いをすごく信じてる人と付き合える？"
+  },
+  "c50d0e1f-0a2d-43a9-8770-bcf5d941ef75": {
+    "en": "Is your partner's sexual ability an important factor for you?",
+    "text": "恋人の夜のテクニックって、大事なポイント？"
+  },
+  "f1a8d83b-d35c-43e5-b186-0b32e3f7b451": {
+    "en": "Would you continue a relationship with someone who isn't very skilled sexually?",
+    "text": "夜のほうがあまり上手じゃない人とも、付き合い続けられる？"
+  },
+  "d53cac0d-e7f5-4db7-ac2d-b7e17ffa702c": {
+    "en": "Would it bother you if your partner's close friend of the opposite sex is very attractive?",
+    "text": "恋人の仲のいい異性の友達がすごく魅力的だったら、気になる？",
+    "flagged": true,
+    "note": "Kept 'opposite sex' (異性) as in source; assumes a heterosexual couple."
+  },
+  "a1f43837-d310-4c12-8369-557c27f561fc": {
+    "en": "Is it a problem for you if your partner has a very high libido?",
+    "text": "恋人がすごく求めてくるタイプだったら、困る？"
+  },
+  "6c5538e2-5508-4b67-a9ea-a489348c4c37": {
+    "en": "Is it a problem for you if your partner has a low libido?",
+    "text": "恋人があまり求めてこないタイプだったら、困る？"
+  },
+  "a10af84c-2ef5-49d4-8905-9088ce451ce5": {
+    "en": "Is it important to you how your partner earns a living?",
+    "text": "恋人がどうやって稼いでるかって大事？"
+  },
+  "6aaee788-917c-4ee2-8a9a-9cca6a9c69f7": {
+    "en": "Have you ever had feelings for a friend’s ex?",
+    "text": "友達の元恋人を好きになったことある？"
+  },
+  "eea3c3ff-7e4d-47bd-afff-b4e7461f0ec2": {
+    "en": "Have you ever pretended to be sick to avoid a date?",
+    "text": "デートを断るために仮病を使ったことある？"
+  },
+  "712df3cd-471a-4405-9e76-d54832abbcc4": {
+    "en": "Have you ever changed a feature just because someone wanted it?",
+    "text": "誰かに言われて、自分の見た目や性格を変えたことある？"
+  },
+  "9314d50f-94c5-418b-815c-f36bede1a87f": {
+    "en": "Do you think it's normal in a relationship to know your partner's social media passwords?",
+    "text": "恋人のSNSのパスワードを知ってるのって普通だと思う？"
+  },
+  "7f9d30fa-6891-460d-a0b5-34d836cff571": {
+    "en": "Does your partner staying silent during an argument make you more angry?",
+    "text": "ケンカ中に恋人が黙り込むと、余計イライラする？"
+  },
+  "8ae7a335-ee23-4949-91da-d79b1a50e8f5": {
+    "en": "Does it bother you if your partner constantly deletes messages on their phone?",
+    "text": "恋人がスマホのメッセージをいつも消してたら、気になる？"
+  },
+  "a6b504e5-84cd-460b-b095-9cb3103dbdb0": {
+    "en": "Do you think a person's closest friend should be their partner?",
+    "text": "一番の親友は恋人であるべきだと思う？"
+  },
+  "0fbdca85-41a4-499a-931d-8491a38e651b": {
+    "en": "Do you think differences in religion and race make a relationship more difficult?",
+    "text": "宗教や人種の違いって、恋愛を難しくすると思う？"
+  },
+  "2084f3b0-b540-4c5f-a400-f9f0d46a7310": {
+    "en": "Which one do you find more attractive: intelligence or body?",
+    "text": "頭の良さとスタイル、惹かれるのはどっち？",
+    "answers": [
+      "頭の良さ",
+      "スタイル"
+    ]
+  },
+  "ebcc2753-cafa-4764-8de8-00c9e8c64d81": {
+    "en": "Which is worse: your partner cheating on you emotionally or physically?",
+    "text": "心の浮気と体の浮気、恋人にされてつらいのはどっち？",
+    "answers": [
+      "心の浮気",
+      "体の浮気"
+    ]
+  },
+  "63b32ee8-1fa7-4e8a-8e78-a4e97cac10d7": {
+    "en": "Which would bother you more: your partner being overly honest or sometimes hiding their feelings?",
+    "text": "恋人が正直すぎるのと、たまに気持ちを隠すの、どっちがイヤ？",
+    "answers": [
+      "正直すぎる",
+      "たまに気持ちを隠す"
+    ]
+  },
+  "df254cfe-4e09-4956-92ce-5d706c4c7d50": {
+    "en": "Can your partner restrict you in certain situations?",
+    "text": "恋人になら、場合によっては行動を制限されてもいい？"
+  },
+  "779c01e5-9ba2-48ed-84f5-747084bda093": {
+    "en": "Does your partner have to share a photo with you on their social media accounts?",
+    "text": "恋人にはSNSでふたりの写真を載せてほしい？"
+  },
+  "7dfca2ae-4653-499b-8b35-8409ac9cb8e5": {
+    "en": "Would you be with someone who has been married before?",
+    "text": "結婚したことがある人と付き合える？"
+  },
+  "ecb7bf85-0455-46c5-9045-8c485aa6c8d6": {
+    "en": "Would you be with someone whose previous relationship ended very recently?",
+    "text": "前の恋愛が終わったばかりの人と付き合える？"
+  },
+  "7713469e-5c7c-4081-885e-784fcefc308b": {
+    "en": "If you really liked a piece of clothing, would you buy it even if it was very expensive?",
+    "text": "すごく気に入った服なら、高くても買っちゃう？"
+  },
+  "a25b6694-0388-469a-80c3-1a065d4641da": {
+    "en": "Would you be with someone who never likes cooking and always eats out?",
+    "text": "料理が全然好きじゃなくて、いつも外食の人と付き合える？"
+  },
+  "9106e2f1-c28e-4b6d-a27f-3ac47f185e39": {
+    "en": "Do you think your ex-partner should be removed from social media accounts?",
+    "text": "別れたら、元恋人はSNSから消すべきだと思う？"
+  },
+  "1d7b03f4-df47-452a-8a54-1b98528dd75a": {
+    "en": "Would you want to have had only one partner since high school and married them?",
+    "text": "高校からずっと1人の人とだけ付き合って、そのまま結婚したかった？"
+  },
+  "e371edc7-ba67-4d14-8fa7-dad00b7d6b31": {
+    "en": "Would you start a relationship with someone you love but doubt their loyalty?",
+    "text": "大好きでも、浮気しそうな気がする人と付き合える？"
+  },
+  "36c6f327-8de2-42ed-8165-752c783ae56d": {
+    "en": "Do you think it's normal for someone to have other flirts while in a flirtation period with you?",
+    "text": "いい感じの相手が、ほかの人ともデートしてるのはアリ？"
+  },
+  "c7aec6af-0246-41d9-bcc6-ce59c3b9403e": {
+    "en": "Would you be suspicious of someone who always places their phone face down on the table when going to the bathroom?",
+    "text": "トイレに立つとき、いつもスマホを伏せて置く人って怪しいと思う？"
+  },
+  "b0f272c0-ca82-4663-bc78-6c406bb5b831": {
+    "en": "Have you ever completely cut off a relationship over something trivial?",
+    "text": "くだらないことがきっかけで、恋人と完全に縁を切ったことある？"
+  },
+  "c70818b5-97c6-4134-8b6e-94b01052f279": {
+    "en": "Would you feel turned off if your partner refused to drink from the same bottle as you?",
+    "text": "恋人に回し飲みを断られたら、ちょっと冷める？"
+  },
+  "4c354718-87c5-46d1-b2d7-733646f06068": {
+    "en": "Is it okay for your partner to treat a friend of the opposite sex to a meal?",
+    "text": "恋人が異性の友達にごはんをおごるのはアリ？"
+  },
+  "29870733-c386-448b-82a7-a2f059a50ba4": {
+    "en": "Is it okay for your partner to meet one-on-one with a friend of the opposite sex?",
+    "text": "恋人が異性の友達とふたりきりで会うのはアリ？"
+  },
+  "e392db65-9315-4f83-8930-34c5a450b24a": {
+    "en": "Would you get upset if your partner refused to show you their messages with a friend of the opposite sex?",
+    "text": "恋人が異性の友達とのLINEを見せてくれなかったら、イラッとする？",
+    "flagged": true,
+    "note": "\"messages\" localized as LINE, the default messenger in Japan."
+  },
+  "1b878572-51f3-4ef5-b869-57695d5b4bba": {
+    "en": "Is it okay for your partner to buy coffee for a friend of the opposite sex?",
+    "text": "恋人が異性の友達にコーヒーをおごるのはアリ？"
+  },
+  "1338669a-0f18-42d9-b936-97fa0009639f": {
+    "en": "Would you want to know everything about your partner’s past or only the necessary parts?",
+    "text": "恋人の過去は全部知りたい？それとも必要なことだけ？",
+    "answers": [
+      "全部知りたい",
+      "必要なことだけ"
+    ]
+  },
+  "35f1ccbf-5cf0-4b91-b844-cdc93470350c": {
+    "en": "Jealousy between you and your partner...",
+    "text": "恋人同士のヤキモチって…",
+    "answers": [
+      "かわいいもの",
+      "関係によくない"
+    ]
+  },
+  "b60dd292-09bb-4403-8129-eceb964a89bb": {
+    "en": "Who texts first in a relationship...",
+    "text": "恋愛で「どっちが先に連絡するか」は…",
+    "answers": [
+      "大事なバランス",
+      "気にしなくていい"
+    ]
+  },
+  "8a5c8ef1-6310-4d06-8af8-e41508b1d9af": {
+    "en": "What's the ideal length of a first date, in hours?",
+    "text": "初デートは何時間くらいがベスト？"
+  },
+  "3038d09c-8a48-432e-8f6a-3173cdf1b0f3": {
+    "en": "After how many dates is a first kiss okay?",
+    "text": "ファーストキスは何回目のデートならアリ？"
+  },
+  "3a7b78ae-2cd0-461c-a69f-f2f5e35d2593": {
+    "en": "What's the best time of day for a first date?",
+    "text": "初デートにベストな時間帯は？"
+  },
+  "8488f194-3774-470b-ac98-dfab1027a149": {
+    "en": "How many days should you wait before asking for a second date?",
+    "text": "2回目のデートに誘うまで、何日空けるべき？"
+  },
+  "00d225ad-05d7-4044-9a9a-f002791aa06b": {
+    "en": "What's a good age gap in a relationship, in years?",
+    "text": "恋人との年の差は何歳くらいがちょうどいい？"
+  },
+  "52369eca-4691-4ff4-ba5c-db44489ab01d": {
+    "en": "How often should new couples text each day?",
+    "text": "付き合いたてのふたりは、1日何回くらい連絡するべき？"
+  },
+  "0e7b5127-24d4-48bc-b454-f43ae9fade2d": {
+    "en": "After how many dates is staying over okay?",
+    "text": "お泊まりは何回目のデートからならアリ？"
+  },
+  "831590be-5c22-4b45-b378-5794e75e0f56": {
+    "en": "How many minutes late is acceptable on a first date?",
+    "text": "初デートの遅刻、何分までなら許せる？"
+  },
+  "7192abf5-e884-4f12-80e1-1d0b1a96e8c0": {
+    "en": "How many exes is too many?",
+    "text": "元恋人が何人いたら多すぎる？"
+  },
+  "f8ed25d1-90b1-4de2-a09b-6adbf13a1e81": {
+    "en": "How long should you talk before meeting in person, in days?",
+    "text": "実際に会うまで、何日くらいやりとりするべき？"
+  },
+  "38f9ad51-d981-4adf-94a0-90ebe2900c76": {
+    "en": "What should you never order on a first date?",
+    "text": "初デートで絶対に頼んじゃダメなものは？"
+  },
+  "ebed3fec-e1ae-4368-8a0e-4e4dd4e78af9": {
+    "en": "What pet name do you use most for your partner?",
+    "text": "恋人を一番よく呼ぶあだ名は？"
+  },
+  "d14e2f10-7c81-43cd-be66-3e778564a465": {
+    "en": "What's the max number of past flirts your partner could have before it turns you off?",
+    "text": "恋人の過去のデート相手が何人以上だと冷める？"
+  },
+  "010dfc92-9c21-441a-a0f5-b159412b70a2": {
+    "en": "How many years in a past relationship would turn you off? Write 0 if none would.",
+    "text": "恋人の前の恋愛が何年続いてたら冷める？気にならないなら0と書いて。"
+  },
+  "9cd5fd8b-3a6e-4b0f-a091-7d8612fb213f": {
+    "en": "What should your partner never call you?",
+    "text": "恋人に絶対こう呼ばれたくない、っていう呼び方は？"
+  },
+  "87658e97-ac2e-44a5-b542-433a08e7aabd": {
+    "en": "What do you most want your partner to call you?",
+    "text": "恋人に一番呼ばれたい呼び方は？"
+  },
+  "763e922e-ab9e-4f6f-827e-693af2a26f4d": {
+    "en": "After how many years together would you want to move in?",
+    "text": "付き合って何年たったら同棲したい？"
+  },
+  "77c7dd5e-0ffd-4698-b393-0ff78d1e213b": {
+    "en": "After how many months would you want to meet their family?",
+    "text": "付き合って何か月たったら、恋人の家族に会いたい？"
+  },
+  "595fa92e-a25b-4dc9-8f78-4550f1d8608f": {
+    "en": "After how many years of marriage would you want kids?",
+    "text": "結婚して何年たったら子どもがほしい？"
+  },
+  "3a380d3f-8123-4e99-b4f3-e7d2ec4ff655": {
+    "en": "What's your ideal first date?",
+    "text": "理想の初デートは？",
+    "answers": [
+      "カフェ",
+      "散歩",
+      "ディナー",
+      "飲み"
+    ]
+  },
+  "804c67c5-9dd5-4bf0-9448-3e0ab96b2928": {
+    "en": "Someone you're talking to takes two days to reply. What do you do?",
+    "text": "いい感じの相手から2日も返信がない。どうする？",
+    "answers": [
+      "気長に待つ",
+      "軽く追いLINEする",
+      "同じペースで返す",
+      "冷める"
+    ]
+  },
+  "6edf2d1a-551c-4860-991c-3fb9641f6085": {
+    "en": "How should a good first date end?",
+    "text": "いい初デートの終わり方は？",
+    "answers": [
+      "ハグ",
+      "キス",
+      "次のデートの約束",
+      "とりあえずバイバイ"
+    ]
+  },
+  "4f7b735e-59a7-4eeb-bcaa-43853cdf224a": {
+    "en": "Where's your phone on a first date?",
+    "text": "初デート中、スマホはどこにある？",
+    "answers": [
+      "バッグかポケットの中",
+      "テーブルに伏せて",
+      "マナーモードで手元に",
+      "存在を忘れてる"
+    ]
+  },
+  "10ca97e0-e294-417e-84be-a586b2a6e65c": {
+    "en": "Who should plan the second date?",
+    "text": "2回目のデートは誰がプランを立てるべき？",
+    "answers": [
+      "1回目に誘った人",
+      "今度はもう1人のほう",
+      "時間に余裕があるほう",
+      "ふたりで決める"
+    ]
+  },
+  "15087f4a-b129-4ded-bda9-9b8e9f2ce9c9": {
+    "en": "The first date was fine, not amazing. What do you do?",
+    "text": "初デートは悪くなかったけど、最高でもなかった。どうする？",
+    "answers": [
+      "2回目も行ってみる",
+      "そっとフェードアウト",
+      "ピンとこないと伝える",
+      "連絡を続けて様子見"
+    ]
+  },
+  "9d5474ab-62cf-433d-8a62-9cfe83a90018": {
+    "en": "How do you prefer to be asked out?",
+    "text": "デートにはどう誘われたい？",
+    "answers": [
+      "直接会って",
+      "メッセージで",
+      "具体的なプラン付きで",
+      "気負わず軽いノリで"
+    ]
+  },
+  "46002351-0295-45f1-a0f9-322e2d7f98b9": {
+    "en": "They bring up their ex on the first date. What do you do?",
+    "text": "初デートで相手が元恋人の話を始めた。どうする？",
+    "answers": [
+      "話題を変える",
+      "少しだけ聞く",
+      "1つだけ質問する",
+      "冷める"
+    ]
+  },
+  "a90fff4b-18ba-402c-920d-e141465c46fb": {
+    "en": "When do you tell friends you're seeing someone new?",
+    "text": "新しくいい感じの人ができたら、友達にいつ話す？",
+    "answers": [
+      "初デートのあと",
+      "何回かデートしてから",
+      "本気っぽくなってから",
+      "しばらくは内緒"
+    ]
+  },
+  "2afd06cc-aad0-4cd2-b85a-be260fc537a9": {
+    "en": "Their dating app lights up on the table during your date. What do you do?",
+    "text": "デート中、テーブルの上の相手のスマホにマッチングアプリの通知が。どうする？",
+    "answers": [
+      "見なかったことにする",
+      "冗談っぽくいじる",
+      "はっきり聞く",
+      "冷める"
+    ]
+  },
+  "80a133aa-e818-4387-ba13-6d18f3eca48c": {
+    "en": "An awkward silence hits for 20 seconds. What do you do?",
+    "text": "気まずい沈黙が20秒続いた。どうする？",
+    "answers": [
+      "適当に質問する",
+      "沈黙をネタにする",
+      "気にせずそのまま",
+      "内心ちょっと焦る"
+    ]
+  },
+  "54ae559d-c747-4baa-b836-c2ac0f6d5914": {
+    "en": "You run into your ex during the date. What do you do?",
+    "text": "デート中に元恋人とばったり。どうする？",
+    "answers": [
+      "軽く挨拶してすぐ離れる",
+      "さらっと紹介する",
+      "気づかないふり"
+    ]
+  },
+  "1862d1eb-0f5f-4433-b278-f78ae8e65a56": {
+    "en": "They order for you without asking. What do you do?",
+    "text": "相手が何も聞かずに、こっちの分まで注文した。どうする？",
+    "answers": [
+      "そのまま受け入れる",
+      "やんわり変える",
+      "ちょっとやりすぎと言う"
+    ]
+  },
+  "b5794a9f-d967-4b5d-924b-08fde07181dd": {
+    "en": "Someone you're talking to sends you a 4-minute voice note. What do you do?",
+    "text": "いい感じの相手から4分のボイスメッセージが届いた。どうする？",
+    "answers": [
+      "最後まで聞く",
+      "1.5倍速で聞く",
+      "ボイスで返す",
+      "「文字で送って」と頼む"
+    ]
+  },
+  "11057121-36b1-4bec-8fe0-a951f48a59cb": {
+    "en": "Before your second date, they like a photo of yours from 2019. What do you do?",
+    "text": "2回目のデート前、相手が自分の2019年のインスタ投稿にいいねしてきた。どうする？",
+    "answers": [
+      "笑って流す",
+      "相手の昔の投稿にいいねし返す",
+      "デートでいじる",
+      "ちょっと引く"
+    ]
+  },
+  "2018faf7-7f62-4184-ab8d-f8daddf0c55b": {
+    "en": "You bump into each other at a friend's party. Nobody knows you've been seeing each other. What do you do?",
+    "text": "友達のパーティーでばったり。会ってることは誰も知らない。どうする？",
+    "answers": [
+      "知らないふりをする",
+      "さりげなく挨拶してバレないようにする",
+      "すぐそばに行ってずっと一緒にいる"
+    ]
+  },
+  "4186af00-6693-48c4-b037-597f68eca363": {
+    "en": "The day after your date, a mutual friend tells you they described the whole thing. How do you feel?",
+    "text": "デートの翌日、共通の友達から、相手がデートのことを全部話してたと聞いた。どう思う？",
+    "answers": [
+      "ちょっとうれしい",
+      "何を話したか気になる",
+      "ちょっとモヤッとする",
+      "お互いさまだから平気"
+    ]
+  },
+  "90996073-0d83-444d-b35a-979f896c0b5a": {
+    "en": "You get home after a great first date. Neither of you has texted yet. What do you do?",
+    "text": "最高の初デートから帰宅。まだどっちも連絡してない。どうする？",
+    "answers": [
+      "すぐ連絡する",
+      "相手からの連絡を待つ",
+      "明日にする",
+      "ストーリーを上げて見てくれるかチェック"
+    ]
+  },
+  "585b6edd-f0f5-45dc-9b1a-70fadafc76c5": {
+    "en": "Which turns you off more on a first date: being rude to the waiter or never looking up from their phone?",
+    "text": "初デートで、店員さんに失礼なのとずっとスマホばかり見てるの、どっちが冷める？",
+    "answers": [
+      "店員さんに失礼",
+      "スマホばかり見てる"
+    ]
+  },
+  "6fbf29f6-9fdd-469b-a49f-dceeae0f2960": {
+    "en": "Which turns you off more: talking only about themselves or never sharing anything about themselves?",
+    "text": "自分の話ばかりするのと、自分のことを全然話さないの、どっちが冷める？",
+    "answers": [
+      "自分の話ばかり",
+      "自分のことを話さない"
+    ]
+  },
+  "7d216358-afbd-4df9-bcbf-5dd6d671e303": {
+    "en": "Which turns you off more: a bad kiss or a boring conversation?",
+    "text": "キスが下手なのと会話がつまらないの、どっちが冷める？",
+    "answers": [
+      "キスが下手",
+      "会話がつまらない"
+    ]
+  },
+  "720a9cbc-8710-4872-80f2-53300dbadf6f": {
+    "en": "In the early days, which turns you off more: texting nonstop or barely texting at all?",
+    "text": "付き合いたての頃、ずっと連絡してくるのとほとんど連絡してこないの、どっちが冷める？",
+    "answers": [
+      "ずっと連絡してくる",
+      "ほとんど連絡してこない"
+    ]
+  },
+  "3cf1a84d-e223-4e63-93d8-777459021597": {
+    "en": "Which turns you off more: turning everything into a joke or never getting a joke?",
+    "text": "なんでも冗談にするのと冗談が通じないの、どっちが冷める？",
+    "answers": [
+      "なんでも冗談にする",
+      "冗談が通じない"
+    ]
+  },
+  "fc011c5b-4593-4cc1-b280-0684ad82df8d": {
+    "en": "Which turns you off more: looking different from their photos or lying about their age on their profile?",
+    "text": "写真と実物が違うのと、プロフィールの年齢がウソなの、どっちが冷める？",
+    "answers": [
+      "写真と実物が違う",
+      "年齢がウソ"
+    ]
+  },
+  "ad06a964-fa58-4061-8344-79edf5b520d8": {
+    "en": "Which turns you off more: saying \"I don't mind\" to everything or having an opinion on everything?",
+    "text": "なんでも「どっちでもいい」って言うのと、なんにでも口を出すの、どっちが冷める？",
+    "answers": [
+      "なんでも「どっちでもいい」",
+      "なんにでも口を出す"
+    ]
+  },
+  "4f531856-318c-487f-a619-fa0a59a99d7f": {
+    "en": "Which turns you off more: smelling bad or dressing badly?",
+    "text": "ニオイがキツいのと服がダサいの、どっちが冷める？",
+    "answers": [
+      "ニオイがキツい",
+      "服がダサい"
+    ]
+  },
+  "ef9f4128-7b1c-403e-ad46-17990ee3ceef": {
+    "en": "Which turns you off more: telling their family everything or telling their family nothing?",
+    "text": "家族になんでも話すのと、家族になにも話さないの、どっちが冷める？",
+    "answers": [
+      "家族になんでも話す",
+      "家族になにも話さない"
+    ]
+  },
+  "b2e21ef2-40ff-43ce-8665-31fc326735d8": {
+    "en": "Which turns you off more: posting every moment on social media or having no social media at all?",
+    "text": "冷めるのはどっち？なんでもSNSに載せる人と、SNSを一切やってない人",
+    "answers": [
+      "なんでもSNSに載せる",
+      "SNSを一切やってない"
+    ]
+  },
+  "125f2188-cb75-4827-bba0-a5721c1d2e63": {
+    "en": "On the first date, they keep showing you photos of themselves. Out of 10, what score do they drop to?",
+    "text": "初デートで相手が自分の写真ばかり見せてくる。10点満点で何点に下がる？"
+  },
+  "abb96582-9c4f-4d8e-87c3-439282f14837": {
+    "en": "They bring a friend along to your first date. Out of 10, what score do they drop to?",
+    "text": "初デートに相手が友達を連れてきた。10点満点で何点に下がる？"
+  },
+  "b94e3ab0-6f33-4e74-8909-a86affc709f8": {
+    "en": "Their texts are full of spelling mistakes. Out of 10, what score do they drop to?",
+    "text": "相手のLINEが誤字だらけ。10点満点で何点に下がる？",
+    "flagged": true,
+    "note": "Spelling mistakes adapted to 誤字 (typos) in LINE messages, the natural Japanese equivalent."
+  },
+  "9dd33cdd-203d-49b4-ac8e-90c529ee3982": {
+    "en": "They chew with their mouth open on your date. Out of 10, what score do they drop to?",
+    "text": "デート中、相手がクチャクチャ音を立てて食べる。10点満点で何点に下がる？"
+  },
+  "f17f2378-b71d-448f-a910-91514691cbee": {
+    "en": "They call you \"babe\" on the first date. Out of 10, what score do they drop to?",
+    "text": "初デートなのに相手がいきなり呼び捨てしてくる。10点満点で何点に下がる？",
+    "flagged": true,
+    "note": "'Babe' has no natural Japanese equivalent; adapted to suddenly calling you by first name without honorific (呼び捨て), which carries the same 'too familiar too soon' feel."
+  },
+  "44d96acd-17b5-4b5f-a320-c1803fc73ed3": {
+    "en": "When the bill comes, they split it down to the last cent: \"I didn't have that drink.\" Out of 10, what score do they drop to?",
+    "text": "会計で相手が「そのドリンク飲んでないから」と1円単位で割り勘する。10点満点で何点に下がる？"
+  },
+  "ddf5199c-bd3b-4909-8d04-6f6e2951ffc6": {
+    "en": "Nobody can touch the food until they've taken a photo of it. Out of 10, what score do they drop to?",
+    "text": "相手が写真を撮り終わるまで誰も料理に手をつけられない。10点満点で何点に下がる？"
+  },
+  "7511a7b3-1b46-4b57-add4-b6dced443721": {
+    "en": "Mid-date, they video-call their mom and introduce you. Out of 10, what score do they drop to?",
+    "text": "デート中に相手がお母さんとビデオ通話して紹介してくる。10点満点で何点に下がる？"
+  },
+  "6273d5bb-2aa4-4236-9e4d-ad2b58f1d214": {
+    "en": "They let you pick the place, then complain about it all night. Out of 10, what score do they drop to?",
+    "text": "相手がお店選びを任せてきたのに、一晩中そのお店に文句を言ってる。10点満点で何点に下がる？"
+  },
+  "4368d704-52f8-4d12-b05a-6ffe29f0c12c": {
+    "en": "They show up to your first date in sweatpants. Out of 10, what score do they drop to?",
+    "text": "初デートに相手がスウェットで来た。10点満点で何点に下がる？"
+  },
+  "0a291386-f57e-4cd1-8c4a-b585cbd08dfd": {
+    "en": "They reply to every text with a voice note. Out of 10, what score do they drop to?",
+    "text": "相手がどんなメッセージにも毎回ボイスメッセージで返してくる。10点満点で何点に下がる？"
+  },
+  "96a32a32-c92c-4e00-b24f-51b848ebecca": {
+    "en": "They talk about themselves in the third person. Out of 10, what score do they drop to?",
+    "text": "相手が自分のことを名前で呼んで話す。10点満点で何点に下がる？",
+    "flagged": true,
+    "note": "Third-person self-reference adapted to referring to oneself by one's own name, the usual Japanese form of this habit."
+  },
+  "0b6fd4c0-2fdb-4c43-812f-077f6dc0615b": {
+    "en": "They laugh so loud that the whole place turns to look. Out of 10, what score do they drop to?",
+    "text": "相手の笑い声が大きすぎて、お店中の人が振り返る。10点満点で何点に下がる？"
+  },
+  "91a24e9e-a8a6-497f-b828-394c850e07b2": {
+    "en": "With someone new, which of these would you do first?",
+    "text": "出会ったばかりの人と、最初にするならどれ？",
+    "answers": [
+      "ストーリーに載せる",
+      "友達に紹介する",
+      "週末の小旅行に行く",
+      "ふたりのプレイリストを作る"
+    ]
+  },
+  "76536319-97cd-490d-9836-5f8187f0d46f": {
+    "en": "When you start seeing someone, which comes first for you?",
+    "text": "誰かといい感じになったら、最初にすることは？",
+    "answers": [
+      "マッチングアプリを消す",
+      "位置情報を共有する",
+      "連絡先の名前にハートをつける",
+      "ツーショットを載せる"
+    ]
+  },
+  "f1ae02e8-b052-4b76-a32e-d4ce62d46246": {
+    "en": "With someone new, which would you be okay with first?",
+    "text": "出会ったばかりの相手に、最初にOKできるのはどれ？",
+    "answers": [
+      "うちに歯ブラシを置く",
+      "体調が悪いときに来てくれる",
+      "うちの合鍵を持つ",
+      "留守中にうちに泊まる"
+    ]
+  },
+  "cd2b5109-18c4-46b4-8c38-1380eb70b2a2": {
+    "en": "With someone new, which would you do first?",
+    "text": "出会ったばかりの人に、最初にできるのはどれ？",
+    "answers": [
+      "目の前で泣く",
+      "お金の悩みを話す",
+      "ボロボロの姿を見せる",
+      "誰にも言ってないことを話す"
+    ]
+  },
+  "1bc66b63-cc8e-424a-80f4-c6b7b3bbba3c": {
+    "en": "When you start seeing someone, which would you do first?",
+    "text": "誰かといい感じになったら、最初にするならどれ？",
+    "answers": [
+      "誕生日に呼ぶ",
+      "結婚式に同伴者として連れて行く",
+      "一緒に年越しする",
+      "一緒に旅行の計画を立てる"
+    ],
+    "flagged": true,
+    "note": "Bringing a +1 to a wedding is rare in Japan; kept as 同伴者 since the meaning is clear, but may feel foreign."
+  },
+  "aed88a42-6f84-4456-8aa7-669766f78264": {
+    "en": "Which wins you over more: someone who makes you laugh or someone who really listens?",
+    "text": "惹かれるのはどっち？笑わせてくれる人と、ちゃんと話を聞いてくれる人",
+    "answers": [
+      "笑わせてくれる",
+      "ちゃんと話を聞いてくれる"
+    ]
+  },
+  "a95cb18b-bd0a-42b1-b2d3-ad598f132ba6": {
+    "en": "Which wins you over more: a date planned down to the details or a spontaneous last-minute idea?",
+    "text": "惹かれるのはどっち？細かく計画されたデートと、その場の思いつき",
+    "answers": [
+      "細かく計画されたデート",
+      "その場の思いつき"
+    ]
+  },
+  "3d173579-d941-4634-b884-665b6e4fe6eb": {
+    "en": "Which wins you over more: remembering a small detail you mentioned or surprising you?",
+    "text": "惹かれるのはどっち？話した小さなことを覚えててくれるのと、サプライズしてくれるの",
+    "answers": [
+      "小さなことを覚えててくれる",
+      "サプライズしてくれる"
+    ]
+  },
+  "0b5becd8-64bd-4166-a997-e0a4e90d99f5": {
+    "en": "Which attracts you more: someone confident or someone a little shy?",
+    "text": "惹かれるのはどっち？自信がある人と、ちょっとシャイな人",
+    "answers": [
+      "自信がある",
+      "ちょっとシャイ"
+    ]
+  },
+  "e1bf3858-7a28-4bb5-b306-cbb230ca1d89": {
+    "en": "Which attracts you more: a nice voice or a nice smile?",
+    "text": "惹かれるのはどっち？いい声と、素敵な笑顔",
+    "answers": [
+      "いい声",
+      "素敵な笑顔"
+    ]
+  },
+  "58cb7a84-520d-4e1e-a840-a01661805b2a": {
+    "en": "After how many weeks of talking should you have the \"what are we?\" talk?",
+    "text": "連絡を取り始めて何週間たったら、ふたりの関係をはっきりさせるべき？"
+  },
+  "e3bfce26-3369-44e3-8e06-8841c696cdcd": {
+    "en": "Where would you most like to meet someone new?",
+    "text": "新しい人と出会うなら、どこが一番いい？",
+    "answers": [
+      "マッチングアプリ",
+      "友達の紹介",
+      "パーティーやバー",
+      "日常の偶然",
+      "SNS"
+    ]
+  },
+  "a4750d8e-f80d-409d-884b-a642b1b6dcd6": {
+    "en": "On the second date, they say \"I've never felt this way about anyone.\" What do you do?",
+    "text": "2回目のデートで相手が「誰かにこんな気持ちになったの初めて」と言ってきた。どうする？",
+    "answers": [
+      "キュンとする、うれしい",
+      "うれしいけど慎重になる",
+      "危険信号、早すぎ",
+      "同じ言葉を返す"
+    ]
+  },
+  "9ac2b9fd-533c-407e-b82b-6935fec25be7": {
+    "en": "On the first date, they ask how much you earn. Out of 10, what score do they drop to?",
+    "text": "初デートで相手に年収を聞かれた。10点満点で何点に下がる？"
+  },
+  "c0bef968-f505-44bc-87ab-8cbde316e110": {
+    "en": "On the first date, they pull out a discount coupon. Out of 10, what score do they drop to?",
+    "text": "初デートで相手がクーポンを出してきた。10点満点で何点に下がる？"
+  },
+  "24b88807-660c-4370-a23b-c312eb1fa5d4": {
+    "en": "It's your third date and they still haven't tried to kiss you. What do you do?",
+    "text": "3回目のデートなのに、相手がまだキスしようとしてこない。どうする？",
+    "answers": [
+      "自分からいく",
+      "待つ、焦らなくていい",
+      "脈なしかもと考え始める",
+      "直接聞いてみる"
+    ]
+  },
+  "0f374e99-c247-4f9c-bbc6-59e5974d0741": {
+    "en": "They forget something you told them on your first date. How do you feel?",
+    "text": "初デートで話したことを相手が忘れてた。どう思う？",
+    "answers": [
+      "別に気にしない",
+      "ちょっと残念",
+      "ちゃんと聞いてなかったってこと"
+    ]
+  },
+  "a969d002-3891-4a18-a767-6c5373b1d28a": {
+    "en": "Which wins you over more: a handwritten note or a playlist made just for you?",
+    "text": "グッとくるのはどっち？手書きのメッセージと、自分のために作られたプレイリスト",
+    "answers": [
+      "手書きのメッセージ",
+      "自分のためのプレイリスト"
+    ]
+  },
+  "56c6743f-a1c8-4be0-8dc7-bbeb9b977d38": {
+    "en": "They tell the waiter \"We're on a first date!\" Out of 10, what score do they drop to?",
+    "text": "相手が店員さんに「今日初デートなんです！」と言う。10点満点で何点に下がる？"
+  },
+  "f9cf2832-da5d-4f1f-ad46-f011c7282e4d": {
+    "en": "You've been dating for a month. What's the right first gift?",
+    "text": "会い始めて1か月。最初のプレゼントは何がいい？",
+    "answers": [
+      "小さくても気持ちのこもったもの",
+      "花",
+      "まだ早い、何もなし",
+      "高価なもので印象づける"
+    ]
+  },
+  "d576e86d-b1d4-4c38-a056-f1141160b590": {
+    "en": "Which attracts you more: someone with a clear plan for their life or someone who goes with the flow?",
+    "text": "惹かれるのはどっち？人生の計画がはっきりしてる人と、流れに任せる人",
+    "answers": [
+      "人生の計画がはっきりしてる",
+      "流れに任せる"
+    ]
+  },
+  "0186074f-f074-4446-b042-ca7e9247e1cc": {
+    "en": "They cook for you and it's honestly terrible. What do you do?",
+    "text": "相手が手料理を作ってくれたけど、正直まずい。どうする？",
+    "answers": [
+      "笑顔で全部食べる",
+      "少し食べて、やんわり本音を言う",
+      "冗談にする",
+      "何か頼もうって言う"
+    ]
+  },
+  "2509137a-251a-41b6-b10e-b4e1f7ca4da9": {
+    "en": "Would you start seeing someone who lives in another city?",
+    "text": "別の街に住んでる人と付き合い始められる？"
+  },
+  "4bbac10f-fb66-4378-be37-a399f606ae2f": {
+    "en": "For the second date, they suggest their hobby that you've never tried. What do you do?",
+    "text": "2回目のデートで、相手が自分のやったことない趣味を提案してきた。どうする？",
+    "answers": [
+      "やってみる、楽しそう",
+      "行くけどちょっと緊張",
+      "別のことを提案する",
+      "自分には合わないと言う"
+    ]
+  },
+  "96dd7fb8-e845-4e6b-a7de-0fada99a35ab": {
+    "en": "Which turns you off more: bragging about money or always complaining about money?",
+    "text": "冷めるのはどっち？お金自慢と、いつもお金の愚痴",
+    "answers": [
+      "お金自慢",
+      "いつもお金の愚痴"
+    ]
+  },
+  "1d5c05ff-2738-4558-9f0a-efd6cb6e2bf8": {
+    "en": "What tells you most that someone is into you?",
+    "text": "相手が自分に気があるって一番わかるのは？",
+    "answers": [
+      "返信の速さ",
+      "次のデートを決めてくる",
+      "自分のことをたくさん聞いてくる",
+      "しぐさ"
+    ]
+  },
+  "37a4b498-8f1d-4740-923e-2165e8b08457": {
+    "en": "After your first date, they send a long message about how much they enjoyed it. How do you feel?",
+    "text": "初デートのあと、相手から「すごく楽しかった」と長文が届いた。どう思う？",
+    "answers": [
+      "うれしい",
+      "かわいいけどちょっと重い",
+      "重すぎて引く"
+    ]
+  },
+  "3a3a17ca-df5d-4a0c-9477-da964cfb471b": {
+    "en": "They show up to your first date with flowers. How do you feel?",
+    "text": "初デートに相手が花束を持ってきた。どう思う？",
+    "answers": [
+      "うれしい、素敵",
+      "うれしいけど一晩中持ち歩くのは困る",
+      "初デートにしてはやりすぎ"
+    ]
+  },
+  "509690bc-b54a-4e17-9080-4c04c87541c3": {
+    "en": "Halfway through the date, you realize you're not into them. What do you do?",
+    "text": "デートの途中で、この人はないなと気づいた。どうする？",
+    "answers": [
+      "最後まで感じよく過ごす",
+      "理由をつけて早めに切り上げる",
+      "正直に伝える",
+      "友達に急用の電話をかけてもらう"
+    ]
+  },
+  "5f774143-d352-4756-b32a-a6c502a594e9": {
+    "en": "They correct your grammar during the date. Out of 10, what score do they drop to?",
+    "text": "デート中、相手がいちいち言葉づかいを直してくる。10点満点で何点に下がる？"
+  },
+  "d9c822f9-0c0c-4348-8e9e-3d2873d20d44": {
+    "en": "How long should a first hug last, in seconds?",
+    "text": "初めてのハグは何秒がちょうどいい？"
+  },
+  "3a846774-458e-48e7-94ac-35ac1ed66723": {
+    "en": "They check their reflection in every window you walk past. Out of 10, what score do they drop to?",
+    "text": "相手が通りかかるショーウィンドウでいちいち自分の姿をチェックする。10点満点で何点に下がる？"
+  },
+  "77574632-f237-4a7a-af8a-16f63041d6fe": {
+    "en": "On the first date, they ask \"So why are you single?\" What do you do?",
+    "text": "初デートで相手に「なんで恋人いないの？」と聞かれた。どうする？",
+    "answers": [
+      "正直に答える",
+      "冗談で流す",
+      "同じことを聞き返す",
+      "変な質問だと思う"
+    ]
+  },
+  "5e952fa0-bed1-4717-8caa-4119278e8391": {
+    "en": "Which wins you over more: someone who's amazing over text or someone who's amazing in person?",
+    "text": "惹かれるのはどっち？メッセージだと最高な人と、会うと最高な人",
+    "answers": [
+      "メッセージだと最高",
+      "会うと最高"
+    ]
+  },
+  "f0726201-11ea-476c-88d9-a86ca0ab1c0b": {
+    "en": "Would you go on a blind date a friend set up, without seeing a photo first?",
+    "text": "友達がセッティングしてくれた相手に、写真を見ないで会いに行ける？"
+  },
+  "426fe6d2-47b9-4935-a993-c3742dae971f": {
+    "en": "They pay for the date with their parents' credit card. Out of 10, what score do they drop to?",
+    "text": "相手がデート代を親のクレジットカードで払う。10点満点で何点に下がる？"
+  },
+  "e70a355f-92db-47ef-8640-7cf10d74d366": {
+    "en": "They suggest sharing a dessert, then eat almost all of it. What do you do?",
+    "text": "相手が「デザート分けよう」と言ったのに、ほぼ全部食べた。どうする？",
+    "answers": [
+      "笑う、かわいい",
+      "いじる",
+      "自分の分をもうひとつ頼む",
+      "黙って心にメモする"
+    ]
+  },
+  "cc7cdfce-f102-4924-a15a-428fe1f01c5c": {
+    "en": "Which turns you off more: no sense of style or trying way too hard?",
+    "text": "冷めるのはどっち？センスがまったくないのと、頑張りすぎてるの",
+    "answers": [
+      "センスがまったくない",
+      "頑張りすぎてる"
+    ]
+  },
+  "27981878-ef1d-4561-9d9f-58ca583788cf": {
+    "en": "After just two dates, they want to video call every night. How do you feel?",
+    "text": "まだ2回会っただけなのに、相手が毎晩ビデオ通話したがる。どう思う？",
+    "answers": [
+      "うれしい",
+      "たまにならいいけど毎晩はちょっと",
+      "いきなりすぎて重い"
+    ]
+  },
+  "b230407f-3278-456c-b2bf-1fa8b314b92c": {
+    "en": "They get a little tipsy on your first date. How do you feel?",
+    "text": "初デートで相手がちょっとほろ酔いになった。どう思う？",
+    "answers": [
+      "楽しい、場がほぐれる",
+      "軽く酔う程度ならいい",
+      "冷める",
+      "無事に帰れるか見届ける"
+    ]
+  },
+  "9effa5fe-d2d6-4990-94f9-68ba44015a64": {
+    "en": "Which wins you over more: a smooth pickup line or an awkward, honest \"I think you're cute\"?",
+    "text": "グッとくるのはどっち？スマートな口説き文句と、不器用だけど正直な「かわいいと思う」",
+    "answers": [
+      "スマートな口説き文句",
+      "不器用だけど正直なほめ言葉"
+    ]
+  },
+  "081089e4-8c91-4803-a20f-fc33ee46f1bb": {
+    "en": "A song you both love comes on, and they start singing out loud in public. What do you do?",
+    "text": "ふたりとも好きな曲が流れて、相手が人前で大声で歌い出した。どうする？",
+    "answers": [
+      "一緒に歌う",
+      "笑って動画を撮る",
+      "恥ずかしくなる",
+      "ノリは好きだけど自分は黙ってる"
+    ]
+  },
+  "ae914c7b-0a58-44ae-ae10-b58a248728fb": {
+    "en": "After how many dates would you go on a weekend trip together?",
+    "text": "何回デートしたら、一緒に週末旅行に行ける？"
+  },
+  "edb7e967-3a36-4adb-b55f-e4660c847d6a": {
+    "en": "They spend the whole date complaining about their job. Out of 10, what score do they drop to?",
+    "text": "デート中ずっと、相手が仕事の愚痴を言ってる。10点満点で何点に下がる？"
+  },
+  "7a5ec267-e342-468f-bbba-7370d91f8ecc": {
+    "en": "It starts pouring rain on your walk and nobody has an umbrella. What do you do?",
+    "text": "歩いてたら急に土砂降り。ふたりとも傘がない。どうする？",
+    "answers": [
+      "笑いながら雨宿りできる場所へ走る",
+      "雨の中で踊る",
+      "すぐタクシーを呼ぶ",
+      "上着を一緒にかぶって歩き続ける"
+    ]
+  },
+  "7378fa18-c11d-4566-83e6-9ee68d7c53a9": {
+    "en": "Which attracts you more: a morning person or a night owl?",
+    "text": "惹かれるのはどっち？朝型の人と、夜型の人",
+    "answers": [
+      "朝型",
+      "夜型"
+    ]
+  },
+  "0b4e55e8-2a68-40f6-a431-c6455f6e7bd8": {
+    "en": "After three dates, they still haven't followed you on social media. What do you do?",
+    "text": "3回デートしたのに、相手がまだSNSをフォローしてこない。どうする？",
+    "answers": [
+      "別に気にしない",
+      "自分から先にフォローする",
+      "なんでだろうと考え始める",
+      "直接聞いてみる"
+    ]
+  },
+  "b92ab70e-57ad-46d9-bbfc-957ae51e4d9d": {
+    "en": "They talk about their crypto investments all night. Out of 10, what score do they drop to?",
+    "text": "相手が一晩中、仮想通貨投資の話をしてる。10点満点で何点に下がる？"
+  },
+  "b5861af8-2dea-46b5-bcc9-1a6e26e6be5a": {
+    "en": "Which wins you over more: someone who cooks you dinner or someone who takes you to their favorite spot?",
+    "text": "グッとくるのはどっち？夕飯を作ってくれる人と、お気に入りの場所に連れて行ってくれる人",
+    "answers": [
+      "夕飯を作ってくれる",
+      "お気に入りの場所に連れて行ってくれる"
+    ]
+  },
+  "86ab68e2-ba49-4ba4-abd7-529512d370ce": {
+    "en": "How many minutes into a first date do you know if you like someone?",
+    "text": "初デートで、好きかどうかは何分でわかる？"
+  },
+  "2a28efa4-4ab1-4d2e-8173-d3d510ca3fde": {
+    "en": "How many hours after a great first date should you text?",
+    "text": "最高の初デートのあと、何時間後に連絡するべき？"
+  }
+}

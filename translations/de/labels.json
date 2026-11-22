@@ -1,0 +1,142 @@
+{
+  "categories": {
+    "just_friends": {
+      "category": "Nur Freundschaft",
+      "short": "Freundschaft"
+    },
+    "we_just_met": {
+      "category": "Frisch kennengelernt",
+      "short": "Frisch dabei"
+    },
+    "deep_talk": {
+      "category": "Tiefgründige Gespräche"
+    },
+    "long_term": {
+      "category": "Lange zusammen",
+      "short": "Lange zusammen"
+    },
+    "future_talk": {
+      "category": "Zukunftspläne"
+    },
+    "spicy": {
+      "category": "Intimität & Nähe",
+      "short": "Intimität"
+    },
+    "know_me_well": {
+      "category": "Kennst du mich?",
+      "short": "Kennst du mich?"
+    },
+    "know_me_well_hard": {
+      "category": "Kennst du mich?"
+    },
+    "know_me_well_intimacy": {
+      "category": "Kennst du mich?"
+    },
+    "trivia_master": {
+      "category": "Allgemeinwissen",
+      "short": "Quiz"
+    },
+    "mastermind": {
+      "category": "Das Superhirn",
+      "short": "Superhirn"
+    },
+    "who_is_more_likely": {
+      "category": "Wer würde eher?",
+      "short": "Wer eher?"
+    },
+    "who_is_more_likely_intimacy": {
+      "category": "Wer würde eher?",
+      "short": "Wer eher?"
+    },
+    "rank_it": {
+      "category": "Rangliste",
+      "short": "Rangliste"
+    },
+    "rank_it_intimacy": {
+      "category": "Rangliste",
+      "short": "Rangliste"
+    },
+    "two_truths": {
+      "category": "Zwei Wahrheiten, eine Lüge",
+      "short": "Wahr oder gelogen"
+    },
+    "daily_analysis": {
+      "category": "Tägliche Analyse",
+      "short": "Analyse"
+    },
+    "daily_love_language": {
+      "category": "Wie ihr Liebe zeigt",
+      "short": "Liebe"
+    },
+    "daily_conflict": {
+      "category": "Wenn ihr streitet",
+      "short": "Streit"
+    },
+    "daily_everyday_life": {
+      "category": "Euer Alltag",
+      "short": "Alltag"
+    },
+    "daily_trust_jealousy": {
+      "category": "Vertrauen & Eifersucht",
+      "short": "Vertrauen"
+    },
+    "daily_future": {
+      "category": "Eure Zukunft",
+      "short": "Zukunft"
+    },
+    "daily_money": {
+      "category": "Geld & Ausgaben",
+      "short": "Geld"
+    },
+    "daily_family_friends": {
+      "category": "Familie & Freunde",
+      "short": "Familie"
+    },
+    "daily_intimacy": {
+      "category": "Nähe & Intimität",
+      "short": "Intimität"
+    }
+  },
+  "category_groups": {
+    "see_your_match": {
+      "category": "Antwortet und seht, wie gut ihr passt"
+    },
+    "know_each_other": {
+      "category": "Wie gut kennt ihr euch?"
+    },
+    "who_knows_better": {
+      "category": "Wer weiß mehr?"
+    },
+    "who_is_more_likely": {
+      "category": "Wer würde eher …"
+    },
+    "rank_it": {
+      "category": "Rangliste"
+    },
+    "daily_analysis": {
+      "category": "Tägliche Analyse"
+    },
+    "two_truths": {
+      "category": "Zwei Wahrheiten, eine Lüge"
+    }
+  },
+  "game_reactions": {
+    "love": "Liebe",
+    "laugh": "Haha",
+    "kiss": "Kuss",
+    "angry": "Grr",
+    "eye_roll": "Augenrollen",
+    "fire": "Heiß",
+    "shy": "Schüchtern"
+  },
+  "announcements": {
+    "f84bf4da-77b8-4f6f-96e6-beff58570ea5": {
+      "title": "Neuer Spielmodus: 2 Wahrheiten, 1 Lüge!",
+      "message": "Schreib 2 Wahrheiten und 1 Lüge über dich und finde dann die Lüge deines Schatzes. Wer kennt wen besser – und wer kann besser lügen? 😏"
+    },
+    "05fc8cad-2351-4fe1-b4b7-6592386fc900": {
+      "title": "Neuer Spielmodus: Rangliste!",
+      "message": "Bring die Optionen in eine Reihenfolge und schau, wie gut deine Reihenfolge zu der deines Schatzes passt. Probier Rangliste aus oder geh mit Rangliste (Intimität) noch tiefer."
+    }
+  }
+}

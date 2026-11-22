@@ -1,0 +1,69 @@
+{
+  "dae2d4cc-1750-4ff2-ad27-8844b09f1ea3": {
+    "en": "When do you feel closest to your partner?",
+    "text": "Quand te sens-tu le plus proche de ta moitié ?",
+    "answers": [
+      "En parlant tard le soir",
+      "En riant ensemble",
+      "Dans les moments de contact physique",
+      "Après avoir traversé une épreuve ensemble"
+    ]
+  },
+  "b1333bff-a865-4cb9-9293-ec4f88e184e2": {
+    "en": "How satisfied are you with your physical closeness lately?",
+    "text": "Ces derniers temps, votre intimité physique te comble-t-elle ?",
+    "answers": [
+      "Pleinement",
+      "Globalement, oui",
+      "J'en voudrais plus",
+      "Quelque chose cloche"
+    ]
+  },
+  "54b1befc-8d38-4ad9-b0f7-4ecc5da68448": {
+    "en": "How do you like intimacy to begin?",
+    "text": "Comment aimes-tu que les moments intimes commencent ?",
+    "answers": [
+      "Doucement, sans se presser",
+      "Spontanément",
+      "Par des mots d'abord",
+      "Prévu à l'avance, l'attente fait monter l'envie"
+    ]
+  },
+  "a23bd9c0-604e-42e9-a98a-4f1494b812c3": {
+    "en": "What kills the mood fastest for you?",
+    "text": "Qu'est-ce qui casse l'ambiance le plus vite pour toi ?",
+    "answers": [
+      "Les téléphones",
+      "Le stress de la journée",
+      "Devoir faire vite",
+      "Une tension pas réglée"
+    ]
+  },
+  "6689e4d3-270f-4a02-9581-f286060425d0": {
+    "en": "How important is affection outside the bedroom to you?",
+    "text": "Quelle importance a pour toi la tendresse en dehors de la chambre ?",
+    "answers": [
+      "Indispensable",
+      "Un vrai plus",
+      "Pas une priorité"
+    ]
+  },
+  "3cb8d865-6f52-410b-a73c-647cc8ed78fb": {
+    "en": "Telling your partner what you want in intimacy is…",
+    "text": "Dire à ta moitié ce que tu désires dans l'intimité, c'est…",
+    "answers": [
+      "Facile pour moi",
+      "Plus facile par message",
+      "Gênant, mais j'en ai envie",
+      "Quelque chose que j'évite"
+    ]
+  },
+  "176ce7a7-80c4-44da-b820-4488d4d1d280": {
+    "en": "Which moment between you two do you keep replaying in your head?",
+    "text": "Quel moment entre vous deux repasse en boucle dans ta tête ?"
+  },
+  "0d7aff47-dea9-4a0b-a71b-03f9e196e0f5": {
+    "en": "In a few words: what makes you feel desired?",
+    "text": "En quelques mots : qu'est-ce qui te fait sentir que ta moitié te désire ?"
+  }
+}

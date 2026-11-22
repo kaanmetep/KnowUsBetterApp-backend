@@ -1,7 +1,9 @@
 /**
  * Profanity masking for short user text (typed answers, player names), backed
  * by terlik.js. The answer's language is unknown, so the Turkish, English,
- * Spanish and Portuguese dictionaries all run and their matches are merged. A flagged span
+ * Spanish, German, Portuguese, Italian, Polish, French and Dutch word lists all
+ * run and their matches are merged. Japanese has no list (no word boundaries, so
+ * substring matching would flag everyday words); moderation covers it. A flagged span
  * keeps its first character and the rest becomes "*".
  */
 import { Terlik } from "terlik.js";
@@ -19,26 +21,119 @@ const PORTUGUESE_WORDS = [
   "fdp", "pqp", "vsf", "tnc", "krl",
 ];
 
+// terlik.js has no Italian or Polish dictionary either; their whole words ride on
+// the English filter. Everyday words that double as slang (it "culo", "sega";
+// pl "dupa", "pedał") and it "troia" (also Troy) are left out. Polish words are listed with and without
+// diacritics because people type both.
+const ITALIAN_WORDS = [
+  "cazzo", "cazzi", "vaffanculo", "fanculo", "stronzo", "stronza", "stronzi",
+  "merda", "puttana", "puttane", "coglione", "cogliona", "coglioni",
+  "minchia", "fottiti", "fottuto", "fottuta", "bastardo", "bastarda",
+  "porcodio", "dioporco", "mignotta", "zoccola", "frocio", "ricchione", "pompino",
+];
+const POLISH_WORDS = [
+  "kurwa", "kurwy", "kurwo", "chuj", "chuja", "chuju", "huj", "pierdol",
+  "pierdolić", "pierdolic", "pierdolę", "pierdole", "spierdalaj", "wypierdalaj",
+  "jebać", "jebac", "jebany", "jebana", "jebane", "pizda", "pizdy", "skurwysyn",
+  "skurwiel", "cipa", "kutas", "ciota", "zjeb", "debil",
+];
+
+// French and Dutch ride on the English filter too. French "con" (es/it "with"),
+// "bite" (English "bite") and "chatte" (cat) are left out, as are Dutch "kanker"
+// (cancer), "eikel" (acorn) and "pik" (also a plain word in other languages).
+const FRENCH_WORDS = [
+  "putain", "merde", "connard", "connasse", "salope", "salopes", "enculé", "encule",
+  "enculer", "enculés", "niquer", "nique", "ntm", "pute", "putes", "pétasse", "petasse",
+  "foutre", "branleur", "branleuse", "pédé", "tapette", "bâtard", "batard", "couilles",
+  "fdp", "bordel de merde",
+];
+const DUTCH_WORDS = [
+  "kut", "kutwijf", "klootzak", "klootzakken", "lul", "godverdomme", "tering", "tyfus",
+  "hoer", "hoeren", "neuken", "flikker", "mongool", "trut", "teringlijer", "kankerlijer",
+];
+
 const FILTERS = [
   new Terlik({ language: "tr" }),
-  new Terlik({ language: "en" }),
+  new Terlik({ language: "en", customList: [...ITALIAN_WORDS, ...POLISH_WORDS, ...FRENCH_WORDS, ...DUTCH_WORDS] }),
   new Terlik({ language: "es", customList: PORTUGUESE_WORDS }),
+  new Terlik({ language: "de" }),
 ];
 
 /**
- * The Turkish dictionary folds ı → i and ö → o, which flags everyday words:
- * "sık sık", "sıkıldım", English "I got it" / "I am". Drop those matches by
- * looking at how the word was actually spelled.
+ * The dictionaries fold letters and tolerate spaces and digits, so they flag
+ * everyday words, often in another language: Turkish "sik"/"göt" in "sık sık"
+ * or English "I got it", Turkish "am" in Italian "amici", "mal" in German "noch
+ * mal" and Spanish/Portuguese "mal", "bok" in Polish "na boku", English "nonce"
+ * in Italian "non". Drop those matches by looking at how the word was spelled.
  */
-function isFalsePositive(match: Match): boolean {
+const POLISH_PREPOSITIONS = new Set(["na", "z", "ze", "w", "we", "po", "do", "u", "przy", "o", "od", "obok", "pod", "nad"]);
+
+const FRENCH_BEFORE_NOUN = new Set(["en", "du", "de", "sans", "ton", "mon", "son", "ce", "un", "le", "des", "les", "leur", "votre", "notre", "petit", "gros"]);
+
+function isFalsePositive(match: Match, text: string): boolean {
   const word = match.word.toLocaleLowerCase("tr");
+  if (/^[\d\s.,]+$/.test(word)) return true; // "56" read as "sg"
+  const before = text.slice(0, match.index).trim().split(/\s+/).pop()?.toLowerCase() ?? "";
   switch (match.root) {
     case "sik":
       return word.startsWith("sık");
     case "göt":
-      return !word.includes("ö");
+      return !word.includes("ö") || word.startsWith("götter");
     case "am":
-      return word === "am";
+      // Turkish forms only: amcık/amcuk, amı…, amına/amini, amk.
+      return !/^am(c[ıiu]k|ı|[ıi]n[ıia]|k\b|q\b)/.test(word);
+    case "mal": // Turkish insult, but German "noch mal", Spanish/Portuguese "mal"
+    case "meme": // Turkish "breast", and the internet meme
+    case "hell": // German "bright"
+    case "dreck": // German "dirt"
+    case "dumm": // German "silly", too mild to mask
+    case "negro": // Spanish/Portuguese/Italian "black"
+    case "schmuck": // German "jewellery"
+      return true;
+    case "cu": // Portuguese insult, but "Cu" is copper in trivia answers
+      return match.word === "Cu";
+    case "schwanz": // German "tail" after an article: "im Schwanz", "der Schwanz"
+      return ["im", "am", "dem", "den", "der", "einen", "ein", "sein", "seinen", "mit", "langen", "kurzen"].includes(before);
+    case "pezevenk":
+      return !word.startsWith("pezev");
+    case "oç":
+      return word.length < 2 || /[\s']/.test(word);
+    case "bok":
+      return /\s/.test(word) || POLISH_PREPOSITIONS.has(before) || word === "boki" || word.startsWith("boo");
+    case "piç":
+      return word.includes("ć") || /^pici[aeu]/.test(word) || word.startsWith("picass") || /pic$/.test(word) && word.length > 4;
+    case "domuz":
+    case "döl":
+    case "alık":
+      return !/[öışçğü]/.test(word) && !word.startsWith(match.root) || /\s/.test(word);
+    case "spic":
+      return /^spic(y|k|e)/.test(word);
+    case "nonce":
+      return word === "non";
+    case "dago":
+    case "pervert":
+      return !word.startsWith(match.root.slice(0, 4));
+    case "puta":
+      return word === "put";
+    case "spast":
+      return !word.startsWith("spast");
+    // French and Dutch everyday words that look like English/German/Turkish insults.
+    case "retard": // French "en retard" (late)
+      return FRENCH_BEFORE_NOUN.has(before) || (word === "retards" && /[éèêàçù]/i.test(text)) || /^retard(e|é|s|er|ait)?$/.test(word) && /\b(en|du)\s+$/i.test(text.slice(0, match.index));
+    case "douche": // French/Dutch "shower"
+      return !word.startsWith("douchebag") && !["a", "you", "such", "what", "total", "big"].includes(before);
+    case "nique": // "pique-nique" (picnic)
+      return word.includes("pique");
+    case "slag": // Dutch "slagen" (to succeed), "slagroom"
+      return word.length > 5;
+    case "wog": // Dutch "woog" (weighed)
+      return word.startsWith("woo");
+    case "hure": // Dutch "huren" (to rent)
+      return word === "huren";
+    case "anal": // Dutch "aan als …" read across a space
+    case "defol":
+    case "merde": // Dutch "meer, de"
+      return /[\s,.]/.test(word) || word.length < 4;
     default:
       return false;
   }
@@ -46,7 +141,7 @@ function isFalsePositive(match: Match): boolean {
 
 function profaneRanges(text: string): Array<[number, number]> {
   const ranges = FILTERS.flatMap((filter) => filter.getMatches(text))
-    .filter((match) => !isFalsePositive(match))
+    .filter((match) => !isFalsePositive(match, text))
     .map((match): [number, number] => [match.index, match.index + match.word.length])
     .sort((a, b) => a[0] - b[0]);
 

@@ -1,0 +1,740 @@
+{
+ "5738b45b-1858-43f3-826e-11ef8d263b66": {
+  "text": "Gdy ktoś bliski u ciebie nocuje, gdzie śpi?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "240d4c3b-09f9-424b-8508-8f2413892f20": {
+  "text": "Jak odmawiasz komuś z przyjaciół?",
+  "answers": [
+   "Mówię wprost",
+   "Wymyślam wymówkę",
+   "Odwlekam to",
+   "Nie odmawiam"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ed007dff-5f12-45f1-913a-814207c21337": {
+  "text": "Gdzie jest twój telefon, gdy spotykasz się ze znajomymi?",
+  "answers": [
+   "Na stole",
+   "Ekranem w dół",
+   "W torbie",
+   "W ręce"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "472843d1-c68f-4443-8e98-1c7ebfff08f1": {
+  "text": "Ktoś z przyjaciół wylewa przed tobą żale. Co robisz?",
+  "answers": [
+   "Szukam rozwiązania",
+   "Po prostu słucham",
+   "Próbuję rozśmieszyć",
+   "Opowiadam swoją historię"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9626e6ef-559e-4903-a872-8098df7019aa": {
+  "text": "Ktoś z przyjaciół odwołuje spotkanie w ostatniej chwili. Co robisz?",
+  "answers": [
+   "Mówię, że nic się nie stało",
+   "Daję znać, że to słabe",
+   "Od razu ustalam nowy termin",
+   "Przez jakiś czas nie zapraszam"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d7063b2a-a2b9-4e31-b9d5-ea73d3fc1b48": {
+  "text": "Jak najbardziej lubisz spędzać czas z przyjaciółmi?",
+  "answers": [
+   "Sam na sam",
+   "W małej grupie",
+   "Całą paczką",
+   "Z kim akurat się da"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b3285428-6a7b-494a-a8ce-607db3eff19a": {
+  "text": "Ktoś z przyjaciół spóźnia się 20 minut, a ty już jesteś na miejscu. Co robisz?",
+  "answers": [
+   "Czekam",
+   "Piszę wiadomość",
+   "Zamawiam, nie czekając",
+   "Wychodzę"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6e92199a-a131-4c52-8fcb-db5cdd54cb8b": {
+  "text": "Ktoś z przyjaciół dzwoni o pierwszej w nocy. Co robisz?",
+  "answers": [
+   "Odbieram",
+   "Piszę „jutro”",
+   "Niech dzwoni",
+   "Oddzwaniam później"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ca4a3d3a-b6cd-42c6-acea-f2ddaffcee41": {
+  "text": "Ktoś z przyjaciół zaczyna się z ciebie nabijać. Co robisz?",
+  "answers": [
+   "Odgryzam się",
+   "Śmieję się z tego",
+   "Milknę",
+   "Każę przestać"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0b00eec2-7db8-49f6-9a33-2e91bfdafed9": {
+  "text": "Ktoś z przyjaciół pożycza coś od ciebie i nie oddaje. Co robisz?",
+  "answers": [
+   "Przypominam",
+   "Odpuszczam",
+   "Więcej nie pożyczam",
+   "Żartuję z tego, aż sobie przypomni"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3866d609-64de-4f95-9a99-d3b5aca59d4d": {
+  "text": "Jak zwykle wychodzisz ze spotkania?",
+  "answers": [
+   "Żegnam się i idę",
+   "Wymykam się po cichu",
+   "Zostaję do samego końca",
+   "Czekam, aż ktoś wyjdzie ze mną"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fc886a8f-d247-4df7-9911-70df16293d14": {
+  "text": "Ktoś z przyjaciół wrzuca bez pytania twoje brzydkie zdjęcie. Co robisz?",
+  "answers": [
+   "Proszę o usunięcie",
+   "Śmieję się z tego",
+   "W rewanżu wrzucam jeszcze gorsze",
+   "Na jakiś czas wyciszam posty"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cf30ac84-0e23-499b-84f0-194255049b2e": {
+  "text": "Dwie osoby z twojej paczki się kłócą. Co robisz?",
+  "answers": [
+   "Nie mieszam się",
+   "Próbuję pogodzić",
+   "Staję po stronie, która moim zdaniem ma rację",
+   "Gadam z obiema stronami osobno"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a6aca301-d610-4229-8289-b89bedc32e1e": {
+  "text": "Jak zwykle umawiasz się z przyjaciółmi?",
+  "answers": [
+   "Wysyłam pierwszą wiadomość",
+   "Czekam, aż ktoś zacznie",
+   "Proponuję do skutku",
+   "Po prostu dołączam tam, gdzie wszyscy idą"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "79b31e12-db1a-4595-a37d-d8bf3a5d4ab1": {
+  "text": "Ktoś z przyjaciół ewidentnie nie ma racji w dyskusji. Co robisz?",
+  "answers": [
+   "Od razu prostuję",
+   "Odpuszczam",
+   "Mówię to później na osobności",
+   "Przytakuję, a w duchu się nie zgadzam"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "43b8538b-f20e-4106-86db-2fb4ae991e8d": {
+  "text": "Ktoś bliski od kilku tygodni się nie odzywa. Co robisz?",
+  "answers": [
+   "Raz pytam, co słychać",
+   "Odzywam się do skutku",
+   "Daję przestrzeń",
+   "Pytam wspólnych znajomych, co się dzieje"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cf10e8ca-f5f7-4fd3-ade3-8d3dd80864a1": {
+  "text": "Ktoś z przyjaciół ma nieudaną fryzurę i prosi o szczerość. Co robisz?",
+  "answers": [
+   "Mówię prawdę",
+   "Znajduję jakiś plus",
+   "Zmieniam temat"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5f50e363-7d88-40da-9fc3-20a70c1c98bc": {
+  "text": "Ktoś bliski chce u ciebie pomieszkać przez tydzień. Co odpowiadasz?",
+  "answers": [
+   "Zostań, ile potrzebujesz",
+   "Kilka dni, potem pogadamy",
+   "Nie w tym tygodniu, ale pomogę inaczej"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "96a10636-c640-4c8e-b29c-8d5ea35a2325": {
+  "text": "Ktoś, z kim już prawie nie rozmawiasz, prosi o dużą przysługę. Co robisz?",
+  "answers": [
+   "Pomagam jak za dawnych czasów",
+   "Pomagam, ale w małym zakresie",
+   "Mówię szczerze, że nie jesteśmy już tak blisko"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8fbe5c15-1c5f-4d62-bb1c-8c87bd5e68e9": {
+  "text": "Dwie paczki znajomych zapraszają cię na ten sam wieczór. Co robisz?",
+  "answers": [
+   "Idę tam, skąd przyszło pierwsze zaproszenie",
+   "Idę do tych, za którymi bardziej tęsknię",
+   "Próbuję wpaść tu i tu"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "da359ad8-f794-47c9-a71f-de550fd3df0c": {
+  "text": "Ktoś bliski prosi o pożyczenie sporej sumy. Co robisz?",
+  "answers": [
+   "Pożyczam, jeśli mogę",
+   "Tylko z jasnym planem spłaty",
+   "Nie pożyczam pieniędzy przyjaciołom"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d6c8e97e-b3ba-44d7-b105-c1b6b2a57587": {
+  "text": "Ktoś z przyjaciół spotyka się z kimś, kogo nie znosisz. Co robisz?",
+  "answers": [
+   "Mówię od razu",
+   "Czekam, aż zapyta",
+   "Milczę i wspieram"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0d743c77-1a58-418b-8117-3263ce8f4009": {
+  "text": "Ktoś z przyjaciół zaprasza cię do drogiego lokalu, na który cię nie stać. Co robisz?",
+  "answers": [
+   "Mówię, że mnie nie stać",
+   "Proponuję coś tańszego",
+   "Idę i naciągam budżet"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "02bb14d7-0d08-400e-9917-9aec53c8b7c8": {
+  "text": "Słyszysz, jak ktoś z przyjaciół lekko cię obgaduje. Co robisz?",
+  "answers": [
+   "Pytam o to wprost",
+   "Trochę się dystansuję",
+   "Raz puszczam to płazem"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "660a531c-8d5e-44d7-b117-483aafb66d83": {
+  "text": "Na imprezie ktoś z przyjaciół po kilku drinkach chce pisać do eks. Co robisz?",
+  "answers": [
+   "Zabieram telefon",
+   "Niech pisze"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6ae65593-620a-47a3-bd16-3cfdba20307b": {
+  "text": "Na kolacji przychodzi rachunek, a ktoś z przyjaciół znowu „nie ma portfela”. Co robisz?",
+  "answers": [
+   "Płacę i odpuszczam",
+   "Płacę, ale potem o tym mówię"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b2f40f63-d542-449f-b8d9-7251868fe21c": {
+  "text": "W Uberze ktoś z przyjaciół zaczyna kłócić się z kierowcą. Co robisz?",
+  "answers": [
+   "Wkraczam i uspokajam",
+   "Siedzę cicho i czekam, aż minie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2fca8524-3f16-4523-b057-17699983cc36": {
+  "text": "Ktoś z przyjaciół zaczyna opowiadać nowo poznanym osobom żenującą historię o tobie. Co robisz?",
+  "answers": [
+   "Przerywam",
+   "Pozwalam dokończyć"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1dc43db7-154f-4a47-9397-f3ec7f508978": {
+  "text": "Ktoś z przyjaciół zdradza ci sekret i mówi: „Nawet twojej drugiej połówce nie mów”. Co robisz?",
+  "answers": [
+   "Dochowuję tajemnicy",
+   "I tak mówię drugiej połówce",
+   "Dochowuję, chyba że to coś poważnego"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f1a66bde-c82e-4903-9965-90c3fa82d1b0": {
+  "text": "Ty i ktoś bliski staracie się o tę samą pracę. Dostaje ją ta druga osoba. Co robisz?",
+  "answers": [
+   "Szczerze świętuję razem",
+   "Gratuluję, ale w środku trochę boli",
+   "Potrzebuję chwili dystansu"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e4d8aa34-b71c-4d2c-babe-8ef1e1d37350": {
+  "text": "Ktoś z przyjaciół staje w twoich drzwiach bez uprzedzenia. Co robisz?",
+  "answers": [
+   "Z radością wpuszczam",
+   "Wpuszczam, ale trochę mnie to irytuje",
+   "Udaję, że nie ma mnie w domu",
+   "Wpuszczam, ale proszę o wiadomość następnym razem"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5587411e-e5d6-4c3b-b709-925a48828ccd": {
+  "text": "Ktoś z przyjaciół prosi cię o krycie przed swoją drugą połówką. Co robisz?",
+  "answers": [
+   "Kryję bez pytań",
+   "Tylko jeśli wiem, o co chodzi",
+   "Odmawiam, nie chcę brać w tym udziału",
+   "Zgadzam się, ale ostatni raz"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2ceb502c-1cb0-4d19-b751-39c067c789a3": {
+  "text": "Ktoś bliski zapomina o twoich urodzinach. Co robisz?",
+  "answers": [
+   "Zupełnie mnie to nie rusza",
+   "Jest mi przykro, ale nic nie mówię",
+   "Wspominam o tym żartem",
+   "Mówię, że naprawdę mnie to zabolało"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "90a8ef25-80da-4dce-a879-4c4de8f1272a": {
+  "text": "Jak zwykle pokazujesz komuś z przyjaciół, że ci zależy?",
+  "answers": [
+   "Wspólnie spędzonym czasem",
+   "Drobnymi prezentami i niespodziankami",
+   "Dopingiem i komplementami",
+   "Pomocą w potrzebie",
+   "Wiadomościami bez okazji"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5ea9ba87-e9a5-45bd-b147-03e94f0d2eee": {
+  "text": "W porównaniu z rozstaniem w związku koniec bliskiej przyjaźni boli…",
+  "answers": [
+   "Bardziej",
+   "Mniej",
+   "Mniej więcej tak samo"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "81c3e73b-6f4a-401f-be7c-7322f3c88d97": {
+  "text": "Jak często bliscy przyjaciele powinni ze sobą gadać?",
+  "answers": [
+   "Codziennie",
+   "Kilka razy w tygodniu",
+   "Mniej więcej raz w tygodniu",
+   "Kiedy wyjdzie, nie ma reguł"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bf330507-367e-4d2b-a74c-51bbacecc0de": {
+  "text": "Czy można się naprawdę blisko zaprzyjaźnić z kimś poznanym tylko online?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ad99c683-1579-4b76-ac84-bbe48ccc1529": {
+  "text": "Ile maksymalnie jesteś w stanie wydać na prezent urodzinowy dla kogoś bliskiego?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fe5a5b25-7f16-4855-b749-d4e8e9cc1d5f": {
+  "text": "Nawiązywanie nowych bliskich przyjaźni w dorosłym życiu jest…",
+  "answers": [
+   "Łatwe, jeśli się otworzysz",
+   "Trudne, ale możliwe",
+   "Prawie niemożliwe"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8c65c713-6463-475a-bf56-9ec5381e9302": {
+  "text": "Czy ktoś z pracy może stać się jedną z najbliższych ci osób?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "beb7f795-5c55-41bd-98fc-a459db151882": {
+  "text": "Po jakim czasie znajomość staje się dla ciebie bliską przyjaźnią?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fb50cd2d-2221-4e5f-b6eb-1a37644fda56": {
+  "text": "Ktoś bliski zaczyna się spotykać z kimś z twojego rodzeństwa. Co czujesz?",
+  "answers": [
+   "Cieszę się ich szczęściem",
+   "Dziwnie, ale się przyzwyczaję",
+   "Zupełnie mi to nie pasuje"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "68663bf0-f74e-4eb2-9375-794c0160fd51": {
+  "text": "Siedzenie z kimś bliskim w zupełnej ciszy, zajmując się swoimi sprawami…",
+  "answers": [
+   "To prawdziwa bliskość",
+   "Od czasu do czasu spoko",
+   "Jest krępujące"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fb1756d1-62b7-4393-9307-53cd0f287376": {
+  "text": "Gdy masz wielką nowinę, kto dowiaduje się pierwszy?",
+  "answers": [
+   "Moja druga połówka",
+   "Ktoś z najbliższych przyjaciół",
+   "Moja rodzina",
+   "Wszyscy naraz na grupowym czacie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c1fa53a1-cf09-4356-a17d-4b3af5c3a9f7": {
+  "text": "Jaki nawyk u przyjaciół najbardziej cię wkurza?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "570b53e3-9da8-412a-88f9-c3df5793d601": {
+  "text": "Wspólny biznes z kimś z bliskich przyjaciół – wchodzisz w to?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c72dd7bf-86a8-4621-b2f2-ed918e7319c3": {
+  "text": "Ktoś z przyjaciół zabiera swoją nową miłość na każde spotkanie. Co robisz?",
+  "answers": [
+   "Super, im więcej, tym weselej",
+   "Spoko, ale brakuje mi czasu tylko dla nas",
+   "Proszę o spotkania w samym gronie przyjaciół",
+   "Zaczynamy się rzadziej widywać"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "637c640b-fdb6-4280-9bb5-d10092e0490f": {
+  "text": "Dzielenie się z przyjaciółmi hasłami do Netflixa i spółki…",
+  "answers": [
+   "Totalnie normalne",
+   "Tylko z najbliższymi",
+   "Nigdy"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "11e1d92e-1142-4d19-b8eb-9e85b241a9c9": {
+  "text": "Rywalizacja między bliskimi przyjaciółmi…",
+  "answers": [
+   "Napędza nas do działania",
+   "Powoli niszczy przyjaźń"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "04beefdc-5d0a-47a0-8476-209397119731": {
+  "text": "Ktoś z przyjaciół prosi cię o zeswatanie z kimś. Co robisz?",
+  "answers": [
+   "Uwielbiam swatać",
+   "Tylko jeśli znam kogoś naprawdę pasującego",
+   "Nie mieszam się, za duże ryzyko"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d97011a0-577f-437e-b2f7-34d6e3f16ec7": {
+  "text": "Ktoś z przyjaciół choruje sam w domu. Co robisz?",
+  "answers": [
+   "Przychodzę z rosołem i lekami",
+   "Zamawiam jedzenie z dostawą",
+   "Piszę z pytaniem o zdrowie",
+   "Czekam, aż poprosi o pomoc"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "49f2c5bd-906c-4677-938d-2634f11f2c0e": {
+  "text": "Ile osób zapraszasz na swoje urodziny?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "80b1847b-4029-4376-b594-cf2439e45e3c": {
+  "text": "Ktoś z przyjaciół zaczyna kopiować twój styl i hobby. Co czujesz?",
+  "answers": [
+   "Schlebia mi to",
+   "Średnio mnie to obchodzi",
+   "Trochę mnie to irytuje",
+   "Zwracam na to uwagę"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9d61613c-1992-45d8-bef1-37f07f995e66": {
+  "text": "Dostajesz od kogoś z przyjaciół prezent dużo droższy niż ten od ciebie. Co robisz?",
+  "answers": [
+   "Nic, to nie wyścig",
+   "Jest mi głupio",
+   "Odwdzięczam się następnym razem"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "826c30c4-7dae-497a-be3b-a89531829cef": {
+  "text": "Pożyczysz komuś z przyjaciół ulubioną rzecz z szafy?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c17f6d8c-88be-4516-b333-5e7b45e4997f": {
+  "text": "Ktoś z twoich najbliższych przyjaciół prosi o pomoc w organizacji ślubu. Co robisz?",
+  "answers": [
+   "Wchodzę w to na całego",
+   "Pomagam, ale w granicach rozsądku",
+   "Przychodzę tylko na sam ślub"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bea820e2-cce1-49fc-aa07-4ab99ead86c4": {
+  "text": "Ile godzin jesteś w stanie jechać na urodziny kogoś bliskiego?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "45cf28ad-01d6-458f-b371-d10cb5d628b3": {
+  "text": "Ktoś z przyjaciół potrzebuje podwózki na lotnisko o 5 rano. Co robisz?",
+  "answers": [
+   "Zawożę, żaden problem",
+   "Zawożę, ale marudzę całą drogę",
+   "Zamiast tego płacę za taksówkę",
+   "Mówię, że nie mogę"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cee7b4d0-8a85-42ae-9d36-e805461c3601": {
+  "text": "Udostępniasz bliskim przyjaciołom swoją lokalizację na żywo?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1261e2f8-c857-4478-8e71-e0a25b6dac19": {
+  "text": "Ktoś z przyjaciół, kto zawsze mówi ci gorzką prawdę…",
+  "answers": [
+   "To najcenniejsza przyjaźń",
+   "Z czasem męczy"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6cb7ef7c-1478-4456-b1cf-d26358f74de0": {
+  "text": "Przyjaźnie z dużą różnicą wieku (10+ lat)…",
+  "answers": [
+   "Świetnie się sprawdzają",
+   "Działają, ale są inne",
+   "Trudno w nich o wspólny język"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9fea2ef2-07b0-4d41-b852-f5bf24dd2b6f": {
+  "text": "Na wspólnym wyjeździe ktoś z paczki chce wydawać dużo więcej niż reszta. Co robisz?",
+  "answers": [
+   "Dostosowuję się",
+   "Przy drogich planach się rozdzielamy",
+   "Od początku ustalam wspólny budżet",
+   "Mówię wprost, że to za dużo"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e442ad82-0026-4be1-a02d-5cf52c6db6b3": {
+  "text": "Gdy ktoś z przyjaciół cię zrani, mówisz o tym, zamiast po cichu się odsunąć?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a568c592-7960-40ea-b5e7-f8fcff9f1109": {
+  "text": "Ktoś z przyjaciół prosi cię o opiekę nad zwierzakiem przez tydzień. Co robisz?",
+  "answers": [
+   "Chętnie, kocham zwierzaki",
+   "Zależy, jakie to zwierzę",
+   "Tak, ale bez zabierania do siebie",
+   "Odmawiam"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f7975688-29c1-4bff-9678-56257d052a89": {
+  "text": "Ktoś bliski nagle staje się sławny. Co się dla ciebie zmienia?",
+  "answers": [
+   "Nic, to wciąż ta sama osoba",
+   "Chwalę się wszystkim",
+   "Naturalnie trochę się dystansuję",
+   "Martwię się, że sława coś zmieni"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "53f44073-13ad-4340-b3dc-428d01768d73": {
+  "text": "Ktoś z przyjaciół zaczyna coś sprzedawać i ciągle ci to wciska. Co robisz?",
+  "answers": [
+   "Raz kupuję, żeby wesprzeć",
+   "Za każdym razem grzecznie odmawiam",
+   "Mówię, że to już irytujące",
+   "Wyciszam"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "392563c7-8455-4b18-a840-2569bad40fb3": {
+  "text": "Po kłótni z kimś bliskim kto odzywa się pierwszy?",
+  "answers": [
+   "Zawsze ja",
+   "Ta strona, która zawiniła",
+   "Nikt, udajemy, że nic się nie stało",
+   "Nikt, zwykle na tym się kończy"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "580d620b-1ff6-4662-b9e7-783a83b482ab": {
+  "text": "Wrzucanie przyjaciół na swoje social media…",
+  "answers": [
+   "Pokazuje, że ci na nich zależy",
+   "Wcale nie jest potrzebne"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c01dd781-f740-41b0-a72c-d6706d48e8ff": {
+  "text": "Dasz radę przyjaźnić się z eks swojej drugiej połówki?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0dca06e6-2ca7-47d9-baad-475f804027d3": {
+  "text": "Jaka jest idealna liczba osób na wyjazd ze znajomymi?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

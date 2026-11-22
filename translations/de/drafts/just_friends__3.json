@@ -1,0 +1,740 @@
+{
+  "5738b45b-1858-43f3-826e-11ef8d263b66": {
+    "text": "Wo schlafen enge Freunde, wenn sie bei dir übernachten?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "240d4c3b-09f9-424b-8508-8f2413892f20": {
+    "text": "Wie sagst du Freunden Nein?",
+    "answers": [
+      "Ganz direkt",
+      "Mit einer Ausrede",
+      "Ich schiebe es auf",
+      "Ich sage nie Nein"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ed007dff-5f12-45f1-913a-814207c21337": {
+    "text": "Wo ist dein Handy, wenn du mit Freunden unterwegs bist?",
+    "answers": [
+      "Auf dem Tisch",
+      "Mit dem Display nach unten",
+      "In der Tasche",
+      "In der Hand"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "472843d1-c68f-4443-8e98-1c7ebfff08f1": {
+    "text": "Wenn Freunde sich bei dir ausheulen, was machst du?",
+    "answers": [
+      "Eine Lösung suchen",
+      "Einfach zuhören",
+      "Zum Lachen bringen",
+      "Die eigene Geschichte erzählen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9626e6ef-559e-4903-a872-8098df7019aa": {
+    "text": "Jemand aus deinem Freundeskreis sagt in letzter Minute ab. Was machst du?",
+    "answers": [
+      "Sagen, dass es okay ist",
+      "Sagen, dass es doof war",
+      "Sofort neu planen",
+      "Eine Weile nicht mehr einladen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d7063b2a-a2b9-4e31-b9d5-ea73d3fc1b48": {
+    "text": "Wie triffst du dich am liebsten mit Freunden?",
+    "answers": [
+      "Zu zweit",
+      "In kleiner Runde",
+      "Mit der ganzen Clique",
+      "Mit allen, die gerade Zeit haben"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b3285428-6a7b-494a-a8ce-607db3eff19a": {
+    "text": "Jemand aus deinem Freundeskreis ist 20 Minuten zu spät, du bist schon da. Was machst du?",
+    "answers": [
+      "Warten",
+      "Eine Nachricht schreiben",
+      "Schon mal bestellen",
+      "Gehen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6e92199a-a131-4c52-8fcb-db5cdd54cb8b": {
+    "text": "Jemand aus deinem Freundeskreis ruft um 1 Uhr nachts an. Was machst du?",
+    "answers": [
+      "Rangehen",
+      "„Morgen“ schreiben",
+      "Klingeln lassen",
+      "Später zurückrufen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ca4a3d3a-b6cd-42c6-acea-f2ddaffcee41": {
+    "text": "Wenn Freunde anfangen, dich aufzuziehen, was machst du?",
+    "answers": [
+      "Kontern",
+      "Drüber lachen",
+      "Still werden",
+      "Sagen, dass es reicht"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0b00eec2-7db8-49f6-9a33-2e91bfdafed9": {
+    "text": "Jemand aus deinem Freundeskreis hat sich was von dir geliehen und es nie zurückgegeben. Was machst du?",
+    "answers": [
+      "Daran erinnern",
+      "Es abhaken",
+      "Nichts mehr verleihen",
+      "So lange Witze machen, bis es klickt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3866d609-64de-4f95-9a99-d3b5aca59d4d": {
+    "text": "Wie gehst du meistens, wenn du mit Freunden unterwegs bist?",
+    "answers": [
+      "Tschüss sagen und los",
+      "Heimlich verschwinden",
+      "Ich bleibe bis zum Schluss",
+      "Warten, bis jemand mitgeht"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fc886a8f-d247-4df7-9911-70df16293d14": {
+    "text": "Jemand aus deinem Freundeskreis postet ungefragt ein mieses Foto von dir. Was machst du?",
+    "answers": [
+      "Bitten, es zu löschen",
+      "Drüber lachen",
+      "Ein noch mieseres zurückposten",
+      "Die Posts eine Weile stummschalten"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cf30ac84-0e23-499b-84f0-194255049b2e": {
+    "text": "Zwei aus deiner Clique streiten sich. Was machst du?",
+    "answers": [
+      "Raushalten",
+      "Vermitteln",
+      "Zu der Seite halten, die recht hat",
+      "Mit beiden einzeln reden"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a6aca301-d610-4229-8289-b89bedc32e1e": {
+    "text": "Wie machst du meistens Pläne mit Freunden?",
+    "answers": [
+      "Ich schreibe als Erstes",
+      "Ich warte, bis jemand anfängt",
+      "Ich schlage so lange was vor, bis es klappt",
+      "Ich komme einfach mit, wohin alle gehen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "79b31e12-db1a-4595-a37d-d8bf3a5d4ab1": {
+    "text": "Jemand aus deinem Freundeskreis liegt in einer Diskussion klar falsch. Was machst du?",
+    "answers": [
+      "Sofort korrigieren",
+      "Es gut sein lassen",
+      "Später unter vier Augen ansprechen",
+      "Laut zustimmen, innerlich widersprechen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "43b8538b-f20e-4106-86db-2fb4ae991e8d": {
+    "text": "Jemand aus deinem engsten Kreis meldet sich ein paar Wochen nicht. Was machst du?",
+    "answers": [
+      "Einmal nachfragen",
+      "Immer wieder schreiben",
+      "Freiraum lassen",
+      "Gemeinsame Freunde fragen, was los ist"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cf10e8ca-f5f7-4fd3-ade3-8d3dd80864a1": {
+    "text": "Jemand aus deinem Freundeskreis will ehrliches Feedback zu einem misslungenen Haarschnitt. Was machst du?",
+    "answers": [
+      "Die Wahrheit sagen",
+      "Etwas Nettes finden",
+      "Das Thema wechseln"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5f50e363-7d88-40da-9fc3-20a70c1c98bc": {
+    "text": "Jemand aus deinem engsten Kreis will eine Woche bei dir wohnen. Was sagst du?",
+    "answers": [
+      "Bleib, so lange du brauchst",
+      "Ein paar Tage, dann sehen wir weiter",
+      "Diese Woche nicht, aber ich helfe anders"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "96a10636-c640-4c8e-b29c-8d5ea35a2325": {
+    "text": "Jemand von früher, mit dem du kaum noch redest, bittet dich um einen großen Gefallen. Was machst du?",
+    "answers": [
+      "Helfen wie früher",
+      "Helfen, aber nur ein bisschen",
+      "Ehrlich sagen, dass ihr nicht mehr so eng seid"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8fbe5c15-1c5f-4d62-bb1c-8c87bd5e68e9": {
+    "text": "Zwei Freundeskreise laden dich für denselben Abend ein. Was machst du?",
+    "answers": [
+      "Zu denen, die zuerst gefragt haben",
+      "Zu denen, die ich mehr vermisse",
+      "Bei beiden vorbeischauen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "da359ad8-f794-47c9-a71f-de550fd3df0c": {
+    "text": "Jemand aus deinem engsten Kreis will sich eine größere Summe leihen. Was machst du?",
+    "answers": [
+      "Leihen, wenn ich kann",
+      "Nur mit klarem Rückzahlungsplan",
+      "Freunden leihe ich kein Geld"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d6c8e97e-b3ba-44d7-b105-c1b6b2a57587": {
+    "text": "Jemand aus deinem Freundeskreis datet eine Person, die du echt nicht ausstehen kannst. Was machst du?",
+    "answers": [
+      "Früh ansprechen",
+      "Warten, bis ich gefragt werde",
+      "Schweigen und unterstützen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0d743c77-1a58-418b-8117-3263ce8f4009": {
+    "text": "Jemand aus deinem Freundeskreis will mit dir irgendwohin, wo es eigentlich zu teuer für dich ist. Was machst du?",
+    "answers": [
+      "Sagen, dass es mir zu teuer ist",
+      "Etwas Günstigeres vorschlagen",
+      "Mitgehen und das Budget strapazieren"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "02bb14d7-0d08-400e-9917-9aec53c8b7c8": {
+    "text": "Du hörst zufällig, wie jemand aus deinem Freundeskreis ein bisschen über dich lästert. Was machst du?",
+    "answers": [
+      "Zur Rede stellen",
+      "Etwas auf Abstand gehen",
+      "Einmal durchgehen lassen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "660a531c-8d5e-44d7-b117-483aafb66d83": {
+    "text": "Auf einer Party will jemand aus deinem Freundeskreis betrunken dem Ex schreiben. Was machst du?",
+    "answers": [
+      "Das Handy wegnehmen",
+      "Machen lassen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6ae65593-620a-47a3-bd16-3cfdba20307b": {
+    "text": "Beim Essen kommt die Rechnung, und jemand aus deinem Freundeskreis hat mal wieder das Portemonnaie „vergessen“. Was machst du?",
+    "answers": [
+      "Übernehmen und abhaken",
+      "Übernehmen, aber später ansprechen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b2f40f63-d542-449f-b8d9-7251868fe21c": {
+    "text": "Im Taxi fängt jemand aus deinem Freundeskreis Streit mit dem Fahrer an. Was machst du?",
+    "answers": [
+      "Eingreifen und beruhigen",
+      "Schweigen und hoffen, dass es aufhört"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2fca8524-3f16-4523-b057-17699983cc36": {
+    "text": "Jemand aus deinem Freundeskreis erzählt Leuten, die ihr gerade erst kennengelernt habt, eine peinliche Geschichte über dich. Was machst du?",
+    "answers": [
+      "Unterbrechen",
+      "Ausreden lassen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1dc43db7-154f-4a47-9397-f3ec7f508978": {
+    "text": "Jemand verrät dir ein Geheimnis und sagt: „Nicht mal deinem Schatz erzählen!“ Was machst du?",
+    "answers": [
+      "Ich behalte es komplett für mich",
+      "Ich erzähle es meinem Schatz trotzdem",
+      "Ich behalte es, außer es ist was Ernstes"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f1a66bde-c82e-4903-9965-90c3fa82d1b0": {
+    "text": "Du und jemand aus deinem engsten Kreis habt euch auf denselben Job beworben – die andere Person hat ihn bekommen. Was machst du?",
+    "answers": [
+      "Ehrlich mitfeiern",
+      "Gratulieren, aber innerlich tut es weh",
+      "Erst mal etwas Abstand brauchen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e4d8aa34-b71c-4d2c-babe-8ef1e1d37350": {
+    "text": "Jemand aus deinem Freundeskreis steht unangekündigt vor deiner Tür. Was machst du?",
+    "answers": [
+      "Freudig reinlassen",
+      "Reinlassen, aber etwas genervt sein",
+      "So tun, als wäre ich nicht da",
+      "Reinlassen, aber sagen: Nächstes Mal vorher schreiben"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5587411e-e5d6-4c3b-b709-925a48828ccd": {
+    "text": "Jemand aus deinem Freundeskreis braucht von dir ein Alibi gegenüber dem eigenen Schatz. Was machst du?",
+    "answers": [
+      "Alibi geben, ohne Fragen",
+      "Nur, wenn ich weiß, worum es geht",
+      "Nein sagen, da halte ich mich raus",
+      "Ja sagen, aber klarmachen: zum letzten Mal"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2ceb502c-1cb0-4d19-b751-39c067c789a3": {
+    "text": "Jemand aus deinem engsten Kreis hat deinen Geburtstag vergessen. Was machst du?",
+    "answers": [
+      "Ist mir völlig egal",
+      "Gekränkt sein, aber schweigen",
+      "Es im Spaß ansprechen",
+      "Sagen, dass es echt wehgetan hat"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "90a8ef25-80da-4dce-a879-4c4de8f1272a": {
+    "text": "Wie zeigst du Freunden meistens, dass sie dir wichtig sind?",
+    "answers": [
+      "Zeit zusammen verbringen",
+      "Kleine Geschenke und Überraschungen",
+      "Pushen und Komplimente machen",
+      "Helfen, wenn es drauf ankommt",
+      "Einfach mal zwischendurch schreiben"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5ea9ba87-e9a5-45bd-b147-03e94f0d2eee": {
+    "text": "Eine enge Freundschaft zu verlieren tut im Vergleich zu einer Trennung …",
+    "answers": [
+      "Mehr weh",
+      "Weniger weh",
+      "Etwa gleich weh"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "81c3e73b-6f4a-401f-be7c-7322f3c88d97": {
+    "text": "Wie oft sollten enge Freunde miteinander reden?",
+    "answers": [
+      "Jeden Tag",
+      "Ein paar Mal pro Woche",
+      "Ungefähr einmal pro Woche",
+      "Egal, es gibt keine Regeln"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bf330507-367e-4d2b-a74c-51bbacecc0de": {
+    "text": "Kann jemand, den du nur online kennst, wirklich eng mit dir befreundet sein?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ad99c683-1579-4b76-ac84-bbe48ccc1529": {
+    "text": "Wie viel würdest du höchstens für ein Geburtstagsgeschenk an jemanden aus deinem engsten Kreis ausgeben?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fe5a5b25-7f16-4855-b749-d4e8e9cc1d5f": {
+    "text": "Im Erwachsenenalter neue enge Freundschaften zu schließen, ist …",
+    "answers": [
+      "Leicht, wenn man offen ist",
+      "Schwer, aber machbar",
+      "Fast unmöglich"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8c65c713-6463-475a-bf56-9ec5381e9302": {
+    "text": "Kann jemand von der Arbeit zu deinen engsten Freunden werden?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "beb7f795-5c55-41bd-98fc-a459db151882": {
+    "text": "Wie lange musst du jemanden kennen, um von enger Freundschaft zu sprechen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fb50cd2d-2221-4e5f-b6eb-1a37644fda56": {
+    "text": "Jemand aus deinem engsten Kreis kommt mit deinem Bruder oder deiner Schwester zusammen. Wie findest du das?",
+    "answers": [
+      "Ich freue mich für die beiden",
+      "Komisch, aber ich gewöhne mich dran",
+      "Gar nicht okay für mich"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "68663bf0-f74e-4eb2-9375-794c0160fd51": {
+    "text": "Mit Freunden abhängen, ohne zu reden, alle machen ihr eigenes Ding …",
+    "answers": [
+      "Das ist echte Nähe",
+      "Ab und zu okay",
+      "Fühlt sich komisch an"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fb1756d1-62b7-4393-9307-53cd0f287376": {
+    "text": "Wenn du große Neuigkeiten hast, wer erfährt sie zuerst?",
+    "answers": [
+      "Mein Schatz",
+      "Meine engsten Freunde",
+      "Meine Familie",
+      "Alle gleichzeitig im Gruppenchat"
+    ],
+    "accepted": [],
+    "flagged": true,
+    "note": "\"My best friend\" rendered as plural \"Meine engsten Freunde\" because bester Freund/beste Freundin reveals gender."
+  },
+  "c1fa53a1-cf09-4356-a17d-4b3af5c3a9f7": {
+    "text": "Welche Angewohnheit bei Freunden macht dich wahnsinnig?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "570b53e3-9da8-412a-88f9-c3df5793d601": {
+    "text": "Würdest du mit jemandem aus deinem engsten Kreis eine Firma gründen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c72dd7bf-86a8-4621-b2f2-ed918e7319c3": {
+    "text": "Jemand aus deinem Freundeskreis bringt plötzlich die neue Liebe zu jedem Treffen mit. Was machst du?",
+    "answers": [
+      "Super, je mehr, desto lustiger",
+      "Okay, aber ich vermisse die Zeit zu zweit",
+      "Ich bitte um Treffen nur unter uns",
+      "Ich treffe mich seltener"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "637c640b-fdb6-4280-9bb5-d10092e0490f": {
+    "text": "Streaming-Passwörter mit Freunden teilen …",
+    "answers": [
+      "Völlig normal",
+      "Nur mit den Engsten",
+      "Niemals"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "11e1d92e-1142-4d19-b8eb-9e85b241a9c9": {
+    "text": "Konkurrenz unter engen Freunden …",
+    "answers": [
+      "Spornt uns an",
+      "Macht die Freundschaft langsam kaputt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "04beefdc-5d0a-47a0-8476-209397119731": {
+    "text": "Jemand aus deinem Freundeskreis möchte von dir verkuppelt werden. Was machst du?",
+    "answers": [
+      "Ich verkupple liebend gern",
+      "Nur, wenn ich jemand wirklich Passendes kenne",
+      "Ich halte mich raus, zu riskant"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d97011a0-577f-437e-b2f7-34d6e3f16ec7": {
+    "text": "Jemand aus deinem Freundeskreis liegt allein krank zu Hause. Was machst du?",
+    "answers": [
+      "Mit Suppe und Medikamenten vorbeikommen",
+      "Essen per Lieferdienst schicken",
+      "Schreiben und nachfragen",
+      "Warten, bis ich um Hilfe gebeten werde"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "49f2c5bd-906c-4677-938d-2634f11f2c0e": {
+    "text": "Wie viele Freunde würdest du zu deinem Geburtstag einladen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "80b1847b-4029-4376-b594-cf2439e45e3c": {
+    "text": "Jemand aus deinem Freundeskreis kopiert plötzlich deinen Style und deine Hobbys. Wie fühlst du dich?",
+    "answers": [
+      "Geschmeichelt",
+      "Ist mir ziemlich egal",
+      "Etwas genervt",
+      "Ich würde was sagen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9d61613c-1992-45d8-bef1-37f07f995e66": {
+    "text": "Jemand aus deinem Freundeskreis hat dir etwas viel Teureres geschenkt als du umgekehrt. Was machst du?",
+    "answers": [
+      "Nichts, ist ja kein Wettbewerb",
+      "Peinlich berührt sein",
+      "Nächstes Mal ausgleichen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "826c30c4-7dae-497a-be3b-a89531829cef": {
+    "text": "Würdest du dein liebstes Kleidungsstück an Freunde verleihen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c17f6d8c-88be-4516-b333-5e7b45e4997f": {
+    "text": "Jemand aus deinem allerengsten Kreis bittet dich, bei der Hochzeitsplanung zu helfen. Was machst du?",
+    "answers": [
+      "Voll einsteigen",
+      "Helfen, aber in Grenzen",
+      "Nur am großen Tag auftauchen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bea820e2-cce1-49fc-aa07-4ab99ead86c4": {
+    "text": "Wie viele Stunden würdest du für den Geburtstag von jemandem aus deinem engsten Kreis reisen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "45cf28ad-01d6-458f-b371-d10cb5d628b3": {
+    "text": "Jemand aus deinem Freundeskreis muss um 5 Uhr morgens zum Flughafen. Was machst du?",
+    "answers": [
+      "Hinfahren, kein Problem",
+      "Hinfahren, aber die ganze Fahrt meckern",
+      "Stattdessen das Taxi zahlen",
+      "Sagen, dass ich nicht kann"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cee7b4d0-8a85-42ae-9d36-e805461c3601": {
+    "text": "Teilst du deinen Live-Standort mit engen Freunden?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1261e2f8-c857-4478-8e71-e0a25b6dac19": {
+    "text": "Freunde, die dir immer die harte Wahrheit sagen …",
+    "answers": [
+      "Sind die besten Freunde",
+      "Werden irgendwann anstrengend"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6cb7ef7c-1478-4456-b1cf-d26358f74de0": {
+    "text": "Freundschaften mit großem Altersunterschied (10+ Jahre) …",
+    "answers": [
+      "Funktionieren super",
+      "Funktionieren, fühlen sich aber anders an",
+      "Da klickt es selten richtig"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9fea2ef2-07b0-4d41-b852-f5bf24dd2b6f": {
+    "text": "Auf einem Gruppentrip will jemand viel mehr ausgeben als alle anderen. Was machst du?",
+    "answers": [
+      "Mitziehen",
+      "Bei teuren Plänen getrennte Wege gehen",
+      "Von Anfang an ein Gruppenbudget festlegen",
+      "Direkt sagen, dass es zu viel ist"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e442ad82-0026-4be1-a02d-5cf52c6db6b3": {
+    "text": "Wenn dich jemand aus deinem Freundeskreis verletzt, sprichst du es an, statt dich still zurückzuziehen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a568c592-7960-40ea-b5e7-f8fcff9f1109": {
+    "text": "Jemand aus deinem Freundeskreis bittet dich, eine Woche aufs Haustier aufzupassen. Was machst du?",
+    "answers": [
+      "Gern, ich liebe Tiere",
+      "Kommt aufs Tier an",
+      "Ja, aber nicht bei mir zu Hause",
+      "Nein sagen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f7975688-29c1-4bff-9678-56257d052a89": {
+    "text": "Jemand aus deinem engsten Kreis wird plötzlich berühmt. Was ändert sich für dich?",
+    "answers": [
+      "Nichts, für mich bleibt alles gleich",
+      "Ich würde vor allen damit angeben",
+      "Ich würde automatisch etwas Abstand halten",
+      "Ich hätte Angst, dass sich die Person verändert"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "53f44073-13ad-4340-b3dc-428d01768d73": {
+    "text": "Jemand aus deinem Freundeskreis verkauft jetzt Zeug und will es dir ständig andrehen. Was machst du?",
+    "answers": [
+      "Einmal kaufen, zur Unterstützung",
+      "Jedes Mal höflich ablehnen",
+      "Sagen, dass es langsam nervt",
+      "Stummschalten"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "392563c7-8455-4b18-a840-2569bad40fb3": {
+    "text": "Nach einem Streit mit jemandem aus deinem engsten Kreis: Wer meldet sich zuerst?",
+    "answers": [
+      "Immer ich",
+      "Wer im Unrecht war",
+      "Niemand, wir tun, als wäre nichts gewesen",
+      "Niemand, meist ist es dann vorbei"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "580d620b-1ff6-4662-b9e7-783a83b482ab": {
+    "text": "Freunde auf Social Media posten …",
+    "answers": [
+      "Zeigt, dass sie dir wichtig sind",
+      "Ist völlig unnötig"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c01dd781-f740-41b0-a72c-d6706d48e8ff": {
+    "text": "Könntest du mit dem Ex deines Schatzes befreundet sein?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0dca06e6-2ca7-47d9-baad-475f804027d3": {
+    "text": "Wie viele Leute sind ideal für einen Trip mit Freunden?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

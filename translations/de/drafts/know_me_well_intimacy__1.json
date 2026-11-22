@@ -1,0 +1,615 @@
+{
+ "8fc01dc5-83b3-444e-bf05-19983365bb14": {
+  "text": "Hätte {{playerName}} eine geheime Fantasie: Würde {{playerName}} sie offen gestehen oder warten, bis der Schatz sie entdeckt?",
+  "answers": [
+   "Offen gestehen",
+   "Warten, bis sie entdeckt wird"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "55d5089f-adbc-4486-9caf-71a65e3522cc": {
+  "text": "Licht an oder Licht aus – was mag {{playerName}} lieber?",
+  "answers": [
+   "Licht an",
+   "Licht aus"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f265038d-f5ec-4355-ad38-81c9e5c98ff0": {
+  "text": "Ist {{playerName}} in Sachen Romantik eher ein Morgen- oder ein Nachtmensch?",
+  "answers": [
+   "Morgens",
+   "Nachts"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f5df704c-d34d-4cbe-866e-e5cef10d00b8": {
+  "text": "Würde {{playerName}} lieber spontan in der Öffentlichkeit geküsst werden oder warten, bis man endlich allein ist?",
+  "answers": [
+   "Spontan in der Öffentlichkeit",
+   "Warten, bis man allein ist"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "15587c50-a9a2-4fd3-9247-0153004d7d4c": {
+  "text": "Was gefällt {{playerName}} besser: wenn sich der Schatz schick macht oder gemütlich im T-Shirt zu Hause rumlümmelt?",
+  "answers": [
+   "Schick gemacht",
+   "Einfach im T-Shirt"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "44e16874-15b9-407b-89c7-b9d6a6523f27": {
+  "text": "Würde {{playerName}} lieber mitten in einem öden Arbeitstag eine Flirt-Nachricht bekommen oder alles später persönlich hören?",
+  "answers": [
+   "Eine Flirt-Nachricht",
+   "Später persönlich"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "52ff8815-c04d-4145-9bac-953c078df9ce": {
+  "text": "Lässt {{playerName}} es in romantischen Momenten gern langsam angehen oder kommt direkt zur Sache?",
+  "answers": [
+   "Langsam angehen",
+   "Direkt zur Sache"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "73562a31-6a7a-4363-aa77-d5168d7657fa": {
+  "text": "Was liebt {{playerName}} mehr: einen Kuss auf die Stirn oder auf den Hals?",
+  "answers": [
+   "Auf die Stirn",
+   "Auf den Hals"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "58600fd8-bed4-471f-91be-8876ab4af01d": {
+  "text": "Was macht {{playerName}} eher schwach: die Stimme oder der Duft vom Schatz?",
+  "answers": [
+   "Die Stimme",
+   "Der Duft"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b34eb481-b4ee-4a67-bef3-76ceca435273": {
+  "text": "Verbringt {{playerName}} einen faulen Sonntagmorgen lieber zu zweit im Bett oder geht raus frühstücken?",
+  "answers": [
+   "Zu zweit im Bett bleiben",
+   "Draußen frühstücken"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ff31b1f9-1519-4e9a-966e-88eb3e89e15e": {
+  "text": "Hält {{playerName}} in der Öffentlichkeit lieber Händchen oder legt den Arm um die Taille?",
+  "answers": [
+   "Händchen halten",
+   "Arm um die Taille"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ea43324f-2787-4e83-bb8e-9eedbf0f7ad1": {
+  "text": "Was bringt {{playerName}} schneller zum Dahinschmelzen: ein handgeschriebener Liebesbrief oder eine Sprachnachricht mit „Ich vermisse dich“?",
+  "answers": [
+   "Handgeschriebener Brief",
+   "Sprachnachricht"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ed79272c-fd55-4bed-b17d-e352eee18176": {
+  "text": "Wie holt sich {{playerName}} Aufmerksamkeit: einfach sagen oder so lange näher rücken, bis es dem Schatz auffällt?",
+  "answers": [
+   "Sagt es einfach",
+   "Rückt immer näher"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6e7d8c88-1870-4a44-ac83-2e52fc810ff5": {
+  "text": "Schläft {{playerName}} lieber eng umschlungen ein oder mit ein bisschen Abstand?",
+  "answers": [
+   "Eng umschlungen",
+   "Mit etwas Abstand"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "efc015d4-4330-4335-aa0f-69b7c14d8bed": {
+  "text": "Was wäre {{playerName}} lieber: eine Kissenschlacht, die im Kuscheln endet, oder ein ruhiger Filmabend unter einer Decke?",
+  "answers": [
+   "Kissenschlacht",
+   "Film unter einer Decke"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b27cee43-3684-412d-b534-08870705e73e": {
+  "text": "Wenn der Schatz {{playerName}} zu lange ansieht: Wird {{playerName}} verlegen oder schaut direkt zurück?",
+  "answers": [
+   "Wird verlegen",
+   "Schaut direkt zurück"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cff2f676-9a56-4ea0-b786-9545641e62b9": {
+  "text": "Was mag {{playerName}} lieber: Rückenkraulen oder wenn jemand mit den Haaren spielt?",
+  "answers": [
+   "Rückenkraulen",
+   "Mit den Haaren spielen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bb72e4b5-804e-4a42-b538-f64c2bbdd554": {
+  "text": "Was würde {{playerName}} lieber hören: „Du siehst umwerfend aus“ oder „Ich muss ständig an dich denken“?",
+  "answers": [
+   "Du siehst umwerfend aus",
+   "Ich muss ständig an dich denken"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ef612bf3-373f-42f1-982d-550e02b21d58": {
+  "text": "Wenn {{playerName}} Sehnsucht hat: sofort anrufen oder cool bleiben und abwarten?",
+  "answers": [
+   "Ruft sofort an",
+   "Bleibt cool"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "93250f31-1b51-4551-abe8-ad4359373b2e": {
+  "text": "Mag {{playerName}} lieber süße Kosenamen oder einfach den eigenen Namen?",
+  "answers": [
+   "Süße Kosenamen",
+   "Einfach den Namen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "22527ac4-d6a5-432b-8fa4-ab5962083141": {
+  "text": "Würde {{playerName}} lieber eng zu einem Liebeslied tanzen oder gemeinsam zu einem Partysong wild abgehen?",
+  "answers": [
+   "Eng tanzen",
+   "Wild abgehen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b85f77c2-3213-4c78-90c5-313d4e8817dd": {
+  "text": "Wie wird {{playerName}} am liebsten geweckt?",
+  "answers": [
+   "Mit Küssen",
+   "Mit Frühstück im Bett",
+   "Am besten gar nicht"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4cf2fe6c-5971-4915-bbae-2d3f5e9b5449": {
+  "text": "Wie versöhnt man {{playerName}} nach einem Streit am schnellsten?",
+  "answers": [
+   "Eine ehrliche Entschuldigung",
+   "Eine lange Umarmung",
+   "Zum Lachen bringen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "71e6ef76-6fb4-4f07-a11b-fa9ec4a3e346": {
+  "text": "Wo würde {{playerName}} am liebsten ein romantisches Wochenende verbringen?",
+  "answers": [
+   "In einer Hütte in den Bergen",
+   "In einer Villa am Strand",
+   "In einem Hotel in der Großstadt"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "052a85cc-24fc-4f39-9aa0-fc9d73c403e5": {
+  "text": "Woran merkt man meistens, dass {{playerName}} Lust auf Nähe hat?",
+  "answers": [
+   "Viele Berührungen",
+   "Ein bestimmter Blick",
+   "Sagt es einfach"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "db2a565a-627a-40a8-be8c-14a3bfe6b537": {
+  "text": "Was ist die größte Schwäche von {{playerName}}, wenn es um den Schatz geht?",
+  "answers": [
+   "Das Lachen",
+   "Der Duft",
+   "Dieser eine Blick"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4e100e90-af39-4cc2-b65c-a50b7057d41b": {
+  "text": "Ergänze: {{playerName}} kann nicht widerstehen, wenn jemand …",
+  "answers": [
+   "einen zum Lachen bringt",
+   "geheimnisvoll wirkt",
+   "sich liebevoll kümmert"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "04adab2d-d8cb-41d8-9a80-265a693b3119": {
+  "text": "Bei welchem Satz wird {{playerName}} am ehesten rot?",
+  "answers": [
+   "Ich kann die Augen nicht von dir lassen",
+   "Du machst mich so glücklich",
+   "Ich bin so stolz auf dich"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c06bb1e8-b5b3-4a99-8d8c-bfe321d8ad59": {
+  "text": "Woran merkt man, dass {{playerName}} eifersüchtig ist?",
+  "answers": [
+   "Wird ganz still",
+   "Macht sarkastische Witze",
+   "Wird extra anhänglich"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7b30dfc6-380f-431f-8046-dd300e522480": {
+  "text": "Wie gut kann {{playerName}} flirten?",
+  "answers": [
+   "Absoluter Profi",
+   "Süß, aber tollpatschig",
+   "Hoffnungsloser Fall"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "27220b40-4180-4289-9126-bef2279fb254": {
+  "text": "Wie zeigt {{playerName}} Liebe vor allem?",
+  "answers": [
+   "Berührungen",
+   "Liebe Worte",
+   "Kleine Geschenke",
+   "Gemeinsame Zeit"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "85c4d519-9f35-4249-9208-8aab551dda52": {
+  "text": "Wo hätte {{playerName}} am liebsten einen Überraschungskuss?",
+  "answers": [
+   "Im Regen",
+   "Im Aufzug",
+   "Auf einem Konzert",
+   "In der Küche beim Kochen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ac0b7de1-f6da-407e-aaa2-b0bf657e00f2": {
+  "text": "Ergänze: {{playerName}} verliebt sich immer wieder neu, wenn der Schatz …",
+  "answers": [
+   "lacht",
+   "in etwas vertieft ist",
+   "sich liebevoll kümmert",
+   "gerade aufgewacht ist"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "aff4bbb1-e2c4-4b5d-9db6-7b16909db94f": {
+  "text": "Mit welcher Nachricht würde {{playerName}} am liebsten aufwachen?",
+  "answers": [
+   "Ein süßes Guten Morgen",
+   "Ein niedliches Foto",
+   "Eine Sprachnachricht",
+   "Etwas Flirtiges"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "52b200de-7096-4387-b6c3-aab3bc6a22f3": {
+  "text": "Über welches Geschenk würde sich {{playerName}} am meisten freuen?",
+  "answers": [
+   "Schmuck",
+   "Ein Überraschungstrip",
+   "Etwas Selbstgemachtes",
+   "Der Hoodie vom Schatz"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cdf6776b-ec39-4a4d-9341-6a663d850ceb": {
+  "text": "Gemütlicher Abend zu zweit: Was für einen Film sucht {{playerName}} aus?",
+  "answers": [
+   "Liebeskomödie",
+   "Horror – Ausrede zum Kuscheln",
+   "Action",
+   "Egal, guckt eh keiner"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a09650e4-8007-4b75-bb66-a01a84c37710": {
+  "text": "Was törnt {{playerName}} bei einem Date am meisten ab?",
+  "answers": [
+   "Ständig am Handy sein",
+   "Zu spät kommen",
+   "Unhöflich zur Bedienung sein",
+   "Vom Ex erzählen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e947abf2-fe3e-433a-af75-9f623d7cb898": {
+  "text": "Was liebt {{playerName}} am Aussehen des Schatzes am meisten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "923210d5-6873-4446-9080-09044dcdd460": {
+  "text": "Welchen Liebesfilm mag {{playerName}} am liebsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ae069d22-9332-49fa-87c8-f9d4106ddb43": {
+  "text": "In welcher Farbe sieht der Schatz laut {{playerName}} am besten aus?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9815c91b-f38b-4218-849b-e27988242497": {
+  "text": "Was bestellt {{playerName}} bei einem Date meistens zu trinken?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7d61b0d4-ff9c-4359-9a4f-1b68b01c0d93": {
+  "text": "Welchen Kosenamen benutzt {{playerName}} für den Schatz am häufigsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a6a533ee-ff93-43cd-b0d3-becf90d811a5": {
+  "text": "Was würde {{playerName}} für ein romantisches Abendessen aussuchen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8d3c5120-8c4d-4484-9b1d-1f06711f2f87": {
+  "text": "Welche Stelle im Gesicht des Schatzes küsst {{playerName}} am häufigsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6d3a66de-2db7-4570-8928-1d88fa7313a2": {
+  "text": "In welches Land würde {{playerName}} in die Flitterwochen fahren?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e07608ce-6461-4038-a32b-5d730d917fd2": {
+  "text": "Welche Jahreszeit findet {{playerName}} am romantischsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b1b50f40-4260-4b91-ae69-ce97c1032c3e": {
+  "text": "Welche Serie würde {{playerName}} am liebsten mit dem Schatz am Stück schauen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4f3d5a83-ed50-4992-a428-d7ce354e1d13": {
+  "text": "In welcher Stadt würde {{playerName}} gern mit dem Schatz leben?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "31ceef31-d267-481e-ac9a-5885eb6f8dbb": {
+  "text": "Welches Gericht kocht {{playerName}} am liebsten für den Schatz?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "83cf4d9b-21b6-4e72-80bd-fdd8ccbe4103": {
+  "text": "Lässt sich {{playerName}} gern in der Öffentlichkeit küssen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7c0c6ea7-9626-4681-84fc-23837e598bb6": {
+  "text": "Bleibt {{playerName}} am Date-Abend lieber zu Hause, statt auszugehen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5dfad39f-e8f8-4f9d-87ea-a5329b8a5853": {
+  "text": "Sagt {{playerName}} meistens zuerst „Ich liebe dich“?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "068fcbfc-a8b0-49b3-85fc-75ac1889e68a": {
+  "text": "Mag {{playerName}} Kosenamen in der Öffentlichkeit?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6b361ee2-7951-4425-8e4e-2f13d1927417": {
+  "text": "Checkt {{playerName}} den Standort vom Schatz, wenn die Sehnsucht groß ist?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c4e4a739-4104-4af1-b91e-a3b9a3b95fb1": {
+  "text": "Trägt {{playerName}} gern Partnerlook mit dem Schatz?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "514ef284-99e0-4e87-8f64-f18fa20e828d": {
+  "text": "Würde sich {{playerName}} ein Pärchen-Tattoo stechen lassen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "18299c05-dc5f-4f1f-93a4-e202af729808": {
+  "text": "Liest {{playerName}} alte Nachrichten vom Schatz noch mal?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "43b0bad7-bcd8-49c3-a575-6363492aa1e2": {
+  "text": "Hat {{playerName}} den Namen vom Schatz schon mal gegoogelt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9aa01c3d-202b-407d-8cfc-7afe582df680": {
+  "text": "Hebt {{playerName}} noch alte Liebesbriefe oder Geschenke aus früheren Beziehungen auf?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5046da73-768b-4c75-9098-c717dc041cc5": {
+  "text": "Würde {{playerName}} mitten in einem intimen Moment aufhören, wenn das Handy klingelt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7e456f76-8350-46b3-b96e-af88c500c1b0": {
+  "text": "Ist es {{playerName}} unangenehm, wenn der Schatz beim Fertigmachen zuschaut?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2f6a16f5-299a-4e7d-9906-f791ecb95db9": {
+  "text": "Wenn jemand Fremdes mit {{playerName}} flirtet: Würde {{playerName}} es dem Schatz erzählen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2374ed2f-f749-4d36-bca1-213e6dd39af2": {
+  "text": "Mag {{playerName}} es, wenn der Schatz etwas lauter ist als sonst?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "021b3fea-592b-4a5c-9fc3-cf4f90da5728": {
+  "text": "Mag {{playerName}} es, wenn der Schatz in intimen Momenten redet?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ec853fc4-ea5e-4d6b-b368-baccff2859e2": {
+  "text": "Mag {{playerName}} es, wenn der Schatz kleine Spuren hinterlässt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7407ed24-af63-48a2-9623-376827a17dd2": {
+  "text": "Was braucht {{playerName}} nach einem Streit als Erstes?",
+  "answers": [
+   "Abstand",
+   "Reden",
+   "Eine Umarmung, ohne Worte",
+   "So tun, als wäre nichts gewesen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "58262567-9ba2-4777-87bf-eb1256c82bdb": {
+  "text": "Was will {{playerName}} direkt nach intimen Momenten?",
+  "answers": [
+   "Reden",
+   "Still nah beieinander bleiben",
+   "Einschlafen",
+   "Aufstehen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

@@ -1,0 +1,434 @@
+{
+  "b4c750af-f8f0-4584-ae71-dfb8801c9aa6": {
+    "en": "Rank these kisses from your favorite to least favorite.",
+    "text": "Classe ces bisous, de ton préféré à celui que tu aimes le moins.",
+    "answers": [
+      "Sur les lèvres",
+      "Dans le cou",
+      "Sur le front"
+    ]
+  },
+  "67cb823d-e3f0-4ac9-8866-d796508abd1f": {
+    "en": "Rank these from what attracts you most to least.",
+    "text": "Classe ce qui t'attire, du plus au moins.",
+    "answers": [
+      "La confiance en soi",
+      "L'humour",
+      "Sentir bon"
+    ]
+  },
+  "a40ede2b-78ff-4724-9449-a45c57461c96": {
+    "en": "Rank these texts from the one you'd most to least love to receive.",
+    "text": "Classe ces textos, du plus au moins agréable à recevoir.",
+    "answers": [
+      "Tu me manques",
+      "Je pense à toi sans arrêt",
+      "Viens chez moi ce soir"
+    ]
+  },
+  "815a3f98-b4a5-4fd0-9f9b-d700fc77085b": {
+    "en": "Rank these bedroom moods from your favorite to least favorite.",
+    "text": "Classe ces ambiances au lit, de ta préférée à celle que tu aimes le moins.",
+    "answers": [
+      "Bougies et musique douce",
+      "Spontané et sauvage",
+      "Câlins et grasse mat'"
+    ]
+  },
+  "b43bd567-b100-45e3-a20c-29efb8bae93c": {
+    "en": "Rank these from the hottest to the least.",
+    "text": "Classe du plus sexy au moins sexy.",
+    "answers": [
+      "Un slow à la maison",
+      "Un compliment murmuré à l'oreille",
+      "Un regard de l'autre bout de la pièce"
+    ]
+  },
+  "87e215dc-b11a-4f67-bda3-06ade8bea882": {
+    "en": "Rank these date-night outfits from your favorite to least favorite on your partner.",
+    "text": "Classe ces tenues de rendez-vous sur ta moitié, de ta préférée à celle que tu aimes le moins.",
+    "answers": [
+      "Tout en noir",
+      "Un look décontracté",
+      "Une tenue chic"
+    ]
+  },
+  "4525a249-5bf6-42b2-be08-48341df1ba75": {
+    "en": "Rank these from most to least important in the bedroom.",
+    "text": "Au lit, classe du plus important au moins important.",
+    "answers": [
+      "L'alchimie",
+      "La confiance",
+      "Prendre son temps"
+    ]
+  },
+  "c001fd14-8d0f-4dff-94b1-69e0db438326": {
+    "en": "Rank these from what you'd most to least want to hear.",
+    "text": "Classe ce que tu aimerais le plus entendre, du plus au moins.",
+    "answers": [
+      "Je t'aime",
+      "Tu es magnifique",
+      "Je t'admire"
+    ],
+    "flagged": true,
+    "note": "\"I'm proud of you\" -> \"Je t'admire\": \"Je suis fier/fière de toi\" would reveal the speaker's gender."
+  },
+  "f4742bda-b53d-49b1-b191-4150fc278d81": {
+    "en": "Rank these from most to least of a turn-on.",
+    "text": "Classe ce qui t'émoustille, du plus au moins.",
+    "answers": [
+      "Un regard dans les yeux",
+      "Une main sur ta taille",
+      "Un texto tard le soir"
+    ]
+  },
+  "df78beb9-c350-487c-a235-b0518a3bfbfe": {
+    "en": "Rank these morning-after plans from your favorite to least favorite.",
+    "text": "Classe ces plans pour le lendemain matin, du plus au moins tentant.",
+    "answers": [
+      "Rester au lit",
+      "Aller prendre un café",
+      "Préparer le petit-déj"
+    ]
+  },
+  "41b2c062-252c-4c10-a8bf-e88d710b5ea4": {
+    "en": "Rank these from how you'd most to least like to fall asleep.",
+    "text": "Classe ces façons de t'endormir, de ta préférée à celle que tu aimes le moins.",
+    "answers": [
+      "Contre son cœur",
+      "En cuillère",
+      "Main dans la main"
+    ]
+  },
+  "8eda301d-7c3f-49af-aec2-fc0423901d80": {
+    "en": "Rank these from hottest to least on them.",
+    "text": "Classe ces moments où ta moitié te fait craquer, du plus au moins.",
+    "answers": [
+      "À la sortie de la douche",
+      "Au réveil",
+      "En tenue de soirée"
+    ]
+  },
+  "70a62b93-c65f-4d98-a892-86b8a707fc3d": {
+    "en": "Rank these from when you'd most to least want them.",
+    "text": "Quand as-tu le plus envie de ta moitié ? Classe du plus au moins.",
+    "answers": [
+      "Dès le réveil",
+      "Tard le soir",
+      "Un après-midi tranquille"
+    ]
+  },
+  "75e0cb19-fea2-4494-8adf-0e22931ec893": {
+    "en": "Rank these from where you'd most to least want to be with them right now.",
+    "text": "Là, tout de suite, classe où tu voudrais être avec ta moitié, du plus au moins.",
+    "answers": [
+      "Au lit",
+      "Sur le canapé",
+      "Dans la cuisine"
+    ]
+  },
+  "2ca4f57f-c3f5-47b4-93a7-9c2f1dc169dd": {
+    "en": "Rank these from hottest to least when they're doing it.",
+    "text": "Quand ta moitié fait ça, classe du plus sexy au moins sexy.",
+    "answers": [
+      "Cuisiner",
+      "Conduire",
+      "Se préparer"
+    ]
+  },
+  "974a6f9c-093b-4c48-835e-d7b5bac59203": {
+    "en": "Rank these from how you'd most to least want the lights.",
+    "text": "Côté lumière, classe ce que tu préfères, du plus au moins.",
+    "answers": [
+      "Dans le noir",
+      "Lumière tamisée",
+      "Grande lumière"
+    ]
+  },
+  "88d7fedc-4d52-4be0-98d2-a75a0d9f53e4": {
+    "en": "Rank these from most to least you'd want in public.",
+    "text": "En public, classe ce que tu aimes le plus, du plus au moins.",
+    "answers": [
+      "Main dans la main",
+      "Un baiser",
+      "Son bras autour de toi"
+    ]
+  },
+  "2a5bfd54-ff94-420a-9fcf-512cd8271196": {
+    "en": "Rank these from most to least of a mood killer.",
+    "text": "Classe ce qui casse le plus l'ambiance, du plus au moins.",
+    "answers": [
+      "Son téléphone au lit",
+      "Garder ses chaussettes",
+      "Parler du lendemain"
+    ]
+  },
+  "a3acaf1b-03bc-4d5d-bf4f-ef8f162d0024": {
+    "en": "Rank these from hottest to least on them.",
+    "text": "Chez ta moitié, classe du plus sexy au moins sexy.",
+    "answers": [
+      "Sa voix",
+      "Son rire",
+      "Ses mains"
+    ]
+  },
+  "3940d942-8ee8-4f59-a1b9-ce5291035cb3": {
+    "en": "Rank these from what you'd most to least want in the background when you're close.",
+    "text": "Dans vos moments à deux, classe ce que tu préfères en fond, du plus au moins.",
+    "answers": [
+      "De la musique",
+      "Un film qui tourne",
+      "Le silence"
+    ]
+  },
+  "349e6ac2-ca86-4787-bd63-0fa8d2a01c9c": {
+    "en": "Rank these from the hottest compliment to get to the least.",
+    "text": "Classe ces compliments, du plus sexy au moins sexy à recevoir.",
+    "answers": [
+      "Tes yeux",
+      "Ta démarche",
+      "Ton intelligence"
+    ]
+  },
+  "c9a2949b-c673-4d84-bb91-2957d6aac12a": {
+    "en": "Rank these from most to least irresistible.",
+    "text": "Classe du plus irrésistible au moins irrésistible.",
+    "answers": [
+      "Un regard qui s'attarde",
+      "Une caresse lente",
+      "Une main qui t'attire d'un coup"
+    ]
+  },
+  "ebe6f489-3e4f-4e3b-99f3-3457442aaf0f": {
+    "en": "Rank these from most to least dangerous to almost get caught.",
+    "text": "Classe ces endroits, du plus au moins risqué pour se faire pincer.",
+    "answers": [
+      "Un ascenseur",
+      "Un couloir",
+      "Un parking",
+      "Un balcon"
+    ]
+  },
+  "7c0e85e4-e20f-4634-98c6-2261afc497b4": {
+    "en": "If you only had ten minutes, rank how you'd spend them from most to least.",
+    "text": "Si vous n'aviez que dix minutes, classe comment les passer, du plus au moins.",
+    "answers": [
+      "S'embrasser",
+      "Se parler tout près",
+      "Danser",
+      "Ne rien faire"
+    ]
+  },
+  "ebe249a6-680c-486b-9131-11b007a670c7": {
+    "en": "Rank these from what you'd most to least want right after a good night together.",
+    "text": "Après une belle nuit ensemble, classe ce que tu veux faire, du plus au moins.",
+    "answers": [
+      "S'endormir",
+      "Parler",
+      "Grignoter un truc",
+      "Traîner au lit"
+    ]
+  },
+  "d4fd32e2-7d6a-44a8-91ef-e94c0f2c3451": {
+    "en": "Rank these from the hottest pace to the least.",
+    "text": "Classe ces rythmes, du plus chaud au moins chaud.",
+    "answers": [
+      "La lenteur",
+      "Le jeu",
+      "La surprise",
+      "Le silence"
+    ]
+  },
+  "3a69e894-7819-490d-8563-a6589076092b": {
+    "en": "Rank these from where you'd most to least want the first kiss of the night.",
+    "text": "Classe où tu voudrais le premier baiser de la soirée, du plus au moins.",
+    "answers": [
+      "Dans la cuisine",
+      "Près de la porte",
+      "Dans la voiture",
+      "Dans un ascenseur"
+    ]
+  },
+  "e5e17a90-d530-4aa3-80eb-23fb649335b1": {
+    "en": "Rank these from most to least want more of.",
+    "text": "Classe ce que tu voudrais plus souvent, du plus au moins.",
+    "answers": [
+      "La passion",
+      "La tendresse",
+      "La tension",
+      "Le jeu"
+    ]
+  },
+  "51beda2f-ffb7-40fe-b554-0e183cfd43e4": {
+    "en": "Rank these from most to least want them to make you feel.",
+    "text": "Avec ta moitié, classe ce que tu veux le plus sentir, du plus au moins.",
+    "answers": [
+      "Qu'on te désire",
+      "Qu'on ait besoin de toi",
+      "Que tu lui manques",
+      "Qu'on te choisisse"
+    ],
+    "flagged": true,
+    "note": "Options rephrased as clauses (sentir qu'on te désire…): the participles désiré/choisi would agree with the player's gender."
+  },
+  "ea0ac43f-9b82-4d51-9cf4-78a4cf7545ff": {
+    "en": "Rank these from most to least want between you.",
+    "text": "Classe ce que tu veux le plus entre vous, du plus au moins.",
+    "answers": [
+      "Le feu",
+      "La douceur",
+      "L'humour",
+      "Le mystère"
+    ]
+  },
+  "b33d9197-1472-4004-8e92-0a9e6890460d": {
+    "en": "Rank these from most to least want from them tonight.",
+    "text": "Ce soir, classe ce que tu attends le plus de ta moitié, du plus au moins.",
+    "answers": [
+      "De l'attention",
+      "De l'espace",
+      "Des caresses",
+      "Des mots doux"
+    ]
+  },
+  "e10a78c4-bba9-4cda-93b1-c4906cd97f5a": {
+    "en": "Rank these from when you most to least want it.",
+    "text": "Quand en as-tu le plus envie ? Classe du plus au moins.",
+    "answers": [
+      "Quand on a dix minutes",
+      "Quand on a toute la nuit",
+      "Le matin",
+      "Quand on devrait déjà avoir filé"
+    ]
+  },
+  "44c790a0-ccd4-4040-88ca-534378d9d65d": {
+    "en": "Rank these from most to least tempting when you shouldn't.",
+    "text": "Classe ces situations, de la plus tentante à la moins tentante, quand il ne faudrait pas.",
+    "answers": [
+      "Quelqu'un dans la pièce d'à côté",
+      "On est en retard",
+      "Boulot demain matin",
+      "Tu viens de t'habiller"
+    ]
+  },
+  "48682e7c-5689-4ea0-9fc2-6fc22eba77a8": {
+    "en": "Rank these kisses from favorite to least favorite.",
+    "text": "Classe ces baisers, de ton préféré à celui que tu aimes le moins.",
+    "answers": [
+      "Un seul long baiser",
+      "Plein de petits bisous",
+      "Tout en lenteur",
+      "Une pause, puis ça reprend"
+    ]
+  },
+  "d2b1dc0b-5c63-42eb-a4c4-b21fd01bbe67": {
+    "en": "Rank these from easiest to hardest to give up.",
+    "text": "Classe ces choses, de la plus facile à la plus dure à abandonner.",
+    "answers": [
+      "S'embrasser",
+      "Dormir ensemble",
+      "Se câliner",
+      "Les textos de flirt"
+    ]
+  },
+  "889aa2d5-2b3b-4387-a97b-73d9cbf8fb71": {
+    "en": "Rank these from most to least you'd miss.",
+    "text": "Classe ce qui te manquerait le plus chez ta moitié, du plus au moins.",
+    "answers": [
+      "Ses mains",
+      "Sa voix",
+      "Sa façon de te regarder",
+      "Son odeur"
+    ]
+  },
+  "c30176ee-2dbe-4f33-9364-034d99537ea3": {
+    "en": "Rank these from most to least you'd miss in the morning.",
+    "text": "Le matin, classe ce qui te manquerait le plus, du plus au moins.",
+    "answers": [
+      "Te réveiller à ses côtés",
+      "Un bisou avant de se lever",
+      "Ta moitié qui dort encore sur toi",
+      "Un café au lit"
+    ]
+  },
+  "08273933-f45b-493e-bfc0-447e6bde1cf1": {
+    "en": "Rank these from favorite kiss to least favorite.",
+    "text": "Classe ces bisous, du plus craquant au moins craquant.",
+    "answers": [
+      "Le bisou en arrivant",
+      "Le bisou en partant",
+      "Le bisou de bonne nuit",
+      "Le bisou qui te coupe la parole"
+    ]
+  },
+  "1c1f83f0-3f05-46bd-9675-126bb7738f0d": {
+    "en": "Rank these from most to least it would kill the mood.",
+    "text": "Classe ce qui tuerait le plus l'ambiance, du plus au moins.",
+    "answers": [
+      "Regarder une notif",
+      "Demander « J'ai assuré ? »",
+      "Regarder l'heure",
+      "T'appeler « mon pote »"
+    ]
+  },
+  "daef0884-7dca-444f-97a4-4aa50630566b": {
+    "en": "Rank these touches from favorite to least favorite.",
+    "text": "Classe ces caresses, de ta préférée à celle que tu aimes le moins.",
+    "answers": [
+      "Un massage",
+      "Une main dans tes cheveux",
+      "Des doigts qui glissent dans ton dos",
+      "Ton visage entre ses mains"
+    ]
+  },
+  "5ac839e1-d41e-4cf9-b357-3bd1eea3730b": {
+    "en": "Rank these from favorite to least favorite place for their hands.",
+    "text": "Où préfères-tu ses mains ? Classe du plus au moins.",
+    "answers": [
+      "Dans tes cheveux",
+      "Sur ta taille",
+      "Sur ton visage",
+      "Sur ta nuque"
+    ]
+  },
+  "3e9f0724-74ca-4238-9f3d-e0c45b56d001": {
+    "en": "Rank these from favorite to least favorite place for a kiss.",
+    "text": "Où préfères-tu recevoir un baiser ? Classe du plus au moins.",
+    "answers": [
+      "La mâchoire",
+      "La clavicule",
+      "Derrière l'oreille",
+      "L'épaule"
+    ]
+  },
+  "ed8201c6-39a1-437c-b23b-3bf03afac54b": {
+    "en": "Rank these from favorite to least favorite they could be wearing.",
+    "text": "Classe ce que ta moitié pourrait porter, du plus au moins craquant.",
+    "answers": [
+      "Ton sweat à capuche",
+      "Presque rien",
+      "Sa tenue de la soirée",
+      "Juste une serviette"
+    ]
+  },
+  "0fc286a5-79f8-4651-ae16-bb8cb61d4132": {
+    "en": "Rank these from favorite to least favorite to do in the dark.",
+    "text": "Dans le noir, classe ce que tu préfères faire, du plus au moins.",
+    "answers": [
+      "S'embrasser",
+      "Parler",
+      "Rire",
+      "Ne rien dire"
+    ]
+  },
+  "da02165a-765e-4918-ab60-2f16cd2f6e28": {
+    "en": "Rank these from most to least you want them never to stop.",
+    "text": "Classe ce que ta moitié ne devrait jamais arrêter, du plus au moins.",
+    "answers": [
+      "T'embrasser",
+      "Te regarder",
+      "Te parler",
+      "Te toucher"
+    ]
+  }
+}

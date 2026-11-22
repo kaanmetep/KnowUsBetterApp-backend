@@ -1,4 +1,5 @@
 import pg from "pg";
+import { captureServerEvent } from "./analytics.js";
 import { AppError } from "../errors/AppError.js";
 import { CoinTransactionType } from "./coinLedger.js";
 import { logger } from "../utils/logger.js";
@@ -66,6 +67,12 @@ export async function grantPushReward(
       );
       await client.query("COMMIT");
       summary.creditedUsers += chunk.length;
+      for (const appUserId of chunk) {
+        captureServerEvent("server_coins_credited", { appUserId }, {
+          amount,
+          reason: TRANSACTION_TYPE,
+        });
+      }
     } catch (error) {
       await client?.query("ROLLBACK").catch(() => undefined);
       summary.failedUsers += chunk.length;

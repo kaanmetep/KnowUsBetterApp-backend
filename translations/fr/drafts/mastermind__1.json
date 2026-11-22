@@ -1,0 +1,675 @@
+{
+  "249c9d8c-a57c-45fb-8233-19701c9a3df3": {
+    "text": "Lequel de ces appareils cultes est sorti en premier ?",
+    "answers": [
+      "Game Boy",
+      "Walkman de Sony",
+      "Commodore 64",
+      "Macintosh 128K"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fbc24695-a39a-4f53-9717-f339a7bbd994": {
+    "text": "Quel pays compte le plus de fuseaux horaires, territoires d'outre-mer compris ?",
+    "answers": [
+      "Russie",
+      "États-Unis",
+      "France",
+      "Chine"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ebce1854-6bc1-47e3-b71a-d595f7f0e3d9": {
+    "text": "Quel pays a le seul drapeau au monde orné d'une arme à feu moderne ?",
+    "answers": [
+      "Mozambique",
+      "Angola",
+      "Guatemala",
+      "Haïti"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b8b1f650-8af9-41b7-aa62-30d6ad15e5a7": {
+    "text": "Laquelle de ces capitales a été conçue et bâtie de toutes pièces pour devenir capitale ?",
+    "answers": [
+      "Brasília",
+      "Ottawa",
+      "Reykjavik"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "216fe966-7360-468d-8a76-a6388e9f00fd": {
+    "text": "Quel tableau détient le record de l'œuvre d'art la plus chère jamais vendue aux enchères ?",
+    "answers": [
+      "Salvator Mundi",
+      "Interchange",
+      "Les Femmes d'Alger"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3384b472-139f-433d-975f-e1d81d3dd857": {
+    "text": "Quel organe consomme environ 20 % de l'énergie du corps alors qu'il ne pèse qu'environ 2 % de son poids ?",
+    "answers": [
+      "Cerveau",
+      "Cœur",
+      "Foie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "79169b6e-6d47-46b6-b2e3-1c3403b8ad2b": {
+    "text": "Quelle espèce animale est la seule connue capable d'immortalité biologique dans des conditions idéales ?",
+    "answers": [
+      "La méduse Turritopsis dohrnii",
+      "Le tardigrade",
+      "Le requin du Groenland",
+      "L'axolotl"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d9266445-8fa1-4b7b-8f51-a95099e26f90": {
+    "text": "Quel pays a un hymne national sans paroles officielles ?",
+    "answers": [
+      "Espagne",
+      "Grèce",
+      "Autriche",
+      "Finlande"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "216b9e84-7694-41e2-af5d-f6a321f39d9d": {
+    "text": "Quelle substance naturelle ne se périme jamais si elle est bien conservée ?",
+    "answers": [
+      "Miel",
+      "Huile d'olive",
+      "Sirop d'érable",
+      "Ghee"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2fa3792a-8bb2-4d12-9828-3caa4b924ede": {
+    "text": "Quel pays possède le plus long littoral du monde ?",
+    "answers": [
+      "Canada",
+      "Indonésie",
+      "Russie",
+      "Australie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "33649e7c-3151-42fa-b231-2b75a0bb5bdd": {
+    "text": "Lequel de ces jeux de société classiques a été conçu à l'origine pour critiquer le capitalisme et les monopoles ?",
+    "answers": [
+      "Monopoly",
+      "Catan",
+      "Risk"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9ab5c474-fbb2-4c0a-806a-40a9d9cc8024": {
+    "text": "Quel pays avait, de 1977 à 2011, un drapeau d'une seule couleur, sans symbole, bande ni motif ?",
+    "answers": [
+      "Libye",
+      "Oman",
+      "Mauritanie",
+      "Somalie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "613334ba-46f2-4057-8e33-69fb31894584": {
+    "text": "Quel est le seul organe interne capable de se régénérer naturellement jusqu'à retrouver sa taille d'origine ?",
+    "answers": [
+      "Foie",
+      "Rate",
+      "Pancréas",
+      "Rein"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "40918421-b186-4fc1-8671-93d38e453858": {
+    "text": "Quelle agence spatiale a été la première à poser une sonde robotique sur une autre planète ?",
+    "answers": [
+      "Programme spatial soviétique (URSS)",
+      "NASA (États-Unis)",
+      "ESA (Europe)"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3afba6ab-16e0-4ac5-b590-7ca44451914e": {
+    "text": "Quel pays abrite la seule capitale au monde frontalière de deux pays étrangers ?",
+    "answers": [
+      "Slovaquie",
+      "Autriche",
+      "Hongrie",
+      "Suisse"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ed8c8613-d924-4efa-87d6-5785029d9802": {
+    "text": "Quelle mission spatiale a photographié pour la première fois la face cachée de la Lune ?",
+    "answers": [
+      "Luna 3",
+      "Apollo 8",
+      "Spoutnik 2",
+      "Voyager 1"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "00b54485-8cba-4983-a77e-4008337756f8": {
+    "text": "Quel animal a été le premier à voir son génome entièrement séquencé, en 1998 ?",
+    "answers": [
+      "Caenorhabditis elegans (ver nématode)",
+      "Drosophila melanogaster (mouche du vinaigre)",
+      "Mus musculus (souris domestique)"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "65a413b9-91a9-42d2-8a28-2ad753643f20": {
+    "text": "Laquelle de ces mers est en réalité un lac fermé, sans aucun débouché naturel sur l'océan ?",
+    "answers": [
+      "Mer Caspienne",
+      "Mer Rouge",
+      "Mer Noire",
+      "Mer Baltique"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "28337b33-f997-40cc-9a60-62fe1ce2afef": {
+    "text": "Lequel de ces monuments célèbres a été construit à l'origine pour être démonté au bout de 20 ans ?",
+    "answers": [
+      "Tour Eiffel",
+      "Statue de la Liberté",
+      "Big Ben",
+      "Pont du Golden Gate"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cbec4c4a-b349-4cf9-9350-232bd2ce2084": {
+    "text": "Dans quel pays se trouve la localité civile habitée à l'année la plus au nord du monde ?",
+    "answers": [
+      "Norvège",
+      "Canada",
+      "Groenland"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4efb81b0-12ea-4ad6-8815-8460fff0dfec": {
+    "text": "Quel scientifique célèbre a perdu la vue sur ses vieux jours, en partie pour avoir observé le Soleil au télescope ?",
+    "answers": [
+      "Galilée",
+      "Isaac Newton",
+      "Johannes Kepler",
+      "Nicolas Copernic"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5b649245-27c2-441a-ac9c-d6cb4f55763a": {
+    "text": "Sur quelle île vivent les seuls lémuriens sauvages du monde ?",
+    "answers": [
+      "Madagascar",
+      "Tasmanie",
+      "Bornéo",
+      "Sri Lanka"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "07d21811-0a44-4fe1-bc87-4653d33e744d": {
+    "text": "Quel gaz, le plus abondant de l'atmosphère, forme environ 78 % de l'air qu'on respire ?",
+    "answers": [
+      "Azote",
+      "Oxygène",
+      "Dioxyde de carbone"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "306a0b2b-4cd9-4cb2-874b-b09bbe3c20c1": {
+    "text": "Quel organe produit l'insuline qui régule le taux de sucre dans le sang ?",
+    "answers": [
+      "Pancréas",
+      "Foie",
+      "Thyroïde",
+      "Rein"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4b072b2c-27e3-4f5d-8e61-6073892c3edc": {
+    "text": "Quel est le plus petit et le moins profond des cinq grands océans ?",
+    "answers": [
+      "Océan Arctique",
+      "Océan Indien",
+      "Océan Austral"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5eba4cd4-3e28-4755-b946-b1162f9e1f52": {
+    "text": "Quel pays compte le plus de lacs naturels au monde, plus que tous les autres pays réunis ?",
+    "answers": [
+      "Canada",
+      "Finlande",
+      "Suède",
+      "Russie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d2e91574-e563-4b4d-bca7-5089e2c95a3d": {
+    "text": "Quel organe interne consomme le plus d'oxygène au repos, par gramme de tissu ?",
+    "answers": [
+      "Reins",
+      "Cerveau",
+      "Cœur"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cfe101aa-6323-4701-9f6b-c0c1b78bcd31": {
+    "text": "Quel élément chimique a pour symbole « Fe » dans le tableau périodique ?",
+    "answers": [
+      "Fer",
+      "Fluor",
+      "Francium",
+      "Plomb"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f82eeb1d-6bc5-4620-9662-4b6db7d03f85": {
+    "text": "Quel est le pays le plus peuplé du monde ?",
+    "answers": [
+      "Inde",
+      "Chine",
+      "États-Unis"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "aefe5538-8b82-4150-946e-1e448c7294dd": {
+    "text": "Dans quelle ville le Titanic a-t-il été construit ?",
+    "answers": [
+      "Southampton",
+      "Liverpool",
+      "Belfast",
+      "Glasgow"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f24855c8-5dff-43bf-8f9a-b43c20369617": {
+    "text": "Quelle langue compte le plus de locuteurs natifs au monde ?",
+    "answers": [
+      "Anglais",
+      "Espagnol",
+      "Chinois mandarin",
+      "Hindi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "074003da-986a-4f39-b69d-edf24fa0e6bd": {
+    "text": "Quel célèbre compositeur a continué à composer après avoir perdu l'ouïe ?",
+    "answers": [
+      "Mozart",
+      "Bach",
+      "Beethoven",
+      "Chopin"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "445bc232-d72c-441e-8870-db27d398660c": {
+    "text": "Quel est le plus long fleuve d'Europe ?",
+    "answers": [
+      "Danube",
+      "Rhin",
+      "Volga",
+      "Dniepr"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "50e6fa72-58b1-4e43-9ff3-19a6b061b079": {
+    "text": "Quel pays compte le plus de pyramides antiques au monde ?",
+    "answers": [
+      "Égypte",
+      "Mexique",
+      "Soudan",
+      "Pérou"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "764b8baf-3e52-4147-805a-5b2db69e761e": {
+    "text": "Quelle cité romaine a été ensevelie par l'éruption du Vésuve en 79 apr. J.-C. ?",
+    "answers": [
+      "Troie",
+      "Carthage",
+      "Pompéi",
+      "Éphèse"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "46a1bf16-1ff6-4b35-9344-067efca85bf8": {
+    "text": "Le zloty est la monnaie de quel pays ?",
+    "answers": [
+      "Tchéquie",
+      "Hongrie",
+      "Pologne",
+      "Roumanie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "48c26cda-20cb-499c-a406-b596bdf0fcfe": {
+    "text": "Dans quel pays se trouve le célèbre temple d'Angkor Vat ?",
+    "answers": [
+      "Thaïlande",
+      "Vietnam",
+      "Cambodge",
+      "Laos"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "15e2a3be-9cf7-44c7-82c2-73a20cf4e32e": {
+    "text": "Quel pays s'appelait la Perse jusqu'en 1935 ?",
+    "answers": [
+      "Irak",
+      "Iran",
+      "Afghanistan",
+      "Syrie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "038f3d47-7343-4fe0-9233-1e1ebe34924c": {
+    "text": "Quel est le continent le plus sec de la planète ?",
+    "answers": [
+      "Afrique",
+      "Australie",
+      "Antarctique",
+      "Asie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "25b14b4f-e324-469f-95f9-97764d1e5aba": {
+    "text": "Quel peintre célèbre s'est coupé une partie de l'oreille ?",
+    "answers": [
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Vincent van Gogh",
+      "Claude Monet"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ad97147d-91f6-4461-950a-037d2e2ba3e5": {
+    "text": "Quelle civilisation a bâti le Machu Picchu ?",
+    "answers": [
+      "Mayas",
+      "Aztèques",
+      "Incas",
+      "Olmèques"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9eddd7ce-3b44-4ff8-bd55-f8722f54735a": {
+    "text": "Qui a mis au point le premier vaccin efficace contre la polio ?",
+    "answers": [
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "Jonas Salk",
+      "Edward Jenner"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "16f5a75d-b234-4cf5-b764-42f88f585fb4": {
+    "text": "En quelle année le mur de Berlin est-il tombé ?",
+    "answers": [
+      "1985",
+      "1989",
+      "1991",
+      "1993"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "09b32070-8382-46c5-acab-7febba8d1ec8": {
+    "text": "Quelle planète est célèbre pour sa « Grande Tache rouge », une tempête géante ?",
+    "answers": [
+      "Mars",
+      "Saturne",
+      "Jupiter",
+      "Neptune"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "47c54123-8d9b-4b45-a060-a7d644f27b4b": {
+    "text": "Qui a écrit le roman « Cent ans de solitude » ?",
+    "answers": [
+      "Jorge Luis Borges",
+      "Pablo Neruda",
+      "Gabriel García Márquez",
+      "Mario Vargas Llosa"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fa255715-8112-4dbe-9570-2771aa214284": {
+    "text": "Quel est l'os le plus long du corps humain ?",
+    "answers": [
+      "Tibia",
+      "Fémur",
+      "Humérus",
+      "Colonne vertébrale"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a411e5d4-9ce4-400d-bc15-c163ec9ebb03": {
+    "text": "Quel est le plus grand pays d'Afrique en superficie ?",
+    "answers": [
+      "Soudan",
+      "RD Congo",
+      "Algérie",
+      "Égypte"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "78ee5f59-8c97-41fa-a626-e8591b8f855d": {
+    "text": "Dans quel pays IKEA a-t-il été fondé ?",
+    "answers": [
+      "Danemark",
+      "Norvège",
+      "Suède",
+      "Finlande"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a5474f1a-12e0-4f8f-ba4e-36c55526f4d5": {
+    "text": "Quelle marque automobile a pour logo quatre anneaux entrelacés ?",
+    "answers": [
+      "BMW",
+      "Audi",
+      "Volkswagen",
+      "Mercedes-Benz"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "316853c7-fe4d-406a-837f-9be36e71791e": {
+    "text": "De quel pays vient l'entreprise Samsung ?",
+    "answers": [
+      "Japon",
+      "Chine",
+      "Corée du Sud",
+      "Taïwan"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f6443fb2-9cf5-4361-82ab-69ae23034358": {
+    "text": "De quelle couleur est vraiment la « boîte noire » d'un avion ?",
+    "answers": [
+      "Noire",
+      "Orange",
+      "Rouge",
+      "Argentée"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a751f437-62dc-4e3e-8f21-bc7adcf9a725": {
+    "text": "Combien de cases compte un échiquier ?",
+    "answers": [
+      "48",
+      "64",
+      "81",
+      "100"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3c7ac84e-460a-420b-bc49-e161bbdfb680": {
+    "text": "De quel pays vient la célèbre marque de téléphones Nokia ?",
+    "answers": [
+      "Suède",
+      "Finlande",
+      "Japon",
+      "Allemagne"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ce67c01c-6fac-4cc1-83b4-97c6f79d35c3": {
+    "text": "Sur un dé classique, quelle est toujours la somme de deux faces opposées ?",
+    "answers": [
+      "6",
+      "7",
+      "8",
+      "12"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "23122005-b25f-4c6e-be69-ccd34cfb98bd": {
+    "text": "Combien d'heures y a-t-il dans une semaine ?",
+    "answers": [
+      "148",
+      "158",
+      "168",
+      "178"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f131e63e-96c1-440a-b031-5c318d8bc323": {
+    "text": "Dans quel pays le Nutella a-t-il été créé ?",
+    "answers": [
+      "France",
+      "Suisse",
+      "Belgique",
+      "Italie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5213fdb8-17ca-4e41-a7c3-2e29888dc910": {
+    "text": "Combien de cartes compte un jeu de cartes classique, sans les jokers ?",
+    "answers": [
+      "48",
+      "52",
+      "54",
+      "56"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

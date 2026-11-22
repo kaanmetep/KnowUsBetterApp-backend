@@ -1,0 +1,562 @@
+[
+ {
+  "id": "bca4278f-e856-4d9c-8eb1-0864e3095789",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you pay your partner's debt?",
+  "tr": "Sevgilinin borcunu öder misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "f1daeb64-3d71-4516-bd63-e51be5db16cc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it important for you that the person you marry is wealthy?",
+  "tr": "Evleneceğin insanın zengin olması senin için önemli midir?",
+  "category": "long_term"
+ },
+ {
+  "id": "289fb98c-ca67-4dd0-96c8-0f30a88b9cb7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is having a wedding important to you?",
+  "tr": "Düğün yapmak senin için önemli midir?",
+  "category": "long_term"
+ },
+ {
+  "id": "f26f180e-48f4-4594-a56f-9e54fb49987d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you want your partner to take risks for you?",
+  "tr": "Sevgilinin senin için kendini riske atmasını ister misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "28552fbf-c9fb-49a2-ac5b-e1f13761050a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you use a shared Instagram account with your partner?",
+  "tr": "Sevgilinle ortak Instagram hesabı kullanır mısın?",
+  "category": "long_term"
+ },
+ {
+  "id": "20f710ca-ec12-40a8-97e0-1ac2303e1b54",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the future, you will achieve all your career goals, but you will not be able to marry your partner (you will continue to be in a relationship without getting married).",
+  "tr": "Gelecekte tüm kariyer hedeflerine ulaşacaksın ama partnerinle evlenemeyeceksin (evlenmeden sevgili kalmaya devam edeceksiniz).",
+  "category": "long_term"
+ },
+ {
+  "id": "b6073db9-251b-4e25-ae28-8220b266b1e6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you continue a relationship with someone who wants to move abroad?",
+  "tr": "Yurt dışına yerleşmek isteyen biriyle ilişkinizi devam ettirir misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "49b9f11e-0e9d-4494-beca-12f31042f074",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is your partner's family important to you?",
+  "tr": "Beraber olacağın kişinin ailesi senin için önemli midir?",
+  "category": "long_term"
+ },
+ {
+  "id": "111d83eb-0a34-4703-9358-30ca36ac9c4e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner wanted to travel the world alone in the future, would you allow it?",
+  "tr": "Sevgilin gelecekte tek başına dünyayı gezmek istese ona izin verir misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "988c11e4-4e49-4708-a85a-76a84c979d79",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you give up your pet for your partner?",
+  "tr": "Sevgilin için evcil hayvanından vazgeçer misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "5a88c4fd-00ed-4ed1-9582-9d7fbb9270f4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you plan to get married in the next three years?",
+  "tr": "Önümüzdeki 3 sene içinde evlenmeyi düşünüyor musun?",
+  "category": "long_term"
+ },
+ {
+  "id": "a89a3b24-529c-4182-b6f5-9353c8082674",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you argue with your partner in public if you were right?",
+  "tr": "Sevgilinle haklı olduğun bir konuda herkesin önünde tartışır mısın?",
+  "category": "long_term"
+ },
+ {
+  "id": "82d8c091-b318-4385-aa11-b1e7c7df8a08",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you take a loan to go on a vacation with your partner if they wanted to?",
+  "tr": "Sevgilin isterse, onunla tatile çıkmak için kredi çeker misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "8300d5a7-b4b6-4ac5-a8da-4fd3208cc734",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you give up having children for your career?",
+  "tr": "Kariyerin için çocuk yapmaktan vazgeçer misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "9f286a70-cf87-4f12-a7ab-4b70cfffead0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you plan to have children in the next three years?",
+  "tr": "Önümüzdeki 3 sene içinde çocuk yapmayı düşünüyor musun?",
+  "category": "long_term"
+ },
+ {
+  "id": "0a6af22d-dfdf-4bf9-8a3c-35fc8ae14936",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you like to spend a lot of money on your wedding?",
+  "tr": "Düğününe çok para harcamak ister misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "30b40547-41aa-4735-912a-17f8a6a4d231",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner doesn't want a wedding, would that be a problem for you?",
+  "tr": "Partnerin eğer düğün yapmak istemezse, bu senin için bir sorun olur mu?",
+  "category": "long_term"
+ },
+ {
+  "id": "e2ea8d47-b6c2-4ba8-a476-51fc25ab7129",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you let your partner read your Instagram DMs?",
+  "tr": "Sevgiline Instagram DM'lerini okutur musun?",
+  "category": "long_term"
+ },
+ {
+  "id": "4448fc04-15c4-4840-8920-45d1f89f731f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you control your partner's Instagram posts?",
+  "tr": "Sevgilinin Instagram paylaşımlarını kontrol eder misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "c0fa5897-8a9f-4a74-a0cf-7ab5814da5d3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner doesn't let you go out with friends, would you sneak out anyway?",
+  "tr": "Sevgilin arkadaşlarınla dışarı çıkmana izin vermezse, yine de gizlice çıkar mısın?",
+  "category": "long_term"
+ },
+ {
+  "id": "c0480dde-ff57-4d29-97ca-33a5ff4f232f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner weighed 100 kg, would you break up with them?",
+  "tr": "Sevgilin 100 kilo olsa, ondan ayrılır mısın?",
+  "category": "long_term"
+ },
+ {
+  "id": "16431dd5-87cd-4985-86be-991019b52651",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you leave your partner if you thought they were holding back your career?",
+  "tr": "Kariyerine engel olduğunu düşünürken sevgilini terk eder misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "31696cb7-5827-4ce2-a19b-9f6fa3853c9b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is harder to accept in a relationship?",
+  "tr": "Bir ilişkide hangisini kabul etmek daha zordur?",
+  "answers_en": [
+   "Emotional mismatch",
+   "Physical mismatch"
+  ],
+  "answers_tr": [
+   "Duygusal uyumsuzluk",
+   "Fiziksel uyumsuzluk"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "1745ac8d-b67d-4e9d-b324-c416960ae148",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the future, would you choose a partner who wants a simple life with financial comfort or a partner who wants a risky life chasing big success?",
+  "tr": "Gelecekte finansal olarak rahat ama sade bir hayat isteyen bir partneri mi yoksa büyük başarılar peşinde riskli bir hayat isteyen bir partneri mi seçerdin?",
+  "answers_en": [
+   "Simple life with financial comfort",
+   "Risky life chasing big success"
+  ],
+  "answers_tr": [
+   "Finansal olarak rahat sade hayat",
+   "Büyük başarı peşinde riskli hayat"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "b13c21a7-90e1-43da-8cf4-293648328e04",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you live with your partner before marriage?",
+  "tr": "Evlenmeden sevgilinle aynı evde yaşar mısın?",
+  "category": "long_term"
+ },
+ {
+  "id": "96df59e9-4ef7-411c-988b-7da87dc67d7c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What destroys a relationship more: trust issues or communication issues?",
+  "tr": "Bir ilişkiyi daha çok ne bozar: güven sorunları mı iletişim sorunları mı?",
+  "answers_en": [
+   "Trust issues",
+   "Communication issues"
+  ],
+  "answers_tr": [
+   "Güven sorunları",
+   "İletişim sorunları"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "0b54c41a-71f3-463e-815e-6154a48609b8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you accept living with your partner's family after marriage?",
+  "tr": "Evlendikten sonra sevgilinin ailesiyle yaşamayı kabul eder misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "686299c5-d8ba-4578-8cc5-d1ca88ec4c25",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is more important in a relationship: feeling secure or feeling passionate?",
+  "tr": "Bir ilişkide daha önemli olan nedir: güvende hissetmek mi yoksa tutkulu hissetmek mi?",
+  "answers_en": [
+   "Feeling secure",
+   "Feeling passionate"
+  ],
+  "answers_tr": [
+   "Güvende hissetmek",
+   "Tutkulu hissetmek"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "64553088-4b91-42e3-9dd4-ae5f4f37de28",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If the person you love asked you to delete your social media accounts, would you do it?",
+  "tr": "Aşık olduğun kişi sosyal medya hesaplarını kapatmanı istese, kapatır mısın?",
+  "category": "long_term"
+ },
+ {
+  "id": "0b9dda2c-d006-4898-b5e8-af4332e97cff",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the future, would you choose a partner who never wants to live abroad or a partner who constantly wants to travel and move countries?",
+  "tr": "Gelecekte asla yurt dışında yaşamak istemeyen bir partneri mi yoksa sürekli seyahat edip ülke değiştirmek isteyen bir partneri mi seçerdin?",
+  "answers_en": [
+   "Never live abroad",
+   "Constantly travel and move countries"
+  ],
+  "answers_tr": [
+   "Asla yurt dışında yaşamaz",
+   "Sürekli seyahat edip ülke değiştirir"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "8e8d4a47-c5f1-47a4-a099-e40067b24d93",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner's best friend liked you, would you tell your partner?",
+  "tr": "Sevgilinin en yakın arkadaşı senden hoşlansa, bunu sevgiline söyler misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "d7f54c11-65f3-4a3b-a006-3828d94e9e5b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is more painful in love: losing the person or realizing they were never truly yours?",
+  "tr": "Aşkta hangisi daha acı verici: kişiyi kaybetmek mi yoksa onun aslında hiç sana ait olmadığını fark etmek mi?",
+  "answers_en": [
+   "Losing the person",
+   "Realizing they were never truly yours"
+  ],
+  "answers_tr": [
+   "Kişiyi kaybetmek",
+   "Aslında hiç senin olmadığını fark etmek"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "80a41d9e-4557-4c0f-ad43-964f6992ddd6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you be jealous if your partner goes out at night with friends?",
+  "tr": "Sevgilinin arkadaşlarıyla gece dışarı çıkmasını kıskanır mısın?",
+  "category": "long_term"
+ },
+ {
+  "id": "ce2bfb9c-c71b-4484-af3f-60b2a0d64037",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you marry someone who doesn't want children?",
+  "tr": "Çocuk yapmak istemeyen biriyle evlenir misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "1c7d7202-1982-4200-85ce-5430554c6774",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is harder to live with in a relationship: feeling unloved or feeling unimportant?",
+  "tr": "Bir ilişkide hangisiyle yaşamak daha zordur: sevilmediğini hissetmek mi yoksa önemsiz hissetmek mi?",
+  "answers_en": [
+   "Feeling unloved",
+   "Feeling unimportant"
+  ],
+  "answers_tr": [
+   "Sevilmediğini hissetmek",
+   "Önemsiz hissetmek"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "6fe6fdf5-1b21-4395-a422-a668befc589b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would living with your partner kill the sexual attraction?",
+  "tr": "Sevgilinle aynı evde yaşamak cinselliği öldürür mü?",
+  "category": "long_term"
+ },
+ {
+  "id": "ed60a442-e3d3-4295-847a-b2c280d9575e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is more damaging in a relationship: losing trust once or slowly losing it over time?",
+  "tr": "Bir ilişkide hangisi daha yıkıcıdır: güveni bir anda kaybetmek mi yoksa zamanla yavaş yavaş kaybetmek mi?",
+  "answers_en": [
+   "Losing trust once",
+   "Losing it slowly over time"
+  ],
+  "answers_tr": [
+   "Güveni bir anda kaybetmek",
+   "Zamanla yavaş yavaş kaybetmek"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "e838307a-5659-4045-a4eb-47b441d35812",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you get upset if your partner goes on vacation with friends?",
+  "tr": "Sevgilinin arkadaşlarıyla beraber tatile gitmesine sinirlenir misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "56f4ccea-070f-415b-9f4c-a51c62a46331",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you believe a lost love can be regained with effort?",
+  "tr": "Sence kaybedilmiş bir sevgi çabayla tekrar kazanılabilir mi?",
+  "category": "long_term"
+ },
+ {
+  "id": "f12cb362-0dc9-4d15-9ecd-c965ea436887",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Does love have an age limit?",
+  "tr": "Aşkın yaşı olur mu?",
+  "category": "long_term"
+ },
+ {
+  "id": "46d0a0ad-3871-4e6a-8269-234e157bbf9e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you feel regret about past relationships?",
+  "tr": "Geçmiş ilişkilerinden pişmanlık duyuyor musun?",
+  "category": "long_term"
+ },
+ {
+  "id": "5e523a85-9eab-465f-948e-70dfe87139c8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you lose a game on purpose to make your partner feel better?",
+  "tr": "Sevgiline daha iyi hissettirmek için oyunu bilerek kaybeder misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "248cce39-2e0a-4ecf-8bdc-a9c1da7669e2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would it bother you if your partner were famous on Instagram and always in the spotlight?",
+  "tr": "Sevgilinin Instagram'da ünlü olup çok göz önünde olması seni rahatsız eder mi?",
+  "category": "long_term"
+ },
+ {
+  "id": "9f5b2220-1d85-4476-be4b-aede57b91272",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you go against your family for something you really want or dream of?",
+  "tr": "Çok istediğin, hayalin olan bir şey için aileni karşına alır mısın?",
+  "category": "long_term"
+ },
+ {
+  "id": "604782d5-021e-477b-b3e5-c6a585fd2c2b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you lie to your partner just to make them happy?",
+  "tr": "Sırf mutlu olsun diye sevgiline yalan söyler misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "b13dd5c4-c9bc-49f6-94fe-db99095dcbaf",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you seek revenge on a partner who cheated on you?",
+  "tr": "Seni aldatan sevgilinden intikam alır mısın?",
+  "category": "long_term"
+ },
+ {
+  "id": "c1531a57-602a-4c85-b580-f29dd037d80a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you stay with someone who earns more money than you?",
+  "tr": "Senden daha çok para kazanan biriyle beraber olmaya devam eder misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "91124f3e-050c-4a45-b19e-1099ad9ea3bf",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Are you impressed by expensive gifts?",
+  "tr": "Pahalı hediyelerden etkilenir misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "abfd3894-3839-422a-b90f-c7d4f148eca2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you lend a large amount of money to your partner's sibling?",
+  "tr": "Sevgilinin kardeşi senden yüklü miktarda borç istese verir misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "8a6b14a5-837d-423c-bd6d-96f3275c1d69",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your friends don't like your partner, would it make you lose interest in them?",
+  "tr": "Arkadaşların sevgilinden hoşlanmasa, bu sevgilinden soğumana sebep olur mu?",
+  "category": "long_term"
+ },
+ {
+  "id": "95265173-55f2-4655-970e-a321e4fee997",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you believe there is one specific person in the world who was created specifically for you?",
+  "tr": "Dünyada tam senin için yaratılmış tek bir özel kişinin olduğuna inanır mısın?",
+  "category": "long_term"
+ },
+ {
+  "id": "f07da6dd-5097-43b8-8b05-31f5c2a82073",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner wanted, would you make your Instagram account private?",
+  "tr": "Sevgilin isterse Instagram hesabını gizliye alır mısın?",
+  "category": "long_term"
+ },
+ {
+  "id": "0e237d80-73bb-43e5-ac91-3c2ae17a06d1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the future, would you choose a partner who wants kids early or one who wants kids much later in life?",
+  "tr": "Gelecekte erken yaşta çocuk sahibi olmak isteyen bir partneri mi yoksa çocuk sahibi olmayı hayatın çok daha ilerisine ertelemek isteyen bir partneri mi seçerdin?",
+  "answers_en": [
+   "Kids early",
+   "Kids later"
+  ],
+  "answers_tr": [
+   "Erken çocuk",
+   "Daha geç çocuk"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "cb71ff6a-3fca-408a-8995-2378e6f2df75",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner wanted to read your messages with your friend group, would you let them?",
+  "tr": "Sevgilin, senin arkadaş grubunla olan mesajlarını okumak isterse okutur musun?",
+  "category": "long_term"
+ },
+ {
+  "id": "6501aea1-b672-4b69-9b47-ef34337f0731",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you live in the same house with a friend of the opposite sex while having a partner?",
+  "tr": "Sevgilin varken karşı cins arkadaşınla aynı evde yaşar mısın?",
+  "category": "long_term"
+ },
+ {
+  "id": "691c9f52-2fc8-44dd-92e3-b33eb68025ef",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In the future, would you accept it if your partner preferred adoption instead of having biological children?",
+  "tr": "Gelecekte partnerinin biyolojik çocuk sahibi olmak yerine evlat edinmeyi tercih etmesini kabul eder misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "016974f8-7cc2-43d8-8e16-60cc714dc90c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner wanted to leave everything and move to another country, would you agree?",
+  "tr": "Sevgilin her şeyi bırakıp başka bir ülkeye yerleşelim dese kabul eder misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "fc6b721a-f7d1-4ee5-b4a4-321d5ae14865",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If the person you're with wants to get cosmetic surgery, would you support them?",
+  "tr": "Birlikte olduğun kişi estetik yaptırmak isterse, onu destekler misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "df31e532-7534-4a7e-b947-32f62c398807",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Prioritize a wealthy retirement, or spend savings on experiences while we’re young?",
+  "tr": "Gelecekte lüks bir emeklilik mi, yoksa gençken anılar biriktirmek için parayı şimdi harcamak mı?",
+  "answers_en": [
+   "Save for Retirement",
+   "Spend on Memories"
+  ],
+  "answers_tr": [
+   "Emeklilik İçin Biriktir",
+   "Anılara Harca"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "b998c2fd-b632-4b5f-b225-7f874cceb713",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you stop talking to a friend who finds you attractive if your partner asked you to?",
+  "tr": "Seni çekici bulan arkadaşınla, partnerin istediği için konuşmayı bırakır mısın?",
+  "category": "long_term"
+ }
+]

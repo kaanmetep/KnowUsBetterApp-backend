@@ -1,4 +1,6 @@
+import { randomUUID } from "node:crypto";
 import { AppError } from "../errors/AppError.js";
+import { captureServerEvent } from "./analytics.js";
 import { logger } from "../utils/logger.js";
 import {
   AdminPushRequest,
@@ -130,6 +132,11 @@ export async function sendLocalizedPush(
     byLanguage: {},
   };
   const invalidTokens = new Set<string>();
+  // Sent with the push and reported back by the app when it is opened, so
+  // opens can be matched to sends.
+  const pushId = randomUUID();
+  const data = { ...payload.data, push_id: pushId };
+  const trackedUsers = new Set<string>();
 
   try {
     for (const language of PUSH_LANGUAGES) {
@@ -154,12 +161,24 @@ export async function sendLocalizedPush(
 
         const results = await apnsService.sendBatch(
           tokens,
-          { ...text, data: payload.data },
+          { ...text, data },
           { concurrency },
         );
         const { success, failure } = summarizeResults(results, invalidTokens);
+        const userByToken = new Map(targets.map((t) => [t.token, t.appUserId]));
+        for (const result of results) {
+          const appUserId = result.success && userByToken.get(result.token);
+          if (!appUserId || trackedUsers.has(appUserId)) continue;
+          trackedUsers.add(appUserId);
+          captureServerEvent("server_push_sent", { appUserId }, {
+            push_id: pushId,
+            push_type: payload.data.type,
+            category: payload.data.categoryId,
+            language,
+            targeted: Boolean(payload.appUserId),
+          });
+        }
         if (options?.deliveredUsers) {
-          const userByToken = new Map(targets.map((t) => [t.token, t.appUserId]));
           for (const result of results) {
             const appUserId = result.success && userByToken.get(result.token);
             if (appUserId) options.deliveredUsers.add(appUserId);

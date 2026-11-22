@@ -1,0 +1,3211 @@
+[
+ {
+  "id": "249c9d8c-a57c-45fb-8233-19701c9a3df3",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which of these iconic tech devices was released first?",
+  "tr": "Bu ikonik teknolojik cihazlardan hangisi daha önce piyasaya sürülmüştür?",
+  "answers_en": [
+   "Game Boy",
+   "Sony Walkman",
+   "Commodore 64",
+   "Macintosh 128K"
+  ],
+  "answers_tr": [
+   "Game Boy",
+   "Sony Walkman",
+   "Commodore 64",
+   "Macintosh 128K"
+  ],
+  "correct_answer": "Sony Walkman"
+ },
+ {
+  "id": "fbc24695-a39a-4f53-9717-f339a7bbd994",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country has the highest number of time zones, including its overseas territories?",
+  "tr": "Denizaşırı toprakları da dahil edildiğinde en çok saat dilimine sahip ülke hangisidir?",
+  "answers_en": [
+   "Russia",
+   "United States",
+   "France",
+   "China"
+  ],
+  "answers_tr": [
+   "Rusya",
+   "Amerika Birleşik Devletleri",
+   "Fransa",
+   "Çin"
+  ],
+  "correct_answer": "France"
+ },
+ {
+  "id": "ebce1854-6bc1-47e3-b71a-d595f7f0e3d9",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country's national flag is the only one in the world that features a modern firearm?",
+  "tr": "Hangi ülkenin ulusal bayrağı dünyada üzerinde modern bir ateşli silah bulunan tek bayraktır?",
+  "answers_en": [
+   "Mozambique",
+   "Angola",
+   "Guatemala",
+   "Haiti"
+  ],
+  "answers_tr": [
+   "Mozambik",
+   "Angola",
+   "Guatemala",
+   "Haiti"
+  ],
+  "correct_answer": "Mozambique"
+ },
+ {
+  "id": "b8b1f650-8af9-41b7-aa62-30d6ad15e5a7",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which of these well-known capitals was explicitly planned and built from scratch to serve as a national capital?",
+  "tr": "Bu tanınmış başkentlerden hangisi sırf ulusal başkent olması amacıyla sıfırdan planlanıp inşa edilmiştir?",
+  "answers_en": [
+   "Brasília",
+   "Ottawa",
+   "Reykjavík"
+  ],
+  "answers_tr": [
+   "Brasília",
+   "Ottawa",
+   "Reykjavík"
+  ],
+  "correct_answer": "Brasília"
+ },
+ {
+  "id": "216fe966-7360-468d-8a76-a6388e9f00fd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which painting holds the record for being the most expensive artwork ever sold at a public auction?",
+  "tr": "Hangi tablo, açık artırmada satılan en pahalı sanat eseri rekorunu elinde tutmaktadır?",
+  "answers_en": [
+   "Salvator Mundi",
+   "Interchange",
+   "Les Femmes d'Alger"
+  ],
+  "answers_tr": [
+   "Salvator Mundi",
+   "Interchange",
+   "Cezayirli Kadınlar"
+  ],
+  "correct_answer": "Salvator Mundi"
+ },
+ {
+  "id": "3384b472-139f-433d-975f-e1d81d3dd857",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which organ in the human body consumes roughly 20% of the total energy despite making up only about 2% of total body weight?",
+  "tr": "İnsan vücudundaki toplam ağırlığın yaklaşık %2'sini oluşturmasına rağmen toplam enerjinin yaklaşık %20'sini tüketen organ hangisidir?",
+  "answers_en": [
+   "Brain",
+   "Heart",
+   "Liver"
+  ],
+  "answers_tr": [
+   "Beyin",
+   "Kalp",
+   "Karaciğer"
+  ],
+  "correct_answer": "Brain"
+ },
+ {
+  "id": "79169b6e-6d47-46b6-b2e3-1c3403b8ad2b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which animal species is the only known creature capable of biological immortality under ideal conditions?",
+  "tr": "Hangi hayvan türü, ideal koşullar altında biyolojik ölümsüzlüğe ulaşabilen bilinen tek canlıdır?",
+  "answers_en": [
+   "Turritopsis dohrnii jellyfish",
+   "Tardigrade",
+   "Greenland Shark",
+   "Axolotl"
+  ],
+  "answers_tr": [
+   "Turritopsis dohrnii denizanası",
+   "Tardigrat (Su ayısı)",
+   "Grönland köpekbalığı",
+   "Aksolotl"
+  ],
+  "correct_answer": "Turritopsis dohrnii jellyfish"
+ },
+ {
+  "id": "d9266445-8fa1-4b7b-8f51-a95099e26f90",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country has a national anthem with no official lyrics at all?",
+  "tr": "Hangi ülkenin milli marşının resmi olarak hiç sözü yoktur?",
+  "answers_en": [
+   "Spain",
+   "Greece",
+   "Austria",
+   "Finland"
+  ],
+  "answers_tr": [
+   "İspanya",
+   "Yunanistan",
+   "Avusturya",
+   "Finlandiya"
+  ],
+  "correct_answer": "Spain"
+ },
+ {
+  "id": "216b9e84-7694-41e2-af5d-f6a321f39d9d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which naturally occurring substance on Earth never spoils or expires if stored properly?",
+  "tr": "Yeryüzünde uygun şekilde saklandığında asla bozulmayan veya son kullanma tarihi geçmeyen doğal madde hangisidir?",
+  "answers_en": [
+   "Honey",
+   "Olive oil",
+   "Maple syrup",
+   "Ghee"
+  ],
+  "answers_tr": [
+   "Bal",
+   "Zeytinyağı",
+   "Akçaağaç şurubu",
+   "Sade yağ"
+  ],
+  "correct_answer": "Honey"
+ },
+ {
+  "id": "2fa3792a-8bb2-4d12-9828-3caa4b924ede",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country has the longest official geographical coastlines in the entire world?",
+  "tr": "Tüm dünyada resmi olarak en uzun coğrafi kıyı şeridine sahip olan ülke hangisidir?",
+  "answers_en": [
+   "Canada",
+   "Indonesia",
+   "Russia",
+   "Australia"
+  ],
+  "answers_tr": [
+   "Kanada",
+   "Endonezya",
+   "Rusya",
+   "Avustralya"
+  ],
+  "correct_answer": "Canada"
+ },
+ {
+  "id": "33649e7c-3151-42fa-b231-2b75a0bb5bdd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which of these classic board games was originally designed as a critique of capitalism and unchecked monopolies?",
+  "tr": "Bu klasik masa oyunlarından hangisi aslında kapitalizmi ve denetimsiz tekelciliği eleştirmek amacıyla tasarlanmıştır?",
+  "answers_en": [
+   "Monopoly",
+   "Catan",
+   "Risk"
+  ],
+  "answers_tr": [
+   "Monopoly",
+   "Catan",
+   "Risk"
+  ],
+  "correct_answer": "Monopoly"
+ },
+ {
+  "id": "9ab5c474-fbb2-4c0a-806a-40a9d9cc8024",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country had a plain single-color national flag, with no symbols, stripes or designs, from 1977 to 2011?",
+  "tr": "1977-2011 arasında hiçbir sembol, çizgi veya desen olmayan tek renkli bir bayrak kullanan ülke hangisiydi?",
+  "answers_en": [
+   "Libya",
+   "Oman",
+   "Mauritania",
+   "Somalia"
+  ],
+  "answers_tr": [
+   "Libya",
+   "Oman",
+   "Moritanya",
+   "Somali"
+  ],
+  "correct_answer": "Libya"
+ },
+ {
+  "id": "613334ba-46f2-4057-8e33-69fb31894584",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which human organ is the only internal organ capable of naturally regenerating lost or damaged tissue back to its original size?",
+  "tr": "İnsan vücudundaki hangi iç organ, kaybolan veya hasar gören dokusunu doğal olarak orijinal boyutuna geri tamamlayabilen tek organdır?",
+  "answers_en": [
+   "Liver",
+   "Spleen",
+   "Pancreas",
+   "Kidney"
+  ],
+  "answers_tr": [
+   "Karaciğer",
+   "Dalak",
+   "Pankreas",
+   "Böbrek"
+  ],
+  "correct_answer": "Liver"
+ },
+ {
+  "id": "40918421-b186-4fc1-8671-93d38e453858",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which space agency was the first to successfully land a robotic probe on the surface of another planet?",
+  "tr": "Başka bir gezegenin yüzeyine başarılı bir şekilde robotik bir uzay aracı indiren ilk uzay ajansı hangisidir?",
+  "answers_en": [
+   "Soviet Space Program (USSR)",
+   "NASA (USA)",
+   "ESA (Europe)"
+  ],
+  "answers_tr": [
+   "Sovyet Uzay Programı (SSCB)",
+   "NASA (ABD)",
+   "ESA (Avrupa)"
+  ],
+  "correct_answer": "Soviet Space Program (USSR)"
+ },
+ {
+  "id": "3afba6ab-16e0-4ac5-b590-7ca44451914e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country contains the only capital city in the world that borders two different foreign nations?",
+  "tr": "Dünyada iki farklı yabancı ülkeyle sınırı olan tek başkente sahip ülke hangisidir?",
+  "answers_en": [
+   "Slovakia",
+   "Austria",
+   "Hungary",
+   "Switzerland"
+  ],
+  "answers_tr": [
+   "Slovakya",
+   "Avusturya",
+   "Macaristan",
+   "İsviçre"
+  ],
+  "correct_answer": "Slovakia"
+ },
+ {
+  "id": "ed8c8613-d924-4efa-87d6-5785029d9802",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which historic space mission was the first to take photographs of the far side of the Moon, never before seen by human eyes?",
+  "tr": "İnsan gözüyle daha önce hiç görülmemiş olan Ay'ın karanlık/arka yüzünün ilk fotoğraflarını çeken tarihi uzay görevi hangisidir?",
+  "answers_en": [
+   "Luna 3",
+   "Apollo 8",
+   "Sputnik 2",
+   "Voyager 1"
+  ],
+  "answers_tr": [
+   "Luna 3",
+   "Apollo 8",
+   "Sputnik 2",
+   "Voyager 1"
+  ],
+  "correct_answer": "Luna 3"
+ },
+ {
+  "id": "00b54485-8cba-4983-a77e-4008337756f8",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which animal was the first living organism to have its complete genome fully sequenced by scientists in 1998?",
+  "tr": "1998 yılında bilim insanları tarafından tüm genomu eksiksiz olarak dizilinen ilk çok hücreli canlı organizma hangisidir?",
+  "answers_en": [
+   "Caenorhabditis elegans (Nematode worm)",
+   "Drosophila melanogaster (Fruit fly)",
+   "Mus musculus (House mouse)"
+  ],
+  "answers_tr": [
+   "Caenorhabditis elegans (Nematod solucanı)",
+   "Drosophila melanogaster (Meyve sineği)",
+   "Mus musculus (Ev faresi)"
+  ],
+  "correct_answer": "Caenorhabditis elegans (Nematode worm)"
+ },
+ {
+  "id": "65a413b9-91a9-42d2-8a28-2ad753643f20",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which of these well-known sea bodies on Earth is actually an endorheic lake with no natural outlet to any ocean?",
+  "tr": "Dünyadaki bu tanınmış denizlerden hangisi aslında hiçbir okyanusa doğal çıkışı olmayan kapalı bir havza gölüdür?",
+  "answers_en": [
+   "Caspian Sea",
+   "Red Sea",
+   "Black Sea",
+   "Baltic Sea"
+  ],
+  "answers_tr": [
+   "Hazar Denizi",
+   "Kızıldeniz",
+   "Karadeniz",
+   "Baltık Denizi"
+  ],
+  "correct_answer": "Caspian Sea"
+ },
+ {
+  "id": "28337b33-f997-40cc-9a60-62fe1ce2afef",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which of these famous landmarks was originally constructed as a temporary structure intended to be dismantled after 20 years?",
+  "tr": "Bu ünlü yapılardan hangisi aslında 20 yıl sonra sökülmek üzere geçici bir yapı olarak inşa edilmiştir?",
+  "answers_en": [
+   "Eiffel Tower",
+   "Statue of Liberty",
+   "Big Ben",
+   "Golden Gate Bridge"
+  ],
+  "answers_tr": [
+   "Eyfel Kulesi",
+   "Özgürlük Heykeli",
+   "Big Ben",
+   "Golden Gate Köprüsü"
+  ],
+  "correct_answer": "Eiffel Tower"
+ },
+ {
+  "id": "cbec4c4a-b349-4cf9-9350-232bd2ce2084",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country contains the world's northernmost permanently inhabited settlement with a civilian population?",
+  "tr": "Sivil nüfusa sahip, dünyadaki en kuzeydeki kalıcı yerleşim yerini sınırlarında barındıran ülke hangisidir?",
+  "answers_en": [
+   "Norway",
+   "Canada",
+   "Greenland"
+  ],
+  "answers_tr": [
+   "Norveç",
+   "Kanada",
+   "Grönland"
+  ],
+  "correct_answer": "Norway"
+ },
+ {
+  "id": "4efb81b0-12ea-4ad6-8815-8460fff0dfec",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which famous scientist lost his sight in his later years, partly due to observing the Sun through a telescope?",
+  "tr": "Hangi ünlü bilim insanı, kısmen Güneş'i teleskopla gözlemlediği için yaşamının son yıllarında görme yetisini kaybetmiştir?",
+  "answers_en": [
+   "Galileo Galilei",
+   "Isaac Newton",
+   "Johannes Kepler",
+   "Nicolaus Copernicus"
+  ],
+  "answers_tr": [
+   "Galileo Galilei",
+   "Isaac Newton",
+   "Johannes Kepler",
+   "Nikolaus Kopernik"
+  ],
+  "correct_answer": "Galileo Galilei"
+ },
+ {
+  "id": "5b649245-27c2-441a-ac9c-d6cb4f55763a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which island is the only natural habitat where wild lemurs can be found in the world?",
+  "tr": "Dünyada yaban hayatındaki lemurların doğal olarak yaşadığı tek ada hangisidir?",
+  "answers_en": [
+   "Madagascar",
+   "Tasmania",
+   "Borneo",
+   "Sri Lanka"
+  ],
+  "answers_tr": [
+   "Madagaskar",
+   "Tazmanya",
+   "Borneo",
+   "Sri Lanka"
+  ],
+  "correct_answer": "Madagascar"
+ },
+ {
+  "id": "07d21811-0a44-4fe1-bc87-4653d33e744d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which element is the most abundant gas in Earth's atmosphere, making up about 78% of the air we breathe?",
+  "tr": "Soluduğumuz havanın yaklaşık %78'ini oluşturan, Dünya atmosferinde en bol bulunan gaz hangisidir?",
+  "answers_en": [
+   "Nitrogen",
+   "Oxygen",
+   "Carbon Dioxide"
+  ],
+  "answers_tr": [
+   "Azot (Nitrojen)",
+   "Oksijen",
+   "Karbondioksit"
+  ],
+  "correct_answer": "Nitrogen"
+ },
+ {
+  "id": "306a0b2b-4cd9-4cb2-874b-b09bbe3c20c1",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which organ in the human body is responsible for producing insulin to regulate blood sugar levels?",
+  "tr": "İnsan vücudunda kan şekerini düzenleyen insülin hormonunu üretmekten sorumlu organ hangisidir?",
+  "answers_en": [
+   "Pancreas",
+   "Liver",
+   "Thyroid",
+   "Kidney"
+  ],
+  "answers_tr": [
+   "Pankreas",
+   "Karaciğer",
+   "Tiroit",
+   "Böbrek"
+  ],
+  "correct_answer": "Pancreas"
+ },
+ {
+  "id": "4b072b2c-27e3-4f5d-8e61-6073892c3edc",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which ocean is the smallest and shallowest among the world's five major oceans?",
+  "tr": "Dünyanın beş büyük okyanusu arasında en küçük ve en sığ olanı hangisidir?",
+  "answers_en": [
+   "Arctic Ocean",
+   "Indian Ocean",
+   "Southern Ocean"
+  ],
+  "answers_tr": [
+   "Arktik Okyanusu (Kuzey Buz Denizi)",
+   "Hint Okyanusu",
+   "Güney Okyanusu"
+  ],
+  "correct_answer": "Arctic Ocean"
+ },
+ {
+  "id": "5eba4cd4-3e28-4755-b946-b1162f9e1f52",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country contains the highest number of natural lakes in the world, far more than all other countries combined?",
+  "tr": "Dünyadaki en çok doğal göle sahip olan ve diğer tüm ülkelerin toplamından daha fazla göle ev sahipliği yapan ülke hangisidir?",
+  "answers_en": [
+   "Canada",
+   "Finland",
+   "Sweden",
+   "Russia"
+  ],
+  "answers_tr": [
+   "Kanada",
+   "Finlandiya",
+   "İsveç",
+   "Rusya"
+  ],
+  "correct_answer": "Canada"
+ },
+ {
+  "id": "d2e91574-e563-4b4d-bca7-5089e2c95a3d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which internal organ in the human body consumes the most oxygen at rest per gram of tissue?",
+  "tr": "İnsan vücudundaki hangi iç organ, dinlenme halindeyken gram başına en fazla oksijeni tüketir?",
+  "answers_en": [
+   "Kidneys",
+   "Brain",
+   "Heart"
+  ],
+  "answers_tr": [
+   "Böbrekler",
+   "Beyin",
+   "Kalp"
+  ],
+  "correct_answer": "Heart"
+ },
+ {
+  "id": "cfe101aa-6323-4701-9f6b-c0c1b78bcd31",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which chemical element has the symbol 'Fe' on the periodic table?",
+  "tr": "Periyodik tabloda 'Fe' simgesiyle gösterilen kimyasal element hangisidir?",
+  "answers_en": [
+   "Iron",
+   "Fluorine",
+   "Francium",
+   "Lead"
+  ],
+  "answers_tr": [
+   "Demir",
+   "Flor",
+   "Fransiyum",
+   "Kurşun"
+  ],
+  "correct_answer": "Iron"
+ },
+ {
+  "id": "f82eeb1d-6bc5-4620-9662-4b6db7d03f85",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country has the largest total population in the world?",
+  "tr": "Dünyanın en fazla toplam nüfusuna sahip olan ülke hangisidir?",
+  "answers_en": [
+   "India",
+   "China",
+   "United States"
+  ],
+  "answers_tr": [
+   "Hindistan",
+   "Çin",
+   "Amerika Birleşik Devletleri"
+  ],
+  "correct_answer": "India"
+ },
+ {
+  "id": "aefe5538-8b82-4150-946e-1e448c7294dd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which city was the Titanic built?",
+  "tr": "Titanik hangi şehirde inşa edildi?",
+  "answers_en": [
+   "Southampton",
+   "Liverpool",
+   "Belfast",
+   "Glasgow"
+  ],
+  "answers_tr": [
+   "Southampton",
+   "Liverpool",
+   "Belfast",
+   "Glasgow"
+  ],
+  "correct_answer": "Belfast"
+ },
+ {
+  "id": "f24855c8-5dff-43bf-8f9a-b43c20369617",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which language has the most native speakers in the world?",
+  "tr": "Dünyada en çok kişinin ana dili olan dil hangisi?",
+  "answers_en": [
+   "English",
+   "Spanish",
+   "Mandarin Chinese",
+   "Hindi"
+  ],
+  "answers_tr": [
+   "İngilizce",
+   "İspanyolca",
+   "Mandarin Çincesi",
+   "Hintçe"
+  ],
+  "correct_answer": "Mandarin Chinese"
+ },
+ {
+  "id": "074003da-986a-4f39-b69d-edf24fa0e6bd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which famous composer kept writing music even after losing his hearing?",
+  "tr": "Hangi ünlü besteci işitme yetisini kaybettikten sonra da beste yapmaya devam etti?",
+  "answers_en": [
+   "Mozart",
+   "Bach",
+   "Beethoven",
+   "Chopin"
+  ],
+  "answers_tr": [
+   "Mozart",
+   "Bach",
+   "Beethoven",
+   "Chopin"
+  ],
+  "correct_answer": "Beethoven"
+ },
+ {
+  "id": "445bc232-d72c-441e-8870-db27d398660c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the longest river in Europe?",
+  "tr": "Avrupa'nın en uzun nehri hangisi?",
+  "answers_en": [
+   "Danube",
+   "Rhine",
+   "Volga",
+   "Dnieper"
+  ],
+  "answers_tr": [
+   "Tuna",
+   "Ren",
+   "Volga",
+   "Dinyeper"
+  ],
+  "correct_answer": "Volga"
+ },
+ {
+  "id": "50e6fa72-58b1-4e43-9ff3-19a6b061b079",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country has the most ancient pyramids in the world?",
+  "tr": "Dünyada en çok antik piramide sahip ülke hangisi?",
+  "answers_en": [
+   "Egypt",
+   "Mexico",
+   "Sudan",
+   "Peru"
+  ],
+  "answers_tr": [
+   "Mısır",
+   "Meksika",
+   "Sudan",
+   "Peru"
+  ],
+  "correct_answer": "Sudan"
+ },
+ {
+  "id": "764b8baf-3e52-4147-805a-5b2db69e761e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which ancient Roman city was buried by the eruption of Mount Vesuvius in 79 AD?",
+  "tr": "MS 79'da Vezüv Yanardağı'nın patlamasıyla küller altında kalan antik Roma şehri hangisi?",
+  "answers_en": [
+   "Troy",
+   "Carthage",
+   "Pompeii",
+   "Ephesus"
+  ],
+  "answers_tr": [
+   "Truva",
+   "Kartaca",
+   "Pompeii",
+   "Efes"
+  ],
+  "correct_answer": "Pompeii"
+ },
+ {
+  "id": "46a1bf16-1ff6-4b35-9344-067efca85bf8",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "The zloty is the currency of which country?",
+  "tr": "Zloti hangi ülkenin para birimidir?",
+  "answers_en": [
+   "Czech Republic",
+   "Hungary",
+   "Poland",
+   "Romania"
+  ],
+  "answers_tr": [
+   "Çekya",
+   "Macaristan",
+   "Polonya",
+   "Romanya"
+  ],
+  "correct_answer": "Poland"
+ },
+ {
+  "id": "48c26cda-20cb-499c-a406-b596bdf0fcfe",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which country is the famous temple complex Angkor Wat?",
+  "tr": "Ünlü tapınak kompleksi Angkor Wat hangi ülkede?",
+  "answers_en": [
+   "Thailand",
+   "Vietnam",
+   "Cambodia",
+   "Laos"
+  ],
+  "answers_tr": [
+   "Tayland",
+   "Vietnam",
+   "Kamboçya",
+   "Laos"
+  ],
+  "correct_answer": "Cambodia"
+ },
+ {
+  "id": "15e2a3be-9cf7-44c7-82c2-73a20cf4e32e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country was known as Persia until 1935?",
+  "tr": "1935'e kadar Pers ülkesi olarak bilinen ülke hangisi?",
+  "answers_en": [
+   "Iraq",
+   "Iran",
+   "Afghanistan",
+   "Syria"
+  ],
+  "answers_tr": [
+   "Irak",
+   "İran",
+   "Afganistan",
+   "Suriye"
+  ],
+  "correct_answer": "Iran"
+ },
+ {
+  "id": "038f3d47-7343-4fe0-9233-1e1ebe34924c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which is the driest continent on Earth?",
+  "tr": "Dünyanın en kurak kıtası hangisi?",
+  "answers_en": [
+   "Africa",
+   "Australia",
+   "Antarctica",
+   "Asia"
+  ],
+  "answers_tr": [
+   "Afrika",
+   "Avustralya",
+   "Antarktika",
+   "Asya"
+  ],
+  "correct_answer": "Antarctica"
+ },
+ {
+  "id": "25b14b4f-e324-469f-95f9-97764d1e5aba",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which famous painter cut off part of his own ear?",
+  "tr": "Hangi ünlü ressam kendi kulağının bir kısmını kesti?",
+  "answers_en": [
+   "Pablo Picasso",
+   "Salvador Dalí",
+   "Vincent van Gogh",
+   "Claude Monet"
+  ],
+  "answers_tr": [
+   "Pablo Picasso",
+   "Salvador Dalí",
+   "Vincent van Gogh",
+   "Claude Monet"
+  ],
+  "correct_answer": "Vincent van Gogh"
+ },
+ {
+  "id": "ad97147d-91f6-4461-950a-037d2e2ba3e5",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which civilization built Machu Picchu?",
+  "tr": "Machu Picchu'yu hangi uygarlık inşa etti?",
+  "answers_en": [
+   "Maya",
+   "Aztec",
+   "Inca",
+   "Olmec"
+  ],
+  "answers_tr": [
+   "Maya",
+   "Aztek",
+   "İnka",
+   "Olmek"
+  ],
+  "correct_answer": "Inca"
+ },
+ {
+  "id": "9eddd7ce-3b44-4ff8-bd55-f8722f54735a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who developed the first successful polio vaccine?",
+  "tr": "İlk başarılı çocuk felci aşısını kim geliştirdi?",
+  "answers_en": [
+   "Louis Pasteur",
+   "Alexander Fleming",
+   "Jonas Salk",
+   "Edward Jenner"
+  ],
+  "answers_tr": [
+   "Louis Pasteur",
+   "Alexander Fleming",
+   "Jonas Salk",
+   "Edward Jenner"
+  ],
+  "correct_answer": "Jonas Salk"
+ },
+ {
+  "id": "16f5a75d-b234-4cf5-b764-42f88f585fb4",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which year did the Berlin Wall fall?",
+  "tr": "Berlin Duvarı hangi yıl yıkıldı?",
+  "answers_en": [
+   "1985",
+   "1989",
+   "1991",
+   "1993"
+  ],
+  "answers_tr": [
+   "1985",
+   "1989",
+   "1991",
+   "1993"
+  ],
+  "correct_answer": "1989"
+ },
+ {
+  "id": "09b32070-8382-46c5-acab-7febba8d1ec8",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which planet is famous for its \"Great Red Spot,\" a giant storm?",
+  "tr": "Dev bir fırtına olan \"Büyük Kırmızı Leke\" ile ünlü gezegen hangisi?",
+  "answers_en": [
+   "Mars",
+   "Saturn",
+   "Jupiter",
+   "Neptune"
+  ],
+  "answers_tr": [
+   "Mars",
+   "Satürn",
+   "Jüpiter",
+   "Neptün"
+  ],
+  "correct_answer": "Jupiter"
+ },
+ {
+  "id": "47c54123-8d9b-4b45-a060-a7d644f27b4b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who wrote the novel \"One Hundred Years of Solitude\"?",
+  "tr": "\"Yüzyıllık Yalnızlık\" romanını kim yazdı?",
+  "answers_en": [
+   "Jorge Luis Borges",
+   "Pablo Neruda",
+   "Gabriel García Márquez",
+   "Mario Vargas Llosa"
+  ],
+  "answers_tr": [
+   "Jorge Luis Borges",
+   "Pablo Neruda",
+   "Gabriel García Márquez",
+   "Mario Vargas Llosa"
+  ],
+  "correct_answer": "Gabriel García Márquez"
+ },
+ {
+  "id": "fa255715-8112-4dbe-9570-2771aa214284",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the longest bone in the human body?",
+  "tr": "İnsan vücudundaki en uzun kemik hangisi?",
+  "answers_en": [
+   "Tibia",
+   "Femur",
+   "Humerus",
+   "Spine"
+  ],
+  "answers_tr": [
+   "Kaval kemiği",
+   "Uyluk kemiği",
+   "Pazu kemiği",
+   "Omurga"
+  ],
+  "correct_answer": "Femur"
+ },
+ {
+  "id": "a411e5d4-9ce4-400d-bc15-c163ec9ebb03",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the largest country in Africa by area?",
+  "tr": "Yüzölçümü bakımından Afrika'nın en büyük ülkesi hangisi?",
+  "answers_en": [
+   "Sudan",
+   "DR Congo",
+   "Algeria",
+   "Egypt"
+  ],
+  "answers_tr": [
+   "Sudan",
+   "Kongo DC",
+   "Cezayir",
+   "Mısır"
+  ],
+  "correct_answer": "Algeria"
+ },
+ {
+  "id": "78ee5f59-8c97-41fa-a626-e8591b8f855d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "IKEA was founded in which country?",
+  "tr": "IKEA hangi ülkede kuruldu?",
+  "answers_en": [
+   "Denmark",
+   "Norway",
+   "Sweden",
+   "Finland"
+  ],
+  "answers_tr": [
+   "Danimarka",
+   "Norveç",
+   "İsveç",
+   "Finlandiya"
+  ],
+  "correct_answer": "Sweden"
+ },
+ {
+  "id": "a5474f1a-12e0-4f8f-ba4e-36c55526f4d5",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which car brand's logo is made of four interlocking rings?",
+  "tr": "Logosu iç içe geçmiş dört halkadan oluşan otomobil markası hangisi?",
+  "answers_en": [
+   "BMW",
+   "Audi",
+   "Volkswagen",
+   "Mercedes-Benz"
+  ],
+  "answers_tr": [
+   "BMW",
+   "Audi",
+   "Volkswagen",
+   "Mercedes-Benz"
+  ],
+  "correct_answer": "Audi"
+ },
+ {
+  "id": "316853c7-fe4d-406a-837f-9be36e71791e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Samsung is a company from which country?",
+  "tr": "Samsung hangi ülkenin şirketidir?",
+  "answers_en": [
+   "Japan",
+   "China",
+   "South Korea",
+   "Taiwan"
+  ],
+  "answers_tr": [
+   "Japonya",
+   "Çin",
+   "Güney Kore",
+   "Tayvan"
+  ],
+  "correct_answer": "South Korea"
+ },
+ {
+  "id": "f6443fb2-9cf5-4361-82ab-69ae23034358",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What color is an airplane's \"black box\" flight recorder actually?",
+  "tr": "Uçaklardaki \"kara kutu\" aslında ne renktir?",
+  "answers_en": [
+   "Black",
+   "Orange",
+   "Red",
+   "Silver"
+  ],
+  "answers_tr": [
+   "Siyah",
+   "Turuncu",
+   "Kırmızı",
+   "Gümüş"
+  ],
+  "correct_answer": "Orange"
+ },
+ {
+  "id": "a751f437-62dc-4e3e-8f21-bc7adcf9a725",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many squares are there on a chessboard?",
+  "tr": "Bir satranç tahtasında kaç kare vardır?",
+  "answers_en": [
+   "48",
+   "64",
+   "81",
+   "100"
+  ],
+  "answers_tr": [
+   "48",
+   "64",
+   "81",
+   "100"
+  ],
+  "correct_answer": "64"
+ },
+ {
+  "id": "3c7ac84e-460a-420b-bc49-e161bbdfb680",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Nokia, the famous phone brand, comes from which country?",
+  "tr": "Ünlü telefon markası Nokia hangi ülkenin markasıdır?",
+  "answers_en": [
+   "Sweden",
+   "Finland",
+   "Japan",
+   "Germany"
+  ],
+  "answers_tr": [
+   "İsveç",
+   "Finlandiya",
+   "Japonya",
+   "Almanya"
+  ],
+  "correct_answer": "Finland"
+ },
+ {
+  "id": "ce67c01c-6fac-4cc1-83b4-97c6f79d35c3",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "On a standard die, what do the numbers on opposite sides always add up to?",
+  "tr": "Standart bir zarda karşılıklı yüzlerdeki sayıların toplamı her zaman kaçtır?",
+  "answers_en": [
+   "6",
+   "7",
+   "8",
+   "12"
+  ],
+  "answers_tr": [
+   "6",
+   "7",
+   "8",
+   "12"
+  ],
+  "correct_answer": "7"
+ },
+ {
+  "id": "23122005-b25f-4c6e-be69-ccd34cfb98bd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many hours are there in a week?",
+  "tr": "Bir haftada kaç saat vardır?",
+  "answers_en": [
+   "148",
+   "158",
+   "168",
+   "178"
+  ],
+  "answers_tr": [
+   "148",
+   "158",
+   "168",
+   "178"
+  ],
+  "correct_answer": "168"
+ },
+ {
+  "id": "f131e63e-96c1-440a-b031-5c318d8bc323",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Nutella was created in which country?",
+  "tr": "Nutella hangi ülkede icat edildi?",
+  "answers_en": [
+   "France",
+   "Switzerland",
+   "Belgium",
+   "Italy"
+  ],
+  "answers_tr": [
+   "Fransa",
+   "İsviçre",
+   "Belçika",
+   "İtalya"
+  ],
+  "correct_answer": "Italy"
+ },
+ {
+  "id": "5213fdb8-17ca-4e41-a7c3-2e29888dc910",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many cards are in a standard deck, not counting jokers?",
+  "tr": "Jokerler hariç standart bir iskambil destesinde kaç kart vardır?",
+  "answers_en": [
+   "48",
+   "52",
+   "54",
+   "56"
+  ],
+  "answers_tr": [
+   "48",
+   "52",
+   "54",
+   "56"
+  ],
+  "correct_answer": "52"
+ },
+ {
+  "id": "b7ea512f-5675-4ed5-b6ee-e67bf475a40e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "On a standard keyboard, which letter sits between G and J?",
+  "tr": "Standart bir klavyede G ile J arasında hangi harf bulunur?",
+  "answers_en": [
+   "F",
+   "H",
+   "K",
+   "B"
+  ],
+  "answers_tr": [
+   "F",
+   "H",
+   "K",
+   "B"
+  ],
+  "correct_answer": "H"
+ },
+ {
+  "id": "fc9fb6fc-80f1-4d6f-acf9-a97d285e1148",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Roughly how long does sunlight take to reach Earth?",
+  "tr": "Güneş ışığının Dünya'ya ulaşması yaklaşık ne kadar sürer?",
+  "answers_en": [
+   "8 seconds",
+   "8 minutes",
+   "8 hours",
+   "8 days"
+  ],
+  "answers_tr": [
+   "8 saniye",
+   "8 dakika",
+   "8 saat",
+   "8 gün"
+  ],
+  "correct_answer": "8 minutes"
+ },
+ {
+  "id": "f7577fd3-cd79-400b-a94e-b36666958681",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many strings does a standard guitar have?",
+  "tr": "Standart bir gitarda kaç tel vardır?",
+  "answers_en": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "answers_tr": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "correct_answer": "6"
+ },
+ {
+  "id": "de06546b-8966-4a0f-8a03-6e5c4262d6fc",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many days does February have in a leap year?",
+  "tr": "Artık yıllarda şubat ayı kaç gün çeker?",
+  "answers_en": [
+   "28",
+   "29",
+   "30",
+   "31"
+  ],
+  "answers_tr": [
+   "28",
+   "29",
+   "30",
+   "31"
+  ],
+  "correct_answer": "29"
+ },
+ {
+  "id": "19816c87-dfa3-45ff-9bb0-ef7558f119de",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "The cornea is part of which organ?",
+  "tr": "Kornea hangi organın bir parçasıdır?",
+  "answers_en": [
+   "Ear",
+   "Eye",
+   "Heart",
+   "Skin"
+  ],
+  "answers_tr": [
+   "Kulak",
+   "Göz",
+   "Kalp",
+   "Deri"
+  ],
+  "correct_answer": "Eye"
+ },
+ {
+  "id": "5259ce96-2e3b-458a-9f7c-b637fd887db0",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which metal is used in most household electrical wires?",
+  "tr": "Evlerdeki elektrik kablolarının çoğunda hangi metal kullanılır?",
+  "accepted_en": [
+   "Copper",
+   "Cu",
+   "Copper wire",
+   "Coper",
+   "Cobre",
+   "Bakır"
+  ],
+  "accepted_tr": [
+   "Bakır",
+   "Bakir",
+   "Cu",
+   "Bakır tel",
+   "Copper",
+   "Bakir tel"
+  ]
+ },
+ {
+  "id": "40cb4e70-a58a-4f05-b31c-d3e3fdb89927",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which gas gives fizzy drinks their bubbles?",
+  "tr": "Gazlı içeceklere köpürmesini veren gaz hangisidir?",
+  "accepted_en": [
+   "Carbon dioxide",
+   "CO2",
+   "CO₂",
+   "Carbon dioxyde",
+   "Carbonic gas",
+   "Carbondioxide"
+  ],
+  "accepted_tr": [
+   "Karbondioksit",
+   "Karbon dioksit",
+   "CO2",
+   "CO₂",
+   "Karbondiyoksit",
+   "Karbonik gaz"
+  ]
+ },
+ {
+  "id": "268fe19d-11a8-41cc-8d63-fe56498a715a",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Dubai is a city in which country?",
+  "tr": "Dubai hangi ülkenin şehridir?",
+  "accepted_en": [
+   "United Arab Emirates",
+   "UAE",
+   "U.A.E.",
+   "Emirates",
+   "The Emirates",
+   "Arab Emirates"
+  ],
+  "accepted_tr": [
+   "Birleşik Arap Emirlikleri",
+   "BAE",
+   "B.A.E.",
+   "Arap Emirlikleri",
+   "Emirlikler",
+   "UAE"
+  ]
+ },
+ {
+  "id": "8df2cfec-7013-48f4-8e0a-1f2cac3d73e2",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the name for an extreme fear of spiders?",
+  "tr": "Aşırı örümcek korkusunun adı nedir?",
+  "accepted_en": [
+   "Arachnophobia",
+   "Arachnafobia",
+   "Arachnaphobia"
+  ],
+  "accepted_tr": [
+   "Araknofobi",
+   "Araknafobi",
+   "Arachnophobia",
+   "Araknofobia"
+  ]
+ },
+ {
+  "id": "bdcca45d-f2ae-441d-a885-a521f51b3ece",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which planet is often called the \"Morning Star\"?",
+  "tr": "Hangi gezegen sık sık \"Çoban Yıldızı\" olarak anılır?",
+  "accepted_en": [
+   "Venus",
+   "Venüs",
+   "Planet Venus",
+   "Venús"
+  ],
+  "accepted_tr": [
+   "Venüs",
+   "Venus",
+   "Zühre",
+   "Venüs gezegeni",
+   "Venús"
+  ]
+ },
+ {
+  "id": "f766a74f-7af2-4363-870d-632389e2bc90",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What does \"www\" stand for in a website address?",
+  "tr": "Bir internet adresindeki \"www\" neyin kısaltmasıdır?",
+  "accepted_en": [
+   "World Wide Web",
+   "World Wideweb",
+   "WorldWide Web",
+   "The World Wide Web",
+   "Worldwide Web"
+  ],
+  "accepted_tr": [
+   "World Wide Web",
+   "Dünya Çapında Ağ",
+   "World Wideweb",
+   "Worldwide Web",
+   "WorldWide Web"
+  ]
+ },
+ {
+  "id": "4d63a2f7-355d-418a-99f7-288076d7c5ed",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which spice is the most expensive in the world by weight?",
+  "tr": "Ağırlığına göre dünyanın en pahalı baharatı hangisi?",
+  "accepted_en": [
+   "Saffron",
+   "Safran",
+   "Azafran",
+   "Saffran",
+   "Saffron spice",
+   "Crocus"
+  ],
+  "accepted_tr": [
+   "Safran",
+   "Saffron",
+   "Azafran",
+   "Şafran",
+   "Safran baharatı",
+   "Crocus"
+  ]
+ },
+ {
+  "id": "a5f1d330-c07c-40b9-a6ed-e6037bf4f4c3",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the capital of Australia?",
+  "tr": "Avustralya'nın başkenti neresidir?",
+  "accepted_en": [
+   "Canberra",
+   "Canbera",
+   "Canberrra",
+   "Canberra City",
+   "Kanberra",
+   "Canburra"
+  ],
+  "accepted_tr": [
+   "Canberra",
+   "Kanberra",
+   "Canbera",
+   "Kanbera",
+   "Canberra City",
+   "Canburra"
+  ]
+ },
+ {
+  "id": "ffe9c080-1f5b-4192-bc7b-2b4258c9d0e2",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What does QR stand for in \"QR code\"?",
+  "tr": "\"QR kod\"daki QR neyin kısaltmasıdır?",
+  "accepted_en": [
+   "Quick Response",
+   "Quick-Response",
+   "Quickresponse",
+   "Quick Response code"
+  ],
+  "accepted_tr": [
+   "Quick Response",
+   "Hızlı Yanıt",
+   "Quick-Response",
+   "Hızlı Cevap",
+   "Quickresponse"
+  ]
+ },
+ {
+  "id": "c38c6d5a-4784-49a4-8ec9-564ba0912926",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the capital of Canada?",
+  "tr": "Kanada'nın başkenti neresidir?",
+  "accepted_en": [
+   "Ottawa",
+   "Ottowa",
+   "Otawa",
+   "Ottava",
+   "Ottawa City",
+   "Ottowa City"
+  ],
+  "accepted_tr": [
+   "Ottawa",
+   "Ottowa",
+   "Otawa",
+   "Ottava",
+   "Ottawa şehri",
+   "Ottowa City"
+  ]
+ },
+ {
+  "id": "b9f40b61-c0e9-4172-ab62-a3c1c740f0c9",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What does GPS stand for?",
+  "tr": "GPS neyin kısaltmasıdır?",
+  "accepted_en": [
+   "Global Positioning System",
+   "Global Position System",
+   "Global Positioning"
+  ],
+  "accepted_tr": [
+   "Global Positioning System",
+   "Küresel Konumlama Sistemi",
+   "Küresel Konum Sistemi",
+   "Global Position System"
+  ]
+ },
+ {
+  "id": "e52435ce-d075-4980-b9ac-9dcf9d712df1",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "An Olympic \"gold\" medal is mostly made of which metal?",
+  "tr": "Olimpiyat \"altın\" madalyasının çoğu hangi metalden yapılır?",
+  "accepted_en": [
+   "Silver",
+   "Ag",
+   "Sterling silver",
+   "Silver metal",
+   "Silve",
+   "Plata"
+  ],
+  "accepted_tr": [
+   "Gümüş",
+   "Gumus",
+   "Silver",
+   "Ag",
+   "Gümüs",
+   "Plata"
+  ]
+ },
+ {
+  "id": "d45b83c7-fd0f-4522-b35f-567c66d4f42b",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the name of the galaxy we live in?",
+  "tr": "İçinde yaşadığımız galaksinin adı nedir?",
+  "accepted_en": [
+   "Milky Way",
+   "Milkyway",
+   "The Milky Way",
+   "Milky Way Galaxy",
+   "Galaxy Milky Way",
+   "Milky-Way"
+  ],
+  "accepted_tr": [
+   "Samanyolu",
+   "Saman yolu",
+   "Saman Yolu",
+   "Samanyolu Galaksisi",
+   "Milky Way",
+   "Samanyol"
+  ]
+ },
+ {
+  "id": "ec7a91a5-65a4-43e9-baf6-d3bd61ca9817",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the chemical formula for table salt?",
+  "tr": "Sofra tuzunun kimyasal formülü nedir?",
+  "accepted_en": [
+   "NaCl",
+   "Sodium chloride",
+   "Nacl",
+   "NACl",
+   "Sodium cloride"
+  ],
+  "accepted_tr": [
+   "NaCl",
+   "Sodyum klorür",
+   "Nacl",
+   "NACl",
+   "Sodyumklorür",
+   "Sodium chloride"
+  ]
+ },
+ {
+  "id": "ae92a4d9-9327-441e-95a0-22a22f1beebb",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the smallest country in the world?",
+  "tr": "Dünyanın en küçük ülkesi hangisi?",
+  "accepted_en": [
+   "Vatican",
+   "Vatican City",
+   "The Vatican",
+   "Vatikan",
+   "Holy See",
+   "Vatican city"
+  ],
+  "accepted_tr": [
+   "Vatikan",
+   "Vatikan City",
+   "Vatican",
+   "Vatican City",
+   "Kutsal Makam",
+   "Vatikan Devleti"
+  ]
+ },
+ {
+  "id": "47f1968f-3313-44f3-af0c-2a16d6840dcc",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the official language of Brazil?",
+  "tr": "Brezilya'nın resmi dili nedir?",
+  "accepted_en": [
+   "Portuguese",
+   "Portugese",
+   "Brazilian Portuguese",
+   "Portugués",
+   "Portugiese",
+   "Portuguese language"
+  ],
+  "accepted_tr": [
+   "Portekizce",
+   "Portekizce dili",
+   "Portuguese",
+   "Brezilya Portekizcesi",
+   "Portekiz dili",
+   "Portugese"
+  ]
+ },
+ {
+  "id": "a33b8db2-9aed-4a46-9a20-5aeb046044a9",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which dwarf planet was counted as the ninth planet until 2006?",
+  "tr": "2006'ya kadar dokuzuncu gezegen sayılan cüce gezegen hangisi?",
+  "accepted_en": [
+   "Pluto",
+   "Planet Pluto",
+   "Pluton",
+   "Plüton",
+   "Plutón",
+   "Dwarf planet Pluto"
+  ],
+  "accepted_tr": [
+   "Plüton",
+   "Pluto",
+   "Pluton",
+   "Plüton gezegeni",
+   "Plutón",
+   "Planet Pluto"
+  ]
+ },
+ {
+  "id": "ebe23394-c55a-452c-be4a-2f1c1655ec87",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which river flows through the city of London?",
+  "tr": "Londra'nın içinden geçen nehir hangisi?",
+  "accepted_en": [
+   "Thames",
+   "River Thames",
+   "The Thames",
+   "Tamesis",
+   "Thames river",
+   "River Tames"
+  ],
+  "accepted_tr": [
+   "Thames",
+   "Tamiz",
+   "Tamiz Nehri",
+   "Thames Nehri",
+   "River Thames",
+   "Támesis"
+  ]
+ },
+ {
+  "id": "e0497815-9994-4bb7-993f-733104d56ff6",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the Japanese art of folding paper called?",
+  "tr": "Kağıt katlama sanatının Japonca adı nedir?",
+  "accepted_en": [
+   "Origami",
+   "Origamı",
+   "Origamii",
+   "Paper origami",
+   "Japanese origami",
+   "Origame"
+  ],
+  "accepted_tr": [
+   "Origami",
+   "Origamı",
+   "Origami sanatı",
+   "Japanese origami",
+   "Origame",
+   "Origamii"
+  ]
+ },
+ {
+  "id": "9ad71b86-781c-4956-aa69-66af96050f05",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the capital of Turkey?",
+  "tr": "Türkiye'nin başkenti neresidir?",
+  "accepted_en": [
+   "Ankara",
+   "Ancara",
+   "Angora",
+   "Ankara City",
+   "Ankkara",
+   "Ankarra"
+  ],
+  "accepted_tr": [
+   "Ankara",
+   "Ankkara",
+   "Ankarra",
+   "Ankara şehri",
+   "Angora",
+   "Ancara"
+  ]
+ },
+ {
+  "id": "ff8385a7-6ae7-49da-9342-e89a326fe6b4",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the largest hot desert in the world?",
+  "tr": "Dünyanın en büyük sıcak çölü hangisi?",
+  "accepted_en": [
+   "Sahara",
+   "Sahara Desert",
+   "The Sahara",
+   "Sahra",
+   "Saharan Desert",
+   "Great Sahara"
+  ],
+  "accepted_tr": [
+   "Sahra",
+   "Büyük Sahra",
+   "Sahara",
+   "Sahara Çölü",
+   "Sahra Çölü",
+   "The Sahara"
+  ]
+ },
+ {
+  "id": "3af2ac67-f389-4632-9a31-b214cc29271d",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the largest ocean on Earth?",
+  "tr": "Dünyanın en büyük okyanusu hangisi?",
+  "accepted_en": [
+   "Pacific",
+   "Pacific Ocean",
+   "The Pacific",
+   "Pacifik",
+   "Pacific ocean",
+   "Pacyfic"
+  ],
+  "accepted_tr": [
+   "Pasifik",
+   "Pasifik Okyanusu",
+   "Pacific",
+   "Pacific Ocean",
+   "Büyük Okyanus",
+   "Pacifik"
+  ]
+ },
+ {
+  "id": "fa343599-9ecc-4caf-af1a-63e4de335e1f",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Who was the first human to travel into space?",
+  "tr": "Uzaya giden ilk insan kimdir?",
+  "accepted_en": [
+   "Yuri Gagarin",
+   "Gagarin",
+   "Yuri",
+   "Jurij Gagarin",
+   "Yury Gagarin",
+   "Gagarine"
+  ],
+  "accepted_tr": [
+   "Yuri Gagarin",
+   "Gagarin",
+   "Yuri",
+   "Juri Gagarin",
+   "Yury Gagarin",
+   "Gagarine"
+  ]
+ },
+ {
+  "id": "8a5538b6-5391-4ca2-9170-66ac0420f280",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "How many bits are there in one byte?",
+  "tr": "Bir byte kaç bitten oluşur?",
+  "accepted_en": [
+   "8",
+   "Eight",
+   "8 bits",
+   "Eight bits",
+   "8 bit",
+   "eight"
+  ],
+  "accepted_tr": [
+   "8",
+   "Sekiz",
+   "8 bit",
+   "Sekiz bit",
+   "Eight",
+   "8 bits"
+  ]
+ },
+ {
+  "id": "d2e6287e-ed49-4e42-be4f-dc35331190df",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many chambers does the human heart have?",
+  "tr": "İnsan kalbinde kaç odacık vardır?",
+  "answers_en": [
+   "2",
+   "3",
+   "4"
+  ],
+  "answers_tr": [
+   "2",
+   "3",
+   "4"
+  ],
+  "correct_answer": "4"
+ },
+ {
+  "id": "f1f0bbda-e76c-4f6e-81e8-32b84966cab7",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which planet is farthest from the Sun?",
+  "tr": "Güneş'e en uzak gezegen hangisi?",
+  "answers_en": [
+   "Saturn",
+   "Uranus",
+   "Neptune"
+  ],
+  "answers_tr": [
+   "Satürn",
+   "Uranüs",
+   "Neptün"
+  ],
+  "correct_answer": "Neptune"
+ },
+ {
+  "id": "e3dfd91a-47bd-46d6-90c8-2e49867eac21",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In Japan, which side of the road do people drive on?",
+  "tr": "Japonya'da trafikte hangi taraftan gidilir?",
+  "answers_en": [
+   "Left",
+   "Right",
+   "It depends on the city"
+  ],
+  "answers_tr": [
+   "Sol",
+   "Sağ",
+   "Şehre göre değişir"
+  ],
+  "correct_answer": "Left"
+ },
+ {
+  "id": "9f40989a-0762-40d3-903b-d4dea3240a03",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Sound travels fastest through which of these?",
+  "tr": "Ses bunlardan hangisinde en hızlı yayılır?",
+  "answers_en": [
+   "Air",
+   "Water",
+   "Steel"
+  ],
+  "answers_tr": [
+   "Hava",
+   "Su",
+   "Çelik"
+  ],
+  "correct_answer": "Steel"
+ },
+ {
+  "id": "dff24315-b611-4cfe-8d7f-20be40432141",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the first element on the periodic table?",
+  "tr": "Periyodik tablodaki ilk element hangisi?",
+  "answers_en": [
+   "Helium",
+   "Hydrogen",
+   "Carbon"
+  ],
+  "answers_tr": [
+   "Helyum",
+   "Hidrojen",
+   "Karbon"
+  ],
+  "correct_answer": "Hydrogen"
+ },
+ {
+  "id": "ea6d9d3d-2197-4db4-b60c-62bcb6447bd5",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many degrees are there in a triangle?",
+  "tr": "Bir üçgenin iç açıları toplamı kaç derecedir?",
+  "answers_en": [
+   "90",
+   "180",
+   "360"
+  ],
+  "answers_tr": [
+   "90",
+   "180",
+   "360"
+  ],
+  "correct_answer": "180"
+ },
+ {
+  "id": "1572c049-70cc-40f7-a2ca-6961b2ed1349",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "The Great Barrier Reef is off the coast of which country?",
+  "tr": "Büyük Set Resifi hangi ülkenin kıyısındadır?",
+  "answers_en": [
+   "Indonesia",
+   "Australia",
+   "New Zealand"
+  ],
+  "answers_tr": [
+   "Endonezya",
+   "Avustralya",
+   "Yeni Zelanda"
+  ],
+  "correct_answer": "Australia"
+ },
+ {
+  "id": "6500a604-8ff9-4f22-9e8f-7ecbba27e495",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many strings does a standard violin have?",
+  "tr": "Standart bir kemanda kaç tel vardır?",
+  "answers_en": [
+   "4",
+   "5",
+   "6"
+  ],
+  "answers_tr": [
+   "4",
+   "5",
+   "6"
+  ],
+  "correct_answer": "4"
+ },
+ {
+  "id": "9f810db5-4fdb-423e-abf2-3292b8b9edd9",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In the wild, penguins live around which pole?",
+  "tr": "Doğada penguenler hangi kutupta yaşar?",
+  "answers_en": [
+   "North Pole",
+   "South Pole",
+   "Both poles"
+  ],
+  "answers_tr": [
+   "Kuzey Kutbu",
+   "Güney Kutbu",
+   "İki kutupta da"
+  ],
+  "correct_answer": "South Pole"
+ },
+ {
+  "id": "ac7df825-f26e-45a2-ab65-51db4df6502f",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which of these countries does not use the euro?",
+  "tr": "Bu ülkelerden hangisi euro kullanmaz?",
+  "answers_en": [
+   "Spain",
+   "Italy",
+   "United Kingdom"
+  ],
+  "answers_tr": [
+   "İspanya",
+   "İtalya",
+   "Birleşik Krallık"
+  ],
+  "correct_answer": "United Kingdom"
+ },
+ {
+  "id": "9c91cd31-abbe-4fb9-9763-dda7a0f91054",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What does a light-year measure?",
+  "tr": "Işık yılı neyi ölçer?",
+  "answers_en": [
+   "Time",
+   "Distance",
+   "Speed"
+  ],
+  "answers_tr": [
+   "Zaman",
+   "Mesafe",
+   "Hız"
+  ],
+  "correct_answer": "Distance"
+ },
+ {
+  "id": "60aeb9a2-e94c-4393-82d8-853cc1806d3e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many zeros are there in one million?",
+  "tr": "Bir milyonda kaç sıfır vardır?",
+  "answers_en": [
+   "3",
+   "6",
+   "9"
+  ],
+  "answers_tr": [
+   "3",
+   "6",
+   "9"
+  ],
+  "correct_answer": "6"
+ },
+ {
+  "id": "1ed3a9a8-0ddd-47cf-9fdf-81494802742a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Diamonds are made of which element?",
+  "tr": "Elmas hangi elementten oluşur?",
+  "answers_en": [
+   "Iron",
+   "Carbon",
+   "Silicon"
+  ],
+  "answers_tr": [
+   "Demir",
+   "Karbon",
+   "Silikon"
+  ],
+  "correct_answer": "Carbon"
+ },
+ {
+  "id": "48ce5e69-8d9b-429c-b688-5df35d7a98f6",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which ocean is the Bermuda Triangle?",
+  "tr": "Bermuda Şeytan Üçgeni hangi okyanustadır?",
+  "answers_en": [
+   "Atlantic",
+   "Pacific",
+   "Indian"
+  ],
+  "answers_tr": [
+   "Atlas",
+   "Pasifik",
+   "Hint"
+  ],
+  "correct_answer": "Atlantic"
+ },
+ {
+  "id": "121f2786-e448-4d1a-8a19-3224285579fc",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Paper was first invented in which country?",
+  "tr": "Kâğıt ilk kez hangi ülkede icat edildi?",
+  "answers_en": [
+   "Egypt",
+   "China",
+   "Greece"
+  ],
+  "answers_tr": [
+   "Mısır",
+   "Çin",
+   "Yunanistan"
+  ],
+  "correct_answer": "China"
+ },
+ {
+  "id": "5e59546c-0d39-49e7-89de-59bddc720db9",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which of these animals is a mammal?",
+  "tr": "Bunlardan hangisi memelidir?",
+  "answers_en": [
+   "Shark",
+   "Dolphin",
+   "Crocodile"
+  ],
+  "answers_tr": [
+   "Köpekbalığı",
+   "Yunus",
+   "Timsah"
+  ],
+  "correct_answer": "Dolphin"
+ },
+ {
+  "id": "fae56cbe-9751-4315-889d-0738a1e46523",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many months of the year have 31 days?",
+  "tr": "Yılın kaç ayı 31 çeker?",
+  "answers_en": [
+   "5",
+   "7",
+   "8"
+  ],
+  "answers_tr": [
+   "5",
+   "7",
+   "8"
+  ],
+  "correct_answer": "7"
+ },
+ {
+  "id": "c2adfed9-80a9-4017-be0c-fa78e6c60d22",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "The city of Casablanca is in which country?",
+  "tr": "Kazablanka hangi ülkenin şehridir?",
+  "answers_en": [
+   "Spain",
+   "Morocco",
+   "Algeria"
+  ],
+  "answers_tr": [
+   "İspanya",
+   "Fas",
+   "Cezayir"
+  ],
+  "correct_answer": "Morocco"
+ },
+ {
+  "id": "3040e835-4830-4c50-ba4f-c21e473ca2de",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many stars are on the flag of the European Union?",
+  "tr": "Avrupa Birliği bayrağında kaç yıldız vardır?",
+  "answers_en": [
+   "12",
+   "15",
+   "27"
+  ],
+  "answers_tr": [
+   "12",
+   "15",
+   "27"
+  ],
+  "correct_answer": "12"
+ },
+ {
+  "id": "fdca625b-e0fb-4cff-a6a1-9fbf87b764a1",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country is larger by land area?",
+  "tr": "Yüzölçümü olarak hangisi daha büyüktür?",
+  "answers_en": [
+   "Canada",
+   "United States"
+  ],
+  "answers_tr": [
+   "Kanada",
+   "ABD"
+  ],
+  "correct_answer": "Canada"
+ },
+ {
+  "id": "da747a22-25c3-40fb-a01a-d6a8b8c9078d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who has more bones, a baby or an adult?",
+  "tr": "Hangisinin daha çok kemiği vardır, bebeğin mi yetişkinin mi?",
+  "answers_en": [
+   "A baby",
+   "An adult"
+  ],
+  "answers_tr": [
+   "Bebek",
+   "Yetişkin"
+  ],
+  "correct_answer": "A baby"
+ },
+ {
+  "id": "eb0f96be-4bb7-47cb-8149-8802bd503ac5",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Is glass a liquid or a solid?",
+  "tr": "Cam sıvı mıdır, katı mıdır?",
+  "answers_en": [
+   "Liquid",
+   "Solid"
+  ],
+  "answers_tr": [
+   "Sıvı",
+   "Katı"
+  ],
+  "correct_answer": "Solid"
+ },
+ {
+  "id": "65c04a62-0c2e-4482-922d-d4174cefdb30",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "During a storm, which reaches you first?",
+  "tr": "Fırtınada hangisi sana önce ulaşır?",
+  "answers_en": [
+   "Lightning",
+   "Thunder"
+  ],
+  "answers_tr": [
+   "Şimşek",
+   "Gök gürültüsü"
+  ],
+  "correct_answer": "Lightning"
+ },
+ {
+  "id": "f8ffdcfd-cc69-4f84-b259-47b5d33b2203",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which is denser, water or oil?",
+  "tr": "Hangisi daha yoğundur, su mu yağ mı?",
+  "answers_en": [
+   "Water",
+   "Oil"
+  ],
+  "answers_tr": [
+   "Su",
+   "Yağ"
+  ],
+  "correct_answer": "Water"
+ },
+ {
+  "id": "5aef0691-be25-44b1-a148-b2b2bc673aca",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which company was founded first?",
+  "tr": "Hangisi daha önce kuruldu?",
+  "answers_en": [
+   "Google",
+   "Facebook"
+  ],
+  "answers_tr": [
+   "Google",
+   "Facebook"
+  ],
+  "correct_answer": "Google"
+ },
+ {
+  "id": "624f394a-6a99-474b-80ee-a0ecaaf71403",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which is larger by land area, Greenland or Africa?",
+  "tr": "Yüzölçümü olarak hangisi daha büyüktür, Grönland mı Afrika mı?",
+  "answers_en": [
+   "Greenland",
+   "Africa"
+  ],
+  "answers_tr": [
+   "Grönland",
+   "Afrika"
+  ],
+  "correct_answer": "Africa"
+ },
+ {
+  "id": "6fe00fe8-2109-4c1e-beae-07ba77a12da0",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which planet has more moons, Earth or Mars?",
+  "tr": "Hangisinin daha çok uydusu vardır, Dünya'nın mı Mars'ın mı?",
+  "answers_en": [
+   "Earth",
+   "Mars"
+  ],
+  "answers_tr": [
+   "Dünya",
+   "Mars"
+  ],
+  "correct_answer": "Mars"
+ },
+ {
+  "id": "97985581-9569-4731-b79e-f357f42c3689",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Botanically, which is a berry, a banana or a strawberry?",
+  "tr": "Aslında hangisi üzümsü bir meyvedir, muz mu çilek mi?",
+  "answers_en": [
+   "Banana",
+   "Strawberry"
+  ],
+  "answers_tr": [
+   "Muz",
+   "Çilek"
+  ],
+  "correct_answer": "Banana"
+ },
+ {
+  "id": "9d9765b1-cb21-4b66-a6ca-cca64bb8ea46",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which is a legume, a peanut or an almond?",
+  "tr": "Hangisi baklagildir, yer fıstığı mı badem mi?",
+  "answers_en": [
+   "Peanut",
+   "Almond"
+  ],
+  "answers_tr": [
+   "Yer fıstığı",
+   "Badem"
+  ],
+  "correct_answer": "Peanut"
+ },
+ {
+  "id": "a5c6fa97-91c7-43b3-97b9-37b7498e06d6",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which usually has more vitamin C, kiwi or orange?",
+  "tr": "Hangisinde genelde daha çok C vitamini vardır, kivi mi portakal mı?",
+  "answers_en": [
+   "Kiwi",
+   "Orange"
+  ],
+  "answers_tr": [
+   "Kivi",
+   "Portakal"
+  ],
+  "correct_answer": "Kiwi"
+ },
+ {
+  "id": "911db8b1-a5fb-4bc6-8f22-39c829ee4bf0",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which typically has more caffeine, a cup of filter coffee or a shot of espresso?",
+  "tr": "Hangisinde genelde daha çok kafein vardır, bir fincan filtre kahve mi yoksa bir shot espresso mu?",
+  "answers_en": [
+   "Filter coffee",
+   "Espresso"
+  ],
+  "answers_tr": [
+   "Filtre kahve",
+   "Espresso"
+  ],
+  "correct_answer": "Filter coffee"
+ },
+ {
+  "id": "b9fed908-5c2b-4e3c-9f81-e2bbb76fa222",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which usually has more sugar per 100 grams, ketchup or mayonnaise?",
+  "tr": "100 gramında hangisinde genelde daha çok şeker vardır, ketçap mı mayonez mi?",
+  "answers_en": [
+   "Ketchup",
+   "Mayonnaise"
+  ],
+  "answers_tr": [
+   "Ketçap",
+   "Mayonez"
+  ],
+  "correct_answer": "Ketchup"
+ },
+ {
+  "id": "7d0a4ab1-2bd1-4107-8bc0-533ca5e9231a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which human lung is larger, the left or the right?",
+  "tr": "Hangisi daha büyüktür, sol akciğer mi sağ akciğer mi?",
+  "answers_en": [
+   "Right",
+   "Left"
+  ],
+  "answers_tr": [
+   "Sağ",
+   "Sol"
+  ],
+  "correct_answer": "Right"
+ },
+ {
+  "id": "01bfe40c-64f0-4f45-9c33-7c07641eeda8",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which is longer, the small intestine or the large intestine?",
+  "tr": "Hangisi daha uzundur, ince bağırsak mı kalın bağırsak mı?",
+  "answers_en": [
+   "Small intestine",
+   "Large intestine"
+  ],
+  "answers_tr": [
+   "İnce bağırsak",
+   "Kalın bağırsak"
+  ],
+  "correct_answer": "Small intestine"
+ },
+ {
+  "id": "9c933e05-76a7-4482-94f0-be96468d643b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which has more bones, one hand or one foot?",
+  "tr": "Hangisinde daha çok kemik vardır, bir elde mi bir ayakta mı?",
+  "answers_en": [
+   "A hand",
+   "A foot"
+  ],
+  "answers_tr": [
+   "Bir el",
+   "Bir ayak"
+  ],
+  "correct_answer": "A hand"
+ },
+ {
+  "id": "55fc8963-d395-469d-b4be-f913970cc16b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who usually has more taste buds, children or adults?",
+  "tr": "Hangisinde genelde daha çok tat tomurcuğu vardır, çocuklarda mı yetişkinlerde mi?",
+  "answers_en": [
+   "Children",
+   "Adults"
+  ],
+  "answers_tr": [
+   "Çocuklar",
+   "Yetişkinler"
+  ],
+  "correct_answer": "Children"
+ },
+ {
+  "id": "f6fd11c9-bc21-4a2d-bff8-e62ca18740aa",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which typically weighs more, the liver or the brain?",
+  "tr": "Hangisi genelde daha ağırdır, karaciğer mi beyin mi?",
+  "answers_en": [
+   "Liver",
+   "Brain"
+  ],
+  "answers_tr": [
+   "Karaciğer",
+   "Beyin"
+  ],
+  "correct_answer": "Liver"
+ },
+ {
+  "id": "209614d8-bca7-4d9f-8b4b-b29ad0b18830",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who was the first emperor of Rome?",
+  "tr": "Roma'nın ilk imparatoru kimdir?",
+  "answers_en": [
+   "Julius Caesar",
+   "Augustus",
+   "Nero",
+   "Caligula"
+  ],
+  "answers_tr": [
+   "Jül Sezar",
+   "Augustus",
+   "Neron",
+   "Caligula"
+  ],
+  "correct_answer": "Augustus"
+ },
+ {
+  "id": "e6cf06c1-9514-4042-997c-c659b797f601",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who painted \"The Persistence of Memory\", the one with the melting clocks?",
+  "tr": "Eriyen saatleriyle ünlü \"Belleğin Azmi\" tablosunu kim yaptı?",
+  "answers_en": [
+   "Salvador Dalí",
+   "René Magritte",
+   "Pablo Picasso",
+   "Joan Miró"
+  ],
+  "answers_tr": [
+   "Salvador Dalí",
+   "René Magritte",
+   "Pablo Picasso",
+   "Joan Miró"
+  ],
+  "correct_answer": "Salvador Dalí"
+ },
+ {
+  "id": "60dfd00d-8067-4c8d-b52c-0b3e1f9bf0f0",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Is the Great Wall of China visible from space with the naked eye?",
+  "tr": "Çin Seddi uzaydan çıplak gözle görülebilir mi?",
+  "correct_answer": "no"
+ },
+ {
+  "id": "2c709cf4-0a0f-4ef3-bd4f-de83fc51e4cf",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which ocean did the Titanic sink?",
+  "tr": "Titanik hangi okyanusta battı?",
+  "answers_en": [
+   "Atlantic Ocean",
+   "Pacific Ocean",
+   "Indian Ocean",
+   "Arctic Ocean"
+  ],
+  "answers_tr": [
+   "Atlas Okyanusu",
+   "Pasifik Okyanusu",
+   "Hint Okyanusu",
+   "Arktik Okyanusu"
+  ],
+  "correct_answer": "Atlantic Ocean"
+ },
+ {
+  "id": "fa657f5a-654d-4391-afb9-0ea101840f39",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the capital of Japan?",
+  "tr": "Japonya'nın başkenti neresidir?",
+  "accepted_en": [
+   "Tokyo",
+   "Tokio"
+  ],
+  "accepted_tr": [
+   "Tokyo",
+   "Tōkyō",
+   "Tokio"
+  ]
+ },
+ {
+  "id": "1e0f26a6-8a22-4320-9d1d-d5d8a480ebab",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Do goldfish only remember things for about 3 seconds?",
+  "tr": "Japon balıkları sadece yaklaşık 3 saniye mi hatırlar?",
+  "correct_answer": "no"
+ },
+ {
+  "id": "fb406859-589a-403d-ab11-e30998090d0e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who wrote \"Romeo and Juliet\"?",
+  "tr": "\"Romeo ve Juliet\"i kim yazdı?",
+  "answers_en": [
+   "William Shakespeare",
+   "Charles Dickens",
+   "Jane Austen",
+   "Mark Twain"
+  ],
+  "answers_tr": [
+   "William Shakespeare",
+   "Charles Dickens",
+   "Jane Austen",
+   "Mark Twain"
+  ],
+  "correct_answer": "William Shakespeare"
+ },
+ {
+  "id": "3edf5bc0-268b-4eb6-823b-d4fa8ad14cea",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "In which museum is the Mona Lisa displayed?",
+  "tr": "Mona Lisa hangi müzede sergileniyor?",
+  "accepted_en": [
+   "Louvre",
+   "The Louvre",
+   "Louvre Museum"
+  ],
+  "accepted_tr": [
+   "Louvre",
+   "Louvre Müzesi",
+   "The Louvre"
+  ]
+ },
+ {
+  "id": "115767b5-2e17-4e51-a1fc-e14006de9a50",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which planet is famous for its rings?",
+  "tr": "Halkalarıyla ünlü gezegen hangisidir?",
+  "answers_en": [
+   "Jupiter",
+   "Saturn",
+   "Uranus",
+   "Neptune"
+  ],
+  "answers_tr": [
+   "Jüpiter",
+   "Satürn",
+   "Uranüs",
+   "Neptün"
+  ],
+  "correct_answer": "Saturn"
+ },
+ {
+  "id": "81840a32-f4f6-4e8e-bc44-8f33b631c57e",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the capital of Spain?",
+  "tr": "İspanya'nın başkenti neresidir?",
+  "accepted_en": [
+   "Madrid"
+  ],
+  "accepted_tr": [
+   "Madrid"
+  ]
+ },
+ {
+  "id": "95ee923b-56f9-4b3a-97a4-88fbd7c33633",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Did dinosaurs and humans live at the same time?",
+  "tr": "Dinozorlar ve insanlar aynı dönemde mi yaşadı?",
+  "correct_answer": "no"
+ },
+ {
+  "id": "4fe95b65-a522-486a-9765-2125d2041fed",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who wrote the Harry Potter books?",
+  "tr": "Harry Potter kitaplarını kim yazdı?",
+  "answers_en": [
+   "J.K. Rowling",
+   "Stephen King",
+   "J.R.R. Tolkien",
+   "George R.R. Martin"
+  ],
+  "answers_tr": [
+   "J.K. Rowling",
+   "Stephen King",
+   "J.R.R. Tolkien",
+   "George R.R. Martin"
+  ],
+  "correct_answer": "J.K. Rowling"
+ },
+ {
+  "id": "56734855-e0f8-4feb-b09e-8cda4b5bccb2",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "In which city is the Colosseum located?",
+  "tr": "Kolezyum hangi şehirdedir?",
+  "accepted_en": [
+   "Rome",
+   "Roma"
+  ],
+  "accepted_tr": [
+   "Roma",
+   "Rome"
+  ]
+ },
+ {
+  "id": "97e56b29-8c4e-4811-9a96-d4780db72a6f",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the highest mountain on Earth?",
+  "tr": "Dünyanın en yüksek dağı hangisidir?",
+  "answers_en": [
+   "K2",
+   "Mount Everest",
+   "Mont Blanc",
+   "Kilimanjaro"
+  ],
+  "answers_tr": [
+   "K2",
+   "Everest Dağı",
+   "Mont Blanc",
+   "Kilimanjaro"
+  ],
+  "correct_answer": "Mount Everest"
+ },
+ {
+  "id": "df443533-1f18-4cd4-8be3-7266e19e502b",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the capital of Egypt?",
+  "tr": "Mısır'ın başkenti neresidir?",
+  "accepted_en": [
+   "Cairo",
+   "Al Cairo"
+  ],
+  "accepted_tr": [
+   "Kahire",
+   "Cairo"
+  ]
+ },
+ {
+  "id": "0cae65d9-df38-40fb-8816-29d3c48f6bde",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who discovered penicillin?",
+  "tr": "Penisilini kim keşfetti?",
+  "answers_en": [
+   "Louis Pasteur",
+   "Marie Curie",
+   "Alexander Fleming",
+   "Isaac Newton"
+  ],
+  "answers_tr": [
+   "Louis Pasteur",
+   "Marie Curie",
+   "Alexander Fleming",
+   "Isaac Newton"
+  ],
+  "correct_answer": "Alexander Fleming"
+ },
+ {
+  "id": "8384d067-1ad2-496f-a48c-807812a3c2b9",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the longest river in the world?",
+  "tr": "Dünyanın en uzun nehri hangisidir?",
+  "accepted_en": [
+   "Nile",
+   "The Nile",
+   "Nile River"
+  ],
+  "accepted_tr": [
+   "Nil",
+   "Nil Nehri",
+   "Nile"
+  ]
+ },
+ {
+  "id": "6a592f5c-8b25-475c-9d71-2ff6077b9fac",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is pi rounded to two decimal places?",
+  "tr": "Pi sayısı virgülden sonra iki basamağa yuvarlanınca kaçtır?",
+  "accepted_en": [
+   "3.14",
+   "3,14"
+  ],
+  "accepted_tr": [
+   "3,14",
+   "3.14"
+  ]
+ },
+ {
+  "id": "db75cabc-fd6e-4e8a-abce-64acc6fff9ca",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many sides does a hexagon have?",
+  "tr": "Altıgenin kaç kenarı vardır?",
+  "answers_en": [
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "answers_tr": [
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "correct_answer": "6"
+ },
+ {
+  "id": "ee189263-18ae-49be-91d0-bb89a04fb19c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Is the number 1 a prime number?",
+  "tr": "1 sayısı asal sayı mıdır?",
+  "correct_answer": "no"
+ },
+ {
+  "id": "d7c78439-2540-42e6-a32a-dfaaf448ca91",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "How many degrees are in a full circle?",
+  "tr": "Tam bir çemberde kaç derece vardır?",
+  "accepted_en": [
+   "360",
+   "360 degrees"
+  ],
+  "accepted_tr": [
+   "360",
+   "360 derece"
+  ]
+ },
+ {
+  "id": "d50e1086-861b-4696-acd0-61fdcffefd7d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In Roman numerals, what does the letter C stand for?",
+  "tr": "Roma rakamlarında C harfi kaçtır?",
+  "answers_en": [
+   "50",
+   "100",
+   "500",
+   "1000"
+  ],
+  "answers_tr": [
+   "50",
+   "100",
+   "500",
+   "1000"
+  ],
+  "correct_answer": "100"
+ },
+ {
+  "id": "00daed8e-7efd-41f2-9dec-1fc232d9b404",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "How many sides does a square have?",
+  "tr": "Bir karenin kaç kenarı vardır?",
+  "accepted_en": [
+   "4",
+   "four"
+  ],
+  "accepted_tr": [
+   "4",
+   "dört"
+  ]
+ },
+ {
+  "id": "6083bedd-91e1-4dae-b88b-b3c1ea414c86",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In Roman numerals, what does the letter L stand for?",
+  "tr": "Roma rakamlarında L harfi kaçtır?",
+  "answers_en": [
+   "10",
+   "50",
+   "100",
+   "500"
+  ],
+  "answers_tr": [
+   "10",
+   "50",
+   "100",
+   "500"
+  ],
+  "correct_answer": "50"
+ },
+ {
+  "id": "6544f943-74a8-4af1-ada0-7918afd2ba48",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Is an even number always divisible by 2?",
+  "tr": "Çift sayı her zaman 2'ye bölünebilir mi?",
+  "correct_answer": "yes"
+ },
+ {
+  "id": "684014cd-2a78-4875-b42a-11e52aab9973",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the square root of 81?",
+  "tr": "81'in karekökü kaçtır?",
+  "accepted_en": [
+   "9",
+   "nine"
+  ],
+  "accepted_tr": [
+   "9",
+   "dokuz"
+  ]
+ },
+ {
+  "id": "2ecb74e8-9d5f-45fe-845c-a72ae870708f",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many faces does a cube have?",
+  "tr": "Bir küpün kaç yüzü vardır?",
+  "answers_en": [
+   "4",
+   "6",
+   "8",
+   "12"
+  ],
+  "answers_tr": [
+   "4",
+   "6",
+   "8",
+   "12"
+  ],
+  "correct_answer": "6"
+ },
+ {
+  "id": "b4dcad8a-8d18-4225-8400-c98a2189ebea",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What did Nintendo make when it was founded in 1889?",
+  "tr": "Nintendo 1889'da kurulduğunda ne üretiyordu?",
+  "answers_en": [
+   "Playing cards",
+   "Wooden toys",
+   "Radios",
+   "Bicycles"
+  ],
+  "answers_tr": [
+   "Oyun kâğıdı",
+   "Ahşap oyuncak",
+   "Radyo",
+   "Bisiklet"
+  ],
+  "correct_answer": "Playing cards"
+ },
+ {
+  "id": "78aab024-3668-491d-bb40-e86b89b38a5d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Before sports cars, what did Lamborghini make?",
+  "tr": "Lamborghini spor arabalardan önce ne üretiyordu?",
+  "answers_en": [
+   "Tractors",
+   "Motorcycles",
+   "Airplanes",
+   "Boats"
+  ],
+  "answers_tr": [
+   "Traktör",
+   "Motosiklet",
+   "Uçak",
+   "Tekne"
+  ],
+  "correct_answer": "Tractors"
+ },
+ {
+  "id": "f74e6644-27e8-4c97-a7c9-54c3cab21631",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What was the only thing Amazon sold when it started?",
+  "tr": "Amazon ilk kurulduğunda sadece ne satıyordu?",
+  "accepted_en": [
+   "Books",
+   "Book"
+  ],
+  "accepted_tr": [
+   "Kitap",
+   "Kitaplar"
+  ]
+ },
+ {
+  "id": "2c638edc-94ba-4eb2-bcfc-94779768b590",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What did Nokia produce when it was founded in 1865?",
+  "tr": "Nokia 1865'te kurulduğunda ne üretiyordu?",
+  "answers_en": [
+   "Paper",
+   "Rubber boots",
+   "Telegraph cables",
+   "Matches"
+  ],
+  "answers_tr": [
+   "Kâğıt",
+   "Lastik çizme",
+   "Telgraf kablosu",
+   "Kibrit"
+  ],
+  "correct_answer": "Paper"
+ },
+ {
+  "id": "1871c4e9-5c22-4c35-a1bc-dd4474c34c49",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What was Play-Doh originally sold as?",
+  "tr": "Oyun hamuru Play-Doh ilk olarak ne amaçla satılıyordu?",
+  "answers_en": [
+   "Wallpaper cleaner",
+   "Bread dough",
+   "Toothpaste",
+   "Glue"
+  ],
+  "answers_tr": [
+   "Duvar kâğıdı temizleyici",
+   "Ekmek hamuru",
+   "Diş macunu",
+   "Yapıştırıcı"
+  ],
+  "correct_answer": "Wallpaper cleaner"
+ },
+ {
+  "id": "be971a7f-47fd-4d42-b10a-daebbb510af3",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What was Pepsi originally called?",
+  "tr": "Pepsi'nin ilk adı neydi?",
+  "answers_en": [
+   "Brad's Drink",
+   "Pep Cola",
+   "Kola Fizz",
+   "Bob's Soda"
+  ],
+  "answers_tr": [
+   "Brad's Drink",
+   "Pep Cola",
+   "Kola Fizz",
+   "Bob's Soda"
+  ],
+  "correct_answer": "Brad's Drink"
+ },
+ {
+  "id": "69f23dbc-2583-479b-9359-07a59e7f59f6",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What was Instagram called before it was renamed?",
+  "tr": "Instagram'ın adı değişmeden önce neydi?",
+  "answers_en": [
+   "Burbn",
+   "Snapshot",
+   "InstaPic",
+   "Photogram"
+  ],
+  "answers_tr": [
+   "Burbn",
+   "Snapshot",
+   "InstaPic",
+   "Photogram"
+  ],
+  "correct_answer": "Burbn"
+ },
+ {
+  "id": "ead10aaa-9567-4ab3-a87a-cdec913928be",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which company started out renting DVDs by mail?",
+  "tr": "Hangi şirket postayla DVD kiralayarak işe başladı?",
+  "answers_en": [
+   "Netflix",
+   "YouTube",
+   "Spotify",
+   "Hulu"
+  ],
+  "answers_tr": [
+   "Netflix",
+   "YouTube",
+   "Spotify",
+   "Hulu"
+  ],
+  "correct_answer": "Netflix"
+ },
+ {
+  "id": "521b3e39-b5c1-43b2-8cde-ab8d9def7961",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What did Toyota make before it built cars?",
+  "tr": "Toyota araba üretmeden önce ne üretiyordu?",
+  "answers_en": [
+   "Weaving looms",
+   "Sewing machines",
+   "Bicycles",
+   "Rice cookers"
+  ],
+  "answers_tr": [
+   "Dokuma tezgâhı",
+   "Dikiş makinesi",
+   "Bisiklet",
+   "Pirinç pişirici"
+  ],
+  "correct_answer": "Weaving looms"
+ },
+ {
+  "id": "71fc7269-4aed-472e-bd79-e0d84c749902",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Before the 1600s, cultivated carrots were mostly which color?",
+  "tr": "1600'lerden önce yetiştirilen havuçlar çoğunlukla ne renkti?",
+  "answers_en": [
+   "Purple",
+   "Orange",
+   "Green",
+   "Red"
+  ],
+  "answers_tr": [
+   "Mor",
+   "Turuncu",
+   "Yeşil",
+   "Kırmızı"
+  ],
+  "correct_answer": "Purple"
+ },
+ {
+  "id": "d3b894cc-8844-4ffe-a1d0-e1e2eaf581f7",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which country was the Caesar salad invented?",
+  "tr": "Sezar salata hangi ülkede icat edildi?",
+  "answers_en": [
+   "Mexico",
+   "Italy",
+   "United States",
+   "France"
+  ],
+  "answers_tr": [
+   "Meksika",
+   "İtalya",
+   "ABD",
+   "Fransa"
+  ],
+  "correct_answer": "Mexico"
+ },
+ {
+  "id": "59002bd4-f891-4b1f-aa72-db3cc3ed0898",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which country was the pineapple-topped \"Hawaiian\" pizza invented?",
+  "tr": "Ananaslı \"Hawaii\" pizzası hangi ülkede icat edildi?",
+  "answers_en": [
+   "Canada",
+   "United States",
+   "Italy",
+   "Australia"
+  ],
+  "answers_tr": [
+   "Kanada",
+   "ABD",
+   "İtalya",
+   "Avustralya"
+  ],
+  "correct_answer": "Canada"
+ },
+ {
+  "id": "d806f810-b198-47b8-a3d0-7d981c8e7472",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What gives flamingos their pink color?",
+  "tr": "Flamingolara pembe rengini veren nedir?",
+  "answers_en": [
+   "The food they eat",
+   "Sunlight",
+   "Their genes",
+   "Mud baths"
+  ],
+  "answers_tr": [
+   "Yedikleri besinler",
+   "Güneş ışığı",
+   "Genleri",
+   "Çamur banyoları"
+  ],
+  "correct_answer": "The food they eat"
+ },
+ {
+  "id": "44510aab-e8ee-4cce-a85b-024ce43e245c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Koalas have fingerprints almost identical to which species?",
+  "tr": "Koalaların parmak izleri hangi canlınınkiyle neredeyse aynıdır?",
+  "answers_en": [
+   "Humans",
+   "Chimpanzees",
+   "Bears",
+   "Dogs"
+  ],
+  "answers_tr": [
+   "İnsanlar",
+   "Şempanzeler",
+   "Ayılar",
+   "Köpekler"
+  ],
+  "correct_answer": "Humans"
+ },
+ {
+  "id": "c1baf44d-dffd-4222-b3d4-d0146ad53d91",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which is the only mammal capable of true flight?",
+  "tr": "Gerçek anlamda uçabilen tek memeli hangisidir?",
+  "answers_en": [
+   "Bat",
+   "Flying squirrel",
+   "Sugar glider",
+   "Flying fish"
+  ],
+  "answers_tr": [
+   "Yarasa",
+   "Uçan sincap",
+   "Şeker planörü",
+   "Uçan balık"
+  ],
+  "correct_answer": "Bat"
+ },
+ {
+  "id": "ede0c210-18c9-4486-9424-f3e08df6da06",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which bird can fly backwards?",
+  "tr": "Geriye doğru uçabilen kuş hangisidir?",
+  "answers_en": [
+   "Hummingbird",
+   "Eagle",
+   "Owl",
+   "Swallow"
+  ],
+  "answers_tr": [
+   "Sinek kuşu",
+   "Kartal",
+   "Baykuş",
+   "Kırlangıç"
+  ],
+  "correct_answer": "Hummingbird"
+ },
+ {
+  "id": "7079992a-57a9-43fe-8131-82bbabc9398a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Where is a shrimp's heart located?",
+  "tr": "Karidesin kalbi vücudunun neresindedir?",
+  "answers_en": [
+   "In its head",
+   "In its tail",
+   "In its legs",
+   "In its belly"
+  ],
+  "answers_tr": [
+   "Başında",
+   "Kuyruğunda",
+   "Bacaklarında",
+   "Karnında"
+  ],
+  "correct_answer": "In its head"
+ },
+ {
+  "id": "0e4b81de-abde-46a1-869f-09703692357c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many compartments does a cow's stomach have?",
+  "tr": "Bir ineğin midesi kaç bölümden oluşur?",
+  "answers_en": [
+   "4",
+   "1",
+   "2",
+   "6"
+  ],
+  "answers_tr": [
+   "4",
+   "1",
+   "2",
+   "6"
+  ],
+  "correct_answer": "4"
+ },
+ {
+  "id": "db5641b6-8b6f-44ea-8949-08a4ccbedf59",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which land animal has the longest pregnancy, nearly two years?",
+  "tr": "Neredeyse iki yıl süren, en uzun gebeliğe sahip kara hayvanı hangisidir?",
+  "answers_en": [
+   "Elephant",
+   "Giraffe",
+   "Rhinoceros",
+   "Camel"
+  ],
+  "answers_tr": [
+   "Fil",
+   "Zürafa",
+   "Gergedan",
+   "Deve"
+  ],
+  "correct_answer": "Elephant"
+ },
+ {
+  "id": "d7896c20-fc9f-41c3-a5a7-f8d5ba468f8d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many eyes does a honeybee have?",
+  "tr": "Bir bal arısının kaç gözü vardır?",
+  "answers_en": [
+   "5",
+   "2",
+   "4",
+   "8"
+  ],
+  "answers_tr": [
+   "5",
+   "2",
+   "4",
+   "8"
+  ],
+  "correct_answer": "5"
+ }
+]

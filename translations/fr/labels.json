@@ -1,0 +1,142 @@
+{
+  "categories": {
+    "just_friends": {
+      "category": "Juste entre potes",
+      "short": "Potes"
+    },
+    "we_just_met": {
+      "category": "On vient de se rencontrer",
+      "short": "Rencontre"
+    },
+    "deep_talk": {
+      "category": "Discussions profondes"
+    },
+    "long_term": {
+      "category": "Couple de longue date",
+      "short": "Longue date"
+    },
+    "future_talk": {
+      "category": "Projets d'avenir"
+    },
+    "spicy": {
+      "category": "Intimité & connexion",
+      "short": "Intimité"
+    },
+    "know_me_well": {
+      "category": "Tu me connais bien ?",
+      "short": "Tu me connais ?"
+    },
+    "know_me_well_hard": {
+      "category": "Tu me connais bien ?"
+    },
+    "know_me_well_intimacy": {
+      "category": "Tu me connais bien ?"
+    },
+    "trivia_master": {
+      "category": "Culture générale",
+      "short": "Quiz"
+    },
+    "mastermind": {
+      "category": "Le Cerveau",
+      "short": "Cerveau"
+    },
+    "who_is_more_likely": {
+      "category": "Qui de vous deux ?",
+      "short": "Qui des deux ?"
+    },
+    "who_is_more_likely_intimacy": {
+      "category": "Qui de vous deux ?",
+      "short": "Qui des deux ?"
+    },
+    "rank_it": {
+      "category": "Classe-les",
+      "short": "Classe-les"
+    },
+    "rank_it_intimacy": {
+      "category": "Classe-les",
+      "short": "Classe-les"
+    },
+    "two_truths": {
+      "category": "Deux vérités, un mensonge",
+      "short": "Vrai ou faux ?"
+    },
+    "daily_analysis": {
+      "category": "Analyse du jour",
+      "short": "Analyse"
+    },
+    "daily_love_language": {
+      "category": "Votre façon d'aimer",
+      "short": "Amour"
+    },
+    "daily_conflict": {
+      "category": "Quand vous n'êtes pas d'accord",
+      "short": "Désaccords"
+    },
+    "daily_everyday_life": {
+      "category": "Votre quotidien",
+      "short": "Quotidien"
+    },
+    "daily_trust_jealousy": {
+      "category": "Confiance & jalousie",
+      "short": "Confiance"
+    },
+    "daily_future": {
+      "category": "Votre avenir",
+      "short": "Avenir"
+    },
+    "daily_money": {
+      "category": "Argent & dépenses",
+      "short": "Argent"
+    },
+    "daily_family_friends": {
+      "category": "Famille & amis",
+      "short": "Famille"
+    },
+    "daily_intimacy": {
+      "category": "Proximité & intimité",
+      "short": "Intimité"
+    }
+  },
+  "category_groups": {
+    "see_your_match": {
+      "category": "Répondez et testez votre compatibilité"
+    },
+    "know_each_other": {
+      "category": "Vous vous connaissez bien ?"
+    },
+    "who_knows_better": {
+      "category": "Qui en sait le plus ?"
+    },
+    "who_is_more_likely": {
+      "category": "Qui est le plus susceptible de…"
+    },
+    "rank_it": {
+      "category": "Classe-les"
+    },
+    "daily_analysis": {
+      "category": "Analyse du jour"
+    },
+    "two_truths": {
+      "category": "Deux vérités, un mensonge"
+    }
+  },
+  "game_reactions": {
+    "love": "Amour",
+    "laugh": "Mdr",
+    "kiss": "Bisou",
+    "angry": "Grr",
+    "eye_roll": "Yeux au ciel",
+    "fire": "En feu",
+    "shy": "Gêne"
+  },
+  "announcements": {
+    "f84bf4da-77b8-4f6f-96e6-beff58570ea5": {
+      "title": "Nouveau mode : 2 vérités, 1 mensonge !",
+      "message": "Écris 2 vérités et 1 mensonge sur toi, puis essaie de repérer le mensonge de ta moitié. Qui connaît le mieux l'autre, et qui ment le mieux ? 😏"
+    },
+    "05fc8cad-2351-4fe1-b4b7-6592386fc900": {
+      "title": "Nouveau mode : Classe-les !",
+      "message": "Classe les options de la première à la dernière, puis découvre à quel point ton classement ressemble à celui de ta moitié. Essaie Classe-les, ou va plus loin avec Classe-les (Intimité)."
+    }
+  }
+}

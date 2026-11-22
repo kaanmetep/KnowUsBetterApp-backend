@@ -300,11 +300,11 @@
     "text": "Você já se apaixonou por alguém por quem não devia?"
   },
   "c141b0f8-c822-4fda-b966-2d0bfccab391": {
-    "en": "Would you want to know everything about your partner’s past or only the necessary parts?",
-    "text": "Você gostaria de saber tudo sobre o passado do seu amor ou só o necessário?",
+    "en": "Would you rather your partner discover your flaws early on or bit by bit?",
+    "text": "Você prefere que seu amor conheça seus defeitos logo de cara ou aos poucos?",
     "answers": [
-      "Tudo",
-      "Só o necessário"
+      "Logo de cara",
+      "Aos poucos"
     ]
   },
   "60fa63d8-776a-4cf9-91fa-806954a2c37c": {
@@ -416,8 +416,8 @@
     "text": "O homem deve dar o primeiro passo?"
   },
   "e8dd11c5-218b-4d77-a137-0444c87fff31": {
-    "en": "If your partner looked a lot like their previous partner, would it bother you?",
-    "text": "Se seu amor se parecesse muito com alguém que já namorou, isso incomodaria você?"
+    "en": "If you looked a lot like your partner's ex, would it bother you?",
+    "text": "Te incomodaria se parecer muito com alguém que seu amor já namorou?"
   },
   "69535b7c-b94c-4ebc-95b0-5fa46b811906": {
     "en": "If your partner wanted to read your messages with your friend group, would you let them?",

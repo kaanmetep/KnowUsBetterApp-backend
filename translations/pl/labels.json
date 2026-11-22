@@ -1,0 +1,142 @@
+{
+  "categories": {
+    "just_friends": {
+      "category": "Tylko przyjaźń",
+      "short": "Przyjaźń"
+    },
+    "we_just_met": {
+      "category": "Dopiero się poznajemy",
+      "short": "Początki"
+    },
+    "deep_talk": {
+      "category": "Głębokie rozmowy"
+    },
+    "long_term": {
+      "category": "Długo razem",
+      "short": "Długo razem"
+    },
+    "future_talk": {
+      "category": "Plany na przyszłość"
+    },
+    "spicy": {
+      "category": "Bliskość i intymność",
+      "short": "Intymność"
+    },
+    "know_me_well": {
+      "category": "Znasz mnie dobrze?",
+      "short": "Znasz mnie?"
+    },
+    "know_me_well_hard": {
+      "category": "Znasz mnie dobrze?"
+    },
+    "know_me_well_intimacy": {
+      "category": "Znasz mnie dobrze?"
+    },
+    "trivia_master": {
+      "category": "Quiz wiedzy",
+      "short": "Quiz"
+    },
+    "mastermind": {
+      "category": "Poziom: geniusz",
+      "short": "Geniusz"
+    },
+    "who_is_more_likely": {
+      "category": "Kto z was prędzej?",
+      "short": "Kto prędzej?"
+    },
+    "who_is_more_likely_intimacy": {
+      "category": "Kto z was prędzej?",
+      "short": "Kto prędzej?"
+    },
+    "rank_it": {
+      "category": "Ułóż ranking",
+      "short": "Ranking"
+    },
+    "rank_it_intimacy": {
+      "category": "Ułóż ranking",
+      "short": "Ranking"
+    },
+    "two_truths": {
+      "category": "Dwie prawdy, jedno kłamstwo",
+      "short": "Prawda czy kłamstwo"
+    },
+    "daily_analysis": {
+      "category": "Codzienna analiza",
+      "short": "Analiza"
+    },
+    "daily_love_language": {
+      "category": "Jak okazujecie miłość",
+      "short": "Miłość"
+    },
+    "daily_conflict": {
+      "category": "Kiedy się nie zgadzacie",
+      "short": "Konflikty"
+    },
+    "daily_everyday_life": {
+      "category": "Wasza codzienność",
+      "short": "Codzienność"
+    },
+    "daily_trust_jealousy": {
+      "category": "Zaufanie i zazdrość",
+      "short": "Zaufanie"
+    },
+    "daily_future": {
+      "category": "Wasza przyszłość",
+      "short": "Przyszłość"
+    },
+    "daily_money": {
+      "category": "Pieniądze i wydatki",
+      "short": "Pieniądze"
+    },
+    "daily_family_friends": {
+      "category": "Rodzina i przyjaciele",
+      "short": "Rodzina"
+    },
+    "daily_intimacy": {
+      "category": "Bliskość i intymność",
+      "short": "Intymność"
+    }
+  },
+  "category_groups": {
+    "see_your_match": {
+      "category": "Odpowiadajcie i sprawdźcie, czy pasujecie"
+    },
+    "know_each_other": {
+      "category": "Jak dobrze się znacie?"
+    },
+    "who_knows_better": {
+      "category": "Kto wie więcej?"
+    },
+    "who_is_more_likely": {
+      "category": "Kto z was prędzej…"
+    },
+    "rank_it": {
+      "category": "Ułóż ranking"
+    },
+    "daily_analysis": {
+      "category": "Codzienna analiza"
+    },
+    "two_truths": {
+      "category": "Dwie prawdy, jedno kłamstwo"
+    }
+  },
+  "game_reactions": {
+    "love": "Miłość",
+    "laugh": "Haha",
+    "kiss": "Buziak",
+    "angry": "Grr",
+    "eye_roll": "Przewracam oczami",
+    "fire": "Ogień",
+    "shy": "Wstydzę się"
+  },
+  "announcements": {
+    "f84bf4da-77b8-4f6f-96e6-beff58570ea5": {
+      "title": "Nowy tryb gry: 2 prawdy, 1 kłamstwo!",
+      "message": "Napisz o sobie 2 prawdy i 1 kłamstwo, a potem spróbuj wykryć kłamstwo swojej drugiej połówki. Kto zna kogo lepiej i kto lepiej kłamie? 😏"
+    },
+    "05fc8cad-2351-4fe1-b4b7-6592386fc900": {
+      "title": "Nowy tryb gry: Ułóż ranking!",
+      "message": "Ułóż opcje od pierwszej do ostatniej i sprawdź, jak bardzo twoja kolejność pokrywa się z kolejnością twojej drugiej połówki. Wypróbuj Ułóż ranking albo wejdź głębiej z trybem Ułóż ranking (Intymność)."
+    }
+  }
+}

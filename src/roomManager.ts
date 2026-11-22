@@ -1,6 +1,7 @@
 import { Room, Player, JoinRoomResult, Category, GameMode } from "./types.js";
 import { redis, withLock } from "./utils/redis.js";
 import { generateRoomCode, moveSeat } from "./roomCodes.js";
+import { uniquePlayerName } from "./utils/helpers.js";
 
 // Redis key patterns
 const ROOM_KEY_PREFIX = "room:";
@@ -215,7 +216,10 @@ export class RoomManager {
 
     const player: Player = {
       id: socketId,
-      name: playerName,
+      name: uniquePlayerName(
+        playerName,
+        room.players.map((p) => p.name),
+      ),
       avatar: avatar,
       isHost: false,
       hasAnswered: false,
@@ -353,18 +357,20 @@ export class RoomManager {
 
   /**
    * Moves a seat from a socket that's gone to the same user's new socket, in
-   * a room that hasn't started. Call inside withRoomLock. Returns the updated
-   * room, or null when there's no such seat to take.
+   * the waiting room or mid-game. Call inside withRoomLock. Returns the
+   * updated room and the player ids that changed, or null when there's no
+   * such seat to take.
    */
   async reclaimSeat(
     roomCode: string,
     appUserId: string,
     oldSocketId: string,
     newSocketId: string,
-  ): Promise<Room | null> {
+  ): Promise<{ room: Room; renames: Record<string, string> } | null> {
     const room = await this.getRoom(roomCode);
-    if (!room || room.status !== "waiting") return null;
-    if (!moveSeat(room, oldSocketId, newSocketId)) return null;
+    if (!room) return null;
+    const renames = moveSeat(room, oldSocketId, newSocketId);
+    if (!renames) return null;
     await redis
       .multi()
       .del(this.getPlayerRoomKey(oldSocketId))
@@ -372,7 +378,7 @@ export class RoomManager {
       .exec();
     await this.saveRoom(room);
     await this.setSeatOwner(roomCode, appUserId, newSocketId);
-    return room;
+    return { room, renames };
   }
 
   async blockFromRoom(roomCode: string, ids: (string | undefined)[]): Promise<void> {

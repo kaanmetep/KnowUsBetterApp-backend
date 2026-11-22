@@ -1,0 +1,618 @@
+{
+ "9d9765b1-cb21-4b66-a6ca-cca64bb8ea46": {
+  "text": "Laquelle est une légumineuse, la cacahuète ou l'amande ?",
+  "answers": [
+   "La cacahuète",
+   "L'amande"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a5c6fa97-91c7-43b3-97b9-37b7498e06d6": {
+  "text": "Lequel contient en général le plus de vitamine C, le kiwi ou l'orange ?",
+  "answers": [
+   "Le kiwi",
+   "L'orange"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "911db8b1-a5fb-4bc6-8f22-39c829ee4bf0": {
+  "text": "Qu'est-ce qui contient en général le plus de caféine, une tasse de café filtre ou un expresso ?",
+  "answers": [
+   "Le café filtre",
+   "L'expresso"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b9fed908-5c2b-4e3c-9f81-e2bbb76fa222": {
+  "text": "Lequel contient en général le plus de sucre pour 100 g, le ketchup ou la mayonnaise ?",
+  "answers": [
+   "Le ketchup",
+   "La mayonnaise"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7d0a4ab1-2bd1-4107-8bc0-533ca5e9231a": {
+  "text": "Chez l'humain, quel poumon est le plus gros, le gauche ou le droit ?",
+  "answers": [
+   "Le droit",
+   "Le gauche"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "01bfe40c-64f0-4f45-9c33-7c07641eeda8": {
+  "text": "Lequel est le plus long, l'intestin grêle ou le gros intestin ?",
+  "answers": [
+   "L'intestin grêle",
+   "Le gros intestin"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9c933e05-76a7-4482-94f0-be96468d643b": {
+  "text": "Qu'est-ce qui compte le plus d'os, une main ou un pied ?",
+  "answers": [
+   "Une main",
+   "Un pied"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "55fc8963-d395-469d-b4be-f913970cc16b": {
+  "text": "Qui a en général le plus de papilles gustatives, les enfants ou les adultes ?",
+  "answers": [
+   "Les enfants",
+   "Les adultes"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f6fd11c9-bc21-4a2d-bff8-e62ca18740aa": {
+  "text": "Lequel pèse en général le plus lourd, le foie ou le cerveau ?",
+  "answers": [
+   "Le foie",
+   "Le cerveau"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "209614d8-bca7-4d9f-8b4b-b29ad0b18830": {
+  "text": "Qui a été le premier empereur romain ?",
+  "answers": [
+   "Jules César",
+   "Auguste",
+   "Néron",
+   "Caligula"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e6cf06c1-9514-4042-997c-c659b797f601": {
+  "text": "Qui a peint « La Persistance de la mémoire », le tableau aux montres molles ?",
+  "answers": [
+   "Salvador Dalí",
+   "René Magritte",
+   "Pablo Picasso",
+   "Joan Miró"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "60dfd00d-8067-4c8d-b52c-0b3e1f9bf0f0": {
+  "text": "La Grande Muraille de Chine est-elle visible à l'œil nu depuis l'espace ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2c709cf4-0a0f-4ef3-bd4f-de83fc51e4cf": {
+  "text": "Dans quel océan le Titanic a-t-il coulé ?",
+  "answers": [
+   "L'océan Atlantique",
+   "L'océan Pacifique",
+   "L'océan Indien",
+   "L'océan Arctique"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fa657f5a-654d-4391-afb9-0ea101840f39": {
+  "text": "Quelle est la capitale du Japon ?",
+  "answers": [],
+  "accepted": [
+   "Tokyo",
+   "Tokio",
+   "Tōkyō"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "1e0f26a6-8a22-4320-9d1d-d5d8a480ebab": {
+  "text": "Les poissons rouges n'ont-ils qu'environ 3 secondes de mémoire ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fb406859-589a-403d-ab11-e30998090d0e": {
+  "text": "Qui a écrit « Roméo et Juliette » ?",
+  "answers": [
+   "William Shakespeare",
+   "Charles Dickens",
+   "Jane Austen",
+   "Mark Twain"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3edf5bc0-268b-4eb6-823b-d4fa8ad14cea": {
+  "text": "Dans quel musée est exposée la Joconde ?",
+  "answers": [],
+  "accepted": [
+   "Le Louvre",
+   "Louvre",
+   "Musée du Louvre",
+   "Musee du Louvre",
+   "Le musée du Louvre"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "115767b5-2e17-4e51-a1fc-e14006de9a50": {
+  "text": "Quelle planète est célèbre pour ses anneaux ?",
+  "answers": [
+   "Jupiter",
+   "Saturne",
+   "Uranus",
+   "Neptune"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "81840a32-f4f6-4e8e-bc44-8f33b631c57e": {
+  "text": "Quelle est la capitale de l'Espagne ?",
+  "answers": [],
+  "accepted": [
+   "Madrid"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "95ee923b-56f9-4b3a-97a4-88fbd7c33633": {
+  "text": "Les dinosaures et les humains ont-ils vécu à la même époque ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4fe95b65-a522-486a-9765-2125d2041fed": {
+  "text": "Qui a écrit les livres Harry Potter ?",
+  "answers": [
+   "J.K. Rowling",
+   "Stephen King",
+   "J.R.R. Tolkien",
+   "George R.R. Martin"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "56734855-e0f8-4feb-b09e-8cda4b5bccb2": {
+  "text": "Dans quelle ville se trouve le Colisée ?",
+  "answers": [],
+  "accepted": [
+   "Rome",
+   "Roma"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "97e56b29-8c4e-4811-9a96-d4780db72a6f": {
+  "text": "Quelle est la plus haute montagne du monde ?",
+  "answers": [
+   "Le K2",
+   "L'Everest",
+   "Le mont Blanc",
+   "Le Kilimandjaro"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "df443533-1f18-4cd4-8be3-7266e19e502b": {
+  "text": "Quelle est la capitale de l'Égypte ?",
+  "answers": [],
+  "accepted": [
+   "Le Caire",
+   "Caire",
+   "Cairo"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "0cae65d9-df38-40fb-8816-29d3c48f6bde": {
+  "text": "Qui a découvert la pénicilline ?",
+  "answers": [
+   "Louis Pasteur",
+   "Marie Curie",
+   "Alexander Fleming",
+   "Isaac Newton"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8384d067-1ad2-496f-a48c-807812a3c2b9": {
+  "text": "Quel est le plus long fleuve du monde ?",
+  "answers": [],
+  "accepted": [
+   "Le Nil",
+   "Nil",
+   "Nile"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "6a592f5c-8b25-475c-9d71-2ff6077b9fac": {
+  "text": "Combien vaut pi, arrondi à deux décimales ?",
+  "answers": [],
+  "accepted": [
+   "3,14",
+   "3.14"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "db75cabc-fd6e-4e8a-abce-64acc6fff9ca": {
+  "text": "Combien de côtés a un hexagone ?",
+  "answers": [
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ee189263-18ae-49be-91d0-bb89a04fb19c": {
+  "text": "Le nombre 1 est-il un nombre premier ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d7c78439-2540-42e6-a32a-dfaaf448ca91": {
+  "text": "Combien de degrés compte un cercle complet ?",
+  "answers": [],
+  "accepted": [
+   "360",
+   "360 degrés",
+   "360°",
+   "trois cent soixante"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "d50e1086-861b-4696-acd0-61fdcffefd7d": {
+  "text": "En chiffres romains, que vaut la lettre C ?",
+  "answers": [
+   "50",
+   "100",
+   "500",
+   "1000"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "00daed8e-7efd-41f2-9dec-1fc232d9b404": {
+  "text": "Combien de côtés a un carré ?",
+  "answers": [],
+  "accepted": [
+   "4",
+   "quatre"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "6083bedd-91e1-4dae-b88b-b3c1ea414c86": {
+  "text": "En chiffres romains, que vaut la lettre L ?",
+  "answers": [
+   "10",
+   "50",
+   "100",
+   "500"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6544f943-74a8-4af1-ada0-7918afd2ba48": {
+  "text": "Un nombre pair est-il toujours divisible par 2 ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "684014cd-2a78-4875-b42a-11e52aab9973": {
+  "text": "Quelle est la racine carrée de 81 ?",
+  "answers": [],
+  "accepted": [
+   "9",
+   "neuf"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "2ecb74e8-9d5f-45fe-845c-a72ae870708f": {
+  "text": "Combien de faces a un cube ?",
+  "answers": [
+   "4",
+   "6",
+   "8",
+   "12"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b4dcad8a-8d18-4225-8400-c98a2189ebea": {
+  "text": "Que fabriquait Nintendo à sa création en 1889 ?",
+  "answers": [
+   "Des cartes à jouer",
+   "Des jouets en bois",
+   "Des radios",
+   "Des vélos"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "78aab024-3668-491d-bb40-e86b89b38a5d": {
+  "text": "Avant les voitures de sport, que fabriquait Lamborghini ?",
+  "answers": [
+   "Des tracteurs",
+   "Des motos",
+   "Des avions",
+   "Des bateaux"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f74e6644-27e8-4c97-a7c9-54c3cab21631": {
+  "text": "Quelle était la seule chose que vendait Amazon à ses débuts ?",
+  "answers": [],
+  "accepted": [
+   "Des livres",
+   "Livres",
+   "Livre",
+   "Les livres"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "2c638edc-94ba-4eb2-bcfc-94779768b590": {
+  "text": "Que produisait Nokia à sa création en 1865 ?",
+  "answers": [
+   "Du papier",
+   "Des bottes en caoutchouc",
+   "Des câbles télégraphiques",
+   "Des allumettes"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1871c4e9-5c22-4c35-a1bc-dd4474c34c49": {
+  "text": "À l'origine, la pâte Play-Doh était vendue comme quoi ?",
+  "answers": [
+   "Nettoyant pour papier peint",
+   "Pâte à pain",
+   "Dentifrice",
+   "Colle"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "be971a7f-47fd-4d42-b10a-daebbb510af3": {
+  "text": "Comment s'appelait le Pepsi à l'origine ?",
+  "answers": [
+   "Brad's Drink",
+   "Pep Cola",
+   "Kola Fizz",
+   "Bob's Soda"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "69f23dbc-2583-479b-9359-07a59e7f59f6": {
+  "text": "Comment s'appelait Instagram avant de changer de nom ?",
+  "answers": [
+   "Burbn",
+   "Snapshot",
+   "InstaPic",
+   "Photogram"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ead10aaa-9567-4ab3-a87a-cdec913928be": {
+  "text": "Quelle entreprise a débuté en louant des DVD par courrier ?",
+  "answers": [
+   "Netflix",
+   "YouTube",
+   "Spotify",
+   "Hulu"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "521b3e39-b5c1-43b2-8cde-ab8d9def7961": {
+  "text": "Que fabriquait Toyota avant de construire des voitures ?",
+  "answers": [
+   "Des métiers à tisser",
+   "Des machines à coudre",
+   "Des vélos",
+   "Des cuiseurs à riz"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "71fc7269-4aed-472e-bd79-e0d84c749902": {
+  "text": "Avant le XVIIe siècle, de quelle couleur étaient surtout les carottes cultivées ?",
+  "answers": [
+   "Violettes",
+   "Orange",
+   "Vertes",
+   "Rouges"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d3b894cc-8844-4ffe-a1d0-e1e2eaf581f7": {
+  "text": "Dans quel pays la salade César a-t-elle été inventée ?",
+  "answers": [
+   "Le Mexique",
+   "L'Italie",
+   "Les États-Unis",
+   "La France"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "59002bd4-f891-4b1f-aa72-db3cc3ed0898": {
+  "text": "Dans quel pays la pizza « hawaïenne » à l'ananas a-t-elle été inventée ?",
+  "answers": [
+   "Le Canada",
+   "Les États-Unis",
+   "L'Italie",
+   "L'Australie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d806f810-b198-47b8-a3d0-7d981c8e7472": {
+  "text": "Qu'est-ce qui donne leur couleur rose aux flamants ?",
+  "answers": [
+   "Leur alimentation",
+   "Le soleil",
+   "Leurs gènes",
+   "Les bains de boue"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "44510aab-e8ee-4cce-a85b-024ce43e245c": {
+  "text": "Les empreintes digitales des koalas sont presque identiques à celles de quelle espèce ?",
+  "answers": [
+   "L'humain",
+   "Le chimpanzé",
+   "L'ours",
+   "Le chien"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c1baf44d-dffd-4222-b3d4-d0146ad53d91": {
+  "text": "Quel est le seul mammifère capable de vraiment voler ?",
+  "answers": [
+   "La chauve-souris",
+   "L'écureuil volant",
+   "Le phalanger volant",
+   "Le poisson volant"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ede0c210-18c9-4486-9424-f3e08df6da06": {
+  "text": "Quel oiseau peut voler à reculons ?",
+  "answers": [
+   "Le colibri",
+   "L'aigle",
+   "La chouette",
+   "L'hirondelle"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7079992a-57a9-43fe-8131-82bbabc9398a": {
+  "text": "Où se trouve le cœur d'une crevette ?",
+  "answers": [
+   "Dans sa tête",
+   "Dans sa queue",
+   "Dans ses pattes",
+   "Dans son ventre"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0e4b81de-abde-46a1-869f-09703692357c": {
+  "text": "Combien de compartiments compte l'estomac d'une vache ?",
+  "answers": [
+   "4",
+   "1",
+   "2",
+   "6"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "db5641b6-8b6f-44ea-8949-08a4ccbedf59": {
+  "text": "Quel animal terrestre a la plus longue gestation, près de deux ans ?",
+  "answers": [
+   "L'éléphant",
+   "La girafe",
+   "Le rhinocéros",
+   "Le chameau"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d7896c20-fc9f-41c3-a5a7-f8d5ba468f8d": {
+  "text": "Combien d'yeux a une abeille ?",
+  "answers": [
+   "5",
+   "2",
+   "4",
+   "8"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

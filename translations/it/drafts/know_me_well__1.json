@@ -1,0 +1,651 @@
+{
+  "33e860c5-d68a-4622-8bff-5c2395b7b4fa": {
+    "text": "Nel weekend {{playerName}} preferisce restare a casa o uscire?",
+    "answers": [
+      "Restare a casa",
+      "Uscire"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b54e736a-1ca6-4282-8d2f-f8395b87aea1": {
+    "text": "{{playerName}} preferisce scrivere un messaggio o chiamare?",
+    "answers": [
+      "Scrivere",
+      "Chiamare"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4bc843bb-07c2-4f26-b817-0f3d3b9614b9": {
+    "text": "{{playerName}} preferisce pianificare tutto o improvvisare?",
+    "answers": [
+      "Pianificare tutto",
+      "Improvvisare"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "82c0e606-aae6-4ff9-b103-b95342fd82dd": {
+    "text": "{{playerName}} preferisce rivedere un film del cuore o guardare qualcosa di nuovo?",
+    "answers": [
+      "Rivedere un film del cuore",
+      "Guardare qualcosa di nuovo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "91ca43c8-5750-446e-a192-ac3bbc581934": {
+    "text": "{{playerName}} preferirebbe vivere vicino al mare o in montagna?",
+    "answers": [
+      "Vicino al mare",
+      "In montagna"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f35c8f81-62c1-4a7f-a513-8d4236bd98a5": {
+    "text": "{{playerName}} preferisce arrivare troppo presto o un po' in ritardo?",
+    "answers": [
+      "Troppo presto",
+      "Un po' in ritardo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7d54b670-a981-422f-aced-7e9fa4bae1ec": {
+    "text": "Quando deve decidere, {{playerName}} si fida più della testa o del cuore?",
+    "answers": [
+      "Testa",
+      "Cuore"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b4de40ca-d4cd-4e56-ae5d-4dea9004dd81": {
+    "text": "{{playerName}} preferirebbe mantenere un segreto o dire la verità anche se fa male?",
+    "answers": [
+      "Mantenere il segreto",
+      "Dire la verità"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f6926734-79ef-490a-a4e4-630f9273a4f5": {
+    "text": "{{playerName}} preferirebbe sudarsi il successo o avere fortuna e riuscire senza fatica?",
+    "answers": [
+      "Sudarsi il successo",
+      "Fortuna e successo facile"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5447a180-538c-4a12-9efb-cc3a5b935f41": {
+    "text": "{{playerName}} tende a perdonare facilmente o a portare rancore a lungo?",
+    "answers": [
+      "Perdona facilmente",
+      "Porta rancore"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2be6067f-ee2d-45a3-83be-4fc9c72df2ef": {
+    "text": "{{playerName}} preferirebbe avere 1 milione di euro o sposare l'amore della sua vita?",
+    "answers": [
+      "1 milione di euro",
+      "Sposare l'amore della sua vita"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": "Localized $1 million to 1 milione di euro."
+  },
+  "12f83f4b-5b4b-4a12-a517-c315e06f329e": {
+    "text": "{{playerName}} preferirebbe vivere nella sua città natale o in giro per il mondo?",
+    "answers": [
+      "Città natale",
+      "In giro per il mondo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e17c9f6b-cf1a-45b3-87f4-27c8bdc82bae": {
+    "text": "{{playerName}} preferisce cucinare a casa o mangiare fuori?",
+    "answers": [
+      "Cucinare a casa",
+      "Mangiare fuori"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "382bc563-9823-4ab1-8071-cc2d74faf52a": {
+    "text": "{{playerName}} preferisce passare una giornata libera per conto suo o con gli amici?",
+    "answers": [
+      "Per conto suo",
+      "Con gli amici"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "90825695-99aa-4d92-896a-29c6c59a277b": {
+    "text": "{{playerName}} preferirebbe uno stipendio alto ma un lavoro stressante o uno più basso ma un lavoro tranquillo?",
+    "answers": [
+      "Stipendio alto, lavoro stressante",
+      "Stipendio più basso, lavoro tranquillo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f2281a28-c027-428c-99bd-5a083fee5ca4": {
+    "text": "In amore, {{playerName}} preferisce fare il primo passo o aspettare che lo faccia l'altra persona?",
+    "answers": [
+      "Fare il primo passo",
+      "Aspettare"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "475783c3-4b71-401d-87db-c959f01b2d7e": {
+    "text": "{{playerName}} si innamora subito o col tempo?",
+    "answers": [
+      "Subito",
+      "Col tempo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1ab0317c-029e-4bb2-9de6-372e922d68aa": {
+    "text": "{{playerName}} preferisce esprimere apertamente ciò che prova o tenerlo per sé?",
+    "answers": [
+      "Lo esprime apertamente",
+      "Lo tiene per sé"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "786f9f17-3200-414f-9269-969c05476a85": {
+    "text": "In amore, {{playerName}} preferirebbe dare di più o ricevere di più?",
+    "answers": [
+      "Dare più amore",
+      "Ricevere più amore"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0739e76d-bd4b-4bcc-a375-4048e59d974a": {
+    "text": "{{playerName}} preferisce stare con una persona dalle emozioni intense o emotivamente calma?",
+    "answers": [
+      "Emozioni intense",
+      "Calma emotiva"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "76484c65-35c7-4c3c-9a1e-42230c7921f2": {
+    "text": "{{playerName}} preferirebbe una vita prevedibile o una vita imprevedibile ed emozionante?",
+    "answers": [
+      "Vita prevedibile",
+      "Vita imprevedibile ed emozionante"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "239177fa-9d95-4c4e-bf05-9ca0e0153f5c": {
+    "text": "{{playerName}} preferirebbe una famiglia numerosa o piccola?",
+    "answers": [
+      "Famiglia numerosa",
+      "Famiglia piccola"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1918743a-fff6-42ba-bacb-9f6930488c49": {
+    "text": "{{playerName}} preferisce passare le vacanze in famiglia o scoprire un posto nuovo?",
+    "answers": [
+      "In famiglia",
+      "In un posto nuovo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "77ba1277-946e-480b-b878-ed1aa3b631ad": {
+    "text": "{{playerName}} preferirebbe avere figli presto o più avanti?",
+    "answers": [
+      "Presto",
+      "Più avanti"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "598ab765-c9fe-4082-bc14-d4b8d064861f": {
+    "text": "{{playerName}} preferirebbe avere un figlio o due?",
+    "answers": [
+      "Un figlio",
+      "Due figli"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d704896b-0ef4-4c00-9fd7-3a47551b146a": {
+    "text": "{{playerName}} preferirebbe il posto fisso a vita o rischiare e mettersi in proprio?",
+    "answers": [
+      "Posto fisso a vita",
+      "Mettersi in proprio"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6fb61eae-df85-4a81-bbd6-5ead952fdd6f": {
+    "text": "{{playerName}} preferirebbe lavorare da remoto, da qualsiasi posto, o in un ufficio fisso?",
+    "answers": [
+      "Lavorare da remoto",
+      "Lavorare in ufficio"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "47219491-e82d-4220-afd0-f8f976dbacbc": {
+    "text": "{{playerName}} preferirebbe andare a convivere presto o aspettare a lungo?",
+    "answers": [
+      "Convivere presto",
+      "Aspettare a lungo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "245377c3-2b87-4c1e-a318-e374030cc54a": {
+    "text": "Se dovesse scegliere, {{playerName}} starebbe con una persona gelosissima o con una tirchissima?",
+    "answers": [
+      "Una persona gelosissima",
+      "Una persona tirchissima"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "11fcbe7e-56a2-4147-b883-7adfe6ae91bf": {
+    "text": "Se dovesse scegliere, {{playerName}} starebbe con una persona che controlla tutto o con una emotivamente distante?",
+    "answers": [
+      "Una che controlla tutto",
+      "Una emotivamente distante"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8ffb0025-b2a9-4460-a1ed-cb5a661a2088": {
+    "text": "{{playerName}} preferirebbe stare con una persona molto ambiziosa o con una persona molto appagata dalla vita?",
+    "answers": [
+      "Una persona ambiziosa",
+      "Una persona appagata"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3408836d-1ecf-441a-960f-2fea5ad49e27": {
+    "text": "{{playerName}} preferirebbe avere un gatto o un cane?",
+    "answers": [
+      "Gatto",
+      "Cane"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1f6efff9-3add-4515-85f1-c6d272731369": {
+    "text": "{{playerName}} preferirebbe la fama o una vita del tutto riservata?",
+    "answers": [
+      "La fama",
+      "Una vita riservata"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "89b861b5-b18b-4c8f-a6db-d3267f82af3f": {
+    "text": "{{playerName}} preferirebbe dire sempre la verità o evitare sempre i conflitti?",
+    "answers": [
+      "Dire sempre la verità",
+      "Evitare i conflitti"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "390d3b45-4e67-40bf-a304-e54b49a54d93": {
+    "text": "{{playerName}} tende a perdonare subito o si prende del tempo prima di perdonare?",
+    "answers": [
+      "Perdonare subito",
+      "Prendersi del tempo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "778652b2-f2c7-4a02-8dbf-bf8fbb62d089": {
+    "text": "In una relazione, {{playerName}} preferisce andarci piano o sentire subito la scintilla?",
+    "answers": [
+      "Andarci piano",
+      "Scintilla immediata"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6b1a102c-c5a3-4261-97eb-1379c2d19a64": {
+    "text": "{{playerName}} preferisce mostrare affetto in pubblico o in privato?",
+    "answers": [
+      "In pubblico",
+      "In privato"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1a19c968-2cfd-4823-80a6-b871d121e44a": {
+    "text": "In una relazione, {{playerName}} preferisce una chimica intensa o la serenità emotiva?",
+    "answers": [
+      "Chimica intensa",
+      "Serenità emotiva"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8ca453c1-959a-4c76-9ea7-54987d756b27": {
+    "text": "{{playerName}} preferirebbe un amore molto geloso o uno che lascia piena libertà?",
+    "answers": [
+      "Tanta gelosia",
+      "Piena libertà"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d5fadf41-1231-4b0c-8efa-9d625b1ca6fb": {
+    "text": "{{playerName}} preferisce stare con una persona molto espansiva fisicamente o più misurata e calma?",
+    "answers": [
+      "Tanta fisicità",
+      "Calma e misura"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f1ed238f-43db-4120-a454-f66430ed55c7": {
+    "text": "{{playerName}} preferirebbe una relazione con una forte attrazione fisica o con un forte legame emotivo?",
+    "answers": [
+      "Attrazione fisica",
+      "Legame emotivo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "aefd3291-56f1-4c7b-ae95-6cace501472d": {
+    "text": "{{playerName}} preferisce le giornate di sole o di pioggia?",
+    "answers": [
+      "Sole",
+      "Pioggia"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9cb91fa0-017a-492d-adbe-adb31919cbdd": {
+    "text": "{{playerName}} preferisce l'intimità di mattina o di notte?",
+    "answers": [
+      "Di mattina",
+      "Di notte"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a003660c-bffd-47f5-952c-0a40d2a45686": {
+    "text": "{{playerName}} preferisce un'intimità improvvisata o programmata?",
+    "answers": [
+      "Improvvisata",
+      "Programmata"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8a17d77f-14ed-4528-b669-78594d0da8ac": {
+    "text": "{{playerName}} preferisce una serata scatenata fuori o una serata tranquilla a casa?",
+    "answers": [
+      "Serata fuori",
+      "Serata a casa"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a0fac6c6-6686-45b8-8cf4-408edc5d032c": {
+    "text": "{{playerName}} preferisce una vacanza al mare o in montagna?",
+    "answers": [
+      "Mare",
+      "Montagna"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cffb0f75-9040-45b1-8d12-300ef3ca08be": {
+    "text": "{{playerName}} preferisce un messaggio dolce o una lunga telefonata?",
+    "answers": [
+      "Messaggio dolce",
+      "Lunga telefonata"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "59e97775-72fe-4bf0-9f4c-5b0cd575a4ce": {
+    "text": "{{playerName}} preferisce un appuntamento a sorpresa o uno organizzato nei dettagli?",
+    "answers": [
+      "A sorpresa",
+      "Organizzato nei dettagli"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d164f584-fdb2-4f62-b924-781f1bd75ac9": {
+    "text": "{{playerName}} preferisce ricevere complimenti sul suo aspetto o sulla sua personalità?",
+    "answers": [
+      "Aspetto",
+      "Personalità"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0492fd1f-f383-4660-8df4-d63bc67d178a": {
+    "text": "{{playerName}} preferisce prendere le grandi decisioni in autonomia o insieme al suo amore?",
+    "answers": [
+      "In autonomia",
+      "Insieme"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "94f9ac5e-0878-4a02-ae8c-7b4008f74ad4": {
+    "text": "Se potesse viaggiare nel tempo, {{playerName}} correggerebbe un errore del passato o visiterebbe il futuro?",
+    "answers": [
+      "Correggere il passato",
+      "Visitare il futuro"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bd441de0-5c15-4416-99b1-89df1671c114": {
+    "text": "Nell'infanzia, {{playerName}} era una peste o un tesoro tranquillo che rispettava le regole?",
+    "answers": [
+      "Una peste",
+      "Un tesoro tranquillo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "347689ab-707b-4407-a09f-69f9f19343de": {
+    "text": "Nell'infanzia, {{playerName}} preferiva giocare fuori nel fango o restare in casa con i giocattoli?",
+    "answers": [
+      "Giochi all'aperto",
+      "Giochi in casa"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c022d8ce-34b3-4ab0-a227-06d30b81bd48": {
+    "text": "{{playerName}} tiene il cibo separato nel piatto o mescola tutto?",
+    "answers": [
+      "Tutto separato",
+      "Tutto mescolato"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "060551e0-79ca-4006-9c48-f247b618ce82": {
+    "text": "{{playerName}} preferisce dormire nel silenzio totale o con un rumore di sottofondo (musica, ventilatore)?",
+    "answers": [
+      "Silenzio totale",
+      "Rumore di sottofondo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "df4aa404-cddd-4a94-b2bb-04fa25a26220": {
+    "text": "{{playerName}} vorrebbe che la gente ricordasse la sua intelligenza o la sua gentilezza?",
+    "answers": [
+      "Intelligenza",
+      "Gentilezza"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d3b1c0c7-84b5-46cf-9492-69d50264f744": {
+    "text": "Sotto stress, {{playerName}} si chiude in sé o cerca il supporto delle persone care?",
+    "answers": [
+      "Si chiude in sé",
+      "Cerca supporto"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "85b2e103-ec68-46a7-969f-9a2a9845765f": {
+    "text": "Davanti a una decisione importante, {{playerName}} segue l'istinto o deve analizzare tutti i fatti?",
+    "answers": [
+      "Istinto",
+      "Dati e fatti"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1291050c-1544-4303-aec4-8dfb5336fede": {
+    "text": "Quanto conta l'atmosfera (luci, musica, ambiente) per {{playerName}} nei momenti intimi?",
+    "answers": [
+      "Conta ogni dettaglio",
+      "Non conta per niente"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "936fc0ce-528b-4397-9401-6e314e091ea9": {
+    "text": "Nei momenti intimi, {{playerName}} preferisce sentirsi dire parole dolci o concentrarsi solo sulle sensazioni fisiche?",
+    "answers": [
+      "Parole dolci",
+      "Solo sensazioni fisiche"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e9b217eb-eb8e-4bf3-96e3-0529186355f9": {
+    "text": "A che ora si sveglia di solito {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0c937cba-97a4-4782-a859-d321a0e52b16": {
+    "text": "Quanti fratelli o sorelle ha {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8e7430ec-4498-4aff-a4dc-10933a46c12d": {
+    "text": "In che mese compie gli anni {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b5c36562-c5d4-42ae-9205-85f0b0262bad": {
+    "text": "Qual è il gusto di gelato preferito di {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "67bea7b0-936b-4108-b413-8eea681221e0": {
+    "text": "Senza cosa {{playerName}} non esce mai di casa?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "10c8697c-0893-43cd-891b-3f8043ea9661": {
+    "text": "Qual è la città natale di {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "67bddf7d-4d5a-49ff-b2bd-544f70c541e0": {
+    "text": "Qual è il colore preferito di {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "f8b8e4f3-28d9-4886-af07-a40660eecc99": {
+    "text": "Würdest du jemanden daten, der einen ganz anderen Musikgeschmack hat?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f304ce02-dda7-4317-8fdb-ea25aee9c4a4": {
+    "text": "Ist dir wichtig, welchen Bildungsabschluss dein Schatz hat?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "53cff209-fbc0-4246-b117-18b3555971df": {
+    "text": "Würdest du jemanden daten, der kleiner ist als du?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bc57ff15-11b9-4073-ae40-e1d0f01c0fad": {
+    "text": "Hast du Angst, im Leben allein zu bleiben?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f43d3e26-8697-42a0-8804-7145be8be518": {
+    "text": "Würde es dich stören, wenn dein Schatz mehr Ex-Beziehungen hätte als du?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a341a8ea-7831-4c4c-993b-95651f9220ee": {
+    "text": "Würdest du mit jemandem zusammen sein, den du körperlich nicht anziehend findest?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "83898e96-79ac-41d0-a2cd-f95d16e018bd": {
+    "text": "Würde es dich stören, wenn dein Schatz schon am Anfang der Beziehung vom Heiraten spricht?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1bc54b46-bd63-495c-979d-0d1e4203d959": {
+    "text": "Könntest du dir vorstellen, jemanden aus einem anderen Land zu heiraten?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fc039185-c94b-4708-bb45-c273aa7abbc5": {
+    "text": "Sollte beim ersten Date der Mann die Rechnung zahlen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": true,
+    "note": "Source assumes a man/woman date; kept the meaning (it asks an opinion about a gender norm, not about the players), but it does not fit same-sex couples. Consider rewording all languages to 'Should the person who asked pay on the first date?'"
+  },
+  "32406677-bba7-491a-aff9-d64567ca82c0": {
+    "text": "Würdest du die Schulden deines Schatzes bezahlen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "16ab0dae-f337-4214-84b3-f4fd1d237451": {
+    "text": "Warst du schon mal mit jemandem intim, für den du keine Gefühle hattest?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "24afb9f9-09fe-479b-b7fe-222f914f546d": {
+    "text": "Hast du schon mal jemanden ausgenutzt, der total in dich verliebt war, nur um nicht allein zu sein?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2e854593-1245-4f29-8c9d-dc97306eaeb0": {
+    "text": "Würdest du später mit deinem Schatz lieber in einer Großstadt oder in einer ruhigen Kleinstadt leben?",
+    "answers": [
+      "Großstadt",
+      "Ruhige Kleinstadt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9fcb5dab-3f2e-4a0d-b23a-61900bc49522": {
+    "text": "Würdest du jemanden daten, der betrunken unausstehlich wird?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "97b6d4e0-ab32-423e-bc3f-53883b958a5d": {
+    "text": "Würdest du in einer Beziehung bleiben, in der du emotional nicht erfüllt, aber auch nicht unglücklich bist?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "32b5d1f7-97f4-466b-ad7f-395b505c73a7": {
+    "text": "Kann eine Beziehung ohne körperliche Chemie funktionieren?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2d748ea6-89f2-4ad3-bb23-ea30c2c73842": {
+    "text": "Würdest du für 1 Million Dollar die Person verführen, mit der dein bester Freund oder deine beste Freundin zusammen ist?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e55ea49c-c670-4fe9-bf1c-267153fc88e0": {
+    "text": "Glaubst du, du hast schon mal jemanden genauso verletzt, wie du selbst Angst hast, verletzt zu werden?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5264f2b0-12db-44aa-81d2-395cee494d0c": {
+    "text": "Wenn du richtig viel Geld hättest, würdest du dann gar nicht mehr arbeiten?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "92350381-e030-4eb9-adea-eba4539776db": {
+    "text": "Würdest du später mit deinem Schatz in deiner Heimatstadt bleiben oder gemeinsam irgendwo ganz neu anfangen?",
+    "answers": [
+      "In der Heimatstadt bleiben",
+      "Woandershin ziehen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3e001ead-34f3-49cd-841b-0adf7ed83ee2": {
+    "text": "Würdest du das Handy deines Schatzes durchstöbern?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cb65844c-0923-4018-827e-7e5e742a2c88": {
+    "text": "Wäre es für dich okay, wenn dein Schatz längere Zeit Abstand von dir bräuchte?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "13769262-3c15-4137-99c0-eee392521846": {
+    "text": "Was ist dir wichtiger: wer dein Schatz früher war oder wer dein Schatz mal werden will?",
+    "answers": [
+      "Die Vergangenheit",
+      "Das Zukunftspotenzial"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6b732428-5ccc-4b9e-a751-ea915f51024f": {
+    "text": "Erwartest du jeden Tag eine Guten-Morgen-Nachricht von deinem Schatz?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d2cb8fd1-c4ee-43e7-9bec-026c60baf9ad": {
+    "text": "Würdest du dich in den Kleidungsstil deines Schatzes einmischen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "04b359db-733e-4009-8f92-b0814aa0b03a": {
+    "text": "Hast du schon mal eine Nachricht von deinem Schatz absichtlich ignoriert, um cooler zu wirken?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a0098eef-632a-4297-94cf-514d6abb3a58": {
+    "text": "Wer hat es schwerer: wer geht oder wer bleibt?",
+    "answers": [
+      "Wer geht",
+      "Wer bleibt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "44bf894e-1b91-4709-9c94-74b54c849ec9": {
+    "text": "Wäre es für dich ein Problem, wenn dein Schatz später nur Söhne und auf keinen Fall eine Tochter wollte?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8e44a610-70a6-443a-a5f4-6695dd7f2acb": {
+    "text": "Bist du schon mal fremdgegangen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f7cd4adc-4c3a-462d-80b8-a9cb5e0d59a7": {
+    "text": "Wurdest du schon mal in einer Beziehung betrogen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b06e47ff-0765-4387-a852-0e0f8d671331": {
+    "text": "Kann jemand, der dich wirklich liebt, alles verzeihen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6e964579-93e2-4ea7-a602-f2da4dc10c40": {
+    "text": "Würdest du mit jemandem zusammen sein, der keine Tiere mag?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9da6aa5a-72e2-4cfc-967b-a1333bc77fde": {
+    "text": "Würde es dich stören, wenn dein Schatz noch Kontakt zu einer Ex-Beziehung hätte?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5a13add7-782e-4168-a409-a8dd27a630b6": {
+    "text": "Würdest du mit jemandem zusammenbleiben, der keine Lust auf Sport hat?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "97b0ab35-8d44-44b9-9ab1-814f1f7f85a8": {
+    "text": "Würdest du jemanden daten, der älter ist als du?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fdcd6d7e-01fa-494d-a8de-7b442ca67c54": {
+    "text": "Was tut in einer Beziehung mehr weh: belogen oder ignoriert zu werden?",
+    "answers": [
+      "Belogen werden",
+      "Ignoriert werden"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "20510bb3-bf38-4b99-bb6d-4afcab715e9e": {
+    "text": "Hast du beim Flirten schon mal so getan, als hättest du Geld, obwohl du keins hattest?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cb8b64a7-939c-4ae3-8a90-74b432a1443c": {
+    "text": "Würdest du eine Beziehung weiterführen, wenn ihr verliebt seid, aber ganz unterschiedliche Zukunftsziele habt?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "008255f4-ad49-4afa-b3ff-75cdf23edc79": {
+    "text": "Wenn du einen ganzen Tag nicht mit deinem Schatz redest, gibt das Streit?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fa0c44cc-ec0b-436b-9ccd-7bbc0543e25b": {
+    "text": "Wenn deine Mutter wollte, dass du dich von deinem Schatz trennst, würdest du es tun? (Kein Mittelweg erlaubt)",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1317fcea-d7cc-4eec-8f68-f27242b04416": {
+    "text": "Würdest du deinen Schatz deine Instagram-DMs lesen lassen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "dbc65ae7-6de1-4c22-a234-30dfe8df9e83": {
+    "text": "Würdest du eine feste Beziehung mit jemandem anfangen, den du über Social Media kennengelernt hast?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1049e2d0-ff17-4ee1-ab4f-f85fe3f9b87c": {
+    "text": "Würdest du die Instagram-Posts deines Schatzes kontrollieren?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a62df855-633d-493b-8ab3-2550e3b3365e": {
+    "text": "Wenn dein Schatz online ist, aber nicht antwortet, gibt das Streit?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ae38b2a8-6c8a-4e8c-a318-b1e20f4aa648": {
+    "text": "Könntest du dir vorstellen, jemanden zu heiraten, der schon mit mehr Menschen geschlafen hat als du?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3854250e-4b69-4774-8b6a-a2e7d388e9cf": {
+    "text": "Hast du schon mal jemandem verziehen, der dich betrogen hat?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fbdb80de-c188-405f-82b0-4e79741032fb": {
+    "text": "Glaubst du, dass jeder eine zweite Chance verdient, egal, was passiert ist?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f3b3010c-c0bd-47ed-a4bf-e62dd8e2006f": {
+    "text": "Würdest du deine größte Leidenschaft für einen Menschen aufgeben, den du liebst?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fdb7ee23-84ac-47e3-82cc-e99cfdc6faef": {
+    "text": "Glaubst du, dass Menschen ihre Persönlichkeit im Kern mit der Zeit wirklich ändern können?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c29fa0f5-b83a-4d47-b83a-23415dbccd57": {
+    "text": "Würde es dich stören, wenn dein Schatz in einer großen Clique die einzige Person des eigenen Geschlechts wäre?",
+    "answers": [],
+    "accepted": [],
+    "flagged": true,
+    "note": "Source uses 'woman/man'; rephrased gender-neutrally as 'the only person of their own gender in a big friend group'. Check it reads naturally."
+  },
+  "8a608656-6f0c-4340-a4ea-9946910b72b5": {
+    "text": "Wäre dir später jemand lieber, der für die Zukunft spart, oder jemand, der das Geld lieber im Hier und Jetzt genießt?",
+    "answers": [
+      "Für die Zukunft sparen",
+      "Im Hier und Jetzt ausgeben"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "23c84c87-92c4-43a2-8803-f5f70ee8691a": {
+    "text": "Würdest du jemanden daten, der das Nachtleben liebt?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ce87d138-4cfa-4aee-9758-29ca3d1b954b": {
+    "text": "Glaubst du, dass alles, was dir passieren wird, schon geschrieben steht?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3decdc82-9ae0-4505-91f6-6302b5c53c41": {
+    "text": "Würdest du mit jemandem zusammen sein, der ständig deine Aufmerksamkeit braucht?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "706d8700-739b-47ae-9dd1-dce16f162a07": {
+    "text": "Würdest du mit jemandem zusammen sein, der geizig ist?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0b4812d9-d4b8-4f65-8890-54552b41ef89": {
+    "text": "Würdest du jemanden daten, dessen Stimme du nicht magst?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "001a4314-020a-4324-a750-caa1ad0bc9e4": {
+    "text": "Hättest du gern, dass dein Schatz alte Social-Media-Posts löscht?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0d6447bb-6e82-460a-b04d-5d2f003696e4": {
+    "text": "Würdest du deinen Schatz später in all deine Lebenspläne einbeziehen?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6d5ea62e-65a1-4df6-945b-5f285684a863": {
+    "text": "Würdest du mit jemandem zusammen sein, der nicht gern liest?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ac395c4f-0f1f-409a-b052-949dc725b2d7": {
+    "text": "Würdest du mit jemandem zusammen sein, der arbeitslos ist?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5bad6b2a-f446-40b8-80eb-1eb297558aaf": {
+    "text": "Hast du schon mal mit jemandem weitergeschrieben, den du nicht mochtest, nur wegen der Aufmerksamkeit?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2ea3cafa-eafd-4846-ae37-6b1bd3b0afe0": {
+    "text": "Erwartest du, dass dein Schatz sich alle besonderen Tage eurer Beziehung merkt?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "69756540-7f71-4731-b79c-4eb07fe1da71": {
+    "text": "Hast du dir schon mal ausgemalt, wie deine Hochzeit aussehen soll?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fe1b8a27-eb1b-4098-a0a4-914e39ab95eb": {
+    "text": "Ist es für dich ein Problem, wenn dein Schatz intellektuell nicht auf deinem Niveau ist?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "86fdbda3-1523-4d06-9d8c-07124f41ef2f": {
+    "text": "Hast du schon mal eine Dating-App benutzt?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

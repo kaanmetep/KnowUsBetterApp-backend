@@ -1,0 +1,663 @@
+{
+ "e294c59a-bb70-4d8c-9d80-6dbb06a09b36": {
+  "text": "Welches Geräusch macht {{playerName}} am meisten wahnsinnig?",
+  "answers": [
+   "Lautes Schmatzen",
+   "Fingernägel auf der Tafel",
+   "Jemand schnieft",
+   "Jemand pfeift"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "19eebdd7-760a-4ea1-ae18-5bf88eb2dafc": {
+  "text": "Was nervt {{playerName}} beim Chatten am meisten?",
+  "answers": [
+   "Ein knappes „ok“",
+   "Sprachnachrichten",
+   "Langsame Antworten",
+   "Viele kurze Nachrichten hintereinander"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "52b4cdec-cd4a-4442-998d-f07cd4081db4": {
+  "text": "Was stört {{playerName}} im Restaurant am meisten?",
+  "answers": [
+   "Langsamer Service",
+   "Ein schmutziger Tisch",
+   "Laute Musik",
+   "Kleine Portionen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5be0c0e8-8892-4a92-9758-2f00fcce2015": {
+  "text": "Welche Unordnung zu Hause stört {{playerName}} am meisten?",
+  "answers": [
+   "Geschirr in der Spüle",
+   "Klamotten auf dem Boden",
+   "Ein ungemachtes Bett",
+   "Krümel auf dem Tisch"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2dd218d8-d3ec-46ee-9285-47f6ed61d659": {
+  "text": "Was bringt {{playerName}} im Verkehr am schnellsten auf die Palme?",
+  "answers": [
+   "Langsame Fahrer",
+   "Hupen",
+   "Leute, die sich reindrängeln",
+   "Kein Blinker"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "644b7cf5-7ae6-430a-9220-f3fb43701063": {
+  "text": "Was nervt {{playerName}} beim Anstehen am meisten?",
+  "answers": [
+   "Vordrängler",
+   "Leute, die zu nah stehen",
+   "Eine langsame Kasse",
+   "Jemand zahlt mit Kleingeld"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b9f365dd-1aa6-4d48-af88-95d026d024d5": {
+  "text": "Wofür gibt {{playerName}} am meisten Geld aus?",
+  "answers": [
+   "Essen und Restaurants",
+   "Klamotten",
+   "Technik und Gadgets",
+   "Reisen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "be8f4942-1a57-4943-8b5b-8bb89b022314": {
+  "text": "Was ist das Teuerste, was {{playerName}} je gekauft hat?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "50d0db45-ce2c-468e-a3d6-23f0704fc3a4": {
+  "text": "Wo hat {{playerName}} den besten Freund oder die beste Freundin kennengelernt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "662aef93-2e41-413c-b62a-b150755f03f5": {
+  "text": "Wie lange besteht die älteste Freundschaft von {{playerName}} schon?",
+  "answers": [
+   "Unter 5 Jahre",
+   "5–10 Jahre",
+   "10–20 Jahre",
+   "Über 20 Jahre"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "65d60061-9ab6-4853-9aca-4eab081a4cce": {
+  "text": "Wie heißt der wichtigste Gruppenchat von {{playerName}} mit Freunden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "197d53a1-83ce-4902-a334-27066158fc78": {
+  "text": "Wie oft trifft sich {{playerName}} mit Freunden?",
+  "answers": [
+   "Fast jeden Tag",
+   "Jede Woche",
+   "Ein paarmal im Monat",
+   "Selten"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6159136b-df0a-4257-b058-e896fc9de8df": {
+  "text": "Wo trifft sich {{playerName}} meistens mit Freunden?",
+  "answers": [
+   "Bei jemandem zu Hause",
+   "Im Café",
+   "In einer Bar",
+   "Draußen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a1fcb212-3cc0-4b2d-bd2f-8bda0513e11c": {
+  "text": "Wie viele Leute gehören zum engsten Freundeskreis von {{playerName}}?",
+  "answers": [
+   "2–3",
+   "4–5",
+   "6–8",
+   "Mehr als 8"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7f03c313-0647-4db6-9922-02b1cd26700f": {
+  "text": "Wie hält {{playerName}} meistens Kontakt zu Freunden?",
+  "answers": [
+   "Mit Textnachrichten",
+   "Mit Sprachnachrichten",
+   "Mit Anrufen",
+   "Mit Memes und Reels"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c17d4951-9f29-4613-aebc-0dc559fa5a6d": {
+  "text": "Wie nennen die Freunde {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "71ef9a47-46d4-4666-8665-3d3a7991768e": {
+  "text": "Wie feiert {{playerName}} meistens Geburtstag?",
+  "answers": [
+   "Mit einer großen Party",
+   "Beim Essen mit engen Freunden",
+   "Ganz ruhig",
+   "Gar nicht"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "01b87d7a-2853-4e22-8290-2f44cb342e8a": {
+  "text": "In welcher Stadt wohnt der beste Freund oder die beste Freundin von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1abd3aae-173d-497f-bb52-95bd395ab563": {
+  "text": "Wofür spart {{playerName}} gerade? Falls für nichts, lass es leer.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7bf99537-3613-478d-881c-d35960165b3e": {
+  "text": "Was für einen Laden würde {{playerName}} aufmachen, wenn es ginge?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e100c90f-796f-4d06-8999-61f07e8e2040": {
+  "text": "Wie oft postet {{playerName}} Storys?",
+  "answers": [
+   "Jeden Tag",
+   "Ein paarmal pro Woche",
+   "Selten",
+   "Nie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2d3caa55-6c03-45e4-ae52-8f4d9aabc5a7": {
+  "text": "Wie vielen Accounts folgt {{playerName}} auf Instagram?",
+  "answers": [
+   "Unter 300",
+   "300–700",
+   "700–1.500",
+   "Über 1.500"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a06282e0-ae61-4541-bf4d-24c8336d031e": {
+  "text": "Was war der letzte Instagram-Post von {{playerName}}? Falls {{playerName}} nie postet, schreib „keiner“.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e2c75092-cf85-48f6-96b7-e8022bda2ae4": {
+  "text": "Hat {{playerName}} schon mal einen Post wegen zu wenig Likes gelöscht?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "843b062a-8c76-44f7-99bb-72f4319b57ef": {
+  "text": "Womit verbringt {{playerName}} die meiste Zeit auf Social Media?",
+  "answers": [
+   "Reels schauen",
+   "Storys schauen",
+   "Mit Leuten schreiben",
+   "Profile stalken"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e32b237d-f1dd-44b2-b30e-36fa9979cd3f": {
+  "text": "Wie viele Follower hat {{playerName}} auf Instagram?",
+  "answers": [
+   "Unter 300",
+   "300–700",
+   "700–1.500",
+   "Über 1.500"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ab6fb3d1-3476-436b-af30-74e7d7f96ea6": {
+  "text": "Hat {{playerName}} einen geheimen Zweitaccount auf Instagram?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c5fbea67-c014-4be3-a141-986603d7784a": {
+  "text": "Wann scrollt {{playerName}} am meisten durch Social Media?",
+  "answers": [
+   "Im Bett vor dem Schlafen",
+   "Direkt nach dem Aufwachen",
+   "Auf dem Klo",
+   "Bei der Arbeit oder in der Schule"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d799cefe-4533-4a40-b9fd-0b26b49dced4": {
+  "text": "Was ist gerade auf dem Instagram-Profilbild von {{playerName}} zu sehen?",
+  "answers": [
+   "Ein Foto nur von sich",
+   "Ein Foto mit jemandem",
+   "Etwas anderes (Haustier, Aussicht …)",
+   "Kein Foto"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "99140b21-a78b-4823-8931-da81598e0099": {
+  "text": "Welche Lieferdienst-App nutzt {{playerName}} am meisten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "99a08b68-a66b-49c5-a1d4-c5ea876ddf1c": {
+  "text": "Wie oft bestellt {{playerName}} Essen?",
+  "answers": [
+   "Fast jeden Tag",
+   "Ein paarmal pro Woche",
+   "Ein paarmal im Monat",
+   "Fast nie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cfbd02eb-acdd-41f0-a82c-d633cd6ec6f4": {
+  "text": "Wann bestellt {{playerName}} am häufigsten Essen?",
+  "answers": [
+   "Mittags",
+   "Abends",
+   "Nach Mitternacht",
+   "Am Wochenende morgens"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b6c53b84-8968-4576-9582-556d78e1aa08": {
+  "text": "Wie lange scrollt {{playerName}} vor dem Bestellen durch die App?",
+  "answers": [
+   "Bestellt in einer Minute",
+   "Etwa 10 Minuten",
+   "Eine halbe Stunde",
+   "Gibt auf, nimmt das Übliche"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fe6f43a3-1fd6-4b4f-8d95-7aab9b9ab8bb": {
+  "text": "Gibt {{playerName}} bei Lieferungen Trinkgeld?",
+  "answers": [
+   "Nie",
+   "Manchmal",
+   "Immer ein bisschen",
+   "Immer großzügig"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "98443ab8-023f-4a17-b4f4-a95567bc476e": {
+  "text": "Was schaut {{playerName}} beim Essen vom Lieferdienst?",
+  "answers": [
+   "Eine Serie",
+   "YouTube",
+   "Reels",
+   "Nichts, isst einfach"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fe4758c6-1a3f-4740-a65f-f3f9268b47dc": {
+  "text": "Wie oft schickt {{playerName}} gekaufte Sachen zurück?",
+  "answers": [
+   "Nie",
+   "Selten",
+   "Oft",
+   "Fast alles"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "519747f8-ac05-4e2e-bd62-8a11dab0a5b1": {
+  "text": "Wie schaut {{playerName}} eine neue Serie?",
+  "answers": [
+   "Schaut alles an einem Wochenende",
+   "Eine Folge pro Abend",
+   "Fängt an, schaut nie zu Ende",
+   "Wartet, bis die ganze Staffel da ist"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "39f5d8f3-514c-4fa3-93d6-add3a148a74c": {
+  "text": "Wie hört {{playerName}} meistens Musik?",
+  "answers": [
+   "Eigene Playlists im Shuffle",
+   "Dieselben paar Songs in Dauerschleife",
+   "Ganze Alben von vorn bis hinten",
+   "Was die App empfiehlt"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3ef13a99-6e73-4c3f-ab4c-23ff736d1b22": {
+  "text": "Wo hört {{playerName}} am meisten Musik?",
+  "answers": [
+   "Im Auto",
+   "Unterwegs mit Kopfhörern",
+   "Unter der Dusche",
+   "Beim Arbeiten oder Lernen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e24b651e-6331-4162-899d-df89456006b4": {
+  "text": "Welchen Song würde {{playerName}} beim Karaoke singen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bbf96cda-756f-454a-b2be-3b11d36b3a67": {
+  "text": "Welchen Streamingdienst nutzt {{playerName}} am meisten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "07f20cd4-0210-4b95-8df9-d623a0bd0a5c": {
+  "text": "Welchen Film hat {{playerName}} am häufigsten gesehen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c78c11b1-99b4-4da4-a62f-f5c91f4a4f18": {
+  "text": "Welche Wohlfühlserie schaut {{playerName}} immer wieder?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1292f03a-b50e-440f-adcf-712349e40719": {
+  "text": "Wie kauft {{playerName}} meistens Klamotten?",
+  "answers": [
+   "Nur online",
+   "Im Laden, probiert alles an",
+   "Nur, wenn was kaputtgeht",
+   "Ständig Spontankäufe"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d9725e20-1b77-4925-822c-a0600200c830": {
+  "text": "Wie kauft {{playerName}} Lebensmittel ein?",
+  "answers": [
+   "Mit Liste, hält sich dran",
+   "Schlendert rum, nimmt, was gut aussieht",
+   "Bestellt online",
+   "Vergisst immer genau das, was eigentlich fehlte"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b9664338-39be-4c85-b84c-556d4340b75b": {
+  "text": "Wie lange lässt {{playerName}} Sachen im Online-Warenkorb liegen?",
+  "answers": [
+   "Kauft sofort",
+   "Ein paar Tage",
+   "Wochen",
+   "Kauft am Ende nie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bf330b67-2579-4879-9284-e1bb389ddd97": {
+  "text": "Was macht {{playerName}} bei einem großen Sale?",
+  "answers": [
+   "Kauft Sachen, die gar nicht nötig sind",
+   "Holt nur, was eh auf der Wunschliste war",
+   "Ignoriert das komplett",
+   "Füllt den Warenkorb, kauft dann nichts"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f880e846-1a46-4448-b7b8-432d8820bb89": {
+  "text": "In welches Café geht {{playerName}} am liebsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e452eb3a-71ca-491f-908b-d5c948b61374": {
+  "text": "Was bestellt {{playerName}} im Lieblings-Fast-Food-Laden immer?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e6f97bcb-be04-4815-b108-322f1284b685": {
+  "text": "Welche Farbe hat die Handyhülle von {{playerName}}? Ohne Hülle schreib „keine“.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "34493f68-a720-495a-b39a-52d484d3610e": {
+  "text": "Welche Shopping-App nutzt {{playerName}} am meisten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "835abc8b-f60f-4b56-9fa3-853e42ad5ffe": {
+  "text": "Mit wie vielen Kissen schläft {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e1b8328b-6a31-46d0-bc54-46c41d2ca166": {
+  "text": "Wie viele Tabs hat {{playerName}} meistens im Browser offen?",
+  "answers": [
+   "1 bis 5",
+   "6 bis 20",
+   "21 bis 50",
+   "Längst nicht mehr zählbar"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9265875a-abaf-454a-9d5d-cf7c21f409e4": {
+  "text": "Wie viele Fotos sind in der Galerie von {{playerName}}?",
+  "answers": [
+   "Unter 1.000",
+   "1.000 bis 5.000",
+   "5.000 bis 20.000",
+   "Über 20.000"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "696b6beb-bb08-43ed-86eb-eb4bd17e515c": {
+  "text": "Wie viele Apps hat {{playerName}} auf dem Handy?",
+  "answers": [
+   "Unter 30",
+   "30 bis 60",
+   "60 bis 100",
+   "Über 100"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7afba473-dc61-4be7-b01c-0ca03119939b": {
+  "text": "Wen hat {{playerName}} zuletzt angerufen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5901193f-1beb-49eb-90ed-1da2b9274c76": {
+  "text": "Nutzt {{playerName}} den Dunkelmodus auf dem Handy?",
+  "answers": [
+   "Immer dunkel",
+   "Immer hell",
+   "Automatisch, je nach Uhrzeit"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "377237c2-590f-4200-a7a5-1e53377d8f42": {
+  "text": "Wann duscht {{playerName}} meistens?",
+  "answers": [
+   "Morgens",
+   "Abends",
+   "Beides, jeden Tag",
+   "Ganz unterschiedlich"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9e3e7f73-8945-458a-a0a1-c3657b5d58f6": {
+  "text": "Wie lange braucht {{playerName}}, um sich zum Ausgehen fertig zu machen?",
+  "answers": [
+   "Unter 10 Minuten",
+   "10 bis 30 Minuten",
+   "30 Minuten bis eine Stunde",
+   "Über eine Stunde"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "57230422-8ea9-4e5f-9273-087b5d605ec8": {
+  "text": "Mit welchem Hobby verbringt {{playerName}} die meiste Zeit?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dc836b7d-8918-41b2-975b-19f9a43a801d": {
+  "text": "Wie viele Bücher hat {{playerName}} dieses Jahr gelesen? Wenn keins, schreib 0.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "04f5785b-6dbc-40dd-b7fa-d6850be17248": {
+  "text": "Welches Handyspiel spielt {{playerName}} gerade? Wenn keins, schreib „keins“.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1a62fc00-3404-48f5-860f-c31f4b6121b0": {
+  "text": "Wie oft pro Woche macht {{playerName}} Sport?",
+  "answers": [
+   "Nie",
+   "1- bis 2-mal",
+   "3- bis 4-mal",
+   "5-mal oder öfter"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b9c19285-78bf-4372-896c-ca131cb93459": {
+  "text": "Welchen Film hat {{playerName}} zuletzt im Kino gesehen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9d5dec86-f93f-4a8b-b522-75f77e6b759b": {
+  "text": "Was hat {{playerName}} zuletzt gekocht?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9b999915-7237-47f9-a9a6-5d6d8beae33a": {
+  "text": "Wo macht {{playerName}} meistens Sport?",
+  "answers": [
+   "Im Fitnessstudio",
+   "Zu Hause",
+   "Draußen",
+   "Macht keinen Sport"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

@@ -1,0 +1,70 @@
+{
+  "0da22e32-fa22-493b-bc7f-f4b3a1ae901b": {
+    "en": "Where do you see yourselves living in 5 years?",
+    "text": "5年後、ふたりはどこに住んでると思う？",
+    "answers": [
+      "今と同じところ",
+      "もっと都会",
+      "自然に近い静かなところ",
+      "海外"
+    ]
+  },
+  "094980c9-ac72-48cd-8fec-ded5e8c859f2": {
+    "en": "How do you feel about having kids?",
+    "text": "子どもを持つこと、どう考えてる？",
+    "answers": [
+      "絶対ほしい、しかも早めに",
+      "ほしいけど、まだ先",
+      "まだわからない",
+      "自分はほしくない"
+    ]
+  },
+  "9dd0cb25-5e52-4bbd-8b84-0845b7a42506": {
+    "en": "What matters most for your future together?",
+    "text": "ふたりの将来で、一番大事なことは？",
+    "answers": [
+      "安定と安心",
+      "冒険と新しい経験",
+      "家族をつくること",
+      "それぞれが成長すること"
+    ]
+  },
+  "0bcc27d3-1ef3-44af-a395-189f4c9bd2c7": {
+    "en": "You get a dream job offer in another city. You…",
+    "text": "別の街で、夢だった仕事のオファーが来た。どうする？",
+    "answers": [
+      "一緒に引っ越せるなら受ける",
+      "しばらく遠距離でがんばる",
+      "ふたりのために断る",
+      "受ける、なんとかなる"
+    ]
+  },
+  "8ef516ca-6075-4b91-baa4-ddf344730612": {
+    "en": "How do you prefer to plan the future?",
+    "text": "将来の計画、どう立てたい？",
+    "answers": [
+      "何年も先まで細かく",
+      "だいたいの方向だけ",
+      "一歩ずつ",
+      "なりゆきに任せる"
+    ]
+  },
+  "afb504c6-4c43-4b52-ac1f-3313b26b9e24": {
+    "en": "How sure are you that you two want the same future?",
+    "text": "ふたりが同じ将来を望んでるって、どれくらい自信ある？",
+    "answers": [
+      "100%自信ある",
+      "だいたい、少し気になる点もある",
+      "ちゃんと話したことがない",
+      "まったく自信ない"
+    ]
+  },
+  "983f732f-f006-4caf-acec-f1b565922810": {
+    "en": "In one sentence: where are the two of you in five years?",
+    "text": "ひとことで言うと、5年後のふたりはどうなってる？"
+  },
+  "9a479602-d540-4c0d-818d-eca22f12ae13": {
+    "en": "What's one thing about the future you've been hesitant to bring up?",
+    "text": "将来のことで、なかなか切り出せずにいる話は？"
+  }
+}

@@ -1,0 +1,1170 @@
+[
+ {
+  "id": "5738b45b-1858-43f3-826e-11ef8d263b66",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "If a close friend stays over, where do they sleep?",
+  "tr": "Yakın arkadaşın sende kalınca nerede yatar?",
+  "category": "just_friends"
+ },
+ {
+  "id": "240d4c3b-09f9-424b-8508-8f2413892f20",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When you need to say no to a friend, how do you do it?",
+  "tr": "Bir arkadaşına hayır demen gerektiğinde nasıl dersin?",
+  "answers_en": [
+   "Say it straight",
+   "Make an excuse",
+   "Delay it",
+   "You don't say no"
+  ],
+  "answers_tr": [
+   "Direkt söylerim",
+   "Bahane uydururum",
+   "Oyalayarak kaçınırım",
+   "Hayır demem"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "ed007dff-5f12-45f1-913a-814207c21337",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Where's your phone when you're hanging out with friends?",
+  "tr": "Arkadaşlarınla takılırken telefonun nerede olur?",
+  "answers_en": [
+   "On the table",
+   "Face down",
+   "In your bag",
+   "In your hand"
+  ],
+  "answers_tr": [
+   "Masada",
+   "Ekran kapalı, masada",
+   "Çantada",
+   "Elinde"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "472843d1-c68f-4443-8e98-1c7ebfff08f1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When a friend is venting, what do you do?",
+  "tr": "Arkadaşın dert yanınca sen ne yaparsın?",
+  "answers_en": [
+   "Try to fix it",
+   "Just listen",
+   "Make them laugh",
+   "Tell your own story"
+  ],
+  "answers_tr": [
+   "Çözmeye çalışırım",
+   "Sadece dinlerim",
+   "Güldürmeye çalışırım",
+   "Kendi hikâyeni anlatırsın"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "9626e6ef-559e-4903-a872-8098df7019aa",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend cancels last minute. What do you do?",
+  "tr": "Bir arkadaşın son anda iptal ederse ne yaparsın?",
+  "answers_en": [
+   "Say it's fine",
+   "Tell them it sucked",
+   "Reschedule right away",
+   "Stop inviting them for a bit"
+  ],
+  "answers_tr": [
+   "Sorun değil dersin",
+   "Bozulduğunu söylersin",
+   "Hemen yeni gün alırsın",
+   "Bir süre çağırmazsın"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "d7063b2a-a2b9-4e31-b9d5-ea73d3fc1b48",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How do you like hanging out with friends?",
+  "tr": "Arkadaşlarınla nasıl takılmayı seversin?",
+  "answers_en": [
+   "One-on-one",
+   "A small group",
+   "The whole group",
+   "Whoever's free"
+  ],
+  "answers_tr": [
+   "Baş başa",
+   "Küçük grup",
+   "Tüm grup",
+   "Kim müsaitse"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "b3285428-6a7b-494a-a8ce-607db3eff19a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend is 20 minutes late and you're already there. What do you do?",
+  "tr": "Bir arkadaşın 20 dakika geç kaldı, sen çoktan oradasın. Ne yaparsın?",
+  "answers_en": [
+   "Wait",
+   "Text them",
+   "Order without them",
+   "Leave"
+  ],
+  "answers_tr": [
+   "Beklerim",
+   "Mesaj atarım",
+   "Onlarsız sipariş veririm",
+   "Kalkar giderim"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "6e92199a-a131-4c52-8fcb-db5cdd54cb8b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend calls at 1am. What do you do?",
+  "tr": "Bir arkadaşın gece 1'de arıyor. Ne yaparsın?",
+  "answers_en": [
+   "Pick up",
+   "Text \"tomorrow\"",
+   "Let it ring",
+   "Call back later"
+  ],
+  "answers_tr": [
+   "Açarım",
+   "Yarın yaz",
+   "Açmam",
+   "Sonra dönerim"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "ca4a3d3a-b6cd-42c6-acea-f2ddaffcee41",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When a friend starts roasting you, what do you do?",
+  "tr": "Arkadaşın seninle dalga geçmeye başlayınca ne yaparsın?",
+  "answers_en": [
+   "Roast them back",
+   "Laugh it off",
+   "Go quiet",
+   "Tell them to stop"
+  ],
+  "answers_tr": [
+   "Sen de yüklenirsin",
+   "Gülüp geçersin",
+   "Sessizleşirsin",
+   "Kes dersin"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "0b00eec2-7db8-49f6-9a33-2e91bfdafed9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend borrowed something and hasn't given it back. What do you do?",
+  "tr": "Bir arkadaşın bir şey ödünç aldı, hâlâ geri vermedi. Ne yaparsın?",
+  "answers_en": [
+   "Remind them",
+   "Let it go",
+   "Don't lend them again",
+   "Joke about it until they remember"
+  ],
+  "answers_tr": [
+   "Hatırlatırım",
+   "Üstüne yatmam",
+   "Bir daha ödünç vermem",
+   "Şakaya vura vura hatırlatırım"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "3866d609-64de-4f95-9a99-d3b5aca59d4d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How do you usually leave a hangout?",
+  "tr": "Takılmadan genelde nasıl ayrılırsın?",
+  "answers_en": [
+   "Say bye and go",
+   "Quietly slip out",
+   "You're the last one there",
+   "Wait for someone to leave with you"
+  ],
+  "answers_tr": [
+   "Bye deyip çıkarım",
+   "Sessizce sıvışırım",
+   "En son sen kalırsın",
+   "Birinin seninle çıkmasını beklerim"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "fc886a8f-d247-4df7-9911-70df16293d14",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend posts a bad photo of you without asking. What do you do?",
+  "tr": "Bir arkadaşın sormadan kötü bir fotoğrafını paylaşıyor. Ne yaparsın?",
+  "answers_en": [
+   "Ask them to take it down",
+   "Laugh it off",
+   "Post an even worse one of them",
+   "Mute their posts for a bit"
+  ],
+  "answers_tr": [
+   "Kaldırmasını istersin",
+   "Gülüp geçersin",
+   "Sen de onunkini atarsın",
+   "Bir süre sessize alırsın"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "cf30ac84-0e23-499b-84f0-194255049b2e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Two friends in your group are fighting. What do you do?",
+  "tr": "Grubundaki iki arkadaş kavga ediyor. Ne yaparsın?",
+  "answers_en": [
+   "Stay out of it",
+   "Try to mediate",
+   "Side with whoever you think is right",
+   "Talk to each one privately"
+  ],
+  "answers_tr": [
+   "Karışmazsın",
+   "Araya girersin",
+   "Haklı gördüğünün yanında olursun",
+   "İkisiyle ayrı ayrı konuşursun"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "a6aca301-d610-4229-8289-b89bedc32e1e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How do you usually make plans with friends?",
+  "tr": "Arkadaşlarınla planı genelde nasıl yaparsın?",
+  "answers_en": [
+   "You send the first message",
+   "You wait for someone else to start",
+   "You keep suggesting until it sticks",
+   "You just show up wherever they go"
+  ],
+  "answers_tr": [
+   "Sen ilk mesajı atarsın",
+   "Birinin başlamasını beklersin",
+   "Bir şey tutana kadar önerirsin",
+   "Onlar nereye gidiyorsa oraya katılırsın"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "79b31e12-db1a-4595-a37d-d8bf3a5d4ab1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend is clearly wrong in an argument. What do you do?",
+  "tr": "Bir arkadaşın tartışmada bariz yanılıyor. Ne yaparsın?",
+  "answers_en": [
+   "Correct them right away",
+   "Let it go",
+   "Pull them aside later",
+   "Agree out loud, disagree in your head"
+  ],
+  "answers_tr": [
+   "Hemen düzeltirsin",
+   "Üstüne gitmezsin",
+   "Sonra kenara çekip söylersin",
+   "Dışarıdan katılır, içinden katılmazsın"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "43b8538b-f20e-4106-86db-2fb4ae991e8d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A close friend goes quiet for a few weeks. What do you do?",
+  "tr": "Yakın bir arkadaşın birkaç haftadır sessiz. Ne yaparsın?",
+  "answers_en": [
+   "Check in once",
+   "Keep reaching out",
+   "Give them space",
+   "Ask mutual friends what's up"
+  ],
+  "answers_tr": [
+   "Bir kere yazarsın",
+   "Uğraşmaya devam edersin",
+   "Alan tanırsın",
+   "Ortak arkadaşlara ne olduğunu sorarsın"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "cf10e8ca-f5f7-4fd3-ade3-8d3dd80864a1",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your friend asks for honest feedback on a bad haircut. What do you do?",
+  "tr": "Arkadaşın kötü saç kesimi için dürüst yorum istiyor. Ne yaparsın?",
+  "answers_en": [
+   "Tell the truth",
+   "Find one nice thing",
+   "Change the subject"
+  ],
+  "answers_tr": [
+   "Gerçeği söylersin",
+   "Bir iyi yan bulursun",
+   "Konuyu değiştirirsin"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "5f50e363-7d88-40da-9fc3-20a70c1c98bc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A close friend asks to stay at your place for a week. What do you say?",
+  "tr": "Yakın bir arkadaşın bir hafta sende kalmak istiyor. Ne dersin?",
+  "answers_en": [
+   "Stay as long as you need",
+   "A few days, then we talk",
+   "Not this week, but I'll help another way"
+  ],
+  "answers_tr": [
+   "Ne kadar lazımsa kal",
+   "Birkaç gün, sonra bakarız",
+   "Bu hafta olmaz, başka türlü yardım ederim"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "96a10636-c640-4c8e-b29c-8d5ea35a2325",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend you barely talk to anymore asks for a big favor. What do you do?",
+  "tr": "Artık az konuştuğun bir arkadaş büyük bir iyilik istiyor. Ne yaparsın?",
+  "answers_en": [
+   "Help like old times",
+   "Help, but keep it small",
+   "Be honest you're not that close anymore"
+  ],
+  "answers_tr": [
+   "Eski günlerdeki gibi yardım edersin",
+   "Yardım edersin ama küçük tutarsın",
+   "Artık o kadar yakın olmadığını söylersin"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "8fbe5c15-1c5f-4d62-bb1c-8c87bd5e68e9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Two friend groups invite you out on the same night. What do you do?",
+  "tr": "Aynı gece iki arkadaş grubu çağırıyor. Ne yaparsın?",
+  "answers_en": [
+   "Go with whoever asked first",
+   "Go where you'd miss them more",
+   "Try to show up at both"
+  ],
+  "answers_tr": [
+   "Önce kim yazdıysa ona gidersin",
+   "Daha çok özleyeceğin tarafa gidersin",
+   "İkisine de uğramaya çalışırsın"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "da359ad8-f794-47c9-a71f-de550fd3df0c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A close friend asks to borrow a good amount of money. What do you do?",
+  "tr": "Yakın bir arkadaşın epey para borç istiyor. Ne yaparsın?",
+  "answers_en": [
+   "Lend it if you can",
+   "Only with a clear payback plan",
+   "Don't lend money to friends"
+  ],
+  "answers_tr": [
+   "Verebiliyorsan verirsin",
+   "Net bir geri ödeme planıyla",
+   "Arkadaşa para borç vermezsin"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "d6c8e97e-b3ba-44d7-b105-c1b6b2a57587",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your friend is dating someone you really can't stand. What do you do?",
+  "tr": "Arkadaşın dayanamadığın biriyle çıkıyor. Ne yaparsın?",
+  "answers_en": [
+   "Tell them early",
+   "Wait until they ask",
+   "Stay quiet and supportive"
+  ],
+  "answers_tr": [
+   "Erken söylersin",
+   "Onlar sorana kadar beklersin",
+   "Susup destek olursun"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "0d743c77-1a58-418b-8117-3263ce8f4009",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend invites you somewhere expensive you can't really afford. What do you do?",
+  "tr": "Bir arkadaşın karşılayamayacağın pahalı bir yere çağırıyor. Ne yaparsın?",
+  "answers_en": [
+   "Say you can't afford it",
+   "Suggest something cheaper",
+   "Go and stretch your budget"
+  ],
+  "answers_tr": [
+   "Param yetmez dersin",
+   "Daha ucuz bir şey önerirsin",
+   "Gidersin, bütçeyi zorlarsın"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "02bb14d7-0d08-400e-9917-9aec53c8b7c8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You overhear a friend lightly trash-talking you. What do you do?",
+  "tr": "Bir arkadaşının arkandan hafiften konuştuğunu duyuyorsun. Ne yaparsın?",
+  "answers_en": [
+   "Confront them",
+   "Pull back a bit",
+   "Let it slide once"
+  ],
+  "answers_tr": [
+   "Yüzlerine söylersin",
+   "Biraz mesafelenirsin",
+   "Bir kereye mahsus geçersin"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "660a531c-8d5e-44d7-b117-483aafb66d83",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "At a party, your friend is about to drunk-text their ex. What do you do?",
+  "tr": "Partide arkadaşın sarhoşken eski sevgilisine yazmak üzere. Ne yaparsın?",
+  "answers_en": [
+   "Take their phone",
+   "Let them do it"
+  ],
+  "answers_tr": [
+   "Telefonunu alırsın",
+   "Bırakırsın yapsın"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "6ae65593-620a-47a3-bd16-3cfdba20307b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "At dinner, the bill comes and your friend \"forgot\" their wallet again. What do you do?",
+  "tr": "Yemekte hesap geliyor, arkadaşın yine \"cüzdanı unutmuş\". Ne yaparsın?",
+  "answers_en": [
+   "Cover them and let it go",
+   "Cover them, but bring it up later"
+  ],
+  "answers_tr": [
+   "Sen ödersin, üstüne yatmazsın",
+   "Ödersin ama sonra konuşursun"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "b2f40f63-d542-449f-b8d9-7251868fe21c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In an Uber, your friend starts arguing with the driver. What do you do?",
+  "tr": "Uber'de arkadaşın şoförle tartışmaya başlıyor. Ne yaparsın?",
+  "answers_en": [
+   "Jump in and calm it down",
+   "Stay quiet and hope it ends"
+  ],
+  "answers_tr": [
+   "Araya girip yatıştırırsın",
+   "Susup bitsin diye beklersin"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "2fca8524-3f16-4523-b057-17699983cc36",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your friend starts telling an embarrassing story about you to people you just met. What do you do?",
+  "tr": "Arkadaşın yeni tanıştığınız insanlara senin utanç verici bir hikâyeni anlatmaya başlıyor. Ne yaparsın?",
+  "answers_en": [
+   "Cut them off",
+   "Let them finish"
+  ],
+  "answers_tr": [
+   "Sözünü kesersin",
+   "Anlatsın dersin"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "1dc43db7-154f-4a47-9397-f3ec7f508978",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend tells you a secret and says \"don't even tell your partner.\" What do you do?",
+  "tr": "Bir arkadaşın sana bir sır verip \"sevgiline bile söyleme\" diyor. Ne yaparsın?",
+  "answers_en": [
+   "Keep it completely",
+   "Tell my partner anyway",
+   "Keep it, unless it's something serious"
+  ],
+  "answers_tr": [
+   "Tamamen saklarım",
+   "Yine de sevgilime söylerim",
+   "Ciddi bir şey değilse saklarım"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "f1a66bde-c82e-4903-9965-90c3fa82d1b0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You and a close friend applied for the same job, and they got it. What do you do?",
+  "tr": "Yakın bir arkadaşınla aynı işe başvurdunuz ve işi o aldı. Ne yaparsın?",
+  "answers_en": [
+   "Genuinely celebrate with them",
+   "Congratulate them, but it stings inside",
+   "Need a little distance for a while"
+  ],
+  "answers_tr": [
+   "İçtenlikle onunla kutlarım",
+   "Tebrik ederim ama içten içe koyar",
+   "Bir süre biraz mesafe koyarım"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "e4d8aa34-b71c-4d2c-babe-8ef1e1d37350",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend shows up at your door without texting first. What do you do?",
+  "tr": "Bir arkadaşın haber vermeden kapına geliyor. Ne yaparsın?",
+  "answers_en": [
+   "Happily let them in",
+   "Let them in, but I'm a bit annoyed",
+   "Pretend I'm not home",
+   "Let them in, but tell them to text next time"
+  ],
+  "answers_tr": [
+   "Seve seve içeri alırım",
+   "İçeri alırım ama biraz bozulurum",
+   "Evde yokmuş gibi yaparım",
+   "Alırım ama bir dahakine haber ver derim"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "5587411e-e5d6-4c3b-b709-925a48828ccd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend asks you to cover for them with their partner. What do you do?",
+  "tr": "Bir arkadaşın sevgilisine karşı onu idare etmeni istiyor. Ne yaparsın?",
+  "answers_en": [
+   "Cover for them, no questions asked",
+   "Only if I know what's going on",
+   "Say no, I don't want to be part of it",
+   "Say yes, but tell them it's the last time"
+  ],
+  "answers_tr": [
+   "Sorgusuz sualsiz idare ederim",
+   "Ancak ne olduğunu bilirsem",
+   "Hayır derim, bu işe karışmam",
+   "Kabul ederim ama son kez derim"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "2ceb502c-1cb0-4d19-b751-39c067c789a3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A close friend forgot your birthday. What do you do?",
+  "tr": "Yakın bir arkadaşın doğum gününü unuttu. Ne yaparsın?",
+  "answers_en": [
+   "Don't care at all",
+   "Hurt, but say nothing",
+   "Bring it up jokingly",
+   "Tell them it really hurt"
+  ],
+  "answers_tr": [
+   "Hiç umursamam",
+   "Kırılırım ama bir şey demem",
+   "Şakayla karışık söylerim",
+   "Gerçekten kırıldığımı söylerim"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "90a8ef25-80da-4dce-a879-4c4de8f1272a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How do you usually show a friend you care?",
+  "tr": "Bir arkadaşına değer verdiğini genelde nasıl gösterirsin?",
+  "answers_en": [
+   "Spending time together",
+   "Small gifts and surprises",
+   "Hyping them up and complimenting them",
+   "Helping out when they need it",
+   "Checking in with random texts"
+  ],
+  "answers_tr": [
+   "Birlikte vakit geçirerek",
+   "Küçük hediyeler ve sürprizlerle",
+   "Gaz verip iltifat ederek",
+   "İhtiyacı olunca yardım ederek",
+   "Durduk yere mesaj atıp halini sorarak"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "5ea9ba87-e9a5-45bd-b147-03e94f0d2eee",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Compared to a romantic breakup, losing a close friend hurts...",
+  "tr": "Bir sevgiliden ayrılmakla kıyaslayınca, yakın bir arkadaşı kaybetmek...",
+  "answers_en": [
+   "More",
+   "Less",
+   "About the same"
+  ],
+  "answers_tr": [
+   "Daha çok acıtır",
+   "Daha az acıtır",
+   "Aşağı yukarı aynı"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "81c3e73b-6f4a-401f-be7c-7322f3c88d97",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "How often should close friends talk?",
+  "tr": "Yakın arkadaşlar ne sıklıkla konuşmalı?",
+  "answers_en": [
+   "Every day",
+   "A few times a week",
+   "Once a week or so",
+   "Whenever, there are no rules"
+  ],
+  "answers_tr": [
+   "Her gün",
+   "Haftada birkaç kez",
+   "Haftada bir gibi",
+   "Ne zaman olursa, kuralı yok"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "bf330507-367e-4d2b-a74c-51bbacecc0de",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Can a friend you've only met online be a real close friend?",
+  "tr": "Sadece internetten tanıdığın biri gerçekten yakın arkadaşın olabilir mi?",
+  "category": "just_friends"
+ },
+ {
+  "id": "ad99c683-1579-4b76-ac84-bbe48ccc1529",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What's the most you'd spend on a close friend's birthday gift?",
+  "tr": "Yakın bir arkadaşının doğum günü hediyesine en fazla ne kadar harcarsın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "fe5a5b25-7f16-4855-b749-d4e8e9cc1d5f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Making new close friends as an adult is...",
+  "tr": "Yetişkinken yeni yakın arkadaşlar edinmek...",
+  "answers_en": [
+   "Easy if you put yourself out there",
+   "Hard, but possible",
+   "Almost impossible"
+  ],
+  "answers_tr": [
+   "Kendini açarsan kolay",
+   "Zor ama mümkün",
+   "Neredeyse imkansız"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "8c65c713-6463-475a-bf56-9ec5381e9302",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Can a coworker become one of your closest friends?",
+  "tr": "Bir iş arkadaşın en yakın arkadaşlarından biri olabilir mi?",
+  "category": "just_friends"
+ },
+ {
+  "id": "beb7f795-5c55-41bd-98fc-a459db151882",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How long do you need to know someone before calling them a close friend?",
+  "tr": "Birine \"yakın arkadaşım\" demek için onu ne kadar süredir tanıman gerekir?",
+  "category": "just_friends"
+ },
+ {
+  "id": "fb50cd2d-2221-4e5f-b6eb-1a37644fda56",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your close friend starts dating your sibling. How do you feel?",
+  "tr": "Yakın arkadaşın kardeşinle sevgili oluyor. Ne hissedersin?",
+  "answers_en": [
+   "Happy for them",
+   "Weird, but I'd get used to it",
+   "Not okay with it at all"
+  ],
+  "answers_tr": [
+   "Onlar adına sevinirim",
+   "Garip gelir ama alışırım",
+   "Hiç hoşuma gitmez"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "68663bf0-f74e-4eb2-9375-794c0160fd51",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Hanging out with a friend in total silence, each doing your own thing...",
+  "tr": "Bir arkadaşınla aynı ortamda hiç konuşmadan, herkes kendi işini yaparak takılmak...",
+  "answers_en": [
+   "Feels like real closeness",
+   "Fine once in a while",
+   "Feels awkward"
+  ],
+  "answers_tr": [
+   "Gerçek yakınlık budur",
+   "Arada bir olur",
+   "Garip hissettirir"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "fb1756d1-62b7-4393-9307-53cd0f287376",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When you get big news, who hears it first?",
+  "tr": "Büyük bir haber aldığında ilk kime söylersin?",
+  "answers_en": [
+   "My partner",
+   "My best friend",
+   "My family",
+   "Everyone at once in the group chat"
+  ],
+  "answers_tr": [
+   "Sevgilim",
+   "En yakın arkadaşım",
+   "Ailem",
+   "Grupta herkes aynı anda"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "c1fa53a1-cf09-4356-a17d-4b3af5c3a9f7",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What's one habit in a friend that drives you crazy?",
+  "tr": "Bir arkadaşında seni en çok çıldırtan alışkanlık ne?",
+  "category": "just_friends"
+ },
+ {
+  "id": "570b53e3-9da8-412a-88f9-c3df5793d601",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you start a business with a close friend?",
+  "tr": "Yakın bir arkadaşınla ortak iş kurar mısın?",
+  "category": "just_friends"
+ },
+ {
+  "id": "c72dd7bf-86a8-4621-b2f2-ed918e7319c3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your friend starts bringing their new partner to every hangout. What do you do?",
+  "tr": "Arkadaşın yeni sevgilisini her buluşmaya getirmeye başlıyor. Ne yaparsın?",
+  "answers_en": [
+   "Love it, the more the merrier",
+   "It's fine, but I miss our time alone",
+   "Ask for some friends-only time",
+   "Start seeing them less"
+  ],
+  "answers_tr": [
+   "Severim, ne kadar kalabalık o kadar iyi",
+   "Sorun değil ama baş başa vaktimizi özlerim",
+   "Sadece arkadaşlar olarak buluşalım derim",
+   "Daha az görüşmeye başlarım"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "637c640b-fdb6-4280-9bb5-d10092e0490f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Sharing streaming passwords with friends...",
+  "tr": "Arkadaşlarla dizi-film platformu şifresi paylaşmak...",
+  "answers_en": [
+   "Totally normal",
+   "Only with my closest ones",
+   "Never"
+  ],
+  "answers_tr": [
+   "Gayet normal",
+   "Sadece en yakınlarımla",
+   "Asla"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "11e1d92e-1142-4d19-b8eb-9e85b241a9c9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Competition between close friends...",
+  "tr": "Yakın arkadaşlar arasındaki rekabet...",
+  "answers_en": [
+   "Keeps us motivated",
+   "Slowly ruins the friendship"
+  ],
+  "answers_tr": [
+   "Bizi motive eder",
+   "Arkadaşlığı yavaş yavaş bitirir"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "04beefdc-5d0a-47a0-8476-209397119731",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend asks you to set them up with someone. What do you do?",
+  "tr": "Bir arkadaşın ona birini ayarlamanı istiyor. Ne yaparsın?",
+  "answers_en": [
+   "Love playing matchmaker",
+   "Only if I know a really good match",
+   "Stay out of it, too risky"
+  ],
+  "answers_tr": [
+   "Çöpçatanlık yapmaya bayılırım",
+   "Ancak gerçekten uygun birini bilirsem",
+   "Karışmam, çok riskli"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "d97011a0-577f-437e-b2f7-34d6e3f16ec7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your friend is sick at home alone. What do you do?",
+  "tr": "Arkadaşın evde tek başına hasta. Ne yaparsın?",
+  "answers_en": [
+   "Show up with soup and medicine",
+   "Send food with a delivery app",
+   "Text to check in",
+   "Wait for them to ask for help"
+  ],
+  "answers_tr": [
+   "Çorba ve ilaçla kapısına giderim",
+   "Yemek siparişi gönderirim",
+   "Mesaj atıp halini sorarım",
+   "Yardım isterse yardım ederim"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "49f2c5bd-906c-4677-938d-2634f11f2c0e",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many friends would you invite to your birthday?",
+  "tr": "Doğum gününe kaç arkadaşını davet edersin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "80b1847b-4029-4376-b594-cf2439e45e3c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend starts copying your style and hobbies. How do you feel?",
+  "tr": "Bir arkadaşın tarzını ve hobilerini taklit etmeye başlıyor. Ne hissedersin?",
+  "answers_en": [
+   "Flattered",
+   "Don't really care",
+   "A bit annoyed",
+   "I'd say something about it"
+  ],
+  "answers_tr": [
+   "Hoşuma gider",
+   "Pek umursamam",
+   "Biraz gıcık olurum",
+   "Bir şey derim"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "9d61613c-1992-45d8-bef1-37f07f995e66",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend got you a much more expensive gift than you got them. What do you do?",
+  "tr": "Bir arkadaşın sana, senin ona aldığından çok daha pahalı bir hediye aldı. Ne yaparsın?",
+  "answers_en": [
+   "Nothing, it's not a competition",
+   "Feel embarrassed",
+   "Make up for it next time"
+  ],
+  "answers_tr": [
+   "Hiçbir şey, yarış değil bu",
+   "Mahcup olurum",
+   "Bir dahakine telafi ederim"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "826c30c4-7dae-497a-be3b-a89531829cef",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you lend your favorite piece of clothing to a friend?",
+  "tr": "En sevdiğin kıyafetini bir arkadaşına ödünç verir misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "c17f6d8c-88be-4516-b333-5e7b45e4997f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your best friend asks you to help plan their wedding. What do you do?",
+  "tr": "En yakın arkadaşın düğününü planlamak için yardımını istiyor. Ne yaparsın?",
+  "answers_en": [
+   "Dive in all the way",
+   "Help, but within limits",
+   "Just show up on the big day"
+  ],
+  "answers_tr": [
+   "Tamamen işin içine dalarım",
+   "Yardım ederim ama bir sınırı var",
+   "Sadece düğün günü gelirim"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "bea820e2-cce1-49fc-aa07-4ab99ead86c4",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many hours would you travel for a close friend's birthday?",
+  "tr": "Yakın bir arkadaşının doğum günü için kaç saat yol gidersin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "45cf28ad-01d6-458f-b371-d10cb5d628b3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend needs a ride to the airport at 5am. What do you do?",
+  "tr": "Bir arkadaşının sabah 5'te havalimanına gitmesi gerekiyor, seni arıyor. Ne yaparsın?",
+  "answers_en": [
+   "Drive them, no problem",
+   "Drive them, but complain the whole way",
+   "Pay for their taxi instead",
+   "Tell them I can't"
+  ],
+  "answers_tr": [
+   "Seve seve götürürüm",
+   "Götürürüm ama yol boyu söylenirim",
+   "Onun yerine taksisini öderim",
+   "Yapamam derim"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "cee7b4d0-8a85-42ae-9d36-e805461c3601",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you share your live location with your close friends?",
+  "tr": "Yakın arkadaşlarınla canlı konumunu paylaşıyor musun?",
+  "category": "just_friends"
+ },
+ {
+  "id": "1261e2f8-c857-4478-8e71-e0a25b6dac19",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend who always tells you the harsh truth...",
+  "tr": "Sana her zaman acı gerçeği söyleyen bir arkadaş...",
+  "answers_en": [
+   "Is the best kind of friend",
+   "Gets exhausting after a while"
+  ],
+  "answers_tr": [
+   "Arkadaşın en iyisidir",
+   "Bir süre sonra yorar"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "6cb7ef7c-1478-4456-b1cf-d26358f74de0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Friendships with a big age gap (10+ years)...",
+  "tr": "Aranızda büyük yaş farkı olan (10+ yıl) arkadaşlıklar...",
+  "answers_en": [
+   "Totally work",
+   "Work, but they feel different",
+   "Hard to really click"
+  ],
+  "answers_tr": [
+   "Gayet olur",
+   "Olur ama farklı oluyor",
+   "Tam anlaşmak zor"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "9fea2ef2-07b0-4d41-b852-f5bf24dd2b6f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "On a group trip, one friend wants to spend way more than everyone else. What do you do?",
+  "tr": "Grup tatilinde bir arkadaşın herkesten çok daha fazla para harcamak istiyor. Ne yaparsın?",
+  "answers_en": [
+   "Go along with it",
+   "Split up for the pricey plans",
+   "Set a group budget from the start",
+   "Tell them straight it's too much"
+  ],
+  "answers_tr": [
+   "Ayak uydururum",
+   "Pahalı planlarda ayrılırız",
+   "En baştan grup bütçesi belirlerim",
+   "Açık açık fazla olduğunu söylerim"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "e442ad82-0026-4be1-a02d-5cf52c6db6b3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When a friend upsets you, do you tell them instead of quietly pulling away?",
+  "tr": "Bir arkadaşın seni kırdığında, sessizce uzaklaşmak yerine ona söyler misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "a568c592-7960-40ea-b5e7-f8fcff9f1109",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend asks you to watch their pet for a week. What do you do?",
+  "tr": "Bir arkadaşın bir haftalığına evcil hayvanına bakmanı istiyor. Ne yaparsın?",
+  "answers_en": [
+   "Happily, I love animals",
+   "Depends on the animal",
+   "Yes, but only at their place",
+   "Say no"
+  ],
+  "answers_tr": [
+   "Seve seve, hayvanlara bayılırım",
+   "Hangi hayvan olduğuna bağlı",
+   "Olur ama sadece onun evinde",
+   "Hayır derim"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "f7975688-29c1-4bff-9678-56257d052a89",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A close friend suddenly becomes famous. What changes for you?",
+  "tr": "Yakın bir arkadaşın birden ünlü oluyor. Senin için ne değişir?",
+  "answers_en": [
+   "Nothing, they're still the same to me",
+   "I'd brag about it to everyone",
+   "I'd naturally keep a little distance",
+   "I'd worry they'll change"
+  ],
+  "answers_tr": [
+   "Hiçbir şey, benim için hâlâ aynı",
+   "Herkese hava atarım",
+   "Doğal olarak biraz mesafe koyarım",
+   "Değişecek diye endişelenirim"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "53f44073-13ad-4340-b3dc-428d01768d73",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A friend starts selling stuff and keeps pitching it to you. What do you do?",
+  "tr": "Bir arkadaşın bir şeyler satmaya başlıyor ve sürekli sana da satmaya çalışıyor. Ne yaparsın?",
+  "answers_en": [
+   "Buy once to support them",
+   "Politely say no every time",
+   "Tell them it's getting annoying",
+   "Mute them"
+  ],
+  "answers_tr": [
+   "Destek olsun diye bir kere alırım",
+   "Her seferinde kibarca reddederim",
+   "Artık sinir bozucu olduğunu söylerim",
+   "Sessize alırım"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "392563c7-8455-4b18-a840-2569bad40fb3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "After a fight with a close friend, who reaches out first?",
+  "tr": "Yakın bir arkadaşınla tartıştıktan sonra ilk kim yazar?",
+  "answers_en": [
+   "Always me",
+   "Whoever was wrong",
+   "Nobody, we act like nothing happened",
+   "Nobody, it usually ends there"
+  ],
+  "answers_tr": [
+   "Her zaman ben",
+   "Kim haksızsa o",
+   "Kimse, hiçbir şey olmamış gibi devam ederiz",
+   "Kimse, genelde orada biter"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "580d620b-1ff6-4662-b9e7-783a83b482ab",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Posting your friends on your social media...",
+  "tr": "Arkadaşlarını sosyal medyanda paylaşmak...",
+  "answers_en": [
+   "Shows you care about them",
+   "Isn't necessary at all"
+  ],
+  "answers_tr": [
+   "Onlara değer verdiğini gösterir",
+   "Hiç gerekli değil"
+  ],
+  "category": "just_friends"
+ },
+ {
+  "id": "c01dd781-f740-41b0-a72c-d6706d48e8ff",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Could you be friends with your partner's ex?",
+  "tr": "Sevgilinin eski sevgilisiyle arkadaş olabilir misin?",
+  "category": "just_friends"
+ },
+ {
+  "id": "0dca06e6-2ca7-47d9-baad-475f804027d3",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What's the ideal number of people for a friends' trip?",
+  "tr": "Arkadaşlarla tatil için ideal kişi sayısı kaç?",
+  "category": "just_friends"
+ }
+]

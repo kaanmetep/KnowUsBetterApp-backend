@@ -27,6 +27,12 @@ export interface SocketData {
   appUserId?: string;
   /** A register-user that couldn't be checked because the database failed. */
   unverifiedRegistration?: { appUserId: string; token: unknown };
+  /**
+   * The app said in register-user that its previous connection dropped
+   * (newer builds also name that socket). The server may not have noticed
+   * yet, so that socket can still look connected.
+   */
+  reportedDrop?: { previousSocketId?: string };
 }
 
 export interface ServerToClientEvents {
@@ -197,6 +203,7 @@ export interface ClientToServerEvents {
   "create-room": (data: CreateRoomData) => void;
   "join-room": (data: JoinRoomData) => void;
   "get-room": (data: GetRoomData) => void;
+  "app-ping": (ack?: () => void) => void;
   "leave-room": (data: { roomCode: string }) => void;
   /**
    * `appUserId` pays for the category when the socket isn't registered yet.
@@ -216,6 +223,8 @@ export interface ClientToServerEvents {
           appUserId: string;
           token?: string | null;
           lastDisconnect?: unknown;
+          /** The socket that dropped, so its seat can move here before the server notices. */
+          previousSocketId?: unknown;
           identity?: unknown;
         },
   ) => void;
@@ -228,6 +237,11 @@ export interface ClientToServerEvents {
   "change-category": (data: { roomCode: string; category: Category }) => void;
   /** `playerId`: single-phone mode, the partner on this phone who agreed. */
   "ai-consent": (data: { roomCode: string; playerId?: string }) => void;
+  /** Single phone, host only: done with this round's result, move on. */
+  "advance-round": (
+    data: { roomCode: string; questionId: string },
+    ack?: (result: { ok: boolean }) => void,
+  ) => void;
   "report-answer": (
     data: ReportAnswerData,
     ack?: (result: { success: boolean }) => void,
@@ -358,6 +372,35 @@ export function cleanPlayerName(name: unknown): string {
   return maskProfanity(capped);
 }
 
+/**
+ * The name, made different from the names already taken in the room. The app
+ * tells players apart by name in places (know_each_other's "about you"), so
+ * two "Kaan"s would both be the subject; the second becomes "Kaan 2".
+ */
+export function uniquePlayerName(name: string, taken: string[]): string {
+  const key = (value: string) => value.trim().toLocaleLowerCase();
+  const used = new Set(taken.map(key));
+  if (!name || !used.has(key(name))) return name;
+  for (let n = 2; ; n++) {
+    const suffix = ` ${n}`;
+    const base = Array.from(name)
+      .slice(0, Math.max(1, PLAYER_NAME_MAX_LENGTH - suffix.length))
+      .join("")
+      .trim();
+    const candidate = base + suffix;
+    if (!used.has(key(candidate))) return candidate;
+  }
+}
+
+/**
+ * Whether a game the partner dropped out of is refunded to the host: only if
+ * the partner answered less than half of it (unknown length: refunded).
+ */
+export function refundsUnfinishedGame(roundsPlayed: number, totalRounds: number): boolean {
+  if (!totalRounds) return true;
+  return roundsPlayed * 2 < totalRounds;
+}
+
 /** An avatar id like "girl_avatar_3"; anything else shows the default avatar. */
 export function cleanAvatar(avatar: unknown): string {
   return typeof avatar === "string" && AVATAR_ID.test(avatar) ? avatar : "";
@@ -373,7 +416,27 @@ export function getQuestionDuration(
   if (phase === "guess") return TWO_TRUTHS_GUESS_DURATION;
   return isTextQuestion(question)
     ? settings.textQuestionDuration ?? DEFAULT_TEXT_QUESTION_DURATION
-    : settings.questionDuration;
+    : settings.questionDuration + readingSeconds(question);
+}
+
+// Long questions (some know_me_well_hard ones run past 400 characters) need
+// time to read before the timer starts to bite, especially on small phones
+// where the options sit below the fold.
+const READING_FREE_CHARS = 140;
+const READING_CHARS_PER_SECOND = 15;
+const READING_MAX_EXTRA_SECONDS = 15;
+
+/** Extra seconds for a long question, by its longest translation. */
+export function readingSeconds(question: Question | null | undefined): number {
+  const texts = Object.values(question?.texts ?? {}).filter(
+    (text): text is string => typeof text === "string",
+  );
+  const longest = texts.reduce((max, text) => Math.max(max, text.length), 0);
+  if (longest <= READING_FREE_CHARS) return 0;
+  return Math.min(
+    READING_MAX_EXTRA_SECONDS,
+    Math.ceil((longest - READING_FREE_CHARS) / READING_CHARS_PER_SECOND),
+  );
 }
 
 export function getResultDisplayDuration(

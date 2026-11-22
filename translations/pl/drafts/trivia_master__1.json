@@ -1,0 +1,818 @@
+{
+ "980115c5-d5c7-49e5-a782-cc1175a6518b": {
+  "text": "Który narząd zużywa największą część energii ludzkiego organizmu?",
+  "answers": [
+   "Mózg",
+   "Serce",
+   "Wątroba",
+   "Nerki"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a1a237a1-628a-4008-9ba2-36d59a0e6171": {
+  "text": "Zmieszanie których barw podstawowych daje kolor zielony?",
+  "answers": [
+   "Niebieskiej i żółtej",
+   "Czerwonej i niebieskiej",
+   "Żółtej i czerwonej"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c1cb1e49-a9cc-43e1-b6da-34f4da305a37": {
+  "text": "Który element architektury starożytni Rzymianie rozwinęli, by podtrzymywać ogromne kopuły?",
+  "answers": [
+   "Łuk",
+   "Kolumna",
+   "Piramida"
+  ],
+  "accepted": [],
+  "flagged": true,
+  "note": "Source says Romans 'invented' the arch; historically it predates Rome (Mesopotamia), so softened to 'rozwinęli' (developed). Answer key unchanged."
+ },
+ "e9339914-1d7d-423a-9a28-2519995eb9e6": {
+  "text": "Która planeta Układu Słonecznego obraca się w przeciwną stronę niż większość pozostałych?",
+  "answers": [
+   "Wenus",
+   "Mars",
+   "Jowisz",
+   "Saturn"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "52c90157-fc1f-4878-9f00-91c318581ade": {
+  "text": "Który kręgowiec żyje najdłużej na Ziemi?",
+  "answers": [
+   "Rekin grenlandzki",
+   "Żółw słoniowy",
+   "Wal grenlandzki"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c3b7010c-35ea-402f-a186-4035fa9be837": {
+  "text": "Który owoc, wbrew pozorom, jest botanicznie jagodą?",
+  "answers": [
+   "Banan",
+   "Truskawka",
+   "Malina"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0e882595-4846-4d01-a879-ccb1be0cdc0a": {
+  "text": "W jakim kraju stoi słynna wieża Eiffla?",
+  "answers": [
+   "Francja",
+   "Włochy",
+   "Hiszpania",
+   "Niemcy"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5f20efa2-53ef-4bc7-b7de-966c2a271457": {
+  "text": "Którą planetę Układu Słonecznego nazywa się „Czerwoną Planetą”?",
+  "answers": [
+   "Mars",
+   "Jowisz",
+   "Wenus"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4d359908-e7a2-4ef5-bde1-d9fc49ee3218": {
+  "text": "Który ssak lądowy słynie z tego, że nie potrafi skakać?",
+  "answers": [
+   "Słoń",
+   "Żyrafa",
+   "Hipopotam",
+   "Nosorożec"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a98b74cf-707a-4d84-a017-ea98f2d69e68": {
+  "text": "Ile boków ma standardowy znak „STOP”?",
+  "answers": [
+   "8",
+   "6",
+   "10"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1002c05b-034b-4dd1-a1fb-adf942e36c58": {
+  "text": "Jaki kolor powstaje po zmieszaniu niebieskiego z żółtym?",
+  "answers": [
+   "Zielony",
+   "Fioletowy",
+   "Pomarańczowy"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4563d6d4-5301-4f89-811a-045b66157aa2": {
+  "text": "Który napój gazowany wymyślono pierwotnie jako lek na kaszel i ból głowy?",
+  "answers": [
+   "Coca-Cola",
+   "Sprite",
+   "Fanta",
+   "Pepsi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "83fbd060-6ae4-4fc1-9ebe-4b0e7a2e0c15": {
+  "text": "Który narząd pompuje krew w układzie krwionośnym?",
+  "answers": [
+   "Serce",
+   "Płuca",
+   "Nerki"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a79f90ff-8ce5-493b-8b50-2ef10c1f9c26": {
+  "text": "Ile kontynentów jest na Ziemi?",
+  "answers": [
+   "7",
+   "5",
+   "6",
+   "8"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b6c425a9-162f-4107-919c-20eea21afc7a": {
+  "text": "Jak nazywa się wyobrażona linia dzieląca Ziemię na półkulę północną i południową?",
+  "answers": [
+   "Równik",
+   "Południk Greenwich",
+   "Zwrotnik Raka"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6d38ce25-2cda-440e-b549-81e7ac23cec6": {
+  "text": "Który kraj podarował Stanom Zjednoczonym Statuę Wolności?",
+  "answers": [
+   "Francja",
+   "Wielka Brytania",
+   "Hiszpania"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "71f547f0-2910-4a59-b084-5a1da579b6fd": {
+  "text": "Jaki jest największy żyjący ssak na Ziemi?",
+  "answers": [
+   "Płetwal błękitny",
+   "Słoń afrykański",
+   "Żyrafa"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "eb10929a-ee75-431c-8b54-1c62a3954c40": {
+  "text": "Która figura szachowa może poruszać się w każdym kierunku o dowolną liczbę pól?",
+  "answers": [
+   "Hetman",
+   "Wieża",
+   "Skoczek"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d322c35e-b645-48fb-a14c-cb92c5fd3a2d": {
+  "text": "Który metal w temperaturze pokojowej jest ciekły?",
+  "answers": [
+   "Rtęć",
+   "Złoto",
+   "Srebro"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cb7fac86-596c-459d-a42f-b6ba0d8fc977": {
+  "text": "Który kraj dał światu pizzę i makaron?",
+  "answers": [
+   "Włochy",
+   "Grecja",
+   "Hiszpania"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5aabe2cc-9cc4-458a-835e-7b996e00fc3f": {
+  "text": "Które morskie stworzenie ma osiem ramion i trzy serca?",
+  "answers": [
+   "Ośmiornica",
+   "Meduza",
+   "Delfin"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6a8c5efa-0b23-4be2-9388-f2160e79d450": {
+  "text": "Jaki jest symbol chemiczny złota w układzie okresowym?",
+  "answers": [],
+  "accepted": [
+   "Au",
+   "au",
+   "AU"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "b96c042c-87f1-4b1d-9bf1-420704c1751d": {
+  "text": "Jaki barwnik nadaje kolor ludzkiej skórze, włosom i oczom?",
+  "answers": [],
+  "accepted": [
+   "Melanina",
+   "melanina",
+   "Melanin"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "1508ac33-05f6-4377-b707-44fedf4e71dd": {
+  "text": "Jak nazywa się zewnętrzna, ochronna warstwa ludzkich zębów?",
+  "answers": [],
+  "accepted": [
+   "Szkliwo",
+   "Szkliwo zębów",
+   "Szkliwo zębowe",
+   "szkliwo",
+   "Enamel"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "b67421f6-8ac4-4d1a-80be-6e67cd22a44a": {
+  "text": "Dzięki jakiemu procesowi zielone rośliny zamieniają światło słoneczne w pożywienie?",
+  "answers": [],
+  "accepted": [
+   "Fotosynteza",
+   "fotosynteza",
+   "Fotosynteze",
+   "Fotosyntezie"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "ff20387b-ecc5-4100-8a3e-4a10c409f056": {
+  "text": "Jak nazywa się naturalny satelita Ziemi?",
+  "answers": [],
+  "accepted": [
+   "Księżyc",
+   "Ksiezyc",
+   "księżyc",
+   "Moon"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "6aaa16e5-4afb-4d6a-ae8c-cd19dbcc710e": {
+  "text": "Który naturalny minerał jest najtwardszy w skali Mohsa?",
+  "answers": [],
+  "accepted": [
+   "Diament",
+   "diament",
+   "Diamenty",
+   "Diamond"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "084018a1-dd49-4965-aebd-934b0318c6a6": {
+  "text": "Jakie zwierzę lądowe jest najszybsze na świecie na krótkim dystansie?",
+  "answers": [],
+  "accepted": [
+   "Gepard",
+   "gepard",
+   "Cheetah"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "2dce8722-4a23-4666-86b4-656be891094b": {
+  "text": "Który naukowiec sformułował trzy zasady dynamiki, na których opiera się mechanika klasyczna?",
+  "answers": [
+   "Isaac Newton",
+   "Galileusz",
+   "Albert Einstein",
+   "Nikola Tesla"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8a9f4fe4-c5b9-409a-be56-e499c4c63f03": {
+  "text": "Która starożytna cywilizacja wynalazła pismo klinowe, jeden z najstarszych systemów pisma?",
+  "answers": [
+   "Sumerowie",
+   "Starożytni Egipcjanie",
+   "Majowie",
+   "Cywilizacja doliny Indusu"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6b0624f0-17cf-4745-9229-15a908f2a283": {
+  "text": "Które miasto nazywane jest „Wielkim Jabłkiem”?",
+  "answers": [],
+  "accepted": [
+   "Nowy Jork",
+   "New York",
+   "Nowy York",
+   "Newyork",
+   "NYC",
+   "NY",
+   "Manhattan"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "b5a1d6a7-2975-45c3-9da2-527a6839b14b": {
+  "text": "Które słynne miasto leży na dwóch kontynentach, w Europie i Azji?",
+  "answers": [],
+  "accepted": [
+   "Stambuł",
+   "Stambul",
+   "Istanbul",
+   "İstanbul",
+   "Konstantynopol",
+   "Bizancjum"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "3b45c9ca-6907-4477-b5ea-8bfc62790c60": {
+  "text": "Które miasto słynie z kanałów i gondoli?",
+  "answers": [],
+  "accepted": [
+   "Wenecja",
+   "Wenecji",
+   "Venezia",
+   "Venice"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "23c98892-b152-43da-b6a0-82128ebef70a": {
+  "text": "Hollywood to dzielnica którego miasta?",
+  "answers": [],
+  "accepted": [
+   "Los Angeles",
+   "LA",
+   "L.A.",
+   "Losangeles",
+   "Miasto Aniołów"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "1d666e97-1005-4ff3-81d3-e770e64be6ec": {
+  "text": "W jakim mieście stoi wieża Eiffla?",
+  "answers": [],
+  "accepted": [
+   "Paryż",
+   "Paryz",
+   "Paris",
+   "Miasto Świateł"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "1b8bf486-da98-42aa-a150-48e2a7258023": {
+  "text": "W którym włoskim mieście stoi słynna Krzywa Wieża?",
+  "answers": [],
+  "accepted": [
+   "Piza",
+   "Pisa",
+   "Pizie"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "f6b38b97-7a9e-42e4-9197-e65bb05144fe": {
+  "text": "Brama Brandenburska to symbol którego miasta?",
+  "answers": [],
+  "accepted": [
+   "Berlin",
+   "Berlinie",
+   "berlin",
+   "Berlin Niemcy"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "d58f0d3d-5ae0-4d57-9c67-31b512ad9ec9": {
+  "text": "Jakie jest największe zwierzę, które kiedykolwiek żyło na Ziemi?",
+  "answers": [],
+  "accepted": [
+   "Płetwal błękitny",
+   "Pletwal blekitny",
+   "Płetwal",
+   "Błękitny wieloryb",
+   "Wieloryb błękitny",
+   "Blue whale"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "bac52e71-1145-40f6-995a-c19cdb34796f": {
+  "text": "Jaka roślina stanowi niemal całą dietę pandy wielkiej?",
+  "answers": [],
+  "accepted": [
+   "Bambus",
+   "bambus",
+   "Pędy bambusa",
+   "Liście bambusa",
+   "Bamboo"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "0ab4f29e-ab23-48bd-9b43-ac381b2402b6": {
+  "text": "Ile nóg ma pająk?",
+  "answers": [],
+  "accepted": [
+   "8",
+   "Osiem",
+   "8 nóg",
+   "Osiem nóg",
+   "4 pary",
+   "Cztery pary"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "a10b4878-ff6f-48e9-9efa-b5ca90f7787e": {
+  "text": "Które afrykańskie zwierzę podobne do konia słynie z czarno-białych pasków?",
+  "answers": [],
+  "accepted": [
+   "Zebra",
+   "Zebry",
+   "zebra",
+   "Zeebra"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "b6e68e10-746b-4a94-9206-99458a27c2f8": {
+  "text": "Który ptak znosi największe jaja na świecie?",
+  "answers": [],
+  "accepted": [
+   "Struś",
+   "Strus",
+   "Strusie",
+   "Struś afrykański",
+   "Ostrich"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "70cd3353-de0e-4861-a3a2-4d30de21df32": {
+  "text": "Który biały ptak jest na całym świecie symbolem pokoju?",
+  "answers": [],
+  "accepted": [
+   "Gołąb",
+   "Golab",
+   "Biały gołąb",
+   "Gołąbek",
+   "Gołąbek pokoju",
+   "Gołębica"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "1ce201ba-eaae-4e68-9728-8b1eda0a8ca5": {
+  "text": "Które morskie stworzenie ma osiem ramion i potrafi wypuszczać atrament?",
+  "answers": [],
+  "accepted": [
+   "Ośmiornica",
+   "Osmiornica",
+   "Ośmiornice",
+   "Octopus",
+   "Kałamarnica"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "78899d32-d997-4e60-b9a5-c635406a0d3a": {
+  "text": "Z jakiego kraju pochodzi sushi?",
+  "answers": [],
+  "accepted": [
+   "Japonia",
+   "Japonii",
+   "Japonie",
+   "Nippon",
+   "Japan",
+   "Japońskie"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "e3224e00-4e9d-4756-b4b7-34c7b3a1d378": {
+  "text": "Jaki jest główny składnik guacamole?",
+  "answers": [],
+  "accepted": [
+   "Awokado",
+   "Avocado",
+   "Awocado",
+   "Avokado",
+   "awokado"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "b8c37ace-a5e4-48f1-8f35-dfe55af4f856": {
+  "text": "Pomidor, mozzarella i bazylia na pizzy Margherita to kolory flagi którego kraju?",
+  "answers": [],
+  "accepted": [
+   "Włochy",
+   "Wlochy",
+   "Włoch",
+   "Italia",
+   "Italy",
+   "Włoska"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "64af17d4-a459-43d3-8605-b2bb6c19f828": {
+  "text": "Z jakiego kraju pochodzi paella, słynne danie z ryżu?",
+  "answers": [],
+  "accepted": [
+   "Hiszpania",
+   "Hiszpanii",
+   "España",
+   "Spain",
+   "Walencja"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "b7003871-d60e-401b-9b08-41e7e2e5526e": {
+  "text": "Długie, chrupiące pieczywo zwane bagietką to symbol którego kraju?",
+  "answers": [],
+  "accepted": [
+   "Francja",
+   "Francji",
+   "France",
+   "Francuska",
+   "Paryż"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "f621bf3d-8230-483c-9cb0-c0a50a2d71c2": {
+  "text": "Z czego głównie robi się keczup?",
+  "answers": [],
+  "accepted": [
+   "Pomidory",
+   "Pomidor",
+   "Pomidorów",
+   "Z pomidorów",
+   "Koncentrat pomidorowy",
+   "Tomato"
+  ],
+  "flagged": false,
+  "note": "Dropped 'fruit' wording: in Polish usage the tomato is a vegetable, so 'z jakiego owocu' would sound wrong."
+ },
+ "e0117c78-8511-4559-a40c-807bf3b44bef": {
+  "text": "Jakiego koloru jest wasabi, ostra pasta podawana do sushi?",
+  "answers": [],
+  "accepted": [
+   "Zielony",
+   "Zielone",
+   "Zielona",
+   "Jasnozielony",
+   "Jasnozielone",
+   "Green"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "f5489aa3-87f1-4b69-92dc-5cf074b1632c": {
+  "text": "Tacos i burrito to dania kuchni którego kraju?",
+  "answers": [],
+  "accepted": [
+   "Meksyk",
+   "Meksyku",
+   "Meksykańska",
+   "Kuchnia meksykańska",
+   "Mexico",
+   "México"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "a65dcf3d-b93a-4b2c-92db-b4d5f1fd4e1e": {
+  "text": "Jaki alkohol powstaje ze sfermentowanych winogron?",
+  "answers": [],
+  "accepted": [
+   "Wino",
+   "wino",
+   "Czerwone wino",
+   "Białe wino",
+   "Wina",
+   "Wine"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "8777cf9c-ad05-4381-831d-fdbe8e97e782": {
+  "text": "Ilu zawodników z jednej drużyny gra na boisku w piłce nożnej?",
+  "answers": [
+   "9",
+   "10",
+   "11",
+   "12"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8bc06cc3-41d5-48fb-b558-a0e7211cd256": {
+  "text": "Ile kół jest na fladze olimpijskiej?",
+  "answers": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bc53010b-e468-4440-b51f-1e8e88af45a9": {
+  "text": "Ile punktów jest wart rzut zza łuku w koszykówce?",
+  "answers": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d861a43a-aa1f-4890-8756-19fc302921f3": {
+  "text": "W którym sporcie gra się lotką?",
+  "answers": [
+   "Squash",
+   "Tenis stołowy",
+   "Badminton",
+   "Siatkówka"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b74a73e3-86ad-4c53-9ad8-d9959e914da9": {
+  "text": "Ile trwa mecz piłki nożnej, nie licząc doliczonego czasu?",
+  "answers": [
+   "60 minut",
+   "80 minut",
+   "90 minut",
+   "120 minut"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e5177139-279d-43ba-9958-7a7f8ff4d66a": {
+  "text": "W którym sporcie można zdobyć „hole-in-one”?",
+  "answers": [
+   "Golf",
+   "Kręgle",
+   "Bilard",
+   "Krykiet"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2efd87ad-07be-4fbd-9049-16b0c884f7fa": {
+  "text": "Który kraj zorganizował pierwsze nowożytne igrzyska olimpijskie w 1896 roku?",
+  "answers": [
+   "Francja",
+   "Grecja",
+   "Anglia",
+   "Włochy"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6f4517f0-b61a-4482-8c7c-4f9e7a09247d": {
+  "text": "Ilu zawodników z każdej drużyny jest jednocześnie na boisku w koszykówce?",
+  "answers": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b0b4d45e-7c09-442b-bba9-0fcffb41bc6e": {
+  "text": "Tour de France to jeden z najsłynniejszych wyścigów świata – w jakim sporcie?",
+  "answers": [
+   "Bieganie",
+   "Kolarstwo",
+   "Sporty motorowe",
+   "Żeglarstwo"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5d12f0e6-811f-489a-9320-5d65f5c62454": {
+  "text": "Dzięki jakiemu sportowi Michael Jordan stał się światową legendą?",
+  "answers": [
+   "Baseball",
+   "Koszykówka",
+   "Futbol amerykański",
+   "Golf"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7f301f40-bb88-4cd7-9822-4d51d3e99b3d": {
+  "text": "W którym sporcie zamiast piłki uderza się krążek?",
+  "answers": [
+   "Hokej na lodzie",
+   "Curling",
+   "Piłka wodna",
+   "Lacrosse"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "03918dea-d42e-41dc-b17e-8877d98ca587": {
+  "text": "Ile mniej więcej kilometrów ma maraton?",
+  "answers": [
+   "21 km",
+   "30 km",
+   "42 km",
+   "50 km"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ff362948-8ff9-4b08-97b1-e6782a964795": {
+  "text": "Sumo to narodowy sport którego kraju?",
+  "answers": [
+   "Chiny",
+   "Korea Południowa",
+   "Japonia",
+   "Mongolia"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ce92e413-1961-4e02-9cc6-1d7f7e665b44": {
+  "text": "Jaką kartkę pokazuje sędzia, by wyrzucić piłkarza z boiska?",
+  "answers": [
+   "Żółtą",
+   "Czerwoną",
+   "Niebieską",
+   "Zieloną"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

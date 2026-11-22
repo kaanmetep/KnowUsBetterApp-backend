@@ -1,0 +1,142 @@
+{
+  "categories": {
+    "just_friends": {
+      "category": "Gewoon vrienden",
+      "short": "Vrienden"
+    },
+    "we_just_met": {
+      "category": "Net leren kennen",
+      "short": "Net ontmoet"
+    },
+    "deep_talk": {
+      "category": "Diepe gesprekken"
+    },
+    "long_term": {
+      "category": "Al lang samen",
+      "short": "Lang samen"
+    },
+    "future_talk": {
+      "category": "Toekomstplannen"
+    },
+    "spicy": {
+      "category": "Intimiteit & verbinding",
+      "short": "Intimiteit"
+    },
+    "know_me_well": {
+      "category": "Ken je mij?",
+      "short": "Ken je mij?"
+    },
+    "know_me_well_hard": {
+      "category": "Ken je mij?"
+    },
+    "know_me_well_intimacy": {
+      "category": "Ken je mij?"
+    },
+    "trivia_master": {
+      "category": "Quizkampioen",
+      "short": "Quiz"
+    },
+    "mastermind": {
+      "category": "Het Superbrein",
+      "short": "Superbrein"
+    },
+    "who_is_more_likely": {
+      "category": "Wie zou eerder…?",
+      "short": "Wie eerder?"
+    },
+    "who_is_more_likely_intimacy": {
+      "category": "Wie zou eerder…?",
+      "short": "Wie eerder?"
+    },
+    "rank_it": {
+      "category": "Zet in volgorde",
+      "short": "Volgorde"
+    },
+    "rank_it_intimacy": {
+      "category": "Zet in volgorde",
+      "short": "Volgorde"
+    },
+    "two_truths": {
+      "category": "Twee waarheden, één leugen",
+      "short": "Waar of niet?"
+    },
+    "daily_analysis": {
+      "category": "Dagelijkse analyse",
+      "short": "Analyse"
+    },
+    "daily_love_language": {
+      "category": "Hoe jullie liefde tonen",
+      "short": "Liefde"
+    },
+    "daily_conflict": {
+      "category": "Als jullie het oneens zijn",
+      "short": "Onenigheid"
+    },
+    "daily_everyday_life": {
+      "category": "Jullie dagelijks leven",
+      "short": "Dagelijks"
+    },
+    "daily_trust_jealousy": {
+      "category": "Vertrouwen & jaloezie",
+      "short": "Vertrouwen"
+    },
+    "daily_future": {
+      "category": "Jullie toekomst",
+      "short": "Toekomst"
+    },
+    "daily_money": {
+      "category": "Geld & uitgaven",
+      "short": "Geld"
+    },
+    "daily_family_friends": {
+      "category": "Familie & vrienden",
+      "short": "Familie"
+    },
+    "daily_intimacy": {
+      "category": "Nabijheid & intimiteit",
+      "short": "Intimiteit"
+    }
+  },
+  "category_groups": {
+    "see_your_match": {
+      "category": "Antwoord en zie hoe goed jullie passen"
+    },
+    "know_each_other": {
+      "category": "Hoe goed kennen jullie elkaar?"
+    },
+    "who_knows_better": {
+      "category": "Wie weet meer?"
+    },
+    "who_is_more_likely": {
+      "category": "Wie zou eerder…"
+    },
+    "rank_it": {
+      "category": "Zet in volgorde"
+    },
+    "daily_analysis": {
+      "category": "Dagelijkse analyse"
+    },
+    "two_truths": {
+      "category": "Twee waarheden, één leugen"
+    }
+  },
+  "game_reactions": {
+    "love": "Liefde",
+    "laugh": "Haha",
+    "kiss": "Kus",
+    "angry": "Grr",
+    "eye_roll": "Ogen rollen",
+    "fire": "Vuur",
+    "shy": "Verlegen"
+  },
+  "announcements": {
+    "f84bf4da-77b8-4f6f-96e6-beff58570ea5": {
+      "title": "Nieuwe spelmodus: 2 waarheden, 1 leugen!",
+      "message": "Schrijf 2 waarheden en 1 leugen over jezelf en probeer dan de leugen van je partner te ontmaskeren. Wie kent de ander het best, en wie liegt het best? 😏"
+    },
+    "05fc8cad-2351-4fe1-b4b7-6592386fc900": {
+      "title": "Nieuwe spelmodus: Zet in volgorde!",
+      "message": "Zet de opties op volgorde, van eerste tot laatste, en zie hoeveel jouw volgorde lijkt op die van je partner. Probeer Zet in volgorde, of ga dieper met Zet in volgorde (Intimiteit)."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "74e8638b-8b64-4231-9da1-49a411091b71": {
+    "en": "An unexpected bonus lands in your account. You…",
+    "text": "Une prime inattendue tombe sur ton compte. Ta réaction ?",
+    "answers": [
+      "Je la mets de côté",
+      "Je la dépense pour nous deux",
+      "Je me fais plaisir",
+      "Je rembourse une dette"
+    ]
+  },
+  "27d986a2-af92-4a2b-8c11-c88a505f4ffc": {
+    "en": "How should couples handle money?",
+    "text": "Comment un couple devrait-il gérer l'argent ?",
+    "answers": [
+      "Tout en commun",
+      "Un compte commun plus nos comptes perso",
+      "Tout séparé, on partage les factures"
+    ]
+  },
+  "529c952f-f5ce-4a9a-811e-de16b44436ca": {
+    "en": "Which describes you best with money?",
+    "text": "Avec l'argent, qu'est-ce qui te décrit le mieux ?",
+    "answers": [
+      "J'épargne avec soin",
+      "J'aime dépenser",
+      "Je planifie avec un budget",
+      "Ça dépend de mon humeur"
+    ]
+  },
+  "69067652-637f-4025-a1a9-bf8fe43e5541": {
+    "en": "How much can you spend without telling your partner?",
+    "text": "Combien peux-tu dépenser sans en parler à ta moitié ?",
+    "answers": [
+      "Ce que je veux, c'est mon argent",
+      "Une petite somme",
+      "Rien de gros sans en parler d'abord"
+    ]
+  },
+  "3801b3f8-ca7a-427a-8049-b7eb1a4a83a1": {
+    "en": "What worries you most about money?",
+    "text": "Qu'est-ce qui t'inquiète le plus côté argent ?",
+    "answers": [
+      "Pas assez d'économies",
+      "Les dettes",
+      "Ne pas être d'accord entre nous",
+      "Franchement, rien"
+    ]
+  },
+  "782694ff-ef2a-453d-b2b0-820147b9c492": {
+    "en": "How comfortable are you talking about money with your partner?",
+    "text": "À quel point es-tu à l'aise pour parler d'argent avec ta moitié ?",
+    "answers": [
+      "Totalement, on en parle ouvertement",
+      "Ça va, mais on en parle rarement",
+      "Un peu gênant",
+      "J'évite le sujet"
+    ]
+  },
+  "383497c5-6a90-487f-acfb-ba23d85788e9": {
+    "en": "What's the biggest money decision you want to make together in the next few years?",
+    "text": "Quelle est la plus grosse décision financière que tu veux prendre à deux dans les prochaines années ?"
+  },
+  "b43559b3-b10b-49de-b3d6-d71e7cdb85b6": {
+    "en": "What did money mean in the home you grew up in?",
+    "text": "Que représentait l'argent dans la famille où tu as grandi ?"
+  }
+}

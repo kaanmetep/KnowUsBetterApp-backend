@@ -1,0 +1,553 @@
+{
+ "02d1eea2-7558-454e-9560-9e4115e31dc5": {
+  "text": "Jemand, den {{playerName}} liebt, leidet. Was macht {{playerName}}?",
+  "answers": [
+   "Versucht, es zu lösen",
+   "Ist einfach da",
+   "Bringt die Person zum Lachen",
+   "Lässt der Person Freiraum"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8f65f3e0-e029-41cb-8233-1c0073efccc3": {
+  "text": "Ihr habt geparkt, aber {{playerName}} steigt nicht gleich aus. Was steckt dahinter?",
+  "answers": [
+   "Schaut aufs Handy",
+   "Genießt die Stille",
+   "Küsst dich"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b6802604-bee1-44ef-b402-3d614299e874": {
+  "text": "Ihr seid gerade heimgekommen. {{playerName}} hat noch die Schuhe an. Was steckt dahinter?",
+  "answers": [
+   "Schaut aufs Handy",
+   "Wartet, dass du zuerst reingehst",
+   "Wartet auf einen Kuss"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "525b7a39-af6b-443c-8d4b-e04df6bb666d": {
+  "text": "Der Film ist aus. {{playerName}} rührt sich nicht. Was steckt dahinter?",
+  "answers": [
+   "Ist noch voll drin",
+   "Schaut dich an",
+   "Hängt schon am Handy"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "87a626ec-edc2-4c73-8b8c-2316370de28c": {
+  "text": "{{playerName}} steht vorm offenen Kühlschrank und rührt sich nicht. Was steckt dahinter?",
+  "answers": [
+   "Sucht wirklich was",
+   "Ist in Gedanken",
+   "Wartet auf dich"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "45ffa91d-cf8c-4de3-b9cc-35eecf07a0e8": {
+  "text": "Du hast {{playerName}} etwas gefragt. Ein Lächeln, aber keine Antwort. Was steckt dahinter?",
+  "answers": [
+   "Denkt nach",
+   "Zieht dich auf",
+   "Will erst einen Kuss"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "331f8ded-e21e-4f4a-8c54-5eff81ad09d8": {
+  "text": "{{playerName}} ist schon länger im Bad, das Wasser läuft. Was steckt dahinter?",
+  "answers": [
+   "Macht sich wirklich fertig",
+   "Hängt am Handy",
+   "Wartet, dass du reinkommst"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d4a67a3f-58fb-4dfb-a9fa-7ccbd119b76a": {
+  "text": "Du ziehst {{playerName}} vor den engsten Freunden auf. Was passiert?",
+  "answers": [
+   "Lacht und kontert",
+   "Wird still",
+   "Lacht jetzt, spricht es später an"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0fa9d630-8f79-407e-b467-c6619e937183": {
+  "text": "{{playerName}} schickt dir eine flirtige Nachricht, du lässt sie ein paar Stunden auf „gelesen“. Was passiert?",
+  "answers": [
+   "Schickt noch eine",
+   "Tut so, als wär's egal",
+   "Wartet und tut dann normal"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "72f44c82-e80d-4048-8907-88aa16325526": {
+  "text": "{{playerName}} verliert gegen dich bei etwas, das wirklich zählt. Was passiert?",
+  "answers": [
+   "Will eine Revanche",
+   "Schmollt ein bisschen",
+   "Gratuliert dir ehrlich"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0f63d809-97bc-4a06-af87-dcdf7259d217": {
+  "text": "Du korrigierst {{playerName}} vor anderen. Was passiert?",
+  "answers": [
+   "Nimmt's locker",
+   "Macht einen Witz, ist aber gekränkt",
+   "Diskutiert gleich vor allen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0411fe10-be71-42ce-96e0-f0b4b8f30d01": {
+  "text": "Du isst den letzten Bissen, den sich {{playerName}} aufgehoben hat. Was passiert?",
+  "answers": [
+   "Wird richtig sauer",
+   "Macht zum Spaß ein Riesendrama",
+   "Merkt es nicht"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cbf55a0d-77d9-49b6-8b18-df9bfec9721b": {
+  "text": "Du schläfst ein, während {{playerName}} gerade etwas erzählt. Was passiert?",
+  "answers": [
+   "Weckt dich und erzählt zu Ende",
+   "Wird still und lässt dich schlafen",
+   "Filmt dich, um dich später aufzuziehen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9793ce24-d328-401c-9858-5e3c9e5253d7": {
+  "text": "Du kommst mit leeren Händen zur Familie von {{playerName}}. Was passiert?",
+  "answers": [
+   "Rettet die Situation für dich",
+   "Wirft dir einen vielsagenden Blick zu",
+   "Findet's total egal"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "db4d9102-32bd-44e6-afa1-7eae78199ee6": {
+  "text": "Du sagst absichtlich immer wieder ein Wort, das {{playerName}} hasst. Was passiert?",
+  "answers": [
+   "Lacht jedes Mal",
+   "Bittet dich ernsthaft aufzuhören",
+   "Fängt an, es selbst zu benutzen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c00aa094-a9f0-4858-a29d-551c1cd3ca18": {
+  "text": "Du sagst {{playerName}} in letzter Minute ab. Was passiert?",
+  "answers": [
+   "Sagt „passt schon“ und meint es",
+   "Sagt „passt schon“, passt aber nicht",
+   "Fragt sofort, warum"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "008d5998-0535-4df5-a12b-0f96ad8e625f": {
+  "text": "Du leihst dir ungefragt Klamotten von {{playerName}}. Was passiert?",
+  "answers": [
+   "Sieht sie gern an dir",
+   "Will sie sofort zurück",
+   "Merkt es nicht"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d01e1cff-bb0c-409a-a1f2-125ec6c79f76": {
+  "text": "Du kommst zu spät zum Treffen mit {{playerName}} und schreibst nicht. Was passiert?",
+  "answers": [
+   "Schreibt „Wo bist du?“",
+   "Wartet und sagt nichts",
+   "Geht"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "30c1ecc9-a29f-474c-8fa8-3e13ffb9ef91": {
+  "text": "Du nimmst das Handy von {{playerName}} und fängst an zu scrollen. Was passiert?",
+  "answers": [
+   "Lässt dich machen",
+   "Nimmt es ruhig zurück",
+   "Nimmt es gar nicht ruhig zurück"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0d9143dd-9554-4015-9d7c-8a689f8ac7ca": {
+  "text": "Du lädst jemanden ein, den {{playerName}} nicht mag. Was passiert?",
+  "answers": [
+   "Macht einfach mit",
+   "Sagt es offen",
+   "Bleibt die ganze Zeit still"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fce90c77-7a35-44c0-a40a-406848fd42f4": {
+  "text": "Es schüttet, und kein Schirm in Sicht. Was macht {{playerName}}?",
+  "answers": [
+   "Rennt los",
+   "Wartet, bis es aufhört"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "aa68e98e-f9ba-4240-82d9-233e6d3a1ddd": {
+  "text": "{{playerName}} bekommt den falschen Kaffee. Was passiert?",
+  "answers": [
+   "Lässt ihn zurückgehen",
+   "Trinkt ihn trotzdem"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c9db61c9-a1ab-40e4-8d0c-92dea5576a34": {
+  "text": "{{playerName}} bekleckert sich kurz vorm Ausgehen das Shirt. Was passiert?",
+  "answers": [
+   "Zieht sich um",
+   "Geht trotzdem so"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4e97ab2e-b06b-44ce-b8db-e15db3bb987f": {
+  "text": "{{playerName}} hat gerade den Bus verpasst. Was passiert?",
+  "answers": [
+   "Rennt hinterher",
+   "Wartet auf den nächsten"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d339e7bd-ebce-4481-ad0a-e8b8ed05442a": {
+  "text": "Das WLAN fällt aus, während {{playerName}} etwas schaut. Was passiert?",
+  "answers": [
+   "Legt sich mit dem Router an",
+   "Gibt auf und macht was anderes"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ac0f3027-b51a-426f-b6e9-6a3b4aa38199": {
+  "text": "{{playerName}} bekommt einen Strafzettel. Was passiert?",
+  "answers": [
+   "Regt sich auf",
+   "Lacht drüber"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c3ec2d4b-d284-4714-8e9e-d2da5ef9c6d7": {
+  "text": "Der Wecker von {{playerName}} hat nicht geklingelt. Schon 20 Minuten zu spät! Was passiert?",
+  "answers": [
+   "Lässt das Frühstück aus und rennt",
+   "Schreibt „komme später“ und lässt sich Zeit",
+   "Ruft an und steht dazu"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "94c90555-87e2-4c29-9117-a323c27d95c4": {
+  "text": "Wenn {{playerName}} zu spät kommt: Was ist als Erstes schuld?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fdd1c924-ee99-4f05-a5bd-dfcd6d9c8f03": {
+  "text": "Nach einem kleinen Streit: Nach wie vielen Minuten schreibt {{playerName}} zuerst?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b54e1bb1-3bf8-47c3-a48a-86023b0f0add": {
+  "text": "Wohin geht {{playerName}}, um allein zu sein?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3b1883ec-15de-4788-9bef-ba8f5c5bc8a7": {
+  "text": "Was bestellt {{playerName}}, wenn die Entscheidung schwerfällt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "238665e7-e0da-45ce-a9d7-0eb9eef65a6c": {
+  "text": "Wie oft prüft {{playerName}} vorm Gehen, ob wirklich abgeschlossen ist?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "466890df-b2fd-43de-a06e-7bf3787838fa": {
+  "text": "Wie heißt der Vater von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "83463f47-91d7-4aad-9222-957f815550ec": {
+  "text": "Welche Augenfarbe hat {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "82b2f614-a300-4077-aebb-1f5fc9d783da": {
+  "text": "Was ist der Lieblingssport von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "57674f98-004a-4613-ae68-f9a5aeb47287": {
+  "text": "In welcher Stadt ist {{playerName}} aufgewachsen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "978cc42e-c57a-4a1f-ab39-e3ae2bea3021": {
+  "text": "Wie heißt die Mutter von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cfd2c28a-8bea-4257-879e-95cbc762962f": {
+  "text": "Wie groß ist {{playerName}} in cm?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f323e901-c9d8-402a-a779-6dfc98dbb068": {
+  "text": "Was ist das Lieblingsvideospiel von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "25851c79-797f-40fd-b2f6-6c0d20b9dfdd": {
+  "text": "Welches Auto fährt {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a4265570-c916-40c1-a402-d063a73be6b2": {
+  "text": "Welchen Feiertag mag {{playerName}} am liebsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5fe73127-bbe3-48f7-8abc-2d69d6a88593": {
+  "text": "Welche Schuhgröße hat {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "75c9c2af-241b-4035-b6fc-5fdcd08973cd": {
+  "text": "Was ist das Lieblingsbuch von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8deddb72-b5b8-4818-b368-0c4fbe051257": {
+  "text": "Was ist das Lieblingsrestaurant von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c550dc4b-c6cf-4d1b-9345-6b74e5d47623": {
+  "text": "In welchem Jahr ist {{playerName}} geboren?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c0da2701-3741-4588-b8cf-d7b1a08492e5": {
+  "text": "Wie viele Tattoos hat {{playerName}}? Schreib 0, wenn keins.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a7c5d198-7df7-4778-b8af-c3da4d319a6a": {
+  "text": "Was wollte {{playerName}} als Kind werden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a6ec160b-1139-4b18-aab2-c508fc0485f3": {
+  "text": "Was ist die Lieblingsblume von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ef039303-b61e-4a8b-bf07-dc13a7c57752": {
+  "text": "Mit wem war {{playerName}} als Kind am besten befreundet?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "57351c4a-3e7e-4748-949e-5d4cd1e5b792": {
+  "text": "Wie viele Sprachen spricht {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cd7eb1b7-52d5-4472-91a7-87fe860c68cb": {
+  "text": "Welches Schulfach mochte {{playerName}} am liebsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7a48b2bc-038b-4504-867c-31349dc9471d": {
+  "text": "Welchen YouTube-Kanal schaut {{playerName}} am liebsten?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "76919acd-9f2a-43b7-a1b8-4be6522808b0": {
+  "text": "Wie hieß das erste Haustier von {{playerName}}? Schreib „keins“, falls es nie eins gab.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e54fbf2e-38bb-43a2-98b7-d0e60e44704d": {
+  "text": "Was ist der Lieblingsladen von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "758457aa-b4a0-440c-936d-2eca36532d6f": {
+  "text": "Wie viele Stunden schläft {{playerName}} pro Nacht?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f5e59e0f-6ada-44bb-b1f6-ff0bfc6460d9": {
+  "text": "Was ist die Lieblings-App von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c4230968-34f8-4da4-9b47-c58b40930364": {
+  "text": "Auf welche weiterführende Schule ist {{playerName}} gegangen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "US 'high school' rendered as 'weiterführende Schule' (no direct German equivalent)."
+ },
+ "bab594db-3246-436a-831c-a26fee4a3985": {
+  "text": "Was ist der Lieblingsfilm von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "628a486a-362b-421c-9680-eafb40c7b515": {
+  "text": "Wie viele Cousins und Cousinen hat {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a67f93da-08cb-45b8-83c4-d2adc75192af": {
+  "text": "Welches Sternzeichen hat {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f137c9c9-7ff7-49dd-ada5-72f5ed4c03f0": {
+  "text": "In welchem Land würde {{playerName}} gern leben?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "021867cf-def0-4843-abe0-b40da48d2a2c": {
+  "text": "Welches Land will {{playerName}} am liebsten mal bereisen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "19b93f52-01ab-4cb7-8136-c4aba531b1b3": {
+  "text": "In welcher Stadt hat {{playerName}} studiert?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "112ed697-0ec4-43c7-b2f1-12d1ab95aae3": {
+  "text": "Wie heißt das jüngere Geschwisterkind von {{playerName}}? Schreib „keins“, falls es keins gibt.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

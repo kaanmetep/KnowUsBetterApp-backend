@@ -1,0 +1,567 @@
+{
+  "c74d1995-343a-43a9-adcf-31e2f8b56073": {
+    "text": "Di cosa hai più bisogno subito dopo l'intimità?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c82bd3fe-b845-484d-a34c-c3df3f2c6404": {
+    "text": "Qual è il modo più veloce per ritrovare la vicinanza dopo un litigio?",
+    "answers": [
+      "Un abbraccio",
+      "Una chiacchierata",
+      "Un po' di spazio"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "522acc6b-c549-4821-a672-968ad51faffd": {
+    "text": "Di cosa hai più bisogno subito dopo l'intimità?",
+    "answers": [
+      "Coccolarsi",
+      "Parlare",
+      "Dormire"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d032b906-702c-4c1d-a60e-14225c8a08a1": {
+    "text": "Ogni quanto dovrebbe esserci intimità?",
+    "answers": [
+      "Ogni giorno",
+      "Qualche volta a settimana",
+      "Una volta a settimana"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ab4d48ab-4861-45d3-a0c1-548feb01af72": {
+    "text": "Cosa ti fa sentire più al sicuro quando vi avvicinate?",
+    "answers": [
+      "Andare piano",
+      "La porta chiusa a chiave",
+      "Le luci spente"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c415ca2b-8b70-42d5-afe1-b55e6ca0cd96": {
+    "text": "A cosa dovremmo rubare tempo solo per avvicinarci?",
+    "answers": [
+      "Al sonno",
+      "Al lavoro",
+      "Agli impegni"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a5b0e887-d4ed-49c4-8541-1503d3766f95": {
+    "text": "Quanto dovrebbe durare l'intimità?",
+    "answers": [
+      "5-15 minuti",
+      "30-60 minuti",
+      "2-6 ore"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5001079e-e1d6-4dfe-8d09-471b46077412": {
+    "text": "Quanto riesci a resistere senza intimità?",
+    "answers": [
+      "1-2 giorni",
+      "Circa una settimana",
+      "Qualche settimana"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fc2de0d5-e319-4965-b658-0aadfdc156da": {
+    "text": "Quanto dovrebbe durare una mattinata a letto?",
+    "answers": [
+      "15-30 minuti",
+      "1-2 ore",
+      "Fino a mezzogiorno"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "36466dd9-33fc-430a-8c5b-6cd74f5649f6": {
+    "text": "Nel bel mezzo di una riunione, il tuo amore ti manda un messaggio molto allusivo. Cosa fai?",
+    "answers": [
+      "Rispondo con lo stesso tono",
+      "Rispondo solo con un'emoji",
+      "Scrivo «a stasera» e chiudo lì"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0b0a004c-7110-41c1-9efb-a1250d65cc5e": {
+    "text": "A mezzogiorno il tuo amore ti scrive «stasera torna presto» e nient'altro. Come passi la giornata?",
+    "answers": [
+      "Non penso ad altro",
+      "Me ne dimentico fino a sera",
+      "Chiamo subito per capire cosa intende"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "478d596f-0925-454b-a6c7-07e62476a0f4": {
+    "text": "Mandare al tuo amore una foto un po' audace durante il giorno...",
+    "answers": [
+      "Lo farei volentieri",
+      "Solo se prima me ne manda una",
+      "Mai, non mi fido dei telefoni"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1947e301-1523-4dd2-8b02-eebcd5a27569": {
+    "text": "Per sbaglio hai mandato il tuo messaggio allusivo nel gruppo di famiglia. Prima mossa?",
+    "answers": [
+      "Lo cancello subito e prego che nessuno l'abbia visto",
+      "Scrivo «chat sbagliata» e ci rido su",
+      "Spengo il telefono e scappo all'estero"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "be4f6aae-d73e-47ac-87fd-599d2d29b15a": {
+    "text": "Flirtare tra voi per messaggio durante il giorno...",
+    "answers": [
+      "Dovrebbe succedere ogni giorno",
+      "Ogni tanto, a sorpresa",
+      "Non serve, dal vivo è meglio"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "88f7728c-67b0-480a-9632-74158a756911": {
+    "text": "Proprio sul più bello, squilla il telefono del tuo amore: è sua madre. Cosa si fa?",
+    "answers": [
+      "Non rispondere e richiamare dopo",
+      "Rispondere e tagliare corto",
+      "Rispondere, tanto la magia è finita"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "451823de-7a5e-47f1-887c-a876847a8a39": {
+    "text": "Dormite dai genitori del tuo amore e le stanze sono attaccate. Lasciarsi andare...",
+    "answers": [
+      "Non se ne parla, aspettiamo di tornare a casa",
+      "Va bene, se facciamo pianissimo",
+      "Il proibito lo rende più eccitante"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c5f56ed9-13b2-4806-9ec5-6991e9e95554": {
+    "text": "Proprio sul più bello suonano alla porta: è il pacco che aspetti da giorni. Cosa fai?",
+    "answers": [
+      "Il pacco può aspettare",
+      "Lo prendo al volo e torno subito",
+      "Lo apro, riprendiamo dopo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "451cd58d-bd27-47da-ac84-aa316a133bd6": {
+    "text": "Proprio mentre vi avvicinate, il vostro gatto salta sul letto e vi fissa. Cosa succede?",
+    "answers": [
+      "Fuori dalla stanza!",
+      "Lo ignoriamo e andiamo avanti",
+      "Scoppiamo a ridere e finisce lì"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4092ab00-13ca-4261-a43a-7279301878a4": {
+    "text": "Proprio sul più bello, il tuo amore dice «aspetta, prima finiamo questo episodio». Cosa fai?",
+    "answers": [
+      "Rido e aspetto",
+      "Ci resto male, l'atmosfera è andata",
+      "Nascondo il telecomando"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "02764dd4-39e2-40b9-a6d4-886bea53759e": {
+    "text": "Subito dopo l'intimità, il tuo amore si gira e inizia a russare. Da 10, a quanto scende il suo voto?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9ba84b4f-ec82-47aa-a4a3-9f280b56470b": {
+    "text": "Ti accorgi che il tuo amore ti bacia con gli occhi spalancati. Da 10, a quanto scende il suo voto?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f70cfa93-cddd-4ad1-8344-03c22063c588": {
+    "text": "Il tuo amore si infila a letto con i calzini e non se li toglie. Da 10, a quanto scende il suo voto?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5466613d-c6c7-4f92-a9a4-12695fecef33": {
+    "text": "Mentre vi avvicinate, il tuo amore controlla una notifica sul telefono. Da 10, a quanto scende il suo voto?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3e7e65b3-90c9-4fd7-9917-1d0c56328de1": {
+    "text": "Il tuo amore si avvicina per baciarti con la gomma ancora in bocca. Da 10, a quanto scende il suo voto?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "54ed2a29-dec5-4e11-bc08-d8f35f77cebe": {
+    "text": "Cosa ti conquista di più: un risveglio a suon di baci o un abbraccio finché non ti addormenti?",
+    "answers": [
+      "Il risveglio con i baci",
+      "L'abbraccio fino al sonno"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a5baa1ce-254a-43b4-8cee-8d2e650e86bc": {
+    "text": "Cosa ti conquista di più: il tuo amore che gira per casa con la tua maglietta o che si prepara con cura solo per te?",
+    "answers": [
+      "Che indossi la mia maglietta",
+      "Che si prepari solo per me"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5e4fef58-1a72-4651-85bf-131aa64dca2f": {
+    "text": "Cosa ti spegne di più: che non faccia mai il primo passo o che chieda «stasera?» tutti i santi giorni?",
+    "answers": [
+      "Che non faccia mai il primo passo",
+      "Che lo chieda ogni giorno"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "862fba19-fdc5-41f2-bbd5-333e6b947e4e": {
+    "text": "Cosa ti spegne di più: esagerare col profumo o non profumare mai di buono?",
+    "answers": [
+      "Troppo profumo",
+      "Non profumare mai di buono"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e6853947-be83-4878-81aa-c596fafa2c28": {
+    "text": "Vuoi provare qualcosa di nuovo con il tuo amore. Qual è il modo più facile per te?",
+    "answers": [
+      "Lo dico apertamente, faccia a faccia",
+      "Lo scrivo in un messaggio",
+      "Lancio indizi e spero che capisca",
+      "Non ci riesco, me lo tengo dentro"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "735638ce-f7b1-4795-8c58-77fe461637aa": {
+    "text": "Il tuo amore vuole qualcosa che tu proprio non vuoi. Come dici di no?",
+    "answers": [
+      "Chiaro e tondo, senza giri di parole",
+      "Con dolcezza, per non ferire",
+      "Alla fine accetto comunque"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e9b5ff0c-f5e3-4792-83b9-6589ac229c71": {
+    "text": "Il tuo amore ti dice «stasera no». Come la prendi?",
+    "answers": [
+      "Va bene, non faccio domande",
+      "Chiedo se c'è qualcosa che non va",
+      "Ci resto un po' male"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "368c67a7-73bd-4702-989a-91e47493e9f7": {
+    "text": "Dopo l'intimità, parlare di cosa vi è piaciuto...",
+    "answers": [
+      "Rende migliore la volta dopo",
+      "Rovina l'atmosfera",
+      "Solo se inizia il mio amore"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bfedd7c5-ce55-4024-8018-b7ce739cce29": {
+    "text": "Mentre vi avvicinate, il tuo amore ti chiede «va bene così?». Cosa provi?",
+    "answers": [
+      "Sento che ci tiene a me",
+      "Mi distrae un po' dal momento",
+      "Vorrei che continuasse e basta"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "17a06cb8-e7fa-495c-a692-290c1460e181": {
+    "text": "Qualcosa che ha fatto il tuo amore non ti è piaciuto. Quando glielo dici?",
+    "answers": [
+      "Subito",
+      "Il giorno dopo, con calma",
+      "Non lo dico mai"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f84a9f94-e846-4ec5-8236-8ad07652afb0": {
+    "text": "Il tuo amore inizia a parlarti in un modo che ti prende alla sprovvista. Cosa fai?",
+    "answers": [
+      "Sto al gioco",
+      "Rido e vado avanti",
+      "Chiedo di abbassare un po' i toni"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3c458b59-191a-4dce-b2a2-b65356bcae20": {
+    "text": "Il tuo amore ti confida una fantasia di cui non ti aveva mai parlato. Prima reazione?",
+    "answers": [
+      "Curiosità, voglio saperne di più",
+      "Apertura, ma mi serve tempo per pensarci",
+      "Disagio, preferirei di no"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fef555de-c1d3-43e9-9605-37eec8fbde2d": {
+    "text": "Appena finito, il tuo amore chiede «allora... com'ero?». Da 10, a quanto scende il suo voto?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c5033475-5d32-4b8f-947e-cf7dcc230829": {
+    "text": "Proprio sul più bello, il tuo amore inizia a elencare le cose da fare domani. Da 10, a quanto scende il suo voto?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "033a99fb-d6ea-4dfc-babb-146b6b014079": {
+    "text": "Mentre vi avvicinate, il tuo amore ti chiama «bro». Da 10, a quanto scende il suo voto?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cba3d458-f072-477c-991c-734f8ed03ece": {
+    "text": "Finito tutto, il tuo amore ti batte il cinque. Da 10, a quanto scende il suo voto?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b9b04a31-a234-45ae-aaad-de08af7471b5": {
+    "text": "Finito tutto, il tuo amore guarda l'ora e dice «ottimo, sotto i 10 minuti». Da 10, a quanto scende il suo voto?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d159131e-c8f0-4d44-af47-1514971573bf": {
+    "text": "Piangere davanti al tuo amore...",
+    "answers": [
+      "Piango senza problemi",
+      "Solo quando è davvero dura",
+      "Mai, piango quando non c'è nessuno"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "da0a868e-280d-4541-ac22-5e355899f285": {
+    "text": "Da mesi il tuo amore non ha voglia di intimità per lo stress del lavoro. Cosa fai?",
+    "answers": [
+      "Aspetto con pazienza, senza pressioni",
+      "Ne parlo apertamente",
+      "Organizzo una fuga senza stress",
+      "Propongo di rivolgerci a uno specialista"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "62965379-6dbf-441e-aa0f-6d5bfce5967f": {
+    "text": "Il tuo amore ha preso qualche chilo e ora vuole le luci spente. Cosa fai?",
+    "answers": [
+      "Dico quanto mi attrae",
+      "Rispetto la scelta e spengo la luce",
+      "Ne parlo con delicatezza per capire il perché"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "27725fd4-9ec3-4ea7-ab17-eca3de08bb2d": {
+    "text": "In un ristorante pieno, il tuo amore ti dà un lungo bacio sulle labbra. Cosa fai?",
+    "answers": [
+      "Ricambio, chi se ne importa",
+      "Un bacio veloce e mi stacco",
+      "Rido per l'imbarazzo",
+      "Dico «non qui»"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ace18a34-2c0b-4aef-9fab-bf1b2a2d3e02": {
+    "text": "Ultimamente la vostra intimità è finita nella solita routine. Cosa fai?",
+    "answers": [
+      "Porto una novità a sorpresa",
+      "Ne parliamo e organizziamo insieme",
+      "Prenoto una notte fuori casa",
+      "Va bene così, la routine è comoda"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5dc6ac28-16ab-425f-aec7-b5c6dca08089": {
+    "text": "Tu ne hai voglia, ma il tuo amore crolla dal sonno. Cosa succede?",
+    "answers": [
+      "Coccole e poi a nanna",
+      "Provo a insistere un po'",
+      "Rimandiamo a domattina",
+      "Ci resto un po' male"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6d467b67-0680-4c5a-a01e-55031b0bc0ab": {
+    "text": "Un bacio prima di uscire di casa...",
+    "answers": [
+      "Obbligatorio, tutti i giorni",
+      "Quando ce ne ricordiamo",
+      "Non serve"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1e704567-0f18-43f7-9230-7c7cc9d9a005": {
+    "text": "Il tuo amore ti confida per la prima volta la sua insicurezza più grande. Cosa fai?",
+    "answers": [
+      "Ascolto e basta, poi un abbraccio",
+      "Dico che non è vero",
+      "Racconto anche una delle mie",
+      "Cerco un modo per aiutare"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "251fa297-28a5-470f-a5b4-2d89eff44148": {
+    "text": "Fissare in agenda i momenti di intimità...",
+    "answers": [
+      "Intelligente, ci aiuta a non allontanarci",
+      "Va bene se la vita è piena di impegni",
+      "Uccide la passione"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f398ab1a-ea92-42d9-bc5e-bfc0380abe1b": {
+    "text": "Che sia sempre la stessa persona a fare il primo passo...",
+    "answers": [
+      "Va benissimo",
+      "Alla lunga stanca",
+      "Un problema serio"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e34ac078-acf4-4646-b713-abb4535b76ca": {
+    "text": "Gli ultimi 10 minuti prima di dormire dovremmo passarli...",
+    "answers": [
+      "Ad abbracciarci in silenzio",
+      "A raccontarci la giornata",
+      "Ognuno sul proprio telefono",
+      "A guardare o leggere qualcosa insieme"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "efaad9e9-a415-497b-abca-91ce1e04b8dd": {
+    "text": "Tenersi per mano e coccolarsi davanti agli amici...",
+    "answers": [
+      "Adoro, non c'è niente da nascondere",
+      "Un po' è carino",
+      "Meglio in privato"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b0a69874-b41c-487d-8c74-f8b71a692cf7": {
+    "text": "Per lavoro starete in due città diverse per due mesi. Come tenete viva la complicità?",
+    "answers": [
+      "Videochiamate ogni sera",
+      "Messaggi civettuoli tutto il giorno",
+      "Visite a sorpresa",
+      "Aspettiamo che passi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "55b7de30-6949-47e2-8b1c-ff1d2e6c04a9": {
+    "text": "Non ricordi l'ultima volta che il tuo amore ti ha fatto un complimento. Cosa fai?",
+    "answers": [
+      "Dico che mi manca",
+      "Sono io a fare il primo complimento",
+      "Lascio correre, so che mi ama"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

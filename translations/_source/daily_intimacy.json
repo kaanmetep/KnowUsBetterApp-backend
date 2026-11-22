@@ -1,0 +1,128 @@
+[
+ {
+  "id": "dae2d4cc-1750-4ff2-ad27-8844b09f1ea3",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "When do you feel closest to your partner?",
+  "tr": "Partnerine en çok ne zaman yakın hissedersin?",
+  "answers_en": [
+   "Talking late at night",
+   "Laughing together",
+   "In moments of physical closeness",
+   "After getting through something hard"
+  ],
+  "answers_tr": [
+   "Gece geç saatte konuşurken",
+   "Birlikte gülerken",
+   "Fiziksel yakınlık anlarında",
+   "Zor bir şeyi birlikte atlattıktan sonra"
+  ]
+ },
+ {
+  "id": "b1333bff-a865-4cb9-9293-ec4f88e184e2",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How satisfied are you with your physical closeness lately?",
+  "tr": "Son zamanlarda aranızdaki fiziksel yakınlıktan ne kadar memnunsun?",
+  "answers_en": [
+   "Very satisfied",
+   "Mostly satisfied",
+   "I'd like more",
+   "Something feels off"
+  ],
+  "answers_tr": [
+   "Çok memnunum",
+   "Çoğunlukla memnunum",
+   "Daha fazlasını isterdim",
+   "Bir şeyler yolunda değil gibi"
+  ]
+ },
+ {
+  "id": "54b1befc-8d38-4ad9-b0f7-4ecc5da68448",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How do you like intimacy to begin?",
+  "tr": "Yakınlaşmanın nasıl başlamasını seversin?",
+  "answers_en": [
+   "Slowly, no rush",
+   "Spontaneously",
+   "With words first",
+   "Planned, the anticipation helps"
+  ],
+  "answers_tr": [
+   "Yavaş yavaş, acele etmeden",
+   "Kendiliğinden",
+   "Önce sözlerle",
+   "Planlı, beklemek heyecanı artırır"
+  ]
+ },
+ {
+  "id": "a23bd9c0-604e-42e9-a98a-4f1494b812c3",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What kills the mood fastest for you?",
+  "tr": "Senin için havayı en hızlı ne bozar?",
+  "answers_en": [
+   "Phones",
+   "Stress from the day",
+   "Feeling rushed",
+   "Unresolved tension"
+  ],
+  "answers_tr": [
+   "Telefonlar",
+   "Günün stresi",
+   "Aceleye getirilmek",
+   "Çözülmemiş gerginlik"
+  ]
+ },
+ {
+  "id": "6689e4d3-270f-4a02-9581-f286060425d0",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How important is affection outside the bedroom to you?",
+  "tr": "Yatak odası dışındaki sevgi gösterisi senin için ne kadar önemli?",
+  "answers_en": [
+   "Essential",
+   "Very nice to have",
+   "Not a big deal"
+  ],
+  "answers_tr": [
+   "Olmazsa olmaz",
+   "Olması çok güzel",
+   "Çok önemli değil"
+  ]
+ },
+ {
+  "id": "3cb8d865-6f52-410b-a73c-647cc8ed78fb",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Telling your partner what you want in intimacy is…",
+  "tr": "Yakınlıkta ne istediğini partnerine söylemek…",
+  "answers_en": [
+   "Easy for me",
+   "Easier over text",
+   "Awkward, but I want to",
+   "Something I avoid"
+  ],
+  "answers_tr": [
+   "Benim için kolay",
+   "Mesajla daha kolay",
+   "Tuhaf ama istiyorum",
+   "Kaçındığım bir şey"
+  ]
+ },
+ {
+  "id": "176ce7a7-80c4-44da-b820-4488d4d1d280",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "Which moment between you two do you keep replaying in your head?",
+  "tr": "Aranızdaki hangi anı kafanda tekrar tekrar yaşıyorsun?"
+ },
+ {
+  "id": "0d7aff47-dea9-4a0b-a71b-03f9e196e0f5",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "In a few words: what makes you feel desired?",
+  "tr": "Birkaç kelimeyle: seni arzulandığını ne hissettirir?"
+ }
+]

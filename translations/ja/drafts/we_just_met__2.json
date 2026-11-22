@@ -1,0 +1,484 @@
+{
+ "93527a98-af04-46b4-ac9c-fa8ef3187751": {
+  "text": "将来結婚したい人に、前の相手との子どもがいたら抵抗ある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "edf7a999-9c89-4253-9fd5-b1ef5ab799ed": {
+  "text": "恋に年齢制限ってある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e635d076-0016-4987-9d87-f888b2e841ad": {
+  "text": "恋人が本を読むのが好きじゃなかったら気になる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "79e8a155-3eb1-4fd5-89a7-b2848c75044b": {
+  "text": "好きになっちゃいけない人を好きになったことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c141b0f8-c822-4fda-b966-2d0bfccab391": {
+  "text": "恋人の過去、全部知りたい？それとも必要なことだけ？",
+  "answers": [
+   "全部知りたい",
+   "必要なことだけ"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "60fa63d8-776a-4cf9-91fa-806954a2c37c": {
+  "text": "仕事をがんばる忙しい毎日と、ふたりの時間が多いゆったりした毎日、どっちがいい？",
+  "answers": [
+   "キャリア重視",
+   "バランス重視"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4aec1675-cf2f-4623-9c75-47bc416fb320": {
+  "text": "好きな人の気を引くために、わざとそっけなくする？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1613d859-b83f-4783-aa2d-695aadcc9bc2": {
+  "text": "失恋から立ち直るために、バカなことしたことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7183b9a1-aaff-4c67-a4a6-e86933246045": {
+  "text": "恋人と食の好みが合うのって大事？",
+  "answers": [
+   "大事",
+   "大事じゃない"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "17ab270c-0960-4272-bef3-497c0338069f": {
+  "text": "信頼のためにパスワードも位置情報も全部共有する？それとも少しはプライバシーを残す？",
+  "answers": [
+   "全部オープン",
+   "プライバシーも大事"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ebc6c164-d692-4a9a-b39e-76ed5c8b4435": {
+  "text": "恋人を喜ばせるためだけに、ウソをつく？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "54c4d6cd-73cc-47f0-b70b-da72232dad98": {
+  "text": "浮気した恋人に仕返しする？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "39450fcf-8356-4078-b219-8cb06da5af79": {
+  "text": "恋人がいない期間がずっと続いたら、理想を下げてでも誰かと付き合う？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a041fab5-92d4-4a5f-be2f-b957f329b5bd": {
+  "text": "恋人が昔の恋愛の話をするのは…",
+  "answers": [
+   "普通だし必要",
+   "いらないし傷つく"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "65a85275-79ea-4d17-8c24-c1eb58cbcd86": {
+  "text": "恋人と毎日連絡を取り合うのは必須？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c5d257bf-030a-472a-bd4c-a2d48ae36e84": {
+  "text": "友達に「見た目が釣り合わない」って言われる人とも付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "289535a4-8bd1-40f3-b08b-3a922499bbb7": {
+  "text": "ネットで有名な人と付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b1acfbe5-f3af-4497-a227-9d505804fc19": {
+  "text": "すごくチャラい人と付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c5360398-4fae-4217-b9a9-688f74fe7070": {
+  "text": "一目ぼれって信じる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2ee5b9b7-f944-4184-95fa-6126fc6e3728": {
+  "text": "頭の良さより見た目のほうが大事？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e6bbcb00-c081-42da-8fa3-49ddc918d36d": {
+  "text": "すごくチャラかった時期ってある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a0104269-bc85-49c8-ab80-c42c0378b7a1": {
+  "text": "友達が恋人のことを気に入らなかったら、気持ちが冷める？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2f245f8d-f7f9-44a4-a1ef-70380caf5c51": {
+  "text": "長い付き合いの友達が、あとから恋人になることってあると思う？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "40004a65-7deb-4d2e-894f-c10ac0c02ede": {
+  "text": "友達に好意を持たれてたら、恋愛対象として考えてみる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7ee41bf9-fa8d-42ab-a4a5-25bd110543e0": {
+  "text": "恋愛でがんばるのをやめても、恋人はそばにいてくれると思う？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b1eea995-fbe7-4313-be08-f61522b35b5a": {
+  "text": "恋人にTikTokの流行りの動画を一緒に撮りたいって言われたら、OKする？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2a9a3787-2ade-4db3-a8ca-ac97c25f2a80": {
+  "text": "気持ちが冷めても、これまでの思い出のために一緒にいる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c76d7425-b712-41a8-8a78-e20b3844a382": {
+  "text": "最初のアプローチは男性からするべき？",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "Source asks about a gender norm (men making the first move); kept as an opinion question, it does not reveal the players' genders."
+ },
+ "e8dd11c5-218b-4d77-a137-0444c87fff31": {
+  "text": "自分が恋人の元恋人にそっくりだったら、気になる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "EN and TR differ: followed TR ('if YOU looked like your partner's ex'), which is the clearer reading."
+ },
+ "69535b7c-b94c-4ebc-95b0-5fa46b811906": {
+  "text": "恋人に友達とのグループLINEを見たいって言われたら、見せる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "308773bf-cdf6-4b94-ad4b-f180e08e5163": {
+  "text": "恋人が異性の芸能人の大ファンだったら、気になる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "Kept 'opposite sex' (異性) as in source; assumes a heterosexual couple."
+ },
+ "22a15b58-da54-4651-8f7e-1fe19d7759bb": {
+  "text": "一度壊れたら、取り戻すのが難しいのはどっち？",
+  "answers": [
+   "信頼",
+   "尊敬"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3576a2e2-2091-4b80-be80-5ab444b547cd": {
+  "text": "恋人がいるのに、異性の友達と一緒に住める？",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "Kept 'opposite sex' (異性) as in source; assumes a heterosexual couple."
+ },
+ "a174d015-ea8e-438b-b656-4f2fd4c4d34a": {
+  "text": "恋人のSNSのフォロワーやフォローしてる人を、しょっちゅうチェックする？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9dbad2cb-e77a-4d79-ab55-a910ff298ae6": {
+  "text": "いい感じだった人と、急に連絡を絶ったことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "40f38dbd-3632-412b-8639-66caf198eccb": {
+  "text": "穏やかでロマンチックな恋より、情熱的だけどケンカの多い恋がいい？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e79b86a4-0b67-4524-863e-99c6afe7244b": {
+  "text": "気になる人のSNS、ついずっとチェックしちゃう？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f60eb06e-d599-4397-9b8e-d998cf3aa387": {
+  "text": "恋人に頼まれたら、自分に気がある友達と話すのをやめる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "88d9192e-4744-437f-a872-d8506811e724": {
+  "text": "誰かに口説かれるたびに恋人が報告してくれたら、うれしい？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ac9241fd-9c2f-4660-b29f-54b5f376e587": {
+  "text": "親友と恋人が自分に内緒で会ってたら、嫉妬する？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2f3ce1da-32a3-4290-bfed-f7010eceef7f": {
+  "text": "友達のためなら、タイプじゃない人とでもダブルデートする？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "70d85605-9926-497a-bc33-8f1f160a767b": {
+  "text": "友達と同じ人を好きになったら、自分が身を引く？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c721139f-fab6-47e1-a92a-ac02286c6f63": {
+  "text": "いい友情は、いい恋愛より大切？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8859ae1e-8d5b-42ae-b6c0-58f9db24d4e6": {
+  "text": "別れたあと、元恋人を忘れるためにすぐ次の相手を探す？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "eb40b9fd-6df9-4f75-973c-88fd188c976a": {
+  "text": "あまり頭は良くないけど、すごく魅力的な人と付き合ったことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "225fc433-ee24-4a08-a284-549ba829e019": {
+  "text": "あまり好きじゃないのに、好かれたからって付き合ってみたことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6b4a33bb-950c-4e92-b374-36b9671321b2": {
+  "text": "星座占いをすごく信じてる人と付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c50d0e1f-0a2d-43a9-8770-bcf5d941ef75": {
+  "text": "恋人の夜のテクニックって、大事なポイント？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f1a8d83b-d35c-43e5-b186-0b32e3f7b451": {
+  "text": "夜のほうがあまり上手じゃない人とも、付き合い続けられる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d53cac0d-e7f5-4db7-ac2d-b7e17ffa702c": {
+  "text": "恋人の仲のいい異性の友達がすごく魅力的だったら、気になる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "Kept 'opposite sex' (異性) as in source; assumes a heterosexual couple."
+ },
+ "a1f43837-d310-4c12-8369-557c27f561fc": {
+  "text": "恋人がすごく求めてくるタイプだったら、困る？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6c5538e2-5508-4b67-a9ea-a489348c4c37": {
+  "text": "恋人があまり求めてこないタイプだったら、困る？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a10af84c-2ef5-49d4-8905-9088ce451ce5": {
+  "text": "恋人がどうやって稼いでるかって大事？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6aaee788-917c-4ee2-8a9a-9cca6a9c69f7": {
+  "text": "友達の元恋人を好きになったことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "eea3c3ff-7e4d-47bd-afff-b4e7461f0ec2": {
+  "text": "デートを断るために仮病を使ったことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "712df3cd-471a-4405-9e76-d54832abbcc4": {
+  "text": "誰かに言われて、自分の見た目や性格を変えたことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9314d50f-94c5-418b-815c-f36bede1a87f": {
+  "text": "恋人のSNSのパスワードを知ってるのって普通だと思う？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7f9d30fa-6891-460d-a0b5-34d836cff571": {
+  "text": "ケンカ中に恋人が黙り込むと、余計イライラする？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8ae7a335-ee23-4949-91da-d79b1a50e8f5": {
+  "text": "恋人がスマホのメッセージをいつも消してたら、気になる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a6b504e5-84cd-460b-b095-9cb3103dbdb0": {
+  "text": "一番の親友は恋人であるべきだと思う？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0fbdca85-41a4-499a-931d-8491a38e651b": {
+  "text": "宗教や人種の違いって、恋愛を難しくすると思う？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2084f3b0-b540-4c5f-a400-f9f0d46a7310": {
+  "text": "頭の良さとスタイル、惹かれるのはどっち？",
+  "answers": [
+   "頭の良さ",
+   "スタイル"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ebcc2753-cafa-4764-8de8-00c9e8c64d81": {
+  "text": "心の浮気と体の浮気、恋人にされてつらいのはどっち？",
+  "answers": [
+   "心の浮気",
+   "体の浮気"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "63b32ee8-1fa7-4e8a-8e78-a4e97cac10d7": {
+  "text": "恋人が正直すぎるのと、たまに気持ちを隠すの、どっちがイヤ？",
+  "answers": [
+   "正直すぎる",
+   "たまに気持ちを隠す"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "df254cfe-4e09-4956-92ce-5d706c4c7d50": {
+  "text": "恋人になら、場合によっては行動を制限されてもいい？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

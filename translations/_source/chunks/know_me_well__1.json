@@ -1,0 +1,1018 @@
+[
+ {
+  "id": "33e860c5-d68a-4622-8bff-5c2395b7b4fa",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather stay home or go out on weekends?",
+  "tr": "{{playerName}} hafta sonları evde kalmayı mı yoksa dışarı çıkmayı mı tercih eder?",
+  "answers_en": [
+   "Stay home",
+   "Go out"
+  ],
+  "answers_tr": [
+   "Evde kalmak",
+   "Dışarı çıkmak"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "b54e736a-1ca6-4282-8d2f-f8395b87aea1",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather text or call someone?",
+  "tr": "{{playerName}} mesajlaşmayı mı yoksa aramayı mı tercih eder?",
+  "answers_en": [
+   "Text",
+   "Call"
+  ],
+  "answers_tr": [
+   "Mesajlaşmak",
+   "Aramak"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "4bc843bb-07c2-4f26-b817-0f3d3b9614b9",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather plan everything or be spontaneous?",
+  "tr": "{{playerName}} her şeyi planlamayı mı yoksa spontane olmayı mı tercih eder?",
+  "answers_en": [
+   "Plan everything",
+   "Be spontaneous"
+  ],
+  "answers_tr": [
+   "Her şeyi planlamak",
+   "Spontane olmak"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "82c0e606-aae6-4ff9-b103-b95342fd82dd",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather rewatch a favorite movie or watch something new?",
+  "tr": "{{playerName}} sevdiği bir filmi tekrar izlemeyi mi yoksa yeni bir şey izlemeyi mi tercih eder?",
+  "answers_en": [
+   "Rewatch a favorite",
+   "Watch something new"
+  ],
+  "answers_tr": [
+   "Favori filmi tekrar izlemek",
+   "Yeni bir şey izlemek"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "91ca43c8-5750-446e-a192-ac3bbc581934",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather live near the ocean or in the mountains?",
+  "tr": "{{playerName}} okyanus kenarında mı yoksa dağlarda mı yaşamayı tercih eder?",
+  "answers_en": [
+   "Near the ocean",
+   "In the mountains"
+  ],
+  "answers_tr": [
+   "Okyanus kenarında",
+   "Dağlarda"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "f35c8f81-62c1-4a7f-a513-8d4236bd98a5",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather arrive too early or slightly late?",
+  "tr": "{{playerName}} çok erken gitmeyi mi yoksa biraz geç kalmayı mı tercih eder?",
+  "answers_en": [
+   "Too early",
+   "Slightly late"
+  ],
+  "answers_tr": [
+   "Çok erken",
+   "Biraz geç"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "7d54b670-a981-422f-aced-7e9fa4bae1ec",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather trust their head or their heart when making decisions?",
+  "tr": "{{playerName}} karar verirken aklına mı yoksa kalbine mi daha çok güvenir?",
+  "answers_en": [
+   "Head",
+   "Heart"
+  ],
+  "answers_tr": [
+   "Akıl",
+   "Kalp"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "b4de40ca-d4cd-4e56-ae5d-4dea9004dd81",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather keep a secret or tell the truth even if it hurts?",
+  "tr": "{{playerName}} bir sırrı saklamayı mı yoksa can yaksa bile gerçeği söylemeyi mi tercih eder?",
+  "answers_en": [
+   "Keep a secret",
+   "Tell the truth"
+  ],
+  "answers_tr": [
+   "Sır saklamak",
+   "Gerçeği söylemek"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "f6926734-79ef-490a-a4e4-630f9273a4f5",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather work hard for success or get lucky and succeed easily?",
+  "tr": "{{playerName}} başarı için çok çalışmayı mı yoksa şansla kolayca başarmayı mı tercih eder?",
+  "answers_en": [
+   "Work hard for success",
+   "Get lucky and succeed easily"
+  ],
+  "answers_tr": [
+   "Çok çalışarak başarıya ulaşmak",
+   "Şansla kolayca başarmak"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "5447a180-538c-4a12-9efb-cc3a5b935f41",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather forgive easily or hold a grudge for a long time?",
+  "tr": "{{playerName}} kolay affeder mi yoksa uzun süre kin tutar mı?",
+  "answers_en": [
+   "Forgive easily",
+   "Hold a grudge"
+  ],
+  "answers_tr": [
+   "Kolay affeder",
+   "Kin tutar"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "2be6067f-ee2d-45a3-83be-4fc9c72df2ef",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather have $1 million or marry the love of their life?",
+  "tr": "{{playerName}} 1 milyon dolar mı tercih eder yoksa hayatının aşkıyla evlenebilmeyi mi?",
+  "answers_en": [
+   "$1 million",
+   "Marry the love of their life"
+  ],
+  "answers_tr": [
+   "1 milyon dolar",
+   "Hayatının aşkıyla evlenebilmek"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "12f83f4b-5b4b-4a12-a517-c315e06f329e",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather live in their hometown or in different countries?",
+  "tr": "{{playerName}} kendi memleketinde mi yaşamayı tercih eder yoksa başka ülkelerde mi?",
+  "answers_en": [
+   "Hometown",
+   "Different countries"
+  ],
+  "answers_tr": [
+   "Memleket",
+   "Başka ülkeler"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "e17c9f6b-cf1a-45b3-87f4-27c8bdc82bae",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather cook at home or eat out?",
+  "tr": "{{playerName}} evde yemek yapmayı mı tercih eder yoksa dışarıda yemek yemeyi mi?",
+  "answers_en": [
+   "Cook at home",
+   "Eat out"
+  ],
+  "answers_tr": [
+   "Evde yemek yapmak",
+   "Dışarıda yemek yemek"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "382bc563-9823-4ab1-8071-cc2d74faf52a",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather spend a free day alone or with friends?",
+  "tr": "{{playerName}} boş bir günü yalnız mı yoksa arkadaşlarıyla mı geçirmeyi tercih eder?",
+  "answers_en": [
+   "Alone",
+   "With friends"
+  ],
+  "answers_tr": [
+   "Yalnız",
+   "Arkadaşlarla"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "90825695-99aa-4d92-896a-29c6c59a277b",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather have a high salary but a stressful job or a lower salary but a relaxed job?",
+  "tr": "{{playerName}} yüksek maaşlı ama stresli bir işi mi yoksa düşük maaşlı ama rahat bir işi mi tercih eder?",
+  "answers_en": [
+   "High salary, stressful job",
+   "Lower salary, relaxed job"
+  ],
+  "answers_tr": [
+   "Yüksek maaş, stresli iş",
+   "Düşük maaş, rahat iş"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "f2281a28-c027-428c-99bd-5a083fee5ca4",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather confess love first or wait for the other person to do it?",
+  "tr": "{{playerName}} aşkını ilk itiraf etmeyi mi tercih eder yoksa karşı tarafın etmesini mi bekler?",
+  "answers_en": [
+   "Confess first",
+   "Wait"
+  ],
+  "answers_tr": [
+   "İlk itiraf etmek",
+   "Beklemek"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "475783c3-4b71-401d-87db-c959f01b2d7e",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather fall in love quickly or fall in love over time?",
+  "tr": "{{playerName}} hızlı mı aşık olur yoksa zamanla mı aşık olur?",
+  "answers_en": [
+   "Quickly",
+   "Over time"
+  ],
+  "answers_tr": [
+   "Hızlı",
+   "Zamanla"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "1ab0317c-029e-4bb2-9de6-372e922d68aa",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather express their feelings openly or keep them to themselves?",
+  "tr": "{{playerName}} duygularını açıkça ifade etmeyi mi yoksa içinde tutmayı mı tercih eder?",
+  "answers_en": [
+   "Express openly",
+   "Keep to themselves"
+  ],
+  "answers_tr": [
+   "Açıkça ifade eder",
+   "İçinde tutar"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "786f9f17-3200-414f-9269-969c05476a85",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather be the one who loves more or be loved more?",
+  "tr": "{{playerName}} daha çok seven kişi mi olmayı tercih eder yoksa daha çok sevilen kişi mi?",
+  "answers_en": [
+   "Love more",
+   "Be loved more"
+  ],
+  "answers_tr": [
+   "Daha çok sevmek",
+   "Daha çok sevilmek"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "0739e76d-bd4b-4bcc-a375-4048e59d974a",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather go for someone who is emotionally intense or emotionally calm?",
+  "tr": "{{playerName}} duygusal olarak yoğun biriyle mi yoksa duygusal olarak sakin biriyle mi birlikte olmayı tercih eder?",
+  "answers_en": [
+   "Emotionally intense",
+   "Emotionally calm"
+  ],
+  "answers_tr": [
+   "Duygusal olarak yoğun",
+   "Duygusal olarak sakin"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "76484c65-35c7-4c3c-9a1e-42230c7921f2",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather have a predictable life or an unpredictable exciting life?",
+  "tr": "{{playerName}} düzenli ve tahmin edilebilir bir hayatı mı yoksa sürprizlerle dolu heyecanlı bir hayatı mı tercih eder?",
+  "answers_en": [
+   "Predictable life",
+   "Exciting unpredictable life"
+  ],
+  "answers_tr": [
+   "Düzenli hayat",
+   "Heyecanlı ve sürprizli hayat"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "239177fa-9d95-4c4e-bf05-9ca0e0153f5c",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather have a big family or keep their family small?",
+  "tr": "{{playerName}} büyük bir aileye sahip olmayı mı yoksa küçük bir aileyi mi tercih eder?",
+  "answers_en": [
+   "Big family",
+   "Small family"
+  ],
+  "answers_tr": [
+   "Büyük aile",
+   "Küçük aile"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "1918743a-fff6-42ba-bacb-9f6930488c49",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather spend holidays with family or travel somewhere new?",
+  "tr": "{{playerName}} tatilleri ailesiyle geçirmeyi mi yoksa yeni bir yere seyahat etmeyi mi tercih eder?",
+  "answers_en": [
+   "Spend with family",
+   "Travel somewhere new"
+  ],
+  "answers_tr": [
+   "Aileyle geçirmek",
+   "Yeni bir yere seyahat etmek"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "77ba1277-946e-480b-b878-ed1aa3b631ad",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather have kids early in life or later in life?",
+  "tr": "{{playerName}} çocuk sahibi olmayı erken yaşlarda mı yoksa daha ileriki yaşlarda mı tercih eder?",
+  "answers_en": [
+   "Earlier in life",
+   "Later in life"
+  ],
+  "answers_tr": [
+   "Erken yaşlarda",
+   "Daha ileriki yaşlarda"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "598ab765-c9fe-4082-bc14-d4b8d064861f",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather have one child or two children?",
+  "tr": "{{playerName}} tek çocuk mu yoksa iki çocuk mu ister?",
+  "answers_en": [
+   "One child",
+   "Two children"
+  ],
+  "answers_tr": [
+   "Tek çocuk",
+   "İki çocuk"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "d704896b-0ef4-4c00-9fd7-3a47551b146a",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather have a stable job for life or take risks to build their own business?",
+  "tr": "{{playerName}} ömür boyu garanti bir işi mi yoksa risk alıp kendi işini kurmayı mı tercih eder?",
+  "answers_en": [
+   "Stable job for life",
+   "Start own business"
+  ],
+  "answers_tr": [
+   "Ömür boyu sabit iş",
+   "Kendi işini kurmak"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "6fb61eae-df85-4a81-bbd6-5ead952fdd6f",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather work remotely from anywhere or work in a fixed office environment?",
+  "tr": "{{playerName}} her yerden uzaktan çalışmayı mı yoksa sabit bir ofis ortamında çalışmayı mı tercih eder?",
+  "answers_en": [
+   "Work remotely",
+   "Work in office"
+  ],
+  "answers_tr": [
+   "Uzaktan çalışmak",
+   "Ofiste çalışmak"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "47219491-e82d-4220-afd0-f8f976dbacbc",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather move in with a partner early or wait a long time before living together?",
+  "tr": "{{playerName}} bir partneriyle erken mi aynı eve çıkmayı tercih eder yoksa birlikte yaşamak için uzun mu bekler?",
+  "answers_en": [
+   "Move in early",
+   "Wait a long time"
+  ],
+  "answers_tr": [
+   "Erken birlikte yaşamak",
+   "Uzun süre beklemek"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "245377c3-2b87-4c1e-a318-e374030cc54a",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If {{playerName}} had to choose, would they rather be with someone who is very jealous or someone who is very stingy?",
+  "tr": "{{playerName}} birini tercih etmek zorunda olsa çok kıskanç biriyle mi yoksa çok cimri biriyle mi beraber olmak ister?",
+  "answers_en": [
+   "Very jealous",
+   "Very stingy"
+  ],
+  "answers_tr": [
+   "Çok kıskanç",
+   "Çok cimri"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "11fcbe7e-56a2-4147-b883-7adfe6ae91bf",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If {{playerName}} had to choose, would they rather be with someone who is very controlling or someone who is very emotionally distant?",
+  "tr": "{{playerName}} birini tercih etmek zorunda olsa çok kontrolcü biriyle mi yoksa duygusal olarak çok mesafeli biriyle mi beraber olmak ister?",
+  "answers_en": [
+   "Very controlling",
+   "Emotionally distant"
+  ],
+  "answers_tr": [
+   "Çok kontrolcü",
+   "Duygusal olarak mesafeli"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "8ffb0025-b2a9-4460-a1ed-cb5a661a2088",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather be with someone very ambitious or someone very content with life?",
+  "tr": "{{playerName}} çok hırslı biriyle mi yoksa hayatından memnun biriyle mi olmak ister?",
+  "answers_en": [
+   "Very ambitious",
+   "Very content"
+  ],
+  "answers_tr": [
+   "Çok hırslı",
+   "Hayatından memnun"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "3408836d-1ecf-441a-960f-2fea5ad49e27",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather have a cat or a dog as a pet?",
+  "tr": "{{playerName}} evcil hayvan olarak kedi mi yoksa köpek mi ister?",
+  "answers_en": [
+   "Cat",
+   "Dog"
+  ],
+  "answers_tr": [
+   "Kedi",
+   "Köpek"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "1f6efff9-3add-4515-85f1-c6d272731369",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather be famous or live a completely private life?",
+  "tr": "{{playerName}} ünlü olmayı mı yoksa tamamen gizli ve özel bir hayat yaşamayı mı tercih eder?",
+  "answers_en": [
+   "Be famous",
+   "Private life"
+  ],
+  "answers_tr": [
+   "Ünlü olmak",
+   "Özel hayat"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "89b861b5-b18b-4c8f-a6db-d3267f82af3f",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather always tell the truth or always avoid conflict?",
+  "tr": "{{playerName}} her zaman doğruyu söylemeyi mi yoksa her zaman çatışmadan kaçınmayı mı tercih eder?",
+  "answers_en": [
+   "Always tell the truth",
+   "Avoid conflict"
+  ],
+  "answers_tr": [
+   "Her zaman doğruyu söylemek",
+   "Çatışmadan kaçınmak"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "390d3b45-4e67-40bf-a304-e54b49a54d93",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather forgive easily or take time before forgiving someone?",
+  "tr": "{{playerName}} kolay affetmeyi mi yoksa birini affetmeden önce zaman almayı mı tercih eder?",
+  "answers_en": [
+   "Forgive easily",
+   "Take time to forgive"
+  ],
+  "answers_tr": [
+   "Kolay affetmek",
+   "Zaman alarak affetmek"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "778652b2-f2c7-4a02-8dbf-bf8fbb62d089",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather take things slow in a relationship or feel instant chemistry?",
+  "tr": "{{playerName}} ilişkide yavaş ilerlemeyi mi yoksa anında çekim hissetmeyi mi tercih eder?",
+  "answers_en": [
+   "Take it slow",
+   "Instant chemistry"
+  ],
+  "answers_tr": [
+   "Yavaş ilerlemek",
+   "Anlık çekim"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "6b1a102c-c5a3-4261-97eb-1379c2d19a64",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather show affection in public or keep it private?",
+  "tr": "{{playerName}} sevgisini açıkça herkesin içinde göstermeyi mi yoksa daha gizli tutmayı mı tercih eder?",
+  "answers_en": [
+   "In public",
+   "Private"
+  ],
+  "answers_tr": [
+   "Herkesin içinde",
+   "Özelde"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "1a19c968-2cfd-4823-80a6-b871d121e44a",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather have intense chemistry or emotional comfort in a relationship?",
+  "tr": "{{playerName}} ilişkide yoğun bir çekim mi yoksa duygusal rahatlık mı tercih eder?",
+  "answers_en": [
+   "Intense chemistry",
+   "Emotional comfort"
+  ],
+  "answers_tr": [
+   "Yoğun çekim",
+   "Duygusal rahatlık"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "8ca453c1-959a-4c76-9ea7-54987d756b27",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather have a partner who is very jealous or someone who gives complete freedom?",
+  "tr": "{{playerName}} çok kıskanç bir partneri mi yoksa tam özgürlük veren bir partneri mi tercih eder?",
+  "answers_en": [
+   "Very jealous",
+   "Gives full freedom"
+  ],
+  "answers_tr": [
+   "Çok kıskanç",
+   "Tam özgürlük veren"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "d5fadf41-1231-4b0c-8efa-9d625b1ca6fb",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather be with someone very expressive physically or someone more controlled and calm?",
+  "tr": "{{playerName}} fiziksel olarak çok dışa dönük biriyle mi yoksa daha kontrollü ve sakin biriyle mi olmak ister?",
+  "answers_en": [
+   "Very expressive",
+   "Controlled and calm"
+  ],
+  "answers_tr": [
+   "Çok dışa dönük",
+   "Kontrollü ve sakin"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "f1ed238f-43db-4120-a454-f66430ed55c7",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather be in a relationship with strong physical chemistry or strong emotional connection?",
+  "tr": "{{playerName}} güçlü fiziksel çekim olan bir ilişkide mi yoksa güçlü duygusal bağ olan bir ilişkide mi olmak ister?",
+  "answers_en": [
+   "Physical chemistry",
+   "Emotional connection"
+  ],
+  "answers_tr": [
+   "Fiziksel çekim",
+   "Duygusal bağ"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "aefd3291-56f1-4c7b-ae95-6cace501472d",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} prefer sunny or rainy weather?",
+  "tr": "{{playerName}} güneşli havayı mı yoksa yağmurlu havayı mı sever?",
+  "answers_en": [
+   "Sunny",
+   "Rainy"
+  ],
+  "answers_tr": [
+   "Güneşli",
+   "Yağmurlu"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "9cb91fa0-017a-492d-adbe-adb31919cbdd",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} prefer intimacy in the morning or at night?",
+  "tr": "{{playerName}} yakınlık için sabahı mı yoksa geceyi mi tercih eder?",
+  "answers_en": [
+   "Morning",
+   "Night"
+  ],
+  "answers_tr": [
+   "Sabah",
+   "Gece"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "a003660c-bffd-47f5-952c-0a40d2a45686",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} prefer spontaneous or planned intimacy?",
+  "tr": "{{playerName}} plansız (spontane) mı yoksa planlı bir yakınlığı mı tercih eder?",
+  "answers_en": [
+   "Spontaneous",
+   "Planned"
+  ],
+  "answers_tr": [
+   "Plansız (Spontane)",
+   "Planlı"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "8a17d77f-14ed-4528-b669-78594d0da8ac",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} prefer a wild night out or a cozy night in?",
+  "tr": "{{playerName}} dışarıda hareketli bir geceyi mi yoksa evde sakin bir geceyi mi tercih eder?",
+  "answers_en": [
+   "Night out",
+   "Night in"
+  ],
+  "answers_tr": [
+   "Dışarıda gece",
+   "Evde gece"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "a0fac6c6-6686-45b8-8cf4-408edc5d032c",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} prefer a beach vacation or a mountain vacation?",
+  "tr": "{{playerName}} plaj tatilini mi yoksa dağ tatilini mi tercih eder?",
+  "answers_en": [
+   "Beach",
+   "Mountains"
+  ],
+  "answers_tr": [
+   "Plaj",
+   "Dağ"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "cffb0f75-9040-45b1-8d12-300ef3ca08be",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} prefer a sweet text message or a long phone call?",
+  "tr": "{{playerName}} tatlı bir mesajı mı yoksa uzun bir telefon görüşmesini mi tercih eder?",
+  "answers_en": [
+   "Sweet text",
+   "Long phone call"
+  ],
+  "answers_tr": [
+   "Tatlı bir mesaj",
+   "Uzun telefon görüşmesi"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "59e97775-72fe-4bf0-9f4c-5b0cd575a4ce",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} prefer a surprise date or a carefully planned one?",
+  "tr": "{{playerName}} sürpriz bir buluşmayı mı yoksa özenle planlanmış bir buluşmayı mı tercih eder?",
+  "answers_en": [
+   "Surprise date",
+   "Planned date"
+  ],
+  "answers_tr": [
+   "Sürpriz buluşma",
+   "Planlı buluşma"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "d164f584-fdb2-4f62-b924-781f1bd75ac9",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} prefer receiving compliments on their looks or their personality?",
+  "tr": "{{playerName}} dış görünüşüyle mi yoksa kişiliğiyle mi ilgili iltifat almayı tercih eder?",
+  "answers_en": [
+   "Looks",
+   "Personality"
+  ],
+  "answers_tr": [
+   "Dış görünüş",
+   "Kişilik"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "0492fd1f-f383-4660-8df4-d63bc67d178a",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} prefer making big life decisions solo or together with their partner?",
+  "tr": "{{playerName}} hayatındaki büyük kararları tek başına almayı mı tercih eder yoksa partneriyle birlikte mi?",
+  "answers_en": [
+   "Solo",
+   "Together"
+  ],
+  "answers_tr": [
+   "Tek başına",
+   "Birlikte"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "94f9ac5e-0878-4a02-ae8c-7b4008f74ad4",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If {{playerName}} could time travel, would they fix a mistake in the past or visit the future?",
+  "tr": "{{playerName}} zamanda yolculuk yapabilse, geçmişteki bir hatayı düzeltmeyi mi yoksa geleceğe gitmeyi mi seçer?",
+  "answers_en": [
+   "Fix the past",
+   "Visit the future"
+  ],
+  "answers_tr": [
+   "Geçmişi düzeltmek",
+   "Geleceğe gitmek"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "bd441de0-5c15-4416-99b1-89df1671c114",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Was {{playerName}} a mischievous troublemaker or a quiet, rule-following kid?",
+  "tr": "{{playerName}} çocukken yaramaz ve başı dertten kurtulmayan biri miydi, yoksa kurallara uyan sessiz bir çocuk mu?",
+  "answers_en": [
+   "Troublemaker",
+   "Quiet kid"
+  ],
+  "answers_tr": [
+   "Yaramaz",
+   "Sessiz çocuk"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "347689ab-707b-4407-a09f-69f9f19343de",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "As a child, did {{playerName}} prefer playing outside in the dirt or staying indoors with toys?",
+  "tr": "{{playerName}} çocukken çamurlarda dışarıda oynamayı mı, yoksa içeride oyuncaklarıyla vakit geçirmeyi mi tercih ederdi?",
+  "answers_en": [
+   "Outdoor games",
+   "Indoor games"
+  ],
+  "answers_tr": [
+   "Dışarı oyunları",
+   "İçeri oyunları"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "c022d8ce-34b3-4ab0-a227-06d30b81bd48",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} prefer to keep their food separate on the plate or mix it all together?",
+  "tr": "{{playerName}} tabağındaki yemekleri ayrı ayrı mı tutmayı sever, yoksa hepsini karıştırmayı mı?",
+  "answers_en": [
+   "Keep separate",
+   "Mix together"
+  ],
+  "answers_tr": [
+   "Ayrı tutmak",
+   "Hepsini karıştırmak"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "060551e0-79ca-4006-9c48-f247b618ce82",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Does {{playerName}} prefer sleeping in absolute silence or with some background noise (like music or a fan)?",
+  "tr": "{{playerName}} uyurken mutlak sessizliği mi tercih eder yoksa arka planda bir ses (müzik, vantilatör vb.) olmasını mı?",
+  "answers_en": [
+   "Absolute silence",
+   "Background noise"
+  ],
+  "answers_tr": [
+   "Mutlak sessizlik",
+   "Arka plan sesi"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "df4aa404-cddd-4a94-b2bb-04fa25a26220",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "Would {{playerName}} rather be remembered for their intelligence or their kindness?",
+  "tr": "{{playerName}} hatırlandığında zekasıyla mı yoksa nezaketiyle mi anılmayı tercih eder?",
+  "answers_en": [
+   "Intelligence",
+   "Kindness"
+  ],
+  "answers_tr": [
+   "Zekası",
+   "Nezaketi"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "d3b1c0c7-84b5-46cf-9492-69d50264f744",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "When stressed, does {{playerName}} isolate to cope or seek support from loved ones?",
+  "tr": "{{playerName}} stresliyken yalnız kalıp kendi başına mı çözmek ister, yoksa sevdiklerinden destek mi bekler?",
+  "answers_en": [
+   "Isolate/Internalize",
+   "Seek support"
+  ],
+  "answers_tr": [
+   "Yalnız kalmak",
+   "Destek aramak"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "85b2e103-ec68-46a7-969f-9a2a9845765f",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "When making a major decision, does {{playerName}} follow their gut instinct or do they need to analyze all the facts?",
+  "tr": "{{playerName}} önemli bir karar verirken içgüdülerine mi güvenir, yoksa tüm verileri analiz etmeye mi ihtiyaç duyar?",
+  "answers_en": [
+   "Gut instinct",
+   "Data/Facts"
+  ],
+  "answers_tr": [
+   "İçgüdü",
+   "Veri/Mantık"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "1291050c-1544-4303-aec4-8dfb5336fede",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "How important is the environment (lighting, music, atmosphere) to {{playerName}} during intimacy?",
+  "tr": "{{playerName}} yakınlık anında çevresel faktörlere (ışık, müzik, atmosfer) ne kadar önem verir?",
+  "answers_en": [
+   "Everything matters",
+   "Doesn't matter at all"
+  ],
+  "answers_tr": [
+   "Her detay önemli",
+   "Hiç önemli değil"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "936fc0ce-528b-4397-9401-6e314e091ea9",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "When in an intimate moment, does {{playerName}} prefer verbal affirmation or focusing purely on the physical sensation?",
+  "tr": "{{playerName}} yakınlık anında sözlü ifadelere mi, yoksa tamamen fiziksel hislere odaklanmaya mı daha çok önem verir?",
+  "answers_en": [
+   "Verbal affirmation",
+   "Purely physical"
+  ],
+  "answers_tr": [
+   "Sözlü ifade",
+   "Tamamen fiziksel"
+  ],
+  "category": "know_me_well"
+ },
+ {
+  "id": "e9b217eb-eb8e-4bf3-96e3-0529186355f9",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What time does {{playerName}} usually wake up?",
+  "tr": "{{playerName}} genelde saat kaçta uyanır?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "0c937cba-97a4-4782-a859-d321a0e52b16",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many siblings does {{playerName}} have?",
+  "tr": "{{playerName}}'in kaç kardeşi var?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "8e7430ec-4498-4aff-a4dc-10933a46c12d",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What month was {{playerName}} born in?",
+  "tr": "{{playerName}} hangi ayda doğdu?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "b5c36562-c5d4-42ae-9205-85f0b0262bad",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite ice cream flavor?",
+  "tr": "{{playerName}} en çok hangi dondurma aromasını sever?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "67bea7b0-936b-4108-b413-8eea681221e0",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What does {{playerName}} never leave the house without?",
+  "tr": "{{playerName}} evden çıkarken yanında mutlaka ne taşır?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "10c8697c-0893-43cd-891b-3f8043ea9661",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What city was {{playerName}} born in?",
+  "tr": "{{playerName}} hangi şehirde doğdu?",
+  "category": "know_me_well"
+ },
+ {
+  "id": "67bddf7d-4d5a-49ff-b2bd-544f70c541e0",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite color?",
+  "tr": "{{playerName}} en çok hangi rengi sever?",
+  "category": "know_me_well"
+ }
+]

@@ -42,7 +42,10 @@ const roomWith = (players: Player[]): Room =>
 test("a seat moves to the player's new socket, with a partner on their phone", () => {
   const host = player("old", true);
   const room = roomWith([host, makeLocalPartner(host, "Ece", "girl-1")]);
-  assert.equal(moveSeat(room, "old", "new"), true);
+  assert.deepEqual(moveSeat(room, "old", "new"), {
+    old: "new",
+    [localPartnerId("old")]: localPartnerId("new"),
+  });
   assert.deepEqual(
     room.players.map((p) => [p.id, p.isHost, p.localOf]),
     [
@@ -54,8 +57,39 @@ test("a seat moves to the player's new socket, with a partner on their phone", (
 
 test("a seat isn't moved onto a socket that already has one, or from one that has none", () => {
   const room = roomWith([player("a", true), player("b", false)]);
-  assert.equal(moveSeat(room, "a", "b"), false);
-  assert.equal(moveSeat(room, "missing", "c"), false);
-  assert.equal(moveSeat(room, "a", "a"), false);
+  assert.equal(moveSeat(room, "a", "b"), null);
+  assert.equal(moveSeat(room, "missing", "c"), null);
+  assert.equal(moveSeat(room, "a", "a"), null);
   assert.deepEqual(room.players.map((p) => p.id), ["a", "b"]);
+});
+
+test("mid-game, answers, grades and two_truths statements move with the seat", () => {
+  const room = {
+    roomCode: "ABCD",
+    status: "playing",
+    players: [player("old", true), player("b", false)],
+    questions: [
+      { id: "w", twoTruths: { phase: "write", turn: 0 } },
+      { id: "g", twoTruths: { phase: "guess", turn: 0, writeId: "w", statements: { old: ["x"], b: null } } },
+    ],
+    currentRound: {
+      question: { id: "g", twoTruths: { phase: "guess", turn: 0, writeId: "w", statements: { old: ["x"], b: null } } },
+      answers: { old: "1", b: null },
+      isMatched: null,
+      status: "waiting_answers",
+    },
+    completedRounds: [
+      { question: { id: "q1" }, answers: { old: "yes", b: "no" }, correct: { old: true, b: false }, lies: { old: 2 }, isMatched: false, status: "completed" },
+    ],
+  } as unknown as Room;
+  assert.deepEqual(moveSeat(room, "old", "new"), { old: "new" });
+  assert.deepEqual(room.currentRound!.answers, { new: "1", b: null });
+  assert.deepEqual(room.currentRound!.question.twoTruths, {
+    phase: "guess", turn: 0, writeId: "w", statements: { new: ["x"], b: null },
+  });
+  assert.deepEqual(room.completedRounds[0].answers, { new: "yes", b: "no" });
+  assert.deepEqual(room.completedRounds[0].correct, { new: true, b: false });
+  assert.deepEqual(room.completedRounds[0].lies, { new: 2 });
+  const guess = room.questions[1].twoTruths;
+  assert.deepEqual(guess?.phase === "guess" && guess.statements, { new: ["x"], b: null });
 });

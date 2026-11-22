@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   actingPlayerId,
+  advancesManually,
   deviceOf,
   isLocalRoom,
   localPartnerId,
@@ -69,4 +70,18 @@ test("nobody can answer for a player on another phone", () => {
 test("a local round leaves time for both turns and the handoff", () => {
   assert.ok(localRoundSeconds(15) >= 30 + 60);
   assert.ok(localRoundSeconds(30) > localRoundSeconds(15));
+});
+
+test("only a partner seated by an app with the next button waits for it", () => {
+  const withButton = makeLocalPartner(host, "Ece", "girl-1", true);
+  const oldApp = makeLocalPartner(host, "Ece", "girl-1");
+  assert.equal(withButton.manualAdvance, true);
+  assert.equal("manualAdvance" in oldApp, false);
+  assert.equal(advancesManually({ players: [host, withButton] }), true);
+  assert.equal(advancesManually({ players: [host, oldApp] }), false);
+  // Two phones never wait for a button, whatever a player sends.
+  assert.equal(
+    advancesManually({ players: [host, { ...remote, manualAdvance: true }] }),
+    false,
+  );
 });

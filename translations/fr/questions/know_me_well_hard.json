@@ -1,0 +1,960 @@
+{
+  "02d1eea2-7558-454e-9560-9e4115e31dc5": {
+    "en": "When someone they love is hurting, what does {{playerName}} do?",
+    "text": "Quand un proche va mal, que fait {{playerName}} ?",
+    "answers": [
+      "Essaie d'arranger les choses",
+      "Reste à ses côtés",
+      "Le fait rire",
+      "Lui laisse de l'espace"
+    ]
+  },
+  "8f65f3e0-e029-41cb-8233-1c0073efccc3": {
+    "en": "After you park, {{playerName}} doesn't get out right away. What are they doing?",
+    "text": "Tu te gares, et {{playerName}} ne sort pas tout de suite. Que se passe-t-il ?",
+    "answers": [
+      "Regarde son téléphone",
+      "Profite du calme",
+      "T'embrasse"
+    ]
+  },
+  "b6802604-bee1-44ef-b402-3d614299e874": {
+    "en": "You both just got home. {{playerName}} still has their shoes on. What are they doing?",
+    "text": "Vous venez de rentrer. {{playerName}} a encore ses chaussures aux pieds. Que se passe-t-il ?",
+    "answers": [
+      "Regarde son téléphone",
+      "Attend que tu entres en premier",
+      "Attend un bisou"
+    ]
+  },
+  "525b7a39-af6b-443c-8d4b-e04df6bb666d": {
+    "en": "The movie ended. {{playerName}} hasn't moved. What are they doing?",
+    "text": "Le film est fini. {{playerName}} n'a pas bougé. Que se passe-t-il ?",
+    "answers": [
+      "Est encore dans le film",
+      "Te regarde",
+      "Est déjà sur son téléphone"
+    ]
+  },
+  "87a626ec-edc2-4c73-8b8c-2316370de28c": {
+    "en": "{{playerName}} opened the fridge and is just standing there. What are they doing?",
+    "text": "{{playerName}} a ouvert le frigo et ne bouge plus. Que se passe-t-il ?",
+    "answers": [
+      "Cherche vraiment quelque chose",
+      "Est dans la lune",
+      "T'attend"
+    ]
+  },
+  "45ffa91d-cf8c-4de3-b9cc-35eecf07a0e8": {
+    "en": "You asked {{playerName}} something. They smiled and haven't answered. What are they doing?",
+    "text": "Tu as posé une question à {{playerName}}. Un sourire, mais pas de réponse. Que se passe-t-il ?",
+    "answers": [
+      "Réfléchit",
+      "Te fait marcher",
+      "Veut d'abord un bisou"
+    ]
+  },
+  "331f8ded-e21e-4f4a-8c54-5eff81ad09d8": {
+    "en": "{{playerName}} has been in the bathroom a while. The water's running. What are they doing?",
+    "text": "{{playerName}} est dans la salle de bain depuis un moment. L'eau coule. Que se passe-t-il ?",
+    "answers": [
+      "Se prépare vraiment",
+      "Est sur son téléphone",
+      "Attend que tu entres"
+    ]
+  },
+  "d4a67a3f-58fb-4dfb-a9fa-7ccbd119b76a": {
+    "en": "If you roast {{playerName}} in front of their closest friends, what do they do?",
+    "text": "Si tu te moques de {{playerName}} devant ses meilleurs amis, que fait {{playerName}} ?",
+    "answers": [
+      "Rit et te le rend bien",
+      "Ne dit plus rien",
+      "Rit, mais en reparle plus tard"
+    ]
+  },
+  "0fa9d630-8f79-407e-b467-c6619e937183": {
+    "en": "If you leave {{playerName}}'s flirty text on read for a few hours, what do they do?",
+    "text": "{{playerName}} t'envoie un message charmeur et tu le laisses en « vu » quelques heures. Que fait {{playerName}} ?",
+    "answers": [
+      "En envoie un autre",
+      "Fait mine de s'en ficher",
+      "Attend, puis répond normalement"
+    ]
+  },
+  "72f44c82-e80d-4048-8907-88aa16325526": {
+    "en": "If {{playerName}} loses to you at something they take seriously, what do they do?",
+    "text": "Si {{playerName}} perd contre toi à un truc qui lui tient à cœur, que fait {{playerName}} ?",
+    "answers": [
+      "Exige une revanche",
+      "Boude un moment",
+      "Te félicite, sincèrement"
+    ]
+  },
+  "0f63d809-97bc-4a06-af87-dcdf7259d217": {
+    "en": "If you correct {{playerName}} in front of other people, what do they do?",
+    "text": "Si tu corriges {{playerName}} devant d'autres personnes, que se passe-t-il ?",
+    "answers": [
+      "Laisse passer",
+      "Plaisante, mais ça pique",
+      "Conteste sur-le-champ"
+    ]
+  },
+  "0411fe10-be71-42ce-96e0-f0b4b8f30d01": {
+    "en": "If you eat the last bite {{playerName}} was saving, what do they do?",
+    "text": "Si tu manges la dernière bouchée que {{playerName}} gardait, que se passe-t-il ?",
+    "answers": [
+      "Se fâche pour de vrai",
+      "Fait tout un drame, pour rire",
+      "Ne remarque rien"
+    ]
+  },
+  "cbf55a0d-77d9-49b6-8b18-df9bfec9721b": {
+    "en": "If you fall asleep while {{playerName}} is mid-story, what do they do?",
+    "text": "Si tu t'endors pendant que {{playerName}} raconte une histoire, que se passe-t-il ?",
+    "answers": [
+      "Te réveille et finit",
+      "Se tait et te laisse dormir",
+      "Te filme pour se moquer plus tard"
+    ]
+  },
+  "9793ce24-d328-401c-9858-5e3c9e5253d7": {
+    "en": "If you show up to {{playerName}}'s family's house empty-handed, what do they do?",
+    "text": "Si tu arrives les mains vides chez la famille de {{playerName}}, que se passe-t-il ?",
+    "answers": [
+      "Te couvre",
+      "Te lance un regard",
+      "S'en fiche complètement"
+    ]
+  },
+  "db4d9102-32bd-44e6-afa1-7eae78199ee6": {
+    "en": "If you keep using a word {{playerName}} hates, on purpose, what do they do?",
+    "text": "Si tu répètes exprès un mot que {{playerName}} déteste, que se passe-t-il ?",
+    "answers": [
+      "Rit à chaque fois",
+      "Te demande d'arrêter, sérieusement",
+      "Se met à l'utiliser aussi"
+    ]
+  },
+  "c00aa094-a9f0-4858-a29d-551c1cd3ca18": {
+    "en": "If you cancel on {{playerName}} last minute, what do they do?",
+    "text": "Si tu annules avec {{playerName}} à la dernière minute, que se passe-t-il ?",
+    "answers": [
+      "Dit que ça va, et c'est vrai",
+      "Dit que ça va, mais ça ne va pas",
+      "Demande pourquoi, direct"
+    ]
+  },
+  "008d5998-0535-4df5-a12b-0f96ad8e625f": {
+    "en": "If you borrow {{playerName}}'s clothes without asking, what do they do?",
+    "text": "Si tu empruntes des vêtements de {{playerName}} sans demander, que se passe-t-il ?",
+    "answers": [
+      "Aime te voir dedans",
+      "Veut les récupérer, tout de suite",
+      "Ne remarque rien"
+    ]
+  },
+  "d01e1cff-bb0c-409a-a1f2-125ec6c79f76": {
+    "en": "If you're late to meet {{playerName}} and you don't text, what do they do?",
+    "text": "Si tu es en retard à un rendez-vous avec {{playerName}} sans prévenir, que se passe-t-il ?",
+    "answers": [
+      "Écrit « t'es où ? »",
+      "Attend sans rien dire",
+      "S'en va"
+    ]
+  },
+  "30c1ecc9-a29f-474c-8fa8-3e13ffb9ef91": {
+    "en": "If you pick up {{playerName}}'s phone and start scrolling, what do they do?",
+    "text": "Si tu prends le téléphone de {{playerName}} et que tu te mets à scroller, que se passe-t-il ?",
+    "answers": [
+      "S'en fiche",
+      "Le reprend calmement",
+      "Le reprend, pas calmement du tout"
+    ]
+  },
+  "0d9143dd-9554-4015-9d7c-8a689f8ac7ca": {
+    "en": "If you invite someone {{playerName}} doesn't like, what do they do?",
+    "text": "Si tu invites quelqu'un que {{playerName}} n'aime pas, que se passe-t-il ?",
+    "answers": [
+      "Fait avec",
+      "Le dit franchement",
+      "Ne dit rien de la soirée"
+    ]
+  },
+  "fce90c77-7a35-44c0-a40a-406848fd42f4": {
+    "en": "It starts pouring and there's no umbrella. What does {{playerName}} do?",
+    "text": "Il pleut des cordes et il n'y a pas de parapluie. Que fait {{playerName}} ?",
+    "answers": [
+      "Fonce sous la pluie",
+      "Attend que ça passe"
+    ]
+  },
+  "aa68e98e-f9ba-4240-82d9-233e6d3a1ddd": {
+    "en": "{{playerName}}'s coffee comes out wrong. What do they do?",
+    "text": "Le café de {{playerName}} n'est pas le bon. Que fait {{playerName}} ?",
+    "answers": [
+      "Le renvoie",
+      "Le boit quand même"
+    ]
+  },
+  "c9db61c9-a1ab-40e4-8d0c-92dea5576a34": {
+    "en": "{{playerName}} spills something on their shirt right before going out. What do they do?",
+    "text": "{{playerName}} se fait une tache sur son haut juste avant de sortir. Que fait {{playerName}} ?",
+    "answers": [
+      "Se change",
+      "Sort quand même"
+    ]
+  },
+  "4e97ab2e-b06b-44ce-b8db-e15db3bb987f": {
+    "en": "{{playerName}} just missed the bus. What do they do?",
+    "text": "{{playerName}} vient de rater le bus. Que fait {{playerName}} ?",
+    "answers": [
+      "Court après",
+      "Attend le suivant"
+    ]
+  },
+  "d339e7bd-ebce-4481-ad0a-e8b8ed05442a": {
+    "en": "The Wi-Fi dies in the middle of something {{playerName}} is watching. What do they do?",
+    "text": "Le Wi-Fi coupe en plein milieu de ce que regarde {{playerName}}. Que fait {{playerName}} ?",
+    "answers": [
+      "Se bat avec la box",
+      "Abandonne et fait autre chose"
+    ]
+  },
+  "ac0f3027-b51a-426f-b6e9-6a3b4aa38199": {
+    "en": "{{playerName}} gets a parking ticket. What do they do?",
+    "text": "{{playerName}} se prend une contravention. Que fait {{playerName}} ?",
+    "answers": [
+      "S'énerve",
+      "En rit"
+    ]
+  },
+  "c3ec2d4b-d284-4714-8e9e-d2da5ef9c6d7": {
+    "en": "{{playerName}}'s alarm didn't go off. They're already 20 minutes late. What do they do?",
+    "text": "Le réveil de {{playerName}} n'a pas sonné. Déjà 20 minutes de retard. Que fait {{playerName}} ?",
+    "answers": [
+      "Saute le petit-déj et court",
+      "Écrit « je suis en retard » et prend son temps",
+      "Appelle et assume"
+    ]
+  },
+  "94c90555-87e2-4c29-9117-a323c27d95c4": {
+    "en": "When {{playerName}} is late, what's the first thing they blame?",
+    "text": "Quand {{playerName}} est en retard, quelle est sa première excuse ?"
+  },
+  "fdd1c924-ee99-4f05-a5bd-dfcd6d9c8f03": {
+    "en": "After a small argument, how many minutes until {{playerName}} texts first?",
+    "text": "Après une petite dispute, combien de minutes avant que {{playerName}} écrive en premier ?"
+  },
+  "b54e1bb1-3bf8-47c3-a48a-86023b0f0add": {
+    "en": "Where does {{playerName}} go when they need to be alone?",
+    "text": "Où va {{playerName}} pour s'isoler ?"
+  },
+  "3b1883ec-15de-4788-9bef-ba8f5c5bc8a7": {
+    "en": "What does {{playerName}} order when they can't decide?",
+    "text": "Que commande {{playerName}} en cas d'hésitation ?"
+  },
+  "238665e7-e0da-45ce-a9d7-0eb9eef65a6c": {
+    "en": "How many times does {{playerName}} check the lock before they can leave?",
+    "text": "Combien de fois {{playerName}} vérifie la serrure avant de partir ?"
+  },
+  "466890df-b2fd-43de-a06e-7bf3787838fa": {
+    "en": "What's {{playerName}}'s dad's name?",
+    "text": "Comment s'appelle le père de {{playerName}} ?"
+  },
+  "83463f47-91d7-4aad-9222-957f815550ec": {
+    "en": "What color are {{playerName}}'s eyes?",
+    "text": "De quelle couleur sont les yeux de {{playerName}} ?"
+  },
+  "82b2f614-a300-4077-aebb-1f5fc9d783da": {
+    "en": "What's {{playerName}}'s favorite sport?",
+    "text": "Quel est le sport préféré de {{playerName}} ?"
+  },
+  "57674f98-004a-4613-ae68-f9a5aeb47287": {
+    "en": "What city did {{playerName}} grow up in?",
+    "text": "Dans quelle ville {{playerName}} a grandi ?"
+  },
+  "978cc42e-c57a-4a1f-ab39-e3ae2bea3021": {
+    "en": "What's {{playerName}}'s mom's name?",
+    "text": "Comment s'appelle la mère de {{playerName}} ?"
+  },
+  "cfd2c28a-8bea-4257-879e-95cbc762962f": {
+    "en": "How tall is {{playerName}}, in cm?",
+    "text": "Combien mesure {{playerName}}, en cm ?"
+  },
+  "f323e901-c9d8-402a-a779-6dfc98dbb068": {
+    "en": "What's {{playerName}}'s favorite video game?",
+    "text": "Quel est le jeu vidéo préféré de {{playerName}} ?"
+  },
+  "25851c79-797f-40fd-b2f6-6c0d20b9dfdd": {
+    "en": "What car does {{playerName}} drive?",
+    "text": "Quelle voiture conduit {{playerName}} ?"
+  },
+  "a4265570-c916-40c1-a402-d063a73be6b2": {
+    "en": "What's {{playerName}}'s favorite holiday?",
+    "text": "Quelle est la fête préférée de {{playerName}} ?"
+  },
+  "5fe73127-bbe3-48f7-8abc-2d69d6a88593": {
+    "en": "What's {{playerName}}'s shoe size?",
+    "text": "Quelle est la pointure de {{playerName}} ?"
+  },
+  "75c9c2af-241b-4035-b6fc-5fdcd08973cd": {
+    "en": "What's {{playerName}}'s favorite book?",
+    "text": "Quel est le livre préféré de {{playerName}} ?"
+  },
+  "8deddb72-b5b8-4818-b368-0c4fbe051257": {
+    "en": "What's {{playerName}}'s favorite restaurant?",
+    "text": "Quel est le restaurant préféré de {{playerName}} ?"
+  },
+  "c550dc4b-c6cf-4d1b-9345-6b74e5d47623": {
+    "en": "What year was {{playerName}} born?",
+    "text": "Quelle est l'année de naissance de {{playerName}} ?"
+  },
+  "c0da2701-3741-4588-b8cf-d7b1a08492e5": {
+    "en": "How many tattoos does {{playerName}} have? Write 0 if none.",
+    "text": "Combien de tatouages a {{playerName}} ? Écris 0 s'il n'y en a aucun."
+  },
+  "a7c5d198-7df7-4778-b8af-c3da4d319a6a": {
+    "en": "What did {{playerName}} want to be as a kid?",
+    "text": "Enfant, quel métier {{playerName}} rêvait de faire ?"
+  },
+  "a6ec160b-1139-4b18-aab2-c508fc0485f3": {
+    "en": "What's {{playerName}}'s favorite flower?",
+    "text": "Quelle est la fleur préférée de {{playerName}} ?"
+  },
+  "ef039303-b61e-4a8b-bf07-dc13a7c57752": {
+    "en": "What's {{playerName}}'s childhood best friend's name?",
+    "text": "Comment s'appelle le meilleur ami ou la meilleure amie d'enfance de {{playerName}} ?"
+  },
+  "57351c4a-3e7e-4748-949e-5d4cd1e5b792": {
+    "en": "How many languages does {{playerName}} speak?",
+    "text": "Combien de langues parle {{playerName}} ?"
+  },
+  "cd7eb1b7-52d5-4472-91a7-87fe860c68cb": {
+    "en": "What's {{playerName}}'s favorite subject in school?",
+    "text": "Quelle était la matière préférée de {{playerName}} à l'école ?"
+  },
+  "7a48b2bc-038b-4504-867c-31349dc9471d": {
+    "en": "What's {{playerName}}'s favorite YouTuber?",
+    "text": "Quelle est la chaîne YouTube préférée de {{playerName}} ?"
+  },
+  "76919acd-9f2a-43b7-a1b8-4be6522808b0": {
+    "en": "What was the name of {{playerName}}'s first pet? Write none if they never had one.",
+    "text": "Comment s'appelait le premier animal de {{playerName}} ? Écris « aucun » s'il n'y en a jamais eu."
+  },
+  "e54fbf2e-38bb-43a2-98b7-d0e60e44704d": {
+    "en": "What's {{playerName}}'s favorite store?",
+    "text": "Quel est le magasin préféré de {{playerName}} ?"
+  },
+  "758457aa-b4a0-440c-936d-2eca36532d6f": {
+    "en": "How many hours does {{playerName}} sleep?",
+    "text": "Combien d'heures dort {{playerName}} par nuit ?"
+  },
+  "f5e59e0f-6ada-44bb-b1f6-ff0bfc6460d9": {
+    "en": "What's {{playerName}}'s favorite app?",
+    "text": "Quelle est l'appli préférée de {{playerName}} ?"
+  },
+  "c4230968-34f8-4da4-9b47-c58b40930364": {
+    "en": "What high school did {{playerName}} go to?",
+    "text": "Quel lycée a fréquenté {{playerName}} ?",
+    "flagged": true,
+    "note": "\"Lycée\" is the France/Switzerland term; Québec says école secondaire/cégep and Belgium école secondaire/athénée. Understood everywhere, kept as standard French."
+  },
+  "bab594db-3246-436a-831c-a26fee4a3985": {
+    "en": "What's {{playerName}}'s favorite movie?",
+    "text": "Quel est le film préféré de {{playerName}} ?"
+  },
+  "628a486a-362b-421c-9680-eafb40c7b515": {
+    "en": "How many cousins does {{playerName}} have?",
+    "text": "Combien de cousins et cousines a {{playerName}} ?"
+  },
+  "a67f93da-08cb-45b8-83c4-d2adc75192af": {
+    "en": "What's {{playerName}}'s star sign?",
+    "text": "Quel est le signe astrologique de {{playerName}} ?"
+  },
+  "f137c9c9-7ff7-49dd-ada5-72f5ed4c03f0": {
+    "en": "Which country would {{playerName}} want to live in?",
+    "text": "Dans quel pays {{playerName}} aimerait vivre ?"
+  },
+  "021867cf-def0-4843-abe0-b40da48d2a2c": {
+    "en": "Which country does {{playerName}} want to visit the most?",
+    "text": "Quel pays {{playerName}} rêve le plus de visiter ?"
+  },
+  "19b93f52-01ab-4cb7-8136-c4aba531b1b3": {
+    "en": "In which city did {{playerName}} go to university?",
+    "text": "Dans quelle ville {{playerName}} a fait ses études ?"
+  },
+  "112ed697-0ec4-43c7-b2f1-12d1ab95aae3": {
+    "en": "What's {{playerName}}'s younger sibling's name? Write none if they don't have one.",
+    "text": "Comment s'appelle le petit frère ou la petite sœur de {{playerName}} ? Écris « aucun » s'il n'y en a pas."
+  },
+  "26767042-b7af-43d8-ad6f-ea87f4304f2f": {
+    "en": "What's {{playerName}}'s grandma's name? (mom's mom)",
+    "text": "Comment s'appelle la grand-mère maternelle de {{playerName}} ?"
+  },
+  "a3279d43-a655-4bbb-8718-b6d15227c517": {
+    "en": "What's {{playerName}}'s grandpa's name?",
+    "text": "Comment s'appelle le grand-père de {{playerName}} ?"
+  },
+  "5b5320ad-a6ce-44c4-8e2b-fb2bae61cbf1": {
+    "en": "What's {{playerName}}'s favorite car brand?",
+    "text": "Quelle est la marque de voiture préférée de {{playerName}} ?"
+  },
+  "ff9d0b85-deed-41dd-807c-1f3d0a3bb83c": {
+    "en": "What's {{playerName}}'s favorite car color?",
+    "text": "Quelle est la couleur de voiture préférée de {{playerName}} ?"
+  },
+  "98059ab8-7dbf-4b1c-8c78-78ebc984c60e": {
+    "en": "How much does {{playerName}} weigh, in kg?",
+    "text": "Combien pèse {{playerName}}, en kg ?"
+  },
+  "b48fa9ed-dd37-473f-b435-ce10eb15ae06": {
+    "en": "How many piercings does {{playerName}} have in their ears? Write 0 if none.",
+    "text": "{{playerName}} a combien de piercings aux oreilles ? Écris 0 si aucun."
+  },
+  "2a444c7a-9b06-42ba-929c-3818403efe75": {
+    "en": "What's {{playerName}}'s closest friend's name right now?",
+    "text": "En ce moment, qui est la personne la plus proche de {{playerName}} parmi ses amis ?"
+  },
+  "0216b04b-1ca1-4963-a1e6-ff951b52d0a3": {
+    "en": "How many countries has {{playerName}} been to?",
+    "text": "{{playerName}} a visité combien de pays ?"
+  },
+  "42a0d55b-eca3-40f2-bc31-14b9428ad7e6": {
+    "en": "What's {{playerName}}'s tell when they're lying?",
+    "text": "Quand {{playerName}} ment, comment ça se voit ?"
+  },
+  "29cd2b71-30b4-431f-8ec3-1c32bd8e39aa": {
+    "en": "What's {{playerName}}'s blood type?",
+    "text": "Quel est le groupe sanguin de {{playerName}} ?"
+  },
+  "042f678e-2937-4acb-8425-a35fe0e7b9c5": {
+    "en": "What's {{playerName}}'s older sibling's name? Write none if they don't have one.",
+    "text": "Comment s'appelle le grand frère ou la grande sœur de {{playerName}} ? Sinon, écris « personne »."
+  },
+  "c511a069-e3da-4591-b416-bd506028c5ad": {
+    "en": "What was {{playerName}}'s first car? Write none if they never had one.",
+    "text": "Quelle a été la première voiture de {{playerName}} ? Sinon, écris « aucune »."
+  },
+  "57c09d65-f7f9-4b4f-9a7a-bb66f4b6a62d": {
+    "en": "What is {{playerName}} most afraid of?",
+    "text": "De quoi {{playerName}} a le plus peur ?"
+  },
+  "b9710f34-86f6-4db8-96d3-752d4559d726": {
+    "en": "What is {{playerName}} proudest of in life?",
+    "text": "Quelle est la plus grande fierté de {{playerName}} dans la vie ?"
+  },
+  "ace03250-f070-4ff0-ae9c-703406313716": {
+    "en": "What does {{playerName}} do when they get really angry?",
+    "text": "Que fait {{playerName}} quand la colère monte vraiment ?",
+    "answers": [
+      "Se tait et garde tout pour soi",
+      "Crie, puis se calme",
+      "Quitte la pièce",
+      "Veut en parler tout de suite"
+    ]
+  },
+  "b90eefb2-04d9-470b-bde1-ed9df3dacdd8": {
+    "en": "When {{playerName}} gets bad news, who do they turn to first?",
+    "text": "Après une mauvaise nouvelle, vers qui {{playerName}} se tourne en premier ?",
+    "answers": [
+      "Sa moitié",
+      "Un de ses parents",
+      "Ses amis les plus proches",
+      "Personne, digère d'abord en solo"
+    ],
+    "flagged": true,
+    "note": "'Their best friend' rendered as 'closest friends' (plural) because 'son meilleur ami / sa meilleure amie' forces a gender on the friend."
+  },
+  "7bddbacb-8e74-4c5e-b299-5305af0053f5": {
+    "en": "What does {{playerName}} regret most?",
+    "text": "Qu'est-ce que {{playerName}} regrette le plus ?",
+    "answers": [
+      "Une chose jamais dite",
+      "Une occasion ratée",
+      "Avoir blessé quelqu'un",
+      "Rien, pas du genre à regretter"
+    ]
+  },
+  "4bcbeb5e-2463-48a0-8cd0-babea7e0a72f": {
+    "en": "What was {{playerName}}'s first job?",
+    "text": "Quel a été le premier boulot de {{playerName}} ?"
+  },
+  "61e3c86d-76bd-4582-88c5-71bfe7622ee0": {
+    "en": "At what age did {{playerName}} get their driver's license? Write none if they don't have one.",
+    "text": "À quel âge {{playerName}} a eu son permis de conduire ? Sinon, écris « aucun »."
+  },
+  "10084e8c-9292-4aa3-9dbd-75531bb7486a": {
+    "en": "How many bones has {{playerName}} broken? Write 0 if none.",
+    "text": "{{playerName}} a eu combien de fractures ? Écris 0 si aucune."
+  },
+  "c1def649-d319-4211-aeb5-0858840e7bdc": {
+    "en": "Who did {{playerName}} see at their first concert? Write none if they've never been.",
+    "text": "Quel artiste {{playerName}} a vu à son tout premier concert ? Sinon, écris « aucun »."
+  },
+  "1046beaa-623b-4faf-8f88-38b87419d2e6": {
+    "en": "What is {{playerName}} allergic to? Write none if nothing.",
+    "text": "{{playerName}} est allergique à quoi ? Sinon, écris « rien »."
+  },
+  "ba2de278-23d7-45a4-8448-cb563db767d5": {
+    "en": "How old was {{playerName}} the first time they went abroad? Write never if they haven't.",
+    "text": "À quel âge {{playerName}} a voyagé à l'étranger pour la première fois ? Sinon, écris « jamais »."
+  },
+  "6a7ace14-0321-4e93-9cc7-2baa1d9bee41": {
+    "en": "How many times has {{playerName}} moved homes?",
+    "text": "Combien de fois {{playerName}} a déménagé ?"
+  },
+  "ba6c616e-1d98-469a-b2e3-92b66c0981d1": {
+    "en": "What's the name of {{playerName}}'s paternal grandmother?",
+    "text": "Comment s'appelle la grand-mère paternelle de {{playerName}} ?"
+  },
+  "2f57ffab-1be4-44cc-a0f8-a393c9fad863": {
+    "en": "What was {{playerName}}'s first phone?",
+    "text": "Quel a été le premier téléphone de {{playerName}} ?"
+  },
+  "00bb499d-b0c3-4f78-9b18-cffb65b03524": {
+    "en": "How old was {{playerName}} at their first kiss?",
+    "text": "À quel âge {{playerName}} a eu son premier baiser ?"
+  },
+  "1c34b99b-0d35-4532-8459-984d6017ea4a": {
+    "en": "What was {{playerName}}'s worst subject in school?",
+    "text": "Quelle était la pire matière de {{playerName}} à l'école ?"
+  },
+  "c701e374-0098-4d9a-9a64-f02e08d52b16": {
+    "en": "Where is {{playerName}}'s biggest scar? Write none if they don't have one.",
+    "text": "Où se trouve la plus grande cicatrice de {{playerName}} ? Sinon, écris « aucune »."
+  },
+  "170581cc-7ae8-4bc3-9ca8-8fa5e87b5fc2": {
+    "en": "What size t-shirt does {{playerName}} wear?",
+    "text": "Quelle taille de t-shirt porte {{playerName}} ?",
+    "answers": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL ou plus"
+    ]
+  },
+  "01e70d49-b6d6-4142-971d-22b27d35b17f": {
+    "en": "What was the name of {{playerName}}'s favorite teacher?",
+    "text": "Comment s'appelait le prof préféré de {{playerName}} ?"
+  },
+  "43294aea-9009-4d5a-aad8-f7694a3b51a5": {
+    "en": "What time of day was {{playerName}} born?",
+    "text": "La naissance de {{playerName}}, c'était à quel moment de la journée ?",
+    "answers": [
+      "La nuit (0 h-6 h)",
+      "Le matin (6 h-12 h)",
+      "L'après-midi (12 h-18 h)",
+      "Le soir (18 h-24 h)"
+    ]
+  },
+  "749b9061-a5d0-4ff6-900b-e3ba010281ed": {
+    "en": "Which famous person has {{playerName}} met in person? Write none if no one.",
+    "text": "Quelle célébrité {{playerName}} a déjà rencontrée en vrai ? Sinon, écris « aucune »."
+  },
+  "9f26e1c3-409c-4553-98aa-52ecb367ba15": {
+    "en": "Which instrument has {{playerName}} played or tried to learn? Write none if never.",
+    "text": "Quel instrument {{playerName}} a déjà pratiqué ou essayé d'apprendre ? Sinon, écris « aucun »."
+  },
+  "bf1c6470-4a2a-48c7-8d98-2f82482ce877": {
+    "en": "How many times did {{playerName}} fail their driving test? Write 0 if never.",
+    "text": "Combien de fois {{playerName}} a raté l'examen du permis ? Écris 0 si jamais."
+  },
+  "f881bedc-d173-4bdb-ae2d-694246d7f4d8": {
+    "en": "How old was {{playerName}} when they moved out of their family home? Write never if they haven't.",
+    "text": "À quel âge {{playerName}} a quitté le domicile familial ? Sinon, écris « jamais »."
+  },
+  "7600e024-4a37-494e-96f6-cc1c03f58f89": {
+    "en": "Where is {{playerName}} most ticklish?",
+    "text": "Où {{playerName}} craint le plus les chatouilles ?"
+  },
+  "deb2b852-ecc2-4a4b-939e-cbcf025845f4": {
+    "en": "What's {{playerName}}'s natural hair color?",
+    "text": "Quelle est la couleur naturelle des cheveux de {{playerName}} ?"
+  },
+  "f5418f78-b11d-4776-825c-c5ac189d7b37": {
+    "en": "Where is {{playerName}}'s birthmark? Write none if they don't have one.",
+    "text": "Où se trouve la tache de naissance de {{playerName}} ? Sinon, écris « aucune »."
+  },
+  "096b7ab0-dfe3-49bc-956e-cafc81272088": {
+    "en": "Does {{playerName}} snore?",
+    "text": "{{playerName}} ronfle ?",
+    "answers": [
+      "Jamais",
+      "Seulement en cas de grosse fatigue",
+      "Parfois",
+      "Toutes les nuits"
+    ]
+  },
+  "f620465f-147d-4168-af5a-2bb985faf47d": {
+    "en": "What does {{playerName}} sleep in?",
+    "text": "Pour dormir, {{playerName}} porte quoi ?",
+    "answers": [
+      "Un pyjama",
+      "T-shirt et short",
+      "Juste des sous-vêtements",
+      "Rien du tout"
+    ]
+  },
+  "5f58a2de-2ed0-446f-9727-0329eb1902d6": {
+    "en": "Did {{playerName}} ever wear braces?",
+    "text": "{{playerName}} a déjà porté un appareil dentaire ?"
+  },
+  "a655c4c5-4928-4826-bbb2-746b6c2282e8": {
+    "en": "What's {{playerName}}'s natural hair texture?",
+    "text": "Au naturel, les cheveux de {{playerName}} sont comment ?",
+    "answers": [
+      "Raides",
+      "Ondulés",
+      "Bouclés",
+      "Très frisés"
+    ]
+  },
+  "0d808bea-8434-4452-aedb-e5bd28afc9f3": {
+    "en": "What perfume or cologne does {{playerName}} wear the most? Write none if they don't.",
+    "text": "Quel parfum {{playerName}} porte le plus souvent ? Sinon, écris « aucun »."
+  },
+  "e9d46c08-1bf4-4c6e-bed3-5617405af0ec": {
+    "en": "Does {{playerName}} sleep with socks on?",
+    "text": "{{playerName}} dort avec des chaussettes ?"
+  },
+  "d616c1f7-4c37-47a7-8a0e-4b9963af2764": {
+    "en": "How many wisdom teeth has {{playerName}} had removed?",
+    "text": "{{playerName}} s'est fait retirer combien de dents de sagesse ?",
+    "answers": [
+      "Aucune",
+      "1",
+      "2",
+      "3",
+      "Les 4"
+    ]
+  },
+  "ff103caa-415a-4e58-8c01-e153cd9bae9b": {
+    "en": "How many times has {{playerName}} gotten stitches? Write 0 if never.",
+    "text": "Combien de fois {{playerName}} a eu des points de suture ? Écris 0 si jamais."
+  },
+  "5a101639-bde0-469e-b2f2-60b2ef0a85fd": {
+    "en": "How old was {{playerName}} when they learned to swim? Write never if they can't swim.",
+    "text": "À quel âge {{playerName}} a appris à nager ? Sinon, écris « jamais »."
+  },
+  "424b64a3-27da-4ae4-be6d-0e4fb5e26709": {
+    "en": "How many fillings does {{playerName}} have? Write 0 if none.",
+    "text": "{{playerName}} a combien de plombages ? Écris 0 si aucun."
+  },
+  "5554d5d2-4a3f-442a-b4c8-38e8511d257a": {
+    "en": "How many times has {{playerName}} stayed overnight in a hospital as a patient? Write 0 if never.",
+    "text": "Combien de fois {{playerName}} a passé la nuit à l'hôpital pour se faire soigner ? Écris 0 si jamais."
+  },
+  "c318ef52-cf6a-49e9-84a8-45961906b50b": {
+    "en": "Can {{playerName}} drive a manual car?",
+    "text": "{{playerName}} sait conduire en boîte manuelle ?",
+    "answers": [
+      "Oui, sans problème",
+      "Oui, mais pas très bien",
+      "Seulement en automatique",
+      "Ne conduit pas du tout"
+    ]
+  },
+  "6074363d-0509-4dea-9335-e5320a8e427a": {
+    "en": "How many times has {{playerName}} fainted? Write 0 if never.",
+    "text": "Combien de fois {{playerName}} a perdu connaissance ? Écris 0 si jamais."
+  },
+  "48b3c23a-3cd0-4c20-9384-01aa898ae50c": {
+    "en": "How old was {{playerName}} on their first plane flight? Write never if they haven't flown.",
+    "text": "À quel âge {{playerName}} a pris l'avion pour la première fois ? Sinon, écris « jamais »."
+  },
+  "39a4a20b-eb71-4852-86d1-c1f6ef17b787": {
+    "en": "How many different jobs has {{playerName}} had so far?",
+    "text": "{{playerName}} a eu combien de boulots différents jusqu'ici ?"
+  },
+  "5c90da6e-06f8-4571-af38-0ac84e0c7278": {
+    "en": "How many times has {{playerName}} dyed their hair? Write 0 if never.",
+    "text": "Combien de fois {{playerName}} s'est teint les cheveux ? Écris 0 si jamais."
+  },
+  "58871fe6-0f6c-4951-bf1b-4e65c2cb2fbb": {
+    "en": "How old was {{playerName}} when they got their ears pierced? Write never if they haven't.",
+    "text": "À quel âge {{playerName}} s'est fait percer les oreilles ? Sinon, écris « jamais »."
+  },
+  "7fec5c7e-5fd4-4d15-b827-9764d0017c5a": {
+    "en": "How many speeding tickets has {{playerName}} gotten? Write 0 if none.",
+    "text": "{{playerName}} a eu combien d'amendes pour excès de vitesse ? Écris 0 si aucune."
+  },
+  "1c483831-40c8-4c84-b3e4-1e6b2febd48f": {
+    "en": "How many times has {{playerName}} cracked a phone screen? Write 0 if never.",
+    "text": "Combien de fois {{playerName}} a cassé un écran de téléphone ? Écris 0 si jamais."
+  },
+  "84f3b4d3-8ce2-4dd7-a7a0-3ceb564ace5b": {
+    "en": "How many hours was {{playerName}}'s longest flight? Write 0 if they've never flown.",
+    "text": "Combien d'heures a duré le plus long vol de {{playerName}} ? Écris 0 si jamais pris l'avion."
+  },
+  "a3fbf3a7-ae6b-452d-b250-d1345f8c330f": {
+    "en": "How many friends from high school does {{playerName}} still talk to regularly?",
+    "text": "{{playerName}} parle encore régulièrement avec combien d'amis du lycée ?"
+  },
+  "2f52c237-0f33-496b-98b3-d8052637d261": {
+    "en": "How old was {{playerName}}'s mom when {{playerName}} was born?",
+    "text": "Quel âge avait la mère de {{playerName}} à la naissance de {{playerName}} ?"
+  },
+  "84e04131-a72c-4735-abf3-e7da9b624e05": {
+    "en": "How many years apart are {{playerName}} and their closest-in-age sibling? Write 0 if they're an only child.",
+    "text": "Il y a combien d'années d'écart entre {{playerName}} et son frère ou sa sœur le plus proche en âge ? Écris 0 si enfant unique."
+  },
+  "e5b9acdd-03b4-4cdb-869d-19a7eb400217": {
+    "en": "What's the most hours {{playerName}} has ever slept in one go?",
+    "text": "Au maximum, {{playerName}} a dormi combien d'heures d'affilée ?"
+  },
+  "b8b3c241-4570-48ed-8a1f-2f7048d5fc4f": {
+    "en": "How old was {{playerName}} when they got their own room? Write 0 if they always had one.",
+    "text": "À quel âge {{playerName}} a eu sa propre chambre ? Écris 0 si ça a toujours été le cas."
+  },
+  "f7b7d52b-0b27-4bac-9729-6f4e6d186c17": {
+    "en": "How many hours was {{playerName}}'s longest road trip in one day?",
+    "text": "Combien d'heures a duré le plus long trajet en voiture de {{playerName}} en une journée ?"
+  },
+  "f94eac2c-1bd8-4e69-87f5-c716eb17f1a2": {
+    "en": "How many times has {{playerName}} lost their wallet? Write 0 if never.",
+    "text": "Combien de fois {{playerName}} a perdu son portefeuille ? Écris 0 si ce n'est jamais arrivé."
+  },
+  "56f5acaa-9dd8-44b3-abe6-ddd01fb46fbc": {
+    "en": "How many nieces and nephews does {{playerName}} have? Write 0 if none.",
+    "text": "Combien de neveux et nièces a {{playerName}} ? Écris 0 si aucun."
+  },
+  "1e5f97a7-0622-4095-9b35-2ba310517424": {
+    "en": "How many times has {{playerName}} changed their phone number? Write 0 if never.",
+    "text": "Combien de fois {{playerName}} a changé de numéro de téléphone ? Écris 0 si ce n'est jamais arrivé."
+  },
+  "4ea1a7bd-b472-44ce-8df0-b219ccf8a88e": {
+    "en": "How many different cities has {{playerName}} lived in?",
+    "text": "Dans combien de villes différentes {{playerName}} a vécu ?"
+  },
+  "7dc6a0e3-d5ef-4a8a-b388-ec39afa991ee": {
+    "en": "How many times has {{playerName}} been on TV? Write 0 if never.",
+    "text": "Combien de fois a-t-on vu {{playerName}} à la télé ? Écris 0 si ce n'est jamais arrivé."
+  },
+  "e260b248-f935-47ca-a527-80c93355361e": {
+    "en": "Roughly how many concerts has {{playerName}} been to? Write 0 if none.",
+    "text": "À combien de concerts {{playerName}} a assisté, à peu près ? Écris 0 si aucun."
+  },
+  "d0901538-26fb-44ba-8fa0-ba285d31c744": {
+    "en": "How many times has {{playerName}} had food poisoning? Write 0 if never.",
+    "text": "Combien d'intoxications alimentaires {{playerName}} a eues ? Écris 0 si aucune."
+  },
+  "0c5e695a-a458-499d-ae51-13c53adcddd2": {
+    "en": "How many pets has {{playerName}} had in their life? Write 0 if none.",
+    "text": "Combien d'animaux de compagnie {{playerName}} a eus dans sa vie ? Écris 0 si aucun."
+  },
+  "a3eecac6-d128-49e7-8809-8a6d4eedf356": {
+    "en": "What's {{playerName}}'s middle name? Write none if they don't have one.",
+    "text": "Quel est le deuxième prénom de {{playerName}} ? Écris « aucun » s'il n'y en a pas."
+  },
+  "5c62f03d-f338-4beb-9eb8-99d6e896a798": {
+    "en": "What does {{playerName}}'s mom do for work?",
+    "text": "Que fait la mère de {{playerName}} dans la vie ?"
+  },
+  "a6dcacce-d2ae-40e1-8a57-fe01eb25d77d": {
+    "en": "What was {{playerName}}'s first game console? Write none if they never had one.",
+    "text": "Quelle a été la première console de jeux de {{playerName}} ? Écris « aucune » si pas de console."
+  },
+  "d43890e5-f0e6-42aa-bdd5-e3ef209d81b5": {
+    "en": "What did {{playerName}} study at university? Write none if they didn't go.",
+    "text": "Qu'est-ce que {{playerName}} a étudié à la fac ? Écris « rien » si pas de fac."
+  },
+  "ea679c49-9e58-42f6-b148-b6b2530f82c6": {
+    "en": "What's the last country {{playerName}} traveled to?",
+    "text": "Quel est le dernier pays que {{playerName}} a visité ?"
+  },
+  "29017788-31b1-41e7-a760-28bf42fa1183": {
+    "en": "What does {{playerName}}'s dad do for work?",
+    "text": "Que fait le père de {{playerName}} dans la vie ?"
+  },
+  "97764295-e7a4-40ab-9835-8beed1341a06": {
+    "en": "Which city is {{playerName}}'s family originally from?",
+    "text": "De quelle ville vient la famille de {{playerName}} à l'origine ?"
+  },
+  "17d89504-80b5-460f-9d75-39d388c6d8e1": {
+    "en": "Which sports team does {{playerName}} support? Write none if they don't.",
+    "text": "Quelle équipe de sport {{playerName}} soutient ? Écris « aucune » sinon."
+  },
+  "ba5b2fe7-b030-4467-983a-7ebbe43f19a4": {
+    "en": "What was the first social media app {{playerName}} ever used?",
+    "text": "Quel a été le tout premier réseau social de {{playerName}} ?"
+  },
+  "ffaae1fb-40ff-4933-ac17-c36aeadb43da": {
+    "en": "What was the first foreign language {{playerName}} learned? Write none if they never learned one.",
+    "text": "Quelle est la première langue étrangère que {{playerName}} a apprise ? Écris « aucune » si pas de langue étrangère."
+  },
+  "cceb5f1f-90a3-4cb3-a7c4-1c3d10ae4a65": {
+    "en": "What month is {{playerName}}'s mom's birthday?",
+    "text": "En quel mois est l'anniversaire de la mère de {{playerName}} ?"
+  },
+  "5c700d73-3a6e-4d31-a32f-14a00f61881d": {
+    "en": "In which city did {{playerName}}'s parents meet?",
+    "text": "Dans quelle ville les parents de {{playerName}} se sont rencontrés ?"
+  },
+  "91dc1c80-891d-4922-81db-e2c858b111b1": {
+    "en": "Who was {{playerName}} named after? Write no one if they weren't.",
+    "text": "{{playerName}} porte le prénom de qui ? Écris « personne » sinon."
+  },
+  "bf0c5622-a87e-47c2-abf2-11f67d3d36bc": {
+    "en": "What's the name of {{playerName}}'s closest cousin? Write none if they don't have cousins.",
+    "text": "Comment s'appelle le cousin ou la cousine dont {{playerName}} est le plus proche ? Écris « aucun » si pas de cousins."
+  },
+  "d53064e2-ac96-4ec2-88c1-e4d4728e53b6": {
+    "en": "What does {{playerName}}'s sibling do for work? Write none if they don't have one.",
+    "text": "Que fait le frère ou la sœur de {{playerName}} dans la vie ? Écris « aucun » si enfant unique."
+  },
+  "f06fce27-558a-4a14-bc7c-02797e48b165": {
+    "en": "What's the name of {{playerName}}'s family group chat?",
+    "text": "Comment s'appelle le groupe de discussion familial de {{playerName}} ?"
+  },
+  "1d27f445-8185-45f0-8e57-9d14df784fb8": {
+    "en": "Which family member is {{playerName}} closest to?",
+    "text": "Dans sa famille, avec qui {{playerName}} a le lien le plus fort ?"
+  },
+  "c7027cd1-a723-44f4-bae3-0d74ea7873bf": {
+    "en": "Which family member does {{playerName}} look the most like?",
+    "text": "Dans sa famille, à qui {{playerName}} ressemble le plus ?"
+  },
+  "927e687b-cd16-47ef-819a-d52fdb385158": {
+    "en": "What's {{playerName}}'s favorite dish that their mom makes?",
+    "text": "Quel est le plat préféré de {{playerName}} parmi ceux que fait sa mère ?"
+  },
+  "0f5a6d75-fc6a-4252-bf49-cfb3c9c1d8e3": {
+    "en": "How many people lived in {{playerName}}'s home growing up, including them?",
+    "text": "En comptant {{playerName}}, combien de personnes vivaient à la maison pendant son enfance ?"
+  },
+  "aa7dabf5-ad66-4574-8d46-c2393faff547": {
+    "en": "What name did {{playerName}}'s parents almost give them? Write none if there wasn't one.",
+    "text": "Quel prénom les parents de {{playerName}} ont failli lui donner ? Écris « aucun » sinon."
+  },
+  "3be027a4-5536-41b3-be2b-d519cc235f36": {
+    "en": "What was the name of {{playerName}}'s longest-time desk mate at school?",
+    "text": "Comment s'appelait la personne assise le plus longtemps à côté de {{playerName}} en classe ?"
+  },
+  "b5817a96-4ca4-421b-aa69-e3598c7f8328": {
+    "en": "What did {{playerName}} always buy from the school canteen?",
+    "text": "Qu'est-ce que {{playerName}} achetait toujours à la cafét' de l'école ?",
+    "flagged": true,
+    "note": "French schools have a lunch 'cantine', not a snack canteen; used 'cafét'' (school cafeteria/snack bar) — check it lands."
+  },
+  "4fb25a1c-f14e-43cf-a6ad-00295780f027": {
+    "en": "Which school club or team was {{playerName}} part of? Write none if they weren't.",
+    "text": "À l'école, dans quel club ou quelle équipe était {{playerName}} ? Écris « aucun » sinon."
+  },
+  "5cf32bca-3e5e-4a5d-8d70-15f22575349a": {
+    "en": "Where did {{playerName}} spend summers as a kid?",
+    "text": "Où {{playerName}} passait ses étés pendant son enfance ?"
+  },
+  "b9e75a17-3bf6-4f39-a58a-94e10faf1e5f": {
+    "en": "How old was {{playerName}} when they got their first phone?",
+    "text": "À quel âge {{playerName}} a eu son premier téléphone ?"
+  },
+  "1f4648ed-da5e-4361-a8b0-5b188502eeb3": {
+    "en": "How old was {{playerName}} when they got their first tattoo? Write never if they don't have one.",
+    "text": "À quel âge {{playerName}} a eu son premier tatouage ? Écris « jamais » si pas de tatouage."
+  },
+  "07337fdd-2317-4fa6-9482-d45b276fa891": {
+    "en": "How old was {{playerName}} when they started their first job? Write never if they haven't worked.",
+    "text": "À quel âge {{playerName}} a commencé son premier job ? Écris « jamais » si pas encore de job."
+  },
+  "130baf14-361c-409b-a393-03f2783cc726": {
+    "en": "How old was {{playerName}} when they got their first pet? Write never if they've never had one.",
+    "text": "À quel âge {{playerName}} a eu son premier animal de compagnie ? Écris « jamais » si aucun."
+  },
+  "79495e9d-536f-494e-aa55-4e131ab53c80": {
+    "en": "How old was {{playerName}} when they got their first car? Write never if they haven't.",
+    "text": "À quel âge {{playerName}} a eu sa première voiture ? Écris « jamais » si aucune."
+  },
+  "9bf2b42d-0981-47cc-baa9-92516c7b48c8": {
+    "en": "How old was {{playerName}} when they opened their first social media account?",
+    "text": "À quel âge {{playerName}} a créé son premier compte sur un réseau social ?"
+  },
+  "65b9ad53-1684-4c07-b7b0-7a3bbaba7445": {
+    "en": "How old was {{playerName}} the first time they watched a match at a stadium? Write never if they haven't.",
+    "text": "À quel âge {{playerName}} a vu son premier match dans un stade ? Écris « jamais » si ce n'est jamais arrivé."
+  },
+  "03114fc5-15b6-48bb-bf85-29e6add1ee9c": {
+    "en": "What's the longest {{playerName}} has stayed awake in one go, in hours?",
+    "text": "Combien d'heures d'affilée {{playerName}} a tenu sans dormir, au maximum ?"
+  },
+  "da47bdf7-4ae2-43ad-9deb-e98bb8e58f41": {
+    "en": "How many push-ups can {{playerName}} do in a row?",
+    "text": "Combien de pompes {{playerName}} peut faire d'affilée ?"
+  },
+  "ef21e83e-7879-4eab-af7b-feae41efa6ce": {
+    "en": "What's the most kilometers {{playerName}} has walked in a single day?",
+    "text": "Combien de kilomètres {{playerName}} a marché en une journée, au maximum ?"
+  },
+  "c9959107-d596-493f-ab42-38479f81059c": {
+    "en": "How many seconds can {{playerName}} hold a plank?",
+    "text": "Combien de secondes {{playerName}} peut tenir la planche ?"
+  },
+  "3c10a729-5ed9-49cf-84b4-8df6c848e51b": {
+    "en": "What's the most pizza slices {{playerName}} has eaten in one sitting?",
+    "text": "Quel est le record de {{playerName}} en parts de pizza en un seul repas ?"
+  },
+  "77e0d3af-2aea-4969-a40d-1c525508c55b": {
+    "en": "How many pull-ups can {{playerName}} do in a row?",
+    "text": "Combien de tractions {{playerName}} peut faire d'affilée ?"
+  },
+  "1a1ab67d-8a8e-47dd-97ce-a4de6836a290": {
+    "en": "What's the most episodes of a series {{playerName}} has watched in one day?",
+    "text": "Combien d'épisodes d'une série {{playerName}} a enchaînés en une journée, au maximum ?"
+  },
+  "d76a8b89-f7a4-4022-9fac-7ae3adf56d1b": {
+    "en": "How many hours was {{playerName}}'s longest gaming session? Write 0 if they don't play.",
+    "text": "Combien d'heures a duré la plus longue session de jeu vidéo de {{playerName}} ? Écris 0 si pas de jeux."
+  },
+  "61cc3182-df1a-43ea-8850-6cdc26f84934": {
+    "en": "What's the heaviest {{playerName}} can bench press, in kg? Write 0 if they never have.",
+    "text": "Quel poids max {{playerName}} soulève au développé couché, en kg ? Écris 0 si jamais essayé."
+  },
+  "4a4e5dde-be6e-43c8-9ad5-26aad6cbdac6": {
+    "en": "What's the most hours {{playerName}} has studied in a single day?",
+    "text": "Combien d'heures {{playerName}} a révisé en une seule journée, au maximum ?"
+  },
+  "75852c20-379b-4202-87bb-0e3d463805b9": {
+    "en": "How many pairs of shoes does {{playerName}} own?",
+    "text": "Combien de paires de chaussures {{playerName}} possède ?"
+  },
+  "2685c7a1-b045-4991-9374-d3447fa52427": {
+    "en": "How many perfumes or colognes does {{playerName}} own? Write 0 if none.",
+    "text": "Combien de parfums {{playerName}} possède ? Écris 0 si aucun."
+  },
+  "a9674a7b-5a5d-4732-88b3-255c8e792b84": {
+    "en": "How many keys are on {{playerName}}'s keychain?",
+    "text": "Combien de clés y a-t-il sur le trousseau de {{playerName}} ?"
+  },
+  "b1b1f89d-947e-4941-aa89-eb5dfab51ded": {
+    "en": "How many plants does {{playerName}} have at home? Write 0 if none.",
+    "text": "Combien de plantes {{playerName}} a à la maison ? Écris 0 si aucune."
+  },
+  "262d61d0-ef48-4779-8ee9-1875799e82ac": {
+    "en": "How many watches does {{playerName}} own? Write 0 if none.",
+    "text": "Combien de montres {{playerName}} possède ? Écris 0 si aucune."
+  },
+  "946f1533-886c-453c-8334-4e55d560944c": {
+    "en": "How many pairs of sunglasses does {{playerName}} own? Write 0 if none.",
+    "text": "Combien de paires de lunettes de soleil {{playerName}} possède ? Écris 0 si aucune."
+  },
+  "b7c7975d-2421-40bd-a659-d3128b57304a": {
+    "en": "What's {{playerName}}'s favorite city they've ever visited?",
+    "text": "Quelle est la ville préférée de {{playerName}} parmi toutes celles déjà visitées ?"
+  },
+  "dc0048e9-f6b3-4c51-9e2b-d88c9d917917": {
+    "en": "What's the name of {{playerName}}'s current pet? Write none if they don't have one.",
+    "text": "Comment s'appelle l'animal de compagnie actuel de {{playerName}} ? Écris « aucun » sinon."
+  },
+  "539cdb75-9f36-46bd-ba9f-9445c11c27f1": {
+    "en": "What does {{playerName}} always order at their favorite restaurant?",
+    "text": "Qu'est-ce que {{playerName}} commande toujours dans son resto préféré ?"
+  },
+  "9dbe2d27-e8a4-4652-86d0-f9d51adeeb30": {
+    "en": "How is {{playerName}}'s mom saved in their phone?",
+    "text": "Sous quel nom {{playerName}} a enregistré sa mère dans son téléphone ?"
+  },
+  "0e45d0a2-47ea-4285-9a24-fc6a0d270a8f": {
+    "en": "What time does {{playerName}}'s first alarm go off on weekdays?",
+    "text": "À quelle heure sonne le premier réveil de {{playerName}} en semaine ?"
+  }
+}

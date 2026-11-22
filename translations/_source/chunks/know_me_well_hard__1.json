@@ -1,0 +1,774 @@
+[
+ {
+  "id": "02d1eea2-7558-454e-9560-9e4115e31dc5",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "When someone they love is hurting, what does {{playerName}} do?",
+  "tr": "Sevdiği biri kötüyken {{playerName}} ne yapar?",
+  "answers_en": [
+   "Tries to fix it",
+   "Sits with them",
+   "Makes them laugh",
+   "Gives them space"
+  ],
+  "answers_tr": [
+   "Çözmeye çalışır",
+   "Yanında oturur",
+   "Güldürmeye çalışır",
+   "Alan verir"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "8f65f3e0-e029-41cb-8233-1c0073efccc3",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "After you park, {{playerName}} doesn't get out right away. What are they doing?",
+  "tr": "Arabayı park ettikten sonra {{playerName}} inmiyor. Ne yapıyordur?",
+  "answers_en": [
+   "Checking their phone",
+   "Sitting in the quiet",
+   "Kissing you"
+  ],
+  "answers_tr": [
+   "Telefonuna bakıyordur",
+   "Sessizce oturuyordur",
+   "Seni öpüyordur"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "b6802604-bee1-44ef-b402-3d614299e874",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "You both just got home. {{playerName}} still has their shoes on. What are they doing?",
+  "tr": "İkiniz de yeni geldiniz. {{playerName}}'in ayakkabısı hâlâ ayağında. Ne yapıyordur?",
+  "answers_en": [
+   "Checking their phone",
+   "Waiting for you to go in first",
+   "Waiting for a kiss"
+  ],
+  "answers_tr": [
+   "Telefonuna bakıyordur",
+   "Senin önce girmeni bekliyordur",
+   "Öpücük bekliyordur"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "525b7a39-af6b-443c-8d4b-e04df6bb666d",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "The movie ended. {{playerName}} hasn't moved. What are they doing?",
+  "tr": "Film bitti. {{playerName}} kımıldamadı. Ne yapıyordur?",
+  "answers_en": [
+   "Still in it",
+   "Looking at you",
+   "Already on their phone"
+  ],
+  "answers_tr": [
+   "Hâlâ filmin içinde",
+   "Sana bakıyordur",
+   "Çoktan telefonunda"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "87a626ec-edc2-4c73-8b8c-2316370de28c",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "{{playerName}} opened the fridge and is just standing there. What are they doing?",
+  "tr": "{{playerName}} buzdolabını açtı, öylece duruyor. Ne yapıyordur?",
+  "answers_en": [
+   "Actually looking",
+   "Zoning out",
+   "Waiting for you"
+  ],
+  "answers_tr": [
+   "Gerçekten bir şey arıyordur",
+   "Dalmıştır",
+   "Seni bekliyordur"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "45ffa91d-cf8c-4de3-b9cc-35eecf07a0e8",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "You asked {{playerName}} something. They smiled and haven't answered. What are they doing?",
+  "tr": "{{playerName}}'e bir şey sordun. Gülümsedi, cevap vermedi. Ne yapıyordur?",
+  "answers_en": [
+   "Thinking",
+   "Messing with you",
+   "They want a kiss first"
+  ],
+  "answers_tr": [
+   "Düşünüyordur",
+   "Takılıyordur",
+   "Önce öpülmek istiyordur"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "331f8ded-e21e-4f4a-8c54-5eff81ad09d8",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "{{playerName}} has been in the bathroom a while. The water's running. What are they doing?",
+  "tr": "{{playerName}} banyoda epey oldu. Su açık. Ne yapıyordur?",
+  "answers_en": [
+   "Actually getting ready",
+   "On their phone",
+   "Waiting for you to come in"
+  ],
+  "answers_tr": [
+   "Gerçekten hazırlanıyordur",
+   "Telefonundadır",
+   "İçeri gelmeni bekliyordur"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "d4a67a3f-58fb-4dfb-a9fa-7ccbd119b76a",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you roast {{playerName}} in front of their closest friends, what do they do?",
+  "tr": "En yakın arkadaşlarının yanında {{playerName}} ile dalga geçsen ne yapar?",
+  "answers_en": [
+   "Laughs and roasts you back",
+   "Goes quiet",
+   "Laughs now, brings it up later"
+  ],
+  "answers_tr": [
+   "Güler, seni de taşlar",
+   "Susar",
+   "Şimdi güler, sonra açar"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "0fa9d630-8f79-407e-b467-c6619e937183",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you leave {{playerName}}'s flirty text on read for a few hours, what do they do?",
+  "tr": "{{playerName}} imalı bir mesaj attı, birkaç saat görüldüde bıraktın. Ne yapar?",
+  "answers_en": [
+   "Sends another one",
+   "Acts like it didn't matter",
+   "Waits, then acts normal"
+  ],
+  "answers_tr": [
+   "Bir tane daha atar",
+   "Umursamamış gibi yapar",
+   "Bekler, sonra normal davranır"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "72f44c82-e80d-4048-8907-88aa16325526",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If {{playerName}} loses to you at something they take seriously, what do they do?",
+  "tr": "{{playerName}} ciddiye aldığı bir şeyde sana yenilse ne yapar?",
+  "answers_en": [
+   "Demands a rematch",
+   "Sulks for a bit",
+   "Congratulates you and means it"
+  ],
+  "answers_tr": [
+   "Rövanş ister",
+   "Bir süre küser",
+   "Tebrik eder, içten"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "0f63d809-97bc-4a06-af87-dcdf7259d217",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you correct {{playerName}} in front of other people, what do they do?",
+  "tr": "Herkesin içinde {{playerName}}'i düzeltsen ne yapar?",
+  "answers_en": [
+   "Lets it go",
+   "Jokes, but they're stung",
+   "Argues it right there"
+  ],
+  "answers_tr": [
+   "Üstüne alınmaz",
+   "Şaka yapar ama batmıştır",
+   "Orada tartışır"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "0411fe10-be71-42ce-96e0-f0b4b8f30d01",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you eat the last bite {{playerName}} was saving, what do they do?",
+  "tr": "{{playerName}}'in ayırdığı son lokmayı yesen ne yapar?",
+  "answers_en": [
+   "Actually gets mad",
+   "Makes a huge scene, as a joke",
+   "Doesn't notice"
+  ],
+  "answers_tr": [
+   "Gerçekten kızar",
+   "Büyük tiyatro yapar, şaka",
+   "Fark etmez"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "cbf55a0d-77d9-49b6-8b18-df9bfec9721b",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you fall asleep while {{playerName}} is mid-story, what do they do?",
+  "tr": "{{playerName}} bir şey anlatırken uyuyakalsan ne yapar?",
+  "answers_en": [
+   "Wakes you up and finishes",
+   "Goes quiet and lets you sleep",
+   "Records it to roast you later"
+  ],
+  "answers_tr": [
+   "Uyandırır, anlatmaya devam eder",
+   "Susar, uyumanı bırakır",
+   "Sonra taşlamak için kaydeder"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "9793ce24-d328-401c-9858-5e3c9e5253d7",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you show up to {{playerName}}'s family's house empty-handed, what do they do?",
+  "tr": "{{playerName}}'in ailesine eli boş gitsen ne yapar?",
+  "answers_en": [
+   "Covers for you",
+   "Gives you a look",
+   "Doesn't care at all"
+  ],
+  "answers_tr": [
+   "Seni idare eder",
+   "Bir bakış atar",
+   "Hiç umursamaz"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "db4d9102-32bd-44e6-afa1-7eae78199ee6",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you keep using a word {{playerName}} hates, on purpose, what do they do?",
+  "tr": "{{playerName}}'in nefret ettiği bir kelimeyi bilerek tekrarlasan ne yapar?",
+  "answers_en": [
+   "Laughs every time",
+   "Asks you to stop, for real",
+   "Starts using it back"
+  ],
+  "answers_tr": [
+   "Her seferinde güler",
+   "Cidden bırakmanı ister",
+   "O da kullanmaya başlar"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "c00aa094-a9f0-4858-a29d-551c1cd3ca18",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you cancel on {{playerName}} last minute, what do they do?",
+  "tr": "{{playerName}} ile planı son anda iptal etsen ne yapar?",
+  "answers_en": [
+   "Says it's fine, means it",
+   "Says it's fine, it's not",
+   "Asks why, right away"
+  ],
+  "answers_tr": [
+   "Sorun yok der, gerçekten",
+   "Sorun yok der, değildir",
+   "Hemen nedenini sorar"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "008d5998-0535-4df5-a12b-0f96ad8e625f",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you borrow {{playerName}}'s clothes without asking, what do they do?",
+  "tr": "{{playerName}}'in kıyafetini sormadan alsan ne yapar?",
+  "answers_en": [
+   "Likes seeing you in it",
+   "Wants it back, now",
+   "Doesn't notice"
+  ],
+  "answers_tr": [
+   "Üzerinde görünce hoşuna gider",
+   "Hemen geri ister",
+   "Fark etmez"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "d01e1cff-bb0c-409a-a1f2-125ec6c79f76",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you're late to meet {{playerName}} and you don't text, what do they do?",
+  "tr": "{{playerName}} ile buluşmaya geç kalıyorsun ve yazmıyorsun. Ne yapar?",
+  "answers_en": [
+   "Texts \"where are you?\"",
+   "Waits and says nothing",
+   "Leaves"
+  ],
+  "answers_tr": [
+   "\"Neredesin?\" yazar",
+   "Bekler, bir şey demez",
+   "Gider"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "30c1ecc9-a29f-474c-8fa8-3e13ffb9ef91",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you pick up {{playerName}}'s phone and start scrolling, what do they do?",
+  "tr": "{{playerName}}'in telefonunu alıp kaydırmaya başlasan ne yapar?",
+  "answers_en": [
+   "Doesn't care",
+   "Takes it back, calmly",
+   "Takes it back, not calmly"
+  ],
+  "answers_tr": [
+   "Umursamaz",
+   "Sakin sakin geri alır",
+   "Geri alır, sakin değil"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "0d9143dd-9554-4015-9d7c-8a689f8ac7ca",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "If you invite someone {{playerName}} doesn't like, what do they do?",
+  "tr": "{{playerName}}'in sevmediği birini çağırsan ne yapar?",
+  "answers_en": [
+   "Goes along with it",
+   "Says it out loud",
+   "Goes quiet the whole time"
+  ],
+  "answers_tr": [
+   "Uyar",
+   "Açık açık söyler",
+   "Bütün gece susar"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "fce90c77-7a35-44c0-a40a-406848fd42f4",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "It starts pouring and there's no umbrella. What does {{playerName}} do?",
+  "tr": "Bardaktan boşanırcasına yağmur yağıyor, şemsiye yok. {{playerName}} ne yapar?",
+  "answers_en": [
+   "Runs for it",
+   "Waits it out"
+  ],
+  "answers_tr": [
+   "Koşar",
+   "Geçmesini bekler"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "aa68e98e-f9ba-4240-82d9-233e6d3a1ddd",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "{{playerName}}'s coffee comes out wrong. What do they do?",
+  "tr": "{{playerName}}'in kahvesi yanlış geldi. Ne yapar?",
+  "answers_en": [
+   "Sends it back",
+   "Drinks it anyway"
+  ],
+  "answers_tr": [
+   "Geri gönderir",
+   "Yine de içer"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "c9db61c9-a1ab-40e4-8d0c-92dea5576a34",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "{{playerName}} spills something on their shirt right before going out. What do they do?",
+  "tr": "{{playerName}} dışarı çıkmadan hemen önce gömleğine bir şey döktü. Ne yapar?",
+  "answers_en": [
+   "Changes",
+   "Goes anyway"
+  ],
+  "answers_tr": [
+   "Değiştirir",
+   "Öyle gider"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "4e97ab2e-b06b-44ce-b8db-e15db3bb987f",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "{{playerName}} just missed the bus. What do they do?",
+  "tr": "{{playerName}} otobüsü yeni kaçırdı. Ne yapar?",
+  "answers_en": [
+   "Runs after it",
+   "Waits for the next one"
+  ],
+  "answers_tr": [
+   "Peşinden koşar",
+   "Sonrakini bekler"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "d339e7bd-ebce-4481-ad0a-e8b8ed05442a",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "The Wi-Fi dies in the middle of something {{playerName}} is watching. What do they do?",
+  "tr": "{{playerName}} bir şey izlerken internet gidiyor. Ne yapar?",
+  "answers_en": [
+   "Fights the router",
+   "Gives up and does something else"
+  ],
+  "answers_tr": [
+   "Modeme saldırır",
+   "Vazgeçer, başka bir şey yapar"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "ac0f3027-b51a-426f-b6e9-6a3b4aa38199",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "{{playerName}} gets a parking ticket. What do they do?",
+  "tr": "{{playerName}}'e park cezası yazıldı. Ne yapar?",
+  "answers_en": [
+   "Gets angry",
+   "Laughs it off"
+  ],
+  "answers_tr": [
+   "Sinirlenir",
+   "Gülüp geçer"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "c3ec2d4b-d284-4714-8e9e-d2da5ef9c6d7",
+  "mode": "know_each_other",
+  "type": "choice",
+  "en": "{{playerName}}'s alarm didn't go off. They're already 20 minutes late. What do they do?",
+  "tr": "{{playerName}}'in alarmı çalmamış. Çoktan 20 dakika geç kalmış. Ne yapar?",
+  "answers_en": [
+   "Skips breakfast and runs",
+   "Texts \"running late\" and takes their time",
+   "Calls in and owns it"
+  ],
+  "answers_tr": [
+   "Kahvaltıyı atlar, koşar",
+   "\"Geç kalıyorum\" yazar, acele etmez",
+   "Arayıp durumu söyler"
+  ],
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "94c90555-87e2-4c29-9117-a323c27d95c4",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "When {{playerName}} is late, what's the first thing they blame?",
+  "tr": "{{playerName}} geç kalınca suçu ilk neye atar?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "fdd1c924-ee99-4f05-a5bd-dfcd6d9c8f03",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "After a small argument, how many minutes until {{playerName}} texts first?",
+  "tr": "Küçük bir tartışmadan sonra {{playerName}} ilk mesajı kaç dakika sonra atar?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "b54e1bb1-3bf8-47c3-a48a-86023b0f0add",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "Where does {{playerName}} go when they need to be alone?",
+  "tr": "{{playerName}} yalnız kalması gerektiğinde nereye gider?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "3b1883ec-15de-4788-9bef-ba8f5c5bc8a7",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What does {{playerName}} order when they can't decide?",
+  "tr": "{{playerName}} karar veremeyince ne söyler?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "238665e7-e0da-45ce-a9d7-0eb9eef65a6c",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many times does {{playerName}} check the lock before they can leave?",
+  "tr": "{{playerName}} evden çıkmadan kilidi kaç kere kontrol eder?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "466890df-b2fd-43de-a06e-7bf3787838fa",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s dad's name?",
+  "tr": "{{playerName}}'in babasının adı ne?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "83463f47-91d7-4aad-9222-957f815550ec",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What color are {{playerName}}'s eyes?",
+  "tr": "{{playerName}}'in gözleri ne renk?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "82b2f614-a300-4077-aebb-1f5fc9d783da",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite sport?",
+  "tr": "{{playerName}} en çok hangi sporu sever?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "57674f98-004a-4613-ae68-f9a5aeb47287",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What city did {{playerName}} grow up in?",
+  "tr": "{{playerName}} hangi şehirde büyüdü?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "978cc42e-c57a-4a1f-ab39-e3ae2bea3021",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s mom's name?",
+  "tr": "{{playerName}}'in annesinin adı ne?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "cfd2c28a-8bea-4257-879e-95cbc762962f",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How tall is {{playerName}}, in cm?",
+  "tr": "{{playerName}} kaç cm?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "f323e901-c9d8-402a-a779-6dfc98dbb068",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite video game?",
+  "tr": "{{playerName}} en çok hangi oyunu sever?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "25851c79-797f-40fd-b2f6-6c0d20b9dfdd",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What car does {{playerName}} drive?",
+  "tr": "{{playerName}} hangi arabayı kullanıyor?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "a4265570-c916-40c1-a402-d063a73be6b2",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite holiday?",
+  "tr": "{{playerName}} en çok hangi tatili/bayramı sever?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "5fe73127-bbe3-48f7-8abc-2d69d6a88593",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s shoe size?",
+  "tr": "{{playerName}}'in ayakkabı numarası kaç?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "75c9c2af-241b-4035-b6fc-5fdcd08973cd",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite book?",
+  "tr": "{{playerName}} en çok hangi kitabı sever?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "8deddb72-b5b8-4818-b368-0c4fbe051257",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite restaurant?",
+  "tr": "{{playerName}} en çok hangi restoranı sever?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "c550dc4b-c6cf-4d1b-9345-6b74e5d47623",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What year was {{playerName}} born?",
+  "tr": "{{playerName}} hangi yıl doğdu?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "c0da2701-3741-4588-b8cf-d7b1a08492e5",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many tattoos does {{playerName}} have? Write 0 if none.",
+  "tr": "{{playerName}}'in kaç dövmesi var? Yoksa 0 yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "a7c5d198-7df7-4778-b8af-c3da4d319a6a",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What did {{playerName}} want to be as a kid?",
+  "tr": "{{playerName}} çocukken ne olmak istiyordu?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "a6ec160b-1139-4b18-aab2-c508fc0485f3",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite flower?",
+  "tr": "{{playerName}} en çok hangi çiçeği sever?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "ef039303-b61e-4a8b-bf07-dc13a7c57752",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s childhood best friend's name?",
+  "tr": "{{playerName}}'in çocukluk en yakın arkadaşının adı ne?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "57351c4a-3e7e-4748-949e-5d4cd1e5b792",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many languages does {{playerName}} speak?",
+  "tr": "{{playerName}} kaç dil konuşuyor?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "cd7eb1b7-52d5-4472-91a7-87fe860c68cb",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite subject in school?",
+  "tr": "{{playerName}} okulda en çok hangi dersi severdi?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "7a48b2bc-038b-4504-867c-31349dc9471d",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite YouTuber?",
+  "tr": "{{playerName}} en çok hangi YouTuber'ı izler?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "76919acd-9f2a-43b7-a1b8-4be6522808b0",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What was the name of {{playerName}}'s first pet? Write none if they never had one.",
+  "tr": "{{playerName}}'in ilk evcil hayvanının adı neydi? Hiç olmadıysa yok yaz.",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "e54fbf2e-38bb-43a2-98b7-d0e60e44704d",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite store?",
+  "tr": "{{playerName}} en çok hangi mağazayı sever?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "758457aa-b4a0-440c-936d-2eca36532d6f",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many hours does {{playerName}} sleep?",
+  "tr": "{{playerName}} günde kaç saat uyur?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "f5e59e0f-6ada-44bb-b1f6-ff0bfc6460d9",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite app?",
+  "tr": "{{playerName}} en çok hangi uygulamayı kullanır?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "c4230968-34f8-4da4-9b47-c58b40930364",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What high school did {{playerName}} go to?",
+  "tr": "{{playerName}} hangi liseye gitti?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "bab594db-3246-436a-831c-a26fee4a3985",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s favorite movie?",
+  "tr": "{{playerName}} en çok hangi filmi sever?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "628a486a-362b-421c-9680-eafb40c7b515",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "How many cousins does {{playerName}} have?",
+  "tr": "{{playerName}}'in kaç kuzeni var?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "a67f93da-08cb-45b8-83c4-d2adc75192af",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s star sign?",
+  "tr": "{{playerName}} hangi burç?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "f137c9c9-7ff7-49dd-ada5-72f5ed4c03f0",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "Which country would {{playerName}} want to live in?",
+  "tr": "{{playerName}} hangi ülkede yaşamak ister?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "021867cf-def0-4843-abe0-b40da48d2a2c",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "Which country does {{playerName}} want to visit the most?",
+  "tr": "{{playerName}} en çok hangi ülkeyi ziyaret etmek ister?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "19b93f52-01ab-4cb7-8136-c4aba531b1b3",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "In which city did {{playerName}} go to university?",
+  "tr": "{{playerName}} üniversiteyi hangi şehirde okudu?",
+  "category": "know_me_well_hard"
+ },
+ {
+  "id": "112ed697-0ec4-43c7-b2f1-12d1ab95aae3",
+  "mode": "know_each_other",
+  "type": "text",
+  "en": "What's {{playerName}}'s younger sibling's name? Write none if they don't have one.",
+  "tr": "{{playerName}}'in küçük kardeşinin adı ne? Yoksa yok yaz.",
+  "category": "know_me_well_hard"
+ }
+]

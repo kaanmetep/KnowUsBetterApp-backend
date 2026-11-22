@@ -11,6 +11,11 @@
  *            written there. Safe to stop and rerun: finished questions are skipped.
  * check      Validates every file against the database and reports coverage.
  * sheet      Writes translations/<lang>/review.csv for a human reviewer, flagged rows first.
+ * source     Writes translations/_source/<category>.json: every question with its English and
+ *            Turkish text, options and answer key, for translating outside this script.
+ * import     Reads translations/<lang>/drafts/<category>.json ({ id: { text, answers, accepted,
+ *            flagged, note } }), adds the current English text, validates and writes the result
+ *            into translations/<lang>/questions/. Invalid drafts are listed and not written.
  * apply      Merges the files into the database in one transaction: texts.text_<lang>,
  *            answers.answers_<lang>, correct_answer.<lang> and the hand-written labels in
  *            translations/<lang>/labels.json. Other languages are never touched; a
@@ -21,7 +26,7 @@ import fs from "fs";
 import path from "path";
 import OpenAI from "openai";
 import { getAdminPool } from "../src/utils/adminDb.js";
-import { isLang, LANGUAGE_NAMES, type Lang } from "../src/languages.js";
+import { isLang, LANGS, LANGUAGE_NAMES, type Lang } from "../src/languages.js";
 
 // ---------- arguments ----------
 
@@ -49,6 +54,14 @@ const LABELS_FILE = path.join(DIR, "labels.json");
 
 // ---------- style ----------
 
+/** translations/STYLE-common.md + translations/<lang>/STYLE.md, when they exist. */
+function styleFile(lang: Lang): string {
+  const read = (file: string) => (fs.existsSync(file) ? fs.readFileSync(file, "utf8") : "");
+  return [read(path.resolve("translations", "STYLE-common.md")), read(path.resolve("translations", lang, "STYLE.md"))]
+    .filter(Boolean)
+    .join("\n\n");
+}
+
 const STYLE: Partial<Record<Lang, string>> = {
   pt: `Target: Brazilian Portuguese (pt-BR), for Brazilian couples and friends in their 20s-30s.
 - Sound like a Brazilian wrote it for a fun app: casual, warm, natural spoken Portuguese. Never European Portuguese ("tu" conjugations, "telemóvel", "rapariga", "giro").
@@ -62,6 +75,12 @@ const STYLE: Partial<Record<Lang, string>> = {
 - Intimate categories: flirty and adult but never vulgar or clinical; everyday words Brazilian couples actually use.
 - Keep it as short as the English; it is read in a few seconds on a phone.
 - Brands, apps, shows and names stay as they are known in Brazil (Netflix, WhatsApp, "Friends").`,
+  de: styleFile("de"),
+  it: styleFile("it"),
+  pl: styleFile("pl"),
+  fr: styleFile("fr"),
+  ja: styleFile("ja"),
+  nl: styleFile("nl"),
 };
 
 const MODES: Record<string, string> = {
@@ -104,6 +123,9 @@ type Entry = {
 type CategoryFile = Record<string, Entry>;
 
 async function loadRows(): Promise<Row[]> {
+  // Optional local snapshot (written by `rows-cache`) so many parallel dry-runs don't hit the DB.
+  const cache = process.env.TRANSLATE_ROWS_CACHE;
+  if (cache && fs.existsSync(cache)) return JSON.parse(fs.readFileSync(cache, "utf8"));
   const { rows } = await getAdminPool().query<Row>(
     `SELECT q.id, q.category_id, c.group_id, q.texts, q.question_type, q.answers, q.correct_answer
        FROM questions q LEFT JOIN categories c ON c.id = q.category_id
@@ -156,6 +178,7 @@ function validate(row: Row, entry: Pick<Entry, "text" | "answers" | "accepted">)
   }
   if (/\{\{|\}\}/.test(text.replace(/\{\{\w+\}\}/g, ""))) errors.push("broken {{placeholder}}");
   if (/\([oa]\)|\bo\/a\b|\ba\/o\b/i.test(text)) errors.push('no "(a)" or "o/a" gender forms');
+  errors.push(...grammarErrors([text, ...(entry.answers ?? [])]));
   if (en.length > 25 && text === en) errors.push("text is still English");
 
   const options = englishAnswers(row);
@@ -173,7 +196,7 @@ function validate(row: Row, entry: Pick<Entry, "text" | "answers" | "accepted">)
         seen.add(value.toLowerCase());
         // The server finds a picked answer by its text in any language, so it
         // must not equal a different option in another language.
-        for (const lang of SOURCE_LANGS) {
+        for (const lang of LANGS.filter((l) => l !== LANG)) {
           const list = row.answers?.[`answers_${lang}`] ?? [];
           const j = list.indexOf(value);
           if (j !== -1 && j !== i) {
@@ -194,6 +217,56 @@ function validate(row: Row, entry: Pick<Entry, "text" | "answers" | "accepted">)
     }
   } else if (accepted.length) {
     errors.push("this question has no answer key; accepted must be []");
+  }
+  return errors;
+}
+
+/**
+ * Mechanical grammar checks for the languages that mark gender or decline names.
+ * They catch the common slips; the style guide covers the rest.
+ */
+function grammarErrors(strings: string[]): string[] {
+  const errors: string[] = [];
+  const all = strings.join("\n");
+  const has = (re: RegExp) => re.test(all);
+  if (
+    has(/\p{L}[*:_](in|innen)(?![\p{L}\p{N}])/iu) ||
+    has(/\p{L}\/(in|innen|a|o|e|i|ła|łaś|łeś|y)(?![\p{L}\p{N}])/iu) ||
+    has(/\p{L}\((in|innen|a|o|e|i|ła|łaś|y)\)/iu)
+  ) {
+    errors.push("no slash, star, colon or bracket gender forms");
+  }
+  if (LANG === "de") {
+    if (has(/\{\{playerName\}\}['’]?s(?![\p{L}\p{N}])/u)) errors.push('no genitive -s on {{playerName}}; use "von {{playerName}}"');
+    if (has(/(?<![\p{L}\p{N}])(dein(e[mnrs]?)?|ihr(e[mnrs]?)?)\s+Partner(in)?(?![\p{L}\p{N}])/iu)) errors.push('say "dein Schatz", not "Partner/Partnerin"');
+  }
+  if (LANG === "it") {
+    if (has(/(?<![\p{L}\p{N}])(il tuo|la tua) (partner|ragazz[oa]|fidanzat[oa])(?![\p{L}\p{N}])/iu)) errors.push('say "il tuo amore", not partner/ragazzo/ragazza');
+    if (has(/(?<![\p{L}\p{N}])qual'è(?![\p{L}\p{N}])/iu)) errors.push('"qual è" takes no apostrophe');
+  }
+  if (LANG === "pl") {
+    if (has(/(?<![\p{L}\p{N}])\p{L}+(łeś|łaś|łbyś|łabyś|łbym|łabym|liście|łyście|libyście|łybyście)(?![\p{L}\p{N}])/iu)) {
+      errors.push("gendered 2nd-person past/conditional or 1st-person conditional form");
+    }
+    if (has(/(?<![\p{L}\p{N}])(dla|z|ze|o|od|do|u|według|przez|na|w|we|dzięki|bez|przy|po|za|nad|pod|przed|między|wobec|obok|koło)\s+\{\{playerName\}\}/iu)) {
+      errors.push("{{playerName}} after a preposition needs a case ending; make it the subject");
+    }
+    if (has(/(?<![\p{L}\p{N}])(twój|twoja|twojego|twoim|twojej) (partner|partnerka|partnera|partnerki|chłopak|dziewczyna)(?![\p{L}\p{N}])/iu)) {
+      errors.push('say "twoja druga połówka", not partner/partnerka/chłopak/dziewczyna');
+    }
+  }
+  if (LANG === "fr") {
+    if (has(/(?<![\p{L}\p{N}])(ton|ta) (partenaire|copain|copine|chéri|chérie|mec|meuf)(?![\p{L}\p{N}])/iu)) errors.push('say "ta moitié" / "ton amour", not partenaire/copain/copine');
+    if (has(/(?<![\p{L}\p{N}])(d|qu|l)['’]\{\{playerName\}\}/iu)) errors.push('no elision before {{playerName}}: write "de {{playerName}}", "que {{playerName}}"');
+    if (has(/[^\s\u00a0\u202f?!][?!;]/u)) errors.push("French needs a space before ? ! ;");
+  }
+  if (LANG === "nl") {
+    if (has(/\{\{playerName\}\}['’]?s(?![\p{L}\p{N}])/u)) errors.push('no genitive -s on {{playerName}}; use "van {{playerName}}"');
+    if (has(/(?<![\p{L}\p{N}])je (vriendje|vriendinnetje|vriendin|man|vrouw)(?![\p{L}\p{N}])/iu)) errors.push('say "je partner" / "je lief", not vriend(in)/man/vrouw');
+  }
+  if (LANG === "ja") {
+    if (has(/彼氏|彼女|あなた|お前|旦那|奥さん/u)) errors.push("no 彼氏/彼女/あなた/お前/旦那/奥さん; use 恋人/相手 or drop the pronoun");
+    if (has(/\{\{playerName\}\}(さん|くん|君|ちゃん|様)/u)) errors.push("no honorific after {{playerName}}");
   }
   return errors;
 }
@@ -400,6 +473,96 @@ async function translate() {
   }
 }
 
+// ---------- source / import (translating outside this script) ----------
+
+const SOURCE_DIR = path.resolve("translations", "_source");
+const DRAFTS_DIR = path.join(DIR, "drafts");
+
+async function source() {
+  const rows = await loadRows();
+  const byCategory = new Map<string, Row[]>();
+  for (const row of rows) byCategory.set(row.category_id, [...(byCategory.get(row.category_id) ?? []), row]);
+  fs.mkdirSync(SOURCE_DIR, { recursive: true });
+  for (const [category, list] of byCategory) {
+    const items = list.map((row) => ({
+      id: row.id,
+      mode: row.group_id,
+      type: row.question_type,
+      en: row.texts.text_en ?? "",
+      tr: row.texts.text_tr ?? "",
+      ...(englishAnswers(row).length && {
+        answers_en: englishAnswers(row),
+        answers_tr: row.answers?.answers_tr ?? [],
+      }),
+      ...(typeof row.correct_answer === "string" && { correct_answer: row.correct_answer }),
+      ...(hasTypedKey(row) && { accepted_en: typedKey(row, "en"), accepted_tr: typedKey(row, "tr") }),
+    }));
+    fs.writeFileSync(path.join(SOURCE_DIR, `${category}.json`), JSON.stringify(items, null, 1) + "\n");
+    console.log(`${category}: ${items.length}`);
+  }
+}
+
+type Draft = { text: string; answers?: string[]; accepted?: string[]; flagged?: boolean; note?: string };
+
+async function importDrafts() {
+  const rows = await loadRows();
+  if (!fs.existsSync(DRAFTS_DIR)) throw new Error(`No drafts in ${DRAFTS_DIR}`);
+  const byId = new Map(rows.map((row) => [row.id, row]));
+  const failed: string[] = [];
+  let saved = 0;
+  // --draft <file> checks a single draft file (with --dry-run: report only, write nothing).
+  const only = flag("draft");
+  const files = only
+    ? [path.resolve(only)]
+    : fs.readdirSync(DRAFTS_DIR).filter((n) => n.endsWith(".json")).sort().map((n) => path.join(DRAFTS_DIR, n));
+  for (const file of files) {
+    const name = path.basename(file);
+    let drafts: Record<string, Draft>;
+    try {
+      drafts = JSON.parse(fs.readFileSync(file, "utf8"));
+    } catch (error) {
+      failed.push(`${name}: not valid JSON (${error instanceof Error ? error.message : error})`);
+      continue;
+    }
+    const touched = new Map<string, CategoryFile>();
+    for (const [id, draft] of Object.entries(drafts)) {
+      const row = byId.get(id);
+      if (!row) {
+        failed.push(`${name}/${id}: no such question`);
+        continue;
+      }
+      const entry = {
+        text: (draft.text ?? "").trim(),
+        answers: englishAnswers(row).length ? (draft.answers ?? []).map((a) => a.trim()) : [],
+        accepted: hasTypedKey(row) ? (draft.accepted ?? []).map((a) => a.trim()) : [],
+      };
+      const errors = validate(row, entry);
+      if (errors.length) {
+        failed.push(`${row.category_id}/${id}: ${errors.join("; ")}\n    got: ${entry.text} ${entry.answers.length ? "| " + entry.answers.join(" | ") : ""}`);
+        continue;
+      }
+      if (!touched.has(row.category_id)) touched.set(row.category_id, readFile(row.category_id));
+      touched.get(row.category_id)![id] = {
+        en: row.texts.text_en,
+        text: entry.text,
+        ...(entry.answers.length && { answers: entry.answers }),
+        ...(entry.accepted.length && { accepted: entry.accepted }),
+        ...(draft.flagged && { flagged: true }),
+        ...(draft.note && { note: draft.note }),
+      };
+      saved++;
+    }
+    if (DRY_RUN) continue;
+    for (const [category, data] of touched) {
+      const order = rows.filter((r) => r.category_id === category).map((r) => r.id);
+      writeFile(category, data, order);
+    }
+  }
+  console.log(`${LANG}: ${DRY_RUN ? "checked" : "imported"} ${saved} translations, ${failed.length} rejected`);
+  failed.forEach((line) => console.log(`  rejected ${line}`));
+  if (failed.length) process.exitCode = 1;
+}
+
 type Report = { total: number; done: number; missing: string[]; stale: string[]; invalid: string[]; flagged: number };
 
 async function check(rows?: Row[]): Promise<Report> {
@@ -564,7 +727,24 @@ async function apply() {
   }
 }
 
-const commands: Record<string, () => Promise<unknown>> = { translate, check: () => check(), sheet, apply };
+const commands: Record<string, () => Promise<unknown>> = {
+  translate,
+  check: () => check(),
+  sheet,
+  apply,
+  source,
+  import: importDrafts,
+  "rows-cache": async () => {
+    const file = flag("out") ?? "translations/_source/rows-cache.json";
+    const { rows } = await getAdminPool().query<Row>(
+      `SELECT q.id, q.category_id, c.group_id, q.texts, q.question_type, q.answers, q.correct_answer
+         FROM questions q LEFT JOIN categories c ON c.id = q.category_id
+        ORDER BY q.category_id, q.order_index NULLS LAST, q.created_at`,
+    );
+    fs.writeFileSync(file, JSON.stringify(rows));
+    console.log(`wrote ${rows.length} rows to ${file}`);
+  },
+};
 const run = commands[command];
 if (!run) {
   console.log("Usage: npx tsx scripts/translate.ts <translate|check|sheet|apply> [--lang pt] [--category id] [--limit n] [--dry-run]");

@@ -1,0 +1,663 @@
+{
+ "e294c59a-bb70-4d8c-9d80-6dbb06a09b36": {
+  "text": "Van welk geluid wordt {{playerName}} het gekst?",
+  "answers": [
+   "Luid smakken",
+   "Nagels over een krijtbord",
+   "Iemand die snottert",
+   "Iemand die fluit"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "19eebdd7-760a-4ea1-ae18-5bf88eb2dafc": {
+  "text": "Waar ergert {{playerName}} zich het meest aan bij het appen?",
+  "answers": [
+   "Een kaal “oké”",
+   "Spraakberichten",
+   "Trage reacties",
+   "Veel korte berichtjes achter elkaar"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "52b4cdec-cd4a-4442-998d-f07cd4081db4": {
+  "text": "Waar stoort {{playerName}} zich het meest aan in een restaurant?",
+  "answers": [
+   "Trage bediening",
+   "Een vieze tafel",
+   "Harde muziek",
+   "Kleine porties"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5be0c0e8-8892-4a92-9758-2f00fcce2015": {
+  "text": "Welke rommel in huis stoort {{playerName}} het meest?",
+  "answers": [
+   "Afwas in de gootsteen",
+   "Kleren op de vloer",
+   "Een onopgemaakt bed",
+   "Kruimels op tafel"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2dd218d8-d3ec-46ee-9285-47f6ed61d659": {
+  "text": "Waar wordt {{playerName}} in het verkeer het snelst gek van?",
+  "answers": [
+   "Trage bestuurders",
+   "Getoeter",
+   "Mensen die afsnijden",
+   "Geen richting aangeven"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "644b7cf5-7ae6-430a-9220-f3fb43701063": {
+  "text": "Waar ergert {{playerName}} zich het meest aan in de rij?",
+  "answers": [
+   "Voordringers",
+   "Mensen die te dichtbij staan",
+   "Een trage kassamedewerker",
+   "Iemand die met muntjes betaalt"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b9f365dd-1aa6-4d48-af88-95d026d024d5": {
+  "text": "Waar geeft {{playerName}} het meeste geld aan uit?",
+  "answers": [
+   "Eten en uit eten gaan",
+   "Kleding",
+   "Tech en gadgets",
+   "Reizen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "be8f4942-1a57-4943-8b5b-8bb89b022314": {
+  "text": "Wat is het duurste dat {{playerName}} ooit heeft gekocht?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "50d0db45-ce2c-468e-a3d6-23f0704fc3a4": {
+  "text": "Waar leerde {{playerName}} de beste vriend of vriendin kennen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "662aef93-2e41-413c-b62a-b150755f03f5": {
+  "text": "Hoelang duurt de oudste vriendschap van {{playerName}} al?",
+  "answers": [
+   "Minder dan 5 jaar",
+   "5-10 jaar",
+   "10-20 jaar",
+   "Meer dan 20 jaar"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "65d60061-9ab6-4853-9aca-4eab081a4cce": {
+  "text": "Hoe heet de belangrijkste groepsapp van {{playerName}} met vrienden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "197d53a1-83ce-4902-a334-27066158fc78": {
+  "text": "Hoe vaak ziet {{playerName}} vrienden?",
+  "answers": [
+   "Bijna elke dag",
+   "Elke week",
+   "Een paar keer per maand",
+   "Zelden"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6159136b-df0a-4257-b058-e896fc9de8df": {
+  "text": "Waar spreekt {{playerName}} meestal af met vrienden?",
+  "answers": [
+   "Bij iemand thuis",
+   "In een koffietentje",
+   "In de kroeg",
+   "Buiten"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a1fcb212-3cc0-4b2d-bd2f-8bda0513e11c": {
+  "text": "Hoeveel mensen zitten er in de vaste vriendengroep van {{playerName}}?",
+  "answers": [
+   "2-3",
+   "4-5",
+   "6-8",
+   "Meer dan 8"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7f03c313-0647-4db6-9922-02b1cd26700f": {
+  "text": "Hoe houdt {{playerName}} vooral contact met vrienden?",
+  "answers": [
+   "Appen",
+   "Spraakberichten",
+   "Bellen",
+   "Memes en reels sturen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c17d4951-9f29-4613-aebc-0dc559fa5a6d": {
+  "text": "Welke bijnaam heeft {{playerName}} bij vrienden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "71ef9a47-46d4-4666-8665-3d3a7991768e": {
+  "text": "Hoe viert {{playerName}} meestal de eigen verjaardag?",
+  "answers": [
+   "Een groot feest",
+   "Een etentje met goede vrienden",
+   "Een rustige dag",
+   "Viert het niet"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "01b87d7a-2853-4e22-8290-2f44cb342e8a": {
+  "text": "In welke stad woont de beste vriend of vriendin van {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1abd3aae-173d-497f-bb52-95bd395ab563": {
+  "text": "Waarvoor spaart {{playerName}} op dit moment? Laat leeg als er niet gespaard wordt.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7bf99537-3613-478d-881c-d35960165b3e": {
+  "text": "Wat voor zaak zou {{playerName}} openen als dat kon?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e100c90f-796f-4d06-8999-61f07e8e2040": {
+  "text": "Hoe vaak plaatst {{playerName}} stories?",
+  "answers": [
+   "Elke dag",
+   "Een paar keer per week",
+   "Zelden",
+   "Nooit"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2d3caa55-6c03-45e4-ae52-8f4d9aabc5a7": {
+  "text": "Hoeveel accounts volgt {{playerName}} op Instagram?",
+  "answers": [
+   "Minder dan 300",
+   "300-700",
+   "700-1.500",
+   "Meer dan 1.500"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a06282e0-ae61-4541-bf4d-24c8336d031e": {
+  "text": "Wat was de laatste Instagrampost van {{playerName}}? Schrijf “geen” als er nooit iets gepost wordt.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e2c75092-cf85-48f6-96b7-e8022bda2ae4": {
+  "text": "Heeft {{playerName}} ooit een post verwijderd omdat die te weinig likes kreeg?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "843b062a-8c76-44f7-99bb-72f4319b57ef": {
+  "text": "Waar besteedt {{playerName}} de meeste tijd aan op social media?",
+  "answers": [
+   "Reels kijken",
+   "Stories kijken",
+   "Berichtjes sturen",
+   "Profielen stalken"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e32b237d-f1dd-44b2-b30e-36fa9979cd3f": {
+  "text": "Hoeveel volgers heeft {{playerName}} op Instagram?",
+  "answers": [
+   "Minder dan 300",
+   "300-700",
+   "700-1.500",
+   "Meer dan 1.500"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ab6fb3d1-3476-436b-af30-74e7d7f96ea6": {
+  "text": "Heeft {{playerName}} een tweede, geheim Instagramaccount?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c5fbea67-c014-4be3-a141-986603d7784a": {
+  "text": "Wanneer scrolt {{playerName}} het meest door social media?",
+  "answers": [
+   "In bed voor het slapen",
+   "Meteen na het wakker worden",
+   "Op de wc",
+   "Op het werk of op school"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d799cefe-4533-4a40-b9fd-0b26b49dced4": {
+  "text": "Wat staat er nu op de profielfoto van {{playerName}} op Instagram?",
+  "answers": [
+   "Een solofoto",
+   "Een foto met iemand",
+   "Iets anders (huisdier, uitzicht…)",
+   "Geen foto"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "99140b21-a78b-4823-8931-da81598e0099": {
+  "text": "Welke bezorgapp gebruikt {{playerName}} het meest?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "99a08b68-a66b-49c5-a1d4-c5ea876ddf1c": {
+  "text": "Hoe vaak bestelt {{playerName}} eten?",
+  "answers": [
+   "Bijna elke dag",
+   "Een paar keer per week",
+   "Een paar keer per maand",
+   "Bijna nooit"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cfbd02eb-acdd-41f0-a82c-d633cd6ec6f4": {
+  "text": "Wanneer bestelt {{playerName}} het vaakst eten?",
+  "answers": [
+   "Bij de lunch",
+   "Bij het avondeten",
+   "Na middernacht",
+   "In het weekend, 's ochtends"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b6c53b84-8968-4576-9582-556d78e1aa08": {
+  "text": "Hoelang scrolt {{playerName}} door de app voordat er besteld wordt?",
+  "answers": [
+   "Bestelt binnen een minuut",
+   "Zo'n 10 minuten",
+   "Een halfuur",
+   "Geeft op, bestelt toch weer hetzelfde"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fe6f43a3-1fd6-4b4f-8d95-7aab9b9ab8bb": {
+  "text": "Geeft {{playerName}} fooi bij bezorging?",
+  "answers": [
+   "Nooit",
+   "Soms",
+   "Altijd een beetje",
+   "Altijd royaal"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "98443ab8-023f-4a17-b4f4-a95567bc476e": {
+  "text": "Wat kijkt {{playerName}} tijdens een afhaalmaaltijd?",
+  "answers": [
+   "Een serie",
+   "YouTube",
+   "Reels",
+   "Niks, eet gewoon"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fe4758c6-1a3f-4740-a65f-f3f9268b47dc": {
+  "text": "Hoe vaak brengt {{playerName}} gekochte spullen terug?",
+  "answers": [
+   "Nooit",
+   "Zelden",
+   "Vaak",
+   "Bijna alles"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "519747f8-ac05-4e2e-bd62-8a11dab0a5b1": {
+  "text": "Hoe kijkt {{playerName}} een nieuwe serie?",
+  "answers": [
+   "Bingewatcht het in één weekend",
+   "Elke avond één aflevering",
+   "Begint, maar kijkt het nooit af",
+   "Wacht tot het hele seizoen uit is"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "39f5d8f3-514c-4fa3-93d6-add3a148a74c": {
+  "text": "Hoe luistert {{playerName}} meestal muziek?",
+  "answers": [
+   "Eigen playlists op shuffle",
+   "Dezelfde paar nummers op repeat",
+   "Hele albums van begin tot eind",
+   "Wat de app aanraadt"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3ef13a99-6e73-4c3f-ab4c-23ff736d1b22": {
+  "text": "Waar luistert {{playerName}} het meest muziek?",
+  "answers": [
+   "In de auto",
+   "Onderweg met oortjes",
+   "Onder de douche",
+   "Tijdens het werken of studeren"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e24b651e-6331-4162-899d-df89456006b4": {
+  "text": "Welk nummer kiest {{playerName}} bij karaoke?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bbf96cda-756f-454a-b2be-3b11d36b3a67": {
+  "text": "Welke streamingdienst gebruikt {{playerName}} het meest?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "07f20cd4-0210-4b95-8df9-d623a0bd0a5c": {
+  "text": "Welke film heeft {{playerName}} het vaakst gezien?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c78c11b1-99b4-4da4-a62f-f5c91f4a4f18": {
+  "text": "Naar welke comfortserie grijpt {{playerName}} altijd terug?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1292f03a-b50e-440f-adcf-712349e40719": {
+  "text": "Hoe koopt {{playerName}} meestal kleren?",
+  "answers": [
+   "Alleen online",
+   "In de winkel, alles passen",
+   "Pas als iets versleten is",
+   "Constant impulsaankopen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d9725e20-1b77-4925-822c-a0600200c830": {
+  "text": "Hoe doet {{playerName}} de boodschappen?",
+  "answers": [
+   "Met een lijstje en houdt zich eraan",
+   "Struint rond, pakt wat lekker lijkt",
+   "Bestelt online",
+   "Vergeet altijd juist dat ene ding"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b9664338-39be-4c85-b84c-556d4340b75b": {
+  "text": "Hoelang laat {{playerName}} spullen in het online winkelmandje liggen?",
+  "answers": [
+   "Koopt meteen",
+   "Een paar dagen",
+   "Weken",
+   "Koopt ze uiteindelijk nooit"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bf330b67-2579-4879-9284-e1bb389ddd97": {
+  "text": "Wat doet {{playerName}} bij een grote uitverkoop?",
+  "answers": [
+   "Koopt dingen die niet eens nodig zijn",
+   "Koopt alleen wat al op het lijstje stond",
+   "Negeert het volledig",
+   "Vult het mandje en koopt dan niks"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f880e846-1a46-4448-b7b8-432d8820bb89": {
+  "text": "Wat is het vaste koffietentje van {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e452eb3a-71ca-491f-908b-d5c948b61374": {
+  "text": "Wat bestelt {{playerName}} altijd bij de favoriete fastfoodzaak?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e6f97bcb-be04-4815-b108-322f1284b685": {
+  "text": "Welke kleur heeft het telefoonhoesje van {{playerName}}? Schrijf “geen” als er geen hoesje omheen zit.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "34493f68-a720-495a-b39a-52d484d3610e": {
+  "text": "Welke shoppingapp gebruikt {{playerName}} het meest?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "835abc8b-f60f-4b56-9fa3-853e42ad5ffe": {
+  "text": "Met hoeveel kussens slaapt {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e1b8328b-6a31-46d0-bc54-46c41d2ca166": {
+  "text": "Hoeveel tabbladen heeft {{playerName}} meestal open in de browser?",
+  "answers": [
+   "1 tot 5",
+   "6 tot 20",
+   "21 tot 50",
+   "Niet meer te tellen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9265875a-abaf-454a-9d5d-cf7c21f409e4": {
+  "text": "Hoeveel foto's staan er in de fotogalerij van {{playerName}}?",
+  "answers": [
+   "Minder dan 1.000",
+   "1.000 tot 5.000",
+   "5.000 tot 20.000",
+   "Meer dan 20.000"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "696b6beb-bb08-43ed-86eb-eb4bd17e515c": {
+  "text": "Hoeveel apps staan er op de telefoon van {{playerName}}?",
+  "answers": [
+   "Minder dan 30",
+   "30 tot 60",
+   "60 tot 100",
+   "Meer dan 100"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7afba473-dc61-4be7-b01c-0ca03119939b": {
+  "text": "Naar wie heeft {{playerName}} als laatste gebeld?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5901193f-1beb-49eb-90ed-1da2b9274c76": {
+  "text": "Gebruikt {{playerName}} de donkere modus op de telefoon?",
+  "answers": [
+   "Altijd donker",
+   "Altijd licht",
+   "Automatisch, wisselt met het tijdstip"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "377237c2-590f-4200-a7a5-1e53377d8f42": {
+  "text": "Wanneer douchet {{playerName}} meestal?",
+  "answers": [
+   "'s Ochtends",
+   "'s Avonds",
+   "Allebei, elke dag",
+   "Wisselt, geen vaste tijd"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9e3e7f73-8945-458a-a0a1-c3657b5d58f6": {
+  "text": "Hoelang doet {{playerName}} erover om zich klaar te maken om uit te gaan?",
+  "answers": [
+   "Minder dan 10 minuten",
+   "10 tot 30 minuten",
+   "30 minuten tot een uur",
+   "Meer dan een uur"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "57230422-8ea9-4e5f-9273-087b5d605ec8": {
+  "text": "Aan welke hobby besteedt {{playerName}} de meeste tijd?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dc836b7d-8918-41b2-975b-19f9a43a801d": {
+  "text": "Hoeveel boeken heeft {{playerName}} dit jaar gelezen? Schrijf 0 als het er geen zijn.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "04f5785b-6dbc-40dd-b7fa-d6850be17248": {
+  "text": "Welk spelletje speelt {{playerName}} tegenwoordig op de telefoon? Schrijf “geen” als er niet gegamed wordt.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1a62fc00-3404-48f5-860f-c31f4b6121b0": {
+  "text": "Hoe vaak per week sport {{playerName}}?",
+  "answers": [
+   "Nooit",
+   "1 tot 2 keer",
+   "3 tot 4 keer",
+   "5 keer of vaker"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b9c19285-78bf-4372-896c-ca131cb93459": {
+  "text": "Wat is de laatste film die {{playerName}} in de bioscoop zag?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9d5dec86-f93f-4a8b-b522-75f77e6b759b": {
+  "text": "Wat heeft {{playerName}} het laatst gekookt?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9b999915-7237-47f9-a9a6-5d6d8beae33a": {
+  "text": "Waar sport {{playerName}} meestal?",
+  "answers": [
+   "In de sportschool",
+   "Thuis",
+   "Buiten",
+   "Sport niet"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

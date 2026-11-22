@@ -1,0 +1,797 @@
+{
+  "e0376cd2-b821-4778-a104-f2f21460e4f9": {
+    "text": "Combien de trous joue-t-on dans une partie de golf standard ?",
+    "answers": [
+      "9",
+      "12",
+      "18",
+      "24"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "470f370a-f1ff-46dc-ad04-0921db1801da": {
+    "text": "Dans quelle discipline Usain Bolt a-t-il battu des records du monde ?",
+    "answers": [
+      "Natation",
+      "Sprint",
+      "Saut en longueur",
+      "Cyclisme"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "448ec511-95bf-40f4-9e1b-c12c083b0267": {
+    "text": "Au volley, combien de joueurs par équipe sont sur le terrain en même temps ?",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "31b3a033-8fdd-40dd-8c2e-d5087aedbfbf": {
+    "text": "Dans quel sport Mohamed Ali est-il considéré comme l'un des plus grands de tous les temps ?",
+    "answers": [
+      "Lutte",
+      "Boxe",
+      "Judo",
+      "Kickboxing"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ad108c04-5948-421c-92cf-87d856111268": {
+    "text": "Combien de tournois du Grand Chelem y a-t-il chaque année au tennis ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "66d937da-ec80-4572-84ed-902aed03fdbf": {
+    "text": "Combien d'os compte le corps humain adulte ?",
+    "answers": [
+      "106",
+      "206",
+      "306",
+      "406"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b881df18-afa4-4f6d-b8d4-2f69928d90eb": {
+    "text": "Quel est le plus grand organe du corps humain ?",
+    "answers": [
+      "Le foie",
+      "Les poumons",
+      "La peau",
+      "Le cerveau"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "79a5250b-5c10-48e6-9226-2beb082fe4d3": {
+    "text": "Quel gaz compose la majeure partie de l'air que nous respirons ?",
+    "answers": [
+      "Oxygène",
+      "Azote",
+      "Dioxyde de carbone",
+      "Hydrogène"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "04109646-2470-4e9a-b82d-aaf64ee50fb8": {
+    "text": "Au niveau de la mer, à quelle température l'eau bout-elle ?",
+    "answers": [
+      "80 °C",
+      "90 °C",
+      "100 °C",
+      "120 °C"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "53d74eaf-20e2-4dde-b2c0-667e94047ee8": {
+    "text": "Quelle est la plus grande planète du système solaire ?",
+    "answers": [
+      "Saturne",
+      "Jupiter",
+      "Neptune",
+      "La Terre"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "adef6293-e6aa-4850-be6c-f7739e07b347": {
+    "text": "Combien de dents a généralement un adulte, dents de sagesse comprises ?",
+    "answers": [
+      "24",
+      "28",
+      "32",
+      "36"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2e7bb5bd-dbe2-4b29-b666-9fcbe35f814f": {
+    "text": "Quelle planète est la plus proche du Soleil ?",
+    "answers": [
+      "Vénus",
+      "Mercure",
+      "Mars",
+      "La Terre"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5f4a008d-499e-4bc0-97a6-616d03dfb26d": {
+    "text": "Quelle est la formule chimique de l'eau ?",
+    "answers": [
+      "CO2",
+      "H2O",
+      "O2",
+      "NaCl"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "30ec3ae6-6d94-49df-a591-f425c03aea90": {
+    "text": "Quel groupe sanguin est appelé « donneur universel » ?",
+    "answers": [
+      "A positif",
+      "B négatif",
+      "AB positif",
+      "O négatif"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1ba39886-208f-42cc-b5e8-b669b49fa583": {
+    "text": "Combien de temps met la Terre pour faire le tour du Soleil ?",
+    "answers": [
+      "1 jour",
+      "1 semaine",
+      "1 mois",
+      "1 an"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9c4656bf-e418-43a7-853c-5807919a8b22": {
+    "text": "Dans quelle partie du corps se trouve le plus petit os humain ?",
+    "answers": [
+      "Le doigt",
+      "L'oreille",
+      "Le nez",
+      "L'orteil"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9ccb760a-3543-48a3-bca4-7b133a9a147c": {
+    "text": "Quelle vitamine le corps fabrique-t-il quand la peau est exposée au soleil ?",
+    "answers": [
+      "Vitamine A",
+      "Vitamine B12",
+      "Vitamine C",
+      "Vitamine D"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "18255e04-f4d6-44cf-9d19-201792d1a91f": {
+    "text": "Combien de planètes compte notre système solaire ?",
+    "answers": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "94e3ba92-0a32-47a3-8762-d141d5e3a183": {
+    "text": "Quelle force attire les objets vers le sol quand on les lâche ?",
+    "answers": [
+      "Le magnétisme",
+      "La friction",
+      "La gravité",
+      "L'électricité"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "406d0c4d-062e-4fc9-8ac0-16e35645a12e": {
+    "text": "Quel scientifique est célèbre pour la théorie de la relativité ?",
+    "answers": [
+      "Isaac Newton",
+      "Nikola Tesla",
+      "Albert Einstein",
+      "Charles Darwin"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4f0e8e7a-a404-4e28-ba7d-184e88177cac": {
+    "text": "Dans quel film d'animation un jeune lion nommé Simba devient-il roi ?",
+    "answers": [
+      "Le Livre de la jungle",
+      "Madagascar",
+      "Le Roi lion",
+      "Tarzan"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5f150e47-227f-4d1d-991e-f0624b6da732": {
+    "text": "Comment s'appelle l'école de sorcellerie de Harry Potter ?",
+    "answers": [
+      "Narnia",
+      "Poudlard",
+      "Gotham",
+      "Fondcombe"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "42580561-ded8-4a9f-bee4-4a9dac914ceb": {
+    "text": "John, Paul, George et Ringo formaient quel groupe légendaire ?",
+    "answers": [
+      "The Rolling Stones",
+      "Queen",
+      "The Beatles",
+      "ABBA"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e757c23e-fdde-4bbe-aa9c-4d068f5b4787": {
+    "text": "Quel super-héros est surnommé « l'Homme d'acier » ?",
+    "answers": [
+      "Batman",
+      "Iron Man",
+      "Superman",
+      "Spider-Man"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ee441246-10de-4b35-9265-842c9d2d761d": {
+    "text": "Quel célèbre détective de fiction habite au 221B Baker Street ?",
+    "answers": [
+      "Hercule Poirot",
+      "Sherlock Holmes",
+      "James Bond",
+      "Indiana Jones"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6d5f5c00-4706-4eb4-a7e3-4124932add70": {
+    "text": "Quel navire coule dans le film de 1997 avec Leonardo DiCaprio et Kate Winslet ?",
+    "answers": [
+      "Le Poséidon",
+      "Le Titanic",
+      "Le Black Pearl",
+      "Le Queen Mary"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "07691c96-35a5-4bd4-8b5a-562834877635": {
+    "text": "Qui est la petite amie de Mickey ?",
+    "answers": [
+      "Daisy",
+      "Minnie",
+      "Betty Boop",
+      "Jessica Rabbit"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b5b94a65-fed5-48cc-9e59-2fa7da99e027": {
+    "text": "De quelle couleur devient Hulk quand il se met en colère ?",
+    "answers": [
+      "Rouge",
+      "Bleu",
+      "Vert",
+      "Violet"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1fcb25d2-57d4-4a43-bc7d-6503751ac0bd": {
+    "text": "Quel instrument de musique a généralement 88 touches ?",
+    "answers": [
+      "L'accordéon",
+      "Le piano",
+      "La harpe",
+      "L'orgue"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "70c1e912-e703-4c28-8b68-fc55363fc96f": {
+    "text": "Quelle famille de dessin animé à la peau jaune vit à Springfield ?",
+    "answers": [
+      "Les Pierrafeu",
+      "Les Simpson",
+      "La Famille Addams",
+      "Les Indestructibles"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e6af68c7-cfd6-4fee-8949-ad182b20c596": {
+    "text": "Quel célèbre personnage de jeu vidéo est un plombier italien ?",
+    "answers": [
+      "Sonic",
+      "Mario",
+      "Pac-Man",
+      "Link"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e597ee36-f357-4ca7-91c3-430633c04158": {
+    "text": "Quelle héroïne de conte perd une pantoufle de verre au bal ?",
+    "answers": [
+      "Blanche-Neige",
+      "Cendrillon",
+      "Raiponce",
+      "La Belle au bois dormant"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c98b5d34-10f7-4aa0-b7bd-ab549781cc63": {
+    "text": "Dans « Le Monde de Nemo », quel poisson est Nemo ?",
+    "answers": [
+      "Un poisson rouge",
+      "Un poisson-globe",
+      "Un poisson-clown",
+      "Un poisson-ange"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4e4bfb42-2755-4d4c-8c5a-ab447668af3a": {
+    "text": "Quelle marque de jouets est célèbre pour ses briques en plastique colorées ?",
+    "answers": [
+      "Barbie",
+      "Hot Wheels",
+      "LEGO",
+      "Playmobil"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e31805cd-d8c7-4d1e-8c2b-28df2ce2a412": {
+    "text": "Quel célèbre tableau de Léonard de Vinci montre une femme au sourire mystérieux ?",
+    "answers": [
+      "La Nuit étoilée",
+      "La Joconde",
+      "Le Cri",
+      "La Jeune Fille à la perle"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3104ed09-5f7c-4629-b071-53d9dee2d10a": {
+    "text": "À qui attribue-t-on l'invention du téléphone ?",
+    "answers": [
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Nikola Tesla",
+      "Guglielmo Marconi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8b5365af-e8cc-4486-9637-7782e4301b3b": {
+    "text": "Laquelle des Sept Merveilles du monde antique est encore debout aujourd'hui ?",
+    "answers": [
+      "Le Colosse de Rhodes",
+      "La pyramide de Khéops",
+      "Les jardins suspendus de Babylone",
+      "Le phare d'Alexandrie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4ca1bd44-e128-4f6a-b188-b56e814b331e": {
+    "text": "Qui a été le premier homme à marcher sur la Lune ?",
+    "answers": [
+      "Youri Gagarine",
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "Michael Collins"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9e9b93d0-7f5e-46d6-9578-bd3f41347a07": {
+    "text": "En quelle année la Seconde Guerre mondiale s'est-elle terminée ?",
+    "answers": [
+      "1918",
+      "1939",
+      "1945",
+      "1950"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1fe111a8-2b47-47f0-aa0c-a866284920b9": {
+    "text": "La Grande Muraille a été construite pour protéger quel pays ?",
+    "answers": [
+      "Le Japon",
+      "La Mongolie",
+      "La Chine",
+      "L'Inde"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6e7737ef-a295-4fb1-a481-56af330d1a0c": {
+    "text": "Dans Star Wars, qui dit « Je suis ton père » ?",
+    "answers": [
+      "Dark Vador",
+      "Yoda",
+      "Han Solo",
+      "Obi-Wan Kenobi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5490c031-4ae8-41db-ad1e-1c0f19e1d670": {
+    "text": "Quel est le vrai nom de Spider-Man ?",
+    "answers": [],
+    "accepted": [
+      "Peter Parker",
+      "Parker"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "6ea2b330-632e-4ef4-9cd7-90fa3fd103c1": {
+    "text": "Dans « Friends », comment s'appelle le café où la bande se retrouve ?",
+    "answers": [
+      "Central Perk",
+      "Monk's Café",
+      "MacLaren's",
+      "Luke's Diner"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "64d0f7ef-3667-4c57-b401-c38494f12c44": {
+    "text": "Dans « La Reine des neiges », quel personnage a des pouvoirs de glace ?",
+    "answers": [
+      "Elsa",
+      "Anna",
+      "Olaf",
+      "Kristoff"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fc6c254d-6de9-4709-ba51-783d75afab03": {
+    "text": "Quel ogre vert vit dans un marais et épouse la princesse Fiona ?",
+    "answers": [],
+    "accepted": [
+      "Shrek"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "1a3ded96-3fb4-45e1-8b80-9439a1685b82": {
+    "text": "Dans « Toy Story », comment s'appelle le cow-boy ?",
+    "answers": [
+      "Woody",
+      "Buzz l'Éclair",
+      "Jessie",
+      "Rex"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f93285f1-ec42-4086-a538-3f91311a45c0": {
+    "text": "Quel espion britannique de fiction est connu sous le nom de 007 ?",
+    "answers": [],
+    "accepted": [
+      "James Bond",
+      "Bond"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "79b804b0-d450-49ac-afbc-178a25ccd947": {
+    "text": "Dans la mythologie grecque, qui est le roi des dieux ?",
+    "answers": [
+      "Zeus",
+      "Poséidon",
+      "Hadès",
+      "Apollon"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "32820bda-0ce0-453c-a562-eb1d5f3a3077": {
+    "text": "Dans la mythologie grecque, quelle femme avait des serpents à la place des cheveux ?",
+    "answers": [],
+    "accepted": [
+      "Méduse",
+      "Meduse",
+      "Medusa",
+      "La Méduse",
+      "Gorgone"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "65246fe5-4f6f-4580-96d8-e333c4d4b682": {
+    "text": "Dans quoi les Grecs ont-ils caché leurs soldats pour entrer dans Troie ?",
+    "answers": [],
+    "accepted": [
+      "Le cheval de Troie",
+      "Cheval de Troie",
+      "Cheval de bois",
+      "Cheval"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "7d8bc519-edf5-489d-9664-20e491062274": {
+    "text": "Quel dieu nordique porte un marteau appelé Mjölnir ?",
+    "answers": [
+      "Thor",
+      "Odin",
+      "Loki",
+      "Freyja"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "13639837-1420-4b70-a5f2-85cd1936839d": {
+    "text": "Qui est le dieu grec de la mer ?",
+    "answers": [
+      "Poséidon",
+      "Zeus",
+      "Arès",
+      "Hermès"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2f98dc52-9124-4edc-9676-f90d8ee22eb4": {
+    "text": "Comment s'appelle le cheval ailé de la mythologie grecque ?",
+    "answers": [],
+    "accepted": [
+      "Pégase",
+      "Pegase",
+      "Pegasus",
+      "Pegasos"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "70030863-62b4-4574-abac-555c03cbe7da": {
+    "text": "Quel oiseau mythique renaît de ses cendres ?",
+    "answers": [
+      "Le phénix",
+      "Le griffon",
+      "La harpie",
+      "Le rokh"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5d05ef74-11b4-418b-8208-0038040e4b8c": {
+    "text": "Dans le zodiaque chinois, chaque année est représentée par quoi ?",
+    "answers": [
+      "Un animal",
+      "Une couleur",
+      "Une fleur",
+      "Une planète"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5f91f2c0-2e80-4762-852a-e38903ffdf4d": {
+    "text": "Quelle appli a pour logo un fantôme blanc sur fond jaune ?",
+    "answers": [
+      "Snapchat",
+      "Instagram",
+      "TikTok",
+      "WhatsApp"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6fe4f7ea-f19c-4d71-adf1-1c1615bcb44b": {
+    "text": "En quel Pokémon Pikachu évolue-t-il ?",
+    "answers": [
+      "Raichu",
+      "Pichu",
+      "Voltali",
+      "Élektek"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a8c5a088-b9e1-4ff0-9b49-79956d86728a": {
+    "text": "Dans « Le Seigneur des anneaux », que doit détruire Frodon ?",
+    "answers": [
+      "L'Anneau unique",
+      "Une épée magique",
+      "Une couronne en or",
+      "Un œuf de dragon"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9866a681-5192-4844-8f0a-767c92c836ad": {
+    "text": "Quelle série est célèbre pour ses dragons, le Trône de fer et « L'hiver vient » ?",
+    "answers": [
+      "Game of Thrones",
+      "The Witcher",
+      "Vikings",
+      "The Last Kingdom"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "19701645-7659-4b6f-b90c-54c31e3cf003": {
+    "text": "Dans « Pinocchio », que se passe-t-il quand Pinocchio ment ?",
+    "answers": [
+      "Son nez s'allonge",
+      "Ses oreilles s'allongent",
+      "Il se change en âne",
+      "Il rapetisse"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b844d102-54ad-49a2-ac2f-23a887b2c59d": {
+    "text": "Ken est le petit ami de quelle poupée célèbre ?",
+    "answers": [],
+    "accepted": [
+      "Barbie"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "c0c78278-5634-4c86-afb6-611012b803c7": {
+    "text": "Dans « Blanche-Neige », combien y a-t-il de nains ?",
+    "answers": [
+      "7",
+      "5",
+      "6",
+      "9"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "49e03a41-4eff-4efc-9c86-072bd6cd80c0": {
+    "text": "Quel explorateur a atteint l'Amérique en 1492 ?",
+    "answers": [],
+    "accepted": [
+      "Christophe Colomb",
+      "Colomb",
+      "Christopher Columbus",
+      "Columbus"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "5f8c1ea9-e0c6-4c3a-8990-78fc55538881": {
+    "text": "Quels guerriers scandinaves naviguaient sur des drakkars et pillaient l'Europe ?",
+    "answers": [
+      "Les Vikings",
+      "Les gladiateurs",
+      "Les Spartiates",
+      "Les Mongols"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e27f003c-9cdd-4965-8cfc-eafee22ae3a8": {
+    "text": "Comment appelait-on les guerriers japonais qui suivaient un code d'honneur strict ?",
+    "answers": [
+      "Les samouraïs",
+      "Les ninjas",
+      "Les shoguns",
+      "Les lutteurs de sumo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f3f0b78d-5df4-4715-9c88-7c29a049c6d5": {
+    "text": "Napoléon Bonaparte était empereur de quel pays ?",
+    "answers": [
+      "La France",
+      "L'Espagne",
+      "L'Italie",
+      "L'Autriche"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f61d23d9-8b7c-4b17-871e-60492ce71426": {
+    "text": "Jusqu'en 1453, Constantinople était la capitale de quel empire ?",
+    "answers": [
+      "L'Empire byzantin",
+      "L'Empire ottoman",
+      "L'Empire perse",
+      "L'Empire mongol"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

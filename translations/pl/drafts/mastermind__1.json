@@ -1,0 +1,675 @@
+{
+  "249c9d8c-a57c-45fb-8233-19701c9a3df3": {
+    "text": "Które z tych kultowych urządzeń pojawiło się na rynku najwcześniej?",
+    "answers": [
+      "Game Boy",
+      "Sony Walkman",
+      "Commodore 64",
+      "Macintosh 128K"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fbc24695-a39a-4f53-9717-f339a7bbd994": {
+    "text": "Który kraj ma najwięcej stref czasowych, licząc terytoria zamorskie?",
+    "answers": [
+      "Rosja",
+      "Stany Zjednoczone",
+      "Francja",
+      "Chiny"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ebce1854-6bc1-47e3-b71a-d595f7f0e3d9": {
+    "text": "Flaga którego kraju jako jedyna na świecie przedstawia nowoczesną broń palną?",
+    "answers": [
+      "Mozambik",
+      "Angola",
+      "Gwatemala",
+      "Haiti"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b8b1f650-8af9-41b7-aa62-30d6ad15e5a7": {
+    "text": "Która z tych znanych stolic została zaplanowana i zbudowana od zera właśnie po to, by być stolicą kraju?",
+    "answers": [
+      "Brasília",
+      "Ottawa",
+      "Reykjavík"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "216fe966-7360-468d-8a76-a6388e9f00fd": {
+    "text": "Który obraz to najdroższe dzieło sztuki, jakie kiedykolwiek sprzedano na aukcji?",
+    "answers": [
+      "Salvator Mundi",
+      "Interchange",
+      "Kobiety z Algieru"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3384b472-139f-433d-975f-e1d81d3dd857": {
+    "text": "Który narząd zużywa około 20% energii organizmu, choć stanowi tylko około 2% masy ciała?",
+    "answers": [
+      "Mózg",
+      "Serce",
+      "Wątroba"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "79169b6e-6d47-46b6-b2e3-1c3403b8ad2b": {
+    "text": "Które zwierzę jako jedyne znane może w idealnych warunkach być biologicznie nieśmiertelne?",
+    "answers": [
+      "Meduza Turritopsis dohrnii",
+      "Niesporczak",
+      "Rekin polarny",
+      "Aksolotl"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d9266445-8fa1-4b7b-8f51-a95099e26f90": {
+    "text": "Hymn którego kraju nie ma żadnego oficjalnego tekstu?",
+    "answers": [
+      "Hiszpania",
+      "Grecja",
+      "Austria",
+      "Finlandia"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "216b9e84-7694-41e2-af5d-f6a321f39d9d": {
+    "text": "Która naturalna substancja, dobrze przechowywana, nigdy się nie psuje?",
+    "answers": [
+      "Miód",
+      "Oliwa z oliwek",
+      "Syrop klonowy",
+      "Masło klarowane"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2fa3792a-8bb2-4d12-9828-3caa4b924ede": {
+    "text": "Który kraj ma najdłuższą linię brzegową na świecie?",
+    "answers": [
+      "Kanada",
+      "Indonezja",
+      "Rosja",
+      "Australia"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "33649e7c-3151-42fa-b231-2b75a0bb5bdd": {
+    "text": "Która z tych klasycznych gier planszowych powstała pierwotnie jako krytyka kapitalizmu i monopoli?",
+    "answers": [
+      "Monopoly",
+      "Catan",
+      "Ryzyko"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9ab5c474-fbb2-4c0a-806a-40a9d9cc8024": {
+    "text": "Który kraj w latach 1977–2011 miał flagę w jednym kolorze, bez żadnych symboli, pasów i wzorów?",
+    "answers": [
+      "Libia",
+      "Oman",
+      "Mauretania",
+      "Somalia"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "613334ba-46f2-4057-8e33-69fb31894584": {
+    "text": "Który narząd wewnętrzny jako jedyny potrafi sam odbudować utraconą tkankę do pierwotnych rozmiarów?",
+    "answers": [
+      "Wątroba",
+      "Śledziona",
+      "Trzustka",
+      "Nerka"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "40918421-b186-4fc1-8671-93d38e453858": {
+    "text": "Kto jako pierwszy z powodzeniem posadził sondę na innej planecie?",
+    "answers": [
+      "Radziecki program kosmiczny (ZSRR)",
+      "NASA (USA)",
+      "ESA (Europa)"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3afba6ab-16e0-4ac5-b590-7ca44451914e": {
+    "text": "W którym kraju leży jedyna stolica na świecie, która graniczy z dwoma innymi państwami?",
+    "answers": [
+      "Słowacja",
+      "Austria",
+      "Węgry",
+      "Szwajcaria"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ed8c8613-d924-4efa-87d6-5785029d9802": {
+    "text": "Która misja kosmiczna jako pierwsza sfotografowała niewidoczną z Ziemi stronę Księżyca?",
+    "answers": [
+      "Łuna 3",
+      "Apollo 8",
+      "Sputnik 2",
+      "Voyager 1"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "00b54485-8cba-4983-a77e-4008337756f8": {
+    "text": "Które zwierzę jako pierwsze miało w pełni zsekwencjonowany genom (w 1998 roku)?",
+    "answers": [
+      "Caenorhabditis elegans (nicień)",
+      "Drosophila melanogaster (muszka owocowa)",
+      "Mus musculus (mysz domowa)"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": "EN says 'first living organism', which is not strictly true (bacteria in 1995); rendered as 'first animal', which is accurate."
+  },
+  "65a413b9-91a9-42d2-8a28-2ad753643f20": {
+    "text": "Które z tych znanych mórz to tak naprawdę jezioro bezodpływowe, bez połączenia z oceanem?",
+    "answers": [
+      "Morze Kaspijskie",
+      "Morze Czerwone",
+      "Morze Czarne",
+      "Morze Bałtyckie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "28337b33-f997-40cc-9a60-62fe1ce2afef": {
+    "text": "Która z tych słynnych budowli miała być tymczasowa i zniknąć po 20 latach?",
+    "answers": [
+      "Wieża Eiffla",
+      "Statua Wolności",
+      "Big Ben",
+      "Most Golden Gate"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cbec4c4a-b349-4cf9-9350-232bd2ce2084": {
+    "text": "W którym kraju leży najdalej na północ wysunięta stała osada z ludnością cywilną?",
+    "answers": [
+      "Norwegia",
+      "Kanada",
+      "Grenlandia"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4efb81b0-12ea-4ad6-8815-8460fff0dfec": {
+    "text": "Który słynny uczony pod koniec życia stracił wzrok, po części przez obserwowanie Słońca przez teleskop?",
+    "answers": [
+      "Galileusz",
+      "Isaac Newton",
+      "Johannes Kepler",
+      "Mikołaj Kopernik"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5b649245-27c2-441a-ac9c-d6cb4f55763a": {
+    "text": "Na której wyspie jako jedynej na świecie żyją dzikie lemury?",
+    "answers": [
+      "Madagaskar",
+      "Tasmania",
+      "Borneo",
+      "Sri Lanka"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "07d21811-0a44-4fe1-bc87-4653d33e744d": {
+    "text": "Który gaz stanowi około 78% powietrza, którym oddychamy?",
+    "answers": [
+      "Azot",
+      "Tlen",
+      "Dwutlenek węgla"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "306a0b2b-4cd9-4cb2-874b-b09bbe3c20c1": {
+    "text": "Który narząd wytwarza insulinę regulującą poziom cukru we krwi?",
+    "answers": [
+      "Trzustka",
+      "Wątroba",
+      "Tarczyca",
+      "Nerka"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4b072b2c-27e3-4f5d-8e61-6073892c3edc": {
+    "text": "Który z pięciu oceanów świata jest najmniejszy i najpłytszy?",
+    "answers": [
+      "Ocean Arktyczny",
+      "Ocean Indyjski",
+      "Ocean Południowy"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5eba4cd4-3e28-4755-b946-b1162f9e1f52": {
+    "text": "Który kraj ma najwięcej naturalnych jezior – więcej niż wszystkie inne kraje razem?",
+    "answers": [
+      "Kanada",
+      "Finlandia",
+      "Szwecja",
+      "Rosja"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d2e91574-e563-4b4d-bca7-5089e2c95a3d": {
+    "text": "Który narząd w spoczynku zużywa najwięcej tlenu na gram tkanki?",
+    "answers": [
+      "Nerki",
+      "Mózg",
+      "Serce"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cfe101aa-6323-4701-9f6b-c0c1b78bcd31": {
+    "text": "Który pierwiastek ma w układzie okresowym symbol „Fe”?",
+    "answers": [
+      "Żelazo",
+      "Fluor",
+      "Frans",
+      "Ołów"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f82eeb1d-6bc5-4620-9662-4b6db7d03f85": {
+    "text": "Który kraj ma najwięcej mieszkańców na świecie?",
+    "answers": [
+      "Indie",
+      "Chiny",
+      "Stany Zjednoczone"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "aefe5538-8b82-4150-946e-1e448c7294dd": {
+    "text": "W którym mieście zbudowano Titanica?",
+    "answers": [
+      "Southampton",
+      "Liverpool",
+      "Belfast",
+      "Glasgow"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f24855c8-5dff-43bf-8f9a-b43c20369617": {
+    "text": "Który język ma najwięcej rodzimych użytkowników na świecie?",
+    "answers": [
+      "Angielski",
+      "Hiszpański",
+      "Chiński mandaryński",
+      "Hindi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "074003da-986a-4f39-b69d-edf24fa0e6bd": {
+    "text": "Który słynny kompozytor tworzył muzykę nawet po utracie słuchu?",
+    "answers": [
+      "Mozart",
+      "Bach",
+      "Beethoven",
+      "Chopin"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "445bc232-d72c-441e-8870-db27d398660c": {
+    "text": "Jaka jest najdłuższa rzeka Europy?",
+    "answers": [
+      "Dunaj",
+      "Ren",
+      "Wołga",
+      "Dniepr"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "50e6fa72-58b1-4e43-9ff3-19a6b061b079": {
+    "text": "W którym kraju jest najwięcej starożytnych piramid?",
+    "answers": [
+      "Egipt",
+      "Meksyk",
+      "Sudan",
+      "Peru"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "764b8baf-3e52-4147-805a-5b2db69e761e": {
+    "text": "Które starożytne rzymskie miasto zostało zasypane podczas wybuchu Wezuwiusza w 79 roku n.e.?",
+    "answers": [
+      "Troja",
+      "Kartagina",
+      "Pompeje",
+      "Efez"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "46a1bf16-1ff6-4b35-9344-067efca85bf8": {
+    "text": "Złoty to waluta którego kraju?",
+    "answers": [
+      "Czechy",
+      "Węgry",
+      "Polska",
+      "Rumunia"
+    ],
+    "accepted": [],
+    "flagged": true,
+    "note": "Trivially easy for Polish players (it is their own currency); consider replacing or skipping for pl."
+  },
+  "48c26cda-20cb-499c-a406-b596bdf0fcfe": {
+    "text": "W jakim kraju leży słynny kompleks świątynny Angkor Wat?",
+    "answers": [
+      "Tajlandia",
+      "Wietnam",
+      "Kambodża",
+      "Laos"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "15e2a3be-9cf7-44c7-82c2-73a20cf4e32e": {
+    "text": "Który kraj do 1935 roku nazywano Persją?",
+    "answers": [
+      "Irak",
+      "Iran",
+      "Afganistan",
+      "Syria"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "038f3d47-7343-4fe0-9233-1e1ebe34924c": {
+    "text": "Który kontynent jest najsuchszy na Ziemi?",
+    "answers": [
+      "Afryka",
+      "Australia",
+      "Antarktyda",
+      "Azja"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "25b14b4f-e324-469f-95f9-97764d1e5aba": {
+    "text": "Który słynny malarz odciął sobie kawałek ucha?",
+    "answers": [
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Vincent van Gogh",
+      "Claude Monet"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ad97147d-91f6-4461-950a-037d2e2ba3e5": {
+    "text": "Która cywilizacja zbudowała Machu Picchu?",
+    "answers": [
+      "Majowie",
+      "Aztekowie",
+      "Inkowie",
+      "Olmekowie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9eddd7ce-3b44-4ff8-bd55-f8722f54735a": {
+    "text": "Kto opracował pierwszą skuteczną szczepionkę przeciw polio?",
+    "answers": [
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "Jonas Salk",
+      "Edward Jenner"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "16f5a75d-b234-4cf5-b764-42f88f585fb4": {
+    "text": "W którym roku upadł mur berliński?",
+    "answers": [
+      "1985",
+      "1989",
+      "1991",
+      "1993"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "09b32070-8382-46c5-acab-7febba8d1ec8": {
+    "text": "Która planeta słynie z Wielkiej Czerwonej Plamy, gigantycznej burzy?",
+    "answers": [
+      "Mars",
+      "Saturn",
+      "Jowisz",
+      "Neptun"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "47c54123-8d9b-4b45-a060-a7d644f27b4b": {
+    "text": "Kto napisał powieść „Sto lat samotności”?",
+    "answers": [
+      "Jorge Luis Borges",
+      "Pablo Neruda",
+      "Gabriel García Márquez",
+      "Mario Vargas Llosa"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fa255715-8112-4dbe-9570-2771aa214284": {
+    "text": "Jaka jest najdłuższa kość w ludzkim ciele?",
+    "answers": [
+      "Kość piszczelowa",
+      "Kość udowa",
+      "Kość ramienna",
+      "Kręgosłup"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a411e5d4-9ce4-400d-bc15-c163ec9ebb03": {
+    "text": "Który kraj Afryki ma największą powierzchnię?",
+    "answers": [
+      "Sudan",
+      "DR Konga",
+      "Algieria",
+      "Egipt"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "78ee5f59-8c97-41fa-a626-e8591b8f855d": {
+    "text": "W jakim kraju powstała IKEA?",
+    "answers": [
+      "Dania",
+      "Norwegia",
+      "Szwecja",
+      "Finlandia"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a5474f1a-12e0-4f8f-ba4e-36c55526f4d5": {
+    "text": "Logo której marki samochodów to cztery splecione pierścienie?",
+    "answers": [
+      "BMW",
+      "Audi",
+      "Volkswagen",
+      "Mercedes-Benz"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "316853c7-fe4d-406a-837f-9be36e71791e": {
+    "text": "Z jakiego kraju pochodzi Samsung?",
+    "answers": [
+      "Japonia",
+      "Chiny",
+      "Korea Południowa",
+      "Tajwan"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f6443fb2-9cf5-4361-82ab-69ae23034358": {
+    "text": "Jakiego koloru jest tak naprawdę „czarna skrzynka” w samolocie?",
+    "answers": [
+      "Czarny",
+      "Pomarańczowy",
+      "Czerwony",
+      "Srebrny"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a751f437-62dc-4e3e-8f21-bc7adcf9a725": {
+    "text": "Ile pól jest na szachownicy?",
+    "answers": [
+      "48",
+      "64",
+      "81",
+      "100"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3c7ac84e-460a-420b-bc49-e161bbdfb680": {
+    "text": "Z jakiego kraju pochodzi słynna marka telefonów Nokia?",
+    "answers": [
+      "Szwecja",
+      "Finlandia",
+      "Japonia",
+      "Niemcy"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ce67c01c-6fac-4cc1-83b4-97c6f79d35c3": {
+    "text": "Ile zawsze wynosi suma oczek na przeciwległych ściankach zwykłej kostki do gry?",
+    "answers": [
+      "6",
+      "7",
+      "8",
+      "12"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "23122005-b25f-4c6e-be69-ccd34cfb98bd": {
+    "text": "Ile godzin ma tydzień?",
+    "answers": [
+      "148",
+      "158",
+      "168",
+      "178"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f131e63e-96c1-440a-b031-5c318d8bc323": {
+    "text": "W jakim kraju wymyślono Nutellę?",
+    "answers": [
+      "Francja",
+      "Szwajcaria",
+      "Belgia",
+      "Włochy"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5213fdb8-17ca-4e41-a7c3-2e29888dc910": {
+    "text": "Ile kart ma standardowa talia, nie licząc jokerów?",
+    "answers": [
+      "48",
+      "52",
+      "54",
+      "56"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

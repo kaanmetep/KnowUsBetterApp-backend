@@ -1,0 +1,671 @@
+{
+ "b7ea512f-5675-4ed5-b6ee-e67bf475a40e": {
+  "text": "Welke letter staat op een standaardtoetsenbord tussen de G en de J?",
+  "answers": [
+   "F",
+   "H",
+   "K",
+   "B"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fc9fb6fc-80f1-4d6f-acf9-a97d285e1148": {
+  "text": "Hoelang doet zonlicht er ongeveer over om de aarde te bereiken?",
+  "answers": [
+   "8 seconden",
+   "8 minuten",
+   "8 uur",
+   "8 dagen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f7577fd3-cd79-400b-a94e-b36666958681": {
+  "text": "Hoeveel snaren heeft een standaardgitaar?",
+  "answers": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "de06546b-8966-4a0f-8a03-6e5c4262d6fc": {
+  "text": "Hoeveel dagen heeft februari in een schrikkeljaar?",
+  "answers": [
+   "28",
+   "29",
+   "30",
+   "31"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "19816c87-dfa3-45ff-9bb0-ef7558f119de": {
+  "text": "Van welk orgaan is het hoornvlies een onderdeel?",
+  "answers": [
+   "Oor",
+   "Oog",
+   "Hart",
+   "Huid"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5259ce96-2e3b-458a-9f7c-b637fd887db0": {
+  "text": "Welk metaal zit in de meeste elektriciteitsdraden in huis?",
+  "answers": [],
+  "accepted": [
+   "Koper",
+   "Cu",
+   "Koperdraad",
+   "Kopper",
+   "Copper"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "40cb4e70-a58a-4f05-b31c-d3e3fdb89927": {
+  "text": "Welk gas zorgt voor de bubbels in frisdrank?",
+  "answers": [],
+  "accepted": [
+   "Koolstofdioxide",
+   "Kooldioxide",
+   "CO2",
+   "CO₂",
+   "Koolzuur",
+   "Koolzuurgas",
+   "Koolstof dioxide",
+   "Carbon dioxide"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "268fe19d-11a8-41cc-8d63-fe56498a715a": {
+  "text": "In welk land ligt Dubai?",
+  "answers": [],
+  "accepted": [
+   "Verenigde Arabische Emiraten",
+   "VAE",
+   "V.A.E.",
+   "Arabische Emiraten",
+   "Emiraten",
+   "UAE"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "8df2cfec-7013-48f4-8e0a-1f2cac3d73e2": {
+  "text": "Hoe heet een extreme angst voor spinnen?",
+  "answers": [],
+  "accepted": [
+   "Arachnofobie",
+   "Arachnophobie",
+   "Arachnafobie",
+   "Spinnenfobie",
+   "Arachnophobia"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "bdcca45d-f2ae-441d-a885-a521f51b3ece": {
+  "text": "Welke planeet wordt vaak de “Morgenster” genoemd?",
+  "answers": [],
+  "accepted": [
+   "Venus",
+   "Planeet Venus",
+   "Venüs"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "f766a74f-7af2-4363-870d-632389e2bc90": {
+  "text": "Waar staat “www” voor in een webadres?",
+  "answers": [],
+  "accepted": [
+   "World Wide Web",
+   "World Wideweb",
+   "Worldwide Web",
+   "WorldWide Web",
+   "The World Wide Web"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "4d63a2f7-355d-418a-99f7-288076d7c5ed": {
+  "text": "Welke specerij is per gewicht de duurste ter wereld?",
+  "answers": [],
+  "accepted": [
+   "Saffraan",
+   "Safraan",
+   "Saffran",
+   "Safran",
+   "Saffron"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "a5f1d330-c07c-40b9-a6ed-e6037bf4f4c3": {
+  "text": "Wat is de hoofdstad van Australië?",
+  "answers": [],
+  "accepted": [
+   "Canberra",
+   "Canbera",
+   "Kanberra",
+   "Canberrra",
+   "Canburra"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "ffe9c080-1f5b-4192-bc7b-2b4258c9d0e2": {
+  "text": "Waar staat QR voor in “QR-code”?",
+  "answers": [],
+  "accepted": [
+   "Quick Response",
+   "Quick-Response",
+   "Quickresponse",
+   "Quick Response code"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "c38c6d5a-4784-49a4-8ec9-564ba0912926": {
+  "text": "Wat is de hoofdstad van Canada?",
+  "answers": [],
+  "accepted": [
+   "Ottawa",
+   "Ottowa",
+   "Otawa",
+   "Ottava"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "b9f40b61-c0e9-4172-ab62-a3c1c740f0c9": {
+  "text": "Waar staat GPS voor?",
+  "answers": [],
+  "accepted": [
+   "Global Positioning System",
+   "Global Position System",
+   "Global Positioning"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "e52435ce-d075-4980-b9ac-9dcf9d712df1": {
+  "text": "Van welk metaal is een olympische “gouden” medaille vooral gemaakt?",
+  "answers": [],
+  "accepted": [
+   "Zilver",
+   "Ag",
+   "Sterlingzilver",
+   "Sterling zilver",
+   "Silver"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "d45b83c7-fd0f-4522-b35f-567c66d4f42b": {
+  "text": "Hoe heet het sterrenstelsel waarin we leven?",
+  "answers": [],
+  "accepted": [
+   "Melkweg",
+   "De Melkweg",
+   "Melkwegstelsel",
+   "Melk weg",
+   "Milky Way"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "ec7a91a5-65a4-43e9-baf6-d3bd61ca9817": {
+  "text": "Wat is de chemische formule van keukenzout?",
+  "answers": [],
+  "accepted": [
+   "NaCl",
+   "Natriumchloride",
+   "Nacl",
+   "NACl",
+   "Natrium chloride"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "ae92a4d9-9327-441e-95a0-22a22f1beebb": {
+  "text": "Wat is het kleinste land ter wereld?",
+  "answers": [],
+  "accepted": [
+   "Vaticaanstad",
+   "Vaticaan",
+   "Het Vaticaan",
+   "Heilige Stoel",
+   "Vatikaan",
+   "Vatican"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "47f1968f-3313-44f3-af0c-2a16d6840dcc": {
+  "text": "Wat is de officiële taal van Brazilië?",
+  "answers": [],
+  "accepted": [
+   "Portugees",
+   "Braziliaans-Portugees",
+   "Braziliaans Portugees",
+   "Portugese",
+   "Portuguese"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "a33b8db2-9aed-4a46-9a20-5aeb046044a9": {
+  "text": "Welke dwergplaneet telde tot 2006 als negende planeet?",
+  "answers": [],
+  "accepted": [
+   "Pluto",
+   "Planeet Pluto",
+   "Dwergplaneet Pluto",
+   "Pluton"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "ebe23394-c55a-452c-be4a-2f1c1655ec87": {
+  "text": "Welke rivier stroomt door Londen?",
+  "answers": [],
+  "accepted": [
+   "Theems",
+   "De Theems",
+   "Thames",
+   "Teems",
+   "River Thames"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "e0497815-9994-4bb7-993f-733104d56ff6": {
+  "text": "Hoe heet de Japanse kunst van papiervouwen?",
+  "answers": [],
+  "accepted": [
+   "Origami",
+   "Origamie",
+   "Origame",
+   "Origamii"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "9ad71b86-781c-4956-aa69-66af96050f05": {
+  "text": "Wat is de hoofdstad van Turkije?",
+  "answers": [],
+  "accepted": [
+   "Ankara",
+   "Ankarra",
+   "Ankkara",
+   "Angora"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "ff8385a7-6ae7-49da-9342-e89a326fe6b4": {
+  "text": "Wat is de grootste hete woestijn ter wereld?",
+  "answers": [],
+  "accepted": [
+   "Sahara",
+   "Saharawoestijn",
+   "De Sahara",
+   "Sahara-woestijn",
+   "Sahra"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "3af2ac67-f389-4632-9a31-b214cc29271d": {
+  "text": "Wat is de grootste oceaan op aarde?",
+  "answers": [],
+  "accepted": [
+   "Stille Oceaan",
+   "Grote Oceaan",
+   "Stille Zuidzee",
+   "Pacifische Oceaan",
+   "Stille",
+   "Pacific"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "fa343599-9ecc-4caf-af1a-63e4de335e1f": {
+  "text": "Wie was de eerste mens in de ruimte?",
+  "answers": [],
+  "accepted": [
+   "Joeri Gagarin",
+   "Gagarin",
+   "Yuri Gagarin",
+   "Juri Gagarin",
+   "Joeri Gagarien",
+   "Yury Gagarin"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "8a5538b6-5391-4ca2-9170-66ac0420f280": {
+  "text": "Hoeveel bits zitten er in één byte?",
+  "answers": [],
+  "accepted": [
+   "8",
+   "Acht",
+   "8 bits",
+   "Acht bits",
+   "8 bit"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "d2e6287e-ed49-4e42-be4f-dc35331190df": {
+  "text": "Uit hoeveel holtes bestaat het menselijk hart?",
+  "answers": [
+   "2",
+   "3",
+   "4"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f1f0bbda-e76c-4f6e-81e8-32b84966cab7": {
+  "text": "Welke planeet staat het verst van de zon?",
+  "answers": [
+   "Saturnus",
+   "Uranus",
+   "Neptunus"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e3dfd91a-47bd-46d6-90c8-2e49867eac21": {
+  "text": "Aan welke kant van de weg rijden ze in Japan?",
+  "answers": [
+   "Links",
+   "Rechts",
+   "Verschilt per stad"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9f40989a-0762-40d3-903b-d4dea3240a03": {
+  "text": "Door welke van deze stoffen gaat geluid het snelst?",
+  "answers": [
+   "Lucht",
+   "Water",
+   "Staal"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dff24315-b611-4cfe-8d7f-20be40432141": {
+  "text": "Wat is het eerste element van het periodiek systeem?",
+  "answers": [
+   "Helium",
+   "Waterstof",
+   "Koolstof"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ea6d9d3d-2197-4db4-b60c-62bcb6447bd5": {
+  "text": "Hoeveel graden zijn de hoeken van een driehoek samen?",
+  "answers": [
+   "90",
+   "180",
+   "360"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1572c049-70cc-40f7-a2ca-6961b2ed1349": {
+  "text": "Voor de kust van welk land ligt het Groot Barrièrerif?",
+  "answers": [
+   "Indonesië",
+   "Australië",
+   "Nieuw-Zeeland"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6500a604-8ff9-4f22-9e8f-7ecbba27e495": {
+  "text": "Hoeveel snaren heeft een standaardviool?",
+  "answers": [
+   "4",
+   "5",
+   "6"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9f810db5-4fdb-423e-abf2-3292b8b9edd9": {
+  "text": "Rond welke pool leven pinguïns in het wild?",
+  "answers": [
+   "Noordpool",
+   "Zuidpool",
+   "Beide polen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ac7df825-f26e-45a2-ab65-51db4df6502f": {
+  "text": "Welk van deze landen gebruikt de euro niet?",
+  "answers": [
+   "Spanje",
+   "Italië",
+   "Verenigd Koninkrijk"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9c91cd31-abbe-4fb9-9763-dda7a0f91054": {
+  "text": "Wat meet een lichtjaar?",
+  "answers": [
+   "Tijd",
+   "Afstand",
+   "Snelheid"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "60aeb9a2-e94c-4393-82d8-853cc1806d3e": {
+  "text": "Hoeveel nullen heeft een miljoen?",
+  "answers": [
+   "3",
+   "6",
+   "9"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1ed3a9a8-0ddd-47cf-9fdf-81494802742a": {
+  "text": "Uit welk element bestaat diamant?",
+  "answers": [
+   "IJzer",
+   "Koolstof",
+   "Silicium"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "48ce5e69-8d9b-429c-b688-5df35d7a98f6": {
+  "text": "In welke oceaan ligt de Bermudadriehoek?",
+  "answers": [
+   "Atlantische Oceaan",
+   "Stille Oceaan",
+   "Indische Oceaan"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "121f2786-e448-4d1a-8a19-3224285579fc": {
+  "text": "In welk land werd papier uitgevonden?",
+  "answers": [
+   "Egypte",
+   "China",
+   "Griekenland"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5e59546c-0d39-49e7-89de-59bddc720db9": {
+  "text": "Welk van deze dieren is een zoogdier?",
+  "answers": [
+   "Haai",
+   "Dolfijn",
+   "Krokodil"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fae56cbe-9751-4315-889d-0738a1e46523": {
+  "text": "Hoeveel maanden van het jaar hebben 31 dagen?",
+  "answers": [
+   "5",
+   "7",
+   "8"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c2adfed9-80a9-4017-be0c-fa78e6c60d22": {
+  "text": "In welk land ligt Casablanca?",
+  "answers": [
+   "Spanje",
+   "Marokko",
+   "Algerije"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3040e835-4830-4c50-ba4f-c21e473ca2de": {
+  "text": "Hoeveel sterren staan er op de vlag van de Europese Unie?",
+  "answers": [
+   "12",
+   "15",
+   "27"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fdca625b-e0fb-4cff-a6a1-9fbf87b764a1": {
+  "text": "Welk land is groter qua totale oppervlakte?",
+  "answers": [
+   "Canada",
+   "Verenigde Staten"
+  ],
+  "accepted": [],
+  "flagged": true,
+  "note": "EN says \"by land area\", but by land area alone the US (~9.15M km2) beats Canada (~8.97M km2); NL asks total area so Canada stays correct. Source EN/TR should be fixed."
+ },
+ "da747a22-25c3-40fb-a01a-d6a8b8c9078d": {
+  "text": "Wie heeft meer botten: een baby of een volwassene?",
+  "answers": [
+   "Een baby",
+   "Een volwassene"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "eb0f96be-4bb7-47cb-8149-8802bd503ac5": {
+  "text": "Is glas vloeibaar of vast?",
+  "answers": [
+   "Vloeibaar",
+   "Vast"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "65c04a62-0c2e-4482-922d-d4174cefdb30": {
+  "text": "Wat bereikt je bij onweer als eerste?",
+  "answers": [
+   "Bliksem",
+   "Donder"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f8ffdcfd-cc69-4f84-b259-47b5d33b2203": {
+  "text": "Wat heeft een hogere dichtheid: water of olie?",
+  "answers": [
+   "Water",
+   "Olie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5aef0691-be25-44b1-a148-b2b2bc673aca": {
+  "text": "Welk bedrijf werd eerder opgericht?",
+  "answers": [
+   "Google",
+   "Facebook"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "624f394a-6a99-474b-80ee-a0ecaaf71403": {
+  "text": "Wat is groter qua oppervlakte: Groenland of Afrika?",
+  "answers": [
+   "Groenland",
+   "Afrika"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6fe00fe8-2109-4c1e-beae-07ba77a12da0": {
+  "text": "Welke planeet heeft meer manen: de aarde of Mars?",
+  "answers": [
+   "Aarde",
+   "Mars"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "97985581-9569-4731-b79e-f357f42c3689": {
+  "text": "Wat is botanisch gezien een bes: een banaan of een aardbei?",
+  "answers": [
+   "Banaan",
+   "Aardbei"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

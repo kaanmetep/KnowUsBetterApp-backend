@@ -1,0 +1,72 @@
+{
+  "ad42c59d-bd4b-4f67-963a-f1a1c512f2c9": {
+    "en": "When a disagreement starts, your first instinct is to…",
+    "text": "Gdy zaczyna się kłótnia, twój pierwszy odruch to…",
+    "answers": [
+      "Od razu powiedzieć wszystko",
+      "Zamilknąć i się wycofać",
+      "Załagodzić, choć coś jeszcze mnie gryzie",
+      "Wyjść z pokoju, żeby ochłonąć"
+    ]
+  },
+  "4847cd44-98d1-4533-bb0a-e8b49438e2a6": {
+    "en": "What do you need before a fight can really end for you?",
+    "text": "Czego potrzebujesz, żeby kłótnia naprawdę się dla ciebie skończyła?",
+    "answers": [
+      "Szczerych przeprosin",
+      "Poczucia zrozumienia",
+      "Jasnego rozwiązania",
+      "Najpierw chwili dla siebie",
+      "Fizycznej bliskości"
+    ]
+  },
+  "0a402b2b-06aa-4c65-9534-cd5828e42c46": {
+    "en": "How do you feel about making the first move to make up?",
+    "text": "Pierwszy krok do zgody – jak to u ciebie wygląda?",
+    "answers": [
+      "Zwykle robię go ja i jest okej",
+      "Zwykle robię go ja i zaczyna mnie to męczyć",
+      "Raczej czekam na drugą połówkę",
+      "Przychodzi mi to z trudem, nawet gdy chcę"
+    ]
+  },
+  "d0ec371b-99c3-42e2-86fe-60295e7a3aba": {
+    "en": "After a fight is over, how long does it stay with you?",
+    "text": "Jak długo kłótnia siedzi ci w głowie, gdy już się skończy?",
+    "answers": [
+      "Znika, gdy tylko się pogodzimy",
+      "Kilka godzin",
+      "Dzień lub dwa",
+      "Wraca do mnie później"
+    ]
+  },
+  "375bb36b-b6d9-4321-a8e4-b8fdcd60abcf": {
+    "en": "What escalates a fight fastest for you?",
+    "text": "Co najszybciej nakręca cię w kłótni?",
+    "answers": [
+      "Podniesiony głos lub ostry ton",
+      "Przerywanie mi albo niesłuchanie",
+      "Wyciąganie starych spraw",
+      "Milczenie albo wyjście z pokoju",
+      "Sarkazm albo przewracanie oczami"
+    ]
+  },
+  "6ba99e54-c776-447b-ad7c-830ef561545a": {
+    "en": "What do you hold back to keep the peace?",
+    "text": "Co przemilczasz dla świętego spokoju?",
+    "answers": [
+      "Nic, mówię, co mi przeszkadza",
+      "Drobne irytacje",
+      "Swoje większe potrzeby",
+      "Uwagi o rodzinie lub znajomych drugiej połówki"
+    ]
+  },
+  "0a32a02d-0e74-4f0b-836a-4a5ae6890ab7": {
+    "en": "In a few words: what do you two keep arguing about?",
+    "text": "W kilku słowach: o co ciągle się kłócicie?"
+  },
+  "80d0cd30-bef6-4ec4-aeac-17776ab4b318": {
+    "en": "What does your partner do in arguments that you wish they'd stop?",
+    "text": "Co twoja druga połówka robi w kłótniach, a ty chcesz, żeby przestała?"
+  }
+}

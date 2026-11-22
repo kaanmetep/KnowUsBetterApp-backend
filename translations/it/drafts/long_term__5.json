@@ -1,0 +1,656 @@
+{
+  "61e8d220-0d50-4983-9d45-58c7f73ab1bb": {
+    "text": "Il tuo amore ha iniziato a chiudere le chiamate senza dire «ti amo». Su 10, a quanto scende il suo voto?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a5eb351e-ac14-4d92-936d-cb8b6638100e": {
+    "text": "Il tuo amore ha perso il lavoro e da giorni non esce di casa. Cosa fai?",
+    "answers": [
+      "Aiuti subito a cercare un nuovo lavoro",
+      "Lasci che si riprenda con calma",
+      "Insisti perché esca di casa",
+      "Tiri su il morale con piccole sorprese"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a3fd2913-9478-4548-8a89-01aa2af2444a": {
+    "text": "Il tuo amore è a letto con la febbre e stasera c'è la festa di compleanno del tuo migliore amico. Cosa fai?",
+    "answers": [
+      "Salti la festa e resti a casa insieme",
+      "Fai un salto veloce e torni",
+      "Vai, ma scrivi messaggi tutto il tempo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7094abfc-9802-4319-99be-454ec741410c": {
+    "text": "Il tuo amore è infelice da mesi e non ti dice il perché. Cosa fai?",
+    "answers": [
+      "Insisti finché non parla",
+      "Aspetti che si confidi",
+      "Proponi di andare da un terapeuta",
+      "Chiedi aiuto ai suoi amici più stretti"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8aaf405f-56bb-4c98-9939-137ab11e1be8": {
+    "text": "Il tuo amore deve trasferirsi in un'altra città per lavoro per 6 mesi. Cosa fai?",
+    "answers": [
+      "Vi vedete ogni weekend",
+      "Ti trasferisci anche tu",
+      "Andate avanti a distanza",
+      "Chiedi al tuo amore di non partire"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "de905a3e-0edc-44e7-9e86-c7dc5564a1d3": {
+    "text": "Il tuo amore sta passando un periodo di stress e ti risponde sempre male. Cosa fai?",
+    "answers": [
+      "Lasci correre",
+      "Metti un limite chiaro",
+      "Prendi le distanze finché non passa",
+      "Ne parlate in un momento di calma"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3c595094-97f5-4d24-b08f-83322c9cde8b": {
+    "text": "Il tuo amore ha litigato di brutto con uno dei tuoi amici e vuole che tu chiuda i rapporti. Cosa fai?",
+    "answers": [
+      "Chiudi i rapporti",
+      "Continuate a vedervi di nascosto",
+      "Dici chiaro che continuerete a vedervi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5cf16284-d233-4d68-b5cd-03e5bfe57372": {
+    "text": "Per colpa del tuo amore avete perso l'aereo per le vacanze. Cosa fai?",
+    "answers": [
+      "Ti arrabbi, ma ti passa subito",
+      "Non lo dai a vedere",
+      "Lo rinfacci per molto tempo",
+      "Ci ridi su"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "00ffdc81-1788-48f6-a0d2-bbb694227990": {
+    "text": "Il tuo amore vuole lasciare il posto fisso per mettersi in proprio. Cosa fai?",
+    "answers": [
+      "Sostieni la scelta fino in fondo",
+      "Prima chiedi un piano, poi appoggi l'idea",
+      "Provi a dissuadere il tuo amore"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b8801cb9-755d-4cf9-9c75-1e31d7882f66": {
+    "text": "A tavola, la mamma del tuo amore critica la tua cucina. Cosa fai?",
+    "answers": [
+      "Sorridi e lasci perdere",
+      "Rispondi con gentilezza",
+      "Aspetti che il tuo amore ti difenda"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9144ca3b-9ba6-432d-8fde-06ba516c50c0": {
+    "text": "Il tuo amore sta al telefono con sua madre un'ora al giorno. Cosa ne pensi?",
+    "answers": [
+      "Normalissimo",
+      "Un po' troppo, ma non sono affari miei",
+      "Bisogna parlarne"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ef6eab32-1878-439c-867c-5aa2d8656d56": {
+    "text": "Tua madre è molto fredda con il tuo amore. Cosa fai?",
+    "answers": [
+      "Parli con tua madre",
+      "Chiedi al tuo amore di avere pazienza",
+      "Aspetti che migliori col tempo",
+      "Vai meno spesso dai tuoi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "aab9a69b-21c6-4f1a-91c7-83f56cc39eec": {
+    "text": "Avevate deciso «niente regali quest'anno», ma il tuo amore ti ha fatto un regalo costoso. Cosa fai?",
+    "answers": [
+      "Ti fa un piacere enorme",
+      "Provi imbarazzo",
+      "Il giorno dopo ricambi con un regalo",
+      "Ti dà fastidio che abbia rotto il patto"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "37e84834-ba8c-49a2-97b6-1191c6552042": {
+    "text": "Il regalo che ti ha fatto il tuo amore proprio non ti piace. Cosa fai?",
+    "answers": [
+      "Fingi che ti piaccia tantissimo",
+      "Proponi con tatto di cambiarlo",
+      "Lo dici con sincerità"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cd352866-de22-4f72-9b83-6ccdd5825cd9": {
+    "text": "Si avvicina il vostro anniversario e nessuno ha organizzato niente. Cosa fai?",
+    "answers": [
+      "Organizzi qualcosa all'ultimo minuto",
+      "Aspetti che ci pensi il tuo amore",
+      "Festeggiate a casa, solo voi due",
+      "Va bene anche non festeggiare"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "dd4e91c7-b24c-4483-8ca5-0bf334aed491": {
+    "text": "Il tuo amore ti organizza una festa a sorpresa, ma tu odi le sorprese. Cosa fai?",
+    "answers": [
+      "Te la godi senza far vedere il fastidio",
+      "Fingi entusiasmo, poi ne parli",
+      "Lo dai a vedere lì per lì"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "280552dc-e7e8-4c5b-8682-028899d5fd0e": {
+    "text": "A San Valentino i ristoranti sono pieni e carissimi. Cosa fai?",
+    "answers": [
+      "Uscite lo stesso",
+      "Cucinate a casa",
+      "Festeggiate il giorno prima o dopo",
+      "Non festeggiate San Valentino"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c2165bb4-4fa4-45c4-9b37-069d18ee412f": {
+    "text": "Per l'anniversario, un tuo amico ha ricevuto una sorpresa pazzesca e le sue storie ne sono piene. Cosa fai?",
+    "answers": [
+      "Non ti fa né caldo né freddo",
+      "Provi un pizzico d'invidia",
+      "Lanci un messaggio velato al tuo amore",
+      "Lo mostri al tuo amore: «Ora tocca a noi»"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1201ae23-1c71-4203-a62c-03651040e822": {
+    "text": "Che tipo di regalo di compleanno fai al tuo amore?",
+    "answers": [
+      "Qualcosa che sfora il mio budget",
+      "Qualcosa di utile, a prezzo giusto",
+      "Qualcosa di economico ma significativo",
+      "Qualcosa fatto a mano"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "daa60757-b2eb-4fde-add6-bab68b63940d": {
+    "text": "È il compleanno del tuo amore: vorrebbe festeggiare con gli amici, tu soltanto voi due. Cosa fai?",
+    "answers": [
+      "Festeggiate con gli amici",
+      "Insisti per festeggiare in due",
+      "Prima voi due, poi con gli amici"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "012d5335-8992-4122-81a7-8f20f6e61f1c": {
+    "text": "In vacanza tu vuoi stare a bordo piscina, il tuo amore vuole girare la città. Cosa fai?",
+    "answers": [
+      "Vai a esplorare insieme",
+      "Tu resti, il tuo amore va in giro",
+      "Fate a turno, un giorno per uno",
+      "Convinci il tuo amore a restare in piscina"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0409d66b-4953-4ec5-965a-618f85f375ae": {
+    "text": "Manca una settimana alla vacanza e non c'è nessun piano. Cosa fai?",
+    "answers": [
+      "Organizzi tutto tu",
+      "Lasci fare al tuo amore",
+      "«Vediamo una volta lì»",
+      "Vi sedete e pianificate insieme"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0556bf3a-66c5-4f8a-bef7-7afeed863703": {
+    "text": "In vacanza il tuo amore ti chiede di continuo un servizio fotografico. Cosa fai?",
+    "answers": [
+      "Scatti volentieri",
+      "Ne fai qualcuna, poi basta",
+      "Scatti, ma brontolando",
+      "Regali un bastone per selfie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a5084572-7caa-4df2-b89e-86b53e301f4b": {
+    "text": "Quando scegli l'hotel per le vacanze, cosa preferisci?",
+    "answers": [
+      "Hotel economico, più soldi per girare",
+      "Una via di mezzo",
+      "Hotel di lusso, è pur sempre vacanza"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a18c029b-1fb7-4e38-b075-942bba970ac5": {
+    "text": "In vacanza il tuo amore continua a rispondere alle email di lavoro. Cosa fai?",
+    "answers": [
+      "Capisci, il lavoro è lavoro",
+      "Chiedi di mettere via il telefono",
+      "Ti perdi anche tu nel telefono",
+      "Vi accordate su un'ora al giorno di lavoro"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f1bd216a-1365-46b4-99c9-31e6443032d6": {
+    "text": "Dici: «Che voglia di un'arancia!». Cosa ti aspetti dal tuo amore?",
+    "answers": [
+      "Che me la sbucci e la tagli a spicchi",
+      "Che me la porti, la sbuccio io",
+      "Niente, la prendo da me"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "71e00290-5959-49df-b598-98d5f6a4ec3e": {
+    "text": "Chiedi al tuo amore di dirti un nome di donna o di uomo, e non dice il tuo. Cosa fai?",
+    "answers": [
+      "Ci ridi su",
+      "Fai finta di tenere il muso",
+      "Ci rimani male davvero"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ff0a9654-ef6b-4984-a3ea-8df891dae9b9": {
+    "text": "«Se avesse voluto, l'avrebbe fatto». Sei d'accordo?",
+    "answers": [
+      "Sì, chi vuole trova il modo",
+      "No, a volte davvero non si può"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f97521f5-e091-42dc-ba9e-dde538e4608d": {
+    "text": "Il tuo amore dice che un piatto che adori è «disgustoso». Come ti senti?",
+    "answers": [
+      "Non me ne importa niente",
+      "Vorrei che lo provasse sul serio",
+      "Ci resto un po' male"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d9f822a7-b480-41cb-b9e0-c606b68bfd16": {
+    "text": "Una mattina il tuo amore diventa un verme. Cosa fai?",
+    "answers": [
+      "Un barattolo e amore eterno",
+      "Amore sì, ma le nostre strade si dividono",
+      "Libero il verme in giardino"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "48f856be-c25a-4766-981c-e33f6a605766": {
+    "text": "Come coppia, che duo siete?",
+    "answers": [
+      "Un golden retriever e un gatto nero",
+      "Due golden retriever",
+      "Due gatti neri"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "400b8c47-8966-42dc-ad12-a1b55903828a": {
+    "text": "Condividere la posizione 24 ore su 24...",
+    "answers": [
+      "Mi rassicura",
+      "Inutile, ma non mi dà fastidio",
+      "Mi soffoca"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5adfe009-507d-4cc1-8e49-8c5215ce100d": {
+    "text": "Passare un'intera domenica a letto insieme...",
+    "answers": [
+      "La domenica perfetta",
+      "Bello fino a mezzogiorno",
+      "Una giornata buttata"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b4e988e6-ef45-427d-a487-aa1b343e1253": {
+    "text": "Dormire in camere separate per riposare meglio...",
+    "answers": [
+      "Una soluzione intelligente",
+      "L'inizio della fine"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "08b4096a-d212-4509-889e-c4423a0554af": {
+    "text": "Se morissi, vorresti che il tuo amore si risposasse?",
+    "answers": [
+      "Sì, voglio che sia felice",
+      "Sì, ma dopo qualche anno",
+      "No"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0a9315a5-d764-46ce-89f9-a9f98e9836a4": {
+    "text": "Abbracciarsi mentre si dorme...",
+    "answers": [
+      "Tutta la notte",
+      "Finché non ci addormentiamo",
+      "Mai, ognuno dalla sua parte"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "124b29b3-d2d3-4c27-ae44-007195469854": {
+    "text": "C'è un solo caricabatterie. Il tuo telefono è al 10%, quello del tuo amore al 3%. Cosa fai?",
+    "answers": [
+      "Prima il suo telefono",
+      "Prima il mio",
+      "A turno ogni 15 minuti"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1ab4c8a3-015a-4fa9-a591-cb6c81ce2297": {
+    "text": "Un solo account Spotify per la coppia...",
+    "answers": [
+      "Romantico",
+      "Mi rovina l'algoritmo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9ed20021-d80f-4f8f-8cc6-71087328b9d9": {
+    "text": "Il tuo amore che ti chiama «tesoro» davanti ai tuoi amici...",
+    "answers": [
+      "Che dolce",
+      "Ok, ma meglio a casa",
+      "Che cringe"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d4cf5241-eaf9-43d6-a263-9442c1a5b857": {
+    "text": "Fare sport insieme, in coppia...",
+    "answers": [
+      "Ci avvicina",
+      "Divertente ogni tanto",
+      "Meglio ognuno per conto suo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1599daab-37c5-4052-bebd-b0921c2b10b1": {
+    "text": "Il tuo amore vuole bandire il cibo spazzatura da casa «per la nostra salute». Cosa fai?",
+    "answers": [
+      "Ti unisci subito",
+      "Nascondi la tua scorta segreta",
+      "Non se ne parla"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a57a03b6-72f4-4628-9c11-9d68ed1b2a10": {
+    "text": "Il tuo amore rimanda da mesi la visita dal medico. Cosa fai?",
+    "answers": [
+      "Prenoti tu la visita",
+      "Insisti, ma la scelta è sua",
+      "Sono affari suoi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d4645f3c-69a7-40fb-bd6a-62479129ae69": {
+    "text": "Il nostro animale che dorme nel letto con noi...",
+    "answers": [
+      "Irrinunciabile",
+      "Va bene, ma ai piedi del letto",
+      "Non in camera da letto"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6457f609-4c80-4b62-8708-eaa0dd15685b": {
+    "text": "Il tuo amore porta a casa un gattino randagio senza chiederti niente. Cosa fai?",
+    "answers": [
+      "Trovi subito un nome",
+      "Stanotte resta, poi ne parliamo",
+      "Chiedi di riportare il gattino dov'era"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "84dcc837-d437-43f8-a32c-2c908a01280d": {
+    "text": "Il vostro animale deve operarsi e l'intervento costa un mese di stipendio. Cosa fai?",
+    "answers": [
+      "Paghi senza pensarci due volte",
+      "Paghi a rate, a fatica",
+      "È una spesa troppo alta"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2055e918-d825-4db5-bf33-f8d2b212406b": {
+    "text": "A che età ti piacerebbe andare in pensione?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "89abda44-6324-4d47-a68f-35b99f178055": {
+    "text": "Dove dovremmo invecchiare insieme?",
+    "answers": [
+      "Nel cuore della città",
+      "In un paesino sul mare",
+      "In una casa di campagna con giardino"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0b97884a-8325-43ab-bbf0-12659b04b160": {
+    "text": "Come coppia di settantenni, i nostri weekend li passeremmo...",
+    "answers": [
+      "A badare ai nipotini",
+      "A girare il mondo",
+      "A casa, in tutta calma"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e0a3fc7a-1fcc-4328-9216-a50f1a9c5c4f": {
+    "text": "A che età si dovrebbe dare il primo telefono a un bambino?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "38575eee-4902-4368-9db9-64498f572cfd": {
+    "text": "Al supermercato vostro figlio fa i capricci urlando. Cosa fai?",
+    "answers": [
+      "Aspetti con calma che passi",
+      "Compri quello che vuole",
+      "Lasci che pianga, deve imparare"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "afdb8824-8f0d-4e00-aaf8-39f4d18dcbaf": {
+    "text": "In che scuola dovrebbero andare i nostri figli?",
+    "answers": [
+      "Scuola pubblica",
+      "Scuola privata",
+      "Scuola bilingue"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "01682675-5b57-4c45-b1a7-0672c6e18e01": {
+    "text": "Quante volte al mese dovremmo invitare gente a casa?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d60adf90-40bf-4cd2-8730-519bb5ee1d1e": {
+    "text": "Il tuo amore ha invitato degli amici a cena stasera senza dirti niente. Cosa fai?",
+    "answers": [
+      "Ti metti ai fornelli con piacere",
+      "Stai al gioco, poi ne parlate",
+      "Ti innervosisci sul momento",
+      "Fai altri programmi ed esci"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "863c27e9-810a-4c3b-84bb-dccb057a351a": {
+    "text": "Passare i weekend con altre coppie...",
+    "answers": [
+      "Il massimo del divertimento",
+      "Bello ogni tanto",
+      "Il weekend è solo nostro"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c07892b4-7740-4d98-82aa-2c86690a8807": {
+    "text": "Dove dovremmo passare Capodanno?",
+    "answers": [
+      "Solo noi due",
+      "In famiglia",
+      "A una festa con gli amici"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c51d83be-122c-47f6-acb6-da205865c718": {
+    "text": "Quante volte a settimana è normale ordinare cibo a domicilio?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "baacc08b-68b4-46f9-94df-14525d77c9ef": {
+    "text": "Lo stile della nostra casa dovrebbe essere...",
+    "answers": [
+      "Pulito e minimal",
+      "Accogliente e pieno di cose",
+      "Audace e colorato"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3055e469-8d10-45cb-9328-a630c3531e8f": {
+    "text": "Quando stai male, come vuoi che il tuo amore si prenda cura di te?",
+    "answers": [
+      "Che resti al mio fianco",
+      "Che mi porti un brodo e mi lasci riposare",
+      "Che mi lasci in pace"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "41d947ea-20c7-4c34-91f5-c210259d6bcb": {
+    "text": "Il tuo amore non flirta più con te. Cosa fai?",
+    "answers": [
+      "Fai tu la prima mossa",
+      "Ne parli apertamente",
+      "Lanci qualche segnale velato",
+      "Lo accetti, è l'amore di lunga data"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "73bdd793-c8b6-4007-9ef5-167e6999c39f": {
+    "text": "I telefoni a tavola...",
+    "answers": [
+      "Vietati a tavola",
+      "Sul tavolo, a schermo in giù",
+      "Nessuna regola, va bene così"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

@@ -3,7 +3,7 @@ import OpenAI from "openai";
 import { LANGS, isLang, type Lang } from "../languages.js";
 import type { DailyTopic } from "../types.js";
 import {
-  LANGUAGE_MAP,
+  languageLine,
   type PromptRound,
   isOpenRound,
   isTypedRound,
@@ -461,7 +461,7 @@ YASAK (AI kokan her şey):
 - Ünlem, emoji, Markdown, madde işareti. Soruları olduğu gibi tekrar etmek.
 
 DİĞER:
-- Kullanıcı mesajında belirtilen dilde yaz, çifte direkt hitap et ("siz" / "you" / "ustedes" / "vocês").
+- Kullanıcı mesajında belirtilen dilde yaz, çifte direkt hitap et ("siz" / "you" / "ustedes" / "vocês" / "ihr" / "voi" / "wy" / "vous" / "ふたり" / "jullie").
 - ÖNCEKİ BÖLÜMLER verildiyse ve bugünkü cevaplarla gerçekten bağlantılıysa (aynı örüntü tekrar ediyorsa) bunu bir kez söyle. Bağlantı yoksa hiç değinme.
 
 JSON formatında SADECE şu yapıda cevap ver:
@@ -486,7 +486,7 @@ function buildUserMessage(
   const rounds = row.rounds ?? [];
   const [player1, player2] = row.players ?? [];
 
-  let message = `Language: ${LANGUAGE_MAP[language] || "English"}\n`;
+  let message = languageLine(language);
   message += `Topic: ${topicName(topics, row.topic_id, language)}\n`;
   message += `Chapter: ${row.chapter}\n`;
   message += `Players: ${player1?.name ?? "?"} & ${player2?.name ?? "?"}\n`;
@@ -600,6 +600,30 @@ const READY_PUSH: Record<Lang, { title: string; body: string }> = {
   pt: {
     title: "Sua análise está pronta",
     body: "O capítulo de hoje sobre vocês dois já foi escrito. Toque para ler.",
+  },
+  de: {
+    title: "Eure Analyse ist fertig",
+    body: "Das heutige Kapitel über euch zwei ist geschrieben. Tippe, um es zu lesen.",
+  },
+  it: {
+    title: "La vostra analisi è pronta",
+    body: "Il capitolo di oggi su voi due è stato scritto. Tocca per leggerlo.",
+  },
+  pl: {
+    title: "Wasza analiza jest gotowa",
+    body: "Dzisiejszy rozdział o was jest już napisany. Dotknij, aby go przeczytać.",
+  },
+  fr: {
+    title: "Votre analyse est prête",
+    body: "Le chapitre du jour sur vous deux est écrit. Touchez pour le lire.",
+  },
+  ja: {
+    title: "ふたりの分析ができました",
+    body: "今日のふたりのチャプターが届きました。タップして読んでね。",
+  },
+  nl: {
+    title: "Jullie analyse is klaar",
+    body: "Het hoofdstuk van vandaag over jullie twee is geschreven. Tik om het te lezen.",
   },
 };
 

@@ -1,0 +1,663 @@
+{
+  "e294c59a-bb70-4d8c-9d80-6dbb06a09b36": {
+    "text": "Jakiego dźwięku {{playerName}} najbardziej nie znosi?",
+    "answers": [
+      "Głośne mlaskanie",
+      "Paznokcie po tablicy",
+      "Pociąganie nosem",
+      "Gwizdanie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "19eebdd7-760a-4ea1-ae18-5bf88eb2dafc": {
+    "text": "Czego {{playerName}} najbardziej nie znosi przy pisaniu wiadomości?",
+    "answers": [
+      "Samo „ok”",
+      "Wiadomości głosowe",
+      "Długie czekanie na odpowiedź",
+      "Seria krótkich wiadomości"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "52b4cdec-cd4a-4442-998d-f07cd4081db4": {
+    "text": "Na co {{playerName}} najbardziej narzeka w restauracji?",
+    "answers": [
+      "Wolna obsługa",
+      "Brudny stolik",
+      "Głośna muzyka",
+      "Małe porcje"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5be0c0e8-8892-4a92-9758-2f00fcce2015": {
+    "text": "Jaki bałagan w domu {{playerName}} znosi najgorzej?",
+    "answers": [
+      "Naczynia w zlewie",
+      "Ubrania na podłodze",
+      "Niepościelone łóżko",
+      "Okruchy na stole"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2dd218d8-d3ec-46ee-9285-47f6ed61d659": {
+    "text": "Na co {{playerName}} najszybciej się wkurza na drodze?",
+    "answers": [
+      "Wolni kierowcy",
+      "Trąbienie",
+      "Zajeżdżanie drogi",
+      "Brak kierunkowskazu"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "644b7cf5-7ae6-430a-9220-f3fb43701063": {
+    "text": "Czego {{playerName}} najbardziej nie znosi w kolejce?",
+    "answers": [
+      "Wpychanie się bez kolejki",
+      "Ludzie stojący za blisko",
+      "Powolna obsługa przy kasie",
+      "Płacenie bilonem"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b9f365dd-1aa6-4d48-af88-95d026d024d5": {
+    "text": "Na co {{playerName}} wydaje najwięcej pieniędzy?",
+    "answers": [
+      "Jedzenie i knajpy",
+      "Ubrania",
+      "Elektronika i gadżety",
+      "Podróże"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "be8f4942-1a57-4943-8b5b-8bb89b022314": {
+    "text": "{{playerName}}: najdroższy zakup w życiu?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "50d0db45-ce2c-468e-a3d6-23f0704fc3a4": {
+    "text": "{{playerName}}: gdzie zaczęła się najważniejsza przyjaźń w życiu?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "662aef93-2e41-413c-b62a-b150755f03f5": {
+    "text": "{{playerName}}: od ilu lat trwa najstarsza przyjaźń?",
+    "answers": [
+      "Poniżej 5 lat",
+      "5–10 lat",
+      "10–20 lat",
+      "Ponad 20 lat"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "65d60061-9ab6-4853-9aca-4eab081a4cce": {
+    "text": "{{playerName}}: jak się nazywa główny czat grupowy ze znajomymi?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "197d53a1-83ce-4902-a334-27066158fc78": {
+    "text": "Jak często {{playerName}} widuje się ze znajomymi?",
+    "answers": [
+      "Prawie codziennie",
+      "Co tydzień",
+      "Kilka razy w miesiącu",
+      "Rzadko"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6159136b-df0a-4257-b058-e896fc9de8df": {
+    "text": "Gdzie {{playerName}} zwykle spotyka się ze znajomymi?",
+    "answers": [
+      "U kogoś w domu",
+      "W kawiarni",
+      "W barze",
+      "Na świeżym powietrzu"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a1fcb212-3cc0-4b2d-bd2f-8bda0513e11c": {
+    "text": "{{playerName}}: ile osób liczy główna paczka znajomych?",
+    "answers": [
+      "2–3",
+      "4–5",
+      "6–8",
+      "Ponad 8"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7f03c313-0647-4db6-9922-02b1cd26700f": {
+    "text": "Jak {{playerName}} najczęściej utrzymuje kontakt ze znajomymi?",
+    "answers": [
+      "Pisze wiadomości",
+      "Wysyła głosówki",
+      "Dzwoni",
+      "Wysyła memy i rolki"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c17d4951-9f29-4613-aebc-0dc559fa5a6d": {
+    "text": "{{playerName}}: jaką ma ksywkę wśród znajomych?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "71ef9a47-46d4-4666-8665-3d3a7991768e": {
+    "text": "Jak {{playerName}} zwykle świętuje swoje urodziny?",
+    "answers": [
+      "Wielka impreza",
+      "Kolacja z bliskimi znajomymi",
+      "Spokojny dzień",
+      "Nie świętuje"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "01b87d7a-2853-4e22-8290-2f44cb342e8a": {
+    "text": "W jakim mieście mieszka osoba, z którą {{playerName}} przyjaźni się najbardziej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1abd3aae-173d-497f-bb52-95bd395ab563": {
+    "text": "Na co {{playerName}} teraz oszczędza? Jeśli na nic, nic nie wpisuj.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7bf99537-3613-478d-881c-d35960165b3e": {
+    "text": "Jaki biznes {{playerName}} otworzy, gdy tylko nadarzy się okazja?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e100c90f-796f-4d06-8999-61f07e8e2040": {
+    "text": "Jak często {{playerName}} wrzuca story?",
+    "answers": [
+      "Codziennie",
+      "Kilka razy w tygodniu",
+      "Rzadko",
+      "Nigdy"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2d3caa55-6c03-45e4-ae52-8f4d9aabc5a7": {
+    "text": "Ile kont {{playerName}} obserwuje na Instagramie?",
+    "answers": [
+      "Poniżej 300",
+      "300–700",
+      "700–1500",
+      "Ponad 1500"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a06282e0-ae61-4541-bf4d-24c8336d031e": {
+    "text": "{{playerName}}: co jest na ostatnim poście na Instagramie? Jeśli żadnych nie ma, wpisz „brak”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e2c75092-cf85-48f6-96b7-e8022bda2ae4": {
+    "text": "Czy {{playerName}} potrafi usunąć post, bo ma za mało lajków?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "843b062a-8c76-44f7-99bb-72f4319b57ef": {
+    "text": "Na co {{playerName}} poświęca najwięcej czasu w social mediach?",
+    "answers": [
+      "Oglądanie rolek",
+      "Przeglądanie story",
+      "Pisanie z ludźmi",
+      "Stalkowanie profili"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e32b237d-f1dd-44b2-b30e-36fa9979cd3f": {
+    "text": "Ile obserwujących ma {{playerName}} na Instagramie?",
+    "answers": [
+      "Poniżej 300",
+      "300–700",
+      "700–1500",
+      "Ponad 1500"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ab6fb3d1-3476-436b-af30-74e7d7f96ea6": {
+    "text": "Czy {{playerName}} ma drugie, tajne konto na Instagramie?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c5fbea67-c014-4be3-a141-986603d7784a": {
+    "text": "Kiedy {{playerName}} najczęściej scrolluje social media?",
+    "answers": [
+      "W łóżku przed snem",
+      "Zaraz po przebudzeniu",
+      "W toalecie",
+      "W pracy albo na zajęciach"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d799cefe-4533-4a40-b9fd-0b26b49dced4": {
+    "text": "{{playerName}}: co jest teraz na zdjęciu profilowym na Instagramie?",
+    "answers": [
+      "Zdjęcie solo",
+      "Zdjęcie z kimś",
+      "Coś innego (zwierzak, widok…)",
+      "Brak zdjęcia"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "99140b21-a78b-4823-8931-da81598e0099": {
+    "text": "Z jakiej aplikacji do zamawiania jedzenia {{playerName}} korzysta najczęściej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "99a08b68-a66b-49c5-a1d4-c5ea876ddf1c": {
+    "text": "Jak często {{playerName}} zamawia jedzenie z dostawą?",
+    "answers": [
+      "Prawie codziennie",
+      "Kilka razy w tygodniu",
+      "Kilka razy w miesiącu",
+      "Prawie nigdy"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cfbd02eb-acdd-41f0-a82c-d633cd6ec6f4": {
+    "text": "Kiedy {{playerName}} najczęściej zamawia jedzenie?",
+    "answers": [
+      "Na lunch",
+      "Na kolację",
+      "Po północy",
+      "W weekendowe poranki"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b6c53b84-8968-4576-9582-556d78e1aa08": {
+    "text": "Ile czasu {{playerName}} przegląda aplikację przed zamówieniem?",
+    "answers": [
+      "Zamawia w minutę",
+      "Około 10 minut",
+      "Pół godziny",
+      "Poddaje się i bierze to, co zwykle"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fe6f43a3-1fd6-4b4f-8d95-7aab9b9ab8bb": {
+    "text": "Czy {{playerName}} daje napiwek dostawcy?",
+    "answers": [
+      "Nigdy",
+      "Czasami",
+      "Zawsze trochę",
+      "Zawsze hojnie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "98443ab8-023f-4a17-b4f4-a95567bc476e": {
+    "text": "Co {{playerName}} ogląda przy jedzeniu na wynos?",
+    "answers": [
+      "Serial",
+      "YouTube",
+      "Rolki",
+      "Nic, po prostu je"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fe4758c6-1a3f-4740-a65f-f3f9268b47dc": {
+    "text": "Jak często {{playerName}} zwraca kupione rzeczy?",
+    "answers": [
+      "Nigdy",
+      "Rzadko",
+      "Często",
+      "Prawie wszystko"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "519747f8-ac05-4e2e-bd62-8a11dab0a5b1": {
+    "text": "Jak {{playerName}} ogląda nowy serial?",
+    "answers": [
+      "Pochłania cały w weekend",
+      "Odcinek co wieczór",
+      "Zaczyna i nigdy nie kończy",
+      "Czeka na cały sezon"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "39f5d8f3-514c-4fa3-93d6-add3a148a74c": {
+    "text": "Jak {{playerName}} zwykle słucha muzyki?",
+    "answers": [
+      "Swoje playlisty na losowym",
+      "W kółko te same piosenki",
+      "Całe albumy od początku do końca",
+      "To, co poleci aplikacja"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3ef13a99-6e73-4c3f-ab4c-23ff736d1b22": {
+    "text": "Gdzie {{playerName}} najczęściej słucha muzyki?",
+    "answers": [
+      "W samochodzie",
+      "W słuchawkach w drodze",
+      "Pod prysznicem",
+      "Przy pracy lub nauce"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e24b651e-6331-4162-899d-df89456006b4": {
+    "text": "Jaką piosenkę {{playerName}} wybierze na karaoke?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bbf96cda-756f-454a-b2be-3b11d36b3a67": {
+    "text": "Z jakiej platformy streamingowej {{playerName}} korzysta najczęściej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "07f20cd4-0210-4b95-8df9-d623a0bd0a5c": {
+    "text": "{{playerName}}: film obejrzany najwięcej razy?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c78c11b1-99b4-4da4-a62f-f5c91f4a4f18": {
+    "text": "Do jakiego serialu {{playerName}} zawsze wraca na poprawę humoru?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1292f03a-b50e-440f-adcf-712349e40719": {
+    "text": "Jak {{playerName}} zwykle kupuje ubrania?",
+    "answers": [
+      "Tylko online",
+      "W sklepie, przymierzając wszystko",
+      "Tylko gdy coś się zniszczy",
+      "Ciągle kupuje pod wpływem impulsu"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d9725e20-1b77-4925-822c-a0600200c830": {
+    "text": "Jak {{playerName}} robi zakupy spożywcze?",
+    "answers": [
+      "Z listą i trzyma się jej",
+      "Krąży i bierze, co wpadnie w oko",
+      "Zamawia online",
+      "Zawsze zapomina o najważniejszej rzeczy"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b9664338-39be-4c85-b84c-556d4340b75b": {
+    "text": "Jak długo {{playerName}} trzyma rzeczy w koszyku w sklepie internetowym?",
+    "answers": [
+      "Kupuje od razu",
+      "Kilka dni",
+      "Tygodniami",
+      "Nigdy ich nie kupuje"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bf330b67-2579-4879-9284-e1bb389ddd97": {
+    "text": "Co {{playerName}} robi podczas wielkiej wyprzedaży?",
+    "answers": [
+      "Kupuje nawet niepotrzebne rzeczy",
+      "Bierze tylko to, co i tak było w planach",
+      "Kompletnie to olewa",
+      "Zapełnia koszyk i nic nie kupuje"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f880e846-1a46-4448-b7b8-432d8820bb89": {
+    "text": "Do jakiej kawiarni {{playerName}} chodzi najczęściej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e452eb3a-71ca-491f-908b-d5c948b61374": {
+    "text": "Co {{playerName}} zawsze zamawia w ulubionym fast foodzie?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e6f97bcb-be04-4815-b108-322f1284b685": {
+    "text": "{{playerName}}: jaki kolor ma etui na telefon? Jeśli bez etui, wpisz „brak”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "34493f68-a720-495a-b39a-52d484d3610e": {
+    "text": "Z jakiej aplikacji zakupowej {{playerName}} korzysta najczęściej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "835abc8b-f60f-4b56-9fa3-853e42ad5ffe": {
+    "text": "Z iloma poduszkami {{playerName}} śpi?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e1b8328b-6a31-46d0-bc54-46c41d2ca166": {
+    "text": "Ile kart w przeglądarce {{playerName}} ma zwykle otwartych?",
+    "answers": [
+      "Od 1 do 5",
+      "Od 6 do 20",
+      "Od 21 do 50",
+      "Nie da się policzyć"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9265875a-abaf-454a-9d5d-cf7c21f409e4": {
+    "text": "Ile zdjęć {{playerName}} ma w galerii telefonu?",
+    "answers": [
+      "Poniżej 1000",
+      "1000–5000",
+      "5000–20 000",
+      "Ponad 20 000"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "696b6beb-bb08-43ed-86eb-eb4bd17e515c": {
+    "text": "Ile aplikacji {{playerName}} ma w telefonie?",
+    "answers": [
+      "Poniżej 30",
+      "30–60",
+      "60–100",
+      "Ponad 100"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7afba473-dc61-4be7-b01c-0ca03119939b": {
+    "text": "{{playerName}}: ostatnie połączenie wychodzące – do kogo?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5901193f-1beb-49eb-90ed-1da2b9274c76": {
+    "text": "Czy {{playerName}} używa trybu ciemnego w telefonie?",
+    "answers": [
+      "Zawsze ciemny",
+      "Zawsze jasny",
+      "Automatyczny, zależnie od pory dnia"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "377237c2-590f-4200-a7a5-1e53377d8f42": {
+    "text": "Kiedy {{playerName}} zwykle bierze prysznic?",
+    "answers": [
+      "Rano",
+      "Wieczorem",
+      "Rano i wieczorem, codziennie",
+      "Różnie, bez stałej pory"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9e3e7f73-8945-458a-a0a1-c3657b5d58f6": {
+    "text": "Ile czasu {{playerName}} szykuje się do wyjścia?",
+    "answers": [
+      "Poniżej 10 minut",
+      "10–30 minut",
+      "Od pół godziny do godziny",
+      "Ponad godzinę"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "57230422-8ea9-4e5f-9273-087b5d605ec8": {
+    "text": "Na jakie hobby {{playerName}} poświęca najwięcej czasu?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "dc836b7d-8918-41b2-975b-19f9a43a801d": {
+    "text": "{{playerName}}: ile przeczytanych książek w tym roku? Jeśli żadnej, wpisz 0.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "04f5785b-6dbc-40dd-b7fa-d6850be17248": {
+    "text": "W jaką grę na telefonie {{playerName}} gra ostatnio? Jeśli w żadną, wpisz „brak”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1a62fc00-3404-48f5-860f-c31f4b6121b0": {
+    "text": "Ile razy w tygodniu {{playerName}} ćwiczy?",
+    "answers": [
+      "Wcale",
+      "1–2 razy",
+      "3–4 razy",
+      "5 lub więcej"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b9c19285-78bf-4372-896c-ca131cb93459": {
+    "text": "{{playerName}}: ostatni film obejrzany w kinie?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9d5dec86-f93f-4a8b-b522-75f77e6b759b": {
+    "text": "{{playerName}}: ostatnie samodzielnie ugotowane danie?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9b999915-7237-47f9-a9a6-5d6d8beae33a": {
+    "text": "Gdzie {{playerName}} zwykle ćwiczy?",
+    "answers": [
+      "Na siłowni",
+      "W domu",
+      "Na świeżym powietrzu",
+      "Nie ćwiczy"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

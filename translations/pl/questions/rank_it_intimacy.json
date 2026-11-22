@@ -1,0 +1,432 @@
+{
+  "b4c750af-f8f0-4584-ae71-dfb8801c9aa6": {
+    "en": "Rank these kisses from your favorite to least favorite.",
+    "text": "Ułóż te pocałunki od ulubionego do najmniej lubianego.",
+    "answers": [
+      "W usta",
+      "W szyję",
+      "W czoło"
+    ]
+  },
+  "67cb823d-e3f0-4ac9-8866-d796508abd1f": {
+    "en": "Rank these from what attracts you most to least.",
+    "text": "Ułóż od tego, co najbardziej cię pociąga, do tego, co najmniej.",
+    "answers": [
+      "Pewność siebie",
+      "Poczucie humoru",
+      "Ładny zapach"
+    ]
+  },
+  "a40ede2b-78ff-4724-9449-a45c57461c96": {
+    "en": "Rank these texts from the one you'd most to least love to receive.",
+    "text": "Ułóż te wiadomości od tej, którą najbardziej chcesz dostać, do tej, którą najmniej.",
+    "answers": [
+      "Tęsknię za tobą",
+      "Nie mogę przestać o tobie myśleć",
+      "Wpadnij dziś do mnie"
+    ]
+  },
+  "815a3f98-b4a5-4fd0-9f9b-d700fc77085b": {
+    "en": "Rank these bedroom moods from your favorite to least favorite.",
+    "text": "Ułóż te sypialniane klimaty od ulubionego do najmniej lubianego.",
+    "answers": [
+      "Świece i nastrojowa muzyka",
+      "Spontanicznie i dziko",
+      "Leniwe poranne przytulanie"
+    ]
+  },
+  "b43bd567-b100-45e3-a20c-29efb8bae93c": {
+    "en": "Rank these from the hottest to the least.",
+    "text": "Ułóż od najgorętszego do najmniej gorącego.",
+    "answers": [
+      "Wolny taniec w domu",
+      "Komplement szeptany do ucha",
+      "Spojrzenie z drugiego końca sali"
+    ]
+  },
+  "87e215dc-b11a-4f67-bda3-06ade8bea882": {
+    "en": "Rank these date-night outfits from your favorite to least favorite on your partner.",
+    "text": "Ułóż randkowe stylizacje drugiej połówki od ulubionej do najmniej lubianej.",
+    "answers": [
+      "Wszystko czarne",
+      "Coś na luzie",
+      "Coś eleganckiego"
+    ]
+  },
+  "4525a249-5bf6-42b2-be08-48341df1ba75": {
+    "en": "Rank these from most to least important in the bedroom.",
+    "text": "Ułóż od najważniejszego do najmniej ważnego w sypialni.",
+    "answers": [
+      "Chemia",
+      "Zaufanie",
+      "Bez pośpiechu"
+    ]
+  },
+  "c001fd14-8d0f-4dff-94b1-69e0db438326": {
+    "en": "Rank these from what you'd most to least want to hear.",
+    "text": "Ułóż od tego, co najbardziej chcesz usłyszeć, do tego, co najmniej.",
+    "answers": [
+      "Kocham cię",
+      "Wyglądasz obłędnie",
+      "Jesteś moją dumą"
+    ],
+    "flagged": true,
+    "note": "\"I'm proud of you\" -> \"Jesteś moją dumą\" because \"Jestem z ciebie dumny/dumna\" reveals the speaker's gender."
+  },
+  "f4742bda-b53d-49b1-b191-4150fc278d81": {
+    "en": "Rank these from most to least of a turn-on.",
+    "text": "Ułóż od tego, co najbardziej cię kręci, do tego, co najmniej.",
+    "answers": [
+      "Kontakt wzrokowy",
+      "Dłoń na twojej talii",
+      "Wiadomość późną nocą"
+    ]
+  },
+  "df78beb9-c350-487c-a235-b0518a3bfbfe": {
+    "en": "Rank these morning-after plans from your favorite to least favorite.",
+    "text": "Poranek po wspólnej nocy: ułóż plany od ulubionego do najmniej lubianego.",
+    "answers": [
+      "Zostać w łóżku",
+      "Wyjść na kawę",
+      "Zrobić śniadanie"
+    ]
+  },
+  "41b2c062-252c-4c10-a8bf-e88d710b5ea4": {
+    "en": "Rank these from how you'd most to least like to fall asleep.",
+    "text": "Jak najchętniej zasypiasz? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Z głową na piersi",
+      "Na łyżeczkę",
+      "Trzymając się za ręce"
+    ]
+  },
+  "8eda301d-7c3f-49af-aec2-fc0423901d80": {
+    "en": "Rank these from hottest to least on them.",
+    "text": "Kiedy druga połówka jest najgorętsza? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Prosto spod prysznica",
+      "Zaraz po przebudzeniu",
+      "Elegancko przed wyjściem"
+    ]
+  },
+  "70a62b93-c65f-4d98-a892-86b8a707fc3d": {
+    "en": "Rank these from when you'd most to least want them.",
+    "text": "Kiedy masz największą ochotę na drugą połówkę? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Z samego rana",
+      "Późno w nocy",
+      "Leniwym popołudniem"
+    ]
+  },
+  "75e0cb19-fea2-4494-8adf-0e22931ec893": {
+    "en": "Rank these from where you'd most to least want to be with them right now.",
+    "text": "Gdzie chcesz teraz być z drugą połówką? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "W łóżku",
+      "Na kanapie",
+      "W kuchni"
+    ]
+  },
+  "2ca4f57f-c3f5-47b4-93a7-9c2f1dc169dd": {
+    "en": "Rank these from hottest to least when they're doing it.",
+    "text": "Przy czym druga połówka jest najgorętsza? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Przy gotowaniu",
+      "Za kierownicą",
+      "Przy szykowaniu się"
+    ]
+  },
+  "974a6f9c-093b-4c48-835e-d7b5bac59203": {
+    "en": "Rank these from how you'd most to least want the lights.",
+    "text": "Jakie światło wolisz? Ułóż od ulubionego do najmniej lubianego.",
+    "answers": [
+      "Zgaszone",
+      "Przyciemnione",
+      "Zapalone"
+    ]
+  },
+  "88d7fedc-4d52-4be0-98d2-a75a0d9f53e4": {
+    "en": "Rank these from most to least you'd want in public.",
+    "text": "Na co masz ochotę przy ludziach? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Trzymanie się za ręce",
+      "Pocałunek",
+      "Objęcie ramieniem"
+    ]
+  },
+  "2a5bfd54-ff94-420a-9fcf-512cd8271196": {
+    "en": "Rank these from most to least of a mood killer.",
+    "text": "Ułóż od tego, co najbardziej psuje nastrój, do tego, co najmniej.",
+    "answers": [
+      "Telefon w łóżku",
+      "Skarpetki na nogach",
+      "Gadanie o jutrze"
+    ]
+  },
+  "a3acaf1b-03bc-4d5d-bf4f-ef8f162d0024": {
+    "en": "Rank these from hottest to least on them.",
+    "text": "Co w drugiej połówce jest najgorętsze? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Głos",
+      "Śmiech",
+      "Dłonie"
+    ]
+  },
+  "3940d942-8ee8-4f59-a1b9-ce5291035cb3": {
+    "en": "Rank these from what you'd most to least want in the background when you're close.",
+    "text": "Co najchętniej masz w tle w intymnych chwilach? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Muzyka",
+      "Włączony film",
+      "Cisza"
+    ]
+  },
+  "349e6ac2-ca86-4787-bd63-0fa8d2a01c9c": {
+    "en": "Rank these from the hottest compliment to get to the least.",
+    "text": "Ułóż komplementy od najgorętszego do najmniej gorącego.",
+    "answers": [
+      "Twoje oczy",
+      "Twój chód",
+      "Twój umysł"
+    ]
+  },
+  "c9a2949b-c673-4d84-bb91-2957d6aac12a": {
+    "en": "Rank these from most to least irresistible.",
+    "text": "Czemu najtrudniej się oprzeć? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Długie spojrzenie",
+      "Powolny dotyk",
+      "Nagłe przyciągnięcie"
+    ]
+  },
+  "ebe6f489-3e4f-4e3b-99f3-3457442aaf0f": {
+    "en": "Rank these from most to least dangerous to almost get caught.",
+    "text": "Gdzie najłatwiej o wpadkę? Ułóż od najbardziej do najmniej ryzykownego miejsca.",
+    "answers": [
+      "Winda",
+      "Korytarz",
+      "Parking podziemny",
+      "Balkon"
+    ]
+  },
+  "7c0e85e4-e20f-4634-98c6-2261afc497b4": {
+    "en": "If you only had ten minutes, rank how you'd spend them from most to least.",
+    "text": "Macie tylko dziesięć minut. Na co je przeznaczysz? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Całowanie",
+      "Rozmowa z bliska",
+      "Taniec",
+      "Nicnierobienie"
+    ]
+  },
+  "ebe249a6-680c-486b-9131-11b007a670c7": {
+    "en": "Rank these from what you'd most to least want right after a good night together.",
+    "text": "Na co masz ochotę zaraz po udanej wspólnej nocy? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Zasnąć",
+      "Pogadać",
+      "Coś zjeść",
+      "Dłużej poleżeć w łóżku"
+    ]
+  },
+  "d4fd32e2-7d6a-44a8-91ef-e94c0f2c3451": {
+    "en": "Rank these from the hottest pace to the least.",
+    "text": "Jakie tempo jest najgorętsze? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Powoli",
+      "Figlarnie",
+      "Znienacka",
+      "Po cichu"
+    ]
+  },
+  "3a69e894-7819-490d-8563-a6589076092b": {
+    "en": "Rank these from where you'd most to least want the first kiss of the night.",
+    "text": "Pierwszy pocałunek wieczoru: gdzie najchętniej? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "W kuchni",
+      "Przy drzwiach",
+      "W samochodzie",
+      "W windzie"
+    ]
+  },
+  "e5e17a90-d530-4aa3-80eb-23fb649335b1": {
+    "en": "Rank these from most to least want more of.",
+    "text": "Czego chcesz więcej? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Namiętność",
+      "Czułość",
+      "Napięcie",
+      "Zabawa"
+    ]
+  },
+  "51beda2f-ffb7-40fe-b554-0e183cfd43e4": {
+    "en": "Rank these from most to least want them to make you feel.",
+    "text": "Co najbardziej chcesz czuć przy drugiej połówce? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Że mnie pragnie",
+      "Że mnie potrzebuje",
+      "Że za mną tęskni",
+      "Że mnie wybiera"
+    ]
+  },
+  "ea0ac43f-9b82-4d51-9cf4-78a4cf7545ff": {
+    "en": "Rank these from most to least want between you.",
+    "text": "Czego najbardziej chcesz w waszej relacji? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Żar",
+      "Delikatność",
+      "Humor",
+      "Tajemnica"
+    ]
+  },
+  "b33d9197-1472-4004-8e92-0a9e6890460d": {
+    "en": "Rank these from most to least want from them tonight.",
+    "text": "Czego chcesz dziś od drugiej połówki? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Uwaga",
+      "Przestrzeń",
+      "Dotyk",
+      "Słowa"
+    ]
+  },
+  "e10a78c4-bba9-4cda-93b1-c4906cd97f5a": {
+    "en": "Rank these from when you most to least want it.",
+    "text": "Kiedy masz na to największą ochotę? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Gdy macie dziesięć minut",
+      "Gdy macie całą noc",
+      "Rano",
+      "Gdy już trzeba wychodzić"
+    ]
+  },
+  "44c790a0-ccd4-4040-88ca-534378d9d65d": {
+    "en": "Rank these from most to least tempting when you shouldn't.",
+    "text": "Kiedy najbardziej kusi, choć nie wypada? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Ktoś jest w pokoju obok",
+      "Już się spóźniacie",
+      "Rano trzeba do pracy",
+      "Macie już na sobie ubrania"
+    ]
+  },
+  "48682e7c-5689-4ea0-9fc2-6fc22eba77a8": {
+    "en": "Rank these kisses from favorite to least favorite.",
+    "text": "Ułóż te pocałunki od ulubionego do najmniej lubianego.",
+    "answers": [
+      "Jeden długi",
+      "Mnóstwo krótkich",
+      "Powolny i leniwy",
+      "Przerwa, a potem znowu"
+    ]
+  },
+  "d2b1dc0b-5c63-42eb-a4c4-b21fd01bbe67": {
+    "en": "Rank these from easiest to hardest to give up.",
+    "text": "Z czego najłatwiej zrezygnować? Ułóż od najłatwiejszego do najtrudniejszego.",
+    "answers": [
+      "Całowanie",
+      "Wspólne spanie",
+      "Przytulanie",
+      "Flirciarskie wiadomości"
+    ]
+  },
+  "889aa2d5-2b3b-4387-a97b-73d9cbf8fb71": {
+    "en": "Rank these from most to least you'd miss.",
+    "text": "Za czym w drugiej połówce najbardziej zatęsknisz? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Dłonie",
+      "Głos",
+      "Spojrzenie",
+      "Zapach"
+    ]
+  },
+  "c30176ee-2dbe-4f33-9364-034d99537ea3": {
+    "en": "Rank these from most to least you'd miss in the morning.",
+    "text": "Za czym rano najbardziej zatęsknisz? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Budzenie się obok",
+      "Całus przed wstaniem",
+      "Połówka wciąż śpiąca na tobie",
+      "Kawa do łóżka"
+    ]
+  },
+  "08273933-f45b-493e-bfc0-447e6bde1cf1": {
+    "en": "Rank these from favorite kiss to least favorite.",
+    "text": "Ułóż pocałunki od ulubionego do najmniej lubianego.",
+    "answers": [
+      "Na powitanie",
+      "Na pożegnanie",
+      "Na dobranoc",
+      "W pół słowa"
+    ]
+  },
+  "1c1f83f0-3f05-46bd-9675-126bb7738f0d": {
+    "en": "Rank these from most to least it would kill the mood.",
+    "text": "Co najbardziej zabija nastrój? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Zerkanie na powiadomienie",
+      "Pytanie „Jak mi poszło?”",
+      "Patrzenie na zegarek",
+      "Mówienie do ciebie „mordo”"
+    ]
+  },
+  "daef0884-7dca-444f-97a4-4aa50630566b": {
+    "en": "Rank these touches from favorite to least favorite.",
+    "text": "Ułóż te pieszczoty od ulubionej do najmniej lubianej.",
+    "answers": [
+      "Masaż",
+      "Bawienie się twoimi włosami",
+      "Wodzenie palcami po plecach",
+      "Dłonie na twojej twarzy"
+    ]
+  },
+  "5ac839e1-d41e-4cf9-b357-3bd1eea3730b": {
+    "en": "Rank these from favorite to least favorite place for their hands.",
+    "text": "Gdzie najbardziej lubisz dłonie drugiej połówki? Ułóż od ulubionego do najmniej lubianego.",
+    "answers": [
+      "We włosach",
+      "Na talii",
+      "Na twarzy",
+      "Na karku"
+    ]
+  },
+  "3e9f0724-74ca-4238-9f3d-e0c45b56d001": {
+    "en": "Rank these from favorite to least favorite place for a kiss.",
+    "text": "Ułóż miejsca na pocałunek od ulubionego do najmniej lubianego.",
+    "answers": [
+      "Linia szczęki",
+      "Obojczyk",
+      "Za uchem",
+      "Ramię"
+    ]
+  },
+  "ed8201c6-39a1-437c-b23b-3bf03afac54b": {
+    "en": "Rank these from favorite to least favorite they could be wearing.",
+    "text": "W czym najbardziej lubisz widzieć drugą połówkę? Ułóż od ulubionego do najmniej lubianego.",
+    "answers": [
+      "W twojej bluzie",
+      "Prawie w niczym",
+      "W ciuchach z wyjścia",
+      "W samym ręczniku"
+    ]
+  },
+  "0fc286a5-79f8-4651-ae16-bb8cb61d4132": {
+    "en": "Rank these from favorite to least favorite to do in the dark.",
+    "text": "Co najbardziej lubisz robić po ciemku? Ułóż od ulubionego do najmniej lubianego.",
+    "answers": [
+      "Całować się",
+      "Rozmawiać",
+      "Śmiać się",
+      "Milczeć"
+    ]
+  },
+  "da02165a-765e-4918-ab60-2f16cd2f6e28": {
+    "en": "Rank these from most to least you want them never to stop.",
+    "text": "Czego druga połówka ma nigdy nie przestawać robić? Ułóż od najbardziej do najmniej.",
+    "answers": [
+      "Całować",
+      "Patrzeć",
+      "Mówić",
+      "Dotykać"
+    ]
+  }
+}

@@ -1,0 +1,1255 @@
+{
+  "a76a2d11-aeaa-4ea4-91fe-2bfc67c9b4ee": {
+    "en": "Have you ever kept a secret from a close friend?",
+    "text": "Hattest du schon mal ein Geheimnis vor engen Freunden?"
+  },
+  "a2574b99-8b8b-4f57-a394-6af757de58fc": {
+    "en": "Have you ever ended a friendship without explaining why?",
+    "text": "Hast du schon mal eine Freundschaft beendet, ohne zu sagen, warum?"
+  },
+  "4c272380-343e-41d5-a398-4c4fcc2393a4": {
+    "en": "Have you ever regretted trusting someone too quickly?",
+    "text": "Hast du es schon mal bereut, jemandem zu schnell vertraut zu haben?"
+  },
+  "3fce436d-bf31-4be9-8add-95f13c0fcdac": {
+    "en": "Have you ever felt jealous of a friend's success?",
+    "text": "Warst du schon mal neidisch auf den Erfolg von Freunden?"
+  },
+  "9c806b2a-139b-4619-a67e-4409da20bcc9": {
+    "en": "Have you ever apologized even though you didn’t think you were wrong?",
+    "text": "Hast du dich schon mal entschuldigt, obwohl du dich im Recht gefühlt hast?"
+  },
+  "0dbafd24-b1dd-4ecd-b1e2-88f673a60613": {
+    "en": "Have you ever trusted someone who didn’t deserve it?",
+    "text": "Hast du schon mal jemandem vertraut, der es nicht verdient hatte?"
+  },
+  "2924f8e7-4561-47d2-8135-81cf04ebe967": {
+    "en": "Have you ever ignored a message from a friend on purpose?",
+    "text": "Hast du schon mal absichtlich Nachrichten von Freunden ignoriert?"
+  },
+  "9741b4d7-889c-4894-b559-c3f66ce2d8c0": {
+    "en": "Have you ever shared something private with the wrong person?",
+    "text": "Hast du schon mal etwas Privates der falschen Person erzählt?"
+  },
+  "4486c9a6-d2b2-4540-8644-03cd4ef2e13a": {
+    "en": "Have you ever chosen your friend over your partner?",
+    "text": "Hast du dich schon mal für Freunde und gegen deinen Schatz entschieden?"
+  },
+  "479b8431-53a3-462f-9785-3d70008bbd20": {
+    "en": "Would you stay friends with an ex-partner?",
+    "text": "Würdest du mit deinem Ex befreundet bleiben?"
+  },
+  "f1152066-83ba-4c0c-a1f0-093b14c8b069": {
+    "en": "Do you believe you know yourself completely?",
+    "text": "Glaubst du, dass du dich selbst komplett kennst?"
+  },
+  "9ef4e846-52f9-4144-a18f-cedffa321545": {
+    "en": "Have you ever ended a friendship because your lifestyles were too different?",
+    "text": "Hast du schon mal eine Freundschaft beendet, weil eure Lebensstile zu verschieden waren?"
+  },
+  "48f95dce-4d8a-4fbb-9150-baba0bf7376a": {
+    "en": "Do you believe that friendships can last forever?",
+    "text": "Glaubst du, dass Freundschaften ewig halten können?"
+  },
+  "b9a730b9-929e-45c8-9108-f0836b286438": {
+    "en": "Have you ever felt like you were giving more effort than your friend?",
+    "text": "Hattest du schon mal das Gefühl, mehr in eine Freundschaft zu investieren als die andere Seite?"
+  },
+  "94981afe-79fa-4085-b6a2-cd42c7ac5800": {
+    "en": "Have you ever reconnected with a friend after a long time apart?",
+    "text": "Hast du schon mal nach langer Zeit wieder Kontakt zu alten Freunden aufgenommen?"
+  },
+  "3b2f524c-98cf-4ac0-9dfe-f822ee4c1fcc": {
+    "en": "Would you message an old friend to make peace?",
+    "text": "Würdest du dich bei alten Freunden melden, um dich zu versöhnen?"
+  },
+  "dc5dc001-691c-47f8-9cc2-0518e6e920d8": {
+    "en": "Do you think the person you are today is who you truly wanted to become?",
+    "text": "Glaubst du, dass du heute die Person bist, die du wirklich werden wolltest?"
+  },
+  "604a53b7-0d5d-4881-acb1-ef4c66be7893": {
+    "en": "Would you marry a friend if you reach 30 and find no one?",
+    "text": "Würdest du jemanden aus deinem Freundeskreis heiraten, wenn du mit 30 noch niemanden gefunden hast?"
+  },
+  "a32f5825-7334-4307-831f-c4bb0c024527": {
+    "en": "Would you get involved in your friend's relationship decisions?",
+    "text": "Würdest du dich in die Beziehungsentscheidungen deiner Freunde einmischen?"
+  },
+  "fb251482-1fac-46cf-bf85-b3d27110335f": {
+    "en": "Would you want your friend to interfere in your relationship?",
+    "text": "Möchtest du, dass sich Freunde in deine Beziehung einmischen?"
+  },
+  "6036b346-3ea2-4404-a7e1-7c30a0ec22c0": {
+    "en": "Do you believe that men and women can be just friends?",
+    "text": "Glaubst du, dass Männer und Frauen einfach nur befreundet sein können?"
+  },
+  "bd04cdb5-6343-4875-980f-c340449f6b57": {
+    "en": "Have you ever had an opposite-sex friend you stayed close with for a long time?",
+    "text": "Hattest du schon mal eine lange, enge Freundschaft mit jemandem vom anderen Geschlecht?"
+  },
+  "db880921-8caf-4a1d-8391-e7aeb26d5dc7": {
+    "en": "If you do not like your friend's partner, would you tell them?",
+    "text": "Würdest du es Freunden sagen, wenn du ihre bessere Hälfte nicht magst?"
+  },
+  "e5ef89d4-f7f5-4c0e-9bf5-ea3e13031a8c": {
+    "en": "If your friend dates someone you dislike, would you end the friendship?",
+    "text": "Würdest du eine Freundschaft beenden, wenn die Person mit jemandem zusammenkommt, den du nicht magst?"
+  },
+  "e0d04d04-aa00-4c84-bcfb-881361a82be5": {
+    "en": "Do you believe long-term friendships are possible?",
+    "text": "Glaubst du, dass Freundschaften ein Leben lang halten können?"
+  },
+  "d0639d2c-258d-4d36-832b-842e6b52ee4c": {
+    "en": "Do you have friends you stay close to even without regular contact?",
+    "text": "Gibt es Menschen, mit denen du eng befreundet bleibst, auch wenn ihr kaum Kontakt habt?"
+  },
+  "a3ddb95a-24aa-4a29-949f-79889f10ddcc": {
+    "en": "Would you get annoyed if your friend keeps you waiting?",
+    "text": "Nervt es dich, wenn Freunde dich warten lassen?"
+  },
+  "5d796767-8cc5-431b-b5ad-b3a6f33f64cf": {
+    "en": "If your partner asked you to stop talking to a friend, would you do it?",
+    "text": "Wenn dein Schatz dich bitten würde, den Kontakt zu einer befreundeten Person abzubrechen, würdest du es tun?"
+  },
+  "e6e52f89-0870-4970-9f5a-b5b4741216b0": {
+    "en": "Do you maintain good relationships with friends from different countries?",
+    "text": "Hältst du guten Kontakt zu Freunden aus anderen Ländern?"
+  },
+  "3102138c-c867-425a-98fd-d9c35cac8a9b": {
+    "en": "Would you continue a friendship with people whose views you disagree with?",
+    "text": "Würdest du mit Menschen befreundet bleiben, deren Ansichten du nicht teilst?"
+  },
+  "3403d85a-a7ae-4759-b627-46cb7e2287d4": {
+    "en": "Have you ever been betrayed by a friend?",
+    "text": "Hat dich schon mal jemand aus deinem Freundeskreis verraten?"
+  },
+  "0588bdf0-7b25-4c73-92a6-00fe19080183": {
+    "en": "Have you ever betrayed a friend?",
+    "text": "Hast du schon mal jemanden aus deinem Freundeskreis verraten?"
+  },
+  "9f61963e-ef73-4d2a-a108-8788c781c036": {
+    "en": "Would you ask your friends to return money you lent them?",
+    "text": "Würdest du von Freunden Geld zurückfordern, das du ihnen geliehen hast?"
+  },
+  "a3d59d54-8850-46e2-9bb2-1125148aebcf": {
+    "en": "Would it bother you if a friend asked you to return money they lent you?",
+    "text": "Würde es dich stören, wenn Freunde das Geld zurückwollten, das sie dir geliehen haben?"
+  },
+  "6746bd67-c0ef-46aa-a2c3-dfab5234341f": {
+    "en": "Do you pay back your friends on time?",
+    "text": "Zahlst du Freunden geliehenes Geld pünktlich zurück?"
+  },
+  "a5404a83-2a72-4b9c-aca7-0c5e6cc77fc2": {
+    "en": "Do you get along well with your friend's families?",
+    "text": "Verstehst du dich gut mit den Familien deiner Freunde?"
+  },
+  "0667992f-49f5-42f3-bcd4-cc5626feea01": {
+    "en": "Would you introduce your friends to your family?",
+    "text": "Würdest du deine Freunde deiner Familie vorstellen?"
+  },
+  "aae21c2f-9de5-4456-adc1-eba72108ef9b": {
+    "en": "Would you introduce your friend to your partner?",
+    "text": "Würdest du deine Freunde deinem Schatz vorstellen?"
+  },
+  "5341cb61-0a8e-4848-b2a5-32f8b43656f4": {
+    "en": "Do you like your friend's Instagram stories?",
+    "text": "Likest du die Instagram-Storys deiner Freunde?"
+  },
+  "a8afd3b9-7b97-4874-83ee-06aa92b6cf35": {
+    "en": "Do you believe that a person can change their destiny with the choices they make?",
+    "text": "Glaubst du, dass man sein Schicksal durch die eigenen Entscheidungen ändern kann?"
+  },
+  "6e0ab277-84ad-4dad-9719-677b7e583d65": {
+    "en": "Do you have a close friends list or a private account on social media?",
+    "text": "Hast du auf Social Media eine „Enge Freunde“-Liste oder einen privaten Account?"
+  },
+  "866cc351-c73d-44e8-a94e-26f20ca6375e": {
+    "en": "Do you believe that even your closest friends might secretly envy your success?",
+    "text": "Glaubst du, dass selbst deine engsten Freunde heimlich neidisch auf deinen Erfolg sein könnten?"
+  },
+  "ff350837-4cca-4972-9f75-3a7d85e1d892": {
+    "en": "Would you let a friend use your car?",
+    "text": "Würdest du Freunden dein Auto leihen?"
+  },
+  "490bbcc4-3454-4d35-879e-13652017c4bc": {
+    "en": "Do you constantly question your purpose in this world?",
+    "text": "Fragst du dich ständig, wozu du auf dieser Welt bist?"
+  },
+  "36cd5f8d-45cf-451d-bd2f-bd912e1e1f87": {
+    "en": "Would you share your room with a friend?",
+    "text": "Würdest du dir mit Freunden ein Zimmer teilen?"
+  },
+  "e65ed24a-9d70-4bb5-a43d-e2a6b09ca93c": {
+    "en": "Would you eat from the same plate as your friend?",
+    "text": "Würdest du mit Freunden vom selben Teller essen?"
+  },
+  "fb0c893c-1702-43a5-919e-990fe5850e4b": {
+    "en": "Do you like giving relationship advice to your friends?",
+    "text": "Gibst du Freunden gern Beziehungstipps?"
+  },
+  "a85cccb3-3565-47d8-b01e-c4994dbc738b": {
+    "en": "Do you like gossiping with your friends?",
+    "text": "Tratschst du gern mit deinen Freunden?"
+  },
+  "60a273fa-a707-4ff2-af68-3eaa00bcb00a": {
+    "en": "If your sweatshirt stayed with a friend, would you want it back?",
+    "text": "Wenn dein Pulli bei Freunden liegen bleibt, willst du ihn dann zurück?"
+  },
+  "2a7b5e54-a35c-4222-94db-5604ef6ff521": {
+    "en": "Do you think friends should lend money to each other when asked?",
+    "text": "Findest du, Freunde sollten sich gegenseitig Geld leihen, wenn jemand fragt?"
+  },
+  "d14dc487-ef43-4f80-934d-3da11c4645bd": {
+    "en": "If two people in your group of three stopped talking, would you take sides?",
+    "text": "Wenn in deiner Dreierclique zwei nicht mehr miteinander reden, würdest du dich auf eine Seite stellen?"
+  },
+  "358ce8a0-4d0f-4e4a-a9ab-4d17bce190dc": {
+    "en": "If your friend became homeless, would you let them stay in your house for a year?",
+    "text": "Wenn jemand aus deinem Freundeskreis obdachlos würde, würdest du die Person ein Jahr bei dir wohnen lassen?"
+  },
+  "f5016fd4-e85a-4f44-a6e7-3480dfc318e2": {
+    "en": "If your friend had bad habits, would you continue your friendship?",
+    "text": "Würdest du mit jemandem befreundet bleiben, der schlechte Angewohnheiten hat?"
+  },
+  "d09f45b0-b833-4273-9dc6-837da0408b6b": {
+    "en": "Is your friend's religious belief important to you?",
+    "text": "Ist dir wichtig, woran deine Freunde glauben?"
+  },
+  "70eabbeb-a65f-4616-afbc-84cf134c985a": {
+    "en": "Would you date your friend's ex if they had feelings for you?",
+    "text": "Würdest du mit dem Ex von Freunden zusammenkommen, wenn die Person auf dich steht?"
+  },
+  "f06c0817-7f8d-48c4-9214-b515e112a31d": {
+    "en": "Would you date someone with a very different music taste?",
+    "text": "Würdest du mit jemandem zusammenkommen, der einen ganz anderen Musikgeschmack hat?"
+  },
+  "bd3487cc-2911-4c0d-b46f-5fd2bc55332d": {
+    "en": "Do you swear often?",
+    "text": "Fluchst du oft?"
+  },
+  "f7b39a40-cab5-4bac-8dc1-e50a12e37459": {
+    "en": "If someone offered you 1 million dollars to date your friend, would you accept?",
+    "text": "Würdest du für 1 Million Euro mit jemandem aus deinem Freundeskreis zusammenkommen?",
+    "note": "Localized 1 million dollars to 1 million euros."
+  },
+  "b8699a10-76fe-421a-898d-0d6c91a4392f": {
+    "en": "Do you have a friendship that has lasted more than 10 years?",
+    "text": "Hast du eine Freundschaft, die schon länger als 10 Jahre hält?"
+  },
+  "e6297b54-f961-4c0b-892f-bc95baceb49e": {
+    "en": "Do you often hide your true feelings to keep the peace?",
+    "text": "Verschweigst du oft deine wahren Gefühle, um den Frieden zu wahren?"
+  },
+  "44e89723-382d-4e81-a4ce-a775b0f88494": {
+    "en": "Has a close friend ever had a crush on you?",
+    "text": "War schon mal jemand aus deinem engen Freundeskreis in dich verknallt?"
+  },
+  "4af94076-243b-4c2d-a36d-0438a980fdf1": {
+    "en": "Have you ever friendzoned someone?",
+    "text": "Hast du schon mal jemanden in die Friendzone gesteckt?"
+  },
+  "f1c49c55-a070-4de9-88b0-8f36313a97a1": {
+    "en": "Have you ever been friendzoned?",
+    "text": "Bist du schon mal in der Friendzone gelandet?"
+  },
+  "34efefdf-7c84-442c-a5a3-38133fa0948e": {
+    "en": "If a lie makes everyone happy and hurts nobody, does it become moral?",
+    "text": "Wenn eine Lüge alle glücklich macht und niemandem schadet, ist sie dann moralisch okay?"
+  },
+  "f35c52a4-f28b-4d39-94a9-291aba678b56": {
+    "en": "Do you hide how much money you have from your friends?",
+    "text": "Verheimlichst du vor Freunden, wie viel Geld du hast?"
+  },
+  "29f055a2-8038-41d1-b238-e05e99378afb": {
+    "en": "Do you think suffering is necessary for profound personal growth?",
+    "text": "Glaubst du, dass Leid nötig ist, um als Mensch wirklich zu wachsen?"
+  },
+  "d3cdfbea-f97c-4e33-9968-8034077edcca": {
+    "en": "Do you enjoy talking politics with friends?",
+    "text": "Redest du gern mit Freunden über Politik?"
+  },
+  "159acfa6-597d-472d-bcb3-d987da64dea8": {
+    "en": "Would you cut ties with a friend who committed a non-violent crime?",
+    "text": "Würdest du mit jemandem aus deinem Freundeskreis brechen, der eine Straftat ohne Gewalt begangen hat?"
+  },
+  "f0172f90-003d-4c7f-8771-04ec7e4f490d": {
+    "en": "Would it bother you if your partner were more successful than you at work?",
+    "text": "Würde es dich stören, wenn dein Schatz beruflich erfolgreicher wäre als du?"
+  },
+  "7956d371-c089-4a04-a387-6ff8f68b5866": {
+    "en": "If you could know the exact day you will die, would you choose to know?",
+    "text": "Wenn du deinen genauen Todestag erfahren könntest, würdest du ihn wissen wollen?"
+  },
+  "efa81feb-3048-40c9-b743-e0413c82fa99": {
+    "en": "Would you hate someone just because your best friend hates them?",
+    "text": "Würdest du jemanden hassen, nur weil dein Lieblingsmensch das tut?"
+  },
+  "188b4c0d-b8d9-4f31-b01e-8ba90565c27e": {
+    "en": "Would you choose to live forever if it meant watching everyone you love die?",
+    "text": "Würdest du ewig leben wollen, wenn du dafür alle sterben sehen müsstest, die du liebst?"
+  },
+  "e1289513-98a5-4528-a112-ee6aae47fd77": {
+    "en": "Would you be suspicious of someone who gets along well with everyone?",
+    "text": "Wärst du jemandem gegenüber misstrauisch, der sich mit allen gut versteht?"
+  },
+  "1a3fa76f-851d-4401-a4a8-789dcf598d3c": {
+    "en": "Have you ever had a period when you were very flirty?",
+    "text": "Hattest du mal eine Phase, in der du sehr viel geflirtet hast?"
+  },
+  "1fc8abbf-0128-4618-b81d-2b76f09bf03a": {
+    "en": "If your friends don't like your partner, would it make you lose interest in them?",
+    "text": "Wenn deine Freunde deinen Schatz nicht mögen, würdest du dann das Interesse verlieren?"
+  },
+  "c2ebf044-0c54-4059-b541-f3714baf47d8": {
+    "en": "Are you currently attracted to a friend in a way that's more than just friendship?",
+    "text": "Fühlst du dich gerade zu jemandem aus deinem Freundeskreis mehr als nur freundschaftlich hingezogen?"
+  },
+  "f0f56623-ce68-4bea-b65e-f5622ebe270d": {
+    "en": "Do you think long-term friends can become romantic partners later?",
+    "text": "Glaubst du, dass aus einer langen Freundschaft später Liebe werden kann?"
+  },
+  "460a428d-36bd-4f1a-b14b-0381b0822d60": {
+    "en": "What drives human behavior more?",
+    "text": "Was treibt Menschen mehr an?",
+    "answers": [
+      "Angst vor Schmerz",
+      "Lust auf Genuss"
+    ]
+  },
+  "6a4f5fd8-c46c-4f5f-ac95-578a22429850": {
+    "en": "If your friend were romantically attracted to you, would you give them a chance?",
+    "text": "Wenn sich jemand aus deinem Freundeskreis in dich verlieben würde, würdest du der Person eine Chance geben?"
+  },
+  "d3fdeab4-014d-4d6f-889c-4f57f67b5f4f": {
+    "en": "Would you live in the same house with a friend of the opposite sex while having a partner?",
+    "text": "Würdest du mit einer befreundeten Person des anderen Geschlechts zusammenwohnen, obwohl du vergeben bist?"
+  },
+  "c967305f-6cc1-4697-a3d7-e69d67c253d3": {
+    "en": "If you were attracted to a friend, would you hide it to avoid damaging your friendship?",
+    "text": "Wenn du dich in jemanden aus deinem Freundeskreis verguckst, würdest du es verheimlichen, um die Freundschaft nicht zu gefährden?"
+  },
+  "6f319932-cbc0-4efc-ac99-17a2e8db1022": {
+    "en": "Do you get jealous of your friend's partners?",
+    "text": "Bist du eifersüchtig, wenn deine Freunde jemanden daten?"
+  },
+  "1539ca94-1bf7-4737-a2e7-0888edc17875": {
+    "en": "Does it bother you if your friend has closer friends than you?",
+    "text": "Stört es dich, wenn jemand aus deinem Freundeskreis engere Freunde hat als dich?"
+  },
+  "af046054-1900-4f56-acc3-3ce73fae637d": {
+    "en": "Would it feel strange if your friend found you attractive?",
+    "text": "Wäre es komisch für dich, wenn dich jemand aus deinem Freundeskreis attraktiv fände?"
+  },
+  "560aae7c-660a-48c7-a995-16082b7a329c": {
+    "en": "Would you stop talking to a friend who finds you attractive if your partner asked you to?",
+    "text": "Würdest du den Kontakt zu einer befreundeten Person abbrechen, die dich attraktiv findet, wenn dein Schatz dich darum bittet?"
+  },
+  "85f1d55b-0ab2-477b-bc89-8f1079b657df": {
+    "en": "If your best friend and partner met without telling you, would you get jealous?",
+    "text": "Wenn sich dein Schatz heimlich mit der Person trifft, die dir im Freundeskreis am nächsten steht – wärst du eifersüchtig?",
+    "flagged": true,
+    "note": "'best friend' rendered as 'the person closest to you among your friends' to avoid bester Freund/beste Freundin; a bit long."
+  },
+  "d3f796b9-46b0-4ea6-af2e-79f8db92e1b4": {
+    "en": "Would you be friends with someone who constantly talks about their partner?",
+    "text": "Würdest du dich mit jemandem anfreunden, der ständig von der eigenen Beziehung erzählt?"
+  },
+  "c19c811e-bdd4-431c-9ae2-fe158cd5ce51": {
+    "en": "Would you be friends with someone who constantly talks about their problems?",
+    "text": "Würdest du dich mit jemandem anfreunden, der ständig über die eigenen Probleme redet?"
+  },
+  "d9392be9-5bf4-4290-83cc-bb71d5a0ea2f": {
+    "en": "Would you try to separate your friend from a toxic relationship?",
+    "text": "Würdest du versuchen, jemanden aus deinem Freundeskreis aus einer toxischen Beziehung zu holen?"
+  },
+  "f6e1d589-f406-413a-84e1-4d10b010efa2": {
+    "en": "Would you compliment a bad outfit just to make your friend happy?",
+    "text": "Würdest du ein hässliches Outfit loben, nur damit sich jemand aus deinem Freundeskreis freut?"
+  },
+  "36a8a92f-d12b-4cde-b020-95c045851054": {
+    "en": "Would you be upset if not added to your best friend's Close Friends list?",
+    "text": "Wärst du sauer, wenn du nicht auf der „Enge Freunde“-Liste deines Lieblingsmenschen stehst?"
+  },
+  "cd28855b-6bbc-4754-bf67-925fafc08e08": {
+    "en": "Would you go somewhere you don't want to, just so your friend isn't alone?",
+    "text": "Würdest du irgendwo mitgehen, obwohl du keine Lust hast, nur damit jemand aus deinem Freundeskreis nicht allein ist?"
+  },
+  "30180f6d-9944-4221-8ee1-b6a426b20c14": {
+    "en": "Would you go on a double date with someone you don't like just for your friend?",
+    "text": "Würdest du jemandem aus deinem Freundeskreis zuliebe auf ein Doppeldate mit einer Person gehen, die du nicht magst?"
+  },
+  "ae0d1125-a621-4872-9096-7e1c73f8195a": {
+    "en": "Would you listen to your best friend's 30-minute voice message?",
+    "text": "Würdest du dir eine 30-minütige Sprachnachricht von deinem Lieblingsmenschen komplett anhören?"
+  },
+  "544d795e-cf98-43ae-8031-965c2fbb83ef": {
+    "en": "If you saw your friend's cheating partner on the street, would you greet them?",
+    "text": "Wenn du die Person, die jemanden aus deinem Freundeskreis betrogen hat, auf der Straße siehst – würdest du Hallo sagen?"
+  },
+  "dbed90fb-08d1-454d-a7c8-53e94c8dfae2": {
+    "en": "If both you and your friend liked the same person, would you be the one to step back?",
+    "text": "Wenn du und eine befreundete Person auf denselben Menschen steht – würdest du zurückstecken?"
+  },
+  "e01fa88f-9bf7-4a07-b915-156123bf6854": {
+    "en": "Do you consider yourself successful and skilled at confessing to someone you like?",
+    "text": "Findest du, dass du gut darin bist, jemandem deine Gefühle zu gestehen?"
+  },
+  "70ec9505-e1b3-41af-806f-8922805e641e": {
+    "en": "Would you go on a one-month vacation with a close friend of the opposite sex?",
+    "text": "Würdest du mit einer eng befreundeten Person des anderen Geschlechts einen Monat Urlaub machen?"
+  },
+  "cb2ea32b-d004-42f0-9a51-8737c96bc6a4": {
+    "en": "Do you think you can really stay friends with an ex?",
+    "text": "Glaubst du, dass du mit einem Ex wirklich befreundet bleiben kannst?"
+  },
+  "1864a491-86d1-49a2-80a2-c32e41c6a728": {
+    "en": "Have you ever had feelings for a friend’s ex?",
+    "text": "Hattest du schon mal Gefühle für den Ex von jemandem aus deinem Freundeskreis?"
+  },
+  "665c9713-06bc-480c-95b9-dcca3d1c59fb": {
+    "en": "Which is a bigger problem for you: your friends not liking your partner or your family not liking your partner?",
+    "text": "Was wäre schlimmer für dich: Deine Freunde mögen deinen Schatz nicht oder deine Familie?",
+    "answers": [
+      "Freunde sind dagegen",
+      "Familie ist dagegen"
+    ]
+  },
+  "39a0d847-c6a2-420f-bc9b-2da40532d0bd": {
+    "en": "Which would upset you more: cutting off a friend or breaking up with your partner?",
+    "text": "Was würde dich mehr treffen: eine Freundschaft beenden oder dich von deinem Schatz trennen?",
+    "answers": [
+      "Freundschaft beenden",
+      "Beziehung beenden"
+    ]
+  },
+  "40150bf7-574c-4cc0-b8e4-5082f4273ff6": {
+    "en": "If you really liked a piece of clothing, would you buy it even if it was very expensive?",
+    "text": "Wenn dir ein Kleidungsstück richtig gut gefällt, würdest du es auch kaufen, wenn es sehr teuer ist?"
+  },
+  "02576a6e-45da-4195-94ad-bfa3d432229e": {
+    "en": "Have you ever distanced yourself from a friend because of their behavior?",
+    "text": "Hast du dich schon mal von jemandem aus deinem Freundeskreis distanziert, weil dich das Verhalten gestört hat?"
+  },
+  "c791f673-121c-4f78-b6b2-138fff984d94": {
+    "en": "Have you ever introduced a friend to your family?",
+    "text": "Hast du schon mal jemanden aus deinem Freundeskreis deiner Familie vorgestellt?"
+  },
+  "3768b0c2-7e45-4ea2-bb34-94459ecfdaa6": {
+    "en": "Have you ever made a promise with a friend to marry them if you are both still single at 30?",
+    "text": "Hast du schon mal mit jemandem aus deinem Freundeskreis abgemacht: „Wenn wir mit 30 beide noch Single sind, heiraten wir“?"
+  },
+  "333ba234-d38e-4da7-adbf-90c465fe9959": {
+    "en": "Have you ever completely cut off a friendship over something trivial?",
+    "text": "Hast du schon mal eine Freundschaft wegen einer Kleinigkeit komplett beendet?"
+  },
+  "d6594cf3-1942-4fe1-93eb-0a767331054d": {
+    "en": "Being close friends with the opposite gender...",
+    "text": "Eine enge Freundschaft mit dem anderen Geschlecht …",
+    "answers": [
+      "Völlig normal",
+      "Braucht klare Grenzen"
+    ]
+  },
+  "e2bd6991-cecd-4263-bf0b-428f21242273": {
+    "en": "Staying friends with an ex...",
+    "text": "Mit einem Ex befreundet bleiben …",
+    "answers": [
+      "Kann klappen",
+      "Geht gar nicht"
+    ]
+  },
+  "f252224b-4d0b-4690-b195-2f1acc7c55cc": {
+    "en": "Forming emotional bonds in friendship...",
+    "text": "Emotionale Bindungen in einer Freundschaft …",
+    "answers": [
+      "Natürlich",
+      "Riskant"
+    ]
+  },
+  "a481faea-e2d5-4288-bee9-49a6e561002c": {
+    "en": "Constantly messaging someone you say \"we are just friends\" with...",
+    "text": "Ständig mit jemandem schreiben, mit dem du „nur befreundet“ bist …",
+    "answers": [
+      "Ist normal",
+      "Kann missverstanden werden"
+    ]
+  },
+  "c1051de3-6210-48d9-bbee-a1bd27339e24": {
+    "en": "Physical closeness in friendship (like hugging)...",
+    "text": "Körperliche Nähe in einer Freundschaft (z. B. Umarmungen) …",
+    "answers": [
+      "Ist ganz normal",
+      "Sendet falsche Signale"
+    ]
+  },
+  "54e10e6d-36d5-4c2f-90fa-90ab841a4a40": {
+    "en": "Your partner often seeing someone they call just a friend...",
+    "text": "Dein Schatz trifft sich oft mit jemandem und sagt: „Wir sind nur Freunde“ …",
+    "answers": [
+      "Ist für mich okay",
+      "Ist mir unangenehm"
+    ]
+  },
+  "cbc9d01b-ad4e-4822-ba0d-6d460dd7b24f": {
+    "en": "Keeping some privacy in friendship (hiding certain things from your partner)...",
+    "text": "Geheimnisse in einer Freundschaft (Dinge vor deinem Schatz verbergen) …",
+    "answers": [
+      "Kann nötig sein",
+      "Ist falsch"
+    ]
+  },
+  "b15024f0-b284-4cf6-b9da-8ee1b47f31db": {
+    "en": "Knowing every detail of your closest friend’s life...",
+    "text": "Jedes Detail aus dem Leben deines Lieblingsmenschen kennen …",
+    "answers": [
+      "Ist natürlich",
+      "Ist unnötig"
+    ]
+  },
+  "93d7d2aa-65e5-4158-bbdc-86bbfaab33e8": {
+    "en": "Your friend becoming part of your other friend group...",
+    "text": "Jemand aus deinem Freundeskreis wird Teil deiner anderen Clique …",
+    "answers": [
+      "Kann Spaß machen",
+      "Kann Ärger geben"
+    ]
+  },
+  "a24ff5ae-632a-4c56-8f91-b151d975be08": {
+    "en": "Staying just as close even after not seeing each other for a long time...",
+    "text": "Sich nach langer Zeit ohne Kontakt noch genauso nah sein …",
+    "answers": [
+      "Wahre Freundschaft",
+      "Kann schwierig sein"
+    ]
+  },
+  "4ad582dc-a947-4194-b0d1-981b04af1c82": {
+    "en": "Not being your closest friend’s closest friend...",
+    "text": "Für deinen Lieblingsmenschen nicht selbst der Lieblingsmensch sein …",
+    "answers": [
+      "Darf nicht sein",
+      "Ist okay"
+    ]
+  },
+  "6440ff9b-487a-43cc-8af1-563d9734e2ed": {
+    "en": "Your closest friend starts calling you less after getting a new partner...",
+    "text": "Dein Lieblingsmensch meldet sich seltener, seit eine neue Beziehung da ist …",
+    "answers": [
+      "Normal, das Leben ändert sich",
+      "Fühlt sich nach Vernachlässigung an"
+    ]
+  },
+  "787f606d-df56-459b-87bf-7714b646077d": {
+    "en": "Your friend never introduces you to their other friend group...",
+    "text": "Eine befreundete Person stellt dich nie ihrer anderen Clique vor …",
+    "answers": [
+      "Nicht wichtig",
+      "Fühlt sich komisch an"
+    ]
+  },
+  "18b7fca3-3bce-4521-ae0f-ef66c3e2ffb0": {
+    "en": "When you don’t talk for a long time with your friend, you continue as if nothing happened...",
+    "text": "Ihr habt lange nicht geredet und macht einfach weiter, als wäre nichts gewesen …",
+    "answers": [
+      "Gesunde Bindung",
+      "Wirkt oberflächlich"
+    ]
+  },
+  "fb3d0920-f21b-45b3-b8ac-0aa9f8870491": {
+    "en": "The most important thing in friendship...",
+    "text": "Das Wichtigste in einer Freundschaft …",
+    "answers": [
+      "Loyalität",
+      "Alles teilen"
+    ]
+  },
+  "cdca9b4b-dde6-41ef-b066-1a1fe07dc941": {
+    "en": "A good friend accepts you with your flaws or tries to help you improve in a positive way.",
+    "text": "Gute Freunde nehmen dich mit deinen Macken an – oder helfen dir, besser zu werden.",
+    "answers": [
+      "Nehmen dich, wie du bist",
+      "Helfen dir, besser zu werden"
+    ]
+  },
+  "991aa3a5-200d-41b4-beae-58d6f0d655da": {
+    "en": "A true friend is someone who is there in your bad times or in your good times.",
+    "text": "Wahre Freunde sind für dich da – in schlechten oder in guten Zeiten.",
+    "answers": [
+      "Schlechte Zeiten zählen mehr",
+      "Gute Zeiten zählen mehr"
+    ]
+  },
+  "b7db9932-142a-4d10-bfa4-b5f580458954": {
+    "en": "What matters more in friendship: quality or consistency?",
+    "text": "Was zählt in einer Freundschaft mehr: Qualität oder Beständigkeit?",
+    "answers": [
+      "Qualität",
+      "Beständigkeit"
+    ]
+  },
+  "f0636f5f-63ef-4074-a615-3e24a6667f9e": {
+    "en": "A good friend...",
+    "text": "Gute Freunde …",
+    "answers": [
+      "Kritisieren dich",
+      "Unterstützen dich"
+    ]
+  },
+  "b9784638-ea19-44da-ab12-cb649859a032": {
+    "en": "What is stronger in friendship: loyalty or empathy?",
+    "text": "Was ist in einer Freundschaft stärker: Loyalität oder Empathie?",
+    "answers": [
+      "Loyalität",
+      "Empathie"
+    ]
+  },
+  "a2f297b8-10e7-4517-b7f0-a0c832d370c7": {
+    "en": "Good friendship...",
+    "text": "Eine gute Freundschaft …",
+    "answers": [
+      "Braucht Einsatz",
+      "Läuft von allein"
+    ]
+  },
+  "5b670ad6-208b-4e58-b292-e273f3b78943": {
+    "en": "What is the strongest thing in friendship...",
+    "text": "Das Stärkste an einer Freundschaft …",
+    "answers": [
+      "Loyalität",
+      "Verständnis"
+    ]
+  },
+  "d10fdd35-8f20-43ae-8d73-b6dfde704d1e": {
+    "en": "A good friend...",
+    "text": "Gute Freunde …",
+    "answers": [
+      "Geben dir Geborgenheit",
+      "Bringen dich weiter"
+    ]
+  },
+  "05689bed-28ec-43c5-b237-0302642ef9b4": {
+    "en": "Would you marry this person if you were both not married by the age of 40?",
+    "text": "Würdest du dein Gegenüber heiraten, wenn ihr mit 40 beide noch nicht verheiratet seid?"
+  },
+  "8025e660-1505-4af6-80ae-abfc0310e57e": {
+    "en": "How many close friends do you actually need?",
+    "text": "Wie viele enge Freunde brauchst du wirklich?"
+  },
+  "379cc9b1-f4e7-4870-89f1-7a7618d01d47": {
+    "en": "If a close friend is late, after how many minutes does it start bothering you?",
+    "text": "Wenn jemand aus deinem engen Freundeskreis zu spät kommt – ab wie vielen Minuten nervt es dich?"
+  },
+  "6bed572f-b7ef-4dfd-9f13-d05e4450629e": {
+    "en": "What kills a friendship the fastest for you?",
+    "text": "Was beendet für dich eine Freundschaft am schnellsten?"
+  },
+  "019bcbc6-27a4-454b-b3af-7434fb094414": {
+    "en": "How many times a month do you need to see a close friend?",
+    "text": "Wie oft im Monat musst du deine engen Freunde sehen?"
+  },
+  "9904dd28-27f8-48e6-a7c9-f91b70c02a3b": {
+    "en": "How many days can a close friend stay at your place?",
+    "text": "Wie viele Tage darf jemand aus deinem engen Freundeskreis bei dir bleiben?"
+  },
+  "fb412a91-d561-4398-b5fc-44e7a463c33b": {
+    "en": "What's the first thing you offer a friend who comes over?",
+    "text": "Was bietest du Freunden, die zu Besuch kommen, als Erstes an?"
+  },
+  "6e09b141-b4f9-4a4b-a8d4-a1cb738c388a": {
+    "en": "What can a friend take from your fridge without asking?",
+    "text": "Was dürfen Freunde, ohne zu fragen, aus deinem Kühlschrank nehmen?"
+  },
+  "3dcd0f58-587e-4181-9f97-956ea9f95e64": {
+    "en": "What's off-limits to joke about with friends?",
+    "text": "Worüber macht man unter Freunden keine Witze?"
+  },
+  "d420a12c-2ed3-4461-ba85-2938b2eacbed": {
+    "en": "When the bill comes, how should friends split it?",
+    "text": "Wenn die Rechnung kommt: Wie sollten Freunde teilen?"
+  },
+  "5738b45b-1858-43f3-826e-11ef8d263b66": {
+    "en": "If a close friend stays over, where do they sleep?",
+    "text": "Wo schlafen enge Freunde, wenn sie bei dir übernachten?"
+  },
+  "240d4c3b-09f9-424b-8508-8f2413892f20": {
+    "en": "When you need to say no to a friend, how do you do it?",
+    "text": "Wie sagst du Freunden Nein?",
+    "answers": [
+      "Ganz direkt",
+      "Mit einer Ausrede",
+      "Ich schiebe es auf",
+      "Ich sage nie Nein"
+    ]
+  },
+  "ed007dff-5f12-45f1-913a-814207c21337": {
+    "en": "Where's your phone when you're hanging out with friends?",
+    "text": "Wo ist dein Handy, wenn du mit Freunden unterwegs bist?",
+    "answers": [
+      "Auf dem Tisch",
+      "Mit dem Display nach unten",
+      "In der Tasche",
+      "In der Hand"
+    ]
+  },
+  "472843d1-c68f-4443-8e98-1c7ebfff08f1": {
+    "en": "When a friend is venting, what do you do?",
+    "text": "Wenn Freunde sich bei dir ausheulen, was machst du?",
+    "answers": [
+      "Eine Lösung suchen",
+      "Einfach zuhören",
+      "Zum Lachen bringen",
+      "Die eigene Geschichte erzählen"
+    ]
+  },
+  "9626e6ef-559e-4903-a872-8098df7019aa": {
+    "en": "A friend cancels last minute. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis sagt in letzter Minute ab. Was machst du?",
+    "answers": [
+      "Sagen, dass es okay ist",
+      "Sagen, dass es doof war",
+      "Sofort neu planen",
+      "Eine Weile nicht mehr einladen"
+    ]
+  },
+  "d7063b2a-a2b9-4e31-b9d5-ea73d3fc1b48": {
+    "en": "How do you like hanging out with friends?",
+    "text": "Wie triffst du dich am liebsten mit Freunden?",
+    "answers": [
+      "Zu zweit",
+      "In kleiner Runde",
+      "Mit der ganzen Clique",
+      "Mit allen, die gerade Zeit haben"
+    ]
+  },
+  "b3285428-6a7b-494a-a8ce-607db3eff19a": {
+    "en": "A friend is 20 minutes late and you're already there. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis ist 20 Minuten zu spät, du bist schon da. Was machst du?",
+    "answers": [
+      "Warten",
+      "Eine Nachricht schreiben",
+      "Schon mal bestellen",
+      "Gehen"
+    ]
+  },
+  "6e92199a-a131-4c52-8fcb-db5cdd54cb8b": {
+    "en": "A friend calls at 1am. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis ruft um 1 Uhr nachts an. Was machst du?",
+    "answers": [
+      "Rangehen",
+      "„Morgen“ schreiben",
+      "Klingeln lassen",
+      "Später zurückrufen"
+    ]
+  },
+  "ca4a3d3a-b6cd-42c6-acea-f2ddaffcee41": {
+    "en": "When a friend starts roasting you, what do you do?",
+    "text": "Wenn Freunde anfangen, dich aufzuziehen, was machst du?",
+    "answers": [
+      "Kontern",
+      "Drüber lachen",
+      "Still werden",
+      "Sagen, dass es reicht"
+    ]
+  },
+  "0b00eec2-7db8-49f6-9a33-2e91bfdafed9": {
+    "en": "A friend borrowed something and hasn't given it back. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis hat sich was von dir geliehen und es nie zurückgegeben. Was machst du?",
+    "answers": [
+      "Daran erinnern",
+      "Es abhaken",
+      "Nichts mehr verleihen",
+      "So lange Witze machen, bis es klickt"
+    ]
+  },
+  "3866d609-64de-4f95-9a99-d3b5aca59d4d": {
+    "en": "How do you usually leave a hangout?",
+    "text": "Wie gehst du meistens, wenn du mit Freunden unterwegs bist?",
+    "answers": [
+      "Tschüss sagen und los",
+      "Heimlich verschwinden",
+      "Ich bleibe bis zum Schluss",
+      "Warten, bis jemand mitgeht"
+    ]
+  },
+  "fc886a8f-d247-4df7-9911-70df16293d14": {
+    "en": "A friend posts a bad photo of you without asking. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis postet ungefragt ein mieses Foto von dir. Was machst du?",
+    "answers": [
+      "Bitten, es zu löschen",
+      "Drüber lachen",
+      "Ein noch mieseres zurückposten",
+      "Die Posts eine Weile stummschalten"
+    ]
+  },
+  "cf30ac84-0e23-499b-84f0-194255049b2e": {
+    "en": "Two friends in your group are fighting. What do you do?",
+    "text": "Zwei aus deiner Clique streiten sich. Was machst du?",
+    "answers": [
+      "Raushalten",
+      "Vermitteln",
+      "Zu der Seite halten, die recht hat",
+      "Mit beiden einzeln reden"
+    ]
+  },
+  "a6aca301-d610-4229-8289-b89bedc32e1e": {
+    "en": "How do you usually make plans with friends?",
+    "text": "Wie machst du meistens Pläne mit Freunden?",
+    "answers": [
+      "Ich schreibe als Erstes",
+      "Ich warte, bis jemand anfängt",
+      "Ich schlage so lange was vor, bis es klappt",
+      "Ich komme einfach mit, wohin alle gehen"
+    ]
+  },
+  "79b31e12-db1a-4595-a37d-d8bf3a5d4ab1": {
+    "en": "A friend is clearly wrong in an argument. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis liegt in einer Diskussion klar falsch. Was machst du?",
+    "answers": [
+      "Sofort korrigieren",
+      "Es gut sein lassen",
+      "Später unter vier Augen ansprechen",
+      "Laut zustimmen, innerlich widersprechen"
+    ]
+  },
+  "43b8538b-f20e-4106-86db-2fb4ae991e8d": {
+    "en": "A close friend goes quiet for a few weeks. What do you do?",
+    "text": "Jemand aus deinem engsten Kreis meldet sich ein paar Wochen nicht. Was machst du?",
+    "answers": [
+      "Einmal nachfragen",
+      "Immer wieder schreiben",
+      "Freiraum lassen",
+      "Gemeinsame Freunde fragen, was los ist"
+    ]
+  },
+  "cf10e8ca-f5f7-4fd3-ade3-8d3dd80864a1": {
+    "en": "Your friend asks for honest feedback on a bad haircut. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis will ehrliches Feedback zu einem misslungenen Haarschnitt. Was machst du?",
+    "answers": [
+      "Die Wahrheit sagen",
+      "Etwas Nettes finden",
+      "Das Thema wechseln"
+    ]
+  },
+  "5f50e363-7d88-40da-9fc3-20a70c1c98bc": {
+    "en": "A close friend asks to stay at your place for a week. What do you say?",
+    "text": "Jemand aus deinem engsten Kreis will eine Woche bei dir wohnen. Was sagst du?",
+    "answers": [
+      "Bleib, so lange du brauchst",
+      "Ein paar Tage, dann sehen wir weiter",
+      "Diese Woche nicht, aber ich helfe anders"
+    ]
+  },
+  "96a10636-c640-4c8e-b29c-8d5ea35a2325": {
+    "en": "A friend you barely talk to anymore asks for a big favor. What do you do?",
+    "text": "Jemand von früher, mit dem du kaum noch redest, bittet dich um einen großen Gefallen. Was machst du?",
+    "answers": [
+      "Helfen wie früher",
+      "Helfen, aber nur ein bisschen",
+      "Ehrlich sagen, dass ihr nicht mehr so eng seid"
+    ]
+  },
+  "8fbe5c15-1c5f-4d62-bb1c-8c87bd5e68e9": {
+    "en": "Two friend groups invite you out on the same night. What do you do?",
+    "text": "Zwei Freundeskreise laden dich für denselben Abend ein. Was machst du?",
+    "answers": [
+      "Zu denen, die zuerst gefragt haben",
+      "Zu denen, die ich mehr vermisse",
+      "Bei beiden vorbeischauen"
+    ]
+  },
+  "da359ad8-f794-47c9-a71f-de550fd3df0c": {
+    "en": "A close friend asks to borrow a good amount of money. What do you do?",
+    "text": "Jemand aus deinem engsten Kreis will sich eine größere Summe leihen. Was machst du?",
+    "answers": [
+      "Leihen, wenn ich kann",
+      "Nur mit klarem Rückzahlungsplan",
+      "Freunden leihe ich kein Geld"
+    ]
+  },
+  "d6c8e97e-b3ba-44d7-b105-c1b6b2a57587": {
+    "en": "Your friend is dating someone you really can't stand. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis datet eine Person, die du echt nicht ausstehen kannst. Was machst du?",
+    "answers": [
+      "Früh ansprechen",
+      "Warten, bis ich gefragt werde",
+      "Schweigen und unterstützen"
+    ]
+  },
+  "0d743c77-1a58-418b-8117-3263ce8f4009": {
+    "en": "A friend invites you somewhere expensive you can't really afford. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis will mit dir irgendwohin, wo es eigentlich zu teuer für dich ist. Was machst du?",
+    "answers": [
+      "Sagen, dass es mir zu teuer ist",
+      "Etwas Günstigeres vorschlagen",
+      "Mitgehen und das Budget strapazieren"
+    ]
+  },
+  "02bb14d7-0d08-400e-9917-9aec53c8b7c8": {
+    "en": "You overhear a friend lightly trash-talking you. What do you do?",
+    "text": "Du hörst zufällig, wie jemand aus deinem Freundeskreis ein bisschen über dich lästert. Was machst du?",
+    "answers": [
+      "Zur Rede stellen",
+      "Etwas auf Abstand gehen",
+      "Einmal durchgehen lassen"
+    ]
+  },
+  "660a531c-8d5e-44d7-b117-483aafb66d83": {
+    "en": "At a party, your friend is about to drunk-text their ex. What do you do?",
+    "text": "Auf einer Party will jemand aus deinem Freundeskreis betrunken dem Ex schreiben. Was machst du?",
+    "answers": [
+      "Das Handy wegnehmen",
+      "Machen lassen"
+    ]
+  },
+  "6ae65593-620a-47a3-bd16-3cfdba20307b": {
+    "en": "At dinner, the bill comes and your friend \"forgot\" their wallet again. What do you do?",
+    "text": "Beim Essen kommt die Rechnung, und jemand aus deinem Freundeskreis hat mal wieder das Portemonnaie „vergessen“. Was machst du?",
+    "answers": [
+      "Übernehmen und abhaken",
+      "Übernehmen, aber später ansprechen"
+    ]
+  },
+  "b2f40f63-d542-449f-b8d9-7251868fe21c": {
+    "en": "In an Uber, your friend starts arguing with the driver. What do you do?",
+    "text": "Im Taxi fängt jemand aus deinem Freundeskreis Streit mit dem Fahrer an. Was machst du?",
+    "answers": [
+      "Eingreifen und beruhigen",
+      "Schweigen und hoffen, dass es aufhört"
+    ]
+  },
+  "2fca8524-3f16-4523-b057-17699983cc36": {
+    "en": "Your friend starts telling an embarrassing story about you to people you just met. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis erzählt Leuten, die ihr gerade erst kennengelernt habt, eine peinliche Geschichte über dich. Was machst du?",
+    "answers": [
+      "Unterbrechen",
+      "Ausreden lassen"
+    ]
+  },
+  "1dc43db7-154f-4a47-9397-f3ec7f508978": {
+    "en": "A friend tells you a secret and says \"don't even tell your partner.\" What do you do?",
+    "text": "Jemand verrät dir ein Geheimnis und sagt: „Nicht mal deinem Schatz erzählen!“ Was machst du?",
+    "answers": [
+      "Ich behalte es komplett für mich",
+      "Ich erzähle es meinem Schatz trotzdem",
+      "Ich behalte es, außer es ist was Ernstes"
+    ]
+  },
+  "f1a66bde-c82e-4903-9965-90c3fa82d1b0": {
+    "en": "You and a close friend applied for the same job, and they got it. What do you do?",
+    "text": "Du und jemand aus deinem engsten Kreis habt euch auf denselben Job beworben – die andere Person hat ihn bekommen. Was machst du?",
+    "answers": [
+      "Ehrlich mitfeiern",
+      "Gratulieren, aber innerlich tut es weh",
+      "Erst mal etwas Abstand brauchen"
+    ]
+  },
+  "e4d8aa34-b71c-4d2c-babe-8ef1e1d37350": {
+    "en": "A friend shows up at your door without texting first. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis steht unangekündigt vor deiner Tür. Was machst du?",
+    "answers": [
+      "Freudig reinlassen",
+      "Reinlassen, aber etwas genervt sein",
+      "So tun, als wäre ich nicht da",
+      "Reinlassen, aber sagen: Nächstes Mal vorher schreiben"
+    ]
+  },
+  "5587411e-e5d6-4c3b-b709-925a48828ccd": {
+    "en": "A friend asks you to cover for them with their partner. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis braucht von dir ein Alibi gegenüber dem eigenen Schatz. Was machst du?",
+    "answers": [
+      "Alibi geben, ohne Fragen",
+      "Nur, wenn ich weiß, worum es geht",
+      "Nein sagen, da halte ich mich raus",
+      "Ja sagen, aber klarmachen: zum letzten Mal"
+    ]
+  },
+  "2ceb502c-1cb0-4d19-b751-39c067c789a3": {
+    "en": "A close friend forgot your birthday. What do you do?",
+    "text": "Jemand aus deinem engsten Kreis hat deinen Geburtstag vergessen. Was machst du?",
+    "answers": [
+      "Ist mir völlig egal",
+      "Gekränkt sein, aber schweigen",
+      "Es im Spaß ansprechen",
+      "Sagen, dass es echt wehgetan hat"
+    ]
+  },
+  "90a8ef25-80da-4dce-a879-4c4de8f1272a": {
+    "en": "How do you usually show a friend you care?",
+    "text": "Wie zeigst du Freunden meistens, dass sie dir wichtig sind?",
+    "answers": [
+      "Zeit zusammen verbringen",
+      "Kleine Geschenke und Überraschungen",
+      "Pushen und Komplimente machen",
+      "Helfen, wenn es drauf ankommt",
+      "Einfach mal zwischendurch schreiben"
+    ]
+  },
+  "5ea9ba87-e9a5-45bd-b147-03e94f0d2eee": {
+    "en": "Compared to a romantic breakup, losing a close friend hurts...",
+    "text": "Eine enge Freundschaft zu verlieren tut im Vergleich zu einer Trennung …",
+    "answers": [
+      "Mehr weh",
+      "Weniger weh",
+      "Etwa gleich weh"
+    ]
+  },
+  "81c3e73b-6f4a-401f-be7c-7322f3c88d97": {
+    "en": "How often should close friends talk?",
+    "text": "Wie oft sollten enge Freunde miteinander reden?",
+    "answers": [
+      "Jeden Tag",
+      "Ein paar Mal pro Woche",
+      "Ungefähr einmal pro Woche",
+      "Egal, es gibt keine Regeln"
+    ]
+  },
+  "bf330507-367e-4d2b-a74c-51bbacecc0de": {
+    "en": "Can a friend you've only met online be a real close friend?",
+    "text": "Kann jemand, den du nur online kennst, wirklich eng mit dir befreundet sein?"
+  },
+  "ad99c683-1579-4b76-ac84-bbe48ccc1529": {
+    "en": "What's the most you'd spend on a close friend's birthday gift?",
+    "text": "Wie viel würdest du höchstens für ein Geburtstagsgeschenk an jemanden aus deinem engsten Kreis ausgeben?"
+  },
+  "fe5a5b25-7f16-4855-b749-d4e8e9cc1d5f": {
+    "en": "Making new close friends as an adult is...",
+    "text": "Im Erwachsenenalter neue enge Freundschaften zu schließen, ist …",
+    "answers": [
+      "Leicht, wenn man offen ist",
+      "Schwer, aber machbar",
+      "Fast unmöglich"
+    ]
+  },
+  "8c65c713-6463-475a-bf56-9ec5381e9302": {
+    "en": "Can a coworker become one of your closest friends?",
+    "text": "Kann jemand von der Arbeit zu deinen engsten Freunden werden?"
+  },
+  "beb7f795-5c55-41bd-98fc-a459db151882": {
+    "en": "How long do you need to know someone before calling them a close friend?",
+    "text": "Wie lange musst du jemanden kennen, um von enger Freundschaft zu sprechen?"
+  },
+  "fb50cd2d-2221-4e5f-b6eb-1a37644fda56": {
+    "en": "Your close friend starts dating your sibling. How do you feel?",
+    "text": "Jemand aus deinem engsten Kreis kommt mit deinem Bruder oder deiner Schwester zusammen. Wie findest du das?",
+    "answers": [
+      "Ich freue mich für die beiden",
+      "Komisch, aber ich gewöhne mich dran",
+      "Gar nicht okay für mich"
+    ]
+  },
+  "68663bf0-f74e-4eb2-9375-794c0160fd51": {
+    "en": "Hanging out with a friend in total silence, each doing your own thing...",
+    "text": "Mit Freunden abhängen, ohne zu reden, alle machen ihr eigenes Ding …",
+    "answers": [
+      "Das ist echte Nähe",
+      "Ab und zu okay",
+      "Fühlt sich komisch an"
+    ]
+  },
+  "fb1756d1-62b7-4393-9307-53cd0f287376": {
+    "en": "When you get big news, who hears it first?",
+    "text": "Wenn du große Neuigkeiten hast, wer erfährt sie zuerst?",
+    "answers": [
+      "Mein Schatz",
+      "Meine engsten Freunde",
+      "Meine Familie",
+      "Alle gleichzeitig im Gruppenchat"
+    ],
+    "flagged": true,
+    "note": "\"My best friend\" rendered as plural \"Meine engsten Freunde\" because bester Freund/beste Freundin reveals gender."
+  },
+  "c1fa53a1-cf09-4356-a17d-4b3af5c3a9f7": {
+    "en": "What's one habit in a friend that drives you crazy?",
+    "text": "Welche Angewohnheit bei Freunden macht dich wahnsinnig?"
+  },
+  "570b53e3-9da8-412a-88f9-c3df5793d601": {
+    "en": "Would you start a business with a close friend?",
+    "text": "Würdest du mit jemandem aus deinem engsten Kreis eine Firma gründen?"
+  },
+  "c72dd7bf-86a8-4621-b2f2-ed918e7319c3": {
+    "en": "Your friend starts bringing their new partner to every hangout. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis bringt plötzlich die neue Liebe zu jedem Treffen mit. Was machst du?",
+    "answers": [
+      "Super, je mehr, desto lustiger",
+      "Okay, aber ich vermisse die Zeit zu zweit",
+      "Ich bitte um Treffen nur unter uns",
+      "Ich treffe mich seltener"
+    ]
+  },
+  "637c640b-fdb6-4280-9bb5-d10092e0490f": {
+    "en": "Sharing streaming passwords with friends...",
+    "text": "Streaming-Passwörter mit Freunden teilen …",
+    "answers": [
+      "Völlig normal",
+      "Nur mit den Engsten",
+      "Niemals"
+    ]
+  },
+  "11e1d92e-1142-4d19-b8eb-9e85b241a9c9": {
+    "en": "Competition between close friends...",
+    "text": "Konkurrenz unter engen Freunden …",
+    "answers": [
+      "Spornt uns an",
+      "Macht die Freundschaft langsam kaputt"
+    ]
+  },
+  "04beefdc-5d0a-47a0-8476-209397119731": {
+    "en": "A friend asks you to set them up with someone. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis möchte von dir verkuppelt werden. Was machst du?",
+    "answers": [
+      "Ich verkupple liebend gern",
+      "Nur, wenn ich jemand wirklich Passendes kenne",
+      "Ich halte mich raus, zu riskant"
+    ]
+  },
+  "d97011a0-577f-437e-b2f7-34d6e3f16ec7": {
+    "en": "Your friend is sick at home alone. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis liegt allein krank zu Hause. Was machst du?",
+    "answers": [
+      "Mit Suppe und Medikamenten vorbeikommen",
+      "Essen per Lieferdienst schicken",
+      "Schreiben und nachfragen",
+      "Warten, bis ich um Hilfe gebeten werde"
+    ]
+  },
+  "49f2c5bd-906c-4677-938d-2634f11f2c0e": {
+    "en": "How many friends would you invite to your birthday?",
+    "text": "Wie viele Freunde würdest du zu deinem Geburtstag einladen?"
+  },
+  "80b1847b-4029-4376-b594-cf2439e45e3c": {
+    "en": "A friend starts copying your style and hobbies. How do you feel?",
+    "text": "Jemand aus deinem Freundeskreis kopiert plötzlich deinen Style und deine Hobbys. Wie fühlst du dich?",
+    "answers": [
+      "Geschmeichelt",
+      "Ist mir ziemlich egal",
+      "Etwas genervt",
+      "Ich würde was sagen"
+    ]
+  },
+  "9d61613c-1992-45d8-bef1-37f07f995e66": {
+    "en": "A friend got you a much more expensive gift than you got them. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis hat dir etwas viel Teureres geschenkt als du umgekehrt. Was machst du?",
+    "answers": [
+      "Nichts, ist ja kein Wettbewerb",
+      "Peinlich berührt sein",
+      "Nächstes Mal ausgleichen"
+    ]
+  },
+  "826c30c4-7dae-497a-be3b-a89531829cef": {
+    "en": "Would you lend your favorite piece of clothing to a friend?",
+    "text": "Würdest du dein liebstes Kleidungsstück an Freunde verleihen?"
+  },
+  "c17f6d8c-88be-4516-b333-5e7b45e4997f": {
+    "en": "Your best friend asks you to help plan their wedding. What do you do?",
+    "text": "Jemand aus deinem allerengsten Kreis bittet dich, bei der Hochzeitsplanung zu helfen. Was machst du?",
+    "answers": [
+      "Voll einsteigen",
+      "Helfen, aber in Grenzen",
+      "Nur am großen Tag auftauchen"
+    ]
+  },
+  "bea820e2-cce1-49fc-aa07-4ab99ead86c4": {
+    "en": "How many hours would you travel for a close friend's birthday?",
+    "text": "Wie viele Stunden würdest du für den Geburtstag von jemandem aus deinem engsten Kreis reisen?"
+  },
+  "45cf28ad-01d6-458f-b371-d10cb5d628b3": {
+    "en": "A friend needs a ride to the airport at 5am. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis muss um 5 Uhr morgens zum Flughafen. Was machst du?",
+    "answers": [
+      "Hinfahren, kein Problem",
+      "Hinfahren, aber die ganze Fahrt meckern",
+      "Stattdessen das Taxi zahlen",
+      "Sagen, dass ich nicht kann"
+    ]
+  },
+  "cee7b4d0-8a85-42ae-9d36-e805461c3601": {
+    "en": "Do you share your live location with your close friends?",
+    "text": "Teilst du deinen Live-Standort mit engen Freunden?"
+  },
+  "1261e2f8-c857-4478-8e71-e0a25b6dac19": {
+    "en": "A friend who always tells you the harsh truth...",
+    "text": "Freunde, die dir immer die harte Wahrheit sagen …",
+    "answers": [
+      "Sind die besten Freunde",
+      "Werden irgendwann anstrengend"
+    ]
+  },
+  "6cb7ef7c-1478-4456-b1cf-d26358f74de0": {
+    "en": "Friendships with a big age gap (10+ years)...",
+    "text": "Freundschaften mit großem Altersunterschied (10+ Jahre) …",
+    "answers": [
+      "Funktionieren super",
+      "Funktionieren, fühlen sich aber anders an",
+      "Da klickt es selten richtig"
+    ]
+  },
+  "9fea2ef2-07b0-4d41-b852-f5bf24dd2b6f": {
+    "en": "On a group trip, one friend wants to spend way more than everyone else. What do you do?",
+    "text": "Auf einem Gruppentrip will jemand viel mehr ausgeben als alle anderen. Was machst du?",
+    "answers": [
+      "Mitziehen",
+      "Bei teuren Plänen getrennte Wege gehen",
+      "Von Anfang an ein Gruppenbudget festlegen",
+      "Direkt sagen, dass es zu viel ist"
+    ]
+  },
+  "e442ad82-0026-4be1-a02d-5cf52c6db6b3": {
+    "en": "When a friend upsets you, do you tell them instead of quietly pulling away?",
+    "text": "Wenn dich jemand aus deinem Freundeskreis verletzt, sprichst du es an, statt dich still zurückzuziehen?"
+  },
+  "a568c592-7960-40ea-b5e7-f8fcff9f1109": {
+    "en": "A friend asks you to watch their pet for a week. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis bittet dich, eine Woche aufs Haustier aufzupassen. Was machst du?",
+    "answers": [
+      "Gern, ich liebe Tiere",
+      "Kommt aufs Tier an",
+      "Ja, aber nicht bei mir zu Hause",
+      "Nein sagen"
+    ]
+  },
+  "f7975688-29c1-4bff-9678-56257d052a89": {
+    "en": "A close friend suddenly becomes famous. What changes for you?",
+    "text": "Jemand aus deinem engsten Kreis wird plötzlich berühmt. Was ändert sich für dich?",
+    "answers": [
+      "Nichts, für mich bleibt alles gleich",
+      "Ich würde vor allen damit angeben",
+      "Ich würde automatisch etwas Abstand halten",
+      "Ich hätte Angst, dass sich die Person verändert"
+    ]
+  },
+  "53f44073-13ad-4340-b3dc-428d01768d73": {
+    "en": "A friend starts selling stuff and keeps pitching it to you. What do you do?",
+    "text": "Jemand aus deinem Freundeskreis verkauft jetzt Zeug und will es dir ständig andrehen. Was machst du?",
+    "answers": [
+      "Einmal kaufen, zur Unterstützung",
+      "Jedes Mal höflich ablehnen",
+      "Sagen, dass es langsam nervt",
+      "Stummschalten"
+    ]
+  },
+  "392563c7-8455-4b18-a840-2569bad40fb3": {
+    "en": "After a fight with a close friend, who reaches out first?",
+    "text": "Nach einem Streit mit jemandem aus deinem engsten Kreis: Wer meldet sich zuerst?",
+    "answers": [
+      "Immer ich",
+      "Wer im Unrecht war",
+      "Niemand, wir tun, als wäre nichts gewesen",
+      "Niemand, meist ist es dann vorbei"
+    ]
+  },
+  "580d620b-1ff6-4662-b9e7-783a83b482ab": {
+    "en": "Posting your friends on your social media...",
+    "text": "Freunde auf Social Media posten …",
+    "answers": [
+      "Zeigt, dass sie dir wichtig sind",
+      "Ist völlig unnötig"
+    ]
+  },
+  "c01dd781-f740-41b0-a72c-d6706d48e8ff": {
+    "en": "Could you be friends with your partner's ex?",
+    "text": "Könntest du mit dem Ex deines Schatzes befreundet sein?"
+  },
+  "0dca06e6-2ca7-47d9-baad-475f804027d3": {
+    "en": "What's the ideal number of people for a friends' trip?",
+    "text": "Wie viele Leute sind ideal für einen Trip mit Freunden?"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "ad42c59d-bd4b-4f67-963a-f1a1c512f2c9": {
+    "en": "When a disagreement starts, your first instinct is to…",
+    "text": "Quand un désaccord commence, ton premier réflexe, c'est de…",
+    "answers": [
+      "Tout dire tout de suite",
+      "Me taire et prendre du recul",
+      "Calmer le jeu, même si je n'ai pas tout dit",
+      "Quitter la pièce pour me calmer"
+    ]
+  },
+  "4847cd44-98d1-4533-bb0a-e8b49438e2a6": {
+    "en": "What do you need before a fight can really end for you?",
+    "text": "De quoi as-tu besoin pour qu'une dispute soit vraiment finie pour toi ?",
+    "answers": [
+      "Des excuses sincères",
+      "Sentir qu'on me comprend",
+      "Une solution claire",
+      "D'abord du temps pour moi",
+      "Un rapprochement physique"
+    ]
+  },
+  "0a402b2b-06aa-4c65-9534-cd5828e42c46": {
+    "en": "How do you feel about making the first move to make up?",
+    "text": "Faire le premier pas pour se réconcilier, tu le vis comment ?",
+    "answers": [
+      "Je le fais souvent et ça me va",
+      "Je le fais souvent et ça commence à me peser",
+      "J'ai tendance à attendre que l'autre vienne",
+      "C'est dur pour moi, même quand j'en ai envie"
+    ]
+  },
+  "d0ec371b-99c3-42e2-86fe-60295e7a3aba": {
+    "en": "After a fight is over, how long does it stay with you?",
+    "text": "Une fois la dispute terminée, ça te reste en tête combien de temps ?",
+    "answers": [
+      "C'est oublié dès qu'on se réconcilie",
+      "Quelques heures",
+      "Un jour ou deux",
+      "Ça revient plus tard"
+    ]
+  },
+  "375bb36b-b6d9-4321-a8e4-b8fdcd60abcf": {
+    "en": "What escalates a fight fastest for you?",
+    "text": "Qu'est-ce qui envenime le plus vite une dispute pour toi ?",
+    "answers": [
+      "Une voix qui monte ou un ton dur",
+      "Qu'on me coupe ou qu'on ne m'écoute pas",
+      "Qu'on ressorte de vieilles histoires",
+      "Le silence ou l'autre qui s'en va",
+      "Le sarcasme ou les yeux levés au ciel"
+    ]
+  },
+  "6ba99e54-c776-447b-ad7c-830ef561545a": {
+    "en": "What do you hold back to keep the peace?",
+    "text": "Qu'est-ce que tu tais pour préserver la paix ?",
+    "answers": [
+      "Rien, je dis ce qui me dérange",
+      "Les petits agacements",
+      "Des besoins plus importants",
+      "Ce qui touche à la famille ou aux amis de l'autre"
+    ]
+  },
+  "0a32a02d-0e74-4f0b-836a-4a5ae6890ab7": {
+    "en": "In a few words: what do you two keep arguing about?",
+    "text": "En quelques mots : vous deux, vous vous disputez toujours à propos de quoi ?"
+  },
+  "80d0cd30-bef6-4ec4-aeac-17776ab4b318": {
+    "en": "What does your partner do in arguments that you wish they'd stop?",
+    "text": "Dans vos disputes, quelle habitude de ta moitié aimerais-tu voir disparaître ?"
+  }
+}

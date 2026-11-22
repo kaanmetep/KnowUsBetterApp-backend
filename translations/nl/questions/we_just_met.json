@@ -1,0 +1,1454 @@
+{
+  "f8b8e4f3-28d9-4886-af07-a40660eecc99": {
+    "en": "Would you date someone with a very different music taste?",
+    "text": "Zou je daten met iemand met een totaal andere muzieksmaak?"
+  },
+  "f304ce02-dda7-4317-8fdb-ea25aee9c4a4": {
+    "en": "Is your partner’s education level important to you?",
+    "text": "Vind je het opleidingsniveau van je partner belangrijk?"
+  },
+  "53cff209-fbc0-4246-b117-18b3555971df": {
+    "en": "Would you date someone shorter than you?",
+    "text": "Zou je daten met iemand die kleiner is dan jij?"
+  },
+  "bc57ff15-11b9-4073-ae40-e1d0f01c0fad": {
+    "en": "Are you afraid of ending up alone in life?",
+    "text": "Ben je bang om alleen te blijven in het leven?"
+  },
+  "f43d3e26-8697-42a0-8804-7145be8be518": {
+    "en": "Would it bother you if your partner has had more exes than you?",
+    "text": "Zou het je dwarszitten als je partner meer exen heeft dan jij?"
+  },
+  "a341a8ea-7831-4c4c-993b-95651f9220ee": {
+    "en": "Would you date someone you're not physically attracted to?",
+    "text": "Zou je daten met iemand die je fysiek niet aantrekkelijk vindt?"
+  },
+  "83898e96-79ac-41d0-a2cd-f95d16e018bd": {
+    "en": "Would it bother you if your partner talks about marriage at the start of a relationship?",
+    "text": "Zou het je storen als je partner het al vroeg in de relatie over trouwen heeft?"
+  },
+  "1bc54b46-bd63-495c-979d-0d1e4203d959": {
+    "en": "Would you consider marrying someone from a foreign country?",
+    "text": "Zou je overwegen te trouwen met iemand uit het buitenland?"
+  },
+  "fc039185-c94b-4708-bb45-c273aa7abbc5": {
+    "en": "Should the man pay the bill on the first date?",
+    "text": "Moet de man op de eerste date de rekening betalen?",
+    "flagged": true,
+    "note": "Kept the source's gender-norm opinion question as is; it is about a social convention, not the players, but reads heteronormative for same-sex couples."
+  },
+  "32406677-bba7-491a-aff9-d64567ca82c0": {
+    "en": "Would you pay your partner's debt?",
+    "text": "Zou je de schulden van je partner betalen?"
+  },
+  "16ab0dae-f337-4214-84b3-f4fd1d237451": {
+    "en": "Have you ever been physically with someone you didn't have feelings for?",
+    "text": "Ben je weleens intiem geweest met iemand voor wie je geen gevoelens had?"
+  },
+  "24afb9f9-09fe-479b-b7fe-222f914f546d": {
+    "en": "Have you ever used someone who was deeply in love with you just to avoid being alone?",
+    "text": "Heb je weleens iemand die smoorverliefd op je was gebruikt, alleen om niet alleen te zijn?"
+  },
+  "2e854593-1245-4f29-8c9d-dc97306eaeb0": {
+    "en": "In the future, would you prefer living in a big city or a quiet town with your partner?",
+    "text": "Wil je later met je partner liever in een grote stad of in een rustig dorp wonen?",
+    "answers": [
+      "Grote stad",
+      "Rustig dorp"
+    ]
+  },
+  "9fcb5dab-3f2e-4a0d-b23a-61900bc49522": {
+    "en": "Would you date someone who becomes unpleasant when they drink alcohol?",
+    "text": "Zou je daten met iemand die vervelend wordt na een paar drankjes?"
+  },
+  "97b6d4e0-ab32-423e-bc3f-53883b958a5d": {
+    "en": "Would you stay in a relationship if you felt emotionally unfulfilled but not unhappy?",
+    "text": "Zou je in een relatie blijven die je emotioneel niet vervult, maar waarin je ook niet ongelukkig bent?"
+  },
+  "32b5d1f7-97f4-466b-ad7f-395b505c73a7": {
+    "en": "Can a relationship work without physical chemistry?",
+    "text": "Kan een relatie werken zonder fysieke chemie?"
+  },
+  "2d748ea6-89f2-4ad3-bb23-ea30c2c73842": {
+    "en": "If offered 1 million dollars to seduce your best friend's partner, would you accept?",
+    "text": "Je krijgt 1 miljoen dollar om de partner van je beste vriend of vriendin te versieren. Doe je het?"
+  },
+  "e55ea49c-c670-4fe9-bf1c-267153fc88e0": {
+    "en": "Do you think you have ever hurt someone in the same way you fear being hurt?",
+    "text": "Denk je dat je ooit iemand hebt gekwetst op de manier waarop jij bang bent om gekwetst te worden?"
+  },
+  "5264f2b0-12db-44aa-81d2-395cee494d0c": {
+    "en": "If you had a lot of money, would you live without working?",
+    "text": "Als je heel veel geld had, zou je dan stoppen met werken?"
+  },
+  "92350381-e030-4eb9-adea-eba4539776db": {
+    "en": "In the future, would you choose to stay in your hometown with your partner or move to a completely new place together?",
+    "text": "Blijf je later met je partner in je geboorteplaats of verhuizen jullie samen naar een compleet nieuwe plek?",
+    "answers": [
+      "In mijn geboorteplaats blijven",
+      "Naar een nieuwe plek verhuizen"
+    ]
+  },
+  "3e001ead-34f3-49cd-841b-0adf7ed83ee2": {
+    "en": "Would you go through your partner's phone?",
+    "text": "Zou je stiekem in de telefoon van je partner kijken?"
+  },
+  "cb65844c-0923-4018-827e-7e5e742a2c88": {
+    "en": "Would you be okay if your partner needed space from you for an extended period of time?",
+    "text": "Zou je het oké vinden als je partner langere tijd afstand van je nodig had?"
+  },
+  "13769262-3c15-4137-99c0-eee392521846": {
+    "en": "For you, is it more important who your partner was in the past or who they want to become in the future?",
+    "text": "Wat vind je belangrijker: wie je partner vroeger was of wie je partner later wil worden?",
+    "answers": [
+      "Het verleden",
+      "Het potentieel"
+    ]
+  },
+  "6b732428-5ccc-4b9e-a751-ea915f51024f": {
+    "en": "Do you expect a good morning message from your partner every day?",
+    "text": "Verwacht je elke dag een goedemorgenberichtje van je partner?"
+  },
+  "d2cb8fd1-c4ee-43e7-9bec-026c60baf9ad": {
+    "en": "Would you interfere with your partner's clothing style?",
+    "text": "Zou je je bemoeien met de kledingstijl van je partner?"
+  },
+  "04b359db-733e-4009-8f92-b0814aa0b03a": {
+    "en": "Have you ever ignored a message from your partner to seem cooler?",
+    "text": "Heb je weleens een bericht van je partner laten liggen om cooler over te komen?"
+  },
+  "a0098eef-632a-4297-94cf-514d6abb3a58": {
+    "en": "Is it harder to be the one who leaves or the one who stays?",
+    "text": "Wat is zwaarder: degene zijn die weggaat of degene die blijft?",
+    "answers": [
+      "Degene die weggaat",
+      "Degene die blijft"
+    ]
+  },
+  "44bf894e-1b91-4709-9c94-74b54c849ec9": {
+    "en": "In the future, would it be a problem for you if your partner only wanted a son and did not want a daughter at all?",
+    "text": "Zou het later een probleem voor je zijn als je partner alleen een zoon wilde en absoluut geen dochter?"
+  },
+  "8e44a610-70a6-443a-a5f4-6695dd7f2acb": {
+    "en": "Have you ever cheated on your partner?",
+    "text": "Ben je je partner ooit ontrouw geweest?"
+  },
+  "f7cd4adc-4c3a-462d-80b8-a9cb5e0d59a7": {
+    "en": "Have you ever been cheated on by your partner?",
+    "text": "Ben je ooit bedrogen door een partner?"
+  },
+  "b06e47ff-0765-4387-a852-0e0f8d671331": {
+    "en": "Can someone who truly loves you forgive anything?",
+    "text": "Kan iemand die echt van je houdt alles vergeven?"
+  },
+  "6e964579-93e2-4ea7-a602-f2da4dc10c40": {
+    "en": "Would you date someone who doesn't like animals?",
+    "text": "Zou je daten met iemand die niet van dieren houdt?"
+  },
+  "9da6aa5a-72e2-4cfc-967b-a1333bc77fde": {
+    "en": "Would it bother you if your partner stayed in touch with their ex?",
+    "text": "Zou het je storen als je partner nog contact had met een ex?"
+  },
+  "5a13add7-782e-4168-a409-a8dd27a630b6": {
+    "en": "Would you continue a relationship with someone who doesn't enjoy exercising?",
+    "text": "Zou je een relatie voortzetten met iemand die niet van sporten houdt?"
+  },
+  "97b0ab35-8d44-44b9-9ab1-814f1f7f85a8": {
+    "en": "Would you date someone older than you?",
+    "text": "Zou je daten met iemand die ouder is dan jij?"
+  },
+  "fdcd6d7e-01fa-494d-a8de-7b442ca67c54": {
+    "en": "What hurts more in a relationship: being lied to or being ignored?",
+    "text": "Wat doet meer pijn in een relatie: voorgelogen worden of genegeerd worden?",
+    "answers": [
+      "Voorgelogen worden",
+      "Genegeerd worden"
+    ]
+  },
+  "20510bb3-bf38-4b99-bb6d-4afcab715e9e": {
+    "en": "Have you ever acted like you had money during flirting when you actually didn't?",
+    "text": "Heb je tijdens het flirten weleens gedaan alsof je geld had terwijl dat niet zo was?"
+  },
+  "cb8b64a7-939c-4ae3-8a90-74b432a1443c": {
+    "en": "If you were in love but your future goals were very different, would you continue the relationship?",
+    "text": "Als je verliefd was maar jullie toekomstdoelen heel verschillend waren, zou je dan doorgaan?"
+  },
+  "008255f4-ad49-4afa-b3ff-75cdf23edc79": {
+    "en": "If you didn't talk to your partner for a whole day, would it cause an argument?",
+    "text": "Als je je partner een hele dag niet spreekt, wordt dat dan ruzie?"
+  },
+  "fa0c44cc-ec0b-436b-9ccd-7bbc0543e25b": {
+    "en": "If your mother wanted you to break up with your partner, would you do it? (No compromise allowed)",
+    "text": "Als je moeder wil dat je het uitmaakt met je partner, doe je het dan? (Geen tussenweg mogelijk)"
+  },
+  "1317fcea-d7cc-4eec-8f68-f27242b04416": {
+    "en": "Would you let your partner read your Instagram DMs?",
+    "text": "Mag je partner jouw Instagram-DM's lezen?"
+  },
+  "dbc65ae7-6de1-4c22-a234-30dfe8df9e83": {
+    "en": "Would you start a serious relationship with someone you met on social media?",
+    "text": "Zou je een serieuze relatie beginnen met iemand die je via social media hebt leren kennen?"
+  },
+  "1049e2d0-ff17-4ee1-ab4f-f85fe3f9b87c": {
+    "en": "Would you control your partner's Instagram posts?",
+    "text": "Zou je de Instagram-posts van je partner controleren?"
+  },
+  "a62df855-633d-493b-8ab3-2550e3b3365e": {
+    "en": "If your partner is online but doesn't reply, would it cause a fight?",
+    "text": "Als je partner online is maar niet reageert, wordt dat dan ruzie?"
+  },
+  "ae38b2a8-6c8a-4e8c-a318-b1e20f4aa648": {
+    "en": "In the future, would you consider marrying someone who has been with more people than you?",
+    "text": "Zou je later overwegen te trouwen met iemand die met meer mensen naar bed is geweest dan jij?"
+  },
+  "3854250e-4b69-4774-8b6a-a2e7d388e9cf": {
+    "en": "Have you ever forgiven someone who cheated on you?",
+    "text": "Heb je ooit iemand vergeven die je had bedrogen?"
+  },
+  "fbdb80de-c188-405f-82b0-4e79741032fb": {
+    "en": "Do you believe that everyone deserves a second chance, regardless of what they did?",
+    "text": "Verdient iedereen volgens jou een tweede kans, wat iemand ook gedaan heeft?"
+  },
+  "f3b3010c-c0bd-47ed-a4bf-e62dd8e2006f": {
+    "en": "Would you give up your biggest passion in life for someone you love?",
+    "text": "Zou je je grootste passie opgeven voor iemand van wie je houdt?"
+  },
+  "fdb7ee23-84ac-47e3-82cc-e99cfdc6faef": {
+    "en": "Do you believe that people can truly change their core personality over time?",
+    "text": "Geloof je dat mensen hun karakter in de loop van de tijd echt kunnen veranderen?"
+  },
+  "c29fa0f5-b83a-4d47-b83a-23415dbccd57": {
+    "en": "Would it bother you if your partner was the only woman/man in a large group of friends?",
+    "text": "Zou het je storen als je partner in een grote vriendengroep de enige vrouw of de enige man was?",
+    "flagged": true,
+    "note": "Source has 'woman/man'; rendered as 'vrouw of man' (no slash form). Means 'only one of their gender in the group'; reviewer may prefer a rephrase."
+  },
+  "8a608656-6f0c-4340-a4ea-9946910b72b5": {
+    "en": "In the future, would you choose a partner who wants to save money for the future or a partner who prefers to enjoy spending in the present?",
+    "text": "Kies je later voor een partner die spaart voor de toekomst of eentje die nu graag geld uitgeeft?",
+    "answers": [
+      "Sparen voor later",
+      "Nu genieten en uitgeven"
+    ]
+  },
+  "23c84c87-92c4-43a2-8803-f5f70ee8691a": {
+    "en": "Would you date someone who loves nightlife?",
+    "text": "Zou je daten met iemand die dol is op het nachtleven?"
+  },
+  "ce87d138-4cfa-4aee-9758-29ca3d1b954b": {
+    "en": "Do you believe that everything that will happen to you is already written?",
+    "text": "Geloof je dat alles wat je gaat overkomen al vastligt?"
+  },
+  "3decdc82-9ae0-4505-91f6-6302b5c53c41": {
+    "en": "Would you date someone who constantly needs your attention?",
+    "text": "Zou je daten met iemand die constant jouw aandacht nodig heeft?"
+  },
+  "706d8700-739b-47ae-9dd1-dce16f162a07": {
+    "en": "Would you date someone who is stingy?",
+    "text": "Zou je daten met iemand die gierig is?"
+  },
+  "0b4812d9-d4b8-4f65-8890-54552b41ef89": {
+    "en": "Would you date someone whose voice you don't like?",
+    "text": "Zou je daten met iemand van wie je de stem niet mooi vindt?"
+  },
+  "001a4314-020a-4324-a750-caa1ad0bc9e4": {
+    "en": "Would you want your partner to delete their old social media posts?",
+    "text": "Zou je willen dat je partner oude socialmediaposts verwijdert?"
+  },
+  "0d6447bb-6e82-460a-b04d-5d2f003696e4": {
+    "en": "In the future, would you include your partner in all of your life plans?",
+    "text": "Zou je je partner later bij al je levensplannen betrekken?"
+  },
+  "6d5ea62e-65a1-4df6-945b-5f285684a863": {
+    "en": "Would you date someone who doesn't like reading books?",
+    "text": "Zou je daten met iemand die niet graag leest?"
+  },
+  "ac395c4f-0f1f-409a-b052-949dc725b2d7": {
+    "en": "Would you date someone who is unemployed?",
+    "text": "Zou je daten met iemand die werkloos is?"
+  },
+  "5bad6b2a-f446-40b8-80eb-1eb297558aaf": {
+    "en": "Have you ever kept talking to someone you didn't like just for attention?",
+    "text": "Ben je weleens blijven praten met iemand die je niet leuk vond, alleen voor de aandacht?"
+  },
+  "2ea3cafa-eafd-4846-ae37-6b1bd3b0afe0": {
+    "en": "Do you expect your partner to remember all the special dates in your relationship?",
+    "text": "Verwacht je dat je partner alle speciale dagen van jullie relatie onthoudt?"
+  },
+  "69756540-7f71-4731-b79c-4eb07fe1da71": {
+    "en": "Have you ever imagined what kind of wedding you would have?",
+    "text": "Heb je je weleens voorgesteld hoe je bruiloft eruit zou zien?"
+  },
+  "fe1b8a27-eb1b-4098-a0a4-914e39ab95eb": {
+    "en": "Is it a problem for you if your partner is not at the same intellectual level as you?",
+    "text": "Is het een probleem als je partner niet op hetzelfde intellectuele niveau zit als jij?"
+  },
+  "86fdbda3-1523-4d06-9d8c-07124f41ef2f": {
+    "en": "Have you ever used a dating app?",
+    "text": "Heb je weleens een datingapp gebruikt?"
+  },
+  "93527a98-af04-46b4-ac9c-fa8ef3187751": {
+    "en": "In the future, would it be a problem for you if the person you want to marry already had a child with someone else?",
+    "text": "Zou het later een probleem voor je zijn als de persoon met wie je wilt trouwen al een kind met iemand anders heeft?"
+  },
+  "edf7a999-9c89-4253-9fd5-b1ef5ab799ed": {
+    "en": "Does love have an age limit?",
+    "text": "Heeft liefde een leeftijdsgrens?"
+  },
+  "e635d076-0016-4987-9d87-f888b2e841ad": {
+    "en": "Is it a problem for you if your partner does not like reading books?",
+    "text": "Is het een probleem voor je als je partner niet van lezen houdt?"
+  },
+  "79e8a155-3eb1-4fd5-89a7-b2848c75044b": {
+    "en": "Have you ever fallen in love with someone you shouldn’t have?",
+    "text": "Ben je ooit verliefd geworden op iemand op wie dat eigenlijk niet mocht?"
+  },
+  "c141b0f8-c822-4fda-b966-2d0bfccab391": {
+    "en": "Would you rather your partner discover your flaws early on or bit by bit?",
+    "text": "Wil je dat je partner je minpunten meteen ontdekt of beetje bij beetje?",
+    "answers": [
+      "Meteen",
+      "Beetje bij beetje"
+    ]
+  },
+  "60fa63d8-776a-4cf9-91fa-806954a2c37c": {
+    "en": "Ambitious career growth where we’re busy, or a slower, balanced life with more time together?",
+    "text": "Een ambitieuze carrière waarbij we het druk hebben, of een rustiger leven met meer tijd samen?",
+    "answers": [
+      "Ambitieuze carrière",
+      "Rustig leven"
+    ]
+  },
+  "4aec1675-cf2f-4623-9c75-47bc416fb320": {
+    "en": "Would you act cold on purpose to impress someone you like?",
+    "text": "Zou je expres koeltjes doen om indruk te maken op iemand die je leuk vindt?"
+  },
+  "1613d859-b83f-4783-aa2d-695aadcc9bc2": {
+    "en": "Have you ever done something silly to get over a breakup?",
+    "text": "Heb je ooit iets geks gedaan om over een relatiebreuk heen te komen?"
+  },
+  "7183b9a1-aaff-4c67-a4a6-e86933246045": {
+    "en": "Is it important for you to have the same taste in food as your partner?",
+    "text": "Vind je het belangrijk dat je partner dezelfde smaak in eten heeft als jij?",
+    "answers": [
+      "Belangrijk",
+      "Niet belangrijk"
+    ]
+  },
+  "17ab270c-0960-4272-bef3-497c0338069f": {
+    "en": "Would you rather share all passwords and locations for total trust, or keep some digital privacy for independence?",
+    "text": "Alle wachtwoorden en locaties delen voor volledig vertrouwen, of een beetje digitale privacy houden voor je vrijheid?",
+    "answers": [
+      "Volledige openheid",
+      "Digitale privacy"
+    ]
+  },
+  "ebc6c164-d692-4a9a-b39e-76ed5c8b4435": {
+    "en": "Would you lie to your partner just to make them happy?",
+    "text": "Zou je tegen je partner liegen, alleen om je partner blij te maken?"
+  },
+  "54c4d6cd-73cc-47f0-b70b-da72232dad98": {
+    "en": "Would you seek revenge on a partner who cheated on you?",
+    "text": "Zou je wraak nemen op een partner die is vreemdgegaan?"
+  },
+  "39450fcf-8356-4078-b219-8cb06da5af79": {
+    "en": "If you stayed single for a long time, would you lower your standards to be with someone?",
+    "text": "Als je heel lang single was, zou je dan de lat lager leggen om met iemand samen te zijn?"
+  },
+  "a041fab5-92d4-4a5f-be2f-b957f329b5bd": {
+    "en": "Your partner talking about their past relationships...",
+    "text": "Als je partner over vorige relaties vertelt, is dat…",
+    "answers": [
+      "Normaal en nodig",
+      "Onnodig en schadelijk"
+    ]
+  },
+  "65a85275-79ea-4d17-8c24-c1eb58cbcd86": {
+    "en": "Is texting every day with your partner necessary for you?",
+    "text": "Is elke dag appen met je partner voor jou een must?"
+  },
+  "c5d257bf-030a-472a-bd4c-a2d48ae36e84": {
+    "en": "Would you date someone your friends don't consider a good physical match for you?",
+    "text": "Zou je daten met iemand die volgens je vrienden qua uiterlijk niet bij je past?"
+  },
+  "289535a4-8bd1-40f3-b08b-3a922499bbb7": {
+    "en": "Would you date someone who is famous online?",
+    "text": "Zou je daten met iemand die online bekend is?"
+  },
+  "b1acfbe5-f3af-4497-a227-9d505804fc19": {
+    "en": "Would you date someone who is very flirtatious?",
+    "text": "Zou je daten met iemand die heel flirterig is?"
+  },
+  "c5360398-4fae-4217-b9a9-688f74fe7070": {
+    "en": "Do you believe in love at first sight?",
+    "text": "Geloof je in liefde op het eerste gezicht?"
+  },
+  "2ee5b9b7-f944-4184-95fa-6126fc6e3728": {
+    "en": "Is physical attractiveness more important to you than intelligence?",
+    "text": "Vind je uiterlijk belangrijker dan intelligentie?"
+  },
+  "e6bbcb00-c081-42da-8fa3-49ddc918d36d": {
+    "en": "Have you ever had a period when you were very flirty?",
+    "text": "Heb je ooit een periode gehad waarin je heel veel flirtte?"
+  },
+  "a0104269-bc85-49c8-ab80-c42c0378b7a1": {
+    "en": "If your friends don't like your partner, would it make you lose interest in them?",
+    "text": "Als je vrienden je partner niet mogen, zou je dan op je partner afknappen?"
+  },
+  "2f245f8d-f7f9-44a4-a1ef-70380caf5c51": {
+    "en": "Do you think long-term friends can become romantic partners later?",
+    "text": "Denk je dat jarenlange vrienden later een stel kunnen worden?"
+  },
+  "40004a65-7deb-4d2e-894f-c10ac0c02ede": {
+    "en": "If your friend were romantically attracted to you, would you give them a chance?",
+    "text": "Als iemand uit je vriendengroep verliefd op je zou zijn, zou je die persoon een kans geven?"
+  },
+  "7ee41bf9-fa8d-42ab-a4a5-25bd110543e0": {
+    "en": "If you stopped trying in your relationship, would your partner still stay?",
+    "text": "Als je geen moeite meer zou doen in je relatie, zou je partner dan toch blijven?"
+  },
+  "b1eea995-fbe7-4313-be08-f61522b35b5a": {
+    "en": "If your partner wanted to make a TikTok video with you for a trend, would you agree?",
+    "text": "Als je partner samen met jou een TikTok-video voor een trend wil maken, doe je dan mee?"
+  },
+  "2a9a3787-2ade-4db3-a8ca-ac97c25f2a80": {
+    "en": "If you fell out of love, would you stay for the sake of history?",
+    "text": "Als je niet meer verliefd was, zou je dan blijven om alles wat jullie samen hebben meegemaakt?"
+  },
+  "c76d7425-b712-41a8-8a78-e20b3844a382": {
+    "en": "Should the man make the first move?",
+    "text": "Moet de man de eerste stap zetten?",
+    "flagged": true,
+    "note": "Source itself asks about gender roles in general (not about the players); kept as an opinion question."
+  },
+  "e8dd11c5-218b-4d77-a137-0444c87fff31": {
+    "en": "If you looked a lot like your partner's ex, would it bother you?",
+    "text": "Zou het je storen als je sterk lijkt op de ex van je partner?"
+  },
+  "69535b7c-b94c-4ebc-95b0-5fa46b811906": {
+    "en": "If your partner wanted to read your messages with your friend group, would you let them?",
+    "text": "Als je partner je berichten in de groepsapp met je vrienden wil lezen, mag dat dan?"
+  },
+  "308773bf-cdf6-4b94-ad4b-f180e08e5163": {
+    "en": "If your partner is a big fan of a celebrity of the opposite sex, would it be a problem?",
+    "text": "Als je partner een grote fan is van een beroemdheid van het andere geslacht, is dat dan een probleem?"
+  },
+  "22a15b58-da54-4651-8f7e-1fe19d7759bb": {
+    "en": "What is harder to rebuild after it is broken?",
+    "text": "Wat is moeilijker te herstellen als het eenmaal kapot is?",
+    "answers": [
+      "Vertrouwen",
+      "Respect"
+    ]
+  },
+  "3576a2e2-2091-4b80-be80-5ab444b547cd": {
+    "en": "Would you live in the same house with a friend of the opposite sex while having a partner?",
+    "text": "Zou je met een vriend of vriendin van het andere geslacht samenwonen terwijl je een partner hebt?",
+    "note": "'vriend of vriendin' refers to a third person, not the partner or players."
+  },
+  "a174d015-ea8e-438b-b656-4f2fd4c4d34a": {
+    "en": "Do you constantly check your partner's social media followers and who they follow?",
+    "text": "Check je constant de volgers van je partner en wie je partner zelf volgt op social media?"
+  },
+  "9dbad2cb-e77a-4d79-ab55-a910ff298ae6": {
+    "en": "Have you ever ghosted any of your flirts before?",
+    "text": "Heb je ooit iemand geghost met wie je aan het flirten was?"
+  },
+  "40f38dbd-3632-412b-8639-66caf198eccb": {
+    "en": "Would you prefer a passionate but argumentative relationship over a calm and romantic one?",
+    "text": "Heb je liever een gepassioneerde relatie met veel ruzie dan een rustige, romantische?"
+  },
+  "e79b86a4-0b67-4524-863e-99c6afe7244b": {
+    "en": "Do you constantly stalk someone you're attracted to?",
+    "text": "Stalk je iemand die je leuk vindt de hele tijd online?"
+  },
+  "f60eb06e-d599-4397-9b8e-d998cf3aa387": {
+    "en": "Would you stop talking to a friend who finds you attractive if your partner asked you to?",
+    "text": "Zou je het contact verbreken met een vriend of vriendin die jou aantrekkelijk vindt, als je partner daarom vraagt?"
+  },
+  "88d9192e-4744-437f-a872-d8506811e724": {
+    "en": "Would you like it if your partner told you every time someone hit on them?",
+    "text": "Zou je het fijn vinden als je partner het je elke keer vertelt als iemand avances maakt?"
+  },
+  "ac9241fd-9c2f-4660-b29f-54b5f376e587": {
+    "en": "If your best friend and partner met without telling you, would you get jealous?",
+    "text": "Als je beste vriend of vriendin en je partner afspreken zonder het jou te vertellen, zou je dan jaloers worden?"
+  },
+  "2f3ce1da-32a3-4290-bfed-f7010eceef7f": {
+    "en": "Would you go on a double date with someone you don't like just for your friend?",
+    "text": "Zou je voor een vriend of vriendin op een dubbele date gaan, ook al vind je je date niks?"
+  },
+  "70d85605-9926-497a-bc33-8f1f160a767b": {
+    "en": "If both you and your friend liked the same person, would you be the one to step back?",
+    "text": "Als jij en iemand uit je vriendengroep op dezelfde persoon vallen, zou jij dan een stap terug doen?"
+  },
+  "c721139f-fab6-47e1-a92a-ac02286c6f63": {
+    "en": "Is a good friendship better than a good romantic relationship?",
+    "text": "Is een goede vriendschap beter dan een goede relatie?"
+  },
+  "8859ae1e-8d5b-42ae-b6c0-58f9db24d4e6": {
+    "en": "Would you try to find someone else immediately after breaking up to forget your partner?",
+    "text": "Zou je na een relatiebreuk meteen iemand anders zoeken om je ex te vergeten?"
+  },
+  "eb40b9fd-6df9-4f75-973c-88fd188c976a": {
+    "en": "Have you ever been with someone who wasn't very smart but was very attractive?",
+    "text": "Heb je ooit iets gehad met iemand die niet zo slim was, maar wel heel aantrekkelijk?"
+  },
+  "225fc433-ee24-4a08-a284-549ba829e019": {
+    "en": "Have you ever tried a relationship with someone just because they liked you, even if you weren’t very into them?",
+    "text": "Ben je ooit een relatie aangegaan alleen omdat iemand jou leuk vond, terwijl jij niet zo verliefd was?"
+  },
+  "6b4a33bb-950c-4e92-b374-36b9671321b2": {
+    "en": "Would you date someone who strongly believes in zodiac signs?",
+    "text": "Zou je daten met iemand die heel erg in sterrenbeelden gelooft?"
+  },
+  "c50d0e1f-0a2d-43a9-8770-bcf5d941ef75": {
+    "en": "Is your partner's sexual ability an important factor for you?",
+    "text": "Is het voor jou belangrijk hoe goed je partner in bed is?"
+  },
+  "f1a8d83b-d35c-43e5-b186-0b32e3f7b451": {
+    "en": "Would you continue a relationship with someone who isn't very skilled sexually?",
+    "text": "Zou je bij iemand blijven die niet zo goed is in bed?"
+  },
+  "d53cac0d-e7f5-4db7-ac2d-b7e17ffa702c": {
+    "en": "Would it bother you if your partner's close friend of the opposite sex is very attractive?",
+    "text": "Zou het je storen als je partner een goede vriend of vriendin van het andere geslacht heeft die heel aantrekkelijk is?"
+  },
+  "a1f43837-d310-4c12-8369-557c27f561fc": {
+    "en": "Is it a problem for you if your partner has a very high libido?",
+    "text": "Is het een probleem voor je als je partner een heel hoog libido heeft?"
+  },
+  "6c5538e2-5508-4b67-a9ea-a489348c4c37": {
+    "en": "Is it a problem for you if your partner has a low libido?",
+    "text": "Is het een probleem voor je als je partner een laag libido heeft?"
+  },
+  "a10af84c-2ef5-49d4-8905-9088ce451ce5": {
+    "en": "Is it important to you how your partner earns a living?",
+    "text": "Vind je het belangrijk waarmee je partner de kost verdient?"
+  },
+  "6aaee788-917c-4ee2-8a9a-9cca6a9c69f7": {
+    "en": "Have you ever had feelings for a friend’s ex?",
+    "text": "Heb je ooit gevoelens gehad voor de ex van een vriend of vriendin?"
+  },
+  "eea3c3ff-7e4d-47bd-afff-b4e7461f0ec2": {
+    "en": "Have you ever pretended to be sick to avoid a date?",
+    "text": "Heb je ooit gedaan alsof je ziek was om onder een date uit te komen?"
+  },
+  "712df3cd-471a-4405-9e76-d54832abbcc4": {
+    "en": "Have you ever changed a feature just because someone wanted it?",
+    "text": "Heb je ooit iets aan jezelf veranderd alleen omdat iemand anders dat wilde?"
+  },
+  "9314d50f-94c5-418b-815c-f36bede1a87f": {
+    "en": "Do you think it's normal in a relationship to know your partner's social media passwords?",
+    "text": "Vind je het normaal om in een relatie de socialmediawachtwoorden van je partner te kennen?"
+  },
+  "7f9d30fa-6891-460d-a0b5-34d836cff571": {
+    "en": "Does your partner staying silent during an argument make you more angry?",
+    "text": "Word je bozer als je partner stil blijft tijdens een ruzie?"
+  },
+  "8ae7a335-ee23-4949-91da-d79b1a50e8f5": {
+    "en": "Does it bother you if your partner constantly deletes messages on their phone?",
+    "text": "Stoort het je als je partner steeds berichten van de telefoon verwijdert?"
+  },
+  "a6b504e5-84cd-460b-b095-9cb3103dbdb0": {
+    "en": "Do you think a person's closest friend should be their partner?",
+    "text": "Vind je dat je partner ook je beste vriend of vriendin moet zijn?"
+  },
+  "0fbdca85-41a4-499a-931d-8491a38e651b": {
+    "en": "Do you think differences in religion and race make a relationship more difficult?",
+    "text": "Denk je dat verschillen in geloof en afkomst een relatie moeilijker maken?",
+    "note": "'race' rendered as 'afkomst' (background); 'ras' sounds harsh in Dutch."
+  },
+  "2084f3b0-b540-4c5f-a400-f9f0d46a7310": {
+    "en": "Which one do you find more attractive: intelligence or body?",
+    "text": "Wat vind je aantrekkelijker: intelligentie of een mooi lichaam?",
+    "answers": [
+      "Intelligentie",
+      "Lichaam"
+    ]
+  },
+  "ebcc2753-cafa-4764-8de8-00c9e8c64d81": {
+    "en": "Which is worse: your partner cheating on you emotionally or physically?",
+    "text": "Wat is erger: als je partner emotioneel of fysiek vreemdgaat?",
+    "answers": [
+      "Emotioneel",
+      "Fysiek"
+    ]
+  },
+  "63b32ee8-1fa7-4e8a-8e78-a4e97cac10d7": {
+    "en": "Which would bother you more: your partner being overly honest or sometimes hiding their feelings?",
+    "text": "Wat zou je meer storen: een partner die té eerlijk is, of eentje die soms gevoelens verbergt?",
+    "answers": [
+      "Te eerlijk zijn",
+      "Gevoelens verbergen"
+    ]
+  },
+  "df254cfe-4e09-4956-92ce-5d706c4c7d50": {
+    "en": "Can your partner restrict you in certain situations?",
+    "text": "Mag je partner je in bepaalde situaties dingen verbieden?"
+  },
+  "779c01e5-9ba2-48ed-84f5-747084bda093": {
+    "en": "Does your partner have to share a photo with you on their social media accounts?",
+    "text": "Moet je partner een foto met jou op social media zetten?"
+  },
+  "7dfca2ae-4653-499b-8b35-8409ac9cb8e5": {
+    "en": "Would you be with someone who has been married before?",
+    "text": "Zou je iets beginnen met iemand die al eens getrouwd is geweest?"
+  },
+  "ecb7bf85-0455-46c5-9045-8c485aa6c8d6": {
+    "en": "Would you be with someone whose previous relationship ended very recently?",
+    "text": "Zou je iets beginnen met iemand van wie de vorige relatie net voorbij is?"
+  },
+  "7713469e-5c7c-4081-885e-784fcefc308b": {
+    "en": "If you really liked a piece of clothing, would you buy it even if it was very expensive?",
+    "text": "Als je een kledingstuk echt mooi vindt, koop je het dan ook als het heel duur is?"
+  },
+  "a25b6694-0388-469a-80c3-1a065d4641da": {
+    "en": "Would you be with someone who never likes cooking and always eats out?",
+    "text": "Zou je iets beginnen met iemand die een hekel heeft aan koken en altijd buiten de deur eet?"
+  },
+  "9106e2f1-c28e-4b6d-a27f-3ac47f185e39": {
+    "en": "Do you think your ex-partner should be removed from social media accounts?",
+    "text": "Vind je dat je een ex van je social media moet verwijderen?"
+  },
+  "1d7b03f4-df47-452a-8a54-1b98528dd75a": {
+    "en": "Would you want to have had only one partner since high school and married them?",
+    "text": "Zou je willen dat je sinds de middelbare school maar één partner had gehad en met die persoon getrouwd was?"
+  },
+  "e371edc7-ba67-4d14-8fa7-dad00b7d6b31": {
+    "en": "Would you start a relationship with someone you love but doubt their loyalty?",
+    "text": "Zou je een relatie beginnen met iemand van wie je houdt, terwijl je twijfelt of die wel trouw is?"
+  },
+  "36c6f327-8de2-42ed-8165-752c783ae56d": {
+    "en": "Do you think it's normal for someone to have other flirts while in a flirtation period with you?",
+    "text": "Vind je het normaal als iemand met wie je aan het daten bent, ook met anderen flirt?"
+  },
+  "c7aec6af-0246-41d9-bcc6-ce59c3b9403e": {
+    "en": "Would you be suspicious of someone who always places their phone face down on the table when going to the bathroom?",
+    "text": "Zou je iemand wantrouwen die bij elk toiletbezoek de telefoon omgekeerd op tafel legt?"
+  },
+  "b0f272c0-ca82-4663-bc78-6c406bb5b831": {
+    "en": "Have you ever completely cut off a relationship over something trivial?",
+    "text": "Heb je ooit een relatie volledig verbroken om iets onbenulligs?"
+  },
+  "c70818b5-97c6-4134-8b6e-94b01052f279": {
+    "en": "Would you feel turned off if your partner refused to drink from the same bottle as you?",
+    "text": "Zou je afknappen als je partner weigert uit dezelfde fles te drinken als jij?"
+  },
+  "4c354718-87c5-46d1-b2d7-733646f06068": {
+    "en": "Is it okay for your partner to treat a friend of the opposite sex to a meal?",
+    "text": "Mag je partner een vriend of vriendin van het andere geslacht trakteren op een etentje?"
+  },
+  "29870733-c386-448b-82a7-a2f059a50ba4": {
+    "en": "Is it okay for your partner to meet one-on-one with a friend of the opposite sex?",
+    "text": "Mag je partner één-op-één afspreken met een vriend of vriendin van het andere geslacht?"
+  },
+  "e392db65-9315-4f83-8930-34c5a450b24a": {
+    "en": "Would you get upset if your partner refused to show you their messages with a friend of the opposite sex?",
+    "text": "Zou je boos worden als je partner de berichten met een vriend of vriendin van het andere geslacht niet wil laten zien?"
+  },
+  "1b878572-51f3-4ef5-b869-57695d5b4bba": {
+    "en": "Is it okay for your partner to buy coffee for a friend of the opposite sex?",
+    "text": "Mag je partner een vriend of vriendin van het andere geslacht op koffie trakteren?"
+  },
+  "1338669a-0f18-42d9-b936-97fa0009639f": {
+    "en": "Would you want to know everything about your partner’s past or only the necessary parts?",
+    "text": "Wil je alles weten over het verleden van je partner, of alleen het nodige?",
+    "answers": [
+      "Alles",
+      "Alleen het nodige"
+    ]
+  },
+  "35f1ccbf-5cf0-4b91-b844-cdc93470350c": {
+    "en": "Jealousy between you and your partner...",
+    "text": "Jaloezie tussen jou en je partner is…",
+    "answers": [
+      "Eigenlijk wel schattig",
+      "Slecht voor de relatie"
+    ]
+  },
+  "b60dd292-09bb-4403-8129-eceb964a89bb": {
+    "en": "Who texts first in a relationship...",
+    "text": "Wie in een relatie als eerste appt…",
+    "answers": [
+      "Moet in balans zijn",
+      "Zou niet uit moeten maken"
+    ]
+  },
+  "8a5c8ef1-6310-4d06-8af8-e41508b1d9af": {
+    "en": "What's the ideal length of a first date, in hours?",
+    "text": "Hoeveel uur duurt een ideale eerste date?"
+  },
+  "3038d09c-8a48-432e-8f6a-3173cdf1b0f3": {
+    "en": "After how many dates is a first kiss okay?",
+    "text": "Na hoeveel dates is een eerste kus oké?"
+  },
+  "3a7b78ae-2cd0-461c-a69f-f2f5e35d2593": {
+    "en": "What's the best time of day for a first date?",
+    "text": "Wat is het beste moment van de dag voor een eerste date?"
+  },
+  "8488f194-3774-470b-ac98-dfab1027a149": {
+    "en": "How many days should you wait before asking for a second date?",
+    "text": "Hoeveel dagen moet je wachten voordat je om een tweede date vraagt?"
+  },
+  "00d225ad-05d7-4044-9a9a-f002791aa06b": {
+    "en": "What's a good age gap in a relationship, in years?",
+    "text": "Hoeveel jaar is een goed leeftijdsverschil in een relatie?"
+  },
+  "52369eca-4691-4ff4-ba5c-db44489ab01d": {
+    "en": "How often should new couples text each day?",
+    "text": "Hoe vaak per dag moeten nieuwe stelletjes elkaar appen?"
+  },
+  "0e7b5127-24d4-48bc-b454-f43ae9fade2d": {
+    "en": "After how many dates is staying over okay?",
+    "text": "Na hoeveel dates is blijven slapen oké?"
+  },
+  "831590be-5c22-4b45-b378-5794e75e0f56": {
+    "en": "How many minutes late is acceptable on a first date?",
+    "text": "Hoeveel minuten te laat komen is oké bij een eerste date?"
+  },
+  "7192abf5-e884-4f12-80e1-1d0b1a96e8c0": {
+    "en": "How many exes is too many?",
+    "text": "Hoeveel exen zijn te veel?"
+  },
+  "f8ed25d1-90b1-4de2-a09b-6adbf13a1e81": {
+    "en": "How long should you talk before meeting in person, in days?",
+    "text": "Hoeveel dagen moet je chatten voordat je elkaar in het echt ziet?"
+  },
+  "38f9ad51-d981-4adf-94a0-90ebe2900c76": {
+    "en": "What should you never order on a first date?",
+    "text": "Wat moet je nooit bestellen op een eerste date?"
+  },
+  "ebed3fec-e1ae-4368-8a0e-4e4dd4e78af9": {
+    "en": "What pet name do you use most for your partner?",
+    "text": "Welk koosnaampje gebruik je het vaakst voor je partner?"
+  },
+  "d14e2f10-7c81-43cd-be66-3e778564a465": {
+    "en": "What's the max number of past flirts your partner could have before it turns you off?",
+    "text": "Hoeveel eerdere flirts mag je partner maximaal hebben gehad voordat je afknapt?"
+  },
+  "010dfc92-9c21-441a-a0f5-b159412b70a2": {
+    "en": "How many years in a past relationship would turn you off? Write 0 if none would.",
+    "text": "Bij hoeveel jaar in een vorige relatie van je partner knap je af? Vul 0 in als dat niet uitmaakt."
+  },
+  "9cd5fd8b-3a6e-4b0f-a091-7d8612fb213f": {
+    "en": "What should your partner never call you?",
+    "text": "Hoe mag je partner je nooit noemen?"
+  },
+  "87658e97-ac2e-44a5-b542-433a08e7aabd": {
+    "en": "What do you most want your partner to call you?",
+    "text": "Hoe wil je het liefst dat je partner je noemt?"
+  },
+  "763e922e-ab9e-4f6f-827e-693af2a26f4d": {
+    "en": "After how many years together would you want to move in?",
+    "text": "Na hoeveel jaar samen zou je willen samenwonen?"
+  },
+  "77c7dd5e-0ffd-4698-b393-0ff78d1e213b": {
+    "en": "After how many months would you want to meet their family?",
+    "text": "Na hoeveel maanden zou je de familie van je partner willen ontmoeten?"
+  },
+  "595fa92e-a25b-4dc9-8f78-4550f1d8608f": {
+    "en": "After how many years of marriage would you want kids?",
+    "text": "Na hoeveel jaar huwelijk zou je kinderen willen?"
+  },
+  "3a380d3f-8123-4e99-b4f3-e7d2ec4ff655": {
+    "en": "What's your ideal first date?",
+    "text": "Wat is je ideale eerste date?",
+    "answers": [
+      "Koffie",
+      "Een wandeling",
+      "Uit eten",
+      "Iets drinken"
+    ]
+  },
+  "804c67c5-9dd5-4bf0-9448-3e0ab96b2928": {
+    "en": "Someone you're talking to takes two days to reply. What do you do?",
+    "text": "Iemand met wie je contact hebt, doet twee dagen over een antwoord. Wat doe je?",
+    "answers": [
+      "Gewoon afwachten",
+      "Een luchtig berichtje sturen",
+      "Net zo traag terugappen",
+      "Je interesse verliezen"
+    ]
+  },
+  "6edf2d1a-551c-4860-991c-3fb9641f6085": {
+    "en": "How should a good first date end?",
+    "text": "Hoe hoort een goede eerste date te eindigen?",
+    "answers": [
+      "Met een knuffel",
+      "Met een kus",
+      "Met een concreet plan voor date twee",
+      "Gewoon gedag, voor nu"
+    ]
+  },
+  "4f7b735e-59a7-4eeb-bcaa-43853cdf224a": {
+    "en": "Where's your phone on a first date?",
+    "text": "Waar is je telefoon tijdens een eerste date?",
+    "answers": [
+      "In je tas of broekzak",
+      "Omgekeerd op tafel",
+      "Op stil, binnen handbereik",
+      "Je merkt hem amper op"
+    ]
+  },
+  "10ca97e0-e294-417e-84be-a586b2a6e65c": {
+    "en": "Who should plan the second date?",
+    "text": "Wie hoort de tweede date te plannen?",
+    "answers": [
+      "Wie om de eerste date vroeg",
+      "Deze keer de ander",
+      "Wie de meeste tijd heeft",
+      "Samen plannen"
+    ]
+  },
+  "15087f4a-b129-4ded-bda9-9b8e9f2ce9c9": {
+    "en": "The first date was fine, not amazing. What do you do?",
+    "text": "De eerste date was oké, niet geweldig. Wat doe je?",
+    "answers": [
+      "Nog een date proberen",
+      "Netjes ghosten",
+      "Zeggen dat het niet klikt",
+      "Blijven appen en kijken"
+    ]
+  },
+  "9d5474ab-62cf-433d-8a62-9cfe83a90018": {
+    "en": "How do you prefer to be asked out?",
+    "text": "Hoe word je het liefst mee uit gevraagd?",
+    "answers": [
+      "Persoonlijk",
+      "Via een berichtje",
+      "Met een concreet plan",
+      "Losjes, zonder druk"
+    ]
+  },
+  "46002351-0295-45f1-a0f9-322e2d7f98b9": {
+    "en": "They bring up their ex on the first date. What do you do?",
+    "text": "Op de eerste date begint je date al over de ex. Wat doe je?",
+    "answers": [
+      "Van onderwerp veranderen",
+      "Even luisteren",
+      "Eén vraag erover stellen",
+      "Je interesse verliezen"
+    ]
+  },
+  "a90fff4b-18ba-402c-920d-e141465c46fb": {
+    "en": "When do you tell friends you're seeing someone new?",
+    "text": "Wanneer vertel je vrienden dat je met iemand nieuw aan het daten bent?",
+    "answers": [
+      "Na de eerste date",
+      "Na een paar dates",
+      "Pas als het serieus voelt",
+      "Je houdt het een tijdje voor jezelf"
+    ]
+  },
+  "2afd06cc-aad0-4cd2-b85a-be260fc537a9": {
+    "en": "Their dating app lights up on the table during your date. What do you do?",
+    "text": "Tijdens jullie date krijgt je date een melding van een datingapp. Wat doe je?",
+    "answers": [
+      "Negeren",
+      "Er een grapje over maken",
+      "Er direct naar vragen",
+      "Je interesse verliezen"
+    ]
+  },
+  "80a133aa-e818-4387-ba13-6d18f3eca48c": {
+    "en": "An awkward silence hits for 20 seconds. What do you do?",
+    "text": "Er valt een ongemakkelijke stilte van 20 seconden. Wat doe je?",
+    "answers": [
+      "Een willekeurige vraag stellen",
+      "Een grap maken over de stilte",
+      "Er rustig in meegaan",
+      "Vanbinnen een beetje in paniek raken"
+    ]
+  },
+  "54ae559d-c747-4baa-b836-c2ac0f6d5914": {
+    "en": "You run into your ex during the date. What do you do?",
+    "text": "Je komt tijdens de date je ex tegen. Wat doe je?",
+    "answers": [
+      "Snel hoi zeggen en doorlopen",
+      "Ze kort aan elkaar voorstellen",
+      "Doen alsof je je ex niet ziet"
+    ]
+  },
+  "1862d1eb-0f5f-4433-b278-f78ae8e65a56": {
+    "en": "They order for you without asking. What do you do?",
+    "text": "Je date bestelt voor je zonder het te vragen. Wat doe je?",
+    "answers": [
+      "Gewoon meegaan",
+      "Het beleefd aanpassen",
+      "Zeggen dat het wat ver gaat"
+    ]
+  },
+  "b5794a9f-d967-4b5d-924b-08fde07181dd": {
+    "en": "Someone you're talking to sends you a 4-minute voice note. What do you do?",
+    "text": "Iemand met wie je contact hebt, stuurt je een spraakbericht van 4 minuten. Wat doe je?",
+    "answers": [
+      "Helemaal afluisteren",
+      "Op 1,5x afspelen",
+      "Terug inspreken",
+      "Vragen of het gewoon getypt kan"
+    ]
+  },
+  "11057121-36b1-4bec-8fe0-a951f48a59cb": {
+    "en": "Before your second date, they like a photo of yours from 2019. What do you do?",
+    "text": "Voor jullie tweede date liket je date een foto van jou uit 2019. Wat doe je?",
+    "answers": [
+      "Erom lachen",
+      "Een oude foto van je date terugliken",
+      "Er op de date mee plagen",
+      "Het een beetje creepy vinden"
+    ]
+  },
+  "2018faf7-7f62-4184-ab8d-f8daddf0c55b": {
+    "en": "You bump into each other at a friend's party. Nobody knows you've been seeing each other. What do you do?",
+    "text": "Jullie komen elkaar tegen op een feestje van vrienden. Niemand weet dat jullie iets hebben. Wat doe je?",
+    "answers": [
+      "Doen alsof jullie elkaar niet kennen",
+      "Gewoon hoi zeggen, niets laten merken",
+      "Meteen naar elkaar toe en samen blijven"
+    ]
+  },
+  "4186af00-6693-48c4-b037-597f68eca363": {
+    "en": "The day after your date, a mutual friend tells you they described the whole thing. How do you feel?",
+    "text": "De dag na jullie date hoor je via een gemeenschappelijke vriend dat je date alles heeft verteld. Hoe voel je je?",
+    "answers": [
+      "Gevleid",
+      "Benieuwd wat er gezegd is",
+      "Een beetje geïrriteerd",
+      "Geen punt, jij hebt het ook verteld"
+    ]
+  },
+  "90996073-0d83-444d-b35a-979f896c0b5a": {
+    "en": "You get home after a great first date. Neither of you has texted yet. What do you do?",
+    "text": "Je komt thuis na een geweldige eerste date. Jullie hebben elkaar nog niet geappt. Wat doe je?",
+    "answers": [
+      "Meteen een berichtje sturen",
+      "Wachten tot de ander eerst appt",
+      "Het tot morgen laten",
+      "Een story posten en kijken of je date kijkt"
+    ]
+  },
+  "585b6edd-f0f5-45dc-9b1a-70fadafc76c5": {
+    "en": "Which turns you off more on a first date: being rude to the waiter or never looking up from their phone?",
+    "text": "Waar knap je meer op af bij een eerste date: onbeleefd zijn tegen de bediening of continu op de telefoon zitten?",
+    "answers": [
+      "Onbeleefd tegen de bediening",
+      "Continu op de telefoon"
+    ]
+  },
+  "6fbf29f6-9fdd-469b-a49f-dceeae0f2960": {
+    "en": "Which turns you off more: talking only about themselves or never sharing anything about themselves?",
+    "text": "Waar knap je meer op af: alleen over zichzelf praten of nooit iets over zichzelf vertellen?",
+    "answers": [
+      "Praat alleen over zichzelf",
+      "Laat nooit iets los"
+    ]
+  },
+  "7d216358-afbd-4df9-bcbf-5dd6d671e303": {
+    "en": "Which turns you off more: a bad kiss or a boring conversation?",
+    "text": "Waar knap je meer op af: een slechte kus of een saai gesprek?",
+    "answers": [
+      "Een slechte kus",
+      "Een saai gesprek"
+    ]
+  },
+  "720a9cbc-8710-4872-80f2-53300dbadf6f": {
+    "en": "In the early days, which turns you off more: texting nonstop or barely texting at all?",
+    "text": "Waar knap je in het begin meer op af: nonstop appen of bijna niet appen?",
+    "answers": [
+      "Nonstop appen",
+      "Bijna niet appen"
+    ]
+  },
+  "3cf1a84d-e223-4e63-93d8-777459021597": {
+    "en": "Which turns you off more: turning everything into a joke or never getting a joke?",
+    "text": "Waar knap je meer op af: overal een grap van maken of nooit een grap snappen?",
+    "answers": [
+      "Maakt overal een grap van",
+      "Snapt nooit een grap"
+    ]
+  },
+  "fc011c5b-4593-4cc1-b280-0684ad82df8d": {
+    "en": "Which turns you off more: looking different from their photos or lying about their age on their profile?",
+    "text": "Waar knap je meer op af: er anders uitzien dan op de foto's of liegen over de leeftijd op het profiel?",
+    "answers": [
+      "Ziet er anders uit dan op de foto's",
+      "Liegt over de leeftijd"
+    ]
+  },
+  "ad06a964-fa58-4061-8344-79edf5b520d8": {
+    "en": "Which turns you off more: saying \"I don't mind\" to everything or having an opinion on everything?",
+    "text": "Waar knap je meer op af: overal “maakt niet uit” op zeggen of overal een mening over hebben?",
+    "answers": [
+      "Overal “maakt niet uit”",
+      "Overal een mening over"
+    ]
+  },
+  "4f531856-318c-487f-a619-fa0a59a99d7f": {
+    "en": "Which turns you off more: smelling bad or dressing badly?",
+    "text": "Waar knap je meer op af: slecht ruiken of slecht gekleed gaan?",
+    "answers": [
+      "Slecht ruiken",
+      "Slecht gekleed gaan"
+    ]
+  },
+  "ef9f4128-7b1c-403e-ad46-17990ee3ceef": {
+    "en": "Which turns you off more: telling their family everything or telling their family nothing?",
+    "text": "Waar knap je meer op af: thuis alles vertellen of thuis niks vertellen?",
+    "answers": [
+      "Vertelt thuis alles",
+      "Vertelt thuis niks"
+    ]
+  },
+  "b2e21ef2-40ff-43ce-8665-31fc326735d8": {
+    "en": "Which turns you off more: posting every moment on social media or having no social media at all?",
+    "text": "Waar knap je eerder op af: iemand die elk moment op social media zet of iemand zonder social media?",
+    "answers": [
+      "Zet elk moment online",
+      "Helemaal geen social media"
+    ]
+  },
+  "125f2188-cb75-4827-bba0-a5721c1d2e63": {
+    "en": "On the first date, they keep showing you photos of themselves. Out of 10, what score do they drop to?",
+    "text": "Je date laat je op de eerste date steeds foto's van zichzelf zien. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "abb96582-9c4f-4d8e-87c3-439282f14837": {
+    "en": "They bring a friend along to your first date. Out of 10, what score do they drop to?",
+    "text": "Je date neemt een vriend mee naar jullie eerste date. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "b94e3ab0-6f33-4e74-8909-a86affc709f8": {
+    "en": "Their texts are full of spelling mistakes. Out of 10, what score do they drop to?",
+    "text": "De appjes van je date zitten vol spelfouten. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "9dd33cdd-203d-49b4-ac8e-90c529ee3982": {
+    "en": "They chew with their mouth open on your date. Out of 10, what score do they drop to?",
+    "text": "Je date eet met open mond. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "f17f2378-b71d-448f-a910-91514691cbee": {
+    "en": "They call you \"babe\" on the first date. Out of 10, what score do they drop to?",
+    "text": "Je date noemt je op de eerste date al “schatje”. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "44d96acd-17b5-4b5f-a320-c1803fc73ed3": {
+    "en": "When the bill comes, they split it down to the last cent: \"I didn't have that drink.\" Out of 10, what score do they drop to?",
+    "text": "Bij de rekening wil je date alles tot op de cent splitsen: “Dat drankje had ik niet.” Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "ddf5199c-bd3b-4909-8d04-6f6e2951ffc6": {
+    "en": "Nobody can touch the food until they've taken a photo of it. Out of 10, what score do they drop to?",
+    "text": "Niemand mag het eten aanraken tot je date er een foto van heeft gemaakt. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "7511a7b3-1b46-4b57-add4-b6dced443721": {
+    "en": "Mid-date, they video-call their mom and introduce you. Out of 10, what score do they drop to?",
+    "text": "Midden op de date videobelt je date met mama en stelt je even voor. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "6273d5bb-2aa4-4236-9e4d-ad2b58f1d214": {
+    "en": "They let you pick the place, then complain about it all night. Out of 10, what score do they drop to?",
+    "text": "Je mag de plek kiezen, en dan klaagt je date er de hele avond over. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "4368d704-52f8-4d12-b05a-6ffe29f0c12c": {
+    "en": "They show up to your first date in sweatpants. Out of 10, what score do they drop to?",
+    "text": "Je date komt in joggingbroek naar jullie eerste date. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "0a291386-f57e-4cd1-8c4a-b585cbd08dfd": {
+    "en": "They reply to every text with a voice note. Out of 10, what score do they drop to?",
+    "text": "Je date reageert op elk appje met een spraakbericht. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "96a32a32-c92c-4e00-b24f-51b848ebecca": {
+    "en": "They talk about themselves in the third person. Out of 10, what score do they drop to?",
+    "text": "Je date praat over zichzelf in de derde persoon. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "0b6fd4c0-2fdb-4c43-812f-077f6dc0615b": {
+    "en": "They laugh so loud that the whole place turns to look. Out of 10, what score do they drop to?",
+    "text": "Je date lacht zo hard dat de hele zaak omkijkt. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "91a24e9e-a8a6-497f-b828-394c850e07b2": {
+    "en": "With someone new, which of these would you do first?",
+    "text": "Wat zou je met een nieuwe date als eerste doen?",
+    "answers": [
+      "Diegene in je story zetten",
+      "Voorstellen aan je vrienden",
+      "Een weekendje weggaan",
+      "Een gedeelde playlist maken"
+    ]
+  },
+  "76536319-97cd-490d-9836-5f8187f0d46f": {
+    "en": "When you start seeing someone, which comes first for you?",
+    "text": "Je begint met iemand te daten. Wat doe je als eerste?",
+    "answers": [
+      "Datingapps verwijderen",
+      "Je locatie delen",
+      "Het nummer opslaan met een hartje",
+      "Samen een foto posten"
+    ]
+  },
+  "f1ae02e8-b052-4b76-a32e-d4ce62d46246": {
+    "en": "With someone new, which would you be okay with first?",
+    "text": "Wat zou je bij een nieuwe date als eerste oké vinden?",
+    "answers": [
+      "Een tandenborstel bij jou laten staan",
+      "Langskomen als je ziek bent",
+      "Een reservesleutel hebben",
+      "Bij jou thuis blijven als je weg bent"
+    ]
+  },
+  "cd2b5109-18c4-46b4-8c38-1380eb70b2a2": {
+    "en": "With someone new, which would you do first?",
+    "text": "Wat zou je met een nieuwe date als eerste doen?",
+    "answers": [
+      "Huilen waar diegene bij is",
+      "Over geldproblemen praten",
+      "Je op je lelijkst laten zien",
+      "Iets vertellen wat je nog nooit iemand hebt verteld"
+    ]
+  },
+  "1bc66b63-cc8e-424a-80f4-c6b7b3bbba3c": {
+    "en": "When you start seeing someone, which would you do first?",
+    "text": "Je begint met iemand te daten. Wat zou je als eerste doen?",
+    "answers": [
+      "Uitnodigen voor je verjaardag",
+      "Als je +1 meenemen naar een bruiloft",
+      "Samen oudjaar vieren",
+      "Samen een vakantie plannen"
+    ]
+  },
+  "aed88a42-6f84-4456-8aa7-669766f78264": {
+    "en": "Which wins you over more: someone who makes you laugh or someone who really listens?",
+    "text": "Wat maakt meer indruk op je: iemand die je aan het lachen maakt of iemand die echt luistert?",
+    "answers": [
+      "Maakt je aan het lachen",
+      "Luistert echt"
+    ]
+  },
+  "a95cb18b-bd0a-42b1-b2d3-ad598f132ba6": {
+    "en": "Which wins you over more: a date planned down to the details or a spontaneous last-minute idea?",
+    "text": "Wat maakt meer indruk op je: een tot in de puntjes geplande date of een spontaan idee op het laatste moment?",
+    "answers": [
+      "Tot in de puntjes gepland",
+      "Een spontaan idee"
+    ]
+  },
+  "3d173579-d941-4634-b884-665b6e4fe6eb": {
+    "en": "Which wins you over more: remembering a small detail you mentioned or surprising you?",
+    "text": "Wat maakt meer indruk op je: een klein detail onthouden dat je ooit noemde of je verrassen?",
+    "answers": [
+      "Een klein detail onthouden",
+      "Je verrassen"
+    ]
+  },
+  "0b5becd8-64bd-4166-a997-e0a4e90d99f5": {
+    "en": "Which attracts you more: someone confident or someone a little shy?",
+    "text": "Op wie val je eerder: iemand met zelfvertrouwen of iemand die een beetje verlegen is?",
+    "answers": [
+      "Zelfverzekerd",
+      "Een beetje verlegen"
+    ]
+  },
+  "e1bf3858-7a28-4bb5-b306-cbb230ca1d89": {
+    "en": "Which attracts you more: a nice voice or a nice smile?",
+    "text": "Waar val je eerder voor: een mooie stem of een mooie glimlach?",
+    "answers": [
+      "Een mooie stem",
+      "Een mooie glimlach"
+    ]
+  },
+  "58cb7a84-520d-4e1e-a840-a01661805b2a": {
+    "en": "After how many weeks of talking should you have the \"what are we?\" talk?",
+    "text": "Na hoeveel weken contact is het tijd voor het “wat zijn we nou?”-gesprek?"
+  },
+  "e3bfce26-3369-44e3-8e06-8841c696cdcd": {
+    "en": "Where would you most like to meet someone new?",
+    "text": "Waar zou je het liefst iemand nieuw ontmoeten?",
+    "answers": [
+      "Op een datingapp",
+      "Via vrienden",
+      "Op een feestje of in een bar",
+      "Toevallig in het dagelijks leven",
+      "Via social media"
+    ]
+  },
+  "a4750d8e-f80d-409d-884b-a642b1b6dcd6": {
+    "en": "On the second date, they say \"I've never felt this way about anyone.\" What do you do?",
+    "text": "Op de tweede date zegt je date: “Zo heb ik me nog nooit bij iemand gevoeld.” Wat doe je?",
+    "answers": [
+      "Smelten, heerlijk",
+      "Gevleid, maar ik blijf voorzichtig",
+      "Red flag, veel te snel",
+      "Hetzelfde terugzeggen"
+    ]
+  },
+  "9ac2b9fd-533c-407e-b82b-6935fec25be7": {
+    "en": "On the first date, they ask how much you earn. Out of 10, what score do they drop to?",
+    "text": "Je date vraagt op de eerste date hoeveel je verdient. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "c0bef968-f505-44bc-87ab-8cbde316e110": {
+    "en": "On the first date, they pull out a discount coupon. Out of 10, what score do they drop to?",
+    "text": "Je date trekt op de eerste date een kortingsbon tevoorschijn. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "24b88807-660c-4370-a23b-c312eb1fa5d4": {
+    "en": "It's your third date and they still haven't tried to kiss you. What do you do?",
+    "text": "Het is jullie derde date en je date heeft nog steeds niet geprobeerd je te zoenen. Wat doe je?",
+    "answers": [
+      "Zelf de eerste stap zetten",
+      "Wachten, geen haast",
+      "Me afvragen of de interesse er wel is",
+      "Het gewoon vragen"
+    ]
+  },
+  "0f374e99-c247-4f9c-bbc6-59e5974d0741": {
+    "en": "They forget something you told them on your first date. How do you feel?",
+    "text": "Je date is iets vergeten wat je op jullie eerste date vertelde. Hoe voelt dat?",
+    "answers": [
+      "Niet zo erg",
+      "Een beetje teleurgesteld",
+      "Dan werd er dus niet echt geluisterd"
+    ]
+  },
+  "a969d002-3891-4a18-a767-6c5373b1d28a": {
+    "en": "Which wins you over more: a handwritten note or a playlist made just for you?",
+    "text": "Wat maakt meer indruk op je: een handgeschreven briefje of een playlist speciaal voor jou?",
+    "answers": [
+      "Een handgeschreven briefje",
+      "Een playlist speciaal voor mij"
+    ]
+  },
+  "56c6743f-a1c8-4be0-8dc7-bbeb9b977d38": {
+    "en": "They tell the waiter \"We're on a first date!\" Out of 10, what score do they drop to?",
+    "text": "Je date zegt tegen de ober: “Dit is onze eerste date!” Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "f9cf2832-da5d-4f1f-ad46-f011c7282e4d": {
+    "en": "You've been dating for a month. What's the right first gift?",
+    "text": "Jullie daten nu een maand. Wat is een goed eerste cadeau?",
+    "answers": [
+      "Iets kleins maar attents",
+      "Bloemen",
+      "Nog niks, te vroeg",
+      "Iets duurs om indruk te maken"
+    ]
+  },
+  "d576e86d-b1d4-4c38-a056-f1141160b590": {
+    "en": "Which attracts you more: someone with a clear plan for their life or someone who goes with the flow?",
+    "text": "Wat trekt je meer aan: iemand met een duidelijk levensplan of iemand die meegaat met de flow?",
+    "answers": [
+      "Een duidelijk levensplan",
+      "Gaat mee met de flow"
+    ]
+  },
+  "0186074f-f074-4446-b042-ca7e9247e1cc": {
+    "en": "They cook for you and it's honestly terrible. What do you do?",
+    "text": "Je date kookt voor je en het is eerlijk gezegd vreselijk. Wat doe je?",
+    "answers": [
+      "Alles opeten met een glimlach",
+      "Een beetje eten en lief de waarheid zeggen",
+      "Er een grapje over maken",
+      "Voorstellen om iets te bestellen"
+    ]
+  },
+  "2509137a-251a-41b6-b10e-b4e1f7ca4da9": {
+    "en": "Would you start seeing someone who lives in another city?",
+    "text": "Zou je gaan daten met iemand die in een andere stad woont?"
+  },
+  "4bbac10f-fb66-4378-be37-a399f606ae2f": {
+    "en": "For the second date, they suggest their hobby that you've never tried. What do you do?",
+    "text": "Voor de tweede date stelt je date een hobby voor die je nog nooit hebt geprobeerd. Wat doe je?",
+    "answers": [
+      "Meteen doen, klinkt leuk",
+      "Gaan, maar wel een beetje zenuwachtig",
+      "Iets anders voorstellen",
+      "Zeggen dat het niks voor mij is"
+    ]
+  },
+  "96dd7fb8-e845-4e6b-a7de-0fada99a35ab": {
+    "en": "Which turns you off more: bragging about money or always complaining about money?",
+    "text": "Waar knap je eerder op af: opscheppen over geld of altijd klagen over geld?",
+    "answers": [
+      "Opscheppen over geld",
+      "Altijd klagen over geld"
+    ]
+  },
+  "1d5c05ff-2738-4558-9f0a-efd6cb6e2bf8": {
+    "en": "What tells you most that someone is into you?",
+    "text": "Waaraan merk je het best dat iemand je leuk vindt?",
+    "answers": [
+      "Snelle reacties",
+      "Meteen een volgende date plannen",
+      "Veel vragen over mij",
+      "Lichaamstaal"
+    ]
+  },
+  "37a4b498-8f1d-4740-923e-2165e8b08457": {
+    "en": "After your first date, they send a long message about how much they enjoyed it. How do you feel?",
+    "text": "Na jullie eerste date stuurt je date een lang bericht over hoe leuk het was. Hoe voelt dat?",
+    "answers": [
+      "Heerlijk",
+      "Schattig, maar een beetje veel",
+      "Te intens, ik haak af"
+    ]
+  },
+  "3a3a17ca-df5d-4a0c-9477-da964cfb471b": {
+    "en": "They show up to your first date with flowers. How do you feel?",
+    "text": "Je date komt met bloemen naar jullie eerste date. Hoe voelt dat?",
+    "answers": [
+      "Heerlijk, zo lief",
+      "Lief, maar onhandig om de hele avond mee te sjouwen",
+      "Te veel voor een eerste date"
+    ]
+  },
+  "509690bc-b54a-4e17-9080-4c04c87541c3": {
+    "en": "Halfway through the date, you realize you're not into them. What do you do?",
+    "text": "Halverwege de date merk je dat het niet klikt. Wat doe je?",
+    "answers": [
+      "De date netjes afmaken",
+      "Met een smoesje afkappen",
+      "Het eerlijk zeggen",
+      "Een vriend laten bellen met een nepnoodgeval"
+    ]
+  },
+  "5f774143-d352-4756-b32a-a6c502a594e9": {
+    "en": "They correct your grammar during the date. Out of 10, what score do they drop to?",
+    "text": "Je date verbetert tijdens de date je taalfouten. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "d9c822f9-0c0c-4348-8e9e-3d2873d20d44": {
+    "en": "How long should a first hug last, in seconds?",
+    "text": "Hoeveel seconden moet een eerste knuffel duren?"
+  },
+  "3a846774-458e-48e7-94ac-35ac1ed66723": {
+    "en": "They check their reflection in every window you walk past. Out of 10, what score do they drop to?",
+    "text": "Je date bekijkt zichzelf in elke etalage waar jullie langslopen. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "77574632-f237-4a7a-af8a-16f63041d6fe": {
+    "en": "On the first date, they ask \"So why are you single?\" What do you do?",
+    "text": "Op de eerste date vraagt je date: “Waarom ben je eigenlijk single?” Wat doe je?",
+    "answers": [
+      "Eerlijk antwoorden",
+      "Het weglachen met een grapje",
+      "Dezelfde vraag terugstellen",
+      "Het een rare vraag vinden"
+    ]
+  },
+  "5e952fa0-bed1-4717-8caa-4119278e8391": {
+    "en": "Which wins you over more: someone who's amazing over text or someone who's amazing in person?",
+    "text": "Wat maakt meer indruk op je: iemand die geweldig is via de app of iemand die geweldig is in het echt?",
+    "answers": [
+      "Geweldig via de app",
+      "Geweldig in het echt"
+    ]
+  },
+  "f0726201-11ea-476c-88d9-a86ca0ab1c0b": {
+    "en": "Would you go on a blind date a friend set up, without seeing a photo first?",
+    "text": "Zou je op een blind date gaan die een vriend heeft geregeld, zonder eerst een foto te zien?"
+  },
+  "426fe6d2-47b9-4935-a993-c3742dae971f": {
+    "en": "They pay for the date with their parents' credit card. Out of 10, what score do they drop to?",
+    "text": "Je date betaalt met de creditcard van pa en ma. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "e70a355f-92db-47ef-8640-7cf10d74d366": {
+    "en": "They suggest sharing a dessert, then eat almost all of it. What do you do?",
+    "text": "Je date stelt voor om een toetje te delen en eet het dan bijna helemaal zelf op. Wat doe je?",
+    "answers": [
+      "Lachen, het is schattig",
+      "Je date ermee plagen",
+      "Er zelf nog een bestellen",
+      "Het stilletjes onthouden"
+    ]
+  },
+  "cc7cdfce-f102-4924-a15a-428fe1f01c5c": {
+    "en": "Which turns you off more: no sense of style or trying way too hard?",
+    "text": "Waar knap je eerder op af: geen gevoel voor stijl of veel te hard je best doen?",
+    "answers": [
+      "Geen gevoel voor stijl",
+      "Veel te hard je best doen"
+    ]
+  },
+  "27981878-ef1d-4561-9d9f-58ca583788cf": {
+    "en": "After just two dates, they want to video call every night. How do you feel?",
+    "text": "Na amper twee dates wil je date elke avond videobellen. Hoe voelt dat?",
+    "answers": [
+      "Heerlijk",
+      "Soms prima, niet elke avond",
+      "Te veel, te snel"
+    ]
+  },
+  "b230407f-3278-456c-b2bf-1fa8b314b92c": {
+    "en": "They get a little tipsy on your first date. How do you feel?",
+    "text": "Je date wordt een beetje tipsy op jullie eerste date. Hoe voelt dat?",
+    "answers": [
+      "Leuk, het breekt het ijs",
+      "Prima, zolang het bij een beetje blijft",
+      "Een afknapper",
+      "Zorgen dat diegene veilig thuiskomt"
+    ]
+  },
+  "9effa5fe-d2d6-4990-94f9-68ba44015a64": {
+    "en": "Which wins you over more: a smooth pickup line or an awkward, honest \"I think you're cute\"?",
+    "text": "Wat maakt meer indruk op je: een gladde openingszin of een onhandig, eerlijk “ik vind je echt leuk”?",
+    "answers": [
+      "Een gladde openingszin",
+      "Een onhandig, eerlijk compliment"
+    ]
+  },
+  "081089e4-8c91-4803-a20f-fc33ee46f1bb": {
+    "en": "A song you both love comes on, and they start singing out loud in public. What do you do?",
+    "text": "Er komt een nummer voorbij waar jullie allebei gek op zijn, en je date begint keihard mee te zingen. Wat doe je?",
+    "answers": [
+      "Meezingen",
+      "Lachen en filmen",
+      "Me plaatsvervangend schamen",
+      "Genieten van de energie, maar zelf stil blijven"
+    ]
+  },
+  "ae914c7b-0a58-44ae-ae10-b58a248728fb": {
+    "en": "After how many dates would you go on a weekend trip together?",
+    "text": "Na hoeveel dates zou je samen een weekendje weggaan?"
+  },
+  "edb7e967-3a36-4adb-b55f-e4660c847d6a": {
+    "en": "They spend the whole date complaining about their job. Out of 10, what score do they drop to?",
+    "text": "Je date klaagt de hele date over werk. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "7a5ec267-e342-468f-bbba-7370d91f8ecc": {
+    "en": "It starts pouring rain on your walk and nobody has an umbrella. What do you do?",
+    "text": "Tijdens jullie wandeling begint het te plenzen en niemand heeft een paraplu. Wat doe je?",
+    "answers": [
+      "Lachend gaan schuilen",
+      "Dansen in de regen",
+      "Meteen een taxi bellen",
+      "Een jas delen en doorlopen"
+    ]
+  },
+  "7378fa18-c11d-4566-83e6-9ee68d7c53a9": {
+    "en": "Which attracts you more: a morning person or a night owl?",
+    "text": "Wat trekt je meer aan: een ochtendmens of een nachtuil?",
+    "answers": [
+      "Een ochtendmens",
+      "Een nachtuil"
+    ]
+  },
+  "0b4e55e8-2a68-40f6-a431-c6455f6e7bd8": {
+    "en": "After three dates, they still haven't followed you on social media. What do you do?",
+    "text": "Na drie dates volgt je date je nog steeds niet op social media. Wat doe je?",
+    "answers": [
+      "Maakt me niet uit",
+      "Zelf als eerste volgen",
+      "Me afvragen waarom",
+      "Ernaar vragen"
+    ]
+  },
+  "b92ab70e-57ad-46d9-bbfc-957ae51e4d9d": {
+    "en": "They talk about their crypto investments all night. Out of 10, what score do they drop to?",
+    "text": "Je date heeft het de hele avond over cryptobeleggingen. Hoeveel punten van de 10 blijven er nog over?"
+  },
+  "b5861af8-2dea-46b5-bcc9-1a6e26e6be5a": {
+    "en": "Which wins you over more: someone who cooks you dinner or someone who takes you to their favorite spot?",
+    "text": "Wat maakt meer indruk op je: iemand die voor je kookt of iemand die je meeneemt naar een favoriete plek?",
+    "answers": [
+      "Voor me koken",
+      "Meenemen naar een favoriete plek"
+    ]
+  },
+  "86ab68e2-ba49-4ba4-abd7-529512d370ce": {
+    "en": "How many minutes into a first date do you know if you like someone?",
+    "text": "Na hoeveel minuten op een eerste date weet je of je iemand leuk vindt?"
+  },
+  "2a28efa4-4ab1-4d2e-8173-d3d510ca3fde": {
+    "en": "How many hours after a great first date should you text?",
+    "text": "Hoeveel uur na een geweldige eerste date moet je een berichtje sturen?"
+  }
+}

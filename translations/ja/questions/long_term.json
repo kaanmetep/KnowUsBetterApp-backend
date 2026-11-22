@@ -1,0 +1,1923 @@
+{
+  "bca4278f-e856-4d9c-8eb1-0864e3095789": {
+    "en": "Would you pay your partner's debt?",
+    "text": "恋人の借金、代わりに払える？"
+  },
+  "f1daeb64-3d71-4516-bd63-e51be5db16cc": {
+    "en": "Is it important for you that the person you marry is wealthy?",
+    "text": "結婚相手がお金持ちかどうかって大事？"
+  },
+  "289fb98c-ca67-4dd0-96c8-0f30a88b9cb7": {
+    "en": "Is having a wedding important to you?",
+    "text": "結婚式を挙げるのって大事？"
+  },
+  "f26f180e-48f4-4594-a56f-9e54fb49987d": {
+    "en": "Would you want your partner to take risks for you?",
+    "text": "恋人には、自分のために体を張ってほしい？"
+  },
+  "28552fbf-c9fb-49a2-ac5b-e1f13761050a": {
+    "en": "Would you use a shared Instagram account with your partner?",
+    "text": "恋人とインスタのアカウントを共有する？"
+  },
+  "20f710ca-ec12-40a8-97e0-1ac2303e1b54": {
+    "en": "In the future, you will achieve all your career goals, but you will not be able to marry your partner (you will continue to be in a relationship without getting married).",
+    "text": "仕事の目標は全部かなうけど、恋人とは結婚できない（付き合いはずっと続く）。それでもいい？",
+    "flagged": true,
+    "note": "Source is a statement with no question; added 'それでもいい？' (is that OK?) so it works as yes/no."
+  },
+  "b6073db9-251b-4e25-ae28-8220b266b1e6": {
+    "en": "Would you continue a relationship with someone who wants to move abroad?",
+    "text": "海外移住したい人と付き合い続けられる？"
+  },
+  "49b9f11e-0e9d-4494-beca-12f31042f074": {
+    "en": "Is your partner's family important to you?",
+    "text": "恋人の家族って大事？"
+  },
+  "111d83eb-0a34-4703-9358-30ca36ac9c4e": {
+    "en": "If your partner wanted to travel the world alone in the future, would you allow it?",
+    "text": "恋人が将来ひとりで世界一周したいって言ったら、行かせてあげる？"
+  },
+  "988c11e4-4e49-4708-a85a-76a84c979d79": {
+    "en": "Would you give up your pet for your partner?",
+    "text": "恋人のためなら、ペットを手放せる？"
+  },
+  "5a88c4fd-00ed-4ed1-9582-9d7fbb9270f4": {
+    "en": "Do you plan to get married in the next three years?",
+    "text": "3年以内に結婚するつもりある？"
+  },
+  "a89a3b24-529c-4182-b6f5-9353c8082674": {
+    "en": "Would you argue with your partner in public if you were right?",
+    "text": "自分が正しいなら、人前でも恋人と言い合いする？"
+  },
+  "82d8c091-b318-4385-aa11-b1e7c7df8a08": {
+    "en": "Would you take a loan to go on a vacation with your partner if they wanted to?",
+    "text": "恋人が行きたがったら、ローンを組んででも旅行に行く？"
+  },
+  "8300d5a7-b4b6-4ac5-a8da-4fd3208cc734": {
+    "en": "Would you give up having children for your career?",
+    "text": "仕事のためなら、子どもをあきらめられる？"
+  },
+  "9f286a70-cf87-4f12-a7ab-4b70cfffead0": {
+    "en": "Do you plan to have children in the next three years?",
+    "text": "3年以内に子どもがほしい？"
+  },
+  "0a6af22d-dfdf-4bf9-8a3c-35fc8ae14936": {
+    "en": "Would you like to spend a lot of money on your wedding?",
+    "text": "結婚式にはお金をたくさんかけたい？"
+  },
+  "30b40547-41aa-4735-912a-17f8a6a4d231": {
+    "en": "If your partner doesn't want a wedding, would that be a problem for you?",
+    "text": "恋人が結婚式をしたくないって言ったら、引っかかる？"
+  },
+  "e2ea8d47-b6c2-4ba8-a476-51fc25ab7129": {
+    "en": "Would you let your partner read your Instagram DMs?",
+    "text": "恋人にインスタのDMを見せられる？"
+  },
+  "4448fc04-15c4-4840-8920-45d1f89f731f": {
+    "en": "Would you control your partner's Instagram posts?",
+    "text": "恋人のインスタの投稿、チェックしちゃう？"
+  },
+  "c0fa5897-8a9f-4a74-a0cf-7ab5814da5d3": {
+    "en": "If your partner doesn't let you go out with friends, would you sneak out anyway?",
+    "text": "恋人に友達と遊びに行くのを止められても、こっそり行く？"
+  },
+  "c0480dde-ff57-4d29-97ca-33a5ff4f232f": {
+    "en": "If your partner weighed 100 kg, would you break up with them?",
+    "text": "恋人の体重が100kgになったら、別れる？"
+  },
+  "16431dd5-87cd-4985-86be-991019b52651": {
+    "en": "Would you leave your partner if you thought they were holding back your career?",
+    "text": "恋人がキャリアの足かせになってると思ったら、別れる？"
+  },
+  "31696cb7-5827-4ce2-a19b-9f6fa3853c9b": {
+    "en": "What is harder to accept in a relationship?",
+    "text": "恋愛で受け入れにくいのはどっち？",
+    "answers": [
+      "気持ちのすれ違い",
+      "体の相性の悪さ"
+    ]
+  },
+  "1745ac8d-b67d-4e9d-b324-c416960ae148": {
+    "en": "In the future, would you choose a partner who wants a simple life with financial comfort or a partner who wants a risky life chasing big success?",
+    "text": "将来のパートナーにするならどっち？",
+    "answers": [
+      "お金に困らないシンプルな人生を望む人",
+      "大成功を狙って冒険したい人"
+    ]
+  },
+  "b13c21a7-90e1-43da-8cf4-293648328e04": {
+    "en": "Would you live with your partner before marriage?",
+    "text": "結婚前に恋人と同棲する？"
+  },
+  "96df59e9-4ef7-411c-988b-7da87dc67d7c": {
+    "en": "What destroys a relationship more: trust issues or communication issues?",
+    "text": "関係を壊しやすいのはどっち？",
+    "answers": [
+      "信頼の問題",
+      "コミュニケーションの問題"
+    ]
+  },
+  "0b54c41a-71f3-463e-815e-6154a48609b8": {
+    "en": "Would you accept living with your partner's family after marriage?",
+    "text": "結婚後、恋人の家族と同居してもいい？"
+  },
+  "686299c5-d8ba-4578-8cc5-d1ca88ec4c25": {
+    "en": "What is more important in a relationship: feeling secure or feeling passionate?",
+    "text": "恋愛でより大事なのはどっち？",
+    "answers": [
+      "安心感",
+      "ドキドキ感"
+    ]
+  },
+  "64553088-4b91-42e3-9dd4-ae5f4f37de28": {
+    "en": "If the person you love asked you to delete your social media accounts, would you do it?",
+    "text": "好きな人にSNSのアカウントを消してって言われたら、消す？"
+  },
+  "0b9dda2c-d006-4898-b5e8-af4332e97cff": {
+    "en": "In the future, would you choose a partner who never wants to live abroad or a partner who constantly wants to travel and move countries?",
+    "text": "将来のパートナーにするならどっち？",
+    "answers": [
+      "海外には絶対住みたくない人",
+      "旅して国を転々としたい人"
+    ]
+  },
+  "8e8d4a47-c5f1-47a4-a099-e40067b24d93": {
+    "en": "If your partner's best friend liked you, would you tell your partner?",
+    "text": "恋人の親友に好意を持たれたら、恋人に話す？"
+  },
+  "d7f54c11-65f3-4a3b-a006-3828d94e9e5b": {
+    "en": "What is more painful in love: losing the person or realizing they were never truly yours?",
+    "text": "恋愛でつらいのはどっち？",
+    "answers": [
+      "その人を失うこと",
+      "最初から自分のものじゃなかったと気づくこと"
+    ]
+  },
+  "80a41d9e-4557-4c0f-ad43-964f6992ddd6": {
+    "en": "Would you be jealous if your partner goes out at night with friends?",
+    "text": "恋人が夜に友達と出かけたら、やきもち焼く？"
+  },
+  "ce2bfb9c-c71b-4484-af3f-60b2a0d64037": {
+    "en": "Would you marry someone who doesn't want children?",
+    "text": "子どもを望まない人と結婚できる？"
+  },
+  "1c7d7202-1982-4200-85ce-5430554c6774": {
+    "en": "What is harder to live with in a relationship: feeling unloved or feeling unimportant?",
+    "text": "恋愛で耐えられないのはどっち？",
+    "answers": [
+      "愛されてないと感じること",
+      "大切にされてないと感じること"
+    ]
+  },
+  "6fe6fdf5-1b21-4395-a422-a668befc589b": {
+    "en": "Would living with your partner kill the sexual attraction?",
+    "text": "恋人と一緒に住んだら、ドキドキって薄れると思う？",
+    "flagged": true,
+    "note": "'Sexual attraction' softened to ドキドキ (spark) to stay non-explicit; meaning slightly broader."
+  },
+  "ed60a442-e3d3-4295-847a-b2c280d9575e": {
+    "en": "What is more damaging in a relationship: losing trust once or slowly losing it over time?",
+    "text": "関係にとってダメージが大きいのはどっち？",
+    "answers": [
+      "一気に信頼を失うこと",
+      "少しずつ信頼を失うこと"
+    ]
+  },
+  "e838307a-5659-4045-a4eb-47b441d35812": {
+    "en": "Would you get upset if your partner goes on vacation with friends?",
+    "text": "恋人が友達と旅行に行ったら、モヤモヤする？"
+  },
+  "56f4ccea-070f-415b-9f4c-a51c62a46331": {
+    "en": "Do you believe a lost love can be regained with effort?",
+    "text": "冷めた気持ちも、努力でまた取り戻せると思う？"
+  },
+  "f12cb362-0dc9-4d15-9ecd-c965ea436887": {
+    "en": "Does love have an age limit?",
+    "text": "恋愛に年齢って関係ある？"
+  },
+  "46d0a0ad-3871-4e6a-8269-234e157bbf9e": {
+    "en": "Do you feel regret about past relationships?",
+    "text": "過去の恋愛に後悔してることある？"
+  },
+  "5e523a85-9eab-465f-948e-70dfe87139c8": {
+    "en": "Would you lose a game on purpose to make your partner feel better?",
+    "text": "恋人を喜ばせるために、ゲームでわざと負けたりする？"
+  },
+  "248cce39-2e0a-4ecf-8bdc-a9c1da7669e2": {
+    "en": "Would it bother you if your partner were famous on Instagram and always in the spotlight?",
+    "text": "恋人がインスタで有名になって注目されまくったら、イヤ？"
+  },
+  "9f5b2220-1d85-4476-be4b-aede57b91272": {
+    "en": "Would you go against your family for something you really want or dream of?",
+    "text": "本気で叶えたい夢のためなら、家族に反対されても貫く？"
+  },
+  "604782d5-021e-477b-b3e5-c6a585fd2c2b": {
+    "en": "Would you lie to your partner just to make them happy?",
+    "text": "恋人を喜ばせるためだけに、ウソをつける？"
+  },
+  "b13dd5c4-c9bc-49f6-94fe-db99095dcbaf": {
+    "en": "Would you seek revenge on a partner who cheated on you?",
+    "text": "浮気されたら、恋人に仕返しする？"
+  },
+  "c1531a57-602a-4c85-b580-f29dd037d80a": {
+    "en": "Would you stay with someone who earns more money than you?",
+    "text": "自分より稼いでる人とでも付き合い続けられる？"
+  },
+  "91124f3e-050c-4a45-b19e-1099ad9ea3bf": {
+    "en": "Are you impressed by expensive gifts?",
+    "text": "高いプレゼントをもらうとグッとくる？"
+  },
+  "abfd3894-3839-422a-b90f-c7d4f148eca2": {
+    "en": "Would you lend a large amount of money to your partner's sibling?",
+    "text": "恋人のきょうだいに大金を貸せる？"
+  },
+  "8a6b14a5-837d-423c-bd6d-96f3275c1d69": {
+    "en": "If your friends don't like your partner, would it make you lose interest in them?",
+    "text": "友達が恋人のことを気に入らなかったら、恋人への気持ちが冷める？"
+  },
+  "95265173-55f2-4655-970e-a321e4fee997": {
+    "en": "Do you believe there is one specific person in the world who was created specifically for you?",
+    "text": "世界のどこかに運命の人がひとりだけいるって信じてる？"
+  },
+  "f07da6dd-5097-43b8-8b05-31f5c2a82073": {
+    "en": "If your partner wanted, would you make your Instagram account private?",
+    "text": "恋人に頼まれたら、インスタを鍵アカにする？"
+  },
+  "0e237d80-73bb-43e5-ac91-3c2ae17a06d1": {
+    "en": "In the future, would you choose a partner who wants kids early or one who wants kids much later in life?",
+    "text": "将来のパートナーにするならどっち？",
+    "answers": [
+      "子どもは早めにほしい人",
+      "子どもはずっと後でいい人"
+    ]
+  },
+  "cb71ff6a-3fca-408a-8995-2378e6f2df75": {
+    "en": "If your partner wanted to read your messages with your friend group, would you let them?",
+    "text": "恋人に友達とのグループLINEを見たいって言われたら、見せる？"
+  },
+  "6501aea1-b672-4b69-9b47-ef34337f0731": {
+    "en": "Would you live in the same house with a friend of the opposite sex while having a partner?",
+    "text": "恋人がいるのに、異性の友達と同居できる？",
+    "flagged": true,
+    "note": "Kept 'opposite sex' (異性) as in source; reveals nothing about the player's gender but assumes a straight frame, as the original does."
+  },
+  "691c9f52-2fc8-44dd-92e3-b33eb68025ef": {
+    "en": "In the future, would you accept it if your partner preferred adoption instead of having biological children?",
+    "text": "将来、恋人が実子より養子を望んだら、受け入れられる？"
+  },
+  "016974f8-7cc2-43d8-8e16-60cc714dc90c": {
+    "en": "If your partner wanted to leave everything and move to another country, would you agree?",
+    "text": "恋人に全部捨てて海外に移住しようって言われたら、OKする？"
+  },
+  "fc6b721a-f7d1-4ee5-b4a4-321d5ae14865": {
+    "en": "If the person you're with wants to get cosmetic surgery, would you support them?",
+    "text": "恋人が整形したいって言ったら、応援する？"
+  },
+  "df31e532-7534-4a7e-b947-32f62c398807": {
+    "en": "Prioritize a wealthy retirement, or spend savings on experiences while we’re young?",
+    "text": "ゆとりある老後を優先する？それとも若いうちに思い出にお金を使う？",
+    "answers": [
+      "老後のために貯める",
+      "思い出に使う"
+    ]
+  },
+  "b998c2fd-b632-4b5f-b225-7f874cceb713": {
+    "en": "Would you stop talking to a friend who finds you attractive if your partner asked you to?",
+    "text": "恋人に頼まれたら、自分に気がある友達と連絡を断てる？"
+  },
+  "d3176e15-3a75-42a3-b1bb-170482b855c3": {
+    "en": "If your partner suggested putting our one-year savings into a joint account, would you agree?",
+    "text": "恋人に「ふたりの1年分の貯金を共同口座にまとめよう」って言われたら、OKする？"
+  },
+  "93d80425-5f77-4d69-ac5b-c8e4cf99ab98": {
+    "en": "If your best friend and partner met without telling you, would you get jealous?",
+    "text": "親友と恋人が自分に内緒で会ってたら、嫉妬する？"
+  },
+  "bacc8f30-4a8a-4cc1-adc7-58e93a284f15": {
+    "en": "If your partner accidentally used your toothbrush, would you throw it away?",
+    "text": "恋人が間違えて自分の歯ブラシを使ったら、捨てる？"
+  },
+  "ddea60f1-05c3-4711-b23c-6a5d0c156b2c": {
+    "en": "Is it a dealbreaker if your spouse frequently goes out with friends without you?",
+    "text": "結婚相手が自分抜きで友達としょっちゅう遊びに行くのは、離婚レベル？"
+  },
+  "352fe804-1b1d-42dd-9635-2ffcc0aafb91": {
+    "en": "Would you try to find someone else immediately after breaking up to forget your partner?",
+    "text": "恋人と別れた直後、忘れるためにすぐ次の相手を探す？"
+  },
+  "54ca5a96-f07e-4a5c-b173-01009111b982": {
+    "en": "Would you marry someone who never makes plans and always lives spontaneously?",
+    "text": "計画を一切立てずにいつもノリで生きてる人と結婚できる？"
+  },
+  "7db0308d-d61f-4662-9efa-66e062c44528": {
+    "en": "Would you agree to care for our aging parents in our home, or should our home be strictly for us?",
+    "text": "将来、年を取った親をふたりの家で面倒見てもいい？それとも家はふたりだけの場所にしたい？",
+    "answers": [
+      "親の面倒も見る",
+      "ふたりだけの家"
+    ]
+  },
+  "28af0e4f-1f69-45d5-86a3-c74606db680e": {
+    "en": "If you knew you would be in a long-distance relationship with your long-term partner for 3 years, would you break up?",
+    "text": "長く付き合ってる恋人と3年間遠距離になるってわかったら、別れる？"
+  },
+  "94b588d9-5c0d-4ad8-b8c1-ae2289717727": {
+    "en": "If I am wrong in an argument with my family, would you support me blindly or tell me the truth?",
+    "text": "恋人が家族とケンカして、恋人のほうが悪かったら、とにかく味方する？それとも本当のことを言う？",
+    "answers": [
+      "とにかく味方する",
+      "本当のことを言う"
+    ]
+  },
+  "63e81c14-3291-439d-9da1-e0ec06a397c8": {
+    "en": "Do you think your partner is the most beautiful/handsome person in the world?",
+    "text": "恋人は世界一ステキな人だと思う？",
+    "note": "EN 'beautiful/handsome' rendered as gender-neutral ステキ (attractive/wonderful)."
+  },
+  "58be97f3-33a2-4176-a067-0da976da9966": {
+    "en": "Are there any physical traits in your partner you wish were different?",
+    "text": "恋人の見た目で、変わってほしいところってある？"
+  },
+  "eb998eea-b2fa-40df-833c-f2ed37fe741d": {
+    "en": "Does your partner have personality traits you dislike?",
+    "text": "恋人の性格で、苦手なところってある？"
+  },
+  "d423c831-6f0e-46fe-8706-1e20fc4d0d24": {
+    "en": "Do you expect your partner to see you as the most beautiful/handsome person in the world?",
+    "text": "恋人には自分のことを世界一ステキな人だと思っててほしい？"
+  },
+  "64d5160e-4b72-46db-9f14-7d9f788e4205": {
+    "en": "Would you break up with your partner for a celebrity you've been a fan of for a long time?",
+    "text": "ずっと推してる有名人のためなら、恋人と別れる？"
+  },
+  "fc7faf7d-3139-4fe3-a807-22ef1e46a3fa": {
+    "en": "Is your partner's sexual ability an important factor for you?",
+    "text": "恋人との夜の相性って、自分にとって大事？",
+    "note": "'Sexual ability' softened to 夜の相性 (compatibility at night) to stay non-clinical."
+  },
+  "c5c2f072-cf24-4823-82c3-b9c717ffdda6": {
+    "en": "If your partner had issues with sexual matters, would you help them?",
+    "text": "恋人が夜のことで悩んでたら、一緒に向き合う？"
+  },
+  "d0de886c-2bc7-4537-9f02-0d2bb3d97dc4": {
+    "en": "If your partner didn’t want to have children, would it turn you away from them?",
+    "text": "恋人が子どもはいらないって言ったら、気持ちが冷める？"
+  },
+  "49032d61-306c-4046-9f55-58fd7134d736": {
+    "en": "Would your partner having had many previous relationships with the opposite sex prevent you from marrying them?",
+    "text": "恋人の過去の恋愛経験がすごく多かったら、結婚をためらう？",
+    "flagged": true,
+    "note": "Dropped 'with the opposite sex' so the question works for any couple; meaning otherwise intact."
+  },
+  "f09be90a-d3dc-49b4-abc6-0ddc661ce24e": {
+    "en": "Would you change some of your physical traits just because your partner wanted you to?",
+    "text": "恋人に言われたからって理由だけで、見た目を変える？"
+  },
+  "2031ac8e-84a0-46e6-a9c0-779c037ad4b7": {
+    "en": "Would you honestly tell your partner about the traits you dislike in them?",
+    "text": "恋人の苦手なところ、本人に正直に言える？"
+  },
+  "bdc571eb-8288-4938-ae2c-5fdf49ec2e72": {
+    "en": "When a relationship fails, what is usually the real culprit?",
+    "text": "恋愛がダメになるとき、本当の原因はどっちが多い？",
+    "answers": [
+      "口に出さない期待",
+      "冷めていく情熱"
+    ]
+  },
+  "1acb71f6-c1d0-4ebf-822b-a4850587315c": {
+    "en": "Would you want your partner to honestly tell you the traits they dislike in you?",
+    "text": "自分の苦手なところ、恋人に正直に言ってほしい？"
+  },
+  "3cd31962-bb6c-40b3-906b-f5887ed0880b": {
+    "en": "To truly know someone, what is more important to understand?",
+    "text": "人を本当に知るために、より大事なのはどっち？",
+    "answers": [
+      "一番怖いもの",
+      "一番の後悔"
+    ]
+  },
+  "d6ff5aca-6d0a-40d4-abf5-220fed31a7aa": {
+    "en": "Would it bother you if your partner had a personal trainer of the opposite sex?",
+    "text": "恋人のパーソナルトレーナーが異性だったら、気になる？",
+    "flagged": true,
+    "note": "Kept 異性 (opposite sex) as in source; assumes a mixed couple, does not reveal either player's gender."
+  },
+  "4b344e38-5083-4f61-92a5-b6a94bb638e3": {
+    "en": "Do you expect your partner to cook for you?",
+    "text": "恋人に料理を作ってほしい？"
+  },
+  "2639b278-9a40-4776-ae20-5aa3c3091d4e": {
+    "en": "Is it a problem for you to constantly drive your partner to places?",
+    "text": "恋人をいつも車で送り迎えするのはイヤ？"
+  },
+  "3b05a5a1-69a6-437d-94db-41b16a10f2a7": {
+    "en": "Would it bother you if your partner worked in a place with many people of the opposite sex?",
+    "text": "恋人の職場に異性が多かったら、気になる？",
+    "flagged": true,
+    "note": "Kept 異性 (opposite sex) as in source; assumes a mixed couple."
+  },
+  "c00f571f-50b6-4a6f-9183-a9149f1a1bb6": {
+    "en": "Is it important for your partner to be experienced in sexual matters?",
+    "text": "恋人が夜のことで経験豊富かどうかって、大事？"
+  },
+  "15a86cd9-0b20-4b0e-92db-06fddb8dddfe": {
+    "en": "Have you ever compared your partner sexually with your previous relationships?",
+    "text": "夜のことで、恋人を元恋人と比べたことある？"
+  },
+  "1c43db4b-3928-4644-9c02-9a5b28d512bf": {
+    "en": "Is it a problem for you if your partner has a very high libido?",
+    "text": "恋人の性欲がすごく強かったら、困る？"
+  },
+  "279696b0-907a-4c1a-ba87-1c4e21dce4cf": {
+    "en": "Do you like trying different things in sexual activity with your partner?",
+    "text": "恋人との夜、いつもと違うことを試すのは好き？"
+  },
+  "cd7e09ce-8dd9-4652-9e3f-6c8f2aafcd3b": {
+    "en": "Would you put the house you bought under your partner's name?",
+    "text": "自分で買った家を、恋人の名義にできる？"
+  },
+  "ddacf6e7-aba3-40cf-9a91-8568306ad5ba": {
+    "en": "Do you expect an expensive ring for marriage?",
+    "text": "結婚するとき、高い指輪を期待する？"
+  },
+  "a9e4e29b-976f-411e-873e-eba5322ddbf6": {
+    "en": "Would you be against your partner changing countries for their job?",
+    "text": "恋人が仕事で海外に移るって言ったら、反対する？"
+  },
+  "11ba62e8-bc60-4dcb-a6bc-35b20877e4dc": {
+    "en": "If you were in a long-term relationship and had to change countries for your job, would you do it?",
+    "text": "長く付き合ってる人がいるときに仕事で海外に移ることになったら、行く？"
+  },
+  "d9dd14c7-2b1c-46a3-ab6a-ebf6a50b9f61": {
+    "en": "Which is worse: your partner cheating on you emotionally or physically?",
+    "text": "恋人の浮気、キツいのはどっち？",
+    "answers": [
+      "心の浮気",
+      "体の浮気"
+    ]
+  },
+  "28e3a893-ed3a-4166-a6e7-1de6e00f025b": {
+    "en": "Which is worse: your partner not finding you emotionally attractive or not finding you physically attractive?",
+    "text": "恋人が自分の中身に惹かれてないのと、見た目に惹かれてないの、キツいのはどっち？",
+    "answers": [
+      "中身",
+      "見た目"
+    ],
+    "note": "Emotionally/physically adapted to 中身/見た目 (inner self/looks), the natural Japanese contrast."
+  },
+  "33d32a27-9799-48eb-b766-128974c97a34": {
+    "en": "Which is worse: catching your partner cheating or your partner catching you cheating?",
+    "text": "キツいのはどっち？恋人の浮気を見つけるのと、自分の浮気がバレるの",
+    "answers": [
+      "見つける側",
+      "バレる側"
+    ]
+  },
+  "8ebb4a7c-e04e-4b14-b109-40d9945a88b7": {
+    "en": "Which is worse: your partner moving to a distant country or you moving to a distant country?",
+    "text": "キツいのはどっち？恋人が遠い国に行くのと、自分が遠い国に行くの",
+    "answers": [
+      "恋人が行く",
+      "自分が行く"
+    ]
+  },
+  "79bf77ef-9fdb-4dac-b926-f855bba42d66": {
+    "en": "Which is worse: not matching music tastes with your partner or not matching movie tastes?",
+    "text": "恋人と合わなくてキツいのはどっち？",
+    "answers": [
+      "音楽の好み",
+      "映画の好み"
+    ]
+  },
+  "653143d2-1916-431c-ab37-fe2b5a235e66": {
+    "en": "Which would make you feel more uneasy: your partner forgetting small promises or being late frequently?",
+    "text": "恋人がこうだとモヤモヤするのはどっち？",
+    "answers": [
+      "小さな約束を忘れる",
+      "よく遅刻する"
+    ]
+  },
+  "fc667698-5698-4d39-b70d-cae593b8c11e": {
+    "en": "Which would upset you more: your partner spending too much time at work or too much time with friends?",
+    "text": "恋人がこうだとイヤなのはどっち？",
+    "answers": [
+      "仕事ばっかり",
+      "友達とばっかり"
+    ]
+  },
+  "455fb3ee-8dfa-4f2b-85ef-139849e81bab": {
+    "en": "Which would bother you more: your partner being overly honest or sometimes hiding their feelings?",
+    "text": "恋人がこうだと気になるのはどっち？",
+    "answers": [
+      "正直すぎる",
+      "気持ちを隠しがち"
+    ]
+  },
+  "2e2df402-f220-462b-9c80-b2298a3cafac": {
+    "en": "Which is worse: your partner being too social or too antisocial?",
+    "text": "恋人がこうだとキツいのはどっち？",
+    "answers": [
+      "社交的すぎる",
+      "人付き合いが苦手すぎる"
+    ]
+  },
+  "c52d148b-89e8-4238-9d94-800d4f11bdac": {
+    "en": "Which is worse: your partner finds you physically attractive but not emotionally, or the opposite?",
+    "text": "恋人にこう思われるなら、キツいのはどっち？",
+    "answers": [
+      "見た目はいいけど中身は微妙",
+      "中身はいいけど見た目は微妙"
+    ]
+  },
+  "162d6a19-fd73-4534-b490-5e7e1e0b3eef": {
+    "en": "Which is a bigger problem for you: your friends not liking your partner or your family not liking your partner?",
+    "text": "より困るのはどっち？",
+    "answers": [
+      "友達に恋人が嫌われる",
+      "家族に恋人が嫌われる"
+    ]
+  },
+  "ea5ad620-dc64-4152-b184-47622520ec52": {
+    "en": "Which one harms a relationship more: jealousy or indifference?",
+    "text": "関係をより壊すのはどっち？",
+    "answers": [
+      "嫉妬",
+      "無関心"
+    ]
+  },
+  "fe45606a-4dc4-42e6-9abf-5e2a509edb00": {
+    "en": "Which one keeps a relationship alive: trust or excitement?",
+    "text": "関係を長続きさせるのはどっち？",
+    "answers": [
+      "信頼",
+      "ドキドキ"
+    ]
+  },
+  "fd0179df-13cb-4157-ba8a-12619419e6a8": {
+    "en": "Which matters more in a relationship: past or future?",
+    "text": "恋愛でより大事なのはどっち？",
+    "answers": [
+      "過去",
+      "未来"
+    ]
+  },
+  "59eb70eb-3614-482e-b3e7-13d374d022a7": {
+    "en": "Would you lie to make your partner happy, or would you tell the truth?",
+    "text": "恋人を喜ばせるためなら、ウソをつく？それとも本当のことを言う？",
+    "answers": [
+      "ウソをつく",
+      "本当のことを言う"
+    ]
+  },
+  "5bb196d2-5aa1-4f79-9c71-b1baedb47576": {
+    "en": "Do you think love can completely change a person's character?",
+    "text": "恋で人の性格はガラッと変わると思う？"
+  },
+  "f96063bc-177c-4046-940f-d72c36e52893": {
+    "en": "Can your partner restrict you in certain situations?",
+    "text": "時と場合によっては、恋人に束縛されてもアリ？"
+  },
+  "638b1776-92ae-472c-9af1-2b150d8b928c": {
+    "en": "Does too much attention bother you?",
+    "text": "かまわれすぎるとしんどい？"
+  },
+  "6fbf8d8f-5684-4aa4-8861-71fa531bd810": {
+    "en": "Would it bother you if your partner sent money from your joint account to their family?",
+    "text": "恋人がふたりの共同口座から実家に仕送りしてたら、イヤ？"
+  },
+  "b8dcafd7-f3f6-4302-8649-056b806471d9": {
+    "en": "Would it bother you if your partner frequently praised an opposite-sex coworker?",
+    "text": "恋人が異性の同僚をよくほめてたら、気になる？",
+    "flagged": true,
+    "note": "Kept 異性 (opposite sex) as in source; assumes a mixed couple."
+  },
+  "3e13ae9a-0342-4fe9-a61a-bcd0b1c49265": {
+    "en": "Does your partner have to share a photo with you on their social media accounts?",
+    "text": "恋人はSNSに自分とのツーショットを載せるべき？"
+  },
+  "b9bfb570-2a7e-4bbc-b8ad-738814907e46": {
+    "en": "Would it be a reason for an argument if your partner never shares any photos with you on social media?",
+    "text": "恋人がSNSに自分との写真を1枚も載せなかったら、ケンカになる？"
+  },
+  "9ab9fcdd-a94c-4a41-b1cb-b457f9a29fd3": {
+    "en": "Would it bother you if your partner worked at the same workplace as their ex?",
+    "text": "恋人が元恋人と同じ職場で働いてたら、気になる？"
+  },
+  "05c6379b-7172-485c-9a3a-957dc4b871d6": {
+    "en": "If an argument with your partner goes on for too long, would you be the one to back down to end it?",
+    "text": "恋人とのケンカが長引いたら、自分から折れる？"
+  },
+  "613bd85c-575c-4aed-b9ce-5f3af88e5906": {
+    "en": "If you lent money to your partner and they forgot to pay you back, would you remind them?",
+    "text": "恋人に貸したお金を返し忘れられてたら、言う？"
+  },
+  "9c033c13-73b4-44e7-a935-0242b4fae94f": {
+    "en": "Would you get upset if your partner never introduced you to their friends?",
+    "text": "恋人が友達に一度も紹介してくれなかったら、ムッとする？"
+  },
+  "40137f6d-8f1e-45c1-a4dc-a63c87f0a92f": {
+    "en": "Do you think your ex-partner should be removed from social media accounts?",
+    "text": "元恋人はSNSから消すべきだと思う？"
+  },
+  "32bec47e-fda0-4934-bb7e-536d8e4cf7f2": {
+    "en": "If you stopped being physically attracted to your spouse after marriage, would you get a divorce?",
+    "text": "結婚してから相手の見た目にときめかなくなったら、離婚する？"
+  },
+  "0f881ec0-2f6d-4a8d-8f6f-1fe54395c59f": {
+    "en": "Would you prefer your child to resemble you more or your partner?",
+    "text": "子どもには、自分と恋人のどっちに似てほしい？",
+    "answers": [
+      "自分",
+      "恋人"
+    ]
+  },
+  "ae4f73ff-5e35-4faa-bea5-ccb6fff9920e": {
+    "en": "If your partner really wanted it, would you name your child after your partner's mother?",
+    "text": "恋人がどうしてもって言ったら、子どもに恋人のお母さんの名前をつける？",
+    "flagged": true,
+    "note": "Naming a child after a grandparent is uncommon in Japan; kept as-is (using the name), may feel odd."
+  },
+  "b246de81-762a-451c-8b6a-a4a4cdf1c14f": {
+    "en": "Would it bother you if your partner had a fake account just to stalk people?",
+    "text": "恋人が人のSNSをのぞくためだけの裏アカを持ってたら、イヤ？"
+  },
+  "04fb3b07-0c4a-4470-906f-69ff3696620b": {
+    "en": "In a relationship, do you think it is better to take a break to fix things or solve them without any break?",
+    "text": "関係がこじれたとき、いったん距離を置く？距離を置かずに解決する？",
+    "answers": [
+      "距離を置く",
+      "距離を置かずに解決"
+    ]
+  },
+  "9abff03b-7b65-419f-b4d6-2d469b4dc7be": {
+    "en": "1 million dollars but not see your partner for 2 years, or 10 million dollars but not see your partner for 4 years?",
+    "text": "1億円もらえるけど恋人と2年会えないのと、10億円もらえるけど4年会えないの、どっち？",
+    "answers": [
+      "1億円で2年会えない",
+      "10億円で4年会えない"
+    ],
+    "flagged": true,
+    "note": "Converted 1M/10M dollars to round 1億円/10億円 (approx. value, kept the 10x ratio)."
+  },
+  "80bd3596-b457-49a1-a292-e3a26678f409": {
+    "en": "Would you rather be with someone you love but have constant arguments, or with someone less compatible but peaceful?",
+    "text": "大好きだけどケンカばかりの相手と、相性はいまいちだけど穏やかな相手、どっちがいい？",
+    "answers": [
+      "大好きだけどケンカばかり",
+      "相性いまいちでも穏やか"
+    ]
+  },
+  "550b4795-47de-43b4-9981-5522c66470f3": {
+    "en": "Which would you prefer: your partner proposing a modest marriage or an extravagant one?",
+    "text": "恋人からのプロポーズ、シンプルなのと豪華なの、どっちがいい？",
+    "answers": [
+      "シンプルなプロポーズ",
+      "豪華なプロポーズ"
+    ]
+  },
+  "c90ae871-809e-4ada-9637-99d6ff40dce7": {
+    "en": "Which would you prefer: your partner buying an engagement ring that stretches their budget or one much cheaper than they can afford?",
+    "text": "婚約指輪、恋人が無理して買う高い指輪と、予算よりずっと安い指輪、どっちがいい？",
+    "answers": [
+      "無理して買う高い指輪",
+      "ずっと安い指輪"
+    ]
+  },
+  "9ae0640c-d472-4528-a93b-99746bc50ea6": {
+    "en": "Which would you prefer: your partner planning the marriage proposal entirely on their own, or secretly asking your friends for advice?",
+    "text": "プロポーズの計画、恋人がひとりで全部考えるのと、こっそりこっちの友達に相談するの、どっちがいい？",
+    "answers": [
+      "ひとりで全部考える",
+      "こっそり友達に相談"
+    ]
+  },
+  "4d5dde88-5d3a-4751-91aa-1004648687c2": {
+    "en": "Which would you prefer: a partner who expresses love through grand gestures, or one who shows it through small everyday acts?",
+    "text": "恋人の愛情表現、どっちがうれしい？",
+    "answers": [
+      "大きなサプライズ",
+      "日々の小さな気づかい"
+    ]
+  },
+  "db9d8560-2591-456f-b350-c20096c3e897": {
+    "en": "Is it okay for your partner to hug a friend of the opposite sex?",
+    "text": "恋人が異性の友達とハグするのはアリ？",
+    "flagged": true,
+    "note": "Hugging opposite-sex friends is less common in Japan; kept meaning."
+  },
+  "d1af31ed-9299-485a-941b-b8031854ca9c": {
+    "en": "Is it okay for your partner to treat a friend of the opposite sex to a meal?",
+    "text": "恋人が異性の友達にごはんをおごるのはアリ？"
+  },
+  "1fd7db14-1dfd-4713-a16a-91a0bc778c60": {
+    "en": "Is it okay for your partner to meet one-on-one with a friend of the opposite sex?",
+    "text": "恋人が異性の友達とサシで会うのはアリ？"
+  },
+  "49fd0add-5bf4-4012-b988-e6a0c6e704c2": {
+    "en": "Is it a problem for you if your partner has a celebrity crush?",
+    "text": "恋人に好きな芸能人がいるのはイヤ？"
+  },
+  "9cd41d79-298f-431e-92ae-8a1bba9c478f": {
+    "en": "Do you think it is acceptable to read your partner’s messages with friends of the opposite sex?",
+    "text": "恋人と異性の友達のメッセージのやりとりを見るのはアリだと思う？"
+  },
+  "585ec0e7-b6f1-444c-b04c-2ef0117d83bd": {
+    "en": "With your partner...",
+    "text": "恋人とはどんな関係がいい？",
+    "answers": [
+      "安心だけど退屈な関係",
+      "不安定だけど刺激的な関係"
+    ]
+  },
+  "12cc068c-eb0e-44d6-b816-c39859648964": {
+    "en": "Would you get upset if your partner refused to show you their messages with a friend of the opposite sex?",
+    "text": "恋人が異性の友達とのメッセージを見せてくれなかったら、怒る？"
+  },
+  "940c094a-220c-40f3-9526-a5fea4f487bd": {
+    "en": "Is it okay for your partner to stay for a short time at a friend of the opposite sex's house?",
+    "text": "恋人が異性の友達の家に数日泊まるのはアリ？"
+  },
+  "db9c8d1c-063f-4c3d-8da6-84abfcb592e7": {
+    "en": "Would it be a reason for conflict if your partner wanted to spend the entire weekend playing video games alone?",
+    "text": "恋人が週末ずっとひとりでゲームしたいって言ったら、ケンカになる？"
+  },
+  "8c809c4c-7508-47c3-b12b-68ca4fae57b8": {
+    "en": "In a long-term relationship, love over time...",
+    "text": "長く付き合うと、愛情は…",
+    "answers": [
+      "深まる",
+      "形が変わる"
+    ]
+  },
+  "2e1f0de3-37db-41c9-a49f-ceb0bde8402f": {
+    "en": "Should your partner prioritize their own future or yours more?",
+    "text": "恋人が優先すべきなのは、どっちの将来？",
+    "answers": [
+      "恋人自身の将来",
+      "自分の将来"
+    ]
+  },
+  "58cc044f-d0e6-407b-b19f-4db600605254": {
+    "en": "Your partner trying to change you...",
+    "text": "恋人が自分を変えようとしてくるのは…",
+    "answers": [
+      "アリ",
+      "絶対ナシ"
+    ]
+  },
+  "faeb28bd-22ea-4bb9-89c6-5cd68917656d": {
+    "en": "In a long-term relationship, monotony...",
+    "text": "長く付き合うと、マンネリは…",
+    "answers": [
+      "避けられない",
+      "防げる"
+    ]
+  },
+  "93bfc65c-0d46-4cbc-86a5-46802820f43b": {
+    "en": "Your partner trying to change you, even if it is \"for your own good\"...",
+    "text": "「よかれと思って」でも、恋人が自分を変えようとしてくるのは…",
+    "answers": [
+      "アリ",
+      "絶対ナシ"
+    ]
+  },
+  "d396fe80-cd3f-43c3-842a-fcd6c54b23b4": {
+    "en": "Your partner talking about their past relationships...",
+    "text": "恋人が元恋人の話をするのは…",
+    "answers": [
+      "普通だし必要",
+      "いらないし、よくない"
+    ]
+  },
+  "1145588f-eea5-4226-80b3-a98a5d0b043c": {
+    "en": "Jealousy...",
+    "text": "やきもちは…",
+    "answers": [
+      "愛情のしるし",
+      "不安のしるし"
+    ]
+  },
+  "aabf084a-c712-4d5f-872c-8351c008d756": {
+    "en": "If your partner does not like your friends...",
+    "text": "自分の友達を恋人が気に入らなかったら…",
+    "answers": [
+      "問題になりうる",
+      "問題ない"
+    ]
+  },
+  "31b2a2da-9927-44e9-948c-1edd25445983": {
+    "en": "If your partner does not constantly text you...",
+    "text": "恋人からマメに連絡が来ないのは…",
+    "answers": [
+      "普通のこと",
+      "気持ちがない証拠"
+    ]
+  },
+  "aaa13474-4c03-4f25-b201-c6c81cf34b35": {
+    "en": "If your partner informs you at the last minute without making plans...",
+    "text": "恋人が予定を立てずに直前に連絡してくるのは…",
+    "answers": [
+      "ノリがいい",
+      "失礼"
+    ]
+  },
+  "c8052202-a0f7-4d5a-9e3d-4aaa2bba5caf": {
+    "en": "Spending constant time together in a relationship...",
+    "text": "恋人といつも一緒にいるのは…",
+    "answers": [
+      "絆が深まる",
+      "息が詰まる"
+    ]
+  },
+  "48e6113e-51b4-4e1f-a138-7c7149028fa3": {
+    "en": "Staying silent during arguments...",
+    "text": "ケンカ中に黙るのは…",
+    "answers": [
+      "大人の対応",
+      "逃げ"
+    ]
+  },
+  "c3b94f1d-30c4-4c5d-bed8-ab4965ec0b5b": {
+    "en": "Questioning your partner in a relationship...",
+    "text": "恋人を問い詰めるのは…",
+    "answers": [
+      "普通",
+      "不安のしるし"
+    ]
+  },
+  "e2f38a08-615d-4063-9ef1-e1194aabb7a6": {
+    "en": "Freedom in a relationship...",
+    "text": "恋愛での「自由」は…",
+    "answers": [
+      "一番大事",
+      "愛が冷める"
+    ]
+  },
+  "3354bd61-f081-4c81-8939-a8009d25b348": {
+    "en": "Spending time apart in a relationship...",
+    "text": "恋人と別々に過ごす時間は…",
+    "answers": [
+      "健全",
+      "距離ができる"
+    ]
+  },
+  "64a23406-a16e-4819-9dd8-da44d139f8e6": {
+    "en": "Silence between you and your partner...",
+    "text": "恋人との沈黙は…",
+    "answers": [
+      "居心地がいい証拠",
+      "距離ができた証拠"
+    ]
+  },
+  "52bd1a52-d873-4451-8a68-da4c7ade05d3": {
+    "en": "Routine in a long-term relationship...",
+    "text": "長く付き合ってからのお決まりのパターンは…",
+    "answers": [
+      "安心感になる",
+      "退屈になる"
+    ]
+  },
+  "7a0db8b2-560c-41e6-849a-993e7e074ae8": {
+    "en": "What is more important in a relationship: love or respect?",
+    "text": "恋愛でもっと大事なのは、愛と尊重のどっち？",
+    "answers": [
+      "愛",
+      "尊重"
+    ]
+  },
+  "9d7e63d7-607b-48a9-949a-16936f965dc6": {
+    "en": "Sharing everything with your partner...",
+    "text": "恋人と何でも共有するのは…",
+    "answers": [
+      "距離が縮まる",
+      "ひとりの時間がなくなる"
+    ]
+  },
+  "7ee80276-4cae-4786-8e8a-6c3732d4bad2": {
+    "en": "In a long-term relationship, love is more...",
+    "text": "長く付き合うと、愛はどっちに近い？",
+    "answers": [
+      "選ぶもの",
+      "感じるもの"
+    ]
+  },
+  "ddcf2c7d-04d2-4a0c-b0ed-119f2f636bc6": {
+    "en": "The biggest risk in a relationship...",
+    "text": "恋愛で一番のリスクは…",
+    "answers": [
+      "心が離れること",
+      "慣れすぎること"
+    ]
+  },
+  "2b676dd8-d2b2-4d4d-91f2-6cd5c4997b2b": {
+    "en": "In long-term relationships, people more often...",
+    "text": "長く付き合うと、人はたいてい…",
+    "answers": [
+      "補い合う",
+      "似てくる"
+    ]
+  },
+  "d28a64f1-32ba-433f-82dd-72bf9c2cc578": {
+    "en": "Accepting your partner as they are...",
+    "text": "恋人をありのまま受け入れるのは…",
+    "answers": [
+      "愛の究極の形",
+      "成長を止める"
+    ]
+  },
+  "08a3ebbf-7806-4766-923d-2957e0c0d2c2": {
+    "en": "With your partner...",
+    "text": "恋人とならどっち？",
+    "answers": [
+      "相性抜群だけど情熱は少なめ",
+      "情熱的だけどケンカばかり"
+    ]
+  },
+  "b97d013a-ccd8-4678-b52e-c6ba122ef54b": {
+    "en": "In a relationship...",
+    "text": "恋愛でよりイヤなのはどっち？",
+    "answers": [
+      "何もかもマンネリになる",
+      "何ひとつ安定しない"
+    ]
+  },
+  "b933a4a0-fb1a-423e-8571-96ecb4dd4b7b": {
+    "en": "In a relationship...",
+    "text": "恋愛するならどっち？",
+    "answers": [
+      "愛は薄れても穏やかになる",
+      "愛は続くけど穏やかさが減る"
+    ]
+  },
+  "641d3889-c306-47c1-875c-525e5c928cdc": {
+    "en": "What is worse in a relationship: broken trust or complete loss of interest?",
+    "text": "恋愛でよりつらいのはどっち？",
+    "answers": [
+      "信頼が壊れる",
+      "気持ちが完全に冷める"
+    ]
+  },
+  "d1483a50-6ff5-4975-9b46-224f67e0036b": {
+    "en": "In a long-term relationship, which is worse: constantly feeling suspicious or constantly feeling emptiness?",
+    "text": "長く付き合ううえで、よりつらいのはどっち？",
+    "answers": [
+      "ずっと疑ってしまう",
+      "ずっと心が空っぽ"
+    ]
+  },
+  "d0a3444e-8114-4511-a054-56a7198b70a0": {
+    "en": "In a long-term relationship, which is harder: staying without knowing you are loved or staying while knowing you do not love the other person?",
+    "text": "長く付き合ううえで、もっとつらいのはどっち？",
+    "answers": [
+      "愛されてるかわからないまま一緒にいる",
+      "好きじゃないとわかってて一緒にいる"
+    ]
+  },
+  "86598b9e-9d8a-47a4-b230-ea71b1e47093": {
+    "en": "In a long-term relationship, what is healthier: solving everything by talking or letting some things resolve with time?",
+    "text": "長く付き合ううえで、より健全なのはどっち？",
+    "answers": [
+      "全部話し合って解決",
+      "時間に任せることもある"
+    ]
+  },
+  "a3f28e46-c315-4260-8130-3b9f5f03147d": {
+    "en": "In a relationship, trust...",
+    "text": "恋愛での信頼は…",
+    "answers": [
+      "オープンな態度で築く",
+      "時間とともに自然にできる"
+    ]
+  },
+  "bab53c7d-eba6-4584-a606-4af030d5d86b": {
+    "en": "Differences with a partner...",
+    "text": "恋人との違いは…",
+    "answers": [
+      "話し合ってすり合わせる",
+      "受け入れて付き合っていく"
+    ]
+  },
+  "0972afde-efba-45c4-84f3-1ecccab07b8b": {
+    "en": "How many kids would you want to have?",
+    "text": "子どもは何人ほしい？"
+  },
+  "877a7f71-261e-441f-ae71-d19aafbce112": {
+    "en": "If we won the lottery tomorrow, what's the first thing we should buy?",
+    "text": "明日ふたりで宝くじが当たったら、まず何を買う？"
+  },
+  "7a6c7486-c2d0-4670-8265-229eb7648fa1": {
+    "en": "Which room in our future home matters most to you?",
+    "text": "将来のふたりの家で、一番大事な部屋は？"
+  },
+  "da02be22-6278-4003-867b-4669430cca9c": {
+    "en": "If we could live our love story in another decade, which one would you pick?",
+    "text": "ふたりの恋を別の時代でするなら、何年代がいい？"
+  },
+  "6a9340b3-6abd-422e-9d0d-2755d92b2626": {
+    "en": "What do you think is the perfect age to get married?",
+    "text": "結婚するのにベストな年齢は何歳だと思う？"
+  },
+  "84f363db-cdd5-4d66-b0ee-a92b4e42ea36": {
+    "en": "In which season would you want our wedding to be?",
+    "text": "ふたりの結婚式、どの季節がいい？"
+  },
+  "3fd45b5e-5fae-4e63-9fde-b5a4ea3aa230": {
+    "en": "If we opened a small business together, what would it be?",
+    "text": "ふたりで小さなお店を開くなら、何のお店にする？"
+  },
+  "af17ae3b-0689-4f53-a43a-307b41c92377": {
+    "en": "How many days can we stay with family on a holiday before it gets too much?",
+    "text": "お正月やお盆の帰省、実家に何日いたらもう限界？",
+    "flagged": true,
+    "note": "Turkish 'Bayram' family visit adapted to Japanese New Year / Obon homecoming (帰省)."
+  },
+  "c6fd0991-5ac8-426b-8213-2ddd89e51c80": {
+    "en": "Stranded on a desert island, what's the one item we should have with us?",
+    "text": "ふたりで無人島に流されたら、ひとつだけ持っていくなら何？"
+  },
+  "c5aac9b9-0d32-4a5f-a25b-2589471f9d85": {
+    "en": "If we were an animal couple, which animal would we be?",
+    "text": "ふたりが動物のカップルだったら、何の動物？"
+  },
+  "4138fe94-94d5-470a-a625-b81315a3afbc": {
+    "en": "When we're apart, how many times a day should we text each other?",
+    "text": "離れてるとき、1日に何回くらい連絡を取り合いたい？"
+  },
+  "648c9e51-2464-4424-b6bd-b301773563ef": {
+    "en": "How many vacations a year would make you happy?",
+    "text": "年に何回旅行できたら幸せ？"
+  },
+  "3b3109ea-bdaa-41d7-9b36-39663b735baa": {
+    "en": "What is the one thing a couple should never hide from each other?",
+    "text": "カップルがお互いに絶対隠しちゃいけないことは？"
+  },
+  "13fa6cd6-40a7-47ce-b81e-d9f4011e6d14": {
+    "en": "What would be an unforgivable mistake in our relationship?",
+    "text": "ふたりの関係で、これだけは許せないってミスは？"
+  },
+  "3fc7169d-4ad5-4326-9eb6-a04e379c39b3": {
+    "en": "In one word, how would you describe the marriage you dream of?",
+    "text": "理想の結婚生活をひとことで言うと？"
+  },
+  "e7542a81-d0f8-4150-855d-5a0e6ce1c40b": {
+    "en": "What is the best way to apologize after a fight?",
+    "text": "ケンカのあと、一番いい謝り方は？"
+  },
+  "7efa86a1-a5d0-451e-b610-d23e258675dd": {
+    "en": "What should we be saving money for the most?",
+    "text": "ふたりで一番お金を貯めるべきなのは何のため？"
+  },
+  "025eeea5-214f-4e8c-bb93-76d38611b8d1": {
+    "en": "What should we do more often as a couple?",
+    "text": "ふたりでもっとするべきことは？"
+  },
+  "c89df148-f5b0-4bfe-8ffb-4a462a90f3a1": {
+    "en": "In one word, what does home mean to you?",
+    "text": "ひとことで言うと、「家」ってどんな場所？"
+  },
+  "addfef11-2838-4b60-aaf0-96a9116ce7f5": {
+    "en": "What keeps a partner attractive even after many years?",
+    "text": "何年経っても恋人が魅力的でいられる秘訣は？"
+  },
+  "ef51cd29-05ca-46e0-975f-63da6f5d121f": {
+    "en": "What is the hardest part of living together?",
+    "text": "一緒に暮らすうえで一番大変なことは？"
+  },
+  "f8f014c0-ed8d-4bc4-8916-6789b0b9c495": {
+    "en": "What is the most romantic thing a partner can do?",
+    "text": "恋人にされたら一番ロマンチックなことって何？"
+  },
+  "0fdfa9eb-8601-461e-a3c3-7ce885360eb5": {
+    "en": "What is the best way to cheer up a partner on a bad day?",
+    "text": "落ち込んでる恋人を元気にする一番の方法は？"
+  },
+  "fd6c53e2-85dd-4f63-b5eb-2f11d3d33678": {
+    "en": "What would you never compromise on in a relationship?",
+    "text": "恋愛でこれだけは絶対に譲れないことは？"
+  },
+  "250f4154-d737-41a6-a65b-9c301d59933d": {
+    "en": "What should we spend more money on?",
+    "text": "ふたりでもっとお金をかけるべきなのは？"
+  },
+  "2c318cd3-2371-46d0-a198-e53b538dc364": {
+    "en": "Which household task should we always do together?",
+    "text": "いつもふたりでやるべき家事は？"
+  },
+  "05754409-e530-427d-b179-8c776b172eea": {
+    "en": "What hobby should we start together?",
+    "text": "ふたりで始めるべき趣味は？"
+  },
+  "774352ec-e684-4204-87a7-4d8ac5166fdb": {
+    "en": "What is the biggest lesson a long relationship teaches you?",
+    "text": "長い恋愛から学べる一番大きなことは？"
+  },
+  "ba2a7c9f-0921-4e21-931f-cdba4e58cfd5": {
+    "en": "What should we protect the most in our relationship?",
+    "text": "ふたりの関係で一番大切に守るべきものは？"
+  },
+  "cd079152-ea66-4f88-aed9-d7b54c040054": {
+    "en": "How should big purchases be approved?",
+    "text": "大きな買い物はどうやって決めるべき？",
+    "answers": [
+      "ふたりで話し合って",
+      "それぞれの自由で",
+      "厳しい予算ルールで",
+      "収入が多い方の判断で"
+    ]
+  },
+  "2291a27a-e64b-454a-b36e-20fdbde9975e": {
+    "en": "What is the ideal frequency for date nights?",
+    "text": "デートの理想の頻度は？",
+    "answers": [
+      "毎週",
+      "月2回",
+      "月1回",
+      "気が向いたときに"
+    ]
+  },
+  "859adb95-56e7-42ca-820f-5ed8cf0fb2f9": {
+    "en": "How should house chores be divided?",
+    "text": "家事はどう分担するべき？",
+    "answers": [
+      "きっちり半分ずつ",
+      "時間がある方がやる",
+      "好きな家事を担当",
+      "家事代行に頼む"
+    ]
+  },
+  "d3945b46-2530-4bc5-b38b-826dcd9292b4": {
+    "en": "What is the most critical factor for raising children?",
+    "text": "子育てで一番大事なことは？",
+    "answers": [
+      "厳しいしつけ",
+      "心の支え",
+      "経済的な安定",
+      "完全な自由"
+    ]
+  },
+  "f57ec14a-f2c5-4c36-b6a1-0b53d72adf04": {
+    "en": "How should long-term financial savings be managed?",
+    "text": "将来のための貯金はどう管理する？",
+    "answers": [
+      "共同の口座",
+      "別々の口座",
+      "共通の貯金＋個人の分",
+      "どちらかひとりが管理"
+    ]
+  },
+  "15d3e91e-2923-44d0-8b51-00e99f26a09b": {
+    "en": "How do you react when plans change last minute?",
+    "text": "直前に予定が変わったらどうなる？",
+    "answers": [
+      "すぐ切り替える",
+      "顔に出るほどストレス",
+      "代わりの案を出す",
+      "ひとりの時間がほしい"
+    ]
+  },
+  "369fa1e1-0ab3-4f2c-a265-15c284122bdd": {
+    "en": "What is the most unforgivable behavior in a relationship?",
+    "text": "恋愛で一番許せない行動は？",
+    "answers": [
+      "気持ちに不誠実なこと",
+      "お金の隠し事",
+      "人前での失礼な態度",
+      "大変なときに支えないこと"
+    ]
+  },
+  "b5506938-a426-43e2-8b9f-7c3abd1351f6": {
+    "en": "How should social media usage about the relationship be?",
+    "text": "ふたりのことをSNSにどのくらい載せる？",
+    "answers": [
+      "ほぼ載せない",
+      "よく投稿する",
+      "特別な日だけ",
+      "特にルールなし"
+    ]
+  },
+  "9bb2e738-2076-437c-aba1-a9520ec78c4e": {
+    "en": "How do you prefer to receive love and affection?",
+    "text": "愛情はどんな形で受け取りたい？",
+    "answers": [
+      "一緒に過ごす時間",
+      "愛のある言葉",
+      "スキンシップ",
+      "手助けや気づかい"
+    ]
+  },
+  "970bb568-1809-4cdf-993f-a264b16d0984": {
+    "en": "How do you react when your partner forgets an important date?",
+    "text": "恋人が大事な日を忘れてたらどうする？",
+    "answers": [
+      "すごく傷ついてすねる",
+      "優しく伝えて終わり",
+      "あまり気にしない",
+      "埋め合わせのプレゼントを期待"
+    ]
+  },
+  "cc1d8977-1ebc-45ff-969c-4c83a770c236": {
+    "en": "How much influence should families have on major life choices?",
+    "text": "人生の大きな決断に、家族はどのくらい関わるべき？",
+    "answers": [
+      "まったく関わらない",
+      "アドバイスだけもらう",
+      "強い決定権を持つ"
+    ]
+  },
+  "f7030f9c-1144-4a1b-bae0-99bd8865acc8": {
+    "en": "What is the ideal balance between spending and saving income?",
+    "text": "使うお金と貯めるお金、理想のバランスは？",
+    "answers": [
+      "ほとんど貯金",
+      "半分ずつ",
+      "今を楽しんで使う"
+    ]
+  },
+  "82f50091-7685-468d-af2e-29158c7b6d5c": {
+    "en": "What is the single most important quality in a long-term partner?",
+    "text": "長く付き合う恋人に一番求めることは？"
+  },
+  "334370d5-ab10-42b8-9fea-7c51cbb638be": {
+    "en": "How many times a month should a couple go on a romantic date?",
+    "text": "カップルは月に何回デートするべき？"
+  },
+  "1fd10a4a-6be3-4f29-abe6-d51af32192f0": {
+    "en": "What is the biggest dealbreaker for you in a relationship?",
+    "text": "これをされたら即別れる、っていうことは？"
+  },
+  "991e7451-814e-4596-afd5-5b46f856b6b7": {
+    "en": "How many hours of sleep do you need to feel fully rested?",
+    "text": "何時間寝れば、しっかり疲れが取れる？"
+  },
+  "146cb144-98ea-4c21-b324-25c17421a56f": {
+    "en": "What percentage of monthly income should ideally be saved?",
+    "text": "毎月の収入の何％を貯金するのが理想？"
+  },
+  "940141d6-6768-492b-bbc2-eff88c7d6a7a": {
+    "en": "How many times a year should a couple go on vacation together?",
+    "text": "カップルは年に何回一緒に旅行するべき？"
+  },
+  "81d126e6-67b0-4734-a299-f4c6a0c7e2a8": {
+    "en": "How many hours after an argument should a couple sit down and talk?",
+    "text": "ケンカしてから何時間後に、落ち着いて話し合うべき？"
+  },
+  "0f5f0261-317a-4e29-8322-8a5af550f652": {
+    "en": "What is the best household chore to do together as a couple?",
+    "text": "ふたりでやると一番楽しい家事は？"
+  },
+  "b50d4c4a-0ca0-4b1c-b6e0-36e56b8709ed": {
+    "en": "You find out they watched the next episode of your show while you were asleep. What do you do?",
+    "text": "一緒に観てるドラマの続きを、寝てる間に恋人が先に観てた。どうする？",
+    "answers": [
+      "ムッとするけど何も言わない",
+      "こっそり次の話を観る",
+      "もう一回一緒に観てもらう",
+      "全然気にしない"
+    ]
+  },
+  "8ba7193f-e49b-4a80-9601-277334517bf2": {
+    "en": "You're freezing, they're sweating, and the AC is on. What do you do?",
+    "text": "自分は寒いのに恋人は汗だく、エアコンはついてる。どうする？",
+    "answers": [
+      "毛布にくるまる",
+      "間の温度で手を打つ",
+      "こっそり設定を変える"
+    ]
+  },
+  "6f42dfda-dae8-4245-965c-5544f6601234": {
+    "en": "Their dishes have been sitting in the sink for two days. What do you do?",
+    "text": "恋人の食器が2日もシンクに置きっぱなし。どうする？",
+    "answers": [
+      "黙って洗う",
+      "洗うけどひとこと言う",
+      "本人が洗うまで放置",
+      "ちゃんと話し合う"
+    ]
+  },
+  "893d41ee-eb00-4ff3-b9dd-0508ac343e5d": {
+    "en": "You wake up at night and they've stolen the whole duvet. What do you do?",
+    "text": "夜中に目が覚めたら、恋人が布団を全部取ってた。どうする？",
+    "answers": [
+      "引っぱって取り返す",
+      "起こす",
+      "別の毛布を持ってくる",
+      "寒いまま寝直す"
+    ]
+  },
+  "6d0eeebe-e6f2-466d-9e39-631de4cc843b": {
+    "en": "They snooze their alarm five times every morning and wake you up too. What do you do?",
+    "text": "恋人が毎朝アラームを5回スヌーズして、こっちまで起きちゃう。どうする？",
+    "answers": [
+      "自分で止める",
+      "起きるまでつつく",
+      "枕をかぶって耐える",
+      "スマホを寝室に置かないよう頼む"
+    ]
+  },
+  "986eabcf-8a9e-44aa-a674-fab08fc0b1d5": {
+    "en": "You're reading, and they start blasting music on the speaker. What do you do?",
+    "text": "本を読んでるのに、恋人がスピーカーで音楽を大音量で流しはじめた。どうする？",
+    "answers": [
+      "音を下げてと頼む",
+      "イヤホンをする",
+      "別の部屋に移る",
+      "一緒に歌っちゃう"
+    ]
+  },
+  "6ce276a0-cb42-41c8-8ad5-7f1f30c3fb30": {
+    "en": "You cooked dinner, and they add salt before even tasting it. What do you do?",
+    "text": "夕飯を作ったのに、恋人が味見もせずに塩をかけた。どうする？",
+    "answers": [
+      "ちょっとムッとする",
+      "ネタにして笑う",
+      "全然気にしない"
+    ]
+  },
+  "41570696-2ab6-44ff-93cd-4e524c0f9cf4": {
+    "en": "It's cleaning day. You want to start now, they say \"let's do it tonight.\" What do you do?",
+    "text": "今日は掃除の日。すぐ始めたいのに、恋人は「夜やろうよ」って。どうする？",
+    "answers": [
+      "ひとりで始める",
+      "夜まで待つ",
+      "一緒に始めるまで粘る",
+      "掃除代行を頼もうと言う"
+    ]
+  },
+  "44ed55b4-e760-453e-ba16-cfc2ba1f55c7": {
+    "en": "They take 40 minutes in the bathroom every morning, and you're running late. What do you do?",
+    "text": "恋人が毎朝40分も洗面所を占領してて、遅刻しそう。どうする？",
+    "answers": [
+      "ノックして急かす",
+      "ブツブツ言いながら待つ",
+      "もっと早起きするようにする"
+    ]
+  },
+  "fe095dc1-749f-45bc-9e49-66ce37502e2a": {
+    "en": "They now burp in front of you without a second thought. Out of 10, what score do they drop to?",
+    "text": "恋人が目の前で平気でゲップするようになった。10点満点で何点に下がる？"
+  },
+  "33a52a1a-90d6-4fd3-ac1a-ff3fe639b28a": {
+    "en": "They leave the bathroom door open while using the toilet. Out of 10, what score do they drop to?",
+    "text": "恋人がトイレのドアを開けっぱなしで使う。10点満点で何点に下がる？"
+  },
+  "aca627ea-b06e-41f6-985c-25a6da2d91d4": {
+    "en": "They clip their nails on the couch. Out of 10, what score do they drop to?",
+    "text": "恋人がソファで爪を切る。10点満点で何点に下がる？"
+  },
+  "69727950-a39d-4071-a35a-30125b09c4f1": {
+    "en": "They only remember your anniversary because of a phone reminder. Out of 10, what score do they drop to?",
+    "text": "恋人がスマホの通知でやっと記念日を思い出す。10点満点で何点に下がる？"
+  },
+  "2e2007bc-30a1-4468-9a75-f90c5d3186d1": {
+    "en": "They eat from your plate without asking. Out of 10, what score do they drop to?",
+    "text": "恋人が何も言わずに自分のお皿から食べる。10点満点で何点に下がる？"
+  },
+  "11200110-48f5-4598-b94f-35fd0e2dc090": {
+    "en": "While you're talking, they stare at their phone and just say \"mhm\". Out of 10, what score do they drop to?",
+    "text": "話してるのに、恋人がスマホを見たまま「うんうん」しか言わない。10点満点で何点に下がる？"
+  },
+  "d32c6357-fdb8-4b3c-8e6b-4f53cb753413": {
+    "en": "They leave their wet towel on the bed. Out of 10, what score do they drop to?",
+    "text": "恋人が濡れたタオルをベッドに置きっぱなし。10点満点で何点に下がる？"
+  },
+  "1f383d25-0eec-4656-b3ac-470c16d0a4f3": {
+    "en": "They tell their friends about your fights. Out of 10, what score do they drop to?",
+    "text": "恋人がふたりのケンカを友達に話す。10点満点で何点に下がる？"
+  },
+  "61e8d220-0d50-4983-9d45-58c7f73ab1bb": {
+    "en": "They've started hanging up without saying \"I love you\". Out of 10, what score do they drop to?",
+    "text": "恋人が電話を切るとき「好きだよ」って言わなくなった。恋人の点数、10点満点で何点に下がる？"
+  },
+  "a5eb351e-ac14-4d92-936d-cb8b6638100e": {
+    "en": "Your partner got fired and hasn't left the house in days. What do you do?",
+    "text": "恋人が仕事をクビになって、何日も家から出てない。どうする？",
+    "answers": [
+      "すぐ仕事探しを手伝う",
+      "立ち直るまで時間をあげる",
+      "外に出るよう背中を押す",
+      "小さなサプライズで元気づける"
+    ]
+  },
+  "a3fd2913-9478-4548-8a89-01aa2af2444a": {
+    "en": "Your partner is sick in bed, and it's your best friend's birthday party tonight. What do you do?",
+    "text": "恋人が体調を崩して寝込んでる。でも今夜は親友の誕生日パーティー。どうする？",
+    "answers": [
+      "パーティーには行かずにそばにいる",
+      "少しだけ顔を出してすぐ帰る",
+      "行くけどこまめに連絡する"
+    ]
+  },
+  "7094abfc-9802-4319-99be-454ec741410c": {
+    "en": "Your partner has been unhappy for months and won't say why. What do you do?",
+    "text": "恋人が何か月も元気がないのに、理由を話してくれない。どうする？",
+    "answers": [
+      "話してくれるまで粘る",
+      "話してくれるのを待つ",
+      "カウンセリングをすすめる",
+      "恋人の親しい友達に相談する"
+    ]
+  },
+  "8aaf405f-56bb-4c98-9939-137ab11e1be8": {
+    "en": "Your partner has to move to another city for work for 6 months. What do you do?",
+    "text": "恋人が仕事で半年間、別の街に行くことに。どうする？",
+    "answers": [
+      "毎週末会いに行く",
+      "一緒に引っ越す",
+      "遠距離でがんばる",
+      "行かないでと頼む"
+    ]
+  },
+  "de905a3e-0edc-44e7-9e86-c7dc5564a1d3": {
+    "en": "Your partner is going through a stressful time and keeps snapping at you. What do you do?",
+    "text": "恋人がストレスでピリピリしてて、八つ当たりされてばかり。どうする？",
+    "answers": [
+      "大目に見る",
+      "はっきり線を引く",
+      "落ち着くまで距離を置く",
+      "冷静なときに話し合う"
+    ]
+  },
+  "3c595094-97f5-4d24-b08f-83322c9cde8b": {
+    "en": "Your partner had a big fight with one of your friends and wants you to stop seeing them. What do you do?",
+    "text": "恋人が自分の友達のひとりと大ゲンカ。「その人とはもう会わないで」と言われた。どうする？",
+    "answers": [
+      "会うのをやめる",
+      "こっそり会い続ける",
+      "会い続けるとはっきり言う"
+    ]
+  },
+  "5cf16284-d233-4d68-b5cd-03e5bfe57372": {
+    "en": "Because of your partner, you both missed your flight for vacation. What do you do?",
+    "text": "恋人のせいで、ふたりとも旅行の飛行機に乗り遅れた。どうする？",
+    "answers": [
+      "怒るけどすぐ切り替える",
+      "まったく顔に出さない",
+      "あとあとまで蒸し返す",
+      "笑い話にする"
+    ]
+  },
+  "00ffdc81-1788-48f6-a0d2-bbb694227990": {
+    "en": "Your partner wants to quit their stable job to start their own business. What do you do?",
+    "text": "恋人が安定した仕事を辞めて起業したいと言ってる。どうする？",
+    "answers": [
+      "全力で応援する",
+      "まず計画を聞いてから応援する",
+      "思いとどまるよう説得する"
+    ]
+  },
+  "b8801cb9-755d-4cf9-9c75-1e31d7882f66": {
+    "en": "Your partner's mom criticizes your cooking at the dinner table. What do you do?",
+    "text": "食事の席で、恋人のお母さんに手料理をけなされた。どうする？",
+    "answers": [
+      "笑って流す",
+      "丁寧に言葉を返す",
+      "恋人がかばってくれるのを待つ"
+    ]
+  },
+  "9144ca3b-9ba6-432d-8fde-06ba516c50c0": {
+    "en": "Your partner talks to their mom on the phone for an hour every day. What do you think?",
+    "text": "恋人が毎日1時間、お母さんと電話してる。どう思う？",
+    "answers": [
+      "全然ふつう",
+      "ちょっと多いけど口は出さない",
+      "一度話し合いたい"
+    ]
+  },
+  "ef6eab32-1878-439c-867c-5aa2d8656d56": {
+    "en": "Your mom is really cold toward your partner. What do you do?",
+    "text": "自分の母親が、恋人にすごく冷たい。どうする？",
+    "answers": [
+      "母親と話す",
+      "恋人に我慢してもらう",
+      "時間が解決するのを待つ",
+      "実家に行く回数を減らす"
+    ]
+  },
+  "aab9a69b-21c6-4f1a-91c7-83f56cc39eec": {
+    "en": "You agreed on \"no gifts this year,\" but they got you something expensive. What do you do?",
+    "text": "「今年はプレゼントなし」って決めたのに、恋人が高いプレゼントをくれた。どうする？",
+    "answers": [
+      "素直にすごく喜ぶ",
+      "申し訳なくなる",
+      "次の日こっちも何か買う",
+      "約束を破られてモヤっとする"
+    ]
+  },
+  "37e84834-ba8c-49a2-97b6-1191c6552042": {
+    "en": "You really don't like the gift they got you. What do you do?",
+    "text": "恋人からのプレゼントが、正直ぜんぜん好みじゃない。どうする？",
+    "answers": [
+      "気に入ったふりをする",
+      "やんわり交換を提案する",
+      "正直に伝える"
+    ]
+  },
+  "cd352866-de22-4f72-9b83-6ccdd5825cd9": {
+    "en": "Your anniversary is coming up and nobody has planned anything. What do you do?",
+    "text": "記念日が近いのに、どっちも何も計画してない。どうする？",
+    "answers": [
+      "ギリギリで何か用意する",
+      "恋人が計画するのを待つ",
+      "家でふたりきりでお祝い",
+      "祝わなくてもいい"
+    ]
+  },
+  "dd4e91c7-b24c-4483-8ca5-0bf334aed491": {
+    "en": "They throw you a surprise party, but you hate surprises. What do you do?",
+    "text": "恋人がサプライズパーティーを開いてくれた。でもサプライズは大の苦手。どうする？",
+    "answers": [
+      "嫌なのは隠して楽しむ",
+      "喜んだふりをして、あとで伝える",
+      "その場で顔に出る"
+    ]
+  },
+  "280552dc-e7e8-4c5b-8682-028899d5fd0e": {
+    "en": "On Valentine's Day, restaurants are packed and overpriced. What do you do?",
+    "text": "クリスマスイブはどこのレストランも満席で、しかも高い。どうする？",
+    "answers": [
+      "それでも外で食べる",
+      "家で料理する",
+      "前後の日にずらして祝う",
+      "クリスマスは祝わない"
+    ],
+    "flagged": true,
+    "note": "Adapted Valentine's Day to Christmas Eve: in Japan Valentine's is a chocolate-gift day, while Christmas Eve is the packed, overpriced couples' dinner night."
+  },
+  "c2165bb4-4fa4-45c4-9b37-069d18ee412f": {
+    "en": "Your friend's partner threw them a huge anniversary surprise, and it's all over their stories. What do you do?",
+    "text": "友達の恋人が記念日に派手なサプライズ。友達のストーリーがそれ一色。どうする？",
+    "answers": [
+      "全然響かない",
+      "ちょっとうらやましい",
+      "恋人にそれとなくアピール",
+      "恋人に見せて「次はふたりの番ね」"
+    ]
+  },
+  "1201ae23-1c71-4203-a62c-03651040e822": {
+    "en": "What kind of birthday gift do you get your partner?",
+    "text": "恋人の誕生日プレゼント、どんなものを選ぶ？",
+    "answers": [
+      "予算オーバーしても良いもの",
+      "必要なものを手頃な値段で",
+      "安くても気持ちのこもったもの",
+      "手作りのもの"
+    ]
+  },
+  "daa60757-b2eb-4fde-add6-bab68b63940d": {
+    "en": "It's your partner's birthday. They want to celebrate with friends, you want it to be just the two of you. What do you do?",
+    "text": "恋人の誕生日。恋人は友達と祝いたい、自分はふたりきりで過ごしたい。どうする？",
+    "answers": [
+      "友達と一緒に祝う",
+      "ふたりきりがいいと押し通す",
+      "まずふたりで、そのあと友達と"
+    ]
+  },
+  "012d5335-8992-4122-81a7-8f20f6e61f1c": {
+    "en": "On vacation, you want to lie by the pool, they want to explore the city. What do you do?",
+    "text": "旅行先で、自分はプールでのんびりしたい。恋人は街を観光したい。どうする？",
+    "answers": [
+      "一緒に観光に行く",
+      "恋人は観光、自分は残る",
+      "1日ごとに交代",
+      "恋人をプールに誘い込む"
+    ]
+  },
+  "0409d66b-4953-4ec5-965a-618f85f375ae": {
+    "en": "Your vacation is a week away and there's no plan at all. What do you do?",
+    "text": "旅行まであと1週間なのに、何も決まってない。どうする？",
+    "answers": [
+      "全部自分で計画する",
+      "恋人に任せる",
+      "「現地でなんとかなる」",
+      "ふたりでじっくり計画する"
+    ]
+  },
+  "0556bf3a-66c5-4f8a-bef7-7afeed863703": {
+    "en": "On vacation, they keep asking you to take photos of them. What do you do?",
+    "text": "旅行中、恋人に何度も「写真撮って」と頼まれる。どうする？",
+    "answers": [
+      "喜んで撮る",
+      "何枚か撮って終わり",
+      "文句を言いながら撮る",
+      "自撮り棒を買ってあげる"
+    ]
+  },
+  "a5084572-7caa-4df2-b89e-86b53e301f4b": {
+    "en": "When picking a hotel for your vacation, what do you go for?",
+    "text": "旅行のホテル選び、どうする？",
+    "answers": [
+      "安いホテルで観光にお金を回す",
+      "ほどほどのところ",
+      "高いホテル、せっかくの旅行だし"
+    ]
+  },
+  "a18c029b-1fb7-4e38-b075-942bba970ac5": {
+    "en": "On vacation, your partner keeps answering work emails. What do you do?",
+    "text": "旅行中なのに、恋人がずっと仕事のメールを返してる。どうする？",
+    "answers": [
+      "仕事なら仕方ない",
+      "スマホをしまってと頼む",
+      "自分もスマホに没頭する",
+      "仕事は1日1時間までと決める"
+    ]
+  },
+  "f1bd216a-1365-46b4-99c9-31e6443032d6": {
+    "en": "You say \"I really want an orange.\" What do you expect from your partner?",
+    "text": "「みかん食べたいな」と言ったら、恋人に何を期待する？",
+    "answers": [
+      "むいて食べやすくしてほしい",
+      "持ってきてくれたら自分でむく",
+      "何も。自分で取りに行く"
+    ]
+  },
+  "71e00290-5959-49df-b598-98d5f6a4ec3e": {
+    "en": "You ask your partner to \"name a woman/man\" and they don't say your name. What do you do?",
+    "text": "恋人に「誰でもいいから名前を1人言って」と振ったのに、自分の名前が出てこなかった。どうする？",
+    "answers": [
+      "笑って流す",
+      "冗談ですねてみせる",
+      "本気でへこむ"
+    ],
+    "flagged": true,
+    "note": "Source 'name a woman/man' is gendered; rewritten as 'say any one name' so the same joke works without gender."
+  },
+  "ff0a9654-ef6b-4984-a3ea-8df891dae9b9": {
+    "en": "\"If they wanted to, they would.\" Do you agree?",
+    "text": "「本気なら、なんとかするはず」。そう思う？",
+    "answers": [
+      "思う、その気があれば方法は見つかる",
+      "思わない、本当に無理なときもある"
+    ]
+  },
+  "f97521f5-e091-42dc-ba9e-dde538e4608d": {
+    "en": "Your partner calls a food you love \"disgusting.\" How do you feel?",
+    "text": "大好きな食べ物を、恋人に「気持ち悪い」と言われた。どう思う？",
+    "answers": [
+      "全然気にしない",
+      "ちゃんと一回食べてみてほしい",
+      "ちょっと傷つく"
+    ]
+  },
+  "d9f822a7-b480-41cb-b9e0-c606b68bfd16": {
+    "en": "Your partner wakes up as a worm one morning. What do you do?",
+    "text": "ある朝、恋人がミミズになってた。どうする？",
+    "answers": [
+      "瓶で飼って一生愛する",
+      "愛してるけど、お別れする",
+      "庭に放してあげる"
+    ]
+  },
+  "48f856be-c25a-4766-981c-e33f6a605766": {
+    "en": "As a couple, which duo are you?",
+    "text": "ふたりをたとえるなら、どのコンビ？",
+    "answers": [
+      "ゴールデンレトリバーと黒猫",
+      "ゴールデンレトリバー同士",
+      "黒猫同士"
+    ]
+  },
+  "400b8c47-8966-42dc-ad12-a1b55903828a": {
+    "en": "Seeing each other's location 24/7...",
+    "text": "お互いの位置情報を24時間見られるのは…",
+    "answers": [
+      "安心する",
+      "いらないけど気にしない",
+      "息がつまる"
+    ]
+  },
+  "5adfe009-507d-4cc1-8e49-8c5215ce100d": {
+    "en": "Spending an entire Sunday in bed together...",
+    "text": "日曜日、ふたりで一日中ベッドで過ごすのは…",
+    "answers": [
+      "最高の日曜日",
+      "お昼までならいい",
+      "一日がもったいない"
+    ]
+  },
+  "b4e988e6-ef45-427d-a487-aa1b343e1253": {
+    "en": "Sleeping in separate rooms to get better sleep...",
+    "text": "ぐっすり眠るために寝室を分けるのは…",
+    "answers": [
+      "賢いやり方",
+      "終わりの始まり"
+    ]
+  },
+  "08b4096a-d212-4509-889e-c4423a0554af": {
+    "en": "If you died, would you want your partner to remarry?",
+    "text": "もし自分が先に死んだら、恋人には再婚してほしい？",
+    "answers": [
+      "うん、幸せになってほしい",
+      "うん、でも数年は待ってほしい",
+      "してほしくない"
+    ]
+  },
+  "0a9315a5-d764-46ce-89f9-a9f98e9836a4": {
+    "en": "Cuddling while you sleep...",
+    "text": "くっついて寝るのは…",
+    "answers": [
+      "朝までずっと",
+      "眠りにつくまで",
+      "なし、それぞれ自分の側で"
+    ]
+  },
+  "124b29b3-d2d3-4c27-ae44-007195469854": {
+    "en": "There's one charger. Your phone is at 10%, theirs is at 3%. What do you do?",
+    "text": "充電器は1つだけ。自分のスマホは10%、恋人のは3%。どうする？",
+    "answers": [
+      "恋人に先に充電させる",
+      "自分が先に充電する",
+      "15分ずつ交代"
+    ]
+  },
+  "1ab4c8a3-015a-4fa9-a591-cb6c81ce2297": {
+    "en": "Sharing one Spotify account as a couple...",
+    "text": "ふたりでSpotifyのアカウントを1つ共有するのは…",
+    "answers": [
+      "ロマンチック",
+      "おすすめがぐちゃぐちゃになる"
+    ]
+  },
+  "9ed20021-d80f-4f8f-8cc6-71087328b9d9": {
+    "en": "Your partner calling you \"baby\" in front of your friends...",
+    "text": "友達の前で、恋人に甘い呼び方をされるのは…",
+    "answers": [
+      "すごくかわいい",
+      "いいけど家だけにしてほしい",
+      "恥ずかしすぎる"
+    ],
+    "flagged": true,
+    "note": "'Baby' as a pet name isn't used by Japanese couples; generalized to 'a sweet pet name'."
+  },
+  "d4cf5241-eaf9-43d6-a263-9442c1a5b857": {
+    "en": "Working out together as a couple...",
+    "text": "ふたりで一緒に運動するのは…",
+    "answers": [
+      "距離が縮まる",
+      "たまになら楽しい",
+      "別々のほうがいい"
+    ]
+  },
+  "1599daab-37c5-4052-bebd-b0921c2b10b1": {
+    "en": "Your partner wants to ban all junk food from the house \"for our health\". What do you do?",
+    "text": "恋人が「健康のため」って、家のお菓子やジャンクフードを全部禁止したがってる。どうする？",
+    "answers": [
+      "すぐ乗っかる",
+      "自分用をこっそり隠す",
+      "絶対に反対する"
+    ]
+  },
+  "a57a03b6-72f4-4628-9c11-9d68ed1b2a10": {
+    "en": "Your partner has been putting off a doctor's visit for months. What do you do?",
+    "text": "恋人が何か月も病院に行くのを先延ばしにしてる。どうする？",
+    "answers": [
+      "自分で予約を取る",
+      "強くすすめるけど、決めるのは本人",
+      "それは本人の問題"
+    ]
+  },
+  "d4645f3c-69a7-40fb-bd6a-62479129ae69": {
+    "en": "Your pet sleeping in bed with us...",
+    "text": "ペットが一緒のベッドで寝るのは…",
+    "answers": [
+      "絶対ゆずれない",
+      "足元ならOK",
+      "寝室はNG"
+    ]
+  },
+  "6457f609-4c80-4b62-8708-eaa0dd15685b": {
+    "en": "Your partner brings home a stray kitten without asking you. What do you do?",
+    "text": "恋人が相談なしに子猫を拾ってきた。どうする？",
+    "answers": [
+      "その場で名前をつける",
+      "今夜は泊めて、あとで話し合う",
+      "元の場所に戻してと頼む"
+    ]
+  },
+  "84dcc837-d437-43f8-a32c-2c908a01280d": {
+    "en": "Your pet needs surgery that costs a full month's salary. What do you do?",
+    "text": "ペットの手術に、給料ひと月分かかる。どうする？",
+    "answers": [
+      "迷わず払う",
+      "分割でなんとか払う",
+      "さすがにそこまでは出せない"
+    ]
+  },
+  "2055e918-d825-4db5-bf33-f8d2b212406b": {
+    "en": "At what age would you like to retire?",
+    "text": "何歳で仕事を引退したい？"
+  },
+  "89abda44-6324-4d47-a68f-35b99f178055": {
+    "en": "Where should we grow old together?",
+    "text": "ふたりで歳をとるなら、どこで暮らしたい？",
+    "answers": [
+      "都会のど真ん中",
+      "海沿いの町",
+      "田舎の庭つきの家"
+    ]
+  },
+  "0b97884a-8325-43ab-bbf0-12659b04b160": {
+    "en": "As a 70-year-old couple, our weekends would be spent...",
+    "text": "70歳になったふたりの週末は…",
+    "answers": [
+      "孫の面倒を見る",
+      "世界中を旅する",
+      "家でのんびり"
+    ]
+  },
+  "e0a3fc7a-1fcc-4328-9216-a50f1a9c5c4f": {
+    "en": "At what age should a kid get their first phone?",
+    "text": "子どもに初めてスマホを持たせるのは何歳から？"
+  },
+  "38575eee-4902-4368-9db9-64498f572cfd": {
+    "en": "Your kid throws a screaming tantrum in the supermarket. What do you do?",
+    "text": "子どもがスーパーで大泣きして暴れだした。どうする？",
+    "answers": [
+      "落ち着くまで静かに待つ",
+      "欲しがるものを買う",
+      "泣かせておく、それも勉強"
+    ]
+  },
+  "afdb8824-8f0d-4e00-aaf8-39f4d18dcbaf": {
+    "en": "Which school should our kids go to?",
+    "text": "子どもはどんな学校に通わせたい？",
+    "answers": [
+      "公立",
+      "私立",
+      "インターナショナルスクール"
+    ]
+  },
+  "01682675-5b57-4c45-b1a7-0672c6e18e01": {
+    "en": "How many times a month should we have people over?",
+    "text": "月に何回くらい、家に人を呼びたい？"
+  },
+  "d60adf90-40bf-4cd2-8730-519bb5ee1d1e": {
+    "en": "Your partner invited friends over for dinner tonight without telling you. What do you do?",
+    "text": "恋人が何も言わずに、今夜友達を夕飯に呼んでた。どうする？",
+    "answers": [
+      "喜んで料理に取りかかる",
+      "その場は合わせて、あとで話す",
+      "その場でムッとする",
+      "自分は別の予定を入れて出かける"
+    ]
+  },
+  "863c27e9-810a-4c3b-84bb-dccb057a351a": {
+    "en": "Spending weekends with other couples...",
+    "text": "週末をほかのカップルと過ごすのは…",
+    "answers": [
+      "それが一番楽しい",
+      "たまにならいい",
+      "週末はふたりだけの時間"
+    ]
+  },
+  "c07892b4-7740-4d98-82aa-2c86690a8807": {
+    "en": "Where should we spend New Year's Eve?",
+    "text": "大みそかはどこで過ごしたい？",
+    "answers": [
+      "ふたりきりで",
+      "家族と",
+      "友達とパーティー"
+    ]
+  },
+  "c51d83be-122c-47f6-acb6-da205865c718": {
+    "en": "How many times a week is it normal to order takeout?",
+    "text": "デリバリーを頼むのは、週に何回までならふつう？"
+  },
+  "baacc08b-68b4-46f9-94df-14525d77c9ef": {
+    "en": "Our home's style should be...",
+    "text": "ふたりの家のインテリアは…",
+    "answers": [
+      "シンプルでミニマル",
+      "ものが多くて居心地いい",
+      "カラフルで大胆"
+    ]
+  },
+  "3055e469-8d10-45cb-9328-a630c3531e8f": {
+    "en": "When you're sick, how do you want your partner to take care of you?",
+    "text": "体調が悪いとき、恋人にどう看病してほしい？",
+    "answers": [
+      "ずっとそばにいてほしい",
+      "おかゆを持ってきて、あとは休ませてほしい",
+      "そっとしておいてほしい"
+    ]
+  },
+  "41d947ea-20c7-4c34-91f5-c210259d6bcb": {
+    "en": "Your partner has stopped flirting with you. What do you do?",
+    "text": "最近、恋人から甘い言葉もスキンシップもなくなった。どうする？",
+    "answers": [
+      "自分からアプローチする",
+      "はっきり話し合う",
+      "それとなく匂わせる",
+      "長く付き合えばそんなもの"
+    ]
+  },
+  "73bdd793-c8b6-4007-9ef5-167e6999c39f": {
+    "en": "Phones at the dinner table...",
+    "text": "夕飯のときのスマホは…",
+    "answers": [
+      "テーブルに持ち込まない",
+      "置くけど画面は伏せる",
+      "ルールなし、気にしない"
+    ]
+  }
+}

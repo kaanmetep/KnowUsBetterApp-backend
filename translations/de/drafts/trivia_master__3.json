@@ -1,0 +1,792 @@
+{
+  "4c492dce-98c0-4574-ae7e-6520dd83adfa": {
+    "text": "Wer gründete das Mongolische Reich?",
+    "answers": [
+      "Dschingis Khan",
+      "Attila",
+      "Kublai Khan",
+      "Timur"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e744b5f7-37e8-4566-9a72-369fd1ed7d94": {
+    "text": "Aus welchem Land kommt K-Pop?",
+    "answers": [],
+    "accepted": [
+      "Südkorea",
+      "Korea",
+      "Republik Korea",
+      "Suedkorea",
+      "Sudkorea",
+      "South Korea"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "eaad765d-b1c1-4969-a0e2-461cbc8d308c": {
+    "text": "Welche kolumbianische Sängerin ist für „Hips Don't Lie“ berühmt?",
+    "answers": [
+      "Shakira",
+      "Karol G",
+      "Jennifer Lopez",
+      "Thalía"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9c63629f-eefd-427d-aac7-cd721197899c": {
+    "text": "Welches Land gewann die Fußball-WM 2022 in Katar?",
+    "answers": [
+      "Argentinien",
+      "Frankreich",
+      "Brasilien",
+      "Kroatien"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "60129856-af3b-48ca-b4fd-675f43bc388a": {
+    "text": "Welcher einzelne Buchstabe ist seit 2023 der neue Name von Twitter?",
+    "answers": [],
+    "accepted": [
+      "X"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "0d429599-8d87-454b-b4f5-8302b97634f4": {
+    "text": "Welche Stadt richtete 2024 die Olympischen Sommerspiele aus?",
+    "answers": [
+      "Paris",
+      "Tokio",
+      "Los Angeles",
+      "London"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e4eb8205-7b58-4c9a-9eb4-71abdb1ae774": {
+    "text": "Welches Unternehmen hat ChatGPT entwickelt?",
+    "answers": [
+      "OpenAI",
+      "Google",
+      "Meta",
+      "Apple"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b691f446-45c9-4b87-951f-8c5fb76881c2": {
+    "text": "Welche britische Königin starb 2022 nach 70 Jahren auf dem Thron?",
+    "answers": [
+      "Elisabeth II.",
+      "Victoria",
+      "Maria",
+      "Anne"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7210faaa-4175-4b0a-b70c-5730d0ba7514": {
+    "text": "Welches Land landete 2023 als erstes eine Raumsonde nahe dem Südpol des Mondes?",
+    "answers": [
+      "Indien",
+      "China",
+      "USA",
+      "Japan"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9f50ad95-1ce8-42ab-8e0b-3bd347d33019": {
+    "text": "Wessen „Eras Tour“ wurde 2024 zur umsatzstärksten Konzerttour aller Zeiten?",
+    "answers": [
+      "Taylor Swift",
+      "Beyoncé",
+      "Coldplay",
+      "Ed Sheeran"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "dbef5a1b-e8b9-4e2f-badd-ecc584b2a506": {
+    "text": "Welches Unternehmen benannte sich 2021 in Meta um?",
+    "answers": [
+      "Facebook",
+      "Google",
+      "Snapchat",
+      "Microsoft"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f06c1b8a-6980-42df-89fe-b55adeb50680": {
+    "text": "Welcher Film gewann 2024 den Oscar als bester Film?",
+    "answers": [
+      "Oppenheimer",
+      "Barbie",
+      "Poor Things",
+      "Killers of the Flower Moon"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4ae711d9-060b-4476-ba2a-54553f7598ab": {
+    "text": "Welcher Fußballstar wechselte 2023 zu Inter Miami?",
+    "answers": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Neymar",
+      "Kylian Mbappé"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b0f5a3bb-d026-41bb-ae04-4b9fe39d8c07": {
+    "text": "Wer sang „Flowers“, den meistgestreamten Song 2023 auf Spotify?",
+    "answers": [
+      "Miley Cyrus",
+      "Dua Lipa",
+      "Olivia Rodrigo",
+      "Selena Gomez"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a4003081-4a10-4950-ae5a-bc8ba3af8698": {
+    "text": "Wer trat im Februar 2025 als Headliner der Halftime-Show beim Super Bowl auf?",
+    "answers": [
+      "Kendrick Lamar",
+      "Drake",
+      "Rihanna",
+      "Usher"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "78e44743-475f-450c-8cd8-181778fb078b": {
+    "text": "Zu welchem Verein wechselte Kylian Mbappé 2024?",
+    "answers": [
+      "Real Madrid",
+      "FC Barcelona",
+      "Manchester City",
+      "FC Liverpool"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "beb5059d-78c3-4c48-bdde-a60719e40b3a": {
+    "text": "Welches Land gewann die EM 2024?",
+    "answers": [
+      "Spanien",
+      "England",
+      "Frankreich",
+      "Deutschland"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f1832cc6-7df0-42ab-92bb-969b46f7b33d": {
+    "text": "Wer gewann bei den Grammys 2025 mit „Cowboy Carter“ den Preis für das Album des Jahres?",
+    "answers": [
+      "Beyoncé",
+      "Taylor Swift",
+      "Billie Eilish",
+      "Sabrina Carpenter"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e5687820-3e50-4945-a40e-cb0d9e381200": {
+    "text": "Welcher Formel-1-Fahrer wurde von 2021 bis 2024 viermal in Folge Weltmeister?",
+    "answers": [
+      "Max Verstappen",
+      "Lewis Hamilton",
+      "Charles Leclerc",
+      "Lando Norris"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6c98b4bf-4573-474a-bb8b-0e1d7b3eb0b5": {
+    "text": "Zu welchem saudischen Verein wechselte Cristiano Ronaldo 2023?",
+    "answers": [
+      "Al Nassr",
+      "Al Hilal",
+      "Al Ittihad",
+      "Al Ahli"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4eddca60-90bb-4c91-b86b-30b870db71c6": {
+    "text": "Welches BLACKPINK-Mitglied sang 2024 den Hit „APT.“ mit Bruno Mars?",
+    "answers": [
+      "Rosé",
+      "Lisa",
+      "Jennie",
+      "Jisoo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "09e025bc-1030-4bba-ac13-bfb856378373": {
+    "text": "Welches Land hat ein rotes Ahornblatt auf der Flagge?",
+    "answers": [
+      "Kanada",
+      "USA",
+      "Schweiz",
+      "Österreich"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "be0a9d42-e487-408f-8aa9-1680a9bd2eb9": {
+    "text": "Welches Land hat einen roten Kreis auf weißem Grund als Flagge?",
+    "answers": [
+      "Japan",
+      "Südkorea",
+      "China",
+      "Bangladesch"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d3a8cb5e-faea-404d-becf-a6a5c2675ee0": {
+    "text": "Welcher Spruch steht auf der Flagge Brasiliens?",
+    "answers": [
+      "Ordnung und Fortschritt",
+      "Freiheit und Einheit",
+      "Gott und Vaterland",
+      "Frieden und Liebe"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b9d0f221-dc7d-4119-89da-5a278014a8f0": {
+    "text": "Welcher Vogel frisst auf der Flagge Mexikos eine Schlange?",
+    "answers": [],
+    "accepted": [
+      "Adler",
+      "Steinadler",
+      "Eagle"
+    ],
+    "flagged": false,
+    "note": ""
+  },
+  "5b6681a5-b76e-450c-b88f-52f29f0d943e": {
+    "text": "Welches Land hat eine quadratische rote Flagge mit weißem Kreuz in der Mitte?",
+    "answers": [
+      "Schweiz",
+      "Dänemark",
+      "Norwegen",
+      "England"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3aa65717-7a8e-4eee-a644-d4fdfc1fb1a7": {
+    "text": "Welches Fach unterrichtet Walter White zu Beginn von „Breaking Bad“?",
+    "answers": [
+      "Chemie",
+      "Physik",
+      "Biologie",
+      "Mathe"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6fe3ba30-9ac6-43ac-8281-7d47be849ef1": {
+    "text": "Wessen Gesicht zeigen die Masken der Räuber in „Haus des Geldes“?",
+    "answers": [
+      "Salvador Dalí",
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Frida Kahlo"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "258b3c9e-6f64-4fec-9d76-bfb5439d4a48": {
+    "text": "Nach welcher Frucht sind die Minions in „Ich – Einfach unverbesserlich“ verrückt?",
+    "answers": [
+      "Banane",
+      "Apfel",
+      "Erdbeere",
+      "Wassermelone"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2177f9a0-4d6d-4f5f-904d-df07c99b1bcb": {
+    "text": "Welchen Namen wählte der 2025 neu gewählte Papst?",
+    "answers": [
+      "Leo XIV.",
+      "Franziskus II.",
+      "Johannes Paul III.",
+      "Benedikt XVII."
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "48fb1a79-23aa-439f-ad30-141b7581e8de": {
+    "text": "Welche drei Länder richteten die Fußball-WM 2026 gemeinsam aus?",
+    "answers": [
+      "USA, Kanada und Mexiko",
+      "Spanien, Portugal und Marokko",
+      "Brasilien, Argentinien und Chile",
+      "Katar, Saudi-Arabien und VAE"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6d6ed0ee-a48d-420f-89bf-7815676ee13c": {
+    "text": "In welchem Land fanden die Olympischen Winterspiele 2026 statt?",
+    "answers": [
+      "Italien",
+      "Frankreich",
+      "Schweiz",
+      "Österreich"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1901294e-19fd-4941-a041-87d2932a8d77": {
+    "text": "Welcher Verein gewann 2025 zum ersten Mal in seiner Geschichte die Champions League?",
+    "answers": [
+      "Paris Saint-Germain",
+      "FC Arsenal",
+      "Inter Mailand",
+      "Manchester City"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b25b0033-312e-4e62-9e2e-3246c3dbb31b": {
+    "text": "Welche kleine Monsterpuppe mit spitzen Zähnen wurde 2025 zum weltweiten Hype?",
+    "answers": [
+      "Labubu",
+      "Furby",
+      "Squishmallow",
+      "Cry Baby"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bd4c05b5-3582-4380-987c-132223ed6f46": {
+    "text": "Mit welchem NFL-Spieler verlobte sich Taylor Swift 2025?",
+    "answers": [
+      "Travis Kelce",
+      "Patrick Mahomes",
+      "Tom Brady",
+      "Jason Kelce"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "14ab9242-9fa4-44f6-a528-7c4354dd1715": {
+    "text": "Welche berühmte Kathedrale wurde im Dezember 2024 nach fünf Jahren Restaurierung wiedereröffnet?",
+    "answers": [
+      "Notre-Dame de Paris",
+      "Sagrada Família",
+      "Kölner Dom",
+      "St. Paul's Cathedral"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ac86a66e-c7b5-4935-acf1-7fad4b92b968": {
+    "text": "Welcher Verein gewann 2025 die erste FIFA-Klub-WM mit 32 Teams?",
+    "answers": [
+      "FC Chelsea",
+      "Paris Saint-Germain",
+      "Real Madrid",
+      "FC Bayern München"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "80b8ddc9-0e7c-4a73-964b-12e040b5f9cc": {
+    "text": "Wer gewann 2025 den Ballon d'Or?",
+    "answers": [
+      "Ousmane Dembélé",
+      "Lamine Yamal",
+      "Kylian Mbappé",
+      "Mohamed Salah"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4e4aac0f-c689-49f6-9a1c-cd7c9ef5891b": {
+    "text": "Welches Land gewann den Eurovision Song Contest 2025?",
+    "answers": [
+      "Österreich",
+      "Schweden",
+      "Israel",
+      "Schweiz"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7553dfa4-325a-40dd-9d78-74834ab54496": {
+    "text": "Welcher Begriff wurde von Oxford zum Wort des Jahres 2024 gekürt?",
+    "answers": [
+      "Brain Rot",
+      "Rizz",
+      "Demure",
+      "Brat"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "860858d1-7627-4e3c-a607-a71bfcac23ad": {
+    "text": "Welches Unternehmen brachte 2024 das Headset Vision Pro heraus?",
+    "answers": [
+      "Apple",
+      "Meta",
+      "Samsung",
+      "Sony"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bb232a4c-eda8-4ff2-b7f3-451f28a0c6f3": {
+    "text": "Wer sang 2024 den Sommerhit „Espresso“?",
+    "answers": [
+      "Sabrina Carpenter",
+      "Olivia Rodrigo",
+      "Billie Eilish",
+      "Ariana Grande"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "385cd09c-b6d3-442d-a926-4b263fe7db71": {
+    "text": "Bei Olympia 2024 in Paris ging der türkische Schütze Yusuf Dikeç viral. Wie trat er an?",
+    "answers": [
+      "Mit einer Hand in der Tasche",
+      "Mit geschlossenen Augen",
+      "Auf einem Stuhl sitzend",
+      "Barfuß"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a99409ba-4dff-4234-8fa3-e5122182a598": {
+    "text": "Welches Unternehmen startete 2023 die App Threads?",
+    "answers": [
+      "Meta",
+      "Google",
+      "X",
+      "TikTok"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7c110f47-2553-4f6c-b3ae-b11d40772eeb": {
+    "text": "Welche Kryptowährung knackte im Dezember 2024 erstmals die Marke von 100.000 Dollar?",
+    "answers": [
+      "Bitcoin",
+      "Ethereum",
+      "Dogecoin",
+      "Solana"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c2d44ca2-e912-4652-9b99-ea8e67b1afc3": {
+    "text": "Welcher chinesische KI-Chatbot erschütterte Anfang 2025 die Tech-Märkte weltweit?",
+    "answers": [
+      "DeepSeek",
+      "Ernie",
+      "Qwen",
+      "Kimi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9117d33a-156b-42bb-bb39-fa7c97969e9d": {
+    "text": "Wer wurde bei der EM 2024 zum jüngsten Torschützen der Turniergeschichte?",
+    "answers": [
+      "Lamine Yamal",
+      "Jude Bellingham",
+      "Jamal Musiala",
+      "Arda Güler"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "dfb5e5d1-fe6f-4e8c-a491-f161dd922f53": {
+    "text": "Welcher Rapper wurde bei Olympia 2024 in Paris als TV-Reporter zum viralen Star?",
+    "answers": [
+      "Snoop Dogg",
+      "Drake",
+      "Eminem",
+      "Jay-Z"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6e3815c6-71e2-4a08-9404-56eb6108233f": {
+    "text": "In welcher Sprache sang Bad Bunny den Großteil seiner Halftime-Show beim Super Bowl 2026?",
+    "answers": [
+      "Spanisch",
+      "Englisch",
+      "Portugiesisch",
+      "Halb und halb"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6695b2a1-53de-4737-8ccb-0a0417c89995": {
+    "text": "Zu welchem Formel-1-Team wechselte Lewis Hamilton 2025?",
+    "answers": [
+      "Ferrari",
+      "Red Bull",
+      "McLaren",
+      "Aston Martin"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7966f3a2-6d2c-4325-bd64-d28634bdc6e2": {
+    "text": "Bei welcher Band war Freddie Mercury Leadsänger?",
+    "answers": [
+      "Queen",
+      "The Rolling Stones",
+      "Led Zeppelin",
+      "Pink Floyd"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "32d4f212-d53e-476e-9251-0558b612c0e4": {
+    "text": "„Gangnam Style“ war das erste YouTube-Video mit 1 Milliarde Aufrufen. Von welchem südkoreanischen Sänger ist es?",
+    "answers": [
+      "PSY",
+      "BTS",
+      "Big Bang",
+      "Rain"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4d2db1c8-550c-44d3-8caa-999f963a8dd3": {
+    "text": "Wer sang „Shape of You“?",
+    "answers": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Harry Styles"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "809a1048-fbc4-4d75-9756-c24b4148d2fd": {
+    "text": "Welche britische Sängerin steckt hinter den Hits „Hello“ und „Someone Like You“?",
+    "answers": [
+      "Adele",
+      "Amy Winehouse",
+      "Dua Lipa",
+      "Ellie Goulding"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "dee7a5f4-0d3e-47c5-beac-68dfc289cd1d": {
+    "text": "Von wem ist „Blinding Lights“, das 2023 zum meistgestreamten Song der Spotify-Geschichte wurde?",
+    "answers": [
+      "The Weeknd",
+      "Drake",
+      "Bruno Mars",
+      "Post Malone"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ec9edd24-0567-42cd-88f0-0060565936ce": {
+    "text": "Welches Land sieht auf der Landkarte wie ein Stiefel aus?",
+    "answers": [
+      "Italien",
+      "Griechenland",
+      "Portugal",
+      "Kroatien"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cda07f75-8c73-4c97-9d5f-73eadc4f0e87": {
+    "text": "In welchem Land steht das Taj Mahal?",
+    "answers": [
+      "Indien",
+      "Pakistan",
+      "Iran",
+      "Nepal"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "86f4c26f-20cb-47b3-a176-78618bf88998": {
+    "text": "In welchem Land liegt die antike Felsenstadt Petra mit ihrem rosafarbenen Gestein?",
+    "answers": [
+      "Jordanien",
+      "Ägypten",
+      "Türkei",
+      "Griechenland"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a0c31118-39a0-4875-a58d-1ef025a7309e": {
+    "text": "Welches Land ist als „Land der aufgehenden Sonne“ bekannt?",
+    "answers": [
+      "Japan",
+      "China",
+      "Südkorea",
+      "Thailand"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5c5574b9-62a0-4271-accb-e5a5e62ac439": {
+    "text": "In welchem Land leben Kängurus in freier Wildbahn?",
+    "answers": [
+      "Australien",
+      "Südafrika",
+      "Brasilien",
+      "Indien"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d272d3e9-0403-44d5-a333-ac84a9c3e63e": {
+    "text": "Aus welchem Land stammt der Flamenco?",
+    "answers": [
+      "Spanien",
+      "Mexiko",
+      "Italien",
+      "Argentinien"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6c03ce24-a77c-4a0b-8749-b9c629915679": {
+    "text": "Welches Tier gibt sich in „Rotkäppchen“ als Großmutter aus?",
+    "answers": [
+      "Wolf",
+      "Fuchs",
+      "Bär",
+      "Löwe"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "72adb892-47e1-4d39-9c16-1004d3de980a": {
+    "text": "Welchem Tier folgt Alice in „Alice im Wunderland“ in das Loch?",
+    "answers": [
+      "Weißes Kaninchen",
+      "Schwarze Katze",
+      "Maus",
+      "Frosch"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "44450874-8b02-4a4a-b49e-b9bc602d9afd": {
+    "text": "Woraus besteht das Haus der Hexe in „Hänsel und Gretel“?",
+    "answers": [
+      "Lebkuchen und Süßigkeiten",
+      "Eis",
+      "Gold",
+      "Stroh"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "66f55237-2675-4545-aa32-6db8582998d0": {
+    "text": "Wofür ist Rapunzel berühmt?",
+    "answers": [
+      "Ihr sehr langes Haar",
+      "Einen gläsernen Schuh",
+      "Einen vergifteten Apfel",
+      "100 Jahre Schlaf"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d6637d23-6147-4499-96a8-d0a2ff60e547": {
+    "text": "Wie viele Wünsche erfüllt der Geist aus der Lampe in „Aladdin“?",
+    "answers": [
+      "3",
+      "1",
+      "5",
+      "7"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

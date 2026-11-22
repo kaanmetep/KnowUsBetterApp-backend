@@ -120,6 +120,12 @@ export interface Player {
    */
   localOf?: string;
   /**
+   * On a partner seated by single-phone mode: the host's app has a "next
+   * question" button, so the server waits for it after each result instead of
+   * moving on after a few seconds. Older apps don't send it.
+   */
+  manualAdvance?: boolean;
+  /**
    * Has a running Unlimited pass (checked by the server). A room with one
    * starts paid categories without spending coins.
    */
@@ -229,4 +235,6 @@ export interface SubmitAnswerData {
 export interface SetLocalPartnerData {
   roomCode: string;
   partner: { name: string; avatar: string } | null;
+  /** The app moves past each result itself (see Player.manualAdvance). */
+  manualAdvance?: boolean;
 }

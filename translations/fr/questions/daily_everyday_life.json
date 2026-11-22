@@ -1,0 +1,70 @@
+{
+  "7daf8ce4-e900-49bd-a99c-2bd3b2dc6623": {
+    "en": "How fairly do you feel chores are split between you?",
+    "text": "Selon toi, les tâches ménagères sont-elles bien réparties entre vous ?",
+    "answers": [
+      "Tout à fait équitablement",
+      "Plutôt équitablement",
+      "J'en fais plus que ma part",
+      "Ma moitié en fait plus que sa part"
+    ]
+  },
+  "37e7075f-f8c0-4a6f-8bb1-15d4f63b79b8": {
+    "en": "How much time alone do you need in a normal week?",
+    "text": "De combien de temps pour toi as-tu besoin dans une semaine normale ?",
+    "answers": [
+      "Presque rien",
+      "Une heure ou deux",
+      "Une soirée ou plus",
+      "Beaucoup, et je ne le dis pas toujours"
+    ]
+  },
+  "2ec6384d-4e70-49a8-b8b4-60fc79668a5a": {
+    "en": "Your ideal weekday evening together?",
+    "text": "Votre soirée idéale à deux en semaine ?",
+    "answers": [
+      "Cuisiner et manger ensemble",
+      "Regarder quelque chose sur le canapé",
+      "Sortir quelque part",
+      "Côte à côte, à faire nos propres trucs"
+    ]
+  },
+  "c3bfa96a-4683-46d7-a472-9844feb722ce": {
+    "en": "How do you feel about phones when you're together?",
+    "text": "Les téléphones quand vous êtes ensemble, tu en penses quoi ?",
+    "answers": [
+      "Pas un problème pour nous",
+      "Ça me dérange parfois",
+      "Ça me dérange beaucoup",
+      "C'est sûrement moi qui y passe le plus de temps"
+    ]
+  },
+  "ec39df53-45de-401b-83c5-c71fdc6a7b5c": {
+    "en": "Weekends should be…",
+    "text": "Le week-end, ça devrait être…",
+    "answers": [
+      "Planifié et bien rempli",
+      "Un seul plan, le reste libre",
+      "Sans aucun plan",
+      "Surtout du repos à la maison"
+    ]
+  },
+  "da536f27-fd8e-4b15-9bb2-fff1ab7cc79d": {
+    "en": "How tidy should home be?",
+    "text": "À quel point la maison doit-elle être rangée ?",
+    "answers": [
+      "Impeccable",
+      "Assez rangée",
+      "Un peu de vie, c'est plus chaleureux",
+      "Je ne remarque pas le désordre"
+    ]
+  },
+  "973523ee-da46-453e-8012-d7d01eb59fab": {
+    "en": "What part of your everyday life together do you love most?",
+    "text": "Quel moment de votre quotidien à deux préfères-tu ?"
+  },
+  "455eea81-69be-46f9-a81e-7299fb4c5f1e": {
+    "en": "What small daily thing would you change about how you live together?",
+    "text": "Quelle petite chose du quotidien changerais-tu dans votre vie à deux ?"
+  }
+}

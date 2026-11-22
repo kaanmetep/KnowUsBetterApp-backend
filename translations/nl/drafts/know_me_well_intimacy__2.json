@@ -1,0 +1,772 @@
+{
+  "1c394649-6625-4f03-84f0-3e53b920c956": {
+    "text": "Je geeft {{playerName}} een compliment. Wat gebeurt er?",
+    "answers": [
+      "Wuift het weg",
+      "Wordt verlegen",
+      "Geeft er meteen een terug",
+      "Laat het echt binnenkomen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a1b6a93f-4d10-43a7-8164-0163bd3853f2": {
+    "text": "Wat vindt {{playerName}} het lastigst om van jou te horen?",
+    "answers": [
+      "We moeten praten",
+      "Ik heb ruimte nodig",
+      "Ik ben teleurgesteld",
+      "Je had gelijk"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c47a1f38-5b04-46da-9c44-7a474ed6d259": {
+    "text": "{{playerName}} komt net uit de douche en betrapt je erop dat je kijkt. Wat nu?",
+    "answers": [
+      "Kijkt terug",
+      "Kijkt weg",
+      "Maakt een grapje",
+      "Komt naar je toe"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e89d0de4-7a91-4f6e-b779-b94e48e546d2": {
+    "text": "Het is 2 uur 's nachts en jullie zijn allebei nog wakker. Waar heeft {{playerName}} zin in?",
+    "answers": [
+      "Praten in het donker",
+      "Zoenen, dan slapen",
+      "Samen scrollen",
+      "Echt gaan slapen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8ce87b4f-b8db-4f01-98ba-f29870c3aed1": {
+    "text": "Welke gefluisterde zin doet het meest met {{playerName}}?",
+    "answers": [
+      "Kom hier",
+      "Doe de deur dicht",
+      "Kijk me aan",
+      "Nog niet"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0e4ed2f2-bc25-4e09-a90f-302effdc8620": {
+    "text": "Hoe dicht zit {{playerName}} 's avonds bij je op de bank?",
+    "answers": [
+      "Met wat ruimte",
+      "Dicht tegen je aan",
+      "Benen over de jouwe",
+      "Half op je schoot"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5cb070ee-8f2e-40d2-b2a4-eeb5e9aed5a6": {
+    "text": "Waar kan {{playerName}} het moeilijkst omheen kijken?",
+    "answers": [
+      "Jij in een geleend T-shirt",
+      "Jij met nat haar",
+      "Jij terwijl je je klaarmaakt om uit te gaan",
+      "Jij net wakker"
+    ],
+    "accepted": [],
+    "flagged": true,
+    "note": "'You in their t-shirt' rendered as 'a borrowed T-shirt' to avoid a gendered possessive (zijn/haar); placeholder not allowed in options."
+  },
+  "35eb5bdd-4604-405f-bbd9-ec6d407788ce": {
+    "text": "Je loopt binnen terwijl {{playerName}} zich omkleedt. Wat gebeurt er?",
+    "answers": [
+      "Bedekt zich",
+      "Vindt het geen punt",
+      "Stuurt je weg",
+      "Trekt je naar zich toe"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "63883f17-6122-4b32-bd02-7c77127de516": {
+    "text": "Waar is de hand van {{playerName}} tijdens het eten?",
+    "answers": [
+      "Op tafel",
+      "In jouw hand",
+      "Op je knie",
+      "Onder tafel"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d4a5ae02-a778-4a8a-a976-915ab86b182c": {
+    "text": "Wat doet {{playerName}} aan het eind van de avond bij de deur?",
+    "answers": [
+      "Een snelle kus",
+      "Een lange kus",
+      "Trekt je naar binnen",
+      "Zegt “tot morgen”"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "290d4e23-9ee9-41a5-86b2-90f954e2e486": {
+    "text": "Je slaat van achteren je armen om {{playerName}} heen. Wat nu?",
+    "answers": [
+      "Leunt achterover",
+      "Gaat gewoon door",
+      "Pakt je handen",
+      "Draait zich om"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3aaf73d2-fba7-45d3-b142-eaf8b4b1f2c2": {
+    "text": "Je zoent {{playerName}} terwijl die net ergens mee bezig is. Wat nu?",
+    "answers": [
+      "Zoent terug en gaat door",
+      "Zegt dat je moet wachten",
+      "Legt alles neer",
+      "Lacht en schudt het hoofd"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "20568aba-1de1-4c32-9c4b-84046e0a89a3": {
+    "text": "Je zegt “kom naar bed”. Wat doet {{playerName}}?",
+    "answers": [
+      "Komt meteen",
+      "Wil nog vijf minuten",
+      "Wil gehaald worden"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "730dfdba-4777-40c1-ac4f-849cf3a8dab0": {
+    "text": "Je fluistert {{playerName}} op een feestje iets in het oor. Wat nu?",
+    "answers": [
+      "Glimlacht",
+      "Wordt rood",
+      "Trekt je even apart"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "793c87e8-9ced-435c-af13-49aef0550f10": {
+    "text": "Wat doet {{playerName}} achter in een taxi?",
+    "answers": [
+      "Kijkt uit het raam",
+      "Legt het hoofd op je schouder",
+      "Houdt je hand vast"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9a5a21f6-c21f-44ee-986d-7b807154604f": {
+    "text": "Je valt op de bank in slaap tegen {{playerName}} aan. Wat gebeurt er?",
+    "answers": [
+      "Laat je lekker slapen",
+      "Maakt je wakker om naar bed te gaan",
+      "Blijft zitten, ook met een slapende arm"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d6cefc04-d2ec-40ca-b919-90873cd692a4": {
+    "text": "Je legt je koude handen op {{playerName}}. Wat nu?",
+    "answers": [
+      "Schrikt op",
+      "Houdt ze toch vast",
+      "Warmt ze op in de nek"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d84a8b9f-1082-4a61-a4fb-3a0ce7561ce4": {
+    "text": "Jullie zijn uit en je zegt: “Kom, we gaan naar huis.” Wat doet {{playerName}}?",
+    "answers": [
+      "Wilde dat al",
+      "Wil nog een uurtje",
+      "Kwam net lekker op gang"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "51f4a26a-da00-4845-a418-a9ee3398e5bf": {
+    "text": "Iemand checkt je overduidelijk uit. Wat doet {{playerName}}?",
+    "answers": [
+      "Merkt het niet",
+      "Trekt je dichterbij",
+      "Kijkt diegene recht aan"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "acceaaf6-dbea-46b8-b01d-8c157c320363": {
+    "text": "Je begint zomaar te dansen in de keuken. Wat doet {{playerName}}?",
+    "answers": [
+      "Doet mee",
+      "Kijkt toe",
+      "Noemt je belachelijk en doet dan mee"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0ba7b11f-84f2-4fd6-a508-37ec2a630f94": {
+    "text": "Je zoent {{playerName}} bijna en trekt je dan terug. Wat nu?",
+    "answers": [
+      "Maakt het af",
+      "Wacht af",
+      "Lacht het weg"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "16f3d2e8-43b7-412a-aaf6-99b56d3ea05f": {
+    "text": "Je gaat bij {{playerName}} op schoot zitten. Wat gebeurt er?",
+    "answers": [
+      "Trekt je tegen zich aan",
+      "Kijkt eerst om zich heen",
+      "Lacht en duwt je eraf"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bbf222fb-e5a6-45b2-be01-18d719ee84f2": {
+    "text": "Het is warm binnen en je begint de trui van {{playerName}} uit te trekken. Wat nu?",
+    "answers": [
+      "Laat je begaan",
+      "Doet het zelf",
+      "Houdt je hand tegen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f8558854-9108-4479-b20e-7a0c5c31c0ac": {
+    "text": "Je geeft {{playerName}} midden in een verhaal een kus op de wang. Wat nu?",
+    "answers": [
+      "Praat gewoon door",
+      "Raakt de draad kwijt",
+      "Kust terug en vertelt verder"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c335f3ae-66fd-42b6-b5d1-3150b68b6b04": {
+    "text": "Waar wordt {{playerName}} het liefst gemasseerd?",
+    "answers": [
+      "Schouders",
+      "Rug",
+      "Voeten",
+      "Hoofd"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7c740bf2-6c29-4351-b1ea-1ac8b48d7e14": {
+    "text": "Wat windt {{playerName}} het meest op?",
+    "answers": [
+      "Zelfvertrouwen",
+      "Oogcontact",
+      "Een lekkere geur",
+      "Geplaagd worden"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c510bd61-7901-4014-bccc-3bf4072ab104": {
+    "text": "Welk zintuig is voor {{playerName}} het belangrijkst in intieme momenten?",
+    "answers": [
+      "Aanraking",
+      "Zicht",
+      "Geur",
+      "Geluid"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "10524676-70b8-4a0c-9c65-8021824e5bc1": {
+    "text": "Hoe wordt {{playerName}} het liefst verleid?",
+    "answers": [
+      "Met woorden",
+      "Met blikken",
+      "Met aanrakingen",
+      "Met een verrassing"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "47197335-c957-4d42-90c1-bd55aec65195": {
+    "text": "Waar kijkt {{playerName}} als eerste naar bij iemand die in de smaak valt?",
+    "answers": [
+      "Ogen",
+      "Lippen",
+      "Handen",
+      "Lichaam"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7fcfdb68-3ae8-4607-9be5-32b49375a3ac": {
+    "text": "Je stuurt {{playerName}} midden op de dag een flirterige foto. Wat nu?",
+    "answers": [
+      "Stuurt er een terug",
+      "Belt je meteen",
+      "“Nu even niet, ik ben bezig”",
+      "Komt eerder naar huis"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "720d3880-91f8-4dde-a17f-7da5e821ab00": {
+    "text": "Welk accessoire vindt {{playerName}} het meest sexy bij iemand?",
+    "answers": [
+      "Een horloge",
+      "Een bril",
+      "Een schakelketting",
+      "Ringen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4daea0de-71a4-40bc-82b1-c1a830c1e33f": {
+    "text": "Welke stijl vindt {{playerName}} het meest sexy bij iemand?",
+    "answers": [
+      "Chic",
+      "Sportief",
+      "Streetwear",
+      "Helemaal in het zwart"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9132974e-4bff-42a3-a774-e9046d4aa9f2": {
+    "text": "Welke lengte vindt {{playerName}} het aantrekkelijkst bij een partner?",
+    "answers": [
+      "Een stuk langer",
+      "Iets langer",
+      "Even lang",
+      "Kleiner"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8b3a4769-3529-4dd3-bf94-060c729a8477": {
+    "text": "Welke oogkleur vindt {{playerName}} het aantrekkelijkst?",
+    "answers": [
+      "Bruin",
+      "Groen",
+      "Blauw",
+      "Hazelnootbruin"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6e6db5c0-711a-4280-9da7-49e01a6e940c": {
+    "text": "Welke haarkleur vindt {{playerName}} het meest sexy?",
+    "answers": [
+      "Zwart",
+      "Bruin",
+      "Blond",
+      "Rood"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "401817cf-f61c-4724-9158-25592761bb11": {
+    "text": "Welk soort geur vindt {{playerName}} het meest sexy bij iemand?",
+    "answers": [
+      "Zoet",
+      "Fris",
+      "Houtachtig",
+      "Kruidig"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4dacabdc-99dd-4c78-9b92-52680146831d": {
+    "text": "Wat vindt {{playerName}} van tatoeages bij een partner?",
+    "answers": [
+      "Geweldig",
+      "Eentje of twee is leuk",
+      "Niet zo'n fan",
+      "Maakt niet uit"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f5dadc53-d883-4924-8ba8-2f509d410ebb": {
+    "text": "Welk leeftijdsverschil vindt {{playerName}} het aantrekkelijkst?",
+    "answers": [
+      "Even oud",
+      "Een paar jaar ouder",
+      "Een paar jaar jonger",
+      "Veel ouder"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f1dc9061-fa47-478b-b1ec-eba6a3b6f5fa": {
+    "text": "Welk beroep vindt {{playerName}} het aantrekkelijkst bij iemand?",
+    "answers": [
+      "Arts",
+      "Piloot",
+      "Bij de brandweer",
+      "Chef-kok"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "dd7a8cb2-3e0a-4167-b573-0feea5f6b4ee": {
+    "text": "Welke piercing vindt {{playerName}} het meest sexy bij iemand?",
+    "answers": [
+      "Oor",
+      "Neus",
+      "Lip",
+      "Helemaal geen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2fd6a59e-72ba-4ff9-8feb-361bc39f3cb4": {
+    "text": "Welk talent vindt {{playerName}} het meest sexy bij iemand?",
+    "answers": [
+      "Gitaar spelen",
+      "Goed koken",
+      "Goed dansen",
+      "Een andere taal spreken"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e5f4e852-e15d-471e-abc5-4c38cc69e9ec": {
+    "text": "Welk klein detail vindt {{playerName}} het schattigst bij iemand?",
+    "answers": [
+      "Sproetjes",
+      "Kuiltjes",
+      "Lange wimpers",
+      "Spleetje tussen de tanden"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1fcbc4d3-9d36-4780-8e17-806a5eff3369": {
+    "text": "Welk lichaamstype vindt {{playerName}} het aantrekkelijkst?",
+    "answers": [
+      "Atletisch",
+      "Slank",
+      "Gespierd",
+      "Zacht en knuffelbaar"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3d2b3db6-0219-4cf1-9d6d-4f31684ea5e8": {
+    "text": "Met welk vervoer wordt iemand aantrekkelijker voor {{playerName}}?",
+    "answers": [
+      "Een klassieke auto",
+      "Een sportauto",
+      "Een motor",
+      "Maakt helemaal niet uit"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7d10c4cc-934e-4c78-83dc-e7675b0c1ec0": {
+    "text": "Welk element van de sterrenbeelden vindt {{playerName}} het aantrekkelijkst?",
+    "answers": [
+      "Vuurtekens",
+      "Aardetekens",
+      "Luchttekens",
+      "Watertekens",
+      "Maakt helemaal niet uit"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f454ad94-c43b-4a6b-9340-e41b1ded7a80": {
+    "text": "Wat voor social media-gedrag vindt {{playerName}} het aantrekkelijkst?",
+    "answers": [
+      "Post veel",
+      "Privéaccount",
+      "Post bijna nooit",
+      "Helemaal geen social media"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "dcd3d4f4-f480-4ff0-b69b-af1f8b10c105": {
+    "text": "Wat voor handen vindt {{playerName}} het aantrekkelijkst?",
+    "answers": [
+      "Grote handen",
+      "Zachte handen",
+      "Handen met aders",
+      "Lange vingers",
+      "Let nooit op handen"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "44fffff9-e2b0-4e15-b91b-0eb866a37114": {
+    "text": "Welk soort humor vindt {{playerName}} het aantrekkelijkst bij iemand?",
+    "answers": [
+      "Sarcastisch",
+      "Melig",
+      "Droog",
+      "Zwart",
+      "Lief en onschuldig"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3f4de5c5-8d26-4746-af84-d4886575c2c3": {
+    "text": "Wat vindt {{playerName}} van iemand die fanatiek sport?",
+    "answers": [
+      "Super sexy",
+      "Leuk, maar hoeft niet",
+      "Knapt erop af"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "97a9c1dd-266d-442a-b459-db1ac587aed5": {
+    "text": "Hoe netjes moet iemand zijn om {{playerName}} aan te trekken?",
+    "answers": [
+      "Brandschoon",
+      "Redelijk netjes",
+      "Rommelig mag"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c90f6f30-b874-47d1-b68b-7e77d055b747": {
+    "text": "Wat vindt {{playerName}} van iemand met een enorme vriendengroep?",
+    "answers": [
+      "Aantrekkelijk",
+      "Maakt niet uit",
+      "Liever een kleine kring"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "549ec369-ee49-4656-adf4-6465987bcc3d": {
+    "text": "Wat vindt {{playerName}} van iemand die nog bevriend is met een ex?",
+    "answers": [
+      "Helemaal prima",
+      "Hangt van de ex af",
+      "Dealbreaker"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cbd96d73-a197-449c-9bfa-e6646c6151f6": {
+    "text": "Wat vindt {{playerName}} van iemand die de eerste stap zet?",
+    "answers": [
+      "Super sexy",
+      "Leuk",
+      "Zet de eerste stap liever zelf"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f55c2d09-b0cc-4a36-af77-1fa6cace237a": {
+    "text": "Wat vindt {{playerName}} van telefooncodes delen met een partner?",
+    "answers": [
+      "Mooi teken van vertrouwen",
+      "Maakt niet uit",
+      "Houdt liever wat privacy"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f11bae34-c304-42a5-825d-b0680937d30a": {
+    "text": "Wat vindt {{playerName}} van iemand die de hele dag appt?",
+    "answers": [
+      "Heerlijk",
+      "Paar keer per dag is genoeg",
+      "Te klef"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "30b5a4b1-c0ac-4d99-9f38-c00d848f5f4b": {
+    "text": "Wat vindt {{playerName}} van een partner die elk vrij moment samen wil zijn?",
+    "answers": [
+      "Heerlijk",
+      "Wil ook tijd voor zichzelf",
+      "Te veel van het goede"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3f92749d-64b0-4c89-9f3e-bf2cd0c77507": {
+    "text": "Wat vindt {{playerName}} van iemand die heel snel “ik hou van je” zegt?",
+    "answers": [
+      "Lief",
+      "Te snel",
+      "Een red flag"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e730a2da-4ace-47c7-b3c3-4f59f76edfd0": {
+    "text": "Wat vindt {{playerName}} van iemand die elk weekend gaat stappen?",
+    "answers": [
+      "Leuk, gaat mee",
+      "Af en toe prima",
+      "Niet echt het type",
+      "Dealbreaker"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "8e724ce7-d131-4821-903b-70bc0cf1b935": {
+    "text": "Wat vindt {{playerName}} van een relatie op afstand?",
+    "answers": [
+      "Kan dat prima",
+      "Alleen voor even",
+      "Nooit"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b7b57f9f-d72e-4537-9146-ca94491221c1": {
+    "text": "Wat vindt {{playerName}} van lange knuffels?",
+    "answers": [
+      "Hoe langer hoe beter",
+      "Paar seconden is genoeg",
+      "Niet zo'n knuffelaar"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "75e4151b-0b3a-442d-870f-36fce120c053": {
+    "text": "Wat vindt {{playerName}} van in slaap vallen tijdens een videogesprek?",
+    "answers": [
+      "Heerlijk",
+      "Alleen als jullie apart zijn",
+      "Vindt het raar"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ad6c46b6-c615-4dca-a1d2-b9a95e92638c": {
+    "text": "Wat vindt {{playerName}} van elke maand vieren dat jullie samen zijn?",
+    "answers": [
+      "Viert het elke maand",
+      "Alleen één keer per jaar",
+      "Houdt geen datums bij"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7d3785ce-afa5-43e8-b150-57d16a20c299": {
+    "text": "Welk nummer is voor {{playerName}} “jullie nummer”?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "efd278ae-b799-4742-915c-89349777f4bf": {
+    "text": "Hoe houdt {{playerName}} het liefst handjes vast?",
+    "answers": [
+      "Vingers verstrengeld",
+      "Handpalm tegen handpalm",
+      "Alleen de pinkjes",
+      "Hand in je achterzak"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7d25b7f5-1dc6-43d6-af4b-e31f6e0a738c": {
+    "text": "Wat vindt {{playerName}} van samen van één bord eten?",
+    "answers": [
+      "Heerlijk",
+      "Alleen het toetje",
+      "Eigen bord, eigen eten"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ee007826-9eef-4d45-8c67-98923cf0b413": {
+    "text": "Wat is de favoriete plek van {{playerName}} voor een date in jullie stad?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9587900b-e8e3-414d-9ef0-199ab00dac18": {
+    "text": "Wat vindt {{playerName}} van welterusten zeggen voor het slapengaan, ook als jullie apart zijn?",
+    "answers": [
+      "Slaat het nooit over",
+      "De meeste avonden",
+      "Niet zo belangrijk"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

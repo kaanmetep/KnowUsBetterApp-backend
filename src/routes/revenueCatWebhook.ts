@@ -5,6 +5,7 @@ import {
   keepRawBody,
   verifyRevenueCatRequest,
 } from "../middleware/revenueCat.js";
+import { captureServerEvent } from "../services/analytics.js";
 import { creditCoins } from "../services/coinLedger.js";
 import { PUBLIC_RUNTIME_CONFIG } from "../services/publicConfigService.js";
 import { getCoinsFromProductId } from "../utils/helpers.js";
@@ -23,10 +24,13 @@ const PURCHASE_EVENTS = new Set([
 type EventClaim = "claimed" | "duplicate" | "untracked" | "error";
 
 /**
- * RevenueCat may deliver an event more than once (same `event.id`); the row
- * in revenuecat_events makes sure its coins are credited only once.
+ * RevenueCat may deliver an event more than once (same `event.id`), and has
+ * once sent the same store purchase as two events with different ids. The row
+ * in revenuecat_events (unique on event_id, and on transaction_id once
+ * migrations/20261123_revenuecat_transaction_id.sql is applied) makes sure the
+ * coins are credited only once either way.
  */
-async function claimEvent(
+export async function claimEvent(
   supabaseAdmin: SupabaseClient,
   event: any,
   coins: number,
@@ -35,15 +39,35 @@ async function claimEvent(
     console.warn("⚠️ RevenueCat event without id; can't guard against duplicates");
     return "untracked";
   }
-  const { error } = await supabaseAdmin.from("revenuecat_events").insert({
+  const row = {
     event_id: event.id,
     event_type: event.type,
     app_user_id: event.app_user_id,
     product_id: event.product_id ?? null,
     coins,
-  });
+  };
+  const transactionId =
+    typeof event.transaction_id === "string" && event.transaction_id
+      ? event.transaction_id
+      : null;
+  let { error } = await supabaseAdmin
+    .from("revenuecat_events")
+    .insert(transactionId ? { ...row, transaction_id: transactionId } : row);
+  // PGRST204 / 42703: the transaction_id column isn't there yet (migration not
+  // applied); claim on event_id alone, exactly as before.
+  if (transactionId && (error?.code === "PGRST204" || error?.code === "42703")) {
+    console.warn("⚠️ revenuecat_events.transaction_id missing; deduping on event id only");
+    ({ error } = await supabaseAdmin.from("revenuecat_events").insert(row));
+  }
   if (!error) return "claimed";
-  if (error.code === "23505") return "duplicate";
+  if (error.code === "23505") {
+    if (String(error.message ?? "").includes("transaction_id")) {
+      console.warn(
+        `⚠️ RevenueCat event ${event.id} repeats transaction ${transactionId}; not crediting again`,
+      );
+    }
+    return "duplicate";
+  }
   // 42P01: migrations/20261008_revenuecat_events.sql hasn't been applied yet.
   if (error.code === "42P01" || error.code === "PGRST205") {
     console.warn("⚠️ revenuecat_events table missing; duplicates aren't detected");
@@ -64,6 +88,42 @@ async function releaseEvent(
   if (error) {
     console.error(`❌ Failed to release RevenueCat event ${eventId}:`, error);
   }
+}
+
+const text = (value: unknown): string | undefined =>
+  typeof value === "string" && value !== "" ? value : undefined;
+const num = (value: unknown): number | undefined =>
+  typeof value === "number" && Number.isFinite(value) ? value : undefined;
+
+/**
+ * Every RevenueCat event (purchases, renewals, cancellations, refunds,
+ * billing issues) as `server_revenue_event`, with the USD price, so revenue
+ * no longer depends on the app being open. A retried delivery repeats the
+ * event; count distinct `rc_event_id` to de-duplicate.
+ */
+function trackRevenueCatEvent(event: any): void {
+  const appUserId = text(event.app_user_id);
+  if (!appUserId) return;
+  captureServerEvent("server_revenue_event", { appUserId }, {
+    rc_event_id: text(event.id),
+    rc_type: text(event.type),
+    product_id: text(event.product_id),
+    price_usd: num(event.price),
+    price_local: num(event.price_in_purchased_currency),
+    currency: text(event.currency),
+    takehome_percentage: num(event.takehome_percentage),
+    store: text(event.store),
+    rc_environment: text(event.environment),
+    country_code: text(event.country_code),
+    period_type: text(event.period_type),
+    is_trial_conversion: typeof event.is_trial_conversion === "boolean" ? event.is_trial_conversion : undefined,
+    renewal_number: num(event.renewal_number),
+    cancel_reason: text(event.cancel_reason),
+    expiration_reason: text(event.expiration_reason),
+    transaction_id: text(event.transaction_id),
+    original_transaction_id: text(event.original_transaction_id),
+    offer_code: text(event.offer_code),
+  });
 }
 
 const appUserIds = (value: unknown): string[] =>
@@ -128,6 +188,13 @@ async function mergeTransferredWallets(
       (data.status === "moved" ? `, ${data.moved} coins, new balance ${data.new_balance}` : ""),
   );
   if (data.status === "moved" && data.new_balance !== null) {
+    // The old ids are drained to 0; the coins show up once, on the new id.
+    captureServerEvent("server_coins_credited", { appUserId: target }, {
+      amount: data.moved,
+      reason: "transfer_in",
+      balance_after: data.new_balance,
+      from_count: (data.drained ?? []).length,
+    });
     return {
       status: "moved",
       target,
@@ -178,6 +245,7 @@ export function createRevenueCatWebhookRouter({
           console.error("❌ Supabase not configured");
           return res.status(500).json({ error: "Supabase not configured" });
         }
+        trackRevenueCatEvent(event);
 
         if (event.type === "TRANSFER") {
           const passTarget =
@@ -245,7 +313,9 @@ export function createRevenueCatWebhookRouter({
 
         const claim = await claimEvent(supabaseAdmin, event, coins);
         if (claim === "duplicate") {
-          console.log(`ℹ️ RevenueCat event ${event.id} already processed`);
+          console.log(
+            `ℹ️ RevenueCat event ${event.id} (transaction ${event.transaction_id}) already processed`,
+          );
           return res.status(200).json({ success: true, duplicate: true });
         }
         if (claim === "error") {

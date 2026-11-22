@@ -1,0 +1,675 @@
+{
+ "b7ea512f-5675-4ed5-b6ee-e67bf475a40e": {
+  "text": "Welcher Buchstabe liegt auf einer normalen Tastatur zwischen G und J?",
+  "answers": [
+   "F",
+   "H",
+   "K",
+   "B"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fc9fb6fc-80f1-4d6f-acf9-a97d285e1148": {
+  "text": "Wie lange braucht das Sonnenlicht ungefähr bis zur Erde?",
+  "answers": [
+   "8 Sekunden",
+   "8 Minuten",
+   "8 Stunden",
+   "8 Tage"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f7577fd3-cd79-400b-a94e-b36666958681": {
+  "text": "Wie viele Saiten hat eine normale Gitarre?",
+  "answers": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "de06546b-8966-4a0f-8a03-6e5c4262d6fc": {
+  "text": "Wie viele Tage hat der Februar in einem Schaltjahr?",
+  "answers": [
+   "28",
+   "29",
+   "30",
+   "31"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "19816c87-dfa3-45ff-9bb0-ef7558f119de": {
+  "text": "Zu welchem Organ gehört die Hornhaut?",
+  "answers": [
+   "Ohr",
+   "Auge",
+   "Herz",
+   "Haut"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5259ce96-2e3b-458a-9f7c-b637fd887db0": {
+  "text": "Aus welchem Metall bestehen die meisten Stromkabel im Haushalt?",
+  "answers": [],
+  "accepted": [
+   "Kupfer",
+   "Cu",
+   "Kupferdraht",
+   "Kupfer Draht",
+   "Kuper",
+   "Copper"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "40cb4e70-a58a-4f05-b31c-d3e3fdb89927": {
+  "text": "Welches Gas sorgt für die Bläschen in Sprudelgetränken?",
+  "answers": [],
+  "accepted": [
+   "Kohlendioxid",
+   "CO2",
+   "CO₂",
+   "Kohlenstoffdioxid",
+   "Kohlensäure",
+   "Kohlendioxyd",
+   "Carbon dioxide"
+  ],
+  "flagged": false,
+  "note": "Accepted 'Kohlensäure' since Germans colloquially call the fizz that."
+ },
+ "268fe19d-11a8-41cc-8d63-fe56498a715a": {
+  "text": "In welchem Land liegt Dubai?",
+  "answers": [],
+  "accepted": [
+   "Vereinigte Arabische Emirate",
+   "VAE",
+   "V.A.E.",
+   "Emirate",
+   "Arabische Emirate",
+   "UAE"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "8df2cfec-7013-48f4-8e0a-1f2cac3d73e2": {
+  "text": "Wie nennt man extreme Angst vor Spinnen?",
+  "answers": [],
+  "accepted": [
+   "Arachnophobie",
+   "Arachnofobie",
+   "Arachnaphobie",
+   "Spinnenphobie",
+   "Arachnophobia"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "bdcca45d-f2ae-441d-a885-a521f51b3ece": {
+  "text": "Welcher Planet wird oft „Morgenstern“ genannt?",
+  "answers": [],
+  "accepted": [
+   "Venus",
+   "Venüs",
+   "Planet Venus",
+   "Die Venus"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "f766a74f-7af2-4363-870d-632389e2bc90": {
+  "text": "Wofür steht „www“ in einer Internetadresse?",
+  "answers": [],
+  "accepted": [
+   "World Wide Web",
+   "World Wideweb",
+   "WorldWide Web",
+   "Worldwide Web",
+   "The World Wide Web"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "4d63a2f7-355d-418a-99f7-288076d7c5ed": {
+  "text": "Welches Gewürz ist nach Gewicht das teuerste der Welt?",
+  "answers": [],
+  "accepted": [
+   "Safran",
+   "Saffran",
+   "Saffron",
+   "Krokus",
+   "Crocus"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "a5f1d330-c07c-40b9-a6ed-e6037bf4f4c3": {
+  "text": "Was ist die Hauptstadt von Australien?",
+  "answers": [],
+  "accepted": [
+   "Canberra",
+   "Canbera",
+   "Kanberra",
+   "Canberrra",
+   "Canburra"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "ffe9c080-1f5b-4192-bc7b-2b4258c9d0e2": {
+  "text": "Wofür steht QR bei „QR-Code“?",
+  "answers": [],
+  "accepted": [
+   "Quick Response",
+   "Quick-Response",
+   "Quickresponse",
+   "Quick Response Code",
+   "Schnelle Antwort"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "c38c6d5a-4784-49a4-8ec9-564ba0912926": {
+  "text": "Was ist die Hauptstadt von Kanada?",
+  "answers": [],
+  "accepted": [
+   "Ottawa",
+   "Ottowa",
+   "Otawa",
+   "Ottava"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "b9f40b61-c0e9-4172-ab62-a3c1c740f0c9": {
+  "text": "Wofür steht GPS?",
+  "answers": [],
+  "accepted": [
+   "Global Positioning System",
+   "Global Position System",
+   "Global Positioning",
+   "Globales Positionsbestimmungssystem"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "e52435ce-d075-4980-b9ac-9dcf9d712df1": {
+  "text": "Aus welchem Metall besteht eine olympische „Goldmedaille“ größtenteils?",
+  "answers": [],
+  "accepted": [
+   "Silber",
+   "Ag",
+   "Sterlingsilber",
+   "Silbr",
+   "Silver"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "d45b83c7-fd0f-4522-b35f-567c66d4f42b": {
+  "text": "Wie heißt die Galaxie, in der wir leben?",
+  "answers": [],
+  "accepted": [
+   "Milchstraße",
+   "Milchstrasse",
+   "Die Milchstraße",
+   "Milchstraßen-Galaxie",
+   "Milky Way"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "ec7a91a5-65a4-43e9-baf6-d3bd61ca9817": {
+  "text": "Wie lautet die chemische Formel von Kochsalz?",
+  "answers": [],
+  "accepted": [
+   "NaCl",
+   "Natriumchlorid",
+   "Nacl",
+   "NACl",
+   "Natrium Chlorid"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "ae92a4d9-9327-441e-95a0-22a22f1beebb": {
+  "text": "Was ist das kleinste Land der Welt?",
+  "answers": [],
+  "accepted": [
+   "Vatikanstadt",
+   "Vatikan",
+   "Der Vatikan",
+   "Heiliger Stuhl",
+   "Vatican",
+   "Vatikanstaat"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "47f1968f-3313-44f3-af0c-2a16d6840dcc": {
+  "text": "Was ist die Amtssprache von Brasilien?",
+  "answers": [],
+  "accepted": [
+   "Portugiesisch",
+   "Brasilianisches Portugiesisch",
+   "Portugisisch",
+   "Portugiesich",
+   "Portuguese"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "a33b8db2-9aed-4a46-9a20-5aeb046044a9": {
+  "text": "Welcher Zwergplanet galt bis 2006 als neunter Planet?",
+  "answers": [],
+  "accepted": [
+   "Pluto",
+   "Planet Pluto",
+   "Zwergplanet Pluto",
+   "Pluton"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "ebe23394-c55a-452c-be4a-2f1c1655ec87": {
+  "text": "Welcher Fluss fließt durch London?",
+  "answers": [],
+  "accepted": [
+   "Themse",
+   "Die Themse",
+   "Thames",
+   "River Thames",
+   "Temse"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "e0497815-9994-4bb7-993f-733104d56ff6": {
+  "text": "Wie heißt die japanische Kunst des Papierfaltens?",
+  "answers": [],
+  "accepted": [
+   "Origami",
+   "Origamii",
+   "Origame",
+   "Origami-Kunst"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "9ad71b86-781c-4956-aa69-66af96050f05": {
+  "text": "Was ist die Hauptstadt der Türkei?",
+  "answers": [],
+  "accepted": [
+   "Ankara",
+   "Ankkara",
+   "Ankarra",
+   "Angora"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "ff8385a7-6ae7-49da-9342-e89a326fe6b4": {
+  "text": "Was ist die größte heiße Wüste der Welt?",
+  "answers": [],
+  "accepted": [
+   "Sahara",
+   "Die Sahara",
+   "Wüste Sahara",
+   "Sahara-Wüste",
+   "Sahra"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "3af2ac67-f389-4632-9a31-b214cc29271d": {
+  "text": "Was ist der größte Ozean der Erde?",
+  "answers": [],
+  "accepted": [
+   "Pazifik",
+   "Pazifischer Ozean",
+   "Der Pazifik",
+   "Stiller Ozean",
+   "Pacific",
+   "Pazifick"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "fa343599-9ecc-4caf-af1a-63e4de335e1f": {
+  "text": "Wer war der erste Mensch im Weltall?",
+  "answers": [],
+  "accepted": [
+   "Juri Gagarin",
+   "Gagarin",
+   "Yuri Gagarin",
+   "Jurij Gagarin",
+   "Juri",
+   "Gagarine"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "8a5538b6-5391-4ca2-9170-66ac0420f280": {
+  "text": "Wie viele Bits hat ein Byte?",
+  "answers": [],
+  "accepted": [
+   "8",
+   "Acht",
+   "8 Bit",
+   "Acht Bit",
+   "8 Bits",
+   "acht"
+  ],
+  "flagged": false,
+  "note": ""
+ },
+ "d2e6287e-ed49-4e42-be4f-dc35331190df": {
+  "text": "Wie viele Kammern hat das menschliche Herz?",
+  "answers": [
+   "2",
+   "3",
+   "4"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f1f0bbda-e76c-4f6e-81e8-32b84966cab7": {
+  "text": "Welcher Planet ist am weitesten von der Sonne entfernt?",
+  "answers": [
+   "Saturn",
+   "Uranus",
+   "Neptun"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e3dfd91a-47bd-46d6-90c8-2e49867eac21": {
+  "text": "Auf welcher Straßenseite fährt man in Japan?",
+  "answers": [
+   "Links",
+   "Rechts",
+   "Je nach Stadt"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9f40989a-0762-40d3-903b-d4dea3240a03": {
+  "text": "Worin breitet sich Schall am schnellsten aus?",
+  "answers": [
+   "Luft",
+   "Wasser",
+   "Stahl"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dff24315-b611-4cfe-8d7f-20be40432141": {
+  "text": "Welches Element steht im Periodensystem an erster Stelle?",
+  "answers": [
+   "Helium",
+   "Wasserstoff",
+   "Kohlenstoff"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ea6d9d3d-2197-4db4-b60c-62bcb6447bd5": {
+  "text": "Wie groß ist die Winkelsumme in einem Dreieck?",
+  "answers": [
+   "90°",
+   "180°",
+   "360°"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": "Added degree sign to options for clarity in German."
+ },
+ "1572c049-70cc-40f7-a2ca-6961b2ed1349": {
+  "text": "Vor der Küste welches Landes liegt das Great Barrier Reef?",
+  "answers": [
+   "Indonesien",
+   "Australien",
+   "Neuseeland"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6500a604-8ff9-4f22-9e8f-7ecbba27e495": {
+  "text": "Wie viele Saiten hat eine normale Geige?",
+  "answers": [
+   "4",
+   "5",
+   "6"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9f810db5-4fdb-423e-abf2-3292b8b9edd9": {
+  "text": "An welchem Pol leben Pinguine in freier Wildbahn?",
+  "answers": [
+   "Am Nordpol",
+   "Am Südpol",
+   "An beiden Polen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ac7df825-f26e-45a2-ab65-51db4df6502f": {
+  "text": "Welches dieser Länder hat nicht den Euro?",
+  "answers": [
+   "Spanien",
+   "Italien",
+   "Großbritannien"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9c91cd31-abbe-4fb9-9763-dda7a0f91054": {
+  "text": "Was misst ein Lichtjahr?",
+  "answers": [
+   "Zeit",
+   "Entfernung",
+   "Geschwindigkeit"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "60aeb9a2-e94c-4393-82d8-853cc1806d3e": {
+  "text": "Wie viele Nullen hat eine Million?",
+  "answers": [
+   "3",
+   "6",
+   "9"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1ed3a9a8-0ddd-47cf-9fdf-81494802742a": {
+  "text": "Aus welchem Element bestehen Diamanten?",
+  "answers": [
+   "Eisen",
+   "Kohlenstoff",
+   "Silizium"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "48ce5e69-8d9b-429c-b688-5df35d7a98f6": {
+  "text": "In welchem Ozean liegt das Bermudadreieck?",
+  "answers": [
+   "Atlantik",
+   "Pazifik",
+   "Indischer Ozean"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "121f2786-e448-4d1a-8a19-3224285579fc": {
+  "text": "In welchem Land wurde Papier erfunden?",
+  "answers": [
+   "Ägypten",
+   "China",
+   "Griechenland"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5e59546c-0d39-49e7-89de-59bddc720db9": {
+  "text": "Welches dieser Tiere ist ein Säugetier?",
+  "answers": [
+   "Hai",
+   "Delfin",
+   "Krokodil"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fae56cbe-9751-4315-889d-0738a1e46523": {
+  "text": "Wie viele Monate im Jahr haben 31 Tage?",
+  "answers": [
+   "5",
+   "7",
+   "8"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c2adfed9-80a9-4017-be0c-fa78e6c60d22": {
+  "text": "In welchem Land liegt Casablanca?",
+  "answers": [
+   "Spanien",
+   "Marokko",
+   "Algerien"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3040e835-4830-4c50-ba4f-c21e473ca2de": {
+  "text": "Wie viele Sterne hat die Flagge der Europäischen Union?",
+  "answers": [
+   "12",
+   "15",
+   "27"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fdca625b-e0fb-4cff-a6a1-9fbf87b764a1": {
+  "text": "Welches Land ist flächenmäßig größer?",
+  "answers": [
+   "Kanada",
+   "USA"
+  ],
+  "accepted": [],
+  "flagged": true,
+  "note": "EN 'land area' makes the key wrong (US land ~9.15M vs Canada ~8.97M km²). DE uses total area (flächenmäßig), where Canada is correct; consider fixing EN to 'total area'."
+ },
+ "da747a22-25c3-40fb-a01a-d6a8b8c9078d": {
+  "text": "Wer hat mehr Knochen, ein Baby oder ein Erwachsener?",
+  "answers": [
+   "Ein Baby",
+   "Ein Erwachsener"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "eb0f96be-4bb7-47cb-8149-8802bd503ac5": {
+  "text": "Ist Glas flüssig oder fest?",
+  "answers": [
+   "Flüssig",
+   "Fest"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "65c04a62-0c2e-4482-922d-d4174cefdb30": {
+  "text": "Was erreicht dich bei einem Gewitter zuerst?",
+  "answers": [
+   "Blitz",
+   "Donner"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f8ffdcfd-cc69-4f84-b259-47b5d33b2203": {
+  "text": "Was hat die höhere Dichte, Wasser oder Öl?",
+  "answers": [
+   "Wasser",
+   "Öl"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5aef0691-be25-44b1-a148-b2b2bc673aca": {
+  "text": "Welches Unternehmen wurde zuerst gegründet?",
+  "answers": [
+   "Google",
+   "Facebook"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "624f394a-6a99-474b-80ee-a0ecaaf71403": {
+  "text": "Was ist flächenmäßig größer, Grönland oder Afrika?",
+  "answers": [
+   "Grönland",
+   "Afrika"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6fe00fe8-2109-4c1e-beae-07ba77a12da0": {
+  "text": "Welcher Planet hat mehr Monde, die Erde oder der Mars?",
+  "answers": [
+   "Erde",
+   "Mars"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "97985581-9569-4731-b79e-f357f42c3689": {
+  "text": "Was ist botanisch gesehen eine Beere, die Banane oder die Erdbeere?",
+  "answers": [
+   "Banane",
+   "Erdbeere"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

@@ -1,0 +1,1679 @@
+{
+  "8fc01dc5-83b3-444e-bf05-19983365bb14": {
+    "en": "If {{playerName}} had a fantasy they've never shared, would they rather confess it openly or wait for their partner to discover it?",
+    "text": "Sekretna fantazja: {{playerName}} wyzna ją otwarcie czy poczeka, aż druga połówka sama ją odkryje?",
+    "answers": [
+      "Wyzna otwarcie",
+      "Poczeka na odkrycie"
+    ]
+  },
+  "55d5089f-adbc-4486-9caf-71a65e3522cc": {
+    "en": "Lights on or lights off for {{playerName}}?",
+    "text": "{{playerName}}: światło zapalone czy zgaszone?",
+    "answers": [
+      "Zapalone",
+      "Zgaszone"
+    ]
+  },
+  "f265038d-f5ec-4355-ad38-81c9e5c98ff0": {
+    "en": "When it comes to romance, is {{playerName}} more of a morning or night person?",
+    "text": "Kiedy {{playerName}} ma największą ochotę na romantyczne chwile: rano czy w nocy?",
+    "answers": [
+      "Rano",
+      "W nocy"
+    ]
+  },
+  "f5df704c-d34d-4cbe-866e-e5cef10d00b8": {
+    "en": "Would {{playerName}} rather be kissed out of nowhere in public, or wait until you're finally alone?",
+    "text": "{{playerName}} woli dostać buziaka znienacka przy ludziach czy poczekać na chwilę sam na sam?",
+    "answers": [
+      "Znienacka przy ludziach",
+      "Dopiero sam na sam"
+    ]
+  },
+  "15587c50-a9a2-4fd3-9247-0153004d7d4c": {
+    "en": "Does {{playerName}} like it more when their partner dresses up, or when they're just lounging around at home in a t-shirt?",
+    "text": "Co {{playerName}} lubi bardziej: gdy druga połówka się wystroi czy gdy chodzi po domu w zwykłym T-shircie?",
+    "answers": [
+      "Elegancki strój",
+      "Zwykły T-shirt"
+    ]
+  },
+  "44e16874-15b9-407b-89c7-b9d6a6523f27": {
+    "en": "Would {{playerName}} rather get a flirty text in the middle of a boring workday, or hear it all in person later?",
+    "text": "{{playerName}} woli dostać zalotną wiadomość w środku nudnego dnia w pracy czy usłyszeć wszystko później na żywo?",
+    "answers": [
+      "Zalotna wiadomość",
+      "Później na żywo"
+    ]
+  },
+  "52ff8815-c04d-4145-9bac-953c078df9ce": {
+    "en": "In romantic moments, does {{playerName}} like taking things slow, or getting straight to the point?",
+    "text": "W romantycznych chwilach {{playerName}} lubi się nie spieszyć czy od razu przechodzi do rzeczy?",
+    "answers": [
+      "Powoli, bez pośpiechu",
+      "Od razu do rzeczy"
+    ]
+  },
+  "73562a31-6a7a-4363-aa77-d5168d7657fa": {
+    "en": "Which does {{playerName}} love more: a kiss on the forehead or a kiss on the neck?",
+    "text": "Co {{playerName}} woli: buziaka w czoło czy w szyję?",
+    "answers": [
+      "W czoło",
+      "W szyję"
+    ]
+  },
+  "58600fd8-bed4-471f-91be-8876ab4af01d": {
+    "en": "What gets to {{playerName}} more: their partner's voice or their scent?",
+    "text": "{{playerName}} łatwiej traci głowę przez głos czy przez zapach drugiej połówki?",
+    "answers": [
+      "Przez głos",
+      "Przez zapach"
+    ]
+  },
+  "b34eb481-b4ee-4a67-bef3-76ceca435273": {
+    "en": "Would {{playerName}} rather spend a lazy Sunday morning in bed together, or get up and go out for breakfast?",
+    "text": "{{playerName}} woli leniwy niedzielny poranek razem w łóżku czy wyjście na śniadanie na miasto?",
+    "answers": [
+      "Razem w łóżku",
+      "Śniadanie na mieście"
+    ]
+  },
+  "ff31b1f9-1519-4e9a-966e-88eb3e89e15e": {
+    "en": "In public, is {{playerName}} more of a hand-holder or an arm-around-the-waist type?",
+    "text": "Na mieście {{playerName}} woli trzymać się za ręce czy obejmować w pasie?",
+    "answers": [
+      "Trzymanie za rękę",
+      "Obejmowanie w pasie"
+    ]
+  },
+  "ea43324f-2787-4e83-bb8e-9eedbf0f7ad1": {
+    "en": "What would make {{playerName}} melt faster: a handwritten love note or a voice message saying \"I miss you\"?",
+    "text": "Przy czym {{playerName}} szybciej się rozpłynie: odręczny liścik czy głosówka „Tęsknię za tobą”?",
+    "answers": [
+      "Odręczny liścik",
+      "Głosówka"
+    ]
+  },
+  "ed79272c-fd55-4bed-b17d-e352eee18176": {
+    "en": "When {{playerName}} wants attention, do they just say it, or keep getting closer until their partner notices?",
+    "text": "Gdy {{playerName}} potrzebuje uwagi, mówi to wprost czy przysuwa się coraz bliżej, aż druga połówka zauważy?",
+    "answers": [
+      "Mówi wprost",
+      "Przysuwa się bliżej"
+    ]
+  },
+  "6e7d8c88-1870-4a44-ac83-2e52fc810ff5": {
+    "en": "Does {{playerName}} like falling asleep wrapped up together, or with a little space?",
+    "text": "{{playerName}} woli zasypiać w objęciach czy mając trochę miejsca dla siebie?",
+    "answers": [
+      "W objęciach",
+      "Z odrobiną przestrzeni"
+    ]
+  },
+  "efc015d4-4330-4335-aa0f-69b7c14d8bed": {
+    "en": "Would {{playerName}} rather have a pillow fight that turns into cuddling, or a quiet movie night under one blanket?",
+    "text": "{{playerName}} woli bitwę na poduszki, która kończy się przytulaniem, czy spokojny film pod jednym kocem?",
+    "answers": [
+      "Bitwa na poduszki",
+      "Film pod jednym kocem"
+    ]
+  },
+  "b27cee43-3684-412d-b534-08870705e73e": {
+    "en": "When their partner stares at them for too long, does {{playerName}} get shy or stare right back?",
+    "text": "Gdy druga połówka zbyt długo się wpatruje, {{playerName}} się peszy czy patrzy prosto w oczy?",
+    "answers": [
+      "Peszy się",
+      "Patrzy prosto w oczy"
+    ]
+  },
+  "cff2f676-9a56-4ea0-b786-9545641e62b9": {
+    "en": "Would {{playerName}} rather get a back scratch or have someone play with their hair?",
+    "text": "{{playerName}} woli drapanie po plecach czy bawienie się włosami?",
+    "answers": [
+      "Drapanie po plecach",
+      "Bawienie się włosami"
+    ]
+  },
+  "bb72e4b5-804e-4a42-b538-f64c2bbdd554": {
+    "en": "Which would {{playerName}} rather hear: \"You look amazing\" or \"I can't stop thinking about you\"?",
+    "text": "Co {{playerName}} chętniej usłyszy: „Wyglądasz obłędnie” czy „Nie mogę przestać o tobie myśleć”?",
+    "answers": [
+      "Wyglądasz obłędnie",
+      "Nie mogę przestać o tobie myśleć"
+    ]
+  },
+  "ef612bf3-373f-42f1-982d-550e02b21d58": {
+    "en": "When {{playerName}} misses their partner, do they call right away or play it cool and wait?",
+    "text": "Gdy {{playerName}} tęskni za drugą połówką, dzwoni od razu czy udaje luz i czeka?",
+    "answers": [
+      "Dzwoni od razu",
+      "Udaje luz"
+    ]
+  },
+  "93250f31-1b51-4551-abe8-ad4359373b2e": {
+    "en": "Does {{playerName}} love cute nicknames, or prefer just being called by their name?",
+    "text": "{{playerName}} uwielbia słodkie przezwiska czy woli zwykłe imię?",
+    "answers": [
+      "Słodkie przezwiska",
+      "Po prostu imię"
+    ]
+  },
+  "22527ac4-d6a5-432b-8fa4-ab5962083141": {
+    "en": "Would {{playerName}} rather slow dance to a love song, or go wild together to a party song?",
+    "text": "{{playerName}} woli wolny taniec przy romantycznej piosence czy wspólne szaleństwo przy imprezowym hicie?",
+    "answers": [
+      "Wolny taniec",
+      "Szaleństwo na parkiecie"
+    ]
+  },
+  "b85f77c2-3213-4c78-90c5-313d4e8817dd": {
+    "en": "What's {{playerName}}'s favorite way to wake up?",
+    "text": "Jaką pobudkę {{playerName}} lubi najbardziej?",
+    "answers": [
+      "Buziakami",
+      "Śniadaniem do łóżka",
+      "Żadną, niech śpi"
+    ]
+  },
+  "4cf2fe6c-5971-4915-bbae-2d3f5e9b5449": {
+    "en": "What's the fastest way to win {{playerName}} back after a fight?",
+    "text": "{{playerName}} po kłótni: co najszybciej pomaga się pogodzić?",
+    "answers": [
+      "Szczere przeprosiny",
+      "Długi przytulas",
+      "Rozśmieszenie"
+    ]
+  },
+  "71e6ef76-6fb4-4f07-a11b-fa9ec4a3e346": {
+    "en": "Where would {{playerName}} go for a romantic getaway?",
+    "text": "Gdzie {{playerName}} wybierze się na romantyczny wypad?",
+    "answers": [
+      "Domek w górach",
+      "Willa nad morzem",
+      "Hotel w dużym mieście"
+    ]
+  },
+  "052a85cc-24fc-4f39-9aa0-fc9d73c403e5": {
+    "en": "How does {{playerName}} usually show they want to be close?",
+    "text": "Jak {{playerName}} zwykle pokazuje, że ma ochotę na bliskość?",
+    "answers": [
+      "Dotykiem",
+      "Wymownym spojrzeniem",
+      "Po prostu mówi"
+    ]
+  },
+  "db2a565a-627a-40a8-be8c-14a3bfe6b537": {
+    "en": "What's {{playerName}}'s biggest weakness when it comes to their partner?",
+    "text": "{{playerName}}: największa słabość, jeśli chodzi o drugą połówkę?",
+    "answers": [
+      "Śmiech",
+      "Zapach",
+      "Sposób, w jaki patrzy"
+    ]
+  },
+  "4e100e90-af39-4cc2-b65c-a50b7057d41b": {
+    "en": "Complete it: {{playerName}} can't resist someone who...",
+    "text": "Dokończ: {{playerName}} nie potrafi się oprzeć komuś, kto…",
+    "answers": [
+      "umie rozśmieszyć",
+      "ma tajemniczą aurę",
+      "potrafi się zatroszczyć"
+    ]
+  },
+  "04adab2d-d8cb-41d8-9a80-265a693b3119": {
+    "en": "Which of these would make {{playerName}} blush the most?",
+    "text": "Przy którym tekście {{playerName}} zarumieni się najbardziej?",
+    "answers": [
+      "Nie mogę oderwać od ciebie wzroku",
+      "Uszczęśliwiasz mnie",
+      "Pękam z dumy z twojego powodu"
+    ],
+    "flagged": true,
+    "note": "\"I'm so proud of you\" rephrased as „Pękam z dumy z twojego powodu” to avoid gendered dumny/dumna; please confirm it sounds natural."
+  },
+  "c06bb1e8-b5b3-4a99-8d8c-bfe321d8ad59": {
+    "en": "When {{playerName}} gets jealous, how does it show?",
+    "text": "Gdy {{playerName}} czuje zazdrość, po czym to widać?",
+    "answers": [
+      "Milknie",
+      "Sarkastycznie żartuje",
+      "Okazuje więcej czułości"
+    ]
+  },
+  "7b30dfc6-380f-431f-8046-dd300e522480": {
+    "en": "How good is {{playerName}} at flirting?",
+    "text": "Jak {{playerName}} radzi sobie z flirtem?",
+    "answers": [
+      "Po mistrzowsku",
+      "Uroczo, ale nieporadnie",
+      "Beznadziejnie"
+    ]
+  },
+  "27220b40-4180-4289-9126-bef2279fb254": {
+    "en": "How does {{playerName}} show love the most?",
+    "text": "Jak {{playerName}} najczęściej okazuje miłość?",
+    "answers": [
+      "Dotykiem",
+      "Czułymi słowami",
+      "Drobnymi prezentami",
+      "Wspólnie spędzonym czasem"
+    ]
+  },
+  "85c4d519-9f35-4249-9208-8aab551dda52": {
+    "en": "Where would {{playerName}} most love to get a surprise kiss?",
+    "text": "Gdzie {{playerName}} najbardziej chce dostać buziaka z zaskoczenia?",
+    "answers": [
+      "W deszczu",
+      "W windzie",
+      "Na koncercie",
+      "W kuchni przy gotowaniu"
+    ]
+  },
+  "ac0b7de1-f6da-407e-aaa2-b0bf657e00f2": {
+    "en": "When does {{playerName}} fall for their partner all over again?",
+    "text": "Kiedy {{playerName}} zakochuje się w drugiej połówce od nowa?",
+    "answers": [
+      "Gdy się śmieje",
+      "Gdy się na czymś skupia",
+      "Gdy się troszczy",
+      "Tuż po przebudzeniu"
+    ]
+  },
+  "aff4bbb1-e2c4-4b5d-9db6-7b16909db94f": {
+    "en": "What kind of message would {{playerName}} love to wake up to?",
+    "text": "Jaką wiadomość {{playerName}} najchętniej zobaczy po przebudzeniu?",
+    "answers": [
+      "Słodkie „dzień dobry”",
+      "Urocze zdjęcie",
+      "Głosówka",
+      "Coś lekko zalotnego"
+    ]
+  },
+  "52b200de-7096-4387-b6c3-aab3bc6a22f3": {
+    "en": "Which gift would make {{playerName}} the happiest?",
+    "text": "Z jakiego prezentu {{playerName}} ucieszy się najbardziej?",
+    "answers": [
+      "Biżuteria",
+      "Wyjazd niespodzianka",
+      "Coś zrobionego ręcznie",
+      "Bluza drugiej połówki"
+    ]
+  },
+  "cdf6776b-ec39-4a4d-9341-6a663d850ceb": {
+    "en": "On a cozy night in with their partner, what kind of movie does {{playerName}} put on?",
+    "text": "Przytulny wieczór z drugą połówką w domu: jaki film włącza {{playerName}}?",
+    "answers": [
+      "Komedia romantyczna",
+      "Horror – pretekst do przytulania",
+      "Film akcji",
+      "Obojętne, i tak nikt nie ogląda"
+    ]
+  },
+  "a09650e4-8007-4b75-bb66-a01a84c37710": {
+    "en": "What's the biggest turn-off for {{playerName}} on a date?",
+    "text": "Na randce {{playerName}} najszybciej traci zainteresowanie, gdy ktoś…",
+    "answers": [
+      "ciągle siedzi w telefonie",
+      "się spóźnia",
+      "jest niemiły dla kelnera",
+      "gada o byłych"
+    ]
+  },
+  "e947abf2-fe3e-433a-af75-9f623d7cb898": {
+    "en": "What does {{playerName}} love most about their partner's looks?",
+    "text": "Co {{playerName}} najbardziej lubi w wyglądzie drugiej połówki?"
+  },
+  "923210d5-6873-4446-9080-09044dcdd460": {
+    "en": "What's {{playerName}}'s favorite romantic movie?",
+    "text": "Jaki romantyczny film {{playerName}} lubi najbardziej?"
+  },
+  "ae069d22-9332-49fa-87c8-f9d4106ddb43": {
+    "en": "What color does {{playerName}} think their partner looks best in?",
+    "text": "Jak myśli {{playerName}}: w jakim kolorze drugiej połówce najbardziej do twarzy?"
+  },
+  "9815c91b-f38b-4218-849b-e27988242497": {
+    "en": "What does {{playerName}} usually order to drink on a date?",
+    "text": "Co {{playerName}} zwykle zamawia do picia na randce?"
+  },
+  "7d61b0d4-ff9c-4359-9a4f-1b68b01c0d93": {
+    "en": "What pet name does {{playerName}} use most for their partner?",
+    "text": "Jak {{playerName}} najczęściej czule nazywa drugą połówkę?"
+  },
+  "a6a533ee-ff93-43cd-b0d3-becf90d811a5": {
+    "en": "What food would {{playerName}} pick for a romantic dinner?",
+    "text": "Co {{playerName}} wybierze na romantyczną kolację?"
+  },
+  "8d3c5120-8c4d-4484-9b1d-1f06711f2f87": {
+    "en": "Where on their partner's face does {{playerName}} kiss the most?",
+    "text": "Gdzie na twarzy drugiej połówki {{playerName}} całuje najczęściej?"
+  },
+  "6d3a66de-2db7-4570-8928-1d88fa7313a2": {
+    "en": "Which country would {{playerName}} pick for a honeymoon?",
+    "text": "Jaki kraj {{playerName}} wybierze na miesiąc miodowy?"
+  },
+  "e07608ce-6461-4038-a32b-5d730d917fd2": {
+    "en": "Which season does {{playerName}} find the most romantic?",
+    "text": "Którą porę roku {{playerName}} uważa za najbardziej romantyczną?"
+  },
+  "b1b50f40-4260-4b91-ae69-ce97c1032c3e": {
+    "en": "Which TV show would {{playerName}} love to binge with their partner?",
+    "text": "Jaki serial {{playerName}} chce obejrzeć ciurkiem z drugą połówką?"
+  },
+  "4f3d5a83-ed50-4992-a428-d7ce354e1d13": {
+    "en": "Which city would {{playerName}} love to live in with their partner?",
+    "text": "W jakim mieście {{playerName}} chce zamieszkać z drugą połówką?"
+  },
+  "31ceef31-d267-481e-ac9a-5885eb6f8dbb": {
+    "en": "What dish does {{playerName}} love cooking for their partner?",
+    "text": "Jakie danie {{playerName}} najchętniej gotuje dla drugiej połówki?"
+  },
+  "83cf4d9b-21b6-4e72-80bd-fdd8ccbe4103": {
+    "en": "Does {{playerName}} like being kissed in public?",
+    "text": "Czy {{playerName}} lubi buziaki przy ludziach?"
+  },
+  "7c0c6ea7-9626-4681-84fc-23837e598bb6": {
+    "en": "Would {{playerName}} rather stay in than go out on a date night?",
+    "text": "Czy {{playerName}} woli randkę w domu niż wyjście na miasto?"
+  },
+  "5dfad39f-e8f8-4f9d-87ea-a5329b8a5853": {
+    "en": "Does {{playerName}} say \"I love you\" first?",
+    "text": "Czy {{playerName}} mówi „Kocham cię”, zanim usłyszy to od drugiej połówki?"
+  },
+  "068fcbfc-a8b0-49b3-85fc-75ac1889e68a": {
+    "en": "Does {{playerName}} like nicknames in public?",
+    "text": "Czy {{playerName}} lubi czułe przezwiska przy ludziach?"
+  },
+  "6b361ee2-7951-4425-8e4e-2f13d1927417": {
+    "en": "Does {{playerName}} check their partner's location when they miss them?",
+    "text": "Czy {{playerName}} sprawdza lokalizację drugiej połówki, kiedy tęskni?"
+  },
+  "c4e4a739-4104-4af1-b91e-a3b9a3b95fb1": {
+    "en": "Does {{playerName}} like matching outfits with their partner?",
+    "text": "Czy {{playerName}} lubi chodzić z drugą połówką w takich samych ciuchach?"
+  },
+  "514ef284-99e0-4e87-8f64-f18fa20e828d": {
+    "en": "Would {{playerName}} get a couple tattoo?",
+    "text": "Czy {{playerName}} zdecyduje się na wspólny tatuaż z drugą połówką?"
+  },
+  "18299c05-dc5f-4f1f-93a4-e202af729808": {
+    "en": "Does {{playerName}} reread old messages from their partner?",
+    "text": "Czy {{playerName}} wraca do starych wiadomości od drugiej połówki?"
+  },
+  "43b0bad7-bcd8-49c3-a575-6363492aa1e2": {
+    "en": "Has {{playerName}} ever searched their partner's name on the internet?",
+    "text": "{{playerName}}: googlowanie drugiej połówki – zdarzyło się kiedyś?"
+  },
+  "9aa01c3d-202b-407d-8cfc-7afe582df680": {
+    "en": "Does {{playerName}} still keep old love letters or gifts from an ex?",
+    "text": "Czy {{playerName}} wciąż trzyma listy miłosne albo prezenty od byłych?"
+  },
+  "5046da73-768b-4c75-9098-c717dc041cc5": {
+    "en": "Would {{playerName}} stop in the middle of an intimate moment if their phone rang?",
+    "text": "Czy {{playerName}} przerwie intymną chwilę, gdy zadzwoni telefon?"
+  },
+  "7e456f76-8350-46b3-b96e-af88c500c1b0": {
+    "en": "Does {{playerName}} get uncomfortable if their partner watches them get ready?",
+    "text": "Czy {{playerName}} czuje się niezręcznie, gdy druga połówka patrzy, jak się szykuje?"
+  },
+  "2f6a16f5-299a-4e7d-9906-f791ecb95db9": {
+    "en": "Would {{playerName}} tell their partner if a stranger hit on them?",
+    "text": "Czy {{playerName}} powie drugiej połówce o podrywie ze strony nieznajomego?"
+  },
+  "2374ed2f-f749-4d36-bca1-213e6dd39af2": {
+    "en": "Does {{playerName}} like it when their partner is a little louder than usual?",
+    "text": "Czy {{playerName}} lubi, gdy druga połówka jest głośniejsza niż zwykle?"
+  },
+  "021b3fea-592b-4a5c-9fc3-cf4f90da5728": {
+    "en": "Does {{playerName}} like it when their partner talks during intimate moments?",
+    "text": "Czy {{playerName}} lubi, gdy druga połówka mówi coś w intymnych chwilach?"
+  },
+  "ec853fc4-ea5e-4d6b-b368-baccff2859e2": {
+    "en": "Does {{playerName}} like it when their partner leaves a mark, even a small one?",
+    "text": "Czy {{playerName}} lubi, gdy druga połówka zostawia ślad, choćby mały?"
+  },
+  "7407ed24-af63-48a2-9623-376827a17dd2": {
+    "en": "After a fight, what does {{playerName}} need first?",
+    "text": "Po kłótni: czego {{playerName}} potrzebuje najpierw?",
+    "answers": [
+      "Przestrzeni",
+      "Rozmowy",
+      "Przytulenia, bez słów",
+      "Udawania, że nic się nie stało"
+    ]
+  },
+  "58262567-9ba2-4777-87bf-eb1256c82bdb": {
+    "en": "What does {{playerName}} want right after intimacy?",
+    "text": "Co {{playerName}} chce robić zaraz po zbliżeniu?",
+    "answers": [
+      "Rozmawiać",
+      "Leżeć blisko w ciszy",
+      "Zasnąć",
+      "Wstać"
+    ]
+  },
+  "1c394649-6625-4f03-84f0-3e53b920c956": {
+    "en": "When their partner compliments them, what does {{playerName}} do?",
+    "text": "Co robi {{playerName}}, gdy słyszy komplement od drugiej połówki?",
+    "answers": [
+      "Zbywa to",
+      "Peszy się",
+      "Odwzajemnia komplement",
+      "Po prostu go przyjmuje"
+    ]
+  },
+  "a1b6a93f-4d10-43a7-8164-0163bd3853f2": {
+    "en": "Which of these is hardest for {{playerName}} to hear from their partner?",
+    "text": "Co {{playerName}} najtrudniej znosi z ust drugiej połówki?",
+    "answers": [
+      "Musimy porozmawiać",
+      "Potrzebuję przestrzeni",
+      "To mnie rozczarowało",
+      "Masz rację"
+    ]
+  },
+  "c47a1f38-5b04-46da-9c44-7a474ed6d259": {
+    "en": "If {{playerName}} catches you watching them after a shower, what do they do?",
+    "text": "Co robi {{playerName}}, gdy po prysznicu przyłapuje cię na gapieniu się?",
+    "answers": [
+      "Odwzajemnia spojrzenie",
+      "Odwraca wzrok",
+      "Żartuje",
+      "Podchodzi bliżej"
+    ]
+  },
+  "e89d0de4-7a91-4f6e-b779-b94e48e546d2": {
+    "en": "It's 2am and you're both still awake. What does {{playerName}} want?",
+    "text": "Jest 2 w nocy, a wy wciąż nie śpicie. Na co {{playerName}} ma ochotę?",
+    "answers": [
+      "Na rozmowę po ciemku",
+      "Na buziaka i sen",
+      "Na wspólne scrollowanie",
+      "Po prostu na sen"
+    ]
+  },
+  "8ce87b4f-b8db-4f01-98ba-f29870c3aed1": {
+    "en": "If you whispered one thing, what would get to {{playerName}} more?",
+    "text": "Na które słowa szeptane do ucha {{playerName}} reaguje najmocniej?",
+    "answers": [
+      "Chodź tu",
+      "Zamknij drzwi",
+      "Spójrz na mnie",
+      "Jeszcze nie"
+    ]
+  },
+  "0e4ed2f2-bc25-4e09-a90f-302effdc8620": {
+    "en": "On the couch at night, how close does {{playerName}} sit?",
+    "text": "Jak blisko {{playerName}} siada wieczorem na kanapie?",
+    "answers": [
+      "Z odstępem",
+      "Tuż przy tobie",
+      "Z nogami na twoich",
+      "Prawie na twoich kolanach"
+    ]
+  },
+  "5cb070ee-8f2e-40d2-b2a4-eeb5e9aed5a6": {
+    "en": "Which of these is harder for {{playerName}} to ignore?",
+    "text": "Obok czego {{playerName}} najtrudniej przechodzi obojętnie?",
+    "answers": [
+      "Ty w podkradzionej koszulce",
+      "Ty z mokrymi włosami",
+      "Ty, gdy szykujesz się do wyjścia",
+      "Ty z samego rana"
+    ]
+  },
+  "35eb5bdd-4604-405f-bbd9-ec6d407788ce": {
+    "en": "If you walk in while {{playerName}} is changing, what do they do?",
+    "text": "Wchodzisz, a {{playerName}} akurat się przebiera. Co robi?",
+    "answers": [
+      "Zasłania się",
+      "Nie przejmuje się",
+      "Wyprasza cię",
+      "Przyciąga cię do siebie"
+    ]
+  },
+  "63883f17-6122-4b32-bd02-7c77127de516": {
+    "en": "At dinner, where is {{playerName}}'s hand?",
+    "text": "Gdzie {{playerName}} trzyma rękę przy kolacji?",
+    "answers": [
+      "Na stole",
+      "W twojej dłoni",
+      "Na twoim kolanie",
+      "Pod stołem"
+    ]
+  },
+  "d4a5ae02-a778-4a8a-a976-915ab86b182c": {
+    "en": "At the door at the end of the night, what does {{playerName}} do?",
+    "text": "Co robi {{playerName}} pod drzwiami na koniec wieczoru?",
+    "answers": [
+      "Szybki buziak",
+      "Długi pocałunek",
+      "Wciąga cię do środka",
+      "Mówi „do jutra”"
+    ]
+  },
+  "290d4e23-9ee9-41a5-86b2-90f954e2e486": {
+    "en": "If you hug {{playerName}} from behind, what do they do?",
+    "text": "{{playerName}}: przytulasz od tyłu. Jaka reakcja?",
+    "answers": [
+      "Opiera się o ciebie",
+      "Robi dalej swoje",
+      "Łapie cię za ręce",
+      "Odwraca się"
+    ]
+  },
+  "3aaf73d2-fba7-45d3-b142-eaf8b4b1f2c2": {
+    "en": "If you kiss {{playerName}} while they're in the middle of something, what do they do?",
+    "text": "Co robi {{playerName}}, gdy w trakcie jakiegoś zajęcia dostaje od ciebie całusa?",
+    "answers": [
+      "Oddaje całusa i robi dalej swoje",
+      "Mówi „chwila”",
+      "Odkłada wszystko",
+      "Śmieje się i kręci głową"
+    ]
+  },
+  "20568aba-1de1-4c32-9c4b-84046e0a89a3": {
+    "en": "If you say \"come to bed\", what does {{playerName}} do?",
+    "text": "Co robi {{playerName}}, gdy słyszy od ciebie „chodź do łóżka”?",
+    "answers": [
+      "Przychodzi od razu",
+      "Prosi o jeszcze pięć minut",
+      "Każe ci po siebie przyjść"
+    ]
+  },
+  "730dfdba-4777-40c1-ac4f-849cf3a8dab0": {
+    "en": "If you whisper in {{playerName}}'s ear at a party, what do they do?",
+    "text": "Co robi {{playerName}}, gdy na imprezie słyszy twój szept tuż przy uchu?",
+    "answers": [
+      "Uśmiecha się",
+      "Rumieni się",
+      "Odciąga cię na bok"
+    ]
+  },
+  "793c87e8-9ced-435c-af13-49aef0550f10": {
+    "en": "In the back of a taxi, what does {{playerName}} do?",
+    "text": "Co robi {{playerName}} na tylnym siedzeniu taksówki?",
+    "answers": [
+      "Patrzy przez okno",
+      "Kładzie głowę na twoim ramieniu",
+      "Trzyma cię za rękę"
+    ]
+  },
+  "9a5a21f6-c21f-44ee-986d-7b807154604f": {
+    "en": "If you fall asleep on {{playerName}} on the couch, what do they do?",
+    "text": "Zasypiasz na kanapie, a {{playerName}} służy ci za poduszkę. Co robi?",
+    "answers": [
+      "Pozwala ci spać",
+      "Budzi cię i wysyła do łóżka",
+      "Ani drgnie, nawet gdy cierpnie ręka"
+    ]
+  },
+  "d6cefc04-d2ec-40ca-b919-90873cd692a4": {
+    "en": "If you put your cold hands on {{playerName}}, what do they do?",
+    "text": "Co robi {{playerName}}, gdy czuje na sobie twoje zimne dłonie?",
+    "answers": [
+      "Podskakuje",
+      "I tak je łapie",
+      "Ogrzewa je na swojej szyi"
+    ]
+  },
+  "d84a8b9f-1082-4a61-a4fb-3a0ce7561ce4": {
+    "en": "If you say \"let's go home\" while you're out, what does {{playerName}} do?",
+    "text": "Na mieście mówisz: „chodźmy do domu”. Jak reaguje {{playerName}}?",
+    "answers": [
+      "Czeka na to od dawna",
+      "Chce zostać jeszcze godzinę",
+      "Dopiero się rozkręca"
+    ]
+  },
+  "51f4a26a-da00-4845-a418-a9ee3398e5bf": {
+    "en": "If someone is clearly checking you out, what does {{playerName}} do?",
+    "text": "Co robi {{playerName}}, gdy ktoś wyraźnie cię obczaja?",
+    "answers": [
+      "Nic nie zauważa",
+      "Przyciąga cię bliżej",
+      "Mierzy tę osobę wzrokiem"
+    ]
+  },
+  "acceaaf6-dbea-46b8-b01d-8c157c320363": {
+    "en": "If you start dancing in the kitchen for no reason, what does {{playerName}} do?",
+    "text": "Co robi {{playerName}}, gdy bez powodu zaczynasz tańczyć w kuchni?",
+    "answers": [
+      "Dołącza",
+      "Przygląda się",
+      "Nabija się, a potem dołącza"
+    ]
+  },
+  "0ba7b11f-84f2-4fd6-a508-37ec2a630f94": {
+    "en": "If you almost kiss {{playerName}} and pull away, what do they do?",
+    "text": "Co robi {{playerName}}, gdy już prawie się całujecie, a ty się wycofujesz?",
+    "answers": [
+      "Dokańcza pocałunek",
+      "Czeka",
+      "Obraca to w żart"
+    ]
+  },
+  "16f3d2e8-43b7-412a-aaf6-99b56d3ea05f": {
+    "en": "If you sit on {{playerName}}'s lap, what do they do?",
+    "text": "{{playerName}}: siadasz na kolanach. Jaka reakcja?",
+    "answers": [
+      "Przyciąga cię do siebie",
+      "Najpierw rozgląda się dookoła",
+      "Śmieje się i zrzuca cię"
+    ]
+  },
+  "bbf222fb-e5a6-45b2-be01-18d719ee84f2": {
+    "en": "If you start taking {{playerName}}'s sweater off because it's warm inside, what do they do?",
+    "text": "W środku gorąco, a {{playerName}} ma na sobie sweter. Co robi, gdy zaczynasz ten sweter zdejmować?",
+    "answers": [
+      "Pozwala ci",
+      "Zdejmuje go samodzielnie",
+      "Zatrzymuje twoją rękę"
+    ]
+  },
+  "f8558854-9108-4479-b20e-7a0c5c31c0ac": {
+    "en": "If you kiss {{playerName}}'s cheek in the middle of their story, what do they do?",
+    "text": "Co robi {{playerName}}, gdy w środku opowieści dostaje od ciebie całusa w policzek?",
+    "answers": [
+      "Mówi dalej",
+      "Gubi wątek",
+      "Oddaje całusa i opowiada dalej"
+    ]
+  },
+  "c335f3ae-66fd-42b6-b5d1-3150b68b6b04": {
+    "en": "Where does {{playerName}} love a massage the most?",
+    "text": "Jaki masaż {{playerName}} lubi najbardziej?",
+    "answers": [
+      "Ramion",
+      "Pleców",
+      "Stóp",
+      "Głowy"
+    ]
+  },
+  "7c740bf2-6c29-4351-b1ea-1ac8b48d7e14": {
+    "en": "What turns {{playerName}} on the most?",
+    "text": "Co sprawia, że {{playerName}} najszybciej się rozpala?",
+    "answers": [
+      "Pewność siebie",
+      "Kontakt wzrokowy",
+      "Ładny zapach",
+      "Droczenie się"
+    ]
+  },
+  "c510bd61-7901-4014-bccc-3bf4072ab104": {
+    "en": "In intimate moments, which sense matters most to {{playerName}}?",
+    "text": "Na który zmysł {{playerName}} najbardziej stawia w intymnych chwilach?",
+    "answers": [
+      "Dotyk",
+      "Wzrok",
+      "Węch",
+      "Słuch"
+    ]
+  },
+  "10524676-70b8-4a0c-9c65-8021824e5bc1": {
+    "en": "How does {{playerName}} most like to be seduced?",
+    "text": "Czym {{playerName}} najchętniej daje się uwodzić?",
+    "answers": [
+      "Słowami",
+      "Spojrzeniami",
+      "Dotykiem",
+      "Niespodzianką"
+    ]
+  },
+  "47197335-c957-4d42-90c1-bd55aec65195": {
+    "en": "What's the first thing {{playerName}} looks at on someone they find attractive?",
+    "text": "Na co {{playerName}} patrzy najpierw u kogoś atrakcyjnego?",
+    "answers": [
+      "Oczy",
+      "Usta",
+      "Dłonie",
+      "Ciało"
+    ]
+  },
+  "7fcfdb68-3ae8-4607-9be5-32b49375a3ac": {
+    "en": "If you send {{playerName}} a flirty photo in the middle of the day, what do they do?",
+    "text": "Co robi {{playerName}}, gdy w środku dnia dostaje od ciebie zalotne zdjęcie?",
+    "answers": [
+      "Odsyła swoje",
+      "Od razu dzwoni",
+      "„Nie teraz, mam robotę”",
+      "Wcześniej wraca do domu"
+    ]
+  },
+  "720d3880-91f8-4dde-a17f-7da5e821ab00": {
+    "en": "Which accessory on someone does {{playerName}} find hottest?",
+    "text": "Jaki dodatek u kogoś {{playerName}} uważa za najseksowniejszy?",
+    "answers": [
+      "Zegarek",
+      "Okulary",
+      "Łańcuszek",
+      "Pierścionki"
+    ]
+  },
+  "4daea0de-71a4-40bc-82b1-c1a830c1e33f": {
+    "en": "Which style on someone does {{playerName}} find hottest?",
+    "text": "Jaki styl u kogoś {{playerName}} uważa za najseksowniejszy?",
+    "answers": [
+      "Elegancki",
+      "Sportowy",
+      "Streetwear",
+      "Total black"
+    ]
+  },
+  "9132974e-4bff-42a3-a774-e9046d4aa9f2": {
+    "en": "What height does {{playerName}} find most attractive in a partner?",
+    "text": "Jaką różnicę wzrostu w parze {{playerName}} lubi najbardziej?",
+    "answers": [
+      "Dużo wyższa połówka",
+      "Trochę wyższa połówka",
+      "Ten sam wzrost",
+      "Niższa połówka"
+    ],
+    "note": "Height options use 'połówka' (fem. noun, neutral for anyone) to avoid gendered 'wyższy/wyższa'."
+  },
+  "8b3a4769-3529-4dd3-bf94-060c729a8477": {
+    "en": "Which eye color does {{playerName}} find most attractive?",
+    "text": "Jaki kolor oczu {{playerName}} uważa za najbardziej pociągający?",
+    "answers": [
+      "Brązowe",
+      "Zielone",
+      "Niebieskie",
+      "Piwne"
+    ]
+  },
+  "6e6db5c0-711a-4280-9da7-49e01a6e940c": {
+    "en": "Which hair color does {{playerName}} find hottest?",
+    "text": "Jaki kolor włosów {{playerName}} uważa za najseksowniejszy?",
+    "answers": [
+      "Czarne",
+      "Brązowe",
+      "Blond",
+      "Rude"
+    ]
+  },
+  "401817cf-f61c-4724-9158-25592761bb11": {
+    "en": "Which kind of fragrance does {{playerName}} find sexiest on someone?",
+    "text": "Jaki rodzaj zapachu u kogoś {{playerName}} uważa za najseksowniejszy?",
+    "answers": [
+      "Słodki",
+      "Świeży",
+      "Drzewny",
+      "Korzenny"
+    ]
+  },
+  "4dacabdc-99dd-4c78-9b92-52680146831d": {
+    "en": "How does {{playerName}} feel about tattoos on a partner?",
+    "text": "Co {{playerName}} sądzi o tatuażach u drugiej połówki?",
+    "answers": [
+      "Uwielbia je",
+      "Jeden, dwa – w sam raz",
+      "Nie przepada",
+      "Bez różnicy"
+    ]
+  },
+  "f5dadc53-d883-4924-8ba8-2f509d410ebb": {
+    "en": "What age gap does {{playerName}} find most attractive?",
+    "text": "Jaką różnicę wieku {{playerName}} uważa za najbardziej pociągającą?",
+    "answers": [
+      "Ten sam wiek",
+      "Kilka lat starsza osoba",
+      "Kilka lat młodsza osoba",
+      "Dużo starsza osoba"
+    ]
+  },
+  "f1dc9061-fa47-478b-b1ec-eba6a3b6f5fa": {
+    "en": "Which job on someone does {{playerName}} find most attractive?",
+    "text": "Jaki zawód u kogoś {{playerName}} uważa za najbardziej pociągający?",
+    "answers": [
+      "Medycyna",
+      "Lotnictwo",
+      "Straż pożarna",
+      "Gastronomia"
+    ],
+    "flagged": true,
+    "note": "Professions as fields (medicine, aviation, fire service, gastronomy) because Polish job nouns are gendered (lekarz/lekarka). Please check it still reads naturally."
+  },
+  "dd7a8cb2-3e0a-4167-b573-0feea5f6b4ee": {
+    "en": "Which piercing on someone does {{playerName}} find hottest?",
+    "text": "Jaki piercing u kogoś {{playerName}} uważa za najseksowniejszy?",
+    "answers": [
+      "W uchu",
+      "W nosie",
+      "W wardze",
+      "Żaden"
+    ]
+  },
+  "2fd6a59e-72ba-4ff9-8feb-361bc39f3cb4": {
+    "en": "Which skill on someone does {{playerName}} find hottest?",
+    "text": "Jaką umiejętność u kogoś {{playerName}} uważa za najseksowniejszą?",
+    "answers": [
+      "Gra na gitarze",
+      "Talent do gotowania",
+      "Talent do tańca",
+      "Znajomość obcego języka"
+    ]
+  },
+  "e5f4e852-e15d-471e-abc5-4c38cc69e9ec": {
+    "en": "Which little feature on someone does {{playerName}} find cutest?",
+    "text": "Jaki drobny szczegół u kogoś {{playerName}} uważa za najsłodszy?",
+    "answers": [
+      "Piegi",
+      "Dołeczki",
+      "Długie rzęsy",
+      "Przerwa między zębami"
+    ]
+  },
+  "1fcbc4d3-9d36-4780-8e17-806a5eff3369": {
+    "en": "Which body type does {{playerName}} find most attractive?",
+    "text": "Jaką sylwetkę {{playerName}} uważa za najbardziej pociągającą?",
+    "answers": [
+      "Wysportowana",
+      "Szczupła",
+      "Umięśniona",
+      "Miękka, do przytulania"
+    ]
+  },
+  "3d2b3db6-0219-4cf1-9d6d-4f31684ea5e8": {
+    "en": "Which ride would make someone more attractive to {{playerName}}?",
+    "text": "Jaki pojazd u kogoś {{playerName}} uważa za największy atut?",
+    "answers": [
+      "Klasyczne auto",
+      "Sportowe auto",
+      "Motocykl",
+      "Kompletnie bez znaczenia"
+    ]
+  },
+  "7d10c4cc-934e-4c78-83dc-e7675b0c1ec0": {
+    "en": "Which zodiac element does {{playerName}} find most attractive?",
+    "text": "Które znaki zodiaku {{playerName}} uważa za najbardziej pociągające?",
+    "answers": [
+      "Znaki ognia",
+      "Znaki ziemi",
+      "Znaki powietrza",
+      "Znaki wody",
+      "Kompletnie bez znaczenia"
+    ]
+  },
+  "f454ad94-c43b-4a6b-9340-e41b1ded7a80": {
+    "en": "What kind of social media presence does {{playerName}} find most attractive?",
+    "text": "Jaką aktywność w social mediach u kogoś {{playerName}} uważa za najbardziej pociągającą?",
+    "answers": [
+      "Dużo postów",
+      "Prywatne konto",
+      "Rzadkie posty",
+      "Zero social mediów"
+    ]
+  },
+  "dcd3d4f4-f480-4ff0-b69b-af1f8b10c105": {
+    "en": "What kind of hands does {{playerName}} find most attractive?",
+    "text": "Jakie dłonie {{playerName}} uważa za najbardziej pociągające?",
+    "answers": [
+      "Duże dłonie",
+      "Miękkie dłonie",
+      "Dłonie z widocznymi żyłkami",
+      "Długie palce",
+      "Nie zwraca uwagi na dłonie"
+    ]
+  },
+  "44fffff9-e2b0-4e15-b91b-0eb866a37114": {
+    "en": "What kind of humor on someone does {{playerName}} find most attractive?",
+    "text": "Jakie poczucie humoru u kogoś {{playerName}} uważa za najbardziej pociągające?",
+    "answers": [
+      "Sarkastyczne",
+      "Głupkowate",
+      "Z kamienną twarzą",
+      "Czarne",
+      "Ciepłe i niewinne"
+    ]
+  },
+  "3f4de5c5-8d26-4746-af84-d4886575c2c3": {
+    "en": "How does {{playerName}} feel about someone who's really into fitness?",
+    "text": "Co {{playerName}} sądzi o kimś, kto żyje siłownią?",
+    "answers": [
+      "Ogromny plus",
+      "Fajnie, ale niekonieczne",
+      "Raczej odstrasza"
+    ]
+  },
+  "97a9c1dd-266d-442a-b459-db1ac587aed5": {
+    "en": "How tidy does someone need to be for {{playerName}} to find them attractive?",
+    "text": "Jakiego porządku {{playerName}} oczekuje od kogoś, kto ma się podobać?",
+    "answers": [
+      "Wszystko ma lśnić",
+      "Rozsądny porządek",
+      "Bałagan nie przeszkadza"
+    ]
+  },
+  "c90f6f30-b874-47d1-b68b-7e77d055b747": {
+    "en": "How does {{playerName}} feel about someone with a huge friend group?",
+    "text": "Co {{playerName}} sądzi o kimś z ogromną paczką znajomych?",
+    "answers": [
+      "Uważa to za plus",
+      "Bez różnicy",
+      "Woli wąskie grono"
+    ]
+  },
+  "549ec369-ee49-4656-adf4-6465987bcc3d": {
+    "en": "How does {{playerName}} feel about someone who's still friends with their ex?",
+    "text": "Co {{playerName}} sądzi o kimś, kto wciąż przyjaźni się z ex?",
+    "answers": [
+      "Żaden problem",
+      "Zależy od osoby",
+      "Wykluczone"
+    ]
+  },
+  "cbd96d73-a197-449c-9bfa-e6646c6151f6": {
+    "en": "How does {{playerName}} feel about someone who makes the first move?",
+    "text": "Co {{playerName}} sądzi o kimś, kto robi pierwszy krok?",
+    "answers": [
+      "Ogromny plus",
+      "Miło",
+      "Woli przejąć inicjatywę"
+    ]
+  },
+  "f55c2d09-b0cc-4a36-af77-1fa6cace237a": {
+    "en": "How does {{playerName}} feel about sharing phone passwords with a partner?",
+    "text": "Co {{playerName}} sądzi o dzieleniu się hasłami do telefonu z drugą połówką?",
+    "answers": [
+      "Ceni takie zaufanie",
+      "Tak czy siak OK",
+      "Potrzebuje prywatności"
+    ]
+  },
+  "f11bae34-c304-42a5-825d-b0680937d30a": {
+    "en": "How does {{playerName}} feel about someone who texts all day long?",
+    "text": "Co {{playerName}} sądzi o kimś, kto pisze cały dzień?",
+    "answers": [
+      "Uwielbia to",
+      "Kilka razy dziennie wystarczy",
+      "Zbyt nachalne"
+    ]
+  },
+  "30b5a4b1-c0ac-4d99-9f38-c00d848f5f4b": {
+    "en": "How does {{playerName}} feel about a partner who wants to spend every free moment together?",
+    "text": "Co {{playerName}} sądzi o połówce, która chce spędzać razem każdą wolną chwilę?",
+    "answers": [
+      "Uwielbia to",
+      "Potrzebuje też czasu dla siebie",
+      "To już za dużo"
+    ]
+  },
+  "3f92749d-64b0-4c89-9f3e-bf2cd0c77507": {
+    "en": "How does {{playerName}} feel about someone who says \"I love you\" very early?",
+    "text": "Co {{playerName}} sądzi o kimś, kto już na początku mówi „kocham cię”?",
+    "answers": [
+      "To urocze",
+      "Za szybko",
+      "Czerwona flaga"
+    ]
+  },
+  "e730a2da-4ace-47c7-b3c3-4f59f76edfd0": {
+    "en": "How does {{playerName}} feel about someone who goes out partying every weekend?",
+    "text": "Co {{playerName}} sądzi o kimś, kto imprezuje co weekend?",
+    "answers": [
+      "Super, chętnie dołącza",
+      "Od czasu do czasu OK",
+      "Nie ten typ",
+      "Wykluczone"
+    ]
+  },
+  "8e724ce7-d131-4821-903b-70bc0cf1b935": {
+    "en": "How does {{playerName}} feel about a long-distance relationship?",
+    "text": "Co {{playerName}} sądzi o związku na odległość?",
+    "answers": [
+      "Spokojnie da radę",
+      "Tylko na krótko",
+      "Nigdy"
+    ]
+  },
+  "b7b57f9f-d72e-4537-9146-ca94491221c1": {
+    "en": "How does {{playerName}} feel about long hugs?",
+    "text": "Co {{playerName}} sądzi o długich przytulasach?",
+    "answers": [
+      "Im dłużej, tym lepiej",
+      "Kilka sekund wystarczy",
+      "Nie przepada za przytulaniem"
+    ]
+  },
+  "75e4151b-0b3a-442d-870f-36fce120c053": {
+    "en": "How does {{playerName}} feel about falling asleep on a video call?",
+    "text": "Co {{playerName}} sądzi o zasypianiu podczas wideorozmowy?",
+    "answers": [
+      "Uwielbia to",
+      "Tylko gdy jesteście osobno",
+      "Uważa to za dziwne"
+    ]
+  },
+  "ad6c46b6-c615-4dca-a1d2-b9a95e92638c": {
+    "en": "How does {{playerName}} feel about celebrating monthly anniversaries?",
+    "text": "Co {{playerName}} sądzi o świętowaniu miesięcznic?",
+    "answers": [
+      "Świętuje co miesiąc",
+      "Tylko raz w roku",
+      "Nie pilnuje dat"
+    ]
+  },
+  "7d3785ce-afa5-43e8-b150-57d16a20c299": {
+    "en": "Which song does {{playerName}} think of as \"your song\"?",
+    "text": "Którą piosenkę {{playerName}} uważa za „waszą”?"
+  },
+  "efd278ae-b799-4742-915c-89349777f4bf": {
+    "en": "How does {{playerName}} like to hold hands?",
+    "text": "Jak {{playerName}} lubi trzymać się za ręce?",
+    "answers": [
+      "Palce splecione",
+      "Dłoń w dłoń",
+      "Tylko małymi palcami",
+      "Ręka w twojej tylnej kieszeni"
+    ]
+  },
+  "7d25b7f5-1dc6-43d6-af4b-e31f6e0a738c": {
+    "en": "How does {{playerName}} feel about sharing food from the same plate?",
+    "text": "Co {{playerName}} sądzi o jedzeniu z jednego talerza?",
+    "answers": [
+      "Uwielbia to",
+      "Tylko deser",
+      "Swój talerz to świętość"
+    ]
+  },
+  "ee007826-9eef-4d45-8c67-98923cf0b413": {
+    "en": "What's {{playerName}}'s favorite date spot in your city?",
+    "text": "Gdzie w waszym mieście {{playerName}} najchętniej chodzi na randki?"
+  },
+  "9587900b-e8e3-414d-9ef0-199ab00dac18": {
+    "en": "How does {{playerName}} feel about saying goodnight before bed, even when you're apart?",
+    "text": "Co {{playerName}} sądzi o mówieniu „dobranoc” przed snem, nawet na odległość?",
+    "answers": [
+      "Nigdy nie odpuszcza",
+      "Prawie zawsze",
+      "Nie przywiązuje do tego wagi"
+    ]
+  },
+  "258de284-fd20-452c-b8c4-c119ee242b8e": {
+    "en": "How does {{playerName}} feel about making playlists for someone they love?",
+    "text": "Co {{playerName}} sądzi o robieniu playlist dla ukochanej osoby?",
+    "answers": [
+      "Robi je ciągle",
+      "Od czasu do czasu",
+      "Nie przepada za tym"
+    ]
+  },
+  "36ee3456-2eb7-422c-92d5-f661f5891af0": {
+    "en": "How long can {{playerName}} go without seeing you before they start missing you?",
+    "text": "Po jakim czasie bez ciebie {{playerName}} zaczyna tęsknić?",
+    "answers": [
+      "Po kilku godzinach",
+      "Po jednym dniu",
+      "Po kilku dniach",
+      "Po tygodniu lub dłużej"
+    ]
+  },
+  "fbc96261-3273-4853-806b-93ec3437cd96": {
+    "en": "How does {{playerName}} feel about meeting a partner's family early on?",
+    "text": "Co {{playerName}} sądzi o poznawaniu rodziny drugiej połówki już na początku?",
+    "answers": [
+      "Uwielbia ten pomysł",
+      "Stresuje się, ale chętnie",
+      "Woli poczekać"
+    ]
+  },
+  "45b5ba6f-ee49-41d7-a447-cefef0f65c9c": {
+    "en": "How often does {{playerName}} send \"I miss you\" texts?",
+    "text": "Jak często {{playerName}} pisze „tęsknię za tobą”?",
+    "answers": [
+      "Ciągle",
+      "Dopiero po dłuższej rozłące",
+      "Rzadko, okazuje to inaczej"
+    ]
+  },
+  "0e8861dc-f445-40dc-acd8-39b6825d2abf": {
+    "en": "When you're in the car together, does {{playerName}} like holding hands?",
+    "text": "Czy {{playerName}} lubi trzymać cię za rękę, gdy jedziecie razem autem?",
+    "answers": [
+      "Zawsze",
+      "Czasami",
+      "Potrzebuje obu rąk"
+    ]
+  },
+  "95324c07-425a-4d15-9ce4-80159e7e681d": {
+    "en": "What's {{playerName}}'s favorite gift they've ever gotten from you?",
+    "text": "Jaki prezent od ciebie {{playerName}} lubi najbardziej?"
+  },
+  "4f5b2363-db4a-45ac-b84e-c456394f226d": {
+    "en": "How does {{playerName}} feel about cooking together?",
+    "text": "Co {{playerName}} sądzi o wspólnym gotowaniu?",
+    "answers": [
+      "Uwielbia",
+      "Jedno gotuje, drugie pomaga",
+      "Za duży chaos"
+    ]
+  },
+  "bb99cfdc-a916-42ae-9584-c8efc29f4784": {
+    "en": "What's {{playerName}}'s favorite memory with you?",
+    "text": "Jakie wspólne wspomnienie {{playerName}} ceni najbardziej?"
+  },
+  "20c3fd78-4175-4c32-9545-a4c74b10856f": {
+    "en": "What nickname would {{playerName}} love you to call them?",
+    "text": "Jakie czułe przezwisko {{playerName}} chce od ciebie słyszeć?"
+  },
+  "ee761baa-8a83-4e12-ad9e-9b93262037ee": {
+    "en": "How does {{playerName}} feel about inside jokes with a partner?",
+    "text": "Co {{playerName}} sądzi o prywatnych żartach we dwoje?",
+    "answers": [
+      "Żyje nimi",
+      "Ma kilka ulubionych",
+      "Raczej nie przepada"
+    ]
+  },
+  "c0b28a60-af14-4d78-bf1c-71b01b6e9781": {
+    "en": "How does {{playerName}} feel about long walks together?",
+    "text": "Co {{playerName}} sądzi o długich wspólnych spacerach?",
+    "answers": [
+      "Ulubiony rodzaj randki",
+      "Miłe od czasu do czasu",
+      "Woli gdzieś usiąść"
+    ]
+  },
+  "c0bd510b-8853-40c8-954c-5da8d83539e8": {
+    "en": "How does {{playerName}} react when you sing to them?",
+    "text": "Jak {{playerName}} reaguje na twoje serenady?",
+    "answers": [
+      "Rozpływa się",
+      "Śmieje się",
+      "Śpiewa z tobą",
+      "Prosi o ciszę"
+    ]
+  },
+  "ed027bd1-f69f-478f-bee8-0a9228254da7": {
+    "en": "When {{playerName}} sees something that reminds them of you, what do they do?",
+    "text": "Co {{playerName}} robi, gdy widzi coś, co kojarzy się z tobą?",
+    "answers": [
+      "Wysyła ci zdjęcie",
+      "Kupuje ci to",
+      "Mówi ci o tym później",
+      "Uśmiecha się pod nosem"
+    ]
+  },
+  "028beae9-fde3-42a9-a054-07a4dbbabcb0": {
+    "en": "How does {{playerName}} feel about road trips together?",
+    "text": "Co {{playerName}} sądzi o wspólnych podróżach autem?",
+    "answers": [
+      "Ulubiony sposób podróżowania",
+      "Tylko krótkie",
+      "Woli samolot"
+    ]
+  },
+  "b4a70fed-3cd4-4e55-9e22-97b5562bce50": {
+    "en": "How does {{playerName}} feel about watching the sunset together?",
+    "text": "Co {{playerName}} sądzi o wspólnym oglądaniu zachodu słońca?",
+    "answers": [
+      "Za każdym razem się rozpływa",
+      "Miłe od czasu do czasu",
+      "Nie rozumie zachwytów"
+    ]
+  },
+  "cf5d6a6f-6357-4012-8fb4-140bc2c4f96c": {
+    "en": "When you're apart, how does {{playerName}} usually stay in touch?",
+    "text": "Gdy jesteście osobno, jak {{playerName}} zwykle utrzymuje kontakt?",
+    "answers": [
+      "Rozmowy telefoniczne",
+      "Wiadomości przez cały dzień",
+      "Wiadomości głosowe",
+      "Wideorozmowy"
+    ]
+  },
+  "c3c74699-6d51-40f8-9586-75b6e70eeeed": {
+    "en": "After a fight, how quickly does {{playerName}} say sorry?",
+    "text": "Jak szybko {{playerName}} przeprasza po kłótni?",
+    "answers": [
+      "Od razu",
+      "Gdy emocje opadną",
+      "Czeka, aż ty zrobisz pierwszy krok"
+    ]
+  },
+  "d35c16f5-47c4-4441-9e0c-7e6302acbb98": {
+    "en": "How does {{playerName}} feel about giving massages?",
+    "text": "Co {{playerName}} sądzi o robieniu masażu?",
+    "answers": [
+      "Uwielbia masować",
+      "Tylko jeśli poprosisz",
+      "Woli dostawać masaż"
+    ]
+  },
+  "5e74dced-4bfb-4b03-9528-d54ad42f4037": {
+    "en": "How would {{playerName}} feel about taking dance classes together?",
+    "text": "Co {{playerName}} powie na wspólny kurs tańca?",
+    "answers": [
+      "Chętnie!",
+      "Może raz, dla zabawy",
+      "Nie ma mowy"
+    ]
+  },
+  "512d800b-d7ff-4309-8b5d-70f4d0db6e8c": {
+    "en": "How does {{playerName}} feel about adopting a pet together?",
+    "text": "Co {{playerName}} sądzi o wspólnej adopcji zwierzaka?",
+    "answers": [
+      "Choćby od razu",
+      "Kiedyś",
+      "Nie ma ochoty"
+    ]
+  },
+  "3db5b1ff-4d70-4d69-808a-27382595baa1": {
+    "en": "When you're sick, what does {{playerName}} do?",
+    "text": "Co robi {{playerName}}, gdy chorujesz?",
+    "answers": [
+      "Zajmuje się wszystkim",
+      "Przynosi rosół i dopytuje",
+      "Pisze, ale trzyma dystans",
+      "Panikuje"
+    ]
+  },
+  "92a22485-f820-45d0-83e4-ab79238d7d89": {
+    "en": "How does {{playerName}} feel about Valentine's Day?",
+    "text": "Co {{playerName}} sądzi o walentynkach?",
+    "answers": [
+      "Szaleje na całego",
+      "Wystarczy mały gest",
+      "Uważa, że to tylko marketing"
+    ]
+  },
+  "bf48ba1b-6bbd-4024-b2e5-b85cc5b82fb2": {
+    "en": "How does {{playerName}} feel about you taking photos of them?",
+    "text": "{{playerName}} przed twoim obiektywem – jak reaguje?",
+    "answers": [
+      "Uwielbia pozować",
+      "Tylko z dobrej strony",
+      "Zasłania twarz"
+    ]
+  },
+  "a323a07a-bf57-46e6-962f-73895cc7fbdb": {
+    "en": "Which chore does {{playerName}} happily do for you?",
+    "text": "Jaki domowy obowiązek {{playerName}} chętnie robi dla ciebie?",
+    "answers": [
+      "Gotowanie",
+      "Zmywanie",
+      "Pranie",
+      "Zakupy spożywcze",
+      "Żaden, nie ma tak dobrze"
+    ]
+  },
+  "4dbcf0c0-3b53-423d-b632-ac62285221f1": {
+    "en": "How would {{playerName}} love to spend New Year's Eve with you?",
+    "text": "Jak {{playerName}} chce spędzić z tobą sylwestra?",
+    "answers": [
+      "Na wielkiej imprezie",
+      "Tylko we dwoje",
+      "Z rodziną",
+      "Przesypiając północ"
+    ]
+  },
+  "c718c4f9-d752-4afd-8f09-36e6ce0ffee9": {
+    "en": "How does {{playerName}} like to fall asleep next to you?",
+    "text": "Jak {{playerName}} lubi zasypiać obok ciebie?",
+    "answers": [
+      "Z głową na twojej piersi",
+      "Trzymając cię za rękę",
+      "Ze splecionymi nogami",
+      "Plecami do pleców"
+    ]
+  },
+  "8616c7c3-6247-4327-bff2-b82c78533937": {
+    "en": "How does {{playerName}} feel about flirting with you in front of others?",
+    "text": "Co {{playerName}} sądzi o flirtowaniu z tobą przy innych?",
+    "answers": [
+      "Uwielbia ten dreszczyk",
+      "Tylko subtelnie",
+      "Zostawia to na chwile sam na sam"
+    ]
+  },
+  "a17464b3-ef66-4fd0-9c8f-959c10c51527": {
+    "en": "How does {{playerName}} feel about cuddling when it's hot outside?",
+    "text": "Co {{playerName}} sądzi o przytulaniu się w upał?",
+    "answers": [
+      "Zawsze, upał czy nie",
+      "Tylko przy klimatyzacji",
+      "Nie dotykać aż do zimy"
+    ]
+  },
+  "d40fcdb4-c134-4918-8387-b0fd0ce59b60": {
+    "en": "How long does {{playerName}} like a morning cuddle to last?",
+    "text": "Jak długo {{playerName}} lubi się rano przytulać?",
+    "answers": [
+      "Chwilkę",
+      "Jakieś 5 minut",
+      "Może tak cały ranek",
+      "Rano nie lubi się tulić"
+    ]
+  },
+  "fb287bfb-df5f-4bef-b15f-867244572371": {
+    "en": "How does {{playerName}} feel about playing footsie under the table?",
+    "text": "Co {{playerName}} sądzi o flirtowaniu stopami pod stołem?",
+    "answers": [
+      "Uwielbia",
+      "Śmieje się i odwzajemnia",
+      "Cofa stopy"
+    ]
+  },
+  "271796d1-b618-46f6-89cf-72c719b420b3": {
+    "en": "How does {{playerName}} feel about cuddling during a movie?",
+    "text": "Co {{playerName}} sądzi o przytulaniu się podczas filmu?",
+    "answers": [
+      "Cały film",
+      "Dopóki film się nie rozkręci",
+      "Potrzebuje swojej przestrzeni"
+    ]
+  },
+  "bacfd5fb-ef55-4144-ad17-e9dc138e5715": {
+    "en": "When you're cold, what does {{playerName}} do?",
+    "text": "Co robi {{playerName}}, gdy jest ci zimno?",
+    "answers": [
+      "Daje ci swoją kurtkę",
+      "Mocno cię przytula",
+      "Mówi: „Trzeba było się ubrać”",
+      "Podkręca ogrzewanie"
+    ]
+  },
+  "68d163d4-311c-4df9-9ddb-fb626513290f": {
+    "en": "How does {{playerName}} feel about cuddling in public, like on a park bench?",
+    "text": "Co {{playerName}} sądzi o przytulaniu się publicznie, np. na ławce w parku?",
+    "answers": [
+      "Uwielbia",
+      "Trochę może być",
+      "Tylko w domu"
+    ]
+  },
+  "1a7c65d8-abac-4ab0-a252-46030a85e57c": {
+    "en": "How does {{playerName}} feel about you drawing on their back with your finger?",
+    "text": "Co {{playerName}} sądzi o rysowaniu palcem po plecach?",
+    "answers": [
+      "Uwielbia",
+      "Ma za duże łaskotki",
+      "Od razu zasypia",
+      "Próbuje zgadnąć kształt"
+    ]
+  },
+  "fbe5d714-2a14-48f2-acf5-408782341481": {
+    "en": "How does {{playerName}} feel about piggyback rides?",
+    "text": "Co {{playerName}} sądzi o noszeniu na barana?",
+    "answers": [
+      "Uwielbia",
+      "Tylko ze zmęczenia",
+      "Woli nosić",
+      "Czuje się głupio"
+    ]
+  },
+  "dfc86686-6866-4a23-bb37-353ad50677da": {
+    "en": "On a long bus or plane ride, does {{playerName}} fall asleep on your shoulder?",
+    "text": "Czy w długiej podróży autobusem lub samolotem {{playerName}} zasypia ci na ramieniu?",
+    "answers": [
+      "Za każdym razem",
+      "Tylko gdy pada ze zmęczenia",
+      "Nie umie tak spać",
+      "Raczej odwrotnie"
+    ]
+  },
+  "cf9a252d-ee3b-45ca-a038-a95babace7fd": {
+    "en": "In bed, does {{playerName}} put their cold feet on you?",
+    "text": "Czy {{playerName}} grzeje w łóżku zimne stopy o ciebie?",
+    "answers": [
+      "Co noc",
+      "Czasem, specjalnie",
+      "Nigdy, stopy ma zawsze ciepłe"
+    ]
+  },
+  "584ad277-5458-4583-bae7-761f728440fa": {
+    "en": "Does {{playerName}} steal the blanket at night?",
+    "text": "Czy {{playerName}} kradnie w nocy kołdrę?",
+    "answers": [
+      "Co noc",
+      "Czasami",
+      "Nigdy, dzieli się uczciwie",
+      "To ty kradniesz"
+    ]
+  },
+  "fb34cc17-6029-405b-a37e-1aa9e01a2538": {
+    "en": "How does {{playerName}} feel about being tickled?",
+    "text": "Co {{playerName}} sądzi o łaskotkach?",
+    "answers": [
+      "Uwielbia",
+      "Śmieje się, ale nie znosi",
+      "Surowo zakazane"
+    ]
+  },
+  "566c4ec7-94ab-414f-8453-eb373885d216": {
+    "en": "How does {{playerName}} feel about you resting your head on their lap?",
+    "text": "Jak {{playerName}} reaguje, gdy kładziesz się z głową na kolanach?",
+    "answers": [
+      "Uwielbia, bawi się twoimi włosami",
+      "Na chwilę może być",
+      "Zaraz drętwieje noga"
+    ]
+  },
+  "71c91998-41c8-4284-a017-f23bcfca973f": {
+    "en": "At night in bed, how much does {{playerName}} talk before falling asleep?",
+    "text": "Ile {{playerName}} mówi w łóżku przed zaśnięciem?",
+    "answers": [
+      "Gada, aż zaśnie",
+      "Kilka słów i śpi",
+      "Zasypia w sekundę"
+    ]
+  },
+  "186e2323-e74d-4a2c-a97a-c096f09fbf6a": {
+    "en": "How does {{playerName}} feel about sharing earbuds with you?",
+    "text": "Co {{playerName}} sądzi o dzieleniu się z tobą słuchawkami?",
+    "answers": [
+      "Uwielbia",
+      "Tylko na jedną piosenkę",
+      "Potrzebuje obu uszu"
+    ]
+  },
+  "b5b7464c-ed09-41e5-af07-89584a8accc4": {
+    "en": "At what age would {{playerName}} like to get married? Write never if they don't want to.",
+    "text": "W jakim wieku {{playerName}} chce wziąć ślub? Jeśli nie chce, wpisz „nigdy”."
+  },
+  "1fa6303e-48c2-49b7-bde8-31a1ffd430c6": {
+    "en": "What kind of wedding does {{playerName}} dream of?",
+    "text": "O jakim ślubie {{playerName}} marzy?",
+    "answers": [
+      "Wielka impreza",
+      "Kameralnie, w małym gronie",
+      "Ślub za granicą",
+      "Tylko urząd, bez wesela"
+    ]
+  },
+  "03b62bf8-cd94-4d6c-9cf5-768f6416b7d0": {
+    "en": "Who was {{playerName}}'s first celebrity crush as a kid?",
+    "text": "{{playerName}} – pierwsze dziecięce zauroczenie gwiazdą: kto to?"
+  },
+  "6b73c5ca-feb7-4d89-89d3-30030e67b220": {
+    "en": "Where would {{playerName}} love to be proposed to?",
+    "text": "Gdzie {{playerName}} chce usłyszeć oświadczyny?",
+    "answers": [
+      "Na plaży o zachodzie słońca",
+      "W domu, tylko we dwoje",
+      "Przy rodzinie i przyjaciołach",
+      "W eleganckiej restauracji"
+    ]
+  },
+  "1cf60842-17a0-46b3-95ff-5b7741f37888": {
+    "en": "Which song would {{playerName}} want for their wedding's first dance?",
+    "text": "Do jakiej piosenki {{playerName}} chce zatańczyć pierwszy taniec na weselu?"
+  },
+  "719aeb6d-792f-4a87-9a22-2edb862bd44f": {
+    "en": "How long does {{playerName}} think a couple should date before getting engaged?",
+    "text": "{{playerName}}: jak długo para powinna być razem przed zaręczynami?",
+    "answers": [
+      "Mniej niż rok",
+      "1–2 lata",
+      "3–5 lat",
+      "Bez pośpiechu"
+    ]
+  },
+  "9e57117a-0fa1-4441-bb07-f7881ddab173": {
+    "en": "How many dates does {{playerName}} think should come before a first kiss?",
+    "text": "{{playerName}}: ile randek przed pierwszym pocałunkiem?",
+    "answers": [
+      "Pierwsza randka wystarczy",
+      "2–3 randki",
+      "4 lub więcej",
+      "Nie ma zasad"
+    ]
+  },
+  "0bee78f3-1f8e-4cd0-9f87-7935107663c0": {
+    "en": "What kind of honeymoon would {{playerName}} pick?",
+    "text": "Jaki miesiąc miodowy wybierze {{playerName}}?",
+    "answers": [
+      "Plaża i relaks",
+      "Zwiedzanie miast",
+      "Przygoda i natura",
+      "Podróż autem"
+    ]
+  },
+  "89123ef6-61e1-4291-b833-98c7ed6aecac": {
+    "en": "What name would {{playerName}} love to give their first child? Write none if they don't want kids.",
+    "text": "Jakie imię {{playerName}} chce dać pierwszemu dziecku? Jeśli nie chce dzieci, wpisz „brak”."
+  },
+  "5b678108-1630-4c12-bb6b-5119b1aeb2fd": {
+    "en": "How does {{playerName}} feel about living together before marriage?",
+    "text": "Co {{playerName}} sądzi o mieszkaniu razem przed ślubem?",
+    "answers": [
+      "Obowiązkowo",
+      "Bez różnicy",
+      "Dopiero po ślubie"
+    ]
+  },
+  "b896a88c-c43f-4e58-a4dd-62b9ff025423": {
+    "en": "How does {{playerName}} feel about a joint bank account as a couple?",
+    "text": "Co {{playerName}} sądzi o wspólnym koncie w związku?",
+    "answers": [
+      "Wszystko wspólne",
+      "Wspólne plus własne",
+      "Całkiem osobno"
+    ]
+  },
+  "8c91b4ee-f250-479d-89f3-702b3b70832a": {
+    "en": "What's {{playerName}}'s biggest deal-breaker in a relationship?",
+    "text": "Czego {{playerName}} nigdy nie wybaczy w związku?",
+    "answers": [
+      "Kłamstwa",
+      "Zazdrości",
+      "Braku szacunku",
+      "Lenistwa"
+    ]
+  },
+  "18918be4-6dab-4039-8c8e-c37d9d78b77a": {
+    "en": "How does {{playerName}} feel about couples therapy?",
+    "text": "Co {{playerName}} sądzi o terapii dla par?",
+    "answers": [
+      "Świetny pomysł, zawsze",
+      "Tylko gdy jest problem",
+      "Nie widzi sensu"
+    ]
+  },
+  "c39bcbdd-6bd3-4ed5-9581-aa4d3af4a8d0": {
+    "en": "How does {{playerName}} feel about couples sleeping in separate beds?",
+    "text": "Co {{playerName}} sądzi o spaniu par w osobnych łóżkach?",
+    "answers": [
+      "Nigdy",
+      "Tylko gdy ktoś chrapie",
+      "Szczerze? Brzmi świetnie"
+    ]
+  },
+  "11881fa3-028b-4408-9923-3390338938f0": {
+    "en": "How does {{playerName}} feel about having kids someday?",
+    "text": "Co {{playerName}} sądzi o dzieciach w przyszłości?",
+    "answers": [
+      "Na pewno chce",
+      "Może, jeszcze nie wie",
+      "Nie chce dzieci"
+    ]
+  },
+  "a3878ad1-c0c8-4f1f-ab15-f155b987909a": {
+    "en": "How would {{playerName}} feel if their partner earned a lot more than them?",
+    "text": "Jak {{playerName}} się poczuje, jeśli druga połówka będzie zarabiać dużo więcej?",
+    "answers": [
+      "Żaden problem",
+      "Trochę dziwnie",
+      "Woli, żeby było odwrotnie"
+    ]
+  },
+  "c0cd1b97-f84d-47c8-9376-bf3c4b3996d6": {
+    "en": "After marriage, how close does {{playerName}} want to live to their parents?",
+    "text": "Jak blisko rodziców {{playerName}} chce mieszkać po ślubie?",
+    "answers": [
+      "Jak najbliżej",
+      "Wystarczy to samo miasto",
+      "Im dalej, tym lepiej"
+    ]
+  },
+  "74705d76-6191-4da0-b08a-ea2ece7fc561": {
+    "en": "What does {{playerName}} find more romantic?",
+    "text": "Co {{playerName}} uważa za bardziej romantyczne?",
+    "answers": [
+      "Wielkie gesty",
+      "Drobiazgi na co dzień",
+      "Jedno i drugie"
+    ]
+  },
+  "3eee6ce7-38c2-40e7-98fc-ab036b372c3a": {
+    "en": "How long does it take {{playerName}} to get affectionate with someone new?",
+    "text": "Po jakim czasie {{playerName}} zaczyna okazywać czułość nowej osobie?",
+    "answers": [
+      "Od razu",
+      "Po kilku randkach",
+      "Po kilku tygodniach",
+      "Po miesiącach"
+    ]
+  },
+  "78cf8a3c-1a27-457b-b826-e87c9249632f": {
+    "en": "What does {{playerName}} love most about being in love?",
+    "text": "Co {{playerName}} najbardziej uwielbia w zakochaniu?",
+    "answers": [
+      "Motyle w brzuchu",
+      "Poczucie bezpieczeństwa",
+      "Wspólne szaleństwa",
+      "Fizyczną bliskość"
+    ]
+  },
+  "418127a7-370d-4e07-b2ea-58268797c159": {
+    "en": "Which setting feels most romantic to {{playerName}}?",
+    "text": "{{playerName}}: najbardziej romantyczna sceneria?",
+    "answers": [
+      "Blask świec",
+      "Rozgwieżdżone niebo",
+      "Deszcz za oknem",
+      "Ogień w kominku"
+    ]
+  },
+  "23de8a5f-4637-4904-a694-503d2956f946": {
+    "en": "How does {{playerName}} most like to receive love?",
+    "text": "Jaki przejaw miłości {{playerName}} ceni najbardziej?",
+    "answers": [
+      "Czułe słowa",
+      "Dotyk",
+      "Drobne prezenty",
+      "Wspólny czas",
+      "Pomoc w codziennych sprawach"
+    ]
+  },
+  "f2241fe7-454d-4bad-85d1-93605b59514c": {
+    "en": "What's {{playerName}}'s favorite kind of date?",
+    "text": "Jaki rodzaj randki {{playerName}} lubi najbardziej?",
+    "answers": [
+      "Dobra kolacja",
+      "Coś z adrenaliną",
+      "Przytulny wieczór w domu",
+      "Koncert lub spektakl"
+    ]
+  },
+  "1d4ceb01-3f65-4edf-84de-10da86582aa0": {
+    "en": "Which romantic cliché does {{playerName}} secretly love?",
+    "text": "Jaki romantyczny banał {{playerName}} po cichu uwielbia?",
+    "answers": [
+      "Płatki róż wszędzie",
+      "Serenada z zaskoczenia",
+      "Śniadanie do łóżka",
+      "List miłosny"
+    ]
+  }
+}

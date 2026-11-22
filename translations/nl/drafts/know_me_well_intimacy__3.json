@@ -1,0 +1,728 @@
+{
+ "258de284-fd20-452c-b8c4-c119ee242b8e": {
+  "text": "Hoe staat {{playerName}} tegenover een playlist maken voor een geliefde?",
+  "answers": [
+   "Doet het voortdurend",
+   "Af en toe",
+   "Niet echt een fan"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "36ee3456-2eb7-422c-92d5-f661f5891af0": {
+  "text": "Na hoelang zonder jou begint {{playerName}} je te missen?",
+  "answers": [
+   "Een paar uur",
+   "Een dag",
+   "Een paar dagen",
+   "Een week of langer"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fbc96261-3273-4853-806b-93ec3437cd96": {
+  "text": "Hoe staat {{playerName}} tegenover vroeg kennismaken met de familie van een partner?",
+  "answers": [
+   "Vindt het een leuk idee",
+   "Zenuwachtig, maar doet het",
+   "Wacht liever even"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "45b5ba6f-ee49-41d7-a447-cefef0f65c9c": {
+  "text": "Hoe vaak stuurt {{playerName}} een “ik mis je”-berichtje?",
+  "answers": [
+   "De hele tijd",
+   "Pas na een tijdje apart",
+   "Zelden, laat het anders merken"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0e8861dc-f445-40dc-acd8-39b6825d2abf": {
+  "text": "Houdt {{playerName}} graag je hand vast als jullie samen in de auto zitten?",
+  "answers": [
+   "Altijd",
+   "Soms",
+   "Heeft beide handen nodig"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "95324c07-425a-4d15-9ce4-80159e7e681d": {
+  "text": "Wat is het leukste cadeau dat {{playerName}} ooit van jou kreeg?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4f5b2363-db4a-45ac-b84e-c456394f226d": {
+  "text": "Hoe staat {{playerName}} tegenover samen koken?",
+  "answers": [
+   "Vindt het heerlijk",
+   "De een kookt, de ander helpt",
+   "Te chaotisch"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bb99cfdc-a916-42ae-9584-c8efc29f4784": {
+  "text": "Wat is de mooiste herinnering van {{playerName}} aan jullie samen?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "20c3fd78-4175-4c32-9545-a4c74b10856f": {
+  "text": "Met welk koosnaampje zou {{playerName}} graag door jou genoemd worden?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ee761baa-8a83-4e12-ad9e-9b93262037ee": {
+  "text": "Hoe denkt {{playerName}} over inside jokes met een partner?",
+  "answers": [
+   "Kan niet zonder",
+   "Heeft een paar favorieten",
+   "Niet echt een fan"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c0b28a60-af14-4d78-bf1c-71b01b6e9781": {
+  "text": "Hoe staat {{playerName}} tegenover lange wandelingen samen?",
+  "answers": [
+   "Favoriete soort date",
+   "Af en toe leuk",
+   "Zit liever ergens"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c0bd510b-8853-40c8-954c-5da8d83539e8": {
+  "text": "Je zingt een liedje voor {{playerName}}. Wat is de reactie?",
+  "answers": [
+   "Smelt",
+   "Moet lachen",
+   "Zingt mee",
+   "Vraagt je te stoppen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ed027bd1-f69f-478f-bee8-0a9228254da7": {
+  "text": "Wat doet {{playerName}} als iets aan jou doet denken?",
+  "answers": [
+   "Stuurt je een foto",
+   "Koopt het voor je",
+   "Vertelt het je later",
+   "Glimlacht stilletjes"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "028beae9-fde3-42a9-a054-07a4dbbabcb0": {
+  "text": "Hoe staat {{playerName}} tegenover samen een roadtrip maken?",
+  "answers": [
+   "Favoriete manier van reizen",
+   "Alleen korte",
+   "Vliegt liever"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b4a70fed-3cd4-4e55-9e22-97b5562bce50": {
+  "text": "Hoe staat {{playerName}} tegenover samen naar de zonsondergang kijken?",
+  "answers": [
+   "Smelt elke keer",
+   "Af en toe leuk",
+   "Snapt de hype niet"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cf5d6a6f-6357-4012-8fb4-140bc2c4f96c": {
+  "text": "Hoe houdt {{playerName}} meestal contact als jullie niet bij elkaar zijn?",
+  "answers": [
+   "Bellen",
+   "De hele dag appen",
+   "Spraakberichten",
+   "Videobellen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c3c74699-6d51-40f8-9586-75b6e70eeeed": {
+  "text": "Hoe snel zegt {{playerName}} sorry na een ruzie?",
+  "answers": [
+   "Meteen",
+   "Eerst even afkoelen",
+   "Wacht tot jij het eerst zegt"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d35c16f5-47c4-4441-9e0c-7e6302acbb98": {
+  "text": "Hoe staat {{playerName}} tegenover een massage geven?",
+  "answers": [
+   "Geeft er dolgraag een",
+   "Alleen als je erom vraagt",
+   "Krijgt er liever een"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5e74dced-4bfb-4b03-9528-d54ad42f4037": {
+  "text": "Hoe zou {{playerName}} het vinden om samen op dansles te gaan?",
+  "answers": [
+   "Zou het geweldig vinden",
+   "Eén keer, voor de lol",
+   "Echt niet"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "512d800b-d7ff-4309-8b5d-70f4d0db6e8c": {
+  "text": "Hoe staat {{playerName}} tegenover samen een huisdier nemen?",
+  "answers": [
+   "Is er nu al klaar voor",
+   "Ooit",
+   "Geen interesse"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3db5b1ff-4d70-4d69-808a-27382595baa1": {
+  "text": "Wat doet {{playerName}} als jij ziek bent?",
+  "answers": [
+   "Regelt alles",
+   "Brengt soep en checkt hoe het gaat",
+   "Appt vanaf een afstandje",
+   "Raakt in paniek"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "92a22485-f820-45d0-83e4-ab79238d7d89": {
+  "text": "Hoe denkt {{playerName}} over Valentijnsdag?",
+  "answers": [
+   "Pakt groots uit",
+   "Een klein gebaar is genoeg",
+   "Vindt het pure marketing"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bf48ba1b-6bbd-4024-b2e5-b85cc5b82fb2": {
+  "text": "Hoe vindt {{playerName}} het om door jou gefotografeerd te worden?",
+  "answers": [
+   "Poseert dolgraag",
+   "Alleen van de goede kant",
+   "Verbergt het gezicht"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a323a07a-bf57-46e6-962f-73895cc7fbdb": {
+  "text": "Welk klusje in huis doet {{playerName}} met plezier voor jou?",
+  "answers": [
+   "Koken",
+   "Afwassen",
+   "De was",
+   "Boodschappen doen",
+   "Geen enkel, leuk geprobeerd"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4dbcf0c0-3b53-423d-b632-ac62285221f1": {
+  "text": "Hoe zou {{playerName}} oudejaarsavond het liefst met jou doorbrengen?",
+  "answers": [
+   "Op een groot feest",
+   "Alleen jullie tweeën",
+   "Met familie",
+   "Voor middernacht al in slaap"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c718c4f9-d752-4afd-8f09-36e6ce0ffee9": {
+  "text": "Hoe valt {{playerName}} het liefst naast je in slaap?",
+  "answers": [
+   "Hoofd op je borst",
+   "Hand in hand",
+   "Benen verstrengeld",
+   "Rug aan rug"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8616c7c3-6247-4327-bff2-b82c78533937": {
+  "text": "Hoe staat {{playerName}} tegenover met jou flirten waar anderen bij zijn?",
+  "answers": [
+   "Vindt de spanning heerlijk",
+   "Alleen subtiel",
+   "Bewaart het voor als jullie alleen zijn"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a17464b3-ef66-4fd0-9c8f-959c10c51527": {
+  "text": "Hoe staat {{playerName}} tegenover knuffelen als het warm is?",
+  "answers": [
+   "Altijd, warm of niet",
+   "Alleen met de airco aan",
+   "Afblijven tot de winter"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d40fcdb4-c134-4918-8387-b0fd0ce59b60": {
+  "text": "Hoelang wil {{playerName}} ’s ochtends knuffelen?",
+  "answers": [
+   "Heel even",
+   "Zo’n 5 minuten",
+   "Kan de hele ochtend blijven liggen",
+   "Houdt niet van ochtendknuffels"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fb287bfb-df5f-4bef-b15f-867244572371": {
+  "text": "Hoe staat {{playerName}} tegenover voetjevrijen onder tafel?",
+  "answers": [
+   "Vindt het heerlijk",
+   "Lacht en doet mee",
+   "Trekt de voeten terug"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "271796d1-b618-46f6-89cf-72c719b420b3": {
+  "text": "Hoe staat {{playerName}} tegenover knuffelen tijdens een film?",
+  "answers": [
+   "De hele film",
+   "Tot de film spannend wordt",
+   "Heeft eigen ruimte nodig"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bacfd5fb-ef55-4144-ad17-e9dc138e5715": {
+  "text": "Wat doet {{playerName}} als jij het koud hebt?",
+  "answers": [
+   "Doet de jas uit voor je",
+   "Knuffelt je stevig",
+   "Zegt: “Ik zei het toch”",
+   "Zet de verwarming hoger"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "68d163d4-311c-4df9-9ddb-fb626513290f": {
+  "text": "Hoe staat {{playerName}} tegenover knuffelen in het openbaar, zoals op een bankje in het park?",
+  "answers": [
+   "Vindt het heerlijk",
+   "Een beetje kan",
+   "Bewaart het voor thuis"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1a7c65d8-abac-4ab0-a252-46030a85e57c": {
+  "text": "Je tekent met je vinger op de rug van {{playerName}}. Wat is de reactie?",
+  "answers": [
+   "Heerlijk",
+   "Te kietelig",
+   "Valt meteen in slaap",
+   "Probeert de vorm te raden"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fbe5d714-2a14-48f2-acf5-408782341481": {
+  "text": "Hoe denkt {{playerName}} over op de rug gedragen worden?",
+  "answers": [
+   "Vindt het geweldig",
+   "Alleen als de benen moe zijn",
+   "Draagt liever zelf",
+   "Voelt zich er gek bij"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dfc86686-6866-4a23-bb37-353ad50677da": {
+  "text": "Valt {{playerName}} tijdens een lange bus- of vliegreis op je schouder in slaap?",
+  "answers": [
+   "Elke keer",
+   "Alleen met loodzware ogen",
+   "Kan zo niet slapen",
+   "Andersom: jij valt in slaap"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cf9a252d-ee3b-45ca-a038-a95babace7fd": {
+  "text": "Legt {{playerName}} in bed koude voeten tegen je aan?",
+  "answers": [
+   "Elke nacht",
+   "Soms, expres",
+   "Nooit, altijd warme voeten"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "584ad277-5458-4583-bae7-761f728440fa": {
+  "text": "Steelt {{playerName}} ’s nachts het dekbed?",
+  "answers": [
+   "Elke nacht",
+   "Soms",
+   "Nooit, deelt eerlijk",
+   "Jij bent de dief"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fb34cc17-6029-405b-a37e-1aa9e01a2538": {
+  "text": "Hoe denkt {{playerName}} over gekieteld worden?",
+  "answers": [
+   "Vindt het heerlijk",
+   "Lacht, maar haat het",
+   "Streng verboden"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "566c4ec7-94ab-414f-8453-eb373885d216": {
+  "text": "Je legt je hoofd bij {{playerName}} op schoot. Wat is de reactie?",
+  "answers": [
+   "Heerlijk, speelt met je haar",
+   "Prima, voor even",
+   "Krijgt een slapend been"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "71c91998-41c8-4284-a017-f23bcfca973f": {
+  "text": "Hoeveel praat {{playerName}} ’s avonds in bed voor het slapengaan?",
+  "answers": [
+   "Kletst tot de ogen dichtvallen",
+   "Paar woorden, dan slapen",
+   "Slaapt meteen als een blok"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "186e2323-e74d-4a2c-a97a-c096f09fbf6a": {
+  "text": "Hoe staat {{playerName}} tegenover oortjes delen met jou?",
+  "answers": [
+   "Vindt het leuk",
+   "Voor één nummer",
+   "Heeft beide oren nodig"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b5b7464c-ed09-41e5-af07-89584a8accc4": {
+  "text": "Op welke leeftijd wil {{playerName}} trouwen? Typ “nooit” als trouwen er niet in zit.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1fa6303e-48c2-49b7-bde8-31a1ffd430c6": {
+  "text": "Van wat voor bruiloft droomt {{playerName}}?",
+  "answers": [
+   "Een groot feest",
+   "Klein en intiem",
+   "Een bruiloft in het buitenland",
+   "Alleen tekenen, geen ceremonie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "03b62bf8-cd94-4d6c-9cf5-768f6416b7d0": {
+  "text": "Op welke beroemdheid was {{playerName}} als kind voor het eerst verliefd?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6b73c5ca-feb7-4d89-89d3-30030e67b220": {
+  "text": "Waar zou {{playerName}} graag ten huwelijk gevraagd worden?",
+  "answers": [
+   "Op het strand bij zonsondergang",
+   "Thuis, alleen jullie tweeën",
+   "Waar familie en vrienden bij zijn",
+   "In een chic restaurant"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1cf60842-17a0-46b3-95ff-5b7741f37888": {
+  "text": "Welk nummer wil {{playerName}} voor de openingsdans op de bruiloft?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "719aeb6d-792f-4a87-9a22-2edb862bd44f": {
+  "text": "Hoelang moet een stel volgens {{playerName}} samen zijn voor een verloving?",
+  "answers": [
+   "Minder dan een jaar",
+   "1-2 jaar",
+   "3-5 jaar",
+   "Geen enkele haast"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9e57117a-0fa1-4441-bb07-f7881ddab173": {
+  "text": "Na hoeveel dates hoort volgens {{playerName}} de eerste kus?",
+  "answers": [
+   "De eerste date kan prima",
+   "2-3 dates",
+   "4 of meer",
+   "Geen regels"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0bee78f3-1f8e-4cd0-9f87-7935107663c0": {
+  "text": "Wat voor huwelijksreis zou {{playerName}} kiezen?",
+  "answers": [
+   "Strand en relaxen",
+   "Van stad naar stad",
+   "Avontuur en natuur",
+   "Een roadtrip"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "89123ef6-61e1-4291-b833-98c7ed6aecac": {
+  "text": "Hoe zou {{playerName}} het eerste kind het liefst noemen? Typ “geen” als kinderen er niet in zitten.",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5b678108-1630-4c12-bb6b-5119b1aeb2fd": {
+  "text": "Hoe staat {{playerName}} tegenover samenwonen vóór het huwelijk?",
+  "answers": [
+   "Een must",
+   "Kan allebei",
+   "Pas na het huwelijk"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b896a88c-c43f-4e58-a4dd-62b9ff025423": {
+  "text": "Hoe staat {{playerName}} tegenover een gezamenlijke rekening als stel?",
+  "answers": [
+   "Alles samen",
+   "Samen plus eigen",
+   "Helemaal gescheiden"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8c91b4ee-f250-479d-89f3-702b3b70832a": {
+  "text": "Wat is voor {{playerName}} de grootste dealbreaker in een relatie?",
+  "answers": [
+   "Liegen",
+   "Jaloezie",
+   "Gebrek aan respect",
+   "Luiheid"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "18918be4-6dab-4039-8c8e-c37d9d78b77a": {
+  "text": "Hoe staat {{playerName}} tegenover relatietherapie?",
+  "answers": [
+   "Goed idee, altijd",
+   "Alleen bij problemen",
+   "Ziet het niet zitten"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c39bcbdd-6bd3-4ed5-9581-aa4d3af4a8d0": {
+  "text": "Hoe denkt {{playerName}} over stellen die in aparte bedden slapen?",
+  "answers": [
+   "Nooit doen",
+   "Alleen als iemand snurkt",
+   "Klinkt eerlijk gezegd heerlijk"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "11881fa3-028b-4408-9923-3390338938f0": {
+  "text": "Hoe staat {{playerName}} tegenover later kinderen krijgen?",
+  "answers": [
+   "Wil zeker kinderen",
+   "Misschien, nog niet zeker",
+   "Wil geen kinderen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a3878ad1-c0c8-4f1f-ab15-f155b987909a": {
+  "text": "Hoe zou {{playerName}} het vinden als een partner veel meer verdient?",
+  "answers": [
+   "Helemaal prima",
+   "Beetje vreemd",
+   "Verdient liever zelf meer"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c0cd1b97-f84d-47c8-9376-bf3c4b3996d6": {
+  "text": "Hoe dicht bij de eigen ouders wil {{playerName}} na het trouwen wonen?",
+  "answers": [
+   "Zo dichtbij mogelijk",
+   "Dezelfde stad is genoeg",
+   "Hoe verder, hoe beter"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "74705d76-6191-4da0-b08a-ea2ece7fc561": {
+  "text": "Wat vindt {{playerName}} romantischer?",
+  "answers": [
+   "Grote gebaren",
+   "Kleine dagelijkse dingen",
+   "Een mix van beide"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3eee6ce7-38c2-40e7-98fc-ab036b372c3a": {
+  "text": "Hoelang duurt het voordat {{playerName}} aanhalig wordt met iemand nieuws?",
+  "answers": [
+   "Meteen",
+   "Na een paar dates",
+   "Een paar weken",
+   "Maanden"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "78cf8a3c-1a27-457b-b826-e87c9249632f": {
+  "text": "Wat vindt {{playerName}} het mooiste aan verliefd zijn?",
+  "answers": [
+   "De vlinders",
+   "Je veilig voelen",
+   "Een partner in crime hebben",
+   "De lichamelijke nabijheid"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "418127a7-370d-4e07-b2ea-58268797c159": {
+  "text": "Welke setting vindt {{playerName}} het romantischst?",
+  "answers": [
+   "Kaarslicht",
+   "Onder de sterren",
+   "Regen tegen het raam",
+   "Bij de open haard"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "23de8a5f-4637-4904-a694-503d2956f946": {
+  "text": "Waarmee voelt {{playerName}} zich het meest geliefd?",
+  "answers": [
+   "Lieve woorden",
+   "Aanraking",
+   "Kleine cadeautjes",
+   "Quality time",
+   "Hulp bij alledaagse dingen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f2241fe7-454d-4bad-85d1-93605b59514c": {
+  "text": "Wat is de favoriete soort date van {{playerName}}?",
+  "answers": [
+   "Lekker uit eten",
+   "Iets avontuurlijks",
+   "Gezellige avond thuis",
+   "Concert of voorstelling"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1d4ceb01-3f65-4edf-84de-10da86582aa0": {
+  "text": "Op welk romantisch cliché valt {{playerName}} stiekem?",
+  "answers": [
+   "Overal rozenblaadjes",
+   "Een serenade als verrassing",
+   "Ontbijt op bed",
+   "Een liefdesbrief"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

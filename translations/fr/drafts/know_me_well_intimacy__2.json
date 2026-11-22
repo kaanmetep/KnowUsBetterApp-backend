@@ -1,0 +1,772 @@
+{
+ "1c394649-6625-4f03-84f0-3e53b920c956": {
+  "text": "Quand sa moitié lui fait un compliment, que fait {{playerName}} ?",
+  "answers": [
+   "Minimise",
+   "Devient timide",
+   "En retourne un",
+   "Le savoure"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a1b6a93f-4d10-43a7-8164-0163bd3853f2": {
+  "text": "Quelle phrase de sa moitié est la plus dure à entendre pour {{playerName}} ?",
+  "answers": [
+   "« Il faut qu'on parle »",
+   "« J'ai besoin d'espace »",
+   "« Tu me déçois »",
+   "« Tu avais raison »"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c47a1f38-5b04-46da-9c44-7a474ed6d259": {
+  "text": "À la sortie de la douche, {{playerName}} remarque que tu l'observes. Sa réaction ?",
+  "answers": [
+   "Soutient ton regard",
+   "Détourne les yeux",
+   "Fait une blague",
+   "S'approche de toi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e89d0de4-7a91-4f6e-b779-b94e48e546d2": {
+  "text": "Il est 2 h du matin et vous ne dormez toujours pas. De quoi {{playerName}} a envie ?",
+  "answers": [
+   "Parler dans le noir",
+   "Un bisou, puis dodo",
+   "Scroller ensemble",
+   "Dormir, pour de vrai"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8ce87b4f-b8db-4f01-98ba-f29870c3aed1": {
+  "text": "Une seule phrase chuchotée à l'oreille : laquelle ferait le plus craquer {{playerName}} ?",
+  "answers": [
+   "« Viens là »",
+   "« Ferme la porte »",
+   "« Regarde-moi »",
+   "« Pas encore »"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0e4ed2f2-bc25-4e09-a90f-302effdc8620": {
+  "text": "Le soir sur le canapé, à quelle distance {{playerName}} s'installe ?",
+  "answers": [
+   "Avec un peu d'espace",
+   "Tout contre toi",
+   "Les jambes sur les tiennes",
+   "À moitié sur tes genoux"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5cb070ee-8f2e-40d2-b2a4-eeb5e9aed5a6": {
+  "text": "À quoi {{playerName}} a le plus de mal à résister ?",
+  "answers": [
+   "Toi dans son t-shirt",
+   "Toi, les cheveux mouillés",
+   "Toi qui te prépares pour sortir",
+   "Toi au réveil"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "35eb5bdd-4604-405f-bbd9-ec6d407788ce": {
+  "text": "Tu entres pendant que {{playerName}} se change. Sa réaction ?",
+  "answers": [
+   "Se couvre",
+   "S'en fiche",
+   "Te met dehors",
+   "T'attire tout près"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "63883f17-6122-4b32-bd02-7c77127de516": {
+  "text": "Pendant le dîner, où se trouve la main de {{playerName}} ?",
+  "answers": [
+   "Sur la table",
+   "Dans la tienne",
+   "Sur ton genou",
+   "Sous la table"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d4a5ae02-a778-4a8a-a976-915ab86b182c": {
+  "text": "Sur le pas de la porte, en fin de soirée, que fait {{playerName}} ?",
+  "answers": [
+   "Un bisou rapide",
+   "Un long baiser",
+   "T'attire à l'intérieur",
+   "Dit « à demain »"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "290d4e23-9ee9-41a5-86b2-90f954e2e486": {
+  "text": "Tu enlaces {{playerName}} par-derrière. Sa réaction ?",
+  "answers": [
+   "Se laisse aller contre toi",
+   "Continue comme si de rien n'était",
+   "Prend tes mains",
+   "Se retourne"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3aaf73d2-fba7-45d3-b142-eaf8b4b1f2c2": {
+  "text": "Tu embrasses {{playerName}} en plein milieu d'un truc. Sa réaction ?",
+  "answers": [
+   "Te rend ton bisou et continue",
+   "Te dit d'attendre",
+   "Laisse tout tomber",
+   "Rit en secouant la tête"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "20568aba-1de1-4c32-9c4b-84046e0a89a3": {
+  "text": "Tu dis « viens te coucher ». Que fait {{playerName}} ?",
+  "answers": [
+   "Arrive tout de suite",
+   "Demande encore cinq minutes",
+   "Se fait désirer"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "730dfdba-4777-40c1-ac4f-849cf3a8dab0": {
+  "text": "En soirée, tu murmures quelque chose à l'oreille de {{playerName}}. Sa réaction ?",
+  "answers": [
+   "Sourit",
+   "Rougit",
+   "Te prend à part"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "793c87e8-9ced-435c-af13-49aef0550f10": {
+  "text": "À l'arrière d'un taxi, que fait {{playerName}} ?",
+  "answers": [
+   "Regarde par la fenêtre",
+   "Pose la tête sur ton épaule",
+   "Te tient la main"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9a5a21f6-c21f-44ee-986d-7b807154604f": {
+  "text": "Tu t'endors contre {{playerName}} sur le canapé. Sa réaction ?",
+  "answers": [
+   "Te laisse dormir",
+   "Te réveille pour aller au lit",
+   "Ne bouge pas, même le bras engourdi"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d6cefc04-d2ec-40ca-b919-90873cd692a4": {
+  "text": "Tu poses tes mains glacées sur {{playerName}}. Sa réaction ?",
+  "answers": [
+   "Sursaute",
+   "Les prend quand même",
+   "Les réchauffe dans son cou"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d84a8b9f-1082-4a61-a4fb-3a0ce7561ce4": {
+  "text": "En pleine soirée, tu proposes « on rentre ? ». Que fait {{playerName}} ?",
+  "answers": [
+   "En avait déjà envie",
+   "Veut rester encore une heure",
+   "Commençait à peine à s'amuser"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "51f4a26a-da00-4845-a418-a9ee3398e5bf": {
+  "text": "Quelqu'un te dévore ouvertement des yeux. Que fait {{playerName}} ?",
+  "answers": [
+   "Ne remarque rien",
+   "T'attire plus près",
+   "Fixe la personne à son tour"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "acceaaf6-dbea-46b8-b01d-8c157c320363": {
+  "text": "Tu te mets à danser dans la cuisine sans raison. Que fait {{playerName}} ?",
+  "answers": [
+   "Te rejoint",
+   "Te regarde",
+   "Se moque, puis te rejoint"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0ba7b11f-84f2-4fd6-a508-37ec2a630f94": {
+  "text": "Tu fais mine d'embrasser {{playerName}}, puis tu recules. Sa réaction ?",
+  "answers": [
+   "Va jusqu'au bout",
+   "Attend",
+   "En rit"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "16f3d2e8-43b7-412a-aaf6-99b56d3ea05f": {
+  "text": "Tu t'assois sur les genoux de {{playerName}}. Sa réaction ?",
+  "answers": [
+   "Te serre fort",
+   "Jette d'abord un œil autour",
+   "Rit et te fait descendre"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bbf222fb-e5a6-45b2-be01-18d719ee84f2": {
+  "text": "Il fait chaud, alors tu commences à enlever le pull de {{playerName}}. Sa réaction ?",
+  "answers": [
+   "Te laisse faire",
+   "S'en charge",
+   "Retient ta main"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f8558854-9108-4479-b20e-7a0c5c31c0ac": {
+  "text": "Tu embrasses {{playerName}} sur la joue en pleine anecdote. Sa réaction ?",
+  "answers": [
+   "Continue de parler",
+   "Perd le fil",
+   "T'embrasse aussi, puis reprend"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c335f3ae-66fd-42b6-b5d1-3150b68b6b04": {
+  "text": "Où {{playerName}} adore le plus se faire masser ?",
+  "answers": [
+   "Les épaules",
+   "Le dos",
+   "Les pieds",
+   "La tête"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7c740bf2-6c29-4351-b1ea-1ac8b48d7e14": {
+  "text": "Qu'est-ce qui émoustille le plus {{playerName}} ?",
+  "answers": [
+   "L'assurance",
+   "Un regard soutenu",
+   "Une bonne odeur",
+   "Se faire taquiner"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c510bd61-7901-4014-bccc-3bf4072ab104": {
+  "text": "Dans les moments intimes, quel sens compte le plus pour {{playerName}} ?",
+  "answers": [
+   "Le toucher",
+   "La vue",
+   "L'odorat",
+   "L'ouïe"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "10524676-70b8-4a0c-9c65-8021824e5bc1": {
+  "text": "Quelle façon de séduire marche le mieux sur {{playerName}} ?",
+  "answers": [
+   "Par les mots",
+   "Par le regard",
+   "Par le toucher",
+   "Par une surprise"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "47197335-c957-4d42-90c1-bd55aec65195": {
+  "text": "Chez une personne qui l'attire, que regarde {{playerName}} en premier ?",
+  "answers": [
+   "Les yeux",
+   "Les lèvres",
+   "Les mains",
+   "Le corps"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7fcfdb68-3ae8-4607-9be5-32b49375a3ac": {
+  "text": "Tu envoies une photo un peu coquine à {{playerName}} en pleine journée. Sa réaction ?",
+  "answers": [
+   "T'en envoie une aussi",
+   "T'appelle aussitôt",
+   "« Pas maintenant, je bosse »",
+   "Rentre plus tôt"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "720d3880-91f8-4dde-a17f-7da5e821ab00": {
+  "text": "Quel accessoire {{playerName}} trouve le plus sexy chez quelqu'un ?",
+  "answers": [
+   "Une montre",
+   "Des lunettes",
+   "Une chaîne",
+   "Des bagues"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4daea0de-71a4-40bc-82b1-c1a830c1e33f": {
+  "text": "Quel style {{playerName}} trouve le plus sexy chez quelqu'un ?",
+  "answers": [
+   "Chic",
+   "Sport",
+   "Streetwear",
+   "Tout en noir"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9132974e-4bff-42a3-a774-e9046d4aa9f2": {
+  "text": "Quelle taille {{playerName}} trouve la plus attirante chez sa moitié ?",
+  "answers": [
+   "Une bonne tête de plus",
+   "Quelques centimètres de plus",
+   "La même taille",
+   "Quelques centimètres de moins"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8b3a4769-3529-4dd3-bf94-060c729a8477": {
+  "text": "Quelle couleur d'yeux {{playerName}} trouve la plus attirante ?",
+  "answers": [
+   "Marron",
+   "Verts",
+   "Bleus",
+   "Noisette"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6e6db5c0-711a-4280-9da7-49e01a6e940c": {
+  "text": "Quelle couleur de cheveux {{playerName}} trouve la plus sexy ?",
+  "answers": [
+   "Noirs",
+   "Châtains",
+   "Blonds",
+   "Roux"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "401817cf-f61c-4724-9158-25592761bb11": {
+  "text": "Quel type de parfum {{playerName}} trouve le plus sexy chez quelqu'un ?",
+  "answers": [
+   "Sucré",
+   "Frais",
+   "Boisé",
+   "Épicé"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4dacabdc-99dd-4c78-9b92-52680146831d": {
+  "text": "Que pense {{playerName}} des tatouages chez sa moitié ?",
+  "answers": [
+   "Adore ça",
+   "Un ou deux, c'est joli",
+   "Pas trop fan",
+   "S'en fiche"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f5dadc53-d883-4924-8ba8-2f509d410ebb": {
+  "text": "Quel écart d'âge {{playerName}} trouve le plus attirant ?",
+  "answers": [
+   "Le même âge",
+   "Quelques années de plus",
+   "Quelques années de moins",
+   "Beaucoup d'années de plus"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f1dc9061-fa47-478b-b1ec-eba6a3b6f5fa": {
+  "text": "Quel métier rend quelqu'un le plus attirant aux yeux de {{playerName}} ?",
+  "answers": [
+   "Médecin",
+   "Pilote",
+   "Pompier",
+   "Chef cuisinier"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dd7a8cb2-3e0a-4167-b573-0feea5f6b4ee": {
+  "text": "Quel piercing {{playerName}} trouve le plus sexy chez quelqu'un ?",
+  "answers": [
+   "À l'oreille",
+   "Au nez",
+   "À la lèvre",
+   "Aucun"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2fd6a59e-72ba-4ff9-8feb-361bc39f3cb4": {
+  "text": "Quel talent {{playerName}} trouve le plus sexy chez quelqu'un ?",
+  "answers": [
+   "Jouer de la guitare",
+   "Bien cuisiner",
+   "Bien danser",
+   "Parler une autre langue"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e5f4e852-e15d-471e-abc5-4c38cc69e9ec": {
+  "text": "Quel petit détail {{playerName}} trouve le plus craquant chez quelqu'un ?",
+  "answers": [
+   "Les taches de rousseur",
+   "Les fossettes",
+   "Les longs cils",
+   "Les dents du bonheur"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1fcbc4d3-9d36-4780-8e17-806a5eff3369": {
+  "text": "Quelle silhouette {{playerName}} trouve la plus attirante ?",
+  "answers": [
+   "Athlétique",
+   "Mince",
+   "Musclée",
+   "Toute en rondeurs"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3d2b3db6-0219-4cf1-9d6d-4f31684ea5e8": {
+  "text": "Quel véhicule rendrait quelqu'un plus attirant aux yeux de {{playerName}} ?",
+  "answers": [
+   "Une voiture de collection",
+   "Une voiture de sport",
+   "Une moto",
+   "Aucune importance"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7d10c4cc-934e-4c78-83dc-e7675b0c1ec0": {
+  "text": "Quel élément astrologique attire le plus {{playerName}} ?",
+  "answers": [
+   "Les signes de feu",
+   "Les signes de terre",
+   "Les signes d'air",
+   "Les signes d'eau",
+   "Aucune importance"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f454ad94-c43b-4a6b-9340-e41b1ded7a80": {
+  "text": "Quel genre de présence sur les réseaux {{playerName}} trouve le plus attirant ?",
+  "answers": [
+   "Publie beaucoup",
+   "Compte privé",
+   "Publie rarement",
+   "Pas de réseaux du tout"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dcd3d4f4-f480-4ff0-b69b-af1f8b10c105": {
+  "text": "Quel genre de mains {{playerName}} trouve le plus attirant ?",
+  "answers": [
+   "De grandes mains",
+   "Des mains douces",
+   "Des veines apparentes",
+   "De longs doigts",
+   "Ne remarque jamais les mains"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "44fffff9-e2b0-4e15-b91b-0eb866a37114": {
+  "text": "Quel type d'humour {{playerName}} trouve le plus attirant chez quelqu'un ?",
+  "answers": [
+   "Sarcastique",
+   "Loufoque",
+   "Pince-sans-rire",
+   "Noir",
+   "Gentil et bienveillant"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3f4de5c5-8d26-4746-af84-d4886575c2c3": {
+  "text": "Que pense {{playerName}} de quelqu'un qui est à fond dans le sport ?",
+  "answers": [
+   "Très sexy",
+   "Bien, mais pas indispensable",
+   "Ça refroidit"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "97a9c1dd-266d-442a-b459-db1ac587aed5": {
+  "text": "Pour plaire à {{playerName}}, quel niveau de rangement faut-il ?",
+  "answers": [
+   "Tout doit être nickel",
+   "Un minimum d'ordre",
+   "Le bazar, ça passe"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c90f6f30-b874-47d1-b68b-7e77d055b747": {
+  "text": "Que pense {{playerName}} de quelqu'un qui a une énorme bande d'amis ?",
+  "answers": [
+   "Trouve ça attirant",
+   "Peu importe",
+   "Préfère un petit cercle"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "549ec369-ee49-4656-adf4-6465987bcc3d": {
+  "text": "Que pense {{playerName}} de quelqu'un qui est toujours en bons termes avec son ex ?",
+  "answers": [
+   "Aucun problème",
+   "Ça dépend de l'ex",
+   "Rédhibitoire"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cbd96d73-a197-449c-9bfa-e6646c6151f6": {
+  "text": "Que pense {{playerName}} de quelqu'un qui fait le premier pas ?",
+  "answers": [
+   "Ultra sexy",
+   "Plutôt sympa",
+   "Préfère faire le premier pas"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f55c2d09-b0cc-4a36-af77-1fa6cace237a": {
+  "text": "Que pense {{playerName}} du partage des codes de téléphone dans le couple ?",
+  "answers": [
+   "Adore cette confiance",
+   "Pourquoi pas",
+   "Tient à sa vie privée"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f11bae34-c304-42a5-825d-b0680937d30a": {
+  "text": "Que pense {{playerName}} de quelqu'un qui envoie des messages toute la journée ?",
+  "answers": [
+   "Adore ça",
+   "Quelques fois par jour, ça suffit",
+   "Trop pot de colle"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "30b5a4b1-c0ac-4d99-9f38-c00d848f5f4b": {
+  "text": "Que pense {{playerName}} de passer chaque moment libre en couple ?",
+  "answers": [
+   "Adore ça",
+   "A aussi besoin de temps pour soi",
+   "C'est trop"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3f92749d-64b0-4c89-9f3e-bf2cd0c77507": {
+  "text": "Que pense {{playerName}} de quelqu'un qui dit « je t'aime » très tôt ?",
+  "answers": [
+   "Trouve ça mignon",
+   "Trop rapide",
+   "Un red flag"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e730a2da-4ace-47c7-b3c3-4f59f76edfd0": {
+  "text": "Que pense {{playerName}} de quelqu'un qui fait la fête tous les week-ends ?",
+  "answers": [
+   "Sympa, veut en être",
+   "Bien, de temps en temps",
+   "Pas son genre",
+   "Rédhibitoire"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8e724ce7-d131-4821-903b-70bc0cf1b935": {
+  "text": "Que pense {{playerName}} d'une relation à distance ?",
+  "answers": [
+   "Pourrait tout à fait gérer",
+   "Seulement pour un temps",
+   "Jamais"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b7b57f9f-d72e-4537-9146-ca94491221c1": {
+  "text": "Que pense {{playerName}} des longs câlins ?",
+  "answers": [
+   "Plus c'est long, mieux c'est",
+   "Quelques secondes suffisent",
+   "Pas trop fan des câlins"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "75e4151b-0b3a-442d-870f-36fce120c053": {
+  "text": "Que pense {{playerName}} de s'endormir en appel vidéo ?",
+  "answers": [
+   "Adore ça",
+   "Seulement à distance",
+   "Trouve ça bizarre"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ad6c46b6-c615-4dca-a1d2-b9a95e92638c": {
+  "text": "Que pense {{playerName}} de fêter les « moisiversaires » ?",
+  "answers": [
+   "Fête chaque mois",
+   "Une fois par an, ça suffit",
+   "Ne retient pas les dates"
+  ],
+  "accepted": [],
+  "flagged": true,
+  "note": "Used colloquial 'moisiversaires' (monthly anniversaries); common among young French couples but informal."
+ },
+ "7d3785ce-afa5-43e8-b150-57d16a20c299": {
+  "text": "Quelle chanson {{playerName}} considère comme « votre chanson » ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "efd278ae-b799-4742-915c-89349777f4bf": {
+  "text": "Comment {{playerName}} aime te tenir la main ?",
+  "answers": [
+   "Doigts entrelacés",
+   "Paume contre paume",
+   "Juste les petits doigts",
+   "La main dans ta poche arrière"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7d25b7f5-1dc6-43d6-af4b-e31f6e0a738c": {
+  "text": "Que pense {{playerName}} de partager la même assiette ?",
+  "answers": [
+   "Adore ça",
+   "Seulement le dessert",
+   "Chacun son assiette"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ee007826-9eef-4d45-8c67-98923cf0b413": {
+  "text": "Quel est l'endroit préféré de {{playerName}} pour un tête-à-tête dans votre ville ?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9587900b-e8e3-414d-9ef0-199ab00dac18": {
+  "text": "Que pense {{playerName}} de se souhaiter bonne nuit avant de dormir, même à distance ?",
+  "answers": [
+   "Ne zappe jamais",
+   "La plupart des soirs",
+   "Pas si important"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

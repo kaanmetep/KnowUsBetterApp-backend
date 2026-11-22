@@ -1,0 +1,130 @@
+[
+ {
+  "id": "45b55eb0-9f7d-4819-8905-6bbf7412e967",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How often should you see your families?",
+  "tr": "Ailelerinizi ne sıklıkla görmelisiniz?",
+  "answers_en": [
+   "Every week",
+   "A couple of times a month",
+   "On special occasions",
+   "As little as possible"
+  ],
+  "answers_tr": [
+   "Her hafta",
+   "Ayda birkaç kez",
+   "Özel günlerde",
+   "Mümkün olduğunca az"
+  ]
+ },
+ {
+  "id": "0186e34c-69ce-4b3a-a0ca-eeda47599e25",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "A family member criticizes your partner. You…",
+  "tr": "Bir aile üyen partnerini eleştiriyor. Sen…",
+  "answers_en": [
+   "Defend them right there",
+   "Talk to my family privately later",
+   "Stay out of it",
+   "Ask my partner what they want me to do"
+  ],
+  "answers_tr": [
+   "Orada hemen savunurum",
+   "Sonra ailemle özelde konuşurum",
+   "Karışmam",
+   "Partnerime ne yapmamı istediğini sorarım"
+  ]
+ },
+ {
+  "id": "6df93e1d-bb18-418a-bb9e-fc88799efaf1",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How much say should parents have in your decisions as a couple?",
+  "tr": "Ebeveynlerin çift olarak verdiğiniz kararlarda ne kadar söz hakkı olmalı?",
+  "answers_en": [
+   "None, it's our life",
+   "We listen, then decide ourselves",
+   "Their opinion matters a lot",
+   "Depends on the decision"
+  ],
+  "answers_tr": [
+   "Hiç, bu bizim hayatımız",
+   "Dinleriz, sonra kendimiz karar veririz",
+   "Fikirleri çok önemli",
+   "Karara göre değişir"
+  ]
+ },
+ {
+  "id": "8bb0a2e7-1a3d-437d-a3ea-c821dbb2fd90",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Your ideal weekend social life?",
+  "tr": "İdeal hafta sonu sosyal hayatın?",
+  "answers_en": [
+   "A big group of friends",
+   "One other couple",
+   "Just the two of us",
+   "Each with our own friends"
+  ],
+  "answers_tr": [
+   "Kalabalık bir arkadaş grubu",
+   "Bir başka çift",
+   "Sadece ikimiz",
+   "Herkes kendi arkadaşlarıyla"
+  ]
+ },
+ {
+  "id": "b9c6e8e3-d7e3-45e4-810d-8e26270732b0",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How do you feel about your partner's friends?",
+  "tr": "Partnerinin arkadaşları hakkında ne hissediyorsun?",
+  "answers_en": [
+   "I really like them",
+   "Fine, but not my people",
+   "Some of them bother me",
+   "I barely know them"
+  ],
+  "answers_tr": [
+   "Onları gerçekten seviyorum",
+   "İyiler ama benim insanlarım değil",
+   "Bazıları beni rahatsız ediyor",
+   "Onları pek tanımıyorum"
+  ]
+ },
+ {
+  "id": "2a964d04-7284-475d-bb2a-e104a8e02a1e",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How much should friends know about your relationship?",
+  "tr": "Arkadaşlar ilişkiniz hakkında ne kadar bilmeli?",
+  "answers_en": [
+   "Everything, they're my people",
+   "The good parts",
+   "Only big news",
+   "Almost nothing"
+  ],
+  "answers_tr": [
+   "Her şeyi, onlar benim insanlarım",
+   "Güzel kısımları",
+   "Sadece büyük haberleri",
+   "Neredeyse hiçbir şey"
+  ]
+ },
+ {
+  "id": "04308de1-190c-466a-816f-1fc04d957ce2",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "Which family tradition would you want to keep, or start, together?",
+  "tr": "Birlikte sürdürmek ya da başlatmak istediğin aile geleneği hangisi?"
+ },
+ {
+  "id": "8316d765-29a3-4f40-a97e-1adc20b8da80",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What's one thing about your partner's family or friends you've never said out loud?",
+  "tr": "Partnerinin ailesi ya da arkadaşları hakkında hiç yüksek sesle söylemediğin bir şey ne?"
+ }
+]

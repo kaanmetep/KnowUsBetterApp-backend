@@ -1,0 +1,810 @@
+[
+ {
+  "id": "9c033c13-73b4-44e7-a935-0242b4fae94f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you get upset if your partner never introduced you to their friends?",
+  "tr": "Sevgilin seni hiç kendi arkadaşlarıyla tanıştırmasa, bu durumdan sinirlenir misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "40137f6d-8f1e-45c1-a4dc-a63c87f0a92f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think your ex-partner should be removed from social media accounts?",
+  "tr": "Sence ayrıldığın sevgilin sosyal medya hesaplarından silinmeli mi?",
+  "category": "long_term"
+ },
+ {
+  "id": "32bec47e-fda0-4934-bb7e-536d8e4cf7f2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If you stopped being physically attracted to your spouse after marriage, would you get a divorce?",
+  "tr": "Evlendikten sonra eşinden fiziksel olarak etkilenmeyi bıraksan boşanır mısın?",
+  "category": "long_term"
+ },
+ {
+  "id": "0f881ec0-2f6d-4a8d-8f6f-1fe54395c59f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you prefer your child to resemble you more or your partner?",
+  "tr": "Çocuğunuzun en çok sana mı benzemesini istersin, sevgiline mi?",
+  "answers_en": [
+   "Me",
+   "My partner"
+  ],
+  "answers_tr": [
+   "Bana",
+   "Sevgilime"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "ae4f73ff-5e35-4faa-bea5-ccb6fff9920e",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner really wanted it, would you name your child after your partner's mother?",
+  "tr": "Eğer sevgilin çok isterse, çocuğunuza sevgilinin annesinin ismini koyar mısın?",
+  "category": "long_term"
+ },
+ {
+  "id": "b246de81-762a-451c-8b6a-a4a4cdf1c14f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would it bother you if your partner had a fake account just to stalk people?",
+  "tr": "Sevgilinin insanları stalklamak için bir fake hesabının olması seni rahatsız eder mi?",
+  "category": "long_term"
+ },
+ {
+  "id": "04fb3b07-0c4a-4470-906f-69ff3696620b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In a relationship, do you think it is better to take a break to fix things or solve them without any break?",
+  "tr": "Sence bir ilişkide bazı şeyleri düzeltmek için ara vermek mi yoksa hiç ara vermeden çözmek mi?",
+  "answers_en": [
+   "Take a break",
+   "Solve without break"
+  ],
+  "answers_tr": [
+   "Ara vermek",
+   "Hiç ara vermeden çözmek"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "9abff03b-7b65-419f-b4d6-2d469b4dc7be",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "1 million dollars but not see your partner for 2 years, or 10 million dollars but not see your partner for 4 years?",
+  "tr": "1 milyon dolar ama sevgilini 2 yıl görememek veya 10 milyon dolar ama sevgilini 4 yıl görememek?",
+  "answers_en": [
+   "1 million dollars, 2 years apart",
+   "10 million dollars, 4 years apart"
+  ],
+  "answers_tr": [
+   "1 milyon dolar, 2 yıl ayrı",
+   "10 milyon dolar, 4 yıl ayrı"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "80bd3596-b457-49a1-a292-e3a26678f409",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you rather be with someone you love but have constant arguments, or with someone less compatible but peaceful?",
+  "tr": "Sürekli tartışmalar yaşayan ama sevdiğin biriyle mi, yoksa daha uyumsuz ama huzurlu biriyle mi olurdun?",
+  "answers_en": [
+   "Love with arguments",
+   "Less compatible but peaceful"
+  ],
+  "answers_tr": [
+   "Sevdiğim ama tartışmalı",
+   "Uyumsuz ama huzurlu"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "550b4795-47de-43b4-9981-5522c66470f3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which would you prefer: your partner proposing a modest marriage or an extravagant one?",
+  "tr": "Hangisini tercih edersin: sevgilin sana mütevazi bir evlilik teklifi yapsın mı yoksa gösterişli bir teklif mi?",
+  "answers_en": [
+   "Modest proposal",
+   "Extravagant proposal"
+  ],
+  "answers_tr": [
+   "Mütevazi teklif",
+   "Gösterişli teklif"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "c90ae871-809e-4ada-9637-99d6ff40dce7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which would you prefer: your partner buying an engagement ring that stretches their budget or one much cheaper than they can afford?",
+  "tr": "Hangisini tercih edersin: sevgilin sana bütçesini zorlayacak bir evlilik yüzüğü alsın mı yoksa alabileceğinden çok daha ucuz bir yüzük mü?",
+  "answers_en": [
+   "Ring that stretches budget",
+   "Much cheaper ring"
+  ],
+  "answers_tr": [
+   "Bütçesini zorlayan yüzük",
+   "Çok daha ucuz yüzük"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "9ae0640c-d472-4528-a93b-99746bc50ea6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which would you prefer: your partner planning the marriage proposal entirely on their own, or secretly asking your friends for advice?",
+  "tr": "Hangisini tercih edersin: sevgilin evlilik teklifini tamamen kendi planlasın mı yoksa senden gizli olarak arkadaşlarından fikir alsın mı?",
+  "answers_en": [
+   "Plans on their own",
+   "Secretly asks friends"
+  ],
+  "answers_tr": [
+   "Kendi planlasın",
+   "Gizlice arkadaşlardan fikir alsın"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "4d5dde88-5d3a-4751-91aa-1004648687c2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which would you prefer: a partner who expresses love through grand gestures, or one who shows it through small everyday acts?",
+  "tr": "Hangisini tercih edersin: sevgilin sevgisini büyük jestlerle mi gösteriyor yoksa küçük günlük davranışlarla mı?",
+  "answers_en": [
+   "Grand gestures",
+   "Small everyday acts"
+  ],
+  "answers_tr": [
+   "Büyük jestler",
+   "Küçük günlük davranışlar"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "db9d8560-2591-456f-b350-c20096c3e897",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it okay for your partner to hug a friend of the opposite sex?",
+  "tr": "Sevgilin karşı cinsten bir arkadaşıyla sarılabilir mi?",
+  "category": "long_term"
+ },
+ {
+  "id": "d1af31ed-9299-485a-941b-b8031854ca9c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it okay for your partner to treat a friend of the opposite sex to a meal?",
+  "tr": "Partnerin karşı cinsten bir arkadaşına yemek ısmarlayabilir mi?",
+  "category": "long_term"
+ },
+ {
+  "id": "1fd7db14-1dfd-4713-a16a-91a0bc778c60",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it okay for your partner to meet one-on-one with a friend of the opposite sex?",
+  "tr": "Sevgilin karşı cinsten bir arkadaşıyla baş başa buluşabilir mi?",
+  "category": "long_term"
+ },
+ {
+  "id": "49fd0add-5bf4-4012-b988-e6a0c6e704c2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it a problem for you if your partner has a celebrity crush?",
+  "tr": "Sevgilinin bir celebrity crush'ı olması senin için bir problem mi?",
+  "category": "long_term"
+ },
+ {
+  "id": "9cd41d79-298f-431e-92ae-8a1bba9c478f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Do you think it is acceptable to read your partner’s messages with friends of the opposite sex?",
+  "tr": "Sevgilinin karşı cinsten olan arkadaşlarıyla olan mesajlarını okuyabileceğini düşünür müsün?",
+  "category": "long_term"
+ },
+ {
+  "id": "585ec0e7-b6f1-444c-b04c-2ef0117d83bd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "With your partner...",
+  "tr": "Partnerinle…",
+  "answers_en": [
+   "Safe but boring bond",
+   "Risky but lively bond"
+  ],
+  "answers_tr": [
+   "Güvenli ama sıkıcı bir bağ",
+   "Riskli ama canlı bir bağ"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "12cc068c-eb0e-44d6-b816-c39859648964",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you get upset if your partner refused to show you their messages with a friend of the opposite sex?",
+  "tr": "Sevgilin karşı cinsten bir arkadaşıyla olan mesajlarını sana okutmazsa ona sinirlenir misin?",
+  "category": "long_term"
+ },
+ {
+  "id": "940c094a-220c-40f3-9526-a5fea4f487bd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Is it okay for your partner to stay for a short time at a friend of the opposite sex's house?",
+  "tr": "Sevgilin karşı cinsten bir arkadaşının evinde kısa süreliğine yaşayabilir mi?",
+  "category": "long_term"
+ },
+ {
+  "id": "db9c8d1c-063f-4c3d-8da6-84abfcb592e7",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would it be a reason for conflict if your partner wanted to spend the entire weekend playing video games alone?",
+  "tr": "Sevgilin tüm hafta sonu tek başına bilgisayar oyunu oynamak istese bu senin için bir kavga sebebi olur mu?",
+  "category": "long_term"
+ },
+ {
+  "id": "8c809c4c-7508-47c3-b12b-68ca4fae57b8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In a long-term relationship, love over time...",
+  "tr": "Uzun ilişkide aşk zamanla ...",
+  "answers_en": [
+   "Increases",
+   "Changes form"
+  ],
+  "answers_tr": [
+   "Artar",
+   "Şekil değiştirir"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "2e1f0de3-37db-41c9-a49f-ceb0bde8402f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Should your partner prioritize their own future or yours more?",
+  "tr": "Partnerin kendi geleceğini mi daha çok önemsemeli seninkini mi?",
+  "answers_en": [
+   "Their own future",
+   "Your future"
+  ],
+  "answers_tr": [
+   "Kendi geleceğini",
+   "Senin geleceğini"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "58cc044f-d0e6-407b-b19f-4db600605254",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner trying to change you...",
+  "tr": "Partnerinin seni değiştirmeye çalışması...",
+  "answers_en": [
+   "Acceptable",
+   "Never acceptable"
+  ],
+  "answers_tr": [
+   "Kabul edilebilir",
+   "Asla"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "faeb28bd-22ea-4bb9-89c6-5cd68917656d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In a long-term relationship, monotony...",
+  "tr": "Uzun ilişkide monotonluk...",
+  "answers_en": [
+   "Inevitable",
+   "Preventable"
+  ],
+  "answers_tr": [
+   "Kaçınılmaz",
+   "Önlenebilir"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "93bfc65c-0d46-4cbc-86a5-46802820f43b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner trying to change you, even if it is \"for your own good\"...",
+  "tr": "Partnerin seni \"iyiliğin için\" bile olsa değiştirmeye çalışması…",
+  "answers_en": [
+   "Acceptable",
+   "Never acceptable"
+  ],
+  "answers_tr": [
+   "Kabul edilebilir",
+   "Asla"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "d396fe80-cd3f-43c3-842a-fcd6c54b23b4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Your partner talking about their past relationships...",
+  "tr": "Partnerinin eski ilişkilerini anlatması…",
+  "answers_en": [
+   "Normal and necessary",
+   "Unnecessary and harmful"
+  ],
+  "answers_tr": [
+   "Normal ve gerekli",
+   "Gereksiz ve zarar verir"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "1145588f-eea5-4226-80b3-a98a5d0b043c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Jealousy...",
+  "tr": "Kıskançlık…",
+  "answers_en": [
+   "A sign of love",
+   "A sign of insecurity"
+  ],
+  "answers_tr": [
+   "Sevginin göstergesidir",
+   "Güvensizliktir"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "aabf084a-c712-4d5f-872c-8351c008d756",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner does not like your friends...",
+  "tr": "Partnerin senin arkadaşlarını sevmiyorsa…",
+  "answers_en": [
+   "It can be a problem",
+   "It is not a problem"
+  ],
+  "answers_tr": [
+   "Problem olabilir",
+   "Sorun değildir"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "31b2a2da-9927-44e9-948c-1edd25445983",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner does not constantly text you...",
+  "tr": "Partnerin sana sürekli mesaj atmıyorsa…",
+  "answers_en": [
+   "It is normal",
+   "It is a lack of interest"
+  ],
+  "answers_tr": [
+   "Normaldir",
+   "İlgisizliktir"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "aaa13474-4c03-4f25-b201-c6c81cf34b35",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "If your partner informs you at the last minute without making plans...",
+  "tr": "Partnerin plan yapmadan son dakika haber veriyorsa…",
+  "answers_en": [
+   "Spontaneity",
+   "Disrespect"
+  ],
+  "answers_tr": [
+   "Spontanlıktır",
+   "Saygısızlıktır"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "c8052202-a0f7-4d5a-9e3d-4aaa2bba5caf",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Spending constant time together in a relationship...",
+  "tr": "İlişkide sürekli birlikte vakit geçirmek…",
+  "answers_en": [
+   "Builds connection",
+   "Feels suffocating"
+  ],
+  "answers_tr": [
+   "Bağ kurar",
+   "Boğar"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "48e6113e-51b4-4e1f-a138-7c7149028fa3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Staying silent during arguments...",
+  "tr": "Tartışmalarda sessiz kalmak…",
+  "answers_en": [
+   "Maturity",
+   "Avoidance"
+  ],
+  "answers_tr": [
+   "Olgunluktur",
+   "Kaçmaktır"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "c3b94f1d-30c4-4c5d-bed8-ab4965ec0b5b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Questioning your partner in a relationship...",
+  "tr": "İlişkide hesap sormak…",
+  "answers_en": [
+   "Normal",
+   "A sign of insecurity"
+  ],
+  "answers_tr": [
+   "Normaldir",
+   "Güvensizliktir"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "e2f38a08-615d-4063-9ef1-e1194aabb7a6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Freedom in a relationship...",
+  "tr": "İlişkide “özgürlük”…",
+  "answers_en": [
+   "Most important thing",
+   "Reduces love"
+  ],
+  "answers_tr": [
+   "En önemli şey",
+   "Aşkı azaltır"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "3354bd61-f081-4c81-8939-a8009d25b348",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Spending time apart in a relationship...",
+  "tr": "İlişkide ayrı zaman geçirmek…",
+  "answers_en": [
+   "Healthy",
+   "Creates distance"
+  ],
+  "answers_tr": [
+   "Sağlıklıdır",
+   "Uzaklaştırır"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "64a23406-a16e-4819-9dd8-da44d139f8e6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Silence between you and your partner...",
+  "tr": "Partnerinle arandaki sessizlik…",
+  "answers_en": [
+   "A sign of comfort",
+   "A sign of distance"
+  ],
+  "answers_tr": [
+   "Rahatlık göstergesi",
+   "Mesafe belirtisi"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "52bd1a52-d873-4451-8a68-da4c7ade05d3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Routine in a long-term relationship...",
+  "tr": "Uzun ilişkide rutin…",
+  "answers_en": [
+   "Gives trust",
+   "Creates boredom"
+  ],
+  "answers_tr": [
+   "Güven verir",
+   "Sıkıcılık yaratır"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "7a0db8b2-560c-41e6-849a-993e7e074ae8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is more important in a relationship: love or respect?",
+  "tr": "İlişkide daha önemli olan nedir: aşk mı saygı mı?",
+  "answers_en": [
+   "Love",
+   "Respect"
+  ],
+  "answers_tr": [
+   "Aşk",
+   "Saygı"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "9d7e63d7-607b-48a9-949a-16936f965dc6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Sharing everything with your partner...",
+  "tr": "Partnerinle her şeyi paylaşmak…",
+  "answers_en": [
+   "Creates closeness",
+   "Removes personal space"
+  ],
+  "answers_tr": [
+   "Yakınlık yaratır",
+   "Alanı yok eder"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "7ee80276-4cae-4786-8e8a-6c3732d4bad2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In a long-term relationship, love is more...",
+  "tr": "Uzun ilişkide aşk daha çok…",
+  "answers_en": [
+   "A choice",
+   "A feeling"
+  ],
+  "answers_tr": [
+   "Bir seçimdir",
+   "Bir histir"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "ddcf2c7d-04d2-4a0c-b0ed-119f2f636bc6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "The biggest risk in a relationship...",
+  "tr": "İlişkide en büyük risk…",
+  "answers_en": [
+   "Growing apart",
+   "Getting too used to each other"
+  ],
+  "answers_tr": [
+   "Uzaklaşmak",
+   "Alışmak"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "2b676dd8-d2b2-4d4d-91f2-6cd5c4997b2b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In long-term relationships, people more often...",
+  "tr": "Uzun ilişkide insanlar daha çok…",
+  "answers_en": [
+   "Complement each other",
+   "Become similar to each other"
+  ],
+  "answers_tr": [
+   "Birbirini tamamlar",
+   "Birbirine dönüşür"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "d28a64f1-32ba-433f-82dd-72bf9c2cc578",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Accepting your partner as they are...",
+  "tr": "Partnerini olduğu gibi kabul etmek…",
+  "answers_en": [
+   "The peak of love",
+   "Prevents growth"
+  ],
+  "answers_tr": [
+   "Sevginin zirvesi",
+   "Gelişimi engeller"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "08a3ebbf-7806-4766-923d-2957e0c0d2c2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "With your partner...",
+  "tr": "Partnerinle…",
+  "answers_en": [
+   "Very compatible but low passion",
+   "Very passionate but constantly conflicted"
+  ],
+  "answers_tr": [
+   "Çok uyumlu ama az tutkulu olmak",
+   "Çok tutkulu ama sürekli çatışmak"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "b97d013a-ccd8-4678-b52e-c6ba122ef54b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In a relationship...",
+  "tr": "İlişkide…",
+  "answers_en": [
+   "Everything becoming routine",
+   "Nothing being stable"
+  ],
+  "answers_tr": [
+   "Her şeyin rutinleşmesi",
+   "Hiçbir şeyin stabil olmaması"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "b933a4a0-fb1a-423e-8571-96ecb4dd4b7b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In a relationship...",
+  "tr": "İlişkide…",
+  "answers_en": [
+   "Love decreases but peace increases",
+   "Love stays strong but peace decreases"
+  ],
+  "answers_tr": [
+   "Aşkın azalması ama huzurun artması",
+   "Aşkın güçlü kalması ama huzurun azalması"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "641d3889-c306-47c1-875c-525e5c928cdc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What is worse in a relationship: broken trust or complete loss of interest?",
+  "tr": "İlişkide hangisi daha kötü: güvenin kırılması mı ilginin tamamen azalması mı?",
+  "answers_en": [
+   "Broken trust",
+   "Complete loss of interest"
+  ],
+  "answers_tr": [
+   "Güvenin kırılması",
+   "İlginin tamamen azalması"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "d1483a50-6ff5-4975-9b46-224f67e0036b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In a long-term relationship, which is worse: constantly feeling suspicious or constantly feeling emptiness?",
+  "tr": "Uzun ilişkide hangisi daha kötü: sürekli şüphe içinde olmak mı yoksa sürekli boşluk hissi yaşamak mı?",
+  "answers_en": [
+   "Constant suspicion",
+   "Constant emptiness"
+  ],
+  "answers_tr": [
+   "Sürekli şüphe içinde olmak",
+   "Sürekli boşluk hissi yaşamak"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "d0a3444e-8114-4511-a054-56a7198b70a0",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In a long-term relationship, which is harder: staying without knowing you are loved or staying while knowing you do not love the other person?",
+  "tr": "Uzun ilişkide hangisi daha zordur: sevildiğini bilmeden kalmak mı yoksa sevmediğini bilerek kalmak mı?",
+  "answers_en": [
+   "Staying without knowing you are loved",
+   "Staying while knowing you do not love"
+  ],
+  "answers_tr": [
+   "Sevildiğini bilmeden kalmak",
+   "Sevmediğini bilerek kalmak"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "86598b9e-9d8a-47a4-b230-ea71b1e47093",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In a long-term relationship, what is healthier: solving everything by talking or letting some things resolve with time?",
+  "tr": "Uzun ilişkide daha sağlıklı olan nedir: her şeyi konuşarak çözmek mi yoksa bazı şeyleri zamana bırakmak mı?",
+  "answers_en": [
+   "Solving everything by talking",
+   "Letting some things pass with time"
+  ],
+  "answers_tr": [
+   "Her şeyi konuşarak çözmek",
+   "Bazı şeyleri zamana bırakmak"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "a3f28e46-c315-4260-8130-3b9f5f03147d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "In a relationship, trust...",
+  "tr": "İlişkide güven...",
+  "answers_en": [
+   "Is built through open behavior",
+   "Forms silently over time"
+  ],
+  "answers_tr": [
+   "Açık davranışlarla kurulur",
+   "Zamanla sessizce oluşur"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "bab53c7d-eba6-4584-a606-4af030d5d86b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Differences with a partner...",
+  "tr": "Partnerle farklılıklar...",
+  "answers_en": [
+   "Are aligned through conversation",
+   "Are accepted and lived with"
+  ],
+  "answers_tr": [
+   "Konuşularak uyumlanır",
+   "Kabul edilerek yaşanır"
+  ],
+  "category": "long_term"
+ },
+ {
+  "id": "0972afde-efba-45c4-84f3-1ecccab07b8b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many kids would you want to have?",
+  "tr": "Kaç çocuk sahibi olmak isterdin?",
+  "category": "long_term"
+ },
+ {
+  "id": "877a7f71-261e-441f-ae71-d19aafbce112",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "If we won the lottery tomorrow, what's the first thing we should buy?",
+  "tr": "Yarın piyango bize çıksa ilk ne almalıyız?",
+  "category": "long_term"
+ },
+ {
+  "id": "7a6c7486-c2d0-4670-8265-229eb7648fa1",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "Which room in our future home matters most to you?",
+  "tr": "Gelecekteki evimizde senin için en önemli oda hangisi?",
+  "category": "long_term"
+ },
+ {
+  "id": "da02be22-6278-4003-867b-4669430cca9c",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "If we could live our love story in another decade, which one would you pick?",
+  "tr": "Aşk hikayemizi başka bir on yılda yaşayabilseydik hangisini seçerdin?",
+  "category": "long_term"
+ },
+ {
+  "id": "6a9340b3-6abd-422e-9d0d-2755d92b2626",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "What do you think is the perfect age to get married?",
+  "tr": "Sence evlenmek için en ideal yaş kaç?",
+  "category": "long_term"
+ },
+ {
+  "id": "84f363db-cdd5-4d66-b0ee-a92b4e42ea36",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "In which season would you want our wedding to be?",
+  "tr": "Düğünümüzün hangi mevsimde olmasını isterdin?",
+  "category": "long_term"
+ }
+]

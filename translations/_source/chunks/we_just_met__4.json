@@ -1,0 +1,904 @@
+[
+ {
+  "id": "b2e21ef2-40ff-43ce-8665-31fc326735d8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: posting every moment on social media or having no social media at all?",
+  "tr": "Hangisi seni daha çok soğutur: sosyal medyada her anını paylaşması mı, hiç sosyal medyası olmaması mı?",
+  "answers_en": [
+   "Posts every moment",
+   "No social media at all"
+  ],
+  "answers_tr": [
+   "Her anını paylaşması",
+   "Hiç sosyal medyası olmaması"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "125f2188-cb75-4827-bba0-a5721c1d2e63",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "On the first date, they keep showing you photos of themselves. Out of 10, what score do they drop to?",
+  "tr": "İlk buluşmada sürekli sana kendi fotoğraflarını gösteriyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "abb96582-9c4f-4d8e-87c3-439282f14837",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They bring a friend along to your first date. Out of 10, what score do they drop to?",
+  "tr": "İlk buluşmanıza bir arkadaşını da getiriyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "b94e3ab0-6f33-4e74-8909-a86affc709f8",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "Their texts are full of spelling mistakes. Out of 10, what score do they drop to?",
+  "tr": "Mesajları yazım hatalarıyla dolu. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "9dd33cdd-203d-49b4-ac8e-90c529ee3982",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They chew with their mouth open on your date. Out of 10, what score do they drop to?",
+  "tr": "Buluşmada ağzını şapırdatarak yemek yiyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "f17f2378-b71d-448f-a910-91514691cbee",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They call you \"babe\" on the first date. Out of 10, what score do they drop to?",
+  "tr": "İlk buluşmada sana \"aşkım\" diyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "44d96acd-17b5-4b5f-a320-c1803fc73ed3",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "When the bill comes, they split it down to the last cent: \"I didn't have that drink.\" Out of 10, what score do they drop to?",
+  "tr": "Hesap gelince \"ben onu içmedim\" deyip kuruşu kuruşuna bölüyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "ddf5199c-bd3b-4909-8d04-6f6e2951ffc6",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "Nobody can touch the food until they've taken a photo of it. Out of 10, what score do they drop to?",
+  "tr": "Fotoğrafını çekmeden kimsenin yemeğe dokunmasına izin vermiyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "7511a7b3-1b46-4b57-add4-b6dced443721",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "Mid-date, they video-call their mom and introduce you. Out of 10, what score do they drop to?",
+  "tr": "Buluşmanın ortasında annesini görüntülü arayıp seni tanıştırıyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "6273d5bb-2aa4-4236-9e4d-ad2b58f1d214",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They let you pick the place, then complain about it all night. Out of 10, what score do they drop to?",
+  "tr": "Mekanı seçmeyi sana bırakıyor, sonra bütün gece mekanı beğenmiyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "4368d704-52f8-4d12-b05a-6ffe29f0c12c",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They show up to your first date in sweatpants. Out of 10, what score do they drop to?",
+  "tr": "İlk buluşmaya eşofmanla geliyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "0a291386-f57e-4cd1-8c4a-b585cbd08dfd",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They reply to every text with a voice note. Out of 10, what score do they drop to?",
+  "tr": "Her mesajına sesli mesajla cevap veriyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "96a32a32-c92c-4e00-b24f-51b848ebecca",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They talk about themselves in the third person. Out of 10, what score do they drop to?",
+  "tr": "Kendinden üçüncü şahıs olarak bahsediyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "0b6fd4c0-2fdb-4c43-812f-077f6dc0615b",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They laugh so loud that the whole place turns to look. Out of 10, what score do they drop to?",
+  "tr": "O kadar yüksek sesle gülüyor ki bütün mekan dönüp bakıyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "91a24e9e-a8a6-497f-b828-394c850e07b2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "With someone new, which of these would you do first?",
+  "tr": "Yeni tanıştığın biriyle bunlardan hangisini ilk yaparsın?",
+  "answers_en": [
+   "Post them on your story",
+   "Introduce them to your friends",
+   "Go on a weekend getaway",
+   "Make a shared playlist"
+  ],
+  "answers_tr": [
+   "Story'de paylaşmak",
+   "Arkadaşlarınla tanıştırmak",
+   "Birlikte hafta sonu kaçamağı yapmak",
+   "Ortak playlist açmak"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "76536319-97cd-490d-9836-5f8187f0d46f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When you start seeing someone, which comes first for you?",
+  "tr": "Biriyle görüşmeye başlayınca senin için ilk hangisi olur?",
+  "answers_en": [
+   "Delete the dating apps",
+   "Share your location",
+   "Save their name with a heart",
+   "Post a photo together"
+  ],
+  "answers_tr": [
+   "Dating app'leri silmek",
+   "Konum paylaşmak",
+   "Telefona kalpli kaydetmek",
+   "Birlikte fotoğraf paylaşmak"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "f1ae02e8-b052-4b76-a32e-d4ce62d46246",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "With someone new, which would you be okay with first?",
+  "tr": "Yeni biriyle bunlardan hangisi sana ilk olarak normal gelir?",
+  "answers_en": [
+   "Leaving a toothbrush at your place",
+   "Coming over when you're sick",
+   "Having a spare key",
+   "Staying at your place while you're away"
+  ],
+  "answers_tr": [
+   "Evinde diş fırçası bırakması",
+   "Hastayken sana bakmaya gelmesi",
+   "Yedek anahtarının olması",
+   "Sen yokken evinde kalması"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "cd2b5109-18c4-46b4-8c38-1380eb70b2a2",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "With someone new, which would you do first?",
+  "tr": "Yeni biriyle bunlardan hangisini ilk yaparsın?",
+  "answers_en": [
+   "Cry in front of them",
+   "Talk about money problems",
+   "Let them see you at your worst look",
+   "Tell them something you've never told anyone"
+  ],
+  "answers_tr": [
+   "Önünde ağlamak",
+   "Para sıkıntını anlatmak",
+   "En dağınık halinle görünmek",
+   "Kimseye anlatmadığın bir şeyi anlatmak"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "1bc66b63-cc8e-424a-80f4-c6b7b3bbba3c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "When you start seeing someone, which would you do first?",
+  "tr": "Biriyle görüşmeye başlayınca bunlardan hangisini ilk yaparsın?",
+  "answers_en": [
+   "Invite them to your birthday",
+   "Bring them as your +1 to a wedding",
+   "Spend New Year's Eve together",
+   "Plan a vacation together"
+  ],
+  "answers_tr": [
+   "Doğum gününe çağırmak",
+   "Bir düğüne +1 olarak götürmek",
+   "Yılbaşını birlikte geçirmek",
+   "Birlikte tatil planlamak"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "aed88a42-6f84-4456-8aa7-669766f78264",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which wins you over more: someone who makes you laugh or someone who really listens?",
+  "tr": "Hangisi seni daha çok etkiler: seni güldürmesi mi, seni gerçekten dinlemesi mi?",
+  "answers_en": [
+   "Makes you laugh",
+   "Really listens"
+  ],
+  "answers_tr": [
+   "Seni güldürmesi",
+   "Seni gerçekten dinlemesi"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "a95cb18b-bd0a-42b1-b2d3-ad598f132ba6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which wins you over more: a date planned down to the details or a spontaneous last-minute idea?",
+  "tr": "Hangisi seni daha çok etkiler: buluşmayı en ince ayrıntısına kadar planlaması mı, anlık spontane bir şey önermesi mi?",
+  "answers_en": [
+   "Planned to the details",
+   "A spontaneous idea"
+  ],
+  "answers_tr": [
+   "En ince ayrıntısına kadar planlaması",
+   "Spontane bir şey önermesi"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "3d173579-d941-4634-b884-665b6e4fe6eb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which wins you over more: remembering a small detail you mentioned or surprising you?",
+  "tr": "Hangisi seni daha çok etkiler: bahsettiğin küçük bir detayı hatırlaması mı, sana sürpriz yapması mı?",
+  "answers_en": [
+   "Remembering a small detail",
+   "Surprising you"
+  ],
+  "answers_tr": [
+   "Küçük bir detayı hatırlaması",
+   "Sürpriz yapması"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "0b5becd8-64bd-4166-a997-e0a4e90d99f5",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which attracts you more: someone confident or someone a little shy?",
+  "tr": "Hangisi seni daha çok çeker: kendinden emin olması mı, biraz utangaç olması mı?",
+  "answers_en": [
+   "Confident",
+   "A little shy"
+  ],
+  "answers_tr": [
+   "Kendinden emin",
+   "Biraz utangaç"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "e1bf3858-7a28-4bb5-b306-cbb230ca1d89",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which attracts you more: a nice voice or a nice smile?",
+  "tr": "Hangisi seni daha çok çeker: sesinin güzel olması mı, gülüşünün güzel olması mı?",
+  "answers_en": [
+   "A nice voice",
+   "A nice smile"
+  ],
+  "answers_tr": [
+   "Güzel ses",
+   "Güzel gülüş"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "58cb7a84-520d-4e1e-a840-a01661805b2a",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "After how many weeks of talking should you have the \"what are we?\" talk?",
+  "tr": "Kaç haftalık konuşmadan sonra \"biz neyiz?\" konuşması yapılmalı?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "e3bfce26-3369-44e3-8e06-8841c696cdcd",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Where would you most like to meet someone new?",
+  "tr": "Yeni biriyle en çok nerede tanışmak isterdin?",
+  "answers_en": [
+   "On a dating app",
+   "Through friends",
+   "At a party or a bar",
+   "By chance in daily life",
+   "On social media"
+  ],
+  "answers_tr": [
+   "Bir tanışma uygulamasında",
+   "Arkadaşlar aracılığıyla",
+   "Bir partide ya da barda",
+   "Gündelik hayatta tesadüfen",
+   "Sosyal medyada"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "a4750d8e-f80d-409d-884b-a642b1b6dcd6",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "On the second date, they say \"I've never felt this way about anyone.\" What do you do?",
+  "tr": "İkinci buluşmada \"Hiç kimseye böyle hissetmemiştim\" diyor. Ne yaparsın?",
+  "answers_en": [
+   "Melt, I love it",
+   "Feel flattered, but stay cautious",
+   "Red flag, way too fast",
+   "Say it back"
+  ],
+  "answers_tr": [
+   "Eririm, bayılırım",
+   "Hoşuma gider ama temkinli olurum",
+   "Kırmızı bayrak, çok hızlı",
+   "Ben de aynısını söylerim"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "9ac2b9fd-533c-407e-b82b-6935fec25be7",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "On the first date, they ask how much you earn. Out of 10, what score do they drop to?",
+  "tr": "İlk buluşmada ne kadar kazandığını soruyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "c0bef968-f505-44bc-87ab-8cbde316e110",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "On the first date, they pull out a discount coupon. Out of 10, what score do they drop to?",
+  "tr": "İlk buluşmada indirim kuponu çıkarıyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "24b88807-660c-4370-a23b-c312eb1fa5d4",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "It's your third date and they still haven't tried to kiss you. What do you do?",
+  "tr": "Üçüncü buluşmanız ve hâlâ seni öpmeye çalışmadı. Ne yaparsın?",
+  "answers_en": [
+   "Make the first move myself",
+   "Wait, there's no rush",
+   "Start wondering if they're into me",
+   "Ask them directly"
+  ],
+  "answers_tr": [
+   "İlk adımı ben atarım",
+   "Beklerim, acelesi yok",
+   "Benden hoşlanıyor mu diye düşünmeye başlarım",
+   "Direkt sorarım"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "0f374e99-c247-4f9c-bbc6-59e5974d0741",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They forget something you told them on your first date. How do you feel?",
+  "tr": "İlk buluşmada anlattığın bir şeyi unutmuş. Ne hissedersin?",
+  "answers_en": [
+   "Not a big deal",
+   "A little disappointed",
+   "It means they weren't really listening"
+  ],
+  "answers_tr": [
+   "Önemli değil",
+   "Biraz hayal kırıklığı",
+   "Demek ki beni gerçekten dinlememiş"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "a969d002-3891-4a18-a767-6c5373b1d28a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which wins you over more: a handwritten note or a playlist made just for you?",
+  "tr": "Hangisi seni daha çok etkiler: elle yazılmış bir not mu, sadece senin için hazırlanmış bir çalma listesi mi?",
+  "answers_en": [
+   "A handwritten note",
+   "A playlist made for me"
+  ],
+  "answers_tr": [
+   "Elle yazılmış not",
+   "Benim için hazırlanmış çalma listesi"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "56c6743f-a1c8-4be0-8dc7-bbeb9b977d38",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They tell the waiter \"We're on a first date!\" Out of 10, what score do they drop to?",
+  "tr": "Garsona \"İlk buluşmamız!\" diyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "f9cf2832-da5d-4f1f-ad46-f011c7282e4d",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "You've been dating for a month. What's the right first gift?",
+  "tr": "Bir aydır görüşüyorsunuz. İlk hediye ne olmalı?",
+  "answers_en": [
+   "Something small but thoughtful",
+   "Flowers",
+   "Nothing yet, it's too early",
+   "Something expensive to impress"
+  ],
+  "answers_tr": [
+   "Küçük ama düşünülmüş bir şey",
+   "Çiçek",
+   "Henüz hiçbir şey, çok erken",
+   "Etkilemek için pahalı bir şey"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "d576e86d-b1d4-4c38-a056-f1141160b590",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which attracts you more: someone with a clear plan for their life or someone who goes with the flow?",
+  "tr": "Hangisi seni daha çok çeker: hayatı için net bir planı olan biri mi, akışına bırakan biri mi?",
+  "answers_en": [
+   "A clear plan for their life",
+   "Goes with the flow"
+  ],
+  "answers_tr": [
+   "Hayatı için net bir planı olan",
+   "Akışına bırakan"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "0186074f-f074-4446-b042-ca7e9247e1cc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They cook for you and it's honestly terrible. What do you do?",
+  "tr": "Sana yemek yapıyor ve yemek gerçekten berbat. Ne yaparsın?",
+  "answers_en": [
+   "Eat it all with a smile",
+   "Eat a little and gently tell the truth",
+   "Make a joke about it",
+   "Suggest we order something"
+  ],
+  "answers_tr": [
+   "Gülümseyerek hepsini yerim",
+   "Biraz yer, kibarca doğruyu söylerim",
+   "Şakaya vururum",
+   "Sipariş verelim mi derim"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "2509137a-251a-41b6-b10e-b4e1f7ca4da9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you start seeing someone who lives in another city?",
+  "tr": "Başka bir şehirde yaşayan biriyle görüşmeye başlar mısın?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "4bbac10f-fb66-4378-be37-a399f606ae2f",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "For the second date, they suggest their hobby that you've never tried. What do you do?",
+  "tr": "İkinci buluşma için hiç denemediğin bir hobisini öneriyor. Ne yaparsın?",
+  "answers_en": [
+   "Jump in, sounds fun",
+   "Go, but a bit nervous",
+   "Suggest something else",
+   "Say it's not for me"
+  ],
+  "answers_tr": [
+   "Hemen varım, eğlenceli olur",
+   "Giderim ama biraz gerilirim",
+   "Başka bir şey öneririm",
+   "Bana göre olmadığını söylerim"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "96dd7fb8-e845-4e6b-a7de-0fada99a35ab",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: bragging about money or always complaining about money?",
+  "tr": "Hangisi seni daha çok soğutur: parayla hava atması mı, sürekli paradan şikayet etmesi mi?",
+  "answers_en": [
+   "Bragging about money",
+   "Always complaining about money"
+  ],
+  "answers_tr": [
+   "Parayla hava atması",
+   "Sürekli paradan şikayet etmesi"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "1d5c05ff-2738-4558-9f0a-efd6cb6e2bf8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "What tells you most that someone is into you?",
+  "tr": "Birinin senden hoşlandığını en çok ne gösterir?",
+  "answers_en": [
+   "How fast they reply",
+   "They plan the next date",
+   "They ask a lot about me",
+   "Their body language"
+  ],
+  "answers_tr": [
+   "Ne kadar hızlı cevap verdiği",
+   "Bir sonraki buluşmayı planlaması",
+   "Benimle ilgili çok soru sorması",
+   "Beden dili"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "37a4b498-8f1d-4740-923e-2165e8b08457",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "After your first date, they send a long message about how much they enjoyed it. How do you feel?",
+  "tr": "İlk buluşmadan sonra ne kadar keyif aldığını anlatan uzun bir mesaj atıyor. Ne hissedersin?",
+  "answers_en": [
+   "Love it",
+   "Cute, but a bit much",
+   "Too intense, it scares me off"
+  ],
+  "answers_tr": [
+   "Bayılırım",
+   "Tatlı ama biraz fazla",
+   "Çok yoğun, beni soğutur"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "3a3a17ca-df5d-4a0c-9477-da964cfb471b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They show up to your first date with flowers. How do you feel?",
+  "tr": "İlk buluşmaya çiçekle geliyor. Ne hissedersin?",
+  "answers_en": [
+   "Love it, so sweet",
+   "Sweet, but awkward to carry around all night",
+   "Too much for a first date"
+  ],
+  "answers_tr": [
+   "Bayılırım, çok tatlı",
+   "Tatlı ama bütün gece elimde taşımak garip",
+   "İlk buluşma için fazla"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "509690bc-b54a-4e17-9080-4c04c87541c3",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Halfway through the date, you realize you're not into them. What do you do?",
+  "tr": "Buluşmanın ortasında ondan hoşlanmadığını fark ediyorsun. Ne yaparsın?",
+  "answers_en": [
+   "Finish the date politely",
+   "Cut it short with an excuse",
+   "Tell them honestly",
+   "Get a friend to call with a fake emergency"
+  ],
+  "answers_tr": [
+   "Buluşmayı kibarca bitiririm",
+   "Bir bahaneyle kısa keserim",
+   "Dürüstçe söylerim",
+   "Bir arkadaşıma sahte acil durum araması yaptırırım"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "5f774143-d352-4756-b32a-a6c502a594e9",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They correct your grammar during the date. Out of 10, what score do they drop to?",
+  "tr": "Buluşma sırasında dil bilgisi hatalarını düzeltiyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "d9c822f9-0c0c-4348-8e9e-3d2873d20d44",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How long should a first hug last, in seconds?",
+  "tr": "İlk sarılma kaç saniye sürmeli?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "3a846774-458e-48e7-94ac-35ac1ed66723",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They check their reflection in every window you walk past. Out of 10, what score do they drop to?",
+  "tr": "Önünden geçtiğiniz her vitrinde kendine bakıyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "77574632-f237-4a7a-af8a-16f63041d6fe",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "On the first date, they ask \"So why are you single?\" What do you do?",
+  "tr": "İlk buluşmada \"Peki sen neden bekarsın?\" diye soruyor. Ne yaparsın?",
+  "answers_en": [
+   "Answer honestly",
+   "Laugh it off with a joke",
+   "Ask them the same thing back",
+   "Find it a weird question"
+  ],
+  "answers_tr": [
+   "Dürüstçe cevap veririm",
+   "Şakayla geçiştiririm",
+   "Aynı soruyu ona sorarım",
+   "Garip bir soru olarak bulurum"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "5e952fa0-bed1-4717-8caa-4119278e8391",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which wins you over more: someone who's amazing over text or someone who's amazing in person?",
+  "tr": "Hangisi seni daha çok etkiler: mesajlaşırken harika olan biri mi, yüz yüzeyken harika olan biri mi?",
+  "answers_en": [
+   "Amazing over text",
+   "Amazing in person"
+  ],
+  "answers_tr": [
+   "Mesajlaşırken harika",
+   "Yüz yüzeyken harika"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "f0726201-11ea-476c-88d9-a86ca0ab1c0b",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Would you go on a blind date a friend set up, without seeing a photo first?",
+  "tr": "Bir arkadaşının ayarladığı biriyle, fotoğrafını görmeden buluşmaya gider misin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "426fe6d2-47b9-4935-a993-c3742dae971f",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They pay for the date with their parents' credit card. Out of 10, what score do they drop to?",
+  "tr": "Buluşmanın hesabını ailesinin kredi kartıyla ödüyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "e70a355f-92db-47ef-8640-7cf10d74d366",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They suggest sharing a dessert, then eat almost all of it. What do you do?",
+  "tr": "Tatlıyı paylaşalım diyor, sonra neredeyse hepsini kendisi yiyor. Ne yaparsın?",
+  "answers_en": [
+   "Laugh, it's cute",
+   "Tease them about it",
+   "Order another one for myself",
+   "Quietly make a mental note"
+  ],
+  "answers_tr": [
+   "Gülerim, tatlı bir şey",
+   "Bununla dalga geçerim",
+   "Kendime bir tane daha söylerim",
+   "Sessizce aklımın bir köşesine yazarım"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "cc7cdfce-f102-4924-a15a-428fe1f01c5c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which turns you off more: no sense of style or trying way too hard?",
+  "tr": "Hangisi seni daha çok soğutur: hiç tarzı olmaması mı, çok fazla çabalaması mı?",
+  "answers_en": [
+   "No sense of style",
+   "Trying way too hard"
+  ],
+  "answers_tr": [
+   "Hiç tarzı olmaması",
+   "Çok fazla çabalaması"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "27981878-ef1d-4561-9d9f-58ca583788cf",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "After just two dates, they want to video call every night. How do you feel?",
+  "tr": "Sadece iki buluşmadan sonra her gece görüntülü konuşmak istiyor. Ne hissedersin?",
+  "answers_en": [
+   "Love it",
+   "Fine sometimes, not every night",
+   "Too much, too soon"
+  ],
+  "answers_tr": [
+   "Bayılırım",
+   "Arada bir olur, her gece değil",
+   "Çok erken, çok fazla"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "b230407f-3278-456c-b2bf-1fa8b314b92c",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "They get a little tipsy on your first date. How do you feel?",
+  "tr": "İlk buluşmanızda biraz çakırkeyif oluyor. Ne hissedersin?",
+  "answers_en": [
+   "Fun, it loosens things up",
+   "Fine, as long as it stays light",
+   "A turn-off",
+   "Make sure they get home safe"
+  ],
+  "answers_tr": [
+   "Eğlenceli, ortam rahatlar",
+   "Sorun değil, ölçüyü kaçırmadıkça",
+   "Soğutur",
+   "Eve sağ salim gittiğinden emin olurum"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "9effa5fe-d2d6-4990-94f9-68ba44015a64",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which wins you over more: a smooth pickup line or an awkward, honest \"I think you're cute\"?",
+  "tr": "Hangisi seni daha çok etkiler: havalı bir tavlama cümlesi mi, sakar ama dürüst bir \"bence çok tatlısın\" mı?",
+  "answers_en": [
+   "A smooth pickup line",
+   "An awkward, honest compliment"
+  ],
+  "answers_tr": [
+   "Havalı bir tavlama cümlesi",
+   "Sakar ama dürüst bir iltifat"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "081089e4-8c91-4803-a20f-fc33ee46f1bb",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "A song you both love comes on, and they start singing out loud in public. What do you do?",
+  "tr": "İkinizin de sevdiği bir şarkı çalıyor ve herkesin içinde yüksek sesle söylemeye başlıyor. Ne yaparsın?",
+  "answers_en": [
+   "Join in",
+   "Laugh and film it",
+   "Feel embarrassed",
+   "Love the energy, but stay quiet"
+  ],
+  "answers_tr": [
+   "Ben de katılırım",
+   "Gülüp videoya çekerim",
+   "Utanırım",
+   "Enerjisine bayılırım ama ben susarım"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "ae914c7b-0a58-44ae-ae10-b58a248728fb",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "After how many dates would you go on a weekend trip together?",
+  "tr": "Kaç buluşmadan sonra birlikte bir hafta sonu tatiline gidersin?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "edb7e967-3a36-4adb-b55f-e4660c847d6a",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They spend the whole date complaining about their job. Out of 10, what score do they drop to?",
+  "tr": "Bütün buluşma boyunca işinden şikayet ediyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "7a5ec267-e342-468f-bbba-7370d91f8ecc",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "It starts pouring rain on your walk and nobody has an umbrella. What do you do?",
+  "tr": "Yürürken sağanak yağmur başlıyor ve kimsede şemsiye yok. Ne yaparsın?",
+  "answers_en": [
+   "Run for cover laughing",
+   "Dance in the rain",
+   "Call a taxi right away",
+   "Share a jacket and keep walking"
+  ],
+  "answers_tr": [
+   "Gülerek bir yere sığınırız",
+   "Yağmurda dans ederim",
+   "Hemen taksi çağırırım",
+   "Bir ceketi paylaşıp yürümeye devam ederiz"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "7378fa18-c11d-4566-83e6-9ee68d7c53a9",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which attracts you more: a morning person or a night owl?",
+  "tr": "Hangisi seni daha çok çeker: sabahçı biri mi, gece kuşu biri mi?",
+  "answers_en": [
+   "A morning person",
+   "A night owl"
+  ],
+  "answers_tr": [
+   "Sabahçı",
+   "Gece kuşu"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "0b4e55e8-2a68-40f6-a431-c6455f6e7bd8",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "After three dates, they still haven't followed you on social media. What do you do?",
+  "tr": "Üç buluşmadan sonra hâlâ seni sosyal medyada takip etmedi. Ne yaparsın?",
+  "answers_en": [
+   "Doesn't matter to me",
+   "Follow them first",
+   "Start wondering why",
+   "Ask them about it"
+  ],
+  "answers_tr": [
+   "Benim için önemli değil",
+   "İlk ben takip ederim",
+   "Neden diye düşünmeye başlarım",
+   "Ona sorarım"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "b92ab70e-57ad-46d9-bbfc-957ae51e4d9d",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "They talk about their crypto investments all night. Out of 10, what score do they drop to?",
+  "tr": "Bütün gece kripto yatırımlarını anlatıyor. 10 puandan kaç puana düşer?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "b5861af8-2dea-46b5-bcc9-1a6e26e6be5a",
+  "mode": "see_your_match",
+  "type": "choice",
+  "en": "Which wins you over more: someone who cooks you dinner or someone who takes you to their favorite spot?",
+  "tr": "Hangisi seni daha çok etkiler: sana akşam yemeği hazırlayan biri mi, seni en sevdiği mekana götüren biri mi?",
+  "answers_en": [
+   "Cooks me dinner",
+   "Takes me to their favorite spot"
+  ],
+  "answers_tr": [
+   "Bana yemek hazırlaması",
+   "Beni en sevdiği mekana götürmesi"
+  ],
+  "category": "we_just_met"
+ },
+ {
+  "id": "86ab68e2-ba49-4ba4-abd7-529512d370ce",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many minutes into a first date do you know if you like someone?",
+  "tr": "İlk buluşmanın kaçıncı dakikasında birinden hoşlanıp hoşlanmadığını anlarsın?",
+  "category": "we_just_met"
+ },
+ {
+  "id": "2a28efa4-4ab1-4d2e-8173-d3d510ca3fde",
+  "mode": "see_your_match",
+  "type": "text",
+  "en": "How many hours after a great first date should you text?",
+  "tr": "Harika bir ilk buluşmadan kaç saat sonra mesaj atılmalı?",
+  "category": "we_just_met"
+ }
+]

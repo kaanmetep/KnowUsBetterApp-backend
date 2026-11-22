@@ -1,0 +1,69 @@
+{
+  "df0f185f-6d69-4ba4-9994-5996b2f0bf68": {
+    "en": "Looking at your partner's phone is…",
+    "text": "Op de telefoon van je partner kijken is…",
+    "answers": [
+      "Nooit oké, dat is privé",
+      "Prima, met toestemming",
+      "Prima, we hebben niets te verbergen",
+      "Iets wat ik weleens zonder te vragen heb gedaan"
+    ]
+  },
+  "dd3aaedc-07ee-412b-bb83-7c23dbb377c1": {
+    "en": "Someone gives your partner a lot of attention. You…",
+    "text": "Iemand geeft je partner veel aandacht. Hoe reageer je?",
+    "answers": [
+      "Het maakt me niets uit",
+      "Een klein steekje, maar ik vertrouw mijn partner",
+      "Ik zou het erover willen hebben",
+      "Ik zou openlijk jaloers worden"
+    ]
+  },
+  "fbf507be-cbda-4663-9a38-9a01f9393e66": {
+    "en": "Your partner staying friends with an ex is…",
+    "text": "Dat je partner bevriend blijft met een ex is…",
+    "answers": [
+      "Helemaal prima",
+      "Prima als er niets meer speelt",
+      "Ongemakkelijk voor mij",
+      "Een absolute no-go"
+    ]
+  },
+  "785701ac-e83a-456a-9d90-e85d4aca204d": {
+    "en": "How often do you feel jealous, even if you don't show it?",
+    "text": "Hoe vaak ben je jaloers, ook al laat je het niet merken?",
+    "answers": [
+      "Vaak",
+      "Soms",
+      "Zelden",
+      "Nooit"
+    ]
+  },
+  "9ba59f61-1758-4d30-ba63-f6104de991cd": {
+    "en": "What would damage your trust the most?",
+    "text": "Wat zou je vertrouwen het meest schaden?",
+    "answers": [
+      "Een leugen, ook een kleine",
+      "Stiekeme gesprekken met iemand",
+      "Een belofte die meer dan eens wordt gebroken",
+      "Onze privézaken die met anderen worden gedeeld"
+    ]
+  },
+  "18def8e1-5fa7-44a3-85e4-81cb688a31db": {
+    "en": "How much do you want to know about each other's day?",
+    "text": "Hoeveel wil je weten over elkaars dag?",
+    "answers": [
+      "Alles, waar en met wie",
+      "De belangrijkste dingen",
+      "Alleen wat mijn partner wil delen"
+    ]
+  },
+  "b0a8928f-0b53-439c-9f66-ca1a6c92eb86": {
+    "en": "What makes you feel completely secure with your partner?",
+    "text": "Waardoor voel je je helemaal veilig bij je partner?"
+  },
+  "e045d939-d801-4bea-b637-ed0df364efa8": {
+    "en": "Is there anything that makes you even slightly insecure in this relationship? Be honest.",
+    "text": "Is er iets waardoor je je in deze relatie ook maar een beetje onzeker voelt? Wees eerlijk."
+  }
+}

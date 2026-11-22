@@ -1,0 +1,1253 @@
+{
+  "a76a2d11-aeaa-4ea4-91fe-2bfc67c9b4ee": {
+    "en": "Have you ever kept a secret from a close friend?",
+    "text": "Heb je ooit iets geheimgehouden voor een goede vriend?"
+  },
+  "a2574b99-8b8b-4f57-a394-6af757de58fc": {
+    "en": "Have you ever ended a friendship without explaining why?",
+    "text": "Heb je ooit een vriendschap beëindigd zonder uit te leggen waarom?"
+  },
+  "4c272380-343e-41d5-a398-4c4fcc2393a4": {
+    "en": "Have you ever regretted trusting someone too quickly?",
+    "text": "Heb je ooit spijt gehad dat je iemand te snel vertrouwde?"
+  },
+  "3fce436d-bf31-4be9-8add-95f13c0fcdac": {
+    "en": "Have you ever felt jealous of a friend's success?",
+    "text": "Ben je ooit jaloers geweest op het succes van een vriend?"
+  },
+  "9c806b2a-139b-4619-a67e-4409da20bcc9": {
+    "en": "Have you ever apologized even though you didn’t think you were wrong?",
+    "text": "Heb je ooit sorry gezegd terwijl je vond dat je niks fout had gedaan?"
+  },
+  "0dbafd24-b1dd-4ecd-b1e2-88f673a60613": {
+    "en": "Have you ever trusted someone who didn’t deserve it?",
+    "text": "Heb je ooit iemand vertrouwd die dat niet verdiende?"
+  },
+  "2924f8e7-4561-47d2-8135-81cf04ebe967": {
+    "en": "Have you ever ignored a message from a friend on purpose?",
+    "text": "Heb je ooit expres een appje van een vriend genegeerd?"
+  },
+  "9741b4d7-889c-4894-b559-c3f66ce2d8c0": {
+    "en": "Have you ever shared something private with the wrong person?",
+    "text": "Heb je ooit iets persoonlijks met de verkeerde persoon gedeeld?"
+  },
+  "4486c9a6-d2b2-4540-8644-03cd4ef2e13a": {
+    "en": "Have you ever chosen your friend over your partner?",
+    "text": "Heb je ooit voor een vriend gekozen in plaats van voor je partner?"
+  },
+  "479b8431-53a3-462f-9785-3d70008bbd20": {
+    "en": "Would you stay friends with an ex-partner?",
+    "text": "Zou je bevriend blijven met een ex?"
+  },
+  "f1152066-83ba-4c0c-a1f0-093b14c8b069": {
+    "en": "Do you believe you know yourself completely?",
+    "text": "Denk je dat je jezelf helemaal kent?"
+  },
+  "9ef4e846-52f9-4144-a18f-cedffa321545": {
+    "en": "Have you ever ended a friendship because your lifestyles were too different?",
+    "text": "Heb je ooit een vriendschap beëindigd omdat jullie te anders in het leven stonden?"
+  },
+  "48f95dce-4d8a-4fbb-9150-baba0bf7376a": {
+    "en": "Do you believe that friendships can last forever?",
+    "text": "Geloof je dat vriendschappen voor altijd kunnen duren?"
+  },
+  "b9a730b9-929e-45c8-9108-f0836b286438": {
+    "en": "Have you ever felt like you were giving more effort than your friend?",
+    "text": "Heb je ooit het gevoel gehad dat jij meer moeite deed in een vriendschap?"
+  },
+  "94981afe-79fa-4085-b6a2-cd42c7ac5800": {
+    "en": "Have you ever reconnected with a friend after a long time apart?",
+    "text": "Heb je ooit na lange tijd weer contact gezocht met een oude vriend?"
+  },
+  "3b2f524c-98cf-4ac0-9dfe-f822ee4c1fcc": {
+    "en": "Would you message an old friend to make peace?",
+    "text": "Zou je een oude vriend een berichtje sturen om het goed te maken?"
+  },
+  "dc5dc001-691c-47f8-9cc2-0518e6e920d8": {
+    "en": "Do you think the person you are today is who you truly wanted to become?",
+    "text": "Denk je dat je nu bent wie je echt wilde worden?"
+  },
+  "604a53b7-0d5d-4881-acb1-ef4c66be7893": {
+    "en": "Would you marry a friend if you reach 30 and find no one?",
+    "text": "Zou je met iemand uit je vriendengroep trouwen als je op je 30e nog niemand hebt gevonden?",
+    "note": "'a friend' rendered as 'iemand uit je vriendengroep' to avoid gendered vriend/vriendin in a romantic context."
+  },
+  "a32f5825-7334-4307-831f-c4bb0c024527": {
+    "en": "Would you get involved in your friend's relationship decisions?",
+    "text": "Zou je je bemoeien met de relatiekeuzes van je vrienden?"
+  },
+  "fb251482-1fac-46cf-bf85-b3d27110335f": {
+    "en": "Would you want your friend to interfere in your relationship?",
+    "text": "Wil je dat je vrienden zich met je relatie bemoeien?"
+  },
+  "6036b346-3ea2-4404-a7e1-7c30a0ec22c0": {
+    "en": "Do you believe that men and women can be just friends?",
+    "text": "Geloof je dat mannen en vrouwen gewoon vrienden kunnen zijn?"
+  },
+  "bd04cdb5-6343-4875-980f-c340449f6b57": {
+    "en": "Have you ever had an opposite-sex friend you stayed close with for a long time?",
+    "text": "Heb je ooit lang een hechte vriendschap gehad met iemand van het andere geslacht?",
+    "flagged": true,
+    "note": "Source assumes a gender binary ('opposite sex'); kept literal, doesn't reveal player's gender but may feel heteronormative."
+  },
+  "db880921-8caf-4a1d-8391-e7aeb26d5dc7": {
+    "en": "If you do not like your friend's partner, would you tell them?",
+    "text": "Als je de partner van een vriend niet mag, zou je dat dan zeggen?"
+  },
+  "e5ef89d4-f7f5-4c0e-9bf5-ea3e13031a8c": {
+    "en": "If your friend dates someone you dislike, would you end the friendship?",
+    "text": "Als een vriend iets krijgt met iemand die je niet mag, zou je de vriendschap dan verbreken?"
+  },
+  "e0d04d04-aa00-4c84-bcfb-881361a82be5": {
+    "en": "Do you believe long-term friendships are possible?",
+    "text": "Geloof je in vriendschappen voor het leven?"
+  },
+  "d0639d2c-258d-4d36-832b-842e6b52ee4c": {
+    "en": "Do you have friends you stay close to even without regular contact?",
+    "text": "Heb je vrienden met wie het goed blijft, ook zonder vaak contact?"
+  },
+  "a3ddb95a-24aa-4a29-949f-79889f10ddcc": {
+    "en": "Would you get annoyed if your friend keeps you waiting?",
+    "text": "Erger je je als een vriend je laat wachten?"
+  },
+  "5d796767-8cc5-431b-b5ad-b3a6f33f64cf": {
+    "en": "If your partner asked you to stop talking to a friend, would you do it?",
+    "text": "Als je partner zou vragen om niet meer met een vriend te praten, zou je dat doen?"
+  },
+  "e6e52f89-0870-4970-9f5a-b5b4741216b0": {
+    "en": "Do you maintain good relationships with friends from different countries?",
+    "text": "Hou je goed contact met vrienden uit andere landen?"
+  },
+  "3102138c-c867-425a-98fd-d9c35cac8a9b": {
+    "en": "Would you continue a friendship with people whose views you disagree with?",
+    "text": "Zou je bevriend blijven met mensen met wie je het niet eens bent?"
+  },
+  "3403d85a-a7ae-4759-b627-46cb7e2287d4": {
+    "en": "Have you ever been betrayed by a friend?",
+    "text": "Ben je ooit verraden door een vriend?"
+  },
+  "0588bdf0-7b25-4c73-92a6-00fe19080183": {
+    "en": "Have you ever betrayed a friend?",
+    "text": "Heb je ooit een vriend verraden?"
+  },
+  "9f61963e-ef73-4d2a-a108-8788c781c036": {
+    "en": "Would you ask your friends to return money you lent them?",
+    "text": "Zou je geleend geld terugvragen aan je vrienden?"
+  },
+  "a3d59d54-8850-46e2-9bb2-1125148aebcf": {
+    "en": "Would it bother you if a friend asked you to return money they lent you?",
+    "text": "Zou je het vervelend vinden als een vriend je vraagt geleend geld terug te betalen?"
+  },
+  "6746bd67-c0ef-46aa-a2c3-dfab5234341f": {
+    "en": "Do you pay back your friends on time?",
+    "text": "Betaal je je vrienden altijd op tijd terug?"
+  },
+  "a5404a83-2a72-4b9c-aca7-0c5e6cc77fc2": {
+    "en": "Do you get along well with your friend's families?",
+    "text": "Kun je goed opschieten met de familie van je vrienden?"
+  },
+  "0667992f-49f5-42f3-bcd4-cc5626feea01": {
+    "en": "Would you introduce your friends to your family?",
+    "text": "Zou je je vrienden aan je familie voorstellen?"
+  },
+  "aae21c2f-9de5-4456-adc1-eba72108ef9b": {
+    "en": "Would you introduce your friend to your partner?",
+    "text": "Zou je je vrienden aan je partner voorstellen?"
+  },
+  "5341cb61-0a8e-4848-b2a5-32f8b43656f4": {
+    "en": "Do you like your friend's Instagram stories?",
+    "text": "Like je de Instagram-stories van je vrienden?"
+  },
+  "a8afd3b9-7b97-4874-83ee-06aa92b6cf35": {
+    "en": "Do you believe that a person can change their destiny with the choices they make?",
+    "text": "Geloof je dat je met je keuzes je lot kunt veranderen?"
+  },
+  "6e0ab277-84ad-4dad-9719-677b7e583d65": {
+    "en": "Do you have a close friends list or a private account on social media?",
+    "text": "Heb je een close friends-lijst of een privéaccount op social media?"
+  },
+  "866cc351-c73d-44e8-a94e-26f20ca6375e": {
+    "en": "Do you believe that even your closest friends might secretly envy your success?",
+    "text": "Denk je dat zelfs je beste vrienden stiekem jaloers zijn op je succes?"
+  },
+  "ff350837-4cca-4972-9f75-3a7d85e1d892": {
+    "en": "Would you let a friend use your car?",
+    "text": "Zou je een vriend met je auto laten rijden?"
+  },
+  "490bbcc4-3454-4d35-879e-13652017c4bc": {
+    "en": "Do you constantly question your purpose in this world?",
+    "text": "Vraag je je constant af wat je doel is in deze wereld?"
+  },
+  "36cd5f8d-45cf-451d-bd2f-bd912e1e1f87": {
+    "en": "Would you share your room with a friend?",
+    "text": "Zou je je kamer met een vriend delen?"
+  },
+  "e65ed24a-9d70-4bb5-a43d-e2a6b09ca93c": {
+    "en": "Would you eat from the same plate as your friend?",
+    "text": "Zou je met een vriend van hetzelfde bord eten?"
+  },
+  "fb0c893c-1702-43a5-919e-990fe5850e4b": {
+    "en": "Do you like giving relationship advice to your friends?",
+    "text": "Geef je je vrienden graag relatieadvies?"
+  },
+  "a85cccb3-3565-47d8-b01e-c4994dbc738b": {
+    "en": "Do you like gossiping with your friends?",
+    "text": "Roddel je graag met je vrienden?"
+  },
+  "60a273fa-a707-4ff2-af68-3eaa00bcb00a": {
+    "en": "If your sweatshirt stayed with a friend, would you want it back?",
+    "text": "Als je hoodie bij een vriend was blijven liggen, zou je die terugvragen?"
+  },
+  "2a7b5e54-a35c-4222-94db-5604ef6ff521": {
+    "en": "Do you think friends should lend money to each other when asked?",
+    "text": "Vind je dat vrienden elkaar geld moeten lenen als het gevraagd wordt?"
+  },
+  "d14dc487-ef43-4f80-934d-3da11c4645bd": {
+    "en": "If two people in your group of three stopped talking, would you take sides?",
+    "text": "Als de andere twee in je vriendengroepje van drie niet meer met elkaar praten, zou je dan partij kiezen?"
+  },
+  "358ce8a0-4d0f-4e4a-a9ab-4d17bce190dc": {
+    "en": "If your friend became homeless, would you let them stay in your house for a year?",
+    "text": "Als een vriend dakloos werd, zou je die dan een jaar bij je laten wonen?"
+  },
+  "f5016fd4-e85a-4f44-a6e7-3480dfc318e2": {
+    "en": "If your friend had bad habits, would you continue your friendship?",
+    "text": "Zou je bevriend blijven met iemand met slechte gewoontes?"
+  },
+  "d09f45b0-b833-4273-9dc6-837da0408b6b": {
+    "en": "Is your friend's religious belief important to you?",
+    "text": "Vind je het geloof van je vrienden belangrijk?"
+  },
+  "70eabbeb-a65f-4616-afbc-84cf134c985a": {
+    "en": "Would you date your friend's ex if they had feelings for you?",
+    "text": "Als de ex van een vriend gevoelens voor je had, zou je dan iets met diegene beginnen?"
+  },
+  "f06c0817-7f8d-48c4-9214-b515e112a31d": {
+    "en": "Would you date someone with a very different music taste?",
+    "text": "Zou je daten met iemand met een totaal andere muzieksmaak?"
+  },
+  "bd3487cc-2911-4c0d-b46f-5fd2bc55332d": {
+    "en": "Do you swear often?",
+    "text": "Vloek je vaak?"
+  },
+  "f7b39a40-cab5-4bac-8dc1-e50a12e37459": {
+    "en": "If someone offered you 1 million dollars to date your friend, would you accept?",
+    "text": "Als je 1 miljoen dollar kreeg om iets te beginnen met iemand uit je vriendengroep, zou je dan ja zeggen?"
+  },
+  "b8699a10-76fe-421a-898d-0d6c91a4392f": {
+    "en": "Do you have a friendship that has lasted more than 10 years?",
+    "text": "Heb je een vriendschap die al meer dan 10 jaar duurt?"
+  },
+  "e6297b54-f961-4c0b-892f-bc95baceb49e": {
+    "en": "Do you often hide your true feelings to keep the peace?",
+    "text": "Verberg je vaak wat je echt voelt om de lieve vrede te bewaren?"
+  },
+  "44e89723-382d-4e81-a4ce-a775b0f88494": {
+    "en": "Has a close friend ever had a crush on you?",
+    "text": "Is een goede vriend ooit verliefd op je geweest?"
+  },
+  "4af94076-243b-4c2d-a36d-0438a980fdf1": {
+    "en": "Have you ever friendzoned someone?",
+    "text": "Heb je ooit iemand gefriendzoned?"
+  },
+  "f1c49c55-a070-4de9-88b0-8f36313a97a1": {
+    "en": "Have you ever been friendzoned?",
+    "text": "Ben je ooit gefriendzoned?"
+  },
+  "34efefdf-7c84-442c-a5a3-38133fa0948e": {
+    "en": "If a lie makes everyone happy and hurts nobody, does it become moral?",
+    "text": "Als een leugen iedereen blij maakt en niemand pijn doet, is die dan moreel oké?"
+  },
+  "f35c52a4-f28b-4d39-94a9-291aba678b56": {
+    "en": "Do you hide how much money you have from your friends?",
+    "text": "Verberg je voor je vrienden hoeveel geld je hebt?"
+  },
+  "29f055a2-8038-41d1-b238-e05e99378afb": {
+    "en": "Do you think suffering is necessary for profound personal growth?",
+    "text": "Denk je dat lijden nodig is om echt als mens te groeien?"
+  },
+  "d3cdfbea-f97c-4e33-9968-8034077edcca": {
+    "en": "Do you enjoy talking politics with friends?",
+    "text": "Praat je graag over politiek met vrienden?"
+  },
+  "159acfa6-597d-472d-bcb3-d987da64dea8": {
+    "en": "Would you cut ties with a friend who committed a non-violent crime?",
+    "text": "Zou je breken met een vriend die een misdrijf zonder geweld heeft gepleegd?"
+  },
+  "f0172f90-003d-4c7f-8771-04ec7e4f490d": {
+    "en": "Would it bother you if your partner were more successful than you at work?",
+    "text": "Zou het je dwarszitten als je partner meer carrière maakte dan jij?"
+  },
+  "7956d371-c089-4a04-a387-6ff8f68b5866": {
+    "en": "If you could know the exact day you will die, would you choose to know?",
+    "text": "Als je precies kon weten op welke dag je sterft, zou je dat willen weten?"
+  },
+  "efa81feb-3048-40c9-b743-e0413c82fa99": {
+    "en": "Would you hate someone just because your best friend hates them?",
+    "text": "Zou je iemand haten alleen omdat je bestie diegene haat?"
+  },
+  "188b4c0d-b8d9-4f31-b01e-8ba90565c27e": {
+    "en": "Would you choose to live forever if it meant watching everyone you love die?",
+    "text": "Zou je eeuwig willen leven als je dan iedereen van wie je houdt zou zien sterven?"
+  },
+  "e1289513-98a5-4528-a112-ee6aae47fd77": {
+    "en": "Would you be suspicious of someone who gets along well with everyone?",
+    "text": "Zou je iemand wantrouwen die met iedereen goed overweg kan?"
+  },
+  "1a3fa76f-851d-4401-a4a8-789dcf598d3c": {
+    "en": "Have you ever had a period when you were very flirty?",
+    "text": "Heb je ooit een periode gehad waarin je heel flirterig was?"
+  },
+  "1fc8abbf-0128-4618-b81d-2b76f09bf03a": {
+    "en": "If your friends don't like your partner, would it make you lose interest in them?",
+    "text": "Als je vrienden je partner niet mogen, zou jij je partner dan minder leuk gaan vinden?"
+  },
+  "c2ebf044-0c54-4059-b541-f3714baf47d8": {
+    "en": "Are you currently attracted to a friend in a way that's more than just friendship?",
+    "text": "Voel je je op dit moment meer dan vriendschappelijk aangetrokken tot iemand uit je vriendenkring?"
+  },
+  "f0f56623-ce68-4bea-b65e-f5622ebe270d": {
+    "en": "Do you think long-term friends can become romantic partners later?",
+    "text": "Denk je dat jarenlange vrienden later een stel kunnen worden?"
+  },
+  "460a428d-36bd-4f1a-b14b-0381b0822d60": {
+    "en": "What drives human behavior more?",
+    "text": "Wat drijft menselijk gedrag meer?",
+    "answers": [
+      "Angst voor pijn",
+      "Verlangen naar genot"
+    ]
+  },
+  "6a4f5fd8-c46c-4f5f-ac95-578a22429850": {
+    "en": "If your friend were romantically attracted to you, would you give them a chance?",
+    "text": "Als iemand uit je vriendenkring verliefd op je was, zou je diegene een kans geven?"
+  },
+  "d3fdeab4-014d-4d6f-889c-4f57f67b5f4f": {
+    "en": "Would you live in the same house with a friend of the opposite sex while having a partner?",
+    "text": "Zou je met iemand van het andere geslacht uit je vriendenkring samenwonen terwijl je een partner hebt?"
+  },
+  "c967305f-6cc1-4697-a3d7-e69d67c253d3": {
+    "en": "If you were attracted to a friend, would you hide it to avoid damaging your friendship?",
+    "text": "Als je op iemand uit je vriendenkring viel, zou je het verzwijgen om de vriendschap niet te schaden?"
+  },
+  "6f319932-cbc0-4efc-ac99-17a2e8db1022": {
+    "en": "Do you get jealous of your friend's partners?",
+    "text": "Word je jaloers op de partners van je vrienden?"
+  },
+  "1539ca94-1bf7-4737-a2e7-0888edc17875": {
+    "en": "Does it bother you if your friend has closer friends than you?",
+    "text": "Zit het je dwars als je bestie met anderen hechter is dan met jou?"
+  },
+  "af046054-1900-4f56-acc3-3ce73fae637d": {
+    "en": "Would it feel strange if your friend found you attractive?",
+    "text": "Zou het raar voelen als iemand uit je vriendenkring je aantrekkelijk vond?"
+  },
+  "560aae7c-660a-48c7-a995-16082b7a329c": {
+    "en": "Would you stop talking to a friend who finds you attractive if your partner asked you to?",
+    "text": "Als je partner erom vroeg, zou je dan het contact verbreken met iemand uit je vriendenkring die jou aantrekkelijk vindt?"
+  },
+  "85f1d55b-0ab2-477b-bc89-8f1079b657df": {
+    "en": "If your best friend and partner met without telling you, would you get jealous?",
+    "text": "Als je bestie en je partner hadden afgesproken zonder dat jij het wist, zou je dan jaloers worden?"
+  },
+  "d3f796b9-46b0-4ea6-af2e-79f8db92e1b4": {
+    "en": "Would you be friends with someone who constantly talks about their partner?",
+    "text": "Zou je bevriend zijn met iemand die het constant over de eigen relatie heeft?"
+  },
+  "c19c811e-bdd4-431c-9ae2-fe158cd5ce51": {
+    "en": "Would you be friends with someone who constantly talks about their problems?",
+    "text": "Zou je bevriend zijn met iemand die het constant over de eigen problemen heeft?"
+  },
+  "d9392be9-5bf4-4290-83cc-bb71d5a0ea2f": {
+    "en": "Would you try to separate your friend from a toxic relationship?",
+    "text": "Zou je proberen je bestie uit een toxische relatie te halen?"
+  },
+  "f6e1d589-f406-413a-84e1-4d10b010efa2": {
+    "en": "Would you compliment a bad outfit just to make your friend happy?",
+    "text": "Zou je een lelijke outfit complimenteren alleen om je bestie blij te maken?"
+  },
+  "36a8a92f-d12b-4cde-b020-95c045851054": {
+    "en": "Would you be upset if not added to your best friend's Close Friends list?",
+    "text": "Zou je balen als je niet op de Close Friends-lijst van je bestie staat?"
+  },
+  "cd28855b-6bbc-4754-bf67-925fafc08e08": {
+    "en": "Would you go somewhere you don't want to, just so your friend isn't alone?",
+    "text": "Zou je ergens heen gaan waar je geen zin in hebt, alleen zodat je bestie niet alleen is?"
+  },
+  "30180f6d-9944-4221-8ee1-b6a426b20c14": {
+    "en": "Would you go on a double date with someone you don't like just for your friend?",
+    "text": "Zou je voor je bestie op een dubbele date gaan met iemand die je niet leuk vindt?"
+  },
+  "ae0d1125-a621-4872-9096-7e1c73f8195a": {
+    "en": "Would you listen to your best friend's 30-minute voice message?",
+    "text": "Zou je een spraakbericht van 30 minuten van je bestie helemaal beluisteren?"
+  },
+  "544d795e-cf98-43ae-8031-965c2fbb83ef": {
+    "en": "If you saw your friend's cheating partner on the street, would you greet them?",
+    "text": "Stel, de partner van je bestie is vreemdgegaan. Zou je die persoon op straat nog gedag zeggen?"
+  },
+  "dbed90fb-08d1-454d-a7c8-53e94c8dfae2": {
+    "en": "If both you and your friend liked the same person, would you be the one to step back?",
+    "text": "Als jij en je bestie op dezelfde persoon vielen, zou jij dan degene zijn die een stap terug doet?"
+  },
+  "e01fa88f-9bf7-4a07-b915-156123bf6854": {
+    "en": "Do you consider yourself successful and skilled at confessing to someone you like?",
+    "text": "Kun je volgens jezelf goed aan iemand opbiechten dat je diegene leuk vindt?"
+  },
+  "70ec9505-e1b3-41af-806f-8922805e641e": {
+    "en": "Would you go on a one-month vacation with a close friend of the opposite sex?",
+    "text": "Zou je een maand op vakantie gaan met iemand van het andere geslacht met wie je goed bevriend bent?"
+  },
+  "cb2ea32b-d004-42f0-9a51-8737c96bc6a4": {
+    "en": "Do you think you can really stay friends with an ex?",
+    "text": "Denk je dat je echt vrienden kunt blijven met een ex?"
+  },
+  "1864a491-86d1-49a2-80a2-c32e41c6a728": {
+    "en": "Have you ever had feelings for a friend’s ex?",
+    "text": "Heb je ooit gevoelens gehad voor de ex van iemand uit je vriendenkring?"
+  },
+  "665c9713-06bc-480c-95b9-dcca3d1c59fb": {
+    "en": "Which is a bigger problem for you: your friends not liking your partner or your family not liking your partner?",
+    "text": "Wat vind je erger: dat je vrienden je partner niet mogen of dat je familie je partner niet mag?",
+    "answers": [
+      "Vrienden die je partner niet mogen",
+      "Familie die je partner niet mag"
+    ]
+  },
+  "39a0d847-c6a2-420f-bc9b-2da40532d0bd": {
+    "en": "Which would upset you more: cutting off a friend or breaking up with your partner?",
+    "text": "Wat zou je meer pijn doen: een vriendschap verbreken of het uitmaken met je partner?",
+    "answers": [
+      "Een vriendschap verbreken",
+      "Het uitmaken met je partner"
+    ]
+  },
+  "40150bf7-574c-4cc0-b8e4-5082f4273ff6": {
+    "en": "If you really liked a piece of clothing, would you buy it even if it was very expensive?",
+    "text": "Als je een kledingstuk echt mooi vond, zou je het dan kopen, ook al was het heel duur?"
+  },
+  "02576a6e-45da-4195-94ad-bfa3d432229e": {
+    "en": "Have you ever distanced yourself from a friend because of their behavior?",
+    "text": "Ben je ooit op iemand uit je vriendenkring afgeknapt door hoe die zich gedroeg?"
+  },
+  "c791f673-121c-4f78-b6b2-138fff984d94": {
+    "en": "Have you ever introduced a friend to your family?",
+    "text": "Heb je ooit iemand uit je vriendenkring aan je familie voorgesteld?"
+  },
+  "3768b0c2-7e45-4ea2-bb34-94459ecfdaa6": {
+    "en": "Have you ever made a promise with a friend to marry them if you are both still single at 30?",
+    "text": "Heb je ooit met iemand afgesproken: als we op ons 30e allebei nog single zijn, trouwen we met elkaar?"
+  },
+  "333ba234-d38e-4da7-adbf-90c465fe9959": {
+    "en": "Have you ever completely cut off a friendship over something trivial?",
+    "text": "Heb je ooit een vriendschap helemaal verbroken om iets onbenulligs?"
+  },
+  "d6594cf3-1942-4fe1-93eb-0a767331054d": {
+    "en": "Being close friends with the opposite gender...",
+    "text": "Hecht bevriend zijn met iemand van het andere geslacht…",
+    "answers": [
+      "Heel normaal",
+      "Daar horen grenzen bij"
+    ]
+  },
+  "e2bd6991-cecd-4263-bf0b-428f21242273": {
+    "en": "Staying friends with an ex...",
+    "text": "Vrienden blijven met een ex…",
+    "answers": [
+      "Kan best",
+      "Nooit oké"
+    ]
+  },
+  "f252224b-4d0b-4690-b195-2f1acc7c55cc": {
+    "en": "Forming emotional bonds in friendship...",
+    "text": "Een emotionele band in een vriendschap…",
+    "answers": [
+      "Natuurlijk",
+      "Riskant"
+    ]
+  },
+  "a481faea-e2d5-4288-bee9-49a6e561002c": {
+    "en": "Constantly messaging someone you say \"we are just friends\" with...",
+    "text": "Constant appen met iemand van wie je zegt “we zijn gewoon vrienden”…",
+    "answers": [
+      "Is normaal",
+      "Kan verkeerd overkomen"
+    ]
+  },
+  "c1051de3-6210-48d9-bbee-a1bd27339e24": {
+    "en": "Physical closeness in friendship (like hugging)...",
+    "text": "Fysieke nabijheid in een vriendschap (zoals knuffelen)…",
+    "answers": [
+      "Is normaal",
+      "Geeft het verkeerde signaal"
+    ]
+  },
+  "54e10e6d-36d5-4c2f-90fa-90ab841a4a40": {
+    "en": "Your partner often seeing someone they call just a friend...",
+    "text": "Je partner ziet vaak iemand en zegt: “we zijn gewoon vrienden”…",
+    "answers": [
+      "Vind ik prima",
+      "Voelt ongemakkelijk"
+    ]
+  },
+  "cbc9d01b-ad4e-4822-ba0d-6d460dd7b24f": {
+    "en": "Keeping some privacy in friendship (hiding certain things from your partner)...",
+    "text": "Wat geheimen in een vriendschap (dingen voor je partner verzwijgen)…",
+    "answers": [
+      "Kan nodig zijn",
+      "Is fout"
+    ]
+  },
+  "b15024f0-b284-4cf6-b9da-8ee1b47f31db": {
+    "en": "Knowing every detail of your closest friend’s life...",
+    "text": "Elk detail uit het leven van je bestie weten…",
+    "answers": [
+      "Is vanzelfsprekend",
+      "Is onnodig"
+    ]
+  },
+  "93d7d2aa-65e5-4158-bbdc-86bbfaab33e8": {
+    "en": "Your friend becoming part of your other friend group...",
+    "text": "Iemand uit je vriendenkring die bij je andere vriendengroep gaat horen…",
+    "answers": [
+      "Kan leuk zijn",
+      "Kan problemen geven"
+    ]
+  },
+  "a24ff5ae-632a-4c56-8f91-b151d975be08": {
+    "en": "Staying just as close even after not seeing each other for a long time...",
+    "text": "Net zo close blijven, ook als je elkaar lang niet ziet…",
+    "answers": [
+      "Echte vriendschap",
+      "Kan lastig zijn"
+    ]
+  },
+  "4ad582dc-a947-4194-b0d1-981b04af1c82": {
+    "en": "Not being your closest friend’s closest friend...",
+    "text": "Zelf niet de bestie van je bestie zijn…",
+    "answers": [
+      "Mag niet gebeuren",
+      "Is acceptabel"
+    ]
+  },
+  "6440ff9b-487a-43cc-8af1-563d9734e2ed": {
+    "en": "Your closest friend starts calling you less after getting a new partner...",
+    "text": "Je bestie belt je minder sinds er een nieuwe partner is…",
+    "answers": [
+      "Normaal, het leven verandert",
+      "Voelt als verwaarlozing"
+    ]
+  },
+  "787f606d-df56-459b-87bf-7714b646077d": {
+    "en": "Your friend never introduces you to their other friend group...",
+    "text": "Je bestie stelt je nooit voor aan andere vriendengroepen…",
+    "answers": [
+      "Niet belangrijk",
+      "Voelt raar"
+    ]
+  },
+  "18b7fca3-3bce-4521-ae0f-ef66c3e2ffb0": {
+    "en": "When you don’t talk for a long time with your friend, you continue as if nothing happened...",
+    "text": "Jullie spreken elkaar lang niet en gaan daarna door alsof er niets is gebeurd…",
+    "answers": [
+      "Gezonde band",
+      "Voelt oppervlakkig"
+    ]
+  },
+  "fb3d0920-f21b-45b3-b8ac-0aa9f8870491": {
+    "en": "The most important thing in friendship...",
+    "text": "Het belangrijkste in een vriendschap…",
+    "answers": [
+      "Loyaliteit",
+      "Delen"
+    ]
+  },
+  "cdca9b4b-dde6-41ef-b066-1a1fe07dc941": {
+    "en": "A good friend accepts you with your flaws or tries to help you improve in a positive way.",
+    "text": "Goede vrienden accepteren je met je fouten, of helpen je op een positieve manier groeien.",
+    "answers": [
+      "Accepteren je zoals je bent",
+      "Helpen je groeien"
+    ]
+  },
+  "991aa3a5-200d-41b4-beae-58d6f0d655da": {
+    "en": "A true friend is someone who is there in your bad times or in your good times.",
+    "text": "Echte vrienden zijn er voor je in slechte tijden of in goede tijden.",
+    "answers": [
+      "Slechte tijden tellen meer",
+      "Goede tijden tellen meer"
+    ]
+  },
+  "b7db9932-142a-4d10-bfa4-b5f580458954": {
+    "en": "What matters more in friendship: quality or consistency?",
+    "text": "Wat telt meer in een vriendschap: kwaliteit of regelmaat?",
+    "answers": [
+      "Kwaliteit",
+      "Regelmaat"
+    ]
+  },
+  "f0636f5f-63ef-4074-a615-3e24a6667f9e": {
+    "en": "A good friend...",
+    "text": "Goede vrienden…",
+    "answers": [
+      "Bekritiseren je",
+      "Steunen je"
+    ]
+  },
+  "b9784638-ea19-44da-ab12-cb649859a032": {
+    "en": "What is stronger in friendship: loyalty or empathy?",
+    "text": "Wat is sterker in een vriendschap: loyaliteit of empathie?",
+    "answers": [
+      "Loyaliteit",
+      "Empathie"
+    ]
+  },
+  "a2f297b8-10e7-4517-b7f0-a0c832d370c7": {
+    "en": "Good friendship...",
+    "text": "Een goede vriendschap…",
+    "answers": [
+      "Kost moeite",
+      "Gaat vanzelf"
+    ]
+  },
+  "5b670ad6-208b-4e58-b292-e273f3b78943": {
+    "en": "What is the strongest thing in friendship...",
+    "text": "Het sterkste in een vriendschap…",
+    "answers": [
+      "Trouw",
+      "Begrip"
+    ]
+  },
+  "d10fdd35-8f20-43ae-8d73-b6dfde704d1e": {
+    "en": "A good friend...",
+    "text": "Bij goede vrienden…",
+    "answers": [
+      "Voel je je op je gemak",
+      "Groei je als persoon"
+    ]
+  },
+  "05689bed-28ec-43c5-b237-0302642ef9b4": {
+    "en": "Would you marry this person if you were both not married by the age of 40?",
+    "text": "Zou je met deze persoon trouwen als jullie op jullie 40e allebei nog niet getrouwd waren?"
+  },
+  "8025e660-1505-4af6-80ae-abfc0310e57e": {
+    "en": "How many close friends do you actually need?",
+    "text": "Hoeveel echt goede vrienden heb je eigenlijk nodig?"
+  },
+  "379cc9b1-f4e7-4870-89f1-7a7618d01d47": {
+    "en": "If a close friend is late, after how many minutes does it start bothering you?",
+    "text": "Als je bestie te laat is, na hoeveel minuten begin je je dan te ergeren?"
+  },
+  "6bed572f-b7ef-4dfd-9f13-d05e4450629e": {
+    "en": "What kills a friendship the fastest for you?",
+    "text": "Wat maakt voor jou het snelst een einde aan een vriendschap?"
+  },
+  "019bcbc6-27a4-454b-b3af-7434fb094414": {
+    "en": "How many times a month do you need to see a close friend?",
+    "text": "Hoe vaak per maand wil je goede vrienden minstens zien?"
+  },
+  "9904dd28-27f8-48e6-a7c9-f91b70c02a3b": {
+    "en": "How many days can a close friend stay at your place?",
+    "text": "Hoeveel dagen mogen goede vrienden bij jou logeren?"
+  },
+  "fb412a91-d561-4398-b5fc-44e7a463c33b": {
+    "en": "What's the first thing you offer a friend who comes over?",
+    "text": "Wat bied je vrienden die langskomen als eerste aan?"
+  },
+  "6e09b141-b4f9-4a4b-a8d4-a1cb738c388a": {
+    "en": "What can a friend take from your fridge without asking?",
+    "text": "Wat mogen vrienden zonder te vragen uit je koelkast pakken?"
+  },
+  "3dcd0f58-587e-4181-9f97-956ea9f95e64": {
+    "en": "What's off-limits to joke about with friends?",
+    "text": "Waar mag je onder vrienden geen grappen over maken?"
+  },
+  "d420a12c-2ed3-4461-ba85-2938b2eacbed": {
+    "en": "When the bill comes, how should friends split it?",
+    "text": "Hoe moeten vrienden de rekening verdelen?"
+  },
+  "5738b45b-1858-43f3-826e-11ef8d263b66": {
+    "en": "If a close friend stays over, where do they sleep?",
+    "text": "Als een goede vriend bij je blijft slapen, waar slaapt die dan?"
+  },
+  "240d4c3b-09f9-424b-8508-8f2413892f20": {
+    "en": "When you need to say no to a friend, how do you do it?",
+    "text": "Hoe zeg je nee tegen een vriend?",
+    "answers": [
+      "Recht voor z'n raap zeggen",
+      "Een smoesje verzinnen",
+      "Het voor me uit schuiven",
+      "Ik zeg geen nee"
+    ]
+  },
+  "ed007dff-5f12-45f1-913a-814207c21337": {
+    "en": "Where's your phone when you're hanging out with friends?",
+    "text": "Waar is je telefoon als je met vrienden afspreekt?",
+    "answers": [
+      "Op tafel",
+      "Op tafel, scherm naar beneden",
+      "In mijn tas",
+      "In mijn hand"
+    ]
+  },
+  "472843d1-c68f-4443-8e98-1c7ebfff08f1": {
+    "en": "When a friend is venting, what do you do?",
+    "text": "Een vriend moet even stoom afblazen. Wat doe jij?",
+    "answers": [
+      "Het proberen op te lossen",
+      "Gewoon luisteren",
+      "Diegene aan het lachen maken",
+      "Mijn eigen verhaal vertellen"
+    ]
+  },
+  "9626e6ef-559e-4903-a872-8098df7019aa": {
+    "en": "A friend cancels last minute. What do you do?",
+    "text": "Een vriend zegt op het laatste moment af. Wat doe je?",
+    "answers": [
+      "Zeggen dat het oké is",
+      "Zeggen dat ik het jammer vind",
+      "Meteen een nieuwe datum prikken",
+      "Even niet meer uitnodigen"
+    ]
+  },
+  "d7063b2a-a2b9-4e31-b9d5-ea73d3fc1b48": {
+    "en": "How do you like hanging out with friends?",
+    "text": "Hoe spreek je het liefst af met vrienden?",
+    "answers": [
+      "Met z'n tweeën",
+      "In een klein groepje",
+      "Met de hele groep",
+      "Met wie er maar kan"
+    ]
+  },
+  "b3285428-6a7b-494a-a8ce-607db3eff19a": {
+    "en": "A friend is 20 minutes late and you're already there. What do you do?",
+    "text": "Een vriend is 20 minuten te laat en jij bent er al. Wat doe je?",
+    "answers": [
+      "Wachten",
+      "Een appje sturen",
+      "Alvast bestellen",
+      "Weggaan"
+    ]
+  },
+  "6e92199a-a131-4c52-8fcb-db5cdd54cb8b": {
+    "en": "A friend calls at 1am. What do you do?",
+    "text": "Een vriend belt om 1 uur 's nachts. Wat doe je?",
+    "answers": [
+      "Opnemen",
+      "Appen: “morgen”",
+      "Laten overgaan",
+      "Later terugbellen"
+    ]
+  },
+  "ca4a3d3a-b6cd-42c6-acea-f2ddaffcee41": {
+    "en": "When a friend starts roasting you, what do you do?",
+    "text": "Een vriend begint je te roasten. Wat doe je?",
+    "answers": [
+      "Keihard terugroasten",
+      "Erom lachen",
+      "Stilvallen",
+      "Zeggen dat het genoeg is"
+    ]
+  },
+  "0b00eec2-7db8-49f6-9a33-2e91bfdafed9": {
+    "en": "A friend borrowed something and hasn't given it back. What do you do?",
+    "text": "Een vriend heeft iets van je geleend en het nog steeds niet teruggegeven. Wat doe je?",
+    "answers": [
+      "Er even aan herinneren",
+      "Laten gaan",
+      "Nooit meer iets uitlenen",
+      "Er grapjes over maken tot het lampje gaat branden"
+    ]
+  },
+  "3866d609-64de-4f95-9a99-d3b5aca59d4d": {
+    "en": "How do you usually leave a hangout?",
+    "text": "Hoe ga je meestal weg als je met vrienden bent?",
+    "answers": [
+      "Gedag zeggen en gaan",
+      "Stilletjes wegglippen",
+      "Ik ben altijd de laatste",
+      "Wachten tot iemand meegaat"
+    ]
+  },
+  "fc886a8f-d247-4df7-9911-70df16293d14": {
+    "en": "A friend posts a bad photo of you without asking. What do you do?",
+    "text": "Een vriend post zonder te vragen een lelijke foto van je. Wat doe je?",
+    "answers": [
+      "Vragen om de foto weg te halen",
+      "Erom lachen",
+      "Een nog lelijkere terugposten",
+      "De posts even dempen"
+    ]
+  },
+  "cf30ac84-0e23-499b-84f0-194255049b2e": {
+    "en": "Two friends in your group are fighting. What do you do?",
+    "text": "Twee vrienden uit je groep hebben ruzie. Wat doe je?",
+    "answers": [
+      "Me erbuiten houden",
+      "Proberen te bemiddelen",
+      "Kiezen voor wie volgens mij gelijk heeft",
+      "Met allebei apart praten"
+    ]
+  },
+  "a6aca301-d610-4229-8289-b89bedc32e1e": {
+    "en": "How do you usually make plans with friends?",
+    "text": "Hoe maak je meestal plannen met vrienden?",
+    "answers": [
+      "Ik stuur het eerste bericht",
+      "Ik wacht tot een ander begint",
+      "Ik blijf voorstellen tot er iets lukt",
+      "Ik sluit gewoon aan waar ze heen gaan"
+    ]
+  },
+  "79b31e12-db1a-4595-a37d-d8bf3a5d4ab1": {
+    "en": "A friend is clearly wrong in an argument. What do you do?",
+    "text": "Een vriend heeft in een discussie duidelijk ongelijk. Wat doe je?",
+    "answers": [
+      "Meteen verbeteren",
+      "Laten gaan",
+      "Het later onder vier ogen zeggen",
+      "Hardop meegaan, in m'n hoofd niet"
+    ]
+  },
+  "43b8538b-f20e-4106-86db-2fb4ae991e8d": {
+    "en": "A close friend goes quiet for a few weeks. What do you do?",
+    "text": "Een goede vriend is al een paar weken stil. Wat doe je?",
+    "answers": [
+      "Eén keer vragen hoe het gaat",
+      "Contact blijven zoeken",
+      "Ruimte geven",
+      "Gemeenschappelijke vrienden vragen wat er is"
+    ]
+  },
+  "cf10e8ca-f5f7-4fd3-ade3-8d3dd80864a1": {
+    "en": "Your friend asks for honest feedback on a bad haircut. What do you do?",
+    "text": "Een vriend vraagt je eerlijke mening over een mislukt kapsel. Wat doe je?",
+    "answers": [
+      "De waarheid zeggen",
+      "Iets positiefs zoeken",
+      "Over iets anders beginnen"
+    ]
+  },
+  "5f50e363-7d88-40da-9fc3-20a70c1c98bc": {
+    "en": "A close friend asks to stay at your place for a week. What do you say?",
+    "text": "Een goede vriend vraagt of die een week bij je mag logeren. Wat zeg je?",
+    "answers": [
+      "Blijf zo lang als nodig",
+      "Een paar dagen, dan zien we verder",
+      "Deze week niet, maar ik help op een andere manier"
+    ]
+  },
+  "96a10636-c640-4c8e-b29c-8d5ea35a2325": {
+    "en": "A friend you barely talk to anymore asks for a big favor. What do you do?",
+    "text": "Iemand met wie je amper nog contact hebt, vraagt een grote gunst. Wat doe je?",
+    "answers": [
+      "Helpen zoals vroeger",
+      "Helpen, maar niet te veel",
+      "Eerlijk zeggen dat jullie niet meer zo close zijn"
+    ]
+  },
+  "8fbe5c15-1c5f-4d62-bb1c-8c87bd5e68e9": {
+    "en": "Two friend groups invite you out on the same night. What do you do?",
+    "text": "Twee vriendengroepen vragen je mee uit op dezelfde avond. Wat doe je?",
+    "answers": [
+      "Naar wie het eerst vroeg",
+      "Naar wie ik het meest zou missen",
+      "Proberen bij allebei langs te gaan"
+    ]
+  },
+  "da359ad8-f794-47c9-a71f-de550fd3df0c": {
+    "en": "A close friend asks to borrow a good amount of money. What do you do?",
+    "text": "Een goede vriend wil een flink bedrag van je lenen. Wat doe je?",
+    "answers": [
+      "Uitlenen als het kan",
+      "Alleen met een duidelijk afbetalingsplan",
+      "Ik leen geen geld aan vrienden"
+    ]
+  },
+  "d6c8e97e-b3ba-44d7-b105-c1b6b2a57587": {
+    "en": "Your friend is dating someone you really can't stand. What do you do?",
+    "text": "Een vriend heeft iets met iemand die je echt niet kunt uitstaan. Wat doe je?",
+    "answers": [
+      "Het meteen zeggen",
+      "Wachten tot het gevraagd wordt",
+      "Zwijgen en steunen"
+    ]
+  },
+  "0d743c77-1a58-418b-8117-3263ce8f4009": {
+    "en": "A friend invites you somewhere expensive you can't really afford. What do you do?",
+    "text": "Een vriend nodigt je uit voor iets duurs dat je eigenlijk niet kunt betalen. Wat doe je?",
+    "answers": [
+      "Zeggen dat het te duur is",
+      "Iets goedkopers voorstellen",
+      "Toch gaan en mijn budget oprekken"
+    ]
+  },
+  "02bb14d7-0d08-400e-9917-9aec53c8b7c8": {
+    "en": "You overhear a friend lightly trash-talking you. What do you do?",
+    "text": "Je hoort een vriend een beetje over je roddelen. Wat doe je?",
+    "answers": [
+      "Er meteen op aanspreken",
+      "Wat afstand nemen",
+      "Het één keer laten passeren"
+    ]
+  },
+  "660a531c-8d5e-44d7-b117-483aafb66d83": {
+    "en": "At a party, your friend is about to drunk-text their ex. What do you do?",
+    "text": "Op een feestje staat een vriend op het punt dronken de ex te appen. Wat doe je?",
+    "answers": [
+      "De telefoon afpakken",
+      "Laten gebeuren"
+    ]
+  },
+  "6ae65593-620a-47a3-bd16-3cfdba20307b": {
+    "en": "At dinner, the bill comes and your friend \"forgot\" their wallet again. What do you do?",
+    "text": "Na het eten komt de rekening en een vriend is de portemonnee wéér “vergeten”. Wat doe je?",
+    "answers": [
+      "Betalen en het laten rusten",
+      "Betalen, maar er later over beginnen"
+    ]
+  },
+  "b2f40f63-d542-449f-b8d9-7251868fe21c": {
+    "en": "In an Uber, your friend starts arguing with the driver. What do you do?",
+    "text": "In een Uber krijgt een vriend ruzie met de chauffeur. Wat doe je?",
+    "answers": [
+      "Ingrijpen en de boel sussen",
+      "Stil blijven en hopen dat het stopt"
+    ]
+  },
+  "2fca8524-3f16-4523-b057-17699983cc36": {
+    "en": "Your friend starts telling an embarrassing story about you to people you just met. What do you do?",
+    "text": "Een vriend begint een gênant verhaal over jou te vertellen aan mensen die je net kent. Wat doe je?",
+    "answers": [
+      "Onderbreken",
+      "Laten uitpraten"
+    ]
+  },
+  "1dc43db7-154f-4a47-9397-f3ec7f508978": {
+    "en": "A friend tells you a secret and says \"don't even tell your partner.\" What do you do?",
+    "text": "Een vriend vertelt je een geheim en zegt: “Zelfs niet aan je partner vertellen.” Wat doe je?",
+    "answers": [
+      "Het helemaal geheimhouden",
+      "Het toch aan mijn partner vertellen",
+      "Geheimhouden, tenzij het iets ernstigs is"
+    ]
+  },
+  "f1a66bde-c82e-4903-9965-90c3fa82d1b0": {
+    "en": "You and a close friend applied for the same job, and they got it. What do you do?",
+    "text": "Jij en een goede vriend solliciteerden op dezelfde baan en de ander werd aangenomen. Wat doe je?",
+    "answers": [
+      "Oprecht samen vieren",
+      "Feliciteren, maar het steekt vanbinnen",
+      "Even wat afstand nodig hebben"
+    ]
+  },
+  "e4d8aa34-b71c-4d2c-babe-8ef1e1d37350": {
+    "en": "A friend shows up at your door without texting first. What do you do?",
+    "text": "Een vriend staat onaangekondigd voor je deur. Wat doe je?",
+    "answers": [
+      "Blij binnenlaten",
+      "Binnenlaten, maar ik baal een beetje",
+      "Doen alsof ik niet thuis ben",
+      "Binnenlaten, maar zeggen: volgende keer even appen"
+    ]
+  },
+  "5587411e-e5d6-4c3b-b709-925a48828ccd": {
+    "en": "A friend asks you to cover for them with their partner. What do you do?",
+    "text": "Een vriend vraagt je om diegene in te dekken tegenover de partner. Wat doe je?",
+    "answers": [
+      "Indekken, geen vragen",
+      "Alleen als ik weet wat er speelt",
+      "Nee zeggen, ik wil er niks mee te maken hebben",
+      "Ja zeggen, maar dit is de laatste keer"
+    ]
+  },
+  "2ceb502c-1cb0-4d19-b751-39c067c789a3": {
+    "en": "A close friend forgot your birthday. What do you do?",
+    "text": "Een goede vriend is je verjaardag vergeten. Wat doe je?",
+    "answers": [
+      "Het boeit me echt niet",
+      "Gekwetst, maar ik zeg niks",
+      "Er grappend over beginnen",
+      "Zeggen dat het echt pijn deed"
+    ]
+  },
+  "90a8ef25-80da-4dce-a879-4c4de8f1272a": {
+    "en": "How do you usually show a friend you care?",
+    "text": "Hoe laat je een vriend meestal merken dat je om diegene geeft?",
+    "answers": [
+      "Samen tijd doorbrengen",
+      "Kleine cadeautjes en verrassingen",
+      "Ophemelen en complimentjes geven",
+      "Helpen als het nodig is",
+      "Zomaar een appje sturen"
+    ]
+  },
+  "5ea9ba87-e9a5-45bd-b147-03e94f0d2eee": {
+    "en": "Compared to a romantic breakup, losing a close friend hurts...",
+    "text": "Vergeleken met een relatiebreuk doet het verliezen van een goede vriend…",
+    "answers": [
+      "Meer pijn",
+      "Minder pijn",
+      "Ongeveer evenveel pijn"
+    ]
+  },
+  "81c3e73b-6f4a-401f-be7c-7322f3c88d97": {
+    "en": "How often should close friends talk?",
+    "text": "Hoe vaak zouden goede vrienden elkaar moeten spreken?",
+    "answers": [
+      "Elke dag",
+      "Een paar keer per week",
+      "Zo'n keer per week",
+      "Maakt niet uit, er zijn geen regels"
+    ]
+  },
+  "bf330507-367e-4d2b-a74c-51bbacecc0de": {
+    "en": "Can a friend you've only met online be a real close friend?",
+    "text": "Kan iemand die je alleen online kent echt een goede vriend zijn?"
+  },
+  "ad99c683-1579-4b76-ac84-bbe48ccc1529": {
+    "en": "What's the most you'd spend on a close friend's birthday gift?",
+    "text": "Hoeveel geef je maximaal uit aan een verjaardagscadeau voor een goede vriend?"
+  },
+  "fe5a5b25-7f16-4855-b749-d4e8e9cc1d5f": {
+    "en": "Making new close friends as an adult is...",
+    "text": "Als volwassene nieuwe goede vrienden maken is…",
+    "answers": [
+      "Makkelijk als je jezelf openstelt",
+      "Moeilijk, maar het kan",
+      "Bijna onmogelijk"
+    ]
+  },
+  "8c65c713-6463-475a-bf56-9ec5381e9302": {
+    "en": "Can a coworker become one of your closest friends?",
+    "text": "Kan een collega een van je beste vrienden worden?"
+  },
+  "beb7f795-5c55-41bd-98fc-a459db151882": {
+    "en": "How long do you need to know someone before calling them a close friend?",
+    "text": "Hoelang moet je iemand kennen voordat je diegene een goede vriend noemt?"
+  },
+  "fb50cd2d-2221-4e5f-b6eb-1a37644fda56": {
+    "en": "Your close friend starts dating your sibling. How do you feel?",
+    "text": "Een goede vriend krijgt iets met je broer of zus. Hoe voelt dat?",
+    "answers": [
+      "Ik ben blij voor ze",
+      "Raar, maar ik went er wel aan",
+      "Helemaal niet oké"
+    ]
+  },
+  "68663bf0-f74e-4eb2-9375-794c0160fd51": {
+    "en": "Hanging out with a friend in total silence, each doing your own thing...",
+    "text": "Samen met een vriend in stilte elk je eigen ding doen…",
+    "answers": [
+      "Voelt als echte verbondenheid",
+      "Af en toe prima",
+      "Voelt ongemakkelijk"
+    ]
+  },
+  "fb1756d1-62b7-4393-9307-53cd0f287376": {
+    "en": "When you get big news, who hears it first?",
+    "text": "Als je groot nieuws hebt, wie hoort het als eerste?",
+    "answers": [
+      "Mijn partner",
+      "Mijn beste vriend",
+      "Mijn familie",
+      "Iedereen tegelijk in de groepsapp"
+    ]
+  },
+  "c1fa53a1-cf09-4356-a17d-4b3af5c3a9f7": {
+    "en": "What's one habit in a friend that drives you crazy?",
+    "text": "Welke gewoonte van een vriend maakt je gek?"
+  },
+  "570b53e3-9da8-412a-88f9-c3df5793d601": {
+    "en": "Would you start a business with a close friend?",
+    "text": "Zou je een bedrijf beginnen met een goede vriend?"
+  },
+  "c72dd7bf-86a8-4621-b2f2-ed918e7319c3": {
+    "en": "Your friend starts bringing their new partner to every hangout. What do you do?",
+    "text": "Een vriend neemt de nieuwe partner overal mee naartoe. Wat doe je?",
+    "answers": [
+      "Heerlijk, hoe meer zielen, hoe meer vreugd",
+      "Prima, maar ik mis onze tijd samen",
+      "Vragen om af en toe zonder partner af te spreken",
+      "Elkaar minder gaan zien"
+    ]
+  },
+  "637c640b-fdb6-4280-9bb5-d10092e0490f": {
+    "en": "Sharing streaming passwords with friends...",
+    "text": "Wachtwoorden van streamingdiensten delen met vrienden…",
+    "answers": [
+      "Heel normaal",
+      "Alleen met mijn beste vrienden",
+      "Nooit"
+    ]
+  },
+  "11e1d92e-1142-4d19-b8eb-9e85b241a9c9": {
+    "en": "Competition between close friends...",
+    "text": "Rivaliteit tussen goede vrienden…",
+    "answers": [
+      "Houdt ons scherp",
+      "Maakt de vriendschap langzaam kapot"
+    ]
+  },
+  "04beefdc-5d0a-47a0-8476-209397119731": {
+    "en": "A friend asks you to set them up with someone. What do you do?",
+    "text": "Een vriend vraagt of je diegene aan iemand kunt koppelen. Wat doe je?",
+    "answers": [
+      "Ik speel graag koppelaar",
+      "Alleen als ik echt een goede match weet",
+      "Ik blijf erbuiten, te riskant"
+    ]
+  },
+  "d97011a0-577f-437e-b2f7-34d6e3f16ec7": {
+    "en": "Your friend is sick at home alone. What do you do?",
+    "text": "Een vriend ligt ziek en alleen thuis. Wat doe je?",
+    "answers": [
+      "Langsgaan met soep en medicijnen",
+      "Eten laten bezorgen",
+      "Een appje sturen hoe het gaat",
+      "Wachten tot er om hulp gevraagd wordt"
+    ]
+  },
+  "49f2c5bd-906c-4677-938d-2634f11f2c0e": {
+    "en": "How many friends would you invite to your birthday?",
+    "text": "Hoeveel vrienden zou je uitnodigen voor je verjaardag?"
+  },
+  "80b1847b-4029-4376-b594-cf2439e45e3c": {
+    "en": "A friend starts copying your style and hobbies. How do you feel?",
+    "text": "Een vriend begint je stijl en hobby's na te doen. Hoe voelt dat?",
+    "answers": [
+      "Gevleid",
+      "Maakt me niet zoveel uit",
+      "Een beetje irritant",
+      "Ik zou er iets van zeggen"
+    ]
+  },
+  "9d61613c-1992-45d8-bef1-37f07f995e66": {
+    "en": "A friend got you a much more expensive gift than you got them. What do you do?",
+    "text": "Een vriend geeft je een veel duurder cadeau dan jij hebt gegeven. Wat doe je?",
+    "answers": [
+      "Niks, het is geen wedstrijd",
+      "Me een beetje schamen",
+      "Het de volgende keer goedmaken"
+    ]
+  },
+  "826c30c4-7dae-497a-be3b-a89531829cef": {
+    "en": "Would you lend your favorite piece of clothing to a friend?",
+    "text": "Zou je je favoriete kledingstuk uitlenen aan een vriend?"
+  },
+  "c17f6d8c-88be-4516-b333-5e7b45e4997f": {
+    "en": "Your best friend asks you to help plan their wedding. What do you do?",
+    "text": "Je beste vriend vraagt je te helpen met het plannen van de bruiloft. Wat doe je?",
+    "answers": [
+      "Er helemaal induiken",
+      "Helpen, maar met grenzen",
+      "Gewoon op de grote dag komen"
+    ]
+  },
+  "bea820e2-cce1-49fc-aa07-4ab99ead86c4": {
+    "en": "How many hours would you travel for a close friend's birthday?",
+    "text": "Hoeveel uur zou je reizen voor de verjaardag van een goede vriend?"
+  },
+  "45cf28ad-01d6-458f-b371-d10cb5d628b3": {
+    "en": "A friend needs a ride to the airport at 5am. What do you do?",
+    "text": "Een vriend moet om 5 uur 's ochtends naar het vliegveld. Wat doe je?",
+    "answers": [
+      "Brengen, geen probleem",
+      "Brengen, maar de hele rit mopperen",
+      "Een taxi betalen",
+      "Zeggen dat het niet lukt"
+    ]
+  },
+  "cee7b4d0-8a85-42ae-9d36-e805461c3601": {
+    "en": "Do you share your live location with your close friends?",
+    "text": "Deel je je live locatie met je beste vrienden?"
+  },
+  "1261e2f8-c857-4478-8e71-e0a25b6dac19": {
+    "en": "A friend who always tells you the harsh truth...",
+    "text": "Een vriend die je altijd de harde waarheid vertelt…",
+    "answers": [
+      "Is de beste soort vriend",
+      "Wordt na een tijdje vermoeiend"
+    ]
+  },
+  "6cb7ef7c-1478-4456-b1cf-d26358f74de0": {
+    "en": "Friendships with a big age gap (10+ years)...",
+    "text": "Vriendschappen met een groot leeftijdsverschil (10+ jaar)…",
+    "answers": [
+      "Werken prima",
+      "Werken, maar voelen anders",
+      "Moeilijk om echt te klikken"
+    ]
+  },
+  "9fea2ef2-07b0-4d41-b852-f5bf24dd2b6f": {
+    "en": "On a group trip, one friend wants to spend way more than everyone else. What do you do?",
+    "text": "Op groepsreis wil één vriend veel meer uitgeven dan de rest. Wat doe je?",
+    "answers": [
+      "Meegaan",
+      "Apart gaan bij dure plannen",
+      "Vooraf een groepsbudget afspreken",
+      "Eerlijk zeggen dat het te veel is"
+    ]
+  },
+  "e442ad82-0026-4be1-a02d-5cf52c6db6b3": {
+    "en": "When a friend upsets you, do you tell them instead of quietly pulling away?",
+    "text": "Als een vriend je kwetst, zeg je het dan in plaats van stilletjes afstand te nemen?"
+  },
+  "a568c592-7960-40ea-b5e7-f8fcff9f1109": {
+    "en": "A friend asks you to watch their pet for a week. What do you do?",
+    "text": "Een vriend vraagt of je een week op een huisdier wilt passen. Wat doe je?",
+    "answers": [
+      "Graag, ik ben dol op dieren",
+      "Hangt van het dier af",
+      "Ja, maar alleen bij diegene thuis",
+      "Nee zeggen"
+    ]
+  },
+  "f7975688-29c1-4bff-9678-56257d052a89": {
+    "en": "A close friend suddenly becomes famous. What changes for you?",
+    "text": "Een goede vriend wordt ineens beroemd. Wat verandert er voor jou?",
+    "answers": [
+      "Niks, voor mij blijft het dezelfde persoon",
+      "Ik zou er overal over opscheppen",
+      "Ik zou vanzelf wat afstand nemen",
+      "Ik zou bang zijn dat die verandert"
+    ]
+  },
+  "53f44073-13ad-4340-b3dc-428d01768d73": {
+    "en": "A friend starts selling stuff and keeps pitching it to you. What do you do?",
+    "text": "Een vriend begint iets te verkopen en probeert het steeds aan jou te slijten. Wat doe je?",
+    "answers": [
+      "Eén keer kopen om te steunen",
+      "Elke keer beleefd nee zeggen",
+      "Zeggen dat het irritant wordt",
+      "Dempen"
+    ]
+  },
+  "392563c7-8455-4b18-a840-2569bad40fb3": {
+    "en": "After a fight with a close friend, who reaches out first?",
+    "text": "Wie zet na een ruzie met een goede vriend de eerste stap?",
+    "answers": [
+      "Altijd ik",
+      "Wie ongelijk had",
+      "Niemand, we doen alsof er niks is gebeurd",
+      "Niemand, meestal houdt het daar op"
+    ]
+  },
+  "580d620b-1ff6-4662-b9e7-783a83b482ab": {
+    "en": "Posting your friends on your social media...",
+    "text": "Je vrienden op je socials zetten…",
+    "answers": [
+      "Laat zien dat je om ze geeft",
+      "Is helemaal niet nodig"
+    ]
+  },
+  "c01dd781-f740-41b0-a72c-d6706d48e8ff": {
+    "en": "Could you be friends with your partner's ex?",
+    "text": "Zou je bevriend kunnen zijn met de ex van je partner?"
+  },
+  "0dca06e6-2ca7-47d9-baad-475f804027d3": {
+    "en": "What's the ideal number of people for a friends' trip?",
+    "text": "Wat is het ideale aantal mensen voor een vakantie met vrienden?"
+  }
+}

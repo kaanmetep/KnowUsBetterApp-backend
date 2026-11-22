@@ -1,0 +1,436 @@
+{
+  "f7b7d52b-0b27-4bac-9729-6f4e6d186c17": {
+    "text": "{{playerName}} – najdłuższa podróż autem w jeden dzień: ile godzin?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f94eac2c-1bd8-4e69-87f5-c716eb17f1a2": {
+    "text": "{{playerName}} – zgubiony portfel: ile razy? Jeśli nigdy, wpisz 0.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "56f5acaa-9dd8-44b3-abe6-ddd01fb46fbc": {
+    "text": "{{playerName}}: ile dzieci ma rodzeństwo? Jeśli brak, wpisz 0.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1e5f97a7-0622-4095-9b35-2ba310517424": {
+    "text": "{{playerName}} – zmiana numeru telefonu: ile razy? Jeśli nigdy, wpisz 0.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4ea1a7bd-b472-44ce-8df0-b219ccf8a88e": {
+    "text": "{{playerName}}: w ilu różnych miastach zdarzyło się już mieszkać?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "7dc6a0e3-d5ef-4a8a-b388-ec39afa991ee": {
+    "text": "{{playerName}} – występy w telewizji: ile razy? Jeśli nigdy, wpisz 0.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e260b248-f935-47ca-a527-80c93355361e": {
+    "text": "{{playerName}} – koncerty: na ilu mniej więcej? Jeśli na żadnym, wpisz 0.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d0901538-26fb-44ba-8fa0-ba285d31c744": {
+    "text": "{{playerName}} – zatrucie pokarmowe: ile razy? Jeśli nigdy, wpisz 0.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0c5e695a-a458-499d-ae51-13c53adcddd2": {
+    "text": "{{playerName}} – zwierzaki przez całe życie: ile w sumie? Jeśli żadnego, wpisz 0.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a3eecac6-d128-49e7-8809-8a6d4eedf356": {
+    "text": "Jakie drugie imię ma {{playerName}}? Jeśli nie ma, wpisz „brak”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5c62f03d-f338-4beb-9eb8-99d6e896a798": {
+    "text": "{{playerName}}: czym zawodowo zajmuje się mama?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a6dcacce-d2ae-40e1-8a57-fe01eb25d77d": {
+    "text": "{{playerName}} – pierwsza konsola do gier: jaka? Jeśli żadnej, wpisz „brak”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d43890e5-f0e6-42aa-bdd5-e3ef209d81b5": {
+    "text": "{{playerName}} – kierunek studiów: jaki? Jeśli bez studiów, wpisz „brak”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ea679c49-9e58-42f6-b148-b6b2530f82c6": {
+    "text": "{{playerName}} – ostatnia podróż za granicę: do jakiego kraju?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "29017788-31b1-41e7-a760-28bf42fa1183": {
+    "text": "{{playerName}}: czym zawodowo zajmuje się tata?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "97764295-e7a4-40ab-9835-8beed1341a06": {
+    "text": "{{playerName}}: z jakiego miasta pochodzi rodzina?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "17d89504-80b5-460f-9d75-39d388c6d8e1": {
+    "text": "Której drużynie kibicuje {{playerName}}? Jeśli żadnej, wpisz „brak”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ba5b2fe7-b030-4467-983a-7ebbe43f19a4": {
+    "text": "{{playerName}} – pierwszy serwis społecznościowy w życiu: jaki?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ffaae1fb-40ff-4933-ac17-c36aeadb43da": {
+    "text": "{{playerName}} – pierwszy język obcy: jaki? Jeśli żadnego, wpisz „brak”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cceb5f1f-90a3-4cb3-a7c4-1c3d10ae4a65": {
+    "text": "{{playerName}}: w którym miesiącu urodziny ma mama?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5c700d73-3a6e-4d31-a32f-14a00f61881d": {
+    "text": "{{playerName}}: w jakim mieście poznali się rodzice?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "91dc1c80-891d-4922-81db-e2c858b111b1": {
+    "text": "{{playerName}} – po kim to imię? Jeśli po nikim, wpisz „brak”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bf0c5622-a87e-47c2-abf2-11f67d3d36bc": {
+    "text": "{{playerName}} – najbliższy kuzyn lub kuzynka: jak ma na imię? Jeśli nie ma kuzynostwa, wpisz „brak”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d53064e2-ac96-4ec2-88c1-e4d4728e53b6": {
+    "text": "{{playerName}}: czym zawodowo zajmuje się rodzeństwo? Jeśli nie ma rodzeństwa, wpisz „brak”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f06fce27-558a-4a14-bc7c-02797e48b165": {
+    "text": "{{playerName}}: jak nazywa się rodzinna grupa na czacie?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1d27f445-8185-45f0-8e57-9d14df784fb8": {
+    "text": "Z kim z rodziny {{playerName}} ma najbliższą więź?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c7027cd1-a723-44f4-bae3-0d74ea7873bf": {
+    "text": "Kogo z rodziny {{playerName}} najbardziej przypomina z wyglądu?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "927e687b-cd16-47ef-819a-d52fdb385158": {
+    "text": "{{playerName}}: ulubione danie z kuchni mamy?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0f5a6d75-fc6a-4252-bf49-cfb3c9c1d8e3": {
+    "text": "{{playerName}} – dom z dzieciństwa: ile osób w nim mieszkało, wliczając siebie?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "aa7dabf5-ad66-4574-8d46-c2393faff547": {
+    "text": "{{playerName}}: jakie imię rodzice prawie wybrali? Jeśli takiego nie było, wpisz „brak”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3be027a4-5536-41b3-be2b-d519cc235f36": {
+    "text": "{{playerName}}: imię osoby, z którą najdłużej dzieliło się ławkę w szkole?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b5817a96-4ca4-421b-aa69-e3598c7f8328": {
+    "text": "{{playerName}} – stały zakup w szkolnym sklepiku: co to było?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4fb25a1c-f14e-43cf-a6ad-00295780f027": {
+    "text": "{{playerName}} – szkolne koło lub drużyna: jakie? Jeśli żadne, wpisz „brak”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5cf32bca-3e5e-4a5d-8d70-15f22575349a": {
+    "text": "{{playerName}}: gdzie zwykle mijały wakacje w dzieciństwie?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b9e75a17-3bf6-4f39-a58a-94e10faf1e5f": {
+    "text": "{{playerName}} – pierwszy telefon: w jakim wieku?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1f4648ed-da5e-4361-a8b0-5b188502eeb3": {
+    "text": "{{playerName}} – pierwszy tatuaż: w jakim wieku? Jeśli brak tatuaży, wpisz „nigdy”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "07337fdd-2317-4fa6-9482-d45b276fa891": {
+    "text": "{{playerName}} – pierwsza praca: w jakim wieku? Jeśli jeszcze żadnej, wpisz „nigdy”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "130baf14-361c-409b-a393-03f2783cc726": {
+    "text": "{{playerName}} – pierwszy zwierzak: w jakim wieku? Jeśli żadnego, wpisz „nigdy”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "79495e9d-536f-494e-aa55-4e131ab53c80": {
+    "text": "{{playerName}} – pierwszy samochód: w jakim wieku? Jeśli żadnego, wpisz „nigdy”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9bf2b42d-0981-47cc-baa9-92516c7b48c8": {
+    "text": "{{playerName}} – pierwsze konto w social mediach: w jakim wieku?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "65b9ad53-1684-4c07-b7b0-7a3bbaba7445": {
+    "text": "{{playerName}} – pierwszy mecz na stadionie: w jakim wieku? Jeśli nigdy, wpisz „nigdy”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "03114fc5-15b6-48bb-bf85-29e6add1ee9c": {
+    "text": "{{playerName}} – rekord bez snu: ile godzin?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "da47bdf7-4ae2-43ad-9deb-e98bb8e58f41": {
+    "text": "Ile pompek z rzędu {{playerName}} da radę zrobić?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ef21e83e-7879-4eab-af7b-feae41efa6ce": {
+    "text": "{{playerName}} – najwięcej kilometrów pieszo w jeden dzień: ile?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c9959107-d596-493f-ab42-38479f81059c": {
+    "text": "Ile sekund {{playerName}} wytrzyma w desce?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3c10a729-5ed9-49cf-84b4-8df6c848e51b": {
+    "text": "{{playerName}} – najwięcej kawałków pizzy za jednym razem: ile?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "77e0d3af-2aea-4969-a40d-1c525508c55b": {
+    "text": "Ile podciągnięć na drążku z rzędu {{playerName}} da radę zrobić?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1a1ab67d-8a8e-47dd-97ce-a4de6836a290": {
+    "text": "{{playerName}} – rekord odcinków serialu w jeden dzień: ile?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d76a8b89-f7a4-4022-9fac-7ae3adf56d1b": {
+    "text": "{{playerName}} – najdłuższa sesja grania: ile godzin? Jeśli nie gra, wpisz 0.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "61cc3182-df1a-43ea-8850-6cdc26f84934": {
+    "text": "Ile kilo {{playerName}} wyciśnie na ławce? Jeśli nie wyciska, wpisz 0.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4a4e5dde-be6e-43c8-9ad5-26aad6cbdac6": {
+    "text": "{{playerName}} – rekord nauki w jeden dzień: ile godzin?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "75852c20-379b-4202-87bb-0e3d463805b9": {
+    "text": "Ile par butów ma {{playerName}}?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "2685c7a1-b045-4991-9374-d3447fa52427": {
+    "text": "Ile flakonów perfum ma {{playerName}}? Jeśli żadnego, wpisz 0.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a9674a7b-5a5d-4732-88b3-255c8e792b84": {
+    "text": "Ile kluczy {{playerName}} ma w pęku?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b1b1f89d-947e-4941-aa89-eb5dfab51ded": {
+    "text": "Ile roślin {{playerName}} ma w domu? Jeśli żadnej, wpisz 0.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "262d61d0-ef48-4779-8ee9-1875799e82ac": {
+    "text": "Ile zegarków ma {{playerName}}? Jeśli żadnego, wpisz 0.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "946f1533-886c-453c-8334-4e55d560944c": {
+    "text": "Ile par okularów przeciwsłonecznych ma {{playerName}}? Jeśli żadnej, wpisz 0.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b7c7975d-2421-40bd-a659-d3128b57304a": {
+    "text": "Które z odwiedzonych miast {{playerName}} lubi najbardziej?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "dc0048e9-f6b3-4c51-9e2b-d88c9d917917": {
+    "text": "{{playerName}}: jak ma na imię obecny zwierzak? Jeśli żadnego, wpisz „brak”.",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "539cdb75-9f36-46bd-ba9f-9445c11c27f1": {
+    "text": "Co {{playerName}} zawsze zamawia w ulubionej restauracji?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9dbe2d27-e8a4-4652-86d0-f9d51adeeb30": {
+    "text": "Pod jaką nazwą {{playerName}} ma zapisaną mamę w telefonie?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0e45d0a2-47ea-4285-9a24-fc6a0d270a8f": {
+    "text": "O której {{playerName}} ma pierwszy budzik w dni robocze?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

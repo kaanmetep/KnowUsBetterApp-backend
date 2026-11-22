@@ -1,0 +1,130 @@
+[
+ {
+  "id": "0da22e32-fa22-493b-bc7f-f4b3a1ae901b",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "Where do you see yourselves living in 5 years?",
+  "tr": "5 yıl sonra kendinizi nerede yaşarken görüyorsun?",
+  "answers_en": [
+   "Right where we are",
+   "A bigger city",
+   "Somewhere quiet, near nature",
+   "Another country"
+  ],
+  "answers_tr": [
+   "Tam da şimdiki yerimizde",
+   "Daha büyük bir şehirde",
+   "Doğaya yakın sakin bir yerde",
+   "Başka bir ülkede"
+  ]
+ },
+ {
+  "id": "094980c9-ac72-48cd-8fec-ded5e8c859f2",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How do you feel about having kids?",
+  "tr": "Çocuk sahibi olmak hakkında ne düşünüyorsun?",
+  "answers_en": [
+   "Definitely, and soon",
+   "Yes, but not yet",
+   "Not sure",
+   "Not for me"
+  ],
+  "answers_tr": [
+   "Kesinlikle, hem de yakında",
+   "Evet ama henüz değil",
+   "Emin değilim",
+   "Bana göre değil"
+  ]
+ },
+ {
+  "id": "9dd0cb25-5e52-4bbd-8b84-0845b7a42506",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "What matters most for your future together?",
+  "tr": "Ortak geleceğiniz için en önemli şey ne?",
+  "answers_en": [
+   "Stability and security",
+   "Adventure and new experiences",
+   "Building a family",
+   "Each of us growing"
+  ],
+  "answers_tr": [
+   "İstikrar ve güven",
+   "Macera ve yeni deneyimler",
+   "Bir aile kurmak",
+   "İkimizin de kendini geliştirmesi"
+  ]
+ },
+ {
+  "id": "0bcc27d3-1ef3-44af-a395-189f4c9bd2c7",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "You get a dream job offer in another city. You…",
+  "tr": "Başka bir şehirden hayalindeki iş teklifi geldi. Sen…",
+  "answers_en": [
+   "Take it only if we move together",
+   "Try long distance for a while",
+   "Turn it down for us",
+   "Take it, we'll figure it out"
+  ],
+  "answers_tr": [
+   "Sadece birlikte taşınırsak kabul ederim",
+   "Bir süre uzak mesafe denerim",
+   "Bizim için reddederim",
+   "Kabul ederim, bir yolunu buluruz"
+  ]
+ },
+ {
+  "id": "8ef516ca-6075-4b91-baa4-ddf344730612",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How do you prefer to plan the future?",
+  "tr": "Geleceği nasıl planlamayı tercih edersin?",
+  "answers_en": [
+   "Detailed plans, years ahead",
+   "A rough direction",
+   "One step at a time",
+   "Let life surprise us"
+  ],
+  "answers_tr": [
+   "Yıllar öncesinden detaylı planlar",
+   "Kabaca bir yön",
+   "Adım adım",
+   "Hayat bizi şaşırtsın"
+  ]
+ },
+ {
+  "id": "afb504c6-4c43-4b52-ac1f-3313b26b9e24",
+  "mode": "daily_analysis",
+  "type": "choice",
+  "en": "How sure are you that you two want the same future?",
+  "tr": "İkinizin aynı geleceği istediğinden ne kadar eminsin?",
+  "answers_en": [
+   "Completely sure",
+   "Mostly, with a few open questions",
+   "We haven't really talked about it",
+   "Not sure at all"
+  ],
+  "answers_tr": [
+   "Tamamen eminim",
+   "Çoğunlukla, birkaç açık soru var",
+   "Bunu gerçekten konuşmadık",
+   "Hiç emin değilim"
+  ]
+ },
+ {
+  "id": "983f732f-f006-4caf-acec-f1b565922810",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "In one sentence: where are the two of you in five years?",
+  "tr": "Tek cümleyle: beş yıl sonra ikiniz neredesiniz?"
+ },
+ {
+  "id": "9a479602-d540-4c0d-818d-eca22f12ae13",
+  "mode": "daily_analysis",
+  "type": "text",
+  "en": "What's one thing about the future you've been hesitant to bring up?",
+  "tr": "Gelecekle ilgili açmaya çekindiğin bir konu ne?"
+ }
+]

@@ -1,0 +1,475 @@
+{
+ "f8b8e4f3-28d9-4886-af07-a40660eecc99": {
+  "text": "音楽の好みが全然違う人と付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f304ce02-dda7-4317-8fdb-ea25aee9c4a4": {
+  "text": "恋人の学歴って気になる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "53cff209-fbc0-4246-b117-18b3555971df": {
+  "text": "自分より背が低い人と付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bc57ff15-11b9-4073-ae40-e1d0f01c0fad": {
+  "text": "この先ずっとひとりになるのが怖い？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f43d3e26-8697-42a0-8804-7145be8be518": {
+  "text": "恋人の元恋人の数が自分より多かったら気になる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a341a8ea-7831-4c4c-993b-95651f9220ee": {
+  "text": "見た目がタイプじゃない人と付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "83898e96-79ac-41d0-a2cd-f95d16e018bd": {
+  "text": "付き合いたてで恋人が結婚の話をしてきたら重い？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1bc54b46-bd63-495c-979d-0d1e4203d959": {
+  "text": "外国の人との結婚も考えられる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fc039185-c94b-4708-bb45-c273aa7abbc5": {
+  "text": "初デートは男性がおごるべき？",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "Source itself is about gender roles (generic 'the man'), not the players' gender; kept as 男性. Review if this question fits same-sex couples."
+ },
+ "32406677-bba7-491a-aff9-d64567ca82c0": {
+  "text": "恋人の借金、代わりに返せる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "16ab0dae-f337-4214-84b3-f4fd1d237451": {
+  "text": "気持ちのない相手と体の関係を持ったことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "24afb9f9-09fe-479b-b7fe-222f914f546d": {
+  "text": "さみしさを埋めるためだけに、本気で好きになってくれた人を利用したことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2e854593-1245-4f29-8c9d-dc97306eaeb0": {
+  "text": "将来、恋人と住むなら都会と静かな町どっち？",
+  "answers": [
+   "都会",
+   "静かな町"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9fcb5dab-3f2e-4a0d-b23a-61900bc49522": {
+  "text": "お酒を飲むと人が変わる人と付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "97b6d4e0-ab32-423e-bc3f-53883b958a5d": {
+  "text": "不幸じゃないけど心が満たされない関係、続ける？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "32b5d1f7-97f4-466b-ad7f-395b505c73a7": {
+  "text": "体の相性が合わなくても恋愛ってうまくいく？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2d748ea6-89f2-4ad3-bb23-ea30c2c73842": {
+  "text": "1億円もらえるなら、親友の恋人を口説く？",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "1 million dollars localized to 1億円 (round, natural sum in Japan)."
+ },
+ "e55ea49c-c670-4fe9-bf1c-267153fc88e0": {
+  "text": "自分がされるのが怖い傷つけ方で、誰かを傷つけたことあると思う？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5264f2b0-12db-44aa-81d2-395cee494d0c": {
+  "text": "お金がたくさんあったら、働かずに暮らす？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "92350381-e030-4eb9-adea-eba4539776db": {
+  "text": "将来、恋人と地元に残る？それとも新しい場所に引っ越す？",
+  "answers": [
+   "地元に残る",
+   "新しい場所に引っ越す"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3e001ead-34f3-49cd-841b-0adf7ed83ee2": {
+  "text": "恋人のスマホ、こっそり見る？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cb65844c-0923-4018-827e-7e5e742a2c88": {
+  "text": "恋人がしばらく距離を置きたいって言ったら受け入れられる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "13769262-3c15-4137-99c0-eee392521846": {
+  "text": "恋人について大事なのは、過去どんな人だったかとこれからどうなりたいか、どっち？",
+  "answers": [
+   "過去の人柄",
+   "これからの可能性"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6b732428-5ccc-4b9e-a751-ea915f51024f": {
+  "text": "恋人から毎朝「おはよう」LINEが来てほしい？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": "Message localized to LINE, the default messenger in Japan."
+ },
+ "d2cb8fd1-c4ee-43e7-9bec-026c60baf9ad": {
+  "text": "恋人の服のセンスに口出しする？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "04b359db-733e-4009-8f92-b0814aa0b03a": {
+  "text": "余裕ぶりたくて、恋人からのメッセージをわざと既読にしなかったことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a0098eef-632a-4297-94cf-514d6abb3a58": {
+  "text": "つらいのは、去る側と残される側どっち？",
+  "answers": [
+   "去る側",
+   "残される側"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "44bf894e-1b91-4709-9c94-74b54c849ec9": {
+  "text": "将来、恋人が「男の子しかいらない、女の子は絶対イヤ」って言ったら問題？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8e44a610-70a6-443a-a5f4-6695dd7f2acb": {
+  "text": "恋人がいるのに浮気したことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f7cd4adc-4c3a-462d-80b8-a9cb5e0d59a7": {
+  "text": "恋人に浮気されたことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b06e47ff-0765-4387-a852-0e0f8d671331": {
+  "text": "本気で愛してたら、何でも許せる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6e964579-93e2-4ea7-a602-f2da4dc10c40": {
+  "text": "動物が好きじゃない人と付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9da6aa5a-72e2-4cfc-967b-a1333bc77fde": {
+  "text": "恋人が元恋人と連絡を取ってたら気になる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5a13add7-782e-4168-a409-a8dd27a630b6": {
+  "text": "運動が嫌いな人とでも付き合い続けられる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "97b0ab35-8d44-44b9-9ab1-814f1f7f85a8": {
+  "text": "年上の人と付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fdcd6d7e-01fa-494d-a8de-7b442ca67c54": {
+  "text": "恋愛でもっと傷つくのはどっち？",
+  "answers": [
+   "嘘をつかれる",
+   "無視される"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "20510bb3-bf38-4b99-bb6d-4afcab715e9e": {
+  "text": "お金がないのに、デート中にお金あるフリしたことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cb8b64a7-939c-4ae3-8a90-74b432a1443c": {
+  "text": "好きでも、将来の目標が全然違ったら付き合い続ける？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "008255f4-ad49-4afa-b3ff-75cdf23edc79": {
+  "text": "恋人と丸1日まったく話さなかったら、ケンカになる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fa0c44cc-ec0b-436b-9ccd-7bbc0543e25b": {
+  "text": "お母さんに「恋人と別れて」って言われたら、別れる？（妥協はナシ）",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1317fcea-d7cc-4eec-8f68-f27242b04416": {
+  "text": "恋人にインスタのDMを見せられる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "dbc65ae7-6de1-4c22-a234-30dfe8df9e83": {
+  "text": "SNSで知り合った人と真剣に付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1049e2d0-ff17-4ee1-ab4f-f85fe3f9b87c": {
+  "text": "恋人のインスタの投稿をチェックする？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a62df855-633d-493b-8ab3-2550e3b3365e": {
+  "text": "恋人がオンラインなのに返信がなかったら、ケンカになる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ae38b2a8-6c8a-4e8c-a318-b1e20f4aa648": {
+  "text": "将来、自分より経験人数が多い人との結婚も考えられる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3854250e-4b69-4774-8b6a-a2e7d388e9cf": {
+  "text": "浮気されて、許したことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fbdb80de-c188-405f-82b0-4e79741032fb": {
+  "text": "何をした人でも、セカンドチャンスはあるべきだと思う？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f3b3010c-c0bd-47ed-a4bf-e62dd8e2006f": {
+  "text": "好きな人のために、人生で一番夢中になってることをあきらめられる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fdb7ee23-84ac-47e3-82cc-e99cfdc6faef": {
+  "text": "人の根っこの性格って、時間がたてば本当に変わると思う？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c29fa0f5-b83a-4d47-b83a-23415dbccd57": {
+  "text": "恋人が大人数の友達グループで、ひとりだけ性別が違ったら気になる？",
+  "answers": [],
+  "accepted": [],
+  "flagged": true,
+  "note": "Source 'only woman/man' slash form rephrased as 'the only one of a different gender in the group' to stay neutral."
+ },
+ "8a608656-6f0c-4340-a4ea-9946910b72b5": {
+  "text": "パートナーにするなら、将来のために貯める人と今を楽しんで使う人、どっち？",
+  "answers": [
+   "将来のために貯める",
+   "今を楽しんで使う"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "23c84c87-92c4-43a2-8803-f5f70ee8691a": {
+  "text": "夜遊びが大好きな人と付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ce87d138-4cfa-4aee-9758-29ca3d1b954b": {
+  "text": "これから起きることは全部、運命で決まってると思う？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3decdc82-9ae0-4505-91f6-6302b5c53c41": {
+  "text": "いつもかまってほしい人と付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "706d8700-739b-47ae-9dd1-dce16f162a07": {
+  "text": "ケチな人と付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0b4812d9-d4b8-4f65-8890-54552b41ef89": {
+  "text": "声が好きになれない人と付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "001a4314-020a-4324-a750-caa1ad0bc9e4": {
+  "text": "恋人にSNSの昔の投稿を消してほしい？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0d6447bb-6e82-460a-b04d-5d2f003696e4": {
+  "text": "将来の計画は全部、恋人と一緒に考える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6d5ea62e-65a1-4df6-945b-5f285684a863": {
+  "text": "本を読むのが好きじゃない人と付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "ac395c4f-0f1f-409a-b052-949dc725b2d7": {
+  "text": "無職の人と付き合える？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5bad6b2a-f446-40b8-80eb-1eb297558aaf": {
+  "text": "かまってほしくて、好きでもない人とやりとりを続けたことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2ea3cafa-eafd-4846-ae37-6b1bd3b0afe0": {
+  "text": "ふたりの記念日を、恋人には全部覚えててほしい？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "69756540-7f71-4731-b79c-4eb07fe1da71": {
+  "text": "自分の結婚式、どんな感じがいいか想像したことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "fe1b8a27-eb1b-4098-a0a4-914e39ab95eb": {
+  "text": "恋人と知的レベルが合わないのは問題？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "86fdbda3-1523-4d06-9d8c-07124f41ef2f": {
+  "text": "マッチングアプリ、使ったことある？",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

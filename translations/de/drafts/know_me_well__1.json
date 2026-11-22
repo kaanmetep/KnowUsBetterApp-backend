@@ -1,0 +1,651 @@
+{
+ "33e860c5-d68a-4622-8bff-5c2395b7b4fa": {
+  "text": "Will {{playerName}} am Wochenende lieber zu Hause bleiben oder ausgehen?",
+  "answers": [
+   "Zu Hause bleiben",
+   "Ausgehen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b54e736a-1ca6-4282-8d2f-f8395b87aea1": {
+  "text": "Würde {{playerName}} lieber schreiben oder anrufen?",
+  "answers": [
+   "Schreiben",
+   "Anrufen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "4bc843bb-07c2-4f26-b817-0f3d3b9614b9": {
+  "text": "Würde {{playerName}} lieber alles planen oder spontan sein?",
+  "answers": [
+   "Alles planen",
+   "Spontan sein"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "82c0e606-aae6-4ff9-b103-b95342fd82dd": {
+  "text": "Schaut {{playerName}} lieber einen Lieblingsfilm nochmal oder etwas Neues?",
+  "answers": [
+   "Lieblingsfilm nochmal",
+   "Etwas Neues"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "91ca43c8-5750-446e-a192-ac3bbc581934": {
+  "text": "Würde {{playerName}} lieber am Meer oder in den Bergen leben?",
+  "answers": [
+   "Am Meer",
+   "In den Bergen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f35c8f81-62c1-4a7f-a513-8d4236bd98a5": {
+  "text": "Ist {{playerName}} lieber zu früh oder etwas zu spät dran?",
+  "answers": [
+   "Zu früh",
+   "Etwas zu spät"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "7d54b670-a981-422f-aced-7e9fa4bae1ec": {
+  "text": "Hört {{playerName}} bei Entscheidungen eher auf den Kopf oder aufs Herz?",
+  "answers": [
+   "Kopf",
+   "Herz"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b4de40ca-d4cd-4e56-ae5d-4dea9004dd81": {
+  "text": "Würde {{playerName}} lieber ein Geheimnis bewahren oder die Wahrheit sagen, auch wenn sie wehtut?",
+  "answers": [
+   "Geheimnis bewahren",
+   "Wahrheit sagen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f6926734-79ef-490a-a4e4-630f9273a4f5": {
+  "text": "Würde {{playerName}} lieber hart für den Erfolg arbeiten oder mit Glück leicht ans Ziel kommen?",
+  "answers": [
+   "Hart dafür arbeiten",
+   "Mit Glück leicht ans Ziel"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "5447a180-538c-4a12-9efb-cc3a5b935f41": {
+  "text": "Würde {{playerName}} eher schnell verzeihen oder lange nachtragend sein?",
+  "answers": [
+   "Schnell verzeihen",
+   "Lange nachtragend sein"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "2be6067f-ee2d-45a3-83be-4fc9c72df2ef": {
+  "text": "Würde {{playerName}} lieber 1 Million Euro nehmen oder die große Liebe heiraten?",
+  "answers": [
+   "1 Million Euro",
+   "Die große Liebe heiraten"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": "Localized $1 million to 1 Million Euro."
+ },
+ "12f83f4b-5b4b-4a12-a517-c315e06f329e": {
+  "text": "Würde {{playerName}} lieber in der Heimatstadt bleiben oder in verschiedenen Ländern leben?",
+  "answers": [
+   "Heimatstadt",
+   "Verschiedene Länder"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e17c9f6b-cf1a-45b3-87f4-27c8bdc82bae": {
+  "text": "Würde {{playerName}} lieber zu Hause kochen oder essen gehen?",
+  "answers": [
+   "Zu Hause kochen",
+   "Essen gehen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "382bc563-9823-4ab1-8071-cc2d74faf52a": {
+  "text": "Verbringt {{playerName}} einen freien Tag lieber allein oder mit Freunden?",
+  "answers": [
+   "Allein",
+   "Mit Freunden"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "90825695-99aa-4d92-896a-29c6c59a277b": {
+  "text": "Was wäre {{playerName}} lieber: hohes Gehalt mit stressigem Job oder weniger Gehalt mit entspanntem Job?",
+  "answers": [
+   "Hohes Gehalt, stressiger Job",
+   "Weniger Gehalt, entspannter Job"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f2281a28-c027-428c-99bd-5a083fee5ca4": {
+  "text": "Würde {{playerName}} als Erstes „Ich liebe dich“ sagen oder warten, bis die andere Person es tut?",
+  "answers": [
+   "Als Erstes sagen",
+   "Warten"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "475783c3-4b71-401d-87db-c959f01b2d7e": {
+  "text": "Verliebt sich {{playerName}} eher schnell oder erst mit der Zeit?",
+  "answers": [
+   "Schnell",
+   "Mit der Zeit"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1ab0317c-029e-4bb2-9de6-372e922d68aa": {
+  "text": "Zeigt {{playerName}} Gefühle lieber offen oder behält sie für sich?",
+  "answers": [
+   "Offen zeigen",
+   "Für sich behalten"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "786f9f17-3200-414f-9269-969c05476a85": {
+  "text": "Wäre {{playerName}} lieber die Person, die mehr liebt, oder die, die mehr geliebt wird?",
+  "answers": [
+   "Mehr lieben",
+   "Mehr geliebt werden"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0739e76d-bd4b-4bcc-a375-4048e59d974a": {
+  "text": "Steht {{playerName}} eher auf emotional intensive oder auf emotional ruhige Menschen?",
+  "answers": [
+   "Emotional intensiv",
+   "Emotional ruhig"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "76484c65-35c7-4c3c-9a1e-42230c7921f2": {
+  "text": "Hätte {{playerName}} lieber ein vorhersehbares Leben oder ein aufregendes, unberechenbares?",
+  "answers": [
+   "Vorhersehbares Leben",
+   "Aufregendes, unberechenbares Leben"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "239177fa-9d95-4c4e-bf05-9ca0e0153f5c": {
+  "text": "Hätte {{playerName}} lieber eine große oder eine kleine Familie?",
+  "answers": [
+   "Große Familie",
+   "Kleine Familie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1918743a-fff6-42ba-bacb-9f6930488c49": {
+  "text": "Würde {{playerName}} den Urlaub lieber mit der Familie verbringen oder an einen neuen Ort reisen?",
+  "answers": [
+   "Mit der Familie",
+   "An einen neuen Ort"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "77ba1277-946e-480b-b878-ed1aa3b631ad": {
+  "text": "Würde {{playerName}} lieber früh oder erst später im Leben Kinder bekommen?",
+  "answers": [
+   "Früh im Leben",
+   "Später im Leben"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "598ab765-c9fe-4082-bc14-d4b8d064861f": {
+  "text": "Hätte {{playerName}} lieber ein Kind oder zwei Kinder?",
+  "answers": [
+   "Ein Kind",
+   "Zwei Kinder"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d704896b-0ef4-4c00-9fd7-3a47551b146a": {
+  "text": "Würde {{playerName}} lieber einen sicheren Job fürs Leben haben oder etwas riskieren und eine eigene Firma gründen?",
+  "answers": [
+   "Sicherer Job fürs Leben",
+   "Eigene Firma gründen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6fb61eae-df85-4a81-bbd6-5ead952fdd6f": {
+  "text": "Würde {{playerName}} lieber ortsunabhängig remote arbeiten oder fest im Büro?",
+  "answers": [
+   "Remote arbeiten",
+   "Im Büro arbeiten"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "47219491-e82d-4220-afd0-f8f976dbacbc": {
+  "text": "Würde {{playerName}} in einer Beziehung lieber früh zusammenziehen oder lange damit warten?",
+  "answers": [
+   "Früh zusammenziehen",
+   "Lange warten"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "245377c3-2b87-4c1e-a318-e374030cc54a": {
+  "text": "Wenn {{playerName}} wählen müsste: lieber mit jemandem zusammen, der sehr eifersüchtig ist, oder mit jemandem, der sehr geizig ist?",
+  "answers": [
+   "Sehr eifersüchtig",
+   "Sehr geizig"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "11fcbe7e-56a2-4147-b883-7adfe6ae91bf": {
+  "text": "Wenn {{playerName}} wählen müsste: lieber mit jemandem zusammen, der sehr kontrollierend ist, oder mit jemandem, der emotional sehr distanziert ist?",
+  "answers": [
+   "Sehr kontrollierend",
+   "Emotional distanziert"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8ffb0025-b2a9-4460-a1ed-cb5a661a2088": {
+  "text": "Wäre {{playerName}} lieber mit jemandem zusammen, der sehr ehrgeizig ist, oder mit jemandem, der rundum zufrieden ist?",
+  "answers": [
+   "Sehr ehrgeizig",
+   "Rundum zufrieden"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "3408836d-1ecf-441a-960f-2fea5ad49e27": {
+  "text": "Hätte {{playerName}} lieber eine Katze oder einen Hund?",
+  "answers": [
+   "Katze",
+   "Hund"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1f6efff9-3add-4515-85f1-c6d272731369": {
+  "text": "Würde {{playerName}} lieber berühmt sein oder ganz privat leben?",
+  "answers": [
+   "Berühmt sein",
+   "Ganz privat leben"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "89b861b5-b18b-4c8f-a6db-d3267f82af3f": {
+  "text": "Würde {{playerName}} lieber immer die Wahrheit sagen oder immer Konflikte vermeiden?",
+  "answers": [
+   "Immer die Wahrheit sagen",
+   "Konflikte vermeiden"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "390d3b45-4e67-40bf-a304-e54b49a54d93": {
+  "text": "Würde {{playerName}} lieber schnell verzeihen oder sich damit Zeit lassen?",
+  "answers": [
+   "Schnell verzeihen",
+   "Sich Zeit lassen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "778652b2-f2c7-4a02-8dbf-bf8fbb62d089": {
+  "text": "Will {{playerName}} es in einer Beziehung lieber langsam angehen oder sofort die Chemie spüren?",
+  "answers": [
+   "Langsam angehen",
+   "Sofortige Chemie"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "6b1a102c-c5a3-4261-97eb-1379c2d19a64": {
+  "text": "Zeigt {{playerName}} Zuneigung lieber öffentlich oder privat?",
+  "answers": [
+   "Öffentlich",
+   "Privat"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1a19c968-2cfd-4823-80a6-b871d121e44a": {
+  "text": "Was ist {{playerName}} in einer Beziehung wichtiger: intensive Chemie oder emotionale Geborgenheit?",
+  "answers": [
+   "Intensive Chemie",
+   "Emotionale Geborgenheit"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8ca453c1-959a-4c76-9ea7-54987d756b27": {
+  "text": "Hätte {{playerName}} lieber jemanden an der Seite, der sehr eifersüchtig ist, oder jemanden, der volle Freiheit lässt?",
+  "answers": [
+   "Sehr eifersüchtig",
+   "Lässt volle Freiheit"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d5fadf41-1231-4b0c-8efa-9d625b1ca6fb": {
+  "text": "Wäre {{playerName}} lieber mit jemandem zusammen, der körperlich sehr ausdrucksstark ist, oder mit jemandem, der beherrschter und ruhiger ist?",
+  "answers": [
+   "Sehr ausdrucksstark",
+   "Beherrscht und ruhig"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "f1ed238f-43db-4120-a454-f66430ed55c7": {
+  "text": "Was wäre {{playerName}} in einer Beziehung lieber: starke körperliche Anziehung oder eine tiefe emotionale Verbindung?",
+  "answers": [
+   "Körperliche Anziehung",
+   "Emotionale Verbindung"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "aefd3291-56f1-4c7b-ae95-6cace501472d": {
+  "text": "Mag {{playerName}} lieber sonniges oder regnerisches Wetter?",
+  "answers": [
+   "Sonnig",
+   "Regnerisch"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "9cb91fa0-017a-492d-adbe-adb31919cbdd": {
+  "text": "Wann genießt {{playerName}} Intimität lieber: morgens oder nachts?",
+  "answers": [
+   "Morgens",
+   "Nachts"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a003660c-bffd-47f5-952c-0a40d2a45686": {
+  "text": "Mag {{playerName}} Intimität lieber spontan oder geplant?",
+  "answers": [
+   "Spontan",
+   "Geplant"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8a17d77f-14ed-4528-b669-78594d0da8ac": {
+  "text": "Mag {{playerName}} lieber eine wilde Partynacht oder einen gemütlichen Abend zu Hause?",
+  "answers": [
+   "Partynacht",
+   "Gemütlich zu Hause"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "a0fac6c6-6686-45b8-8cf4-408edc5d032c": {
+  "text": "Macht {{playerName}} lieber Strandurlaub oder Urlaub in den Bergen?",
+  "answers": [
+   "Strand",
+   "Berge"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "cffb0f75-9040-45b1-8d12-300ef3ca08be": {
+  "text": "Freut sich {{playerName}} mehr über eine süße Nachricht oder ein langes Telefonat?",
+  "answers": [
+   "Süße Nachricht",
+   "Langes Telefonat"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "59e97775-72fe-4bf0-9f4c-5b0cd575a4ce": {
+  "text": "Mag {{playerName}} lieber ein Überraschungsdate oder ein sorgfältig geplantes?",
+  "answers": [
+   "Überraschungsdate",
+   "Geplantes Date"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d164f584-fdb2-4f62-b924-781f1bd75ac9": {
+  "text": "Bekommt {{playerName}} lieber Komplimente für das Aussehen oder für die Persönlichkeit?",
+  "answers": [
+   "Aussehen",
+   "Persönlichkeit"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0492fd1f-f383-4660-8df4-d63bc67d178a": {
+  "text": "Trifft {{playerName}} große Lebensentscheidungen lieber allein oder gemeinsam als Paar?",
+  "answers": [
+   "Allein",
+   "Gemeinsam"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "94f9ac5e-0878-4a02-ae8c-7b4008f74ad4": {
+  "text": "Wenn {{playerName}} durch die Zeit reisen könnte: einen Fehler in der Vergangenheit korrigieren oder die Zukunft besuchen?",
+  "answers": [
+   "Vergangenheit korrigieren",
+   "Zukunft besuchen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "bd441de0-5c15-4416-99b1-89df1671c114": {
+  "text": "War {{playerName}} als Kind eher frech und wild oder ruhig und brav?",
+  "answers": [
+   "Frech und wild",
+   "Ruhig und brav"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "347689ab-707b-4407-a09f-69f9f19343de": {
+  "text": "Hat {{playerName}} als Kind lieber draußen im Dreck gespielt oder drinnen mit Spielzeug?",
+  "answers": [
+   "Draußen spielen",
+   "Drinnen spielen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "c022d8ce-34b3-4ab0-a227-06d30b81bd48": {
+  "text": "Mag {{playerName}} das Essen auf dem Teller lieber getrennt oder alles vermischt?",
+  "answers": [
+   "Schön getrennt",
+   "Alles vermischt"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "060551e0-79ca-4006-9c48-f247b618ce82": {
+  "text": "Schläft {{playerName}} lieber in völliger Stille oder mit Hintergrundgeräuschen (z. B. Musik oder Ventilator)?",
+  "answers": [
+   "Völlige Stille",
+   "Hintergrundgeräusche"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "df4aa404-cddd-4a94-b2bb-04fa25a26220": {
+  "text": "Wofür würde {{playerName}} lieber in Erinnerung bleiben: Intelligenz oder Herzlichkeit?",
+  "answers": [
+   "Intelligenz",
+   "Herzlichkeit"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "d3b1c0c7-84b5-46cf-9492-69d50264f744": {
+  "text": "Was macht {{playerName}} bei Stress: sich zurückziehen oder Halt bei den Liebsten suchen?",
+  "answers": [
+   "Sich zurückziehen",
+   "Halt suchen"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "85b2e103-ec68-46a7-969f-9a2a9845765f": {
+  "text": "Hört {{playerName}} bei großen Entscheidungen aufs Bauchgefühl oder müssen erst alle Fakten auf den Tisch?",
+  "answers": [
+   "Bauchgefühl",
+   "Fakten"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "1291050c-1544-4303-aec4-8dfb5336fede": {
+  "text": "Wie wichtig ist {{playerName}} die Atmosphäre (Licht, Musik, Stimmung) in intimen Momenten?",
+  "answers": [
+   "Jedes Detail zählt",
+   "Völlig egal"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "936fc0ce-528b-4397-9401-6e314e091ea9": {
+  "text": "Was ist {{playerName}} in intimen Momenten wichtiger: liebe Worte oder rein das körperliche Gefühl?",
+  "answers": [
+   "Liebe Worte",
+   "Rein körperlich"
+  ],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "e9b217eb-eb8e-4bf3-96e3-0529186355f9": {
+  "text": "Wann wacht {{playerName}} normalerweise auf?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "0c937cba-97a4-4782-a859-d321a0e52b16": {
+  "text": "Wie viele Geschwister hat {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "8e7430ec-4498-4aff-a4dc-10933a46c12d": {
+  "text": "In welchem Monat hat {{playerName}} Geburtstag?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "b5c36562-c5d4-42ae-9205-85f0b0262bad": {
+  "text": "Was ist die Lieblingseissorte von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "67bea7b0-936b-4108-b413-8eea681221e0": {
+  "text": "Ohne was geht {{playerName}} nie aus dem Haus?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "10c8697c-0893-43cd-891b-3f8043ea9661": {
+  "text": "In welcher Stadt wurde {{playerName}} geboren?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ },
+ "67bddf7d-4d5a-49ff-b2bd-544f70c541e0": {
+  "text": "Was ist die Lieblingsfarbe von {{playerName}}?",
+  "answers": [],
+  "accepted": [],
+  "flagged": false,
+  "note": ""
+ }
+}

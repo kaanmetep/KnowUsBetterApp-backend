@@ -1,0 +1,3955 @@
+[
+ {
+  "id": "980115c5-d5c7-49e5-a782-cc1175a6518b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which organ in the human body consumes the highest percentage of total energy?",
+  "tr": "İnsan vücudunda toplam enerjinin en yüksek yüzdesini hangi organ tüketir?",
+  "answers_en": [
+   "Brain",
+   "Heart",
+   "Liver",
+   "Kidneys"
+  ],
+  "answers_tr": [
+   "Beyin",
+   "Kalp",
+   "Karaciğer",
+   "Böbrekler"
+  ],
+  "correct_answer": "Brain"
+ },
+ {
+  "id": "a1a237a1-628a-4008-9ba2-36d59a0e6171",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which primary color mixture produces the color green in standard visual pigments?",
+  "tr": "Standart görsel pigmentlerde hangi ana renklerin karışımı yeşil rengi oluşturur?",
+  "answers_en": [
+   "Blue and Yellow",
+   "Red and Blue",
+   "Yellow and Red"
+  ],
+  "answers_tr": [
+   "Mavi ve Sarı",
+   "Kırmızı ve Mavi",
+   "Sarı ve Kırmızı"
+  ],
+  "correct_answer": "Blue and Yellow"
+ },
+ {
+  "id": "c1cb1e49-a9cc-43e1-b6da-34f4da305a37",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which architectural feature was specifically invented by ancient Romans to support massive dome structures?",
+  "tr": "Antik Romalılar tarafından özellikle devasa kubbe yapılarını desteklemek için icat edilen mimari unsur hangisidir?",
+  "answers_en": [
+   "The Arch",
+   "The Column",
+   "The Pyramid"
+  ],
+  "answers_tr": [
+   "Kemer",
+   "Sütun",
+   "Piramit"
+  ],
+  "correct_answer": "The Arch"
+ },
+ {
+  "id": "e9339914-1d7d-423a-9a28-2519995eb9e6",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which planet in our solar system spins in the opposite direction to most other planets?",
+  "tr": "Güneş sistemimizde diğer çoğu gezegenin tersi yönünde dönen gezegen hangisidir?",
+  "answers_en": [
+   "Venus",
+   "Mars",
+   "Jupiter",
+   "Saturn"
+  ],
+  "answers_tr": [
+   "Venüs",
+   "Mars",
+   "Jüpiter",
+   "Satürn"
+  ],
+  "correct_answer": "Venus"
+ },
+ {
+  "id": "52c90157-fc1f-4878-9f00-91c318581ade",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which animal holds the record for having the longest lifespan among vertebrates on Earth?",
+  "tr": "Yeryüzündeki omurgalı hayvanlar arasında en uzun yaşam süresi rekoruna sahip olan canlı hangisidir?",
+  "answers_en": [
+   "Greenland Shark",
+   "Galapagos Tortoise",
+   "Bowhead Whale"
+  ],
+  "answers_tr": [
+   "Grönland Köpekbalığı",
+   "Galapagos Kaplumbağası",
+   "Grönland Balinası"
+  ],
+  "correct_answer": "Greenland Shark"
+ },
+ {
+  "id": "c3b7010c-35ea-402f-a186-4035fa9be837",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which fruit is botanically classified as a berry, despite common belief?",
+  "tr": "Yaygın kanaatin aksine botanik olarak dutsu meyve (berry) sınıfında yer alan meyve hangisidir?",
+  "answers_en": [
+   "Banana",
+   "Strawberry",
+   "Raspberry"
+  ],
+  "answers_tr": [
+   "Muz",
+   "Çilek",
+   "Ahududu"
+  ],
+  "correct_answer": "Banana"
+ },
+ {
+  "id": "0e882595-4846-4d01-a879-ccb1be0cdc0a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country is home to the famous Eiffel Tower?",
+  "tr": "Ünlü Eyfel Kulesi hangi ülkededir?",
+  "answers_en": [
+   "France",
+   "Italy",
+   "Spain",
+   "Germany"
+  ],
+  "answers_tr": [
+   "Fransa",
+   "İtalya",
+   "İspanya",
+   "Almanya"
+  ],
+  "correct_answer": "France"
+ },
+ {
+  "id": "5f20efa2-53ef-4bc7-b7de-966c2a271457",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which planet in our solar system is known as the \"Red Planet\"?",
+  "tr": "Güneş sistemimizde \"Kızıl Gezegen\" olarak bilinen gezegen hangisidir?",
+  "answers_en": [
+   "Mars",
+   "Jupiter",
+   "Venus"
+  ],
+  "answers_tr": [
+   "Mars",
+   "Jüpiter",
+   "Venüs"
+  ],
+  "correct_answer": "Mars"
+ },
+ {
+  "id": "4d359908-e7a2-4ef5-bde1-d9fc49ee3218",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which mammalian land animal is known for being unable to jump?",
+  "tr": "Zıplayamayan tek kara memelisi olarak bilinen hayvan hangisidir?",
+  "answers_en": [
+   "Elephant",
+   "Giraffe",
+   "Hippo",
+   "Rhino"
+  ],
+  "answers_tr": [
+   "Fil",
+   "Zürafa",
+   "Hipopotam",
+   "Gergedan"
+  ],
+  "correct_answer": "Elephant"
+ },
+ {
+  "id": "a98b74cf-707a-4d84-a017-ea98f2d69e68",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many sides does a standard stop sign on the road have?",
+  "tr": "Yollardaki standart bir \"DUR\" trafik levhasının kaç kenarı vardır?",
+  "answers_en": [
+   "8",
+   "6",
+   "10"
+  ],
+  "answers_tr": [
+   "8",
+   "6",
+   "10"
+  ],
+  "correct_answer": "8"
+ },
+ {
+  "id": "1002c05b-034b-4dd1-a1fb-adf942e36c58",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What color do you get when you mix blue and yellow together?",
+  "tr": "Mavi ve sarı renklerini birbirine karıştırdığınızda hangi rengi elde edersiniz?",
+  "answers_en": [
+   "Green",
+   "Purple",
+   "Orange"
+  ],
+  "answers_tr": [
+   "Yeşil",
+   "Mor",
+   "Turuncu"
+  ],
+  "correct_answer": "Green"
+ },
+ {
+  "id": "4563d6d4-5301-4f89-811a-045b66157aa2",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which soft drink was originally invented as a cough syrup and headache remedy?",
+  "tr": "İlk olarak öksürük şurubu ve baş ağrısı ilacı olarak icat edilen gazlı içecek hangisidir?",
+  "answers_en": [
+   "Coca-Cola",
+   "Sprite",
+   "Fanta",
+   "Pepsi"
+  ],
+  "answers_tr": [
+   "Coca-Cola",
+   "Sprite",
+   "Fanta",
+   "Pepsi"
+  ],
+  "correct_answer": "Coca-Cola"
+ },
+ {
+  "id": "83fbd060-6ae4-4fc1-9ebe-4b0e7a2e0c15",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which organ in the human body pumps blood through the circulatory system?",
+  "tr": "İnsan vücudunda kanı dolaşım sistemine pompalayan organ hangisidir?",
+  "answers_en": [
+   "Heart",
+   "Lungs",
+   "Kidneys"
+  ],
+  "answers_tr": [
+   "Kalp",
+   "Akciğerler",
+   "Böbrekler"
+  ],
+  "correct_answer": "Heart"
+ },
+ {
+  "id": "a79f90ff-8ce5-493b-8b50-2ef10c1f9c26",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many continents are there on planet Earth?",
+  "tr": "Dünya üzerinde kaç tane kıta vardır?",
+  "answers_en": [
+   "7",
+   "5",
+   "6",
+   "8"
+  ],
+  "answers_tr": [
+   "7",
+   "5",
+   "6",
+   "8"
+  ],
+  "correct_answer": "7"
+ },
+ {
+  "id": "b6c425a9-162f-4107-919c-20eea21afc7a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the name of the imaginary line that divides Earth into the Northern and Southern Hemispheres?",
+  "tr": "Dünyayı Kuzey ve Güney Yarımküre olarak ikiye bölen hayali çizginin adı nedir?",
+  "answers_en": [
+   "Equator",
+   "Greenwich Meridian",
+   "Tropic of Cancer"
+  ],
+  "answers_tr": [
+   "Ekvator",
+   "Başlangıç Meridyeni",
+   "Yengeç Dönencesi"
+  ],
+  "correct_answer": "Equator"
+ },
+ {
+  "id": "6d38ce25-2cda-440e-b549-81e7ac23cec6",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country gave the Statue of Liberty to the United States as a gift?",
+  "tr": "Özgürlük Heykeli'ni Amerika Birleşik Devletleri'ne hediye eden ülke hangisidir?",
+  "answers_en": [
+   "France",
+   "United Kingdom",
+   "Spain"
+  ],
+  "answers_tr": [
+   "Fransa",
+   "İngilterra",
+   "İspanya"
+  ],
+  "correct_answer": "France"
+ },
+ {
+  "id": "71f547f0-2910-4a59-b084-5a1da579b6fd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the largest living mammal on planet Earth?",
+  "tr": "Dünya üzerindeki yaşayan en büyük memeli canlı hangisidir?",
+  "answers_en": [
+   "Blue Whale",
+   "African Elephant",
+   "Giraffe"
+  ],
+  "answers_tr": [
+   "Mavi Balina",
+   "Afrika Fili",
+   "Zürafa"
+  ],
+  "correct_answer": "Blue Whale"
+ },
+ {
+  "id": "eb10929a-ee75-431c-8b54-1c62a3954c40",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which piece can move in any direction and any number of squares in a game of chess?",
+  "tr": "Satranç oyununda her yöne ve istediği kadar kareye gidebilen taş hangisidir?",
+  "answers_en": [
+   "Queen",
+   "Rook",
+   "Knight"
+  ],
+  "answers_tr": [
+   "Vezir",
+   "Kale",
+   "At"
+  ],
+  "correct_answer": "Queen"
+ },
+ {
+  "id": "d322c35e-b645-48fb-a14c-cb92c5fd3a2d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which metal is liquid at room temperature?",
+  "tr": "Oda sıcaklığında sıvı halde bulunan metal hangisidir?",
+  "answers_en": [
+   "Mercury",
+   "Gold",
+   "Silver"
+  ],
+  "answers_tr": [
+   "Cıva",
+   "Altın",
+   "Gümüş"
+  ],
+  "correct_answer": "Mercury"
+ },
+ {
+  "id": "cb7fac86-596c-459d-a42f-b6ba0d8fc977",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country is famous for giving pizza and pasta to world cuisine?",
+  "tr": "Dünya mutfağına pizza ve makarnayı kazandırmasıyla ünlü ülke hangisidir?",
+  "answers_en": [
+   "Italy",
+   "Greece",
+   "Spain"
+  ],
+  "answers_tr": [
+   "İtalya",
+   "Yunanistan",
+   "İspanya"
+  ],
+  "correct_answer": "Italy"
+ },
+ {
+  "id": "5aabe2cc-9cc4-458a-835e-7b996e00fc3f",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which sea creature is known for having eight arms and three hearts?",
+  "tr": "Sekiz kollu ve üç kalpli olmasıyla bilinen deniz canlısı hangisidir?",
+  "answers_en": [
+   "Octopus",
+   "Jellyfish",
+   "Dolphin"
+  ],
+  "answers_tr": [
+   "Ahtapot",
+   "Denizanası",
+   "Yunus"
+  ],
+  "correct_answer": "Octopus"
+ },
+ {
+  "id": "6a8c5efa-0b23-4be2-9388-f2160e79d450",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the chemical symbol for gold on the periodic table?",
+  "tr": "Periyodik cetvelde altının kimyasal simgesi nedir?",
+  "accepted_en": [
+   "Au",
+   "au",
+   "AU"
+  ],
+  "accepted_tr": [
+   "Au",
+   "au",
+   "AU"
+  ]
+ },
+ {
+  "id": "b96c042c-87f1-4b1d-9bf1-420704c1751d",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which pigment gives human skin, hair, and eyes their color?",
+  "tr": "İnsan derisine, saçına ve gözlerine rengini veren pigment hangisidir?",
+  "accepted_en": [
+   "Melanin",
+   "melanin",
+   "Melanine"
+  ],
+  "accepted_tr": [
+   "Melanin",
+   "melanin",
+   "Melanin pigmenti"
+  ]
+ },
+ {
+  "id": "1508ac33-05f6-4377-b707-44fedf4e71dd",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the name of the outer protective layer of human teeth?",
+  "tr": "İnsan dişinin en dıştaki koruyucu tabakasının adı nedir?",
+  "accepted_en": [
+   "Enamel",
+   "Tooth enamel",
+   "enamel",
+   "tooth enamel"
+  ],
+  "accepted_tr": [
+   "Mine",
+   "Diş minesi",
+   "Dis minesi",
+   "mine",
+   "dis minesi"
+  ]
+ },
+ {
+  "id": "b67421f6-8ac4-4d1a-80be-6e67cd22a44a",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which biological process allows green plants to turn sunlight into food?",
+  "tr": "Yeşil bitkilerin güneş ışığını besine dönüştürmesini sağlayan biyolojik süreç nedir?",
+  "accepted_en": [
+   "Photosynthesis",
+   "photosynthesis"
+  ],
+  "accepted_tr": [
+   "Fotosentez",
+   "fotosentez"
+  ]
+ },
+ {
+  "id": "ff20387b-ecc5-4100-8a3e-4a10c409f056",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the natural satellite of planet Earth?",
+  "tr": "Dünya gezegeninin doğal uydusu nedir?",
+  "accepted_en": [
+   "The Moon",
+   "Moon",
+   "moon",
+   "the moon"
+  ],
+  "accepted_tr": [
+   "Ay",
+   "ay",
+   "Dünyanın ayı",
+   "Dunyanin ayi"
+  ]
+ },
+ {
+  "id": "6aaa16e5-4afb-4d6a-ae8c-cd19dbcc710e",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which naturally occurring mineral is the hardest substance on the Mohs scale?",
+  "tr": "Mohs sertlik ölçeğine göre doğada bulunan en sert mineral hangisidir?",
+  "accepted_en": [
+   "Diamond",
+   "diamond",
+   "Diamonds"
+  ],
+  "accepted_tr": [
+   "Elmas",
+   "elmas"
+  ]
+ },
+ {
+  "id": "084018a1-dd49-4965-aebd-934b0318c6a6",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the fastest land animal in the world over short distances?",
+  "tr": "Kısa mesafelerde dünyadaki en hızlı kara hayvanı hangisidir?",
+  "accepted_en": [
+   "Cheetah",
+   "cheetah",
+   "The cheetah"
+  ],
+  "accepted_tr": [
+   "Çita",
+   "cita",
+   "Çita",
+   "cita"
+  ]
+ },
+ {
+  "id": "2dce8722-4a23-4666-86b4-656be891094b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which scientist is credited with formulating the three laws of motion that laid the foundation for classical mechanics?",
+  "tr": "Klasik mekaniğin temelini atan üç hareket yasasını formüle eden bilim insanı kimdir?",
+  "answers_en": [
+   "Isaac Newton",
+   "Galileo Galilei",
+   "Albert Einstein",
+   "Nikola Tesla"
+  ],
+  "answers_tr": [
+   "Isaac Newton",
+   "Galileo Galilei",
+   "Albert Einstein",
+   "Nikola Tesla"
+  ],
+  "correct_answer": "Isaac Newton"
+ },
+ {
+  "id": "8a9f4fe4-c5b9-409a-be56-e499c4c63f03",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which ancient civilization is credited with inventing cuneiform, one of the earliest writing systems in human history?",
+  "tr": "İnsanlık tarihinin en erken yazı sistemlerinden biri olan çivi yazısını icat ettiği kabul edilen antik medeniyet hangisidir?",
+  "answers_en": [
+   "Sumerians",
+   "Ancient Egyptians",
+   "Mayans",
+   "Indus Valley Civilization"
+  ],
+  "answers_tr": [
+   "Sümerler",
+   "Antik Mısırlılar",
+   "Mayalar",
+   "İndus Vadisi Uygarlığı"
+  ],
+  "correct_answer": "Sumerians"
+ },
+ {
+  "id": "6b0624f0-17cf-4745-9229-15a908f2a283",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which city is nicknamed \"The Big Apple\"?",
+  "tr": "\"Büyük Elma\" lakaplı şehir hangisi?",
+  "accepted_en": [
+   "New York",
+   "Newyork",
+   "New York City",
+   "NYC",
+   "NY",
+   "Manhattan"
+  ],
+  "accepted_tr": [
+   "New York",
+   "Newyork",
+   "New York City",
+   "NYC",
+   "NY",
+   "Nevyork",
+   "Manhattan"
+  ]
+ },
+ {
+  "id": "b5a1d6a7-2975-45c3-9da2-527a6839b14b",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which famous city lies on two continents, Europe and Asia?",
+  "tr": "Hem Avrupa'da hem Asya'da toprağı olan ünlü şehir hangisi?",
+  "accepted_en": [
+   "Istanbul",
+   "İstanbul",
+   "Stamboul",
+   "Constantinople",
+   "Byzantium",
+   "Ist"
+  ],
+  "accepted_tr": [
+   "İstanbul",
+   "Istanbul",
+   "Ist",
+   "Konstantinopolis",
+   "Kostantiniye",
+   "Bizans"
+  ]
+ },
+ {
+  "id": "3b45c9ca-6907-4477-b5ea-8bfc62790c60",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which city is famous for its canals and gondolas?",
+  "tr": "Kanalları ve gondollarıyla ünlü şehir hangisi?",
+  "accepted_en": [
+   "Venice",
+   "Venezia",
+   "Venecia",
+   "Venedig",
+   "Venise"
+  ],
+  "accepted_tr": [
+   "Venedik",
+   "Venezia",
+   "Venice",
+   "Venedig",
+   "Venecia"
+  ]
+ },
+ {
+  "id": "23c98892-b152-43da-b6a0-82128ebef70a",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Hollywood is a neighborhood of which city?",
+  "tr": "Hollywood hangi şehrin bir semtidir?",
+  "accepted_en": [
+   "Los Angeles",
+   "LA",
+   "L.A.",
+   "Los Ángeles",
+   "Losangeles",
+   "City of Angels"
+  ],
+  "accepted_tr": [
+   "Los Angeles",
+   "LA",
+   "L.A.",
+   "Los Ángeles",
+   "Losangeles",
+   "Melekler Şehri"
+  ]
+ },
+ {
+  "id": "1d666e97-1005-4ff3-81d3-e770e64be6ec",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "In which city is the Eiffel Tower located?",
+  "tr": "Eyfel Kulesi hangi şehirde?",
+  "accepted_en": [
+   "Paris",
+   "Paree",
+   "Pari",
+   "City of Light",
+   "Parigi",
+   "París"
+  ],
+  "accepted_tr": [
+   "Paris",
+   "Pari",
+   "Paree",
+   "Işıklar Şehri",
+   "Parigi",
+   "París"
+  ]
+ },
+ {
+  "id": "1b8bf486-da98-42aa-a150-48e2a7258023",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "The famous Leaning Tower is in which Italian city?",
+  "tr": "Ünlü Eğik Kule İtalya'nın hangi şehrinde?",
+  "accepted_en": [
+   "Pisa",
+   "Pisa, Italy"
+  ],
+  "accepted_tr": [
+   "Pisa",
+   "Piza"
+  ]
+ },
+ {
+  "id": "f6b38b97-7a9e-42e4-9197-e65bb05144fe",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "The Brandenburg Gate is a famous landmark of which city?",
+  "tr": "Brandenburg Kapısı hangi şehrin simgesidir?",
+  "accepted_en": [
+   "Berlin",
+   "Berlín",
+   "Berlin Germany",
+   "Berlino",
+   "Berli",
+   "BER"
+  ],
+  "accepted_tr": [
+   "Berlin",
+   "Berlín",
+   "Berlin Almanya",
+   "Berlino",
+   "Berli",
+   "BER"
+  ]
+ },
+ {
+  "id": "d58f0d3d-5ae0-4d57-9c67-31b512ad9ec9",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the largest animal that has ever lived on Earth?",
+  "tr": "Dünyada yaşamış en büyük hayvan hangisi?",
+  "accepted_en": [
+   "Blue whale",
+   "Blue whales",
+   "Bluewhale",
+   "Balaenoptera musculus",
+   "Blue wale",
+   "Whale blue"
+  ],
+  "accepted_tr": [
+   "Mavi balina",
+   "Mavi balinalar",
+   "Mavibalina",
+   "Blue whale",
+   "Mavi balena",
+   "Mavi baline"
+  ]
+ },
+ {
+  "id": "bac52e71-1145-40f6-995a-c19cdb34796f",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What plant makes up almost all of a giant panda's diet?",
+  "tr": "Dev pandanın neredeyse tek besini olan bitki ne?",
+  "accepted_en": [
+   "Bamboo",
+   "Bamboo shoots",
+   "Bamboo leaves",
+   "Bambu",
+   "Bambú",
+   "Bambo"
+  ],
+  "accepted_tr": [
+   "Bambu",
+   "Bambu filizi",
+   "Bambu yaprağı",
+   "Bamboo",
+   "Bambú",
+   "Bambo"
+  ]
+ },
+ {
+  "id": "0ab4f29e-ab23-48bd-9b43-ac381b2402b6",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "How many legs does a spider have?",
+  "tr": "Bir örümceğin kaç bacağı vardır?",
+  "accepted_en": [
+   "8",
+   "Eight",
+   "8 legs",
+   "Eight legs",
+   "Four pairs",
+   "4 pairs"
+  ],
+  "accepted_tr": [
+   "8",
+   "Sekiz",
+   "8 bacak",
+   "Sekiz bacak",
+   "Dört çift",
+   "4 çift"
+  ]
+ },
+ {
+  "id": "a10b4878-ff6f-48e9-9efa-b5ca90f7787e",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which horse-like African animal is famous for its black-and-white stripes?",
+  "tr": "Siyah beyaz çizgileriyle ünlü, ata benzeyen Afrika hayvanı hangisi?",
+  "accepted_en": [
+   "Zebra",
+   "Zebras",
+   "Zeebra",
+   "Zebre",
+   "Cebra",
+   "Zebra horse"
+  ],
+  "accepted_tr": [
+   "Zebra",
+   "Zebralar",
+   "Zebra atı",
+   "Zebre",
+   "Cebra",
+   "Zeebra"
+  ]
+ },
+ {
+  "id": "b6e68e10-746b-4a94-9206-99458a27c2f8",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which bird lays the largest eggs in the world?",
+  "tr": "Dünyanın en büyük yumurtasını hangi kuş yumurtlar?",
+  "accepted_en": [
+   "Ostrich",
+   "Ostriches",
+   "Ostrich bird",
+   "Common ostrich",
+   "Ostrige",
+   "Avestruz"
+  ],
+  "accepted_tr": [
+   "Devekuşu",
+   "Deve kuşu",
+   "Devekuşları",
+   "Ostrich",
+   "Devekusu",
+   "Avestruz"
+  ]
+ },
+ {
+  "id": "70cd3353-de0e-4861-a3a2-4d30de21df32",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which white bird is a worldwide symbol of peace?",
+  "tr": "Dünya çapında barışın sembolü olan beyaz kuş hangisi?",
+  "accepted_en": [
+   "Dove",
+   "White dove",
+   "Doves",
+   "Pigeon",
+   "White pigeon",
+   "Peace dove"
+  ],
+  "accepted_tr": [
+   "Güvercin",
+   "Beyaz güvercin",
+   "Barış güvercini",
+   "Kumru",
+   "Guvercin",
+   "Güvercinler"
+  ]
+ },
+ {
+  "id": "1ce201ba-eaae-4e68-9728-8b1eda0a8ca5",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which sea creature has eight arms and can squirt ink?",
+  "tr": "Sekiz kolu olan ve mürekkep püskürtebilen deniz canlısı hangisi?",
+  "accepted_en": [
+   "Octopus",
+   "Octopuses",
+   "Octopi",
+   "Octupus",
+   "Squid",
+   "Pulpo"
+  ],
+  "accepted_tr": [
+   "Ahtapot",
+   "Ahtapotlar",
+   "Ahtopot",
+   "Octopus",
+   "Mürekkep balığı",
+   "Ahdapot"
+  ]
+ },
+ {
+  "id": "78899d32-d997-4e60-b9a5-c635406a0d3a",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Sushi originally comes from which country?",
+  "tr": "Suşi aslen hangi ülkenin yemeğidir?",
+  "accepted_en": [
+   "Japan",
+   "Nippon",
+   "Nihon",
+   "Japon",
+   "Japn",
+   "Japanese"
+  ],
+  "accepted_tr": [
+   "Japonya",
+   "Japon",
+   "Japan",
+   "Nippon",
+   "Japonia",
+   "Japonca"
+  ]
+ },
+ {
+  "id": "e3224e00-4e9d-4756-b4b7-34c7b3a1d378",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the main ingredient of guacamole?",
+  "tr": "Guacamolenin ana malzemesi ne?",
+  "accepted_en": [
+   "Avocado",
+   "Avocados",
+   "Avacado",
+   "Avocodo",
+   "Aguacate",
+   "Avokado"
+  ],
+  "accepted_tr": [
+   "Avokado",
+   "Avakado",
+   "Avokadolar",
+   "Avocado",
+   "Aguacate",
+   "Avokada"
+  ]
+ },
+ {
+  "id": "b8c37ace-a5e4-48f1-8f35-dfe55af4f856",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Pizza Margherita's tomato, mozzarella and basil match the colors of which country's flag?",
+  "tr": "Margarita pizzadaki domates, mozzarella ve fesleğen hangi ülkenin bayrağının renklerini temsil eder?",
+  "accepted_en": [
+   "Italy",
+   "Italia",
+   "Italian",
+   "Itly",
+   "Italie",
+   "Italien"
+  ],
+  "accepted_tr": [
+   "İtalya",
+   "Italya",
+   "Italia",
+   "Italy",
+   "İtalyan",
+   "Italyan"
+  ]
+ },
+ {
+  "id": "64af17d4-a459-43d3-8605-b2bb6c19f828",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Paella, the famous rice dish, comes from which country?",
+  "tr": "Ünlü pilav yemeği paella hangi ülkeye aittir?",
+  "accepted_en": [
+   "Spain",
+   "España",
+   "Espana",
+   "Spanish",
+   "Valencia",
+   "Spian"
+  ],
+  "accepted_tr": [
+   "İspanya",
+   "Ispanya",
+   "España",
+   "Spain",
+   "İspanyol",
+   "Valensiya"
+  ]
+ },
+ {
+  "id": "b7003871-d60e-401b-9b08-41e7e2e5526e",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "The long, crusty bread called the baguette is a symbol of which country?",
+  "tr": "Baget denen uzun, çıtır ekmek hangi ülkenin simgesidir?",
+  "accepted_en": [
+   "France",
+   "French",
+   "Frances",
+   "Frence",
+   "Paris",
+   "Francia"
+  ],
+  "accepted_tr": [
+   "Fransa",
+   "Fransız",
+   "Fransiz",
+   "France",
+   "Paris",
+   "Fransa'nın"
+  ]
+ },
+ {
+  "id": "f621bf3d-8230-483c-9cb0-c0a50a2d71c2",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Ketchup is mainly made from which fruit?",
+  "tr": "Ketçap esas olarak hangi meyveden yapılır?",
+  "accepted_en": [
+   "Tomato",
+   "Tomatoes",
+   "Tomatos",
+   "Tomato paste",
+   "Tomatoe",
+   "Tomate"
+  ],
+  "accepted_tr": [
+   "Domates",
+   "Domatesler",
+   "Salça",
+   "Domates salçası",
+   "Domatez",
+   "Tomato"
+  ]
+ },
+ {
+  "id": "e0117c78-8511-4559-a40c-807bf3b44bef",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What color is wasabi, the spicy paste served with sushi?",
+  "tr": "Suşiyle servis edilen acı sos wasabi ne renktir?",
+  "accepted_en": [
+   "Green",
+   "Light green",
+   "Pale green",
+   "Bright green",
+   "Lime green",
+   "Verde"
+  ],
+  "accepted_tr": [
+   "Yeşil",
+   "Açık yeşil",
+   "Fıstık yeşili",
+   "Yesil",
+   "Koyu yeşil",
+   "Green"
+  ]
+ },
+ {
+  "id": "f5489aa3-87f1-4b69-92dc-5cf074b1632c",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Tacos and burritos come from which country's cuisine?",
+  "tr": "Tako ve burrito hangi ülkenin mutfağına aittir?",
+  "accepted_en": [
+   "Mexico",
+   "México",
+   "Mexican",
+   "Mexican cuisine",
+   "Mexiko",
+   "Mejico"
+  ],
+  "accepted_tr": [
+   "Meksika",
+   "Mexico",
+   "México",
+   "Meksikalı",
+   "Meksika mutfağı",
+   "Meksiko"
+  ]
+ },
+ {
+  "id": "a65dcf3d-b93a-4b2c-92db-b4d5f1fd4e1e",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which alcoholic drink is made from fermented grapes?",
+  "tr": "Fermente edilmiş üzümden yapılan alkollü içki hangisi?",
+  "accepted_en": [
+   "Wine",
+   "Red wine",
+   "White wine",
+   "Wines",
+   "Vino",
+   "Rosé"
+  ],
+  "accepted_tr": [
+   "Şarap",
+   "Sarap",
+   "Kırmızı şarap",
+   "Beyaz şarap",
+   "Şaraplar",
+   "Wine"
+  ]
+ },
+ {
+  "id": "8777cf9c-ad05-4381-831d-fdbe8e97e782",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many players does each football (soccer) team have on the pitch?",
+  "tr": "Bir futbol takımı sahaya kaç oyuncuyla çıkar?",
+  "answers_en": [
+   "9",
+   "10",
+   "11",
+   "12"
+  ],
+  "answers_tr": [
+   "9",
+   "10",
+   "11",
+   "12"
+  ],
+  "correct_answer": "11"
+ },
+ {
+  "id": "8bc06cc3-41d5-48fb-b558-a0e7211cd256",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many rings are on the Olympic flag?",
+  "tr": "Olimpiyat bayrağında kaç halka var?",
+  "answers_en": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "answers_tr": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "correct_answer": "5"
+ },
+ {
+  "id": "bc53010b-e468-4440-b51f-1e8e88af45a9",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In basketball, how many points is a shot from behind the arc worth?",
+  "tr": "Basketbolda üç sayı çizgisinin gerisinden atılan basket kaç sayıdır?",
+  "answers_en": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "answers_tr": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "correct_answer": "3"
+ },
+ {
+  "id": "d861a43a-aa1f-4890-8756-19fc302921f3",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which sport is played with a shuttlecock?",
+  "tr": "Hangi spor tüylü topla oynanır?",
+  "answers_en": [
+   "Squash",
+   "Table tennis",
+   "Badminton",
+   "Volleyball"
+  ],
+  "answers_tr": [
+   "Squash",
+   "Masa tenisi",
+   "Badminton",
+   "Voleybol"
+  ],
+  "correct_answer": "Badminton"
+ },
+ {
+  "id": "b74a73e3-86ad-4c53-9ad8-d9959e914da9",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How long is a standard football (soccer) match, not counting stoppage time?",
+  "tr": "Uzatmalar hariç normal bir futbol maçı kaç dakika sürer?",
+  "answers_en": [
+   "60 minutes",
+   "80 minutes",
+   "90 minutes",
+   "120 minutes"
+  ],
+  "answers_tr": [
+   "60 dakika",
+   "80 dakika",
+   "90 dakika",
+   "120 dakika"
+  ],
+  "correct_answer": "90 minutes"
+ },
+ {
+  "id": "e5177139-279d-43ba-9958-7a7f8ff4d66a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which sport can you score a \"hole-in-one\"?",
+  "tr": "\"Hole-in-one\" hangi sporda yapılır?",
+  "answers_en": [
+   "Golf",
+   "Bowling",
+   "Billiards",
+   "Cricket"
+  ],
+  "answers_tr": [
+   "Golf",
+   "Bowling",
+   "Bilardo",
+   "Kriket"
+  ],
+  "correct_answer": "Golf"
+ },
+ {
+  "id": "2efd87ad-07be-4fbd-9049-16b0c884f7fa",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country hosted the first modern Olympic Games in 1896?",
+  "tr": "1896'daki ilk modern Olimpiyat Oyunları hangi ülkede yapıldı?",
+  "answers_en": [
+   "France",
+   "Greece",
+   "England",
+   "Italy"
+  ],
+  "answers_tr": [
+   "Fransa",
+   "Yunanistan",
+   "İngiltere",
+   "İtalya"
+  ],
+  "correct_answer": "Greece"
+ },
+ {
+  "id": "6f4517f0-b61a-4482-8c7c-4f9e7a09247d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many players from each team are on a basketball court at the same time?",
+  "tr": "Basketbolda her takımdan sahada aynı anda kaç oyuncu bulunur?",
+  "answers_en": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "answers_tr": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "correct_answer": "5"
+ },
+ {
+  "id": "b0b4d45e-7c09-442b-bba9-0fcffb41bc6e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "The Tour de France is one of the world's most famous races in which sport?",
+  "tr": "Tour de France, hangi sporun dünyadaki en ünlü yarışlarından biridir?",
+  "answers_en": [
+   "Running",
+   "Cycling",
+   "Motor racing",
+   "Sailing"
+  ],
+  "answers_tr": [
+   "Koşu",
+   "Bisiklet",
+   "Motor sporları",
+   "Yelken"
+  ],
+  "correct_answer": "Cycling"
+ },
+ {
+  "id": "5d12f0e6-811f-489a-9320-5d65f5c62454",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which sport made Michael Jordan a global legend?",
+  "tr": "Michael Jordan hangi sporla dünya efsanesi oldu?",
+  "answers_en": [
+   "Baseball",
+   "Basketball",
+   "American football",
+   "Golf"
+  ],
+  "answers_tr": [
+   "Beyzbol",
+   "Basketbol",
+   "Amerikan futbolu",
+   "Golf"
+  ],
+  "correct_answer": "Basketball"
+ },
+ {
+  "id": "7f301f40-bb88-4cd7-9822-4d51d3e99b3d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which sport do players hit a \"puck\" instead of a ball?",
+  "tr": "Hangi sporda top yerine \"puck\" denen bir disk kullanılır?",
+  "answers_en": [
+   "Ice hockey",
+   "Curling",
+   "Water polo",
+   "Lacrosse"
+  ],
+  "answers_tr": [
+   "Buz hokeyi",
+   "Curling",
+   "Sutopu",
+   "Lakros"
+  ],
+  "correct_answer": "Ice hockey"
+ },
+ {
+  "id": "03918dea-d42e-41dc-b17e-8877d98ca587",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Roughly how long is a marathon?",
+  "tr": "Bir maraton yaklaşık kaç kilometredir?",
+  "answers_en": [
+   "21 km",
+   "30 km",
+   "42 km",
+   "50 km"
+  ],
+  "answers_tr": [
+   "21 km",
+   "30 km",
+   "42 km",
+   "50 km"
+  ],
+  "correct_answer": "42 km"
+ },
+ {
+  "id": "ff362948-8ff9-4b08-97b1-e6782a964795",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Sumo wrestling is the national sport of which country?",
+  "tr": "Sumo güreşi hangi ülkenin ulusal sporudur?",
+  "answers_en": [
+   "China",
+   "South Korea",
+   "Japan",
+   "Mongolia"
+  ],
+  "answers_tr": [
+   "Çin",
+   "Güney Kore",
+   "Japonya",
+   "Moğolistan"
+  ],
+  "correct_answer": "Japan"
+ },
+ {
+  "id": "ce92e413-1961-4e02-9cc6-1d7f7e665b44",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In football (soccer), which card does the referee show to send a player off?",
+  "tr": "Futbolda hakem bir oyuncuyu oyundan atarken hangi kartı gösterir?",
+  "answers_en": [
+   "Yellow card",
+   "Red card",
+   "Blue card",
+   "Green card"
+  ],
+  "answers_tr": [
+   "Sarı kart",
+   "Kırmızı kart",
+   "Mavi kart",
+   "Yeşil kart"
+  ],
+  "correct_answer": "Red card"
+ },
+ {
+  "id": "e0376cd2-b821-4778-a104-f2f21460e4f9",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many holes are played in a standard round of golf?",
+  "tr": "Standart bir golf turunda kaç delik oynanır?",
+  "answers_en": [
+   "9",
+   "12",
+   "18",
+   "24"
+  ],
+  "answers_tr": [
+   "9",
+   "12",
+   "18",
+   "24"
+  ],
+  "correct_answer": "18"
+ },
+ {
+  "id": "470f370a-f1ff-46dc-ad04-0921db1801da",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Usain Bolt became a world record holder in which event?",
+  "tr": "Usain Bolt hangi branşta dünya rekortmeni oldu?",
+  "answers_en": [
+   "Swimming",
+   "Sprinting",
+   "Long jump",
+   "Cycling"
+  ],
+  "answers_tr": [
+   "Yüzme",
+   "Kısa mesafe koşu",
+   "Uzun atlama",
+   "Bisiklet"
+  ],
+  "correct_answer": "Sprinting"
+ },
+ {
+  "id": "448ec511-95bf-40f4-9e1b-c12c083b0267",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many players from each team are on a volleyball court at once?",
+  "tr": "Voleybolda her takımdan sahada aynı anda kaç oyuncu bulunur?",
+  "answers_en": [
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "answers_tr": [
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "correct_answer": "6"
+ },
+ {
+  "id": "31b3a033-8fdd-40dd-8c2e-d5087aedbfbf",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Muhammad Ali is considered one of the greatest athletes ever in which sport?",
+  "tr": "Muhammed Ali hangi sporda tüm zamanların en büyüklerinden biri sayılır?",
+  "answers_en": [
+   "Wrestling",
+   "Boxing",
+   "Judo",
+   "Kickboxing"
+  ],
+  "answers_tr": [
+   "Güreş",
+   "Boks",
+   "Judo",
+   "Kickboks"
+  ],
+  "correct_answer": "Boxing"
+ },
+ {
+  "id": "ad108c04-5948-421c-92cf-87d856111268",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many Grand Slam tournaments are there in tennis each year?",
+  "tr": "Teniste her yıl kaç Grand Slam turnuvası düzenlenir?",
+  "answers_en": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "answers_tr": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "correct_answer": "4"
+ },
+ {
+  "id": "66d937da-ec80-4572-84ed-902aed03fdbf",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many bones does an adult human body have?",
+  "tr": "Yetişkin bir insanın vücudunda kaç kemik vardır?",
+  "answers_en": [
+   "106",
+   "206",
+   "306",
+   "406"
+  ],
+  "answers_tr": [
+   "106",
+   "206",
+   "306",
+   "406"
+  ],
+  "correct_answer": "206"
+ },
+ {
+  "id": "b881df18-afa4-4f6d-b8d4-2f69928d90eb",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the largest organ of the human body?",
+  "tr": "İnsan vücudunun en büyük organı hangisidir?",
+  "answers_en": [
+   "Liver",
+   "Lungs",
+   "Skin",
+   "Brain"
+  ],
+  "answers_tr": [
+   "Karaciğer",
+   "Akciğerler",
+   "Deri",
+   "Beyin"
+  ],
+  "correct_answer": "Skin"
+ },
+ {
+  "id": "79a5250b-5c10-48e6-9226-2beb082fe4d3",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which gas makes up most of the air we breathe?",
+  "tr": "Soluduğumuz havanın büyük kısmını hangi gaz oluşturur?",
+  "answers_en": [
+   "Oxygen",
+   "Nitrogen",
+   "Carbon dioxide",
+   "Hydrogen"
+  ],
+  "answers_tr": [
+   "Oksijen",
+   "Azot",
+   "Karbondioksit",
+   "Hidrojen"
+  ],
+  "correct_answer": "Nitrogen"
+ },
+ {
+  "id": "04109646-2470-4e9a-b82d-aaf64ee50fb8",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "At sea level, water boils at what temperature?",
+  "tr": "Deniz seviyesinde su kaç derecede kaynar?",
+  "answers_en": [
+   "80 °C",
+   "90 °C",
+   "100 °C",
+   "120 °C"
+  ],
+  "answers_tr": [
+   "80 °C",
+   "90 °C",
+   "100 °C",
+   "120 °C"
+  ],
+  "correct_answer": "100 °C"
+ },
+ {
+  "id": "53d74eaf-20e2-4dde-b2c0-667e94047ee8",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the largest planet in our solar system?",
+  "tr": "Güneş Sistemi'nin en büyük gezegeni hangisi?",
+  "answers_en": [
+   "Saturn",
+   "Jupiter",
+   "Neptune",
+   "Earth"
+  ],
+  "answers_tr": [
+   "Satürn",
+   "Jüpiter",
+   "Neptün",
+   "Dünya"
+  ],
+  "correct_answer": "Jupiter"
+ },
+ {
+  "id": "adef6293-e6aa-4850-be6c-f7739e07b347",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many teeth does an adult usually have, including wisdom teeth?",
+  "tr": "Yirmi yaş dişleri dahil, bir yetişkinin genelde kaç dişi vardır?",
+  "answers_en": [
+   "24",
+   "28",
+   "32",
+   "36"
+  ],
+  "answers_tr": [
+   "24",
+   "28",
+   "32",
+   "36"
+  ],
+  "correct_answer": "32"
+ },
+ {
+  "id": "2e7bb5bd-dbe2-4b29-b666-9fcbe35f814f",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which planet is closest to the Sun?",
+  "tr": "Güneş'e en yakın gezegen hangisi?",
+  "answers_en": [
+   "Venus",
+   "Mercury",
+   "Mars",
+   "Earth"
+  ],
+  "answers_tr": [
+   "Venüs",
+   "Merkür",
+   "Mars",
+   "Dünya"
+  ],
+  "correct_answer": "Mercury"
+ },
+ {
+  "id": "5f4a008d-499e-4bc0-97a6-616d03dfb26d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the chemical formula for water?",
+  "tr": "Suyun kimyasal formülü nedir?",
+  "answers_en": [
+   "CO2",
+   "H2O",
+   "O2",
+   "NaCl"
+  ],
+  "answers_tr": [
+   "CO2",
+   "H2O",
+   "O2",
+   "NaCl"
+  ],
+  "correct_answer": "H2O"
+ },
+ {
+  "id": "30ec3ae6-6d94-49df-a591-f425c03aea90",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which blood type is known as the \"universal donor\"?",
+  "tr": "Hangi kan grubu \"genel verici\" olarak bilinir?",
+  "answers_en": [
+   "A positive",
+   "B negative",
+   "AB positive",
+   "O negative"
+  ],
+  "answers_tr": [
+   "A Rh+",
+   "B Rh-",
+   "AB Rh+",
+   "0 Rh-"
+  ],
+  "correct_answer": "O negative"
+ },
+ {
+  "id": "1ba39886-208f-42cc-b5e8-b669b49fa583",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How long does it take the Earth to travel once around the Sun?",
+  "tr": "Dünya, Güneş'in etrafındaki bir turunu ne kadar sürede tamamlar?",
+  "answers_en": [
+   "1 day",
+   "1 week",
+   "1 month",
+   "1 year"
+  ],
+  "answers_tr": [
+   "1 gün",
+   "1 hafta",
+   "1 ay",
+   "1 yıl"
+  ],
+  "correct_answer": "1 year"
+ },
+ {
+  "id": "9c4656bf-e418-43a7-853c-5807919a8b22",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "The smallest bone in the human body is found in which part of the body?",
+  "tr": "İnsan vücudundaki en küçük kemik nerededir?",
+  "answers_en": [
+   "Finger",
+   "Ear",
+   "Nose",
+   "Toe"
+  ],
+  "answers_tr": [
+   "Parmak",
+   "Kulak",
+   "Burun",
+   "Ayak parmağı"
+  ],
+  "correct_answer": "Ear"
+ },
+ {
+  "id": "9ccb760a-3543-48a3-bca4-7b133a9a147c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which vitamin does your body make when your skin gets sunlight?",
+  "tr": "Cildimiz güneş ışığı aldığında vücudumuz hangi vitamini üretir?",
+  "answers_en": [
+   "Vitamin A",
+   "Vitamin B12",
+   "Vitamin C",
+   "Vitamin D"
+  ],
+  "answers_tr": [
+   "A vitamini",
+   "B12 vitamini",
+   "C vitamini",
+   "D vitamini"
+  ],
+  "correct_answer": "Vitamin D"
+ },
+ {
+  "id": "18255e04-f4d6-44cf-9d19-201792d1a91f",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many planets are in our solar system?",
+  "tr": "Güneş Sistemi'nde kaç gezegen vardır?",
+  "answers_en": [
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "answers_tr": [
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "correct_answer": "8"
+ },
+ {
+  "id": "94e3ba92-0a32-47a3-8762-d141d5e3a183",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which force pulls objects toward the ground when you drop them?",
+  "tr": "Elimizden düşen bir cismi yere doğru çeken kuvvet hangisidir?",
+  "answers_en": [
+   "Magnetism",
+   "Friction",
+   "Gravity",
+   "Electricity"
+  ],
+  "answers_tr": [
+   "Manyetizma",
+   "Sürtünme",
+   "Yer çekimi",
+   "Elektrik"
+  ],
+  "correct_answer": "Gravity"
+ },
+ {
+  "id": "406d0c4d-062e-4fc9-8ac0-16e35645a12e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which scientist is famous for the theory of relativity?",
+  "tr": "Görelilik kuramıyla ünlü bilim insanı kimdir?",
+  "answers_en": [
+   "Isaac Newton",
+   "Nikola Tesla",
+   "Albert Einstein",
+   "Charles Darwin"
+  ],
+  "answers_tr": [
+   "Isaac Newton",
+   "Nikola Tesla",
+   "Albert Einstein",
+   "Charles Darwin"
+  ],
+  "correct_answer": "Albert Einstein"
+ },
+ {
+  "id": "4f0e8e7a-a404-4e28-ba7d-184e88177cac",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which animated film does a young lion named Simba become king?",
+  "tr": "Genç aslan Simba'nın kral olduğu animasyon filmi hangisi?",
+  "answers_en": [
+   "The Jungle Book",
+   "Madagascar",
+   "The Lion King",
+   "Tarzan"
+  ],
+  "answers_tr": [
+   "Orman Çocuğu",
+   "Madagaskar",
+   "Aslan Kral",
+   "Tarzan"
+  ],
+  "correct_answer": "The Lion King"
+ },
+ {
+  "id": "5f150e47-227f-4d1d-991e-f0624b6da732",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the name of the wizarding school Harry Potter attends?",
+  "tr": "Harry Potter'ın okuduğu büyücülük okulunun adı ne?",
+  "answers_en": [
+   "Narnia",
+   "Hogwarts",
+   "Gotham",
+   "Rivendell"
+  ],
+  "answers_tr": [
+   "Narnia",
+   "Hogwarts",
+   "Gotham",
+   "Ayrıkvadi"
+  ],
+  "correct_answer": "Hogwarts"
+ },
+ {
+  "id": "42580561-ded8-4a9f-bee4-4a9dac914ceb",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "John, Paul, George and Ringo were the members of which legendary band?",
+  "tr": "John, Paul, George ve Ringo hangi efsanevi grubun üyeleriydi?",
+  "answers_en": [
+   "The Rolling Stones",
+   "Queen",
+   "The Beatles",
+   "ABBA"
+  ],
+  "answers_tr": [
+   "The Rolling Stones",
+   "Queen",
+   "The Beatles",
+   "ABBA"
+  ],
+  "correct_answer": "The Beatles"
+ },
+ {
+  "id": "e757c23e-fdde-4bbe-aa9c-4d068f5b4787",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which superhero is known as the \"Man of Steel\"?",
+  "tr": "\"Çelik Adam\" lakaplı süper kahraman hangisi?",
+  "answers_en": [
+   "Batman",
+   "Iron Man",
+   "Superman",
+   "Spider-Man"
+  ],
+  "answers_tr": [
+   "Batman",
+   "Iron Man",
+   "Süpermen",
+   "Örümcek Adam"
+  ],
+  "correct_answer": "Superman"
+ },
+ {
+  "id": "ee441246-10de-4b35-9265-842c9d2d761d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which famous fictional detective lives at 221B Baker Street?",
+  "tr": "221B Baker Street'te yaşayan ünlü kurgusal dedektif kim?",
+  "answers_en": [
+   "Hercule Poirot",
+   "Sherlock Holmes",
+   "James Bond",
+   "Indiana Jones"
+  ],
+  "answers_tr": [
+   "Hercule Poirot",
+   "Sherlock Holmes",
+   "James Bond",
+   "Indiana Jones"
+  ],
+  "correct_answer": "Sherlock Holmes"
+ },
+ {
+  "id": "6d5f5c00-4706-4eb4-a7e3-4124932add70",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which ship sinks in the 1997 film starring Leonardo DiCaprio and Kate Winslet?",
+  "tr": "Leonardo DiCaprio ve Kate Winslet'in oynadığı 1997 filminde hangi gemi batar?",
+  "answers_en": [
+   "Poseidon",
+   "Titanic",
+   "Black Pearl",
+   "Queen Mary"
+  ],
+  "answers_tr": [
+   "Poseidon",
+   "Titanik",
+   "Kara İnci",
+   "Queen Mary"
+  ],
+  "correct_answer": "Titanic"
+ },
+ {
+  "id": "07691c96-35a5-4bd4-8b5a-562834877635",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who is Mickey Mouse's girlfriend?",
+  "tr": "Mickey Mouse'un kız arkadaşı kim?",
+  "answers_en": [
+   "Daisy Duck",
+   "Minnie Mouse",
+   "Betty Boop",
+   "Jessica Rabbit"
+  ],
+  "answers_tr": [
+   "Daisy Duck",
+   "Minnie Mouse",
+   "Betty Boop",
+   "Jessica Rabbit"
+  ],
+  "correct_answer": "Minnie Mouse"
+ },
+ {
+  "id": "b5b94a65-fed5-48cc-9e59-2fa7da99e027",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What color does the Hulk turn when he gets angry?",
+  "tr": "Hulk sinirlendiğinde ne renk olur?",
+  "answers_en": [
+   "Red",
+   "Blue",
+   "Green",
+   "Purple"
+  ],
+  "answers_tr": [
+   "Kırmızı",
+   "Mavi",
+   "Yeşil",
+   "Mor"
+  ],
+  "correct_answer": "Green"
+ },
+ {
+  "id": "1fcb25d2-57d4-4a43-bc7d-6503751ac0bd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which musical instrument usually has 88 keys?",
+  "tr": "Hangi müzik aletinde genellikle 88 tuş bulunur?",
+  "answers_en": [
+   "Accordion",
+   "Piano",
+   "Harp",
+   "Organ"
+  ],
+  "answers_tr": [
+   "Akordeon",
+   "Piyano",
+   "Arp",
+   "Org"
+  ],
+  "correct_answer": "Piano"
+ },
+ {
+  "id": "70c1e912-e703-4c28-8b68-fc55363fc96f",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which yellow cartoon family lives in the town of Springfield?",
+  "tr": "Springfield kasabasında yaşayan sarı tenli çizgi film ailesi hangisi?",
+  "answers_en": [
+   "The Flintstones",
+   "The Simpsons",
+   "The Addams Family",
+   "The Incredibles"
+  ],
+  "answers_tr": [
+   "Çakmaktaşlar",
+   "Simpsonlar",
+   "Addams Ailesi",
+   "İnanılmaz Aile"
+  ],
+  "correct_answer": "The Simpsons"
+ },
+ {
+  "id": "e6af68c7-cfd6-4fee-8949-ad182b20c596",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which famous video game character is an Italian plumber?",
+  "tr": "Hangi ünlü video oyunu karakteri İtalyan bir tesisatçıdır?",
+  "answers_en": [
+   "Sonic",
+   "Mario",
+   "Pac-Man",
+   "Link"
+  ],
+  "answers_tr": [
+   "Sonic",
+   "Mario",
+   "Pac-Man",
+   "Link"
+  ],
+  "correct_answer": "Mario"
+ },
+ {
+  "id": "e597ee36-f357-4ca7-91c3-430633c04158",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which fairy-tale character leaves a glass slipper behind at the ball?",
+  "tr": "Hangi masal kahramanı baloda cam ayakkabısını düşürür?",
+  "answers_en": [
+   "Snow White",
+   "Cinderella",
+   "Rapunzel",
+   "Sleeping Beauty"
+  ],
+  "answers_tr": [
+   "Pamuk Prenses",
+   "Külkedisi",
+   "Rapunzel",
+   "Uyuyan Güzel"
+  ],
+  "correct_answer": "Cinderella"
+ },
+ {
+  "id": "c98b5d34-10f7-4aa0-b7bd-ab549781cc63",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Finding Nemo\", what kind of fish is Nemo?",
+  "tr": "\"Kayıp Balık Nemo\" filminde Nemo ne tür bir balıktır?",
+  "answers_en": [
+   "Goldfish",
+   "Pufferfish",
+   "Clownfish",
+   "Angelfish"
+  ],
+  "answers_tr": [
+   "Japon balığı",
+   "Balon balığı",
+   "Palyaço balığı",
+   "Melek balığı"
+  ],
+  "correct_answer": "Clownfish"
+ },
+ {
+  "id": "4e4bfb42-2755-4d4c-8c5a-ab447668af3a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which toy brand is famous for its colorful plastic building bricks?",
+  "tr": "Renkli plastik yapı parçalarıyla ünlü oyuncak markası hangisi?",
+  "answers_en": [
+   "Barbie",
+   "Hot Wheels",
+   "LEGO",
+   "Playmobil"
+  ],
+  "answers_tr": [
+   "Barbie",
+   "Hot Wheels",
+   "LEGO",
+   "Playmobil"
+  ],
+  "correct_answer": "LEGO"
+ },
+ {
+  "id": "e31805cd-d8c7-4d1e-8c2b-28df2ce2a412",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which famous Leonardo da Vinci painting shows a woman with a mysterious smile?",
+  "tr": "Leonardo da Vinci'nin gizemli gülümseyen bir kadını gösteren ünlü tablosu hangisi?",
+  "answers_en": [
+   "The Starry Night",
+   "Mona Lisa",
+   "The Scream",
+   "Girl with a Pearl Earring"
+  ],
+  "answers_tr": [
+   "Yıldızlı Gece",
+   "Mona Lisa",
+   "Çığlık",
+   "İnci Küpeli Kız"
+  ],
+  "correct_answer": "Mona Lisa"
+ },
+ {
+  "id": "3104ed09-5f7c-4629-b071-53d9dee2d10a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who is credited with inventing the telephone?",
+  "tr": "Telefonun mucidi olarak kim bilinir?",
+  "answers_en": [
+   "Thomas Edison",
+   "Alexander Graham Bell",
+   "Nikola Tesla",
+   "Guglielmo Marconi"
+  ],
+  "answers_tr": [
+   "Thomas Edison",
+   "Alexander Graham Bell",
+   "Nikola Tesla",
+   "Guglielmo Marconi"
+  ],
+  "correct_answer": "Alexander Graham Bell"
+ },
+ {
+  "id": "8b5365af-e8cc-4486-9637-7782e4301b3b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which of the Seven Wonders of the Ancient World is still standing today?",
+  "tr": "Antik Dünyanın Yedi Harikası'ndan hangisi bugün hâlâ ayakta?",
+  "answers_en": [
+   "Colossus of Rhodes",
+   "Great Pyramid of Giza",
+   "Hanging Gardens of Babylon",
+   "Lighthouse of Alexandria"
+  ],
+  "answers_tr": [
+   "Rodos Heykeli",
+   "Giza Büyük Piramidi",
+   "Babil'in Asma Bahçeleri",
+   "İskenderiye Feneri"
+  ],
+  "correct_answer": "Great Pyramid of Giza"
+ },
+ {
+  "id": "4ca1bd44-e128-4f6a-b188-b56e814b331e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who was the first person to walk on the Moon?",
+  "tr": "Ay'da yürüyen ilk insan kimdir?",
+  "answers_en": [
+   "Yuri Gagarin",
+   "Buzz Aldrin",
+   "Neil Armstrong",
+   "Michael Collins"
+  ],
+  "answers_tr": [
+   "Yuri Gagarin",
+   "Buzz Aldrin",
+   "Neil Armstrong",
+   "Michael Collins"
+  ],
+  "correct_answer": "Neil Armstrong"
+ },
+ {
+  "id": "9e9b93d0-7f5e-46d6-9578-bd3f41347a07",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which year did World War II end?",
+  "tr": "İkinci Dünya Savaşı hangi yıl sona erdi?",
+  "answers_en": [
+   "1918",
+   "1939",
+   "1945",
+   "1950"
+  ],
+  "answers_tr": [
+   "1918",
+   "1939",
+   "1945",
+   "1950"
+  ],
+  "correct_answer": "1945"
+ },
+ {
+  "id": "1fe111a8-2b47-47f0-aa0c-a866284920b9",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "The Great Wall was built to protect which country?",
+  "tr": "Büyük Set hangi ülkeyi korumak için inşa edildi?",
+  "answers_en": [
+   "Japan",
+   "Mongolia",
+   "China",
+   "India"
+  ],
+  "answers_tr": [
+   "Japonya",
+   "Moğolistan",
+   "Çin",
+   "Hindistan"
+  ],
+  "correct_answer": "China"
+ },
+ {
+  "id": "6e7737ef-a295-4fb1-a481-56af330d1a0c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In Star Wars, who says \"I am your father\"?",
+  "tr": "Star Wars'ta \"Ben senin babanım\" diyen karakter kim?",
+  "answers_en": [
+   "Darth Vader",
+   "Yoda",
+   "Han Solo",
+   "Obi-Wan Kenobi"
+  ],
+  "answers_tr": [
+   "Darth Vader",
+   "Yoda",
+   "Han Solo",
+   "Obi-Wan Kenobi"
+  ],
+  "correct_answer": "Darth Vader"
+ },
+ {
+  "id": "5490c031-4ae8-41db-ad1e-1c0f19e1d670",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is Spider-Man's real name?",
+  "tr": "Örümcek Adam'ın gerçek adı ne?",
+  "accepted_en": [
+   "Peter Parker",
+   "Parker"
+  ],
+  "accepted_tr": [
+   "Peter Parker",
+   "Parker"
+  ]
+ },
+ {
+  "id": "6ea2b330-632e-4ef4-9cd7-90fa3fd103c1",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Friends\", what is the name of the coffee shop where the group hangs out?",
+  "tr": "Friends dizisinde arkadaşların takıldığı kafenin adı ne?",
+  "answers_en": [
+   "Central Perk",
+   "Monk's Café",
+   "MacLaren's",
+   "Luke's Diner"
+  ],
+  "answers_tr": [
+   "Central Perk",
+   "Monk's Café",
+   "MacLaren's",
+   "Luke's Diner"
+  ],
+  "correct_answer": "Central Perk"
+ },
+ {
+  "id": "64d0f7ef-3667-4c57-b401-c38494f12c44",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Frozen\", which character has ice powers?",
+  "tr": "Karlar Ülkesi'nde buz güçleri olan karakter kim?",
+  "answers_en": [
+   "Elsa",
+   "Anna",
+   "Olaf",
+   "Kristoff"
+  ],
+  "answers_tr": [
+   "Elsa",
+   "Anna",
+   "Olaf",
+   "Kristoff"
+  ],
+  "correct_answer": "Elsa"
+ },
+ {
+  "id": "fc6c254d-6de9-4709-ba51-783d75afab03",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which green ogre lives in a swamp and marries Princess Fiona?",
+  "tr": "Bataklıkta yaşayan ve Prenses Fiona ile evlenen yeşil dev kim?",
+  "accepted_en": [
+   "Shrek"
+  ],
+  "accepted_tr": [
+   "Shrek",
+   "Şrek"
+  ]
+ },
+ {
+  "id": "1a3ded96-3fb4-45e1-8b80-9439a1685b82",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Toy Story\", what is the cowboy's name?",
+  "tr": "Oyuncak Hikayesi'ndeki kovboyun adı ne?",
+  "answers_en": [
+   "Woody",
+   "Buzz Lightyear",
+   "Jessie",
+   "Rex"
+  ],
+  "answers_tr": [
+   "Woody",
+   "Buzz Lightyear",
+   "Jessie",
+   "Rex"
+  ],
+  "correct_answer": "Woody"
+ },
+ {
+  "id": "f93285f1-ec42-4086-a538-3f91311a45c0",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which fictional British spy is known as 007?",
+  "tr": "007 olarak bilinen kurgusal İngiliz ajan kim?",
+  "accepted_en": [
+   "James Bond",
+   "Bond"
+  ],
+  "accepted_tr": [
+   "James Bond",
+   "Bond"
+  ]
+ },
+ {
+  "id": "79b804b0-d450-49ac-afbc-178a25ccd947",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In Greek mythology, who is the king of the gods?",
+  "tr": "Yunan mitolojisinde tanrıların kralı kimdir?",
+  "answers_en": [
+   "Zeus",
+   "Poseidon",
+   "Hades",
+   "Apollo"
+  ],
+  "answers_tr": [
+   "Zeus",
+   "Poseidon",
+   "Hades",
+   "Apollon"
+  ],
+  "correct_answer": "Zeus"
+ },
+ {
+  "id": "32820bda-0ce0-453c-a562-eb1d5f3a3077",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which woman in Greek mythology had snakes for hair?",
+  "tr": "Yunan mitolojisinde saçları yılanlardan oluşan kadın kim?",
+  "accepted_en": [
+   "Medusa"
+  ],
+  "accepted_tr": [
+   "Medusa"
+  ]
+ },
+ {
+  "id": "65246fe5-4f6f-4580-96d8-e333c4d4b682",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What did the Greeks hide their soldiers in to get inside Troy?",
+  "tr": "Yunanlar Truva'ya girmek için askerlerini neyin içine sakladı?",
+  "accepted_en": [
+   "Trojan Horse",
+   "Wooden horse",
+   "Horse"
+  ],
+  "accepted_tr": [
+   "Truva Atı",
+   "Tahta at",
+   "At"
+  ]
+ },
+ {
+  "id": "7d8bc519-edf5-489d-9664-20e491062274",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which Norse god carries a hammer called Mjölnir?",
+  "tr": "Mjölnir adlı çekici taşıyan İskandinav tanrısı kim?",
+  "answers_en": [
+   "Thor",
+   "Odin",
+   "Loki",
+   "Freyja"
+  ],
+  "answers_tr": [
+   "Thor",
+   "Odin",
+   "Loki",
+   "Freyja"
+  ],
+  "correct_answer": "Thor"
+ },
+ {
+  "id": "13639837-1420-4b70-a5f2-85cd1936839d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who is the Greek god of the sea?",
+  "tr": "Yunan mitolojisinde denizlerin tanrısı kimdir?",
+  "answers_en": [
+   "Poseidon",
+   "Zeus",
+   "Ares",
+   "Hermes"
+  ],
+  "answers_tr": [
+   "Poseidon",
+   "Zeus",
+   "Ares",
+   "Hermes"
+  ],
+  "correct_answer": "Poseidon"
+ },
+ {
+  "id": "2f98dc52-9124-4edc-9676-f90d8ee22eb4",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the name of the winged horse in Greek mythology?",
+  "tr": "Yunan mitolojisindeki kanatlı atın adı ne?",
+  "accepted_en": [
+   "Pegasus",
+   "Pegasos"
+  ],
+  "accepted_tr": [
+   "Pegasus",
+   "Pegasos"
+  ]
+ },
+ {
+  "id": "70030863-62b4-4574-abac-555c03cbe7da",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which mythical bird is reborn from its own ashes?",
+  "tr": "Kendi küllerinden yeniden doğan efsanevi kuş hangisi?",
+  "answers_en": [
+   "Phoenix",
+   "Griffin",
+   "Harpy",
+   "Roc"
+  ],
+  "answers_tr": [
+   "Anka kuşu",
+   "Grifon",
+   "Harpi",
+   "Rok kuşu"
+  ],
+  "correct_answer": "Phoenix"
+ },
+ {
+  "id": "5d05ef74-11b4-418b-8208-0038040e4b8c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In the Chinese zodiac, each year is represented by what?",
+  "tr": "Çin burçlarında her yılı ne temsil eder?",
+  "answers_en": [
+   "An animal",
+   "A color",
+   "A flower",
+   "A planet"
+  ],
+  "answers_tr": [
+   "Bir hayvan",
+   "Bir renk",
+   "Bir çiçek",
+   "Bir gezegen"
+  ],
+  "correct_answer": "An animal"
+ },
+ {
+  "id": "5f91f2c0-2e80-4762-852a-e38903ffdf4d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which app has a white ghost on a yellow background as its logo?",
+  "tr": "Logosu sarı zemin üzerinde beyaz bir hayalet olan uygulama hangisi?",
+  "answers_en": [
+   "Snapchat",
+   "Instagram",
+   "TikTok",
+   "WhatsApp"
+  ],
+  "answers_tr": [
+   "Snapchat",
+   "Instagram",
+   "TikTok",
+   "WhatsApp"
+  ],
+  "correct_answer": "Snapchat"
+ },
+ {
+  "id": "6fe4f7ea-f19c-4d71-adf1-1c1615bcb44b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which Pokémon does Pikachu evolve into?",
+  "tr": "Pikachu hangi Pokémon'a evrimleşir?",
+  "answers_en": [
+   "Raichu",
+   "Pichu",
+   "Jolteon",
+   "Electabuzz"
+  ],
+  "answers_tr": [
+   "Raichu",
+   "Pichu",
+   "Jolteon",
+   "Electabuzz"
+  ],
+  "correct_answer": "Raichu"
+ },
+ {
+  "id": "a8c5a088-b9e1-4ff0-9b49-79956d86728a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"The Lord of the Rings\", what does Frodo have to destroy?",
+  "tr": "Yüzüklerin Efendisi'nde Frodo neyi yok etmek zorundadır?",
+  "answers_en": [
+   "The One Ring",
+   "A magic sword",
+   "A golden crown",
+   "A dragon egg"
+  ],
+  "answers_tr": [
+   "Tek Yüzük",
+   "Büyülü bir kılıç",
+   "Altın bir taç",
+   "Bir ejderha yumurtası"
+  ],
+  "correct_answer": "The One Ring"
+ },
+ {
+  "id": "9866a681-5192-4844-8f0a-767c92c836ad",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which series is famous for dragons, the Iron Throne and \"Winter is coming\"?",
+  "tr": "Ejderhalar, Demir Taht ve \"Kış geliyor\" sözüyle ünlü dizi hangisi?",
+  "answers_en": [
+   "Game of Thrones",
+   "The Witcher",
+   "Vikings",
+   "The Last Kingdom"
+  ],
+  "answers_tr": [
+   "Game of Thrones",
+   "The Witcher",
+   "Vikings",
+   "The Last Kingdom"
+  ],
+  "correct_answer": "Game of Thrones"
+ },
+ {
+  "id": "19701645-7659-4b6f-b90c-54c31e3cf003",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Pinocchio\", what happens when Pinocchio tells a lie?",
+  "tr": "Pinokyo yalan söyleyince ne olur?",
+  "answers_en": [
+   "His nose grows",
+   "His ears grow",
+   "He turns into a donkey",
+   "He shrinks"
+  ],
+  "answers_tr": [
+   "Burnu uzar",
+   "Kulakları büyür",
+   "Eşeğe dönüşür",
+   "Küçülür"
+  ],
+  "correct_answer": "His nose grows"
+ },
+ {
+  "id": "b844d102-54ad-49a2-ac2f-23a887b2c59d",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Ken is the boyfriend of which famous doll?",
+  "tr": "Ken hangi ünlü oyuncak bebeğin sevgilisi?",
+  "accepted_en": [
+   "Barbie"
+  ],
+  "accepted_tr": [
+   "Barbie"
+  ]
+ },
+ {
+  "id": "c0c78278-5634-4c86-afb6-611012b803c7",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Snow White\", how many dwarfs are there?",
+  "tr": "Pamuk Prenses'te kaç cüce vardır?",
+  "answers_en": [
+   "7",
+   "5",
+   "6",
+   "9"
+  ],
+  "answers_tr": [
+   "7",
+   "5",
+   "6",
+   "9"
+  ],
+  "correct_answer": "7"
+ },
+ {
+  "id": "49e03a41-4eff-4efc-9c86-072bd6cd80c0",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which explorer reached the Americas in 1492?",
+  "tr": "1492'de Amerika kıtasına ulaşan kaşif kimdir?",
+  "accepted_en": [
+   "Christopher Columbus",
+   "Columbus"
+  ],
+  "accepted_tr": [
+   "Kristof Kolomb",
+   "Kolomb"
+  ]
+ },
+ {
+  "id": "5f8c1ea9-e0c6-4c3a-8990-78fc55538881",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which Scandinavian warriors sailed longships and raided Europe?",
+  "tr": "Uzun gemilerle denize açılıp Avrupa'ya akınlar düzenleyen İskandinav savaşçılar kimdir?",
+  "answers_en": [
+   "Vikings",
+   "Gladiators",
+   "Spartans",
+   "Mongols"
+  ],
+  "answers_tr": [
+   "Vikingler",
+   "Gladyatörler",
+   "Spartalılar",
+   "Moğollar"
+  ],
+  "correct_answer": "Vikings"
+ },
+ {
+  "id": "e27f003c-9cdd-4965-8cfc-eafee22ae3a8",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What were Japan's warriors who followed a strict code of honor called?",
+  "tr": "Katı bir onur kuralına bağlı Japon savaşçılara ne denir?",
+  "answers_en": [
+   "Samurai",
+   "Ninja",
+   "Shogun",
+   "Sumo wrestlers"
+  ],
+  "answers_tr": [
+   "Samuray",
+   "Ninja",
+   "Şogun",
+   "Sumo güreşçileri"
+  ],
+  "correct_answer": "Samurai"
+ },
+ {
+  "id": "f3f0b78d-5df4-4715-9c88-7c29a049c6d5",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Napoleon Bonaparte was the emperor of which country?",
+  "tr": "Napolyon Bonapart hangi ülkenin imparatoruydu?",
+  "answers_en": [
+   "France",
+   "Spain",
+   "Italy",
+   "Austria"
+  ],
+  "answers_tr": [
+   "Fransa",
+   "İspanya",
+   "İtalya",
+   "Avusturya"
+  ],
+  "correct_answer": "France"
+ },
+ {
+  "id": "f61d23d9-8b7c-4b17-871e-60492ce71426",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Constantinople was the capital of which empire until 1453?",
+  "tr": "Konstantinopolis 1453'e kadar hangi imparatorluğun başkentiydi?",
+  "answers_en": [
+   "Byzantine Empire",
+   "Ottoman Empire",
+   "Persian Empire",
+   "Mongol Empire"
+  ],
+  "answers_tr": [
+   "Bizans İmparatorluğu",
+   "Osmanlı İmparatorluğu",
+   "Pers İmparatorluğu",
+   "Moğol İmparatorluğu"
+  ],
+  "correct_answer": "Byzantine Empire"
+ },
+ {
+  "id": "4c492dce-98c0-4574-ae7e-6520dd83adfa",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who founded the Mongol Empire?",
+  "tr": "Moğol İmparatorluğu'nu kim kurdu?",
+  "answers_en": [
+   "Genghis Khan",
+   "Attila",
+   "Kublai Khan",
+   "Tamerlane"
+  ],
+  "answers_tr": [
+   "Cengiz Han",
+   "Attila",
+   "Kubilay Han",
+   "Timur"
+  ],
+  "correct_answer": "Genghis Khan"
+ },
+ {
+  "id": "e744b5f7-37e8-4566-9a72-369fd1ed7d94",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "K-pop is popular music from which country?",
+  "tr": "K-pop hangi ülkenin popüler müziğidir?",
+  "accepted_en": [
+   "South Korea",
+   "Korea",
+   "Republic of Korea"
+  ],
+  "accepted_tr": [
+   "Güney Kore",
+   "Kore"
+  ]
+ },
+ {
+  "id": "eaad765d-b1c1-4969-a0e2-461cbc8d308c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which Colombian singer is famous for \"Hips Don't Lie\"?",
+  "tr": "\"Hips Don't Lie\" şarkısıyla ünlü Kolombiyalı şarkıcı kim?",
+  "answers_en": [
+   "Shakira",
+   "Karol G",
+   "Jennifer Lopez",
+   "Thalía"
+  ],
+  "answers_tr": [
+   "Shakira",
+   "Karol G",
+   "Jennifer Lopez",
+   "Thalía"
+  ],
+  "correct_answer": "Shakira"
+ },
+ {
+  "id": "9c63629f-eefd-427d-aac7-cd721197899c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country won the 2022 FIFA World Cup in Qatar?",
+  "tr": "2022 Katar Dünya Kupası'nı hangi ülke kazandı?",
+  "answers_en": [
+   "Argentina",
+   "France",
+   "Brazil",
+   "Croatia"
+  ],
+  "answers_tr": [
+   "Arjantin",
+   "Fransa",
+   "Brezilya",
+   "Hırvatistan"
+  ],
+  "correct_answer": "Argentina"
+ },
+ {
+  "id": "60129856-af3b-48ca-b4fd-675f43bc388a",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "In 2023, Twitter was renamed to which single letter?",
+  "tr": "Twitter 2023'te hangi tek harfli isme dönüştü?",
+  "accepted_en": [
+   "X"
+  ],
+  "accepted_tr": [
+   "X"
+  ]
+ },
+ {
+  "id": "0d429599-8d87-454b-b4f5-8302b97634f4",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which city hosted the 2024 Summer Olympics?",
+  "tr": "2024 Yaz Olimpiyatları hangi şehirde yapıldı?",
+  "answers_en": [
+   "Paris",
+   "Tokyo",
+   "Los Angeles",
+   "London"
+  ],
+  "answers_tr": [
+   "Paris",
+   "Tokyo",
+   "Los Angeles",
+   "Londra"
+  ],
+  "correct_answer": "Paris"
+ },
+ {
+  "id": "e4eb8205-7b58-4c9a-9eb4-71abdb1ae774",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which company created ChatGPT?",
+  "tr": "ChatGPT'yi hangi şirket geliştirdi?",
+  "answers_en": [
+   "OpenAI",
+   "Google",
+   "Meta",
+   "Apple"
+  ],
+  "answers_tr": [
+   "OpenAI",
+   "Google",
+   "Meta",
+   "Apple"
+  ],
+  "correct_answer": "OpenAI"
+ },
+ {
+  "id": "b691f446-45c9-4b87-951f-8c5fb76881c2",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which British queen died in 2022 after 70 years on the throne?",
+  "tr": "70 yıllık saltanatın ardından 2022'de ölen İngiliz kraliçesi kimdir?",
+  "answers_en": [
+   "Elizabeth II",
+   "Victoria",
+   "Mary",
+   "Anne"
+  ],
+  "answers_tr": [
+   "II. Elizabeth",
+   "Victoria",
+   "Mary",
+   "Anne"
+  ],
+  "correct_answer": "Elizabeth II"
+ },
+ {
+  "id": "7210faaa-4175-4b0a-b70c-5730d0ba7514",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In 2023, which country became the first to land a spacecraft near the Moon's south pole?",
+  "tr": "2023'te Ay'ın güney kutbu yakınına uzay aracı indiren ilk ülke hangisi oldu?",
+  "answers_en": [
+   "India",
+   "China",
+   "United States",
+   "Japan"
+  ],
+  "answers_tr": [
+   "Hindistan",
+   "Çin",
+   "ABD",
+   "Japonya"
+  ],
+  "correct_answer": "India"
+ },
+ {
+  "id": "9f50ad95-1ce8-42ab-8e0b-3bd347d33019",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In 2024, whose \"Eras Tour\" became the highest-grossing concert tour of all time?",
+  "tr": "2024'te \"Eras Tour\" ile tüm zamanların en çok hasılat yapan konser turnesine imza atan şarkıcı kim?",
+  "answers_en": [
+   "Taylor Swift",
+   "Beyoncé",
+   "Coldplay",
+   "Ed Sheeran"
+  ],
+  "answers_tr": [
+   "Taylor Swift",
+   "Beyoncé",
+   "Coldplay",
+   "Ed Sheeran"
+  ],
+  "correct_answer": "Taylor Swift"
+ },
+ {
+  "id": "dbef5a1b-e8b9-4e2f-badd-ecc584b2a506",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In 2021, which company changed its name to Meta?",
+  "tr": "2021'de adını Meta olarak değiştiren şirket hangisi?",
+  "answers_en": [
+   "Facebook",
+   "Google",
+   "Snapchat",
+   "Microsoft"
+  ],
+  "answers_tr": [
+   "Facebook",
+   "Google",
+   "Snapchat",
+   "Microsoft"
+  ],
+  "correct_answer": "Facebook"
+ },
+ {
+  "id": "f06c1b8a-6980-42df-89fe-b55adeb50680",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which film won the Oscar for Best Picture in 2024?",
+  "tr": "2024'te En İyi Film Oscar'ını hangi film kazandı?",
+  "answers_en": [
+   "Oppenheimer",
+   "Barbie",
+   "Poor Things",
+   "Killers of the Flower Moon"
+  ],
+  "answers_tr": [
+   "Oppenheimer",
+   "Barbie",
+   "Zavallı Şeyler",
+   "Killers of the Flower Moon"
+  ],
+  "correct_answer": "Oppenheimer"
+ },
+ {
+  "id": "4ae711d9-060b-4476-ba2a-54553f7598ab",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which football star joined Inter Miami in 2023?",
+  "tr": "2023'te Inter Miami'ye transfer olan yıldız futbolcu kim?",
+  "answers_en": [
+   "Lionel Messi",
+   "Cristiano Ronaldo",
+   "Neymar",
+   "Kylian Mbappé"
+  ],
+  "answers_tr": [
+   "Lionel Messi",
+   "Cristiano Ronaldo",
+   "Neymar",
+   "Kylian Mbappé"
+  ],
+  "correct_answer": "Lionel Messi"
+ },
+ {
+  "id": "b0f5a3bb-d026-41bb-ae04-4b9fe39d8c07",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who sang \"Flowers\", Spotify's most-streamed song of 2023?",
+  "tr": "Spotify'da 2023'ün en çok dinlenen şarkısı \"Flowers\"ı kim söyledi?",
+  "answers_en": [
+   "Miley Cyrus",
+   "Dua Lipa",
+   "Olivia Rodrigo",
+   "Selena Gomez"
+  ],
+  "answers_tr": [
+   "Miley Cyrus",
+   "Dua Lipa",
+   "Olivia Rodrigo",
+   "Selena Gomez"
+  ],
+  "correct_answer": "Miley Cyrus"
+ },
+ {
+  "id": "a4003081-4a10-4950-ae5a-bc8ba3af8698",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who headlined the Super Bowl halftime show in February 2025?",
+  "tr": "Şubat 2025'teki Super Bowl devre arası şovunda kim sahne aldı?",
+  "answers_en": [
+   "Kendrick Lamar",
+   "Drake",
+   "Rihanna",
+   "Usher"
+  ],
+  "answers_tr": [
+   "Kendrick Lamar",
+   "Drake",
+   "Rihanna",
+   "Usher"
+  ],
+  "correct_answer": "Kendrick Lamar"
+ },
+ {
+  "id": "78e44743-475f-450c-8cd8-181778fb078b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which club did Kylian Mbappé join in 2024?",
+  "tr": "Kylian Mbappé 2024'te hangi kulübe transfer oldu?",
+  "answers_en": [
+   "Real Madrid",
+   "Barcelona",
+   "Manchester City",
+   "Liverpool"
+  ],
+  "answers_tr": [
+   "Real Madrid",
+   "Barcelona",
+   "Manchester City",
+   "Liverpool"
+  ],
+  "correct_answer": "Real Madrid"
+ },
+ {
+  "id": "beb5059d-78c3-4c48-bdde-a60719e40b3a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country won Euro 2024?",
+  "tr": "Euro 2024'ü hangi ülke kazandı?",
+  "answers_en": [
+   "Spain",
+   "England",
+   "France",
+   "Germany"
+  ],
+  "answers_tr": [
+   "İspanya",
+   "İngiltere",
+   "Fransa",
+   "Almanya"
+  ],
+  "correct_answer": "Spain"
+ },
+ {
+  "id": "f1832cc6-7df0-42ab-92bb-969b46f7b33d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who won Album of the Year at the 2025 Grammys with \"Cowboy Carter\"?",
+  "tr": "2025 Grammy'lerinde \"Cowboy Carter\" ile Yılın Albümü ödülünü kim kazandı?",
+  "answers_en": [
+   "Beyoncé",
+   "Taylor Swift",
+   "Billie Eilish",
+   "Sabrina Carpenter"
+  ],
+  "answers_tr": [
+   "Beyoncé",
+   "Taylor Swift",
+   "Billie Eilish",
+   "Sabrina Carpenter"
+  ],
+  "correct_answer": "Beyoncé"
+ },
+ {
+  "id": "e5687820-3e50-4945-a40e-cb0d9e381200",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which Formula 1 driver won four world titles in a row from 2021 to 2024?",
+  "tr": "2021'den 2024'e üst üste dört kez Formula 1 şampiyonu olan pilot kim?",
+  "answers_en": [
+   "Max Verstappen",
+   "Lewis Hamilton",
+   "Charles Leclerc",
+   "Lando Norris"
+  ],
+  "answers_tr": [
+   "Max Verstappen",
+   "Lewis Hamilton",
+   "Charles Leclerc",
+   "Lando Norris"
+  ],
+  "correct_answer": "Max Verstappen"
+ },
+ {
+  "id": "6c98b4bf-4573-474a-bb8b-0e1d7b3eb0b5",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which Saudi club did Cristiano Ronaldo join in 2023?",
+  "tr": "Cristiano Ronaldo 2023'te hangi Suudi Arabistan kulübüne transfer oldu?",
+  "answers_en": [
+   "Al Nassr",
+   "Al Hilal",
+   "Al Ittihad",
+   "Al Ahli"
+  ],
+  "answers_tr": [
+   "Al Nassr",
+   "Al Hilal",
+   "Al Ittihad",
+   "Al Ahli"
+  ],
+  "correct_answer": "Al Nassr"
+ },
+ {
+  "id": "4eddca60-90bb-4c91-b86b-30b870db71c6",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which BLACKPINK member sang the 2024 hit \"APT.\" with Bruno Mars?",
+  "tr": "Bruno Mars ile 2024'ün hit şarkısı \"APT.\"yi söyleyen BLACKPINK üyesi kim?",
+  "answers_en": [
+   "Rosé",
+   "Lisa",
+   "Jennie",
+   "Jisoo"
+  ],
+  "answers_tr": [
+   "Rosé",
+   "Lisa",
+   "Jennie",
+   "Jisoo"
+  ],
+  "correct_answer": "Rosé"
+ },
+ {
+  "id": "09e025bc-1030-4bba-ac13-bfb856378373",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country's flag has a red maple leaf on it?",
+  "tr": "Bayrağında kırmızı bir akçaağaç yaprağı olan ülke hangisi?",
+  "answers_en": [
+   "Canada",
+   "United States",
+   "Switzerland",
+   "Austria"
+  ],
+  "answers_tr": [
+   "Kanada",
+   "ABD",
+   "İsviçre",
+   "Avusturya"
+  ],
+  "correct_answer": "Canada"
+ },
+ {
+  "id": "be0a9d42-e487-408f-8aa9-1680a9bd2eb9",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country's flag is a red circle on a white background?",
+  "tr": "Bayrağı beyaz zemin üzerinde kırmızı bir daire olan ülke hangisi?",
+  "answers_en": [
+   "Japan",
+   "South Korea",
+   "China",
+   "Bangladesh"
+  ],
+  "answers_tr": [
+   "Japonya",
+   "Güney Kore",
+   "Çin",
+   "Bangladeş"
+  ],
+  "correct_answer": "Japan"
+ },
+ {
+  "id": "d3a8cb5e-faea-404d-becf-a6a5c2675ee0",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which phrase is written on Brazil's flag?",
+  "tr": "Brezilya bayrağında hangi söz yazar?",
+  "answers_en": [
+   "Order and Progress",
+   "Freedom and Unity",
+   "God and Country",
+   "Peace and Love"
+  ],
+  "answers_tr": [
+   "Düzen ve İlerleme",
+   "Özgürlük ve Birlik",
+   "Tanrı ve Vatan",
+   "Barış ve Sevgi"
+  ],
+  "correct_answer": "Order and Progress"
+ },
+ {
+  "id": "b9d0f221-dc7d-4119-89da-5a278014a8f0",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which bird is shown eating a snake on Mexico's flag?",
+  "tr": "Meksika bayrağında yılan yiyen kuş hangisi?",
+  "accepted_en": [
+   "Eagle",
+   "Golden eagle"
+  ],
+  "accepted_tr": [
+   "Kartal",
+   "Altın kartal"
+  ]
+ },
+ {
+  "id": "5b6681a5-b76e-450c-b88f-52f29f0d943e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country has a square red flag with a white cross in the middle?",
+  "tr": "Kare şeklindeki kırmızı bayrağının ortasında beyaz bir haç olan ülke hangisi?",
+  "answers_en": [
+   "Switzerland",
+   "Denmark",
+   "Norway",
+   "England"
+  ],
+  "answers_tr": [
+   "İsviçre",
+   "Danimarka",
+   "Norveç",
+   "İngiltere"
+  ],
+  "correct_answer": "Switzerland"
+ },
+ {
+  "id": "3aa65717-7a8e-4eee-a644-d4fdfc1fb1a7",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Breaking Bad\", what subject does Walter White teach at the start of the series?",
+  "tr": "\"Breaking Bad\"in başında Walter White hangi dersin öğretmeni?",
+  "answers_en": [
+   "Chemistry",
+   "Physics",
+   "Biology",
+   "Math"
+  ],
+  "answers_tr": [
+   "Kimya",
+   "Fizik",
+   "Biyoloji",
+   "Matematik"
+  ],
+  "correct_answer": "Chemistry"
+ },
+ {
+  "id": "6fe3ba30-9ac6-43ac-8281-7d47be849ef1",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Money Heist\", whose face is on the masks the robbers wear?",
+  "tr": "\"La Casa de Papel\"de soyguncuların taktığı maskede kimin yüzü var?",
+  "answers_en": [
+   "Salvador Dalí",
+   "Pablo Picasso",
+   "Vincent van Gogh",
+   "Frida Kahlo"
+  ],
+  "answers_tr": [
+   "Salvador Dalí",
+   "Pablo Picasso",
+   "Vincent van Gogh",
+   "Frida Kahlo"
+  ],
+  "correct_answer": "Salvador Dalí"
+ },
+ {
+  "id": "258b3c9e-6f64-4fec-9d76-bfb5439d4a48",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In the \"Despicable Me\" films, which fruit are the Minions obsessed with?",
+  "tr": "\"Çılgın Hırsız\" filmlerinde Minyonlar hangi meyveye bayılıyor?",
+  "answers_en": [
+   "Banana",
+   "Apple",
+   "Strawberry",
+   "Watermelon"
+  ],
+  "answers_tr": [
+   "Muz",
+   "Elma",
+   "Çilek",
+   "Karpuz"
+  ],
+  "correct_answer": "Banana"
+ },
+ {
+  "id": "2177f9a0-4d6d-4f5f-904d-df07c99b1bcb",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In 2025, which name did the newly elected pope choose?",
+  "tr": "2025'te seçilen yeni papa hangi ismi aldı?",
+  "answers_en": [
+   "Leo XIV",
+   "Francis II",
+   "John Paul III",
+   "Benedict XVII"
+  ],
+  "answers_tr": [
+   "XIV. Leo",
+   "II. Francis",
+   "III. John Paul",
+   "XVII. Benedict"
+  ],
+  "correct_answer": "Leo XIV"
+ },
+ {
+  "id": "48fb1a79-23aa-439f-ad30-141b7581e8de",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which three countries co-hosted the 2026 FIFA World Cup?",
+  "tr": "2026 FIFA Dünya Kupası'na hangi üç ülke ortak ev sahipliği yaptı?",
+  "answers_en": [
+   "USA, Canada and Mexico",
+   "Spain, Portugal and Morocco",
+   "Brazil, Argentina and Chile",
+   "Qatar, Saudi Arabia and UAE"
+  ],
+  "answers_tr": [
+   "ABD, Kanada ve Meksika",
+   "İspanya, Portekiz ve Fas",
+   "Brezilya, Arjantin ve Şili",
+   "Katar, Suudi Arabistan ve BAE"
+  ],
+  "correct_answer": "USA, Canada and Mexico"
+ },
+ {
+  "id": "6d6ed0ee-a48d-420f-89bf-7815676ee13c",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country hosted the 2026 Winter Olympics?",
+  "tr": "2026 Kış Olimpiyatları hangi ülkede yapıldı?",
+  "answers_en": [
+   "Italy",
+   "France",
+   "Switzerland",
+   "Austria"
+  ],
+  "answers_tr": [
+   "İtalya",
+   "Fransa",
+   "İsviçre",
+   "Avusturya"
+  ],
+  "correct_answer": "Italy"
+ },
+ {
+  "id": "1901294e-19fd-4941-a041-87d2932a8d77",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which club won the Champions League for the first time in its history in 2025?",
+  "tr": "2025'te tarihinde ilk kez Şampiyonlar Ligi'ni kazanan kulüp hangisi?",
+  "answers_en": [
+   "Paris Saint-Germain",
+   "Arsenal",
+   "Inter",
+   "Manchester City"
+  ],
+  "answers_tr": [
+   "Paris Saint-Germain",
+   "Arsenal",
+   "Inter",
+   "Manchester City"
+  ],
+  "correct_answer": "Paris Saint-Germain"
+ },
+ {
+  "id": "b25b0033-312e-4e62-9e2e-3246c3dbb31b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which toothy little monster doll became a worldwide craze in 2025?",
+  "tr": "2025'te tüm dünyada çılgınlık yaratan sivri dişli küçük canavar oyuncak hangisi?",
+  "answers_en": [
+   "Labubu",
+   "Furby",
+   "Squishmallow",
+   "Cry Baby"
+  ],
+  "answers_tr": [
+   "Labubu",
+   "Furby",
+   "Squishmallow",
+   "Cry Baby"
+  ],
+  "correct_answer": "Labubu"
+ },
+ {
+  "id": "bd4c05b5-3582-4380-987c-132223ed6f46",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In 2025, Taylor Swift got engaged to which NFL player?",
+  "tr": "Taylor Swift 2025'te hangi NFL oyuncusuyla nişanlandı?",
+  "answers_en": [
+   "Travis Kelce",
+   "Patrick Mahomes",
+   "Tom Brady",
+   "Jason Kelce"
+  ],
+  "answers_tr": [
+   "Travis Kelce",
+   "Patrick Mahomes",
+   "Tom Brady",
+   "Jason Kelce"
+  ],
+  "correct_answer": "Travis Kelce"
+ },
+ {
+  "id": "14ab9242-9fa4-44f6-a528-7c4354dd1715",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In December 2024, which famous cathedral reopened after five years of restoration?",
+  "tr": "Aralık 2024'te 5 yıllık restorasyonun ardından yeniden açılan ünlü katedral hangisi?",
+  "answers_en": [
+   "Notre-Dame de Paris",
+   "Sagrada Família",
+   "Cologne Cathedral",
+   "St. Paul's Cathedral"
+  ],
+  "answers_tr": [
+   "Notre-Dame de Paris",
+   "Sagrada Família",
+   "Köln Katedrali",
+   "St. Paul Katedrali"
+  ],
+  "correct_answer": "Notre-Dame de Paris"
+ },
+ {
+  "id": "ac86a66e-c7b5-4935-acf1-7fad4b92b968",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which club won the first 32-team FIFA Club World Cup in 2025?",
+  "tr": "2025'te 32 takımla oynanan ilk FIFA Kulüpler Dünya Kupası'nı hangi kulüp kazandı?",
+  "answers_en": [
+   "Chelsea",
+   "Paris Saint-Germain",
+   "Real Madrid",
+   "Bayern Munich"
+  ],
+  "answers_tr": [
+   "Chelsea",
+   "Paris Saint-Germain",
+   "Real Madrid",
+   "Bayern Münih"
+  ],
+  "correct_answer": "Chelsea"
+ },
+ {
+  "id": "80b8ddc9-0e7c-4a73-964b-12e040b5f9cc",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who won the 2025 Ballon d'Or?",
+  "tr": "2025 Ballon d'Or'u (Altın Top) kim kazandı?",
+  "answers_en": [
+   "Ousmane Dembélé",
+   "Lamine Yamal",
+   "Kylian Mbappé",
+   "Mohamed Salah"
+  ],
+  "answers_tr": [
+   "Ousmane Dembélé",
+   "Lamine Yamal",
+   "Kylian Mbappé",
+   "Mohamed Salah"
+  ],
+  "correct_answer": "Ousmane Dembélé"
+ },
+ {
+  "id": "4e4aac0f-c689-49f6-9a1c-cd7c9ef5891b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country won Eurovision 2025?",
+  "tr": "Eurovision 2025'i hangi ülke kazandı?",
+  "answers_en": [
+   "Austria",
+   "Sweden",
+   "Israel",
+   "Switzerland"
+  ],
+  "answers_tr": [
+   "Avusturya",
+   "İsveç",
+   "İsrail",
+   "İsviçre"
+  ],
+  "correct_answer": "Austria"
+ },
+ {
+  "id": "7553dfa4-325a-40dd-9d78-74834ab54496",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which phrase was named Oxford's Word of the Year for 2024?",
+  "tr": "Oxford sözlüğü 2024'ün yılın kelimesi olarak hangisini seçti?",
+  "answers_en": [
+   "Brain rot",
+   "Rizz",
+   "Demure",
+   "Brat"
+  ],
+  "answers_tr": [
+   "Brain rot (beyin çürümesi)",
+   "Rizz",
+   "Demure",
+   "Brat"
+  ],
+  "correct_answer": "Brain rot"
+ },
+ {
+  "id": "860858d1-7627-4e3c-a607-a71bfcac23ad",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which company released the Vision Pro headset in 2024?",
+  "tr": "2024'te Vision Pro gözlüğünü hangi şirket piyasaya sürdü?",
+  "answers_en": [
+   "Apple",
+   "Meta",
+   "Samsung",
+   "Sony"
+  ],
+  "answers_tr": [
+   "Apple",
+   "Meta",
+   "Samsung",
+   "Sony"
+  ],
+  "correct_answer": "Apple"
+ },
+ {
+  "id": "bb232a4c-eda8-4ff2-b7f3-451f28a0c6f3",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who sang the 2024 summer hit \"Espresso\"?",
+  "tr": "2024 yazının hiti \"Espresso\" şarkısı kimin?",
+  "answers_en": [
+   "Sabrina Carpenter",
+   "Olivia Rodrigo",
+   "Billie Eilish",
+   "Ariana Grande"
+  ],
+  "answers_tr": [
+   "Sabrina Carpenter",
+   "Olivia Rodrigo",
+   "Billie Eilish",
+   "Ariana Grande"
+  ],
+  "correct_answer": "Sabrina Carpenter"
+ },
+ {
+  "id": "385cd09c-b6d3-442d-a926-4b263fe7db71",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "At Paris 2024, Turkish shooter Yusuf Dikeç went viral for competing how?",
+  "tr": "Paris 2024'te Türk atıcı Yusuf Dikeç nasıl yarıştığı için dünyada viral oldu?",
+  "answers_en": [
+   "With one hand in his pocket",
+   "With his eyes closed",
+   "Sitting on a chair",
+   "Barefoot"
+  ],
+  "answers_tr": [
+   "Bir eli cebinde",
+   "Gözleri kapalı",
+   "Sandalyede oturarak",
+   "Yalınayak"
+  ],
+  "correct_answer": "With one hand in his pocket"
+ },
+ {
+  "id": "a99409ba-4dff-4234-8fa3-e5122182a598",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which company launched the app Threads in 2023?",
+  "tr": "Threads uygulamasını 2023'te hangi şirket çıkardı?",
+  "answers_en": [
+   "Meta",
+   "Google",
+   "X",
+   "TikTok"
+  ],
+  "answers_tr": [
+   "Meta",
+   "Google",
+   "X",
+   "TikTok"
+  ],
+  "correct_answer": "Meta"
+ },
+ {
+  "id": "7c110f47-2553-4f6c-b3ae-b11d40772eeb",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In December 2024, which cryptocurrency passed $100,000 for the first time?",
+  "tr": "Aralık 2024'te ilk kez 100.000 doları geçen kripto para hangisi?",
+  "answers_en": [
+   "Bitcoin",
+   "Ethereum",
+   "Dogecoin",
+   "Solana"
+  ],
+  "answers_tr": [
+   "Bitcoin",
+   "Ethereum",
+   "Dogecoin",
+   "Solana"
+  ],
+  "correct_answer": "Bitcoin"
+ },
+ {
+  "id": "c2d44ca2-e912-4652-9b99-ea8e67b1afc3",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In early 2025, which Chinese AI chatbot shook global tech markets?",
+  "tr": "2025'in başında küresel teknoloji piyasalarını sarsan Çin yapımı yapay zeka sohbet botu hangisi?",
+  "answers_en": [
+   "DeepSeek",
+   "Ernie",
+   "Qwen",
+   "Kimi"
+  ],
+  "answers_tr": [
+   "DeepSeek",
+   "Ernie",
+   "Qwen",
+   "Kimi"
+  ],
+  "correct_answer": "DeepSeek"
+ },
+ {
+  "id": "9117d33a-156b-42bb-bb39-fa7c97969e9d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "At Euro 2024, who became the youngest goalscorer in the tournament's history?",
+  "tr": "Euro 2024'te turnuva tarihinin en genç golcüsü kim oldu?",
+  "answers_en": [
+   "Lamine Yamal",
+   "Jude Bellingham",
+   "Jamal Musiala",
+   "Arda Güler"
+  ],
+  "answers_tr": [
+   "Lamine Yamal",
+   "Jude Bellingham",
+   "Jamal Musiala",
+   "Arda Güler"
+  ],
+  "correct_answer": "Lamine Yamal"
+ },
+ {
+  "id": "dfb5e5d1-fe6f-4e8c-a491-f161dd922f53",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which rapper became a viral star as a TV reporter at the Paris 2024 Olympics?",
+  "tr": "Paris 2024 Olimpiyatları'nda TV muhabiri olarak viral olan rapçi kim?",
+  "answers_en": [
+   "Snoop Dogg",
+   "Drake",
+   "Eminem",
+   "Jay-Z"
+  ],
+  "answers_tr": [
+   "Snoop Dogg",
+   "Drake",
+   "Eminem",
+   "Jay-Z"
+  ],
+  "correct_answer": "Snoop Dogg"
+ },
+ {
+  "id": "6e3815c6-71e2-4a08-9404-56eb6108233f",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which language did Bad Bunny perform most of his 2026 Super Bowl halftime show?",
+  "tr": "Bad Bunny 2026 Super Bowl devre arası şovunun çoğunu hangi dilde söyledi?",
+  "answers_en": [
+   "Spanish",
+   "English",
+   "Portuguese",
+   "Half and half"
+  ],
+  "answers_tr": [
+   "İspanyolca",
+   "İngilizce",
+   "Portekizce",
+   "Yarı yarıya"
+  ],
+  "correct_answer": "Spanish"
+ },
+ {
+  "id": "6695b2a1-53de-4737-8ccb-0a0417c89995",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which Formula 1 team did Lewis Hamilton join in 2025?",
+  "tr": "Lewis Hamilton 2025'te hangi Formula 1 takımına geçti?",
+  "answers_en": [
+   "Ferrari",
+   "Red Bull",
+   "McLaren",
+   "Aston Martin"
+  ],
+  "answers_tr": [
+   "Ferrari",
+   "Red Bull",
+   "McLaren",
+   "Aston Martin"
+  ],
+  "correct_answer": "Ferrari"
+ },
+ {
+  "id": "7966f3a2-6d2c-4325-bd64-d28634bdc6e2",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Freddie Mercury was the lead singer of which band?",
+  "tr": "Freddie Mercury hangi grubun solistiydi?",
+  "answers_en": [
+   "Queen",
+   "The Rolling Stones",
+   "Led Zeppelin",
+   "Pink Floyd"
+  ],
+  "answers_tr": [
+   "Queen",
+   "The Rolling Stones",
+   "Led Zeppelin",
+   "Pink Floyd"
+  ],
+  "correct_answer": "Queen"
+ },
+ {
+  "id": "32d4f212-d53e-476e-9251-0558b612c0e4",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which South Korean singer's \"Gangnam Style\" became the first YouTube video to hit 1 billion views?",
+  "tr": "\"Gangnam Style\" ile YouTube'da 1 milyar izlenmeyi geçen ilk videonun sahibi Güney Koreli şarkıcı kim?",
+  "answers_en": [
+   "PSY",
+   "BTS",
+   "Big Bang",
+   "Rain"
+  ],
+  "answers_tr": [
+   "PSY",
+   "BTS",
+   "Big Bang",
+   "Rain"
+  ],
+  "correct_answer": "PSY"
+ },
+ {
+  "id": "4d2db1c8-550c-44d3-8caa-999f963a8dd3",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Who sang \"Shape of You\"?",
+  "tr": "\"Shape of You\" şarkısı kimin?",
+  "answers_en": [
+   "Ed Sheeran",
+   "Justin Bieber",
+   "Shawn Mendes",
+   "Harry Styles"
+  ],
+  "answers_tr": [
+   "Ed Sheeran",
+   "Justin Bieber",
+   "Shawn Mendes",
+   "Harry Styles"
+  ],
+  "correct_answer": "Ed Sheeran"
+ },
+ {
+  "id": "809a1048-fbc4-4d75-9756-c24b4148d2fd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which British singer is behind the hits \"Hello\" and \"Someone Like You\"?",
+  "tr": "\"Hello\" ve \"Someone Like You\" şarkılarıyla tanınan İngiliz şarkıcı kim?",
+  "answers_en": [
+   "Adele",
+   "Amy Winehouse",
+   "Dua Lipa",
+   "Ellie Goulding"
+  ],
+  "answers_tr": [
+   "Adele",
+   "Amy Winehouse",
+   "Dua Lipa",
+   "Ellie Goulding"
+  ],
+  "correct_answer": "Adele"
+ },
+ {
+  "id": "dee7a5f4-0d3e-47c5-beac-68dfc289cd1d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In 2023, whose \"Blinding Lights\" became the most-streamed song in Spotify history?",
+  "tr": "2023'te Spotify tarihinin en çok dinlenen şarkısı olan \"Blinding Lights\" kimin?",
+  "answers_en": [
+   "The Weeknd",
+   "Drake",
+   "Bruno Mars",
+   "Post Malone"
+  ],
+  "answers_tr": [
+   "The Weeknd",
+   "Drake",
+   "Bruno Mars",
+   "Post Malone"
+  ],
+  "correct_answer": "The Weeknd"
+ },
+ {
+  "id": "ec9edd24-0567-42cd-88f0-0060565936ce",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country is shaped like a boot on the map?",
+  "tr": "Haritada çizme şeklinde görünen ülke hangisi?",
+  "answers_en": [
+   "Italy",
+   "Greece",
+   "Portugal",
+   "Croatia"
+  ],
+  "answers_tr": [
+   "İtalya",
+   "Yunanistan",
+   "Portekiz",
+   "Hırvatistan"
+  ],
+  "correct_answer": "Italy"
+ },
+ {
+  "id": "cda07f75-8c73-4c97-9d5f-73eadc4f0e87",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which country is the Taj Mahal?",
+  "tr": "Tac Mahal hangi ülkede?",
+  "answers_en": [
+   "India",
+   "Pakistan",
+   "Iran",
+   "Nepal"
+  ],
+  "answers_tr": [
+   "Hindistan",
+   "Pakistan",
+   "İran",
+   "Nepal"
+  ],
+  "correct_answer": "India"
+ },
+ {
+  "id": "86f4c26f-20cb-47b3-a176-78618bf88998",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which country is the ancient city of Petra, carved into pink rock?",
+  "tr": "Pembe kayalara oyulmuş antik kent Petra hangi ülkede?",
+  "answers_en": [
+   "Jordan",
+   "Egypt",
+   "Turkey",
+   "Greece"
+  ],
+  "answers_tr": [
+   "Ürdün",
+   "Mısır",
+   "Türkiye",
+   "Yunanistan"
+  ],
+  "correct_answer": "Jordan"
+ },
+ {
+  "id": "a0c31118-39a0-4875-a58d-1ef025a7309e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country is known as the \"Land of the Rising Sun\"?",
+  "tr": "\"Doğan Güneşin Ülkesi\" olarak bilinen ülke hangisi?",
+  "answers_en": [
+   "Japan",
+   "China",
+   "South Korea",
+   "Thailand"
+  ],
+  "answers_tr": [
+   "Japonya",
+   "Çin",
+   "Güney Kore",
+   "Tayland"
+  ],
+  "correct_answer": "Japan"
+ },
+ {
+  "id": "5c5574b9-62a0-4271-accb-e5a5e62ac439",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which country do kangaroos live in the wild?",
+  "tr": "Kangurular doğada hangi ülkede yaşar?",
+  "answers_en": [
+   "Australia",
+   "South Africa",
+   "Brazil",
+   "India"
+  ],
+  "answers_tr": [
+   "Avustralya",
+   "Güney Afrika",
+   "Brezilya",
+   "Hindistan"
+  ],
+  "correct_answer": "Australia"
+ },
+ {
+  "id": "d272d3e9-0403-44d5-a333-ac84a9c3e63e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Flamenco dancing comes from which country?",
+  "tr": "Flamenko dansı hangi ülkeden çıkmıştır?",
+  "answers_en": [
+   "Spain",
+   "Mexico",
+   "Italy",
+   "Argentina"
+  ],
+  "answers_tr": [
+   "İspanya",
+   "Meksika",
+   "İtalya",
+   "Arjantin"
+  ],
+  "correct_answer": "Spain"
+ },
+ {
+  "id": "6c03ce24-a77c-4a0b-8749-b9c629915679",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Little Red Riding Hood\", which animal pretends to be the grandmother?",
+  "tr": "\"Kırmızı Başlıklı Kız\"da büyükanne kılığına giren hayvan hangisi?",
+  "answers_en": [
+   "Wolf",
+   "Fox",
+   "Bear",
+   "Lion"
+  ],
+  "answers_tr": [
+   "Kurt",
+   "Tilki",
+   "Ayı",
+   "Aslan"
+  ],
+  "correct_answer": "Wolf"
+ },
+ {
+  "id": "72adb892-47e1-4d39-9c16-1004d3de980a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Alice in Wonderland\", which animal does Alice follow down the hole?",
+  "tr": "\"Alice Harikalar Diyarında\"da Alice deliğe hangi hayvanın peşinden düşer?",
+  "answers_en": [
+   "White Rabbit",
+   "Black Cat",
+   "Mouse",
+   "Frog"
+  ],
+  "answers_tr": [
+   "Beyaz Tavşan",
+   "Kara Kedi",
+   "Fare",
+   "Kurbağa"
+  ],
+  "correct_answer": "White Rabbit"
+ },
+ {
+  "id": "44450874-8b02-4a4a-b49e-b9bc602d9afd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Hansel and Gretel\", what is the witch's house made of?",
+  "tr": "\"Hansel ve Gretel\"de cadının evi neden yapılmıştır?",
+  "answers_en": [
+   "Candy and gingerbread",
+   "Ice",
+   "Gold",
+   "Straw"
+  ],
+  "answers_tr": [
+   "Şeker ve kurabiye",
+   "Buz",
+   "Altın",
+   "Saman"
+  ],
+  "correct_answer": "Candy and gingerbread"
+ },
+ {
+  "id": "66f55237-2675-4545-aa32-6db8582998d0",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is Rapunzel famous for?",
+  "tr": "Rapunzel neyiyle meşhurdur?",
+  "answers_en": [
+   "Her very long hair",
+   "A glass slipper",
+   "A poisoned apple",
+   "Sleeping for 100 years"
+  ],
+  "answers_tr": [
+   "Upuzun saçları",
+   "Cam ayakkabısı",
+   "Zehirli elma",
+   "100 yıl uyuması"
+  ],
+  "correct_answer": "Her very long hair"
+ },
+ {
+  "id": "d6637d23-6147-4499-96a8-d0a2ff60e547",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In \"Aladdin\", how many wishes does the genie of the lamp grant?",
+  "tr": "\"Alaaddin\"de lambanın cini kaç dilek hakkı verir?",
+  "answers_en": [
+   "3",
+   "1",
+   "5",
+   "7"
+  ],
+  "answers_tr": [
+   "3",
+   "1",
+   "5",
+   "7"
+  ],
+  "correct_answer": "3"
+ }
+]

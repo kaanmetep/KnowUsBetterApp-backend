@@ -1,0 +1,1421 @@
+[
+ {
+  "id": "980115c5-d5c7-49e5-a782-cc1175a6518b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which organ in the human body consumes the highest percentage of total energy?",
+  "tr": "İnsan vücudunda toplam enerjinin en yüksek yüzdesini hangi organ tüketir?",
+  "answers_en": [
+   "Brain",
+   "Heart",
+   "Liver",
+   "Kidneys"
+  ],
+  "answers_tr": [
+   "Beyin",
+   "Kalp",
+   "Karaciğer",
+   "Böbrekler"
+  ],
+  "correct_answer": "Brain",
+  "category": "trivia_master"
+ },
+ {
+  "id": "a1a237a1-628a-4008-9ba2-36d59a0e6171",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which primary color mixture produces the color green in standard visual pigments?",
+  "tr": "Standart görsel pigmentlerde hangi ana renklerin karışımı yeşil rengi oluşturur?",
+  "answers_en": [
+   "Blue and Yellow",
+   "Red and Blue",
+   "Yellow and Red"
+  ],
+  "answers_tr": [
+   "Mavi ve Sarı",
+   "Kırmızı ve Mavi",
+   "Sarı ve Kırmızı"
+  ],
+  "correct_answer": "Blue and Yellow",
+  "category": "trivia_master"
+ },
+ {
+  "id": "c1cb1e49-a9cc-43e1-b6da-34f4da305a37",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which architectural feature was specifically invented by ancient Romans to support massive dome structures?",
+  "tr": "Antik Romalılar tarafından özellikle devasa kubbe yapılarını desteklemek için icat edilen mimari unsur hangisidir?",
+  "answers_en": [
+   "The Arch",
+   "The Column",
+   "The Pyramid"
+  ],
+  "answers_tr": [
+   "Kemer",
+   "Sütun",
+   "Piramit"
+  ],
+  "correct_answer": "The Arch",
+  "category": "trivia_master"
+ },
+ {
+  "id": "e9339914-1d7d-423a-9a28-2519995eb9e6",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which planet in our solar system spins in the opposite direction to most other planets?",
+  "tr": "Güneş sistemimizde diğer çoğu gezegenin tersi yönünde dönen gezegen hangisidir?",
+  "answers_en": [
+   "Venus",
+   "Mars",
+   "Jupiter",
+   "Saturn"
+  ],
+  "answers_tr": [
+   "Venüs",
+   "Mars",
+   "Jüpiter",
+   "Satürn"
+  ],
+  "correct_answer": "Venus",
+  "category": "trivia_master"
+ },
+ {
+  "id": "52c90157-fc1f-4878-9f00-91c318581ade",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which animal holds the record for having the longest lifespan among vertebrates on Earth?",
+  "tr": "Yeryüzündeki omurgalı hayvanlar arasında en uzun yaşam süresi rekoruna sahip olan canlı hangisidir?",
+  "answers_en": [
+   "Greenland Shark",
+   "Galapagos Tortoise",
+   "Bowhead Whale"
+  ],
+  "answers_tr": [
+   "Grönland Köpekbalığı",
+   "Galapagos Kaplumbağası",
+   "Grönland Balinası"
+  ],
+  "correct_answer": "Greenland Shark",
+  "category": "trivia_master"
+ },
+ {
+  "id": "c3b7010c-35ea-402f-a186-4035fa9be837",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which fruit is botanically classified as a berry, despite common belief?",
+  "tr": "Yaygın kanaatin aksine botanik olarak dutsu meyve (berry) sınıfında yer alan meyve hangisidir?",
+  "answers_en": [
+   "Banana",
+   "Strawberry",
+   "Raspberry"
+  ],
+  "answers_tr": [
+   "Muz",
+   "Çilek",
+   "Ahududu"
+  ],
+  "correct_answer": "Banana",
+  "category": "trivia_master"
+ },
+ {
+  "id": "0e882595-4846-4d01-a879-ccb1be0cdc0a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country is home to the famous Eiffel Tower?",
+  "tr": "Ünlü Eyfel Kulesi hangi ülkededir?",
+  "answers_en": [
+   "France",
+   "Italy",
+   "Spain",
+   "Germany"
+  ],
+  "answers_tr": [
+   "Fransa",
+   "İtalya",
+   "İspanya",
+   "Almanya"
+  ],
+  "correct_answer": "France",
+  "category": "trivia_master"
+ },
+ {
+  "id": "5f20efa2-53ef-4bc7-b7de-966c2a271457",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which planet in our solar system is known as the \"Red Planet\"?",
+  "tr": "Güneş sistemimizde \"Kızıl Gezegen\" olarak bilinen gezegen hangisidir?",
+  "answers_en": [
+   "Mars",
+   "Jupiter",
+   "Venus"
+  ],
+  "answers_tr": [
+   "Mars",
+   "Jüpiter",
+   "Venüs"
+  ],
+  "correct_answer": "Mars",
+  "category": "trivia_master"
+ },
+ {
+  "id": "4d359908-e7a2-4ef5-bde1-d9fc49ee3218",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which mammalian land animal is known for being unable to jump?",
+  "tr": "Zıplayamayan tek kara memelisi olarak bilinen hayvan hangisidir?",
+  "answers_en": [
+   "Elephant",
+   "Giraffe",
+   "Hippo",
+   "Rhino"
+  ],
+  "answers_tr": [
+   "Fil",
+   "Zürafa",
+   "Hipopotam",
+   "Gergedan"
+  ],
+  "correct_answer": "Elephant",
+  "category": "trivia_master"
+ },
+ {
+  "id": "a98b74cf-707a-4d84-a017-ea98f2d69e68",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many sides does a standard stop sign on the road have?",
+  "tr": "Yollardaki standart bir \"DUR\" trafik levhasının kaç kenarı vardır?",
+  "answers_en": [
+   "8",
+   "6",
+   "10"
+  ],
+  "answers_tr": [
+   "8",
+   "6",
+   "10"
+  ],
+  "correct_answer": "8",
+  "category": "trivia_master"
+ },
+ {
+  "id": "1002c05b-034b-4dd1-a1fb-adf942e36c58",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What color do you get when you mix blue and yellow together?",
+  "tr": "Mavi ve sarı renklerini birbirine karıştırdığınızda hangi rengi elde edersiniz?",
+  "answers_en": [
+   "Green",
+   "Purple",
+   "Orange"
+  ],
+  "answers_tr": [
+   "Yeşil",
+   "Mor",
+   "Turuncu"
+  ],
+  "correct_answer": "Green",
+  "category": "trivia_master"
+ },
+ {
+  "id": "4563d6d4-5301-4f89-811a-045b66157aa2",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which soft drink was originally invented as a cough syrup and headache remedy?",
+  "tr": "İlk olarak öksürük şurubu ve baş ağrısı ilacı olarak icat edilen gazlı içecek hangisidir?",
+  "answers_en": [
+   "Coca-Cola",
+   "Sprite",
+   "Fanta",
+   "Pepsi"
+  ],
+  "answers_tr": [
+   "Coca-Cola",
+   "Sprite",
+   "Fanta",
+   "Pepsi"
+  ],
+  "correct_answer": "Coca-Cola",
+  "category": "trivia_master"
+ },
+ {
+  "id": "83fbd060-6ae4-4fc1-9ebe-4b0e7a2e0c15",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which organ in the human body pumps blood through the circulatory system?",
+  "tr": "İnsan vücudunda kanı dolaşım sistemine pompalayan organ hangisidir?",
+  "answers_en": [
+   "Heart",
+   "Lungs",
+   "Kidneys"
+  ],
+  "answers_tr": [
+   "Kalp",
+   "Akciğerler",
+   "Böbrekler"
+  ],
+  "correct_answer": "Heart",
+  "category": "trivia_master"
+ },
+ {
+  "id": "a79f90ff-8ce5-493b-8b50-2ef10c1f9c26",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many continents are there on planet Earth?",
+  "tr": "Dünya üzerinde kaç tane kıta vardır?",
+  "answers_en": [
+   "7",
+   "5",
+   "6",
+   "8"
+  ],
+  "answers_tr": [
+   "7",
+   "5",
+   "6",
+   "8"
+  ],
+  "correct_answer": "7",
+  "category": "trivia_master"
+ },
+ {
+  "id": "b6c425a9-162f-4107-919c-20eea21afc7a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the name of the imaginary line that divides Earth into the Northern and Southern Hemispheres?",
+  "tr": "Dünyayı Kuzey ve Güney Yarımküre olarak ikiye bölen hayali çizginin adı nedir?",
+  "answers_en": [
+   "Equator",
+   "Greenwich Meridian",
+   "Tropic of Cancer"
+  ],
+  "answers_tr": [
+   "Ekvator",
+   "Başlangıç Meridyeni",
+   "Yengeç Dönencesi"
+  ],
+  "correct_answer": "Equator",
+  "category": "trivia_master"
+ },
+ {
+  "id": "6d38ce25-2cda-440e-b549-81e7ac23cec6",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country gave the Statue of Liberty to the United States as a gift?",
+  "tr": "Özgürlük Heykeli'ni Amerika Birleşik Devletleri'ne hediye eden ülke hangisidir?",
+  "answers_en": [
+   "France",
+   "United Kingdom",
+   "Spain"
+  ],
+  "answers_tr": [
+   "Fransa",
+   "İngilterra",
+   "İspanya"
+  ],
+  "correct_answer": "France",
+  "category": "trivia_master"
+ },
+ {
+  "id": "71f547f0-2910-4a59-b084-5a1da579b6fd",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "What is the largest living mammal on planet Earth?",
+  "tr": "Dünya üzerindeki yaşayan en büyük memeli canlı hangisidir?",
+  "answers_en": [
+   "Blue Whale",
+   "African Elephant",
+   "Giraffe"
+  ],
+  "answers_tr": [
+   "Mavi Balina",
+   "Afrika Fili",
+   "Zürafa"
+  ],
+  "correct_answer": "Blue Whale",
+  "category": "trivia_master"
+ },
+ {
+  "id": "eb10929a-ee75-431c-8b54-1c62a3954c40",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which piece can move in any direction and any number of squares in a game of chess?",
+  "tr": "Satranç oyununda her yöne ve istediği kadar kareye gidebilen taş hangisidir?",
+  "answers_en": [
+   "Queen",
+   "Rook",
+   "Knight"
+  ],
+  "answers_tr": [
+   "Vezir",
+   "Kale",
+   "At"
+  ],
+  "correct_answer": "Queen",
+  "category": "trivia_master"
+ },
+ {
+  "id": "d322c35e-b645-48fb-a14c-cb92c5fd3a2d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which metal is liquid at room temperature?",
+  "tr": "Oda sıcaklığında sıvı halde bulunan metal hangisidir?",
+  "answers_en": [
+   "Mercury",
+   "Gold",
+   "Silver"
+  ],
+  "answers_tr": [
+   "Cıva",
+   "Altın",
+   "Gümüş"
+  ],
+  "correct_answer": "Mercury",
+  "category": "trivia_master"
+ },
+ {
+  "id": "cb7fac86-596c-459d-a42f-b6ba0d8fc977",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country is famous for giving pizza and pasta to world cuisine?",
+  "tr": "Dünya mutfağına pizza ve makarnayı kazandırmasıyla ünlü ülke hangisidir?",
+  "answers_en": [
+   "Italy",
+   "Greece",
+   "Spain"
+  ],
+  "answers_tr": [
+   "İtalya",
+   "Yunanistan",
+   "İspanya"
+  ],
+  "correct_answer": "Italy",
+  "category": "trivia_master"
+ },
+ {
+  "id": "5aabe2cc-9cc4-458a-835e-7b996e00fc3f",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which sea creature is known for having eight arms and three hearts?",
+  "tr": "Sekiz kollu ve üç kalpli olmasıyla bilinen deniz canlısı hangisidir?",
+  "answers_en": [
+   "Octopus",
+   "Jellyfish",
+   "Dolphin"
+  ],
+  "answers_tr": [
+   "Ahtapot",
+   "Denizanası",
+   "Yunus"
+  ],
+  "correct_answer": "Octopus",
+  "category": "trivia_master"
+ },
+ {
+  "id": "6a8c5efa-0b23-4be2-9388-f2160e79d450",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the chemical symbol for gold on the periodic table?",
+  "tr": "Periyodik cetvelde altının kimyasal simgesi nedir?",
+  "accepted_en": [
+   "Au",
+   "au",
+   "AU"
+  ],
+  "accepted_tr": [
+   "Au",
+   "au",
+   "AU"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "b96c042c-87f1-4b1d-9bf1-420704c1751d",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which pigment gives human skin, hair, and eyes their color?",
+  "tr": "İnsan derisine, saçına ve gözlerine rengini veren pigment hangisidir?",
+  "accepted_en": [
+   "Melanin",
+   "melanin",
+   "Melanine"
+  ],
+  "accepted_tr": [
+   "Melanin",
+   "melanin",
+   "Melanin pigmenti"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "1508ac33-05f6-4377-b707-44fedf4e71dd",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the name of the outer protective layer of human teeth?",
+  "tr": "İnsan dişinin en dıştaki koruyucu tabakasının adı nedir?",
+  "accepted_en": [
+   "Enamel",
+   "Tooth enamel",
+   "enamel",
+   "tooth enamel"
+  ],
+  "accepted_tr": [
+   "Mine",
+   "Diş minesi",
+   "Dis minesi",
+   "mine",
+   "dis minesi"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "b67421f6-8ac4-4d1a-80be-6e67cd22a44a",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which biological process allows green plants to turn sunlight into food?",
+  "tr": "Yeşil bitkilerin güneş ışığını besine dönüştürmesini sağlayan biyolojik süreç nedir?",
+  "accepted_en": [
+   "Photosynthesis",
+   "photosynthesis"
+  ],
+  "accepted_tr": [
+   "Fotosentez",
+   "fotosentez"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "ff20387b-ecc5-4100-8a3e-4a10c409f056",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the natural satellite of planet Earth?",
+  "tr": "Dünya gezegeninin doğal uydusu nedir?",
+  "accepted_en": [
+   "The Moon",
+   "Moon",
+   "moon",
+   "the moon"
+  ],
+  "accepted_tr": [
+   "Ay",
+   "ay",
+   "Dünyanın ayı",
+   "Dunyanin ayi"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "6aaa16e5-4afb-4d6a-ae8c-cd19dbcc710e",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which naturally occurring mineral is the hardest substance on the Mohs scale?",
+  "tr": "Mohs sertlik ölçeğine göre doğada bulunan en sert mineral hangisidir?",
+  "accepted_en": [
+   "Diamond",
+   "diamond",
+   "Diamonds"
+  ],
+  "accepted_tr": [
+   "Elmas",
+   "elmas"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "084018a1-dd49-4965-aebd-934b0318c6a6",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the fastest land animal in the world over short distances?",
+  "tr": "Kısa mesafelerde dünyadaki en hızlı kara hayvanı hangisidir?",
+  "accepted_en": [
+   "Cheetah",
+   "cheetah",
+   "The cheetah"
+  ],
+  "accepted_tr": [
+   "Çita",
+   "cita",
+   "Çita",
+   "cita"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "2dce8722-4a23-4666-86b4-656be891094b",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which scientist is credited with formulating the three laws of motion that laid the foundation for classical mechanics?",
+  "tr": "Klasik mekaniğin temelini atan üç hareket yasasını formüle eden bilim insanı kimdir?",
+  "answers_en": [
+   "Isaac Newton",
+   "Galileo Galilei",
+   "Albert Einstein",
+   "Nikola Tesla"
+  ],
+  "answers_tr": [
+   "Isaac Newton",
+   "Galileo Galilei",
+   "Albert Einstein",
+   "Nikola Tesla"
+  ],
+  "correct_answer": "Isaac Newton",
+  "category": "trivia_master"
+ },
+ {
+  "id": "8a9f4fe4-c5b9-409a-be56-e499c4c63f03",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which ancient civilization is credited with inventing cuneiform, one of the earliest writing systems in human history?",
+  "tr": "İnsanlık tarihinin en erken yazı sistemlerinden biri olan çivi yazısını icat ettiği kabul edilen antik medeniyet hangisidir?",
+  "answers_en": [
+   "Sumerians",
+   "Ancient Egyptians",
+   "Mayans",
+   "Indus Valley Civilization"
+  ],
+  "answers_tr": [
+   "Sümerler",
+   "Antik Mısırlılar",
+   "Mayalar",
+   "İndus Vadisi Uygarlığı"
+  ],
+  "correct_answer": "Sumerians",
+  "category": "trivia_master"
+ },
+ {
+  "id": "6b0624f0-17cf-4745-9229-15a908f2a283",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which city is nicknamed \"The Big Apple\"?",
+  "tr": "\"Büyük Elma\" lakaplı şehir hangisi?",
+  "accepted_en": [
+   "New York",
+   "Newyork",
+   "New York City",
+   "NYC",
+   "NY",
+   "Manhattan"
+  ],
+  "accepted_tr": [
+   "New York",
+   "Newyork",
+   "New York City",
+   "NYC",
+   "NY",
+   "Nevyork",
+   "Manhattan"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "b5a1d6a7-2975-45c3-9da2-527a6839b14b",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which famous city lies on two continents, Europe and Asia?",
+  "tr": "Hem Avrupa'da hem Asya'da toprağı olan ünlü şehir hangisi?",
+  "accepted_en": [
+   "Istanbul",
+   "İstanbul",
+   "Stamboul",
+   "Constantinople",
+   "Byzantium",
+   "Ist"
+  ],
+  "accepted_tr": [
+   "İstanbul",
+   "Istanbul",
+   "Ist",
+   "Konstantinopolis",
+   "Kostantiniye",
+   "Bizans"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "3b45c9ca-6907-4477-b5ea-8bfc62790c60",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which city is famous for its canals and gondolas?",
+  "tr": "Kanalları ve gondollarıyla ünlü şehir hangisi?",
+  "accepted_en": [
+   "Venice",
+   "Venezia",
+   "Venecia",
+   "Venedig",
+   "Venise"
+  ],
+  "accepted_tr": [
+   "Venedik",
+   "Venezia",
+   "Venice",
+   "Venedig",
+   "Venecia"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "23c98892-b152-43da-b6a0-82128ebef70a",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Hollywood is a neighborhood of which city?",
+  "tr": "Hollywood hangi şehrin bir semtidir?",
+  "accepted_en": [
+   "Los Angeles",
+   "LA",
+   "L.A.",
+   "Los Ángeles",
+   "Losangeles",
+   "City of Angels"
+  ],
+  "accepted_tr": [
+   "Los Angeles",
+   "LA",
+   "L.A.",
+   "Los Ángeles",
+   "Losangeles",
+   "Melekler Şehri"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "1d666e97-1005-4ff3-81d3-e770e64be6ec",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "In which city is the Eiffel Tower located?",
+  "tr": "Eyfel Kulesi hangi şehirde?",
+  "accepted_en": [
+   "Paris",
+   "Paree",
+   "Pari",
+   "City of Light",
+   "Parigi",
+   "París"
+  ],
+  "accepted_tr": [
+   "Paris",
+   "Pari",
+   "Paree",
+   "Işıklar Şehri",
+   "Parigi",
+   "París"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "1b8bf486-da98-42aa-a150-48e2a7258023",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "The famous Leaning Tower is in which Italian city?",
+  "tr": "Ünlü Eğik Kule İtalya'nın hangi şehrinde?",
+  "accepted_en": [
+   "Pisa",
+   "Pisa, Italy"
+  ],
+  "accepted_tr": [
+   "Pisa",
+   "Piza"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "f6b38b97-7a9e-42e4-9197-e65bb05144fe",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "The Brandenburg Gate is a famous landmark of which city?",
+  "tr": "Brandenburg Kapısı hangi şehrin simgesidir?",
+  "accepted_en": [
+   "Berlin",
+   "Berlín",
+   "Berlin Germany",
+   "Berlino",
+   "Berli",
+   "BER"
+  ],
+  "accepted_tr": [
+   "Berlin",
+   "Berlín",
+   "Berlin Almanya",
+   "Berlino",
+   "Berli",
+   "BER"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "d58f0d3d-5ae0-4d57-9c67-31b512ad9ec9",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the largest animal that has ever lived on Earth?",
+  "tr": "Dünyada yaşamış en büyük hayvan hangisi?",
+  "accepted_en": [
+   "Blue whale",
+   "Blue whales",
+   "Bluewhale",
+   "Balaenoptera musculus",
+   "Blue wale",
+   "Whale blue"
+  ],
+  "accepted_tr": [
+   "Mavi balina",
+   "Mavi balinalar",
+   "Mavibalina",
+   "Blue whale",
+   "Mavi balena",
+   "Mavi baline"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "bac52e71-1145-40f6-995a-c19cdb34796f",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What plant makes up almost all of a giant panda's diet?",
+  "tr": "Dev pandanın neredeyse tek besini olan bitki ne?",
+  "accepted_en": [
+   "Bamboo",
+   "Bamboo shoots",
+   "Bamboo leaves",
+   "Bambu",
+   "Bambú",
+   "Bambo"
+  ],
+  "accepted_tr": [
+   "Bambu",
+   "Bambu filizi",
+   "Bambu yaprağı",
+   "Bamboo",
+   "Bambú",
+   "Bambo"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "0ab4f29e-ab23-48bd-9b43-ac381b2402b6",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "How many legs does a spider have?",
+  "tr": "Bir örümceğin kaç bacağı vardır?",
+  "accepted_en": [
+   "8",
+   "Eight",
+   "8 legs",
+   "Eight legs",
+   "Four pairs",
+   "4 pairs"
+  ],
+  "accepted_tr": [
+   "8",
+   "Sekiz",
+   "8 bacak",
+   "Sekiz bacak",
+   "Dört çift",
+   "4 çift"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "a10b4878-ff6f-48e9-9efa-b5ca90f7787e",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which horse-like African animal is famous for its black-and-white stripes?",
+  "tr": "Siyah beyaz çizgileriyle ünlü, ata benzeyen Afrika hayvanı hangisi?",
+  "accepted_en": [
+   "Zebra",
+   "Zebras",
+   "Zeebra",
+   "Zebre",
+   "Cebra",
+   "Zebra horse"
+  ],
+  "accepted_tr": [
+   "Zebra",
+   "Zebralar",
+   "Zebra atı",
+   "Zebre",
+   "Cebra",
+   "Zeebra"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "b6e68e10-746b-4a94-9206-99458a27c2f8",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which bird lays the largest eggs in the world?",
+  "tr": "Dünyanın en büyük yumurtasını hangi kuş yumurtlar?",
+  "accepted_en": [
+   "Ostrich",
+   "Ostriches",
+   "Ostrich bird",
+   "Common ostrich",
+   "Ostrige",
+   "Avestruz"
+  ],
+  "accepted_tr": [
+   "Devekuşu",
+   "Deve kuşu",
+   "Devekuşları",
+   "Ostrich",
+   "Devekusu",
+   "Avestruz"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "70cd3353-de0e-4861-a3a2-4d30de21df32",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which white bird is a worldwide symbol of peace?",
+  "tr": "Dünya çapında barışın sembolü olan beyaz kuş hangisi?",
+  "accepted_en": [
+   "Dove",
+   "White dove",
+   "Doves",
+   "Pigeon",
+   "White pigeon",
+   "Peace dove"
+  ],
+  "accepted_tr": [
+   "Güvercin",
+   "Beyaz güvercin",
+   "Barış güvercini",
+   "Kumru",
+   "Guvercin",
+   "Güvercinler"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "1ce201ba-eaae-4e68-9728-8b1eda0a8ca5",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which sea creature has eight arms and can squirt ink?",
+  "tr": "Sekiz kolu olan ve mürekkep püskürtebilen deniz canlısı hangisi?",
+  "accepted_en": [
+   "Octopus",
+   "Octopuses",
+   "Octopi",
+   "Octupus",
+   "Squid",
+   "Pulpo"
+  ],
+  "accepted_tr": [
+   "Ahtapot",
+   "Ahtapotlar",
+   "Ahtopot",
+   "Octopus",
+   "Mürekkep balığı",
+   "Ahdapot"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "78899d32-d997-4e60-b9a5-c635406a0d3a",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Sushi originally comes from which country?",
+  "tr": "Suşi aslen hangi ülkenin yemeğidir?",
+  "accepted_en": [
+   "Japan",
+   "Nippon",
+   "Nihon",
+   "Japon",
+   "Japn",
+   "Japanese"
+  ],
+  "accepted_tr": [
+   "Japonya",
+   "Japon",
+   "Japan",
+   "Nippon",
+   "Japonia",
+   "Japonca"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "e3224e00-4e9d-4756-b4b7-34c7b3a1d378",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What is the main ingredient of guacamole?",
+  "tr": "Guacamolenin ana malzemesi ne?",
+  "accepted_en": [
+   "Avocado",
+   "Avocados",
+   "Avacado",
+   "Avocodo",
+   "Aguacate",
+   "Avokado"
+  ],
+  "accepted_tr": [
+   "Avokado",
+   "Avakado",
+   "Avokadolar",
+   "Avocado",
+   "Aguacate",
+   "Avokada"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "b8c37ace-a5e4-48f1-8f35-dfe55af4f856",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Pizza Margherita's tomato, mozzarella and basil match the colors of which country's flag?",
+  "tr": "Margarita pizzadaki domates, mozzarella ve fesleğen hangi ülkenin bayrağının renklerini temsil eder?",
+  "accepted_en": [
+   "Italy",
+   "Italia",
+   "Italian",
+   "Itly",
+   "Italie",
+   "Italien"
+  ],
+  "accepted_tr": [
+   "İtalya",
+   "Italya",
+   "Italia",
+   "Italy",
+   "İtalyan",
+   "Italyan"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "64af17d4-a459-43d3-8605-b2bb6c19f828",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Paella, the famous rice dish, comes from which country?",
+  "tr": "Ünlü pilav yemeği paella hangi ülkeye aittir?",
+  "accepted_en": [
+   "Spain",
+   "España",
+   "Espana",
+   "Spanish",
+   "Valencia",
+   "Spian"
+  ],
+  "accepted_tr": [
+   "İspanya",
+   "Ispanya",
+   "España",
+   "Spain",
+   "İspanyol",
+   "Valensiya"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "b7003871-d60e-401b-9b08-41e7e2e5526e",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "The long, crusty bread called the baguette is a symbol of which country?",
+  "tr": "Baget denen uzun, çıtır ekmek hangi ülkenin simgesidir?",
+  "accepted_en": [
+   "France",
+   "French",
+   "Frances",
+   "Frence",
+   "Paris",
+   "Francia"
+  ],
+  "accepted_tr": [
+   "Fransa",
+   "Fransız",
+   "Fransiz",
+   "France",
+   "Paris",
+   "Fransa'nın"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "f621bf3d-8230-483c-9cb0-c0a50a2d71c2",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Ketchup is mainly made from which fruit?",
+  "tr": "Ketçap esas olarak hangi meyveden yapılır?",
+  "accepted_en": [
+   "Tomato",
+   "Tomatoes",
+   "Tomatos",
+   "Tomato paste",
+   "Tomatoe",
+   "Tomate"
+  ],
+  "accepted_tr": [
+   "Domates",
+   "Domatesler",
+   "Salça",
+   "Domates salçası",
+   "Domatez",
+   "Tomato"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "e0117c78-8511-4559-a40c-807bf3b44bef",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "What color is wasabi, the spicy paste served with sushi?",
+  "tr": "Suşiyle servis edilen acı sos wasabi ne renktir?",
+  "accepted_en": [
+   "Green",
+   "Light green",
+   "Pale green",
+   "Bright green",
+   "Lime green",
+   "Verde"
+  ],
+  "accepted_tr": [
+   "Yeşil",
+   "Açık yeşil",
+   "Fıstık yeşili",
+   "Yesil",
+   "Koyu yeşil",
+   "Green"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "f5489aa3-87f1-4b69-92dc-5cf074b1632c",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Tacos and burritos come from which country's cuisine?",
+  "tr": "Tako ve burrito hangi ülkenin mutfağına aittir?",
+  "accepted_en": [
+   "Mexico",
+   "México",
+   "Mexican",
+   "Mexican cuisine",
+   "Mexiko",
+   "Mejico"
+  ],
+  "accepted_tr": [
+   "Meksika",
+   "Mexico",
+   "México",
+   "Meksikalı",
+   "Meksika mutfağı",
+   "Meksiko"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "a65dcf3d-b93a-4b2c-92db-b4d5f1fd4e1e",
+  "mode": "who_knows_better",
+  "type": "text",
+  "en": "Which alcoholic drink is made from fermented grapes?",
+  "tr": "Fermente edilmiş üzümden yapılan alkollü içki hangisi?",
+  "accepted_en": [
+   "Wine",
+   "Red wine",
+   "White wine",
+   "Wines",
+   "Vino",
+   "Rosé"
+  ],
+  "accepted_tr": [
+   "Şarap",
+   "Sarap",
+   "Kırmızı şarap",
+   "Beyaz şarap",
+   "Şaraplar",
+   "Wine"
+  ],
+  "category": "trivia_master"
+ },
+ {
+  "id": "8777cf9c-ad05-4381-831d-fdbe8e97e782",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many players does each football (soccer) team have on the pitch?",
+  "tr": "Bir futbol takımı sahaya kaç oyuncuyla çıkar?",
+  "answers_en": [
+   "9",
+   "10",
+   "11",
+   "12"
+  ],
+  "answers_tr": [
+   "9",
+   "10",
+   "11",
+   "12"
+  ],
+  "correct_answer": "11",
+  "category": "trivia_master"
+ },
+ {
+  "id": "8bc06cc3-41d5-48fb-b558-a0e7211cd256",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many rings are on the Olympic flag?",
+  "tr": "Olimpiyat bayrağında kaç halka var?",
+  "answers_en": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "answers_tr": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "correct_answer": "5",
+  "category": "trivia_master"
+ },
+ {
+  "id": "bc53010b-e468-4440-b51f-1e8e88af45a9",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In basketball, how many points is a shot from behind the arc worth?",
+  "tr": "Basketbolda üç sayı çizgisinin gerisinden atılan basket kaç sayıdır?",
+  "answers_en": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "answers_tr": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "correct_answer": "3",
+  "category": "trivia_master"
+ },
+ {
+  "id": "d861a43a-aa1f-4890-8756-19fc302921f3",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which sport is played with a shuttlecock?",
+  "tr": "Hangi spor tüylü topla oynanır?",
+  "answers_en": [
+   "Squash",
+   "Table tennis",
+   "Badminton",
+   "Volleyball"
+  ],
+  "answers_tr": [
+   "Squash",
+   "Masa tenisi",
+   "Badminton",
+   "Voleybol"
+  ],
+  "correct_answer": "Badminton",
+  "category": "trivia_master"
+ },
+ {
+  "id": "b74a73e3-86ad-4c53-9ad8-d9959e914da9",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How long is a standard football (soccer) match, not counting stoppage time?",
+  "tr": "Uzatmalar hariç normal bir futbol maçı kaç dakika sürer?",
+  "answers_en": [
+   "60 minutes",
+   "80 minutes",
+   "90 minutes",
+   "120 minutes"
+  ],
+  "answers_tr": [
+   "60 dakika",
+   "80 dakika",
+   "90 dakika",
+   "120 dakika"
+  ],
+  "correct_answer": "90 minutes",
+  "category": "trivia_master"
+ },
+ {
+  "id": "e5177139-279d-43ba-9958-7a7f8ff4d66a",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which sport can you score a \"hole-in-one\"?",
+  "tr": "\"Hole-in-one\" hangi sporda yapılır?",
+  "answers_en": [
+   "Golf",
+   "Bowling",
+   "Billiards",
+   "Cricket"
+  ],
+  "answers_tr": [
+   "Golf",
+   "Bowling",
+   "Bilardo",
+   "Kriket"
+  ],
+  "correct_answer": "Golf",
+  "category": "trivia_master"
+ },
+ {
+  "id": "2efd87ad-07be-4fbd-9049-16b0c884f7fa",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which country hosted the first modern Olympic Games in 1896?",
+  "tr": "1896'daki ilk modern Olimpiyat Oyunları hangi ülkede yapıldı?",
+  "answers_en": [
+   "France",
+   "Greece",
+   "England",
+   "Italy"
+  ],
+  "answers_tr": [
+   "Fransa",
+   "Yunanistan",
+   "İngiltere",
+   "İtalya"
+  ],
+  "correct_answer": "Greece",
+  "category": "trivia_master"
+ },
+ {
+  "id": "6f4517f0-b61a-4482-8c7c-4f9e7a09247d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "How many players from each team are on a basketball court at the same time?",
+  "tr": "Basketbolda her takımdan sahada aynı anda kaç oyuncu bulunur?",
+  "answers_en": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "answers_tr": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "correct_answer": "5",
+  "category": "trivia_master"
+ },
+ {
+  "id": "b0b4d45e-7c09-442b-bba9-0fcffb41bc6e",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "The Tour de France is one of the world's most famous races in which sport?",
+  "tr": "Tour de France, hangi sporun dünyadaki en ünlü yarışlarından biridir?",
+  "answers_en": [
+   "Running",
+   "Cycling",
+   "Motor racing",
+   "Sailing"
+  ],
+  "answers_tr": [
+   "Koşu",
+   "Bisiklet",
+   "Motor sporları",
+   "Yelken"
+  ],
+  "correct_answer": "Cycling",
+  "category": "trivia_master"
+ },
+ {
+  "id": "5d12f0e6-811f-489a-9320-5d65f5c62454",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Which sport made Michael Jordan a global legend?",
+  "tr": "Michael Jordan hangi sporla dünya efsanesi oldu?",
+  "answers_en": [
+   "Baseball",
+   "Basketball",
+   "American football",
+   "Golf"
+  ],
+  "answers_tr": [
+   "Beyzbol",
+   "Basketbol",
+   "Amerikan futbolu",
+   "Golf"
+  ],
+  "correct_answer": "Basketball",
+  "category": "trivia_master"
+ },
+ {
+  "id": "7f301f40-bb88-4cd7-9822-4d51d3e99b3d",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In which sport do players hit a \"puck\" instead of a ball?",
+  "tr": "Hangi sporda top yerine \"puck\" denen bir disk kullanılır?",
+  "answers_en": [
+   "Ice hockey",
+   "Curling",
+   "Water polo",
+   "Lacrosse"
+  ],
+  "answers_tr": [
+   "Buz hokeyi",
+   "Curling",
+   "Sutopu",
+   "Lakros"
+  ],
+  "correct_answer": "Ice hockey",
+  "category": "trivia_master"
+ },
+ {
+  "id": "03918dea-d42e-41dc-b17e-8877d98ca587",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Roughly how long is a marathon?",
+  "tr": "Bir maraton yaklaşık kaç kilometredir?",
+  "answers_en": [
+   "21 km",
+   "30 km",
+   "42 km",
+   "50 km"
+  ],
+  "answers_tr": [
+   "21 km",
+   "30 km",
+   "42 km",
+   "50 km"
+  ],
+  "correct_answer": "42 km",
+  "category": "trivia_master"
+ },
+ {
+  "id": "ff362948-8ff9-4b08-97b1-e6782a964795",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "Sumo wrestling is the national sport of which country?",
+  "tr": "Sumo güreşi hangi ülkenin ulusal sporudur?",
+  "answers_en": [
+   "China",
+   "South Korea",
+   "Japan",
+   "Mongolia"
+  ],
+  "answers_tr": [
+   "Çin",
+   "Güney Kore",
+   "Japonya",
+   "Moğolistan"
+  ],
+  "correct_answer": "Japan",
+  "category": "trivia_master"
+ },
+ {
+  "id": "ce92e413-1961-4e02-9cc6-1d7f7e665b44",
+  "mode": "who_knows_better",
+  "type": "choice",
+  "en": "In football (soccer), which card does the referee show to send a player off?",
+  "tr": "Futbolda hakem bir oyuncuyu oyundan atarken hangi kartı gösterir?",
+  "answers_en": [
+   "Yellow card",
+   "Red card",
+   "Blue card",
+   "Green card"
+  ],
+  "answers_tr": [
+   "Sarı kart",
+   "Kırmızı kart",
+   "Mavi kart",
+   "Yeşil kart"
+  ],
+  "correct_answer": "Red card",
+  "category": "trivia_master"
+ }
+]

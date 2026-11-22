@@ -1,0 +1,567 @@
+{
+  "c74d1995-343a-43a9-adcf-31e2f8b56073": {
+    "text": "Czego najbardziej potrzebujesz zaraz po zbliżeniu?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c82bd3fe-b845-484d-a34c-c3df3f2c6404": {
+    "text": "Co najszybciej przywraca bliskość po kłótni?",
+    "answers": [
+      "Przytulenie",
+      "Rozmowa",
+      "Trochę przestrzeni"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "522acc6b-c549-4821-a672-968ad51faffd": {
+    "text": "Czego najbardziej potrzebujesz zaraz po zbliżeniu?",
+    "answers": [
+      "Przytulania",
+      "Rozmowy",
+      "Snu"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d032b906-702c-4c1d-a60e-14225c8a08a1": {
+    "text": "Jak często powinno się kochać?",
+    "answers": [
+      "Codziennie",
+      "Kilka razy w tygodniu",
+      "Raz w tygodniu"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ab4d48ab-4861-45d3-a0c1-548feb01af72": {
+    "text": "Co sprawia, że przy zbliżeniu czujesz się najbezpieczniej?",
+    "answers": [
+      "Powolne tempo",
+      "Drzwi zamknięte na klucz",
+      "Zgaszone światło"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c415ca2b-8b70-42d5-afe1-b55e6ca0cd96": {
+    "text": "Z czego warto podkraść trochę czasu na bliskość?",
+    "answers": [
+      "Ze snu",
+      "Z pracy",
+      "Z innych planów"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a5b0e887-d4ed-49c4-8541-1503d3766f95": {
+    "text": "Ile powinno trwać zbliżenie?",
+    "answers": [
+      "5–15 minut",
+      "30–60 minut",
+      "2–6 godzin"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5001079e-e1d6-4dfe-8d09-471b46077412": {
+    "text": "Jak długo wytrzymasz bez zbliżeń?",
+    "answers": [
+      "1–2 dni",
+      "Mniej więcej tydzień",
+      "Kilka tygodni"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fc2de0d5-e319-4965-b658-0aadfdc156da": {
+    "text": "Ile powinien trwać leniwy poranek w łóżku?",
+    "answers": [
+      "15–30 minut",
+      "1–2 godziny",
+      "Do południa"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "36466dd9-33fc-430a-8c5b-6cd74f5649f6": {
+    "text": "W trakcie zebrania twoja druga połówka przysyła ci bardzo dwuznaczną wiadomość. Co robisz?",
+    "answers": [
+      "Odpisuję w tym samym tonie",
+      "Odpisuję samym emoji",
+      "Piszę „do wieczora” i na tym koniec"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "0b0a004c-7110-41c1-9efb-a1250d65cc5e": {
+    "text": "W południe twoja druga połówka pisze: „wróć dziś wcześniej do domu” i nic więcej. Jak mija ci dzień?",
+    "answers": [
+      "Myślę tylko o tym",
+      "Zapominam o tym do wieczora",
+      "Od razu dzwonię i pytam, o co chodzi"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "478d596f-0925-454b-a6c7-07e62476a0f4": {
+    "text": "Wysłać drugiej połówce w ciągu dnia nieco śmielsze zdjęcie…",
+    "answers": [
+      "Chętnie, czemu nie",
+      "Tylko jeśli najpierw coś dostanę",
+      "Nigdy, nie ufam telefonom"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1947e301-1523-4dd2-8b02-eebcd5a27569": {
+    "text": "Twoja dwuznaczna wiadomość przez pomyłkę trafia na rodzinny czat. Pierwszy ruch?",
+    "answers": [
+      "Szybko usuwam i modlę się, żeby nikt nie zauważył",
+      "Piszę „nie ten czat” i obracam to w żart",
+      "Wyłączam telefon i wyjeżdżam z kraju"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "be4f6aae-d73e-47ac-87fd-599d2d29b15a": {
+    "text": "Flirtowanie przez wiadomości w ciągu dnia…",
+    "answers": [
+      "Powinno być codziennie",
+      "Czasem, jako niespodzianka",
+      "Niepotrzebne, na żywo jest lepiej"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "88f7728c-67b0-480a-9632-74158a756911": {
+    "text": "Robi się gorąco, a tu dzwoni mama twojej drugiej połówki. Co powinno się stać?",
+    "answers": [
+      "Nie odbierać, oddzwonić później",
+      "Odebrać i szybko skończyć",
+      "Odebrać, i tak już po nastroju"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "451823de-7a5e-47f1-887c-a876847a8a39": {
+    "text": "Nocujecie u rodziców twojej drugiej połówki, a pokoje dzieli cienka ściana. Zbliżenie…",
+    "answers": [
+      "Nie ma mowy, poczeka do powrotu do domu",
+      "Może być, jeśli będziemy bardzo cicho",
+      "Zakazany owoc smakuje najlepiej"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c5f56ed9-13b2-4806-9ec5-6991e9e95554": {
+    "text": "Robi się gorąco, a tu dzwonek do drzwi. To paczka, na którą od dawna czekasz. Co robisz?",
+    "answers": [
+      "Paczka może poczekać",
+      "Szybko odbieram i zaraz wracam",
+      "Otwieram, wrócimy do tego później"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "451cd58d-bd27-47da-ac84-aa316a133bd6": {
+    "text": "W najlepszym momencie wasz kot wskakuje na łóżko i gapi się na was. Co dalej?",
+    "answers": [
+      "Kot wylatuje z pokoju",
+      "Ignorujemy go i działamy dalej",
+      "Wybuchamy śmiechem i na tym koniec"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "4092ab00-13ca-4261-a43a-7279301878a4": {
+    "text": "Gdy zaczyna iskrzyć, twoja druga połówka mówi: „czekaj, najpierw dokończmy ten odcinek”. Co robisz?",
+    "answers": [
+      "Śmieję się i czekam",
+      "Obrażam się, czar pryska",
+      "Chowam pilota"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "02764dd4-39e2-40b9-a6d4-886bea53759e": {
+    "text": "Zaraz po zbliżeniu twoja druga połówka odwraca się na bok i zaczyna chrapać. Do ilu punktów na 10 spada?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "9ba84b4f-ec82-47aa-a4a3-9f280b56470b": {
+    "text": "Podczas pocałunku widzisz, że twoja druga połówka ma szeroko otwarte oczy. Do ilu punktów na 10 spada?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f70cfa93-cddd-4ad1-8344-03c22063c588": {
+    "text": "Twoja druga połówka wchodzi do łóżka w skarpetkach i ich nie zdejmuje. Do ilu punktów na 10 spada?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5466613d-c6c7-4f92-a9a4-12695fecef33": {
+    "text": "W gorącym momencie twoja druga połówka zerka na powiadomienie w telefonie. Do ilu punktów na 10 spada?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3e7e65b3-90c9-4fd7-9917-1d0c56328de1": {
+    "text": "Twoja druga połówka całuje cię z gumą do żucia w ustach. Do ilu punktów na 10 spada?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "54ed2a29-dec5-4e11-bc08-d8f35f77cebe": {
+    "text": "Co bardziej na ciebie działa: budzenie pocałunkami czy przytulanie do snu?",
+    "answers": [
+      "Budzenie pocałunkami",
+      "Przytulanie do snu"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "a5baa1ce-254a-43b4-8cee-8d2e650e86bc": {
+    "text": "Co bardziej na ciebie działa: gdy druga połówka chodzi po domu w twojej koszuli czy gdy stroi się specjalnie dla ciebie?",
+    "answers": [
+      "Chodzenie w mojej koszuli",
+      "Strojenie się specjalnie dla mnie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5e4fef58-1a72-4651-85bf-131aa64dca2f": {
+    "text": "Co bardziej cię zniechęca: gdy druga połówka nigdy nie robi pierwszego kroku czy gdy codziennie pyta „dziś?”",
+    "answers": [
+      "Brak pierwszego kroku",
+      "Codzienne dopytywanie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "862fba19-fdc5-41f2-bbd5-333e6b947e4e": {
+    "text": "Co bardziej cię zniechęca: za dużo perfum czy brak przyjemnego zapachu?",
+    "answers": [
+      "Za dużo perfum",
+      "Brak przyjemnego zapachu"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e6853947-be83-4878-81aa-c596fafa2c28": {
+    "text": "Chcesz spróbować z drugą połówką czegoś nowego. Jak najłatwiej ci o tym powiedzieć?",
+    "answers": [
+      "Mówię wprost, twarzą w twarz",
+      "Piszę w wiadomości",
+      "Daję do zrozumienia i liczę, że załapie",
+      "Nie potrafię, duszę to w sobie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "735638ce-f7b1-4795-8c58-77fe461637aa": {
+    "text": "Twoja druga połówka chce czegoś, na co zupełnie nie masz ochoty. Jak odmawiasz?",
+    "answers": [
+      "Wprost, bez owijania",
+      "Delikatnie, żeby nie zrobić przykrości",
+      "I tak się zgadzam"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e9b5ff0c-f5e3-4792-83b9-6589ac229c71": {
+    "text": "Twoja druga połówka mówi: „nie dziś”. Jak to przyjmujesz?",
+    "answers": [
+      "Spoko, bez pytań",
+      "Pytam, czy coś się stało",
+      "Trochę mi przykro"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "368c67a7-73bd-4702-989a-91e47493e9f7": {
+    "text": "Rozmowa po zbliżeniu o tym, co się podobało…",
+    "answers": [
+      "Sprawia, że następnym razem jest lepiej",
+      "Psuje nastrój",
+      "Tylko jeśli druga połówka zacznie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "bfedd7c5-ce55-4024-8018-b7ce739cce29": {
+    "text": "W intymnej chwili twoja druga połówka pyta: „czy tak jest okej?”. Co czujesz?",
+    "answers": [
+      "Że się o mnie troszczy",
+      "Trochę wybija mnie to z rytmu",
+      "Niech po prostu nie przestaje"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "17a06cb8-e7fa-495c-a692-290c1460e181": {
+    "text": "Coś, co zrobiła twoja druga połówka, nie sprawiło ci przyjemności. Kiedy o tym mówisz?",
+    "answers": [
+      "Od razu",
+      "Następnego dnia, na spokojnie",
+      "Nigdy nie mówię"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f84a9f94-e846-4ec5-8236-8ad07652afb0": {
+    "text": "Twoja druga połówka zaczyna mówić tak, że zbija cię to z tropu. Co robisz?",
+    "answers": [
+      "Wchodzę w ten klimat",
+      "Śmieję się i działam dalej",
+      "Proszę o trochę łagodniejszy ton"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "3c458b59-191a-4dce-b2a2-b65356bcae20": {
+    "text": "Twoja druga połówka opowiada o fantazji, o której słyszysz pierwszy raz. Pierwsza reakcja?",
+    "answers": [
+      "Ciekawość, chcę usłyszeć więcej",
+      "Otwartość, ale potrzebuję czasu",
+      "Dyskomfort, wolę nie wiedzieć"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "fef555de-c1d3-43e9-9605-37eec8fbde2d": {
+    "text": "Zaraz po zbliżeniu twoja druga połówka pyta: „no i… jak mi poszło?”. Do ilu punktów na 10 spada?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "c5033475-5d32-4b8f-947e-cf7dcc230829": {
+    "text": "W najgorętszym momencie twoja druga połówka zaczyna wyliczać, co ma jutro do zrobienia. Do ilu punktów na 10 spada?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "033a99fb-d6ea-4dfc-babb-146b6b014079": {
+    "text": "W intymnej chwili twoja druga połówka mówi do ciebie „mordo”. Do ilu punktów na 10 spada?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "cba3d458-f072-477c-991c-734f8ed03ece": {
+    "text": "Gdy jest już po wszystkim, twoja druga połówka przybija ci piątkę. Do ilu punktów na 10 spada?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b9b04a31-a234-45ae-aaad-de08af7471b5": {
+    "text": "Po wszystkim twoja druga połówka zerka na zegarek i mówi: „nieźle, poniżej 10 minut”. Do ilu punktów na 10 spada?",
+    "answers": [],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "d159131e-c8f0-4d44-af47-1514971573bf": {
+    "text": "Płacz przy drugiej połówce…",
+    "answers": [
+      "Płaczę bez skrępowania",
+      "Tylko gdy jest naprawdę ciężko",
+      "Nigdy, płaczę w samotności"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "da0a868e-280d-4541-ac22-5e355899f285": {
+    "text": "Od miesięcy twoja druga połówka przez stres w pracy nie ma ochoty na bliskość. Co robisz?",
+    "answers": [
+      "Cierpliwie czekam, bez presji",
+      "Otwarcie o tym rozmawiam",
+      "Planuję wyjazd bez stresu",
+      "Proponuję wizytę u specjalisty"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "62965379-6dbf-441e-aa0f-6d5bfce5967f": {
+    "text": "Twoja druga połówka trochę przytyła i teraz woli zgaszone światło. Co robisz?",
+    "answers": [
+      "Przypominam, jak bardzo mnie pociąga",
+      "Szanuję to i gaszę światło",
+      "Delikatnie pytam, skąd to się bierze"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "27725fd4-9ec3-4ea7-ab17-eca3de08bb2d": {
+    "text": "W pełnej restauracji twoja druga połówka długo całuje cię w usta. Co robisz?",
+    "answers": [
+      "Oddaję pocałunek, co mi tam",
+      "Krótko całuję i się odsuwam",
+      "Śmieję się z zakłopotaniem",
+      "Mówię: „nie tutaj”"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "ace18a34-2c0b-4aef-9fab-bf1b2a2d3e02": {
+    "text": "Ostatnio w waszą bliskość wkradła się rutyna. Co robisz?",
+    "answers": [
+      "Zaskakuję czymś nowym",
+      "Poruszam temat i planujemy razem",
+      "Rezerwuję noc poza domem",
+      "Spoko, rutyna jest wygodna"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "5dc6ac28-16ab-425f-aec7-b5c6dca08089": {
+    "text": "Masz ochotę, ale twoja druga połówka jest wykończona. Co dalej?",
+    "answers": [
+      "Przytulamy się i zasypiamy",
+      "Próbuję przekonać",
+      "Zostawiamy to na rano",
+      "Czuję lekkie odrzucenie"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "6d467b67-0680-4c5a-a01e-55031b0bc0ab": {
+    "text": "Pocałunek przed wyjściem z domu…",
+    "answers": [
+      "Obowiązkowo, codziennie",
+      "Jak sobie przypomnimy",
+      "Niepotrzebny"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "1e704567-0f18-43f7-9230-7c7cc9d9a005": {
+    "text": "Twoja druga połówka pierwszy raz zwierza się ze swojego największego kompleksu. Co robisz?",
+    "answers": [
+      "Słucham i przytulam",
+      "Mówię, że to nieprawda",
+      "Zwierzam się ze swojego",
+      "Szukam sposobu, żeby pomóc"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "251fa297-28a5-470f-a5b4-2d89eff44148": {
+    "text": "Planowanie zbliżeń w kalendarzu…",
+    "answers": [
+      "Sprytne, dzięki temu jesteśmy blisko",
+      "Może być, gdy życie pędzi",
+      "Zabija namiętność"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "f398ab1a-ea92-42d9-bc5e-bfc0380abe1b": {
+    "text": "Gdy pierwszy krok zawsze robi ta sama osoba…",
+    "answers": [
+      "Zupełnie w porządku",
+      "Z czasem męczy",
+      "Poważny problem"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "e34ac078-acf4-4646-b713-abb4535b76ca": {
+    "text": "Ostatnie 10 minut przed snem najlepiej spędzić…",
+    "answers": [
+      "Przytulając się w ciszy",
+      "Rozmawiając o tym, jak minął dzień",
+      "Osobno, w telefonach",
+      "Oglądając lub czytając coś razem"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "efaad9e9-a415-497b-abca-91ce1e04b8dd": {
+    "text": "Trzymanie się za ręce i przytulanie przy znajomych…",
+    "answers": [
+      "Uwielbiam, nie ma co się ukrywać",
+      "W małej dawce jest urocze",
+      "Lepiej w cztery oczy"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "b0a69874-b41c-487d-8c74-f8b71a692cf7": {
+    "text": "Przez pracę będziecie dwa miesiące w różnych miastach. Jak podtrzymać bliskość?",
+    "answers": [
+      "Wideorozmowy co wieczór",
+      "Flirciarskie wiadomości przez cały dzień",
+      "Wizyty z zaskoczenia",
+      "Po prostu czekamy"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  },
+  "55b7de30-6949-47e2-8b1c-ff1d2e6c04a9": {
+    "text": "Nie pamiętasz, kiedy ostatnio padł komplement od twojej drugiej połówki. Co robisz?",
+    "answers": [
+      "Mówię, że mi tego brakuje",
+      "Zaczynam od komplementu",
+      "Odpuszczam, wiem, że mnie kocha"
+    ],
+    "accepted": [],
+    "flagged": false,
+    "note": ""
+  }
+}

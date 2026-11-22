@@ -7,7 +7,7 @@ import { parseAdminPushRequest } from "../src/services/notificationService.js";
 test("validateRegisterTokenInput accepts every app language and rejects others", () => {
   const input = { appUserId: "user-1", token: "abcdef123", platform: "ios" as const };
   assert.doesNotThrow(() => validateRegisterTokenInput({ ...input, language: "pt" }));
-  assert.throws(() => validateRegisterTokenInput({ ...input, language: "de" as any }));
+  assert.throws(() => validateRegisterTokenInput({ ...input, language: "ko" as any }));
 });
 
 test("validateRegisterTokenInput accepts valid payload", () => {
@@ -36,7 +36,7 @@ test("validateRegisterTokenInput checks the language", () => {
   assert.doesNotThrow(() => validateRegisterTokenInput({ ...base, language: "tr" }));
   assert.doesNotThrow(() => validateRegisterTokenInput(base));
   assert.throws(() =>
-    validateRegisterTokenInput({ ...base, language: "de" as "en" }),
+    validateRegisterTokenInput({ ...base, language: "ko" as "en" }),
   );
 });
 
@@ -56,7 +56,7 @@ test("parseAdminPushRequest keeps only the languages that have a text", () => {
 
 test("parseAdminPushRequest sends the legacy title/body to every language", () => {
   const parsed = parseAdminPushRequest({ title: "Hi", body: "There", type: "new_questions" });
-  assert.deepEqual(Object.keys(parsed.texts).sort(), ["en", "es", "pt", "tr"]);
+  assert.deepEqual(Object.keys(parsed.texts).sort(), ["de", "en", "es", "fr", "it", "ja", "nl", "pl", "pt", "tr"]);
 });
 
 test("parseAdminPushRequest rejects incomplete or empty requests", () => {

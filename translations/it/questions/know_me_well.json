@@ -1,0 +1,1457 @@
+{
+  "33e860c5-d68a-4622-8bff-5c2395b7b4fa": {
+    "en": "Would {{playerName}} rather stay home or go out on weekends?",
+    "text": "Nel weekend {{playerName}} preferisce restare a casa o uscire?",
+    "answers": [
+      "Restare a casa",
+      "Uscire"
+    ]
+  },
+  "b54e736a-1ca6-4282-8d2f-f8395b87aea1": {
+    "en": "Would {{playerName}} rather text or call someone?",
+    "text": "{{playerName}} preferisce scrivere un messaggio o chiamare?",
+    "answers": [
+      "Scrivere",
+      "Chiamare"
+    ]
+  },
+  "4bc843bb-07c2-4f26-b817-0f3d3b9614b9": {
+    "en": "Would {{playerName}} rather plan everything or be spontaneous?",
+    "text": "{{playerName}} preferisce pianificare tutto o improvvisare?",
+    "answers": [
+      "Pianificare tutto",
+      "Improvvisare"
+    ]
+  },
+  "82c0e606-aae6-4ff9-b103-b95342fd82dd": {
+    "en": "Would {{playerName}} rather rewatch a favorite movie or watch something new?",
+    "text": "{{playerName}} preferisce rivedere un film del cuore o guardare qualcosa di nuovo?",
+    "answers": [
+      "Rivedere un film del cuore",
+      "Guardare qualcosa di nuovo"
+    ]
+  },
+  "91ca43c8-5750-446e-a192-ac3bbc581934": {
+    "en": "Would {{playerName}} rather live near the ocean or in the mountains?",
+    "text": "{{playerName}} preferirebbe vivere vicino al mare o in montagna?",
+    "answers": [
+      "Vicino al mare",
+      "In montagna"
+    ]
+  },
+  "f35c8f81-62c1-4a7f-a513-8d4236bd98a5": {
+    "en": "Would {{playerName}} rather arrive too early or slightly late?",
+    "text": "{{playerName}} preferisce arrivare troppo presto o un po' in ritardo?",
+    "answers": [
+      "Troppo presto",
+      "Un po' in ritardo"
+    ]
+  },
+  "7d54b670-a981-422f-aced-7e9fa4bae1ec": {
+    "en": "Would {{playerName}} rather trust their head or their heart when making decisions?",
+    "text": "Quando deve decidere, {{playerName}} si fida più della testa o del cuore?",
+    "answers": [
+      "Testa",
+      "Cuore"
+    ]
+  },
+  "b4de40ca-d4cd-4e56-ae5d-4dea9004dd81": {
+    "en": "Would {{playerName}} rather keep a secret or tell the truth even if it hurts?",
+    "text": "{{playerName}} preferirebbe mantenere un segreto o dire la verità anche se fa male?",
+    "answers": [
+      "Mantenere il segreto",
+      "Dire la verità"
+    ]
+  },
+  "f6926734-79ef-490a-a4e4-630f9273a4f5": {
+    "en": "Would {{playerName}} rather work hard for success or get lucky and succeed easily?",
+    "text": "{{playerName}} preferirebbe sudarsi il successo o avere fortuna e riuscire senza fatica?",
+    "answers": [
+      "Sudarsi il successo",
+      "Fortuna e successo facile"
+    ]
+  },
+  "5447a180-538c-4a12-9efb-cc3a5b935f41": {
+    "en": "Would {{playerName}} rather forgive easily or hold a grudge for a long time?",
+    "text": "{{playerName}} tende a perdonare facilmente o a portare rancore a lungo?",
+    "answers": [
+      "Perdona facilmente",
+      "Porta rancore"
+    ]
+  },
+  "2be6067f-ee2d-45a3-83be-4fc9c72df2ef": {
+    "en": "Would {{playerName}} rather have $1 million or marry the love of their life?",
+    "text": "{{playerName}} preferirebbe avere 1 milione di euro o sposare l'amore della sua vita?",
+    "answers": [
+      "1 milione di euro",
+      "Sposare l'amore della sua vita"
+    ],
+    "note": "Localized $1 million to 1 milione di euro."
+  },
+  "12f83f4b-5b4b-4a12-a517-c315e06f329e": {
+    "en": "Would {{playerName}} rather live in their hometown or in different countries?",
+    "text": "{{playerName}} preferirebbe vivere nella sua città natale o in giro per il mondo?",
+    "answers": [
+      "Città natale",
+      "In giro per il mondo"
+    ]
+  },
+  "e17c9f6b-cf1a-45b3-87f4-27c8bdc82bae": {
+    "en": "Would {{playerName}} rather cook at home or eat out?",
+    "text": "{{playerName}} preferisce cucinare a casa o mangiare fuori?",
+    "answers": [
+      "Cucinare a casa",
+      "Mangiare fuori"
+    ]
+  },
+  "382bc563-9823-4ab1-8071-cc2d74faf52a": {
+    "en": "Would {{playerName}} rather spend a free day alone or with friends?",
+    "text": "{{playerName}} preferisce passare una giornata libera per conto suo o con gli amici?",
+    "answers": [
+      "Per conto suo",
+      "Con gli amici"
+    ]
+  },
+  "90825695-99aa-4d92-896a-29c6c59a277b": {
+    "en": "Would {{playerName}} rather have a high salary but a stressful job or a lower salary but a relaxed job?",
+    "text": "{{playerName}} preferirebbe uno stipendio alto ma un lavoro stressante o uno più basso ma un lavoro tranquillo?",
+    "answers": [
+      "Stipendio alto, lavoro stressante",
+      "Stipendio più basso, lavoro tranquillo"
+    ]
+  },
+  "f2281a28-c027-428c-99bd-5a083fee5ca4": {
+    "en": "Would {{playerName}} rather confess love first or wait for the other person to do it?",
+    "text": "In amore, {{playerName}} preferisce fare il primo passo o aspettare che lo faccia l'altra persona?",
+    "answers": [
+      "Fare il primo passo",
+      "Aspettare"
+    ]
+  },
+  "475783c3-4b71-401d-87db-c959f01b2d7e": {
+    "en": "Would {{playerName}} rather fall in love quickly or fall in love over time?",
+    "text": "{{playerName}} si innamora subito o col tempo?",
+    "answers": [
+      "Subito",
+      "Col tempo"
+    ]
+  },
+  "1ab0317c-029e-4bb2-9de6-372e922d68aa": {
+    "en": "Would {{playerName}} rather express their feelings openly or keep them to themselves?",
+    "text": "{{playerName}} preferisce esprimere apertamente ciò che prova o tenerlo per sé?",
+    "answers": [
+      "Lo esprime apertamente",
+      "Lo tiene per sé"
+    ]
+  },
+  "786f9f17-3200-414f-9269-969c05476a85": {
+    "en": "Would {{playerName}} rather be the one who loves more or be loved more?",
+    "text": "In amore, {{playerName}} preferirebbe dare di più o ricevere di più?",
+    "answers": [
+      "Dare più amore",
+      "Ricevere più amore"
+    ]
+  },
+  "0739e76d-bd4b-4bcc-a375-4048e59d974a": {
+    "en": "Would {{playerName}} rather go for someone who is emotionally intense or emotionally calm?",
+    "text": "{{playerName}} preferisce stare con una persona dalle emozioni intense o emotivamente calma?",
+    "answers": [
+      "Emozioni intense",
+      "Calma emotiva"
+    ]
+  },
+  "76484c65-35c7-4c3c-9a1e-42230c7921f2": {
+    "en": "Would {{playerName}} rather have a predictable life or an unpredictable exciting life?",
+    "text": "{{playerName}} preferirebbe una vita prevedibile o una vita imprevedibile ed emozionante?",
+    "answers": [
+      "Vita prevedibile",
+      "Vita imprevedibile ed emozionante"
+    ]
+  },
+  "239177fa-9d95-4c4e-bf05-9ca0e0153f5c": {
+    "en": "Would {{playerName}} rather have a big family or keep their family small?",
+    "text": "{{playerName}} preferirebbe una famiglia numerosa o piccola?",
+    "answers": [
+      "Famiglia numerosa",
+      "Famiglia piccola"
+    ]
+  },
+  "1918743a-fff6-42ba-bacb-9f6930488c49": {
+    "en": "Would {{playerName}} rather spend holidays with family or travel somewhere new?",
+    "text": "{{playerName}} preferisce passare le vacanze in famiglia o scoprire un posto nuovo?",
+    "answers": [
+      "In famiglia",
+      "In un posto nuovo"
+    ]
+  },
+  "77ba1277-946e-480b-b878-ed1aa3b631ad": {
+    "en": "Would {{playerName}} rather have kids early in life or later in life?",
+    "text": "{{playerName}} preferirebbe avere figli presto o più avanti?",
+    "answers": [
+      "Presto",
+      "Più avanti"
+    ]
+  },
+  "598ab765-c9fe-4082-bc14-d4b8d064861f": {
+    "en": "Would {{playerName}} rather have one child or two children?",
+    "text": "{{playerName}} preferirebbe avere un figlio o due?",
+    "answers": [
+      "Un figlio",
+      "Due figli"
+    ]
+  },
+  "d704896b-0ef4-4c00-9fd7-3a47551b146a": {
+    "en": "Would {{playerName}} rather have a stable job for life or take risks to build their own business?",
+    "text": "{{playerName}} preferirebbe il posto fisso a vita o rischiare e mettersi in proprio?",
+    "answers": [
+      "Posto fisso a vita",
+      "Mettersi in proprio"
+    ]
+  },
+  "6fb61eae-df85-4a81-bbd6-5ead952fdd6f": {
+    "en": "Would {{playerName}} rather work remotely from anywhere or work in a fixed office environment?",
+    "text": "{{playerName}} preferirebbe lavorare da remoto, da qualsiasi posto, o in un ufficio fisso?",
+    "answers": [
+      "Lavorare da remoto",
+      "Lavorare in ufficio"
+    ]
+  },
+  "47219491-e82d-4220-afd0-f8f976dbacbc": {
+    "en": "Would {{playerName}} rather move in with a partner early or wait a long time before living together?",
+    "text": "{{playerName}} preferirebbe andare a convivere presto o aspettare a lungo?",
+    "answers": [
+      "Convivere presto",
+      "Aspettare a lungo"
+    ]
+  },
+  "245377c3-2b87-4c1e-a318-e374030cc54a": {
+    "en": "If {{playerName}} had to choose, would they rather be with someone who is very jealous or someone who is very stingy?",
+    "text": "Se dovesse scegliere, {{playerName}} starebbe con una persona gelosissima o con una tirchissima?",
+    "answers": [
+      "Una persona gelosissima",
+      "Una persona tirchissima"
+    ]
+  },
+  "11fcbe7e-56a2-4147-b883-7adfe6ae91bf": {
+    "en": "If {{playerName}} had to choose, would they rather be with someone who is very controlling or someone who is very emotionally distant?",
+    "text": "Se dovesse scegliere, {{playerName}} starebbe con una persona che controlla tutto o con una emotivamente distante?",
+    "answers": [
+      "Una che controlla tutto",
+      "Una emotivamente distante"
+    ]
+  },
+  "8ffb0025-b2a9-4460-a1ed-cb5a661a2088": {
+    "en": "Would {{playerName}} rather be with someone very ambitious or someone very content with life?",
+    "text": "{{playerName}} preferirebbe stare con una persona molto ambiziosa o con una persona molto appagata dalla vita?",
+    "answers": [
+      "Una persona ambiziosa",
+      "Una persona appagata"
+    ]
+  },
+  "3408836d-1ecf-441a-960f-2fea5ad49e27": {
+    "en": "Would {{playerName}} rather have a cat or a dog as a pet?",
+    "text": "{{playerName}} preferirebbe avere un gatto o un cane?",
+    "answers": [
+      "Gatto",
+      "Cane"
+    ]
+  },
+  "1f6efff9-3add-4515-85f1-c6d272731369": {
+    "en": "Would {{playerName}} rather be famous or live a completely private life?",
+    "text": "{{playerName}} preferirebbe la fama o una vita del tutto riservata?",
+    "answers": [
+      "La fama",
+      "Una vita riservata"
+    ]
+  },
+  "89b861b5-b18b-4c8f-a6db-d3267f82af3f": {
+    "en": "Would {{playerName}} rather always tell the truth or always avoid conflict?",
+    "text": "{{playerName}} preferirebbe dire sempre la verità o evitare sempre i conflitti?",
+    "answers": [
+      "Dire sempre la verità",
+      "Evitare i conflitti"
+    ]
+  },
+  "390d3b45-4e67-40bf-a304-e54b49a54d93": {
+    "en": "Would {{playerName}} rather forgive easily or take time before forgiving someone?",
+    "text": "{{playerName}} tende a perdonare subito o si prende del tempo prima di perdonare?",
+    "answers": [
+      "Perdonare subito",
+      "Prendersi del tempo"
+    ]
+  },
+  "778652b2-f2c7-4a02-8dbf-bf8fbb62d089": {
+    "en": "Would {{playerName}} rather take things slow in a relationship or feel instant chemistry?",
+    "text": "In una relazione, {{playerName}} preferisce andarci piano o sentire subito la scintilla?",
+    "answers": [
+      "Andarci piano",
+      "Scintilla immediata"
+    ]
+  },
+  "6b1a102c-c5a3-4261-97eb-1379c2d19a64": {
+    "en": "Would {{playerName}} rather show affection in public or keep it private?",
+    "text": "{{playerName}} preferisce mostrare affetto in pubblico o in privato?",
+    "answers": [
+      "In pubblico",
+      "In privato"
+    ]
+  },
+  "1a19c968-2cfd-4823-80a6-b871d121e44a": {
+    "en": "Would {{playerName}} rather have intense chemistry or emotional comfort in a relationship?",
+    "text": "In una relazione, {{playerName}} preferisce una chimica intensa o la serenità emotiva?",
+    "answers": [
+      "Chimica intensa",
+      "Serenità emotiva"
+    ]
+  },
+  "8ca453c1-959a-4c76-9ea7-54987d756b27": {
+    "en": "Would {{playerName}} rather have a partner who is very jealous or someone who gives complete freedom?",
+    "text": "{{playerName}} preferirebbe un amore molto geloso o uno che lascia piena libertà?",
+    "answers": [
+      "Tanta gelosia",
+      "Piena libertà"
+    ]
+  },
+  "d5fadf41-1231-4b0c-8efa-9d625b1ca6fb": {
+    "en": "Would {{playerName}} rather be with someone very expressive physically or someone more controlled and calm?",
+    "text": "{{playerName}} preferisce stare con una persona molto espansiva fisicamente o più misurata e calma?",
+    "answers": [
+      "Tanta fisicità",
+      "Calma e misura"
+    ]
+  },
+  "f1ed238f-43db-4120-a454-f66430ed55c7": {
+    "en": "Would {{playerName}} rather be in a relationship with strong physical chemistry or strong emotional connection?",
+    "text": "{{playerName}} preferirebbe una relazione con una forte attrazione fisica o con un forte legame emotivo?",
+    "answers": [
+      "Attrazione fisica",
+      "Legame emotivo"
+    ]
+  },
+  "aefd3291-56f1-4c7b-ae95-6cace501472d": {
+    "en": "Does {{playerName}} prefer sunny or rainy weather?",
+    "text": "{{playerName}} preferisce le giornate di sole o di pioggia?",
+    "answers": [
+      "Sole",
+      "Pioggia"
+    ]
+  },
+  "9cb91fa0-017a-492d-adbe-adb31919cbdd": {
+    "en": "Does {{playerName}} prefer intimacy in the morning or at night?",
+    "text": "{{playerName}} preferisce l'intimità di mattina o di notte?",
+    "answers": [
+      "Di mattina",
+      "Di notte"
+    ]
+  },
+  "a003660c-bffd-47f5-952c-0a40d2a45686": {
+    "en": "Does {{playerName}} prefer spontaneous or planned intimacy?",
+    "text": "{{playerName}} preferisce un'intimità improvvisata o programmata?",
+    "answers": [
+      "Improvvisata",
+      "Programmata"
+    ]
+  },
+  "8a17d77f-14ed-4528-b669-78594d0da8ac": {
+    "en": "Does {{playerName}} prefer a wild night out or a cozy night in?",
+    "text": "{{playerName}} preferisce una serata scatenata fuori o una serata tranquilla a casa?",
+    "answers": [
+      "Serata fuori",
+      "Serata a casa"
+    ]
+  },
+  "a0fac6c6-6686-45b8-8cf4-408edc5d032c": {
+    "en": "Does {{playerName}} prefer a beach vacation or a mountain vacation?",
+    "text": "{{playerName}} preferisce una vacanza al mare o in montagna?",
+    "answers": [
+      "Mare",
+      "Montagna"
+    ]
+  },
+  "cffb0f75-9040-45b1-8d12-300ef3ca08be": {
+    "en": "Does {{playerName}} prefer a sweet text message or a long phone call?",
+    "text": "{{playerName}} preferisce un messaggio dolce o una lunga telefonata?",
+    "answers": [
+      "Messaggio dolce",
+      "Lunga telefonata"
+    ]
+  },
+  "59e97775-72fe-4bf0-9f4c-5b0cd575a4ce": {
+    "en": "Does {{playerName}} prefer a surprise date or a carefully planned one?",
+    "text": "{{playerName}} preferisce un appuntamento a sorpresa o uno organizzato nei dettagli?",
+    "answers": [
+      "A sorpresa",
+      "Organizzato nei dettagli"
+    ]
+  },
+  "d164f584-fdb2-4f62-b924-781f1bd75ac9": {
+    "en": "Does {{playerName}} prefer receiving compliments on their looks or their personality?",
+    "text": "{{playerName}} preferisce ricevere complimenti sul suo aspetto o sulla sua personalità?",
+    "answers": [
+      "Aspetto",
+      "Personalità"
+    ]
+  },
+  "0492fd1f-f383-4660-8df4-d63bc67d178a": {
+    "en": "Does {{playerName}} prefer making big life decisions solo or together with their partner?",
+    "text": "{{playerName}} preferisce prendere le grandi decisioni in autonomia o insieme al suo amore?",
+    "answers": [
+      "In autonomia",
+      "Insieme"
+    ]
+  },
+  "94f9ac5e-0878-4a02-ae8c-7b4008f74ad4": {
+    "en": "If {{playerName}} could time travel, would they fix a mistake in the past or visit the future?",
+    "text": "Se potesse viaggiare nel tempo, {{playerName}} correggerebbe un errore del passato o visiterebbe il futuro?",
+    "answers": [
+      "Correggere il passato",
+      "Visitare il futuro"
+    ]
+  },
+  "bd441de0-5c15-4416-99b1-89df1671c114": {
+    "en": "Was {{playerName}} a mischievous troublemaker or a quiet, rule-following kid?",
+    "text": "Nell'infanzia, {{playerName}} era una peste o un tesoro tranquillo che rispettava le regole?",
+    "answers": [
+      "Una peste",
+      "Un tesoro tranquillo"
+    ]
+  },
+  "347689ab-707b-4407-a09f-69f9f19343de": {
+    "en": "As a child, did {{playerName}} prefer playing outside in the dirt or staying indoors with toys?",
+    "text": "Nell'infanzia, {{playerName}} preferiva giocare fuori nel fango o restare in casa con i giocattoli?",
+    "answers": [
+      "Giochi all'aperto",
+      "Giochi in casa"
+    ]
+  },
+  "c022d8ce-34b3-4ab0-a227-06d30b81bd48": {
+    "en": "Does {{playerName}} prefer to keep their food separate on the plate or mix it all together?",
+    "text": "{{playerName}} tiene il cibo separato nel piatto o mescola tutto?",
+    "answers": [
+      "Tutto separato",
+      "Tutto mescolato"
+    ]
+  },
+  "060551e0-79ca-4006-9c48-f247b618ce82": {
+    "en": "Does {{playerName}} prefer sleeping in absolute silence or with some background noise (like music or a fan)?",
+    "text": "{{playerName}} preferisce dormire nel silenzio totale o con un rumore di sottofondo (musica, ventilatore)?",
+    "answers": [
+      "Silenzio totale",
+      "Rumore di sottofondo"
+    ]
+  },
+  "df4aa404-cddd-4a94-b2bb-04fa25a26220": {
+    "en": "Would {{playerName}} rather be remembered for their intelligence or their kindness?",
+    "text": "{{playerName}} vorrebbe che la gente ricordasse la sua intelligenza o la sua gentilezza?",
+    "answers": [
+      "Intelligenza",
+      "Gentilezza"
+    ]
+  },
+  "d3b1c0c7-84b5-46cf-9492-69d50264f744": {
+    "en": "When stressed, does {{playerName}} isolate to cope or seek support from loved ones?",
+    "text": "Sotto stress, {{playerName}} si chiude in sé o cerca il supporto delle persone care?",
+    "answers": [
+      "Si chiude in sé",
+      "Cerca supporto"
+    ]
+  },
+  "85b2e103-ec68-46a7-969f-9a2a9845765f": {
+    "en": "When making a major decision, does {{playerName}} follow their gut instinct or do they need to analyze all the facts?",
+    "text": "Davanti a una decisione importante, {{playerName}} segue l'istinto o deve analizzare tutti i fatti?",
+    "answers": [
+      "Istinto",
+      "Dati e fatti"
+    ]
+  },
+  "1291050c-1544-4303-aec4-8dfb5336fede": {
+    "en": "How important is the environment (lighting, music, atmosphere) to {{playerName}} during intimacy?",
+    "text": "Quanto conta l'atmosfera (luci, musica, ambiente) per {{playerName}} nei momenti intimi?",
+    "answers": [
+      "Conta ogni dettaglio",
+      "Non conta per niente"
+    ]
+  },
+  "936fc0ce-528b-4397-9401-6e314e091ea9": {
+    "en": "When in an intimate moment, does {{playerName}} prefer verbal affirmation or focusing purely on the physical sensation?",
+    "text": "Nei momenti intimi, {{playerName}} preferisce sentirsi dire parole dolci o concentrarsi solo sulle sensazioni fisiche?",
+    "answers": [
+      "Parole dolci",
+      "Solo sensazioni fisiche"
+    ]
+  },
+  "e9b217eb-eb8e-4bf3-96e3-0529186355f9": {
+    "en": "What time does {{playerName}} usually wake up?",
+    "text": "A che ora si sveglia di solito {{playerName}}?"
+  },
+  "0c937cba-97a4-4782-a859-d321a0e52b16": {
+    "en": "How many siblings does {{playerName}} have?",
+    "text": "Quanti fratelli o sorelle ha {{playerName}}?"
+  },
+  "8e7430ec-4498-4aff-a4dc-10933a46c12d": {
+    "en": "What month was {{playerName}} born in?",
+    "text": "In che mese compie gli anni {{playerName}}?"
+  },
+  "b5c36562-c5d4-42ae-9205-85f0b0262bad": {
+    "en": "What's {{playerName}}'s favorite ice cream flavor?",
+    "text": "Qual è il gusto di gelato preferito di {{playerName}}?"
+  },
+  "67bea7b0-936b-4108-b413-8eea681221e0": {
+    "en": "What does {{playerName}} never leave the house without?",
+    "text": "Senza cosa {{playerName}} non esce mai di casa?"
+  },
+  "10c8697c-0893-43cd-891b-3f8043ea9661": {
+    "en": "What city was {{playerName}} born in?",
+    "text": "Qual è la città natale di {{playerName}}?"
+  },
+  "67bddf7d-4d5a-49ff-b2bd-544f70c541e0": {
+    "en": "What's {{playerName}}'s favorite color?",
+    "text": "Qual è il colore preferito di {{playerName}}?"
+  },
+  "7e32c0fb-1531-4e16-af1c-629343ffb7e9": {
+    "en": "What does {{playerName}} love eating most for breakfast?",
+    "text": "Cosa adora mangiare {{playerName}} a colazione?"
+  },
+  "0425f81b-0c26-4d2f-b061-adfe977513d3": {
+    "en": "What's {{playerName}}'s favorite pizza topping?",
+    "text": "Qual è il condimento che {{playerName}} preferisce sulla pizza?"
+  },
+  "dfbde649-f017-4e8e-8d54-6ec9c9694fc5": {
+    "en": "What's {{playerName}}'s usual coffee order?",
+    "text": "Come prende di solito il caffè {{playerName}}?"
+  },
+  "d99e5617-1698-4240-a0a8-c3daea39022d": {
+    "en": "What's {{playerName}}'s favorite snack?",
+    "text": "Qual è lo snack preferito di {{playerName}}?"
+  },
+  "ee877ca1-488d-4f97-9598-fd22509ac148": {
+    "en": "What's {{playerName}}'s favorite fruit?",
+    "text": "Qual è il frutto preferito di {{playerName}}?"
+  },
+  "9592c028-df70-4e2a-b66d-f17130e2480e": {
+    "en": "How does {{playerName}} like their eggs?",
+    "text": "Come preferisce le uova {{playerName}}?"
+  },
+  "1bd92319-ff3e-43b3-81b8-f13be6fd47bf": {
+    "en": "What time does {{playerName}} usually go to sleep?",
+    "text": "A che ora va a dormire di solito {{playerName}}?"
+  },
+  "d90798ff-2c56-4b01-a1c8-2780928f2161": {
+    "en": "What's {{playerName}}'s favorite childhood cartoon?",
+    "text": "Qual era il cartone animato preferito di {{playerName}} nell'infanzia?"
+  },
+  "74c6652c-3f00-4012-8585-e196f91a11f9": {
+    "en": "What's the first app {{playerName}} opens in the morning?",
+    "text": "Qual è la prima app che {{playerName}} apre la mattina?"
+  },
+  "44cb3c9e-6be8-4872-9542-0b08384ef41e": {
+    "en": "What's {{playerName}}'s favorite emoji?",
+    "text": "Qual è l'emoji preferita di {{playerName}}?"
+  },
+  "7dc94a81-6d5d-4d12-9d9b-f9ab59fc038a": {
+    "en": "What phone brand does {{playerName}} use?",
+    "text": "Che marca di telefono usa {{playerName}}?"
+  },
+  "a8cb7aac-c671-48bd-a093-3d7fd524491e": {
+    "en": "What is {{playerName}} currently watching?",
+    "text": "Cosa sta guardando {{playerName}} in questo periodo?"
+  },
+  "17ec277b-a7f7-49ce-8eec-99683adbcbb2": {
+    "en": "What's {{playerName}}'s favorite animal?",
+    "text": "Qual è l'animale preferito di {{playerName}}?"
+  },
+  "145f2f5b-8e80-4252-a357-3ae2d5c4c1d0": {
+    "en": "What's {{playerName}}'s lucky number?",
+    "text": "Qual è il numero fortunato di {{playerName}}?"
+  },
+  "2a1297e0-6d77-4cf2-a3ff-e5f8057dcc30": {
+    "en": "What's {{playerName}}'s star sign?",
+    "text": "Di che segno è {{playerName}}?"
+  },
+  "e867a504-b007-4206-8378-19171432174d": {
+    "en": "What's {{playerName}}'s favorite season?",
+    "text": "Qual è la stagione preferita di {{playerName}}?"
+  },
+  "55cc5151-4dc7-4a67-90de-b1829ca19dc8": {
+    "en": "What was {{playerName}}'s childhood nickname?",
+    "text": "Qual era il soprannome d'infanzia di {{playerName}}?"
+  },
+  "bb5df921-8ba2-4082-90b4-fb7c936731dc": {
+    "en": "What's {{playerName}}'s favorite singer?",
+    "text": "Quale cantante ama di più {{playerName}}?"
+  },
+  "ebad8d20-818e-4d82-8191-1a2c198bfa7f": {
+    "en": "What's {{playerName}}'s favorite chocolate?",
+    "text": "Qual è il cioccolato preferito di {{playerName}}?"
+  },
+  "a029377a-dcee-4c47-80ac-e652ce1363f6": {
+    "en": "What's {{playerName}}'s favorite fast food?",
+    "text": "Qual è il fast food preferito di {{playerName}}?"
+  },
+  "34591a59-c1f0-426b-a04c-c98cee22942d": {
+    "en": "What does {{playerName}} call their mom?",
+    "text": "Come chiama la mamma {{playerName}}?"
+  },
+  "d557c7ce-b091-4b4b-ad44-73eb4a9f1d17": {
+    "en": "What's {{playerName}}'s favorite superhero?",
+    "text": "Qual è il supereroe preferito di {{playerName}}?"
+  },
+  "ff54dc71-bbb6-46f6-973f-7381edb1f930": {
+    "en": "What does {{playerName}} do first when they get home?",
+    "text": "Qual è la prima cosa che fa {{playerName}} appena torna a casa?"
+  },
+  "837a824d-df7a-4c64-b6ba-16f11164e978": {
+    "en": "What chore does {{playerName}} hate the most?",
+    "text": "Quale faccenda di casa odia di più {{playerName}}?"
+  },
+  "792869b8-ec29-496c-b85e-f010457ea0ae": {
+    "en": "What does {{playerName}} always lose?",
+    "text": "Cosa perde sempre {{playerName}}?"
+  },
+  "b140bb4d-c30d-4ef6-9106-988634717a5f": {
+    "en": "How fast does {{playerName}} reply to messages?",
+    "text": "Quanto ci mette {{playerName}} a rispondere ai messaggi?",
+    "answers": [
+      "Subito",
+      "Dopo ore",
+      "Visualizza e non risponde",
+      "Manda un vocale"
+    ]
+  },
+  "4a6273eb-4b65-4061-a9b8-e0926c7675eb": {
+    "en": "What's {{playerName}} like at a party?",
+    "text": "Com'è {{playerName}} a una festa?",
+    "answers": [
+      "In pista",
+      "In un angolo",
+      "In cucina",
+      "Se ne va presto"
+    ]
+  },
+  "401000a3-ed4d-43cd-98a9-9eb83866750c": {
+    "en": "How does {{playerName}} pack for a trip?",
+    "text": "Come fa la valigia {{playerName}}?",
+    "answers": [
+      "Una settimana prima",
+      "La sera prima",
+      "Dimentica metà delle cose",
+      "Si porta mezza casa"
+    ]
+  },
+  "22169b2f-f26f-4151-8015-bafef065eb8f": {
+    "en": "What does {{playerName}} do when they're lost?",
+    "text": "Cosa fa {{playerName}} quando si perde?",
+    "answers": [
+      "Chiede a qualcuno",
+      "Guarda la mappa",
+      "Continua a camminare",
+      "Telefona a qualcuno"
+    ]
+  },
+  "eca7e545-d5fe-43d3-b4fe-2e6aec589557": {
+    "en": "What does {{playerName}} do with leftovers?",
+    "text": "Cosa fa {{playerName}} con gli avanzi?",
+    "answers": [
+      "Li conserva",
+      "Li mangia a mezzanotte",
+      "Li butta",
+      "Li dimentica in frigo"
+    ]
+  },
+  "61d8bdfa-ccc2-48c1-8c58-446ed197d69c": {
+    "en": "What's {{playerName}} like in the morning?",
+    "text": "Com'è {{playerName}} la mattina?",
+    "answers": [
+      "Intrattabile",
+      "Non parla fino al caffè",
+      "Chiacchiera già",
+      "Rimanda la sveglia all'infinito"
+    ]
+  },
+  "5dfed285-7d4f-4e71-8506-84c8415cbc26": {
+    "en": "What's {{playerName}} like as a passenger?",
+    "text": "Com'è {{playerName}} in macchina quando non guida?",
+    "answers": [
+      "Dorme tutto il viaggio",
+      "Decide la musica",
+      "Indica la strada",
+      "Chiede di continuo «quanto manca?»"
+    ]
+  },
+  "a1f2d79a-ce13-4322-a5b8-f10091d8772d": {
+    "en": "How does {{playerName}} pick a restaurant?",
+    "text": "Come sceglie un ristorante {{playerName}}?",
+    "answers": [
+      "Legge tutte le recensioni",
+      "Va nel solito posto",
+      "Entra nel primo che trova",
+      "Lascia scegliere agli altri"
+    ]
+  },
+  "6e745806-a8fc-4404-a45c-090c14c466a1": {
+    "en": "What is {{playerName}} like when they're sick?",
+    "text": "Com'è {{playerName}} quando sta male?",
+    "answers": [
+      "Ne fa un dramma",
+      "Fa finta di stare bene",
+      "Dorme tutto il giorno",
+      "Vuole stare in pace"
+    ]
+  },
+  "471a6e48-e963-420e-bf7d-7a708e35c2e0": {
+    "en": "How does {{playerName}} take photos?",
+    "text": "Come fa le foto {{playerName}}?",
+    "answers": [
+      "Cinquanta scatti uguali",
+      "Non ne fa mai",
+      "Solo selfie",
+      "Solo al cibo"
+    ]
+  },
+  "368f1aa0-70bc-4aa8-8117-95ecbf9ab3cf": {
+    "en": "How does {{playerName}} usually sleep?",
+    "text": "Come dorme di solito {{playerName}}?",
+    "answers": [
+      "A pancia in su",
+      "Su un fianco",
+      "A pancia in giù",
+      "A stella marina"
+    ]
+  },
+  "f32d78d9-ad1f-4da1-a4eb-bb631981389d": {
+    "en": "How long is {{playerName}}'s shower?",
+    "text": "Quanto dura la doccia di {{playerName}}?",
+    "answers": [
+      "Meno di 5 minuti",
+      "Circa 10 minuti",
+      "Ben 20 minuti",
+      "Un'ora"
+    ]
+  },
+  "4a4c1dcb-edc8-499a-b622-51d40eb7fed0": {
+    "en": "How spicy does {{playerName}} like their food?",
+    "text": "Quanto piccante preferisce mangiare {{playerName}}?",
+    "answers": [
+      "Niente piccante",
+      "Un pochino",
+      "Bello piccante",
+      "Il più piccante del menù"
+    ]
+  },
+  "64443fba-3210-45c2-91a7-e445962bb768": {
+    "en": "How many alarms does {{playerName}} set?",
+    "text": "Quante sveglie mette {{playerName}}?",
+    "answers": [
+      "Nessuna",
+      "Una",
+      "Due o tre",
+      "Una marea"
+    ]
+  },
+  "7ae392a8-9407-45b1-8393-659cd8c7ff06": {
+    "en": "How much ice does {{playerName}} want in a drink?",
+    "text": "Quanto ghiaccio vuole {{playerName}} nel bicchiere?",
+    "answers": [
+      "Niente",
+      "Un po'",
+      "Mezzo bicchiere",
+      "Fino all'orlo"
+    ]
+  },
+  "8d2288a5-7234-4b0a-9d04-a4df4a7c8276": {
+    "en": "How warm does {{playerName}} like the room?",
+    "text": "Come preferisce {{playerName}} la temperatura della stanza?",
+    "answers": [
+      "Fredda",
+      "Fresca",
+      "Tiepida",
+      "Calda"
+    ]
+  },
+  "9a333a60-a208-4fa6-b5ad-715cc8915816": {
+    "en": "How does {{playerName}} walk with someone?",
+    "text": "Come cammina {{playerName}} in compagnia?",
+    "answers": [
+      "Resta indietro",
+      "Fianco a fianco",
+      "Cammina davanti",
+      "Aspetta già alla porta"
+    ]
+  },
+  "03e69dee-3b69-4951-8dc6-3b8264f042b0": {
+    "en": "How bright does {{playerName}} like the lights?",
+    "text": "Quanta luce vuole {{playerName}} in casa?",
+    "answers": [
+      "Quasi buio",
+      "Luce soffusa",
+      "Normale",
+      "Luci al massimo"
+    ]
+  },
+  "0aca9c68-fa93-42be-9d3c-1de5a6691b90": {
+    "en": "How much of their plate does {{playerName}} finish?",
+    "text": "Quanto mangia {{playerName}} di quello che ha nel piatto?",
+    "answers": [
+      "Lascia metà",
+      "Lascia un po'",
+      "Finisce tutto",
+      "Fa il bis"
+    ]
+  },
+  "5c58e0a8-e571-49fa-9dcf-8bcabbfd351d": {
+    "en": "How loud does {{playerName}} watch TV?",
+    "text": "A che volume guarda la TV {{playerName}}?",
+    "answers": [
+      "Bassissimo",
+      "Normale",
+      "Alto",
+      "Lo sente tutto il palazzo"
+    ]
+  },
+  "8dcf54f4-7604-4a50-868f-a1059383d60f": {
+    "en": "What sport does {{playerName}} watch the most?",
+    "text": "Quale sport guarda di più {{playerName}}?"
+  },
+  "518cefed-96bc-4925-a6d7-cbbbe1bafe71": {
+    "en": "{{playerName}}'s phone volume is usually...",
+    "text": "Il telefono di {{playerName}} di solito è…",
+    "answers": [
+      "In silenzioso o vibrazione",
+      "Basso, discreto",
+      "Lo sente tutta la stanza"
+    ]
+  },
+  "b194f4d3-f0fd-4181-9fe0-ba5a5d8df660": {
+    "en": "What is {{playerName}}'s favorite drink?",
+    "text": "Qual è la bevanda preferita di {{playerName}}?"
+  },
+  "479bda74-7ea0-4281-b895-aa99f5ec2cd2": {
+    "en": "What is {{playerName}}'s favorite day of the week?",
+    "text": "Qual è il giorno della settimana preferito di {{playerName}}?"
+  },
+  "d8a84507-b8e2-4a95-843a-ee747cc48192": {
+    "en": "What shoe brand does {{playerName}} wear the most?",
+    "text": "Che marca di scarpe porta più spesso {{playerName}}?"
+  },
+  "93071ba2-48c1-40a4-9b45-223d4ea76fba": {
+    "en": "What is {{playerName}}'s favorite clothing brand?",
+    "text": "Qual è la marca di vestiti preferita di {{playerName}}?"
+  },
+  "2cfc2473-9298-4832-91ac-7d80bdb6acf8": {
+    "en": "What is {{playerName}}'s go-to comfort food when sad?",
+    "text": "Cosa mangia {{playerName}} per consolarsi quando è giù?"
+  },
+  "1964cbeb-89e2-449a-8c9f-a62f03c5001e": {
+    "en": "What is the first thing {{playerName}} checks on their phone in the morning?",
+    "text": "Qual è la prima cosa che {{playerName}} controlla sul telefono la mattina?"
+  },
+  "72d01256-9cc6-4e00-9ee2-32149b3777c1": {
+    "en": "What does {{playerName}} do when no one else is home?",
+    "text": "Cosa fa {{playerName}} quando non c'è nessuno in casa?",
+    "answers": [
+      "Canta a squarciagola",
+      "Balla per casa",
+      "Fa conversazioni immaginarie",
+      "Mangia a letto"
+    ]
+  },
+  "5426502c-b09e-4e22-9d93-14cdcc37e444": {
+    "en": "When {{playerName}} forgets someone's name, what do they do?",
+    "text": "Cosa fa {{playerName}} quando dimentica il nome di qualcuno?",
+    "answers": [
+      "Evita di dirlo",
+      "Usa un nomignolo a caso",
+      "Lo ammette subito",
+      "Chiede di nascosto a qualcun altro"
+    ]
+  },
+  "b8373ab6-1ddc-4a1b-9c77-fb896eac0d39": {
+    "en": "What does {{playerName}} do after tripping in public?",
+    "text": "Cosa fa {{playerName}} se inciampa in pubblico?",
+    "answers": [
+      "Finge di fare jogging",
+      "Guarda male il pavimento",
+      "Scoppia a ridere",
+      "Fa finta di niente"
+    ]
+  },
+  "c01488a8-0bfe-43e5-8da7-3d73f726e8a8": {
+    "en": "If {{playerName}} won the lottery, what would they do first?",
+    "text": "Se {{playerName}} vincesse alla lotteria, cosa farebbe per prima cosa?",
+    "answers": [
+      "Si licenzierebbe",
+      "Comprerebbe casa",
+      "Girerebbe il mondo",
+      "Non lo direbbe a nessuno"
+    ]
+  },
+  "9c6b53e4-f5b8-473e-b934-46874be76618": {
+    "en": "In a zombie apocalypse, who would {{playerName}} be?",
+    "text": "In un'apocalisse zombie, cosa farebbe {{playerName}}?",
+    "answers": [
+      "Guiderebbe il gruppo",
+      "Si farebbe mordere subito",
+      "Farebbe scorta di snack",
+      "Tradirebbe tutti"
+    ],
+    "note": "Options rephrased as conditional verbs (would lead/get bitten first/...) since 'il capo', 'il primo morso' would be gendered."
+  },
+  "23003c7d-5093-46f0-a54a-2f942131eb3c": {
+    "en": "If {{playerName}} could pick one superpower, which would it be?",
+    "text": "Se {{playerName}} potesse avere un solo superpotere, quale sceglierebbe?",
+    "answers": [
+      "Volare",
+      "Essere invisibile",
+      "Leggere nel pensiero",
+      "Teletrasportarsi"
+    ]
+  },
+  "f29d4add-5a02-4673-af37-22538518bf1d": {
+    "en": "What's on {{playerName}}'s lock screen right now?",
+    "text": "Cosa c'è sulla schermata di blocco di {{playerName}} in questo momento?"
+  },
+  "2c118d16-4d4d-47ed-a1e5-324d8ff8801c": {
+    "en": "What's {{playerName}}'s average daily screen time, in hours?",
+    "text": "In media, quante ore al giorno passa {{playerName}} sul telefono?"
+  },
+  "87169443-4ab3-4ed7-a6a9-86d699553988": {
+    "en": "Which app does {{playerName}} spend the most time on, according to their screen time?",
+    "text": "Quale app usa di più {{playerName}}, secondo il Tempo di utilizzo?"
+  },
+  "d2eb66d6-376f-48c0-a8c4-b9bd593f2533": {
+    "en": "How many unread notifications does {{playerName}} usually have?",
+    "text": "Quante notifiche non lette ha di solito {{playerName}}?",
+    "answers": [
+      "Zero, le cancella sempre",
+      "Qualcuna",
+      "Decine",
+      "Centinaia"
+    ]
+  },
+  "b33c8cde-b296-45cf-b287-875bb5ce045e": {
+    "en": "What's {{playerName}}'s phone battery usually at?",
+    "text": "Di solito quanta batteria ha il telefono di {{playerName}}?",
+    "answers": [
+      "Sempre sopra l'80%",
+      "Più o meno a metà",
+      "Di solito sotto il 20%",
+      "Sempre in fin di vita"
+    ]
+  },
+  "7a8fe703-7dff-4a13-a22a-e41eb71b652a": {
+    "en": "What's {{playerName}}'s home Wi-Fi name?",
+    "text": "Come si chiama il Wi-Fi di casa di {{playerName}}?"
+  },
+  "147fc614-cbc3-40c2-99c8-4c3153cd6e71": {
+    "en": "What's the last thing {{playerName}} bought online?",
+    "text": "Qual è l'ultima cosa che {{playerName}} ha comprato online?"
+  },
+  "517564ba-2931-43ca-827c-58dddf379dac": {
+    "en": "What food will {{playerName}} never eat, no matter what?",
+    "text": "Quale cibo {{playerName}} non mangerebbe mai, per nessun motivo?"
+  },
+  "e294c59a-bb70-4d8c-9d80-6dbb06a09b36": {
+    "en": "Which sound drives {{playerName}} the craziest?",
+    "text": "Quale rumore manda più in bestia {{playerName}}?",
+    "answers": [
+      "Chi mastica rumorosamente",
+      "Unghie sulla lavagna",
+      "Chi tira su col naso",
+      "Chi fischietta"
+    ]
+  },
+  "19eebdd7-760a-4ea1-ae18-5bf88eb2dafc": {
+    "en": "What annoys {{playerName}} the most when texting?",
+    "text": "Cosa irrita di più {{playerName}} nei messaggi?",
+    "answers": [
+      "Un «ok» secco",
+      "I vocali",
+      "Le risposte in ritardo",
+      "Tanti messaggini di fila"
+    ]
+  },
+  "52b4cdec-cd4a-4442-998d-f07cd4081db4": {
+    "en": "What bothers {{playerName}} the most at a restaurant?",
+    "text": "Cosa dà più fastidio a {{playerName}} al ristorante?",
+    "answers": [
+      "Il servizio lento",
+      "Il tavolo sporco",
+      "La musica alta",
+      "Le porzioni piccole"
+    ]
+  },
+  "5be0c0e8-8892-4a92-9758-2f00fcce2015": {
+    "en": "Which mess at home bothers {{playerName}} the most?",
+    "text": "Quale disordine in casa dà più fastidio a {{playerName}}?",
+    "answers": [
+      "Piatti nel lavandino",
+      "Vestiti per terra",
+      "Letto disfatto",
+      "Briciole sul tavolo"
+    ]
+  },
+  "2dd218d8-d3ec-46ee-9285-47f6ed61d659": {
+    "en": "What makes {{playerName}} lose it fastest in traffic?",
+    "text": "Cosa fa perdere subito la pazienza a {{playerName}} nel traffico?",
+    "answers": [
+      "Chi va troppo piano",
+      "Chi suona il clacson",
+      "Chi taglia la strada",
+      "Chi non mette la freccia"
+    ]
+  },
+  "644b7cf5-7ae6-430a-9220-f3fb43701063": {
+    "en": "What annoys {{playerName}} the most when waiting in line?",
+    "text": "Cosa irrita di più {{playerName}} quando c'è da fare la fila?",
+    "answers": [
+      "Chi salta la fila",
+      "Chi si mette troppo vicino",
+      "Un cassiere lento",
+      "Chi paga con gli spiccioli"
+    ]
+  },
+  "b9f365dd-1aa6-4d48-af88-95d026d024d5": {
+    "en": "What does {{playerName}} spend the most money on?",
+    "text": "Per cosa spende più soldi {{playerName}}?",
+    "answers": [
+      "Cibo e ristoranti",
+      "Vestiti",
+      "Tecnologia e gadget",
+      "Viaggi"
+    ]
+  },
+  "be8f4942-1a57-4943-8b5b-8bb89b022314": {
+    "en": "What's the most expensive thing {{playerName}} has ever bought?",
+    "text": "Qual è la cosa più costosa che {{playerName}} abbia mai comprato?"
+  },
+  "50d0db45-ce2c-468e-a3d6-23f0704fc3a4": {
+    "en": "Where did {{playerName}} meet their best friend?",
+    "text": "Dove ha conosciuto {{playerName}} il suo migliore amico?"
+  },
+  "662aef93-2e41-413c-b62a-b150755f03f5": {
+    "en": "How long has {{playerName}} known their oldest friend?",
+    "text": "Da quanto tempo {{playerName}} conosce il suo amico di più vecchia data?",
+    "answers": [
+      "Meno di 5 anni",
+      "5-10 anni",
+      "10-20 anni",
+      "Più di 20 anni"
+    ]
+  },
+  "65d60061-9ab6-4853-9aca-4eab081a4cce": {
+    "en": "What's the name of {{playerName}}'s main group chat with friends?",
+    "text": "Come si chiama la chat di gruppo principale di {{playerName}} con gli amici?"
+  },
+  "197d53a1-83ce-4902-a334-27066158fc78": {
+    "en": "How often does {{playerName}} see their friends?",
+    "text": "Quanto spesso vede gli amici {{playerName}}?",
+    "answers": [
+      "Quasi ogni giorno",
+      "Ogni settimana",
+      "Qualche volta al mese",
+      "Raramente"
+    ]
+  },
+  "6159136b-df0a-4257-b058-e896fc9de8df": {
+    "en": "Where does {{playerName}} usually hang out with friends?",
+    "text": "Dove si vede di solito {{playerName}} con gli amici?",
+    "answers": [
+      "A casa di qualcuno",
+      "Al bar",
+      "Al pub",
+      "All'aperto"
+    ],
+    "note": "Italian 'bar' = café, so café->'Al bar' and bar->'Al pub'."
+  },
+  "a1fcb212-3cc0-4b2d-bd2f-8bda0513e11c": {
+    "en": "How many people are in {{playerName}}'s main friend group?",
+    "text": "Quante persone ci sono nel gruppo di amici principale di {{playerName}}?",
+    "answers": [
+      "2-3",
+      "4-5",
+      "6-8",
+      "Più di 8"
+    ]
+  },
+  "7f03c313-0647-4db6-9922-02b1cd26700f": {
+    "en": "How does {{playerName}} mostly keep in touch with friends?",
+    "text": "Come si sente più spesso con gli amici {{playerName}}?",
+    "answers": [
+      "Con i messaggi",
+      "Con i vocali",
+      "Con le chiamate",
+      "Mandando meme e reel"
+    ]
+  },
+  "c17d4951-9f29-4613-aebc-0dc559fa5a6d": {
+    "en": "What do {{playerName}}'s friends call them?",
+    "text": "Come chiamano {{playerName}} i suoi amici?"
+  },
+  "71ef9a47-46d4-4666-8665-3d3a7991768e": {
+    "en": "How does {{playerName}} usually celebrate their birthday?",
+    "text": "Come festeggia di solito il compleanno {{playerName}}?",
+    "answers": [
+      "Una grande festa",
+      "Una cena con gli amici più stretti",
+      "Una giornata tranquilla",
+      "Non festeggia"
+    ]
+  },
+  "01b87d7a-2853-4e22-8290-2f44cb342e8a": {
+    "en": "Which city does {{playerName}}'s best friend live in?",
+    "text": "In che città vive il migliore amico di {{playerName}}?"
+  },
+  "1abd3aae-173d-497f-bb52-95bd395ab563": {
+    "en": "What is {{playerName}} saving money for right now? Write nothing if they aren't.",
+    "text": "Per cosa sta risparmiando {{playerName}} in questo periodo? Se non risparmia, non scrivere nulla."
+  },
+  "7bf99537-3613-478d-881c-d35960165b3e": {
+    "en": "What business would {{playerName}} open if they could?",
+    "text": "Che attività aprirebbe {{playerName}} se potesse?"
+  },
+  "e100c90f-796f-4d06-8999-61f07e8e2040": {
+    "en": "How often does {{playerName}} post stories?",
+    "text": "Quanto spesso pubblica storie {{playerName}}?",
+    "answers": [
+      "Ogni giorno",
+      "Qualche volta a settimana",
+      "Raramente",
+      "Mai"
+    ]
+  },
+  "2d3caa55-6c03-45e4-ae52-8f4d9aabc5a7": {
+    "en": "How many accounts does {{playerName}} follow on Instagram?",
+    "text": "Quanti account segue {{playerName}} su Instagram?",
+    "answers": [
+      "Meno di 300",
+      "300-700",
+      "700-1.500",
+      "Più di 1.500"
+    ]
+  },
+  "a06282e0-ae61-4541-bf4d-24c8336d031e": {
+    "en": "What was {{playerName}}'s last Instagram post? Write none if they never post.",
+    "text": "Qual è stato l'ultimo post di {{playerName}} su Instagram? Se non pubblica mai, scrivi «nessuno»."
+  },
+  "e2c75092-cf85-48f6-96b7-e8022bda2ae4": {
+    "en": "Has {{playerName}} ever deleted a post because it didn't get enough likes?",
+    "text": "{{playerName}} ha mai cancellato un post perché aveva pochi like?"
+  },
+  "843b062a-8c76-44f7-99bb-72f4319b57ef": {
+    "en": "What does {{playerName}} spend most of their social media time doing?",
+    "text": "Cosa fa {{playerName}} soprattutto sui social?",
+    "answers": [
+      "Guarda i reel",
+      "Guarda le storie",
+      "Chatta con la gente",
+      "Spia i profili"
+    ]
+  },
+  "e32b237d-f1dd-44b2-b30e-36fa9979cd3f": {
+    "en": "How many followers does {{playerName}} have on Instagram?",
+    "text": "Quanti follower ha {{playerName}} su Instagram?",
+    "answers": [
+      "Meno di 300",
+      "300-700",
+      "700-1.500",
+      "Più di 1.500"
+    ]
+  },
+  "ab6fb3d1-3476-436b-af30-74e7d7f96ea6": {
+    "en": "Does {{playerName}} have a second, secret Instagram account?",
+    "text": "{{playerName}} ha un secondo account Instagram segreto?"
+  },
+  "c5fbea67-c014-4be3-a141-986603d7784a": {
+    "en": "When does {{playerName}} scroll social media the most?",
+    "text": "In che momento {{playerName}} scrolla di più i social?",
+    "answers": [
+      "A letto prima di dormire",
+      "Appena si sveglia",
+      "In bagno",
+      "Al lavoro o a scuola"
+    ]
+  },
+  "d799cefe-4533-4a40-b9fd-0b26b49dced4": {
+    "en": "What's in {{playerName}}'s Instagram profile picture right now?",
+    "text": "Cosa c'è adesso nella foto profilo Instagram di {{playerName}}?",
+    "answers": [
+      "Una foto in solitaria",
+      "Una foto con qualcuno",
+      "Altro (animale, paesaggio...)",
+      "Nessuna foto"
+    ]
+  },
+  "99140b21-a78b-4823-8931-da81598e0099": {
+    "en": "Which food delivery app does {{playerName}} use the most?",
+    "text": "Quale app per ordinare cibo usa di più {{playerName}}?"
+  },
+  "99a08b68-a66b-49c5-a1d4-c5ea876ddf1c": {
+    "en": "How often does {{playerName}} order food delivery?",
+    "text": "Quanto spesso {{playerName}} ordina cibo a domicilio?",
+    "answers": [
+      "Quasi ogni giorno",
+      "Qualche volta a settimana",
+      "Qualche volta al mese",
+      "Quasi mai"
+    ]
+  },
+  "cfbd02eb-acdd-41f0-a82c-d633cd6ec6f4": {
+    "en": "When does {{playerName}} order food the most?",
+    "text": "Quando ordina cibo più spesso {{playerName}}?",
+    "answers": [
+      "A pranzo",
+      "A cena",
+      "Dopo mezzanotte",
+      "La mattina nel weekend"
+    ]
+  },
+  "b6c53b84-8968-4576-9582-556d78e1aa08": {
+    "en": "How long does {{playerName}} scroll the app before ordering?",
+    "text": "Quanto tempo passa {{playerName}} sull'app prima di ordinare?",
+    "answers": [
+      "Ordina in un minuto",
+      "Circa 10 minuti",
+      "Mezz'ora",
+      "Si arrende e prende il solito"
+    ]
+  },
+  "fe6f43a3-1fd6-4b4f-8d95-7aab9b9ab8bb": {
+    "en": "Does {{playerName}} tip on delivery orders?",
+    "text": "{{playerName}} lascia la mancia al rider?",
+    "answers": [
+      "Mai",
+      "A volte",
+      "Sempre qualcosina",
+      "Sempre con generosità"
+    ]
+  },
+  "98443ab8-023f-4a17-b4f4-a95567bc476e": {
+    "en": "What does {{playerName}} watch while eating takeout?",
+    "text": "Cosa guarda {{playerName}} mentre mangia cibo d'asporto?",
+    "answers": [
+      "Una serie TV",
+      "YouTube",
+      "Reel",
+      "Niente, mangia e basta"
+    ]
+  },
+  "fe4758c6-1a3f-4740-a65f-f3f9268b47dc": {
+    "en": "How often does {{playerName}} return things they've bought?",
+    "text": "Quanto spesso {{playerName}} restituisce le cose che compra?",
+    "answers": [
+      "Mai",
+      "Raramente",
+      "Spesso",
+      "Quasi tutto"
+    ]
+  },
+  "519747f8-ac05-4e2e-bd62-8a11dab0a5b1": {
+    "en": "How does {{playerName}} watch a new series?",
+    "text": "Come guarda una serie nuova {{playerName}}?",
+    "answers": [
+      "La divora in un weekend",
+      "Un episodio a sera",
+      "La inizia e non la finisce mai",
+      "Aspetta che esca tutta la stagione"
+    ]
+  },
+  "39f5d8f3-514c-4fa3-93d6-add3a148a74c": {
+    "en": "How does {{playerName}} usually listen to music?",
+    "text": "Come ascolta la musica di solito {{playerName}}?",
+    "answers": [
+      "Le sue playlist in casuale",
+      "Le solite canzoni a ripetizione",
+      "Album interi dall'inizio alla fine",
+      "Quello che consiglia l'app"
+    ]
+  },
+  "3ef13a99-6e73-4c3f-ab4c-23ff736d1b22": {
+    "en": "Where does {{playerName}} listen to music the most?",
+    "text": "Dove ascolta più musica {{playerName}}?",
+    "answers": [
+      "In macchina",
+      "In giro con le cuffie",
+      "Sotto la doccia",
+      "Mentre lavora o studia"
+    ]
+  },
+  "e24b651e-6331-4162-899d-df89456006b4": {
+    "en": "What song would {{playerName}} pick at karaoke?",
+    "text": "Che canzone sceglierebbe {{playerName}} al karaoke?"
+  },
+  "bbf96cda-756f-454a-b2be-3b11d36b3a67": {
+    "en": "What streaming app does {{playerName}} use the most?",
+    "text": "Quale piattaforma di streaming usa di più {{playerName}}?"
+  },
+  "07f20cd4-0210-4b95-8df9-d623a0bd0a5c": {
+    "en": "Which movie has {{playerName}} watched the most times?",
+    "text": "Qual è il film che {{playerName}} ha visto più volte?"
+  },
+  "c78c11b1-99b4-4da4-a62f-f5c91f4a4f18": {
+    "en": "What's the comfort show {{playerName}} always goes back to?",
+    "text": "Qual è la serie del cuore che {{playerName}} riguarda sempre?"
+  },
+  "1292f03a-b50e-440f-adcf-712349e40719": {
+    "en": "How does {{playerName}} usually shop for clothes?",
+    "text": "Come compra i vestiti di solito {{playerName}}?",
+    "answers": [
+      "Solo online",
+      "In negozio, provando tutto",
+      "Solo quando qualcosa si consuma",
+      "Acquisti d'impulso di continuo"
+    ]
+  },
+  "d9725e20-1b77-4925-822c-a0600200c830": {
+    "en": "How does {{playerName}} do grocery shopping?",
+    "text": "Come fa la spesa {{playerName}}?",
+    "answers": [
+      "Con la lista, e la rispetta",
+      "Gira e prende ciò che ispira",
+      "La ordina online",
+      "Scorda sempre l'unica cosa che serviva"
+    ]
+  },
+  "b9664338-39be-4c85-b84c-556d4340b75b": {
+    "en": "How long does {{playerName}} leave things in their online cart?",
+    "text": "Per quanto tempo {{playerName}} lascia le cose nel carrello online?",
+    "answers": [
+      "Compra subito",
+      "Qualche giorno",
+      "Settimane",
+      "Alla fine non compra mai"
+    ]
+  },
+  "bf330b67-2579-4879-9284-e1bb389ddd97": {
+    "en": "What does {{playerName}} do when there's a big sale?",
+    "text": "Cosa fa {{playerName}} quando ci sono i grandi saldi?",
+    "answers": [
+      "Compra anche cose inutili",
+      "Prende solo ciò che voleva già",
+      "Li ignora del tutto",
+      "Riempie il carrello e non compra niente"
+    ]
+  },
+  "f880e846-1a46-4448-b7b8-432d8820bb89": {
+    "en": "What's {{playerName}}'s go-to café?",
+    "text": "Qual è il bar di fiducia di {{playerName}}?"
+  },
+  "e452eb3a-71ca-491f-908b-d5c948b61374": {
+    "en": "What does {{playerName}} always order at their favorite fast food place?",
+    "text": "Cosa ordina sempre {{playerName}} nel suo fast food preferito?"
+  },
+  "e6f97bcb-be04-4815-b108-322f1284b685": {
+    "en": "What color is {{playerName}}'s phone case? Write none if they don't use one.",
+    "text": "Di che colore è la cover del telefono di {{playerName}}? Se non la usa, scrivi «nessuna»."
+  },
+  "34493f68-a720-495a-b39a-52d484d3610e": {
+    "en": "Which shopping app does {{playerName}} use the most?",
+    "text": "Quale app per lo shopping usa di più {{playerName}}?"
+  },
+  "835abc8b-f60f-4b56-9fa3-853e42ad5ffe": {
+    "en": "How many pillows does {{playerName}} sleep with?",
+    "text": "Con quanti cuscini dorme {{playerName}}?"
+  },
+  "e1b8328b-6a31-46d0-bc54-46c41d2ca166": {
+    "en": "How many tabs does {{playerName}} usually have open in their browser?",
+    "text": "Quante schede tiene aperte di solito {{playerName}} nel browser?",
+    "answers": [
+      "Da 1 a 5",
+      "Da 6 a 20",
+      "Da 21 a 50",
+      "Ha perso il conto"
+    ]
+  },
+  "9265875a-abaf-454a-9d5d-cf7c21f409e4": {
+    "en": "How many photos are in {{playerName}}'s camera roll?",
+    "text": "Quante foto ci sono nella galleria di {{playerName}}?",
+    "answers": [
+      "Meno di 1.000",
+      "Da 1.000 a 5.000",
+      "Da 5.000 a 20.000",
+      "Più di 20.000"
+    ]
+  },
+  "696b6beb-bb08-43ed-86eb-eb4bd17e515c": {
+    "en": "How many apps does {{playerName}} have on their phone?",
+    "text": "Quante app ha {{playerName}} sul telefono?",
+    "answers": [
+      "Meno di 30",
+      "Da 30 a 60",
+      "Da 60 a 100",
+      "Più di 100"
+    ]
+  },
+  "7afba473-dc61-4be7-b01c-0ca03119939b": {
+    "en": "Who's the last person {{playerName}} called?",
+    "text": "Chi è l'ultima persona che {{playerName}} ha chiamato?"
+  },
+  "5901193f-1beb-49eb-90ed-1da2b9274c76": {
+    "en": "Does {{playerName}} use dark mode on their phone?",
+    "text": "{{playerName}} usa la modalità scura sul telefono?",
+    "answers": [
+      "Sempre scura",
+      "Sempre chiara",
+      "Automatica, cambia con l'orario"
+    ]
+  },
+  "377237c2-590f-4200-a7a5-1e53377d8f42": {
+    "en": "When does {{playerName}} usually shower?",
+    "text": "Quando fa la doccia di solito {{playerName}}?",
+    "answers": [
+      "La mattina",
+      "La sera",
+      "Entrambe, ogni giorno",
+      "Quando capita, senza orario"
+    ]
+  },
+  "9e3e7f73-8945-458a-a0a1-c3657b5d58f6": {
+    "en": "How long does {{playerName}} take to get ready to go out?",
+    "text": "Quanto ci mette {{playerName}} a prepararsi per uscire?",
+    "answers": [
+      "Meno di 10 minuti",
+      "Da 10 a 30 minuti",
+      "Da 30 minuti a un'ora",
+      "Più di un'ora"
+    ]
+  },
+  "57230422-8ea9-4e5f-9273-087b5d605ec8": {
+    "en": "What hobby does {{playerName}} spend the most time on?",
+    "text": "A quale hobby dedica più tempo {{playerName}}?"
+  },
+  "dc836b7d-8918-41b2-975b-19f9a43a801d": {
+    "en": "How many books has {{playerName}} read this year? Write 0 if none.",
+    "text": "Quanti libri ha letto {{playerName}} quest'anno? Se nessuno, scrivi 0."
+  },
+  "04f5785b-6dbc-40dd-b7fa-d6850be17248": {
+    "en": "What game is {{playerName}} playing on their phone these days? Write none if they don't play.",
+    "text": "A che gioco sta giocando {{playerName}} sul telefono in questo periodo? Se non gioca, scrivi «nessuno»."
+  },
+  "1a62fc00-3404-48f5-860f-c31f4b6121b0": {
+    "en": "How many times a week does {{playerName}} work out?",
+    "text": "Quante volte a settimana si allena {{playerName}}?",
+    "answers": [
+      "Mai",
+      "1-2 volte",
+      "3-4 volte",
+      "5 o più"
+    ]
+  },
+  "b9c19285-78bf-4372-896c-ca131cb93459": {
+    "en": "What's the last movie {{playerName}} saw at the cinema?",
+    "text": "Qual è l'ultimo film che {{playerName}} ha visto al cinema?"
+  },
+  "9d5dec86-f93f-4a8b-b522-75f77e6b759b": {
+    "en": "What's the last thing {{playerName}} cooked?",
+    "text": "Qual è l'ultima cosa che {{playerName}} ha cucinato?"
+  },
+  "9b999915-7237-47f9-a9a6-5d6d8beae33a": {
+    "en": "Where does {{playerName}} usually work out?",
+    "text": "Dove si allena di solito {{playerName}}?",
+    "answers": [
+      "In palestra",
+      "A casa",
+      "All'aperto",
+      "Non si allena"
+    ]
+  }
+}
