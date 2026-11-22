@@ -431,13 +431,21 @@ const adapterRedis = redis.duplicate({
 });
 adapterRedis.on("error", (err: Error) => console.error("❌ Adapter Redis error:", err));
 
+// Every room broadcast is appended to one Redis stream, trimmed only by length
+// (~1.7 KB per entry, so 10,000 entries take ~17 MB of Redis). Recovery replays
+// what a phone missed since its last packet; if that entry was already trimmed,
+// the phone reconnects as new and takes its seat back (reclaimSeat), which was
+// tested with a 3-entry stream. On 2026-11-22's busiest hour 2,000 entries
+// covered 47 minutes. Tune with SOCKET_STREAM_MAX_LEN, no deploy of code needed.
+const SOCKET_STREAM_MAX_LEN = Number(process.env.SOCKET_STREAM_MAX_LEN) || 10_000;
+
 const io = new Server<
   ClientToServerEvents,
   ServerToClientEvents,
   {},
   SocketData
 >(httpServer, {
-  adapter: createAdapter(adapterRedis),
+  adapter: createAdapter(adapterRedis, { maxLen: SOCKET_STREAM_MAX_LEN }),
   // The largest thing an app sends is a short answer; socket.io's 1 MB default
   // would let one message fill Redis and every player's screen.
   maxHttpBufferSize: 64 * 1024,
