@@ -236,7 +236,7 @@ export interface ClientToServerEvents {
   "claim-daily-reward": (data: { appUserId: string }) => void;
   "change-category": (data: { roomCode: string; category: Category }) => void;
   /** `playerId`: single-phone mode, the partner on this phone who agreed. */
-  "ai-consent": (data: { roomCode: string; playerId?: string }) => void;
+  "ai-consent": (data: { roomCode: string; playerId?: string; version?: number }) => void;
   /** Single phone, host only: done with this round's result, move on. */
   "advance-round": (
     data: { roomCode: string; questionId: string },

@@ -111,6 +111,8 @@ import {
 } from "./routes/dailyAnalysis.js";
 import {
   claimDailyAnalysis,
+  CLAUDE_CONSENT_VERSION,
+  everyoneAllowsClaude,
   DAILY_ANALYSIS_QUESTION_COUNT,
   DailyAnalysisReport,
   getCooldownEnd,
@@ -121,6 +123,7 @@ import {
   writeDailyAnalysis,
 } from "./services/dailyAnalysis.js";
 import { isLang } from "./languages.js";
+import { isClaudePaused } from "./services/claude.js";
 import { createContentRouter } from "./routes/content.js";
 import { logger } from "./utils/logger.js";
 import { createNotificationsRouter } from "./routes/notifications.js";
@@ -890,7 +893,7 @@ type DailyAnalysisStart = {
   id: string;
   roomCode: string;
   topic: DailyTopic;
-  players: { socketId: string; appUserId: string | null }[];
+  players: { socketId: string; appUserId: string | null; aiConsentVersion?: number }[];
 };
 
 // room code -> the daily analysis the game in progress was started for.
@@ -1410,6 +1413,7 @@ async function finishGame(roomCode: string): Promise<void> {
       name: player.name,
       avatar: player.avatar,
       isHost: index === 0,
+      aiConsentVersion: daily.players.find((p) => p.socketId === player.id)?.aiConsentVersion,
     }));
     const saved =
       !!supabaseAdmin &&
@@ -2226,11 +2230,21 @@ io.on(
             return;
           }
 
-          // Every player agreed on their device to their answers going to OpenAI.
+          // Every player agreed on their device to their answers going to the AI provider.
           if (daily && !room.players.every((p) => p.aiConsent === true)) {
             socket.emit("room-error", {
               message: "Your partner needs to accept the daily analysis terms first.",
               code: "AI_CONSENT_REQUIRED",
+            });
+            return;
+          }
+
+          // Claude writes this room's report, and it's out of credits: don't
+          // take anyone's coins or day for a report that would fall back.
+          if (daily && everyoneAllowsClaude(room.players) && (await isClaudePaused())) {
+            socket.emit("room-error", {
+              message: "Daily analysis is taking a short break. Please try again later.",
+              code: "AI_UNAVAILABLE",
             });
             return;
           }
@@ -2263,6 +2277,7 @@ io.on(
               room.players.map(async (p) => ({
                 socketId: p.id,
                 appUserId: p.id === socket.id ? host : await appUserIdOf(p.id),
+                aiConsentVersion: p.aiConsentVersion,
               })),
             );
             const status = await getDailyAnalysisStatus(supabaseAdmin, host);
@@ -3404,15 +3419,25 @@ io.on(
       }
     });
 
-    socket.on("ai-consent", async ({ roomCode, playerId }) => {
+    socket.on("ai-consent", async ({ roomCode, playerId, version }) => {
       try {
         if (typeof roomCode !== "string" || !roomCode) return;
+        // Older apps send no version: their text named only OpenAI.
+        const consentVersion =
+          typeof version === "number" &&
+          Number.isInteger(version) &&
+          version >= 1 &&
+          version <= CLAUDE_CONSENT_VERSION
+            ? version
+            : 1;
         const room = await roomManager.withRoomLock(roomCode, async () => {
           const current = await roomManager.getRoom(roomCode);
           const actorId = current && actingPlayerId(current, socket.id, playerId);
           const player = current?.players.find((p) => p.id === actorId);
-          if (!current || !player || player.aiConsent) return null;
+          if (!current || !player) return null;
+          if (player.aiConsent && (player.aiConsentVersion ?? 1) >= consentVersion) return null;
           player.aiConsent = true;
+          player.aiConsentVersion = consentVersion;
           await roomManager.updateRoom(current);
           return current;
         });

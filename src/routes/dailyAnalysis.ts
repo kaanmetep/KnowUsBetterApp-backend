@@ -1,3 +1,4 @@
+import { isClaudePaused } from "../services/claude.js";
 import { Router, Request, Response } from "express";
 import { SupabaseClient } from "@supabase/supabase-js";
 import { byAppUserId, createRateLimiter } from "../middleware/rateLimiter.js";
@@ -61,7 +62,12 @@ export function createDailyAnalysisRouter(
     auth,
     catchErrors(async (req, res) => {
       res.setHeader("Cache-Control", "no-store");
-      res.json(await getDailyAnalysisStatus(supabaseAdmin, appUserIdOf(req)));
+      const [status, paused] = await Promise.all([
+        getDailyAnalysisStatus(supabaseAdmin, appUserIdOf(req)),
+        isClaudePaused(),
+      ]);
+      // aiPaused: the app shows daily analysis as taking a break (out of credits).
+      res.json({ ...status, aiPaused: paused });
     }),
   );
 

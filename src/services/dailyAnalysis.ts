@@ -12,6 +12,11 @@ import {
   resolveQuestionText,
 } from "../utils/analysisText.js";
 import { CategoryRecord, getCategoryCatalog } from "./categoryService.js";
+import {
+  DAILY_ANALYSIS_CLAUDE_MODEL,
+  getClaudeClient,
+  reportClaudeFailure,
+} from "./claude.js";
 import type { FinishedGame } from "./finishedGames.js";
 import { sendLocalizedPush } from "./notificationService.js";
 import { supabaseTokenStore } from "./pushTokenService.js";
@@ -62,9 +67,22 @@ export interface DailyAnalysisPlayer {
   name: string;
   avatar: string;
   isHost: boolean;
+  /**
+   * Which consent text the player agreed to: 1 (or missing) named only
+   * OpenAI, 2 names Anthropic and OpenAI. See CLAUDE_CONSENT_VERSION.
+   */
+  aiConsentVersion?: number;
 }
 
-interface Row {
+/** The consent text that lets a report go to Claude (Anthropic). */
+export const CLAUDE_CONSENT_VERSION = 2;
+
+/** Claude writes the report only if every player agreed to Anthropic. */
+export const everyoneAllowsClaude = (players: { aiConsentVersion?: number }[]) =>
+  players.length > 0 &&
+  players.every((p) => (p.aiConsentVersion ?? 1) >= CLAUDE_CONSENT_VERSION);
+
+export interface Row {
   id: string;
   host_app_user_id: string;
   participant_ids: string[];
@@ -552,11 +570,56 @@ function parseReport(content: string): DailyAnalysisReport {
   };
 }
 
-async function generateReport(
-  row: Row,
-  topics: CategoryRecord[],
-  previous: { topicId: string; report: DailyAnalysisReport }[],
-): Promise<DailyAnalysisReport> {
+const REPORT_SCHEMA = {
+  type: "object",
+  properties: {
+    headline: { type: "string" },
+    summary: { type: "string" },
+    insights: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: { title: { type: "string" }, text: { type: "string" } },
+        required: ["title", "text"],
+        additionalProperties: false,
+      },
+    },
+    blindSpot: { type: "string" },
+    verdict: { type: "string" },
+  },
+  required: ["headline", "summary", "insights", "blindSpot", "verdict"],
+  additionalProperties: false,
+} as const;
+
+async function generateWithClaude(userMessage: string): Promise<DailyAnalysisReport> {
+  const claude = getClaudeClient();
+  if (!claude) throw new Error("ANTHROPIC_API_KEY is not set");
+  const startedAt = Date.now();
+  const response = await claude.messages.create({
+    model: DAILY_ANALYSIS_CLAUDE_MODEL,
+    max_tokens: 16000,
+    output_config: {
+      effort: "medium",
+      format: { type: "json_schema", schema: REPORT_SCHEMA },
+    },
+    system: SYSTEM_PROMPT,
+    messages: [{ role: "user", content: userMessage }],
+  });
+  if (response.stop_reason === "refusal") {
+    throw new Error(`Claude declined the report (${response.stop_details?.category ?? "?"})`);
+  }
+  if (response.stop_reason === "max_tokens") throw new Error("Claude's report was cut off");
+  const text = response.content
+    .map((block) => (block.type === "text" ? block.text : ""))
+    .join("");
+  console.log(
+    `🤖 Claude report (${response.model}): ${response.usage.input_tokens} in / ` +
+      `${response.usage.output_tokens} out, ${Date.now() - startedAt}ms`,
+  );
+  return parseReport(text);
+}
+
+async function generateWithOpenAI(userMessage: string): Promise<DailyAnalysisReport> {
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) throw new Error("OPENAI_API_KEY is not set");
 
@@ -572,12 +635,38 @@ async function generateReport(
     response_format: { type: "json_object" },
     messages: [
       { role: "system", content: SYSTEM_PROMPT },
-      { role: "user", content: buildUserMessage(row, topics, previous) },
+      { role: "user", content: userMessage },
     ],
   });
   const content = completion.choices[0]?.message?.content;
   if (!content) throw new Error("Daily analysis response is empty");
   return parseReport(content);
+}
+
+/**
+ * Claude writes the report when every player agreed to Anthropic; if Claude
+ * fails (no credits, outage) OpenAI, which that consent names too, writes it
+ * instead so a paid game still gets its report. Players who only agreed to
+ * OpenAI (older app versions) get OpenAI.
+ */
+export async function generateReport(
+  row: Row,
+  topics: CategoryRecord[],
+  previous: { topicId: string; report: DailyAnalysisReport }[],
+): Promise<DailyAnalysisReport> {
+  const userMessage = buildUserMessage(row, topics, previous);
+  if (everyoneAllowsClaude(row.players ?? []) && getClaudeClient()) {
+    try {
+      return await generateWithClaude(userMessage);
+    } catch (error) {
+      await reportClaudeFailure(error);
+      console.warn(
+        `⚠️ Claude couldn't write daily analysis ${row.id}, using OpenAI:`,
+        error instanceof Error ? error.message : error,
+      );
+    }
+  }
+  return generateWithOpenAI(userMessage);
 }
 
 // ============================================
