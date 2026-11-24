@@ -465,7 +465,8 @@ export function createAiAnalysisRouter({
         game.mode === "who_is_more_likely" ||
         game.mode === "rank_it" ||
         game.mode === "daily_analysis" ||
-        game.mode === "two_truths"
+        game.mode === "two_truths" ||
+        game.mode === "scale"
       ) {
         res.status(400).json({
           error: "AI analysis isn't available for this game.",
@@ -575,7 +576,8 @@ export function createAiAnalysisRouter({
         game.mode === "who_is_more_likely" ||
         game.mode === "rank_it" ||
         game.mode === "daily_analysis" ||
-        game.mode === "two_truths"
+        game.mode === "two_truths" ||
+        game.mode === "scale"
       ) {
         res.status(400).json({
           error: "AI analysis isn't available for this game.",

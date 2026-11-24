@@ -35,6 +35,7 @@ export function makeLocalPartner(
     supportsRankIt: host.supportsRankIt,
     supportsDailyAnalysis: host.supportsDailyAnalysis,
     supportsTwoTruths: host.supportsTwoTruths,
+    supportsScale: host.supportsScale,
     localOf: host.id,
     ...(manualAdvance && { manualAdvance: true }),
   };

@@ -1,0 +1,1064 @@
+[
+  {
+    "category_id": "scale",
+    "texts": {
+      "text_en": "How much adventure does {{playerName}} want on holiday?",
+      "text_tr": "{{playerName}} tatilde ne kadar macera ister?",
+      "text_es": "¿Cuánta aventura quiere {{playerName}} en vacaciones?",
+      "text_pt": "Quanta aventura {{playerName}} quer nas férias?",
+      "text_de": "Wie viel Abenteuer will {{playerName}} im Urlaub?",
+      "text_it": "Quanta avventura vuole {{playerName}} in vacanza?",
+      "text_pl": "Ile przygody {{playerName}} chce na wakacjach?",
+      "text_fr": "Quel niveau d'aventure {{playerName}} veut en vacances ?",
+      "text_ja": "{{playerName}}は旅行でどれくらい冒険したい？",
+      "text_nl": "Hoeveel avontuur wil {{playerName}} op vakantie?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Pure chill",
+        "Full adventure"
+      ],
+      "answers_tr": [
+        "Tam kafa dinleme",
+        "Tam macera"
+      ],
+      "answers_es": [
+        "Pura calma",
+        "Pura aventura"
+      ],
+      "answers_pt": [
+        "Só descanso",
+        "Só aventura"
+      ],
+      "answers_de": [
+        "Nur entspannen",
+        "Volles Abenteuer"
+      ],
+      "answers_it": [
+        "Solo relax",
+        "Avventura pura"
+      ],
+      "answers_pl": [
+        "Tylko relaks",
+        "Pełna przygoda"
+      ],
+      "answers_fr": [
+        "Détente totale",
+        "Aventure totale"
+      ],
+      "answers_ja": [
+        "のんびり派",
+        "冒険しかない"
+      ],
+      "answers_nl": [
+        "Puur relaxen",
+        "Vol avontuur"
+      ]
+    }
+  },
+  {
+    "category_id": "scale",
+    "texts": {
+      "text_en": "How tidy does {{playerName}} keep things at home?",
+      "text_tr": "{{playerName}} evde ne kadar düzenli?",
+      "text_es": "¿Qué tanto orden mantiene {{playerName}} en casa?",
+      "text_pt": "O quanto {{playerName}} mantém a casa arrumada?",
+      "text_de": "Wie ordentlich hält {{playerName}} es zu Hause?",
+      "text_it": "Quanto tiene in ordine la casa {{playerName}}?",
+      "text_pl": "Jak bardzo {{playerName}} dba o porządek w domu?",
+      "text_fr": "À quel point {{playerName}} garde la maison en ordre ?",
+      "text_ja": "{{playerName}}の部屋はどれくらい片付いてる？",
+      "text_nl": "Hoe netjes houdt {{playerName}} het thuis?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Total chaos",
+        "Spotless"
+      ],
+      "answers_tr": [
+        "Tam bir kaos",
+        "Pırıl pırıl"
+      ],
+      "answers_es": [
+        "Caos total",
+        "Todo impecable"
+      ],
+      "answers_pt": [
+        "Caos total",
+        "Tudo impecável"
+      ],
+      "answers_de": [
+        "Totales Chaos",
+        "Blitzsauber"
+      ],
+      "answers_it": [
+        "Caos totale",
+        "Tutto perfetto"
+      ],
+      "answers_pl": [
+        "Totalny chaos",
+        "Wszystko lśni"
+      ],
+      "answers_fr": [
+        "Chaos total",
+        "Tout est impeccable"
+      ],
+      "answers_ja": [
+        "カオス",
+        "ピカピカ"
+      ],
+      "answers_nl": [
+        "Totale chaos",
+        "Brandschoon"
+      ]
+    }
+  },
+  {
+    "category_id": "scale",
+    "texts": {
+      "text_en": "How much of a morning person is {{playerName}}?",
+      "text_tr": "{{playerName}} ne kadar sabah insanı?",
+      "text_es": "¿Cuánto disfruta {{playerName}} de madrugar?",
+      "text_pt": "O quanto {{playerName}} curte acordar cedo?",
+      "text_de": "Wie sehr ist {{playerName}} ein Morgenmensch?",
+      "text_it": "Quanto ama alzarsi presto {{playerName}}?",
+      "text_pl": "Jak bardzo {{playerName}} lubi wcześnie wstawać?",
+      "text_fr": "À quel point {{playerName}} aime se lever tôt ?",
+      "text_ja": "{{playerName}}はどれくらい朝型？",
+      "text_nl": "Hoeveel van een ochtendmens is {{playerName}}?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Night owl",
+        "Up at dawn"
+      ],
+      "answers_tr": [
+        "Tam gece kuşu",
+        "Şafakta ayakta"
+      ],
+      "answers_es": [
+        "Vida nocturna",
+        "Arriba al amanecer"
+      ],
+      "answers_pt": [
+        "Vida noturna",
+        "De pé ao amanhecer"
+      ],
+      "answers_de": [
+        "Nachteule",
+        "Wach im Morgengrauen"
+      ],
+      "answers_it": [
+        "Vita notturna",
+        "In piedi all'alba"
+      ],
+      "answers_pl": [
+        "Życie nocą",
+        "Pobudka o świcie"
+      ],
+      "answers_fr": [
+        "Oiseau de nuit",
+        "Debout à l'aube"
+      ],
+      "answers_ja": [
+        "完全に夜型",
+        "日の出と共に起きる"
+      ],
+      "answers_nl": [
+        "Nachtuil",
+        "Op bij zonsopgang"
+      ]
+    }
+  },
+  {
+    "category_id": "scale",
+    "texts": {
+      "text_en": "How jealous does {{playerName}} get?",
+      "text_tr": "{{playerName}} ne kadar kıskanç?",
+      "text_es": "¿Cuántos celos siente {{playerName}}?",
+      "text_pt": "O quanto {{playerName}} sente ciúme?",
+      "text_de": "Wie eifersüchtig wird {{playerName}}?",
+      "text_it": "Quanta gelosia prova {{playerName}}?",
+      "text_pl": "{{playerName}}: jaki poziom zazdrości?",
+      "text_fr": "{{playerName}} : quel niveau de jalousie ?",
+      "text_ja": "{{playerName}}はどれくらいヤキモチ焼き？",
+      "text_nl": "Hoe jaloers wordt {{playerName}}?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Not at all",
+        "Very"
+      ],
+      "answers_tr": [
+        "Hiç değil",
+        "Çok"
+      ],
+      "answers_es": [
+        "Nada",
+        "Muchísimos"
+      ],
+      "answers_pt": [
+        "Nada",
+        "Muito"
+      ],
+      "answers_de": [
+        "Gar nicht",
+        "Sehr"
+      ],
+      "answers_it": [
+        "Zero",
+        "Tantissima"
+      ],
+      "answers_pl": [
+        "Zero",
+        "Ogromny"
+      ],
+      "answers_fr": [
+        "Aucune",
+        "Énorme"
+      ],
+      "answers_ja": [
+        "全然",
+        "めちゃくちゃ"
+      ],
+      "answers_nl": [
+        "Helemaal niet",
+        "Heel erg"
+      ]
+    }
+  },
+  {
+    "category_id": "scale",
+    "texts": {
+      "text_en": "How dramatic is {{playerName}} when sick?",
+      "text_tr": "{{playerName}} hastayken ne kadar dramatik?",
+      "text_es": "¿Cuánto drama hace {{playerName}} cuando se enferma?",
+      "text_pt": "Quanto drama {{playerName}} faz quando fica doente?",
+      "text_de": "Wie viel Drama macht {{playerName}} bei einer Erkältung?",
+      "text_it": "Quanto drama fa {{playerName}} quando sta male?",
+      "text_pl": "Ile dramatu robi {{playerName}}, gdy choruje?",
+      "text_fr": "Quel niveau de drama quand {{playerName}} tombe malade ?",
+      "text_ja": "{{playerName}}は風邪のときどれくらい大げさ？",
+      "text_nl": "Hoeveel drama maakt {{playerName}} bij een verkoudheid?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Tough it out",
+        "Writing a will"
+      ],
+      "answers_tr": [
+        "Belli bile etmez",
+        "Vasiyetini yazar"
+      ],
+      "answers_es": [
+        "Ni se queja",
+        "Ya hace testamento"
+      ],
+      "answers_pt": [
+        "Nem reclama",
+        "Já faz testamento"
+      ],
+      "answers_de": [
+        "Kein Mucks",
+        "Schreibt schon das Testament"
+      ],
+      "answers_it": [
+        "Neanche un lamento",
+        "Fa già testamento"
+      ],
+      "answers_pl": [
+        "Ani słowa skargi",
+        "Już pisze testament"
+      ],
+      "answers_fr": [
+        "Pas une plainte",
+        "Rédige son testament"
+      ],
+      "answers_ja": [
+        "何も言わない",
+        "遺言を書き始める"
+      ],
+      "answers_nl": [
+        "Geen kik",
+        "Schrijft al een testament"
+      ]
+    }
+  },
+  {
+    "category_id": "scale",
+    "texts": {
+      "text_en": "How social is {{playerName}} at a party?",
+      "text_tr": "{{playerName}} partilerde ne kadar sosyal?",
+      "text_es": "¿Cuánto socializa {{playerName}} en una fiesta?",
+      "text_pt": "O quanto {{playerName}} se enturma numa festa?",
+      "text_de": "Wie gesellig ist {{playerName}} auf einer Party?",
+      "text_it": "Quanto socializza {{playerName}} a una festa?",
+      "text_pl": "Jak bardzo {{playerName}} udziela się na imprezach?",
+      "text_fr": "À quel point {{playerName}} se mêle aux gens en soirée ?",
+      "text_ja": "{{playerName}}はパーティーでどれくらい社交的？",
+      "text_nl": "Hoe sociaal is {{playerName}} op een feestje?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Stays in a corner",
+        "Life of the party"
+      ],
+      "answers_tr": [
+        "Köşede takılır",
+        "Partinin yıldızı"
+      ],
+      "answers_es": [
+        "En un rincón",
+        "El alma de la fiesta"
+      ],
+      "answers_pt": [
+        "Fica num canto",
+        "A alma da festa"
+      ],
+      "answers_de": [
+        "Steht in der Ecke",
+        "Mittelpunkt der Party"
+      ],
+      "answers_it": [
+        "Sta in un angolo",
+        "L'anima della festa"
+      ],
+      "answers_pl": [
+        "Stoi w kącie",
+        "Dusza imprezy"
+      ],
+      "answers_fr": [
+        "Reste dans un coin",
+        "L'âme de la soirée"
+      ],
+      "answers_ja": [
+        "隅っこにいる",
+        "パーティーの主役"
+      ],
+      "answers_nl": [
+        "Staat in een hoekje",
+        "Middelpunt van het feest"
+      ]
+    }
+  },
+  {
+    "category_id": "scale",
+    "texts": {
+      "text_en": "How good is {{playerName}} at saving money?",
+      "text_tr": "{{playerName}} para biriktirmekte ne kadar iyi?",
+      "text_es": "¿Qué tan bien ahorra {{playerName}}?",
+      "text_pt": "O quanto {{playerName}} consegue guardar dinheiro?",
+      "text_de": "Wie gut kann {{playerName}} Geld sparen?",
+      "text_it": "Quanto riesce a risparmiare {{playerName}}?",
+      "text_pl": "Jak dobrze {{playerName}} oszczędza pieniądze?",
+      "text_fr": "À quel point {{playerName}} sait mettre de l'argent de côté ?",
+      "text_ja": "{{playerName}}はどれくらい貯金上手？",
+      "text_nl": "Hoe goed kan {{playerName}} sparen?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Spends it all",
+        "Saves every cent"
+      ],
+      "answers_tr": [
+        "Hepsini harcar",
+        "Kuruşu kuruşuna biriktirir"
+      ],
+      "answers_es": [
+        "Se lo gasta todo",
+        "Ahorra cada centavo"
+      ],
+      "answers_pt": [
+        "Gasta tudo",
+        "Guarda cada centavo"
+      ],
+      "answers_de": [
+        "Gibt alles aus",
+        "Spart jeden Cent"
+      ],
+      "answers_it": [
+        "Spende tutto",
+        "Risparmia ogni centesimo"
+      ],
+      "answers_pl": [
+        "Wydaje wszystko",
+        "Odkłada każdy grosz"
+      ],
+      "answers_fr": [
+        "Dépense tout",
+        "Garde chaque centime"
+      ],
+      "answers_ja": [
+        "全部使っちゃう",
+        "1円も無駄にしない"
+      ],
+      "answers_nl": [
+        "Geeft alles uit",
+        "Spaart elke cent"
+      ]
+    }
+  },
+  {
+    "category_id": "scale",
+    "texts": {
+      "text_en": "How competitive is {{playerName}} at games?",
+      "text_tr": "{{playerName}} oyunlarda ne kadar hırslı?",
+      "text_es": "¿Cuánto le importa ganar a {{playerName}} en los juegos?",
+      "text_pt": "O quanto {{playerName}} liga pra ganhar nos jogos?",
+      "text_de": "Wie ehrgeizig ist {{playerName}} bei Spielen?",
+      "text_it": "Quanto ci tiene a vincere {{playerName}} nei giochi?",
+      "text_pl": "Jak bardzo {{playerName}} chce wygrywać w grach?",
+      "text_fr": "À quel point {{playerName}} veut gagner aux jeux ?",
+      "text_ja": "{{playerName}}はゲームでどれくらい負けず嫌い？",
+      "text_nl": "Hoe fanatiek is {{playerName}} bij spelletjes?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Just for fun",
+        "Must win"
+      ],
+      "answers_tr": [
+        "Sadece eğlence",
+        "Kazanmak şart"
+      ],
+      "answers_es": [
+        "Solo por diversión",
+        "Tiene que ganar"
+      ],
+      "answers_pt": [
+        "Só por diversão",
+        "Tem que ganhar"
+      ],
+      "answers_de": [
+        "Nur zum Spaß",
+        "Muss gewinnen"
+      ],
+      "answers_it": [
+        "Solo per divertirsi",
+        "Deve vincere"
+      ],
+      "answers_pl": [
+        "Tylko dla zabawy",
+        "Musi wygrać"
+      ],
+      "answers_fr": [
+        "Juste pour rire",
+        "Doit gagner"
+      ],
+      "answers_ja": [
+        "楽しめればOK",
+        "絶対勝ちたい"
+      ],
+      "answers_nl": [
+        "Puur voor de lol",
+        "Moet winnen"
+      ]
+    }
+  },
+  {
+    "category_id": "scale",
+    "texts": {
+      "text_en": "How stubborn is {{playerName}} in an argument?",
+      "text_tr": "{{playerName}} tartışmada ne kadar inatçı?",
+      "text_es": "¿Cuánta terquedad muestra {{playerName}} en una discusión?",
+      "text_pt": "Quanta teimosia {{playerName}} mostra numa discussão?",
+      "text_de": "Wie stur ist {{playerName}} bei einem Streit?",
+      "text_it": "Quanta testardaggine mostra {{playerName}} in una discussione?",
+      "text_pl": "Ile uporu {{playerName}} pokazuje w kłótni?",
+      "text_fr": "Quel niveau d'entêtement chez {{playerName}} pendant une dispute ?",
+      "text_ja": "{{playerName}}はケンカのときどれくらい頑固？",
+      "text_nl": "Hoe koppig is {{playerName}} bij een ruzie?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Gives in fast",
+        "Never backs down"
+      ],
+      "answers_tr": [
+        "Hemen geri adım atar",
+        "Asla geri adım atmaz"
+      ],
+      "answers_es": [
+        "Cede enseguida",
+        "Nunca da el brazo a torcer"
+      ],
+      "answers_pt": [
+        "Cede rapidinho",
+        "Nunca dá o braço a torcer"
+      ],
+      "answers_de": [
+        "Gibt schnell nach",
+        "Gibt nie nach"
+      ],
+      "answers_it": [
+        "Cede subito",
+        "Non molla mai"
+      ],
+      "answers_pl": [
+        "Szybko odpuszcza",
+        "Nigdy nie odpuszcza"
+      ],
+      "answers_fr": [
+        "Cède vite",
+        "Ne lâche jamais"
+      ],
+      "answers_ja": [
+        "すぐ折れる",
+        "絶対に譲らない"
+      ],
+      "answers_nl": [
+        "Geeft snel toe",
+        "Geeft nooit toe"
+      ]
+    }
+  },
+  {
+    "category_id": "scale",
+    "texts": {
+      "text_en": "How hangry does {{playerName}} get?",
+      "text_tr": "{{playerName}} acıkınca ne kadar sinirlenir?",
+      "text_es": "¿Cuánto se enoja {{playerName}} cuando tiene hambre?",
+      "text_pt": "O quanto a fome deixa {{playerName}} de mau humor?",
+      "text_de": "Wie gereizt wird {{playerName}} mit Hunger?",
+      "text_it": "Quanto si innervosisce {{playerName}} quando ha fame?",
+      "text_pl": "Jak bardzo {{playerName}} się złości z głodu?",
+      "text_fr": "À quel point la faim met {{playerName}} de mauvaise humeur ?",
+      "text_ja": "{{playerName}}はお腹がすくとどれくらいイライラする？",
+      "text_nl": "Hoe chagrijnig wordt {{playerName}} van honger?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Never",
+        "Dangerously"
+      ],
+      "answers_tr": [
+        "Hiç",
+        "Tehlikeli seviyede"
+      ],
+      "answers_es": [
+        "Nada",
+        "Peligrosamente"
+      ],
+      "answers_pt": [
+        "Nada",
+        "Perigosamente"
+      ],
+      "answers_de": [
+        "Gar nicht",
+        "Gefährlich"
+      ],
+      "answers_it": [
+        "Per niente",
+        "Pericolosamente"
+      ],
+      "answers_pl": [
+        "Wcale",
+        "Niebezpiecznie"
+      ],
+      "answers_fr": [
+        "Pas du tout",
+        "Dangereusement"
+      ],
+      "answers_ja": [
+        "全然",
+        "危険レベル"
+      ],
+      "answers_nl": [
+        "Helemaal niet",
+        "Gevaarlijk"
+      ]
+    }
+  },
+  {
+    "category_id": "scale",
+    "texts": {
+      "text_en": "How much does {{playerName}} plan ahead?",
+      "text_tr": "{{playerName}} ne kadar plan yapar?",
+      "text_es": "¿Cuánto planea {{playerName}} con antelación?",
+      "text_pt": "O quanto {{playerName}} planeja as coisas?",
+      "text_de": "Wie viel plant {{playerName}} im Voraus?",
+      "text_it": "Quanto pianifica {{playerName}} in anticipo?",
+      "text_pl": "Jak bardzo {{playerName}} planuje z wyprzedzeniem?",
+      "text_fr": "À quel point {{playerName}} planifie à l'avance ?",
+      "text_ja": "{{playerName}}はどれくらい計画を立てる？",
+      "text_nl": "Hoeveel plant {{playerName}} vooruit?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Goes with the flow",
+        "Plans everything"
+      ],
+      "answers_tr": [
+        "Akışına bırakır",
+        "Her şeyi planlar"
+      ],
+      "answers_es": [
+        "Improvisa todo",
+        "Planea todo"
+      ],
+      "answers_pt": [
+        "Improvisa tudo",
+        "Planeja tudo"
+      ],
+      "answers_de": [
+        "Lässt es drauf ankommen",
+        "Plant alles"
+      ],
+      "answers_it": [
+        "Improvvisa tutto",
+        "Pianifica tutto"
+      ],
+      "answers_pl": [
+        "Pełen spontan",
+        "Planuje wszystko"
+      ],
+      "answers_fr": [
+        "Improvise tout",
+        "Planifie tout"
+      ],
+      "answers_ja": [
+        "ノリで動く",
+        "全部計画する"
+      ],
+      "answers_nl": [
+        "Ziet wel",
+        "Plant alles"
+      ]
+    }
+  },
+  {
+    "category_id": "scale",
+    "texts": {
+      "text_en": "How does {{playerName}} like to spend a free weekend?",
+      "text_tr": "{{playerName}} boş bir hafta sonunu nasıl geçirmeyi sever?",
+      "text_es": "¿Cómo le gusta a {{playerName}} pasar un fin de semana libre?",
+      "text_pt": "Como {{playerName}} gosta de passar um fim de semana livre?",
+      "text_de": "Wie verbringt {{playerName}} am liebsten ein freies Wochenende?",
+      "text_it": "Come ama passare un weekend libero {{playerName}}?",
+      "text_pl": "Jak {{playerName}} lubi spędzać wolny weekend?",
+      "text_fr": "Comment {{playerName}} aime passer un week-end libre ?",
+      "text_ja": "{{playerName}}は休みの週末をどう過ごしたい？",
+      "text_nl": "Hoe brengt {{playerName}} het liefst een vrij weekend door?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Out all day",
+        "Home all day"
+      ],
+      "answers_tr": [
+        "Gün boyu dışarıda",
+        "Gün boyu evde"
+      ],
+      "answers_es": [
+        "Todo el día fuera",
+        "Todo el día en casa"
+      ],
+      "answers_pt": [
+        "O dia todo fora",
+        "O dia todo em casa"
+      ],
+      "answers_de": [
+        "Den ganzen Tag unterwegs",
+        "Den ganzen Tag zu Hause"
+      ],
+      "answers_it": [
+        "Sempre fuori",
+        "Sempre a casa"
+      ],
+      "answers_pl": [
+        "Cały dzień poza domem",
+        "Cały dzień w domu"
+      ],
+      "answers_fr": [
+        "Dehors toute la journée",
+        "À la maison toute la journée"
+      ],
+      "answers_ja": [
+        "一日中おでかけ",
+        "一日中おうち"
+      ],
+      "answers_nl": [
+        "Hele dag op pad",
+        "Hele dag thuis"
+      ]
+    }
+  },
+  {
+    "category_id": "scale_intimacy",
+    "texts": {
+      "text_en": "How cuddly is {{playerName}} at night?",
+      "text_tr": "{{playerName}} geceleri ne kadar sarılmayı sever?",
+      "text_es": "¿Cuánto le gusta a {{playerName}} acurrucarse de noche?",
+      "text_pt": "O quanto {{playerName}} gosta de dormir de conchinha?",
+      "text_de": "Wie verkuschelt ist {{playerName}} nachts?",
+      "text_it": "Quanto ama le coccole di notte {{playerName}}?",
+      "text_pl": "Jak bardzo {{playerName}} lubi się przytulać w nocy?",
+      "text_fr": "À quel point {{playerName}} aime les câlins la nuit ?",
+      "text_ja": "{{playerName}}は夜どれくらいくっついて寝たい？",
+      "text_nl": "Hoe knuffelig is {{playerName}} 's nachts?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Own side of the bed",
+        "Cuddles all night"
+      ],
+      "answers_tr": [
+        "Kendi tarafında",
+        "Sabaha kadar sarılır"
+      ],
+      "answers_es": [
+        "Cada lado de la cama",
+        "Abrazo toda la noche"
+      ],
+      "answers_pt": [
+        "Cada lado da cama",
+        "Abraço a noite toda"
+      ],
+      "answers_de": [
+        "Eigene Bettseite",
+        "Kuscheln die ganze Nacht"
+      ],
+      "answers_it": [
+        "Spazio personale",
+        "Coccole tutta la notte"
+      ],
+      "answers_pl": [
+        "Własna strona łóżka",
+        "Przytulanie całą noc"
+      ],
+      "answers_fr": [
+        "Son côté du lit",
+        "Câlin toute la nuit"
+      ],
+      "answers_ja": [
+        "自分のスペース派",
+        "ずっとくっつく"
+      ],
+      "answers_nl": [
+        "Eigen kant van het bed",
+        "De hele nacht knuffelen"
+      ]
+    }
+  },
+  {
+    "category_id": "scale_intimacy",
+    "texts": {
+      "text_en": "How much PDA is {{playerName}} into?",
+      "text_tr": "{{playerName}} herkesin içinde sevgi göstermeyi ne kadar sever?",
+      "text_es": "¿Cuántas muestras de cariño en público le gustan a {{playerName}}?",
+      "text_pt": "O quanto {{playerName}} curte demonstrar carinho em público?",
+      "text_de": "Wie viel Zärtlichkeit in der Öffentlichkeit mag {{playerName}}?",
+      "text_it": "Quante effusioni in pubblico piacciono a {{playerName}}?",
+      "text_pl": "Jak bardzo {{playerName}} lubi czułości w miejscach publicznych?",
+      "text_fr": "À quel point {{playerName}} aime les gestes tendres en public ?",
+      "text_ja": "{{playerName}}は人前でどれくらいイチャイチャしたい？",
+      "text_nl": "Hoeveel knuffelen in het openbaar vindt {{playerName}} fijn?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "None in public",
+        "All the time"
+      ],
+      "answers_tr": [
+        "Asla",
+        "Her an"
+      ],
+      "answers_es": [
+        "Ninguna",
+        "Todo el tiempo"
+      ],
+      "answers_pt": [
+        "Nada",
+        "O tempo todo"
+      ],
+      "answers_de": [
+        "Gar keine",
+        "Ständig"
+      ],
+      "answers_it": [
+        "Nessuna",
+        "Sempre"
+      ],
+      "answers_pl": [
+        "Wcale",
+        "Cały czas"
+      ],
+      "answers_fr": [
+        "Pas du tout",
+        "Tout le temps"
+      ],
+      "answers_ja": [
+        "絶対ムリ",
+        "いつでも"
+      ],
+      "answers_nl": [
+        "Helemaal niet",
+        "Altijd"
+      ]
+    }
+  },
+  {
+    "category_id": "scale_intimacy",
+    "texts": {
+      "text_en": "How flirty is {{playerName}} over text?",
+      "text_tr": "{{playerName}} mesajlaşırken ne kadar flörtöz?",
+      "text_es": "¿Cuánto coquetea {{playerName}} por mensaje?",
+      "text_pt": "O quanto {{playerName}} flerta por mensagem?",
+      "text_de": "Wie flirty schreibt {{playerName}} Nachrichten?",
+      "text_it": "Quanto flirta {{playerName}} per messaggio?",
+      "text_pl": "Jak bardzo {{playerName}} flirtuje w wiadomościach?",
+      "text_fr": "À quel point {{playerName}} flirte par message ?",
+      "text_ja": "{{playerName}}のメッセージはどれくらい甘い？",
+      "text_nl": "Hoe flirterig appt {{playerName}}?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Dry texter",
+        "Emoji flood"
+      ],
+      "answers_tr": [
+        "Kuru mesajcı",
+        "Emoji yağmuru"
+      ],
+      "answers_es": [
+        "Respuestas secas",
+        "Lluvia de emojis"
+      ],
+      "answers_pt": [
+        "Respostas secas",
+        "Chuva de emojis"
+      ],
+      "answers_de": [
+        "Kurz und trocken",
+        "Emoji-Flut"
+      ],
+      "answers_it": [
+        "Risposte secche",
+        "Pioggia di emoji"
+      ],
+      "answers_pl": [
+        "Suche odpowiedzi",
+        "Lawina emoji"
+      ],
+      "answers_fr": [
+        "Réponses sèches",
+        "Pluie d'emojis"
+      ],
+      "answers_ja": [
+        "そっけない",
+        "絵文字だらけ"
+      ],
+      "answers_nl": [
+        "Kort en droog",
+        "Emoji-regen"
+      ]
+    }
+  },
+  {
+    "category_id": "scale_intimacy",
+    "texts": {
+      "text_en": "How easily does {{playerName}} get butterflies?",
+      "text_tr": "{{playerName}} ne kadar kolay kalp çarpıntısı yaşar?",
+      "text_es": "¿Con qué facilidad siente mariposas {{playerName}}?",
+      "text_pt": "Com que facilidade {{playerName}} sente frio na barriga?",
+      "text_de": "Wie leicht bekommt {{playerName}} Schmetterlinge im Bauch?",
+      "text_it": "Quanto spesso {{playerName}} sente le farfalle nello stomaco?",
+      "text_pl": "Jak łatwo {{playerName}} czuje motyle w brzuchu?",
+      "text_fr": "À quel point {{playerName}} a facilement des papillons dans le ventre ?",
+      "text_ja": "{{playerName}}はどれくらいドキドキしやすい？",
+      "text_nl": "Hoe snel krijgt {{playerName}} vlinders in de buik?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Hardly ever",
+        "All the time"
+      ],
+      "answers_tr": [
+        "Neredeyse hiç",
+        "Her an"
+      ],
+      "answers_es": [
+        "Casi nunca",
+        "Todo el tiempo"
+      ],
+      "answers_pt": [
+        "Quase nunca",
+        "O tempo todo"
+      ],
+      "answers_de": [
+        "Fast nie",
+        "Ständig"
+      ],
+      "answers_it": [
+        "Quasi mai",
+        "Sempre"
+      ],
+      "answers_pl": [
+        "Prawie nigdy",
+        "Cały czas"
+      ],
+      "answers_fr": [
+        "Presque jamais",
+        "Tout le temps"
+      ],
+      "answers_ja": [
+        "ほぼしない",
+        "いつもドキドキ"
+      ],
+      "answers_nl": [
+        "Bijna nooit",
+        "Steeds weer"
+      ]
+    }
+  },
+  {
+    "category_id": "scale_intimacy",
+    "texts": {
+      "text_en": "How long does {{playerName}} like a hug to last?",
+      "text_tr": "{{playerName}} sarılmaların ne kadar uzun sürmesini sever?",
+      "text_es": "¿Cuánto le gusta a {{playerName}} que dure un abrazo?",
+      "text_pt": "Quanto tempo {{playerName}} gosta que um abraço dure?",
+      "text_de": "Wie lange soll eine Umarmung für {{playerName}} dauern?",
+      "text_it": "Quanto deve durare un abbraccio per {{playerName}}?",
+      "text_pl": "Jak długo {{playerName}} lubi się przytulać?",
+      "text_fr": "Combien de temps {{playerName}} aime qu'un câlin dure ?",
+      "text_ja": "{{playerName}}はハグがどれくらい長いのが好き？",
+      "text_nl": "Hoe lang moet een knuffel duren voor {{playerName}}?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Quick squeeze",
+        "Never let go"
+      ],
+      "answers_tr": [
+        "Kısa bir sıkış",
+        "Hiç bırakmasın"
+      ],
+      "answers_es": [
+        "Un apretón rápido",
+        "Que nunca termine"
+      ],
+      "answers_pt": [
+        "Um apertinho rápido",
+        "Que nunca acabe"
+      ],
+      "answers_de": [
+        "Kurz drücken",
+        "Nie loslassen"
+      ],
+      "answers_it": [
+        "Una stretta veloce",
+        "Per sempre"
+      ],
+      "answers_pl": [
+        "Krótki uścisk",
+        "Bez końca"
+      ],
+      "answers_fr": [
+        "Un câlin éclair",
+        "Sans fin"
+      ],
+      "answers_ja": [
+        "ぎゅっと一瞬",
+        "ずっと離さない"
+      ],
+      "answers_nl": [
+        "Even kort",
+        "Nooit meer loslaten"
+      ]
+    }
+  },
+  {
+    "category_id": "scale_intimacy",
+    "texts": {
+      "text_en": "How much of a hopeless romantic is {{playerName}}?",
+      "text_tr": "{{playerName}} ne kadar romantik?",
+      "text_es": "¿Cuánto romanticismo tiene {{playerName}}?",
+      "text_pt": "Quanto romantismo {{playerName}} tem?",
+      "text_de": "Wie romantisch ist {{playerName}}?",
+      "text_it": "Quanto romanticismo ha {{playerName}}?",
+      "text_pl": "{{playerName}}: jaki poziom romantyzmu?",
+      "text_fr": "{{playerName}} : quel niveau de romantisme ?",
+      "text_ja": "{{playerName}}はどれくらいロマンチスト？",
+      "text_nl": "Hoe romantisch is {{playerName}}?"
+    },
+    "question_type": "choice",
+    "have_answers": true,
+    "answers": {
+      "answers_en": [
+        "Total realist",
+        "Hopeless romantic"
+      ],
+      "answers_tr": [
+        "Tam realist",
+        "Sırılsıklam romantik"
+      ],
+      "answers_es": [
+        "Realismo total",
+        "Romanticismo total"
+      ],
+      "answers_pt": [
+        "Realismo total",
+        "Romantismo total"
+      ],
+      "answers_de": [
+        "Komplett nüchtern",
+        "Hoffnungslos romantisch"
+      ],
+      "answers_it": [
+        "Realismo puro",
+        "Romanticismo puro"
+      ],
+      "answers_pl": [
+        "Czysty realizm",
+        "Czysty romantyzm"
+      ],
+      "answers_fr": [
+        "Réalisme total",
+        "Romantisme total"
+      ],
+      "answers_ja": [
+        "超現実派",
+        "超ロマンチスト"
+      ],
+      "answers_nl": [
+        "Volledig nuchter",
+        "Hopeloos romantisch"
+      ]
+    }
+  }
+]

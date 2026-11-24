@@ -40,6 +40,7 @@ import {
   CLIENT_FEATURE_RANK_IT,
   CLIENT_FEATURE_DAILY_ANALYSIS,
   CLIENT_FEATURE_TWO_TRUTHS,
+  CLIENT_FEATURE_SCALE,
   DailyTopic,
 } from "./types.js";
 import {
@@ -171,6 +172,12 @@ import {
   TWO_TRUTHS_TURNS,
 } from "./utils/twoTruths.js";
 import { loadLies, renameLieAuthors, saveLie } from "./services/twoTruthsSecrets.js";
+import {
+  parseScaleValue,
+  SCALE_QUESTION_COUNT,
+  scaleSubjectSeat,
+  scoreScaleRound,
+} from "./utils/scale.js";
 import { pickNextQuestion } from "./nextQuestion.js";
 import { anyActivePass, getPassStatus } from "./services/unlimitedPass.js";
 
@@ -525,6 +532,10 @@ const supportsDailyAnalysis = (clientFeatures: unknown): boolean =>
 const supportsTwoTruths = (clientFeatures: unknown): boolean =>
   Array.isArray(clientFeatures) &&
   clientFeatures.includes(CLIENT_FEATURE_TWO_TRUTHS);
+
+const supportsScale = (clientFeatures: unknown): boolean =>
+  Array.isArray(clientFeatures) &&
+  clientFeatures.includes(CLIENT_FEATURE_SCALE);
 
 captureConsoleErrors();
 
@@ -1166,6 +1177,18 @@ async function completeRound(
     similarity = rankingSimilarity(answer1, answer2, rankItemCount(question));
     // "Matched" for rank_it = the exact same order.
     isMatched = similarity === 100;
+  } else if (snapshot.settings.mode === "scale") {
+    // Like know_each_other, rounds alternate who they're about.
+    const subject = snapshot.players[scaleSubjectSeat(snapshot.currentQuestionIndex)];
+    const guesser = snapshot.players.find((p) => p.id !== subject?.id);
+    const outcome = scoreScaleRound(
+      subject ? round.answers[subject.id] : null,
+      guesser ? round.answers[guesser.id] : null,
+    );
+    similarity = outcome.closeness;
+    isScored = outcome.isScored;
+    // "Matched" for scale = the guess was spot on.
+    isMatched = outcome.isMatched;
   } else if (answer1 === NO_ANSWER || answer2 === NO_ANSWER) {
     isMatched = false;
   } else if (isText) {
@@ -1949,6 +1972,7 @@ io.on(
             supportsRankIt(clientFeatures),
             supportsDailyAnalysis(clientFeatures),
             supportsTwoTruths(clientFeatures),
+            supportsScale(clientFeatures),
           );
           socket.join(room.roomCode);
           await recordSeatOwner(socket, room.roomCode);
@@ -2035,6 +2059,7 @@ io.on(
               supportsRankIt(clientFeatures),
               supportsDailyAnalysis(clientFeatures),
               supportsTwoTruths(clientFeatures),
+              supportsScale(clientFeatures),
             ),
           );
 
@@ -2207,6 +2232,7 @@ io.on(
           const rankIt = categoryMode === "rank_it";
           const daily = categoryMode === "daily_analysis";
           const twoTruths = categoryMode === "two_truths";
+          const scale = categoryMode === "scale";
 
           // Older builds would show these questions as yes/no or multiple choice.
           const supportsMode = (p: Player) =>
@@ -2218,7 +2244,9 @@ io.on(
                   ? p.supportsDailyAnalysis === true
                   : twoTruths
                     ? p.supportsTwoTruths === true
-                    : true;
+                    : scale
+                      ? p.supportsScale === true
+                      : true;
           if (!room.players.every(supportsMode)) {
             socket.emit("room-error", {
               message:
@@ -2319,7 +2347,9 @@ io.on(
                 ? DAILY_ANALYSIS_QUESTION_COUNT
                 : twoTruths
                   ? TWO_TRUTHS_TURNS
-                  : room.settings.totalQuestions,
+                  : scale
+                    ? SCALE_QUESTION_COUNT
+                    : room.settings.totalQuestions,
             supabaseAdmin,
             {
               // Votes and rankings are picked, never typed; two_truths topics
@@ -2328,9 +2358,11 @@ io.on(
                 !moreLikely &&
                 !rankIt &&
                 !twoTruths &&
+                !scale &&
                 room.players.every((p) => p.supportsTextQuestions === true),
               appUserIds: await roomAppUserIds(room),
               rankable: rankIt,
+              scalable: scale,
             },
           );
           const questions = twoTruths ? buildTwoTruthsRounds(fetched) : fetched;
@@ -2688,6 +2720,8 @@ io.on(
               playerAnswer = isMoreLikelyPick(answer) ? answer : NO_ANSWER;
             } else if (room.settings.mode === "rank_it") {
               playerAnswer = parseRanking(answer, rankItemCount(question)) ?? NO_ANSWER;
+            } else if (room.settings.mode === "scale") {
+              playerAnswer = parseScaleValue(answer) ?? NO_ANSWER;
             } else if (question.haveAnswers && question.answers) {
               // Only one of the question's own options is kept: anything else
               // would reach the partner as unmoderated free text.

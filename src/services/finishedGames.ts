@@ -4,6 +4,7 @@ import { MatchTierConfig } from "../types/publicConfig.js";
 import { buildFinishedRounds } from "../utils/helpers.js";
 import { redis } from "../utils/redis.js";
 import { tallyTwoTruths } from "../utils/twoTruths.js";
+import { scaleGamePercentage, scaleGuesserScores } from "../utils/scale.js";
 import { GameMode } from "./categoryService.js";
 
 /** Long enough to open the AI analysis after lingering on the results. */
@@ -33,6 +34,8 @@ export interface PlayerScore {
  *   the votes itself from the rounds
  * - rank_it: the tier for the average similarity of their orders
  * - two_truths: each player's points (`correct` = caught + fooled)
+ * - scale: how close each player's guesses landed, as the guesser
+ *   (`percent` = average closeness, `correct` = spot-on guesses)
  */
 export interface GameSummary {
   mode: GameMode;
@@ -158,6 +161,13 @@ export function summarizeGame(
     const players = knowMeWellScores(room);
     return { mode, players, winnerId: winnerBy(players, "percent") };
   }
+  if (mode === "scale") {
+    const players = scaleGuesserScores(
+      room.players.map((player) => player.id),
+      room.completedRounds,
+    );
+    return { mode, players, winnerId: winnerBy(players, "percent") };
+  }
   return { mode, tier: getMatchTier(percentage, tiers) };
 }
 
@@ -176,6 +186,9 @@ export function getGamePercentage(room: Room): number {
     const caught = tallies.reduce((sum, t) => sum + t.caught, 0);
     const toCatch = tallies.reduce((sum, t) => sum + t.caught + t.fooled, 0);
     return percentOf(caught, toCatch);
+  }
+  if (room.settings.mode === "scale") {
+    return scaleGamePercentage(room.completedRounds);
   }
   if (room.settings.mode === "rank_it") {
     const scored = room.completedRounds.filter((round) => round.isScored !== false);
