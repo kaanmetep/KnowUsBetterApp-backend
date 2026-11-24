@@ -41,6 +41,10 @@ export function createContentRouter(
       const includeComingSoon = include.includes("coming_soon");
       // Nor the daily analysis, which they couldn't start.
       const includeDaily = include.includes("daily_analysis");
+      // A new mode ships as a "Soon" teaser (coming_soon in the database)
+      // until its app build is out. Builds that can play it name its mode
+      // here, so they get it as a normal category; older ones see "Soon".
+      const playsMode = (groupId: string | null) => !!groupId && include.includes(groupId);
       res.setHeader("Cache-Control", "public, max-age=60");
       res.json({
         categories: categories
@@ -50,7 +54,19 @@ export function createContentRouter(
               (includeComingSoon || !category.comingSoon) &&
               (includeDaily || category.groupId !== "daily_analysis"),
           )
-          .map(({ isListed, ...category }) => category),
+          .map(({ isListed, ...category }) => {
+            if (!category.comingSoon) return category;
+            if (playsMode(category.groupId)) return { ...category, comingSoon: false };
+            // A teaser shows only its "Soon" chip: no "New", price or
+            // "Intimacy"/"Hard" chips (the app draws those from these fields).
+            return {
+              ...category,
+              recentlyAdded: false,
+              isPremium: false,
+              coinsRequired: 0,
+              difficulty: null,
+            };
+          }),
         groups: includeDaily
           ? groups
           : groups.filter((group) => group.id !== "daily_analysis"),

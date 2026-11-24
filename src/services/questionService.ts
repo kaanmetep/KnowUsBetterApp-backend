@@ -8,6 +8,7 @@ import {
 import { LANGS, QuestionAnswers, QuestionTexts } from "../languages.js";
 import { AnswerKey, parseAnswerKey } from "../utils/trivia.js";
 import { isRankable, RANK_IT_MAX_ITEMS, RANK_IT_MIN_ITEMS } from "../utils/rankIt.js";
+import { isScaleQuestion } from "../utils/scale.js";
 
 // Raw `correct_answer` per question id. Answer keys don't change during a game
 // and must not ride along on the room (it's sent to clients), so they live here.
@@ -213,13 +214,19 @@ export async function markQuestionsSeen(
  * @param options.includeText - false drops free-text questions (some player's app can't show them)
  * @param options.appUserIds - the players; questions none of them has seen come first
  * @param options.rankable - keep only questions with RANK_IT_MIN_ITEMS-RANK_IT_MAX_ITEMS options (rank_it)
+ * @param options.scalable - keep only questions with exactly two options, the slider's ends (scale)
  * @returns Array of questions
  */
 export async function fetchRandomQuestions(
   category: Category,
   count: number,
   supabaseAdmin: any,
-  options: { includeText?: boolean; appUserIds?: string[]; rankable?: boolean } = {}
+  options: {
+    includeText?: boolean;
+    appUserIds?: string[];
+    rankable?: boolean;
+    scalable?: boolean;
+  } = {}
 ): Promise<Question[]> {
   if (!supabaseAdmin) {
     throw new Error("Supabase admin client is required");
@@ -304,10 +311,19 @@ export async function fetchRandomQuestions(
     const shown = includeText
       ? questions
       : questions.filter((q) => q.questionType !== "text");
-    const candidates = options.rankable ? shown.filter(isRankable) : shown;
+    const candidates = options.rankable
+      ? shown.filter(isRankable)
+      : options.scalable
+        ? shown.filter(isScaleQuestion)
+        : shown;
     if (options.rankable && candidates.length < shown.length) {
       console.warn(
         `⚠️ ${shown.length - candidates.length} question(s) in rank category ${category} don't have ${RANK_IT_MIN_ITEMS}-${RANK_IT_MAX_ITEMS} options and were skipped`
+      );
+    }
+    if (options.scalable && candidates.length < shown.length) {
+      console.warn(
+        `⚠️ ${shown.length - candidates.length} question(s) in scale category ${category} don't have exactly 2 options and were skipped`
       );
     }
 

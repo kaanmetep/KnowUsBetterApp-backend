@@ -236,7 +236,7 @@ export interface ClientToServerEvents {
   "claim-daily-reward": (data: { appUserId: string }) => void;
   "change-category": (data: { roomCode: string; category: Category }) => void;
   /** `playerId`: single-phone mode, the partner on this phone who agreed. */
-  "ai-consent": (data: { roomCode: string; playerId?: string }) => void;
+  "ai-consent": (data: { roomCode: string; playerId?: string; version?: number }) => void;
   /** Single phone, host only: done with this round's result, move on. */
   "advance-round": (
     data: { roomCode: string; questionId: string },
@@ -325,6 +325,10 @@ const DEFAULT_TEXT_RESULT_DISPLAY_DURATION = 6;
 // Dragging a list into order takes longer than a tap, and the result shows two lists.
 const RANK_QUESTION_DURATION = 30;
 const RANK_RESULT_DISPLAY_DURATION = 10;
+// One slider, but the question names a person and the ends need reading.
+const SCALE_QUESTION_DURATION = 20;
+// The two markers slide in one after the other before the verdict lands.
+const SCALE_RESULT_DISPLAY_DURATION = 7;
 // Writing three statements takes a while; the reveal shows both players' three.
 const TWO_TRUTHS_WRITE_DURATION = 90;
 // The app shows no result for a write round; guessing starts right away.
@@ -411,6 +415,7 @@ export function getQuestionDuration(
   question: Question | null | undefined,
 ): number {
   if (settings.mode === "rank_it") return RANK_QUESTION_DURATION;
+  if (settings.mode === "scale") return SCALE_QUESTION_DURATION + readingSeconds(question);
   const phase = question?.twoTruths?.phase;
   if (phase === "write") return TWO_TRUTHS_WRITE_DURATION;
   if (phase === "guess") return TWO_TRUTHS_GUESS_DURATION;
@@ -444,6 +449,7 @@ export function getResultDisplayDuration(
   question: Question | null | undefined,
 ): number {
   if (settings.mode === "rank_it") return RANK_RESULT_DISPLAY_DURATION;
+  if (settings.mode === "scale") return SCALE_RESULT_DISPLAY_DURATION;
   const phase = question?.twoTruths?.phase;
   if (phase === "write") return TWO_TRUTHS_WRITE_RESULT_DURATION;
   if (phase === "guess") return TWO_TRUTHS_GUESS_RESULT_DURATION;

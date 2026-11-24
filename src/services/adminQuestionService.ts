@@ -4,6 +4,7 @@ import { AppError } from "../errors/AppError.js";
 import { MAX_MATCH_WEIGHT, MIN_MATCH_WEIGHT } from "../types.js";
 import { LANGS, type Lang, type QuestionAnswers, type QuestionTexts } from "../languages.js";
 import { RANK_IT_MAX_ITEMS, RANK_IT_MIN_ITEMS } from "../utils/rankIt.js";
+import { SCALE_POLES } from "../utils/scale.js";
 
 const MAX_TEXT_LENGTH = 500;
 const MIN_ANSWERS = 2;
@@ -217,6 +218,38 @@ async function assertValidCategory(input: QuestionInput): Promise<void> {
     ) {
       throw new AppError(
         "Two Truths topics are plain prompts: yes/no type with no answers, correct_answer or match_weight",
+        400,
+        "VALIDATION_ERROR",
+      );
+    }
+  }
+  if (rows[0].group_id === "scale") {
+    if (
+      input.question_type !== "choice" ||
+      !input.have_answers ||
+      (input.answers?.answers_en.length ?? 0) !== SCALE_POLES
+    ) {
+      throw new AppError(
+        "Scale questions need exactly 2 answers: the slider's left and right ends",
+        400,
+        "VALIDATION_ERROR",
+      );
+    }
+    if (input.correct_answer != null || input.match_weight != null) {
+      throw new AppError(
+        "Scale questions can't have a correct_answer or match_weight",
+        400,
+        "VALIDATION_ERROR",
+      );
+    }
+    // A language left blank (filled in later by translation) shows English.
+    const named = (text: string | undefined) => !text || text.includes("{{playerName}}");
+    if (
+      !input.texts.text_en?.includes("{{playerName}}") ||
+      !LANGS.every((lang) => named(input.texts[`text_${lang}`]))
+    ) {
+      throw new AppError(
+        "Scale questions must name the player with {{playerName}} in every language",
         400,
         "VALIDATION_ERROR",
       );

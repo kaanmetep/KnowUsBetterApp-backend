@@ -11,6 +11,7 @@ const GAME_MODES: readonly GameMode[] = [
   "rank_it",
   "daily_analysis",
   "two_truths",
+  "scale",
 ];
 
 export type CategoryDifficulty = "hard" | "intimacy";

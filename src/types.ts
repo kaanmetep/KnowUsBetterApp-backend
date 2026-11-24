@@ -23,6 +23,8 @@ export const CLIENT_FEATURE_RANK_IT = "rank_it";
 export const CLIENT_FEATURE_DAILY_ANALYSIS = "daily_analysis";
 // Builds that can write and guess two_truths statements; older ones would show yes/no.
 export const CLIENT_FEATURE_TWO_TRUTHS = "two_truths";
+// Builds that can show the scale slider; older ones would show two options.
+export const CLIENT_FEATURE_SCALE = "scale";
 
 export type GameMode =
   | "see_your_match"
@@ -31,7 +33,8 @@ export type GameMode =
   | "who_is_more_likely"
   | "rank_it"
   | "daily_analysis"
-  | "two_truths";
+  | "two_truths"
+  | "scale";
 
 /**
  * two_truths: every turn is a write round followed by a guess round (see
@@ -87,7 +90,10 @@ export interface QuestionRound {
   // Trivia only, filled in when the round completes.
   correct?: { [playerId: string]: boolean };
   correctAnswer?: RevealedAnswer;
-  /** rank_it only: how close the two orders were, 0-100 (see utils/rankIt). */
+  /**
+   * rank_it: how close the two orders were, 0-100 (see utils/rankIt).
+   * scale: how close the guess landed to the subject's own spot, 0-100 (see utils/scale).
+   */
   similarity?: number;
   /** two_truths guess rounds only: index of each author's lie, revealed once the round is over. */
   lies?: { [playerId: string]: number };
@@ -111,8 +117,11 @@ export interface Player {
   supportsRankIt?: boolean;
   supportsDailyAnalysis?: boolean;
   supportsTwoTruths?: boolean;
-  /** Agreed (on their device) to their answers going to OpenAI for a daily analysis. */
+  supportsScale?: boolean;
+  /** Agreed (on their device) to their answers going to an AI provider for a daily analysis. */
   aiConsent?: boolean;
+  /** Which consent text: 1 (or missing) named only OpenAI, 2 names Anthropic and OpenAI. */
+  aiConsentVersion?: number;
   /**
    * Set on a partner who plays on the host's phone (single-phone mode): the
    * host's socket id. Such a player has no socket of their own; the host's
@@ -191,6 +200,7 @@ export type RoomErrorCode =
   | "QUESTIONS_UNAVAILABLE"
   | "INSUFFICIENT_COINS"
   | "COINS_UNAVAILABLE"
+  | "AI_UNAVAILABLE"
   | "USER_BANNED"
   | "DAILY_ANALYSIS_COOLDOWN"
   | "DAILY_ANALYSIS_PARTNER_COOLDOWN"

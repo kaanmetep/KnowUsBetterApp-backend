@@ -423,6 +423,10 @@
       ? rankPlayable
         ? { cls: " mc", label: `Sıralama · ${optionCount} seçenek` }
         : { cls: " warn", label: `⚠ Oyunda gösterilmez (${RANK_MIN_ANSWERS}-${RANK_MAX_ANSWERS} seçenek gerekli)` }
+      : isScaleCategory(q.category_id)
+        ? q.question_type === "choice" && q.have_answers && optionCount === SCALE_ANSWERS
+          ? { cls: " mc", label: "Ölçek" }
+          : { cls: " warn", label: "⚠ Oyunda gösterilmez (tam 2 uç gerekli)" }
       : isTwoTruthsCategory(q.category_id)
         ? { cls: "", label: "Konu" }
         : q.question_type === "text"
@@ -538,6 +542,13 @@
   const RANK_MIN_ANSWERS = 3;
   const RANK_MAX_ANSWERS = 5;
   const TWO_TRUTHS_GROUP = "two_truths";
+  // Scale questions: exactly two options, the slider's left and right ends.
+  const SCALE_GROUP = "scale";
+  const SCALE_ANSWERS = 2;
+
+  function isScaleCategory(categoryId) {
+    return state.categories.find((c) => c.id === categoryId)?.group_id === SCALE_GROUP;
+  }
 
   function isRankCategory(categoryId) {
     return state.categories.find((c) => c.id === categoryId)?.group_id === RANK_GROUP;
@@ -597,6 +608,8 @@
       (groups.length < RANK_MIN_ANSWERS || groups.length > RANK_MAX_ANSWERS)
     ) {
       error = `Sırala Bakalım için ${RANK_MIN_ANSWERS}-${RANK_MAX_ANSWERS} seçenek gerekli (${groups.length} var)`;
+    } else if (isScaleCategory($("f-category").value) && groups.length !== SCALE_ANSWERS) {
+      error = `Ölçek için tam ${SCALE_ANSWERS} uç gerekli: önce sol, sonra sağ (${groups.length} var)`;
     }
     return { groups, error };
   }
@@ -733,7 +746,9 @@
   // are just a prompt: choice, no answers, no trivia.
   function setTrivia(on) {
     const category = $("f-category").value;
-    const rank = isRankCategory(category);
+    const scale = isScaleCategory(category);
+    // Scale locks the form the same way Rank It does, with two options.
+    const rank = isRankCategory(category) || scale;
     const twoTruths = isTwoTruthsCategory(category);
     const locked = isTriviaCategory(category);
     if (rank) {
@@ -749,7 +764,8 @@
     $("text-question-row").classList.toggle("hidden", rank || twoTruths);
     $("have-answers-row").classList.toggle("hidden", rank || twoTruths || $("f-text-question").checked);
     $("trivia-row").classList.toggle("hidden", rank || twoTruths);
-    $("rank-note").classList.toggle("hidden", !rank);
+    $("rank-note").classList.toggle("hidden", !rank || scale);
+    $("scale-note").classList.toggle("hidden", !scale);
     $("two-truths-note").classList.toggle("hidden", !twoTruths);
     $("f-texts-label").textContent = twoTruths
       ? `Konu · her satır bir dil: ${LANG_ORDER}`
@@ -757,7 +773,9 @@
     $("f-texts").placeholder = twoTruths
       ? "Your childhood\nÇocukluğun\nTu infancia\nSua infância"
       : "What is your partner's favorite movie?\nPartnerinin en sevdiği film ne?\n¿Cuál es la película favorita de tu pareja?\nQual é o filme favorito do seu amor?";
-    $("f-answers-label").textContent = rank
+    $("f-answers-label").textContent = scale
+      ? `Uçlar · 2 tane (önce sol, sonra sağ) · her biri ${LANGS.length} satır: ${LANG_ORDER}`
+      : rank
       ? `Seçenekler · 3-5 tane · her biri ${LANGS.length} satır: ${LANG_ORDER}`
       : `Cevaplar · her cevap için ${LANGS.length} satır: ${LANG_ORDER}`;
     $("f-trivia").checked = !rank && !twoTruths && (on || locked);
@@ -777,7 +795,7 @@
   // its game mode, and anything but these plays as see your match.
 
   const DEFAULT_MATCH_WEIGHT = 5;
-  const NON_MATCH_GROUPS = ["know_each_other", "who_knows_better", "who_is_more_likely", "rank_it", "two_truths"];
+  const NON_MATCH_GROUPS = ["know_each_other", "who_knows_better", "who_is_more_likely", "rank_it", "two_truths", "scale"];
 
   function isMatchCategory(categoryId) {
     const category = state.categories.find((c) => c.id === categoryId);

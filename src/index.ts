@@ -40,6 +40,7 @@ import {
   CLIENT_FEATURE_RANK_IT,
   CLIENT_FEATURE_DAILY_ANALYSIS,
   CLIENT_FEATURE_TWO_TRUTHS,
+  CLIENT_FEATURE_SCALE,
   DailyTopic,
 } from "./types.js";
 import {
@@ -111,6 +112,8 @@ import {
 } from "./routes/dailyAnalysis.js";
 import {
   claimDailyAnalysis,
+  CLAUDE_CONSENT_VERSION,
+  everyoneAllowsClaude,
   DAILY_ANALYSIS_QUESTION_COUNT,
   DailyAnalysisReport,
   getCooldownEnd,
@@ -121,6 +124,7 @@ import {
   writeDailyAnalysis,
 } from "./services/dailyAnalysis.js";
 import { isLang } from "./languages.js";
+import { isClaudePaused } from "./services/claude.js";
 import { createContentRouter } from "./routes/content.js";
 import { logger } from "./utils/logger.js";
 import { createNotificationsRouter } from "./routes/notifications.js";
@@ -168,6 +172,12 @@ import {
   TWO_TRUTHS_TURNS,
 } from "./utils/twoTruths.js";
 import { loadLies, renameLieAuthors, saveLie } from "./services/twoTruthsSecrets.js";
+import {
+  parseScaleValue,
+  SCALE_QUESTION_COUNT,
+  scaleSubjectSeat,
+  scoreScaleRound,
+} from "./utils/scale.js";
 import { pickNextQuestion } from "./nextQuestion.js";
 import { anyActivePass, getPassStatus } from "./services/unlimitedPass.js";
 
@@ -530,6 +540,10 @@ const supportsDailyAnalysis = (clientFeatures: unknown): boolean =>
 const supportsTwoTruths = (clientFeatures: unknown): boolean =>
   Array.isArray(clientFeatures) &&
   clientFeatures.includes(CLIENT_FEATURE_TWO_TRUTHS);
+
+const supportsScale = (clientFeatures: unknown): boolean =>
+  Array.isArray(clientFeatures) &&
+  clientFeatures.includes(CLIENT_FEATURE_SCALE);
 
 captureConsoleErrors();
 
@@ -898,7 +912,7 @@ type DailyAnalysisStart = {
   id: string;
   roomCode: string;
   topic: DailyTopic;
-  players: { socketId: string; appUserId: string | null }[];
+  players: { socketId: string; appUserId: string | null; aiConsentVersion?: number }[];
 };
 
 // room code -> the daily analysis the game in progress was started for.
@@ -1171,6 +1185,18 @@ async function completeRound(
     similarity = rankingSimilarity(answer1, answer2, rankItemCount(question));
     // "Matched" for rank_it = the exact same order.
     isMatched = similarity === 100;
+  } else if (snapshot.settings.mode === "scale") {
+    // Like know_each_other, rounds alternate who they're about.
+    const subject = snapshot.players[scaleSubjectSeat(snapshot.currentQuestionIndex)];
+    const guesser = snapshot.players.find((p) => p.id !== subject?.id);
+    const outcome = scoreScaleRound(
+      subject ? round.answers[subject.id] : null,
+      guesser ? round.answers[guesser.id] : null,
+    );
+    similarity = outcome.closeness;
+    isScored = outcome.isScored;
+    // "Matched" for scale = the guess was spot on.
+    isMatched = outcome.isMatched;
   } else if (answer1 === NO_ANSWER || answer2 === NO_ANSWER) {
     isMatched = false;
   } else if (isText) {
@@ -1418,6 +1444,7 @@ async function finishGame(roomCode: string): Promise<void> {
       name: player.name,
       avatar: player.avatar,
       isHost: index === 0,
+      aiConsentVersion: daily.players.find((p) => p.socketId === player.id)?.aiConsentVersion,
     }));
     const saved =
       !!supabaseAdmin &&
@@ -1953,6 +1980,7 @@ io.on(
             supportsRankIt(clientFeatures),
             supportsDailyAnalysis(clientFeatures),
             supportsTwoTruths(clientFeatures),
+            supportsScale(clientFeatures),
           );
           socket.join(room.roomCode);
           await recordSeatOwner(socket, room.roomCode);
@@ -2039,6 +2067,7 @@ io.on(
               supportsRankIt(clientFeatures),
               supportsDailyAnalysis(clientFeatures),
               supportsTwoTruths(clientFeatures),
+              supportsScale(clientFeatures),
             ),
           );
 
@@ -2211,6 +2240,7 @@ io.on(
           const rankIt = categoryMode === "rank_it";
           const daily = categoryMode === "daily_analysis";
           const twoTruths = categoryMode === "two_truths";
+          const scale = categoryMode === "scale";
 
           // Older builds would show these questions as yes/no or multiple choice.
           const supportsMode = (p: Player) =>
@@ -2222,7 +2252,9 @@ io.on(
                   ? p.supportsDailyAnalysis === true
                   : twoTruths
                     ? p.supportsTwoTruths === true
-                    : true;
+                    : scale
+                      ? p.supportsScale === true
+                      : true;
           if (!room.players.every(supportsMode)) {
             socket.emit("room-error", {
               message:
@@ -2234,11 +2266,21 @@ io.on(
             return;
           }
 
-          // Every player agreed on their device to their answers going to OpenAI.
+          // Every player agreed on their device to their answers going to the AI provider.
           if (daily && !room.players.every((p) => p.aiConsent === true)) {
             socket.emit("room-error", {
               message: "Your partner needs to accept the daily analysis terms first.",
               code: "AI_CONSENT_REQUIRED",
+            });
+            return;
+          }
+
+          // Claude writes this room's report, and it's out of credits: don't
+          // take anyone's coins or day for a report that would fall back.
+          if (daily && everyoneAllowsClaude(room.players) && (await isClaudePaused())) {
+            socket.emit("room-error", {
+              message: "Daily analysis is taking a short break. Please try again later.",
+              code: "AI_UNAVAILABLE",
             });
             return;
           }
@@ -2271,6 +2313,7 @@ io.on(
               room.players.map(async (p) => ({
                 socketId: p.id,
                 appUserId: p.id === socket.id ? host : await appUserIdOf(p.id),
+                aiConsentVersion: p.aiConsentVersion,
               })),
             );
             const status = await getDailyAnalysisStatus(supabaseAdmin, host);
@@ -2312,7 +2355,9 @@ io.on(
                 ? DAILY_ANALYSIS_QUESTION_COUNT
                 : twoTruths
                   ? TWO_TRUTHS_TURNS
-                  : room.settings.totalQuestions,
+                  : scale
+                    ? SCALE_QUESTION_COUNT
+                    : room.settings.totalQuestions,
             supabaseAdmin,
             {
               // Votes and rankings are picked, never typed; two_truths topics
@@ -2321,9 +2366,11 @@ io.on(
                 !moreLikely &&
                 !rankIt &&
                 !twoTruths &&
+                !scale &&
                 room.players.every((p) => p.supportsTextQuestions === true),
               appUserIds: await roomAppUserIds(room),
               rankable: rankIt,
+              scalable: scale,
             },
           );
           const questions = twoTruths ? buildTwoTruthsRounds(fetched) : fetched;
@@ -2681,6 +2728,8 @@ io.on(
               playerAnswer = isMoreLikelyPick(answer) ? answer : NO_ANSWER;
             } else if (room.settings.mode === "rank_it") {
               playerAnswer = parseRanking(answer, rankItemCount(question)) ?? NO_ANSWER;
+            } else if (room.settings.mode === "scale") {
+              playerAnswer = parseScaleValue(answer) ?? NO_ANSWER;
             } else if (question.haveAnswers && question.answers) {
               // Only one of the question's own options is kept: anything else
               // would reach the partner as unmoderated free text.
@@ -3412,15 +3461,25 @@ io.on(
       }
     });
 
-    socket.on("ai-consent", async ({ roomCode, playerId }) => {
+    socket.on("ai-consent", async ({ roomCode, playerId, version }) => {
       try {
         if (typeof roomCode !== "string" || !roomCode) return;
+        // Older apps send no version: their text named only OpenAI.
+        const consentVersion =
+          typeof version === "number" &&
+          Number.isInteger(version) &&
+          version >= 1 &&
+          version <= CLAUDE_CONSENT_VERSION
+            ? version
+            : 1;
         const room = await roomManager.withRoomLock(roomCode, async () => {
           const current = await roomManager.getRoom(roomCode);
           const actorId = current && actingPlayerId(current, socket.id, playerId);
           const player = current?.players.find((p) => p.id === actorId);
-          if (!current || !player || player.aiConsent) return null;
+          if (!current || !player) return null;
+          if (player.aiConsent && (player.aiConsentVersion ?? 1) >= consentVersion) return null;
           player.aiConsent = true;
+          player.aiConsentVersion = consentVersion;
           await roomManager.updateRoom(current);
           return current;
         });
