@@ -2254,6 +2254,8 @@ io.on(
               code: supportsMode(player)
                 ? "PARTNER_UPDATE_REQUIRED"
                 : "UPDATE_REQUIRED",
+              // Tells the app to explain that this category needs an update.
+              reason: "category",
             });
             return;
           }
@@ -2408,6 +2410,7 @@ io.on(
               message:
                 "Please update the app from the store to play this category.",
               code: "UPDATE_REQUIRED",
+              reason: "category",
             });
             return;
           }

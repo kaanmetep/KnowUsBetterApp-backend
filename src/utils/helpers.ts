@@ -54,6 +54,8 @@ export interface ServerToClientEvents {
     balance?: number;
     /** DAILY_ANALYSIS_COOLDOWN / _PARTNER_COOLDOWN: when it opens again (ISO). */
     availableAt?: string;
+    /** UPDATE_REQUIRED / PARTNER_UPDATE_REQUIRED caused by the room's category. */
+    reason?: "category";
   }) => void;
   "critical-error": (data: { message: string; code?: string }) => void;
   "room-left": () => void;
