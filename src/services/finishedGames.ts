@@ -5,6 +5,7 @@ import { buildFinishedRounds } from "../utils/helpers.js";
 import { redis } from "../utils/redis.js";
 import { tallyTwoTruths } from "../utils/twoTruths.js";
 import { scaleGamePercentage, scaleGuesserScores } from "../utils/scale.js";
+import { drawGamePercentage, drawScores } from "../utils/draw.js";
 import { GameMode } from "./categoryService.js";
 
 /** Long enough to open the AI analysis after lingering on the results. */
@@ -23,6 +24,8 @@ export interface PlayerScore {
   caught?: number;
   /** two_truths only: how often the partner missed this player's lie. */
   fooled?: number;
+  /** draw only: the points this player's guesses brought the team. */
+  points?: number;
 }
 
 /**
@@ -36,6 +39,9 @@ export interface PlayerScore {
  * - two_truths: each player's points (`correct` = caught + fooled)
  * - scale: how close each player's guesses landed, as the guesser
  *   (`percent` = average closeness, `correct` = spot-on guesses)
+ * - draw: no winner, it's played as a team: each player's right guesses
+ *   (`correct` of `total`) and the points they brought (`points`); the team
+ *   score is the sum
  */
 export interface GameSummary {
   mode: GameMode;
@@ -161,6 +167,13 @@ export function summarizeGame(
     const players = knowMeWellScores(room);
     return { mode, players, winnerId: winnerBy(players, "percent") };
   }
+  if (mode === "draw") {
+    const players = drawScores(
+      room.players.map((player) => player.id),
+      room.completedRounds,
+    );
+    return { mode, players, winnerId: null };
+  }
   if (mode === "scale") {
     const players = scaleGuesserScores(
       room.players.map((player) => player.id),
@@ -186,6 +199,9 @@ export function getGamePercentage(room: Room): number {
     const caught = tallies.reduce((sum, t) => sum + t.caught, 0);
     const toCatch = tallies.reduce((sum, t) => sum + t.caught + t.fooled, 0);
     return percentOf(caught, toCatch);
+  }
+  if (room.settings.mode === "draw") {
+    return drawGamePercentage(room.completedRounds);
   }
   if (room.settings.mode === "scale") {
     return scaleGamePercentage(room.completedRounds);

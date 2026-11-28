@@ -115,7 +115,8 @@ export class RoomManager {
     supportsRankIt = false,
     supportsDailyAnalysis = false,
     supportsTwoTruths = false,
-    supportsScale = false
+    supportsScale = false,
+    supportsDraw = false
   ): Promise<Room> {
     const player: Player = {
       id: socketId,
@@ -131,6 +132,7 @@ export class RoomManager {
       supportsDailyAnalysis,
       supportsTwoTruths,
       supportsScale,
+      supportsDraw,
     };
 
     const room: Room = {
@@ -189,7 +191,8 @@ export class RoomManager {
     supportsRankIt = false,
     supportsDailyAnalysis = false,
     supportsTwoTruths = false,
-    supportsScale = false
+    supportsScale = false,
+    supportsDraw = false
   ): Promise<JoinRoomResult> {
     const roomKey = this.getRoomKey(roomCode);
     const roomData = await redis.get(roomKey);
@@ -234,6 +237,7 @@ export class RoomManager {
       supportsDailyAnalysis,
       supportsTwoTruths,
       supportsScale,
+      supportsDraw,
     };
 
     room.players.push(player);

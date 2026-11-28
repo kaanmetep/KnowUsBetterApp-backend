@@ -17,6 +17,7 @@ import {
 } from "../types.js";
 import { LANGS, type Lang } from "../languages.js";
 import { maskProfanity } from "./profanity.js";
+import { DRAW_GUESS_SECONDS, type DrawItReveal } from "./draw.js";
 import type { GameSummary } from "../services/finishedGames.js";
 import type { AiAnalysisUpdate } from "../services/sharedAnalysis.js";
 import type { DailyAnalysisReport } from "../services/dailyAnalysis.js";
@@ -54,6 +55,8 @@ export interface ServerToClientEvents {
     balance?: number;
     /** DAILY_ANALYSIS_COOLDOWN / _PARTNER_COOLDOWN: when it opens again (ISO). */
     availableAt?: string;
+    /** UPDATE_REQUIRED / PARTNER_UPDATE_REQUIRED caused by the room's category. */
+    reason?: "category";
   }) => void;
   "critical-error": (data: { message: string; code?: string }) => void;
   "room-left": () => void;
@@ -77,6 +80,8 @@ export interface ServerToClientEvents {
     similarity?: number;
     /** two_truths guess rounds only: each author's lie index. */
     lies?: Record<string, number>;
+    /** draw guess rounds only: the answers and each guesser's points. */
+    drawReveal?: DrawItReveal;
     displayDuration: number;
     playerAnswers: Array<{
       playerId: string;
@@ -242,6 +247,16 @@ export interface ClientToServerEvents {
     data: { roomCode: string; questionId: string },
     ack?: (result: { ok: boolean }) => void,
   ) => void;
+  /** draw: the word this player (or, on one phone, `playerId`) draws in the round on screen. */
+  "get-draw-word": (
+    data: { roomCode: string; questionId: string; playerId?: string },
+    ack?: (result: { ok: boolean; word?: MultiLanguageAnswer }) => void,
+  ) => void;
+  /** draw: the drawings behind round answers ("d:<id>"), by id. */
+  "get-drawings": (
+    data: { ids: string[] },
+    ack?: (result: { ok: boolean; drawings: Record<string, string> }) => void,
+  ) => void;
   "report-answer": (
     data: ReportAnswerData,
     ack?: (result: { success: boolean }) => void,
@@ -329,6 +344,14 @@ const RANK_RESULT_DISPLAY_DURATION = 10;
 const SCALE_QUESTION_DURATION = 20;
 // The two markers slide in one after the other before the verdict lands.
 const SCALE_RESULT_DISPLAY_DURATION = 7;
+// draw: a word to draw (the app has a "done" button for whoever finishes
+// early), then the partner's drawing to guess while it replays.
+const DRAW_DRAW_DURATION = 50;
+const DRAW_GUESS_DURATION = DRAW_GUESS_SECONDS;
+// Nothing to show after drawing; guessing starts right away.
+const DRAW_DRAW_RESULT_DURATION = 0;
+// Both drawings, both answers and the points.
+const DRAW_GUESS_RESULT_DURATION = 10;
 // Writing three statements takes a while; the reveal shows both players' three.
 const TWO_TRUTHS_WRITE_DURATION = 90;
 // The app shows no result for a write round; guessing starts right away.
@@ -416,6 +439,9 @@ export function getQuestionDuration(
 ): number {
   if (settings.mode === "rank_it") return RANK_QUESTION_DURATION;
   if (settings.mode === "scale") return SCALE_QUESTION_DURATION + readingSeconds(question);
+  if (settings.mode === "draw") {
+    return question?.drawIt?.phase === "guess" ? DRAW_GUESS_DURATION : DRAW_DRAW_DURATION;
+  }
   const phase = question?.twoTruths?.phase;
   if (phase === "write") return TWO_TRUTHS_WRITE_DURATION;
   if (phase === "guess") return TWO_TRUTHS_GUESS_DURATION;
@@ -450,6 +476,11 @@ export function getResultDisplayDuration(
 ): number {
   if (settings.mode === "rank_it") return RANK_RESULT_DISPLAY_DURATION;
   if (settings.mode === "scale") return SCALE_RESULT_DISPLAY_DURATION;
+  if (settings.mode === "draw") {
+    return question?.drawIt?.phase === "guess"
+      ? DRAW_GUESS_RESULT_DURATION
+      : DRAW_DRAW_RESULT_DURATION;
+  }
   const phase = question?.twoTruths?.phase;
   if (phase === "write") return TWO_TRUTHS_WRITE_RESULT_DURATION;
   if (phase === "guess") return TWO_TRUTHS_GUESS_RESULT_DURATION;

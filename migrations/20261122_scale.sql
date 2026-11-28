@@ -1,5 +1,5 @@
 -- "On a Scale" game mode: a new category group (= game mode) with two
--- categories, the regular one (free) and an "intimacy" one (2 coins).
+-- categories, the regular one and an "intimacy" one, 1 coin each (both 2026-11-24; started at free / 2).
 --
 -- How it plays: like know_each_other, every question is about one player,
 -- taking turns (even rounds player 1, odd rounds player 2). The subject drags
@@ -24,6 +24,7 @@
 -- build is live in the stores, make them normal for everyone; older builds
 -- then get UPDATE_REQUIRED when they start one:
 --   UPDATE public.categories SET coming_soon = false WHERE group_id = 'scale';
+-- Done on prod 2026-11-24, together with the 1-coin price above.
 -- Only app builds that send the "scale" client feature can play; older builds
 -- get UPDATE_REQUIRED when the game starts.
 --
@@ -59,7 +60,7 @@ INSERT INTO public.categories (
   '#DCEAF7',
   'sliders',
   'FontAwesome6',
-  0, false, true, NULL, 15, true,
+  1, true, true, NULL, 15, true,
   true
 ),
 (
@@ -69,7 +70,7 @@ INSERT INTO public.categories (
   '#C9DDF2',
   'temperature-high',
   'FontAwesome6',
-  2, true, true, 'intimacy', 16, true,
+  1, true, true, 'intimacy', 16, true,
   true
 )
 ON CONFLICT (id) DO UPDATE SET

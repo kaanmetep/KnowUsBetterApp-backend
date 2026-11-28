@@ -9,6 +9,7 @@ import { LANGS, QuestionAnswers, QuestionTexts } from "../languages.js";
 import { AnswerKey, parseAnswerKey } from "../utils/trivia.js";
 import { isRankable, RANK_IT_MAX_ITEMS, RANK_IT_MIN_ITEMS } from "../utils/rankIt.js";
 import { isScaleQuestion } from "../utils/scale.js";
+import { isDrawWord } from "../utils/draw.js";
 
 // Raw `correct_answer` per question id. Answer keys don't change during a game
 // and must not ride along on the room (it's sent to clients), so they live here.
@@ -215,6 +216,7 @@ export async function markQuestionsSeen(
  * @param options.appUserIds - the players; questions none of them has seen come first
  * @param options.rankable - keep only questions with RANK_IT_MIN_ITEMS-RANK_IT_MAX_ITEMS options (rank_it)
  * @param options.scalable - keep only questions with exactly two options, the slider's ends (scale)
+ * @param options.drawable - keep only words with their three look-alikes (draw)
  * @returns Array of questions
  */
 export async function fetchRandomQuestions(
@@ -226,6 +228,7 @@ export async function fetchRandomQuestions(
     appUserIds?: string[];
     rankable?: boolean;
     scalable?: boolean;
+    drawable?: boolean;
   } = {}
 ): Promise<Question[]> {
   if (!supabaseAdmin) {
@@ -315,7 +318,9 @@ export async function fetchRandomQuestions(
       ? shown.filter(isRankable)
       : options.scalable
         ? shown.filter(isScaleQuestion)
-        : shown;
+        : options.drawable
+          ? shown.filter(isDrawWord)
+          : shown;
     if (options.rankable && candidates.length < shown.length) {
       console.warn(
         `⚠️ ${shown.length - candidates.length} question(s) in rank category ${category} don't have ${RANK_IT_MIN_ITEMS}-${RANK_IT_MAX_ITEMS} options and were skipped`
