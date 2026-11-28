@@ -1,0 +1,3794 @@
+[
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Food",
+      "text_tr": "Yemek",
+      "text_es": "Comida",
+      "text_pt": "Comida",
+      "text_de": "Essen",
+      "text_it": "Cibo",
+      "text_pl": "Jedzenie",
+      "text_fr": "Nourriture",
+      "text_ja": "食べ物",
+      "text_nl": "Eten"
+    },
+    "answers": {
+      "answers_en": [
+        "pizza",
+        "cookie",
+        "pie",
+        "pancake"
+      ],
+      "answers_tr": [
+        "pizza",
+        "kurabiye",
+        "turta",
+        "pankek"
+      ],
+      "answers_es": [
+        "pizza",
+        "galleta",
+        "tarta",
+        "tortita"
+      ],
+      "answers_pt": [
+        "pizza",
+        "biscoito",
+        "torta",
+        "panqueca"
+      ],
+      "answers_de": [
+        "Pizza",
+        "Keks",
+        "Obstkuchen",
+        "Pfannkuchen"
+      ],
+      "answers_it": [
+        "pizza",
+        "biscotto",
+        "crostata",
+        "pancake"
+      ],
+      "answers_pl": [
+        "pizza",
+        "ciastko",
+        "tarta",
+        "naleśnik"
+      ],
+      "answers_fr": [
+        "pizza",
+        "biscuit",
+        "tarte",
+        "crêpe"
+      ],
+      "answers_ja": [
+        "ピザ",
+        "クッキー",
+        "パイ",
+        "パンケーキ"
+      ],
+      "answers_nl": [
+        "pizza",
+        "koekje",
+        "taart",
+        "pannenkoek"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Food",
+      "text_tr": "Yemek",
+      "text_es": "Comida",
+      "text_pt": "Comida",
+      "text_de": "Essen",
+      "text_it": "Cibo",
+      "text_pl": "Jedzenie",
+      "text_fr": "Nourriture",
+      "text_ja": "食べ物",
+      "text_nl": "Eten"
+    },
+    "answers": {
+      "answers_en": [
+        "hamburger",
+        "sandwich",
+        "macaron",
+        "cake"
+      ],
+      "answers_tr": [
+        "hamburger",
+        "sandviç",
+        "makaron",
+        "pasta"
+      ],
+      "answers_es": [
+        "hamburguesa",
+        "sándwich",
+        "macaron",
+        "pastel"
+      ],
+      "answers_pt": [
+        "hambúrguer",
+        "sanduíche",
+        "macaron",
+        "bolo"
+      ],
+      "answers_de": [
+        "Hamburger",
+        "Sandwich",
+        "Macaron",
+        "Torte"
+      ],
+      "answers_it": [
+        "hamburger",
+        "panino",
+        "macaron",
+        "torta"
+      ],
+      "answers_pl": [
+        "hamburger",
+        "kanapka",
+        "makaronik",
+        "tort"
+      ],
+      "answers_fr": [
+        "hamburger",
+        "sandwich",
+        "macaron",
+        "gâteau"
+      ],
+      "answers_ja": [
+        "ハンバーガー",
+        "サンドイッチ",
+        "マカロン",
+        "ケーキ"
+      ],
+      "answers_nl": [
+        "hamburger",
+        "broodje",
+        "macaron",
+        "taart"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Food",
+      "text_tr": "Yemek",
+      "text_es": "Comida",
+      "text_pt": "Comida",
+      "text_de": "Essen",
+      "text_it": "Cibo",
+      "text_pl": "Jedzenie",
+      "text_fr": "Nourriture",
+      "text_ja": "食べ物",
+      "text_nl": "Eten"
+    },
+    "answers": {
+      "answers_en": [
+        "ice cream cone",
+        "torch",
+        "carrot",
+        "microphone"
+      ],
+      "answers_tr": [
+        "dondurma",
+        "meşale",
+        "havuç",
+        "mikrofon"
+      ],
+      "answers_es": [
+        "helado",
+        "antorcha",
+        "zanahoria",
+        "micrófono"
+      ],
+      "answers_pt": [
+        "sorvete",
+        "tocha",
+        "cenoura",
+        "microfone"
+      ],
+      "answers_de": [
+        "Eistüte",
+        "Fackel",
+        "Karotte",
+        "Mikrofon"
+      ],
+      "answers_it": [
+        "cono gelato",
+        "torcia",
+        "carota",
+        "microfono"
+      ],
+      "answers_pl": [
+        "lody",
+        "pochodnia",
+        "marchewka",
+        "mikrofon"
+      ],
+      "answers_fr": [
+        "cornet de glace",
+        "torche",
+        "carotte",
+        "micro"
+      ],
+      "answers_ja": [
+        "ソフトクリーム",
+        "たいまつ",
+        "にんじん",
+        "マイク"
+      ],
+      "answers_nl": [
+        "ijsje",
+        "fakkel",
+        "wortel",
+        "microfoon"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Food",
+      "text_tr": "Yemek",
+      "text_es": "Comida",
+      "text_pt": "Comida",
+      "text_de": "Essen",
+      "text_it": "Cibo",
+      "text_pl": "Jedzenie",
+      "text_fr": "Nourriture",
+      "text_ja": "食べ物",
+      "text_nl": "Eten"
+    },
+    "answers": {
+      "answers_en": [
+        "banana",
+        "crescent moon",
+        "boomerang",
+        "canoe"
+      ],
+      "answers_tr": [
+        "muz",
+        "hilal",
+        "bumerang",
+        "kano"
+      ],
+      "answers_es": [
+        "plátano",
+        "luna creciente",
+        "bumerán",
+        "canoa"
+      ],
+      "answers_pt": [
+        "banana",
+        "lua crescente",
+        "bumerangue",
+        "canoa"
+      ],
+      "answers_de": [
+        "Banane",
+        "Mondsichel",
+        "Bumerang",
+        "Kanu"
+      ],
+      "answers_it": [
+        "banana",
+        "falce di luna",
+        "boomerang",
+        "canoa"
+      ],
+      "answers_pl": [
+        "banan",
+        "półksiężyc",
+        "bumerang",
+        "kanu"
+      ],
+      "answers_fr": [
+        "banane",
+        "croissant de lune",
+        "boomerang",
+        "canoë"
+      ],
+      "answers_ja": [
+        "バナナ",
+        "三日月",
+        "ブーメラン",
+        "カヌー"
+      ],
+      "answers_nl": [
+        "banaan",
+        "maansikkel",
+        "boemerang",
+        "kano"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Food",
+      "text_tr": "Yemek",
+      "text_es": "Comida",
+      "text_pt": "Comida",
+      "text_de": "Essen",
+      "text_it": "Cibo",
+      "text_pl": "Jedzenie",
+      "text_fr": "Nourriture",
+      "text_ja": "食べ物",
+      "text_nl": "Eten"
+    },
+    "answers": {
+      "answers_en": [
+        "watermelon",
+        "ball",
+        "planet",
+        "Christmas bauble"
+      ],
+      "answers_tr": [
+        "karpuz",
+        "top",
+        "gezegen",
+        "yılbaşı süsü"
+      ],
+      "answers_es": [
+        "sandía",
+        "pelota",
+        "planeta",
+        "bola de Navidad"
+      ],
+      "answers_pt": [
+        "melancia",
+        "bola",
+        "planeta",
+        "bola de Natal"
+      ],
+      "answers_de": [
+        "Wassermelone",
+        "Ball",
+        "Planet",
+        "Christbaumkugel"
+      ],
+      "answers_it": [
+        "anguria",
+        "palla",
+        "pianeta",
+        "pallina di Natale"
+      ],
+      "answers_pl": [
+        "arbuz",
+        "piłka",
+        "planeta",
+        "bombka"
+      ],
+      "answers_fr": [
+        "pastèque",
+        "ballon",
+        "planète",
+        "boule de Noël"
+      ],
+      "answers_ja": [
+        "スイカ",
+        "ボール",
+        "惑星",
+        "オーナメント"
+      ],
+      "answers_nl": [
+        "watermeloen",
+        "bal",
+        "planeet",
+        "kerstbal"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Food",
+      "text_tr": "Yemek",
+      "text_es": "Comida",
+      "text_pt": "Comida",
+      "text_de": "Essen",
+      "text_it": "Cibo",
+      "text_pl": "Jedzenie",
+      "text_fr": "Nourriture",
+      "text_ja": "食べ物",
+      "text_nl": "Eten"
+    },
+    "answers": {
+      "answers_en": [
+        "fried egg",
+        "daisy",
+        "sun",
+        "eye"
+      ],
+      "answers_tr": [
+        "sahanda yumurta",
+        "papatya",
+        "güneş",
+        "göz"
+      ],
+      "answers_es": [
+        "huevo frito",
+        "margarita",
+        "sol",
+        "ojo"
+      ],
+      "answers_pt": [
+        "ovo frito",
+        "margarida",
+        "sol",
+        "olho"
+      ],
+      "answers_de": [
+        "Spiegelei",
+        "Gänseblümchen",
+        "Sonne",
+        "Auge"
+      ],
+      "answers_it": [
+        "uovo fritto",
+        "margherita",
+        "sole",
+        "occhio"
+      ],
+      "answers_pl": [
+        "jajko sadzone",
+        "stokrotka",
+        "słońce",
+        "oko"
+      ],
+      "answers_fr": [
+        "œuf au plat",
+        "marguerite",
+        "soleil",
+        "œil"
+      ],
+      "answers_ja": [
+        "目玉焼き",
+        "ヒナギク",
+        "太陽",
+        "目"
+      ],
+      "answers_nl": [
+        "spiegelei",
+        "madeliefje",
+        "zon",
+        "oog"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Food",
+      "text_tr": "Yemek",
+      "text_es": "Comida",
+      "text_pt": "Comida",
+      "text_de": "Essen",
+      "text_it": "Cibo",
+      "text_pl": "Jedzenie",
+      "text_fr": "Nourriture",
+      "text_ja": "食べ物",
+      "text_nl": "Eten"
+    },
+    "answers": {
+      "answers_en": [
+        "cup of coffee",
+        "bowl of soup",
+        "teapot",
+        "flower pot"
+      ],
+      "answers_tr": [
+        "kahve fincanı",
+        "çorba kâsesi",
+        "demlik",
+        "saksı"
+      ],
+      "answers_es": [
+        "taza de café",
+        "plato de sopa",
+        "tetera",
+        "maceta"
+      ],
+      "answers_pt": [
+        "xícara de café",
+        "tigela de sopa",
+        "bule",
+        "vaso de planta"
+      ],
+      "answers_de": [
+        "Kaffeetasse",
+        "Suppenschüssel",
+        "Teekanne",
+        "Blumentopf"
+      ],
+      "answers_it": [
+        "tazzina di caffè",
+        "scodella di zuppa",
+        "teiera",
+        "vaso da fiori"
+      ],
+      "answers_pl": [
+        "filiżanka kawy",
+        "miska zupy",
+        "czajniczek",
+        "doniczka"
+      ],
+      "answers_fr": [
+        "tasse de café",
+        "bol de soupe",
+        "théière",
+        "pot de fleurs"
+      ],
+      "answers_ja": [
+        "コーヒーカップ",
+        "スープ皿",
+        "ティーポット",
+        "植木鉢"
+      ],
+      "answers_nl": [
+        "koffiekopje",
+        "soepkom",
+        "theepot",
+        "bloempot"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Food",
+      "text_tr": "Yemek",
+      "text_es": "Comida",
+      "text_pt": "Comida",
+      "text_de": "Essen",
+      "text_it": "Cibo",
+      "text_pl": "Jedzenie",
+      "text_fr": "Nourriture",
+      "text_ja": "食べ物",
+      "text_nl": "Eten"
+    },
+    "answers": {
+      "answers_en": [
+        "spaghetti",
+        "ball of yarn",
+        "worms",
+        "messy hair"
+      ],
+      "answers_tr": [
+        "spagetti",
+        "yün yumağı",
+        "solucanlar",
+        "dağınık saç"
+      ],
+      "answers_es": [
+        "espaguetis",
+        "ovillo de lana",
+        "gusanos",
+        "pelo despeinado"
+      ],
+      "answers_pt": [
+        "espaguete",
+        "novelo de lã",
+        "minhocas",
+        "cabelo bagunçado"
+      ],
+      "answers_de": [
+        "Spaghetti",
+        "Wollknäuel",
+        "Würmer",
+        "Strubbelhaar"
+      ],
+      "answers_it": [
+        "spaghetti",
+        "gomitolo",
+        "vermi",
+        "capelli arruffati"
+      ],
+      "answers_pl": [
+        "spaghetti",
+        "kłębek wełny",
+        "robaki",
+        "potargane włosy"
+      ],
+      "answers_fr": [
+        "spaghettis",
+        "pelote de laine",
+        "vers de terre",
+        "cheveux en bataille"
+      ],
+      "answers_ja": [
+        "スパゲッティ",
+        "毛糸玉",
+        "ミミズ",
+        "ボサボサ髪"
+      ],
+      "answers_nl": [
+        "spaghetti",
+        "bol wol",
+        "wormen",
+        "warrig haar"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Animals",
+      "text_tr": "Hayvanlar",
+      "text_es": "Animales",
+      "text_pt": "Animais",
+      "text_de": "Tiere",
+      "text_it": "Animali",
+      "text_pl": "Zwierzęta",
+      "text_fr": "Animaux",
+      "text_ja": "動物",
+      "text_nl": "Dieren"
+    },
+    "answers": {
+      "answers_en": [
+        "cat",
+        "fox",
+        "owl",
+        "raccoon"
+      ],
+      "answers_tr": [
+        "kedi",
+        "tilki",
+        "baykuş",
+        "rakun"
+      ],
+      "answers_es": [
+        "gato",
+        "zorro",
+        "búho",
+        "mapache"
+      ],
+      "answers_pt": [
+        "gato",
+        "raposa",
+        "coruja",
+        "guaxinim"
+      ],
+      "answers_de": [
+        "Katze",
+        "Fuchs",
+        "Eule",
+        "Waschbär"
+      ],
+      "answers_it": [
+        "gatto",
+        "volpe",
+        "gufo",
+        "procione"
+      ],
+      "answers_pl": [
+        "kot",
+        "lis",
+        "sowa",
+        "szop"
+      ],
+      "answers_fr": [
+        "chat",
+        "renard",
+        "hibou",
+        "raton laveur"
+      ],
+      "answers_ja": [
+        "ネコ",
+        "キツネ",
+        "フクロウ",
+        "アライグマ"
+      ],
+      "answers_nl": [
+        "kat",
+        "vos",
+        "uil",
+        "wasbeer"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Animals",
+      "text_tr": "Hayvanlar",
+      "text_es": "Animales",
+      "text_pt": "Animais",
+      "text_de": "Tiere",
+      "text_it": "Animali",
+      "text_pl": "Zwierzęta",
+      "text_fr": "Animaux",
+      "text_ja": "動物",
+      "text_nl": "Dieren"
+    },
+    "answers": {
+      "answers_en": [
+        "snake",
+        "rope",
+        "river",
+        "shoelace"
+      ],
+      "answers_tr": [
+        "yılan",
+        "ip",
+        "nehir",
+        "ayakkabı bağı"
+      ],
+      "answers_es": [
+        "serpiente",
+        "cuerda",
+        "río",
+        "cordón"
+      ],
+      "answers_pt": [
+        "cobra",
+        "corda",
+        "rio",
+        "cadarço"
+      ],
+      "answers_de": [
+        "Schlange",
+        "Seil",
+        "Fluss",
+        "Schnürsenkel"
+      ],
+      "answers_it": [
+        "serpente",
+        "corda",
+        "fiume",
+        "laccio"
+      ],
+      "answers_pl": [
+        "wąż",
+        "lina",
+        "rzeka",
+        "sznurówka"
+      ],
+      "answers_fr": [
+        "serpent",
+        "corde",
+        "rivière",
+        "lacet"
+      ],
+      "answers_ja": [
+        "ヘビ",
+        "ロープ",
+        "川",
+        "靴ひも"
+      ],
+      "answers_nl": [
+        "slang",
+        "touw",
+        "rivier",
+        "veter"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Animals",
+      "text_tr": "Hayvanlar",
+      "text_es": "Animales",
+      "text_pt": "Animais",
+      "text_de": "Tiere",
+      "text_it": "Animali",
+      "text_pl": "Zwierzęta",
+      "text_fr": "Animaux",
+      "text_ja": "動物",
+      "text_nl": "Dieren"
+    },
+    "answers": {
+      "answers_en": [
+        "fish",
+        "whale",
+        "submarine",
+        "leaf"
+      ],
+      "answers_tr": [
+        "balık",
+        "balina",
+        "denizaltı",
+        "yaprak"
+      ],
+      "answers_es": [
+        "pez",
+        "ballena",
+        "submarino",
+        "hoja"
+      ],
+      "answers_pt": [
+        "peixe",
+        "baleia",
+        "submarino",
+        "folha"
+      ],
+      "answers_de": [
+        "Fisch",
+        "Wal",
+        "U-Boot",
+        "Blatt"
+      ],
+      "answers_it": [
+        "pesce",
+        "balena",
+        "sottomarino",
+        "foglia"
+      ],
+      "answers_pl": [
+        "ryba",
+        "wieloryb",
+        "łódź podwodna",
+        "liść"
+      ],
+      "answers_fr": [
+        "poisson",
+        "baleine",
+        "sous-marin",
+        "feuille"
+      ],
+      "answers_ja": [
+        "魚",
+        "クジラ",
+        "潜水艦",
+        "葉っぱ"
+      ],
+      "answers_nl": [
+        "vis",
+        "walvis",
+        "onderzeeër",
+        "blad"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Animals",
+      "text_tr": "Hayvanlar",
+      "text_es": "Animales",
+      "text_pt": "Animais",
+      "text_de": "Tiere",
+      "text_it": "Animali",
+      "text_pl": "Zwierzęta",
+      "text_fr": "Animaux",
+      "text_ja": "動物",
+      "text_nl": "Dieren"
+    },
+    "answers": {
+      "answers_en": [
+        "rabbit",
+        "mouse",
+        "kangaroo",
+        "squirrel"
+      ],
+      "answers_tr": [
+        "tavşan",
+        "fare",
+        "kanguru",
+        "sincap"
+      ],
+      "answers_es": [
+        "conejo",
+        "ratón",
+        "canguro",
+        "ardilla"
+      ],
+      "answers_pt": [
+        "coelho",
+        "rato",
+        "canguru",
+        "esquilo"
+      ],
+      "answers_de": [
+        "Hase",
+        "Maus",
+        "Känguru",
+        "Eichhörnchen"
+      ],
+      "answers_it": [
+        "coniglio",
+        "topo",
+        "canguro",
+        "scoiattolo"
+      ],
+      "answers_pl": [
+        "królik",
+        "mysz",
+        "kangur",
+        "wiewiórka"
+      ],
+      "answers_fr": [
+        "lapin",
+        "souris",
+        "kangourou",
+        "écureuil"
+      ],
+      "answers_ja": [
+        "ウサギ",
+        "ネズミ",
+        "カンガルー",
+        "リス"
+      ],
+      "answers_nl": [
+        "konijn",
+        "muis",
+        "kangoeroe",
+        "eekhoorn"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Animals",
+      "text_tr": "Hayvanlar",
+      "text_es": "Animales",
+      "text_pt": "Animais",
+      "text_de": "Tiere",
+      "text_it": "Animali",
+      "text_pl": "Zwierzęta",
+      "text_fr": "Animaux",
+      "text_ja": "動物",
+      "text_nl": "Dieren"
+    },
+    "answers": {
+      "answers_en": [
+        "penguin",
+        "bowling pin",
+        "duck",
+        "waiter"
+      ],
+      "answers_tr": [
+        "penguen",
+        "lobut",
+        "ördek",
+        "garson"
+      ],
+      "answers_es": [
+        "pingüino",
+        "bolo",
+        "pato",
+        "camarero"
+      ],
+      "answers_pt": [
+        "pinguim",
+        "pino de boliche",
+        "pato",
+        "garçom"
+      ],
+      "answers_de": [
+        "Pinguin",
+        "Kegel",
+        "Ente",
+        "Kellner"
+      ],
+      "answers_it": [
+        "pinguino",
+        "birillo",
+        "anatra",
+        "cameriere"
+      ],
+      "answers_pl": [
+        "pingwin",
+        "kręgiel",
+        "kaczka",
+        "kelner"
+      ],
+      "answers_fr": [
+        "pingouin",
+        "quille",
+        "canard",
+        "serveur"
+      ],
+      "answers_ja": [
+        "ペンギン",
+        "ボウリングのピン",
+        "アヒル",
+        "ウェイター"
+      ],
+      "answers_nl": [
+        "pinguïn",
+        "kegel",
+        "eend",
+        "ober"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Animals",
+      "text_tr": "Hayvanlar",
+      "text_es": "Animales",
+      "text_pt": "Animais",
+      "text_de": "Tiere",
+      "text_it": "Animali",
+      "text_pl": "Zwierzęta",
+      "text_fr": "Animaux",
+      "text_ja": "動物",
+      "text_nl": "Dieren"
+    },
+    "answers": {
+      "answers_en": [
+        "giraffe",
+        "camel",
+        "crane",
+        "deer"
+      ],
+      "answers_tr": [
+        "zürafa",
+        "deve",
+        "vinç",
+        "geyik"
+      ],
+      "answers_es": [
+        "jirafa",
+        "camello",
+        "grúa",
+        "ciervo"
+      ],
+      "answers_pt": [
+        "girafa",
+        "camelo",
+        "guindaste",
+        "cervo"
+      ],
+      "answers_de": [
+        "Giraffe",
+        "Kamel",
+        "Kran",
+        "Hirsch"
+      ],
+      "answers_it": [
+        "giraffa",
+        "cammello",
+        "gru",
+        "cervo"
+      ],
+      "answers_pl": [
+        "żyrafa",
+        "wielbłąd",
+        "dźwig",
+        "jeleń"
+      ],
+      "answers_fr": [
+        "girafe",
+        "chameau",
+        "grue",
+        "cerf"
+      ],
+      "answers_ja": [
+        "キリン",
+        "ラクダ",
+        "クレーン",
+        "シカ"
+      ],
+      "answers_nl": [
+        "giraf",
+        "kameel",
+        "kraan",
+        "hert"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Animals",
+      "text_tr": "Hayvanlar",
+      "text_es": "Animales",
+      "text_pt": "Animais",
+      "text_de": "Tiere",
+      "text_it": "Animali",
+      "text_pl": "Zwierzęta",
+      "text_fr": "Animaux",
+      "text_ja": "動物",
+      "text_nl": "Dieren"
+    },
+    "answers": {
+      "answers_en": [
+        "spider",
+        "octopus",
+        "crab",
+        "chandelier"
+      ],
+      "answers_tr": [
+        "örümcek",
+        "ahtapot",
+        "yengeç",
+        "avize"
+      ],
+      "answers_es": [
+        "araña",
+        "pulpo",
+        "cangrejo",
+        "candelabro"
+      ],
+      "answers_pt": [
+        "aranha",
+        "polvo",
+        "caranguejo",
+        "lustre"
+      ],
+      "answers_de": [
+        "Spinne",
+        "Krake",
+        "Krabbe",
+        "Kronleuchter"
+      ],
+      "answers_it": [
+        "ragno",
+        "polpo",
+        "granchio",
+        "lampadario"
+      ],
+      "answers_pl": [
+        "pająk",
+        "ośmiornica",
+        "krab",
+        "żyrandol"
+      ],
+      "answers_fr": [
+        "araignée",
+        "pieuvre",
+        "crabe",
+        "lustre"
+      ],
+      "answers_ja": [
+        "クモ",
+        "タコ",
+        "カニ",
+        "シャンデリア"
+      ],
+      "answers_nl": [
+        "spin",
+        "octopus",
+        "krab",
+        "kroonluchter"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Animals",
+      "text_tr": "Hayvanlar",
+      "text_es": "Animales",
+      "text_pt": "Animais",
+      "text_de": "Tiere",
+      "text_it": "Animali",
+      "text_pl": "Zwierzęta",
+      "text_fr": "Animaux",
+      "text_ja": "動物",
+      "text_nl": "Dieren"
+    },
+    "answers": {
+      "answers_en": [
+        "turtle",
+        "snail",
+        "ladybug",
+        "helmet"
+      ],
+      "answers_tr": [
+        "kaplumbağa",
+        "salyangoz",
+        "uğur böceği",
+        "kask"
+      ],
+      "answers_es": [
+        "tortuga",
+        "caracol",
+        "mariquita",
+        "casco"
+      ],
+      "answers_pt": [
+        "tartaruga",
+        "caracol",
+        "joaninha",
+        "capacete"
+      ],
+      "answers_de": [
+        "Schildkröte",
+        "Schnecke",
+        "Marienkäfer",
+        "Helm"
+      ],
+      "answers_it": [
+        "tartaruga",
+        "lumaca",
+        "coccinella",
+        "casco"
+      ],
+      "answers_pl": [
+        "żółw",
+        "ślimak",
+        "biedronka",
+        "kask"
+      ],
+      "answers_fr": [
+        "tortue",
+        "escargot",
+        "coccinelle",
+        "casque"
+      ],
+      "answers_ja": [
+        "カメ",
+        "カタツムリ",
+        "テントウムシ",
+        "ヘルメット"
+      ],
+      "answers_nl": [
+        "schildpad",
+        "slak",
+        "lieveheersbeestje",
+        "helm"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Animals",
+      "text_tr": "Hayvanlar",
+      "text_es": "Animales",
+      "text_pt": "Animais",
+      "text_de": "Tiere",
+      "text_it": "Animali",
+      "text_pl": "Zwierzęta",
+      "text_fr": "Animaux",
+      "text_ja": "動物",
+      "text_nl": "Dieren"
+    },
+    "answers": {
+      "answers_en": [
+        "butterfly",
+        "wrapped candy",
+        "bee",
+        "flower"
+      ],
+      "answers_tr": [
+        "kelebek",
+        "şeker",
+        "arı",
+        "çiçek"
+      ],
+      "answers_es": [
+        "mariposa",
+        "caramelo",
+        "abeja",
+        "flor"
+      ],
+      "answers_pt": [
+        "borboleta",
+        "bala",
+        "abelha",
+        "flor"
+      ],
+      "answers_de": [
+        "Schmetterling",
+        "Bonbon",
+        "Biene",
+        "Blume"
+      ],
+      "answers_it": [
+        "farfalla",
+        "caramella",
+        "ape",
+        "fiore"
+      ],
+      "answers_pl": [
+        "motyl",
+        "cukierek",
+        "pszczoła",
+        "kwiat"
+      ],
+      "answers_fr": [
+        "papillon",
+        "bonbon",
+        "abeille",
+        "fleur"
+      ],
+      "answers_ja": [
+        "チョウ",
+        "キャンディ",
+        "ハチ",
+        "花"
+      ],
+      "answers_nl": [
+        "vlinder",
+        "snoepje",
+        "bij",
+        "bloem"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Animals",
+      "text_tr": "Hayvanlar",
+      "text_es": "Animales",
+      "text_pt": "Animais",
+      "text_de": "Tiere",
+      "text_it": "Animali",
+      "text_pl": "Zwierzęta",
+      "text_fr": "Animaux",
+      "text_ja": "動物",
+      "text_nl": "Dieren"
+    },
+    "answers": {
+      "answers_en": [
+        "elephant",
+        "mammoth",
+        "watering can",
+        "hippo"
+      ],
+      "answers_tr": [
+        "fil",
+        "mamut",
+        "sulama kabı",
+        "su aygırı"
+      ],
+      "answers_es": [
+        "elefante",
+        "mamut",
+        "regadera",
+        "hipopótamo"
+      ],
+      "answers_pt": [
+        "elefante",
+        "mamute",
+        "regador",
+        "hipopótamo"
+      ],
+      "answers_de": [
+        "Elefant",
+        "Mammut",
+        "Gießkanne",
+        "Nilpferd"
+      ],
+      "answers_it": [
+        "elefante",
+        "mammut",
+        "annaffiatoio",
+        "ippopotamo"
+      ],
+      "answers_pl": [
+        "słoń",
+        "mamut",
+        "konewka",
+        "hipopotam"
+      ],
+      "answers_fr": [
+        "éléphant",
+        "mammouth",
+        "arrosoir",
+        "hippopotame"
+      ],
+      "answers_ja": [
+        "ゾウ",
+        "マンモス",
+        "じょうろ",
+        "カバ"
+      ],
+      "answers_nl": [
+        "olifant",
+        "mammoet",
+        "gieter",
+        "nijlpaard"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "At home",
+      "text_tr": "Evde",
+      "text_es": "En casa",
+      "text_pt": "Em casa",
+      "text_de": "Zu Hause",
+      "text_it": "In casa",
+      "text_pl": "W domu",
+      "text_fr": "À la maison",
+      "text_ja": "家の中",
+      "text_nl": "Thuis"
+    },
+    "answers": {
+      "answers_en": [
+        "bed",
+        "sofa",
+        "bathtub",
+        "table"
+      ],
+      "answers_tr": [
+        "yatak",
+        "kanepe",
+        "küvet",
+        "masa"
+      ],
+      "answers_es": [
+        "cama",
+        "sofá",
+        "bañera",
+        "mesa"
+      ],
+      "answers_pt": [
+        "cama",
+        "sofá",
+        "banheira",
+        "mesa"
+      ],
+      "answers_de": [
+        "Bett",
+        "Sofa",
+        "Badewanne",
+        "Tisch"
+      ],
+      "answers_it": [
+        "letto",
+        "divano",
+        "vasca da bagno",
+        "tavolo"
+      ],
+      "answers_pl": [
+        "łóżko",
+        "kanapa",
+        "wanna",
+        "stół"
+      ],
+      "answers_fr": [
+        "lit",
+        "canapé",
+        "baignoire",
+        "table"
+      ],
+      "answers_ja": [
+        "ベッド",
+        "ソファ",
+        "浴槽",
+        "テーブル"
+      ],
+      "answers_nl": [
+        "bed",
+        "bank",
+        "bad",
+        "tafel"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "At home",
+      "text_tr": "Evde",
+      "text_es": "En casa",
+      "text_pt": "Em casa",
+      "text_de": "Zu Hause",
+      "text_it": "In casa",
+      "text_pl": "W domu",
+      "text_fr": "À la maison",
+      "text_ja": "家の中",
+      "text_nl": "Thuis"
+    },
+    "answers": {
+      "answers_en": [
+        "umbrella",
+        "mushroom",
+        "lamp",
+        "jellyfish"
+      ],
+      "answers_tr": [
+        "şemsiye",
+        "mantar",
+        "abajur",
+        "denizanası"
+      ],
+      "answers_es": [
+        "paraguas",
+        "seta",
+        "lámpara",
+        "medusa"
+      ],
+      "answers_pt": [
+        "guarda-chuva",
+        "cogumelo",
+        "abajur",
+        "água-viva"
+      ],
+      "answers_de": [
+        "Regenschirm",
+        "Pilz",
+        "Lampe",
+        "Qualle"
+      ],
+      "answers_it": [
+        "ombrello",
+        "fungo",
+        "lampada",
+        "medusa"
+      ],
+      "answers_pl": [
+        "parasol",
+        "grzyb",
+        "lampa",
+        "meduza"
+      ],
+      "answers_fr": [
+        "parapluie",
+        "champignon",
+        "lampe",
+        "méduse"
+      ],
+      "answers_ja": [
+        "傘",
+        "キノコ",
+        "ランプ",
+        "クラゲ"
+      ],
+      "answers_nl": [
+        "paraplu",
+        "paddenstoel",
+        "lamp",
+        "kwal"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "At home",
+      "text_tr": "Evde",
+      "text_es": "En casa",
+      "text_pt": "Em casa",
+      "text_de": "Zu Hause",
+      "text_it": "In casa",
+      "text_pl": "W domu",
+      "text_fr": "À la maison",
+      "text_ja": "家の中",
+      "text_nl": "Thuis"
+    },
+    "answers": {
+      "answers_en": [
+        "toothbrush",
+        "comb",
+        "broom",
+        "fork"
+      ],
+      "answers_tr": [
+        "diş fırçası",
+        "tarak",
+        "süpürge",
+        "çatal"
+      ],
+      "answers_es": [
+        "cepillo de dientes",
+        "peine",
+        "escoba",
+        "tenedor"
+      ],
+      "answers_pt": [
+        "escova de dentes",
+        "pente",
+        "vassoura",
+        "garfo"
+      ],
+      "answers_de": [
+        "Zahnbürste",
+        "Kamm",
+        "Besen",
+        "Gabel"
+      ],
+      "answers_it": [
+        "spazzolino",
+        "pettine",
+        "scopa",
+        "forchetta"
+      ],
+      "answers_pl": [
+        "szczoteczka",
+        "grzebień",
+        "miotła",
+        "widelec"
+      ],
+      "answers_fr": [
+        "brosse à dents",
+        "peigne",
+        "balai",
+        "fourchette"
+      ],
+      "answers_ja": [
+        "歯ブラシ",
+        "くし",
+        "ほうき",
+        "フォーク"
+      ],
+      "answers_nl": [
+        "tandenborstel",
+        "kam",
+        "bezem",
+        "vork"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "At home",
+      "text_tr": "Evde",
+      "text_es": "En casa",
+      "text_pt": "Em casa",
+      "text_de": "Zu Hause",
+      "text_it": "In casa",
+      "text_pl": "W domu",
+      "text_fr": "À la maison",
+      "text_ja": "家の中",
+      "text_nl": "Thuis"
+    },
+    "answers": {
+      "answers_en": [
+        "key",
+        "spoon",
+        "sword",
+        "magnifying glass"
+      ],
+      "answers_tr": [
+        "anahtar",
+        "kaşık",
+        "kılıç",
+        "büyüteç"
+      ],
+      "answers_es": [
+        "llave",
+        "cuchara",
+        "espada",
+        "lupa"
+      ],
+      "answers_pt": [
+        "chave",
+        "colher",
+        "espada",
+        "lupa"
+      ],
+      "answers_de": [
+        "Schlüssel",
+        "Löffel",
+        "Schwert",
+        "Lupe"
+      ],
+      "answers_it": [
+        "chiave",
+        "cucchiaio",
+        "spada",
+        "lente"
+      ],
+      "answers_pl": [
+        "klucz",
+        "łyżka",
+        "miecz",
+        "lupa"
+      ],
+      "answers_fr": [
+        "clé",
+        "cuillère",
+        "épée",
+        "loupe"
+      ],
+      "answers_ja": [
+        "鍵",
+        "スプーン",
+        "剣",
+        "虫めがね"
+      ],
+      "answers_nl": [
+        "sleutel",
+        "lepel",
+        "zwaard",
+        "vergrootglas"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "At home",
+      "text_tr": "Evde",
+      "text_es": "En casa",
+      "text_pt": "Em casa",
+      "text_de": "Zu Hause",
+      "text_it": "In casa",
+      "text_pl": "W domu",
+      "text_fr": "À la maison",
+      "text_ja": "家の中",
+      "text_nl": "Thuis"
+    },
+    "answers": {
+      "answers_en": [
+        "phone",
+        "TV remote",
+        "calculator",
+        "chocolate bar"
+      ],
+      "answers_tr": [
+        "telefon",
+        "kumanda",
+        "hesap makinesi",
+        "çikolata"
+      ],
+      "answers_es": [
+        "móvil",
+        "mando",
+        "calculadora",
+        "tableta de chocolate"
+      ],
+      "answers_pt": [
+        "celular",
+        "controle remoto",
+        "calculadora",
+        "barra de chocolate"
+      ],
+      "answers_de": [
+        "Handy",
+        "Fernbedienung",
+        "Taschenrechner",
+        "Tafel Schokolade"
+      ],
+      "answers_it": [
+        "cellulare",
+        "telecomando",
+        "calcolatrice",
+        "cioccolato"
+      ],
+      "answers_pl": [
+        "telefon",
+        "pilot",
+        "kalkulator",
+        "tabliczka czekolady"
+      ],
+      "answers_fr": [
+        "téléphone",
+        "télécommande",
+        "calculatrice",
+        "tablette de chocolat"
+      ],
+      "answers_ja": [
+        "スマホ",
+        "リモコン",
+        "電卓",
+        "板チョコ"
+      ],
+      "answers_nl": [
+        "telefoon",
+        "afstandsbediening",
+        "rekenmachine",
+        "chocoladereep"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "At home",
+      "text_tr": "Evde",
+      "text_es": "En casa",
+      "text_pt": "Em casa",
+      "text_de": "Zu Hause",
+      "text_it": "In casa",
+      "text_pl": "W domu",
+      "text_fr": "À la maison",
+      "text_ja": "家の中",
+      "text_nl": "Thuis"
+    },
+    "answers": {
+      "answers_en": [
+        "glasses",
+        "bicycle",
+        "binoculars",
+        "handcuffs"
+      ],
+      "answers_tr": [
+        "gözlük",
+        "bisiklet",
+        "dürbün",
+        "kelepçe"
+      ],
+      "answers_es": [
+        "gafas",
+        "bicicleta",
+        "prismáticos",
+        "esposas"
+      ],
+      "answers_pt": [
+        "óculos",
+        "bicicleta",
+        "binóculo",
+        "algemas"
+      ],
+      "answers_de": [
+        "Brille",
+        "Fahrrad",
+        "Fernglas",
+        "Handschellen"
+      ],
+      "answers_it": [
+        "occhiali",
+        "bicicletta",
+        "binocolo",
+        "manette"
+      ],
+      "answers_pl": [
+        "okulary",
+        "rower",
+        "lornetka",
+        "kajdanki"
+      ],
+      "answers_fr": [
+        "lunettes",
+        "vélo",
+        "jumelles",
+        "menottes"
+      ],
+      "answers_ja": [
+        "メガネ",
+        "自転車",
+        "双眼鏡",
+        "手錠"
+      ],
+      "answers_nl": [
+        "bril",
+        "fiets",
+        "verrekijker",
+        "handboeien"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "At home",
+      "text_tr": "Evde",
+      "text_es": "En casa",
+      "text_pt": "Em casa",
+      "text_de": "Zu Hause",
+      "text_it": "In casa",
+      "text_pl": "W domu",
+      "text_fr": "À la maison",
+      "text_ja": "家の中",
+      "text_nl": "Thuis"
+    },
+    "answers": {
+      "answers_en": [
+        "clock",
+        "compass",
+        "plate",
+        "steering wheel"
+      ],
+      "answers_tr": [
+        "duvar saati",
+        "pusula",
+        "tabak",
+        "direksiyon"
+      ],
+      "answers_es": [
+        "reloj",
+        "brújula",
+        "plato",
+        "volante"
+      ],
+      "answers_pt": [
+        "relógio",
+        "bússola",
+        "prato",
+        "volante"
+      ],
+      "answers_de": [
+        "Uhr",
+        "Kompass",
+        "Teller",
+        "Lenkrad"
+      ],
+      "answers_it": [
+        "orologio",
+        "bussola",
+        "piatto",
+        "volante"
+      ],
+      "answers_pl": [
+        "zegar",
+        "kompas",
+        "talerz",
+        "kierownica"
+      ],
+      "answers_fr": [
+        "horloge",
+        "boussole",
+        "assiette",
+        "volant"
+      ],
+      "answers_ja": [
+        "時計",
+        "方位磁石",
+        "お皿",
+        "ハンドル"
+      ],
+      "answers_nl": [
+        "klok",
+        "kompas",
+        "bord",
+        "stuur"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "At home",
+      "text_tr": "Evde",
+      "text_es": "En casa",
+      "text_pt": "Em casa",
+      "text_de": "Zu Hause",
+      "text_it": "In casa",
+      "text_pl": "W domu",
+      "text_fr": "À la maison",
+      "text_ja": "家の中",
+      "text_nl": "Thuis"
+    },
+    "answers": {
+      "answers_en": [
+        "sock",
+        "boot",
+        "hockey stick",
+        "leg"
+      ],
+      "answers_tr": [
+        "çorap",
+        "çizme",
+        "hokey sopası",
+        "bacak"
+      ],
+      "answers_es": [
+        "calcetín",
+        "bota",
+        "palo de hockey",
+        "pierna"
+      ],
+      "answers_pt": [
+        "meia",
+        "bota",
+        "taco de hóquei",
+        "perna"
+      ],
+      "answers_de": [
+        "Socke",
+        "Stiefel",
+        "Hockeyschläger",
+        "Bein"
+      ],
+      "answers_it": [
+        "calzino",
+        "stivale",
+        "mazza da hockey",
+        "gamba"
+      ],
+      "answers_pl": [
+        "skarpetka",
+        "kozak",
+        "kij hokejowy",
+        "noga"
+      ],
+      "answers_fr": [
+        "chaussette",
+        "botte",
+        "crosse de hockey",
+        "jambe"
+      ],
+      "answers_ja": [
+        "靴下",
+        "ブーツ",
+        "ホッケースティック",
+        "足"
+      ],
+      "answers_nl": [
+        "sok",
+        "laars",
+        "hockeystick",
+        "been"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "At home",
+      "text_tr": "Evde",
+      "text_es": "En casa",
+      "text_pt": "Em casa",
+      "text_de": "Zu Hause",
+      "text_it": "In casa",
+      "text_pl": "W domu",
+      "text_fr": "À la maison",
+      "text_ja": "家の中",
+      "text_nl": "Thuis"
+    },
+    "answers": {
+      "answers_en": [
+        "party hat",
+        "traffic cone",
+        "Christmas tree",
+        "funnel"
+      ],
+      "answers_tr": [
+        "parti şapkası",
+        "trafik konisi",
+        "yılbaşı ağacı",
+        "huni"
+      ],
+      "answers_es": [
+        "gorro de fiesta",
+        "cono",
+        "árbol de Navidad",
+        "embudo"
+      ],
+      "answers_pt": [
+        "chapéu de festa",
+        "cone",
+        "árvore de Natal",
+        "funil"
+      ],
+      "answers_de": [
+        "Partyhut",
+        "Leitkegel",
+        "Tannenbaum",
+        "Trichter"
+      ],
+      "answers_it": [
+        "cappellino da festa",
+        "cono stradale",
+        "albero di Natale",
+        "imbuto"
+      ],
+      "answers_pl": [
+        "czapeczka",
+        "pachołek",
+        "choinka",
+        "lejek"
+      ],
+      "answers_fr": [
+        "chapeau de fête",
+        "cône",
+        "sapin de Noël",
+        "entonnoir"
+      ],
+      "answers_ja": [
+        "パーティー帽",
+        "カラーコーン",
+        "クリスマスツリー",
+        "じょうご"
+      ],
+      "answers_nl": [
+        "feesthoedje",
+        "pion",
+        "kerstboom",
+        "trechter"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Travel",
+      "text_tr": "Seyahat",
+      "text_es": "Viajes",
+      "text_pt": "Viagem",
+      "text_de": "Reisen",
+      "text_it": "Viaggi",
+      "text_pl": "Podróże",
+      "text_fr": "Voyage",
+      "text_ja": "旅行",
+      "text_nl": "Reizen"
+    },
+    "answers": {
+      "answers_en": [
+        "airplane",
+        "bird",
+        "rocket",
+        "dragonfly"
+      ],
+      "answers_tr": [
+        "uçak",
+        "kuş",
+        "roket",
+        "yusufçuk"
+      ],
+      "answers_es": [
+        "avión",
+        "pájaro",
+        "cohete",
+        "libélula"
+      ],
+      "answers_pt": [
+        "avião",
+        "pássaro",
+        "foguete",
+        "libélula"
+      ],
+      "answers_de": [
+        "Flugzeug",
+        "Vogel",
+        "Rakete",
+        "Libelle"
+      ],
+      "answers_it": [
+        "aereo",
+        "uccello",
+        "razzo",
+        "libellula"
+      ],
+      "answers_pl": [
+        "samolot",
+        "ptak",
+        "rakieta",
+        "ważka"
+      ],
+      "answers_fr": [
+        "avion",
+        "oiseau",
+        "fusée",
+        "libellule"
+      ],
+      "answers_ja": [
+        "飛行機",
+        "鳥",
+        "ロケット",
+        "トンボ"
+      ],
+      "answers_nl": [
+        "vliegtuig",
+        "vogel",
+        "raket",
+        "libel"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Travel",
+      "text_tr": "Seyahat",
+      "text_es": "Viajes",
+      "text_pt": "Viagem",
+      "text_de": "Reisen",
+      "text_it": "Viaggi",
+      "text_pl": "Podróże",
+      "text_fr": "Voyage",
+      "text_ja": "旅行",
+      "text_nl": "Reizen"
+    },
+    "answers": {
+      "answers_en": [
+        "sailboat",
+        "flag",
+        "shark fin",
+        "tent"
+      ],
+      "answers_tr": [
+        "yelkenli",
+        "bayrak",
+        "köpekbalığı yüzgeci",
+        "çadır"
+      ],
+      "answers_es": [
+        "velero",
+        "bandera",
+        "aleta de tiburón",
+        "tienda de campaña"
+      ],
+      "answers_pt": [
+        "veleiro",
+        "bandeira",
+        "barbatana",
+        "barraca"
+      ],
+      "answers_de": [
+        "Segelboot",
+        "Fahne",
+        "Haifischflosse",
+        "Zelt"
+      ],
+      "answers_it": [
+        "barca a vela",
+        "bandiera",
+        "pinna di squalo",
+        "tenda"
+      ],
+      "answers_pl": [
+        "żaglówka",
+        "flaga",
+        "płetwa rekina",
+        "namiot"
+      ],
+      "answers_fr": [
+        "voilier",
+        "drapeau",
+        "aileron de requin",
+        "tente"
+      ],
+      "answers_ja": [
+        "ヨット",
+        "旗",
+        "サメのヒレ",
+        "テント"
+      ],
+      "answers_nl": [
+        "zeilboot",
+        "vlag",
+        "haaienvin",
+        "tent"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Travel",
+      "text_tr": "Seyahat",
+      "text_es": "Viajes",
+      "text_pt": "Viagem",
+      "text_de": "Reisen",
+      "text_it": "Viaggi",
+      "text_pl": "Podróże",
+      "text_fr": "Voyage",
+      "text_ja": "旅行",
+      "text_nl": "Reizen"
+    },
+    "answers": {
+      "answers_en": [
+        "car",
+        "bus",
+        "train",
+        "suitcase"
+      ],
+      "answers_tr": [
+        "araba",
+        "otobüs",
+        "tren",
+        "bavul"
+      ],
+      "answers_es": [
+        "coche",
+        "autobús",
+        "tren",
+        "maleta"
+      ],
+      "answers_pt": [
+        "carro",
+        "ônibus",
+        "trem",
+        "mala"
+      ],
+      "answers_de": [
+        "Auto",
+        "Bus",
+        "Zug",
+        "Koffer"
+      ],
+      "answers_it": [
+        "macchina",
+        "autobus",
+        "treno",
+        "valigia"
+      ],
+      "answers_pl": [
+        "samochód",
+        "autobus",
+        "pociąg",
+        "walizka"
+      ],
+      "answers_fr": [
+        "voiture",
+        "bus",
+        "train",
+        "valise"
+      ],
+      "answers_ja": [
+        "車",
+        "バス",
+        "電車",
+        "スーツケース"
+      ],
+      "answers_nl": [
+        "auto",
+        "bus",
+        "trein",
+        "koffer"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Travel",
+      "text_tr": "Seyahat",
+      "text_es": "Viajes",
+      "text_pt": "Viagem",
+      "text_de": "Reisen",
+      "text_it": "Viaggi",
+      "text_pl": "Podróże",
+      "text_fr": "Voyage",
+      "text_ja": "旅行",
+      "text_nl": "Reizen"
+    },
+    "answers": {
+      "answers_en": [
+        "mountain",
+        "volcano",
+        "pyramid",
+        "slice of cake"
+      ],
+      "answers_tr": [
+        "dağ",
+        "yanardağ",
+        "piramit",
+        "pasta dilimi"
+      ],
+      "answers_es": [
+        "montaña",
+        "volcán",
+        "pirámide",
+        "trozo de tarta"
+      ],
+      "answers_pt": [
+        "montanha",
+        "vulcão",
+        "pirâmide",
+        "fatia de bolo"
+      ],
+      "answers_de": [
+        "Berg",
+        "Vulkan",
+        "Pyramide",
+        "Tortenstück"
+      ],
+      "answers_it": [
+        "montagna",
+        "vulcano",
+        "piramide",
+        "fetta di torta"
+      ],
+      "answers_pl": [
+        "góra",
+        "wulkan",
+        "piramida",
+        "kawałek tortu"
+      ],
+      "answers_fr": [
+        "montagne",
+        "volcan",
+        "pyramide",
+        "part de gâteau"
+      ],
+      "answers_ja": [
+        "山",
+        "火山",
+        "ピラミッド",
+        "ケーキの一切れ"
+      ],
+      "answers_nl": [
+        "berg",
+        "vulkaan",
+        "piramide",
+        "taartpunt"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Travel",
+      "text_tr": "Seyahat",
+      "text_es": "Viajes",
+      "text_pt": "Viagem",
+      "text_de": "Reisen",
+      "text_it": "Viaggi",
+      "text_pl": "Podróże",
+      "text_fr": "Voyage",
+      "text_ja": "旅行",
+      "text_nl": "Reizen"
+    },
+    "answers": {
+      "answers_en": [
+        "palm tree",
+        "pineapple",
+        "firework",
+        "feather duster"
+      ],
+      "answers_tr": [
+        "palmiye",
+        "ananas",
+        "havai fişek",
+        "toz alma fırçası"
+      ],
+      "answers_es": [
+        "palmera",
+        "piña",
+        "fuego artificial",
+        "plumero"
+      ],
+      "answers_pt": [
+        "palmeira",
+        "abacaxi",
+        "fogos de artifício",
+        "espanador"
+      ],
+      "answers_de": [
+        "Palme",
+        "Ananas",
+        "Feuerwerk",
+        "Staubwedel"
+      ],
+      "answers_it": [
+        "palma",
+        "ananas",
+        "fuoco d'artificio",
+        "piumino"
+      ],
+      "answers_pl": [
+        "palma",
+        "ananas",
+        "fajerwerk",
+        "miotełka"
+      ],
+      "answers_fr": [
+        "palmier",
+        "ananas",
+        "feu d'artifice",
+        "plumeau"
+      ],
+      "answers_ja": [
+        "ヤシの木",
+        "パイナップル",
+        "花火",
+        "はたき"
+      ],
+      "answers_nl": [
+        "palmboom",
+        "ananas",
+        "vuurwerk",
+        "plumeau"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Travel",
+      "text_tr": "Seyahat",
+      "text_es": "Viajes",
+      "text_pt": "Viagem",
+      "text_de": "Reisen",
+      "text_it": "Viaggi",
+      "text_pl": "Podróże",
+      "text_fr": "Voyage",
+      "text_ja": "旅行",
+      "text_nl": "Reizen"
+    },
+    "answers": {
+      "answers_en": [
+        "campfire",
+        "candle",
+        "tulip",
+        "fountain"
+      ],
+      "answers_tr": [
+        "kamp ateşi",
+        "mum",
+        "lale",
+        "çeşme"
+      ],
+      "answers_es": [
+        "fogata",
+        "vela",
+        "tulipán",
+        "fuente"
+      ],
+      "answers_pt": [
+        "fogueira",
+        "vela",
+        "tulipa",
+        "fonte"
+      ],
+      "answers_de": [
+        "Lagerfeuer",
+        "Kerze",
+        "Tulpe",
+        "Brunnen"
+      ],
+      "answers_it": [
+        "falò",
+        "candela",
+        "tulipano",
+        "fontana"
+      ],
+      "answers_pl": [
+        "ognisko",
+        "świeca",
+        "tulipan",
+        "fontanna"
+      ],
+      "answers_fr": [
+        "feu de camp",
+        "bougie",
+        "tulipe",
+        "fontaine"
+      ],
+      "answers_ja": [
+        "キャンプファイヤー",
+        "ろうそく",
+        "チューリップ",
+        "噴水"
+      ],
+      "answers_nl": [
+        "kampvuur",
+        "kaars",
+        "tulp",
+        "fontein"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Travel",
+      "text_tr": "Seyahat",
+      "text_es": "Viajes",
+      "text_pt": "Viagem",
+      "text_de": "Reisen",
+      "text_it": "Viaggi",
+      "text_pl": "Podróże",
+      "text_fr": "Voyage",
+      "text_ja": "旅行",
+      "text_nl": "Reizen"
+    },
+    "answers": {
+      "answers_en": [
+        "lighthouse",
+        "lipstick",
+        "chimney",
+        "pencil"
+      ],
+      "answers_tr": [
+        "deniz feneri",
+        "ruj",
+        "baca",
+        "kalem"
+      ],
+      "answers_es": [
+        "faro",
+        "pintalabios",
+        "chimenea",
+        "lápiz"
+      ],
+      "answers_pt": [
+        "farol",
+        "batom",
+        "chaminé",
+        "lápis"
+      ],
+      "answers_de": [
+        "Leuchtturm",
+        "Lippenstift",
+        "Schornstein",
+        "Bleistift"
+      ],
+      "answers_it": [
+        "faro",
+        "rossetto",
+        "camino",
+        "matita"
+      ],
+      "answers_pl": [
+        "latarnia morska",
+        "szminka",
+        "komin",
+        "ołówek"
+      ],
+      "answers_fr": [
+        "phare",
+        "rouge à lèvres",
+        "cheminée",
+        "crayon"
+      ],
+      "answers_ja": [
+        "灯台",
+        "口紅",
+        "煙突",
+        "鉛筆"
+      ],
+      "answers_nl": [
+        "vuurtoren",
+        "lippenstift",
+        "schoorsteen",
+        "potlood"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Love",
+      "text_tr": "Aşk",
+      "text_es": "Amor",
+      "text_pt": "Amor",
+      "text_de": "Liebe",
+      "text_it": "Amore",
+      "text_pl": "Miłość",
+      "text_fr": "Amour",
+      "text_ja": "恋愛",
+      "text_nl": "Liefde"
+    },
+    "answers": {
+      "answers_en": [
+        "heart",
+        "strawberry",
+        "apple",
+        "balloon"
+      ],
+      "answers_tr": [
+        "kalp",
+        "çilek",
+        "elma",
+        "balon"
+      ],
+      "answers_es": [
+        "corazón",
+        "fresa",
+        "manzana",
+        "globo"
+      ],
+      "answers_pt": [
+        "coração",
+        "morango",
+        "maçã",
+        "balão"
+      ],
+      "answers_de": [
+        "Herz",
+        "Erdbeere",
+        "Apfel",
+        "Luftballon"
+      ],
+      "answers_it": [
+        "cuore",
+        "fragola",
+        "mela",
+        "palloncino"
+      ],
+      "answers_pl": [
+        "serce",
+        "truskawka",
+        "jabłko",
+        "balon"
+      ],
+      "answers_fr": [
+        "cœur",
+        "fraise",
+        "pomme",
+        "ballon"
+      ],
+      "answers_ja": [
+        "ハート",
+        "イチゴ",
+        "リンゴ",
+        "風船"
+      ],
+      "answers_nl": [
+        "hart",
+        "aardbei",
+        "appel",
+        "ballon"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Love",
+      "text_tr": "Aşk",
+      "text_es": "Amor",
+      "text_pt": "Amor",
+      "text_de": "Liebe",
+      "text_it": "Amore",
+      "text_pl": "Miłość",
+      "text_fr": "Amour",
+      "text_ja": "恋愛",
+      "text_nl": "Liefde"
+    },
+    "answers": {
+      "answers_en": [
+        "ring",
+        "donut",
+        "tire",
+        "bracelet"
+      ],
+      "answers_tr": [
+        "yüzük",
+        "donut",
+        "lastik",
+        "bilezik"
+      ],
+      "answers_es": [
+        "anillo",
+        "dónut",
+        "neumático",
+        "pulsera"
+      ],
+      "answers_pt": [
+        "anel",
+        "rosquinha",
+        "pneu",
+        "pulseira"
+      ],
+      "answers_de": [
+        "Ring",
+        "Donut",
+        "Reifen",
+        "Armband"
+      ],
+      "answers_it": [
+        "anello",
+        "ciambella",
+        "pneumatico",
+        "braccialetto"
+      ],
+      "answers_pl": [
+        "pierścionek",
+        "pączek",
+        "opona",
+        "bransoletka"
+      ],
+      "answers_fr": [
+        "bague",
+        "donut",
+        "pneu",
+        "bracelet"
+      ],
+      "answers_ja": [
+        "指輪",
+        "ドーナツ",
+        "タイヤ",
+        "ブレスレット"
+      ],
+      "answers_nl": [
+        "ring",
+        "donut",
+        "band",
+        "armband"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Love",
+      "text_tr": "Aşk",
+      "text_es": "Amor",
+      "text_pt": "Amor",
+      "text_de": "Liebe",
+      "text_it": "Amore",
+      "text_pl": "Miłość",
+      "text_fr": "Amour",
+      "text_ja": "恋愛",
+      "text_nl": "Liefde"
+    },
+    "answers": {
+      "answers_en": [
+        "lips",
+        "mustache",
+        "sausage",
+        "smile"
+      ],
+      "answers_tr": [
+        "dudaklar",
+        "bıyık",
+        "sosis",
+        "gülümseme"
+      ],
+      "answers_es": [
+        "labios",
+        "bigote",
+        "salchicha",
+        "sonrisa"
+      ],
+      "answers_pt": [
+        "lábios",
+        "bigode",
+        "salsicha",
+        "sorriso"
+      ],
+      "answers_de": [
+        "Lippen",
+        "Schnurrbart",
+        "Würstchen",
+        "Lächeln"
+      ],
+      "answers_it": [
+        "labbra",
+        "baffi",
+        "salsiccia",
+        "sorriso"
+      ],
+      "answers_pl": [
+        "usta",
+        "wąsy",
+        "kiełbaska",
+        "uśmiech"
+      ],
+      "answers_fr": [
+        "lèvres",
+        "moustache",
+        "saucisse",
+        "sourire"
+      ],
+      "answers_ja": [
+        "くちびる",
+        "ひげ",
+        "ソーセージ",
+        "笑顔"
+      ],
+      "answers_nl": [
+        "lippen",
+        "snor",
+        "worstje",
+        "glimlach"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Love",
+      "text_tr": "Aşk",
+      "text_es": "Amor",
+      "text_pt": "Amor",
+      "text_de": "Liebe",
+      "text_it": "Amore",
+      "text_pl": "Miłość",
+      "text_fr": "Amour",
+      "text_ja": "恋愛",
+      "text_nl": "Liefde"
+    },
+    "answers": {
+      "answers_en": [
+        "rose",
+        "cabbage",
+        "tomato",
+        "onion"
+      ],
+      "answers_tr": [
+        "gül",
+        "lahana",
+        "domates",
+        "soğan"
+      ],
+      "answers_es": [
+        "rosa",
+        "col",
+        "tomate",
+        "cebolla"
+      ],
+      "answers_pt": [
+        "rosa",
+        "repolho",
+        "tomate",
+        "cebola"
+      ],
+      "answers_de": [
+        "Rose",
+        "Kohl",
+        "Tomate",
+        "Zwiebel"
+      ],
+      "answers_it": [
+        "rosa",
+        "cavolo",
+        "pomodoro",
+        "cipolla"
+      ],
+      "answers_pl": [
+        "róża",
+        "kapusta",
+        "pomidor",
+        "cebula"
+      ],
+      "answers_fr": [
+        "rose",
+        "chou",
+        "tomate",
+        "oignon"
+      ],
+      "answers_ja": [
+        "バラ",
+        "キャベツ",
+        "トマト",
+        "タマネギ"
+      ],
+      "answers_nl": [
+        "roos",
+        "kool",
+        "tomaat",
+        "ui"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Love",
+      "text_tr": "Aşk",
+      "text_es": "Amor",
+      "text_pt": "Amor",
+      "text_de": "Liebe",
+      "text_it": "Amore",
+      "text_pl": "Miłość",
+      "text_fr": "Amour",
+      "text_ja": "恋愛",
+      "text_nl": "Liefde"
+    },
+    "answers": {
+      "answers_en": [
+        "gift box",
+        "house",
+        "treasure chest",
+        "shopping bag"
+      ],
+      "answers_tr": [
+        "hediye kutusu",
+        "ev",
+        "hazine sandığı",
+        "alışveriş çantası"
+      ],
+      "answers_es": [
+        "regalo",
+        "casa",
+        "cofre del tesoro",
+        "bolsa de compras"
+      ],
+      "answers_pt": [
+        "presente",
+        "casa",
+        "baú do tesouro",
+        "sacola"
+      ],
+      "answers_de": [
+        "Geschenk",
+        "Haus",
+        "Schatztruhe",
+        "Einkaufstüte"
+      ],
+      "answers_it": [
+        "regalo",
+        "casa",
+        "forziere",
+        "borsa della spesa"
+      ],
+      "answers_pl": [
+        "prezent",
+        "dom",
+        "skrzynia skarbów",
+        "torba na zakupy"
+      ],
+      "answers_fr": [
+        "cadeau",
+        "maison",
+        "coffre au trésor",
+        "sac de courses"
+      ],
+      "answers_ja": [
+        "プレゼント",
+        "家",
+        "宝箱",
+        "買い物袋"
+      ],
+      "answers_nl": [
+        "cadeau",
+        "huis",
+        "schatkist",
+        "boodschappentas"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Love",
+      "text_tr": "Aşk",
+      "text_es": "Amor",
+      "text_pt": "Amor",
+      "text_de": "Liebe",
+      "text_it": "Amore",
+      "text_pl": "Miłość",
+      "text_fr": "Amour",
+      "text_ja": "恋愛",
+      "text_nl": "Liefde"
+    },
+    "answers": {
+      "answers_en": [
+        "love letter",
+        "book",
+        "laptop",
+        "pizza box"
+      ],
+      "answers_tr": [
+        "aşk mektubu",
+        "kitap",
+        "laptop",
+        "pizza kutusu"
+      ],
+      "answers_es": [
+        "carta de amor",
+        "libro",
+        "portátil",
+        "caja de pizza"
+      ],
+      "answers_pt": [
+        "carta de amor",
+        "livro",
+        "notebook",
+        "caixa de pizza"
+      ],
+      "answers_de": [
+        "Liebesbrief",
+        "Buch",
+        "Laptop",
+        "Pizzakarton"
+      ],
+      "answers_it": [
+        "lettera d'amore",
+        "libro",
+        "portatile",
+        "cartone della pizza"
+      ],
+      "answers_pl": [
+        "list miłosny",
+        "książka",
+        "laptop",
+        "pudełko po pizzy"
+      ],
+      "answers_fr": [
+        "lettre d'amour",
+        "livre",
+        "ordi portable",
+        "boîte à pizza"
+      ],
+      "answers_ja": [
+        "ラブレター",
+        "本",
+        "ノートパソコン",
+        "ピザの箱"
+      ],
+      "answers_nl": [
+        "liefdesbrief",
+        "boek",
+        "laptop",
+        "pizzadoos"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Love",
+      "text_tr": "Aşk",
+      "text_es": "Amor",
+      "text_pt": "Amor",
+      "text_de": "Liebe",
+      "text_it": "Amore",
+      "text_pl": "Miłość",
+      "text_fr": "Amour",
+      "text_ja": "恋愛",
+      "text_nl": "Liefde"
+    },
+    "answers": {
+      "answers_en": [
+        "wedding cake",
+        "castle",
+        "trash can",
+        "drum"
+      ],
+      "answers_tr": [
+        "düğün pastası",
+        "şato",
+        "çöp kutusu",
+        "davul"
+      ],
+      "answers_es": [
+        "pastel de boda",
+        "castillo",
+        "cubo de basura",
+        "tambor"
+      ],
+      "answers_pt": [
+        "bolo de casamento",
+        "castelo",
+        "lixeira",
+        "tambor"
+      ],
+      "answers_de": [
+        "Hochzeitstorte",
+        "Schloss",
+        "Mülleimer",
+        "Trommel"
+      ],
+      "answers_it": [
+        "torta nuziale",
+        "castello",
+        "cestino",
+        "tamburo"
+      ],
+      "answers_pl": [
+        "tort weselny",
+        "zamek",
+        "kosz na śmieci",
+        "bęben"
+      ],
+      "answers_fr": [
+        "pièce montée",
+        "château",
+        "poubelle",
+        "tambour"
+      ],
+      "answers_ja": [
+        "ウェディングケーキ",
+        "お城",
+        "ゴミ箱",
+        "太鼓"
+      ],
+      "answers_nl": [
+        "bruidstaart",
+        "kasteel",
+        "prullenbak",
+        "trommel"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "People",
+      "text_tr": "İnsanlar",
+      "text_es": "Personas",
+      "text_pt": "Pessoas",
+      "text_de": "Menschen",
+      "text_it": "Persone",
+      "text_pl": "Ludzie",
+      "text_fr": "Personnes",
+      "text_ja": "人",
+      "text_nl": "Mensen"
+    },
+    "answers": {
+      "answers_en": [
+        "doctor",
+        "chef",
+        "nurse",
+        "ghost"
+      ],
+      "answers_tr": [
+        "doktor",
+        "aşçı",
+        "hemşire",
+        "hayalet"
+      ],
+      "answers_es": [
+        "médico",
+        "cocinero",
+        "enfermera",
+        "fantasma"
+      ],
+      "answers_pt": [
+        "médico",
+        "cozinheiro",
+        "enfermeira",
+        "fantasma"
+      ],
+      "answers_de": [
+        "Arzt",
+        "Koch",
+        "Krankenschwester",
+        "Gespenst"
+      ],
+      "answers_it": [
+        "medico",
+        "cuoco",
+        "infermiera",
+        "fantasma"
+      ],
+      "answers_pl": [
+        "lekarz",
+        "kucharz",
+        "pielęgniarka",
+        "duch"
+      ],
+      "answers_fr": [
+        "médecin",
+        "cuisinier",
+        "infirmière",
+        "fantôme"
+      ],
+      "answers_ja": [
+        "医者",
+        "コック",
+        "看護師",
+        "おばけ"
+      ],
+      "answers_nl": [
+        "dokter",
+        "kok",
+        "verpleegster",
+        "spook"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "People",
+      "text_tr": "İnsanlar",
+      "text_es": "Personas",
+      "text_pt": "Pessoas",
+      "text_de": "Menschen",
+      "text_it": "Persone",
+      "text_pl": "Ludzie",
+      "text_fr": "Personnes",
+      "text_ja": "人",
+      "text_nl": "Mensen"
+    },
+    "answers": {
+      "answers_en": [
+        "astronaut",
+        "diver",
+        "robot",
+        "snowman"
+      ],
+      "answers_tr": [
+        "astronot",
+        "dalgıç",
+        "robot",
+        "kardan adam"
+      ],
+      "answers_es": [
+        "astronauta",
+        "buzo",
+        "robot",
+        "muñeco de nieve"
+      ],
+      "answers_pt": [
+        "astronauta",
+        "mergulhador",
+        "robô",
+        "boneco de neve"
+      ],
+      "answers_de": [
+        "Astronaut",
+        "Taucher",
+        "Roboter",
+        "Schneemann"
+      ],
+      "answers_it": [
+        "astronauta",
+        "sub",
+        "robot",
+        "pupazzo di neve"
+      ],
+      "answers_pl": [
+        "astronauta",
+        "nurek",
+        "robot",
+        "bałwan"
+      ],
+      "answers_fr": [
+        "astronaute",
+        "plongeur",
+        "robot",
+        "bonhomme de neige"
+      ],
+      "answers_ja": [
+        "宇宙飛行士",
+        "ダイバー",
+        "ロボット",
+        "雪だるま"
+      ],
+      "answers_nl": [
+        "astronaut",
+        "duiker",
+        "robot",
+        "sneeuwpop"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "People",
+      "text_tr": "İnsanlar",
+      "text_es": "Personas",
+      "text_pt": "Pessoas",
+      "text_de": "Menschen",
+      "text_it": "Persone",
+      "text_pl": "Ludzie",
+      "text_fr": "Personnes",
+      "text_ja": "人",
+      "text_nl": "Mensen"
+    },
+    "answers": {
+      "answers_en": [
+        "king",
+        "queen",
+        "wizard",
+        "clown"
+      ],
+      "answers_tr": [
+        "kral",
+        "kraliçe",
+        "büyücü",
+        "palyaço"
+      ],
+      "answers_es": [
+        "rey",
+        "reina",
+        "mago",
+        "payaso"
+      ],
+      "answers_pt": [
+        "rei",
+        "rainha",
+        "mago",
+        "palhaço"
+      ],
+      "answers_de": [
+        "König",
+        "Königin",
+        "Zauberer",
+        "Clown"
+      ],
+      "answers_it": [
+        "re",
+        "regina",
+        "mago",
+        "pagliaccio"
+      ],
+      "answers_pl": [
+        "król",
+        "królowa",
+        "czarodziej",
+        "klaun"
+      ],
+      "answers_fr": [
+        "roi",
+        "reine",
+        "magicien",
+        "clown"
+      ],
+      "answers_ja": [
+        "王様",
+        "女王",
+        "魔法使い",
+        "ピエロ"
+      ],
+      "answers_nl": [
+        "koning",
+        "koningin",
+        "tovenaar",
+        "clown"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "People",
+      "text_tr": "İnsanlar",
+      "text_es": "Personas",
+      "text_pt": "Pessoas",
+      "text_de": "Menschen",
+      "text_it": "Persone",
+      "text_pl": "Ludzie",
+      "text_fr": "Personnes",
+      "text_ja": "人",
+      "text_nl": "Mensen"
+    },
+    "answers": {
+      "answers_en": [
+        "pirate",
+        "cowboy",
+        "ninja",
+        "police officer"
+      ],
+      "answers_tr": [
+        "korsan",
+        "kovboy",
+        "ninja",
+        "polis"
+      ],
+      "answers_es": [
+        "pirata",
+        "vaquero",
+        "ninja",
+        "policía"
+      ],
+      "answers_pt": [
+        "pirata",
+        "caubói",
+        "ninja",
+        "policial"
+      ],
+      "answers_de": [
+        "Pirat",
+        "Cowboy",
+        "Ninja",
+        "Polizist"
+      ],
+      "answers_it": [
+        "pirata",
+        "cowboy",
+        "ninja",
+        "poliziotto"
+      ],
+      "answers_pl": [
+        "pirat",
+        "kowboj",
+        "ninja",
+        "policjant"
+      ],
+      "answers_fr": [
+        "pirate",
+        "cow-boy",
+        "ninja",
+        "policier"
+      ],
+      "answers_ja": [
+        "海賊",
+        "カウボーイ",
+        "忍者",
+        "警察官"
+      ],
+      "answers_nl": [
+        "piraat",
+        "cowboy",
+        "ninja",
+        "agent"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Sport & hobbies",
+      "text_tr": "Spor ve hobi",
+      "text_es": "Deporte y hobbies",
+      "text_pt": "Esporte e hobbies",
+      "text_de": "Sport & Hobbys",
+      "text_it": "Sport e hobby",
+      "text_pl": "Sport i hobby",
+      "text_fr": "Sport et loisirs",
+      "text_ja": "スポーツと趣味",
+      "text_nl": "Sport & hobby's"
+    },
+    "answers": {
+      "answers_en": [
+        "football",
+        "basketball",
+        "volleyball",
+        "beach ball"
+      ],
+      "answers_tr": [
+        "futbol topu",
+        "basketbol topu",
+        "voleybol topu",
+        "plaj topu"
+      ],
+      "answers_es": [
+        "balón de fútbol",
+        "balón de baloncesto",
+        "balón de voleibol",
+        "pelota de playa"
+      ],
+      "answers_pt": [
+        "bola de futebol",
+        "bola de basquete",
+        "bola de vôlei",
+        "bola de praia"
+      ],
+      "answers_de": [
+        "Fußball",
+        "Basketball",
+        "Volleyball",
+        "Wasserball"
+      ],
+      "answers_it": [
+        "pallone da calcio",
+        "pallone da basket",
+        "pallone da pallavolo",
+        "pallone da spiaggia"
+      ],
+      "answers_pl": [
+        "piłka nożna",
+        "piłka do kosza",
+        "piłka siatkowa",
+        "piłka plażowa"
+      ],
+      "answers_fr": [
+        "ballon de foot",
+        "ballon de basket",
+        "ballon de volley",
+        "ballon de plage"
+      ],
+      "answers_ja": [
+        "サッカーボール",
+        "バスケットボール",
+        "バレーボール",
+        "ビーチボール"
+      ],
+      "answers_nl": [
+        "voetbal",
+        "basketbal",
+        "volleybal",
+        "strandbal"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Sport & hobbies",
+      "text_tr": "Spor ve hobi",
+      "text_es": "Deporte y hobbies",
+      "text_pt": "Esporte e hobbies",
+      "text_de": "Sport & Hobbys",
+      "text_it": "Sport e hobby",
+      "text_pl": "Sport i hobby",
+      "text_fr": "Sport et loisirs",
+      "text_ja": "スポーツと趣味",
+      "text_nl": "Sport & hobby's"
+    },
+    "answers": {
+      "answers_en": [
+        "guitar",
+        "violin",
+        "tennis racket",
+        "frying pan"
+      ],
+      "answers_tr": [
+        "gitar",
+        "keman",
+        "tenis raketi",
+        "tava"
+      ],
+      "answers_es": [
+        "guitarra",
+        "violín",
+        "raqueta de tenis",
+        "sartén"
+      ],
+      "answers_pt": [
+        "violão",
+        "violino",
+        "raquete de tênis",
+        "frigideira"
+      ],
+      "answers_de": [
+        "Gitarre",
+        "Geige",
+        "Tennisschläger",
+        "Bratpfanne"
+      ],
+      "answers_it": [
+        "chitarra",
+        "violino",
+        "racchetta da tennis",
+        "padella"
+      ],
+      "answers_pl": [
+        "gitara",
+        "skrzypce",
+        "rakieta tenisowa",
+        "patelnia"
+      ],
+      "answers_fr": [
+        "guitare",
+        "violon",
+        "raquette de tennis",
+        "poêle"
+      ],
+      "answers_ja": [
+        "ギター",
+        "バイオリン",
+        "テニスラケット",
+        "フライパン"
+      ],
+      "answers_nl": [
+        "gitaar",
+        "viool",
+        "tennisracket",
+        "koekenpan"
+      ]
+    }
+  },
+  {
+    "category_id": "draw",
+    "question_type": "choice",
+    "have_answers": true,
+    "texts": {
+      "text_en": "Sport & hobbies",
+      "text_tr": "Spor ve hobi",
+      "text_es": "Deporte y hobbies",
+      "text_pt": "Esporte e hobbies",
+      "text_de": "Sport & Hobbys",
+      "text_it": "Sport e hobby",
+      "text_pl": "Sport i hobby",
+      "text_fr": "Sport et loisirs",
+      "text_ja": "スポーツと趣味",
+      "text_nl": "Sport & hobby's"
+    },
+    "answers": {
+      "answers_en": [
+        "dumbbell",
+        "bone",
+        "rolling pin",
+        "headphones"
+      ],
+      "answers_tr": [
+        "dambıl",
+        "kemik",
+        "oklava",
+        "kulaklık"
+      ],
+      "answers_es": [
+        "mancuerna",
+        "hueso",
+        "rodillo",
+        "auriculares"
+      ],
+      "answers_pt": [
+        "halter",
+        "osso",
+        "rolo de massa",
+        "fones de ouvido"
+      ],
+      "answers_de": [
+        "Hantel",
+        "Knochen",
+        "Nudelholz",
+        "Kopfhörer"
+      ],
+      "answers_it": [
+        "manubrio",
+        "osso",
+        "mattarello",
+        "cuffie"
+      ],
+      "answers_pl": [
+        "hantel",
+        "kość",
+        "wałek",
+        "słuchawki"
+      ],
+      "answers_fr": [
+        "haltère",
+        "os",
+        "rouleau à pâtisserie",
+        "casque audio"
+      ],
+      "answers_ja": [
+        "ダンベル",
+        "骨",
+        "めん棒",
+        "ヘッドホン"
+      ],
+      "answers_nl": [
+        "halter",
+        "bot",
+        "deegroller",
+        "koptelefoon"
+      ]
+    }
+  }
+]

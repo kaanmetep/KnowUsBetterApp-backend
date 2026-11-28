@@ -5,6 +5,7 @@ import { MAX_MATCH_WEIGHT, MIN_MATCH_WEIGHT } from "../types.js";
 import { LANGS, type Lang, type QuestionAnswers, type QuestionTexts } from "../languages.js";
 import { RANK_IT_MAX_ITEMS, RANK_IT_MIN_ITEMS } from "../utils/rankIt.js";
 import { SCALE_POLES } from "../utils/scale.js";
+import { DRAW_OPTIONS } from "../utils/draw.js";
 
 const MAX_TEXT_LENGTH = 500;
 const MIN_ANSWERS = 2;
@@ -253,6 +254,39 @@ async function assertValidCategory(input: QuestionInput): Promise<void> {
         400,
         "VALIDATION_ERROR",
       );
+    }
+  }
+  if (rows[0].group_id === "draw") {
+    // A word to draw: the first answer is the word, the other three are
+    // look-alikes the guesser could mistake it for (see utils/draw).
+    if (
+      input.question_type !== "choice" ||
+      !input.have_answers ||
+      (input.answers?.answers_en.length ?? 0) !== DRAW_OPTIONS
+    ) {
+      throw new AppError(
+        `Draw words need exactly ${DRAW_OPTIONS} answers: the word first, then ${DRAW_OPTIONS - 1} look-alikes`,
+        400,
+        "VALIDATION_ERROR",
+      );
+    }
+    if (input.correct_answer != null || input.match_weight != null) {
+      throw new AppError(
+        "Draw words can't have a correct_answer or match_weight (the first answer is the word)",
+        400,
+        "VALIDATION_ERROR",
+      );
+    }
+    // The four have to tell apart in every language, or the guesser can't.
+    for (const lang of LANGS) {
+      const list = input.answers?.[`answers_${lang}`] ?? [];
+      if (list.length && new Set(list.map((a) => a.toLocaleLowerCase())).size !== list.length) {
+        throw new AppError(
+          `Draw words: the ${lang} answers must all be different`,
+          400,
+          "VALIDATION_ERROR",
+        );
+      }
     }
   }
   if (TRIVIA_CATEGORY_IDS.includes(input.category_id) && input.correct_answer == null) {

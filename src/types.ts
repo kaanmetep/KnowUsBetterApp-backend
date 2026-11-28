@@ -1,3 +1,4 @@
+import type { DrawItRound, DrawItReveal } from "./utils/draw.js";
 import type { Lang, QuestionAnswers, QuestionTexts } from "./languages.js";
 
 export type RoomStatus = "waiting" | "playing" | "finished";
@@ -25,6 +26,8 @@ export const CLIENT_FEATURE_DAILY_ANALYSIS = "daily_analysis";
 export const CLIENT_FEATURE_TWO_TRUTHS = "two_truths";
 // Builds that can show the scale slider; older ones would show two options.
 export const CLIENT_FEATURE_SCALE = "scale";
+// Builds with the drawing pad; older ones would show a text box.
+export const CLIENT_FEATURE_DRAW = "draw";
 
 export type GameMode =
   | "see_your_match"
@@ -34,7 +37,8 @@ export type GameMode =
   | "rank_it"
   | "daily_analysis"
   | "two_truths"
-  | "scale";
+  | "scale"
+  | "draw";
 
 /**
  * two_truths: every turn is a write round followed by a guess round (see
@@ -71,6 +75,8 @@ export interface Question {
   /** see_your_match only: how much this question counts toward the percentage. */
   matchWeight?: number;
   twoTruths?: TwoTruthsRound;
+  /** draw only: which half of a turn this round is (see utils/draw). */
+  drawIt?: DrawItRound;
 }
 
 /** What clients get as `question.correctAnswer` once a trivia round is over. */
@@ -97,6 +103,8 @@ export interface QuestionRound {
   similarity?: number;
   /** two_truths guess rounds only: index of each author's lie, revealed once the round is over. */
   lies?: { [playerId: string]: number };
+  /** draw guess rounds only, once completed: the answers and each guesser's points (see utils/draw). */
+  drawReveal?: DrawItReveal;
   status: "waiting_answers" | "completed";
   /** Server time the round was sent out; tells apart rounds of the same question in replays. */
   startedAt?: number;
@@ -118,6 +126,7 @@ export interface Player {
   supportsDailyAnalysis?: boolean;
   supportsTwoTruths?: boolean;
   supportsScale?: boolean;
+  supportsDraw?: boolean;
   /** Agreed (on their device) to their answers going to an AI provider for a daily analysis. */
   aiConsent?: boolean;
   /** Which consent text: 1 (or missing) named only OpenAI, 2 names Anthropic and OpenAI. */

@@ -17,6 +17,7 @@ import {
   deviceOf,
   isLocalRoom,
   advancesManually,
+  LOCAL_UNTIMED_FALLBACK_SECONDS,
   MANUAL_ADVANCE_FALLBACK_SECONDS,
   localRoundSeconds,
   makeLocalPartner,
@@ -41,6 +42,7 @@ import {
   CLIENT_FEATURE_DAILY_ANALYSIS,
   CLIENT_FEATURE_TWO_TRUTHS,
   CLIENT_FEATURE_SCALE,
+  CLIENT_FEATURE_DRAW,
   DailyTopic,
 } from "./types.js";
 import {
@@ -178,6 +180,19 @@ import {
   scaleSubjectSeat,
   scoreScaleRound,
 } from "./utils/scale.js";
+import {
+  buildDrawRounds,
+  DRAW_TURNS,
+  drawingIdOf,
+  drawingRef,
+  parseDrawGuess,
+  parseDrawing,
+  scoreGuessRound,
+  type DrawItReveal,
+  type Seat,
+} from "./utils/draw.js";
+import { loadDrawings, saveDrawing } from "./services/drawings.js";
+import { loadDrawAnswers, loadDrawWord, saveDrawSecrets } from "./services/drawItSecrets.js";
 import { pickNextQuestion } from "./nextQuestion.js";
 import { anyActivePass, getPassStatus } from "./services/unlimitedPass.js";
 
@@ -537,6 +552,10 @@ const supportsScale = (clientFeatures: unknown): boolean =>
   Array.isArray(clientFeatures) &&
   clientFeatures.includes(CLIENT_FEATURE_SCALE);
 
+const supportsDraw = (clientFeatures: unknown): boolean =>
+  Array.isArray(clientFeatures) &&
+  clientFeatures.includes(CLIENT_FEATURE_DRAW);
+
 captureConsoleErrors();
 
 type AppSocket = Socket<ClientToServerEvents, ServerToClientEvents, {}, SocketData>;
@@ -835,6 +854,7 @@ function scheduleAdvance(
   };
   pendingAdvances.set(roomCode, entry);
 }
+
 /** `room:question:player` answers being checked on this instance; repeats are dropped. */
 const answersInFlight = new Set<string>();
 
@@ -1011,8 +1031,15 @@ function scheduleRoundTimeout(
   isFirstRound: boolean,
 ): void {
   const questionSeconds = getQuestionDuration(room.settings, round.question);
+  // Draw It on one phone: guessing has no clock, this only catches a phone
+  // that was put down mid-game.
+  const untimed = isLocalRoom(room) && round.question.drawIt?.phase === "guess";
   const seconds =
-    (isLocalRoom(room) ? localRoundSeconds(questionSeconds) : questionSeconds) +
+    (untimed
+      ? LOCAL_UNTIMED_FALLBACK_SECONDS
+      : isLocalRoom(room)
+        ? localRoundSeconds(questionSeconds)
+        : questionSeconds) +
     ROUND_GRACE_SECONDS +
     (isFirstRound ? FIRST_ROUND_EXTRA_SECONDS : 0);
   clearRoundTimer(room.roomCode);
@@ -1131,7 +1158,7 @@ async function completeRound(
   const question = round.question;
   const [answer1, answer2] = answers;
   const isText = isTextQuestion(question);
-  const answerKey = question.twoTruths
+  const answerKey = question.twoTruths || question.drawIt
     ? null
     : await getAnswerKey(question, supabaseAdmin);
   let isMatched = false;
@@ -1139,6 +1166,8 @@ async function completeRound(
   let correct: QuestionRound["correct"];
   let similarity: number | undefined;
   let lies: QuestionRound["lies"];
+  let correctMap: QuestionRound["correct"];
+  let drawReveal: DrawItReveal | undefined;
 
   if (isWriteRound(question)) {
     // Writing only sets up the guess round that follows.
@@ -1177,6 +1206,27 @@ async function completeRound(
     similarity = rankingSimilarity(answer1, answer2, rankItemCount(question));
     // "Matched" for rank_it = the exact same order.
     isMatched = similarity === 100;
+  } else if (question.drawIt?.phase === "draw") {
+    // Drawing only sets up the guess round that follows.
+    isScored = false;
+  } else if (question.drawIt?.phase === "guess") {
+    const seats = snapshot.players.slice(0, 2);
+    const correct = await loadDrawAnswers(roomCode, question.drawIt.drawId);
+    const drawings = question.drawIt.drawings ?? [null, null];
+    const outcome = scoreGuessRound(
+      [round.answers[seats[0]?.id ?? ""] ?? null, round.answers[seats[1]?.id ?? ""] ?? null],
+      correct,
+      [!!drawings[0], !!drawings[1]],
+    );
+    drawReveal = { correct, points: outcome.points };
+    isScored = outcome.scored;
+    // "Matched" for draw = you both guessed each other's drawing.
+    isMatched = outcome.right[0] && outcome.right[1];
+    // The team's points this turn.
+    similarity = outcome.points[0] + outcome.points[1];
+    correctMap = Object.fromEntries(
+      seats.map((player, seat) => [player.id, outcome.right[seat]]),
+    );
   } else if (snapshot.settings.mode === "scale") {
     // Like know_each_other, rounds alternate who they're about.
     const subject = snapshot.players[scaleSubjectSeat(snapshot.currentQuestionIndex)];
@@ -1233,6 +1283,10 @@ async function completeRound(
       current.lies = lies;
     }
     if (similarity !== undefined) current.similarity = similarity;
+    if (drawReveal) {
+      current.drawReveal = drawReveal;
+      current.correct = correctMap;
+    }
     room.totalQuestionsAnswered++;
     if (isMatched) room.matchScore++;
     room.players.forEach((player) => (player.hasAnswered = false));
@@ -1250,10 +1304,17 @@ async function completeRound(
   clearRoundTimer(roomCode);
 
   const { room, round: completed, isLast } = applied;
-  // A guess round reuses its write round's question.
-  if (!isGuessRound(question)) {
+  // A guess round reuses its write round's question; draw rounds stand for two words.
+  const seenIds = question.drawIt
+    ? question.drawIt.phase === "draw"
+      ? question.drawIt.wordIds
+      : []
+    : isGuessRound(question)
+      ? []
+      : [question.id];
+  if (seenIds.length) {
     void roomAppUserIds(room).then((ids) =>
-      markQuestionsSeen(ids, [question.id], supabaseAdmin),
+      markQuestionsSeen(ids, seenIds, supabaseAdmin),
     );
   }
   const displayDuration = getResultDisplayDuration(room.settings, question);
@@ -1273,6 +1334,7 @@ async function completeRound(
     questionType: isText ? "text" : "choice",
     ...(similarity !== undefined && { similarity }),
     ...(completed.lies && { lies: completed.lies }),
+    ...(completed.drawReveal && { drawReveal: completed.drawReveal }),
     displayDuration,
     ...(manualAdvance && { manualAdvance: true }),
     ...(upcoming && {
@@ -1347,6 +1409,17 @@ async function advanceRound(
       room.currentRound = newRound(room, next.question);
       // A player whose partner wrote nothing has nothing to guess.
       const skipped: string[] = [];
+      // draw: nothing to guess when the partner left the page blank.
+      const drawings =
+        next.question.drawIt?.phase === "guess" ? next.question.drawIt.drawings : undefined;
+      if (drawings) {
+        room.players.slice(0, 2).forEach((guesser, seat) => {
+          if (drawings[1 - seat]) return;
+          room.currentRound!.answers[guesser.id] = NO_ANSWER;
+          guesser.hasAnswered = true;
+          skipped.push(guesser.id);
+        });
+      }
       if (statements) {
         for (const guesserId of Object.keys(room.currentRound.answers)) {
           const authorId = Object.keys(statements).find((id) => id !== guesserId);
@@ -1973,6 +2046,7 @@ io.on(
             supportsDailyAnalysis(clientFeatures),
             supportsTwoTruths(clientFeatures),
             supportsScale(clientFeatures),
+            supportsDraw(clientFeatures),
           );
           socket.join(room.roomCode);
           await recordSeatOwner(socket, room.roomCode);
@@ -2060,6 +2134,7 @@ io.on(
               supportsDailyAnalysis(clientFeatures),
               supportsTwoTruths(clientFeatures),
               supportsScale(clientFeatures),
+              supportsDraw(clientFeatures),
             ),
           );
 
@@ -2233,6 +2308,7 @@ io.on(
           const daily = categoryMode === "daily_analysis";
           const twoTruths = categoryMode === "two_truths";
           const scale = categoryMode === "scale";
+          const draw = categoryMode === "draw";
 
           // Older builds would show these questions as yes/no or multiple choice.
           const supportsMode = (p: Player) =>
@@ -2246,7 +2322,9 @@ io.on(
                     ? p.supportsTwoTruths === true
                     : scale
                       ? p.supportsScale === true
-                      : true;
+                      : draw
+                        ? p.supportsDraw === true
+                        : true;
           if (!room.players.every(supportsMode)) {
             socket.emit("room-error", {
               message:
@@ -2351,7 +2429,9 @@ io.on(
                   ? TWO_TRUTHS_TURNS
                   : scale
                     ? SCALE_QUESTION_COUNT
-                    : room.settings.totalQuestions,
+                    : draw
+                      ? DRAW_TURNS * 2
+                      : room.settings.totalQuestions,
             supabaseAdmin,
             {
               // Votes and rankings are picked, never typed; two_truths topics
@@ -2361,13 +2441,23 @@ io.on(
                 !rankIt &&
                 !twoTruths &&
                 !scale &&
+                !draw &&
                 room.players.every((p) => p.supportsTextQuestions === true),
               appUserIds: await roomAppUserIds(room),
               rankable: rankIt,
               scalable: scale,
+              drawable: draw,
             },
           );
-          const questions = twoTruths ? buildTwoTruthsRounds(fetched) : fetched;
+          // draw: words pair up into turns; where each word lands among its
+          // shuffled options is kept off the room.
+          const drawSetup = draw ? buildDrawRounds(fetched) : null;
+          if (drawSetup) await saveDrawSecrets(roomCode, drawSetup.secrets);
+          const questions = twoTruths
+            ? buildTwoTruthsRounds(fetched)
+            : drawSetup
+              ? drawSetup.rounds
+              : fetched;
 
           // Check if we have questions
           if (!questions || questions.length === 0) {
@@ -2706,8 +2796,22 @@ io.on(
               }
             }
 
+            // Stored on its own before the lock; the round keeps a reference.
+            let drawn: string | null = null;
+            if (question.drawIt?.phase === "draw") {
+              const drawing = parseDrawing(answer);
+              if (drawing) drawn = drawingRef(await saveDrawing(drawing));
+            }
+
             let playerAnswer: string | MultiLanguageAnswer;
-            if (isTextQuestion(question)) {
+            if (question.drawIt?.phase === "draw") {
+              playerAnswer = drawn ?? NO_ANSWER;
+            } else if (question.drawIt?.phase === "guess") {
+              // Only a guess at a drawing that's there.
+              const seat = room.players.findIndex((p) => p.id === actorId);
+              const drawing = seat < 0 ? null : question.drawIt.drawings?.[1 - seat];
+              playerAnswer = (drawing && parseDrawGuess(answer)) || NO_ANSWER;
+            } else if (isTextQuestion(question)) {
               playerAnswer = textAnswer ?? normalizeTextAnswer(answer);
             } else if (question.twoTruths?.phase === "write") {
               playerAnswer = written ? encodeStatements(written.statements) : NO_ANSWER;
@@ -3110,12 +3214,19 @@ io.on(
         if (!target) return reply(false);
 
         const rawAnswer = target.answer;
-        const reportedAnswer =
+        let reportedAnswer =
           typeof rawAnswer === "string" ? rawAnswer : JSON.stringify(rawAnswer);
+        // Draw It: the answer only points at the drawing, which Redis forgets
+        // in a couple of hours; keep the drawing itself with the report.
+        const reportedDrawingId = drawingIdOf(rawAnswer);
+        if (reportedDrawingId) {
+          const drawing = (await loadDrawings([reportedDrawingId]))[reportedDrawingId];
+          reportedAnswer = drawing ? `[drawing] ${drawing}` : `[drawing gone] ${reportedAnswer}`;
+        }
 
         reportsSent++;
         console.warn(
-          `🚩 Answer reported in room ${target.roomCode}: "${reportedAnswer}" by ${target.reportedName}`,
+          `🚩 Answer reported in room ${target.roomCode}: "${reportedAnswer.slice(0, 200)}" by ${target.reportedName}`,
         );
 
         if (supabaseAdmin) {
@@ -3453,6 +3564,42 @@ io.on(
       } catch (error) {
         console.error("Error advancing round:", error);
         reply({ ok: false });
+      }
+    });
+
+    // draw: the secret word a player draws this round. Asked for by the app
+    // (also after a reconnect) rather than sent, so it never rides on the room.
+    socket.on("get-draw-word", async (data, ack) => {
+      const reply = typeof ack === "function" ? ack : () => {};
+      try {
+        const { roomCode, questionId, playerId } = data ?? ({} as typeof data);
+        if (typeof roomCode !== "string" || typeof questionId !== "string") {
+          return reply({ ok: false });
+        }
+        const room = await roomManager.getRoom(roomCode);
+        const round = room?.currentRound;
+        const info = round?.question.drawIt;
+        if (!room || !round || round.question.id !== questionId || info?.phase !== "draw") {
+          return reply({ ok: false });
+        }
+        const actorId = actingPlayerId(room, socket.id, playerId);
+        const seat = actorId ? room.players.findIndex((p) => p.id === actorId) : -1;
+        if (seat !== 0 && seat !== 1) return reply({ ok: false });
+        const word = await loadDrawWord(roomCode, questionId, seat as Seat);
+        reply(word ? { ok: true, word } : { ok: false });
+      } catch (error) {
+        console.error("Error loading draw word:", error);
+        reply({ ok: false });
+      }
+    });
+
+    socket.on("get-drawings", async (data, ack) => {
+      const reply = typeof ack === "function" ? ack : () => {};
+      try {
+        reply({ ok: true, drawings: await loadDrawings(data?.ids) });
+      } catch (error) {
+        console.error("Error loading drawings:", error);
+        reply({ ok: false, drawings: {} });
       }
     });
 

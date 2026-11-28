@@ -36,6 +36,7 @@ export function makeLocalPartner(
     supportsDailyAnalysis: host.supportsDailyAnalysis,
     supportsTwoTruths: host.supportsTwoTruths,
     supportsScale: host.supportsScale,
+    supportsDraw: host.supportsDraw,
     localOf: host.id,
     ...(manualAdvance && { manualAdvance: true }),
   };
@@ -70,6 +71,9 @@ const HANDOFF_SECONDS = 90;
  * phone was left lying around, and the room shouldn't stay open forever.
  */
 export const MANUAL_ADVANCE_FALLBACK_SECONDS = 5 * 60;
+
+/** A one-phone round with no clock (Draw It guessing) still ends eventually. */
+export const LOCAL_UNTIMED_FALLBACK_SECONDS = 10 * 60;
 
 /** On one phone the two players answer one after the other. */
 export const localRoundSeconds = (questionSeconds: number) =>
